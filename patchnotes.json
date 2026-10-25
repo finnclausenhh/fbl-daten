@@ -1,6 +1,18 @@
 {
-  "stand": "2026-10-25T21:30",
+  "stand": "2026-10-25T23:15",
   "eintraege": [
+    {
+      "version": "0.2",
+      "datum": "2026-10-25",
+      "titel": "WOSOINSIDER mit Inside",
+      "aenderungen": [
+        "Neuer Name WOSOINSIDER mit gestapeltem Logo und den Farben aus dem Lookbook",
+        "Neuer Reiter Inside: Wochenausgabe mit Formkurven, Standard-Wechseln, allen Schützinnen, Spielen mit Ansage und Belastungskalender",
+        "Top-Analyse erscheint als Vorschaukarte oben in den News",
+        "Vereinsfilter in Inside: Wappen antippen, um nur deine Vereine zu sehen",
+        "Impressum, Datenschutz, Kontakt und KI-Hinweis wie in der Webversion"
+      ]
+    },
     {
       "version": "0.1",
       "datum": "2026-10-25",

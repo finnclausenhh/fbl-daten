@@ -1,0 +1,302 @@
+{
+ "impressum": {
+  "titel": "Impressum",
+  "bloecke": [
+   {
+    "typ": "h2",
+    "text": "Angaben gemäß § 5 DDG"
+   },
+   {
+    "typ": "p",
+    "text": "Finn Clausen\nWOSOINSIDER\n[Straße und Hausnummer]\n83083 Riedering\nDeutschland"
+   },
+   {
+    "typ": "h2",
+    "text": "Kontakt"
+   },
+   {
+    "typ": "p",
+    "text": "E-Mail: [kontakt@wosoinsider.de](mailto:kontakt@wosoinsider.de) [Postfach noch nicht eingerichtet]\nTelefon: [Telefonnummer]"
+   },
+   {
+    "typ": "p",
+    "text": "Weitere Postfächer für Korrekturen, Datenschutz und Rechtefragen stehen unter Kontakt."
+   },
+   {
+    "typ": "h2",
+    "text": "Umsatzsteuer"
+   },
+   {
+    "typ": "p",
+    "text": "Umsatzsteuer-Identifikationsnummer gemäß § 27a UStG: [DE … (nur angeben, falls vorhanden)]"
+   },
+   {
+    "typ": "h2",
+    "text": "Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV"
+   },
+   {
+    "typ": "p",
+    "text": "Finn Clausen, Anschrift wie oben."
+   },
+   {
+    "typ": "h2",
+    "text": "Einsatz von KI"
+   },
+   {
+    "typ": "p",
+    "text": "Meldungen und mögliche Aufstellungen werden automatisiert mit einem KI-System erstellt und als solche gekennzeichnet. Die redaktionelle Verantwortung trägt Finn Clausen. Einzelheiten unter KI-Hinweis & Methodik."
+   },
+   {
+    "typ": "h2",
+    "text": "Unabhängigkeit"
+   },
+   {
+    "typ": "p",
+    "text": "WOSOINSIDER ist ein unabhängiges Angebot. Es besteht keine Verbindung zu Kickbase, zum DFB, zur Google Pixel Frauen-Bundesliga oder zu den Vereinen. Genannte Marken und Namen gehören ihren jeweiligen Inhabern."
+   },
+   {
+    "typ": "h2",
+    "text": "Bild- und Datennachweise"
+   },
+   {
+    "typ": "li",
+    "text": "Spielerinnenfotos: Wikimedia Commons unter freien Lizenzen (CC BY, CC BY-SA, CC0). Urheberin oder Urheber und Lizenz stehen im jeweiligen Artikel."
+   },
+   {
+    "typ": "li",
+    "text": "Vereinslogos: mit Genehmigung der jeweiligen Vereine."
+   },
+   {
+    "typ": "li",
+    "text": "Spielplan, Ergebnisse, Tore und offizielle Aufstellungen: Sportschau (ARD), verlinkt an der jeweiligen Partie."
+   },
+   {
+    "typ": "li",
+    "text": "Meldungen: zusammengefasst aus den im Artikel verlinkten Quellen."
+   },
+   {
+    "typ": "h2",
+    "text": "Haftung für Inhalte"
+   },
+   {
+    "typ": "p",
+    "text": "Die Inhalte werden mit Sorgfalt erstellt, aber automatisiert und ohne Prüfung jeder einzelnen Meldung vor der Veröffentlichung. Für Richtigkeit, Vollständigkeit und Aktualität, insbesondere von Prognosen, wird keine Gewähr übernommen. Nach §§ 8 bis 10 DDG sind wir nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen. Sobald uns eine Rechtsverletzung bekannt wird, entfernen wir den Inhalt umgehend."
+   },
+   {
+    "typ": "h2",
+    "text": "Haftung für Links"
+   },
+   {
+    "typ": "p",
+    "text": "Für die Inhalte verlinkter fremder Seiten sind ausschließlich deren Betreiber verantwortlich. Zum Zeitpunkt der Verlinkung waren keine Rechtsverstöße erkennbar. Bei Bekanntwerden entfernen wir solche Links umgehend."
+   },
+   {
+    "typ": "h2",
+    "text": "Verbraucherstreitbeilegung"
+   },
+   {
+    "typ": "p",
+    "text": "Wir sind nicht bereit und nicht verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen."
+   }
+  ]
+ },
+ "datenschutz": {
+  "titel": "Datenschutz",
+  "bloecke": [
+   {
+    "typ": "p",
+    "text": "Kurz gesagt: WOSOINSIDER braucht kein Konto, setzt keine Cookies, nutzt kein Tracking, keine Analyse und keine Werbung."
+   },
+   {
+    "typ": "h2",
+    "text": "1. Verantwortlicher"
+   },
+   {
+    "typ": "p",
+    "text": "Finn Clausen\nWOSOINSIDER\n[Straße und Hausnummer]\n83083 Riedering\nDeutschland"
+   },
+   {
+    "typ": "p",
+    "text": "E-Mail: [datenschutz@wosoinsider.de](mailto:datenschutz@wosoinsider.de)"
+   },
+   {
+    "typ": "h2",
+    "text": "2. Hosting und Server-Logfiles"
+   },
+   {
+    "typ": "p",
+    "text": "Die Webversion wird über claude.ai von Anthropic bereitgestellt. Beim Aufruf verarbeitet der Hoster technisch notwendige Daten: IP-Adresse, Datum und Uhrzeit, aufgerufene Datei, Browser und Betriebssystem. Das dient der sicheren und stabilen Auslieferung (Art. 6 Abs. 1 lit. f DSGVO). Anthropic kann Daten auch in den USA verarbeiten. Grundlage der Übermittlung: [Angabe nach den Datenschutzunterlagen von Anthropic prüfen]. Wir selbst erhalten keine Logfiles."
+   },
+   {
+    "typ": "h2",
+    "text": "3. Schriftarten"
+   },
+   {
+    "typ": "p",
+    "text": "Die Schriften werden lokal mit der Seite ausgeliefert. Es besteht keine Verbindung zu Google oder anderen Schriftanbietern."
+   },
+   {
+    "typ": "h2",
+    "text": "4. Cookies und lokale Speicherung"
+   },
+   {
+    "typ": "p",
+    "text": "Es werden keine Cookies gesetzt. Wählen Sie in Inside Ihre Vereine aus, speichert der Browser diese Auswahl lokal auf Ihrem Gerät (localStorage). Sie wird nicht an uns übertragen und lässt sich über „Alle zeigen“ oder die Browserdaten löschen."
+   },
+   {
+    "typ": "h2",
+    "text": "5. Kontakt per E-Mail"
+   },
+   {
+    "typ": "p",
+    "text": "Wenn Sie uns schreiben, verarbeiten wir Ihre E-Mail-Adresse und Ihre Nachricht, um die Anfrage zu bearbeiten (Art. 6 Abs. 1 lit. b oder f DSGVO). Hinweise an die Redaktion nutzen wir für die Berichterstattung, Ihr Name wird ohne Ihre Zustimmung nicht veröffentlicht. Die Daten werden gelöscht, sobald die Anfrage erledigt ist und keine Aufbewahrungspflicht besteht."
+   },
+   {
+    "typ": "h2",
+    "text": "6. Links zu anderen Seiten"
+   },
+   {
+    "typ": "p",
+    "text": "Quellen und die Sportschau sind verlinkt. Daten werden erst übertragen, wenn Sie einen Link antippen. Dann gilt die Datenschutzerklärung der jeweiligen Seite."
+   },
+   {
+    "typ": "h2",
+    "text": "7. Berichterstattung über Spielerinnen"
+   },
+   {
+    "typ": "p",
+    "text": "Meldungen nennen Spielerinnen, Trainerinnen und Trainer im Rahmen der Sportberichterstattung (journalistische Zwecke, Art. 85 DSGVO in Verbindung mit § 23 MStV). Gesundheitsangaben übernehmen wir nur so weit, wie Verein oder Medien sie veröffentlicht haben. Betroffene können sich jederzeit an [redaktion@wosoinsider.de](mailto:redaktion@wosoinsider.de) wenden."
+   },
+   {
+    "typ": "h2",
+    "text": "8. Ihre Rechte"
+   },
+   {
+    "typ": "p",
+    "text": "Sie haben das Recht auf Auskunft (Art. 15), Berichtigung (Art. 16), Löschung (Art. 17), Einschränkung der Verarbeitung (Art. 18), Datenübertragbarkeit (Art. 20) und Widerspruch gegen Verarbeitungen auf Grundlage berechtigter Interessen (Art. 21 DSGVO)."
+   },
+   {
+    "typ": "h2",
+    "text": "9. Beschwerderecht"
+   },
+   {
+    "typ": "p",
+    "text": "Sie können sich bei einer Datenschutz-Aufsichtsbehörde beschweren. Zuständig für uns ist das Bayerische Landesamt für Datenschutzaufsicht (BayLDA), Promenade 18, 91522 Ansbach."
+   },
+   {
+    "typ": "p",
+    "text": "Stand: Oktober 2026. Für die App-Version wird diese Erklärung um Hosting, Push-Mitteilungen und App Store ergänzt."
+   }
+  ]
+ },
+ "kontakt": {
+  "titel": "Kontakt",
+  "bloecke": [
+   {
+    "typ": "p",
+    "text": "Für jedes Anliegen gibt es ein eigenes Postfach, damit nichts liegen bleibt."
+   },
+   {
+    "typ": "p",
+    "text": "[Vorbereitet] Domain und Postfächer sind noch nicht eingerichtet. Bis dahin sind die Adressen nicht erreichbar."
+   },
+   {
+    "typ": "p",
+    "text": "**Allgemeiner Kontakt** Fragen zu WOSOINSIDER und alles, was in keine andere Schublade passt. \nkontakt@wosoinsider.de"
+   },
+   {
+    "typ": "p",
+    "text": "**Redaktionelle Hinweise und Korrekturen** Fehler in einer Meldung oder Aufstellung, neue Informationen zu Verletzungen, Sperren oder Rückkehr. Bitte mit Link zur Quelle. \nredaktion@wosoinsider.de"
+   },
+   {
+    "typ": "p",
+    "text": "**Anregungen und Feedback** Wünsche für neue Funktionen, Kategorien oder Vereine. \nanregungen@wosoinsider.de"
+   },
+   {
+    "typ": "p",
+    "text": "**Datenschutz** Auskunft, Berichtigung oder Löschung personenbezogener Daten. \ndatenschutz@wosoinsider.de"
+   },
+   {
+    "typ": "p",
+    "text": "**Bild- und Markenrechte** Rechteinhaber, die eine Nutzung prüfen oder eine Entfernung verlangen möchten. \nrechte@wosoinsider.de"
+   },
+   {
+    "typ": "p",
+    "text": "Postanschrift und Telefon stehen im Impressum."
+   }
+  ]
+ },
+ "so-entsteht": {
+  "titel": "KI-Hinweis & Methodik",
+  "bloecke": [
+   {
+    "typ": "p",
+    "text": "WOSOINSIDER wird mit künstlicher Intelligenz erstellt. Wir kennzeichnen das offen, wie es Art. 50 Abs. 4 der europäischen KI-Verordnung für KI-erzeugte Texte von öffentlichem Interesse vorsieht."
+   },
+   {
+    "typ": "h2",
+    "text": "So entsteht eine Meldung"
+   },
+   {
+    "typ": "li",
+    "text": "Mehrmals täglich, an Spieltagen stündlich, sammelt ein Skript öffentlich zugängliche Meldungen: Vereinsseiten, DFB, Sportschau und regionale Medien."
+   },
+   {
+    "typ": "li",
+    "text": "Ein KI-System (Claude von Anthropic) sortiert Irrelevantes aus und fasst die Meldungen in eigenen Worten zusammen. Jede Meldung nennt und verlinkt ihre Quelle."
+   },
+   {
+    "typ": "li",
+    "text": "Die Meldungen werden vor der Veröffentlichung nicht einzeln von einem Menschen geprüft. Die redaktionelle Verantwortung trägt Finn Clausen."
+   },
+   {
+    "typ": "h2",
+    "text": "Regeln für die KI"
+   },
+   {
+    "typ": "li",
+    "text": "Nichts erfinden: Jede Meldung stützt sich auf eine Quelle, Unbestätigtes wird als unbestätigt gekennzeichnet."
+   },
+   {
+    "typ": "li",
+    "text": "Medizinische Details nur, soweit Verein oder Medien sie veröffentlicht haben."
+   },
+   {
+    "typ": "li",
+    "text": "Wörtliche Zitate höchstens 15 Wörter, sonst eigene Formulierungen."
+   },
+   {
+    "typ": "h2",
+    "text": "Mögliche Aufstellungen"
+   },
+   {
+    "typ": "p",
+    "text": "Die Prognosen sind eine Einschätzung von WOSOINSIDER, keine Quelle behauptet sie. Grundlage sind die Einsätze der letzten fünf Ligaspiele (das jüngste zählt am meisten), gemeldete Verletzungen und Sperren sowie redaktionelle Einschätzungen mit Begründung. Die Begründung erscheint beim Antippen einer Spielerin. Sobald die offizielle Aufstellung vorliegt, ersetzt sie die Prognose."
+   },
+   {
+    "typ": "h2",
+    "text": "Inside"
+   },
+   {
+    "typ": "p",
+    "text": "Der Reiter Inside erscheint einmal pro Woche. Ein Skript wertet Statistiken, Aufstellungen und Liveticker aller Ligaspiele aus (Sportschau), dazu Termine von DFB und UEFA. Daraus entstehen Formkurven, Rotationsmuster, Standard-Übersichten und Fakten zu den nächsten Spielen. Texte und Einschätzungen schreibt die KI auf dieser Grundlage. Alles, was Bewertung ist, steht unter „Unsere Einschätzung“. Standardschützinnen leiten wir aus Spielberichten ab, die Sicherheit zeigt die Schriftstärke."
+   },
+   {
+    "typ": "h2",
+    "text": "Kickbase-Einordnung"
+   },
+   {
+    "typ": "p",
+    "text": "Die Einordnung „Für Kickbase“ ist eine Meinung und keine Empfehlung mit Erfolgsgarantie."
+   },
+   {
+    "typ": "h2",
+    "text": "Fehler gefunden?"
+   },
+   {
+    "typ": "p",
+    "text": "Hinweise bitte an [redaktion@wosoinsider.de](mailto:redaktion@wosoinsider.de). Korrekturen werden in der Meldung mit dem Tag UPDATE nachgetragen."
+   }
+  ]
+ }
+}
