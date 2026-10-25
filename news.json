@@ -1,0 +1,2659 @@
+{
+ "stand": "2026-10-25T21:00",
+ "meldungen": [
+  {
+   "id": "stoldt-2510",
+   "zeit": "2026-10-25T20:31",
+   "spielerin": "Svea Stoldt",
+   "verein": "Hamburger SV",
+   "nr": "8",
+   "pos": "MF",
+   "tags": [
+    "TOP",
+    "UPDATE"
+   ],
+   "status": "fit",
+   "headline": "Stoldt trifft dreifach, HSV und Union trennen sich 4:4",
+   "text": [
+    "Der Hamburger SV und Union Berlin haben sich am achten Spieltag 4:4 getrennt. Svea Stoldt erzielte für den HSV drei Treffer (10., 49., 72. Minute), ein weiteres Tor steuerte Camilla Linberg bei.",
+    "Hamburg führte mehrfach, zuletzt mit 4:3. Dina Orschmann glich in der 85. Minute per Kopf aus, nachdem HSV-Torhüterin Kinga Szemik aus dem Tor geeilt war. Für Union trafen außerdem Lia Kamber, Nele Bauereisen und Jill Janssens."
+   ],
+   "kickbase": "Stoldt liefert mit dem Dreierpack ein Top-Spiel und ist ein Kauf-Kandidat. Bei Szemik bleibt der Patzer vor dem Ausgleich im Hinterkopf, Orschmann und Janssens bei Union sind ebenfalls punktebringend.",
+   "quellen": [
+    {
+     "name": "Tagesspiegel (dpa)",
+     "url": "https://www.tagesspiegel.de/berlin/dpa-fussball-bundesliga-nach-wildem-spiel-union-frauen-spielen-44-beim-hsv-16200731.html"
+    },
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/regional/ndr/Bundesliga-Frauen-HSV-Union-Berlin-Spielbericht,hsv-frauen-370.html"
+    }
+   ],
+   "pid": "00167"
+  },
+  {
+   "id": "proniez-2510",
+   "zeit": "2026-10-25T19:11",
+   "spielerin": "Fany Proniez",
+   "verein": "1. FC Nürnberg",
+   "nr": "3",
+   "pos": "MF",
+   "tags": [
+    "UPDATE"
+   ],
+   "status": "fit",
+   "headline": "Proniez trifft doppelt, Nürnberg schlägt Leverkusen 2:0",
+   "text": [
+    "Der 1. FC Nürnberg hat am achten Spieltag gegen Bayer Leverkusen 2:0 gewonnen und damit den ersten Saisonsieg eingefahren. Fany Proniez erzielte beide Treffer, laut Kicker jeweils nach Kontern.",
+    "Für Leverkusen war es die erste Auswärtsniederlage der Saison."
+   ],
+   "kickbase": "Proniez liefert mit ihrem Doppelpack ein starkes Spiel und ist nach der Partie ein Kauf-Kandidat. Bei Leverkusen gibt es wenig Punkte für die Offensive.",
+   "quellen": [
+    {
+     "name": "Kicker",
+     "url": "https://www.kicker.de/nuernberg-gegen-leverkusen-2026-frauen-bundesliga-5243485/spielbericht"
+    },
+    {
+     "name": "Bayer 04 Leverkusen",
+     "url": "https://www.bayer04.de/de-de/team/frauen/frauen"
+    }
+   ],
+   "pid": "00317"
+  },
+  {
+   "id": "aufstellung-hsv-2510",
+   "zeit": "2026-10-25T17:36",
+   "spielerin": "Spielansetzung",
+   "verein": "Hamburger SV",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "TOP"
+   ],
+   "headline": "Offizielle Aufstellung: Hamburger SV gegen Union Berlin",
+   "text": [],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306250/hamburger-sv_1-fc-union-berlin/aufstellung"
+    }
+   ],
+   "aufstellung": {
+    "gegner": "Union Berlin",
+    "startelf": [
+     {
+      "n": "Szemik",
+      "p": "TW"
+     },
+     {
+      "n": "Mirzaliyeva",
+      "p": "ABW",
+      "f": "neu"
+     },
+     {
+      "n": "Stoldt",
+      "p": "MF"
+     },
+     {
+      "n": "Böhler",
+      "p": "ABW"
+     },
+     {
+      "n": "Dönges",
+      "p": "ABW"
+     },
+     {
+      "n": "Machtens",
+      "p": "MF"
+     },
+     {
+      "n": "Bartz",
+      "p": "MF"
+     },
+     {
+      "n": "Linberg",
+      "p": "ST"
+     },
+     {
+      "n": "Eggert",
+      "p": "MF",
+      "f": "neu"
+     },
+     {
+      "n": "Brunnthaler",
+      "p": "ST"
+     },
+     {
+      "n": "Morich",
+      "p": "MF"
+     }
+    ],
+    "bank": [
+     {
+      "n": "Baum",
+      "p": "TW"
+     },
+     {
+      "n": "Matysik",
+      "p": "ABW",
+      "f": "neu"
+     },
+     {
+      "n": "Räcke",
+      "p": "ABW"
+     },
+     {
+      "n": "Wrede",
+      "p": "MF",
+      "f": "raus"
+     },
+     {
+      "n": "Schwalm",
+      "p": "ST",
+      "f": "neu"
+     }
+    ],
+    "fehlt": [
+     {
+      "n": "Doucouré",
+      "p": "ABW",
+      "f": "raus"
+     },
+     {
+      "n": "Karczewska",
+      "p": "ST",
+      "f": "raus"
+     },
+     {
+      "n": "Obispo",
+      "p": "ABW",
+      "f": "raus"
+     },
+     {
+      "n": "Engel",
+      "p": "TW"
+     },
+     {
+      "n": "Haidner",
+      "p": "TW"
+     },
+     {
+      "n": "Paulick",
+      "p": "TW"
+     },
+     {
+      "n": "Sieger",
+      "p": "TW"
+     },
+     {
+      "n": "Martens",
+      "p": "ABW"
+     },
+     {
+      "n": "Burmann",
+      "p": "MF"
+     },
+     {
+      "n": "Peneau",
+      "p": "MF"
+     },
+     {
+      "n": "Schulz",
+      "p": "MF"
+     },
+     {
+      "n": "Hillebrand",
+      "p": "ST"
+     },
+     {
+      "n": "Krüger",
+      "p": "ST"
+     },
+     {
+      "n": "Švíbková",
+      "p": "ST"
+     }
+    ]
+   }
+  },
+  {
+   "id": "aufstellung-fcu-2510",
+   "zeit": "2026-10-25T17:36",
+   "spielerin": "Spielansetzung",
+   "verein": "Union Berlin",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "TOP"
+   ],
+   "headline": "Offizielle Aufstellung: Union Berlin gegen Hamburger SV",
+   "text": [],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306250/hamburger-sv_1-fc-union-berlin/aufstellung"
+    }
+   ],
+   "aufstellung": {
+    "gegner": "Hamburger SV",
+    "startelf": [
+     {
+      "n": "Böhi",
+      "p": "TW"
+     },
+     {
+      "n": "Schneider",
+      "p": "ABW"
+     },
+     {
+      "n": "Tysiak",
+      "p": "ABW"
+     },
+     {
+      "n": "Steuerwald",
+      "p": "ABW"
+     },
+     {
+      "n": "Judit Pujols",
+      "p": "ABW"
+     },
+     {
+      "n": "Hausicke",
+      "p": "MF"
+     },
+     {
+      "n": "Kamber",
+      "p": "MF"
+     },
+     {
+      "n": "Janssens",
+      "p": "ABW"
+     },
+     {
+      "n": "Reissner",
+      "p": "ST"
+     },
+     {
+      "n": "Bauereisen",
+      "p": "ST"
+     },
+     {
+      "n": "Weidauer",
+      "p": "ST",
+      "f": "neu"
+     }
+    ],
+    "bank": [
+     {
+      "n": "Schulz",
+      "p": "TW"
+     },
+     {
+      "n": "Veit",
+      "p": "ABW"
+     },
+     {
+      "n": "Steinert",
+      "p": "ABW"
+     },
+     {
+      "n": "Weiß",
+      "p": "ABW"
+     },
+     {
+      "n": "Gräwe",
+      "p": "MF"
+     },
+     {
+      "n": "Pawollek",
+      "p": "MF",
+      "f": "neu"
+     },
+     {
+      "n": "Egli",
+      "p": "ST"
+     },
+     {
+      "n": "Campbell",
+      "p": "ST",
+      "f": "raus"
+     },
+     {
+      "n": "Orschmann",
+      "p": "ST"
+     }
+    ],
+    "fehlt": [
+     {
+      "n": "Seifert",
+      "p": "MF",
+      "f": "raus"
+     },
+     {
+      "n": "Bösl",
+      "p": "TW"
+     },
+     {
+      "n": "Smolarczyk",
+      "p": "TW"
+     },
+     {
+      "n": "Aehling",
+      "p": "ABW"
+     },
+     {
+      "n": "Heikkinen",
+      "p": "ABW"
+     },
+     {
+      "n": "Noack",
+      "p": "ABW"
+     },
+     {
+      "n": "Heiseler",
+      "p": "MF"
+     },
+     {
+      "n": "Janež",
+      "p": "MF"
+     },
+     {
+      "n": "Laidler",
+      "p": "MF"
+     },
+     {
+      "n": "Nkili",
+      "p": "ST"
+     },
+     {
+      "n": "Eurlings",
+      "p": "ST"
+     }
+    ]
+   }
+  },
+  {
+   "id": "gutmann-2510",
+   "zeit": "2026-10-25T16:59",
+   "spielerin": "Sarah Gutmann",
+   "verein": "Werder Bremen",
+   "nr": "",
+   "pos": "ABW",
+   "tags": [
+    "UPDATE"
+   ],
+   "status": "fit",
+   "headline": "Gutmann trifft doppelt, Werder schlägt Freiburg 4:3",
+   "text": [
+    "Werder Bremen hat am achten Spieltag den SC Freiburg mit 4:3 besiegt. Lilli Purtscheller brachte die Gastgeberinnen in der 12. Minute in Führung, Sarah Gutmann erhöhte nach einer halben Stunde auf 2:0 und Isabella Jaron machte nach Purtschellers Flanke in der 35. Minute das 3:0.",
+    "Freiburg kam nach der Pause durch Selina Vobian auf 1:3 heran. Gutmann stellte in der 85. Minute per Kopf auf 4:1, danach verkürzte Freiburg in der Nachspielzeit mit einem Doppelschlag noch auf 4:3."
+   ],
+   "kickbase": "Gutmann (Doppelpack) und Purtscheller (Tor und Vorlage) liefern Punkte, auch Jaron trifft. Bei Freiburg ist Vobian mit Tor interessant.",
+   "quellen": [
+    {
+     "name": "LAOLA1",
+     "url": "https://www.laola1.at/de/red/fussball/frauen-fussball/gutmann-und-purtscheller-glaenzen-bei-werder-sieg/"
+    }
+   ],
+   "pid": "00035"
+  },
+  {
+   "id": "aufstellung-fcn-2510",
+   "zeit": "2026-10-25T16:35",
+   "spielerin": "Spielansetzung",
+   "verein": "1. FC Nürnberg",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "TOP"
+   ],
+   "headline": "Offizielle Aufstellung: 1. FC Nürnberg gegen Bayer Leverkusen",
+   "text": [],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306262/1-fc-nuernberg_bayer-leverkusen/aufstellung"
+    }
+   ],
+   "aufstellung": {
+    "gegner": "Bayer Leverkusen",
+    "startelf": [
+     {
+      "n": "Romero",
+      "p": "TW"
+     },
+     {
+      "n": "Bleil",
+      "p": "ST"
+     },
+     {
+      "n": "Lobanova",
+      "p": "ABW"
+     },
+     {
+      "n": "Varley",
+      "p": "ABW"
+     },
+     {
+      "n": "Homann",
+      "p": "MF"
+     },
+     {
+      "n": "Proniez",
+      "p": "MF",
+      "f": "neu"
+     },
+     {
+      "n": "Miller",
+      "p": "MF"
+     },
+     {
+      "n": "Lein",
+      "p": "ST"
+     },
+     {
+      "n": "Meroni",
+      "p": "ST"
+     },
+     {
+      "n": "Pápai",
+      "p": "ST"
+     },
+     {
+      "n": "Lapassouse",
+      "p": "ST"
+     }
+    ],
+    "bank": [
+     {
+      "n": "Adamczyk",
+      "p": "TW"
+     },
+     {
+      "n": "Pollak",
+      "p": "ABW"
+     },
+     {
+      "n": "Fröhlich",
+      "p": "ABW"
+     },
+     {
+      "n": "Bednorz",
+      "p": "ABW"
+     },
+     {
+      "n": "Barboz",
+      "p": "ABW"
+     },
+     {
+      "n": "Brengel",
+      "p": "MF",
+      "f": "raus"
+     },
+     {
+      "n": "Coutel",
+      "p": "MF"
+     },
+     {
+      "n": "Ličina",
+      "p": "MF"
+     },
+     {
+      "n": "Mai",
+      "p": "MF",
+      "f": "neu"
+     }
+    ],
+    "fehlt": [
+     {
+      "n": "Seguin",
+      "p": "MF",
+      "f": "raus"
+     },
+     {
+      "n": "Richter",
+      "p": "TW"
+     },
+     {
+      "n": "Tölzel",
+      "p": "TW"
+     },
+     {
+      "n": "Lindner",
+      "p": "ABW"
+     },
+     {
+      "n": "Thöle",
+      "p": "ABW"
+     },
+     {
+      "n": "Büttner",
+      "p": "MF"
+     },
+     {
+      "n": "Deuber",
+      "p": "MF"
+     },
+     {
+      "n": "Grzywińska",
+      "p": "MF"
+     },
+     {
+      "n": "Wedler",
+      "p": "MF"
+     },
+     {
+      "n": "Baumgärtel",
+      "p": "ST"
+     },
+     {
+      "n": "Turi",
+      "p": "ST"
+     }
+    ]
+   }
+  },
+  {
+   "id": "aufstellung-b04-2510",
+   "zeit": "2026-10-25T16:35",
+   "spielerin": "Spielansetzung",
+   "verein": "Bayer Leverkusen",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "TOP"
+   ],
+   "headline": "Offizielle Aufstellung: Bayer Leverkusen gegen 1. FC Nürnberg",
+   "text": [],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306262/1-fc-nuernberg_bayer-leverkusen/aufstellung"
+    }
+   ],
+   "aufstellung": {
+    "gegner": "1. FC Nürnberg",
+    "startelf": [
+     {
+      "n": "Borggräfe",
+      "p": "TW"
+     },
+     {
+      "n": "Merino",
+      "p": "ABW"
+     },
+     {
+      "n": "Turányi",
+      "p": "ABW"
+     },
+     {
+      "n": "Ostermeier",
+      "p": "ABW"
+     },
+     {
+      "n": "Simon",
+      "p": "ABW"
+     },
+     {
+      "n": "Wenger",
+      "p": "ABW"
+     },
+     {
+      "n": "Müller",
+      "p": "MF"
+     },
+     {
+      "n": "Bender",
+      "p": "ST"
+     },
+     {
+      "n": "Fudalla",
+      "p": "ST",
+      "f": "neu"
+     },
+     {
+      "n": "Kramer",
+      "p": "ST"
+     },
+     {
+      "n": "Sternad",
+      "p": "ST"
+     }
+    ],
+    "bank": [
+     {
+      "n": "Remien",
+      "p": "TW",
+      "f": "neu"
+     },
+     {
+      "n": "Wallrabenstein",
+      "p": "ABW"
+     },
+     {
+      "n": "Brandau",
+      "p": "ABW"
+     },
+     {
+      "n": "Platner",
+      "p": "MF",
+      "f": "raus"
+     },
+     {
+      "n": "Misini",
+      "p": "MF"
+     },
+     {
+      "n": "Mädl",
+      "p": "ST"
+     },
+     {
+      "n": "Kehrer",
+      "p": "ST"
+     },
+     {
+      "n": "Loonen",
+      "p": "ST"
+     }
+    ],
+    "fehlt": [
+     {
+      "n": "Lindner",
+      "p": "ST",
+      "f": "raus"
+     },
+     {
+      "n": "Voll",
+      "p": "TW",
+      "f": "raus"
+     },
+     {
+      "n": "Coşkun",
+      "p": "ABW"
+     },
+     {
+      "n": "Eltgen",
+      "p": "ABW"
+     },
+     {
+      "n": "Friedrich",
+      "p": "ABW"
+     },
+     {
+      "n": "Kowalski",
+      "p": "MF"
+     },
+     {
+      "n": "Wrigge",
+      "p": "MF"
+     },
+     {
+      "n": "Zdebel",
+      "p": "MF"
+     },
+     {
+      "n": "Sinani",
+      "p": "ST"
+     },
+     {
+      "n": "Tomasiak",
+      "p": "ST"
+     }
+    ]
+   }
+  },
+  {
+   "id": "wichmann-2510",
+   "zeit": "2026-10-25T15:48",
+   "spielerin": "Reena Wichmann",
+   "verein": "VfB Stuttgart",
+   "nr": "",
+   "pos": "MF",
+   "tags": [
+    "VERLETZUNG",
+    "TOP"
+   ],
+   "status": "verletzt",
+   "headline": "Wichmann fällt mit Meniskusverletzung monatelang aus",
+   "text": [
+    "Die Stuttgarter Mittelfeldspielerin Reena Wichmann hat sich eine Meniskusverletzung im Knie zugezogen. Nach anhaltenden Knieschmerzen bestätigten Untersuchungen den Befund, die Operation ist laut Verein bereits erfolgreich verlaufen.",
+    "Der VfB rechnet damit, dass Wichmann in den nächsten Monaten fehlt. Die 28-Jährige kam im Winter von Werder Bremen und erzielte in 16 Pflichtspielen für Stuttgart zwei Tore."
+   ],
+   "kickbase": "Wichmann ist für längere Zeit kein Kandidat für die Startelf. Wer sie im Team hat, sollte einen Ersatz einplanen.",
+   "quellen": [
+    {
+     "name": "VfB Stuttgart",
+     "url": "https://www.vfb.de/de/vfb/aktuell/neues/vfb-frauen/26-27/reena-wichmann-faellt-aus/"
+    }
+   ],
+   "foto": "fotos/reena-wichmann.jpg",
+   "foto_credit": {
+    "autor": "El Loko",
+    "lizenz": "CC BY 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Reena_Wichmann_20181117.jpg"
+   },
+   "ausfall": "mehrere Monate",
+   "pid": "00348"
+  },
+  {
+   "id": "grimm-2510",
+   "zeit": "2026-10-25T16:31",
+   "spielerin": "Janna Grimm",
+   "verein": "TSG Hoffenheim",
+   "nr": "",
+   "pos": "MF",
+   "tags": [
+    "UPDATE"
+   ],
+   "status": "fit",
+   "headline": "Grimm trifft doppelt, Hoffenheim schlägt Mainz 3:1",
+   "text": [
+    "Die TSG Hoffenheim hat am achten Spieltag Mainz 05 mit 3:1 besiegt. Janna Grimm traf kurz vor der Pause zum 1:1 und in der Nachspielzeit zum Endstand, dazwischen erzielte Nadine Bitzer in der 84. Minute das 2:1.",
+    "Mainz war durch einen Distanzschuss von Vital Kats früh in Führung gegangen und spielte laut Bericht auswärts gut, blieb aber als Tabellenletzter weiter ohne Punkt."
+   ],
+   "kickbase": "Grimm und Bitzer liefern Punkte, Kats trifft trotz der Niederlage. Alle drei sind für die Aufstellung interessant.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/regional/swr/swr-hoffenheim-siegt-dank-spaeter-treffer-gegen-den-1-fsv-mainz-05-100.html"
+    }
+   ],
+   "pid": "00132"
+  },
+  {
+   "id": "aufstellung-svw-2510",
+   "zeit": "2026-10-25T14:36",
+   "spielerin": "Spielansetzung",
+   "verein": "Werder Bremen",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "TOP"
+   ],
+   "headline": "Offizielle Aufstellung: Werder Bremen gegen SC Freiburg",
+   "text": [],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306247/werder-bremen_sc-freiburg/aufstellung"
+    }
+   ],
+   "aufstellung": {
+    "gegner": "SC Freiburg",
+    "startelf": [
+     {
+      "n": "Fischer",
+      "p": "TW"
+     },
+     {
+      "n": "Weiß",
+      "p": "ABW"
+     },
+     {
+      "n": "Ulbrich",
+      "p": "ABW"
+     },
+     {
+      "n": "Gutmann",
+      "p": "ABW"
+     },
+     {
+      "n": "Zieniewicz",
+      "p": "ABW"
+     },
+     {
+      "n": "Hipp",
+      "p": "MF"
+     },
+     {
+      "n": "Wirtz",
+      "p": "MF"
+     },
+     {
+      "n": "Purtscheller",
+      "p": "MF",
+      "f": "neu"
+     },
+     {
+      "n": "Vanzeir",
+      "p": "ST"
+     },
+     {
+      "n": "Jaron",
+      "p": "ST"
+     },
+     {
+      "n": "Dešić",
+      "p": "ST",
+      "f": "neu"
+     }
+    ],
+    "bank": [
+     {
+      "n": "Farwick",
+      "p": "TW"
+     },
+     {
+      "n": "Sträßer",
+      "p": "ABW"
+     },
+     {
+      "n": "Penner",
+      "p": "ABW",
+      "f": "neu"
+     },
+     {
+      "n": "Mühlemann",
+      "p": "MF"
+     },
+     {
+      "n": "Gmeineder",
+      "p": "MF"
+     },
+     {
+      "n": "Mahmoud",
+      "p": "ST"
+     },
+     {
+      "n": "Dhont",
+      "p": "ST",
+      "f": "raus"
+     },
+     {
+      "n": "Shimada",
+      "p": "ST",
+      "f": "raus"
+     }
+    ],
+    "fehlt": [
+     {
+      "n": "Ernst",
+      "p": "MF",
+      "f": "raus"
+     },
+     {
+      "n": "Magerl",
+      "p": "ABW",
+      "f": "raus"
+     }
+    ]
+   }
+  },
+  {
+   "id": "gmeineder-2510",
+   "zeit": "2026-10-25T14:36",
+   "spielerin": "Marie Gmeineder",
+   "verein": "Werder Bremen",
+   "nr": "6",
+   "pos": "MF",
+   "tags": [
+    "RÜCKKEHR"
+   ],
+   "status": "fit",
+   "headline": "Gmeineder steht im Bremer Kader gegen Freiburg",
+   "text": [
+    "Marie Gmeineder gehört beim Spiel gegen den SC Freiburg zum Bremer Spieltagskader und sitzt auf der Bank. Zuletzt war sie unter den erkrankten Werder-Spielerinnen genannt worden.",
+    "Die Aufstellung stammt aus den offiziellen Angaben vor dem Anpfiff. Ob sie fit genug für einen Einsatz ist, zeigt sich erst im Spiel."
+   ],
+   "kickbase": "Als Einwechsel-Option wieder dabei, für die Startelf eher noch kein Kandidat. Im Zweifel erst die Einsatzminuten abwarten.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306247/werder-bremen_sc-freiburg/aufstellung"
+    }
+   ],
+   "pid": "00044"
+  },
+  {
+   "id": "aufstellung-tsg-2510",
+   "zeit": "2026-10-25T13:36",
+   "spielerin": "Spielansetzung",
+   "verein": "TSG Hoffenheim",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "TOP"
+   ],
+   "headline": "Offizielle Aufstellung: TSG Hoffenheim gegen Mainz 05",
+   "text": [],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306253/tsg-hoffenheim_1-fsv-mainz-05/aufstellung"
+    }
+   ],
+   "aufstellung": {
+    "gegner": "Mainz 05",
+    "startelf": [
+     {
+      "n": "Dick",
+      "p": "TW"
+     },
+     {
+      "n": "Gloning",
+      "p": "MF"
+     },
+     {
+      "n": "Doorn",
+      "p": "ABW"
+     },
+     {
+      "n": "Vöhringer",
+      "p": "MF",
+      "f": "neu"
+     },
+     {
+      "n": "Kaut",
+      "p": "ABW"
+     },
+     {
+      "n": "Steiner",
+      "p": "ST"
+     },
+     {
+      "n": "Diehm",
+      "p": "ABW"
+     },
+     {
+      "n": "Grimm",
+      "p": "MF"
+     },
+     {
+      "n": "Laia Martret",
+      "p": "ST"
+     },
+     {
+      "n": "Fölmli",
+      "p": "ST"
+     },
+     {
+      "n": "Natter",
+      "p": "ST",
+      "f": "neu"
+     }
+    ],
+    "bank": [
+     {
+      "n": "Lichtfus",
+      "p": "TW"
+     },
+     {
+      "n": "Bitzer",
+      "p": "ABW"
+     },
+     {
+      "n": "van de Velde",
+      "p": "ABW",
+      "f": "raus"
+     },
+     {
+      "n": "Douma",
+      "p": "ABW",
+      "f": "neu"
+     },
+     {
+      "n": "Röder",
+      "p": "MF"
+     },
+     {
+      "n": "Hahn",
+      "p": "MF",
+      "f": "raus"
+     },
+     {
+      "n": "Fenger",
+      "p": "ST"
+     },
+     {
+      "n": "Lueger",
+      "p": "ST",
+      "f": "neu"
+     }
+    ],
+    "fehlt": [
+     {
+      "n": "Kemper",
+      "p": "MF",
+      "f": "raus"
+     },
+     {
+      "n": "Thomann",
+      "p": "MF",
+      "f": "raus"
+     }
+    ]
+   }
+  },
+  {
+   "id": "aufstellung-m05-2510",
+   "zeit": "2026-10-25T13:36",
+   "spielerin": "Spielansetzung",
+   "verein": "Mainz 05",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "TOP"
+   ],
+   "headline": "Offizielle Aufstellung: Mainz 05 gegen TSG Hoffenheim",
+   "text": [],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306253/tsg-hoffenheim_1-fsv-mainz-05/aufstellung"
+    }
+   ],
+   "aufstellung": {
+    "gegner": "TSG Hoffenheim",
+    "startelf": [
+     {
+      "n": "Schön",
+      "p": "TW"
+     },
+     {
+      "n": "Bathmann",
+      "p": "MF"
+     },
+     {
+      "n": "Georgieva",
+      "p": "ABW"
+     },
+     {
+      "n": "Berg",
+      "p": "MF"
+     },
+     {
+      "n": "Pageler",
+      "p": "ST"
+     },
+     {
+      "n": "Imai",
+      "p": "MF"
+     },
+     {
+      "n": "Stöhr",
+      "p": "ST",
+      "f": "neu"
+     },
+     {
+      "n": "Kurishima",
+      "p": "MF"
+     },
+     {
+      "n": "Anstatt",
+      "p": "ST",
+      "f": "neu"
+     },
+     {
+      "n": "Fetaj",
+      "p": "MF"
+     },
+     {
+      "n": "Kats",
+      "p": "ST"
+     }
+    ],
+    "bank": [
+     {
+      "n": "Pawlowski",
+      "p": "TW",
+      "f": "neu"
+     },
+     {
+      "n": "Flach",
+      "p": "ABW"
+     },
+     {
+      "n": "Hashitani",
+      "p": "ABW"
+     },
+     {
+      "n": "Junold",
+      "p": "MF",
+      "f": "neu"
+     },
+     {
+      "n": "Bouziane",
+      "p": "MF"
+     },
+     {
+      "n": "Takizawa",
+      "p": "MF",
+      "f": "raus"
+     },
+     {
+      "n": "Martin",
+      "p": "MF"
+     },
+     {
+      "n": "Strickler",
+      "p": "ST",
+      "f": "raus"
+     }
+    ],
+    "fehlt": [
+     {
+      "n": "Gonzalez",
+      "p": "TW",
+      "f": "raus"
+     },
+     {
+      "n": "Hauk",
+      "p": "ABW",
+      "f": "raus"
+     }
+    ]
+   }
+  },
+  {
+   "id": "muehlhaus-2410",
+   "zeit": "2026-10-24T16:21",
+   "spielerin": "Larissa Mühlhaus",
+   "verein": "Eintracht Frankfurt",
+   "nr": "",
+   "pos": "ST",
+   "tags": [
+    "TOP",
+    "UPDATE"
+   ],
+   "status": "fit",
+   "headline": "Mühlhaus trifft per Seitfallzieher, SGE gewinnt 3:0",
+   "text": [
+    "Larissa Mühlhaus hat Eintracht Frankfurt beim VfB Stuttgart in der 49. Minute mit einem Seitfallzieher in Führung gebracht. Es war ihr erstes Saisontor. Zuvor hatte die Nationalspielerin schon früh einen Abschluss nach einer Ecke deutlich über das Tor gesetzt. In der 80. Minute wurde sie ausgewechselt.",
+    "Nach der Roten Karte für Stuttgarts Dafina Redzepi (57.) erhöhten Laura Freigang (72./73., die Quellen nennen leicht abweichende Minuten) und Danique Tolhoek (90.) auf 3:0. Frankfurt bleibt Dritter hinter Bayern und Wolfsburg."
+   ],
+   "kickbase": "Mühlhaus stand in der Startelf und netzte erstmals. Als Stürmerin mit Torgefahr ist sie ein Kandidat für die Aufstellung, Freigang bleibt aber gesetzt.",
+   "quellen": [
+    {
+     "name": "DFB",
+     "url": "https://www.dfb.de/news/muehlhaus-bringt-frankfurt-in-stuttgart-auf-kurs"
+    },
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/regional/hr/hr-bundesliga-eintracht-frankfurt-frauen-siegen-in-stuttgart-100.html"
+    }
+   ],
+   "pid": "00080"
+  },
+  {
+   "id": "redzepi-2410",
+   "zeit": "2026-10-24T16:10",
+   "spielerin": "Dafina Redzepi",
+   "verein": "VfB Stuttgart",
+   "nr": "",
+   "pos": "MF",
+   "tags": [
+    "UPDATE"
+   ],
+   "status": "fit",
+   "headline": "Redzepi sieht Rot, Stuttgart verliert 0:3 gegen Frankfurt",
+   "text": [
+    "Stuttgarts Dafina Redzepi hat beim 0:3 gegen Eintracht Frankfurt in der 57. Minute wegen groben Foulspiels die Rote Karte gesehen. Der SWR nennt die Entscheidung unberechtigt. Ob und wie lange sie gesperrt wird, ist noch nicht bekannt.",
+    "Der VfB bleibt im dritten Bundesliga-Spiel in Folge ohne Punkt und Tor. Maxi Rall kehrte nach ihrer Verletzungspause in den Kader zurück und saß zunächst auf der Bank, Leonie Schetter debütierte in der Startelf."
+   ],
+   "kickbase": "Redzepi droht eine Sperre, das Strafmaß ist offen. Bis zur Entscheidung des DFB-Sportgerichts besser nicht fest einplanen.",
+   "quellen": [
+    {
+     "name": "SWR",
+     "url": "https://www.swr.de/sport/fussball/vfb-stuttgart-eintracht-frankfurt-frauen-bundesliga-100.html"
+    },
+    {
+     "name": "DFB",
+     "url": "https://www.dfb.de/news/muehlhaus-bringt-frankfurt-in-stuttgart-auf-kurs"
+    }
+   ],
+   "pid": "00347"
+  },
+  {
+   "id": "peddemors-2410",
+   "zeit": "2026-10-24T14:13",
+   "spielerin": "Ella Peddemors",
+   "verein": "VfL Wolfsburg",
+   "nr": "",
+   "pos": "MF",
+   "tags": [
+    "TOP",
+    "UPDATE"
+   ],
+   "status": "fit",
+   "headline": "Peddemors trifft wieder doppelt, Wolfsburg schlägt Köln 3:0",
+   "text": [
+    "Ella Peddemors hat Wolfsburg zum 3:0 gegen den 1. FC Köln geschossen. Sie traf in der 38. Minute und in der 59. Minute per Freistoß, für den dritten Treffer sorgte Camilla Küver per Kopf nach einer Ecke (62.). Schon eine Woche zuvor in Mainz hatte Peddemors zweimal getroffen.",
+    "Köln begann stark, ließ aber Chancen liegen. Wolfsburg steht nach dem achten Spieltag mit 21 Punkten hinter Bayern (24). Danach warten dichte Wochen: Mittwoch Europa Cup gegen Feyenoord, am Montag darauf DFB-Pokal gegen Hoffenheim."
+   ],
+   "kickbase": "Peddemors ist in Topform und ein Pflichtkauf-Kandidat im Mittelfeld. Wegen der Dreifachbelastung ist mit Rotation im VfL-Kader zu rechnen.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/regional/ndr/peddemors-wieder-mit-doppelpack-wolfsburgs-frauen-besiegen-koeln,vfl-wolfsburg-frauen-212.html"
+    },
+    {
+     "name": "1. FC Köln",
+     "url": "https://fc.de/aktuelles/news/trotz-starkem-beginn-fc-frauen-verlieren-in-wolfsburg"
+    }
+   ],
+   "pid": "00405"
+  },
+  {
+   "id": "aufstellung-vfb-2410",
+   "zeit": "2026-10-24T13:36",
+   "spielerin": "Spielansetzung",
+   "verein": "VfB Stuttgart",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "TOP"
+   ],
+   "headline": "Offizielle Aufstellung: VfB Stuttgart gegen Eintracht Frankfurt",
+   "text": [],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306256/vfb-stuttgart_eintracht-frankfurt/aufstellung"
+    }
+   ],
+   "aufstellung": {
+    "gegner": "Eintracht Frankfurt",
+    "startelf": [
+     {
+      "n": "Giuliani",
+      "p": "TW"
+     },
+     {
+      "n": "Wieder",
+      "p": "ST"
+     },
+     {
+      "n": "Stegemann",
+      "p": "ABW"
+     },
+     {
+      "n": "Zähringer",
+      "p": "ABW"
+     },
+     {
+      "n": "Hechler",
+      "p": "ABW"
+     },
+     {
+      "n": "Müller",
+      "p": "MF"
+     },
+     {
+      "n": "Achcińska",
+      "p": "MF"
+     },
+     {
+      "n": "Redzepi",
+      "p": "MF"
+     },
+     {
+      "n": "Hagel",
+      "p": "MF"
+     },
+     {
+      "n": "Schetter",
+      "p": "ST",
+      "f": "neu"
+     },
+     {
+      "n": "Billa",
+      "p": "ST"
+     }
+    ],
+    "bank": [
+     {
+      "n": "Beck",
+      "p": "TW"
+     },
+     {
+      "n": "Rall",
+      "p": "ABW",
+      "f": "neu"
+     },
+     {
+      "n": "Dongus",
+      "p": "ABW"
+     },
+     {
+      "n": "Norman",
+      "p": "ABW"
+     },
+     {
+      "n": "Hecke",
+      "p": "MF"
+     },
+     {
+      "n": "Beuschlein",
+      "p": "ST"
+     },
+     {
+      "n": "Rückert",
+      "p": "ST",
+      "f": "neu"
+     },
+     {
+      "n": "Osawa",
+      "p": "ST"
+     }
+    ],
+    "fehlt": [
+     {
+      "n": "Carollo",
+      "p": "ABW",
+      "f": "raus"
+     },
+     {
+      "n": "Hirano",
+      "p": "MF",
+      "f": "raus"
+     },
+     {
+      "n": "Schäfer",
+      "p": "ABW",
+      "f": "raus"
+     }
+    ]
+   }
+  },
+  {
+   "id": "aufstellung-sge-2410",
+   "zeit": "2026-10-24T13:36",
+   "spielerin": "Spielansetzung",
+   "verein": "Eintracht Frankfurt",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "TOP"
+   ],
+   "headline": "Offizielle Aufstellung: Eintracht Frankfurt gegen VfB Stuttgart",
+   "text": [],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306256/vfb-stuttgart_eintracht-frankfurt/aufstellung"
+    }
+   ],
+   "aufstellung": {
+    "gegner": "VfB Stuttgart",
+    "startelf": [
+     {
+      "n": "Altenburg",
+      "p": "TW"
+     },
+     {
+      "n": "Wolter",
+      "p": "MF",
+      "f": "neu"
+     },
+     {
+      "n": "Østenstad",
+      "p": "ABW",
+      "f": "neu"
+     },
+     {
+      "n": "Ilestedt",
+      "p": "ABW"
+     },
+     {
+      "n": "Lührßen",
+      "p": "ABW"
+     },
+     {
+      "n": "Bennison",
+      "p": "MF"
+     },
+     {
+      "n": "Memeti",
+      "p": "ST"
+     },
+     {
+      "n": "Acikgöz",
+      "p": "ABW"
+     },
+     {
+      "n": "Mühlhaus",
+      "p": "ST"
+     },
+     {
+      "n": "Freigang",
+      "p": "ST"
+     },
+     {
+      "n": "Blomqvist",
+      "p": "MF"
+     }
+    ],
+    "bank": [
+     {
+      "n": "Krumme",
+      "p": "TW"
+     },
+     {
+      "n": "Doorsoun",
+      "p": "ABW",
+      "f": "raus"
+     },
+     {
+      "n": "Rankin",
+      "p": "ABW",
+      "f": "neu"
+     },
+     {
+      "n": "Ivelj",
+      "p": "ABW"
+     },
+     {
+      "n": "Ainhoa Alguacil",
+      "p": "MF"
+     },
+     {
+      "n": "Teulings",
+      "p": "MF"
+     },
+     {
+      "n": "Krumbiegel",
+      "p": "MF",
+      "f": "raus"
+     },
+     {
+      "n": "Raso",
+      "p": "ST"
+     },
+     {
+      "n": "Tolhoek",
+      "p": "ST"
+     }
+    ],
+    "fehlt": [
+     {
+      "n": "Lia",
+      "p": "ST",
+      "f": "raus"
+     }
+    ]
+   }
+  },
+  {
+   "id": "aufstellung-wob-2410",
+   "zeit": "2026-10-24T11:35",
+   "spielerin": "Spielansetzung",
+   "verein": "VfL Wolfsburg",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "TOP"
+   ],
+   "headline": "Offizielle Aufstellung: VfL Wolfsburg gegen 1. FC Köln",
+   "text": [],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306265/vfl-wolfsburg_1-fc-koeln/aufstellung"
+    }
+   ],
+   "aufstellung": {
+    "startelf": [
+     {
+      "n": "Johannes",
+      "p": "TW"
+     },
+     {
+      "n": "Bjelde",
+      "p": "ABW"
+     },
+     {
+      "n": "Carleer",
+      "p": "ABW",
+      "f": "neu"
+     },
+     {
+      "n": "Küver",
+      "p": "ABW"
+     },
+     {
+      "n": "Linder",
+      "p": "ABW"
+     },
+     {
+      "n": "Minge",
+      "p": "MF"
+     },
+     {
+      "n": "Peddemors",
+      "p": "MF"
+     },
+     {
+      "n": "Lattwein",
+      "p": "MF",
+      "f": "neu"
+     },
+     {
+      "n": "Huth",
+      "p": "MF"
+     },
+     {
+      "n": "Bussy",
+      "p": "ST",
+      "f": "neu"
+     },
+     {
+      "n": "Prašnikar",
+      "p": "ST",
+      "f": "neu"
+     }
+    ],
+    "bank": [
+     {
+      "n": "Tufeković",
+      "p": "TW"
+     },
+     {
+      "n": "Kleinherne",
+      "p": "ABW",
+      "f": "raus"
+     },
+     {
+      "n": "Wedemeyer",
+      "p": "ABW"
+     },
+     {
+      "n": "Bogaert",
+      "p": "ABW"
+     },
+     {
+      "n": "Piljic",
+      "p": "MF"
+     },
+     {
+      "n": "Alber",
+      "p": "MF"
+     },
+     {
+      "n": "Vallotto",
+      "p": "MF",
+      "f": "raus"
+     },
+     {
+      "n": "Zicai",
+      "p": "ST",
+      "f": "raus"
+     },
+     {
+      "n": "Fløe",
+      "p": "ST",
+      "f": "neu"
+     }
+    ],
+    "fehlt": [
+     {
+      "n": "Kerim-Lindland",
+      "p": "ST",
+      "f": "raus"
+     }
+    ],
+    "gegner": "1. FC Köln"
+   }
+  },
+  {
+   "id": "aufstellung-koe-2410",
+   "zeit": "2026-10-24T11:35",
+   "spielerin": "Spielansetzung",
+   "verein": "1. FC Köln",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "TOP"
+   ],
+   "headline": "Offizielle Aufstellung: 1. FC Köln gegen VfL Wolfsburg",
+   "text": [],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306265/vfl-wolfsburg_1-fc-koeln/aufstellung"
+    }
+   ],
+   "aufstellung": {
+    "startelf": [
+     {
+      "n": "Schmitz",
+      "p": "TW"
+     },
+     {
+      "n": "Degen",
+      "p": "ABW"
+     },
+     {
+      "n": "Bohnen",
+      "p": "ABW"
+     },
+     {
+      "n": "Hegering",
+      "p": "ABW"
+     },
+     {
+      "n": "Imping",
+      "p": "ABW",
+      "f": "neu"
+     },
+     {
+      "n": "Vogt",
+      "p": "MF"
+     },
+     {
+      "n": "Leimenstoll",
+      "p": "ST"
+     },
+     {
+      "n": "Feiersinger",
+      "p": "MF"
+     },
+     {
+      "n": "Elsen",
+      "p": "ST"
+     },
+     {
+      "n": "Bremer",
+      "p": "ST"
+     },
+     {
+      "n": "Andrade",
+      "p": "ST"
+     }
+    ],
+    "bank": [
+     {
+      "n": "Nelles",
+      "p": "TW"
+     },
+     {
+      "n": "Hendrich",
+      "p": "ABW"
+     },
+     {
+      "n": "Donhauser",
+      "p": "ABW"
+     },
+     {
+      "n": "Weber",
+      "p": "ABW",
+      "f": "neu"
+     },
+     {
+      "n": "Schiffarth",
+      "p": "MF"
+     },
+     {
+      "n": "Schäfer",
+      "p": "MF"
+     },
+     {
+      "n": "Zawistowska",
+      "p": "ST"
+     }
+    ],
+    "fehlt": [
+     {
+      "n": "Sterner",
+      "p": "ABW",
+      "f": "raus"
+     },
+     {
+      "n": "Treede",
+      "p": "TW",
+      "f": "raus"
+     },
+     {
+      "n": "Ziemer",
+      "p": "MF",
+      "f": "raus"
+     }
+    ],
+    "gegner": "VfL Wolfsburg"
+   }
+  },
+  {
+   "id": "rall-2410",
+   "zeit": "2026-10-24T13:36",
+   "spielerin": "Maximiliane Rall",
+   "verein": "VfB Stuttgart",
+   "nr": "8",
+   "pos": "ABW",
+   "tags": [
+    "RÜCKKEHR"
+   ],
+   "headline": "Rall kehrt gegen Frankfurt in den Kader zurück",
+   "text": [
+    "Stuttgarts Kapitänin Maximiliane Rall steht gegen Frankfurt im Spieltagskader und sitzt auf der Bank. Zuletzt hatte sie mit Oberschenkelproblemen gefehlt und diese Woche wieder mit der Mannschaft trainiert.",
+    "Auch Stürmerin Rosa Rückert, die zuvor im Aufbautraining war, ist erstmals wieder im Kader. Beide beginnen nicht in der Startelf."
+   ],
+   "kickbase": "Rall ist eine Option für die Schlussphase, ein Startplatz ist erst im nächsten Spiel realistischer. Rückert gilt ebenfalls als Joker.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306256/vfb-stuttgart_eintracht-frankfurt/aufstellung"
+    }
+   ],
+   "foto": "fotos/maximiliane-rall.jpg",
+   "foto_credit": {
+    "autor": "Hameltion",
+    "lizenz": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:NC_Courage_vs_Chicago_Red_Stars_(Jun_2024)_092.jpg"
+   },
+   "pid": "00337"
+  },
+  {
+   "id": "floe-2410",
+   "zeit": "2026-10-24T11:35",
+   "spielerin": "Cecilie Floe",
+   "verein": "VfL Wolfsburg",
+   "nr": "13",
+   "pos": "ST",
+   "tags": [
+    "RÜCKKEHR"
+   ],
+   "headline": "Floe steht gegen Köln im Wolfsburger Kader",
+   "text": [
+    "Cecilie Floe gehört gegen Köln erstmals zum Spieltagskader der Wölfinnen und sitzt zunächst auf der Bank. Die Dänin hatte zuvor wegen einer Knieverletzung monatelang gefehlt."
+   ],
+   "kickbase": "Floe ist nach ihrer Verletzung zurück im Kader, ein Einsatz von der Bank ist möglich. Für die Startelf reicht es noch nicht.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306265/vfl-wolfsburg_1-fc-koeln/aufstellung"
+    }
+   ]
+  },
+  {
+   "id": "mahmutovic-2410",
+   "zeit": "2026-10-23T22:10",
+   "spielerin": "Ena Mahmutovic",
+   "verein": "FC Bayern",
+   "nr": "1",
+   "pos": "TW",
+   "tags": [
+    "TOP",
+    "UPDATE"
+   ],
+   "headline": "Mahmutovic sieht Rot, Gilles hütet 15 Minuten das Tor",
+   "text": [
+    "Beim 5:1 des FC Bayern in Leipzig sah Torhüterin Ena Mahmutovic die Rote Karte. Danach stand Innenverteidigerin Vanessa Gilles laut Sportschau rund 15 Minuten im Bayern-Tor, die Münchnerinnen gewannen trotzdem und feierten den 50. Ligasieg in Folge.",
+    "Zu Minute und Szene der Karte lagen bei der Auswertung keine Angaben vor. Ob eine Sperre folgt und wie lang sie ausfällt, ist noch nicht bekannt."
+   ],
+   "kickbase": "Bei einer Sperre für Mahmutovic wäre Bayerns Torhüterposition im nächsten Ligaspiel neu zu besetzen. Vor dem Kauf oder der Aufstellung die offizielle Sperrenmeldung des DFB abwarten.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/regional/br/br-bei-rot-fuer-mahmutovic-fcb-frauen-feiern-50-liga-sieg-in-folge-102.html"
+    },
+    {
+     "name": "Sportschau Video",
+     "url": "https://www.sportschau.de/fussball/frauen-bundesliga/bayern-gewinnt-mit-verteidigerin-gilles-im-tor,video-frauen-bundesliga-rb-leipzig-fc-bayern-muenchen-100.html"
+    }
+   ],
+   "pid": "00003"
+  },
+  {
+   "id": "zicai-2410",
+   "zeit": "2026-10-24T06:40",
+   "spielerin": "Cora Zicai",
+   "verein": "VfL Wolfsburg",
+   "nr": "28",
+   "pos": "ST",
+   "tags": [
+    "UPDATE"
+   ],
+   "headline": "Zicai kann sich Wechsel nach England oder Spanien vorstellen",
+   "text": [
+    "Wolfsburgs Stürmerin Cora Zicai (21) träumt laut SPORT1 davon, irgendwann im Ausland zu spielen. Im Interview mit MagentaSport nannte sie England wegen Kulisse und Intensität sowie Spanien als reizvolle Ziele.",
+    "Konkrete Wechselpläne oder Verhandlungen sind in dem Bericht nicht genannt. Es geht um eine Perspektive für die Zukunft."
+   ],
+   "kickbase": "Kurzfristig ändert das nichts an Zicais Rolle in Wolfsburg. Ein Verkauf wegen dieser Aussage ist nicht nötig.",
+   "quellen": [
+    {
+     "name": "SPORT1",
+     "url": "https://www.sport1.de/news/fussball/frauen-bundesliga/2026/10/zicai-traeumt-moechte-gerne-mal-ins-ausland"
+    }
+   ],
+   "pid": "00414"
+  },
+  {
+   "id": "buehl-2310",
+   "zeit": "2026-10-23T18:10",
+   "spielerin": "Klara Bühl",
+   "verein": "FC Bayern",
+   "nr": "17",
+   "pos": "ST",
+   "tags": [
+    "UPDATE"
+   ],
+   "headline": "Bühl trifft doppelt beim 5:1 der Bayern in Leipzig",
+   "text": [
+    "Der FC Bayern hat am 8. Spieltag bei RB Leipzig mit 5:1 gewonnen. Laut SPORT1 war Klara Bühl mit zwei Treffern eine der auffälligsten Spielerinnen der Partie.",
+    "Weitere Torschützinnen und Details zum Spielverlauf lagen bei der Auswertung noch nicht vor."
+   ],
+   "kickbase": "Bühl liefert in einem Spiel mit fünf Bayern-Toren zwei davon und bleibt eine gesetzte Offensivkraft. Die übrigen Torschützinnen folgen, sobald sie belegt sind.",
+   "quellen": [
+    {
+     "name": "Kicker",
+     "url": "https://www.kicker.de/leipzig-gegen-bayern-2026-frauen-bundesliga-5243484/schema"
+    }
+   ],
+   "foto": "fotos/klara-buhl.jpg",
+   "foto_credit": {
+    "autor": "Steffen Prößdorf",
+    "lizenz": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:2023-06-26_Fussball,_Frauen,_Deutsche_Nationalmannschaft,_Media_Day_1DX_6335_by_Stepro.jpg"
+   },
+   "pid": "00023"
+  },
+  {
+   "id": "konrad-2310",
+   "zeit": "2026-10-23T02:00",
+   "spielerin": "Marco Konrad",
+   "verein": "SC Freiburg",
+   "nr": "",
+   "pos": "Trainer",
+   "tags": [
+    "UPDATE",
+    "SPERRE"
+   ],
+   "headline": "Freiburg reist ohne Stierli und mit kleinem Kader nach Bremen",
+   "text": [
+    "Der SC Freiburg gastiert am achten Spieltag am Sonntag um 14 Uhr bei Werder Bremen (live bei DAZN und MagentaSport). Julia Stierli fehlt nach ihrer Roten Karte gegen RB Leipzig wegen einer Zwei-Spiele-Sperre.",
+    "Dazu fallen laut Vorbericht Zoe Schick (Kreuzbandriss), Tessa Blumenberg (Reha), Nia Szenk (Adduktoren), Jana Vojteková (muskuläre Beschwerden) und Emma Memminger (Weichteilverletzung am Oberschenkel) aus. Alina Axtmann ist wegen Fußproblemen fraglich, Johanna Hebben ist bei der U17-WM.",
+    "Trainer Marco Konrad sprach von einem teils sehr kleinen Kader im Training und kündigte Einsatzchancen für einzelne U20-Spielerinnen an. Rückkehrerinnen nennt der Verein nicht."
+   ],
+   "kickbase": "Die Freiburger Abwehr ist dünn besetzt, Axtmann ist ein Fragezeichen. Freiburger Verteidigerinnen und Joker aus der U20 sind eher Risiko als Kauf, Bremen-Offensive profitiert.",
+   "quellen": [
+    {
+     "name": "SC Freiburg",
+     "url": "https://www.scfreiburg.com/aktuell/nachrichten/frauen-maedchen/2026/27/vorberichte/weite-auswaertsreise-in-den-hohen-norden/"
+    }
+   ]
+  },
+  {
+   "id": "floe-2310",
+   "zeit": "2026-10-23T12:00",
+   "spielerin": "Cecilie Floe",
+   "verein": "VfL Wolfsburg",
+   "nr": "",
+   "pos": "ST",
+   "tags": [
+    "RÜCKKEHR",
+    "TOP"
+   ],
+   "headline": "Floe steht vor Debüt für Wolfsburg gegen Köln",
+   "text": [
+    "Die dänische Stürmerin Cecilie Floe könnte am Samstag im Topspiel gegen den 1. FC Köln erstmals für den VfL Wolfsburg auflaufen. Sie wurde im Sommer vom SSC Neapel geholt und gilt mit einer kolportierten Ablöse von 400.000 Euro als Rekordeinkauf der VfL-Frauen.",
+    "Eine im Trainingslager Ende Juli erlittene Knieverletzung hatte die 25-Jährige monatelang gestoppt. Seit etwa zwei Wochen trainiert sie wieder mit der Mannschaft. Ob sie im Kader steht oder gar startet, ist laut NDR noch offen."
+   ],
+   "kickbase": "Floe ist nach überstandener Verletzung wieder im Mannschaftstraining, ein Einsatz am Samstag ist möglich, aber nicht bestätigt. Vor einem Kauf lohnt sich der Blick auf die offizielle Aufstellung.",
+   "quellen": [
+    {
+     "name": "NDR.de",
+     "url": "https://www.ndr.de/sport/fussball/VfL-Wolfsburg-Frauen,wolfsburg-1768.html"
+    }
+   ]
+  },
+  {
+   "id": "vfb-2310",
+   "zeit": "2026-10-23T09:16",
+   "spielerin": "Nico Schneck",
+   "verein": "VfB Stuttgart",
+   "nr": "",
+   "pos": "Trainer",
+   "tags": [
+    "UPDATE",
+    "RÜCKKEHR"
+   ],
+   "headline": "Stuttgart füllt vor Frankfurt den Kader wieder auf",
+   "text": [
+    "Der VfB Stuttgart empfängt am Samstag um 14 Uhr Eintracht Frankfurt. Kapitänin Maximiliane Rall hat wieder mit der Mannschaft trainiert, ob sie nach der Belastung spielen kann, ist offen. Fabienne Dongus gilt laut Bericht als wieder gesund, Rosa Rückert und Julia Glaser haben erstmals wieder voll mittrainiert und sollen schrittweise herangeführt werden.",
+    "Mira Arouna (Oberschenkel) und Julia Mickenhagen (Hüfte) trainieren weiter individuell. Trainer Nico Schneck fordert nach dem 0:5 in München mehr Einsatz und Verteidigungswillen, neun Gegentore in zwei Spielen."
+   ],
+   "kickbase": "Rall ist Wackelkandidatin, Dongus kann zurück in den Kader kommen. Arouna und Mickenhagen eher nicht aufstellen. Gegen den Tabellendritten bleibt die Stuttgarter Abwehr riskant.",
+   "quellen": [
+    {
+     "name": "Wochenblatt Reporter",
+     "url": "https://www.wochenblatt-reporter.de/c-sport/vfb-stuttgart-frauen-vor-heimspiel-gegen-spitzenteam-eintracht-frankfurt_a917423"
+    },
+    {
+     "name": "FuPa",
+     "url": "https://www.fupa.net/news/frauen-des-vfb-gegen-frankfurt-wollen-ein-anderes-gesicht-zeigen-3194849"
+    }
+   ]
+  },
+  {
+   "id": "union-2210",
+   "zeit": "2026-10-22T16:00",
+   "spielerin": "Marie-Louise Eta",
+   "verein": "Union Berlin",
+   "nr": "",
+   "pos": "Trainerin",
+   "tags": [
+    "UPDATE"
+   ],
+   "headline": "Union reist mit acht Ausfällen und Siegesserie nach Hamburg",
+   "text": [
+    "Union Berlin tritt am Sonntag um 17 Uhr beim Hamburger SV an, nach vier Pflichtspielsiegen in Folge und zuletzt einem 2:1 gegen Nürnberg. Mit neun Punkten haben die Berlinerinnen den Anschluss ans Mittelfeld hergestellt.",
+    "Laut Verein fehlen Anna Aehling, Cara Bösl, Hannah Eurlings, Lisa Heiseler, Korina Janež, Ida Heikkinen, Mariann Noack und Nelly Smolarczyk. Gründe nennt der Verein nicht. Trainerin Eta fordert von ihrem Team Intensität und Energie von der ersten Minute an."
+   ],
+   "kickbase": "Acht Ausfälle ohne genannten Grund: Union-Spielerinnen bis zur Aufstellung am Sonntag mit Vorsicht behandeln. Der HSV steht nach dem 1:3 in Köln bei fünf Punkten und muss Doucouré ersetzen.",
+   "quellen": [
+    {
+     "name": "1. FC Union Berlin",
+     "url": "https://www.fc-union-berlin.de/de/meldungen/unionerinnen-reisen-mit-aufwind-ins-volksparkstadion-ARsCPA"
+    }
+   ]
+  },
+  {
+   "id": "buehl-2210",
+   "zeit": "2026-10-22T13:03",
+   "spielerin": "Klara Bühl",
+   "verein": "FC Bayern",
+   "nr": "17",
+   "pos": "ST",
+   "tags": [
+    "UPDATE"
+   ],
+   "headline": "Barcala will Bühl halten, Vertrag läuft im Sommer aus",
+   "text": [
+    "Bayern-Trainer José Barcala hat sich klar für einen Verbleib von Klara Bühl ausgesprochen. Er zählt sie zu den besten Flügelspielerinnen der Welt und wünscht sich, dass sie in München zur Legende wird.",
+    "Bühls Vertrag endet im kommenden Sommer. Sie wird immer wieder mit dem FC Barcelona in Verbindung gebracht und hält sich ihre Zukunft nach eigener Aussage offen."
+   ],
+   "kickbase": "Für die laufende Saison ohne Einfluss: Bühl ist mit vier Toren und fünf Vorlagen gesetzt. Die Wechselfrage betrifft erst den Sommer.",
+   "quellen": [
+    {
+     "name": "SPORT1 (SID)",
+     "url": "https://www.sport1.de/news/fussball/frauen-bundesliga/2026/10/fc-bayern-barcala-sieht-buehl-als-kuenftige-bayern-legende"
+    }
+   ],
+   "foto": "fotos/klara-buhl.jpg",
+   "foto_credit": {
+    "autor": "Steffen Prößdorf",
+    "lizenz": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:2023-06-26_Fussball,_Frauen,_Deutsche_Nationalmannschaft,_Media_Day_1DX_6335_by_Stepro.jpg"
+   },
+   "pid": "00023"
+  },
+  {
+   "id": "peddemors-2210",
+   "zeit": "2026-10-22",
+   "spielerin": "Ella Peddemors",
+   "verein": "VfL Wolfsburg",
+   "nr": "10",
+   "pos": "MF",
+   "tags": [
+    "TOP"
+   ],
+   "headline": "Peddemors erwartet gegen Köln ein Kampfspiel",
+   "text": [
+    "Wolfsburgs Torjägerin Ella Peddemors rechnet am Samstag mit einem intensiven Spiel. Köln sei gut in Form und werde viele Zweikämpfe suchen.",
+    "Die Niederländerin führt mit sieben Toren die Torjägerinnenliste an. Sie spielt in dieser Saison deutlich offensiver als früher und kommt dazu auf zwei Vorlagen."
+   ],
+   "kickbase": "Peddemors ist bei Kickbase als Mittelfeldspielerin geführt und gehört zu den punktstärksten Spielerinnen der Liga. Anstoß gegen Köln ist Samstag um 12 Uhr.",
+   "quellen": [
+    {
+     "name": "VfL Wolfsburg",
+     "url": "https://www.vfl-wolfsburg.de/newsdetails/news-detail/detail/news/wir-haben-ein-richtig-cooles-team"
+    }
+   ],
+   "pid": "00405"
+  },
+  {
+   "id": "werder-krank-2110",
+   "zeit": "2026-10-21T20:20",
+   "spielerin": "Friederike Kromp",
+   "verein": "Werder Bremen",
+   "nr": "",
+   "pos": "Trainerin",
+   "tags": [
+    "UPDATE"
+   ],
+   "headline": "Werder trainiert nach Krankheitswelle mit angezogener Handbremse",
+   "text": [
+    "Am Montag standen Trainerin Friederike Kromp nur sieben gesunde Spielerinnen zur Verfügung. Bis Mittwoch hat sich die Lage gebessert, rund 20 Spielerinnen trainieren wieder, teils aber mit reduzierter Belastung oder in der Halle.",
+    "Die Belastung wird mit den Ärzten für jede Spielerin einzeln abgestimmt, damit niemand einen Rückfall erleidet. Im Training halfen noch Spielerinnen der zweiten Mannschaft aus.",
+    "Kromp kündigte an, dass gegen Freiburg auch Spielerinnen aus der Reserve Einsatzzeit bekommen könnten."
+   ],
+   "kickbase": "Bei Werder-Spielerinnen bis zur offiziellen Aufstellung am Sonntag vorsichtig sein. Die Startelf ist so unsicher wie bei keinem anderen Team.",
+   "quellen": [
+    {
+     "name": "buten un binnen",
+     "url": "https://www.butenunbinnen.de/sport/frauenfussball-werder-erkrankungen-bundesliga-100.html"
+    }
+   ]
+  },
+  {
+   "id": "nachhol-2110",
+   "zeit": "2026-10-21T15:06",
+   "spielerin": "Werder Bremen gegen TSG Hoffenheim",
+   "verein": "TSG Hoffenheim",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "TOP"
+   ],
+   "headline": "Nachholspiel Bremen gegen Hoffenheim am 29. Oktober",
+   "text": [
+    "Das am Sonntag kurzfristig abgesagte Spiel wird am Donnerstag, 29. Oktober, um 18 Uhr auf Platz 11 am Weserstadion nachgeholt.",
+    "Für beide Teams wird es eine englische Woche: Hoffenheim spielt am Sonntag gegen Mainz, dann in Bremen und am 2. November im Pokal in Wolfsburg. Werder empfängt am Sonntag Freiburg und muss am 1. November im Pokal nach Mainz."
+   ],
+   "kickbase": "Zwei Ligaspiele in fünf Tagen. Wie Kickbase die Punkte des Nachholspiels zuordnet, bitte in der App prüfen.",
+   "quellen": [
+    {
+     "name": "DFB",
+     "url": "https://www.dfb.de/news/nach-spielabsage-bremen-gegen-hoffenheim-neu-terminiert"
+    },
+    {
+     "name": "buten un binnen",
+     "url": "https://butenunbinnen.de/sport/frauenfussball-werder-hoffenheim-nachholspiel-termin-100.html"
+    }
+   ]
+  },
+  {
+   "id": "joly-2110",
+   "zeit": "2026-10-21",
+   "spielerin": "Lou-Ann Joly",
+   "verein": "RB Leipzig",
+   "nr": "",
+   "pos": "MF",
+   "tags": [
+    "UPDATE"
+   ],
+   "headline": "Keine Entwarnung für Joly und Schasching vor dem Bayern-Spiel",
+   "text": [
+    "Leipzigs Vorschau auf das Freitagsspiel gegen Bayern enthält keine Personalangaben. Damit bleibt offen, ob Lou-Ann Joly und Annabel Schasching zurückkehren.",
+    "Joly war gegen Mainz nach einer Behandlungspause früh ausgewechselt worden und stand in Freiburg nicht im Kader. Schasching, die gegen Mainz zweimal getroffen hatte, fehlte in Freiburg ebenfalls ohne genannten Grund."
+   ],
+   "kickbase": "Beide als Fragezeichen behandeln. Nikée van Dijk drängt nach ihrem Doppelpack als Jokerin in die Startelf.",
+   "quellen": [
+    {
+     "name": "RB Leipzig",
+     "url": "https://rbleipzig.com/de/news/vorschau-rb-leipzig-frauen-bundesliga-gegen-bayern-muenchen"
+    },
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306232/sc-freiburg_rb-leipzig/taktische-aufstellung"
+    }
+   ],
+   "foto": "fotos/lou-ann-joly.jpg",
+   "foto_credit": {
+    "autor": "Gérald Garitan",
+    "lizenz": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Stade_de_reims_1515326_(lou-ann).jpg"
+   },
+   "pid": "00223"
+  },
+  {
+   "id": "carlson-2010",
+   "zeit": "2026-10-20T20:00",
+   "spielerin": "Britta Carlson",
+   "verein": "1. FC Köln",
+   "nr": "",
+   "pos": "Trainerin",
+   "tags": [
+    "UPDATE"
+   ],
+   "headline": "Carlson fordert in Wolfsburg die Effizienz aus dem HSV-Spiel",
+   "text": [
+    "Kölns Trainerin Britta Carlson spricht vor dem Spiel in Wolfsburg von einer schweren Aufgabe. Wolfsburg habe die klarste Spielanlage der Liga, lasse aber auch Gegentore zu.",
+    "Köln hat in der Bundesliga noch nie gegen Wolfsburg gewonnen. Gegen den HSV gelang zuletzt ein 3:1 mit drei Toren von Pauline Bremer."
+   ],
+   "kickbase": "Bremer bleibt die Kölner Spielerin mit dem größten Punktepotenzial, die Aufgabe am Samstag ist aber die schwerste denkbare.",
+   "quellen": [
+    {
+     "name": "1. FC Köln",
+     "url": "https://fc.de/aktuelles/news/fc-frauen-topspiel-in-wolfsburg"
+    }
+   ]
+  },
+  {
+   "id": "stierli-2010",
+   "zeit": "2026-10-20",
+   "spielerin": "Julia Stierli",
+   "verein": "SC Freiburg",
+   "nr": "",
+   "pos": "ABW",
+   "tags": [
+    "SPERRE"
+   ],
+   "headline": "Stierli für zwei Ligaspiele gesperrt",
+   "text": [
+    "Nach ihrer Roten Karte gegen Leipzig hat der DFB Julia Stierli für zwei Meisterschaftsspiele gesperrt. Sie hatte in der 18. Minute eine klare Torchance von Emanuela Pfister per Foul verhindert.",
+    "Die Abwehrchefin fehlt damit am Sonntag in Bremen und voraussichtlich am 7. November gegen Nürnberg. Für das Pokalspiel gegen Jena gilt die Sperre nicht."
+   ],
+   "kickbase": "Nicht aufstellen. Als Ersatz kommt die zuletzt kranke Mia-Lena Maas infrage, sonst eine Umstellung mit Ojukwu in der Abwehr.",
+   "quellen": [
+    {
+     "name": "DFB-Sperrenliste",
+     "url": "https://www.dfb.de/ueber-uns/verbandsrecht/sperren"
+    }
+   ],
+   "foto": "fotos/julia-stierli.jpg",
+   "foto_credit": {
+    "autor": "Frank Haug",
+    "lizenz": "CC BY 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Julia_Stierli_by_Frank_Haug.JPG"
+   },
+   "pid": "00095"
+  },
+  {
+   "id": "doucoure-2010",
+   "zeit": "2026-10-20",
+   "spielerin": "Magou Doucouré",
+   "verein": "Hamburger SV",
+   "nr": "",
+   "pos": "ABW",
+   "tags": [
+    "SPERRE"
+   ],
+   "headline": "Doucouré fehlt gegen Union gesperrt",
+   "text": [
+    "Nach ihrer Gelb-Roten Karte in Köln ist Magou Doucouré für ein Meisterschaftsspiel gesperrt und fehlt am Sonntag gegen Union Berlin.",
+    "Nach ihrem Platzverweis in Köln rückte Mirzaliyeva auf die rechte Abwehrseite. Sie ist die naheliegende Vertreterin."
+   ],
+   "kickbase": "Doucouré am Sonntag nicht aufstellen.",
+   "quellen": [
+    {
+     "name": "DFB-Sperrenliste",
+     "url": "https://www.dfb.de/ueber-uns/verbandsrecht/sperren"
+    },
+    {
+     "name": "NDR",
+     "url": "https://www.sportschau.de/regional/ndr/Bundesliga-Frauen-HSV-1-fc-koeln,hsv-frauen-362.html"
+    }
+   ],
+   "foto": "fotos/magou-doucoure.jpg",
+   "foto_credit": {
+    "autor": "Andreas Schikora",
+    "lizenz": "CC0",
+    "url": "https://commons.wikimedia.org/wiki/File:Magou_Doucour%C3%A9.jpg"
+   },
+   "pid": "00154"
+  },
+  {
+   "id": "reimann-2010",
+   "zeit": "2026-10-20",
+   "spielerin": "Anna Reimann",
+   "verein": "SC Freiburg",
+   "nr": "",
+   "pos": "TW",
+   "tags": [
+    "UPDATE"
+   ],
+   "headline": "Freiburgs Torhüterin Reimann auf Abruf für die U17-WM",
+   "text": [
+    "Fünf Freiburgerinnen sind bei der U17-WM in Marokko, darunter Laura Ernst, Johanna Putzer und Johanna Hebben aus dem Profikader. Torhüterin Anna Reimann steht auf Abruf.",
+    "Reimann ist derzeit die Nummer eins, weil Laura Benkarth in der Babypause ist. Sollte sie nachnominiert werden, müsste Lorena Barth oder Lina von Schrader ins Tor."
+   ],
+   "kickbase": "Solange Reimann nicht nachnominiert ist, bleibt sie gesetzt. Vor dem Spiel in Bremen noch einmal prüfen.",
+   "quellen": [
+    {
+     "name": "SC Freiburg",
+     "url": "https://www.scfreiburg.com/aktuell/nachrichten/frauen-maedchen/2026/27/news/fuenf-freiburgerinnen-bei-u17-wm/"
+    }
+   ],
+   "pid": "00085"
+  },
+  {
+   "id": "gwinn-1910",
+   "zeit": "2026-10-19T19:47",
+   "spielerin": "Giulia Gwinn",
+   "verein": "FC Bayern",
+   "nr": "7",
+   "pos": "ABW",
+   "tags": [
+    "VERLETZUNG",
+    "UPDATE"
+   ],
+   "headline": "Gwinn liegt im Zeitplan, Rückkehr in den nächsten Wochen",
+   "text": [
+    "Giulia Gwinn macht nach ihrem Außenbandriss im linken Sprunggelenk Fortschritte. Laut Abteilungsleiterin Bianca Rech liegt sie im Zeitplan und absolviert erste Einheiten auf dem Platz.",
+    "Die Kapitänin der Nationalmannschaft hatte sich am 3. Oktober in Frankfurt verletzt. Eine Rückkehr wird in den nächsten Wochen erwartet, für das Spiel in Leipzig kommt sie nicht infrage."
+   ],
+   "kickbase": "Noch nicht aufstellen. Rechts hinten spielt derzeit Mattner-Trembleau.",
+   "quellen": [
+    {
+     "name": "90min",
+     "url": "https://www.90min.de/leidenszeit-am-ende-fc-bayern-mit-wichtigem-gwinn-update"
+    }
+   ],
+   "foto": "fotos/giulia-gwinn.jpg",
+   "foto_credit": {
+    "autor": "Steffen Prößdorf",
+    "lizenz": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:2022-06-24_Fussball,_Frauen,_L%C3%A4nderspiel,_Deutschland_-_Schweiz_1DX_0701_by_Stepro.jpg"
+   },
+   "pid": "00009"
+  },
+  {
+   "id": "harder-1910",
+   "zeit": "2026-10-19",
+   "spielerin": "Pernille Harder",
+   "verein": "FC Bayern",
+   "nr": "",
+   "pos": "ST",
+   "tags": [
+    "TOP"
+   ],
+   "headline": "Harder trifft doppelt beim 5:0 gegen Stuttgart",
+   "text": [
+    "Bayern hat Aufsteiger Stuttgart mit 5:0 geschlagen und ist seit 49 Ligaspielen ungeschlagen. Pernille Harder traf zweimal und bereitete ein Tor vor.",
+    "Klara Bühl erzielte ein Tor und gab eine Vorlage, sie steht nun bei vier Toren und fünf Vorlagen. Dazu trafen Dallmann und Imade."
+   ],
+   "kickbase": "Harder, Bühl und Imade sind in Form. Bayern spielt schon am Freitag um 18:30 Uhr in Leipzig.",
+   "quellen": [
+    {
+     "name": "DFB",
+     "url": "https://www.dfb.de/news/bei-50-gegen-stuttgart-fc-bayern-baut-rekord-aus"
+    }
+   ],
+   "foto": "fotos/pernille-harder.jpg",
+   "foto_credit": {
+    "autor": "Granada",
+    "lizenz": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:20170706_OEFB_AUT-DEN_Pernille_Harder_DSC_8228.jpg"
+   },
+   "pid": "00025"
+  },
+  {
+   "id": "zadrazil-1910",
+   "zeit": "2026-10-19",
+   "spielerin": "Sarah Zadrazil",
+   "verein": "FC Bayern",
+   "nr": "25",
+   "pos": "MF",
+   "tags": [
+    "RÜCKKEHR"
+   ],
+   "headline": "Zadrazil nach Kreuzbandriss zurück in der Startelf",
+   "text": [
+    "Sarah Zadrazil stand gegen Stuttgart zum ersten Mal seit September 2025 wieder in Bayerns Startelf. Nach 63 Minuten wurde sie ausgewechselt.",
+    "Die Österreicherin hatte sich vor gut einem Jahr das Kreuzband gerissen."
+   ],
+   "kickbase": "Einsatzzeit dürfte vorerst gesteuert werden. Mit der Champions League am Mittwoch ist Rotation im Mittelfeld möglich.",
+   "quellen": [
+    {
+     "name": "DFB",
+     "url": "https://www.dfb.de/news/bei-50-gegen-stuttgart-fc-bayern-baut-rekord-aus"
+    }
+   ],
+   "foto": "fotos/sarah-zadrazil.jpg",
+   "foto_credit": {
+    "autor": "Ailura",
+    "lizenz": "CC BY-SA 3.0 at",
+    "url": "https://commons.wikimedia.org/wiki/File:20170803_WEURO_DEN_AUT_0371.jpg"
+   },
+   "pid": "00022"
+  },
+  {
+   "id": "mattner-1910",
+   "zeit": "2026-10-19",
+   "spielerin": "Mattner-Trembleau",
+   "verein": "FC Bayern",
+   "nr": "",
+   "pos": "ABW",
+   "tags": [
+    "UPDATE"
+   ],
+   "headline": "Mattner-Trembleau vertritt Gwinn rechts hinten",
+   "text": [
+    "Gegen Stuttgart begann Mattner-Trembleau als Rechtsverteidigerin und bereitete das 1:0 durch Dallmann vor. Sie war eine von vier neuen Spielerinnen in der Startelf.",
+    "Bei der Sportschau ist sie als Stürmerin geführt, gespielt hat sie in der Viererkette."
+   ],
+   "kickbase": "Kickbase-Position in der App prüfen. Wird sie dort offensiv geführt, ist sie als Rechtsverteidigerin besonders interessant, solange Gwinn fehlt.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306244/bayern-muenchen_vfb-stuttgart/aufstellung"
+    }
+   ]
+  },
+  {
+   "id": "oberdorf-1910",
+   "zeit": "2026-10-19",
+   "spielerin": "Lena Oberdorf",
+   "verein": "FC Bayern",
+   "nr": "8",
+   "pos": "MF",
+   "tags": [
+    "VERLETZUNG"
+   ],
+   "headline": "Oberdorfs Knie macht weiter Probleme",
+   "text": [
+    "Lena Oberdorf fehlte auch gegen Stuttgart. Laut DFB zeigt ihr rechtes Kniegelenk weiterhin eine Reaktion.",
+    "Bayern hatte schon im September von einer Pause in den kommenden Wochen gesprochen. Einen Rückkehrtermin gibt es nicht. Ebenfalls weiter verletzt sind Jovana Damnjanović und Vanessa Gilles."
+   ],
+   "kickbase": "Für die nächsten Spieltage nicht einplanen.",
+   "quellen": [
+    {
+     "name": "DFB",
+     "url": "https://www.dfb.de/news/bei-50-gegen-stuttgart-fc-bayern-baut-rekord-aus"
+    }
+   ],
+   "foto": "fotos/lena-oberdorf.jpg",
+   "foto_credit": {
+    "autor": "Steffen Prößdorf",
+    "lizenz": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:2023-07-03_Fussball,_Frauen,_Deutsche_Nationalmannschaft,_Media_Day_1DX_6658_by_Stepro-2.jpg"
+   },
+   "pid": "00019"
+  },
+  {
+   "id": "rall-1910",
+   "zeit": "2026-10-19",
+   "spielerin": "Maximiliane Rall",
+   "verein": "VfB Stuttgart",
+   "nr": "",
+   "pos": "ABW",
+   "tags": [
+    "VERLETZUNG"
+   ],
+   "headline": "Rall und Arouna fehlen mit Oberschenkelproblemen",
+   "text": [
+    "Stuttgart musste in München auf sieben Spielerinnen verzichten. Kapitänin Maximiliane Rall und Mira Arouna fehlten mit Oberschenkelproblemen, Julia Glaser mit Rückenproblemen, Julia Mickenhagen mit Hüftproblemen und Reena Wichmann mit Knieproblemen.",
+    "Fabienne Dongus war erkältet, Rosa Rückert ist im Aufbautraining. Die 16-jährige Hecke und Norman gaben ihr Bundesliga-Debüt."
+   ],
+   "kickbase": "Rall hat drei Saisontore. Ob sie am Samstag gegen Frankfurt zurückkehrt, ist offen.",
+   "quellen": [
+    {
+     "name": "VfB Stuttgart",
+     "url": "https://www.vfb.de/de/vfb/frauen/vfb-frauen-i/frauen-bundesliga/2627/7-bayern-frauen---vfb-stuttgart-frauen-i/"
+    }
+   ],
+   "foto": "fotos/maximiliane-rall.jpg",
+   "foto_credit": {
+    "autor": "Hameltion",
+    "lizenz": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:NC_Courage_vs_Chicago_Red_Stars_(Jun_2024)_092.jpg"
+   },
+   "pid": "00337"
+  },
+  {
+   "id": "ziemer-1910",
+   "zeit": "2026-10-19",
+   "spielerin": "Taylor Ziemer",
+   "verein": "1. FC Köln",
+   "nr": "",
+   "pos": "MF",
+   "tags": [
+    "VERLETZUNG"
+   ],
+   "headline": "Ziemer muskulär angeschlagen, Carlson gibt Entwarnung",
+   "text": [
+    "Taylor Ziemer sollte gegen den HSV in der Startelf stehen, sagte nach dem Aufwärmen aber wegen muskulärer Probleme ab. Trainerin Carlson stuft die Verletzung als nicht schlimm ein.",
+    "Ziemer hatte zuvor eine Gehirnerschütterung aus dem Freiburg-Spiel auskuriert."
+   ],
+   "kickbase": "Fraglich für Wolfsburg. Ist sie fit, ist sie eine Kandidatin für das Mittelfeld.",
+   "quellen": [
+    {
+     "name": "Geissblog",
+     "url": "https://geissblog.koeln/2026/10/wie-rotation-als-dauerzustand-zum-erfolgsfaktor-wird"
+    }
+   ],
+   "status": "fraglich",
+   "pid": "00204"
+  },
+  {
+   "id": "gmeineder-1910",
+   "zeit": "2026-10-19",
+   "spielerin": "Marie Gmeineder",
+   "verein": "Werder Bremen",
+   "nr": "",
+   "pos": "MF",
+   "tags": [
+    "VERLETZUNG"
+   ],
+   "headline": "Gmeineder und Ernst unter den Erkrankten",
+   "text": [
+    "Bei Werder sind Marie Gmeineder und Sarah Ernst namentlich unter den erkrankten Spielerinnen. Die weiteren Namen hat der Verein nicht veröffentlicht.",
+    "Laut Weser-Kurier waren am Wochenende mindestens acht Spielerinnen krank und fünf verletzt. Eine erneute Absage gilt im Verein als sehr unwahrscheinlich."
+   ],
+   "kickbase": "Beide sind für Sonntag fraglich.",
+   "quellen": [
+    {
+     "name": "Weser-Kurier",
+     "url": "https://www.weser-kurier.de/werder/frauen/werder-bremen-wie-die-frauen-mit-der-krankheitswelle-umgehen-doc883ifwl1is916unlh4i7"
+    }
+   ],
+   "pid": "00044"
+  },
+  {
+   "id": "aufstellung-rbl-2310",
+   "zeit": "2026-10-23T17:40",
+   "spielerin": "Spielansetzung",
+   "verein": "RB Leipzig",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "TOP"
+   ],
+   "headline": "Offizielle Aufstellung: RB Leipzig gegen FC Bayern",
+   "text": [],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306259/rb-leipzig_bayern-muenchen/aufstellung"
+    }
+   ],
+   "aufstellung": {
+    "gegner": "FC Bayern",
+    "startelf": [
+     {
+      "n": "Herzog",
+      "p": "TW"
+     },
+     {
+      "n": "Mathys",
+      "p": "ABW"
+     },
+     {
+      "n": "Dudek",
+      "p": "ABW"
+     },
+     {
+      "n": "Mertens",
+      "p": "MF"
+     },
+     {
+      "n": "Tuin",
+      "p": "ABW"
+     },
+     {
+      "n": "Starke",
+      "p": "ST",
+      "f": "neu"
+     },
+     {
+      "n": "Pusztai",
+      "p": "MF"
+     },
+     {
+      "n": "Ásgeirsdóttir",
+      "p": "ST"
+     },
+     {
+      "n": "Simonsson",
+      "p": "ST",
+      "f": "neu"
+     },
+     {
+      "n": "Hulst",
+      "p": "ST",
+      "f": "neu"
+     },
+     {
+      "n": "Boboy",
+      "p": "ST"
+     }
+    ],
+    "bank": [
+     {
+      "n": "Lindner",
+      "p": "TW"
+     },
+     {
+      "n": "Waldbillig",
+      "p": "TW"
+     },
+     {
+      "n": "Veefkind",
+      "p": "ABW"
+     },
+     {
+      "n": "Norheim",
+      "p": "MF",
+      "f": "raus"
+     },
+     {
+      "n": "van Dijk",
+      "p": "ST"
+     },
+     {
+      "n": "Schimmer",
+      "p": "ST",
+      "f": "raus"
+     },
+     {
+      "n": "Pfister",
+      "p": "ST",
+      "f": "raus"
+     }
+    ],
+    "fehlt": []
+   }
+  },
+  {
+   "id": "aufstellung-fcb-2310",
+   "zeit": "2026-10-23T17:40",
+   "spielerin": "Spielansetzung",
+   "verein": "FC Bayern",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "TOP"
+   ],
+   "headline": "Offizielle Aufstellung: FC Bayern gegen RB Leipzig",
+   "text": [],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306259/rb-leipzig_bayern-muenchen/aufstellung"
+    }
+   ],
+   "aufstellung": {
+    "gegner": "RB Leipzig",
+    "startelf": [
+     {
+      "n": "Mahmutovic",
+      "p": "TW"
+     },
+     {
+      "n": "Naschenweng",
+      "p": "ABW",
+      "f": "neu"
+     },
+     {
+      "n": "Viggósdóttir",
+      "p": "ABW"
+     },
+     {
+      "n": "Eriksson",
+      "p": "ABW",
+      "f": "neu"
+     },
+     {
+      "n": "Kett",
+      "p": "ABW"
+     },
+     {
+      "n": "Amani",
+      "p": "MF",
+      "f": "neu"
+     },
+     {
+      "n": "Tanikawa",
+      "p": "MF"
+     },
+     {
+      "n": "Alara",
+      "p": "MF",
+      "f": "neu"
+     },
+     {
+      "n": "Harder",
+      "p": "ST"
+     },
+     {
+      "n": "Bühl",
+      "p": "ST"
+     },
+     {
+      "n": "Proost",
+      "p": "MF",
+      "f": "neu"
+     }
+    ],
+    "bank": [
+     {
+      "n": "van Eijk",
+      "p": "TW"
+     },
+     {
+      "n": "Gilles",
+      "p": "ABW",
+      "f": "neu"
+     },
+     {
+      "n": "Ballisager",
+      "p": "ABW",
+      "f": "raus"
+     },
+     {
+      "n": "Dallmann",
+      "p": "MF",
+      "f": "raus"
+     },
+     {
+      "n": "Dunst",
+      "p": "MF"
+     },
+     {
+      "n": "Zadrazil",
+      "p": "MF",
+      "f": "raus"
+     },
+     {
+      "n": "Mattner-Trembleau",
+      "p": "ST",
+      "f": "raus"
+     },
+     {
+      "n": "Potsi",
+      "p": "ST"
+     },
+     {
+      "n": "Imade",
+      "p": "ST",
+      "f": "raus"
+     }
+    ],
+    "fehlt": []
+   }
+  }
+ ]
+}

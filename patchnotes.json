@@ -1,0 +1,14 @@
+{
+  "stand": "2026-10-25T21:30",
+  "eintraege": [
+    {
+      "version": "0.1",
+      "datum": "2026-10-25",
+      "titel": "Start der App-Version",
+      "aenderungen": [
+        "Ticker-Daten liegen jetzt auf einem eigenen Server und sind für die App abrufbar",
+        "Neuer Bereich Patches: hier steht künftig, was sich mit jedem Update ändert"
+      ]
+    }
+  ]
+}
