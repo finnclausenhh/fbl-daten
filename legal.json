@@ -20,15 +20,7 @@
    },
    {
     "typ": "p",
-    "text": "Weitere Postfächer für Korrekturen, Datenschutz und Rechtefragen stehen unter Kontakt."
-   },
-   {
-    "typ": "h2",
-    "text": "Umsatzsteuer"
-   },
-   {
-    "typ": "p",
-    "text": "Umsatzsteuer-Identifikationsnummer gemäß § 27a UStG: [DE … (nur angeben, falls vorhanden)]"
+    "text": "Adressen für Korrekturen und Datenschutz stehen unter Kontakt."
    },
    {
     "typ": "h2",
@@ -194,7 +186,7 @@
   "bloecke": [
    {
     "typ": "p",
-    "text": "Für jedes Anliegen gibt es ein eigenes Postfach, damit nichts liegen bleibt."
+    "text": "Drei Adressen, ein Postfach: Alle Nachrichten landen an derselben Stelle, die Adresse hilft nur beim Sortieren."
    },
    {
     "typ": "p",
@@ -202,27 +194,19 @@
    },
    {
     "typ": "p",
-    "text": "**Allgemeiner Kontakt** Fragen zu WOSOINSIDER und alles, was in keine andere Schublade passt. \nkontakt@wosoinsider.de"
+    "text": "**Kontakt und Feedback** Fragen zu WOSOINSIDER, Wünsche für neue Funktionen und alles andere.\nkontakt@wosoinsider.deKopieren"
    },
    {
     "typ": "p",
-    "text": "**Redaktionelle Hinweise und Korrekturen** Fehler in einer Meldung oder Aufstellung, neue Informationen zu Verletzungen, Sperren oder Rückkehr. Bitte mit Link zur Quelle. \nredaktion@wosoinsider.de"
+    "text": "**Hinweise und Korrekturen** Fehler in einer Meldung oder Aufstellung, neue Informationen zu Verletzungen, Sperren oder Rückkehr. Bitte mit Link zur Quelle.\nredaktion@wosoinsider.deKopieren"
    },
    {
     "typ": "p",
-    "text": "**Anregungen und Feedback** Wünsche für neue Funktionen, Kategorien oder Vereine. \nanregungen@wosoinsider.de"
+    "text": "**Datenschutz und Rechte** Auskunft, Berichtigung oder Löschung personenbezogener Daten sowie Fragen zu Bild- und Markenrechten.\ndatenschutz@wosoinsider.deKopieren"
    },
    {
     "typ": "p",
-    "text": "**Datenschutz** Auskunft, Berichtigung oder Löschung personenbezogener Daten. \ndatenschutz@wosoinsider.de"
-   },
-   {
-    "typ": "p",
-    "text": "**Bild- und Markenrechte** Rechteinhaber, die eine Nutzung prüfen oder eine Entfernung verlangen möchten. \nrechte@wosoinsider.de"
-   },
-   {
-    "typ": "p",
-    "text": "Postanschrift und Telefon stehen im Impressum."
+    "text": "Die Postanschrift steht im Impressum."
    }
   ]
  },
