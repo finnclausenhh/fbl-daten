@@ -32,7 +32,8 @@
   "id": "00047",
   "breite": 1080,
   "hoehe": 1612,
-  "jahr": 2024
+  "jahr": 2024,
+  "portrait": "fotos/portrait/lilli-purtscheller.jpg"
  },
  "Lina Hausicke": {
   "datei": "fotos/lina-hausicke.jpg",
@@ -52,7 +53,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:2014-10-11_-_Fu%C3%9Fball_1._Bundesliga_-_FF_USV_Jena_vs._TSG_1899_Hoffenheim_IMG_4232_LR7,5.jpg",
   "id": "00032",
   "breite": 330,
-  "jahr": 2014
+  "jahr": 2014,
+  "portrait": "fotos/portrait/vanessa-fischer.jpg"
  },
  "Franziska Kett": {
   "datei": "fotos/franziska-kett.jpg",
@@ -62,7 +64,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:20230329-Franziska_Kett.jpg",
   "id": "00011",
   "breite": 330,
-  "jahr": 2023
+  "jahr": 2023,
+  "portrait": "fotos/portrait/franziska-kett.jpg"
  },
  "Magou Doucouré": {
   "datei": "fotos/magou-doucoure.jpg",
@@ -84,7 +87,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:2023-06-26_Fussball,_Frauen,_Deutsche_Nationalmannschaft,_Media_Day_1DX_6378_by_Stepro.jpg",
   "id": "00188",
   "breite": 330,
-  "jahr": 2023
+  "jahr": 2023,
+  "portrait": "fotos/portrait/marina-hegering.jpg"
  },
  "Lisa Schmitz": {
   "datei": "fotos/lisa-schmitz.jpg",
@@ -94,7 +98,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:Lisa_Schmitz_2009.jpg",
   "id": "00181",
   "breite": 330,
-  "jahr": 2009
+  "jahr": 2009,
+  "portrait": "fotos/portrait/lisa-schmitz.jpg"
  },
  "Kathrin Hendrich": {
   "datei": "fotos/kathrin-hendrich.jpg",
@@ -105,7 +110,8 @@
   "id": "00189",
   "breite": 1080,
   "hoehe": 1080,
-  "jahr": 2021
+  "jahr": 2021,
+  "portrait": "fotos/portrait/kathrin-hendrich.jpg"
  },
  "Laura Benkarth": {
   "datei": "fotos/laura-benkarth.jpg",
@@ -116,7 +122,8 @@
   "id": "00084",
   "breite": 1080,
   "hoehe": 1620,
-  "jahr": 2017
+  "jahr": 2017,
+  "portrait": "fotos/portrait/laura-benkarth.jpg"
  },
  "Lena Petermann": {
   "datei": "fotos/lena-petermann.jpg",
@@ -126,7 +133,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:Lena_Petermann_FIFA_Women%27s_World_Cup_Canada_2015_-_Edmonton_(19441949965)_(2)_(cropped).jpg",
   "id": "00053",
   "breite": 330,
-  "jahr": 2015
+  "jahr": 2015,
+  "portrait": "fotos/portrait/lena-petermann.jpg"
  },
  "Linda Dallmann": {
   "datei": "fotos/linda-dallmann.jpg",
@@ -147,7 +155,8 @@
   "id": "00348",
   "breite": 330,
   "jahr": 2018,
-  "trikot_alt": true
+  "trikot_alt": true,
+  "portrait": "fotos/portrait/reena-wichmann.jpg"
  },
  "Vanessa Fudalla": {
   "datei": "fotos/vanessa-fudalla.jpg",
@@ -158,7 +167,8 @@
   "id": "00258",
   "breite": 1080,
   "hoehe": 1080,
-  "jahr": 2019
+  "jahr": 2019,
+  "portrait": "fotos/portrait/vanessa-fudalla.jpg"
  },
  "Anna-Lena Stolze": {
   "datei": "fotos/anna-lena-stolze.jpg",
@@ -168,7 +178,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:20160319_U17W_GERSUI_9159.jpg",
   "id": "00210",
   "breite": 330,
-  "jahr": 2016
+  "jahr": 2016,
+  "portrait": "fotos/portrait/anna-lena-stolze.jpg"
  },
  "Amanda Ilestedt": {
   "datei": "fotos/amanda-ilestedt.jpg",
@@ -178,7 +189,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:Amanda_Ilestedt.jpg",
   "id": "00062",
   "breite": 330,
-  "jahr": 2013
+  "jahr": 2013,
+  "portrait": "fotos/portrait/amanda-ilestedt.jpg"
  },
  "Viktoria Schwalm": {
   "datei": "fotos/viktoria-schwalm.jpg",
@@ -188,7 +200,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:2015-09-13_1.FFC_Frankfurt_vs_1.FFC_Turbine_Potsdam_Viktoria_Schwalm_002.jpg",
   "id": "00174",
   "breite": 330,
-  "jahr": 2015
+  "jahr": 2015,
+  "portrait": "fotos/portrait/viktoria-schwalm.jpg"
  },
  "Anna Gerhardt": {
   "datei": "fotos/anna-gerhardt.jpg",
@@ -209,7 +222,8 @@
   "id": "00077",
   "breite": 1080,
   "hoehe": 1080,
-  "jahr": 2023
+  "jahr": 2023,
+  "portrait": "fotos/portrait/laura-freigang.jpg"
  },
  "Giulia Gwinn": {
   "datei": "fotos/giulia-gwinn.jpg",
@@ -220,7 +234,8 @@
   "id": "00009",
   "breite": 1080,
   "hoehe": 1080,
-  "jahr": 2022
+  "jahr": 2022,
+  "portrait": "fotos/portrait/giulia-gwinn.jpg"
  },
  "Klara Bühl": {
   "datei": "fotos/klara-buhl.jpg",
@@ -230,7 +245,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:2023-06-26_Fussball,_Frauen,_Deutsche_Nationalmannschaft,_Media_Day_1DX_6335_by_Stepro.jpg",
   "id": "00023",
   "breite": 330,
-  "jahr": 2023
+  "jahr": 2023,
+  "portrait": "fotos/portrait/klara-buhl.jpg"
  },
  "Laura Giuliani": {
   "datei": "fotos/laura-giuliani.jpg",
@@ -252,7 +268,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:2014-03-29_Nl17_Jana_Vojtekov%C3%A1_4750_crop.jpg",
   "id": "00097",
   "breite": 330,
-  "jahr": 2014
+  "jahr": 2014,
+  "portrait": "fotos/portrait/jana-vojtekova.jpg"
  },
  "Lisa Lichtfus": {
   "datei": "fotos/lisa-lichtfus.jpg",
@@ -263,7 +280,8 @@
   "id": "00120",
   "breite": 1080,
   "hoehe": 1081,
-  "jahr": 2022
+  "jahr": 2022,
+  "portrait": "fotos/portrait/lisa-lichtfus.jpg"
  },
  "Svenja Fölmli": {
   "datei": "fotos/svenja-folmli.jpg",
@@ -273,7 +291,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:2022-06-24_Fussball,_Frauen,_L%C3%A4nderspiel,_Deutschland_-_Schweiz_IMG_5916_by_Stepro.jpg",
   "id": "00141",
   "breite": 330,
-  "jahr": 2022
+  "jahr": 2022,
+  "portrait": "fotos/portrait/svenja-folmli.jpg"
  },
  "Smilla Vallotto": {
   "datei": "fotos/smilla-vallotto.jpg",
@@ -283,7 +302,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:Smilla_Vallotto_vs_Italy_St.Gallen_2023.jpg",
   "id": "00407",
   "breite": 330,
-  "jahr": 2023
+  "jahr": 2023,
+  "portrait": "fotos/portrait/smilla-vallotto.jpg"
  },
  "Noemi Ivelj": {
   "datei": "fotos/noemi-ivelj.jpg",
@@ -293,7 +313,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:Noemi_Ivelj.png",
   "id": "00063",
   "breite": 330,
-  "jahr": 2025
+  "jahr": 2025,
+  "portrait": "fotos/portrait/noemi-ivelj.jpg"
  },
  "Greta Stegemann": {
   "datei": "fotos/greta-stegemann.jpg",
@@ -303,7 +324,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:Greta_Stegemann_20190505.jpg",
   "id": "00339",
   "breite": 330,
-  "jahr": 2019
+  "jahr": 2019,
+  "portrait": "fotos/portrait/greta-stegemann.jpg"
  },
  "Carina Brunold": {
   "datei": "fotos/carina-brunold.jpg",
@@ -313,7 +335,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:2025-02-25_Fussball,_UEFA_Women%27s_Nations_League,_Deutschland_-_%C3%96sterreich_STP_0100.jpg",
   "id": "00112",
   "breite": 330,
-  "jahr": 2025
+  "jahr": 2025,
+  "portrait": "fotos/portrait/carina-brunold.jpg"
  },
  "Nia Szenk": {
   "datei": "fotos/nia-szenk.jpg",
@@ -323,7 +346,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:Nia_Szenk.jpg",
   "id": "00096",
   "breite": 330,
-  "jahr": 2022
+  "jahr": 2022,
+  "portrait": "fotos/portrait/nia-szenk.jpg"
  },
  "Luna Vanzeir": {
   "datei": "fotos/luna-vanzeir.jpg",
@@ -344,7 +368,8 @@
   "id": "00109",
   "breite": 1080,
   "hoehe": 1699,
-  "jahr": 2022
+  "jahr": 2022,
+  "portrait": "fotos/portrait/sabah-seghir.jpg"
  },
  "Laura Feiersinger": {
   "datei": "fotos/laura-feiersinger.jpg",
@@ -364,7 +389,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:20170803_WEURO_DEN_AUT_0371.jpg",
   "id": "00022",
   "breite": 330,
-  "jahr": 2017
+  "jahr": 2017,
+  "portrait": "fotos/portrait/sarah-zadrazil.jpg"
  },
  "Marina Georgieva": {
   "datei": "fotos/marina-georgieva.jpg",
@@ -374,7 +400,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:20150812_U19W_AUTNOR_Marina_Georgieva_2929.jpg",
   "id": "00274",
   "breite": 330,
-  "jahr": 2015
+  "jahr": 2015,
+  "portrait": "fotos/portrait/marina-georgieva.jpg"
  },
  "Jarne Teulings": {
   "datei": "fotos/jarne-teulings.jpg",
@@ -384,7 +411,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:BEL_ITA_free_kick_Teulings_(cropped).png",
   "id": "00074",
   "breite": 330,
-  "jahr": 2025
+  "jahr": 2025,
+  "portrait": "fotos/portrait/jarne-teulings.jpg"
  },
  "Sophie Proost": {
   "datei": "fotos/sophie-proost.jpg",
@@ -396,7 +424,8 @@
   "breite": 1080,
   "hoehe": 1778,
   "jahr": 2025,
-  "gross": true
+  "gross": true,
+  "portrait": "fotos/portrait/sophie-proost.jpg"
  },
  "Sophia Kleinherne": {
   "datei": "fotos/sophia-kleinherne.jpg",
@@ -407,7 +436,8 @@
   "id": "00395",
   "breite": 1080,
   "hoehe": 1080,
-  "jahr": 2023
+  "jahr": 2023,
+  "portrait": "fotos/portrait/sophia-kleinherne.jpg"
  },
  "Lena Oberdorf": {
   "datei": "fotos/lena-oberdorf.jpg",
@@ -418,7 +448,8 @@
   "id": "00019",
   "breite": 1080,
   "hoehe": 1080,
-  "jahr": 2023
+  "jahr": 2023,
+  "portrait": "fotos/portrait/lena-oberdorf.jpg"
  },
  "Juliane Wirtz": {
   "datei": "fotos/juliane-wirtz.jpg",
@@ -428,7 +459,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:Juliane_Wirtz_20190915.jpg",
   "id": "00048",
   "breite": 330,
-  "jahr": 2019
+  "jahr": 2019,
+  "portrait": "fotos/portrait/juliane-wirtz.jpg"
  },
  "Sara Doorsoun": {
   "datei": "fotos/sara-doorsoun.jpg",
@@ -450,7 +482,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:Saskia_Matheis_20210418.JPG",
   "id": "00287",
   "breite": 330,
-  "jahr": 2021
+  "jahr": 2021,
+  "portrait": "fotos/portrait/saskia-matheis.jpg"
  },
  "Pernille Harder": {
   "datei": "fotos/pernille-harder.jpg",
@@ -460,7 +493,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:20170706_OEFB_AUT-DEN_Pernille_Harder_DSC_8228.jpg",
   "id": "00025",
   "breite": 330,
-  "jahr": 2017
+  "jahr": 2017,
+  "portrait": "fotos/portrait/pernille-harder.jpg"
  },
  "Caroline Siems": {
   "datei": "fotos/caroline-siems.jpg",
@@ -470,7 +504,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:20160319_U17W_GERSUI_9147.jpg",
   "id": "00038",
   "breite": 330,
-  "jahr": 2016
+  "jahr": 2016,
+  "portrait": "fotos/portrait/caroline-siems.jpg"
  },
  "Meret Felde": {
   "datei": "fotos/meret-felde.jpg",
@@ -480,7 +515,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:2021-10-10_Fu%C3%9Fball,_Flyeralarm_Frauen-Bundesliga,_FC_Carl_Zeiss_Jena_-_SC_Freiburg_1DX_7006_by_Stepro.jpg",
   "id": "00103",
   "breite": 330,
-  "jahr": 2021
+  "jahr": 2021,
+  "portrait": "fotos/portrait/meret-felde.jpg"
  },
  "Dina Orschmann": {
   "datei": "fotos/dina-orschmann.jpg",
@@ -490,7 +526,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:Dina_Orschmann.jpg",
   "id": "00385",
   "breite": 330,
-  "jahr": 2024
+  "jahr": 2024,
+  "portrait": "fotos/portrait/dina-orschmann.jpg"
  },
  "Sophie Weidauer": {
   "datei": "fotos/sophie-weidauer.jpg",
@@ -500,7 +537,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:2023-09-16_Fussball,_Google_Pixel_Frauen-Bundesliga,_1._FC_N%C3%BCrnberg_-_SV_Werder_Bremen_1DX_1978_by_Stepro.jpg",
   "id": "00387",
   "breite": 330,
-  "jahr": 2023
+  "jahr": 2023,
+  "portrait": "fotos/portrait/sophie-weidauer.jpg"
  },
  "Lou-Ann Joly": {
   "datei": "fotos/lou-ann-joly.jpg",
@@ -531,7 +569,8 @@
   "id": "00291",
   "breite": 1080,
   "hoehe": 1720,
-  "jahr": 2016
+  "jahr": 2016,
+  "portrait": "fotos/portrait/nadine-anstatt.jpg"
  },
  "Elena Dhont": {
   "datei": "fotos/elena-dhont.jpg",
@@ -542,7 +581,8 @@
   "id": "00050",
   "breite": 1080,
   "hoehe": 1374,
-  "jahr": 2024
+  "jahr": 2024,
+  "portrait": "fotos/portrait/elena-dhont.jpg"
  },
  "Therese Simonsson": {
   "datei": "fotos/therese-simonsson.jpg",
@@ -552,7 +592,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:Therese_Simonsson_(cropped).png",
   "id": "00235",
   "breite": 330,
-  "jahr": 2024
+  "jahr": 2024,
+  "portrait": "fotos/portrait/therese-simonsson.jpg"
  },
  "Anna Klink": {
   "datei": "fotos/anna-klink.jpg",
@@ -562,7 +603,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:Anna_Klink_20201206.jpg",
   "id": "00002",
   "breite": 330,
-  "jahr": 2020
+  "jahr": 2020,
+  "portrait": "fotos/portrait/anna-klink.jpg"
  },
  "Sandra Starke": {
   "datei": "fotos/sandra-starke.jpg",
@@ -572,7 +614,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:Sandra_Starke_20190505.jpg",
   "id": "00236",
   "breite": 330,
-  "jahr": 2019
+  "jahr": 2019,
+  "portrait": "fotos/portrait/sandra-starke.jpg"
  },
  "Fabienne Dongus": {
   "datei": "fotos/fabienne-dongus.jpg",
@@ -582,7 +625,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:2021-06-15_Fussball,_Frauen,_L%C3%A4nderspiel,_Deutschland_-_Chile_1DX_4988_by_Stepro.jpg",
   "id": "00342",
   "breite": 330,
-  "jahr": 2021
+  "jahr": 2021,
+  "portrait": "fotos/portrait/fabienne-dongus.jpg"
  },
  "Tamar Dongus": {
   "datei": "fotos/tamar-dongus.jpg",
@@ -592,7 +636,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:Tamar_Dongus_2014_(cropped).jpg",
   "id": "00331",
   "breite": 330,
-  "jahr": 2014
+  "jahr": 2014,
+  "portrait": "fotos/portrait/tamar-dongus.jpg"
  },
  "Maximiliane Rall": {
   "datei": "fotos/maximiliane-rall.jpg",
@@ -614,7 +659,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:Chelsea_FC_Women_v_Everton_FC_Women,_12_September_2021_(13)_(cropped).jpg",
   "id": "00007",
   "breite": 330,
-  "jahr": 2021
+  "jahr": 2021,
+  "portrait": "fotos/portrait/magdalena-eriksson.jpg"
  },
  "Hayley Raso": {
   "datei": "fotos/hayley-raso.jpg",
@@ -624,7 +670,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:20240124-Hayley_Raso.jpg",
   "id": "00081",
   "breite": 330,
-  "jahr": 2024
+  "jahr": 2024,
+  "portrait": "fotos/portrait/hayley-raso.jpg"
  },
  "Barbara Dunst": {
   "datei": "fotos/barbara-dunst.jpg",
@@ -634,7 +681,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:20151007_UWCL_St._P%C3%B6lten-Spratzern_-_ASD_CF_Verona_4992.jpg",
   "id": "00018",
   "breite": 330,
-  "jahr": 2015
+  "jahr": 2015,
+  "portrait": "fotos/portrait/barbara-dunst.jpg"
  },
  "Annabel Schasching": {
   "datei": "fotos/annabel-schasching.jpg",
@@ -654,7 +702,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:Vanessa_Gilles_2022-01_(cropped).jpg",
   "id": "00008",
   "breite": 330,
-  "jahr": 2022
+  "jahr": 2022,
+  "portrait": "fotos/portrait/vanessa-gilles.jpg"
  },
  "Lisa Karl": {
   "datei": "fotos/lisa-karl.jpg",
@@ -664,7 +713,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:Lisa_Karl_20190505.jpg",
   "id": "00091",
   "breite": 330,
-  "jahr": 2019
+  "jahr": 2019,
+  "portrait": "fotos/portrait/lisa-karl.jpg"
  },
  "Janina Minge": {
   "datei": "fotos/janina-minge.jpg",
@@ -675,7 +725,8 @@
   "id": "00404",
   "breite": 1080,
   "hoehe": 1080,
-  "jahr": 2023
+  "jahr": 2023,
+  "portrait": "fotos/portrait/janina-minge.jpg"
  },
  "Jana Kappes": {
   "datei": "fotos/jana-kappes.jpg",
@@ -685,7 +736,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:Jana_Kappes_20180513.jpg",
   "id": "00010",
   "breite": 330,
-  "jahr": 2018
+  "jahr": 2018,
+  "portrait": "fotos/portrait/jana-kappes.jpg"
  },
  "Selina Ostermeier": {
   "datei": "fotos/selina-ostermeier.jpg",
@@ -695,7 +747,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:Selina_Ostermeier_20190823.jpg",
   "id": "00246",
   "breite": 330,
-  "jahr": 2019
+  "jahr": 2019,
+  "portrait": "fotos/portrait/selina-ostermeier.jpg"
  },
  "Sofie Lundgaard": {
   "datei": "fotos/sofie-lundgaard.jpg",
@@ -705,7 +758,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:20241006-Sofie_Lundgaard.jpg",
   "id": "00073",
   "breite": 330,
-  "jahr": 2024
+  "jahr": 2024,
+  "portrait": "fotos/portrait/sofie-lundgaard.jpg"
  },
  "Lilla Turányi": {
   "datei": "fotos/lilla-turanyi.jpg",
@@ -715,7 +769,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:Lilla_Tur%C3%A1nyi_20201206.jpg",
   "id": "00248",
   "breite": 330,
-  "jahr": 2020
+  "jahr": 2020,
+  "portrait": "fotos/portrait/lilla-turanyi.jpg"
  },
  "Amber Tysiak": {
   "datei": "fotos/amber-tysiak.jpg",
@@ -736,7 +791,8 @@
   "id": "00051",
   "breite": 1080,
   "hoehe": 1080,
-  "jahr": 2025
+  "jahr": 2025,
+  "portrait": "fotos/portrait/isabella-jaron.jpg"
  },
  "Michelle Ulbrich": {
   "datei": "fotos/michelle-ulbrich.jpg",
@@ -747,7 +803,8 @@
   "id": "00040",
   "breite": 1080,
   "hoehe": 1080,
-  "jahr": 2023
+  "jahr": 2023,
+  "portrait": "fotos/portrait/michelle-ulbrich.jpg"
  },
  "Giovanna Hoffmann": {
   "datei": "fotos/giovanna-hoffmann.jpg",
@@ -758,7 +815,8 @@
   "id": "00410",
   "breite": 1080,
   "hoehe": 1080,
-  "jahr": 2025
+  "jahr": 2025,
+  "portrait": "fotos/portrait/giovanna-hoffmann.jpg"
  },
  "Nina Lührßen": {
   "datei": "fotos/nina-luhren.jpg",
@@ -768,7 +826,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:2023-09-16_Fussball,_Google_Pixel_Frauen-Bundesliga,_1._FC_N%C3%BCrnberg_-_SV_Werder_Bremen_1DX_1920_by_Stepro.jpg",
   "id": "00064",
   "breite": 330,
-  "jahr": 2023
+  "jahr": 2023,
+  "portrait": "fotos/portrait/nina-luhren.jpg"
  },
  "Martina Tufeković": {
   "datei": "fotos/martina-tufekovic.jpg",
@@ -779,7 +838,8 @@
   "id": "00391",
   "breite": 1080,
   "hoehe": 1620,
-  "jahr": 2014
+  "jahr": 2014,
+  "portrait": "fotos/portrait/martina-tufekovic.jpg"
  },
  "Andrea Norheim": {
   "datei": "fotos/andrea-norheim.jpg",
@@ -790,7 +850,8 @@
   "id": "00226",
   "breite": 1080,
   "hoehe": 1768,
-  "jahr": 2016
+  "jahr": 2016,
+  "portrait": "fotos/portrait/andrea-norheim.jpg"
  },
  "Alieke Tuin": {
   "datei": "fotos/alieke-tuin.jpg",
@@ -800,7 +861,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:Alieke_Tuin.jpg",
   "id": "00221",
   "breite": 330,
-  "jahr": 2025
+  "jahr": 2025,
+  "portrait": "fotos/portrait/alieke-tuin.jpg"
  },
  "Charlotte Hulst": {
   "datei": "fotos/charlotte-hulst.jpg",
@@ -810,7 +872,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:Charlotte_Hulst.jpg",
   "id": "00231",
   "breite": 330,
-  "jahr": 2025
+  "jahr": 2025,
+  "portrait": "fotos/portrait/charlotte-hulst.jpg"
  },
  "Hanna Bennison": {
   "datei": "fotos/hanna-bennison.jpg",
@@ -831,7 +894,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:Melissa_Friedrich_20181209.jpg",
   "id": "00244",
   "breite": 330,
-  "jahr": 2018
+  "jahr": 2018,
+  "portrait": "fotos/portrait/melissa-friedrich.jpg"
  },
  "Franziska Harsch": {
   "datei": "fotos/franziska-harsch.jpg",
@@ -841,7 +905,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:SAP_Frauen-Fu%C3%9FballCup_2016_-_Franziska_Harsch.jpg",
   "id": "00134",
   "breite": 330,
-  "jahr": 2016
+  "jahr": 2016,
+  "portrait": "fotos/portrait/franziska-harsch.jpg"
  },
  "Regina van Eijk": {
   "datei": "fotos/regina-van-eijk.jpg",
@@ -851,7 +916,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:Ajax-Alkmaar-DSC00692.jpg",
   "id": "00004",
   "breite": 330,
-  "jahr": 2020
+  "jahr": 2020,
+  "portrait": "fotos/portrait/regina-van-eijk.jpg"
  },
  "Lisa Doorn": {
   "datei": "fotos/lisa-doorn.jpg",
@@ -862,7 +928,8 @@
   "id": "00123",
   "breite": 1080,
   "hoehe": 1440,
-  "jahr": 2018
+  "jahr": 2018,
+  "portrait": "fotos/portrait/lisa-doorn.jpg"
  },
  "Katharina Naschenweng": {
   "datei": "fotos/katharina-naschenweng.jpg",
@@ -872,7 +939,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:20150812_U19W_AUTNOR_Katharina_Naschenweng_2923.jpg",
   "id": "00012",
   "breite": 330,
-  "jahr": 2015
+  "jahr": 2015,
+  "portrait": "fotos/portrait/katharina-naschenweng.jpg"
  },
  "Lieske Carleer": {
   "datei": "fotos/lieske-carleer.jpg",
@@ -883,7 +951,8 @@
   "id": "00394",
   "breite": 1080,
   "hoehe": 1369,
-  "jahr": 2025
+  "jahr": 2025,
+  "portrait": "fotos/portrait/lieske-carleer.jpg"
  },
  "Nikée van Dijk": {
   "datei": "fotos/nikee-van-dijk.jpg",
@@ -893,7 +962,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:Nikee_van_Dijk_bij_FC_Twente_(2025).JPG",
   "id": "00237",
   "breite": 330,
-  "jahr": 2025
+  "jahr": 2025,
+  "portrait": "fotos/portrait/nikee-van-dijk.jpg"
  },
  "Erëleta Memeti": {
   "datei": "fotos/ereleta-memeti.jpg",
@@ -903,7 +973,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:2021-10-10_Fu%C3%9Fball,_Flyeralarm_Frauen-Bundesliga,_FC_Carl_Zeiss_Jena_-_SC_Freiburg_1DX_6883_by_Stepro.jpg",
   "id": "00079",
   "breite": 330,
-  "jahr": 2021
+  "jahr": 2021,
+  "portrait": "fotos/portrait/ereleta-memeti.jpg"
  },
  "Verena Wieder": {
   "datei": "fotos/verena-wieder.jpg",
@@ -913,7 +984,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:Verena_Wieder_01.jpg",
   "id": "00356",
   "breite": 330,
-  "jahr": 2017
+  "jahr": 2017,
+  "portrait": "fotos/portrait/verena-wieder.jpg"
  },
  "Ingibjörg Sigurðardóttir": {
   "datei": "fotos/ingibjorg-sigurardottir.jpg",
@@ -924,7 +996,8 @@
   "id": "00094",
   "breite": 1080,
   "hoehe": 1620,
-  "jahr": 2017
+  "jahr": 2017,
+  "portrait": "fotos/portrait/ingibjorg-sigurardottir.jpg"
  },
  "Pauline Bremer": {
   "datei": "fotos/pauline-bremer.jpg",
@@ -935,7 +1008,8 @@
   "id": "00206",
   "breite": 1080,
   "hoehe": 1620,
-  "jahr": 2017
+  "jahr": 2017,
+  "portrait": "fotos/portrait/pauline-bremer.jpg"
  },
  "Kinga Szemik": {
   "datei": "fotos/kinga-szemik.jpg",
@@ -947,7 +1021,8 @@
   "breite": 1080,
   "hoehe": 1620,
   "jahr": 2025,
-  "trikot_alt": true
+  "trikot_alt": true,
+  "portrait": "fotos/portrait/kinga-szemik.jpg"
  },
  "Rebecka Blomqvist": {
   "datei": "fotos/rebecka-blomqvist.jpg",
@@ -957,7 +1032,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:2024-09-14_Fu%C3%9Fball,_Frauen-Bundesliga,_FC_Carl_Zeiss_Jena_-_VfL_Wolfsburg_STP_5139_by_Stepro.jpg",
   "id": "00070",
   "breite": 330,
-  "jahr": 2024
+  "jahr": 2024,
+  "portrait": "fotos/portrait/rebecka-blomqvist.jpg"
  },
  "Judith Steinert": {
   "datei": "fotos/judith-steinert.jpg",
@@ -967,7 +1043,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:Judith_Steinert.jpg",
   "id": "00367",
   "breite": 330,
-  "jahr": 2017
+  "jahr": 2017,
+  "portrait": "fotos/portrait/judith-steinert.jpg"
  },
  "Pia-Sophie Wolter": {
   "datei": "fotos/pia-sophie-wolter.jpg",
@@ -977,7 +1054,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:Pia_Sophie_Wolter_20181118.jpg",
   "id": "00075",
   "breite": 330,
-  "jahr": 2018
+  "jahr": 2018,
+  "portrait": "fotos/portrait/pia-sophie-wolter.jpg"
  },
  "Tanja Pawollek": {
   "datei": "fotos/tanja-pawollek.jpg",
@@ -987,7 +1065,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:Tanja_Pawollek_20190823.jpg",
   "id": "00378",
   "breite": 330,
-  "jahr": 2019
+  "jahr": 2019,
+  "portrait": "fotos/portrait/tanja-pawollek.jpg"
  },
  "Stina Johannes": {
   "datei": "fotos/stina-johannes.jpg",
@@ -998,7 +1077,8 @@
   "id": "00389",
   "breite": 1080,
   "hoehe": 1080,
-  "jahr": 2023
+  "jahr": 2023,
+  "portrait": "fotos/portrait/stina-johannes.jpg"
  },
  "Janina Hechler": {
   "datei": "fotos/janina-hechler.jpg",
@@ -1008,7 +1088,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:Janina_Hechler_20181024.jpg",
   "id": "00333",
   "breite": 330,
-  "jahr": 2018
+  "jahr": 2018,
+  "portrait": "fotos/portrait/janina-hechler.jpg"
  },
  "Laura Sieger": {
   "datei": "fotos/laura-sieger.jpg",
@@ -1018,7 +1099,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:Laura_Sieger_20181209.jpg",
   "id": "00150",
   "breite": 330,
-  "jahr": 2018
+  "jahr": 2018,
+  "portrait": "fotos/portrait/laura-sieger.jpg"
  },
  "Cara Bösl": {
   "datei": "fotos/cara-bosl.jpg",
@@ -1028,7 +1110,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:Cara_Boesl_20190823.jpg",
   "id": "00358",
   "breite": 330,
-  "jahr": 2019
+  "jahr": 2019,
+  "portrait": "fotos/portrait/cara-bosl.jpg"
  },
  "Elvira Herzog": {
   "datei": "fotos/elvira-herzog.jpg",
@@ -1038,7 +1121,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:20160319_U17W_GERSUI_9178.jpg",
   "id": "00213",
   "breite": 330,
-  "jahr": 2016
+  "jahr": 2016,
+  "portrait": "fotos/portrait/elvira-herzog.jpg"
  },
  "Lara Marti": {
   "datei": "fotos/lara-marti.jpg",
@@ -1048,7 +1132,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:20160319_U17W_GERSUI_9198.jpg",
   "id": "00218",
   "breite": 330,
-  "jahr": 2016
+  "jahr": 2016,
+  "portrait": "fotos/portrait/lara-marti.jpg"
  },
  "Julia Stierli": {
   "datei": "fotos/julia-stierli.jpg",
@@ -1058,7 +1143,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:Julia_Stierli_by_Frank_Haug.JPG",
   "id": "00095",
   "breite": 330,
-  "jahr": 2022
+  "jahr": 2022,
+  "portrait": "fotos/portrait/julia-stierli.jpg"
  },
  "Weronika Zawistowska": {
   "datei": "fotos/weronika-zawistowska.jpg",
@@ -1078,7 +1164,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:Sara_Pusztai_Be%C5%9Fikta%C5%9F_28Ock2024_2023-24_18._Hafta_Ma%C3%A7%C4%B1_(cropped).jpg",
   "id": "00227",
   "breite": 330,
-  "jahr": 2024
+  "jahr": 2024,
+  "portrait": "fotos/portrait/sara-pusztai.jpg"
  },
  "Nigar Mirzaliyeva": {
   "datei": "fotos/nigar-mirzaliyeva.jpg",
@@ -1088,7 +1175,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:Nigar_Mirz%C9%99liyeva_in_Saint_Petersburg,_Russia_(March_27,_2025).jpg",
   "id": "00157",
   "breite": 330,
-  "jahr": 2025
+  "jahr": 2025,
+  "portrait": "fotos/portrait/nigar-mirzaliyeva.jpg"
  },
  "Inga Schuldt": {
   "datei": "fotos/inga-schuldt.jpg",
@@ -1099,7 +1187,8 @@
   "id": "00182",
   "breite": 1080,
   "hoehe": 1080,
-  "jahr": 2019
+  "jahr": 2019,
+  "portrait": "fotos/portrait/inga-schuldt.jpg"
  },
  "Michelle Weiß": {
   "datei": "fotos/michelle-wei.jpg",
@@ -1110,7 +1199,8 @@
   "id": "00041",
   "breite": 1080,
   "hoehe": 1620,
-  "jahr": 2023
+  "jahr": 2023,
+  "portrait": "fotos/portrait/michelle-wei.jpg"
  },
  "Sanja Homann": {
   "datei": "fotos/sanja-homann.jpg",
@@ -1118,7 +1208,8 @@
   "lizenz": "CC BY-SA 4.0",
   "lizenz_url": "https://creativecommons.org/licenses/by-sa/4.0",
   "quelle": "https://commons.wikimedia.org/wiki/File:Sanja_Homann_during_her_Bundesliga_debut_with_ClubFrauen.jpg",
-  "id": "00313"
+  "id": "00313",
+  "portrait": "fotos/portrait/sanja-homann.jpg"
  },
  "Nina Räcke": {
   "datei": "fotos/nina-racke.jpg",
@@ -1138,7 +1229,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:2025-02-25_Fussball,_UEFA_Women%27s_Nations_League,_Deutschland_-_%C3%96sterreich_STP_0208.jpg",
   "id": "00250",
   "breite": 330,
-  "jahr": 2025
+  "jahr": 2025,
+  "portrait": "fotos/portrait/claudia-wenger.jpg"
  },
  "Julia Pollak": {
   "datei": "fotos/julia-pollak.jpg",
@@ -1148,7 +1240,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:Julia_Pollak_20200906.jpg",
   "id": "00305",
   "breite": 330,
-  "jahr": 2020
+  "jahr": 2020,
+  "portrait": "fotos/portrait/julia-pollak.jpg"
  },
  "Chiara Hahn": {
   "datei": "fotos/chiara-hahn.jpg",
@@ -1158,7 +1251,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:2023-09-16_Fussball,_Google_Pixel_Frauen-Bundesliga,_1._FC_N%C3%BCrnberg_-_SV_Werder_Bremen_1DX_1912_by_Stepro.jpg",
   "id": "00133",
   "breite": 330,
-  "jahr": 2023
+  "jahr": 2023,
+  "portrait": "fotos/portrait/chiara-hahn.jpg"
  },
  "Gentiana Fetaj": {
   "datei": "fotos/gentiana-fetaj.jpg",
@@ -1178,7 +1272,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:2021-10-10_Fu%C3%9Fball,_Flyeralarm_Frauen-Bundesliga,_FC_Carl_Zeiss_Jena_-_SC_Freiburg_1DX_6832_by_Stepro.jpg",
   "id": "00101",
   "breite": 330,
-  "jahr": 2021
+  "jahr": 2021,
+  "portrait": "fotos/portrait/luca-emily-birkholz.jpg"
  },
  "Camilla Küver": {
   "datei": "fotos/camilla-kuver.jpg",
@@ -1190,7 +1285,8 @@
   "breite": 1080,
   "hoehe": 1431,
   "jahr": 2026,
-  "gross": true
+  "gross": true,
+  "portrait": "fotos/portrait/camilla-kuver.jpg"
  },
  "Lisa Heiseler": {
   "datei": "fotos/lisa-heiseler.jpg",
@@ -1200,7 +1296,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:Lisa_Heiseler.jpg",
   "id": "00374",
   "breite": 330,
-  "jahr": 2024
+  "jahr": 2024,
+  "portrait": "fotos/portrait/lisa-heiseler.jpg"
  },
  "Nadine Böhi": {
   "datei": "fotos/nadine-bohi.jpg",
@@ -1210,7 +1307,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:Nadine_B%C3%B6hi.png",
   "id": "00357",
   "breite": 330,
-  "jahr": 2025
+  "jahr": 2025,
+  "portrait": "fotos/portrait/nadine-bohi.jpg"
  },
  "Julia Magerl": {
   "datei": "fotos/julia-magerl.jpg",
@@ -1231,7 +1329,8 @@
   "id": "00343",
   "breite": 1080,
   "hoehe": 1080,
-  "jahr": 2023
+  "jahr": 2023,
+  "portrait": "fotos/portrait/chantal-hagel.jpg"
  },
  "Laura Dick": {
   "datei": "fotos/laura-dick.jpg",
@@ -1252,7 +1351,8 @@
   "id": "00372",
   "breite": 1080,
   "hoehe": 1731,
-  "jahr": 2021
+  "jahr": 2021,
+  "portrait": "fotos/portrait/lisanne-grawe.jpg"
  },
  "Vanessa Diehm": {
   "datei": "fotos/vanessa-diehm.jpg",
@@ -1262,7 +1362,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:2025-09-08_Fu%C3%9Fball,_Frauen-Bundesliga,_FC_Carl_Zeiss_Jena_-_TSG_1899_Hoffenheim_STP_6515.jpg",
   "id": "00122",
   "breite": 330,
-  "jahr": 2025
+  "jahr": 2025,
+  "portrait": "fotos/portrait/vanessa-diehm.jpg"
  },
  "Valesca Ampoorter": {
   "datei": "fotos/valesca-ampoorter.jpg",
@@ -1272,7 +1373,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:2025-09-08_Fu%C3%9Fball,_Frauen-Bundesliga,_FC_Carl_Zeiss_Jena_-_TSG_1899_Hoffenheim_STP_6423.jpg",
   "id": "00129",
   "breite": 330,
-  "jahr": 2025
+  "jahr": 2025,
+  "portrait": "fotos/portrait/valesca-ampoorter.jpg"
  },
  "Kiara Beck": {
   "datei": "fotos/kiara-beck.jpg",
@@ -1293,7 +1395,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:Partido_Espa%C3%B1a_-_B%C3%A9lxica_en_Riazor,_clasificatorio_Eurocopa_2025_143_(cropped_-_Teulings).jpg",
   "id": "00130",
   "breite": 330,
-  "jahr": 2024
+  "jahr": 2024,
+  "portrait": "fotos/portrait/feli-delacauw.jpg"
  },
  "Eileen Campbell": {
   "datei": "fotos/eileen-campbell.jpg",
@@ -1303,7 +1406,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:2020_Eileen_Campbell_(cropped).jpg",
   "id": "00382",
   "breite": 330,
-  "jahr": 2020
+  "jahr": 2020,
+  "portrait": "fotos/portrait/eileen-campbell.jpg"
  },
  "Jill Janssens": {
   "datei": "fotos/jill-janssens.jpg",
@@ -1314,7 +1418,8 @@
   "id": "00363",
   "breite": 1080,
   "hoehe": 1620,
-  "jahr": 2025
+  "jahr": 2025,
+  "portrait": "fotos/portrait/jill-janssens.jpg"
  },
  "Jamilla Rankin": {
   "datei": "fotos/jamilla-rankin.jpg",
@@ -1325,7 +1430,8 @@
   "id": "00067",
   "breite": 1080,
   "hoehe": 1620,
-  "jahr": 2023
+  "jahr": 2023,
+  "portrait": "fotos/portrait/jamilla-rankin.jpg"
  },
  "Lou Bogaert": {
   "datei": "fotos/lou-bogaert.jpg",
@@ -1335,7 +1441,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:Lou_Bogaert.jpg",
   "id": "00393",
   "breite": 330,
-  "jahr": 2021
+  "jahr": 2021,
+  "portrait": "fotos/portrait/lou-bogaert.jpg"
  },
  "Marie Steiner": {
   "datei": "fotos/marie-steiner.jpg",
@@ -1346,7 +1453,8 @@
   "id": "00145",
   "breite": 1080,
   "hoehe": 1080,
-  "jahr": 2025
+  "jahr": 2025,
+  "portrait": "fotos/portrait/marie-steiner.jpg"
  },
  "Naomi Luyet": {
   "datei": "fotos/naomi-luyet.jpg",
@@ -1356,7 +1464,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:Naomi_Luyet.png",
   "id": "00136",
   "breite": 330,
-  "jahr": 2024
+  "jahr": 2024,
+  "portrait": "fotos/portrait/naomi-luyet.jpg"
  },
  "Felicia Sträßer": {
   "datei": "fotos/felicia-straer.jpg",
@@ -1366,7 +1475,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:2024-09-14_Fu%C3%9Fball,_Frauen-Bundesliga,_FC_Carl_Zeiss_Jena_-_VfL_Wolfsburg_STP_4872_by_Stepro.jpg",
   "id": "00039",
   "breite": 330,
-  "jahr": 2024
+  "jahr": 2024,
+  "portrait": "fotos/portrait/felicia-straer.jpg"
  },
  "Paulina Platner": {
   "datei": "fotos/paulina-platner.jpg",
@@ -1398,7 +1508,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:2019-07-31_Fu%C3%9Fball,_Flyeralarm_Frauen-Bundesliga,_Mannschaftsfotos_FF_USV_Jena_1DX_5496_by_Stepro.jpg",
   "breite": 1080,
   "hoehe": 1080,
-  "jahr": 2019
+  "jahr": 2019,
+  "portrait": "fotos/portrait/anna-weiss.jpg"
  },
  "Carolin Simon": {
   "datei": "fotos/carolin-simon.jpg",
@@ -1408,7 +1519,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:2019-05-18_Fu%C3%9Fball,_Frauen,_UEFA_Women's_Champions_League,_Olympique_Lyonnais_-_FC_Barcelona_StP_0148_LR10_by_Stepro.jpg",
   "breite": 1080,
   "hoehe": 1080,
-  "jahr": 2019
+  "jahr": 2019,
+  "portrait": "fotos/portrait/carolin-simon.jpg"
  },
  "Ena Mahmutovic": {
   "datei": "fotos/ena-mahmutovic.jpg",
@@ -1418,7 +1530,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:2023-07-03_Fussball,_Frauen,_Deutsche_Nationalmannschaft,_Media_Day_1DX_6641_by_Stepro-2.jpg",
   "breite": 1080,
   "hoehe": 1080,
-  "jahr": 2023
+  "jahr": 2023,
+  "portrait": "fotos/portrait/ena-mahmutovic.jpg"
  },
  "Lena Lattwein": {
   "datei": "fotos/lena-lattwein.jpg",
@@ -1428,7 +1541,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:2023-07-03_Fussball,_Frauen,_Deutsche_Nationalmannschaft,_Media_Day_1DX_6619_by_Stepro-2.jpg",
   "breite": 1080,
   "hoehe": 1080,
-  "jahr": 2023
+  "jahr": 2023,
+  "portrait": "fotos/portrait/lena-lattwein.jpg"
  },
  "Paulina Krumbiegel": {
   "datei": "fotos/paulina-krumbiegel.jpg",
@@ -1438,7 +1552,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:2023-06-26_Fussball,_Frauen,_Deutsche_Nationalmannschaft,_Media_Day_1DX_6263_by_Stepro.jpg",
   "breite": 1080,
   "hoehe": 1080,
-  "jahr": 2023
+  "jahr": 2023,
+  "portrait": "fotos/portrait/paulina-krumbiegel.jpg"
  },
  "Sandra Jessen": {
   "datei": "fotos/sandra-jessen.jpg",
@@ -1448,7 +1563,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:2023-09-26_Fussball,_UEFA_Women's_Nations_League,_Deutschland_-_Island_1DX_2360.jpg",
   "breite": 1080,
   "hoehe": 1080,
-  "jahr": 2023
+  "jahr": 2023,
+  "portrait": "fotos/portrait/sandra-jessen.jpg"
  },
  "Sarai Linder": {
   "datei": "fotos/sarai-linder.jpg",
@@ -1458,7 +1574,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:2023-07-03_Fussball,_Frauen,_Deutsche_Nationalmannschaft,_Media_Day_1DX_6629_by_Stepro-2.jpg",
   "breite": 1080,
   "hoehe": 1080,
-  "jahr": 2023
+  "jahr": 2023,
+  "portrait": "fotos/portrait/sarai-linder.jpg"
  },
  "Svenja Huth": {
   "datei": "fotos/svenja-huth.jpg",
@@ -1468,7 +1585,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:2023-07-03_Fussball,_Frauen,_Deutsche_Nationalmannschaft,_Media_Day_1DX_6603_by_Stepro-2.jpg",
   "breite": 1080,
   "hoehe": 1080,
-  "jahr": 2023
+  "jahr": 2023,
+  "portrait": "fotos/portrait/svenja-huth.jpg"
  },
  "Lisann Kaut": {
   "datei": "fotos/lisann-kaut.jpg",
@@ -1478,7 +1596,8 @@
   "quelle": "https://commons.wikimedia.org/wiki/File:2025-09-08_Fu%C3%9Fball,_Frauen-Bundesliga,_FC_Carl_Zeiss_Jena_-_TSG_1899_Hoffenheim_STP_6486.jpg",
   "breite": 1080,
   "hoehe": 1080,
-  "jahr": 2025
+  "jahr": 2025,
+  "portrait": "fotos/portrait/lisann-kaut.jpg"
  },
  "Lara Prašnikar": {
   "datei": "fotos/lara-prasnikar.jpg",
