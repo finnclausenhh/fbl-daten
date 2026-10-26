@@ -143,7 +143,7 @@ def live(a):
             off = p.get(f"{seite}_aufstellung") or {}
             if off.get("typ") != "offiziell":
                 continue
-            prog, prog_zeit = None, None
+            prog, prog_zeit, ew = None, None, False
             for h, t in commits:  # neueste zuerst: erste passende Version vor Anpfiff
                 if t >= anstoss:
                     continue
@@ -154,20 +154,25 @@ def live(a):
                 kand = (alt or {}).get(f"{seite}_aufstellung") or {}
                 if kand.get("typ") == "prognose" and not kand.get("datenluecke"):
                     prog, prog_zeit = kand, t
+                    ew = seite in ((alt or {}).get("belastung") or {})
                     break
             if not prog:
                 fehlend.append({"md": p["md"], "verein": p[seite]})
                 continue
             ergebnisse.append({"md": p["md"], "verein": p[seite], "gegner": p[gegner], "anstoss": p["anstoss"],
-                               "prognose_stand": prog_zeit.isoformat(), "vergleich": vergleiche(prog, off["startelf"], off.get("bank", []))})
+                               "prognose_stand": prog_zeit.isoformat(), "englische_woche": ew,
+                               "vergleich": vergleiche(prog, off["startelf"], off.get("bank", []))})
     out = {"modus": "live", "stand": datetime.now().astimezone().strftime("%Y-%m-%dT%H:%M"),
            "hinweis": "Letzte veröffentlichte Prognose vor Anpfiff gegen offizielle Startelf. Quelle: Git-Historie von spielplan.json.",
            "gesamt": zusammenfassen(ergebnisse),
+           "englische_woche": zusammenfassen([e for e in ergebnisse if e["englische_woche"]]),
+           "normale_woche": zusammenfassen([e for e in ergebnisse if not e["englische_woche"]]),
            "je_spieltag": {str(md): zusammenfassen([e for e in ergebnisse if e["md"] == md])
                            for md in sorted({e["md"] for e in ergebnisse})},
            "ohne_prognose": fehlend}
     schreibe(a.out, out)
     print(json.dumps({"teams_ausgewertet": len(ergebnisse), "ohne_prognose": len(fehlend),
+                      "davon_englische_woche": sum(e["englische_woche"] for e in ergebnisse),
                       "sicher": out["gesamt"]["je_stufe"]["sicher"], "elf_schnitt": out["gesamt"]["elf_treffer_schnitt"]}, ensure_ascii=False))
 
 
