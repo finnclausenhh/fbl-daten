@@ -1,6 +1,20 @@
 {
-  "stand": "2026-10-25T23:15",
+  "stand": "2026-10-26T10:25",
   "eintraege": [
+    {
+      "version": "0.3",
+      "datum": "2026-10-26",
+      "titel": "Mögliche Aufstellungen und Auf den Punkt",
+      "aenderungen": [
+        "Spielplan: Partien nach Tagen gruppiert, Nachholspiele, Spielminute bei laufenden Spielen",
+        "Partie: Mögliche Aufstellung mit Einschätzung je Spielerin (sicher, erwartet, unsicher, unwahrscheinlich, ausgeschlossen), Legende und Begründung beim Antippen",
+        "Partie: Bank, alternative Aufstellung, fehlende Spielerinnen, Platzverweise, Tore mit Zwischenstand",
+        "News: Auf-den-Punkt-Meldungen bis zum Anpfiff angeheftet, mit Sicher aufstellen, Finger weg, Günstiger Tipp und Achtung",
+        "News: Tags STANDARD und ROTATION, Instagram-Link, Aufstellung nach TW, ABW, MF, ST mit NEU und RAUS",
+        "KI-Hinweis unter jedem Artikel mit Link auf KI-Hinweis & Methodik",
+        "Inside: Belastungskalender und Einsatzmatrix passen sich der Bildschirmbreite an, Verweis auf die Auf-den-Punkt-Meldung"
+      ]
+    },
     {
       "version": "0.2",
       "datum": "2026-10-25",
