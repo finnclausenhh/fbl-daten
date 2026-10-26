@@ -10,7 +10,7 @@
    "pos": "MF",
    "tags": [
     "TOP",
-    "UPDATE"
+    "SPIELBERICHT"
    ],
    "status": "fit",
    "headline": "Stoldt trifft dreifach, HSV und Union trennen sich 4:4",
@@ -39,7 +39,7 @@
    "nr": "3",
    "pos": "MF",
    "tags": [
-    "UPDATE"
+    "SPIELBERICHT"
    ],
    "status": "fit",
    "headline": "Proniez trifft doppelt, Nürnberg schlägt Leverkusen 2:0",
@@ -382,7 +382,7 @@
    "nr": "",
    "pos": "ABW",
    "tags": [
-    "UPDATE"
+    "SPIELBERICHT"
    ],
    "status": "fit",
    "headline": "Gutmann trifft doppelt, Werder schlägt Freiburg 4:3",
@@ -748,7 +748,7 @@
    "nr": "",
    "pos": "MF",
    "tags": [
-    "UPDATE"
+    "SPIELBERICHT"
    ],
    "status": "fit",
    "headline": "Grimm trifft doppelt, Hoffenheim schlägt Mainz 3:1",
@@ -1161,8 +1161,7 @@
    "nr": "",
    "pos": "ST",
    "tags": [
-    "TOP",
-    "UPDATE"
+    "SPIELBERICHT"
    ],
    "status": "fit",
    "headline": "Mühlhaus trifft per Seitfallzieher, SGE gewinnt 3:0",
@@ -1191,7 +1190,8 @@
    "nr": "",
    "pos": "MF",
    "tags": [
-    "UPDATE"
+    "TOP",
+    "SPIELBERICHT"
    ],
    "status": "fit",
    "headline": "Redzepi sieht Rot, Stuttgart verliert 0:3 gegen Frankfurt",
@@ -1220,8 +1220,7 @@
    "nr": "",
    "pos": "MF",
    "tags": [
-    "TOP",
-    "UPDATE"
+    "SPIELBERICHT"
    ],
    "status": "fit",
    "headline": "Peddemors trifft wieder doppelt, Wolfsburg schlägt Köln 3:0",
@@ -1732,7 +1731,8 @@
    "nr": "8",
    "pos": "ABW",
    "tags": [
-    "RÜCKKEHR"
+    "RÜCKKEHR",
+    "TOP"
    ],
    "headline": "Rall kehrt gegen Frankfurt in den Kader zurück",
    "text": [
@@ -1786,7 +1786,7 @@
    "pos": "TW",
    "tags": [
     "TOP",
-    "UPDATE"
+    "SPIELBERICHT"
    ],
    "headline": "Mahmutovic sieht Rot, Gilles hütet 15 Minuten das Tor",
    "text": [
@@ -1815,7 +1815,7 @@
    "nr": "28",
    "pos": "ST",
    "tags": [
-    "UPDATE"
+    "TRANSFER"
    ],
    "headline": "Zicai kann sich Wechsel nach England oder Spanien vorstellen",
    "text": [
@@ -1839,7 +1839,7 @@
    "nr": "17",
    "pos": "ST",
    "tags": [
-    "UPDATE"
+    "SPIELBERICHT"
    ],
    "headline": "Bühl trifft doppelt beim 5:1 der Bayern in Leipzig",
    "text": [
@@ -1870,7 +1870,6 @@
    "nr": "",
    "pos": "Trainer",
    "tags": [
-    "UPDATE",
     "SPERRE"
    ],
    "headline": "Freiburg reist ohne Stierli und mit kleinem Kader nach Bremen",
@@ -1895,8 +1894,7 @@
    "nr": "",
    "pos": "ST",
    "tags": [
-    "RÜCKKEHR",
-    "TOP"
+    "RÜCKKEHR"
    ],
    "headline": "Floe steht vor Debüt für Wolfsburg gegen Köln",
    "text": [
@@ -1919,7 +1917,6 @@
    "nr": "",
    "pos": "Trainer",
    "tags": [
-    "UPDATE",
     "RÜCKKEHR"
    ],
    "headline": "Stuttgart füllt vor Frankfurt den Kader wieder auf",
@@ -1946,9 +1943,7 @@
    "verein": "Union Berlin",
    "nr": "",
    "pos": "Trainerin",
-   "tags": [
-    "UPDATE"
-   ],
+   "tags": [],
    "headline": "Union reist mit acht Ausfällen und Siegesserie nach Hamburg",
    "text": [
     "Union Berlin tritt am Sonntag um 17 Uhr beim Hamburger SV an, nach vier Pflichtspielsiegen in Folge und zuletzt einem 2:1 gegen Nürnberg. Mit neun Punkten haben die Berlinerinnen den Anschluss ans Mittelfeld hergestellt.",
@@ -1970,7 +1965,7 @@
    "nr": "17",
    "pos": "ST",
    "tags": [
-    "UPDATE"
+    "TRANSFER"
    ],
    "headline": "Barcala will Bühl halten, Vertrag läuft im Sommer aus",
    "text": [
@@ -2000,9 +1995,7 @@
    "verein": "VfL Wolfsburg",
    "nr": "10",
    "pos": "MF",
-   "tags": [
-    "TOP"
-   ],
+   "tags": [],
    "headline": "Peddemors erwartet gegen Köln ein Kampfspiel",
    "text": [
     "Wolfsburgs Torjägerin Ella Peddemors rechnet am Samstag mit einem intensiven Spiel. Köln sei gut in Form und werde viele Zweikämpfe suchen.",
@@ -2024,9 +2017,7 @@
    "verein": "Werder Bremen",
    "nr": "",
    "pos": "Trainerin",
-   "tags": [
-    "UPDATE"
-   ],
+   "tags": [],
    "headline": "Werder trainiert nach Krankheitswelle mit angezogener Handbremse",
    "text": [
     "Am Montag standen Trainerin Friederike Kromp nur sieben gesunde Spielerinnen zur Verfügung. Bis Mittwoch hat sich die Lage gebessert, rund 20 Spielerinnen trainieren wieder, teils aber mit reduzierter Belastung oder in der Halle.",
@@ -2048,9 +2039,7 @@
    "verein": "TSG Hoffenheim",
    "nr": "",
    "pos": "Spielansetzung",
-   "tags": [
-    "TOP"
-   ],
+   "tags": [],
    "headline": "Nachholspiel Bremen gegen Hoffenheim am 29. Oktober",
    "text": [
     "Das am Sonntag kurzfristig abgesagte Spiel wird am Donnerstag, 29. Oktober, um 18 Uhr auf Platz 11 am Weserstadion nachgeholt.",
@@ -2076,7 +2065,7 @@
    "nr": "",
    "pos": "MF",
    "tags": [
-    "UPDATE"
+    "TOP"
    ],
    "headline": "Keine Entwarnung für Joly und Schasching vor dem Bayern-Spiel",
    "text": [
@@ -2109,9 +2098,7 @@
    "verein": "1. FC Köln",
    "nr": "",
    "pos": "Trainerin",
-   "tags": [
-    "UPDATE"
-   ],
+   "tags": [],
    "headline": "Carlson fordert in Wolfsburg die Effizienz aus dem HSV-Spiel",
    "text": [
     "Kölns Trainerin Britta Carlson spricht vor dem Spiel in Wolfsburg von einer schweren Aufgabe. Wolfsburg habe die klarste Spielanlage der Liga, lasse aber auch Gegentore zu.",
@@ -2133,7 +2120,8 @@
    "nr": "",
    "pos": "ABW",
    "tags": [
-    "SPERRE"
+    "SPERRE",
+    "TOP"
    ],
    "headline": "Stierli für zwei Ligaspiele gesperrt",
    "text": [
@@ -2163,7 +2151,8 @@
    "nr": "",
    "pos": "ABW",
    "tags": [
-    "SPERRE"
+    "SPERRE",
+    "TOP"
    ],
    "headline": "Doucouré fehlt gegen Union gesperrt",
    "text": [
@@ -2196,9 +2185,7 @@
    "verein": "SC Freiburg",
    "nr": "",
    "pos": "TW",
-   "tags": [
-    "UPDATE"
-   ],
+   "tags": [],
    "headline": "Freiburgs Torhüterin Reimann auf Abruf für die U17-WM",
    "text": [
     "Fünf Freiburgerinnen sind bei der U17-WM in Marokko, darunter Laura Ernst, Johanna Putzer und Johanna Hebben aus dem Profikader. Torhüterin Anna Reimann steht auf Abruf.",
@@ -2221,8 +2208,7 @@
    "nr": "7",
    "pos": "ABW",
    "tags": [
-    "VERLETZUNG",
-    "UPDATE"
+    "VERLETZUNG"
    ],
    "headline": "Gwinn liegt im Zeitplan, Rückkehr in den nächsten Wochen",
    "text": [
@@ -2253,7 +2239,7 @@
    "nr": "",
    "pos": "ST",
    "tags": [
-    "TOP"
+    "SPIELBERICHT"
    ],
    "headline": "Harder trifft doppelt beim 5:0 gegen Stuttgart",
    "text": [
@@ -2284,7 +2270,8 @@
    "nr": "25",
    "pos": "MF",
    "tags": [
-    "RÜCKKEHR"
+    "RÜCKKEHR",
+    "TOP"
    ],
    "headline": "Zadrazil nach Kreuzbandriss zurück in der Startelf",
    "text": [
@@ -2314,9 +2301,7 @@
    "verein": "FC Bayern",
    "nr": "",
    "pos": "ABW",
-   "tags": [
-    "UPDATE"
-   ],
+   "tags": [],
    "headline": "Mattner-Trembleau vertritt Gwinn rechts hinten",
    "text": [
     "Gegen Stuttgart begann Mattner-Trembleau als Rechtsverteidigerin und bereitete das 1:0 durch Dallmann vor. Sie war eine von vier neuen Spielerinnen in der Startelf.",
@@ -2369,7 +2354,8 @@
    "nr": "",
    "pos": "ABW",
    "tags": [
-    "VERLETZUNG"
+    "VERLETZUNG",
+    "TOP"
    ],
    "headline": "Rall und Arouna fehlen mit Oberschenkelproblemen",
    "text": [
