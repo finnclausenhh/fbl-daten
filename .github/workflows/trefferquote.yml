@@ -1,0 +1,36 @@
+name: Trefferquote Aufstellungen
+
+# Dienstags 6:23 UTC (nach dem Spieltag) und von Hand: wertet die Git-Historie von spielplan.json aus
+# und schreibt tracking/trefferquote.json. Kein Claude-Lauf, keine Kosten.
+on:
+  schedule:
+    - cron: "23 6 * * 2"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daten-schreiben
+  cancel-in-progress: false
+
+jobs:
+  auswerten:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Trefferquote berechnen
+        run: python3 tools/prognose_check.py live --repo . --out tracking/trefferquote.json
+      - name: Ergebnis speichern
+        run: |
+          git add tracking/trefferquote.json
+          if git diff --cached --quiet; then echo "keine Änderung"; exit 0; fi
+          git -c user.name="WOSOINSIDER" -c user.email="finnclausenhh@users.noreply.github.com" commit -qm "Trefferquote aktualisiert"
+          for i in 1 2 3; do git pull -q --rebase origin main && git push -q origin HEAD:main && exit 0; sleep 10; done
+          exit 1
