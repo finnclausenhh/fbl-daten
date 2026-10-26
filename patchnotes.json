@@ -1,6 +1,18 @@
 {
-  "stand": "2026-10-26T23:45",
+  "stand": "2026-10-27T00:29",
   "eintraege": [
+    {
+      "version": "0.9",
+      "datum": "2026-10-27",
+      "titel": "Portraits der HSV-Spielerinnen",
+      "aenderungen": [
+        "Fotos: 26 Portraits der HSV-Spielerinnen vom Verein, mit Genehmigung des Hamburger SV, in den News und in der Formkurve. Sieben bisherige Wikimedia-Fotos ersetzt, u. a. Kinga Szemik nicht mehr im West-Ham-Trikot",
+        "News: Spielerinnen bekommen ihr Foto jetzt auch, wenn die Meldung selbst keins mitbringt (z. B. Svea Stoldt)",
+        "News: Hinter Portraits mit transparentem Hintergrund liegt die Vereinsfarbe, wie bei der Silhouette",
+        "Bildnachweis: Vereinsfotos stehen als \"Foto: HSV\" unter dem Artikel und in der Formkurve, Fotos von Wikimedia Commons weiter mit Urheber und Lizenz. Der Nachweis richtet sich nach dem gezeigten Foto, nicht mehr nach der Meldung",
+        "Bildnachweise: Hinweis auf die Portraits des Hamburger SV mit Genehmigung des Vereins, auch im Impressum. Quelle nur noch als Link, wenn sie eine Webadresse ist"
+      ]
+    },
     {
       "version": "0.8",
       "datum": "2026-10-26",
