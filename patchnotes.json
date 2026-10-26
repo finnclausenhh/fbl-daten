@@ -1,6 +1,15 @@
 {
-  "stand": "2026-10-26T13:30",
+  "stand": "2026-10-26T14:00",
   "eintraege": [
+    {
+      "version": "0.7",
+      "datum": "2026-10-26",
+      "titel": "Fotos aufs Gesicht",
+      "aenderungen": [
+        "Fotos: Automatischer Ausschnitt aufs Gesicht für 119 Spielerinnen, in der Formkurve und in den News",
+        "Formkurve: Kompakte Karten haben wieder ihre eigene Höhe, keine leere Fläche mehr neben großen Karten"
+      ]
+    },
     {
       "version": "0.6",
       "datum": "2026-10-26",
