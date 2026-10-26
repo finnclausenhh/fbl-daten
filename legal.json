@@ -16,11 +16,11 @@
    },
    {
     "typ": "p",
-    "text": "E-Mail: [kontakt@wosoinsider.de](mailto:kontakt@wosoinsider.de) [Postfach noch nicht eingerichtet]"
+    "text": "E-Mail: [redaktion@wosoinsider.de](mailto:redaktion@wosoinsider.de)"
    },
    {
     "typ": "p",
-    "text": "Adressen für Korrekturen und Datenschutz stehen unter Kontakt."
+    "text": "Über diese Adresse erreichen Sie uns für alle Anliegen, auch für Hinweise, Korrekturen und Datenschutz."
    },
    {
     "typ": "h2",
@@ -36,7 +36,7 @@
    },
    {
     "typ": "p",
-    "text": "Meldungen und mögliche Aufstellungen werden automatisiert mit einem KI-System erstellt und als solche gekennzeichnet. Die redaktionelle Verantwortung trägt Finn Clausen. Einzelheiten unter KI-Hinweis & Methodik."
+    "text": "Meldungen und mögliche Aufstellungen werden automatisiert mit einem KI-System erstellt und als solche gekennzeichnet. Die redaktionelle Verantwortung trägt Finn Clausen. Einzelheiten stehen unter KI-Hinweis & Methodik."
    },
    {
     "typ": "h2",
@@ -97,11 +97,19 @@
   "bloecke": [
    {
     "typ": "p",
-    "text": "Kurz gesagt: WOSOINSIDER braucht kein Konto, setzt keine Cookies, nutzt kein Tracking, keine Analyse und keine Werbung."
+    "text": "**Kurz gesagt:** WOSOINSIDER braucht kein Konto, setzt keine Cookies und nutzt kein Tracking, keine Analyse und keine Werbung. Personenbezogene Daten fallen nur dort an, wo Technik es zwingend verlangt (Abruf der Inhalte) oder wenn Sie uns schreiben."
    },
    {
     "typ": "h2",
-    "text": "1. Verantwortlicher"
+    "text": "1. Geltungsbereich"
+   },
+   {
+    "typ": "p",
+    "text": "Diese Erklärung gilt für die iOS-App WOSOINSIDER, die Webseite wosoinsider.de, die Webversion des Newstickers und den E-Mail-Kontakt."
+   },
+   {
+    "typ": "h2",
+    "text": "2. Verantwortlicher"
    },
    {
     "typ": "p",
@@ -109,75 +117,131 @@
    },
    {
     "typ": "p",
-    "text": "E-Mail: [datenschutz@wosoinsider.de](mailto:datenschutz@wosoinsider.de)"
-   },
-   {
-    "typ": "h2",
-    "text": "2. Hosting und Server-Logfiles"
+    "text": "E-Mail: [redaktion@wosoinsider.de](mailto:redaktion@wosoinsider.de)"
    },
    {
     "typ": "p",
-    "text": "Die Webversion wird über claude.ai von Anthropic bereitgestellt. Beim Aufruf verarbeitet der Hoster technisch notwendige Daten: IP-Adresse, Datum und Uhrzeit, aufgerufene Datei, Browser und Betriebssystem. Das dient der sicheren und stabilen Auslieferung (Art. 6 Abs. 1 lit. f DSGVO). Anthropic kann Daten auch in den USA verarbeiten. Grundlage der Übermittlung: [Angabe nach den Datenschutzunterlagen von Anthropic prüfen]. Wir selbst erhalten keine Logfiles."
+    "text": "Eine Datenschutzbeauftragte oder einen Datenschutzbeauftragten müssen wir nicht benennen."
    },
    {
     "typ": "h2",
-    "text": "3. Schriftarten"
+    "text": "3. Die App"
    },
    {
     "typ": "p",
-    "text": "Die Schriften werden lokal mit der Seite ausgeliefert. Es besteht keine Verbindung zu Google oder anderen Schriftanbietern."
-   },
-   {
-    "typ": "h2",
-    "text": "4. Cookies und lokale Speicherung"
+    "text": "Die App lädt ihre Inhalte (Meldungen, Spielplan, Inside, Fotos, Logos) als Dateien von einem Server bei GitHub und speichert sie für schnelleres Laden im Zwischenspeicher Ihres Geräts. Beim Abruf übermittelt Ihr Gerät technisch notwendig seine IP-Adresse, Datum und Uhrzeit sowie die abgerufene Datei. Was GitHub damit macht, steht in Abschnitt 5. Wir selbst erhalten diese Daten nicht."
    },
    {
     "typ": "p",
-    "text": "Es werden keine Cookies gesetzt. Wählen Sie in Inside Ihre Vereine aus, speichert der Browser diese Auswahl lokal auf Ihrem Gerät (localStorage). Sie wird nicht an uns übertragen und lässt sich über „Alle zeigen“ oder die Browserdaten löschen."
-   },
-   {
-    "typ": "h2",
-    "text": "5. Kontakt per E-Mail"
+    "text": "Die App enthält keine Analyse-, Werbe- oder Tracking-Werkzeuge und keine Software von Drittanbietern. Sie fragt keine Berechtigungen ab, etwa für Standort, Kontakte, Fotos oder Kamera. Links zu Quellen, Lizenzen oder Instagram öffnet sie erst, wenn Sie darauf tippen (siehe Abschnitt 9). Rechtsgrundlage für den Abruf ist unser berechtigtes Interesse, Ihnen die Inhalte auszuliefern (Art. 6 Abs. 1 lit. f DSGVO)."
    },
    {
     "typ": "p",
-    "text": "Wenn Sie uns schreiben, verarbeiten wir Ihre E-Mail-Adresse und Ihre Nachricht, um die Anfrage zu bearbeiten (Art. 6 Abs. 1 lit. b oder f DSGVO). Hinweise an die Redaktion nutzen wir für die Berichterstattung, Ihr Name wird ohne Ihre Zustimmung nicht veröffentlicht. Die Daten werden gelöscht, sobald die Anfrage erledigt ist und keine Aufbewahrungspflicht besteht."
+    "text": "Push-Mitteilungen bietet die App derzeit nicht an. Kommen sie dazu, ergänzen wir diese Erklärung vorher."
    },
    {
     "typ": "h2",
-    "text": "6. Links zu anderen Seiten"
+    "text": "4. Speicherung auf Ihrem Gerät"
    },
    {
     "typ": "p",
-    "text": "Quellen und die Sportschau sind verlinkt. Daten werden erst übertragen, wenn Sie einen Link antippen. Dann gilt die Datenschutzerklärung der jeweiligen Seite."
+    "text": "Ihre Vereinsauswahl speichern App und Webversion nur lokal auf Ihrem Gerät (App: Einstellungen der App, Webversion: localStorage des Browsers). Sie wird nicht an uns übertragen. Diese Speicherung ist für die von Ihnen gewünschte Funktion unbedingt erforderlich und braucht daher keine Einwilligung (§ 25 Abs. 2 Nr. 2 TDDDG). Sie löschen sie, indem Sie die Auswahl zurücksetzen, die App löschen oder die Browserdaten entfernen. Es werden keine Cookies gesetzt."
    },
    {
     "typ": "h2",
-    "text": "7. Berichterstattung über Spielerinnen"
+    "text": "5. Webseite und Datenabruf über GitHub Pages"
    },
    {
     "typ": "p",
-    "text": "Meldungen nennen Spielerinnen, Trainerinnen und Trainer im Rahmen der Sportberichterstattung (journalistische Zwecke, Art. 85 DSGVO in Verbindung mit § 23 MStV). Gesundheitsangaben übernehmen wir nur so weit, wie Verein oder Medien sie veröffentlicht haben. Betroffene können sich jederzeit an [redaktion@wosoinsider.de](mailto:redaktion@wosoinsider.de) wenden."
-   },
-   {
-    "typ": "h2",
-    "text": "8. Ihre Rechte"
+    "text": "Die Webseite wosoinsider.de und die Dateien für die App liegen bei GitHub Pages, einem Dienst der GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA. Beim Aufruf verarbeitet GitHub technisch notwendige Verbindungsdaten: IP-Adresse, Datum und Uhrzeit, abgerufene Datei, Browser oder App-Kennung, Betriebssystem und gegebenenfalls die zuvor besuchte Seite. Das dient der sicheren und stabilen Auslieferung (Art. 6 Abs. 1 lit. f DSGVO). Wie lange GitHub diese Daten speichert, legt GitHub selbst fest. Wir erhalten keine Logfiles und können keine Nutzerinnen oder Nutzer identifizieren."
    },
    {
     "typ": "p",
-    "text": "Sie haben das Recht auf Auskunft (Art. 15), Berichtigung (Art. 16), Löschung (Art. 17), Einschränkung der Verarbeitung (Art. 18), Datenübertragbarkeit (Art. 20) und Widerspruch gegen Verarbeitungen auf Grundlage berechtigter Interessen (Art. 21 DSGVO)."
+    "text": "GitHub verarbeitet Daten auch in den USA. GitHub ist nach dem EU-U.S. Data Privacy Framework zertifiziert, für das ein Angemessenheitsbeschluss der EU-Kommission besteht (Art. 45 DSGVO). Weitere Informationen: [Datenschutzerklärung von GitHub](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement)."
+   },
+   {
+    "typ": "p",
+    "text": "Die Schriften werden zusammen mit der Seite ausgeliefert. Es besteht keine Verbindung zu Google Fonts oder anderen Schriftanbietern."
    },
    {
     "typ": "h2",
-    "text": "9. Beschwerderecht"
+    "text": "6. Keine Profile, keine automatisierten Entscheidungen"
+   },
+   {
+    "typ": "p",
+    "text": "Wir bilden keine Nutzerprofile und verkaufen oder teilen keine Daten. Eine automatisierte Entscheidungsfindung nach Art. 22 DSGVO findet nicht statt."
+   },
+   {
+    "typ": "h2",
+    "text": "7. App Store"
+   },
+   {
+    "typ": "p",
+    "text": "Die App laden Sie über den App Store von Apple. Dafür verarbeitet Apple Daten wie Ihre Apple-ID, Gerätekennung und Kaufhistorie in eigener Verantwortung. Wir haben darauf keinen Einfluss und erhalten keine personenbezogenen Daten von Apple. Haben Sie in den iOS-Einstellungen zugestimmt, Analysedaten mit App-Entwicklern zu teilen, stellt Apple uns anonymisierte Absturzberichte und Nutzungsstatistiken bereit. Einzelheiten stehen in der [Datenschutzrichtlinie von Apple](https://www.apple.com/de/legal/privacy/)."
+   },
+   {
+    "typ": "h2",
+    "text": "8. Kontakt per E-Mail"
+   },
+   {
+    "typ": "p",
+    "text": "Wenn Sie an [redaktion@wosoinsider.de](mailto:redaktion@wosoinsider.de) schreiben, verarbeiten wir Ihre E-Mail-Adresse, Ihren Namen (falls angegeben) und Ihre Nachricht, um die Anfrage zu bearbeiten (Art. 6 Abs. 1 lit. b oder f DSGVO). Hinweise an die Redaktion nutzen wir für die Berichterstattung. Ihren Namen veröffentlichen wir nur mit Ihrer Zustimmung. Die Daten löschen wir, sobald die Anfrage erledigt ist und keine Aufbewahrungspflicht besteht."
+   },
+   {
+    "typ": "p",
+    "text": "Das Postfach läuft über Google Workspace. Vertragspartner und Auftragsverarbeiter (Art. 28 DSGVO) ist die Google Cloud EMEA Limited, 70 Sir John Rogerson's Quay, Dublin 2, Irland. Google kann Daten auch in den USA verarbeiten. Die Google LLC ist nach dem EU-U.S. Data Privacy Framework zertifiziert, für das ein Angemessenheitsbeschluss der EU-Kommission besteht (Art. 45 DSGVO)."
+   },
+   {
+    "typ": "h2",
+    "text": "9. Links zu anderen Seiten"
+   },
+   {
+    "typ": "p",
+    "text": "Quellen, die Sportschau und Instagram-Profile sind verlinkt. Daten werden erst übertragen, wenn Sie einen Link antippen. Dann gilt die Datenschutzerklärung der jeweiligen Seite."
+   },
+   {
+    "typ": "h2",
+    "text": "10. Berichterstattung über Spielerinnen"
+   },
+   {
+    "typ": "p",
+    "text": "Meldungen nennen Spielerinnen, Trainerinnen und Trainer im Rahmen der Sportberichterstattung (journalistische Zwecke, Art. 85 DSGVO in Verbindung mit § 23 MStV). Die redaktionelle Verantwortung trägt Finn Clausen."
+   },
+   {
+    "typ": "p",
+    "text": "Für Angaben zur Gesundheit gelten feste Regeln: Wir berichten nur, was Verein, Verband oder Medien bereits veröffentlicht haben, und nur so genau, wie es für die Frage nötig ist, ob und wann eine Spielerin spielen kann. Eigene Vermutungen zu Diagnosen veröffentlichen wir nicht. Meldungen werden nach 14 Tagen aus der App entfernt."
+   },
+   {
+    "typ": "p",
+    "text": "Fotos stammen von Wikimedia Commons unter freien Lizenzen oder werden mit Genehmigung genutzt. Betroffene können jederzeit unter [redaktion@wosoinsider.de](mailto:redaktion@wosoinsider.de) eine Korrektur, die Entfernung eines Fotos oder einer Angabe verlangen. Berechtigte Anliegen setzen wir unverzüglich um."
+   },
+   {
+    "typ": "h2",
+    "text": "11. Ihre Rechte"
+   },
+   {
+    "typ": "p",
+    "text": "Sie haben das Recht auf Auskunft (Art. 15), Berichtigung (Art. 16), Löschung (Art. 17), Einschränkung der Verarbeitung (Art. 18) und Datenübertragbarkeit (Art. 20 DSGVO). Eine Nachricht an [redaktion@wosoinsider.de](mailto:redaktion@wosoinsider.de) genügt."
+   },
+   {
+    "typ": "p",
+    "text": "**Widerspruchsrecht:** Verarbeiten wir Daten auf Grundlage berechtigter Interessen (Art. 6 Abs. 1 lit. f DSGVO), können Sie aus Gründen, die sich aus Ihrer besonderen Situation ergeben, jederzeit widersprechen (Art. 21 DSGVO). Wir verarbeiten die Daten dann nicht mehr, es sei denn, es liegen zwingende schutzwürdige Gründe vor."
+   },
+   {
+    "typ": "h2",
+    "text": "12. Beschwerderecht"
    },
    {
     "typ": "p",
     "text": "Sie können sich bei einer Datenschutz-Aufsichtsbehörde beschweren. Zuständig für uns ist das Bayerische Landesamt für Datenschutzaufsicht (BayLDA), Promenade 18, 91522 Ansbach."
    },
    {
+    "typ": "h2",
+    "text": "13. Stand"
+   },
+   {
     "typ": "p",
-    "text": "Stand: Oktober 2026. Für die App-Version wird diese Erklärung um Hosting, Push-Mitteilungen und App Store ergänzt."
+    "text": "Oktober 2026. Ändert sich etwas an App oder Webseite, passen wir diese Erklärung an."
    }
   ]
  },
@@ -186,23 +250,19 @@
   "bloecke": [
    {
     "typ": "p",
-    "text": "Drei Adressen, ein Postfach: Alle Nachrichten landen an derselben Stelle, die Adresse hilft nur beim Sortieren."
+    "text": "Eine Adresse für alles: [redaktion@wosoinsider.de](mailto:redaktion@wosoinsider.de)"
    },
    {
-    "typ": "p",
-    "text": "[Vorbereitet] Domain und Postfächer sind noch nicht eingerichtet. Bis dahin sind die Adressen nicht erreichbar."
+    "typ": "li",
+    "text": "Fragen zu WOSOINSIDER und Wünsche für neue Funktionen"
    },
    {
-    "typ": "p",
-    "text": "**Kontakt und Feedback** Fragen zu WOSOINSIDER, Wünsche für neue Funktionen und alles andere.\nkontakt@wosoinsider.de"
+    "typ": "li",
+    "text": "Fehler in einer Meldung oder Aufstellung, neue Informationen zu Verletzungen, Sperren oder Rückkehr, bitte mit Link zur Quelle"
    },
    {
-    "typ": "p",
-    "text": "**Hinweise und Korrekturen** Fehler in einer Meldung oder Aufstellung, neue Informationen zu Verletzungen, Sperren oder Rückkehr. Bitte mit Link zur Quelle.\nredaktion@wosoinsider.de"
-   },
-   {
-    "typ": "p",
-    "text": "**Datenschutz und Rechte** Auskunft, Berichtigung oder Löschung personenbezogener Daten sowie Fragen zu Bild- und Markenrechten.\ndatenschutz@wosoinsider.de"
+    "typ": "li",
+    "text": "Auskunft, Berichtigung oder Löschung personenbezogener Daten sowie Fragen zu Bild- und Markenrechten"
    },
    {
     "typ": "p",
