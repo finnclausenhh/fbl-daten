@@ -1,6 +1,25 @@
 {
-  "stand": "2026-10-26T11:00",
+  "stand": "2026-10-26T12:00",
   "eintraege": [
+    {
+      "version": "0.5",
+      "datum": "2026-10-26",
+      "titel": "Neues Design für News, Spiel und Inside",
+      "aenderungen": [
+        "News: Kompaktere Karten, Name und Verein unter der Schlagzeile, Zeit unten links",
+        "News: Status-Symbol oben rechts nur noch bei verletzt, fraglich, gesperrt oder Rückkehr, kein grüner Haken mehr",
+        "News: Aufstellungen zeigen nur die elf Namen, Positionsgruppen durch Bindestrich getrennt, beide Wappen oben rechts",
+        "News: Neue Vorschaukarte der Top-Analyse mit Vereinskopf, Kennzahl und Punktreihe",
+        "Spiel: Tore kompakt unter dem Ergebnis, Details mit Vorlage zum Aufklappen",
+        "Spiel: Offizielle Aufstellung mit Formation, Toren, Karten und Auswechselminute, Eingewechselt und Ohne Einsatz getrennt",
+        "Spiel: Mögliche Aufstellung mit Kasten Offene Position samt Alternative und Werten, Begründung im eigenen Kasten",
+        "Spiel: Keine externen Links mehr, Hinweis zur Einschätzung direkt in der Partie",
+        "Spielplan: Ohne Hinweistext in der Liste",
+        "Inside: Formkurve als eine Karte mit Pfeilen, neue Gruppen Aufwind, Formtief und Stabil",
+        "Inside: Nächste 3 Gegner mit Gegentoren pro Spiel und Einstufung leicht, mittel oder schwer",
+        "Inside: Analyse der Woche im Kasten mit drei Fakten, Matrix mit Vereinskürzeln"
+      ]
+    },
     {
       "version": "0.4",
       "datum": "2026-10-26",
