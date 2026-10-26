@@ -1,6 +1,14 @@
 {
-  "stand": "2026-10-26T14:00",
+  "stand": "2026-10-26T23:45",
   "eintraege": [
+    {
+      "version": "0.8",
+      "datum": "2026-10-26",
+      "titel": "Datenschutz-Angaben für den App Store",
+      "aenderungen": [
+        "Technik: Datenschutz-Angaben für den App Store ergänzt"
+      ]
+    },
     {
       "version": "0.7",
       "datum": "2026-10-26",
