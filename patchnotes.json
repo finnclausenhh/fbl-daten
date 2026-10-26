@@ -1,6 +1,17 @@
 {
-  "stand": "2026-10-26T10:25",
+  "stand": "2026-10-26T11:00",
   "eintraege": [
+    {
+      "version": "0.4",
+      "datum": "2026-10-26",
+      "titel": "Englische Woche und genauere Einstufung",
+      "aenderungen": [
+        "Spielplan: Hinweis Englische Woche auf der Spielkarte, z. B. 3 Spiele in 8 Tagen, mit allen Terminen in der Partie",
+        "Mögliche Aufstellung: In Englischen Wochen höchstens Erwartet für Feldspielerinnen",
+        "Sicher erst ab 95 % Einsatzwert, in der Rückrechnung standen damit gut neun von zehn in der Startelf",
+        "Spielplan, Ergebnisse und mögliche Aufstellungen werden jetzt bei jedem Lauf automatisch aktualisiert"
+      ]
+    },
     {
       "version": "0.3",
       "datum": "2026-10-26",
