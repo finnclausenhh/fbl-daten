@@ -1,6 +1,24 @@
 {
-  "stand": "2026-10-26T12:00",
+  "stand": "2026-10-26T13:30",
   "eintraege": [
+    {
+      "version": "0.6",
+      "datum": "2026-10-26",
+      "titel": "Sauberes Inside und klare Tags",
+      "aenderungen": [
+        "Formkurve: Tabs mit Anzahl, Pfeile über der Karte, Wischen blättert ohne das Scrollen zu stören",
+        "Formkurve: Großes Foto nur, wenn es das Foto hergibt, sonst kompakte Karte mit Hochformat oder Wappen",
+        "Inside: Abschnitte mit Nummer und Linie (Form, Standards, Spieltag, Belastung, Analyse)",
+        "Inside: Alle Schützinnen als Tabelle mit Ecken, Freistößen und Elfmetern, gesetzte Schützinnen markiert",
+        "Spielplan: Noch nicht terminierte Spieltage zeigen Termin offen statt 00:00 Uhr",
+        "Englische Woche erst ab drei Pflichtspielen in höchstens acht Tagen",
+        "News: Spielerinnen ohne Foto mit Silhouette in Vereinsfarbe und Rückennummer",
+        "News: Vereins- und Trainermeldungen mit Wappen, Verein und Trainerin",
+        "News: TOP nur noch bei Meldungen, die eine Kickbase-Entscheidung ändern, neue Tags Spielbericht und Transfer",
+        "Fotos in höherer Auflösung",
+        "Fehler behoben: verdeckte Tabs, springende Pfeile, Gesichter abgeschnitten, doppeltes Nachholspiel, kleine Tippflächen"
+      ]
+    },
     {
       "version": "0.5",
       "datum": "2026-10-26",
