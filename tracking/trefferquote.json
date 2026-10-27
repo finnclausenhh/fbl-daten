@@ -1,0 +1,124 @@
+{
+ "modus": "live",
+ "stand": "2026-10-27T07:14",
+ "hinweis": "Letzte veröffentlichte Prognose vor Anpfiff gegen offizielle Startelf. Quelle: Git-Historie von spielplan.json.",
+ "gesamt": {
+  "teams": 0,
+  "elf_treffer_schnitt": null,
+  "elf_quote": null,
+  "elf_verteilung": {},
+  "je_stufe": {
+   "sicher": {
+    "n": 0,
+    "begonnen": 0,
+    "quote": null
+   },
+   "erwartet": {
+    "n": 0,
+    "begonnen": 0,
+    "quote": null
+   },
+   "unsicher": {
+    "n": 0,
+    "begonnen": 0,
+    "quote": null
+   },
+   "unwahrscheinlich": {
+    "n": 0,
+    "begonnen": 0,
+    "quote": null
+   },
+   "ausgeschlossen": {
+    "n": 0,
+    "begonnen": 0,
+    "quote": null
+   }
+  },
+  "kalibrierung": [],
+  "sicher_daneben_grund": {
+   "bank": 0,
+   "nicht im Kader": 0
+  },
+  "sicher_aber_nicht_begonnen": []
+ },
+ "englische_woche": {
+  "teams": 0,
+  "elf_treffer_schnitt": null,
+  "elf_quote": null,
+  "elf_verteilung": {},
+  "je_stufe": {
+   "sicher": {
+    "n": 0,
+    "begonnen": 0,
+    "quote": null
+   },
+   "erwartet": {
+    "n": 0,
+    "begonnen": 0,
+    "quote": null
+   },
+   "unsicher": {
+    "n": 0,
+    "begonnen": 0,
+    "quote": null
+   },
+   "unwahrscheinlich": {
+    "n": 0,
+    "begonnen": 0,
+    "quote": null
+   },
+   "ausgeschlossen": {
+    "n": 0,
+    "begonnen": 0,
+    "quote": null
+   }
+  },
+  "kalibrierung": [],
+  "sicher_daneben_grund": {
+   "bank": 0,
+   "nicht im Kader": 0
+  },
+  "sicher_aber_nicht_begonnen": []
+ },
+ "normale_woche": {
+  "teams": 0,
+  "elf_treffer_schnitt": null,
+  "elf_quote": null,
+  "elf_verteilung": {},
+  "je_stufe": {
+   "sicher": {
+    "n": 0,
+    "begonnen": 0,
+    "quote": null
+   },
+   "erwartet": {
+    "n": 0,
+    "begonnen": 0,
+    "quote": null
+   },
+   "unsicher": {
+    "n": 0,
+    "begonnen": 0,
+    "quote": null
+   },
+   "unwahrscheinlich": {
+    "n": 0,
+    "begonnen": 0,
+    "quote": null
+   },
+   "ausgeschlossen": {
+    "n": 0,
+    "begonnen": 0,
+    "quote": null
+   }
+  },
+  "kalibrierung": [],
+  "sicher_daneben_grund": {
+   "bank": 0,
+   "nicht im Kader": 0
+  },
+  "sicher_aber_nicht_begonnen": []
+ },
+ "je_spieltag": {},
+ "ohne_prognose": []
+}
