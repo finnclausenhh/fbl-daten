@@ -47,8 +47,7 @@
   "portrait": "fotos/svw-lilli-purtscheller.webp",
   "verein": "Werder Bremen",
   "nr": "7",
-  "position": "MF",
-  "ersetzt": "fotos/lilli-purtscheller.jpg"
+  "position": "MF"
  },
  "Lina Hausicke": {
   "datei": "fotos/fcu-lina-hausicke.webp",
@@ -81,8 +80,7 @@
   "portrait": "fotos/svw-vanessa-fischer.webp",
   "verein": "Werder Bremen",
   "nr": "1",
-  "position": "TW",
-  "ersetzt": "fotos/vanessa-fischer.jpg"
+  "position": "TW"
  },
  "Franziska Kett": {
   "datei": "fotos/fcb-franziska-kett.webp",
@@ -196,8 +194,7 @@
   "portrait": "fotos/svw-lena-petermann.webp",
   "verein": "Werder Bremen",
   "nr": "20",
-  "position": "ST",
-  "ersetzt": "fotos/lena-petermann.jpg"
+  "position": "ST"
  },
  "Linda Dallmann": {
   "datei": "fotos/fcb-linda-dallmann.webp",
@@ -529,8 +526,7 @@
   "portrait": "fotos/svw-luna-vanzeir.webp",
   "verein": "Werder Bremen",
   "nr": "13",
-  "position": "ST",
-  "ersetzt": "fotos/luna-vanzeir.jpg"
+  "position": "ST"
  },
  "Sabah Seghir": {
   "datei": "fotos/scf-sabah-seghir.webp",
@@ -682,8 +678,7 @@
   "portrait": "fotos/svw-juliane-wirtz.webp",
   "verein": "Werder Bremen",
   "nr": "28",
-  "position": "MF",
-  "ersetzt": "fotos/juliane-wirtz.jpg"
+  "position": "MF"
  },
  "Sara Doorsoun": {
   "datei": "fotos/sge-sara-doorsoun.webp",
@@ -750,8 +745,7 @@
   "portrait": "fotos/svw-caroline-siems.webp",
   "verein": "Werder Bremen",
   "nr": "21",
-  "position": "ABW",
-  "ersetzt": "fotos/caroline-siems.jpg"
+  "position": "ABW"
  },
  "Meret Felde": {
   "datei": "fotos/scf-meret-felde.webp",
@@ -869,8 +863,7 @@
   "portrait": "fotos/svw-elena-dhont.webp",
   "verein": "Werder Bremen",
   "nr": "31",
-  "position": "ST",
-  "ersetzt": "fotos/elena-dhont.jpg"
+  "position": "ST"
  },
  "Therese Simonsson": {
   "datei": "fotos/rbl-therese-simonsson.webp",
@@ -1183,8 +1176,7 @@
   "portrait": "fotos/svw-isabella-jaron.webp",
   "verein": "Werder Bremen",
   "nr": "11",
-  "position": "ST",
-  "ersetzt": "fotos/isabella-jaron.jpg"
+  "position": "ST"
  },
  "Michelle Ulbrich": {
   "datei": "fotos/svw-michelle-ulbrich.webp",
@@ -1200,8 +1192,7 @@
   "portrait": "fotos/svw-michelle-ulbrich.webp",
   "verein": "Werder Bremen",
   "nr": "5",
-  "position": "ABW",
-  "ersetzt": "fotos/michelle-ulbrich.jpg"
+  "position": "ABW"
  },
  "Giovanna Hoffmann": {
   "datei": "fotos/wob-giovanna-hoffmann.webp",
@@ -1781,8 +1772,7 @@
   "portrait": "fotos/svw-michelle-wei.webp",
   "verein": "Werder Bremen",
   "nr": "15",
-  "position": "ABW",
-  "ersetzt": "fotos/michelle-wei.jpg"
+  "position": "ABW"
  },
  "Sanja Homann": {
   "datei": "fotos/fcn-sanja-homann.webp",
@@ -1964,8 +1954,7 @@
   "portrait": "fotos/svw-julia-magerl.webp",
   "verein": "Werder Bremen",
   "nr": "4",
-  "position": "ABW",
-  "ersetzt": "fotos/julia-magerl.jpg"
+  "position": "ABW"
  },
  "Chantal Hagel": {
   "datei": "fotos/vfb-chantal-hagel.webp",
@@ -2200,8 +2189,7 @@
   "portrait": "fotos/svw-felicia-stra-er.webp",
   "verein": "Werder Bremen",
   "nr": "19",
-  "position": "ABW",
-  "ersetzt": "fotos/felicia-straer.jpg"
+  "position": "ABW"
  },
  "Paulina Platner": {
   "datei": "fotos/b04-paulina-platner.webp",
@@ -2421,8 +2409,7 @@
   "portrait": "fotos/svw-mariella-el-sherif.webp",
   "verein": "Werder Bremen",
   "nr": "39",
-  "position": "TW",
-  "ersetzt": "fotos/mariella-el-sherif.jpg"
+  "position": "TW"
  },
  "Joelle Wedemeyer": {
   "datei": "fotos/wob-joelle-wedemeyer.webp",
@@ -7869,5 +7856,21 @@
   "verein": "VfB Stuttgart",
   "nr": "25",
   "position": "TW"
+ },
+ "Medina Dešić": {
+  "datei": "fotos/svw-medina-desic.webp",
+  "autor": "Werder Bremen",
+  "lizenz": "mit Genehmigung: Werder Bremen",
+  "lizenz_url": null,
+  "quelle": "https://www.werder.de/teams/frauen/spielerinnen/",
+  "breite": 400,
+  "hoehe": 400,
+  "jahr": 2026,
+  "trikot_alt": false,
+  "gross": false,
+  "portrait": "fotos/svw-medina-desic.webp",
+  "verein": "Werder Bremen",
+  "nr": "9",
+  "position": "ST"
  }
 }
