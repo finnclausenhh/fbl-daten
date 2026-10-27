@@ -1,6 +1,68 @@
 {
- "stand": "2026-10-25T21:00",
+ "stand": "2026-10-27T13:59",
  "meldungen": [
+  {
+   "id": "mahmutovic-2710",
+   "pid": "00003",
+   "zeit": "2026-10-27T13:59",
+   "spielerin": "Ena Mahmutovic",
+   "verein": "FC Bayern",
+   "nr": "1",
+   "pos": "TW",
+   "tags": [
+    "SPERRE"
+   ],
+   "status": "gesperrt",
+   "headline": "Mahmutovic nach Rot für ein Ligaspiel gesperrt",
+   "text": [
+    "Das DFB-Sportgericht hat Torhüterin Ena Mahmutovic vom FC Bayern nach ihrer Roten Karte in Leipzig für ein Meisterschaftsspiel gesperrt.",
+    "Die Sperre gilt damit für das nächste Spiel in der Frauen-Bundesliga. Im Tor dürfte stattdessen eine der Ersatztorhüterinnen stehen."
+   ],
+   "kickbase": "Wer im Bayern-Tor steht, ist offen, auf die Aufstellung warten lohnt sich vor einem Kauf der Vertreterin.",
+   "quellen": [
+    {
+     "name": "DFB Sperren",
+     "url": "https://www.dfb.de/ueber-uns/verbandsrecht/sperren"
+    }
+   ],
+   "foto": "fotos/ena-mahmutovic.jpg",
+   "foto_credit": {
+    "autor": "Steffen Prößdorf",
+    "lizenz": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:2023-07-03_Fussball,_Frauen,_Deutsche_Nationalmannschaft,_Media_Day_1DX_6641_by_Stepro-2.jpg"
+   }
+  },
+  {
+   "id": "buehl-2710",
+   "pid": "00023",
+   "zeit": "2026-10-26T23:51",
+   "spielerin": "Klara Bühl",
+   "verein": "FC Bayern",
+   "nr": "",
+   "pos": "ST",
+   "tags": [
+    "TOP"
+   ],
+   "status": "fit",
+   "headline": "Bühl wird beim Ballon d'Or Zwölfte, Harder in den Top 10",
+   "text": [
+    "Klara Bühl vom FC Bayern hat bei der Wahl zum Ballon d'Or der Frauen in London Platz zwölf belegt. Die Top 10 verpasste sie damit. Im Vorjahr war sie noch Neunzehnte, sie hat sich also deutlich verbessert.",
+    "Bühl war die einzige Deutsche unter den 30 Nominierten. Ihre Vereinskollegin Pernille Harder schaffte es laut Bericht in die Top 10."
+   ],
+   "kickbase": "Die Auszeichnung ändert nichts an der Einsatzplanung, zeigt aber, wie hoch Bühl und Harder international eingeschätzt werden. Beide bleiben beim FC Bayern gesetzte Offensivkräfte, solange sie fit sind.",
+   "quellen": [
+    {
+     "name": "Goal.com",
+     "url": "https://www.goal.com/de/indivisa/meldungen/ballon-d-or-klara-buehl-von-bayern-muenchen-landet-auf-platz-zwoelf/blt0334235db34d6511"
+    }
+   ],
+   "foto": "fotos/klara-buhl.jpg",
+   "foto_credit": {
+    "autor": "Steffen Prößdorf",
+    "lizenz": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:2023-06-26_Fussball,_Frauen,_Deutsche_Nationalmannschaft,_Media_Day_1DX_6335_by_Stepro.jpg"
+   }
+  },
   {
    "id": "stoldt-2510",
    "zeit": "2026-10-25T20:31",

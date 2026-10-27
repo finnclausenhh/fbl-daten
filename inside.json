@@ -1,8 +1,8 @@
 {
- "stand": "2026-10-25T22:45",
+ "stand": "2026-10-27T06:44",
  "ausgabe": {
   "kicker": "Inside · KW 44 · nach Spieltag 8",
-  "titel": "Zwölf Tage ohne Spieltag, aber keine Pause",
+  "titel": "Ein Nachholspiel, dann Pokal und Europapokal",
   "punkte": [
    {
     "art": "risk",
@@ -17,7 +17,7 @@
    {
     "art": "watch",
     "label": "Beobachten",
-    "text": "Das DFB-Urteil zu Mahmutovics Roter Karte steht aus. Eine Sperre gilt nur für Ligaspiele."
+    "text": "Werder gegen Hoffenheim am Donnerstag ist das einzige Ligaspiel bis 6.11. Hoffenheim spielte in 7 Spielen nie zu Null, Werder traf in jedem seiner 7 Spiele."
    }
   ]
  },
@@ -918,6 +918,23 @@
  "spiele": {
   "spieltage": [
    {
+    "md": 7,
+    "partien": [
+     {
+      "heim": "SVW",
+      "gast": "TSG",
+      "fakten": [
+       "Werder holte zu Hause <b>10 von 12</b> Punkten.",
+       "Hoffenheim spielte in 7 Spielen noch <b>nie zu Null</b>, gewann aber die letzten <b>3</b> Ligaspiele.",
+       "Werder traf in <b>jedem</b> seiner 7 Saisonspiele."
+      ],
+      "kb": "Nachholspiel vom 7. Spieltag. Bei Werder haben Jaron und Shimada je 3 Tore, bei Hoffenheim Hahn. Danach folgt für beide der Pokal.",
+      "datum": "Do 29.10.",
+      "zeit": "18:00"
+     }
+    ]
+   },
+   {
     "md": 9,
     "partien": [
      {
@@ -945,6 +962,17 @@
       "kb": "Gute Ausgangslage für Bayerns Offensive, aber mit Rotationsrisiko zwischen Pokal und Paris."
      },
      {
+      "heim": "SCF",
+      "gast": "FCN",
+      "fakten": [
+       "Nürnberg traf in <b>jedem</b> Saisonspiel, holte auswärts aber erst <b>1 Punkt</b> bei 4:10 Toren.",
+       "Freiburg zu Hause: <b>6 Punkte</b>, <b>5:5</b> Tore."
+      ],
+      "kb": "Proniez (4 Tore) und Elferschützin Pápai sind Nürnbergs Abschlussspielerinnen.",
+      "datum": "Sa 07.11.",
+      "zeit": "12:00"
+     },
+     {
       "heim": "B04",
       "gast": "HSV",
       "datum": "Sa 07.11.",
@@ -956,6 +984,18 @@
       "kb": "Kramer ist mit 21 Schüssen Leverkusens Abschlussspielerin."
      },
      {
+      "heim": "FCU",
+      "gast": "TSG",
+      "fakten": [
+       "Union holte aus den letzten 4 Spielen <b>10 Punkte</b> bei 13:7 Toren.",
+       "Union wechselte zuletzt im Schnitt <b>0,7</b> Startelfplätze pro Spiel, so wenig wie kein anderer Verein.",
+       "Für Hoffenheim ist es das <b>3. Auswärtsspiel in 11 Tagen</b>."
+      ],
+      "kb": "Unions Startelf ist die stabilste der Liga, Bauereisen beginnt seit drei Spielen.",
+      "datum": "So 08.11.",
+      "zeit": "14:00"
+     },
+     {
       "heim": "M05",
       "gast": "VFB",
       "datum": "So 08.11.",
@@ -965,6 +1005,18 @@
        "Stuttgart traf in den letzten 3 Spielen nicht (<b>0:12</b> Tore)."
       ],
       "kb": "Eher Stuttgarts Abwehr als der Sturm: Für Giuliani ist eine weiße Weste realistisch."
+     },
+     {
+      "heim": "KOE",
+      "gast": "RBL",
+      "fakten": [
+       "Köln zu Hause: <b>9 Punkte</b>, <b>7:2</b> Tore.",
+       "Leipzig verlor zuletzt <b>1:5</b> gegen Bayern.",
+       "Beide treffen schon am 31.10. im Pokal in Köln aufeinander."
+      ],
+      "kb": "Bremer (4 Tore) ist Kölns Abschlussspielerin. Bei Leipzig hängt viel an der Rückkehr von Schasching.",
+      "datum": "Mo 09.11.",
+      "zeit": "18:00"
      }
     ]
    },
@@ -981,6 +1033,28 @@
        "Mainz traf auswärts <b>1-mal</b> in 4 Spielen."
       ],
       "kb": "Bestes Heimspiel-Setup für Stoldt."
+     },
+     {
+      "heim": "TSG",
+      "gast": "SCF",
+      "fakten": [
+       "Freiburg holte auswärts <b>4 Punkte</b> bei <b>6:9</b> Toren.",
+       "Hoffenheim zu Hause: <b>6 Punkte</b>, 7:6 Tore."
+      ],
+      "kb": "Kurze Anreise für Freiburg, 161 km.",
+      "datum": "Sa 14.11.",
+      "zeit": "12:00"
+     },
+     {
+      "heim": "SVW",
+      "gast": "FCU",
+      "fakten": [
+       "Werder holte zu Hause <b>10 von 12</b> Punkten.",
+       "Union auswärts: <b>4 Punkte</b>, <b>8:8</b> Tore."
+      ],
+      "kb": "Werders Heimstärke gegen Unions stabile Elf.",
+      "datum": "Sa 14.11.",
+      "zeit": "14:00"
      },
      {
       "heim": "WOB",
@@ -1005,6 +1079,18 @@
       "kb": "Köln punktet vor allem zu Hause, auswärts wackelt die Abwehr."
      },
      {
+      "heim": "RBL",
+      "gast": "SGE",
+      "fakten": [
+       "Frankfurt kassierte in 8 Spielen erst <b>7</b> Gegentore.",
+       "Frankfurt spielt <b>4 Tage</b> nach dem Europa Cup gegen Eindhoven.",
+       "Leipzig zu Hause: <b>6 Punkte</b>, 8:8 Tore."
+      ],
+      "kb": "Frankfurt rotierte zuletzt 3 Startelfplätze pro Spiel, nach dem Europa Cup ist Vorsicht bei Randspielerinnen angebracht.",
+      "datum": "So 15.11.",
+      "zeit": "16:00"
+     },
+     {
       "heim": "VFB",
       "gast": "B04",
       "datum": "Mo 16.11.",
@@ -1016,51 +1102,13 @@
       "kb": "Leverkusens Offensive hat hier eine gute Ausgangslage."
      }
     ]
-   },
-   {
-    "md": 11,
-    "partien": [
-     {
-      "heim": "KOE",
-      "gast": "SVW",
-      "datum": "Sa 21.11.",
-      "zeit": "14:00",
-      "fakten": [
-       "Köln zu Hause: <b>9 Punkte</b>, <b>7:2</b> Tore.",
-       "Werder holte auswärts erst <b>3 Punkte</b>."
-      ],
-      "kb": "Gute Zu-Null-Chance für Kölns Torhüterin Schmitz."
-     },
-     {
-      "heim": "M05",
-      "gast": "FCN",
-      "datum": "So 22.11.",
-      "zeit": "18:30",
-      "fakten": [
-       "Nürnberg traf in <b>jedem</b> Saisonspiel.",
-       "Mainz kassiert <b>3,4</b> Tore pro Spiel."
-      ],
-      "kb": "Proniez (4 Tore) und Elferschützin Pápai im Blick."
-     },
-     {
-      "heim": "FCB",
-      "gast": "TSG",
-      "datum": "Mo 23.11.",
-      "zeit": "18:00",
-      "fakten": [
-       "Hoffenheim spielte noch <b>nie zu Null</b>.",
-       "Bayern spielt <b>4 Tage</b> nach dem CL-Spiel in Wien."
-      ],
-      "kb": "Gute Ausgangslage für Bayerns Angriff, mit Restrisiko Rotation."
-     }
-    ]
    }
   ]
  },
  "kalender": {
-  "titel": "Belastung bis 16.11.",
-  "von": "2026-10-28",
-  "bis": "2026-11-16",
+  "titel": "Belastung bis 17.11.",
+  "von": "2026-10-27",
+  "bis": "2026-11-17",
   "vereine": {
    "SVW": [
     {
