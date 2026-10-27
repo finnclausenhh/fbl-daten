@@ -34,16 +34,21 @@
   "ersetzt": "fotos/thea-bjelde.jpg"
  },
  "Lilli Purtscheller": {
-  "datei": "fotos/lilli-purtscheller.jpg",
-  "autor": "Werner100359",
-  "lizenz": "CC BY-SA 4.0",
-  "lizenz_url": "https://creativecommons.org/licenses/by-sa/4.0",
-  "quelle": "https://commons.wikimedia.org/wiki/File:UEFA_Women%27s_Euro_Qualification_Austria_-_Island,_2024-05-45.jpg",
-  "id": "00047",
-  "breite": 1080,
-  "hoehe": 1612,
-  "jahr": 2024,
-  "portrait": "fotos/portrait/lilli-purtscheller.jpg"
+  "datei": "fotos/svw-lilli-purtscheller.webp",
+  "autor": "Werder Bremen",
+  "lizenz": "mit Genehmigung: Werder Bremen",
+  "lizenz_url": null,
+  "quelle": "https://www.werder.de/teams/frauen/spielerinnen/",
+  "breite": 400,
+  "hoehe": 400,
+  "jahr": 2026,
+  "trikot_alt": false,
+  "gross": false,
+  "portrait": "fotos/svw-lilli-purtscheller.webp",
+  "verein": "Werder Bremen",
+  "nr": "7",
+  "position": "MF",
+  "ersetzt": "fotos/lilli-purtscheller.jpg"
  },
  "Lina Hausicke": {
   "datei": "fotos/fcu-lina-hausicke.webp",
@@ -63,15 +68,21 @@
   "ersetzt": "fotos/lina-hausicke.jpg"
  },
  "Vanessa Fischer": {
-  "datei": "fotos/vanessa-fischer.jpg",
-  "autor": "Steffen Prößdorf",
-  "lizenz": "CC BY-SA 4.0",
-  "lizenz_url": "https://creativecommons.org/licenses/by-sa/4.0",
-  "quelle": "https://commons.wikimedia.org/wiki/File:2014-10-11_-_Fu%C3%9Fball_1._Bundesliga_-_FF_USV_Jena_vs._TSG_1899_Hoffenheim_IMG_4232_LR7,5.jpg",
-  "id": "00032",
-  "breite": 330,
-  "jahr": 2014,
-  "portrait": "fotos/portrait/vanessa-fischer.jpg"
+  "datei": "fotos/svw-vanessa-fischer.webp",
+  "autor": "Werder Bremen",
+  "lizenz": "mit Genehmigung: Werder Bremen",
+  "lizenz_url": null,
+  "quelle": "https://www.werder.de/teams/frauen/spielerinnen/",
+  "breite": 400,
+  "hoehe": 400,
+  "jahr": 2026,
+  "trikot_alt": false,
+  "gross": false,
+  "portrait": "fotos/svw-vanessa-fischer.webp",
+  "verein": "Werder Bremen",
+  "nr": "1",
+  "position": "TW",
+  "ersetzt": "fotos/vanessa-fischer.jpg"
  },
  "Franziska Kett": {
   "datei": "fotos/fcb-franziska-kett.webp",
@@ -172,15 +183,21 @@
   "ersetzt": "fotos/laura-benkarth.jpg"
  },
  "Lena Petermann": {
-  "datei": "fotos/lena-petermann.jpg",
-  "autor": "IQRemix from Canada",
-  "lizenz": "CC BY-SA 2.0",
-  "lizenz_url": "https://creativecommons.org/licenses/by-sa/2.0",
-  "quelle": "https://commons.wikimedia.org/wiki/File:Lena_Petermann_FIFA_Women%27s_World_Cup_Canada_2015_-_Edmonton_(19441949965)_(2)_(cropped).jpg",
-  "id": "00053",
-  "breite": 330,
-  "jahr": 2015,
-  "portrait": "fotos/portrait/lena-petermann.jpg"
+  "datei": "fotos/svw-lena-petermann.webp",
+  "autor": "Werder Bremen",
+  "lizenz": "mit Genehmigung: Werder Bremen",
+  "lizenz_url": null,
+  "quelle": "https://www.werder.de/teams/frauen/spielerinnen/",
+  "breite": 400,
+  "hoehe": 400,
+  "jahr": 2026,
+  "trikot_alt": false,
+  "gross": false,
+  "portrait": "fotos/svw-lena-petermann.webp",
+  "verein": "Werder Bremen",
+  "nr": "20",
+  "position": "ST",
+  "ersetzt": "fotos/lena-petermann.jpg"
  },
  "Linda Dallmann": {
   "datei": "fotos/fcb-linda-dallmann.webp",
@@ -213,8 +230,7 @@
   "portrait": "fotos/vfb-reena-wichmann.webp",
   "verein": "VfB Stuttgart",
   "nr": "28",
-  "position": "MF",
-  "ersetzt": "fotos/reena-wichmann.jpg"
+  "position": "MF"
  },
  "Vanessa Fudalla": {
   "datei": "fotos/b04-vanessa-fudalla.webp",
@@ -362,8 +378,7 @@
   "portrait": "fotos/vfb-laura-giuliani.webp",
   "verein": "VfB Stuttgart",
   "nr": "1",
-  "position": "TW",
-  "ersetzt": "fotos/laura-giuliani.jpg"
+  "position": "TW"
  },
  "Jana Vojteková": {
   "datei": "fotos/scf-jana-vojtekova.webp",
@@ -464,8 +479,7 @@
   "portrait": "fotos/vfb-greta-stegemann.webp",
   "verein": "VfB Stuttgart",
   "nr": "5",
-  "position": "ABW",
-  "ersetzt": "fotos/greta-stegemann.jpg"
+  "position": "ABW"
  },
  "Carina Brunold": {
   "datei": "fotos/scf-carina-brunold.webp",
@@ -502,14 +516,21 @@
   "ersetzt": "fotos/nia-szenk.jpg"
  },
  "Luna Vanzeir": {
-  "datei": "fotos/luna-vanzeir.jpg",
-  "autor": "Cedrichbn",
-  "lizenz": "CC BY-SA 4.0",
-  "lizenz_url": "https://creativecommons.org/licenses/by-sa/4.0",
-  "quelle": "https://commons.wikimedia.org/wiki/File:Luna_Vanzeir.jpg",
-  "id": "00055",
-  "breite": 330,
-  "jahr": 2022
+  "datei": "fotos/svw-luna-vanzeir.webp",
+  "autor": "Werder Bremen",
+  "lizenz": "mit Genehmigung: Werder Bremen",
+  "lizenz_url": null,
+  "quelle": "https://www.werder.de/teams/frauen/spielerinnen/",
+  "breite": 400,
+  "hoehe": 400,
+  "jahr": 2026,
+  "trikot_alt": false,
+  "gross": false,
+  "portrait": "fotos/svw-luna-vanzeir.webp",
+  "verein": "Werder Bremen",
+  "nr": "13",
+  "position": "ST",
+  "ersetzt": "fotos/luna-vanzeir.jpg"
  },
  "Sabah Seghir": {
   "datei": "fotos/scf-sabah-seghir.webp",
@@ -648,15 +669,21 @@
   "ersetzt": "fotos/lena-oberdorf.jpg"
  },
  "Juliane Wirtz": {
-  "datei": "fotos/juliane-wirtz.jpg",
-  "autor": "El Loko",
-  "lizenz": "CC BY 4.0",
-  "lizenz_url": "https://creativecommons.org/licenses/by/4.0",
-  "quelle": "https://commons.wikimedia.org/wiki/File:Juliane_Wirtz_20190915.jpg",
-  "id": "00048",
-  "breite": 330,
-  "jahr": 2019,
-  "portrait": "fotos/portrait/juliane-wirtz.jpg"
+  "datei": "fotos/svw-juliane-wirtz.webp",
+  "autor": "Werder Bremen",
+  "lizenz": "mit Genehmigung: Werder Bremen",
+  "lizenz_url": null,
+  "quelle": "https://www.werder.de/teams/frauen/spielerinnen/",
+  "breite": 400,
+  "hoehe": 400,
+  "jahr": 2026,
+  "trikot_alt": false,
+  "gross": false,
+  "portrait": "fotos/svw-juliane-wirtz.webp",
+  "verein": "Werder Bremen",
+  "nr": "28",
+  "position": "MF",
+  "ersetzt": "fotos/juliane-wirtz.jpg"
  },
  "Sara Doorsoun": {
   "datei": "fotos/sge-sara-doorsoun.webp",
@@ -710,15 +737,21 @@
   "ersetzt": "fotos/pernille-harder.jpg"
  },
  "Caroline Siems": {
-  "datei": "fotos/caroline-siems.jpg",
-  "autor": "Ailura",
-  "lizenz": "CC BY-SA 3.0 at",
-  "lizenz_url": "https://creativecommons.org/licenses/by-sa/3.0/at/deed.en",
-  "quelle": "https://commons.wikimedia.org/wiki/File:20160319_U17W_GERSUI_9147.jpg",
-  "id": "00038",
-  "breite": 330,
-  "jahr": 2016,
-  "portrait": "fotos/portrait/caroline-siems.jpg"
+  "datei": "fotos/svw-caroline-siems.webp",
+  "autor": "Werder Bremen",
+  "lizenz": "mit Genehmigung: Werder Bremen",
+  "lizenz_url": null,
+  "quelle": "https://www.werder.de/teams/frauen/spielerinnen/",
+  "breite": 400,
+  "hoehe": 400,
+  "jahr": 2026,
+  "trikot_alt": false,
+  "gross": false,
+  "portrait": "fotos/svw-caroline-siems.webp",
+  "verein": "Werder Bremen",
+  "nr": "21",
+  "position": "ABW",
+  "ersetzt": "fotos/caroline-siems.jpg"
  },
  "Meret Felde": {
   "datei": "fotos/scf-meret-felde.webp",
@@ -823,16 +856,21 @@
   "ersetzt": "fotos/nadine-anstatt.jpg"
  },
  "Elena Dhont": {
-  "datei": "fotos/elena-dhont.jpg",
-  "autor": "Estevoaei",
-  "lizenz": "CC BY-SA 4.0",
-  "lizenz_url": "https://creativecommons.org/licenses/by-sa/4.0",
-  "quelle": "https://commons.wikimedia.org/wiki/File:Partido_Espa%C3%B1a_-_B%C3%A9lxica_en_Riazor,_clasificatorio_Eurocopa_2025_25_(cropped_-_Elena_Dhont).jpg",
-  "id": "00050",
-  "breite": 1080,
-  "hoehe": 1374,
-  "jahr": 2024,
-  "portrait": "fotos/portrait/elena-dhont.jpg"
+  "datei": "fotos/svw-elena-dhont.webp",
+  "autor": "Werder Bremen",
+  "lizenz": "mit Genehmigung: Werder Bremen",
+  "lizenz_url": null,
+  "quelle": "https://www.werder.de/teams/frauen/spielerinnen/",
+  "breite": 400,
+  "hoehe": 400,
+  "jahr": 2026,
+  "trikot_alt": false,
+  "gross": false,
+  "portrait": "fotos/svw-elena-dhont.webp",
+  "verein": "Werder Bremen",
+  "nr": "31",
+  "position": "ST",
+  "ersetzt": "fotos/elena-dhont.jpg"
  },
  "Therese Simonsson": {
   "datei": "fotos/rbl-therese-simonsson.webp",
@@ -899,8 +937,7 @@
   "portrait": "fotos/vfb-fabienne-dongus.webp",
   "verein": "VfB Stuttgart",
   "nr": "33",
-  "position": "MF",
-  "ersetzt": "fotos/fabienne-dongus.jpg"
+  "position": "MF"
  },
  "Tamar Dongus": {
   "datei": "fotos/vfb-tamar-dongus.webp",
@@ -916,8 +953,7 @@
   "portrait": "fotos/vfb-tamar-dongus.webp",
   "verein": "VfB Stuttgart",
   "nr": "32",
-  "position": "ABW",
-  "ersetzt": "fotos/tamar-dongus.jpg"
+  "position": "ABW"
  },
  "Maximiliane Rall": {
   "datei": "fotos/vfb-maxi-rall.webp",
@@ -933,8 +969,7 @@
   "portrait": "fotos/vfb-maxi-rall.webp",
   "verein": "VfB Stuttgart",
   "nr": "8",
-  "position": "ABW",
-  "ersetzt": "fotos/maximiliane-rall.jpg"
+  "position": "ABW"
  },
  "Magdalena Eriksson": {
   "datei": "fotos/fcb-magdalena-eriksson.webp",
@@ -1135,28 +1170,38 @@
   "ersetzt": "fotos/amber-tysiak.jpg"
  },
  "Isabella Jaron": {
-  "datei": "fotos/isabella-jaron.jpg",
-  "autor": "Steffen Prößdorf",
-  "lizenz": "CC BY-SA 4.0",
-  "lizenz_url": "https://creativecommons.org/licenses/by-sa/4.0",
-  "quelle": "https://commons.wikimedia.org/wiki/File:2025-09-08_Fu%C3%9Fball,_Frauen-Bundesliga,_FC_Carl_Zeiss_Jena_-_TSG_1899_Hoffenheim_STP_6347.jpg",
-  "id": "00051",
-  "breite": 1080,
-  "hoehe": 1080,
-  "jahr": 2025,
-  "portrait": "fotos/portrait/isabella-jaron.jpg"
+  "datei": "fotos/svw-isabella-jaron.webp",
+  "autor": "Werder Bremen",
+  "lizenz": "mit Genehmigung: Werder Bremen",
+  "lizenz_url": null,
+  "quelle": "https://www.werder.de/teams/frauen/spielerinnen/",
+  "breite": 400,
+  "hoehe": 400,
+  "jahr": 2026,
+  "trikot_alt": false,
+  "gross": false,
+  "portrait": "fotos/svw-isabella-jaron.webp",
+  "verein": "Werder Bremen",
+  "nr": "11",
+  "position": "ST",
+  "ersetzt": "fotos/isabella-jaron.jpg"
  },
  "Michelle Ulbrich": {
-  "datei": "fotos/michelle-ulbrich.jpg",
-  "autor": "Steffen Prößdorf",
-  "lizenz": "CC BY-SA 4.0",
-  "lizenz_url": "https://creativecommons.org/licenses/by-sa/4.0",
-  "quelle": "https://commons.wikimedia.org/wiki/File:2023-09-16_Fussball,_Google_Pixel_Frauen-Bundesliga,_1._FC_N%C3%BCrnberg_-_SV_Werder_Bremen_1DX_1917_by_Stepro.jpg",
-  "id": "00040",
-  "breite": 1080,
-  "hoehe": 1080,
-  "jahr": 2023,
-  "portrait": "fotos/portrait/michelle-ulbrich.jpg"
+  "datei": "fotos/svw-michelle-ulbrich.webp",
+  "autor": "Werder Bremen",
+  "lizenz": "mit Genehmigung: Werder Bremen",
+  "lizenz_url": null,
+  "quelle": "https://www.werder.de/teams/frauen/spielerinnen/",
+  "breite": 400,
+  "hoehe": 400,
+  "jahr": 2026,
+  "trikot_alt": false,
+  "gross": false,
+  "portrait": "fotos/svw-michelle-ulbrich.webp",
+  "verein": "Werder Bremen",
+  "nr": "5",
+  "position": "ABW",
+  "ersetzt": "fotos/michelle-ulbrich.jpg"
  },
  "Giovanna Hoffmann": {
   "datei": "fotos/wob-giovanna-hoffmann.webp",
@@ -1427,8 +1472,7 @@
   "portrait": "fotos/vfb-verena-wieder.webp",
   "verein": "VfB Stuttgart",
   "nr": "31",
-  "position": "ST",
-  "ersetzt": "fotos/verena-wieder.jpg"
+  "position": "ST"
  },
  "Ingibjörg Sigurðardóttir": {
   "datei": "fotos/scf-ingibjorg-sigurdardottir.webp",
@@ -1576,8 +1620,7 @@
   "portrait": "fotos/vfb-janina-hechler.webp",
   "verein": "VfB Stuttgart",
   "nr": "16",
-  "position": "ABW",
-  "ersetzt": "fotos/janina-hechler.jpg"
+  "position": "ABW"
  },
  "Laura Sieger": {
   "datei": "fotos/hsv-01-sieger.webp",
@@ -1725,16 +1768,21 @@
   "ersetzt": "fotos/inga-schuldt.jpg"
  },
  "Michelle Weiß": {
-  "datei": "fotos/michelle-wei.jpg",
-  "autor": "Steffen Prößdorf",
-  "lizenz": "CC BY-SA 4.0",
-  "lizenz_url": "https://creativecommons.org/licenses/by-sa/4.0",
-  "quelle": "https://commons.wikimedia.org/wiki/File:2023-09-16_Fussball,_Google_Pixel_Frauen-Bundesliga,_1._FC_N%C3%BCrnberg_-_SV_Werder_Bremen_1DX_1890_by_Stepro.jpg",
-  "id": "00041",
-  "breite": 1080,
-  "hoehe": 1620,
-  "jahr": 2023,
-  "portrait": "fotos/portrait/michelle-wei.jpg"
+  "datei": "fotos/svw-michelle-wei.webp",
+  "autor": "Werder Bremen",
+  "lizenz": "mit Genehmigung: Werder Bremen",
+  "lizenz_url": null,
+  "quelle": "https://www.werder.de/teams/frauen/spielerinnen/",
+  "breite": 400,
+  "hoehe": 400,
+  "jahr": 2026,
+  "trikot_alt": false,
+  "gross": false,
+  "portrait": "fotos/svw-michelle-wei.webp",
+  "verein": "Werder Bremen",
+  "nr": "15",
+  "position": "ABW",
+  "ersetzt": "fotos/michelle-wei.jpg"
  },
  "Sanja Homann": {
   "datei": "fotos/fcn-sanja-homann.webp",
@@ -1903,14 +1951,21 @@
   "ersetzt": "fotos/nadine-bohi.jpg"
  },
  "Julia Magerl": {
-  "datei": "fotos/julia-magerl.jpg",
-  "autor": "Steffen Prößdorf",
-  "lizenz": "CC BY-SA 4.0",
-  "lizenz_url": "https://creativecommons.org/licenses/by-sa/4.0",
-  "quelle": "https://commons.wikimedia.org/wiki/File:2023-10-15_Fussball,_Google_Pixel_Frauen-Bundesliga,_RB_Leipzig_-_VfL_Wolfsburg_1DX_3409_(Magerl).jpg",
-  "id": "00036",
-  "breite": 330,
-  "jahr": 2023
+  "datei": "fotos/svw-julia-magerl.webp",
+  "autor": "Werder Bremen",
+  "lizenz": "mit Genehmigung: Werder Bremen",
+  "lizenz_url": null,
+  "quelle": "https://www.werder.de/teams/frauen/spielerinnen/",
+  "breite": 400,
+  "hoehe": 400,
+  "jahr": 2026,
+  "trikot_alt": false,
+  "gross": false,
+  "portrait": "fotos/svw-julia-magerl.webp",
+  "verein": "Werder Bremen",
+  "nr": "4",
+  "position": "ABW",
+  "ersetzt": "fotos/julia-magerl.jpg"
  },
  "Chantal Hagel": {
   "datei": "fotos/vfb-chantal-hagel.webp",
@@ -1926,8 +1981,7 @@
   "portrait": "fotos/vfb-chantal-hagel.webp",
   "verein": "VfB Stuttgart",
   "nr": "6",
-  "position": "MF",
-  "ersetzt": "fotos/chantal-hagel.jpg"
+  "position": "MF"
  },
  "Laura Dick": {
   "datei": "fotos/tsg-laura-dick.webp",
@@ -2011,8 +2065,7 @@
   "portrait": "fotos/vfb-kiara-beck.webp",
   "verein": "VfB Stuttgart",
   "nr": "12",
-  "position": "TW",
-  "ersetzt": "fotos/kiara-beck.jpg"
+  "position": "TW"
  },
  "Féli Delacauw": {
   "datei": "fotos/tsg-feli-delacauw.webp",
@@ -2134,15 +2187,21 @@
   "ersetzt": "fotos/naomi-luyet.jpg"
  },
  "Felicia Sträßer": {
-  "datei": "fotos/felicia-straer.jpg",
-  "autor": "Steffen Prößdorf",
-  "lizenz": "CC BY-SA 4.0",
-  "lizenz_url": "https://creativecommons.org/licenses/by-sa/4.0",
-  "quelle": "https://commons.wikimedia.org/wiki/File:2024-09-14_Fu%C3%9Fball,_Frauen-Bundesliga,_FC_Carl_Zeiss_Jena_-_VfL_Wolfsburg_STP_4872_by_Stepro.jpg",
-  "id": "00039",
-  "breite": 330,
-  "jahr": 2024,
-  "portrait": "fotos/portrait/felicia-straer.jpg"
+  "datei": "fotos/svw-felicia-stra-er.webp",
+  "autor": "Werder Bremen",
+  "lizenz": "mit Genehmigung: Werder Bremen",
+  "lizenz_url": null,
+  "quelle": "https://www.werder.de/teams/frauen/spielerinnen/",
+  "breite": 400,
+  "hoehe": 400,
+  "jahr": 2026,
+  "trikot_alt": false,
+  "gross": false,
+  "portrait": "fotos/svw-felicia-stra-er.webp",
+  "verein": "Werder Bremen",
+  "nr": "19",
+  "position": "ABW",
+  "ersetzt": "fotos/felicia-straer.jpg"
  },
  "Paulina Platner": {
   "datei": "fotos/b04-paulina-platner.webp",
@@ -2349,13 +2408,21 @@
   "ersetzt": "fotos/lara-prasnikar.jpg"
  },
  "Mariella El Sherif": {
-  "datei": "fotos/mariella-el-sherif.jpg",
-  "autor": "Werner100359",
-  "lizenz": "CC BY-SA 4.0",
-  "lizenz_url": "https://creativecommons.org/licenses/by-sa/4.0",
-  "quelle": "https://commons.wikimedia.org/wiki/File:%C3%96sterreich_vs._Deutschland_(2026-04-18_WM-Qualifikation_Europa_Frauen)_35_(El_Sherif).jpg",
-  "breite": 330,
-  "jahr": 2026
+  "datei": "fotos/svw-mariella-el-sherif.webp",
+  "autor": "Werder Bremen",
+  "lizenz": "mit Genehmigung: Werder Bremen",
+  "lizenz_url": null,
+  "quelle": "https://www.werder.de/teams/frauen/spielerinnen/",
+  "breite": 400,
+  "hoehe": 400,
+  "jahr": 2026,
+  "trikot_alt": false,
+  "gross": false,
+  "portrait": "fotos/svw-mariella-el-sherif.webp",
+  "verein": "Werder Bremen",
+  "nr": "39",
+  "position": "TW",
+  "ersetzt": "fotos/mariella-el-sherif.jpg"
  },
  "Joelle Wedemeyer": {
   "datei": "fotos/wob-joelle-wedemeyer.webp",
@@ -2405,8 +2472,7 @@
   "portrait": "fotos/vfb-nicole-billa.webp",
   "verein": "VfB Stuttgart",
   "nr": "26",
-  "position": "ST",
-  "ersetzt": "fotos/nicole-billa.jpg"
+  "position": "ST"
  },
  "Melanie Brunnthaler": {
   "datei": "fotos/hsv-11-brunnthaler.webp",
@@ -7611,5 +7677,197 @@
   "verein": "Hamburger SV",
   "funktion": "Cheftrainer",
   "stab": true
+ },
+ "Chiara D'Angelo": {
+  "datei": "fotos/svw-chiara-d-angelo.webp",
+  "autor": "Werder Bremen",
+  "lizenz": "mit Genehmigung: Werder Bremen",
+  "lizenz_url": null,
+  "quelle": "https://www.werder.de/teams/frauen/spielerinnen/",
+  "breite": 400,
+  "hoehe": 400,
+  "jahr": 2026,
+  "trikot_alt": false,
+  "gross": false,
+  "portrait": "fotos/svw-chiara-d-angelo.webp",
+  "verein": "Werder Bremen",
+  "nr": "2",
+  "position": "ABW"
+ },
+ "Elena Mühlemann": {
+  "datei": "fotos/svw-elena-muhlemann.webp",
+  "autor": "Werder Bremen",
+  "lizenz": "mit Genehmigung: Werder Bremen",
+  "lizenz_url": null,
+  "quelle": "https://www.werder.de/teams/frauen/spielerinnen/",
+  "breite": 400,
+  "hoehe": 400,
+  "jahr": 2026,
+  "trikot_alt": false,
+  "gross": false,
+  "portrait": "fotos/svw-elena-muhlemann.webp",
+  "verein": "Werder Bremen",
+  "nr": "14",
+  "position": "MF"
+ },
+ "Maria Penner": {
+  "datei": "fotos/svw-maria-penner.webp",
+  "autor": "Werder Bremen",
+  "lizenz": "mit Genehmigung: Werder Bremen",
+  "lizenz_url": null,
+  "quelle": "https://www.werder.de/teams/frauen/spielerinnen/",
+  "breite": 400,
+  "hoehe": 400,
+  "jahr": 2026,
+  "trikot_alt": false,
+  "gross": false,
+  "portrait": "fotos/svw-maria-penner.webp",
+  "verein": "Werder Bremen",
+  "nr": "33",
+  "position": "ABW"
+ },
+ "Marie Gmeineder": {
+  "datei": "fotos/svw-marie-gmeineder.webp",
+  "autor": "Werder Bremen",
+  "lizenz": "mit Genehmigung: Werder Bremen",
+  "lizenz_url": null,
+  "quelle": "https://www.werder.de/teams/frauen/spielerinnen/",
+  "breite": 400,
+  "hoehe": 400,
+  "jahr": 2026,
+  "trikot_alt": false,
+  "gross": false,
+  "portrait": "fotos/svw-marie-gmeineder.webp",
+  "verein": "Werder Bremen",
+  "nr": "6",
+  "position": "MF"
+ },
+ "Mei Shimada": {
+  "datei": "fotos/svw-mei-shimada.webp",
+  "autor": "Werder Bremen",
+  "lizenz": "mit Genehmigung: Werder Bremen",
+  "lizenz_url": null,
+  "quelle": "https://www.werder.de/teams/frauen/spielerinnen/",
+  "breite": 400,
+  "hoehe": 400,
+  "jahr": 2026,
+  "trikot_alt": false,
+  "gross": false,
+  "portrait": "fotos/svw-mei-shimada.webp",
+  "verein": "Werder Bremen",
+  "nr": "8",
+  "position": "ST"
+ },
+ "Sarah Ernst": {
+  "datei": "fotos/svw-sarah-ernst.webp",
+  "autor": "Werder Bremen",
+  "lizenz": "mit Genehmigung: Werder Bremen",
+  "lizenz_url": null,
+  "quelle": "https://www.werder.de/teams/frauen/spielerinnen/",
+  "breite": 400,
+  "hoehe": 400,
+  "jahr": 2026,
+  "trikot_alt": false,
+  "gross": false,
+  "portrait": "fotos/svw-sarah-ernst.webp",
+  "verein": "Werder Bremen",
+  "nr": "26",
+  "position": "MF"
+ },
+ "Sarah Gutmann": {
+  "datei": "fotos/svw-sarah-gutmann.webp",
+  "autor": "Werder Bremen",
+  "lizenz": "mit Genehmigung: Werder Bremen",
+  "lizenz_url": null,
+  "quelle": "https://www.werder.de/teams/frauen/spielerinnen/",
+  "breite": 400,
+  "hoehe": 400,
+  "jahr": 2026,
+  "trikot_alt": false,
+  "gross": false,
+  "portrait": "fotos/svw-sarah-gutmann.webp",
+  "verein": "Werder Bremen",
+  "nr": "32",
+  "position": "ABW"
+ },
+ "Sinem Özdemir": {
+  "datei": "fotos/svw-sinem-ozdemir.webp",
+  "autor": "Werder Bremen",
+  "lizenz": "mit Genehmigung: Werder Bremen",
+  "lizenz_url": null,
+  "quelle": "https://www.werder.de/teams/frauen/spielerinnen/",
+  "breite": 400,
+  "hoehe": 400,
+  "jahr": 2026,
+  "trikot_alt": false,
+  "gross": false,
+  "portrait": "fotos/svw-sinem-ozdemir.webp",
+  "verein": "Werder Bremen",
+  "nr": "30",
+  "position": "TW"
+ },
+ "Thea Farwick": {
+  "datei": "fotos/svw-thea-farwick.webp",
+  "autor": "Werder Bremen",
+  "lizenz": "mit Genehmigung: Werder Bremen",
+  "lizenz_url": null,
+  "quelle": "https://www.werder.de/teams/frauen/spielerinnen/",
+  "breite": 400,
+  "hoehe": 400,
+  "jahr": 2026,
+  "trikot_alt": false,
+  "gross": false,
+  "portrait": "fotos/svw-thea-farwick.webp",
+  "verein": "Werder Bremen",
+  "nr": "16",
+  "position": "TW"
+ },
+ "Tuana Mahmoud": {
+  "datei": "fotos/svw-tuana-mahmoud.webp",
+  "autor": "Werder Bremen",
+  "lizenz": "mit Genehmigung: Werder Bremen",
+  "lizenz_url": null,
+  "quelle": "https://www.werder.de/teams/frauen/spielerinnen/",
+  "breite": 400,
+  "hoehe": 400,
+  "jahr": 2026,
+  "trikot_alt": false,
+  "gross": false,
+  "portrait": "fotos/svw-tuana-mahmoud.webp",
+  "verein": "Werder Bremen",
+  "nr": "10",
+  "position": "ST"
+ },
+ "Wiktoria Zieniewicz": {
+  "datei": "fotos/svw-wiktoria-zieniewicz.webp",
+  "autor": "Werder Bremen",
+  "lizenz": "mit Genehmigung: Werder Bremen",
+  "lizenz_url": null,
+  "quelle": "https://www.werder.de/teams/frauen/spielerinnen/",
+  "breite": 400,
+  "hoehe": 400,
+  "jahr": 2026,
+  "trikot_alt": false,
+  "gross": false,
+  "portrait": "fotos/svw-wiktoria-zieniewicz.webp",
+  "verein": "Werder Bremen",
+  "nr": "3",
+  "position": "ABW"
+ },
+ "Eve Böttcher": {
+  "datei": "fotos/vfb-eve-boettcher.webp",
+  "autor": "VfB Stuttgart",
+  "lizenz": "mit Genehmigung: VfB Stuttgart",
+  "lizenz_url": null,
+  "quelle": "https://www.vfb.de/de/1893/frauen/frauen/kader/saisonen/2026-2027/kader/?data=&mobile=",
+  "breite": 400,
+  "hoehe": 400,
+  "jahr": 2026,
+  "trikot_alt": false,
+  "gross": false,
+  "portrait": "fotos/vfb-eve-boettcher.webp",
+  "verein": "VfB Stuttgart",
+  "nr": "25",
+  "position": "TW"
  }
 }
