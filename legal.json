@@ -97,7 +97,7 @@
   "bloecke": [
    {
     "typ": "p",
-    "text": "**Kurz gesagt:** WOSOINSIDER braucht kein Konto, setzt keine Cookies und zeigt keine Werbung. Die App enthält keine Analyse. Webseite und Webversion zählen Aufrufe anonym mit GoatCounter, ohne Cookies und ohne Speicherung von IP-Adressen. Stimmen Sie in einer Umfrage ab, wird nur die gewählte Antwort gezählt, in App und Web (Abschnitt 6). Personenbezogene Daten fallen sonst nur dort an, wo Technik es zwingend verlangt (Abruf der Inhalte) oder wenn Sie uns schreiben."
+    "text": "**Kurz gesagt:** WOSOINSIDER braucht kein Konto, setzt keine Cookies und zeigt keine Werbung. Die App enthält keine Analyse. Webseite und Webversion zählen Aufrufe anonym mit GoatCounter, ohne Cookies und ohne Speicherung von IP-Adressen. Stimmen Sie in einer Umfrage ab, wird nur die gewählte Antwort gezählt, in App und Web (Abschnitt 6). Wer in der Webversion kommentiert, bekommt ein Profil ohne E-Mail-Adresse (Abschnitt 7). Personenbezogene Daten fallen sonst nur dort an, wo Technik es zwingend verlangt (Abruf der Inhalte) oder wenn Sie uns schreiben."
    },
    {
     "typ": "h2",
@@ -133,7 +133,7 @@
    },
    {
     "typ": "p",
-    "text": "Die App enthält keine Analyse-, Werbe- oder Tracking-Werkzeuge und keine Software von Drittanbietern. Stimmen Sie in einer Umfrage ab, sendet die App nur die gewählte Antwort zur Zählung an GoatCounter (Abschnitt 6). Sie fragt keine Berechtigungen ab, etwa für Standort, Kontakte, Fotos oder Kamera. Links zu Quellen, Lizenzen oder Instagram öffnet sie erst, wenn Sie darauf tippen (siehe Abschnitt 10). Rechtsgrundlage für den Abruf ist unser berechtigtes Interesse, Ihnen die Inhalte auszuliefern (Art. 6 Abs. 1 lit. f DSGVO)."
+    "text": "Die App enthält keine Analyse-, Werbe- oder Tracking-Werkzeuge und keine Software von Drittanbietern. Stimmen Sie in einer Umfrage ab, sendet die App nur die gewählte Antwort zur Zählung an GoatCounter (Abschnitt 6). Sie fragt keine Berechtigungen ab, etwa für Standort, Kontakte, Fotos oder Kamera. Links zu Quellen, Lizenzen oder Instagram öffnet sie erst, wenn Sie darauf tippen (siehe Abschnitt 11). Rechtsgrundlage für den Abruf ist unser berechtigtes Interesse, Ihnen die Inhalte auszuliefern (Art. 6 Abs. 1 lit. f DSGVO)."
    },
    {
     "typ": "p",
@@ -145,7 +145,7 @@
    },
    {
     "typ": "p",
-    "text": "Ihre Vereinsauswahl und Ihre Stimmen in Umfragen speichern App und Webversion lokal auf Ihrem Gerät (App: Einstellungen der App, Webversion: localStorage des Browsers), damit Sie Ihre Auswahl behalten und jede Umfrage nur einmal beantworten. Die Vereinsauswahl wird nicht übertragen; wie eine Stimme gezählt wird, steht in Abschnitt 6. Diese Speicherung ist für die von Ihnen gewünschte Funktion unbedingt erforderlich und braucht daher keine Einwilligung (§ 25 Abs. 2 Nr. 2 TDDDG). Sie löschen sie, indem Sie die Auswahl zurücksetzen, die App löschen oder die Browserdaten entfernen. Es werden keine Cookies gesetzt."
+    "text": "Ihre Vereinsauswahl und Ihre Stimmen in Umfragen speichern App und Webversion lokal auf Ihrem Gerät (App: Einstellungen der App, Webversion: localStorage des Browsers), damit Sie Ihre Auswahl behalten und jede Umfrage nur einmal beantworten. Die Vereinsauswahl wird nicht übertragen; wie eine Stimme gezählt wird, steht in Abschnitt 6. Diese Speicherung ist für die von Ihnen gewünschte Funktion unbedingt erforderlich und braucht daher keine Einwilligung (§ 25 Abs. 2 Nr. 2 TDDDG). Sie löschen sie, indem Sie die Auswahl zurücksetzen, die App löschen oder die Browserdaten entfernen. Kommentieren Sie in der Webversion, speichert der Browser zusätzlich einen Sitzungsschlüssel (Eintrag „woso-konto“), damit Ihr Kommentar-Profil erhalten bleibt, und gegebenenfalls die Liste der Personen, die Sie stummgeschaltet haben (Eintrag „woso-stumm“, wird nicht übertragen). Es werden keine Cookies gesetzt."
    },
    {
     "typ": "h2",
@@ -177,19 +177,43 @@
    },
    {
     "typ": "p",
-    "text": "Zweck ist zu erfahren, wie viele Menschen das Angebot nutzen und welche Themen, Spielerinnen und Vereine gefragt sind, sowie die Ergebnisse von Umfragen anzuzeigen. Rechtsgrundlage ist unser berechtigtes Interesse an dieser Auswertung (Art. 6 Abs. 1 lit. f DSGVO). Sie können jederzeit widersprechen (Abschnitt 12), zum Beispiel per E-Mail; technisch verhindern Sie die Zählung mit einem Inhaltsblocker. Weitere Informationen: [Datenschutzerklärung von GoatCounter](https://www.goatcounter.com/help/privacy)."
+    "text": "Zweck ist zu erfahren, wie viele Menschen das Angebot nutzen und welche Themen, Spielerinnen und Vereine gefragt sind, sowie die Ergebnisse von Umfragen anzuzeigen. Rechtsgrundlage ist unser berechtigtes Interesse an dieser Auswertung (Art. 6 Abs. 1 lit. f DSGVO). Sie können jederzeit widersprechen (Abschnitt 13), zum Beispiel per E-Mail; technisch verhindern Sie die Zählung mit einem Inhaltsblocker. Weitere Informationen: [Datenschutzerklärung von GoatCounter](https://www.goatcounter.com/help/privacy)."
    },
    {
     "typ": "h2",
-    "text": "7. Keine Profile, keine automatisierten Entscheidungen"
+    "text": "7. Kommentare (Supabase)"
    },
    {
     "typ": "p",
-    "text": "Wir bilden keine Nutzerprofile und verkaufen oder teilen keine Daten. Eine automatisierte Entscheidungsfindung nach Art. 22 DSGVO findet nicht statt."
+    "text": "In der Webversion des Newstickers können Sie Meldungen kommentieren sowie Kommentare liken und melden. Lesen ist ohne Anmeldung möglich. Wenn Sie zum ersten Mal schreiben, liken oder melden, wird für Ihren Browser ein pseudonymes Profil angelegt: eine zufällige Kennung und ein Name, den Sie beim ersten Kommentar selbst wählen (ohne Wahl ein Platzhalter wie „WoSo-Fan 1704“). Eine E-Mail-Adresse oder ein Konto ist dafür nicht nötig."
+   },
+   {
+    "typ": "p",
+    "text": "Verarbeitet werden die pseudonyme Kennung, der Name, Ihre Kommentare mit Zeitpunkt, Ihre Likes, Ihre Meldungen mit Grund, Moderationsentscheidungen und gegebenenfalls eine Sperre mit Begründung. Beim Abruf verarbeitet der Dienstleister technisch Ihre IP-Adresse und Angaben zum Browser (Server-Protokolle). Kommentare und Name sind für alle sichtbar. Schreiben Sie bitte keine persönlichen Daten in Kommentare."
+   },
+   {
+    "typ": "p",
+    "text": "Zweck und Rechtsgrundlage: Bereitstellung der Kommentarfunktion, die Sie selbst nutzen (Art. 6 Abs. 1 lit. b DSGVO), Schutz vor Missbrauch und Spam sowie die Bearbeitung von Meldungen nach dem Digital Services Act (Art. 6 Abs. 1 lit. c und f DSGVO). Ein Wortfilter prüft Kommentare und Namen automatisch; zurückgehaltene oder gemeldete Kommentare prüft die Redaktion."
+   },
+   {
+    "typ": "p",
+    "text": "Dienstleister und Auftragsverarbeiter (Art. 28 DSGVO) ist die Supabase Pte. Ltd., 65 Chulia Street #38-02/03, OCBC Centre, Singapur 049513. Die Daten liegen in einem Rechenzentrum in Frankfurt am Main. Der Auftragsverarbeitungsvertrag ist Teil der Nutzungsbedingungen von Supabase; für Zugriffe aus Ländern außerhalb der EU (etwa Support aus Singapur oder den USA) gelten die EU-Standardvertragsklauseln. Weitere Informationen: [Datenschutzerklärung von Supabase](https://supabase.com/privacy)."
+   },
+   {
+    "typ": "p",
+    "text": "Speicherdauer: Kommentare, bis Sie sie löschen oder wir sie entfernen. Profile ohne jede Aktivität löschen wir nach 30 Tagen automatisch. Erledigte Meldungen löschen wir nach 6 Monaten, das Moderationsprotokoll nach 12 Monaten. Eigene Kommentare können Sie jederzeit selbst löschen. Für die Löschung Ihres Profils oder Auskunft schreiben Sie an [redaktion@wosoinsider.de](mailto:redaktion@wosoinsider.de) und nennen Ihren Namen in den Kommentaren. Die Kommentarregeln stehen unter dem Eingabefeld; rechtswidrige Inhalte melden Sie über „Melden“ oder per E-Mail."
    },
    {
     "typ": "h2",
-    "text": "8. App Store"
+    "text": "8. Keine Werbeprofile, keine automatisierten Entscheidungen"
+   },
+   {
+    "typ": "p",
+    "text": "Wir bilden keine Nutzerprofile zu Werbe- oder Analysezwecken und verkaufen oder teilen keine Daten. Das Kommentar-Profil (Abschnitt 7) dient nur der Kommentarfunktion. Eine automatisierte Entscheidungsfindung nach Art. 22 DSGVO findet nicht statt."
+   },
+   {
+    "typ": "h2",
+    "text": "9. App Store"
    },
    {
     "typ": "p",
@@ -197,7 +221,7 @@
    },
    {
     "typ": "h2",
-    "text": "9. Kontakt per E-Mail"
+    "text": "10. Kontakt per E-Mail"
    },
    {
     "typ": "p",
@@ -209,7 +233,7 @@
    },
    {
     "typ": "h2",
-    "text": "10. Links zu anderen Seiten"
+    "text": "11. Links zu anderen Seiten"
    },
    {
     "typ": "p",
@@ -217,7 +241,7 @@
    },
    {
     "typ": "h2",
-    "text": "11. Berichterstattung über Spielerinnen"
+    "text": "12. Berichterstattung über Spielerinnen"
    },
    {
     "typ": "p",
@@ -233,7 +257,7 @@
    },
    {
     "typ": "h2",
-    "text": "12. Ihre Rechte"
+    "text": "13. Ihre Rechte"
    },
    {
     "typ": "p",
@@ -245,7 +269,7 @@
    },
    {
     "typ": "h2",
-    "text": "13. Beschwerderecht"
+    "text": "14. Beschwerderecht"
    },
    {
     "typ": "p",
@@ -253,7 +277,7 @@
    },
    {
     "typ": "h2",
-    "text": "14. Stand"
+    "text": "15. Stand"
    },
    {
     "typ": "p",
