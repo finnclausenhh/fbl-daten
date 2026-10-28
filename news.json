@@ -2,59 +2,29 @@
  "stand": "2026-10-28T13:47",
  "meldungen": [
   {
-   "id": "tanikawa-2810",
-   "pid": "00021",
-   "zeit": "2026-10-28T10:30",
-   "spielerin": "Momoko Tanikawa",
-   "verein": "FC Bayern",
-   "nr": "18",
-   "pos": "MF",
-   "tags": [
-    "UPDATE"
-   ],
-   "status": "fit",
-   "headline": "Tanikawa belegt beim Ballon d'Or Platz 23",
-   "text": [
-    "Momoko Tanikawa vom FC Bayern ist bei der Wahl zum Ballon d'Or der Frauen in London auf Platz 23 gelandet. Das berichtet das japanische Portal Gekisaka.",
-    "Als beste Japanerin steht Yui Hasegawa auf Rang 11, Maya Matsukubo wurde 22. Beide spielen nicht in der Frauen-Bundesliga."
-   ],
-   "kickbase": "Die Platzierung sagt etwas über das Ansehen der 20 Jahre jungen Mittelfeldspielerin, für ihre Rolle im Team ändert sich dadurch nichts.",
-   "quellen": [
-    {
-     "name": "Gekisaka (Originaltitel: 長谷川唯、松窪真心、谷川萌々子がドレスアップ!! バロンドール授賞式に参加)",
-     "url": "https://web.gekisaka.jp/photonews/women/detail/?461968-461968-pn"
-    }
-   ],
-   "foto": "fotos/fcb-momoko-tanikawa.webp",
-   "foto_credit": {
-    "autor": "FC Bayern",
-    "lizenz": "mit Genehmigung: FC Bayern München",
-    "url": "https://fcbayern.com/frauen/de/teams/1.-mannschaft"
-   }
-  },
-  {
    "id": "mainz-kress-2810",
    "zeit": "2026-10-28T01:00",
-   "spielerin": "Takashi Yamashita",
+   "spielerin": "Marina Georgieva",
    "verein": "Mainz 05",
-   "nr": "",
-   "pos": "Trainer",
+   "nr": "3",
+   "pos": "ABW",
    "tags": [
-    "UPDATE"
+    "VERLETZUNG"
    ],
-   "headline": "Mainz glaubt nach acht Niederlagen an den Klassenerhalt",
+   "headline": "Georgieva angeschlagen, Mainz weiter ohne Matsumoto, Matheis und Jackson",
    "text": [
-    "Mainz hat nach acht Spielen noch keinen Punkt. Die Sportliche Leiterin Nadine Kreß sagt im Vereinsinterview, das Ziel Klassenerhalt bleibe bestehen, der November sei die entscheidende Phase.",
-    "Auf Dauer fehlen laut Kreß Mamiko Matsumoto, Saskia Matheis und Sabina Jackson. Marina Georgieva hat sich zuletzt in Hoffenheim verletzt, Chiara Bouziane kämpft immer wieder mit Blessuren.",
-    "Als nächste Aufgaben nennt sie das Pokalspiel gegen Werder Bremen, das Heimspiel gegen Stuttgart sowie Partien gegen den HSV und Nürnberg. Trainer Takashi Yamashita lobt sie für seine Impulse im Training."
+    "Marina Georgieva hat sich beim 1:3 in Hoffenheim verletzt. Das sagt die Sportliche Leiterin Nadine Kreß im Vereinsinterview. Eine Diagnose oder Ausfallzeit nennt der Verein nicht.",
+    "Weiterhin fehlen Torhüterin Mamiko Matsumoto (Innenband), Saskia Matheis und Sabina Jackson, laut Kreß auf Dauer. Chiara Bouziane kämpft immer wieder mit kleineren Blessuren.",
+    "Mainz ist nach acht Spielen noch ohne Punkt. Als nächstes stehen das Pokalspiel gegen Werder und das Heimspiel gegen Stuttgart an."
    ],
-   "kickbase": "Mainz hat viele Ausfälle und noch keinen Punkt. Ob Georgieva oder Bouziane gegen Stuttgart bereit sind, bleibt offen.",
+   "kickbase": "Georgieva stand in 3 der letzten 5 Spiele in der Startelf. Bis es eine Diagnose gibt, stufen wir sie gegen Stuttgart höchstens als unsicher ein. Bei Bouziane bleibt die Einsatzzeit schwer planbar.",
    "quellen": [
     {
      "name": "Mainz 05",
      "url": "https://www.mainz05.de/news/kress-der-klassenerhalt-ist-und-bleibt-das-ziel-an-das-wir-glauben"
     }
-   ]
+   ],
+   "status": "fraglich"
   },
   {
    "id": "mahmutovic-2710",
@@ -102,7 +72,7 @@
    "headline": "Bühl wird beim Ballon d'Or Zwölfte, Harder in den Top 10",
    "text": [
     "Klara Bühl vom FC Bayern hat bei der Wahl zum Ballon d'Or der Frauen in London Platz zwölf belegt. Die Top 10 verpasste sie damit. Im Vorjahr war sie noch Neunzehnte, sie hat sich also deutlich verbessert.",
-    "Bühl war die einzige Deutsche unter den 30 Nominierten. Ihre Vereinskollegin Pernille Harder schaffte es laut Bericht in die Top 10."
+    "Bühl war die einzige Deutsche unter den 30 Nominierten. Ihre Vereinskollegin Pernille Harder schaffte es laut Bericht in die Top 10. Bayerns Momoko Tanikawa landete auf Platz 23."
    ],
    "kickbase": "Die Auszeichnung ändert nichts an der Einsatzplanung, zeigt aber, wie hoch Bühl und Harder international eingeschätzt werden. Beide bleiben beim FC Bayern gesetzte Offensivkräfte, solange sie fit sind.",
    "quellen": [
