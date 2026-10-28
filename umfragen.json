@@ -1,6 +1,6 @@
 {
- "stand": "2026-10-28T11:30",
- "hinweis": "Umfragen für News und Artikel. Stimmen zählt GoatCounter (Ereignis umfrage/<id>/<option>), Ergebnisse schreibt tools/umfragen.py nach umfragen_stand.json.",
+ "stand": "2026-10-28T12:30",
+ "hinweis": "Umfragen für News und Artikel. top=true: auch auf der Karte im Feed (1 bis 2 pro Woche), sonst nur im Artikel der Meldung. art: startelf (Default, offizielle Aufstellung; Sonderoptionen beide/keine/andere), tore (Optionen mit von/bis), scorer (tor/vorlage/nichts), ergebnis (heim/remis/gast). Stimmen zählt GoatCounter (Ereignis umfrage/<id>/<option>), Ergebnisse schreibt tools/umfragen.py nach umfragen_stand.json.",
  "umfragen": [
   {
    "id": "fcb-tor-md9",
@@ -13,11 +13,114 @@
    "position": "TW",
    "kader_von": 4,
    "optionen": [
-    {"id": "van-eijk", "n": "Regina van Eijk", "nachname": "van Eijk", "info": "Zuletzt die Nummer 2: gegen Stuttgart und Leipzig einzige Ersatztorhüterin", "kader": "--bbb"},
-    {"id": "klink", "n": "Anna Klink", "nachname": "Klink", "info": "Nach Mittelhandbruch im Juli seit Spieltag 5 zurück, zuletzt am 6. Spieltag im Kader", "kader": "-bb--"},
-    {"id": "andere", "n": "Eine andere", "info": "Am 4. Spieltag saß Sophie Klein als Ersatz auf der Bank", "kader": "b----", "logo": "FCB"}
+    {
+     "id": "van-eijk",
+     "n": "Regina van Eijk",
+     "nachname": "van Eijk",
+     "info": "Zuletzt die Nummer 2: gegen Stuttgart und Leipzig einzige Ersatztorhüterin",
+     "kader": "--bbb"
+    },
+    {
+     "id": "klink",
+     "n": "Anna Klink",
+     "nachname": "Klink",
+     "info": "Nach Mittelhandbruch im Juli seit Spieltag 5 zurück, zuletzt am 6. Spieltag im Kader",
+     "kader": "-bb--"
+    },
+    {
+     "id": "andere",
+     "n": "Eine andere",
+     "info": "Am 4. Spieltag saß Sophie Klein als Ersatz auf der Bank",
+     "kader": "b----",
+     "logo": "FCB"
+    }
    ],
-   "einschaetzung": {"option": "van-eijk", "stufe": "erwartet", "text": "Sie saß in 3 der letzten 5 Spiele als Nummer 2 auf der Bank, zuletzt zweimal als einzige Ersatztorhüterin."}
+   "einschaetzung": {
+    "option": "van-eijk",
+    "stufe": "erwartet",
+    "text": "Sie saß in 3 der letzten 5 Spiele als Nummer 2 auf der Bank, zuletzt zweimal als einzige Ersatztorhüterin."
+   },
+   "top": true,
+   "art": "startelf"
+  },
+  {
+   "id": "wob-sturm-md9",
+   "meldung": "zicai-2410",
+   "top": true,
+   "art": "startelf",
+   "frage": "Zicai oder Bussy: Wer stürmt in Frankfurt?",
+   "sub": "Eintracht gegen Wolfsburg · Fr 06.11. · 9. Spieltag",
+   "ende": "2026-11-06T18:30",
+   "partie": "12306271",
+   "verein": "WOB",
+   "kader_von": 4,
+   "optionen": [
+    {
+     "id": "zicai",
+     "n": "Cora Zicai",
+     "nachname": "Zicai",
+     "info": "4 Tore, 3 davon in den ersten beiden Spielen. Seit Spieltag 5 ohne Tor, gegen Köln nur eingewechselt",
+     "kader": "essse"
+    },
+    {
+     "id": "bussy",
+     "n": "Kessya Bussy",
+     "nachname": "Bussy",
+     "info": "Gegen Köln in der Startelf, traf gegen Mainz als Joker",
+     "kader": "sbees"
+    },
+    {
+     "id": "beide",
+     "n": "Beide",
+     "info": "In 8 Spielen nie zusammen in der Startelf",
+     "logo": "WOB"
+    },
+    {
+     "id": "keine",
+     "n": "Keine von beiden",
+     "info": "Prašnikar startete in 6 von 8 Spielen, Kerim-Lindland traf dreimal",
+     "bild": false
+    }
+   ],
+   "einschaetzung": {
+    "option": "zicai",
+    "stufe": "erwartet",
+    "text": "Sie stand in 6 von 8 Spielen in der Startelf. Bussy sehen wir knapp dahinter auf der Bank."
+   }
+  },
+  {
+   "id": "peddemors-tore-md9",
+   "meldung": "peddemors-2410",
+   "top": false,
+   "art": "tore",
+   "spielerin": "Peddemors",
+   "frage": "Trifft Peddemors auch in Frankfurt?",
+   "sub": "9 Tore in 8 Spielen, zuletzt zweimal doppelt",
+   "ende": "2026-11-06T18:30",
+   "partie": "12306271",
+   "verein": "WOB",
+   "optionen": [
+    {
+     "id": "null",
+     "n": "Kein Tor",
+     "von": 0,
+     "bis": 0,
+     "bild": false
+    },
+    {
+     "id": "eins",
+     "n": "Ein Tor",
+     "von": 1,
+     "bis": 1,
+     "bild": false
+    },
+    {
+     "id": "mehr",
+     "n": "Zwei oder mehr",
+     "von": 2,
+     "bild": false
+    }
+   ]
   }
  ]
 }
