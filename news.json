@@ -1,6 +1,37 @@
 {
- "stand": "2026-10-28T13:47",
+ "stand": "2026-10-28T15:39",
  "meldungen": [
+  {
+   "id": "redzepi-2810",
+   "pid": "00347",
+   "zeit": "2026-10-28T15:39",
+   "spielerin": "Dafina Redzepi",
+   "verein": "VfB Stuttgart",
+   "nr": "7",
+   "pos": "MF",
+   "tags": [
+    "SPERRE"
+   ],
+   "status": "gesperrt",
+   "headline": "Redzepi nach Roter Karte für ein Ligaspiel gesperrt",
+   "text": [
+    "Das DFB-Sportgericht hat Stuttgarts Mittelfeldspielerin Dafina Redzepi nach ihrer Roten Karte beim 0:3 gegen Eintracht Frankfurt für ein Meisterschaftsspiel gesperrt.",
+    "Sie verpasst damit das nächste Ligaspiel des VfB, das Auswärtsspiel bei Mainz 05 am 8. November. Das Pokalspiel gegen die SGS Essen am 30. Oktober ist von der Sperre laut Urteil nicht betroffen."
+   ],
+   "kickbase": "Redzepi fällt für den Spieltag in Mainz aus. Wer sie auf dem Platz hat, sollte rechtzeitig eine Alternative im Mittelfeld einplanen.",
+   "quellen": [
+    {
+     "name": "DFB Sperren",
+     "url": "https://www.dfb.de/ueber-uns/verbandsrecht/sperren"
+    }
+   ],
+   "foto": "fotos/vfb-dafina-redzepi.webp",
+   "foto_credit": {
+    "autor": "VfB Stuttgart",
+    "lizenz": "mit Genehmigung: VfB Stuttgart",
+    "url": "https://www.vfb.de/de/1893/frauen/frauen/kader/saisonen/2026-2027/kader/?data=&mobile="
+   }
+  },
   {
    "id": "mainz-kress-2810",
    "zeit": "2026-10-28T01:00",
