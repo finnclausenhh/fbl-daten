@@ -1,149 +1,164 @@
 {
-  "stand": "2026-10-28T22:30",
-  "eintraege": [
-    {
-      "version": "0.10.1",
-      "datum": "2026-10-28",
-      "titel": "Kommentare in der Webversion",
-      "aenderungen": [
-        "Kommentare: Unter jeder Meldung und unter Auf den Punkt kann man jetzt kommentieren, ohne Konto. Beim ersten Kommentar wählst du deinen Namen (sonst „WoSo-Fan“ mit Nummer), einmal änderbar.",
-        "Antworten, Likes, Sortierung nach Neu oder Top, eigene Kommentare löschen, Personen stummschalten.",
-        "Melden mit Grund; mehrfach gemeldete Kommentare werden automatisch ausgeblendet und von der Redaktion geprüft. Ein Wortfilter prüft Kommentare und Namen.",
-        "Die Redaktion trägt einen blauen Haken und kann Kommentare oben anheften.",
-        "Feed: Sprechblase mit der Zahl der Kommentare auf jeder Meldung. Die Meta-Zeile zeigt den Verein ausgeschrieben, bei Platzmangel als Kürzel.",
-        "Datenschutzerklärung um Abschnitt 7 „Kommentare“ ergänzt."
-      ]
-    },
-    {
-      "version": "0.10",
-      "datum": "2026-10-28",
-      "titel": "Meine Vereine überall",
-      "aenderungen": [
-        "Meine Vereine: Die Vereinsauswahl gilt jetzt überall. Oben in News, Spielplan und Inside steht dieselbe Zeile \"Meine Vereine\" mit Mini-Wappen und Namen der gewählten Vereine (ohne Auswahl \"Alle Vereine\"), rechts \"auswählen\", \"ändern\" oder \"fertig\". Aufgeklappt erscheint die Wappenreihe mit dem Hinweis \"Alle Vereine · Wappen antippen für deine Auswahl\" bzw. \"N gewählt\" und \"Auswahl löschen\". Der bisherige Filterblock oben in Inside entfällt",
-        "Wappen: Nicht gewählte Vereine erscheinen in Graustufen und halb durchsichtig, gewählte farbig mit Ring und leichtem Hintergrund in der Vereinsfarbe. Bei sehr dunklen Vereinsfarben (Frankfurt, Freiburg) ist der Ring hellgrau",
-        "News: Mit Auswahl zeigt der Ticker nur Meldungen der gewählten Vereine. Aufstellungen erscheinen auch, wenn der Gegner gewählt ist. Auf den Punkt, Meldungen ohne Verein und Spielansetzungen bleiben immer sichtbar, ebenso die Top-Analyse. Unter der Liste steht \"N weitere Meldungen anderer Vereine\" mit \"Alle zeigen\", im Modus \"Alle zeigen\" oben \"Alle Meldungen\" mit \"Nur meine Vereine\". Ohne passende Meldung: \"Keine Meldungen deiner Vereine in den letzten 14 Tagen\" mit \"Alle zeigen\"",
-        "Spielplan: Mit Auswahl steht oben die Gruppe \"Deine Spiele\" mit Wochentag und Datum über jeder Partie und einem linken Rand in der Vereinsfarbe. Spielen die eigenen Vereine nicht, steht dort \"Deine Vereine spielen an diesem Spieltag nicht\". Darunter der Knopf \"Weitere Spiele\" mit der Zahl der Partien, eingeklappt; aufgeklappt folgen die übrigen Partien nach Tagen wie bisher. Nachholspiele anderer Vereine zählen zu \"Weitere Spiele\". Bei fremden Partien steht die Englische Woche nur als kleines graues Label. Ohne Auswahl bleibt alles wie bisher",
-        "Inside: Die Top-Analyse erscheint immer, auch wenn ihr Verein nicht gewählt ist. Bei den Standardschützinnen gibt es mit Auswahl den Knopf \"Alle 14 Vereine\" bzw. \"Nur meine Vereine\". Formkurve, Spiele mit Ansage und Belastung filtern wie bisher",
-        "Fotos: Portraits aller 14 Vereine vom jeweiligen Verein, mit Genehmigung, in den News und in der Formkurve. Auch Trainerinnen, Trainer und Funktionsteam bekommen ihr Foto, wenn der Verein eins freigegeben hat. Hinter Portraits mit transparentem Hintergrund liegt bei allen Vereinen die Vereinsfarbe",
-        "Bildnachweis: Vereinsfotos stehen als \"Foto: <Verein>\" unter dem Artikel und in der Formkurve. Die Seite Bildnachweise und das Impressum sprechen jetzt von Vereinsportraits mit Genehmigung der jeweiligen Vereine statt nur vom Hamburger SV; beim Funktionsteam steht die Funktion neben dem Namen",
-        "Auf den Punkt: Der Hinweis bei leerer Auswahl verweist auf die Zeile \"Meine Vereine\" statt auf Inside"
-      ]
-    },
-    {
-      "version": "0.9",
-      "datum": "2026-10-27",
-      "titel": "Portraits der HSV-Spielerinnen",
-      "aenderungen": [
-        "Fotos: 26 Portraits der HSV-Spielerinnen vom Verein, mit Genehmigung des Hamburger SV, in den News und in der Formkurve. Sieben bisherige Wikimedia-Fotos ersetzt, u. a. Kinga Szemik nicht mehr im West-Ham-Trikot",
-        "News: Spielerinnen bekommen ihr Foto jetzt auch, wenn die Meldung selbst keins mitbringt (z. B. Svea Stoldt)",
-        "News: Hinter Portraits mit transparentem Hintergrund liegt die Vereinsfarbe, wie bei der Silhouette",
-        "Bildnachweis: Vereinsfotos stehen als \"Foto: HSV\" unter dem Artikel und in der Formkurve, Fotos von Wikimedia Commons weiter mit Urheber und Lizenz. Der Nachweis richtet sich nach dem gezeigten Foto, nicht mehr nach der Meldung",
-        "Bildnachweise: Hinweis auf die Portraits des Hamburger SV mit Genehmigung des Vereins, auch im Impressum. Quelle nur noch als Link, wenn sie eine Webadresse ist"
-      ]
-    },
-    {
-      "version": "0.8",
-      "datum": "2026-10-26",
-      "titel": "Datenschutz-Angaben für den App Store",
-      "aenderungen": [
-        "Technik: Datenschutz-Angaben für den App Store ergänzt"
-      ]
-    },
-    {
-      "version": "0.7",
-      "datum": "2026-10-26",
-      "titel": "Fotos aufs Gesicht",
-      "aenderungen": [
-        "Fotos: Automatischer Ausschnitt aufs Gesicht für 119 Spielerinnen, in der Formkurve und in den News",
-        "Formkurve: Kompakte Karten haben wieder ihre eigene Höhe, keine leere Fläche mehr neben großen Karten",
-        "Technik: Neue App-Kennung für den App Store"
-      ]
-    },
-    {
-      "version": "0.6",
-      "datum": "2026-10-26",
-      "titel": "Sauberes Inside und klare Tags",
-      "aenderungen": [
-        "App-Icon: Neues Icon im WOSOINSIDER-Logo, auch für den dunklen und den eingefärbten Home-Bildschirm",
-        "Formkurve: Tabs mit Anzahl, Pfeile über der Karte, Wischen blättert ohne das Scrollen zu stören",
-        "Formkurve: Großes Foto nur, wenn es das Foto hergibt, sonst kompakte Karte mit Hochformat oder Wappen",
-        "Inside: Abschnitte mit Nummer und Linie (Form, Standards, Spieltag, Belastung, Analyse)",
-        "Inside: Alle Schützinnen als Tabelle mit Ecken, Freistößen und Elfmetern, gesetzte Schützinnen markiert",
-        "Spielplan: Noch nicht terminierte Spieltage zeigen Termin offen statt 00:00 Uhr",
-        "Englische Woche erst ab drei Pflichtspielen in höchstens acht Tagen",
-        "News: Spielerinnen ohne Foto mit Silhouette in Vereinsfarbe und Rückennummer",
-        "News: Vereins- und Trainermeldungen mit Wappen, Verein und Trainerin",
-        "News: TOP nur noch bei Meldungen, die eine Kickbase-Entscheidung ändern, neue Tags Spielbericht und Transfer",
-        "Fotos in höherer Auflösung",
-        "Fehler behoben: verdeckte Tabs, springende Pfeile, Gesichter abgeschnitten, doppeltes Nachholspiel, kleine Tippflächen"
-      ]
-    },
-    {
-      "version": "0.5",
-      "datum": "2026-10-26",
-      "titel": "Neues Design für News, Spiel und Inside",
-      "aenderungen": [
-        "News: Kompaktere Karten, Name und Verein unter der Schlagzeile, Zeit unten links",
-        "News: Status-Symbol oben rechts nur noch bei verletzt, fraglich, gesperrt oder Rückkehr, kein grüner Haken mehr",
-        "News: Aufstellungen zeigen nur die elf Namen, Positionsgruppen durch Bindestrich getrennt, beide Wappen oben rechts",
-        "News: Neue Vorschaukarte der Top-Analyse mit Vereinskopf, Kennzahl und Punktreihe",
-        "Aufstellungen: Positionen und Formation jetzt aus der Spielfeldgrafik (z. B. 4-2-3-1 mit DM und OM), auch in den möglichen Aufstellungen",
-        "Aufstellungen: Gleichnamige Spielerinnen mit Initiale, z. B. J. Wrede und L. Wrede",
-        "Spiel: Tore kompakt unter dem Ergebnis, Details mit Vorlage zum Aufklappen",
-        "Spiel: Offizielle Aufstellung mit Formation, Toren, Karten und Auswechselminute, Eingewechselt und Ohne Einsatz getrennt",
-        "Spiel: Mögliche Aufstellung mit Kasten Offene Position samt Alternative und Werten, Begründung im eigenen Kasten",
-        "Spiel: Keine externen Links mehr, Hinweis zur Einschätzung direkt in der Partie",
-        "Spielplan: Ohne Hinweistext in der Liste",
-        "Inside: Formkurve als eine Karte mit Pfeilen, neue Gruppen Aufwind, Formtief und Stabil",
-        "Inside: Nächste 3 Gegner mit Gegentoren pro Spiel und Einstufung leicht, mittel oder schwer",
-        "Inside: Analyse der Woche im Kasten mit drei Fakten, Matrix mit Vereinskürzeln"
-      ]
-    },
-    {
-      "version": "0.4",
-      "datum": "2026-10-26",
-      "titel": "Englische Woche und genauere Einstufung",
-      "aenderungen": [
-        "Spielplan: Hinweis Englische Woche auf der Spielkarte, z. B. 3 Spiele in 8 Tagen, mit allen Terminen in der Partie",
-        "Mögliche Aufstellung: In Englischen Wochen höchstens Erwartet für Feldspielerinnen",
-        "Sicher erst ab 95 % Einsatzwert, in der Rückrechnung standen damit gut neun von zehn in der Startelf",
-        "Spielplan, Ergebnisse und mögliche Aufstellungen werden jetzt bei jedem Lauf automatisch aktualisiert"
-      ]
-    },
-    {
-      "version": "0.3",
-      "datum": "2026-10-26",
-      "titel": "Mögliche Aufstellungen und Auf den Punkt",
-      "aenderungen": [
-        "Spielplan: Partien nach Tagen gruppiert, Nachholspiele, Spielminute bei laufenden Spielen",
-        "Partie: Mögliche Aufstellung mit Einschätzung je Spielerin (sicher, erwartet, unsicher, unwahrscheinlich, ausgeschlossen), Legende und Begründung beim Antippen",
-        "Partie: Bank, alternative Aufstellung, fehlende Spielerinnen, Platzverweise, Tore mit Zwischenstand",
-        "News: Auf-den-Punkt-Meldungen bis zum Anpfiff angeheftet, mit Sicher aufstellen, Finger weg, Günstiger Tipp und Achtung",
-        "News: Tags STANDARD und ROTATION, Instagram-Link, Aufstellung nach TW, ABW, MF, ST mit NEU und RAUS",
-        "KI-Hinweis unter jedem Artikel mit Link auf KI-Hinweis & Methodik",
-        "Inside: Belastungskalender und Einsatzmatrix passen sich der Bildschirmbreite an, Verweis auf die Auf-den-Punkt-Meldung"
-      ]
-    },
-    {
-      "version": "0.2",
-      "datum": "2026-10-25",
-      "titel": "WOSOINSIDER mit Inside",
-      "aenderungen": [
-        "Neuer Name WOSOINSIDER mit gestapeltem Logo und den Farben aus dem Lookbook",
-        "Neuer Reiter Inside: Wochenausgabe mit Formkurven, Standard-Wechseln, allen Schützinnen, Spielen mit Ansage und Belastungskalender",
-        "Top-Analyse erscheint als Vorschaukarte oben in den News",
-        "Vereinsfilter in Inside: Wappen antippen, um nur deine Vereine zu sehen",
-        "Impressum, Datenschutz, Kontakt und KI-Hinweis wie in der Webversion"
-      ]
-    },
-    {
-      "version": "0.1",
-      "datum": "2026-10-25",
-      "titel": "Start der App-Version",
-      "aenderungen": [
-        "Ticker-Daten liegen jetzt auf einem eigenen Server und sind für die App abrufbar",
-        "Neuer Bereich Patches: hier steht künftig, was sich mit jedem Update ändert"
-      ]
-    }
-  ]
+ "stand": "2026-10-28T23:00",
+ "eintraege": [
+  {
+   "version": "0.12",
+   "datum": "2026-10-28",
+   "titel": "Umfragen und Kommentare",
+   "aenderungen": [
+    "Umfragen: Zu einzelnen Meldungen gibt es jetzt Umfragen. Top-Umfragen stehen im Feed direkt unter der Karte der Meldung und im Artikel, andere nur im Artikel; im Feed zeigt dann eine schmale Zeile „UMFRAGE“ mit der Frage und „im Artikel“ bzw. „abgestimmt“.",
+    "Antworten mit Foto, Info und Kaderstreifen der letzten Spieltage (mit Legende), kurze Antworten als Kacheln nebeneinander. Oben rechts „bis Anpfiff …“ bzw. „beendet“.",
+    "Abstimmen einmal pro Gerät. Danach Prozente mit Balken und „Deine Stimme“; Prozente erst ab 10 Stimmen, darunter „Noch wenige Stimmen“. Nach dem Abstimmen die Box „Unsere Einschätzung“ der Redaktion.",
+    "Auflösung nach Anpfiff bzw. Abpfiff: richtige Option grün umrandet („Stand in der Startelf“ bzw. „Richtig“), darunter „Aufgelöst mit der offiziellen Aufstellung“ bzw. „Aufgelöst nach Abpfiff“ mit „x % der Community lagen richtig“ und ob die Einschätzung der Redaktion stimmte.",
+    "Kommentare: Unter jeder Meldung und unter Auf den Punkt kann man jetzt kommentieren, ohne Konto. Beim ersten Kommentar wählst du deinen Namen (leer lassen = „WoSo-Fan“ mit Nummer), später genau einmal änderbar. Höchstens 1000 Zeichen mit Zähler.",
+    "Antworten, Likes, Sortierung nach Neu oder Top, Melden mit Grund, Personen stummschalten, eigene Kommentare löschen. Angeheftete Kommentare stehen oben, die Redaktion trägt einen blauen Haken und das Label „Redaktion“. Eigene Kommentare in Prüfung erscheinen mit „Nur für dich sichtbar“ und dem Grund.",
+    "Feed: Sprechblase mit der Zahl der Kommentare auf jeder Meldung. Kommentare laden beim Öffnen und jede Minute neu, beim Scrollen im Artikel klappt die Tastatur ein.",
+    "Datenschutz: Manifest um Produktinteraktion (Umfragen), Benutzerinhalte und Benutzer-ID (Kommentare) ergänzt, kein Tracking."
+   ]
+  },
+  {
+   "version": "0.10.1",
+   "datum": "2026-10-28",
+   "titel": "Kommentare in der Webversion",
+   "aenderungen": [
+    "Kommentare: Unter jeder Meldung und unter Auf den Punkt kann man jetzt kommentieren, ohne Konto. Beim ersten Kommentar wählst du deinen Namen (sonst „WoSo-Fan“ mit Nummer), einmal änderbar.",
+    "Antworten, Likes, Sortierung nach Neu oder Top, eigene Kommentare löschen, Personen stummschalten.",
+    "Melden mit Grund; mehrfach gemeldete Kommentare werden automatisch ausgeblendet und von der Redaktion geprüft. Ein Wortfilter prüft Kommentare und Namen.",
+    "Die Redaktion trägt einen blauen Haken und kann Kommentare oben anheften.",
+    "Feed: Sprechblase mit der Zahl der Kommentare auf jeder Meldung. Die Meta-Zeile zeigt den Verein ausgeschrieben, bei Platzmangel als Kürzel.",
+    "Datenschutzerklärung um Abschnitt 7 „Kommentare“ ergänzt."
+   ]
+  },
+  {
+   "version": "0.10",
+   "datum": "2026-10-28",
+   "titel": "Meine Vereine überall",
+   "aenderungen": [
+    "Meine Vereine: Die Vereinsauswahl gilt jetzt überall. Oben in News, Spielplan und Inside steht dieselbe Zeile \"Meine Vereine\" mit Mini-Wappen und Namen der gewählten Vereine (ohne Auswahl \"Alle Vereine\"), rechts \"auswählen\", \"ändern\" oder \"fertig\". Aufgeklappt erscheint die Wappenreihe mit dem Hinweis \"Alle Vereine · Wappen antippen für deine Auswahl\" bzw. \"N gewählt\" und \"Auswahl löschen\". Der bisherige Filterblock oben in Inside entfällt",
+    "Wappen: Nicht gewählte Vereine erscheinen in Graustufen und halb durchsichtig, gewählte farbig mit Ring und leichtem Hintergrund in der Vereinsfarbe. Bei sehr dunklen Vereinsfarben (Frankfurt, Freiburg) ist der Ring hellgrau",
+    "News: Mit Auswahl zeigt der Ticker nur Meldungen der gewählten Vereine. Aufstellungen erscheinen auch, wenn der Gegner gewählt ist. Auf den Punkt, Meldungen ohne Verein und Spielansetzungen bleiben immer sichtbar, ebenso die Top-Analyse. Unter der Liste steht \"N weitere Meldungen anderer Vereine\" mit \"Alle zeigen\", im Modus \"Alle zeigen\" oben \"Alle Meldungen\" mit \"Nur meine Vereine\". Ohne passende Meldung: \"Keine Meldungen deiner Vereine in den letzten 14 Tagen\" mit \"Alle zeigen\"",
+    "Spielplan: Mit Auswahl steht oben die Gruppe \"Deine Spiele\" mit Wochentag und Datum über jeder Partie und einem linken Rand in der Vereinsfarbe. Spielen die eigenen Vereine nicht, steht dort \"Deine Vereine spielen an diesem Spieltag nicht\". Darunter der Knopf \"Weitere Spiele\" mit der Zahl der Partien, eingeklappt; aufgeklappt folgen die übrigen Partien nach Tagen wie bisher. Nachholspiele anderer Vereine zählen zu \"Weitere Spiele\". Bei fremden Partien steht die Englische Woche nur als kleines graues Label. Ohne Auswahl bleibt alles wie bisher",
+    "Inside: Die Top-Analyse erscheint immer, auch wenn ihr Verein nicht gewählt ist. Bei den Standardschützinnen gibt es mit Auswahl den Knopf \"Alle 14 Vereine\" bzw. \"Nur meine Vereine\". Formkurve, Spiele mit Ansage und Belastung filtern wie bisher",
+    "Fotos: Portraits aller 14 Vereine vom jeweiligen Verein, mit Genehmigung, in den News und in der Formkurve. Auch Trainerinnen, Trainer und Funktionsteam bekommen ihr Foto, wenn der Verein eins freigegeben hat. Hinter Portraits mit transparentem Hintergrund liegt bei allen Vereinen die Vereinsfarbe",
+    "Bildnachweis: Vereinsfotos stehen als \"Foto: <Verein>\" unter dem Artikel und in der Formkurve. Die Seite Bildnachweise und das Impressum sprechen jetzt von Vereinsportraits mit Genehmigung der jeweiligen Vereine statt nur vom Hamburger SV; beim Funktionsteam steht die Funktion neben dem Namen",
+    "Auf den Punkt: Der Hinweis bei leerer Auswahl verweist auf die Zeile \"Meine Vereine\" statt auf Inside"
+   ]
+  },
+  {
+   "version": "0.9",
+   "datum": "2026-10-27",
+   "titel": "Portraits der HSV-Spielerinnen",
+   "aenderungen": [
+    "Fotos: 26 Portraits der HSV-Spielerinnen vom Verein, mit Genehmigung des Hamburger SV, in den News und in der Formkurve. Sieben bisherige Wikimedia-Fotos ersetzt, u. a. Kinga Szemik nicht mehr im West-Ham-Trikot",
+    "News: Spielerinnen bekommen ihr Foto jetzt auch, wenn die Meldung selbst keins mitbringt (z. B. Svea Stoldt)",
+    "News: Hinter Portraits mit transparentem Hintergrund liegt die Vereinsfarbe, wie bei der Silhouette",
+    "Bildnachweis: Vereinsfotos stehen als \"Foto: HSV\" unter dem Artikel und in der Formkurve, Fotos von Wikimedia Commons weiter mit Urheber und Lizenz. Der Nachweis richtet sich nach dem gezeigten Foto, nicht mehr nach der Meldung",
+    "Bildnachweise: Hinweis auf die Portraits des Hamburger SV mit Genehmigung des Vereins, auch im Impressum. Quelle nur noch als Link, wenn sie eine Webadresse ist"
+   ]
+  },
+  {
+   "version": "0.8",
+   "datum": "2026-10-26",
+   "titel": "Datenschutz-Angaben für den App Store",
+   "aenderungen": [
+    "Technik: Datenschutz-Angaben für den App Store ergänzt"
+   ]
+  },
+  {
+   "version": "0.7",
+   "datum": "2026-10-26",
+   "titel": "Fotos aufs Gesicht",
+   "aenderungen": [
+    "Fotos: Automatischer Ausschnitt aufs Gesicht für 119 Spielerinnen, in der Formkurve und in den News",
+    "Formkurve: Kompakte Karten haben wieder ihre eigene Höhe, keine leere Fläche mehr neben großen Karten",
+    "Technik: Neue App-Kennung für den App Store"
+   ]
+  },
+  {
+   "version": "0.6",
+   "datum": "2026-10-26",
+   "titel": "Sauberes Inside und klare Tags",
+   "aenderungen": [
+    "App-Icon: Neues Icon im WOSOINSIDER-Logo, auch für den dunklen und den eingefärbten Home-Bildschirm",
+    "Formkurve: Tabs mit Anzahl, Pfeile über der Karte, Wischen blättert ohne das Scrollen zu stören",
+    "Formkurve: Großes Foto nur, wenn es das Foto hergibt, sonst kompakte Karte mit Hochformat oder Wappen",
+    "Inside: Abschnitte mit Nummer und Linie (Form, Standards, Spieltag, Belastung, Analyse)",
+    "Inside: Alle Schützinnen als Tabelle mit Ecken, Freistößen und Elfmetern, gesetzte Schützinnen markiert",
+    "Spielplan: Noch nicht terminierte Spieltage zeigen Termin offen statt 00:00 Uhr",
+    "Englische Woche erst ab drei Pflichtspielen in höchstens acht Tagen",
+    "News: Spielerinnen ohne Foto mit Silhouette in Vereinsfarbe und Rückennummer",
+    "News: Vereins- und Trainermeldungen mit Wappen, Verein und Trainerin",
+    "News: TOP nur noch bei Meldungen, die eine Kickbase-Entscheidung ändern, neue Tags Spielbericht und Transfer",
+    "Fotos in höherer Auflösung",
+    "Fehler behoben: verdeckte Tabs, springende Pfeile, Gesichter abgeschnitten, doppeltes Nachholspiel, kleine Tippflächen"
+   ]
+  },
+  {
+   "version": "0.5",
+   "datum": "2026-10-26",
+   "titel": "Neues Design für News, Spiel und Inside",
+   "aenderungen": [
+    "News: Kompaktere Karten, Name und Verein unter der Schlagzeile, Zeit unten links",
+    "News: Status-Symbol oben rechts nur noch bei verletzt, fraglich, gesperrt oder Rückkehr, kein grüner Haken mehr",
+    "News: Aufstellungen zeigen nur die elf Namen, Positionsgruppen durch Bindestrich getrennt, beide Wappen oben rechts",
+    "News: Neue Vorschaukarte der Top-Analyse mit Vereinskopf, Kennzahl und Punktreihe",
+    "Aufstellungen: Positionen und Formation jetzt aus der Spielfeldgrafik (z. B. 4-2-3-1 mit DM und OM), auch in den möglichen Aufstellungen",
+    "Aufstellungen: Gleichnamige Spielerinnen mit Initiale, z. B. J. Wrede und L. Wrede",
+    "Spiel: Tore kompakt unter dem Ergebnis, Details mit Vorlage zum Aufklappen",
+    "Spiel: Offizielle Aufstellung mit Formation, Toren, Karten und Auswechselminute, Eingewechselt und Ohne Einsatz getrennt",
+    "Spiel: Mögliche Aufstellung mit Kasten Offene Position samt Alternative und Werten, Begründung im eigenen Kasten",
+    "Spiel: Keine externen Links mehr, Hinweis zur Einschätzung direkt in der Partie",
+    "Spielplan: Ohne Hinweistext in der Liste",
+    "Inside: Formkurve als eine Karte mit Pfeilen, neue Gruppen Aufwind, Formtief und Stabil",
+    "Inside: Nächste 3 Gegner mit Gegentoren pro Spiel und Einstufung leicht, mittel oder schwer",
+    "Inside: Analyse der Woche im Kasten mit drei Fakten, Matrix mit Vereinskürzeln"
+   ]
+  },
+  {
+   "version": "0.4",
+   "datum": "2026-10-26",
+   "titel": "Englische Woche und genauere Einstufung",
+   "aenderungen": [
+    "Spielplan: Hinweis Englische Woche auf der Spielkarte, z. B. 3 Spiele in 8 Tagen, mit allen Terminen in der Partie",
+    "Mögliche Aufstellung: In Englischen Wochen höchstens Erwartet für Feldspielerinnen",
+    "Sicher erst ab 95 % Einsatzwert, in der Rückrechnung standen damit gut neun von zehn in der Startelf",
+    "Spielplan, Ergebnisse und mögliche Aufstellungen werden jetzt bei jedem Lauf automatisch aktualisiert"
+   ]
+  },
+  {
+   "version": "0.3",
+   "datum": "2026-10-26",
+   "titel": "Mögliche Aufstellungen und Auf den Punkt",
+   "aenderungen": [
+    "Spielplan: Partien nach Tagen gruppiert, Nachholspiele, Spielminute bei laufenden Spielen",
+    "Partie: Mögliche Aufstellung mit Einschätzung je Spielerin (sicher, erwartet, unsicher, unwahrscheinlich, ausgeschlossen), Legende und Begründung beim Antippen",
+    "Partie: Bank, alternative Aufstellung, fehlende Spielerinnen, Platzverweise, Tore mit Zwischenstand",
+    "News: Auf-den-Punkt-Meldungen bis zum Anpfiff angeheftet, mit Sicher aufstellen, Finger weg, Günstiger Tipp und Achtung",
+    "News: Tags STANDARD und ROTATION, Instagram-Link, Aufstellung nach TW, ABW, MF, ST mit NEU und RAUS",
+    "KI-Hinweis unter jedem Artikel mit Link auf KI-Hinweis & Methodik",
+    "Inside: Belastungskalender und Einsatzmatrix passen sich der Bildschirmbreite an, Verweis auf die Auf-den-Punkt-Meldung"
+   ]
+  },
+  {
+   "version": "0.2",
+   "datum": "2026-10-25",
+   "titel": "WOSOINSIDER mit Inside",
+   "aenderungen": [
+    "Neuer Name WOSOINSIDER mit gestapeltem Logo und den Farben aus dem Lookbook",
+    "Neuer Reiter Inside: Wochenausgabe mit Formkurven, Standard-Wechseln, allen Schützinnen, Spielen mit Ansage und Belastungskalender",
+    "Top-Analyse erscheint als Vorschaukarte oben in den News",
+    "Vereinsfilter in Inside: Wappen antippen, um nur deine Vereine zu sehen",
+    "Impressum, Datenschutz, Kontakt und KI-Hinweis wie in der Webversion"
+   ]
+  },
+  {
+   "version": "0.1",
+   "datum": "2026-10-25",
+   "titel": "Start der App-Version",
+   "aenderungen": [
+    "Ticker-Daten liegen jetzt auf einem eigenen Server und sind für die App abrufbar",
+    "Neuer Bereich Patches: hier steht künftig, was sich mit jedem Update ändert"
+   ]
+  }
+ ]
 }
