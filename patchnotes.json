@@ -1,6 +1,19 @@
 {
-  "stand": "2026-10-28T11:10",
+  "stand": "2026-10-28T22:30",
   "eintraege": [
+    {
+      "version": "0.10.1",
+      "datum": "2026-10-28",
+      "titel": "Kommentare in der Webversion",
+      "aenderungen": [
+        "Kommentare: Unter jeder Meldung und unter Auf den Punkt kann man jetzt kommentieren, ohne Konto. Beim ersten Kommentar wählst du deinen Namen (sonst „WoSo-Fan“ mit Nummer), einmal änderbar.",
+        "Antworten, Likes, Sortierung nach Neu oder Top, eigene Kommentare löschen, Personen stummschalten.",
+        "Melden mit Grund; mehrfach gemeldete Kommentare werden automatisch ausgeblendet und von der Redaktion geprüft. Ein Wortfilter prüft Kommentare und Namen.",
+        "Die Redaktion trägt einen blauen Haken und kann Kommentare oben anheften.",
+        "Feed: Sprechblase mit der Zahl der Kommentare auf jeder Meldung. Die Meta-Zeile zeigt den Verein ausgeschrieben, bei Platzmangel als Kürzel.",
+        "Datenschutzerklärung um Abschnitt 7 „Kommentare“ ergänzt."
+      ]
+    },
     {
       "version": "0.10",
       "datum": "2026-10-28",
