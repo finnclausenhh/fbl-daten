@@ -1,11 +1,28 @@
 {
- "stand": "2026-10-28T11:19",
+ "stand": "2026-10-28T12:14",
  "umfragen": {
   "fcb-tor-md9": {
    "stimmen": {
     "van-eijk": 0,
     "klink": 0,
     "andere": 0
+   },
+   "gesamt": 0
+  },
+  "wob-sturm-md9": {
+   "stimmen": {
+    "zicai": 0,
+    "bussy": 0,
+    "beide": 0,
+    "keine": 0
+   },
+   "gesamt": 0
+  },
+  "peddemors-tore-md9": {
+   "stimmen": {
+    "null": 0,
+    "eins": 0,
+    "mehr": 0
    },
    "gesamt": 0
   }
