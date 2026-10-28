@@ -1,0 +1,32 @@
+name: Klicks Diagnose (Test)
+on:
+  push:
+    branches: [klicks-test]
+    paths: [".github/workflows/klicks-diagnose.yml"]
+permissions:
+  contents: write
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: API pruefen
+        env:
+          GC_TOKEN: ${{ secrets.GOATCOUNTER_TOKEN }}
+        run: |
+          mkdir -p diagnose
+          echo "token_gesetzt=$([ -n "$GC_TOKEN" ] && echo ja || echo nein) laenge=${#GC_TOKEN}" > diagnose/info.txt
+          B=https://wosoinsider.goatcounter.com/api/v0
+          H="Authorization: Bearer $GC_TOKEN"
+          for p in "me" "stats/total?start=2026-10-01T00:00:00Z&end=2026-10-29T00:00:00Z" "stats/hits?start=2026-10-01T00:00:00Z&end=2026-10-29T00:00:00Z&limit=100&daily=true"; do
+            f=diagnose/$(echo "$p" | cut -d'?' -f1 | tr '/' '_').json
+            code=$(curl -s -o "$f" -w "%{http_code}" -H "$H" -H "Content-Type: application/json" "$B/$p")
+            echo "$p -> HTTP $code" >> diagnose/info.txt
+            sleep 1
+          done
+          # Sicherheit: Token darf nirgends in den Dateien stehen
+          if grep -rqF "$GC_TOKEN" diagnose; then echo "TOKEN IN AUSGABE" >&2; rm -rf diagnose; exit 1; fi
+          git add diagnose
+          git -c user.name="WOSOINSIDER" -c user.email="finnclausenhh@users.noreply.github.com" commit -qm "Klicks Diagnose"
+          git push -q origin HEAD:klicks-test
