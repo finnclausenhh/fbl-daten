@@ -1,6 +1,105 @@
 {
- "stand": "2026-10-28T15:39",
+ "stand": "2026-10-28T22:37",
  "meldungen": [
+  {
+   "id": "zicai-2810",
+   "pid": "00414",
+   "zeit": "2026-10-28T21:07",
+   "spielerin": "Cora Zicai",
+   "verein": "VfL Wolfsburg",
+   "nr": "28",
+   "pos": "ST",
+   "tags": [
+    "TOP"
+   ],
+   "status": "fit",
+   "headline": "Zicai trifft dreifach beim 7:0 gegen Feyenoord",
+   "text": [
+    "Cora Zicai war beim 7:0 (4:0) des VfL Wolfsburg im Hinspiel des Europa-Cup-Achtelfinals gegen Feyenoord Rotterdam die auffälligste Spielerin. Sie traf laut WAZ dreifach, zwei ihrer Tore fielen in der 28. und 31. Minute.",
+    "Zuvor hatte Lara Prašnikar früh einen Elfmeter verwandelt (2.), vor der Pause kam ein Eigentor der Feyenoord-Torhüterin hinzu. Außerdem erzielte Floe ihr erstes Tor für den VfL. Es war der siebte Wolfsburger Pflichtspielsieg in Folge, das Rückspiel steigt am 10. November in Rotterdam."
+   ],
+   "kickbase": "Zicai ist mit dem Hattrick und der Serie in Form, Prašnikar bleibt Elfmeterschützin. Das Rückspiel bringt Reisestress, danach folgt am 2. November das Pokalspiel gegen Hoffenheim.",
+   "quellen": [
+    {
+     "name": "WAZ",
+     "url": "https://www.waz-online.de/sport/regional/zicai-hattrick-und-das-erste-tor-fuer-floe-fussballerinnen-des-vfl-wolfsburg-feiern-7-0-sieg-JHEIWJVDBRGULD4IXRRIVJE75I.html"
+    },
+    {
+     "name": "NDR",
+     "url": "https://www.ndr.de/sport/fussball/europa-cup-wolfsburg-frauen-lassen-feyenoord-keine-chance,wolfsburg-1784.html"
+    }
+   ],
+   "foto": "fotos/wob-cora-zicai.webp",
+   "foto_credit": {
+    "autor": "VfL Wolfsburg",
+    "lizenz": "mit Genehmigung: VfL Wolfsburg",
+    "url": "https://www.vfl-wolfsburg.de/teams/frauen/kader-2026/2027"
+   }
+  },
+  {
+   "id": "raso-2810",
+   "pid": "00081",
+   "zeit": "2026-10-28T21:00",
+   "spielerin": "Hayley Raso",
+   "verein": "Eintracht Frankfurt",
+   "nr": "16",
+   "pos": "ST",
+   "tags": [
+    "TOP"
+   ],
+   "status": "fit",
+   "headline": "Raso und Freigang schießen Frankfurt zum 2:0 in Eindhoven",
+   "text": [
+    "Eintracht Frankfurt hat das Achtelfinal-Hinspiel im Europa Cup bei PSV Eindhoven 2:0 gewonnen. Hayley Raso traf in der 2. Minute nach einem Steilpass von Laura Freigang, die selbst in der 13. Minute per Kopf nach einer Flanke von Paulina Krumbiegel erhöhte.",
+    "Raso zeigte laut Vereinsbericht in ihrer ersten Aktion sofort Wirkung. Das Rückspiel findet am 11. November in Frankfurt statt."
+   ],
+   "kickbase": "Raso und Freigang harmonieren im Sturm. Für die Liga spricht das für eine feste Rolle beider in der Offensive.",
+   "quellen": [
+    {
+     "name": "Eintracht Frankfurt",
+     "url": "https://frauen.eintracht.de/news/frueh-zum-hinspielsieg-180083"
+    }
+   ],
+   "foto": "fotos/sge-hayley-raso.webp",
+   "foto_credit": {
+    "autor": "Eintracht Frankfurt",
+    "lizenz": "mit Genehmigung: Eintracht Frankfurt",
+    "url": "https://frauen.eintracht.de/kader/"
+   }
+  },
+  {
+   "id": "imade-2810",
+   "pid": "00026",
+   "zeit": "2026-10-28T20:50",
+   "spielerin": "Edna Imade",
+   "verein": "FC Bayern",
+   "nr": "29",
+   "pos": "ST",
+   "tags": [],
+   "status": "fit",
+   "headline": "Imade und Tanikawa retten Bayern ein 2:2 gegen Real",
+   "text": [
+    "Der FC Bayern hat in der Champions League vor mehr als 6.000 Fans in Unterhaching nur 2:2 gegen Real Madrid gespielt. Nach einem 0:2 durch Athenea (7.) und Beerensteyn glichen Edna Imade und Momoko Tanikawa noch aus.",
+    "Danach ließen die Münchnerinnen laut Sportschau beste Chancen zum Sieg liegen. Es war das zweite Heimspiel der Saison in der Königsklasse ohne Sieg, in der Liga ist das Team weiter ungeschlagen. Am Sonntag steht das Pokalspiel gegen Leverkusen an."
+   ],
+   "kickbase": "Imade und Tanikawa treffen in der Champions League und bleiben im Spiel. Wer rotiert, zeigt sich mit dem Pokalspiel am Sonntag.",
+   "quellen": [
+    {
+     "name": "Kicker",
+     "url": "https://www.kicker.de/bayern-gegen-real-madrid-2026-frauen-champions-league-5265237/spielbericht"
+    },
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/regional/br/br-fcb-frauen-holen-02-gegen-real-auf-und-aergern-sich-dennoch-102.html"
+    }
+   ],
+   "foto": "fotos/fcb-edna-imade.webp",
+   "foto_credit": {
+    "autor": "FC Bayern",
+    "lizenz": "mit Genehmigung: FC Bayern München",
+    "url": "https://fcbayern.com/frauen/de/teams/1.-mannschaft"
+   }
+  },
   {
    "id": "redzepi-2810",
    "pid": "00347",
