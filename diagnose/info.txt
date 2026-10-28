@@ -1,0 +1,4 @@
+token_gesetzt=ja laenge=52
+me -> HTTP 404
+stats/total?start=2026-10-01T00:00:00Z&end=2026-10-29T00:00:00Z -> HTTP 200
+stats/hits?start=2026-10-01T00:00:00Z&end=2026-10-29T00:00:00Z&limit=100&daily=true -> HTTP 200
