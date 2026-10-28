@@ -109,14 +109,14 @@
     },
     {
      "id": "eins",
-     "n": "Ein Tor",
+     "n": "1 Tor",
      "von": 1,
      "bis": 1,
      "bild": false
     },
     {
      "id": "mehr",
-     "n": "Zwei oder mehr",
+     "n": "2 oder mehr",
      "von": 2,
      "bild": false
     }
