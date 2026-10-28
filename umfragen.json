@@ -17,20 +17,20 @@
      "id": "van-eijk",
      "n": "Regina van Eijk",
      "nachname": "van Eijk",
-     "info": "Zuletzt die Nummer 2: gegen Stuttgart und Leipzig einzige Ersatztorhüterin",
+     "info": "Zuletzt Nummer 2 hinter Mahmutovic",
      "kader": "--bbb"
     },
     {
      "id": "klink",
      "n": "Anna Klink",
      "nachname": "Klink",
-     "info": "Nach Mittelhandbruch im Juli seit Spieltag 5 zurück, zuletzt am 6. Spieltag im Kader",
+     "info": "Nach Mittelhandbruch wieder dabei",
      "kader": "-bb--"
     },
     {
      "id": "andere",
      "n": "Eine andere",
-     "info": "Am 4. Spieltag saß Sophie Klein als Ersatz auf der Bank",
+     "info": "Sophie Klein, am 4. Spieltag Ersatz",
      "kader": "b----",
      "logo": "FCB"
     }
@@ -59,26 +59,26 @@
      "id": "zicai",
      "n": "Cora Zicai",
      "nachname": "Zicai",
-     "info": "4 Tore, 3 davon in den ersten beiden Spielen. Seit Spieltag 5 ohne Tor, gegen Köln nur eingewechselt",
+     "info": "4 Tore, seit Spieltag 5 ohne Treffer",
      "kader": "essse"
     },
     {
      "id": "bussy",
      "n": "Kessya Bussy",
      "nachname": "Bussy",
-     "info": "Gegen Köln in der Startelf, traf gegen Mainz als Joker",
+     "info": "Gegen Köln in der Startelf",
      "kader": "sbees"
     },
     {
      "id": "beide",
      "n": "Beide",
-     "info": "In 8 Spielen nie zusammen in der Startelf",
+     "info": "Noch nie zusammen in der Startelf",
      "logo": "WOB"
     },
     {
      "id": "keine",
      "n": "Keine von beiden",
-     "info": "Prašnikar startete in 6 von 8 Spielen, Kerim-Lindland traf dreimal",
+     "info": "Prašnikar startete 6 von 8 Spielen",
      "bild": false
     }
    ],
