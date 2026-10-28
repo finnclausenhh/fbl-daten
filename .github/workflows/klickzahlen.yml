@@ -1,0 +1,42 @@
+name: Klickzahlen
+
+# Dienstags 5:05 UTC (6:05 im Winter, 7:05 im Sommer, immer vor dem Inside-Lauf um 7:41),
+# bei Änderungen an tools/klicks.py und von Hand. Holt die Zählung der letzten 28 Tage aus GoatCounter
+# und schreibt klickzahlen.json. Token kommt aus dem Repo-Geheimnis GOATCOUNTER_TOKEN (nur Leserechte).
+on:
+  schedule:
+    - cron: "5 5 * * 2"
+  push:
+    branches: [main]
+    paths: ["tools/klicks.py", ".github/workflows/klickzahlen.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daten-schreiben
+  cancel-in-progress: false
+
+jobs:
+  klicks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Klickzahlen holen
+        env:
+          GOATCOUNTER_TOKEN: ${{ secrets.GOATCOUNTER_TOKEN }}
+        run: python3 tools/klicks.py --repo . --out klickzahlen.json
+      - name: Ergebnis speichern
+        run: |
+          git add klickzahlen.json
+          if git diff --cached --quiet; then echo "keine Änderung"; exit 0; fi
+          git -c user.name="WOSOINSIDER" -c user.email="finnclausenhh@users.noreply.github.com" commit -qm "Klickzahlen aktualisiert"
+          for i in 1 2 3; do git pull -q --rebase origin main && git push -q origin HEAD:main && exit 0; sleep 10; done
+          exit 1
