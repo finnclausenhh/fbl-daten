@@ -1,0 +1,236 @@
+{
+ "stand": "2026-10-28T09:44",
+ "zeitraum_tage": 28,
+ "quelle": "GoatCounter (nur Webversion, die App zählt nicht)",
+ "belastbar": false,
+ "hinweis": "Noch zu wenig Daten (2 von 150 geöffneten Meldungen). Themenwahl ohne Klickzahlen, Top-Teams bevorzugen.",
+ "summen": {
+  "besuche_seiten": 6,
+  "meldungen_geoeffnet": 2,
+  "meldungen_veroeffentlicht": 50,
+  "analyse_geoeffnet": 0,
+  "spiele_geoeffnet": 0
+ },
+ "reiter": {},
+ "vereine": [
+  {
+   "k": "FCB",
+   "name": "FC Bayern",
+   "top_team": true,
+   "meldungen": 11,
+   "oeffnungen": 2,
+   "oeffnungen_7t": 2,
+   "pro_meldung": 0.18,
+   "interesse": null
+  },
+  {
+   "k": "WOB",
+   "name": "VfL Wolfsburg",
+   "top_team": true,
+   "meldungen": 6,
+   "oeffnungen": 0,
+   "oeffnungen_7t": 0,
+   "pro_meldung": 0.0,
+   "interesse": null
+  },
+  {
+   "k": "VFB",
+   "name": "VfB Stuttgart",
+   "top_team": false,
+   "meldungen": 6,
+   "oeffnungen": 0,
+   "oeffnungen_7t": 0,
+   "pro_meldung": 0.0,
+   "interesse": null
+  },
+  {
+   "k": "SVW",
+   "name": "Werder Bremen",
+   "top_team": false,
+   "meldungen": 5,
+   "oeffnungen": 0,
+   "oeffnungen_7t": 0,
+   "pro_meldung": 0.0,
+   "interesse": null
+  },
+  {
+   "k": "KOE",
+   "name": "1. FC Köln",
+   "top_team": false,
+   "meldungen": 3,
+   "oeffnungen": 0,
+   "oeffnungen_7t": 0,
+   "pro_meldung": 0.0,
+   "interesse": null
+  },
+  {
+   "k": "SCF",
+   "name": "SC Freiburg",
+   "top_team": false,
+   "meldungen": 3,
+   "oeffnungen": 0,
+   "oeffnungen_7t": 0,
+   "pro_meldung": 0.0,
+   "interesse": null
+  },
+  {
+   "k": "TSG",
+   "name": "TSG Hoffenheim",
+   "top_team": false,
+   "meldungen": 3,
+   "oeffnungen": 0,
+   "oeffnungen_7t": 0,
+   "pro_meldung": 0.0,
+   "interesse": null
+  },
+  {
+   "k": "HSV",
+   "name": "Hamburger SV",
+   "top_team": false,
+   "meldungen": 3,
+   "oeffnungen": 0,
+   "oeffnungen_7t": 0,
+   "pro_meldung": 0.0,
+   "interesse": null
+  },
+  {
+   "k": "SGE",
+   "name": "Eintracht Frankfurt",
+   "top_team": true,
+   "meldungen": 2,
+   "oeffnungen": 0,
+   "oeffnungen_7t": 0,
+   "pro_meldung": 0.0,
+   "interesse": null
+  },
+  {
+   "k": "RBL",
+   "name": "RB Leipzig",
+   "top_team": false,
+   "meldungen": 2,
+   "oeffnungen": 0,
+   "oeffnungen_7t": 0,
+   "pro_meldung": 0.0,
+   "interesse": null
+  },
+  {
+   "k": "FCU",
+   "name": "Union Berlin",
+   "top_team": false,
+   "meldungen": 2,
+   "oeffnungen": 0,
+   "oeffnungen_7t": 0,
+   "pro_meldung": 0.0,
+   "interesse": null
+  },
+  {
+   "k": "FCN",
+   "name": "1. FC Nürnberg",
+   "top_team": false,
+   "meldungen": 2,
+   "oeffnungen": 0,
+   "oeffnungen_7t": 0,
+   "pro_meldung": 0.0,
+   "interesse": null
+  },
+  {
+   "k": "B04",
+   "name": "Bayer Leverkusen",
+   "top_team": true,
+   "meldungen": 1,
+   "oeffnungen": 0,
+   "oeffnungen_7t": 0,
+   "pro_meldung": 0.0,
+   "interesse": null
+  },
+  {
+   "k": "M05",
+   "name": "Mainz 05",
+   "top_team": false,
+   "meldungen": 1,
+   "oeffnungen": 0,
+   "oeffnungen_7t": 0,
+   "pro_meldung": 0.0,
+   "interesse": null
+  }
+ ],
+ "spielerinnen": [
+  {
+   "n": "Ena Mahmutovic",
+   "k": "FCB",
+   "meldungen": 2,
+   "oeffnungen": 1,
+   "oeffnungen_7t": 1,
+   "pro_meldung": 0.5
+  },
+  {
+   "n": "Klara Bühl",
+   "k": "FCB",
+   "meldungen": 3,
+   "oeffnungen": 1,
+   "oeffnungen_7t": 1,
+   "pro_meldung": 0.33
+  }
+ ],
+ "meldungen_top": [
+  {
+   "id": "buehl-2710",
+   "headline": "Bühl wird beim Ballon d'Or Zwölfte, Harder in den Top 10",
+   "verein": "FCB",
+   "tags": [
+    "TOP"
+   ],
+   "oeffnungen": 1
+  },
+  {
+   "id": "mahmutovic-2710",
+   "headline": "Mahmutovic nach Rot für ein Ligaspiel gesperrt",
+   "verein": "FCB",
+   "tags": [
+    "SPERRE"
+   ],
+   "oeffnungen": 1
+  }
+ ],
+ "tags": {
+  "SPERRE": {
+   "oeffnungen": 1,
+   "meldungen": 4,
+   "pro_meldung": 0.25
+  },
+  "TOP": {
+   "oeffnungen": 1,
+   "meldungen": 24,
+   "pro_meldung": 0.04
+  },
+  "SPIELBERICHT": {
+   "oeffnungen": 0,
+   "meldungen": 10,
+   "pro_meldung": 0.0
+  },
+  "VERLETZUNG": {
+   "oeffnungen": 0,
+   "meldungen": 6,
+   "pro_meldung": 0.0
+  },
+  "RÜCKKEHR": {
+   "oeffnungen": 0,
+   "meldungen": 6,
+   "pro_meldung": 0.0
+  },
+  "TRANSFER": {
+   "oeffnungen": 0,
+   "meldungen": 2,
+   "pro_meldung": 0.0
+  },
+  "OHNE": {
+   "oeffnungen": 0,
+   "meldungen": 7,
+   "pro_meldung": 0.0
+  }
+ },
+ "_technik": {
+  "pfade": 9,
+  "news_staende": 5
+ }
+}
