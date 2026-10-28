@@ -1,5 +1,5 @@
 {
- "stand": "2026-10-28T23:13",
+ "stand": "2026-10-28T23:56",
  "umfragen": {
   "fcb-tor-md9": {
    "stimmen": {
@@ -11,12 +11,12 @@
   },
   "wob-sturm-md9": {
    "stimmen": {
-    "zicai": 0,
+    "zicai": 1,
     "bussy": 0,
     "beide": 0,
     "keine": 0
    },
-   "gesamt": 0
+   "gesamt": 1
   },
   "peddemors-tore-md9": {
    "stimmen": {
