@@ -97,7 +97,7 @@
   "bloecke": [
    {
     "typ": "p",
-    "text": "**Kurz gesagt:** WOSOINSIDER braucht kein Konto, setzt keine Cookies und zeigt keine Werbung. Die App enthält keine Analyse. Webseite und Webversion zählen Aufrufe anonym mit GoatCounter, ohne Cookies und ohne Speicherung von IP-Adressen (Abschnitt 6). Personenbezogene Daten fallen sonst nur dort an, wo Technik es zwingend verlangt (Abruf der Inhalte) oder wenn Sie uns schreiben."
+    "text": "**Kurz gesagt:** WOSOINSIDER braucht kein Konto, setzt keine Cookies und zeigt keine Werbung. Die App enthält keine Analyse. Webseite und Webversion zählen Aufrufe anonym mit GoatCounter, ohne Cookies und ohne Speicherung von IP-Adressen. Stimmen Sie in einer Umfrage ab, wird nur die gewählte Antwort gezählt, in App und Web (Abschnitt 6). Personenbezogene Daten fallen sonst nur dort an, wo Technik es zwingend verlangt (Abruf der Inhalte) oder wenn Sie uns schreiben."
    },
    {
     "typ": "h2",
@@ -133,7 +133,7 @@
    },
    {
     "typ": "p",
-    "text": "Die App enthält keine Analyse-, Werbe- oder Tracking-Werkzeuge und keine Software von Drittanbietern. Sie fragt keine Berechtigungen ab, etwa für Standort, Kontakte, Fotos oder Kamera. Links zu Quellen, Lizenzen oder Instagram öffnet sie erst, wenn Sie darauf tippen (siehe Abschnitt 10). Rechtsgrundlage für den Abruf ist unser berechtigtes Interesse, Ihnen die Inhalte auszuliefern (Art. 6 Abs. 1 lit. f DSGVO)."
+    "text": "Die App enthält keine Analyse-, Werbe- oder Tracking-Werkzeuge und keine Software von Drittanbietern. Stimmen Sie in einer Umfrage ab, sendet die App nur die gewählte Antwort zur Zählung an GoatCounter (Abschnitt 6). Sie fragt keine Berechtigungen ab, etwa für Standort, Kontakte, Fotos oder Kamera. Links zu Quellen, Lizenzen oder Instagram öffnet sie erst, wenn Sie darauf tippen (siehe Abschnitt 10). Rechtsgrundlage für den Abruf ist unser berechtigtes Interesse, Ihnen die Inhalte auszuliefern (Art. 6 Abs. 1 lit. f DSGVO)."
    },
    {
     "typ": "p",
@@ -145,7 +145,7 @@
    },
    {
     "typ": "p",
-    "text": "Ihre Vereinsauswahl speichern App und Webversion nur lokal auf Ihrem Gerät (App: Einstellungen der App, Webversion: localStorage des Browsers). Sie wird nicht an uns übertragen. Diese Speicherung ist für die von Ihnen gewünschte Funktion unbedingt erforderlich und braucht daher keine Einwilligung (§ 25 Abs. 2 Nr. 2 TDDDG). Sie löschen sie, indem Sie die Auswahl zurücksetzen, die App löschen oder die Browserdaten entfernen. Es werden keine Cookies gesetzt."
+    "text": "Ihre Vereinsauswahl und Ihre Stimmen in Umfragen speichern App und Webversion lokal auf Ihrem Gerät (App: Einstellungen der App, Webversion: localStorage des Browsers), damit Sie Ihre Auswahl behalten und jede Umfrage nur einmal beantworten. Die Vereinsauswahl wird nicht übertragen; wie eine Stimme gezählt wird, steht in Abschnitt 6. Diese Speicherung ist für die von Ihnen gewünschte Funktion unbedingt erforderlich und braucht daher keine Einwilligung (§ 25 Abs. 2 Nr. 2 TDDDG). Sie löschen sie, indem Sie die Auswahl zurücksetzen, die App löschen oder die Browserdaten entfernen. Es werden keine Cookies gesetzt."
    },
    {
     "typ": "h2",
@@ -165,19 +165,19 @@
    },
    {
     "typ": "h2",
-    "text": "6. Reichweitenmessung auf der Webseite (GoatCounter)"
+    "text": "6. Reichweitenmessung und Umfragen (GoatCounter)"
    },
    {
     "typ": "p",
-    "text": "Die Webseite wosoinsider.de und die Webversion des Newstickers zählen Seitenaufrufe und das Öffnen von Meldungen, Spielen und Reitern mit GoatCounter. Anbieter ist Martin Tournoij, Irland ([goatcounter.com](https://www.goatcounter.com)). Dabei überträgt Ihr Browser die aufgerufene Seite oder das geöffnete Element, gegebenenfalls die zuvor besuchte Seite und Kampagnen-Angaben aus der Adresse (etwa „utm_source=instagram“), die Browser- und Betriebssystemkennung sowie technisch bedingt Ihre IP-Adresse."
+    "text": "Die Webseite wosoinsider.de und die Webversion des Newstickers zählen Seitenaufrufe und das Öffnen von Meldungen, Spielen und Reitern sowie Stimmen in Umfragen (nur die gewählte Antwort) mit GoatCounter. Die App überträgt an GoatCounter ausschließlich Stimmen in Umfragen, keine Aufrufe. Anbieter ist Martin Tournoij, Irland ([goatcounter.com](https://www.goatcounter.com)). Dabei überträgt Ihr Browser oder die App die aufgerufene Seite, das geöffnete Element oder die gewählte Antwort, gegebenenfalls die zuvor besuchte Seite und Kampagnen-Angaben aus der Adresse (etwa „utm_source=instagram“), die Browser- und Betriebssystemkennung sowie technisch bedingt Ihre IP-Adresse."
    },
    {
     "typ": "p",
-    "text": "GoatCounter speichert die IP-Adresse nicht. Daraus wird nur das Land abgeleitet. Zusammen mit der Browserkennung dient sie höchstens 8 Stunden im Arbeitsspeicher dazu, wiederholte Aufrufe nicht doppelt zu zählen. Gespeichert werden nur zusammengefasste Zahlen, mit denen sich keine Person erkennen lässt. Es werden keine Cookies gesetzt, kein Skript eines Drittanbieters geladen und keine Informationen auf Ihrem Gerät gespeichert oder ausgelesen. Die Server betreibt die Hetzner Online GmbH in Deutschland und Finnland."
+    "text": "GoatCounter speichert die IP-Adresse nicht. Daraus wird nur das Land abgeleitet. Zusammen mit der Browserkennung dient sie höchstens 8 Stunden im Arbeitsspeicher dazu, wiederholte Aufrufe nicht doppelt zu zählen. Gespeichert werden nur zusammengefasste Zahlen, mit denen sich keine Person erkennen lässt. GoatCounter setzt keine Cookies, es wird kein Skript eines Drittanbieters geladen, und GoatCounter speichert oder liest keine Informationen auf Ihrem Gerät. Die Server betreibt die Hetzner Online GmbH in Deutschland und Finnland."
    },
    {
     "typ": "p",
-    "text": "Zweck ist zu erfahren, wie viele Menschen das Angebot nutzen und welche Themen, Spielerinnen und Vereine gefragt sind. Rechtsgrundlage ist unser berechtigtes Interesse an dieser Auswertung (Art. 6 Abs. 1 lit. f DSGVO). Sie können jederzeit widersprechen (Abschnitt 12), zum Beispiel per E-Mail; technisch verhindern Sie die Zählung mit einem Inhaltsblocker. Die App nutzt GoatCounter nicht. Weitere Informationen: [Datenschutzerklärung von GoatCounter](https://www.goatcounter.com/help/privacy)."
+    "text": "Zweck ist zu erfahren, wie viele Menschen das Angebot nutzen und welche Themen, Spielerinnen und Vereine gefragt sind, sowie die Ergebnisse von Umfragen anzuzeigen. Rechtsgrundlage ist unser berechtigtes Interesse an dieser Auswertung (Art. 6 Abs. 1 lit. f DSGVO). Sie können jederzeit widersprechen (Abschnitt 12), zum Beispiel per E-Mail; technisch verhindern Sie die Zählung mit einem Inhaltsblocker. Weitere Informationen: [Datenschutzerklärung von GoatCounter](https://www.goatcounter.com/help/privacy)."
    },
    {
     "typ": "h2",
