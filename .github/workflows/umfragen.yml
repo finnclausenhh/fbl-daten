@@ -1,0 +1,40 @@
+name: Umfragen
+
+# Alle 15 Minuten (GitHub startet geplante Läufe teils mit Verzögerung) und von Hand:
+# zählt die Stimmen der Umfragen aus GoatCounter und schreibt umfragen_stand.json.
+# Committet nur, wenn sich Stimmen geändert haben. Token: Repo-Geheimnis GOATCOUNTER_TOKEN (nur Leserechte).
+on:
+  schedule:
+    - cron: "7,22,37,52 * * * *"
+  push:
+    branches: [main]
+    paths: ["tools/umfragen.py", "umfragen.json", ".github/workflows/umfragen.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daten-schreiben
+  cancel-in-progress: false
+
+jobs:
+  zaehlen:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Stimmen zählen
+        env:
+          GOATCOUNTER_TOKEN: ${{ secrets.GOATCOUNTER_TOKEN }}
+        run: python3 tools/umfragen.py --repo .
+      - name: Ergebnis speichern
+        run: |
+          git add umfragen_stand.json
+          if git diff --cached --quiet; then echo "keine Änderung"; exit 0; fi
+          git -c user.name="WOSOINSIDER" -c user.email="finnclausenhh@users.noreply.github.com" commit -qm "Umfragen: Stimmen aktualisiert"
+          for i in 1 2 3; do git pull -q --rebase origin main && git push -q origin HEAD:main && exit 0; sleep 10; done
+          exit 1

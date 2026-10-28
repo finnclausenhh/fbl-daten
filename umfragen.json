@@ -1,0 +1,23 @@
+{
+ "stand": "2026-10-28T11:30",
+ "hinweis": "Umfragen für News und Artikel. Stimmen zählt GoatCounter (Ereignis umfrage/<id>/<option>), Ergebnisse schreibt tools/umfragen.py nach umfragen_stand.json.",
+ "umfragen": [
+  {
+   "id": "fcb-tor-md9",
+   "meldung": "mahmutovic-2710",
+   "frage": "Wer steht für sie im Tor?",
+   "sub": "FC Bayern gegen Werder · Fr 06.11. · 9. Spieltag",
+   "ende": "2026-11-06T18:30",
+   "partie": "12306283",
+   "verein": "FCB",
+   "position": "TW",
+   "kader_von": 4,
+   "optionen": [
+    {"id": "van-eijk", "n": "Regina van Eijk", "nachname": "van Eijk", "info": "Zuletzt die Nummer 2: gegen Stuttgart und Leipzig einzige Ersatztorhüterin", "kader": "--bbb"},
+    {"id": "klink", "n": "Anna Klink", "nachname": "Klink", "info": "Nach Mittelhandbruch im Juli seit Spieltag 5 zurück, zuletzt am 6. Spieltag im Kader", "kader": "-bb--"},
+    {"id": "andere", "n": "Eine andere", "info": "Am 4. Spieltag saß Sophie Klein als Ersatz auf der Bank", "kader": "b----", "logo": "FCB"}
+   ],
+   "einschaetzung": {"option": "van-eijk", "stufe": "erwartet", "text": "Sie saß in 3 der letzten 5 Spiele als Nummer 2 auf der Bank, zuletzt zweimal als einzige Ersatztorhüterin."}
+  }
+ ]
+}
