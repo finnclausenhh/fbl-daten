@@ -1,6 +1,21 @@
 {
-  "stand": "2026-10-27T00:29",
+  "stand": "2026-10-28T11:10",
   "eintraege": [
+    {
+      "version": "0.10",
+      "datum": "2026-10-28",
+      "titel": "Meine Vereine überall",
+      "aenderungen": [
+        "Meine Vereine: Die Vereinsauswahl gilt jetzt überall. Oben in News, Spielplan und Inside steht dieselbe Zeile \"Meine Vereine\" mit Mini-Wappen und Namen der gewählten Vereine (ohne Auswahl \"Alle Vereine\"), rechts \"auswählen\", \"ändern\" oder \"fertig\". Aufgeklappt erscheint die Wappenreihe mit dem Hinweis \"Alle Vereine · Wappen antippen für deine Auswahl\" bzw. \"N gewählt\" und \"Auswahl löschen\". Der bisherige Filterblock oben in Inside entfällt",
+        "Wappen: Nicht gewählte Vereine erscheinen in Graustufen und halb durchsichtig, gewählte farbig mit Ring und leichtem Hintergrund in der Vereinsfarbe. Bei sehr dunklen Vereinsfarben (Frankfurt, Freiburg) ist der Ring hellgrau",
+        "News: Mit Auswahl zeigt der Ticker nur Meldungen der gewählten Vereine. Aufstellungen erscheinen auch, wenn der Gegner gewählt ist. Auf den Punkt, Meldungen ohne Verein und Spielansetzungen bleiben immer sichtbar, ebenso die Top-Analyse. Unter der Liste steht \"N weitere Meldungen anderer Vereine\" mit \"Alle zeigen\", im Modus \"Alle zeigen\" oben \"Alle Meldungen\" mit \"Nur meine Vereine\". Ohne passende Meldung: \"Keine Meldungen deiner Vereine in den letzten 14 Tagen\" mit \"Alle zeigen\"",
+        "Spielplan: Mit Auswahl steht oben die Gruppe \"Deine Spiele\" mit Wochentag und Datum über jeder Partie und einem linken Rand in der Vereinsfarbe. Spielen die eigenen Vereine nicht, steht dort \"Deine Vereine spielen an diesem Spieltag nicht\". Darunter der Knopf \"Weitere Spiele\" mit der Zahl der Partien, eingeklappt; aufgeklappt folgen die übrigen Partien nach Tagen wie bisher. Nachholspiele anderer Vereine zählen zu \"Weitere Spiele\". Bei fremden Partien steht die Englische Woche nur als kleines graues Label. Ohne Auswahl bleibt alles wie bisher",
+        "Inside: Die Top-Analyse erscheint immer, auch wenn ihr Verein nicht gewählt ist. Bei den Standardschützinnen gibt es mit Auswahl den Knopf \"Alle 14 Vereine\" bzw. \"Nur meine Vereine\". Formkurve, Spiele mit Ansage und Belastung filtern wie bisher",
+        "Fotos: Portraits aller 14 Vereine vom jeweiligen Verein, mit Genehmigung, in den News und in der Formkurve. Auch Trainerinnen, Trainer und Funktionsteam bekommen ihr Foto, wenn der Verein eins freigegeben hat. Hinter Portraits mit transparentem Hintergrund liegt bei allen Vereinen die Vereinsfarbe",
+        "Bildnachweis: Vereinsfotos stehen als \"Foto: <Verein>\" unter dem Artikel und in der Formkurve. Die Seite Bildnachweise und das Impressum sprechen jetzt von Vereinsportraits mit Genehmigung der jeweiligen Vereine statt nur vom Hamburger SV; beim Funktionsteam steht die Funktion neben dem Namen",
+        "Auf den Punkt: Der Hinweis bei leerer Auswahl verweist auf die Zeile \"Meine Vereine\" statt auf Inside"
+      ]
+    },
     {
       "version": "0.9",
       "datum": "2026-10-27",
