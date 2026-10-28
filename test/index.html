@@ -1,0 +1,1209 @@
+<!doctype html><html lang="de"><head><base href="https://finnclausenhh.github.io/fbl-daten/">
+<meta name="robots" content="noindex">
+<meta name="description" content="News, Spielplan und Inside zur Frauen-Bundesliga für Kickbase.">
+<link rel="icon" href="https://wosoinsider.de/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="https://wosoinsider.de/apple-touch-icon.png">
+<script>
+// Daten liegen auf einer anderen Adresse (base). Adresszeile trotzdem auf dieser Seite halten.
+(function(){ var r = history.replaceState.bind(history);
+  history.replaceState = function(s, t, u){ return r(s, t, u == null ? u : new URL(u, location.href).href); }; })();
+</script>
+<meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style><script>
+// Reichweitenmessung mit GoatCounter (ohne Cookies, ohne Skript von Dritten, ohne Gerätespeicher).
+// Sendet nur Pfad, Titel, Referrer und Kampagnen-Parameter (z. B. ?utm_source=instagram) als Zählpixel.
+// Zählt nur auf wosoinsider.de, nicht im Artifact, lokal oder in Vorschauen.
+(function () {
+  var GC = "https://wosoinsider.goatcounter.com/count";
+  if (!/(^|\.)wosoinsider\.de$/.test(location.hostname)) { window.wiZaehl = function () {}; return; }
+  // Eigene Aufrufe über ein Lesezeichen mit ?intern: werden getrennt unter intern/... gezählt.
+  var INTERN = /[?&]intern(=|&|$)/.test(location.search);
+  function z(p, t, ev) {
+    if (INTERN) { p = "intern/" + String(p).replace(/^\//, ""); t = "[intern] " + (t || ""); ev = true; }
+    var q = "p=" + encodeURIComponent(p);
+    if (t) q += "&t=" + encodeURIComponent(t);
+    if (ev) q += "&e=true";
+    else {
+      if (document.referrer) q += "&r=" + encodeURIComponent(document.referrer);
+      if (location.search) q += "&q=" + encodeURIComponent(location.search);
+    }
+    q += "&rnd=" + Math.random().toString(36).slice(2);
+    try { new Image().src = GC + "?" + q; } catch (e) {}
+  }
+  window.wiZaehl = z;
+  function seite() { z(location.pathname, document.title, false); }
+  document.readyState === "loading" ? document.addEventListener("DOMContentLoaded", seite) : seite();
+})();
+// Ereignisse im Ticker: geöffnete Meldungen (plus Spielerin und Verein), Reiter, Spiele, Analyse.
+// Braucht zaehler.js davor. Liest news.json über die base-Adresse (fbl-daten), nur für Überschrift, Spielerin, Verein.
+(function () {
+  var NEWS = null;
+  function slug(s) {
+    return String(s).toLowerCase().replace(/ä/g, "ae").replace(/ö/g, "oe").replace(/ü/g, "ue").replace(/ß/g, "ss")
+      .normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+  }
+  function laden() {
+    if (!NEWS) NEWS = fetch("news.json").then(function (r) { return r.json(); })
+      .then(function (d) { var m = {}; (d.meldungen || []).forEach(function (x) { m[x.id] = x; }); return m; })
+      .catch(function () { NEWS = null; return {}; });
+    return NEWS;
+  }
+  function meldung(id) {
+    laden().then(function (m) {
+      var x = m[id];
+      if (!x) { wiZaehl("meldung/" + id, null, true); return; }
+      wiZaehl("meldung/" + id, x.headline, true);
+      if (x.spielerin) wiZaehl("spielerin/" + slug(x.spielerin), x.spielerin + (x.verein ? " (" + x.verein + ")" : ""), true);
+      if (x.verein) wiZaehl("verein/" + slug(x.verein), x.verein, true);
+    });
+  }
+  document.addEventListener("click", function (e) {
+    var x = e.target.closest && e.target.closest("[data-id],[data-punkt],[data-tab],[data-tabgo],[data-game],[data-ana]");
+    if (!x) return;
+    var d = x.dataset;
+    if (d.tab || d.tabgo) wiZaehl("reiter/" + (d.tab || d.tabgo), null, true);
+    else if (d.game) wiZaehl("spiel/" + d.game, null, true);
+    else if (d.ana !== undefined) wiZaehl("inside/analyse", "Analyse", true);
+    else meldung(d.id || d.punkt);
+  }, true);
+  // Direktlink auf eine Meldung (wosoinsider.de/ticker/#id), z. B. aus Instagram
+  var h = decodeURIComponent(location.hash.slice(1));
+  if (h && !/^(spielplan|inside|analyse|impressum|datenschutz|kontakt|so-entsteht)$/.test(h)) meldung(h);
+  else if (h) wiZaehl("reiter/" + h, null, true);
+})();
+</script>
+</head><body>
+<title>WOSOINSIDER</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<style>/* Schriften lokal aus dem Artifact, keine Verbindung zu Google */
+@font-face{font-family:'Barlow Condensed';font-style:normal;font-weight:600;font-display:swap;src:url(https://wosoinsider.de/fonts/barlow-condensed-latin-ext-0.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF}
+@font-face{font-family:'Barlow Condensed';font-style:normal;font-weight:600;font-display:swap;src:url(https://wosoinsider.de/fonts/barlow-condensed-latin-1.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'Barlow Condensed';font-style:normal;font-weight:700;font-display:swap;src:url(https://wosoinsider.de/fonts/barlow-condensed-latin-ext-2.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF}
+@font-face{font-family:'Barlow Condensed';font-style:normal;font-weight:700;font-display:swap;src:url(https://wosoinsider.de/fonts/barlow-condensed-latin-3.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'Barlow Condensed';font-style:normal;font-weight:800;font-display:swap;src:url(https://wosoinsider.de/fonts/barlow-condensed-latin-ext-4.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF}
+@font-face{font-family:'Barlow Condensed';font-style:normal;font-weight:800;font-display:swap;src:url(https://wosoinsider.de/fonts/barlow-condensed-latin-5.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'Barlow Condensed';font-style:normal;font-weight:500;font-display:swap;src:url(https://wosoinsider.de/fonts/barlow-condensed-500-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF}
+@font-face{font-family:'Barlow Condensed';font-style:normal;font-weight:500;font-display:swap;src:url(https://wosoinsider.de/fonts/barlow-condensed-500-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'Inter';font-style:normal;font-weight:400 700;font-display:swap;src:url(https://wosoinsider.de/fonts/inter-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF}
+@font-face{font-family:'Inter';font-style:normal;font-weight:400 700;font-display:swap;src:url(https://wosoinsider.de/fonts/inter-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+</style>
+<style>
+/* Design wie die iOS-App (ab Version 0.7): dunkles Schema, Karten ohne Rahmen, Farben aus Theme.swift */
+:root{
+  color-scheme:dark;
+  --bg:#0E1726; --card:#16223A; --soft:#1D2B47; --line:#2A3954; --ink:#F4F5F7; --muted:#A9B4C6; --accent:#2F5BFF;
+  --inj:#E24A4A; --ban:#9B6BE8; --back:#2EB872; --frag:#E0962B; --pokal:#E0962B; --euro:#9B6BE8; --opin:#14B8A6;
+  --s-sicher:#6E9BFF; --s-erwartet:#22C55E; --s-unsicher:#F59E0B; --s-unwahr:#F87171; --s-aus:#8A95A8;
+  --rasen:#17313D; --hell:#8FB0FF; --gruen:#4ADE80; --rot:#FF8A8A; --gelb:#F5B041;
+  --f-display:"Barlow Condensed","Arial Narrow",Arial,sans-serif;
+  --f-body:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+}
+html{background:var(--bg)}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.45;-webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:pointer;text-align:inherit}
+:focus-visible{outline:2px solid var(--s-sicher);outline-offset:2px}
+a{color:var(--accent)}
+.mu{color:var(--muted)}
+
+/* Kopf: gestapeltes Logo, darunter Segmente */
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg)}
+.bar-in{max-width:720px;margin:0 auto;padding:8px max(12px,env(safe-area-inset-right,0px)) 8px max(12px,env(safe-area-inset-left,0px));display:grid;gap:8px}
+.logo{justify-self:center;display:grid;font-family:var(--f-display);font-weight:800;font-size:17px;line-height:.8;letter-spacing:.3px}
+.logo b{color:var(--ink);font-weight:800}.logo i{font-style:normal;color:var(--accent)}
+.seg{display:grid;grid-auto-flow:column;grid-auto-columns:1fr;gap:2px;background:rgba(118,118,128,.24);border-radius:9px;padding:2px}
+.seg button{border-radius:7px;padding:6px 4px;font-size:13px;font-weight:500;text-align:center;color:var(--ink)}
+.seg button[aria-selected="true"],.seg button[aria-pressed="true"]{background:#636366;font-weight:600;box-shadow:0 2px 6px rgba(0,0,0,.25)}
+
+main{max-width:720px;margin:0 auto;padding:4px max(12px,env(safe-area-inset-right,0px)) 24px max(12px,env(safe-area-inset-left,0px))}
+.liste{display:grid;gap:10px}
+.leer{color:var(--muted);padding:40px 4px;text-align:center}
+
+/* Bausteine */
+.tags{display:flex;flex-wrap:wrap;gap:5px;align-items:center;min-width:0}
+.tag{font-size:11px;font-weight:800;line-height:1;padding:4px 6px 3px;border-radius:3px;white-space:nowrap;text-transform:uppercase}
+.kap{font:600 10.5px var(--f-mono);letter-spacing:.8px;text-transform:uppercase;color:var(--muted)}
+.disp{font-family:var(--f-display);font-weight:800;line-height:1.02;margin:0;text-wrap:balance}
+.kb{background:rgba(47,91,255,.12);border-radius:8px;padding:10px;display:grid;gap:4px}
+.kb b{font-size:11px;font-weight:800;letter-spacing:.3px;color:var(--accent);text-transform:uppercase}
+.kb span{font-size:14px}
+.ki{font-size:12px;color:var(--muted);margin:0}
+.ki button,.lk{color:var(--accent);text-decoration:underline;text-underline-offset:2px}
+.lg{display:block;object-fit:contain;flex:none}
+.plak{flex:none;border-radius:50%;display:grid;place-items:center}
+.plak svg{width:55%;height:55%;stroke:#fff;fill:none;stroke-width:3.2;stroke-linecap:round;stroke-linejoin:round}
+.sym{flex:none;border-radius:50%;display:inline-grid;place-items:center;vertical-align:middle}
+.sym svg{width:62%;height:62%;stroke:#fff;fill:none;stroke-width:3.4;stroke-linecap:round;stroke-linejoin:round}
+.sym.sicher svg{fill:#fff;stroke-width:1.2}
+.ball{width:11px;height:11px;flex:none;color:var(--ink)}
+.krt{display:inline-block;width:8px;height:11px;border-radius:1.5px;flex:none}
+.back{color:var(--accent);font-weight:600;padding:10px 0 6px;display:inline-block}
+.det{display:grid;gap:14px;padding-bottom:8px}
+.det p{margin:0}
+.body{display:grid;gap:14px}
+.body p{font-size:16.5px;line-height:1.55}
+
+/* Bild der Spielerin: Foto, Silhouette in Vereinsfarbe oder Wappen */
+.bild{position:relative;flex:none;overflow:hidden;background:var(--soft);display:grid;place-items:center}
+.bild > img.f{width:100%;height:100%;object-fit:cover;object-position:50% 0}
+.bild .sil{position:absolute;left:14%;right:14%;bottom:0;height:80%;fill:rgba(255,255,255,.42)}
+.bild .nr{position:absolute;left:8%;top:4%;font-family:var(--f-display);font-weight:800;color:rgba(255,255,255,.9);line-height:1}
+.bild .wap{position:absolute;right:5%;bottom:5%;background:#fff;border-radius:50%;display:grid;place-items:center}
+
+/* News-Karte */
+.nk{display:flex;gap:12px;align-items:flex-start;width:100%;background:var(--card);border-radius:14px;padding:12px}
+.nk-b{flex:1;min-width:0;display:grid;gap:5px}
+.nk-top{display:flex;gap:5px;align-items:center;min-height:22px}
+.nk-top .tags{flex:1}
+.nk-r{display:flex;gap:2px;flex:none;align-self:flex-start}
+.nk h2{margin:0;font-size:16px;font-weight:600;line-height:1.3;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.nk .elf{margin:0;font-size:14.5px;font-weight:500;line-height:1.35;display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
+.nk .meta{font-size:12px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.neu{font-size:9px;font-weight:800;color:var(--s-sicher);border:1px solid var(--s-sicher);border-radius:3px;padding:0 3px;margin-left:4px;vertical-align:1px;white-space:nowrap}
+.elf .neu{border:0;padding:0;margin-left:3px}
+.raus{font-size:9px;font-weight:800;color:var(--inj);border:1px solid var(--inj);border-radius:3px;padding:0 3px;white-space:nowrap}
+
+/* Auf den Punkt */
+.pk{display:flex;gap:12px;width:100%;background:var(--card);border-radius:14px;padding:12px;border:1px solid transparent}
+.pk.fest{background:color-mix(in srgb,var(--accent) 12%,var(--card));border-color:var(--accent)}
+.pk-t{width:84px;height:84px;flex:none;border-radius:10px;background:var(--soft);color:#fff;display:grid;place-content:center;text-align:center;font-family:var(--f-display);font-weight:800;line-height:.9}
+.pk.fest .pk-t{background:var(--accent)}
+.pk-t b{font-size:36px}.pk-t span{font-size:14px}
+.pk-b{flex:1;display:flex;flex-direction:column;gap:6px;min-height:84px}
+.pk-b h2{margin:0;font-size:17px;font-weight:700;line-height:1.3}
+.pk-b .z{margin-top:auto;font-size:11px;font-weight:500;letter-spacing:.4px;text-transform:uppercase;color:var(--muted)}
+.pk.fest .pk-b .z{font-weight:700;color:var(--accent)}
+
+/* Top-Analyse im Ticker */
+.ana{width:100%;background:var(--card);border-radius:14px;overflow:hidden;display:block}
+.ana-k{padding:12px 14px;display:grid;gap:8px;color:#fff}
+.ana-k .z1{display:flex;justify-content:space-between;align-items:center;font-size:11.5px;color:rgba(255,255,255,.85)}
+.ana-k .tg{background:#fff;border-radius:3px;padding:3px 6px 2px;font-size:10.5px;font-weight:800}
+.ana-k .z2{display:flex;gap:10px;align-items:center}
+.ana-k h3{flex:1;margin:0;font-family:var(--f-display);font-weight:800;font-size:25px;line-height:1.02;color:#fff}
+.ana-b{padding:12px 14px 14px;display:grid;gap:12px}
+.kz{display:flex;gap:10px;align-items:baseline}
+.kz b{font-family:var(--f-display);font-weight:800;color:var(--hell);white-space:nowrap;line-height:1}
+.kz span{font-size:13px;color:var(--muted)}
+.dots{display:flex;flex-wrap:wrap;gap:5px}
+.dots i{width:11px;height:11px;border-radius:50%;background:var(--rot)}
+.dots i.t{background:var(--s-sicher)}
+.go{font-size:12px;font-weight:700;color:var(--s-sicher)}
+
+/* Artikel */
+.mk{display:flex;gap:12px;align-items:flex-start}
+.mk-m{flex:1;min-width:0;display:grid;gap:6px}
+.mk-m .wer{font-weight:600;font-size:17px}
+.mk-st{display:grid;justify-items:center;gap:3px;font-size:11px;color:var(--muted)}
+.dat{font-size:12px;color:var(--muted)}
+.src{display:grid;gap:6px;font-size:14px}
+.credit{font-size:11px;color:var(--muted)}
+.credit a{color:var(--muted)}
+.kartebox{background:var(--card);border-radius:14px;padding:12px;display:grid;gap:10px}
+.rasen{background:var(--rasen);border-radius:9px;padding:8px;display:grid;gap:7px}
+.pz{display:grid;grid-template-columns:30px minmax(0,1fr);gap:6px;align-items:start}
+.pz > i{font:normal 700 10px var(--f-mono);color:var(--muted);padding-top:6px}
+.chips{display:flex;flex-wrap:wrap;gap:5px}
+.chip{display:inline-flex;align-items:center;gap:4px;background:var(--card);border:1px solid var(--line);border-radius:7px;padding:4px 8px;font-size:14px;font-weight:500;line-height:1.2;max-width:100%}
+.chip.st{padding-left:4px}
+.chip.dim .cn{color:var(--muted)}
+.chip.sel{border:1.5px solid var(--accent)}
+.chip .cn{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.chip .gr{font-size:11px;color:var(--muted);white-space:nowrap}
+.chip .tz{font-size:10.5px;font-weight:700}
+.chip .aus{font-size:10.5px;font-weight:600;color:#FF9A9A;white-space:nowrap}
+.chip .ein{font-size:11px;font-weight:700;color:var(--gruen)}
+.chip .neu{margin-left:0}
+.leg{display:flex;flex-wrap:wrap;gap:6px 12px;font-size:12px;color:var(--muted);align-items:center}
+.leg > span{display:inline-flex;align-items:center;gap:5px}
+.leg i{display:inline-block;width:10px;height:10px;border-radius:2px}
+
+/* Punkt-Artikel */
+.psec{position:relative;background:var(--card);border-radius:12px;padding:12px 12px 12px 16px;display:grid;gap:10px;overflow:hidden}
+.psec::before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--pc)}
+.prow{display:flex;gap:10px;align-items:flex-start}
+.prow b{font-size:14.5px}.prow small{font-size:12px;color:var(--muted);margin-left:6px}
+.prow p{margin:2px 0 0;font-size:14.5px}
+
+/* Spielplan */
+.mdnav{display:grid;grid-template-columns:44px minmax(0,1fr) 44px;align-items:center;gap:4px;padding:0 0 4px}
+.mdnav .arr{width:44px;height:44px;display:grid;place-items:center;color:var(--accent)}
+.mdnav .arr svg{width:18px;height:18px;stroke:currentColor;fill:none;stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round}
+.mdnav .arr:disabled{opacity:.3;cursor:default}
+.mdlbl{display:grid;justify-items:center;gap:2px;text-align:center}
+.mdlbl .disp{font-size:22px}
+.mdlbl span{font-size:11px;color:var(--muted)}
+.mdlbl button{font-size:11px;font-weight:600;color:var(--accent);padding:6px 10px}
+.gruppe{margin:6px 2px 0}
+.offen{display:flex;gap:8px;align-items:flex-start;padding:10px;border-radius:10px;background:rgba(224,150,43,.1);border:1px solid rgba(224,150,43,.35);font-size:12px;color:rgba(244,245,247,.85)}
+.offen svg{width:14px;height:14px;flex:none;stroke:var(--frag);fill:none;stroke-width:2.4;margin-top:1px}
+.pr{display:grid;gap:8px;width:100%;background:var(--card);border-radius:12px;padding:12px 10px}
+.pr-z{display:grid;grid-template-columns:minmax(0,1fr) 64px minmax(0,1fr);align-items:center;gap:8px}
+.pr-t{display:flex;align-items:center;gap:8px;min-width:0;font-size:15px;font-weight:600;line-height:1.2}
+.pr-t.h{justify-content:flex-end;text-align:right}
+.pr-t span{overflow-wrap:anywhere}
+.mid{display:grid;justify-items:center;gap:2px;font-variant-numeric:tabular-nums}
+.mid .s{font-family:var(--f-display);font-weight:800;font-size:24px;line-height:1}
+.mid .k{font-family:var(--f-display);font-weight:800;font-size:20px;line-height:1}
+.mid small{font-size:10px;font-weight:600;color:var(--muted)}
+.mid.live .s,.mid.live small{color:var(--inj)}
+.belh{display:grid;gap:2px;color:var(--frag);font-size:12px}
+.belh .kap{color:var(--frag);font-family:var(--f-body);font-weight:600;font-size:10px;letter-spacing:0}
+.kopf{background:var(--card);border-radius:14px;padding:14px 12px 8px;display:grid;gap:10px}
+.kopf .info{text-align:center;font-size:11px;font-weight:500;color:var(--muted);text-transform:uppercase}
+.kopf .tz2{display:grid;grid-template-columns:minmax(0,1fr) 70px minmax(0,1fr);align-items:center;gap:8px}
+.kopf .tk{display:grid;justify-items:center;gap:6px;text-align:center;font-size:14.5px;font-weight:600;line-height:1.2}
+.kopf .mid .s{font-size:34px}.kopf .mid .k{font-size:24px}.kopf .mid small{font-size:10.5px}
+.tore{border-top:1px solid var(--line);padding-top:10px;display:grid;grid-template-columns:minmax(0,1fr) 18px minmax(0,1fr);gap:6px;font-size:12.5px}
+.tore .h{text-align:right}.tore div{display:grid;gap:3px;align-content:start}
+.tore b{font-weight:600}
+.tore .ball{margin-top:2px;justify-self:center}
+.tbtn{font-size:12px;font-weight:600;color:var(--s-sicher);padding:6px 0;text-align:center;width:100%}
+.tdet{display:grid;gap:8px;padding-bottom:6px}
+.tdet > div{display:grid;grid-template-columns:34px 18px minmax(0,1fr) auto;gap:8px;align-items:center;font-size:13.5px}
+.tdet .m{font-size:11.5px;color:var(--muted);text-align:right;font-variant-numeric:tabular-nums}
+.tdet .st{font-family:var(--f-display);font-weight:800;font-size:16px}
+.hk{display:flex;gap:8px;align-items:flex-start;font-size:12px;color:var(--muted);text-align:left}
+.tb-k{display:flex;align-items:center;gap:8px}
+.tb-k .n{flex:1;min-width:0;font-family:var(--f-display);font-weight:800;font-size:19px;text-transform:uppercase;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.tb-k .f{font-size:12px;font-weight:600;color:var(--muted)}
+.badge{font-size:10px;font-weight:700;padding:2px 6px;border-radius:4px;white-space:nowrap}
+.badge.off{background:#15803D;color:#fff}
+.badge.ein{border:1px solid var(--muted);color:var(--muted)}
+.zeile{font-size:12.5px;color:var(--muted)}
+.zeile b{font:600 10.5px var(--f-mono);margin-right:6px}
+.opbox{background:#2A2416;border:1px solid #5C4A1E;border-radius:10px;padding:10px;display:grid;gap:8px}
+.opbox .kh{display:flex;gap:6px;align-items:center}
+.opbox .kap{color:var(--gelb)}
+.opg{display:grid;grid-template-columns:auto minmax(0,1fr);gap:4px 6px;font-size:13.5px}
+.opg > i{font:normal 700 10px var(--f-mono);color:var(--muted);padding-top:3px}
+.opg b{font-weight:600}
+.begr{background:var(--bg);border-radius:10px;padding:10px;display:grid;gap:4px;font-size:13px}
+
+/* Inside */
+.iv{display:grid;gap:22px;padding-top:4px}
+.filt{display:grid;gap:8px}
+.filt-h{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.filt-h .l{font-size:11px;font-weight:800;color:var(--muted)}
+.filt-h .r{font-size:11px;color:var(--muted)}
+.filt-h button{font-size:12px;color:var(--accent);padding:8px 10px}
+.wps{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;padding:2px}
+.wps::-webkit-scrollbar{display:none}
+.wp{flex:none;width:42px;height:42px;border-radius:50%;background:var(--card);display:grid;place-items:center;border:2px solid transparent}
+.wp img{filter:grayscale(1);opacity:.55;transition:filter .15s,opacity .15s}
+.wp.an{background:color-mix(in srgb,var(--vc) 22%,var(--card));border-color:var(--vc)}
+.wp.an img{filter:none;opacity:1}
+.vz{display:grid;gap:8px;margin:2px 0 10px}
+.vz-k{display:flex;align-items:center;gap:8px;width:100%;min-height:40px;padding:6px 10px;border-radius:10px;background:var(--card);font-size:13px}
+.vz-k .l{font-size:10.5px;font-weight:800;color:var(--muted);letter-spacing:.3px;white-space:nowrap}
+.vz-k .w{flex:1;min-width:0;display:flex;gap:3px;align-items:center;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;font-weight:600}
+.vz-k .a{font-size:12px;font-weight:600;color:var(--accent);white-space:nowrap}
+.vz-o{display:grid;gap:8px;background:var(--card);border-radius:12px;padding:10px}
+.vz-o .filt-h .l{font-size:11px;font-weight:800;color:var(--muted)}
+.hinw{display:flex;justify-content:space-between;align-items:center;gap:8px;font-size:12px;color:var(--muted);padding:0 2px}
+.hinw button{color:var(--accent);font-weight:600;font-size:12px;padding:8px 0}
+.pr.mein{box-shadow:inset 3px 0 0 var(--vc)}
+.belh.klein{font-size:10.5px;color:var(--muted)}
+.belh.klein .kap{color:var(--muted)}
+.weitere{width:100%;display:flex;justify-content:space-between;align-items:center;padding:12px;border-radius:12px;background:var(--card);font-size:14px;font-weight:600}
+.weitere span{font-size:12px;color:var(--muted);font-weight:500}
+.phl{display:block;width:100%;text-align:left;font-size:14px;padding:12px;border-radius:12px;background:rgba(47,91,255,.1);border:1px solid var(--accent)}
+.phl b{color:var(--accent)}
+.hero{background:var(--card);border-radius:14px;padding:16px;display:grid;gap:12px}
+.hero .kick{font:600 11px var(--f-mono);text-transform:uppercase;color:var(--muted)}
+.hero .disp{font-size:30px}
+.hp{border-top:1px solid var(--line);padding:10px 0;display:grid;gap:4px;font-size:14px}
+.hp:last-child{padding-bottom:0}
+.hp .kh{display:flex;gap:6px;align-items:center}
+.hp .kh i{width:8px;height:8px;border-radius:50%;background:var(--pc)}
+.hp .kap{color:var(--pc)}
+.sek{display:grid;gap:12px;scroll-margin-top:110px}
+.sk{display:grid;gap:2px;border-top:1px solid var(--line);padding-top:18px}
+.sk .nr{font:700 10.5px var(--f-mono);letter-spacing:1px;color:var(--s-sicher);text-transform:uppercase}
+.sk .disp{font-size:26px}
+.sk p{margin:0;font-size:12px;color:var(--muted)}
+.ftabs{display:grid;grid-template-columns:repeat(3,1fr);gap:6px}
+.ftabs button{min-height:48px;border-radius:12px;background:var(--card);border:1px solid var(--line);display:grid;place-content:center;text-align:center;gap:1px}
+.ftabs button b{font-size:14px;font-weight:600}
+.ftabs button span{font-size:10.5px;color:var(--muted)}
+.ftabs button[aria-pressed="true"]{background:#24345A;border-color:var(--s-sicher)}
+.fnav{display:grid;grid-template-columns:44px 1fr 44px;align-items:center}
+.fnav .pf{width:44px;height:44px;border-radius:50%;background:var(--card);border:1px solid var(--line);display:grid;place-items:center;color:var(--s-sicher)}
+.fnav .pf:disabled{opacity:.3;cursor:default}
+.fnav .pf svg{width:16px;height:16px;stroke:currentColor;fill:none;stroke-width:2.8;stroke-linecap:round;stroke-linejoin:round}
+.fnav .mi{display:grid;justify-items:center;gap:5px;font-size:11px;color:var(--muted)}
+.fdots{display:flex;gap:6px}
+.fdots i{width:7px;height:7px;border-radius:50%;background:var(--line)}
+.fdots i.an{background:var(--s-sicher)}
+.rail{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;align-items:flex-start;overscroll-behavior-x:contain}
+.rail::-webkit-scrollbar{display:none}
+.fk{flex:0 0 100%;scroll-snap-align:start;background:var(--card);border-radius:14px;overflow:hidden}
+.fbadge{display:inline-block;font-size:11px;font-weight:700;color:var(--bg);background:var(--bc);border-radius:99px;padding:3px 8px;justify-self:start}
+.fgross{position:relative;aspect-ratio:1;background:var(--vc);overflow:hidden}
+.fgross > img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 0}
+.fgross .fbadge{position:absolute;left:12px;top:12px}
+.fgross .ov{position:absolute;left:0;right:0;bottom:0;padding:56px 14px 12px;background:linear-gradient(to top,rgba(5,10,20,.92),rgba(5,10,20,0));display:flex;align-items:flex-end;gap:8px;color:#fff}
+.fgross .ov > div{flex:1;min-width:0;display:grid;gap:2px}
+.fgross .ov .nm{font-family:var(--f-display);font-weight:800;font-size:30px;line-height:1;text-transform:uppercase;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.fgross .ov .vn{font-size:12px;font-weight:600;color:rgba(255,255,255,.85)}
+.fgross .ov .bg{display:flex;gap:8px;align-items:baseline;padding-top:4px}
+.fgross .ov .bg b{font-family:var(--f-display);font-weight:800;font-size:34px;line-height:1}
+.fgross .ov .bg span{font-size:13px;color:rgba(255,255,255,.85)}
+.fkomp{display:flex;gap:12px;padding:12px 12px 0}
+.fkomp .pic{width:132px;height:165px;flex:none;border-radius:10px;overflow:hidden;background:var(--vc);display:grid;place-items:center}
+.fkomp .pic img.f{width:100%;height:100%;object-fit:cover;object-position:50% 0}
+.fkomp .tx .fbadge{align-self:flex-start}
+.fkomp .tx{flex:1;min-width:0;display:flex;flex-direction:column;gap:4px;min-height:165px}
+.fkomp .nm{font-family:var(--f-display);font-weight:800;font-size:26px;line-height:1;text-transform:uppercase;padding-top:4px;overflow-wrap:anywhere}
+.fkomp .vn{display:flex;gap:6px;align-items:center;font-size:12.5px;font-weight:600;color:var(--muted)}
+.fkomp .big{margin-top:auto;font-family:var(--f-display);font-weight:800;font-size:40px;line-height:1}
+.fkomp .bt{font-size:12.5px;color:var(--muted)}
+.finh{padding:12px;display:grid;gap:12px}
+.finh > p{margin:0;font-size:16px}
+.mb{display:grid;gap:2px}
+.mb .bars{display:flex;gap:3px;align-items:flex-end;height:48px}
+.mb .bars > div{flex:1;display:flex;flex-direction:column;align-items:center;gap:2px}
+.mb .bars .d{width:5px;height:5px;border-radius:50%}
+.mb .bars .d.t{background:var(--pokal)}
+.mb .bars .b{width:100%;border-radius:2px}
+.mb .ax{display:flex;justify-content:space-between;font-size:9px;color:var(--muted)}
+.geg{display:flex;gap:8px;align-items:center}
+.geg > div{flex:1;min-width:0;display:grid;gap:1px}
+.geg .a{font-size:13px}.geg .a b{font-weight:600}
+.geg small{font-size:11px;color:var(--muted)}
+.cap{font-size:11px;font-weight:700;color:var(--bg);border-radius:99px;padding:2px 9px;white-space:nowrap}
+.sw{background:var(--card);border-radius:12px;padding:12px;display:grid;gap:8px}
+.sw .k{display:flex;align-items:center;gap:8px}
+.sw .k b{flex:1;font-size:17px;font-weight:600}
+.sw .art{font-size:12px;font-weight:700;padding:2px 8px;border-radius:99px;background:var(--soft)}
+.sw .art.el{background:var(--gelb);color:var(--bg)}
+.sw .fl{display:flex;gap:8px;align-items:center;font-size:14px;flex-wrap:wrap}
+.sw .fl s{color:var(--muted)}
+.sw .fl svg{width:16px;height:16px;stroke:var(--accent);fill:none;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
+.sw p{margin:0;font-size:14px}
+.sw .chk{display:flex;gap:6px;font-size:12px;color:var(--muted)}
+.sw .chk svg{width:13px;height:13px;flex:none;stroke:var(--muted);fill:none;stroke-width:2.6;margin-top:2px}
+.std-l{display:flex;flex-wrap:wrap;gap:4px 14px;font-size:11.5px;align-items:center}
+.std-l .g1{display:inline-flex;align-items:center;gap:5px;font-weight:700}
+.std-l .g2{color:rgba(244,245,247,.85)}
+.std-l .g3{font-style:italic;color:#7F8BA0}
+.gp{width:6px;height:6px;border-radius:50%;background:var(--gruen);display:inline-block;flex:none}
+.stab{background:var(--card);border-radius:12px;padding:0 10px}
+.stab .r{display:grid;grid-template-columns:40px repeat(3,minmax(0,1fr));gap:6px;padding:10px 0;border-top:1px solid var(--line);font-size:13px}
+.stab .r.h{border-top:0;padding:8px 0;font:700 10px var(--f-mono);color:var(--muted)}
+.stab .wk{display:grid;justify-items:center;gap:2px;font:700 9.5px var(--f-mono);color:var(--muted)}
+.stab .c{display:grid;gap:3px;align-content:start;min-width:0}
+.stab .c > span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;padding-left:10px}
+.stab .s3{display:flex!important;align-items:center;gap:4px;font-weight:700;padding-left:0!important}
+.stab .s2{font-weight:500;color:rgba(244,245,247,.88)}
+.stab .s1{font-style:italic;color:#7F8BA0}
+.stab .s0{color:#5C6880}
+.stab .hw{grid-column:2 / -1;display:flex;gap:6px;font-size:11.5px;color:var(--gelb);margin-top:-4px;padding-bottom:10px}
+.ig{background:var(--card);border-radius:12px;padding:12px;display:grid;gap:8px}
+.ig .vs{display:grid;grid-template-columns:minmax(0,1fr) 24px 70px 24px minmax(0,1fr);gap:6px;align-items:center;font-size:14px;font-weight:600}
+.ig .vs .h{text-align:right}
+.ig .vs .d{display:grid;justify-items:center;font-size:11px}
+.ig .vs .d small{font-weight:400;color:var(--muted)}
+.fakt{display:flex;gap:6px;align-items:flex-start;font-size:14px}
+.fakt i{width:5px;height:5px;border-radius:50%;background:var(--accent);flex:none;margin-top:7px}
+.kal{display:grid;gap:4px}
+.kal .row{display:grid;gap:2px;align-items:center}
+.kal .kd{font-size:9px;font-weight:600;color:var(--muted);white-space:nowrap;height:16px;display:flex;align-items:flex-end;overflow:visible}
+.kal .vn{display:grid;gap:0;min-width:0}
+.kal .vn > span{display:flex;gap:4px;align-items:center;font-size:12px;font-weight:600;white-space:nowrap;overflow:hidden}
+.kal .vn small{font-size:9px;color:var(--muted);white-space:nowrap}
+.kal .z{height:24px;border-radius:3px;display:grid;place-items:center;font-size:9px;font-weight:700;color:#fff;border:2px solid transparent;padding:0}
+.kal .z.leer{background:color-mix(in srgb,var(--soft) 50%,transparent)}
+.kal .z.we{background:var(--soft)}
+.info{font-size:12px;color:var(--muted)}
+.info.an{color:var(--ink)}
+.akopf{background:var(--card);border-radius:14px;padding:16px;display:grid;gap:12px}
+.akopf .disp{font-size:30px}
+.akopf > .tag{justify-self:start}
+.akopf .st{display:grid;grid-template-columns:100px minmax(0,1fr);gap:10px;align-items:baseline;border-top:1px solid var(--line);padding:10px 0}
+.akopf .st:last-child{padding-bottom:0}
+.akopf .st b{font-family:var(--f-display);font-weight:800;font-size:24px;color:var(--hell);line-height:1;white-space:nowrap}
+.akopf .st span{font-size:13.5px}
+.mxw{overflow-x:auto;scrollbar-width:thin}
+.mx{display:grid;gap:3px;align-items:center;width:max-content}
+.mx .nm{position:sticky;left:0;z-index:1;background:var(--bg);font-size:12px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;height:24px;line-height:24px;padding-right:3px}
+.mx .hc{display:grid;justify-items:center;height:26px;align-content:center;font-size:10px;font-weight:700;line-height:1.1;position:relative}
+.mx .hc small{font-size:8.5px;font-weight:600;color:var(--muted)}
+.mx .hc.cl::before{content:"";position:absolute;left:-2px;top:0;bottom:0;width:2px;background:var(--euro)}
+.mx .c{position:relative;height:24px;border-radius:4px;display:grid;place-items:center;font-size:10px;font-weight:600;font-variant-numeric:tabular-nums;padding:0}
+.mx .c.S{background:var(--accent);color:#fff}
+.mx .c.E{box-shadow:inset 0 0 0 1.5px var(--accent)}
+.mx .c.V{background:rgba(226,74,74,.22)}
+.mx .c.V svg{width:11px;height:11px;stroke:var(--inj);stroke-width:3;fill:none;stroke-linecap:round}
+.mx .c.N{background:color-mix(in srgb,var(--soft) 60%,transparent);color:var(--muted)}
+.mx .c .t{position:absolute;right:2px;top:2px;width:7px;height:7px;border-radius:50%;background:var(--pokal)}
+.mx .c .r{position:absolute;right:2px;top:2px;width:5px;height:7px;background:var(--inj)}
+.mx .c[aria-pressed="true"]{outline:2px solid var(--ink);outline-offset:1px}
+.einsch{background:rgba(20,184,166,.12);border-radius:10px;padding:12px;display:grid;gap:6px;font-size:14px}
+.einsch .kap{color:var(--opin)}
+.einsch p{margin:0}
+.dbasis{font-size:11px;color:var(--muted);margin:0}
+
+/* Info-Seiten */
+.doc{display:grid;gap:12px;font-size:14.5px;line-height:1.5}
+.doc h1{font-family:var(--f-display);font-weight:800;font-size:30px;line-height:1;margin:0}
+.doc h2{font-size:17px;font-weight:600;margin:8px 0 0}
+.doc p,.doc ul{margin:0}
+.doc ul{padding-left:18px;display:grid;gap:4px}
+.doc address{font-style:normal}
+.doc .back{font-size:15px}
+.bn{display:grid;gap:2px;font-size:14px}
+.bn b{font-weight:600}.bn small{font-size:12px}
+.pv{display:grid;gap:6px}
+.pv .h{display:flex;justify-content:space-between;align-items:baseline;font-weight:600;font-size:17px}
+.pv .h small{font-size:12px;font-weight:400;color:var(--muted)}
+.pv .t{color:var(--accent)}
+.pv ul{margin:0;padding-left:18px;display:grid;gap:3px;font-size:14px}
+
+/* Fußleiste wie in der App */
+.legal{max-width:720px;margin:0 auto;padding:12px 12px max(24px,env(safe-area-inset-bottom,0px));display:grid;gap:8px;justify-items:center;text-align:center}
+.legal nav{display:flex;flex-wrap:wrap;justify-content:center;gap:0 14px}
+.legal nav button{font-size:11px;color:var(--muted);text-decoration:underline;text-underline-offset:2px;padding:12px 0}
+.legal small{font-size:10px;color:rgba(169,180,198,.8);max-width:46ch}
+@media (max-width:380px){.pr-t{font-size:14px}.pr-z{grid-template-columns:minmax(0,1fr) 58px minmax(0,1fr)}.fkomp .pic{width:112px;height:140px}.fkomp .tx .fbadge{align-self:flex-start}
+.fkomp .tx{min-height:140px}}
+@media (prefers-reduced-motion:reduce){.rail{scroll-behavior:auto}}
+</style>
+
+<header class="bar"><div class="bar-in">
+  <div class="logo" aria-label="WOSOINSIDER"><b>WOSO</b><i>INSIDER</i></div>
+  <div class="seg" role="tablist"><button id="tab-meldungen" role="tab" aria-selected="true" data-tab="meldungen">News</button><button id="tab-spielplan" role="tab" aria-selected="false" data-tab="spielplan">Spielplan</button><button id="tab-inside" role="tab" aria-selected="false" data-tab="inside">Inside</button></div>
+</div></header>
+
+<main id="main"><p class="leer">Meldungen werden geladen …</p></main>
+<footer class="legal"><nav aria-label="Rechtliches"><button data-legal="impressum">Impressum</button><button data-legal="datenschutz">Datenschutz</button><button data-legal="kontakt">Kontakt</button><button data-legal="so-entsteht">KI-Hinweis &amp; Methodik</button><button data-legal="bildnachweise">Bildnachweise</button><button data-legal="patches">Patches</button></nav>
+<small>WOSOINSIDER ist ein unabhängiges Angebot und nicht mit Kickbase, dem DFB oder den Vereinen verbunden. Meldungen werden mit KI erstellt.</small></footer>
+
+<script>
+(function(){
+  // ---------------- Grundlagen (wie Config.swift und Theme.swift der App)
+  const KURZ = {"FC Bayern":"FCB","VfL Wolfsburg":"WOB","Eintracht Frankfurt":"SGE","Bayer Leverkusen":"B04","1. FC Köln":"KOE","RB Leipzig":"RBL",
+    "Werder Bremen":"SVW","SC Freiburg":"SCF","Union Berlin":"FCU","VfB Stuttgart":"VFB","TSG Hoffenheim":"TSG","Hamburger SV":"HSV","1. FC Nürnberg":"FCN","Mainz 05":"M05"};
+  const KNAME = {FCB:"FC Bayern",WOB:"Wolfsburg",SGE:"Frankfurt",B04:"Leverkusen",KOE:"Köln",RBL:"Leipzig",SVW:"Werder",SCF:"Freiburg",FCU:"Union",VFB:"Stuttgart",TSG:"Hoffenheim",HSV:"HSV",FCN:"Nürnberg",M05:"Mainz"};
+  const KFARBE = {FCB:"#DC052D",WOB:"#65B32E",SGE:"#1A1A1A",B04:"#E32221",KOE:"#ED1C24",RBL:"#DD0741",SVW:"#1D9053",SCF:"#111111",FCU:"#D4011D",VFB:"#E32219",TSG:"#1961B5",HSV:"#0A3F86",FCN:"#AD1732",M05:"#C3141E"};
+  const ALLE = ["FCB","WOB","SGE","B04","KOE","RBL","SVW","SCF","FCU","VFB","TSG","HSV","FCN","M05"];
+  const POS = ["TW","ABW","DM","MF","OM","ST"];
+  const $ = s => document.querySelector(s);
+  const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+  const fett = s => esc(s).replace(/&lt;b&gt;/g, "<b>").replace(/&lt;\/b&gt;/g, "</b>");
+  const svg = (d, cls) => `<svg viewBox="0 0 24 24" aria-hidden="true"${cls ? ` class="${cls}"` : ""}>${d}</svg>`;
+  const P = {
+    stern:'<path d="M12 3.5l2.6 5.3 5.8.8-4.2 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8-4.2-4.1 5.8-.8z"/>', haken:'<path d="M5 12.5l4.5 4.5L19 7.5"/>',
+    frage:'<path d="M9 9a3 3 0 115.6 1.3c-.8 1.3-2.6 1.8-2.6 3.7M12 18.5v.1"/>', ausruf:'<path d="M12 5v9M12 18.5v.1"/>', x:'<path d="M7 7l10 10M17 7L7 17"/>',
+    plus:'<path d="M12 5v14M5 12h14"/>', verbot:'<circle cx="12" cy="12" r="8"/><path d="M6.5 17.5l11-11"/>', zurueck:'<path d="M9 14L4 9l5-5"/><path d="M4 9h10a6 6 0 010 12h-3"/>',
+    links:'<path d="M15 5l-7 7 7 7"/>', rechts:'<path d="M9 5l7 7-7 7"/>', pfeil:'<path d="M4 12h15M13 6l6 6-6 6"/>', uhr:'<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>',
+    warn:'<path d="M12 3l10 18H2z"/><path d="M12 10v5M12 18v.1"/>'
+  };
+  const BALL = '<svg class="ball" viewBox="0 0 24 24" aria-label="Tor"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 7.6l3.6 2.6-1.4 4.2H9.8L8.4 10.2z" fill="currentColor"/></svg>';
+  const SIL = '<svg class="sil" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="30" r="22"/><path d="M4 100c0-26 20-44 46-44s46 18 46 44z"/></svg>';
+  const logo = (k, g) => k ? `<img class="lg" src="logos/${esc(k)}.png" alt="" style="width:${g}px;height:${g}px" onerror="this.style.visibility='hidden'">` : `<span style="width:${g}px;height:${g}px;display:inline-block"></span>`;
+  const kname = k => KNAME[k] || k || "";
+  // Ringfarbe: Vereinsfarbe, bei sehr dunklen Farben (Frankfurt, Freiburg) hell, damit sie auf dem dunklen Grund sichtbar bleibt
+  const ring = k => { const c = KFARBE[k] || "#2F5BFF", n = parseInt(c.slice(1), 16), l = (0.299 * (n >> 16) + 0.587 * (n >> 8 & 255) + 0.114 * (n & 255));
+    return l < 60 ? "#F4F5F7" : c; };
+
+  const TAGF = {TOP:["#2F5BFF","#fff"], VERLETZUNG:["#E24A4A","#fff"], SPERRE:["#9B6BE8","#fff"], "RÜCKKEHR":["#2EB872","#fff"],
+    INSIDER:["#F4F5F7","#0E1726"], ANALYSE:["#F4F5F7","#0E1726"], UPDATE:["#F4F5F7","#0E1726"], PUNKT:["#2F5BFF","#fff"], "AUF DEN PUNKT":["#2F5BFF","#fff"],
+    STANDARD:["rgba(224,150,43,.2)","#E0962B"], ROTATION:["rgba(155,107,232,.2)","#9B6BE8"], TRANSFER:["rgba(155,107,232,.2)","#9B6BE8"],
+    SPIELBERICHT:["#1D2B47","#F4F5F7"], AUFSTELLUNG:["rgba(47,91,255,.18)","#6E9BFF"]};
+  const tag = t => { const f = TAGF[String(t).toUpperCase()] || ["#1D2B47","#F4F5F7"]; return `<span class="tag" style="background:${f[0]};color:${f[1]}">${esc(t)}</span>`; };
+  const kap = (t, farbe) => `<div class="kap"${farbe ? ` style="color:${farbe}"` : ""}>${esc(t)}</div>`;
+  const kbBox = t => t ? `<div class="kb"><b>Für Kickbase</b><span>${esc(t)}</span></div>` : "";
+  const kiHinweis = (t = "Automatisiert mit KI aus den genannten Quellen erstellt.") => `<p class="ki">${esc(t)} <button data-legal="so-entsteht">So entsteht WOSOINSIDER</button></p>`;
+
+  const STUFE = {sicher:["stern","#6E9BFF","Sicher"], erwartet:["haken","#22C55E","Erwartet"], unsicher:["frage","#F59E0B","Unsicher"],
+    unwahrscheinlich:["ausruf","#F87171","Unwahrscheinlich"], ausgeschlossen:["x","#8A95A8","Ausgeschlossen"]};
+  const stufeSym = (st, g = 16) => STUFE[st] ? `<span class="sym ${st}" style="width:${g}px;height:${g}px;background:${STUFE[st][1]}" title="${STUFE[st][2]}" role="img" aria-label="${STUFE[st][2]}">${svg(P[STUFE[st][0]])}</span>` : "";
+  const karte = rot => `<span class="krt" style="background:${rot ? "#E24A4A" : "#F5C518"}" role="img" aria-label="${rot ? "Rote Karte" : "Gelbe Karte"}"></span>`;
+
+  // Status: nur was sich geändert hat (kein Symbol für fit)
+  const STATUS = {rueckkehr:["zurueck","#22A35A","zurück"], fraglich:["frage","#E0962B","fraglich"], verletzt:["plus","#E24A4A","verletzt"], gesperrt:["verbot","#9B6BE8","gesperrt"]};
+  function meldungsStatus(m){
+    if (m.status) return m.status;
+    const t = m.tags || [];
+    return t.includes("SPERRE") ? "gesperrt" : t.includes("VERLETZUNG") ? "verletzt" : t.includes("RÜCKKEHR") ? "rueckkehr" : null;
+  }
+  const plakette = (s, g = 22) => { const x = STATUS[String(s || "").toLowerCase()]; return x ? `<span class="plak" style="width:${g}px;height:${g}px;background:${x[1]}" role="img" aria-label="${x[2]}">${svg(P[x[0]])}</span>` : ""; };
+
+  // ---------------- Datum (Europe/Berlin wie in den Daten)
+  const WT = ["So","Mo","Di","Mi","Do","Fr","Sa"], WTL = ["Sonntag","Montag","Dienstag","Mittwoch","Donnerstag","Freitag","Samstag"];
+  const p2 = n => String(n).padStart(2, "0");
+  const hatZeit = z => String(z || "").length > 10;
+  const dt = z => z ? new Date(hatZeit(z) ? z : z + "T00:00") : null;
+  const kurz = d => `${p2(d.getDate())}.${p2(d.getMonth() + 1)}.`;
+  const uhr = d => `${p2(d.getHours())}:${p2(d.getMinutes())}`;
+  const wtLang = z => { const d = dt(z); return d ? `${WTL[d.getDay()]}, ${kurz(d)}` : ""; };
+  const tagDatum = z => { const d = dt(z); return d ? `${WT[d.getDay()]} ${kurz(d)}` : ""; };
+  const lang = z => { const d = dt(z); return d ? `${kurz(d)}${d.getFullYear()}${hatZeit(z) ? `, ${uhr(d)} Uhr` : ""}` : ""; };
+  const relativ = z => { const d = dt(z); if (!d) return ""; const s = (Date.now() - d) / 1000;
+    if (s < 60) return "gerade eben"; if (s < 3600) return `vor ${Math.floor(s / 60)} Min.`; if (s < 86400) return `vor ${Math.floor(s / 3600)} Std.`;
+    const t = Math.floor(s / 86400); return t === 1 ? "gestern" : `vor ${t} Tagen`; };
+  const terminiert = p => hatZeit(p.anstoss) && !String(p.anstoss).endsWith("T00:00");
+  const wochenende = z => { const d = dt(z); if (!d) return ""; const fr = new Date(d.getTime() - 2 * 864e5); return `${p2(fr.getDate())}. bis ${kurz(d)}`; };
+  const zahlDE = n => Number(n).toLocaleString("de-DE");
+
+  // ---------------- Zustand
+  let N = [], SP = null, IN = null, FOTOS = {}, PATCH = null;
+  let VIEW = "meldungen", MD = null, GAME = null, TIMER = null, SCROLL = 0, BACK = null;
+  let TOREOFFEN = false, CHIPSEL = {heim:null, gast:null};
+  let FDIR = "up", FIDX = 0, IMD = null, ALLCAL = false, KALINFO = null, MXINFO = null;
+  let SEL = new Set(), VZOFFEN = false, NEWSALLE = false, WEITERE = false, STDALLE = false;
+  try { SEL = new Set(JSON.parse(localStorage.getItem("woso-vereine") || "[]")); } catch(e) {}
+  const saveSel = () => { try { localStorage.setItem("woso-vereine", JSON.stringify([...SEL])); } catch(e) {} };
+  const zeigen = (...ks) => !SEL.size || ks.some(k => k && SEL.has(k));
+  const setHash = h => { try { history.replaceState(null, "", h ? "#" + h : location.pathname + location.search); } catch(e) {} };
+
+  // ---------------- Bilder
+  const istSpielerin = m => POS.includes(m.pos || "");
+  const bildPfad = m => { const f = FOTOS[m.spielerin] || {}; return f.portrait || m.foto || f.datei || null; };
+  // Bildnachweis: Vereinsfreigabe (z. B. Portraits des HSV) ohne Lizenzlink, sonst Urheber und Lizenz
+  const freigabe = f => !f.lizenz_url && !String(f.lizenz || "").startsWith("CC");
+  const nachweis = f => !f || !f.autor ? "" : freigabe(f) ? `Foto: ${esc(f.autor)}` : `Foto: ${esc(f.autor)}${f.lizenz ? `, ${esc(f.lizenz)}` : ""}`;
+  const quelleURL = f => f && /^https?:/.test(f.quelle || "") ? f.quelle : null;
+  function bild(m, g){
+    const r = g > 70 ? 11 : 8, k = KURZ[m.verein], f = bildPfad(m);
+    const box = (inner, bg) => `<div class="bild" style="width:${g}px;height:${g}px;border-radius:${r}px;${bg ? `background:${bg}` : ""}" aria-hidden="true">${inner}</div>`;
+    // Vereinsfarbe als Grund, damit bei transparenten Portraits nicht die Karte durchschimmert
+    if (f) return box(`<img class="f" src="${esc(f)}" alt="" loading="lazy" onerror="this.remove()">`, KFARBE[k] || "var(--soft)");
+    if (istSpielerin(m)) {
+      const w = Math.round(g * .25);
+      return box(SIL + (m.nr ? `<span class="nr" style="font-size:${Math.round(g * .21)}px">${esc(m.nr)}</span>` : "")
+        + `<span class="wap" style="width:${w + 6}px;height:${w + 6}px">${logo(k, w)}</span>`,
+        `linear-gradient(rgba(0,0,0,.18),rgba(0,0,0,.18)),${KFARBE[k] || "var(--soft)"}`);
+    }
+    return box(logo(k, Math.round(g * .66)));
+  }
+
+  // ---------------- News
+  function startelfZeile(elf){
+    const sonst = [...new Set(elf.map(x => x.p).filter(p => p && !POS.includes(p)))].sort();
+    return POS.concat(sonst).map(p => elf.filter(x => (x.p || "") === p)
+      .map(x => esc(x.n) + (x.f === "neu" ? '<span class="neu">NEU</span>' : "")).join(", ")).filter(Boolean).join('<span class="mu"> - </span>');
+  }
+  function metaZeile(m, auf){
+    const zeit = relativ(m.zeit);
+    if (auf) return zeit;
+    const verein = m.verein ? (KNAME[KURZ[m.verein]] || m.verein) : null;
+    if (!istSpielerin(m) && String(m.pos || "").startsWith("Trainer") && m.spielerin)
+      return `${zeit} · ${[verein, `${m.pos} ${m.spielerin}`].filter(Boolean).join(", ")}`;
+    const wer = [m.spielerin, verein].filter(x => x && x !== "Spielansetzung").join(", ");
+    return wer ? `${zeit} · ${wer}` : zeit;
+  }
+  function newsKarte(m){
+    const a = m.aufstellung, auf = a && (a.startelf || []).length;
+    const rechts = auf ? `<span class="nk-r" role="img" aria-label="${esc(m.verein)} gegen ${esc(a.gegner)}">${logo(KURZ[m.verein], 20)}${logo(KURZ[a.gegner], 20)}</span>` : plakette(meldungsStatus(m));
+    return `<button class="nk" data-id="${esc(m.id)}">${bild(m, 72)}<div class="nk-b">
+      <div class="nk-top"><div class="tags">${(m.tags || []).map(tag).join("")}${auf ? tag("AUFSTELLUNG") : ""}</div>${rechts}</div>
+      ${auf ? `<p class="elf">${startelfZeile(a.startelf)}</p>` : `<h2>${esc(m.headline)}</h2>`}
+      <div class="meta">${esc(metaZeile(m, auf))}</div></div></button>`;
+  }
+  const angeheftet = m => m.typ === "punkt" && m.pin_bis && dt(m.pin_bis) > Date.now();
+  function punktKarte(m){
+    const fest = angeheftet(m), md = m.md != null ? String(m.md) : "";
+    return `<button class="pk${fest ? " fest" : ""}" data-id="${esc(m.id)}"><div class="pk-t" aria-hidden="true">${md ? `<b>${esc(md)}</b><span>SP.</span>` : "<b>·</b>"}</div>
+      <div class="pk-b">${tag("AUF DEN PUNKT")}<h2>${esc(m.headline)}</h2><div class="z">${fest ? "Angeheftet bis zum Anpfiff" : esc(relativ(m.zeit))}</div></div></button>`;
+  }
+  function anteil(s){ const t = String(s).split(" von "); if (t.length !== 2) return null; const a = parseInt(t[0], 10), b = parseInt(t[1], 10);
+    return (Number.isInteger(a) && Number.isInteger(b) && b > 0 && b <= 40 && a <= b) ? [a, b] : null; }
+  function anaTeaser(A){
+    const farbe = KFARBE[A.verein] || "#2F5BFF", st = A.stats || [];
+    let unten = "";
+    if (st[0]) unten += `<div class="kz"><b style="font-size:28px">${esc(st[0][0])}</b><span>${esc(st[0][1] || "")}</span></div>`;
+    if (st[1]) { const t = anteil(st[1][0]);
+      unten += t ? `<div style="display:grid;gap:6px"><div class="dots" aria-hidden="true">${Array.from({length: t[1]}, (_, i) => `<i class="${i < t[0] ? "t" : ""}"></i>`).join("")}</div>
+        <div class="kz" style="display:block"><b style="font-family:var(--f-body);font-size:13px">${esc(st[1][0])}</b> <span>${esc(st[1][1] || "")}</span></div></div>`
+        : `<div class="kz"><b style="font-size:26px;min-width:84px">${esc(st[1][0])}</b><span>${esc(st[1][1] || "")}</span></div>`; }
+    return `<button class="ana" data-ana="1"><div class="ana-k" style="background:linear-gradient(rgba(0,0,0,.18),rgba(0,0,0,.18)),${farbe}">
+      <div class="z1"><span class="tg" style="color:${farbe}">TOP-ANALYSE</span><span>${esc(relativ(A.news_zeit))}</span></div>
+      <div class="z2"><h3>${esc(A.titel)}</h3>${A.verein ? logo(A.verein, 44) : ""}</div></div>
+      <div class="ana-b">${unten}<span class="go">Analyse lesen ›</span></div></button>`;
+  }
+  // Meldung gehört zu meinen Vereinen: eigener Verein, Gegner bei Aufstellungen, Liga-Meldungen (ohne Verein oder Spielansetzung) immer
+  function meineMeldung(m){
+    if (m.typ === "punkt") return true;
+    const k = KURZ[m.verein];
+    // Aufstellungen tragen pos "Spielansetzung", deshalb zuerst prüfen: zeigen, wenn einer der beiden Vereine gewählt ist
+    if (m.aufstellung) return SEL.has(k) || SEL.has(KURZ[m.aufstellung.gegner]);
+    if (!k || m.pos === "Spielansetzung") return true;
+    return SEL.has(k);
+  }
+  function list(){
+    GAME = null;
+    const now = Date.now();
+    const fest = N.filter(angeheftet).sort((a, b) => dt(a.pin_bis) - dt(b.pin_bis));
+    const alle = N.filter(m => !fest.includes(m)).sort((a, b) => (dt(b.zeit) || 0) - (dt(a.zeit) || 0));
+    const filter = SEL.size && !NEWSALLE;
+    const rest = filter ? alle.filter(meineMeldung) : alle;
+    let A = IN && IN.analyse && IN.analyse.news_zeit && dt(IN.analyse.news_zeit) <= now ? IN.analyse : null;
+    if (!fest.length && !alle.length){ $("#main").innerHTML = vereinsZeile() + '<p class="leer">Noch keine Meldungen.</p>'; return; }
+    let h = fest.map(punktKarte).join("");
+    if (SEL.size) h += NEWSALLE
+      ? `<div class="hinw"><span>Alle Meldungen</span><button data-newsalle="0">Nur meine Vereine</button></div>`
+      : !rest.length ? `<div class="leer" style="padding:28px 4px;display:grid;gap:10px;justify-items:center"><span>Keine Meldungen deiner Vereine in den letzten 14 Tagen.</span><button class="lk" data-newsalle="1">Alle zeigen</button></div>`
+      : "";
+    rest.forEach(m => { if (A && dt(A.news_zeit) >= (dt(m.zeit) || 0)) { h += anaTeaser(A); A = null; } h += m.typ === "punkt" ? punktKarte(m) : newsKarte(m); });
+    if (A) h += anaTeaser(A);
+    if (filter && rest.length) h += `<div class="hinw"><span>${alle.length - rest.length} weitere Meldungen anderer Vereine</span><button data-newsalle="1">Alle zeigen</button></div>`;
+    $("#main").innerHTML = vereinsZeile() + `<div class="liste">${h}</div>`;
+  }
+
+  // ---------------- Artikel
+  const zurueck = (t = "‹ Zurück") => `<button class="back" data-zu="1">${t}</button>`;
+  function sortiert(l){ const r = {TW:0,ABW:1,DM:2,MF:3,OM:4,ST:5}; return l.map((x, i) => [x, i]).sort((a, b) => ((r[a[0].p] ?? 9) - (r[b[0].p] ?? 9)) || a[1] - b[1]).map(x => x[0]); }
+  function chip(o){
+    let h = (o.stufe ? stufeSym(o.stufe) : "") + (o.ein ? '<span class="ein" aria-label="eingewechselt">↑</span>' : "") + `<span class="cn">${esc(o.n)}</span>`;
+    if (o.tore > 0) h += BALL + (o.tore > 1 ? `<b class="tz">${o.tore}</b>` : "");
+    if (o.gelb && !o.rot) h += karte(false);
+    if (o.rot) h += karte(true);
+    if (o.aus) h += `<span class="aus" aria-label="ausgewechselt in Minute ${esc(o.aus)}">↓${esc(o.aus)}'</span>`;
+    if (o.grund) h += `<span class="gr">${esc(o.grund)}</span>`;
+    if (o.info) h += `<span class="gr">(${esc(o.info)})</span>`;
+    if (o.mark === "neu") h += '<span class="neu">NEU</span>'; else if (o.mark === "raus") h += '<span class="raus">RAUS</span>';
+    const cls = `chip${o.stufe ? " st" : ""}${o.dim ? " dim" : ""}${o.sel ? " sel" : ""}`;
+    return o.btn ? `<button class="${cls}" data-chip="${esc(o.btn)}" title="${esc(o.title || "")}">${h}</button>` : `<span class="${cls}">${h}</span>`;
+  }
+  function posZeilen(l, f){
+    const sonst = [...new Set(l.map(x => x.p || "").filter(p => !POS.includes(p)))];
+    return `<div class="rasen">${POS.concat(sonst).map(p => { const xs = l.filter(x => (x.p || "") === p);
+      return xs.length ? `<div class="pz"><i>${esc(p)}</i><div class="chips">${xs.map(f).join("")}</div></div>` : ""; }).join("")}</div>`;
+  }
+  function aufBlock(a){
+    return `<div class="kartebox">${kap("Startelf")}${posZeilen(a.startelf || [], s => chip({n: s.n, info: s.i, mark: s.f}))}
+      ${(a.bank || []).length ? kap("Bank") + `<div class="chips">${sortiert(a.bank).map(s => chip({n: s.n, info: s.i, mark: s.f})).join("")}</div>` : ""}
+      ${(a.fehlt || []).length ? kap("Nicht im Kader") + `<div class="chips">${sortiert(a.fehlt).map(s => chip({n: s.n, info: s.i, mark: s.f, dim: true})).join("")}</div>` : ""}
+      <div class="leg"><span><b class="neu" style="margin:0;border:0;padding:0">NEU</b> und <b class="raus" style="border:0;padding:0">RAUS</b> im Vergleich zum letzten Spiel</span></div></div>`;
+  }
+  function article(id){
+    const m = N.find(x => x.id === id); if (!m) return list();
+    if (m.typ === "punkt") { $("#main").innerHTML = `<div class="det">${zurueck()}${punktArtikel(m)}</div>`; window.scrollTo(0, 0); return; }
+    const a = m.aufstellung, auf = a && (a.startelf || []).length;
+    const st = STATUS[String(meldungsStatus(m) || "").toLowerCase()];
+    const kopf = auf
+      ? `<div style="display:grid;gap:8px"><div class="tags">${(m.tags || []).map(tag).join("")}${tag("AUFSTELLUNG")}</div>
+          <div style="display:flex;gap:8px;align-items:center">${logo(KURZ[m.verein], 30)}<h1 class="disp" style="font-size:26px">${esc(m.headline)}</h1></div>
+          <div class="dat">${esc(lang(m.zeit))}</div></div>${aufBlock(a)}`
+      : `<div style="display:grid;gap:12px"><div class="mk">${bild(m, 96)}<div class="mk-m"><div class="tags">${(m.tags || []).map(tag).join("")}</div>
+          <div class="wer">${esc(m.spielerin)}</div><div class="dat" style="font-size:14px">${esc([m.verein, m.pos].filter(Boolean).join(" · "))}</div></div>
+          ${st ? `<div class="mk-st">${plakette(meldungsStatus(m), 28)}<span>${st[2]}</span></div>` : ""}</div>
+          <h1 class="disp" style="font-size:30px">${esc(m.headline)}</h1><div class="dat">${esc(lang(m.zeit))}</div></div>
+          <div class="body">${(m.text || []).map(p => `<p>${esc(p)}</p>`).join("")}</div>`;
+    // Nachweis zum gezeigten Foto: Eintrag aus fotos.json hat Vorrang, sonst der Nachweis aus der Meldung
+    const fi = FOTOS[m.spielerin], fc = m.foto_credit;
+    const credit = fi && fi.datei && nachweis(fi)
+      ? (!freigabe(fi) && quelleURL(fi) ? `<a href="${esc(quelleURL(fi))}" target="_blank" rel="noopener">${nachweis(fi)}, Wikimedia Commons</a>` : nachweis(fi))
+      : fc && fc.autor ? (fc.url ? `<a href="${esc(fc.url)}" target="_blank" rel="noopener">Foto: ${esc(fc.autor)}, ${esc(fc.lizenz)}, Wikimedia Commons</a>` : `Foto: ${esc(fc.autor)}, ${esc(fc.lizenz)}`) : "";
+    $("#main").innerHTML = `<article class="det">${zurueck()}${kopf}${kbBox(m.kickbase)}
+      ${m.instagram ? `<a href="${esc(m.instagram)}" target="_blank" rel="noopener" style="font-size:14px">Instagram-Profil von ${esc(m.spielerin)}</a>` : ""}
+      ${(m.quellen || []).length ? `<div class="src">${kap("Quellen")}${m.quellen.map(q => q.url ? `<a href="${esc(q.url)}" target="_blank" rel="noopener">${esc(q.name || q.url)}</a>` : `<span>${esc(q.name)}</span>`).join("")}</div>` : ""}
+      ${kiHinweis()}
+      ${credit ? `<div class="credit">${credit}</div>` : ""}
+    </article>`;
+    window.scrollTo(0, 0);
+  }
+  function punktArtikel(m){
+    const sicht = xs => (xs || []).filter(x => !SEL.size || SEL.has(x.k));
+    const sek = (t, xs, farbe) => { const l = sicht(xs); return l.length ? `<div class="psec" style="--pc:${farbe}">${kap(t, farbe)}${l.map(x =>
+      `<div class="prow">${logo(x.k, 28)}<div><b>${esc(x.n)}</b><small>${esc(kname(x.k))}</small><p>${esc(x.warum)}</p></div></div>`).join("")}</div>` : ""; };
+    const nichts = [m.sicher, m.finger_weg, m.tipp, m.achtung].every(x => !sicht(x).length);
+    const md = m.md != null && m.md !== "" ? String(m.md) : "";
+    return `<div class="tags">${tag("AUF DEN PUNKT")}${md ? tag(md + ". SPIELTAG") : ""}</div>
+      <h1 class="disp" style="font-size:30px">${esc(m.headline)}</h1>
+      <div class="dat">${esc(lang(m.zeit))}${SEL.size ? " · gefiltert auf deine Vereine" : ""}</div>
+      ${(m.text || []).map(p => `<p style="font-size:16.5px">${esc(p)}</p>`).join("")}
+      ${sek("Sicher aufstellen", m.sicher, "#2EB872")}${sek("Finger weg", m.finger_weg, "#E24A4A")}${sek("Günstiger Tipp", m.tipp, "#2F5BFF")}${sek("Achtung", m.achtung, "#E0962B")}
+      ${nichts && SEL.size ? '<p class="mu" style="font-size:14px">Für deine Vereine steht in dieser Ausgabe nichts. In Inside kannst du die Auswahl ändern.</p>' : ""}
+      ${kbBox(m.kickbase)}
+      ${m.analyse_link ? '<button class="lk" style="font-weight:600;text-decoration:none;justify-self:start" data-tabgo="inside">Die Herleitung steht in Inside ›</button>' : ""}
+      ${kiHinweis("Unsere Einschätzung auf Basis der Daten in Inside. Mit KI erstellt.")}`;
+  }
+
+  // ---------------- Spielplan
+  const istLive = p => p.status === "live" || p.status === "läuft";
+  const erg = p => (p.ergebnis || []).length === 2 ? `${p.ergebnis[0]}:${p.ergebnis[1]}` : null;
+  const liveText = p => { const m = String(p.minute || "").trim(); return !m ? "LIVE" : /^[0-9+]+$/.test(m) ? m + "'" : m; };
+  function mitte(p){
+    const e = erg(p), live = istLive(p);
+    if (e) return `<span class="mid${live ? " live" : ""}"><span class="s">${esc(e)}</span><small>${live ? esc(liveText(p)) : "Ende"}</small></span>`;
+    if (p.status === "abgesagt") return '<span class="mid"><small>abgesagt</small></span>';
+    if (!terminiert(p)) return '<span class="mid"><span class="k mu" style="font-size:19px">offen</span><small>Termin</small></span>';
+    return `<span class="mid"><span class="k">${uhr(dt(p.anstoss))}</span><small>Uhr</small></span>`;
+  }
+  const belSeiten = p => p.status !== "beendet" && p.belastung ? [["heim", p.heim], ["gast", p.gast]].filter(([k]) => p.belastung[k]).map(([k, n]) => [n, p.belastung[k]]) : [];
+  const meinK = p => SEL.has(p.heim_k) ? p.heim_k : SEL.has(p.gast_k) ? p.gast_k : null;
+  function partieZeile(p, mitTag){
+    const bs = belSeiten(p), mk = meinK(p), klein = SEL.size && !mk;
+    return `<button class="pr${mk ? " mein" : ""}" ${mk ? `style="--vc:${ring(mk)}" ` : ""}data-game="${esc(p.id)}">${mitTag ? `<div class="dat" style="font-size:11px">${esc(terminiert(p) ? wtLang(p.anstoss) : "Termin offen")}</div>` : ""}<div class="pr-z">
+      <span class="pr-t h"><span>${esc(p.heim)}</span>${logo(p.heim_k, 30)}</span>${mitte(p)}<span class="pr-t">${logo(p.gast_k, 30)}<span>${esc(p.gast)}</span></span></div>
+      ${bs.length ? (klein ? `<div class="belh klein"><span class="kap">ENGLISCHE WOCHE</span></div>` : `<div class="belh"><span class="kap">ENGLISCHE WOCHE</span>${bs.map(([n, b]) => `<span><b>${esc(n)}</b> ${esc(b.text)}</span>`).join("")}</div>`) : ""}</button>`;
+  }
+  const alleSpiele = () => { const g = new Set(); return (SP.spieltage || []).flatMap(t => t.partien.concat(t.nachholspiele || [])).filter(p => !g.has(p.id) && g.add(p.id)); };
+  function zeitraum(t){
+    if (t.partien.length && t.partien.every(p => !terminiert(p))) { const max = t.partien.map(p => p.anstoss).filter(Boolean).sort().pop(); return "Wochenende " + wochenende(max); }
+    const ds = t.partien.map(p => p.anstoss).filter(Boolean).sort(); if (!ds.length) return "";
+    const a = kurz(dt(ds[0])), b = kurz(dt(ds[ds.length - 1])); return a === b ? a : `${a} bis ${b}`;
+  }
+  function spielplan(){
+    GAME = null;
+    if (!SP){ $("#main").innerHTML = '<p class="leer">Spielplan wird geladen …</p>'; return; }
+    const tage = SP.spieltage || [];
+    if (!tage.length){ $("#main").innerHTML = '<p class="leer">Kein Spielplan vorhanden.</p>'; return; }
+    if (!tage.some(t => t.nr === MD)) MD = SP.aktuell;
+    const i = tage.findIndex(x => x.nr === MD), t = tage[i];
+    const gruppen = [], sortiertP = t.partien.slice().sort((a, b) => (dt(a.anstoss) || Infinity) - (dt(b.anstoss) || Infinity));
+    const meine = SEL.size ? sortiertP.filter(meinK) : [], andere = SEL.size ? sortiertP.filter(p => !meinK(p)) : sortiertP;
+    andere.forEach(p => {
+      const ti = terminiert(p) ? wtLang(p.anstoss) : "Termin offen"; const g = gruppen.find(x => x.t === ti); g ? g.ps.push(p) : gruppen.push({t: ti, ps: [p]}); });
+    const offen = t.partien.some(p => !terminiert(p) && p.status !== "beendet");
+    const nachAlle = t.nachholspiele || [], nach = SEL.size && !WEITERE ? nachAlle.filter(meinK) : nachAlle;
+    $("#main").innerHTML = vereinsZeile() + `<div class="liste" id="sp" style="gap:8px">
+      <div class="mdnav"><button class="arr" data-step="-1" aria-label="Vorheriger Spieltag" ${i <= 0 ? "disabled" : ""}>${svg(P.links)}</button>
+        <div class="mdlbl"><h1 class="disp">${t.nr}. Spieltag</h1><span>${esc(zeitraum(t))}</span>${t.nr !== SP.aktuell && tage.some(x => x.nr === SP.aktuell) ? `<button data-md="${SP.aktuell}">zum aktuellen Spieltag</button>` : ""}</div>
+        <button class="arr" data-step="1" aria-label="Nächster Spieltag" ${i >= tage.length - 1 ? "disabled" : ""}>${svg(P.rechts)}</button></div>
+      ${offen ? `<div class="offen">${svg(P.uhr)}<span>Dieser Spieltag ist noch nicht genau terminiert. Tage und Anstoßzeiten tragen wir automatisch nach, sobald der DFB sie veröffentlicht.</span></div>` : ""}
+      ${SEL.size ? `<div class="kap gruppe">Deine Spiele</div>${meine.length ? meine.map(p => partieZeile(p, true)).join("") : '<p class="dat" style="margin:0 2px">Deine Vereine spielen an diesem Spieltag nicht.</p>'}
+        ${andere.length + nachAlle.length - nachAlle.filter(meinK).length ? `<button class="weitere" data-weitere="1" aria-expanded="${WEITERE}">Weitere Spiele <span>${andere.length + nachAlle.length - nachAlle.filter(meinK).length} Partien ${WEITERE ? "▴" : "▾"}</span></button>` : ""}` : ""}
+      ${!SEL.size || WEITERE ? gruppen.map(g => `<div class="kap gruppe">${esc(g.t)}</div>${g.ps.map(p => partieZeile(p)).join("")}`).join("") : ""}
+      ${nach.length ? `<div class="kap gruppe">${nach.length > 1 ? "Nachholspiele" : "Nachholspiel"}</div>${nach.map(p => `<div class="dat" style="font-size:11px;padding-left:2px">${p.md ? p.md + ". Spieltag · " : ""}${esc(wtLang(p.anstoss))}</div>${partieZeile(p)}`).join("")}` : ""}
+    </div>`;
+  }
+  function blaettern(step){
+    const tage = (SP && SP.spieltage) || [], i = tage.findIndex(x => x.nr === MD), j = i + step;
+    if (j < 0 || j >= tage.length) return; MD = tage[j].nr; spielplan(); window.scrollTo(0, 0);
+  }
+  let TX = null, TY = null;
+  document.addEventListener("touchstart", e => { if (VIEW !== "spielplan" || GAME || BACK) return; TX = e.touches[0].clientX; TY = e.touches[0].clientY; }, {passive: true});
+  document.addEventListener("touchend", e => { if (TX == null) return; const dx = e.changedTouches[0].clientX - TX, dy = e.changedTouches[0].clientY - TY; TX = null;
+    if (Math.abs(dx) > 60 && Math.abs(dx) > 1.5 * Math.abs(dy)) blaettern(dx < 0 ? 1 : -1); }, {passive: true});
+
+  function zaehlt(t){ return t.et ? (t.seite === "heim" ? "gast" : "heim") : t.seite; }
+  function schuetzinnen(tore, seite){
+    const r = [], mins = {};
+    tore.filter(t => zaehlt(t) === seite).forEach(t => { const n = t.n || ""; if (!mins[n]) { r.push(n); mins[n] = []; }
+      mins[n].push(`${t.min || ""}'${t.art === "Elfmeter" ? " (E)" : ""}${t.et ? " (ET)" : ""}`); });
+    return r.map(n => `<span><b>${esc(n)}</b> <span class="mu">${esc(mins[n].join(", "))}</span></span>`).join("");
+  }
+  function spiel(id, halten){
+    const p = SP && alleSpiele().find(x => x.id === id); if (!p) return spielplan();
+    if (GAME !== id) { TOREOFFEN = false; CHIPSEL = {heim: null, gast: null}; }
+    GAME = id;
+    const y = window.scrollY, tore = p.tore || [], prog = [p.heim_aufstellung, p.gast_aufstellung].some(a => a && a.typ === "prognose");
+    const info = [p.md ? `${p.md}. Spieltag` : null].concat(terminiert(p) ? [wtLang(p.anstoss), uhr(dt(p.anstoss)) + " Uhr"] : ["Wochenende " + wochenende(p.anstoss), "Termin offen"]).filter(Boolean).join(" · ");
+    let h = 0, g = 0;
+    const det = tore.map(t => { zaehlt(t) === "heim" ? h++ : g++;
+      return `<div><span class="m">${esc(t.min)}'</span>${logo(zaehlt(t) === "heim" ? p.heim_k : p.gast_k, 18)}<span><b style="font-weight:600">${esc(t.n)}</b><span class="mu">${t.et ? " (Eigentor)" : ""}${t.art === "Elfmeter" ? " (Elfmeter)" : ""}${t.vorlage ? ` (Vorlage ${esc(t.vorlage)})` : ""}</span></span><span class="st">${h}:${g}</span></div>`; }).join("");
+    const pv = p.platzverweise || [], bs = belSeiten(p);
+    $("#main").innerHTML = `<div class="det">
+      <button class="back" data-back="1">‹ ${p.md ? `${p.md}. Spieltag` : "Spielplan"}</button>
+      <div class="kopf"><div class="info">${esc(info)}</div>
+        <div class="tz2"><div class="tk">${logo(p.heim_k, 40)}<span>${esc(p.heim)}</span></div>${mitte(p)}<div class="tk">${logo(p.gast_k, 40)}<span>${esc(p.gast)}</span></div></div>
+        ${tore.length ? `<div class="tore"><div class="h">${schuetzinnen(tore, "heim")}</div>${BALL}<div>${schuetzinnen(tore, "gast")}</div></div>
+          <button class="tbtn" data-tore="1" aria-expanded="${TOREOFFEN}">${TOREOFFEN ? "Tore im Detail ausblenden" : "Tore im Detail mit Vorlage"}</button>${TOREOFFEN ? `<div class="tdet">${det}</div>` : ""}` : ""}
+      </div>
+      ${prog ? `<button class="hk" data-legal="so-entsteht">${stufeSym("erwartet", 14)}<span>Mögliche Aufstellungen sind unsere Einschätzung, die offizielle kommt ca. 60 Minuten vor Anpfiff. <span class="lk">So entsteht sie</span></span></button>` : ""}
+      ${pv.length ? `<div class="kartebox">${kap("Platzverweise")}${pv.map(x => `<div style="display:flex;gap:8px;align-items:center;font-size:14px">${karte(true)}<span style="flex:1">${esc(x.n)} (${esc(x.min)}')</span>${logo(x.seite === "heim" ? p.heim_k : p.gast_k, 20)}</div>`).join("")}</div>` : ""}
+      ${bs.length ? `<div class="kartebox" style="gap:8px">${kap("Englische Woche")}${bs.map(([n, b]) => `<div style="display:grid;gap:2px"><b style="font-size:14px;font-weight:600">${esc(n)}: ${esc(b.text)}</b><span class="dat">${(b.spiele || []).map(esc).join(" · ")}</span></div>`).join("")}${prog ? '<span style="font-size:12px;color:var(--frag)">Deshalb stufen wir Feldspielerinnen höchstens als Erwartet ein.</span>' : ""}</div>` : ""}
+      ${!p.heim_aufstellung && !p.gast_aufstellung ? '<p class="dat">Die mögliche Aufstellung erscheint, sobald dieser Spieltag als nächster ansteht. Die offizielle kommt ca. 60 Minuten vor Anpfiff.</p>'
+        : teamBlock(p.heim, p.heim_k, p.heim_aufstellung, "heim") + teamBlock(p.gast, p.gast_k, p.gast_aufstellung, "gast")}
+      ${prog ? `<div class="leg">${Object.keys(STUFE).map(k => `<span>${stufeSym(k, 14)}${STUFE[k][2]}</span>`).join("")}</div>` : ""}
+    </div>`;
+    window.scrollTo(0, halten ? y : 0);
+  }
+  function teamBlock(name, k, a, seite){
+    let inh;
+    if (a && (a.startelf || []).length) inh = a.typ === "offiziell" ? offiziell(a) : prognose(a, seite);
+    else inh = '<p class="dat">Noch keine Aufstellung.</p>';
+    const badge = a ? (a.typ === "offiziell" ? '<span class="badge off">OFFIZIELL</span>' : '<span class="badge ein">EINSCHÄTZUNG</span>') : "";
+    return `<div class="kartebox"><div class="tb-k">${logo(k, 22)}<span class="n">${esc(name)}</span>${a && a.formation ? `<span class="f">${esc(a.formation)}</span>` : ""}${badge}</div>${inh}</div>`;
+  }
+  function offiziell(a){
+    const c = s => ({n: s.n, tore: s.tore || 0, rot: s.rot, gelb: s.gelb});
+    let h = posZeilen(a.startelf, s => chip({...c(s), aus: s.aus}));
+    const bank = a.bank || [], rein = bank.filter(s => s.ein === true), draussen = bank.filter(s => s.ein !== true), bekannt = bank.some(s => s.ein != null);
+    if (bekannt) {
+      if (rein.length) h += kap("Eingewechselt") + `<div class="chips">${rein.map(s => chip({...c(s), ein: true})).join("")}</div>`;
+      if (draussen.length) h += `<div class="zeile"><b>OHNE EINSATZ</b>${draussen.map(s => esc(s.n)).join(", ")}</div>`;
+    } else if (bank.length) h += kap("Bank") + `<div class="chips">${bank.map(s => chip(c(s))).join("")}</div>`;
+    return h;
+  }
+  function prognose(a, seite){
+    const alle = (a.startelf || []).concat(a.bank || [], a.ausgeschlossen || []);
+    const sel = CHIPSEL[seite];
+    const ch = s => chip({n: s.n, stufe: s.st, grund: s.grund, dim: s.st === "ausgeschlossen", sel: sel === s.n, btn: s.warum ? `${seite}|${s.n}` : null, title: s.warum});
+    let h = posZeilen(a.startelf, ch);
+    const offen = [];
+    a.startelf.filter(s => s.st === "unsicher" || s.st === "unwahrscheinlich").forEach(s => {
+      const alt = (a.alternativ || []).find(x => x.statt === s.n);
+      offen.push({pos: s.p || "", n: s.n, warum: s.warum || "", alt: alt && alt.fuer, altWarum: alt ? ((alle.find(x => x.n === alt.fuer) || {}).warum || "") : ""}); });
+    (a.alternativ || []).filter(x => !offen.some(o => o.n === x.statt)).forEach(x => { const s = alle.find(y => y.n === x.statt) || {};
+      offen.push({pos: x.p || s.p || "", n: x.statt || "", warum: s.warum || "", alt: x.fuer, altWarum: (alle.find(y => y.n === x.fuer) || {}).warum || ""}); });
+    if (offen.length) h += `<div class="opbox"><div class="kh">${stufeSym("unsicher", 14)}${kap(offen.length > 1 ? "Offene Positionen" : "Offene Position")}</div>
+      ${offen.map(o => `<div class="opg"><i>${esc(o.pos)}</i><span><b>${esc(o.n)}</b> <span class="mu">${esc(o.warum)}</span></span>${o.alt ? `<i>ALT.</i><span><b>${esc(o.alt)}</b> <span class="mu">${esc(o.altWarum)}</span></span>` : ""}</div>`).join("")}</div>`;
+    const g = sel && alle.find(x => x.n === sel);
+    h += `<div class="begr">${kap("Begründung")}${g ? `<span>${esc(g.voll || g.n)}${STUFE[g.st] ? ` (${STUFE[g.st][2]})` : ""}: ${esc(g.warum)}</span>` : '<span class="mu">Name antippen, dann steht hier, warum wir sie so einschätzen.</span>'}</div>`;
+    if (a.datenluecke) h += `<p class="dat" style="font-size:11px">Datenlücke: ${esc(a.datenluecke)}, deshalb ohne Einstufung.</p>`;
+    if ((a.bank || []).length) h += kap("Bank (wahrscheinlich)") + `<div class="chips">${a.bank.map(ch).join("")}</div>`;
+    if ((a.ausgeschlossen || []).length) h += `<div class="zeile"><b>FEHLEN</b>${a.ausgeschlossen.map(s => esc(s.n) + (s.grund ? ` (${esc(s.grund)})` : "")).join(", ")}</div>`;
+    return h;
+  }
+
+  // ---------------- Inside
+  const sektion = (nr, kat, titel, notiz) => `<div class="sk"><span class="nr">${nr} · ${esc(kat)}</span>${titel ? `<h2 class="disp">${esc(titel)}</h2>` : ""}${notiz ? `<p>${esc(notiz)}</p>` : ""}</div>`;
+  const FG = [["up", "Aufwind", "Im Aufwind", "#4ADE80"], ["down", "Formtief", "Im Formtief", "#FF8A8A"], ["hold", "Stabil", "Stabil", "#8FB0FF"]];
+  const formListe = key => (((IN.form || {})[key]) || []).filter(f => zeigen(f.k));
+  function vereinsZeile(){
+    const gew = ALLE.filter(k => SEL.has(k));
+    const kopf = `<button class="vz-k" data-vzauf="1" aria-expanded="${VZOFFEN}"><span class="l">MEINE VEREINE</span>
+      <span class="w">${gew.length ? gew.map(k => logo(k, 16)).join("") + `<span style="margin-left:4px;overflow:hidden;text-overflow:ellipsis">${esc(gew.map(kname).join(", "))}</span>` : '<span class="mu" style="font-weight:500">Alle Vereine</span>'}</span>
+      <span class="a">${VZOFFEN ? "fertig" : gew.length ? "ändern" : "auswählen"}</span></button>`;
+    return `<div class="vz">${kopf}${VZOFFEN ? `<div class="vz-o">${filterBlock()}</div>` : ""}</div>`;
+  }
+  function filterBlock(){
+    return `<div class="filt"><div class="filt-h"><span class="l">${SEL.size ? SEL.size + " GEWÄHLT" : "ALLE VEREINE · Wappen antippen für deine Auswahl"}</span>${SEL.size ? '<button data-clear="1">Auswahl löschen</button>' : ""}</div>
+      <div class="wps">${ALLE.map(k => `<button class="wp${SEL.has(k) ? " an" : ""}" style="--vc:${ring(k)}" data-club="${k}" aria-pressed="${SEL.has(k)}" aria-label="${esc(KNAME[k])}">${logo(k, 30)}</button>`).join("")}</div></div>`;
+  }
+  function hero(a){
+    const f = x => x === "risk" ? "#FF8A8A" : x === "chance" ? "#4ADE80" : "#F5B041";
+    return `<div class="hero"><div class="kick">${esc(a.kicker)}</div><h1 class="disp">${esc(a.titel)}</h1>
+      <div>${(a.punkte || []).map(p => `<div class="hp" style="--pc:${f(p.art)}"><div class="kh"><i></i>${kap(p.label)}</div><span>${esc(p.text)}</span></div>`).join("")}</div></div>`;
+  }
+  function minutenBalken(s){
+    return `<div class="mb" role="img" aria-label="Minuten je Spieltag: ${s.map(x => x[0]).join(", ")}"><div class="bars">${s.map(x => { const mi = x[0] || 0, st = x[1] || 0, to = x[2] || 0;
+      return `<div><span class="d${to > 0 ? " t" : ""}"></span><span class="b" style="height:${Math.max(mi, 3) / 90 * 40}px;background:${mi === 0 ? "var(--line)" : st === 1 ? "var(--accent)" : "rgba(47,91,255,.45)"}"></span></div>`; }).join("")}</div>
+      <div class="ax"><span>Sp. 1</span><span>Minuten</span><span>Sp. ${s.length}</span></div></div>`;
+  }
+  function naechste(k){
+    if (!SP || !k) return [];
+    return alleSpiele().filter(p => (p.heim_k === k || p.gast_k === k) && p.status !== "beendet" && p.status !== "abgesagt")
+      .sort((a, b) => (dt(a.anstoss) || Infinity) - (dt(b.anstoss) || Infinity)).slice(0, 3)
+      .map(p => ({k: p.heim_k === k ? p.gast_k : p.heim_k, heim: p.heim_k === k, z: p.anstoss, term: terminiert(p)})).filter(x => x.k);
+  }
+  function formKarte(f, g){
+    const fo = FOTOS[f.n], vc = KFARBE[f.k] || "var(--soft)";
+    const badge = `<span class="fbadge" style="--bc:${g[3]}">${g[2]}</span>`;
+    const gross = fo && fo.gross && fo.datei && fo.breite >= 1000 && fo.hoehe >= fo.breite * .95 && !fo.trikot_alt;
+    const kopf = gross
+      ? `<div class="fgross" style="--vc:${vc}"><img src="${esc(fo.datei)}" alt="${esc(f.n)}" loading="lazy">${badge}
+          <div class="ov"><div><span class="nm">${esc(f.n)}</span><span class="vn">${esc(kname(f.k))}</span><span class="bg"><b>${esc(f.big)}</b><span>${esc(f.big_txt)}</span></span></div>${logo(f.k, 38)}</div></div>`
+      : `<div class="fkomp"><div class="pic" style="--vc:${vc}">${fo && (fo.portrait || fo.datei) ? `<img class="f" src="${esc(fo.portrait || fo.datei)}" alt="${esc(f.n)}" loading="lazy">` : logo(f.k, 70)}</div>
+          <div class="tx">${badge}<span class="nm">${esc(f.n)}</span><span class="vn">${logo(f.k, 18)}${esc(kname(f.k))}</span><span class="big">${esc(f.big)}</span><span class="bt">${esc(f.big_txt)}</span></div></div>`;
+    const geg = naechste(f.k).map(x => { const w = IN.ga ? IN.ga[x.k] : null;
+      const s = w == null ? null : w >= 2 ? ["leicht", "#4ADE80"] : w >= 1.3 ? ["mittel", "#F5B041"] : ["schwer", "#FF8A8A"];
+      return `<div class="geg">${logo(x.k, 22)}<div><span class="a"><b>${esc(kname(x.k))}</b> <span class="mu">${x.heim ? "zu Hause" : "auswärts"}</span></span>
+        <small>${esc(x.term ? tagDatum(x.z) : "Wochenende " + wochenende(x.z))}${w != null ? ` · ${Number(w).toFixed(1).replace(".", ",")} Gegentore pro Spiel` : ""}</small></div>${s ? `<span class="cap" style="background:${s[1]}">${s[0]}</span>` : ""}</div>`; }).join("");
+    return `<article class="fk">${kopf}<div class="finh">${minutenBalken(f.s || [])}<p>${esc(f.text)}</p>
+      ${geg ? `<div style="display:grid;gap:8px">${kap("Nächste Gegner")}${geg}</div>` : ""}${kbBox(f.kb)}
+      ${fo && fo.datei && nachweis(fo) ? `<div class="credit" style="font-size:9.5px">${nachweis(fo)}</div>` : ""}</div></article>`;
+  }
+  function formSektion(){
+    const l = formListe(FDIR), g = FG.find(x => x[0] === FDIR);
+    if (FIDX >= l.length) FIDX = 0;
+    return `<section class="sek">${sektion("02", "Form", "Formkurve", "Balken = Minuten je Spieltag, Punkt = Tor.")}
+      <div class="ftabs">${FG.map(x => { const n = formListe(x[0]).length; return `<button data-dir="${x[0]}" aria-pressed="${x[0] === FDIR}"><b>${x[1]}</b><span>${n === 1 ? "1 Spielerin" : n + " Spielerinnen"}</span></button>`; }).join("")}</div>
+      ${!l.length ? '<p class="dat">Keine Spielerin deiner Vereine in dieser Gruppe.</p>' : `
+      <div class="fnav"><button class="pf" data-fstep="-1" aria-label="Vorherige Spielerin" ${FIDX <= 0 ? "disabled" : ""}>${svg(P.links)}</button>
+        <div class="mi" aria-live="polite"><div class="fdots">${l.map((_, j) => `<i class="${j === FIDX ? "an" : ""}"></i>`).join("")}</div><span id="fpos">${FIDX + 1} von ${l.length} · wischen oder Pfeile</span></div>
+        <button class="pf" data-fstep="1" aria-label="Nächste Spielerin" ${FIDX >= l.length - 1 ? "disabled" : ""}>${svg(P.rechts)}</button></div>
+      <div class="rail" id="rail">${l.map(f => formKarte(f, g)).join("")}</div>`}</section>`;
+  }
+  function formIndexAnzeigen(){
+    const l = formListe(FDIR), sek = document.querySelector("#rail"); if (!sek) return;
+    const box = sek.parentNode;
+    box.querySelectorAll(".fdots i").forEach((d, j) => d.classList.toggle("an", j === FIDX));
+    const t = box.querySelector("#fpos"); if (t) t.textContent = `${FIDX + 1} von ${l.length} · wischen oder Pfeile`;
+    const [a, b] = box.querySelectorAll(".pf"); if (a) a.disabled = FIDX <= 0; if (b) b.disabled = FIDX >= l.length - 1;
+  }
+  function railAnbinden(){
+    const r = document.querySelector("#rail"); if (!r) return;
+    r.scrollLeft = FIDX * (r.clientWidth + 12);
+    let t = null;
+    r.addEventListener("scroll", () => { clearTimeout(t); t = setTimeout(() => { const j = Math.round(r.scrollLeft / (r.clientWidth + 12)); if (j !== FIDX) { FIDX = j; formIndexAnzeigen(); } }, 60); }, {passive: true});
+  }
+  function zelle(l){
+    if (!(l || []).length) return '<div class="c"><span class="s0">offen</span></div>';
+    return `<div class="c">${l.map(e => { const n = esc(e[0]), s = e.length > 1 ? Number(e[1]) : 1;
+      return s >= 3 ? `<span class="s3"><i class="gp"></i>${n}</span>` : s === 2 ? `<span class="s2">${n}</span>` : `<span class="s1">${n}</span>`; }).join("")}</div>`;
+  }
+  function standardSektion(){
+    const w = (IN.swaps || []).filter(s => zeigen(s.k)), r = (IN.standards || []).filter(s => STDALLE || zeigen(s.k));
+    return `<section class="sek">${sektion("03", "Standards", "Standard-Wechsel", "Wer übernimmt, wenn die Schützin fehlt.")}
+      ${!w.length ? '<p class="dat">Bei deinen Vereinen hat sich diese Woche nichts geändert.</p>' : ""}
+      ${w.map(s => `<div class="sw"><div class="k">${logo(s.k, 22)}<b>${esc(kname(s.k))}</b><span class="art${s.el ? " el" : ""}">${esc(s.art)}</span></div>
+        <div class="fl"><s>${esc(s.alt)}</s>${svg(P.pfeil)}<b>${esc(s.neu || "offen")}</b></div><p>${esc(s.text)}</p>
+        ${s.check ? `<div class="chk">${svg(P.haken)}<span>${esc(s.check)}</span></div>` : ""}${kbBox(s.kb)}</div>`).join("")}
+      <div style="display:grid;gap:6px;padding-top:8px"><h3 class="disp" style="font-size:21px">Alle Schützinnen</h3>
+        <div class="std-l"><span class="g1"><i class="gp"></i>gesetzt: viele Belege oder Tor daraus</span><span class="g2">normal: 2 bis 3 Belege</span><span class="g3">kursiv: erster Hinweis</span></div></div>
+      ${SEL.size ? `<button class="lk" style="font-size:12px;justify-self:start;text-decoration:none" data-stdalle="1">${STDALLE ? "Nur meine Vereine" : "Alle 14 Vereine"}</button>` : ""}
+      <div class="stab"><div class="r h"><span></span><span>ECKEN</span><span>FREISTÖSSE</span><span>ELFMETER</span></div>
+        ${r.map(s => `<div class="r"><div class="wk">${logo(s.k, 24)}<span>${esc(s.k)}</span></div>${zelle(s.ecken)}${zelle(s.fs)}${zelle(s.elfer)}
+          ${s.hinweis ? `<div class="hw">${svg(P.warn, "").replace("<svg", '<svg style="width:13px;height:13px;flex:none;stroke:currentColor;fill:none;stroke-width:2"')}<span>${esc(s.hinweis)}</span></div>` : ""}</div>`).join("")}</div></section>`;
+  }
+  function spieleSektion(){
+    const tage = (IN.spiele || {}).spieltage || []; if (!tage.length) return "";
+    if (!tage.some(t => t.md === IMD)) IMD = tage[0].md;
+    const ps = (tage.find(t => t.md === IMD).partien || []).filter(g => zeigen(g.heim, g.gast));
+    return `<section class="sek">${sektion("04", "Spieltag", "Spiele mit Ansage", "Die Fakten, die für deine Aufstellung zählen.")}
+      <div class="seg" role="group" aria-label="Spieltag">${tage.map(t => `<button data-imd="${t.md}" aria-pressed="${t.md === IMD}">Sp. ${t.md}</button>`).join("")}</div>
+      ${!ps.length ? '<p class="dat">Deine Vereine sind an diesem Spieltag nicht unter den Spielen mit Ansage.</p>' : ""}
+      ${ps.map(g => `<div class="ig"><div class="vs"><span class="h">${esc(kname(g.heim))}</span>${logo(g.heim, 24)}<span class="d"><b>${esc(g.datum)}</b><small>${esc(g.zeit)} Uhr</small></span>${logo(g.gast, 24)}<span>${esc(kname(g.gast))}</span></div>
+        ${(g.fakten || []).map(x => `<div class="fakt"><i></i><span>${fett(x)}</span></div>`).join("")}${kbBox(g.kb)}</div>`).join("")}</section>`;
+  }
+  function kalenderSektion(K){
+    const V = K.vereine || {}, km = v => (V[v] || []).reduce((a, g) => a + (g.km ? 2 * g.km : 0), 0);
+    let keys = Object.keys(V).filter(v => zeigen(v));
+    if (!SEL.size && !ALLCAL) keys = keys.filter(v => (V[v] || []).length >= 4 || km(v) >= 1500);
+    keys.sort((a, b) => (V[b].length - V[a].length) || (km(b) - km(a)));
+    const tage = []; for (let d = new Date(K.von + "T12:00"); d <= new Date(K.bis + "T12:00") && tage.length < 60; d.setDate(d.getDate() + 1)) tage.push(new Date(d));
+    const n = tage.length, breite = Math.min(720, document.documentElement.clientWidth) - 24, w = (breite - 86 - 2 * n) / Math.max(n, 1);
+    const cols = `86px repeat(${n},minmax(0,1fr))`, farbe = a => a === "P" ? "#E0962B" : (a === "E" || a === "C") ? "#9B6BE8" : a === "N" ? "#A9B4C6" : "#2F5BFF";
+    const kopf = `<div class="row" style="grid-template-columns:${cols}"><span></span>${tage.map((d, i) => `<span class="kd">${i === 0 || d.getDay() === 1 ? `${d.getDate()}.${p2(d.getMonth() + 1)}` : ""}</span>`).join("")}</div>`;
+    const zeilen = keys.map(v => { const m = Object.fromEntries((V[v] || []).map(g => [g.d, g]));
+      return `<div class="row" style="grid-template-columns:${cols}"><div class="vn"><span>${logo(v, 14)}${esc(kname(v))}</span><small>${(V[v] || []).length} Spiele · ${zahlDE(km(v))} km</small></div>
+        ${tage.map(d => { const key = `${p2(d.getDate())}.${p2(d.getMonth() + 1)}`, g = m[key];
+          if (!g) return `<span class="z ${d.getDay() % 6 === 0 ? "we" : "leer"}"></span>`;
+          const fc = farbe(g.art), txt = `${kname(v)}, ${WT[d.getDay()]} ${key}.: ${g.ort === "H" ? "Heimspiel gegen" : "Auswärts:"} ${g.txt || ""}${g.km ? `, ${zahlDE(g.km)} km Luftlinie` : ""}`;
+          return `<button class="z" data-kal="${esc(txt)}" style="${g.ort === "A" ? `border-color:${fc};color:${fc}` : `background:${fc};border-color:${fc}`}" aria-label="${esc(txt)}">${w >= 15 ? esc(g.ort) : ""}</button>`; }).join("")}</div>`; }).join("");
+    return `<section class="sek">${sektion("05", "Belastung", K.titel || "Belastung", "Wer wann spielt und wie weit gereist wird. Feld antippen für Gegner und Entfernung.")}
+      <div class="kal">${kopf}${zeilen}</div><div class="info${KALINFO ? " an" : ""}" id="kalinfo">${esc(KALINFO || "Feld antippen für Details.")}</div>
+      <div class="leg"><span><i style="background:#2F5BFF"></i>Liga</span><span><i style="background:#E0962B"></i>Pokal</span><span><i style="background:#9B6BE8"></i>Europa</span><span><i style="box-shadow:inset 0 0 0 1.5px var(--muted)"></i>Rahmen = auswärts</span></div>
+      ${!SEL.size ? `<button class="lk" style="font-size:12px;justify-self:start;text-decoration:none" data-allcal="1">${ALLCAL ? "Nur die stärksten Belastungen" : "Alle 14 Vereine zeigen"}</button>` : ""}
+      ${K.hinweis ? `<p class="dat" style="font-size:11px;margin:0">${esc(K.hinweis)}</p>` : ""}</section>`;
+  }
+  function analyseKopf(A, t){
+    return `<div class="akopf">${tag(t)}<h1 class="disp">${esc(A.titel)}</h1><div>${(A.stats || []).map(s => `<div class="st"><b>${esc(s[0])}</b><span>${esc(s[1] || "")}</span></div>`).join("")}</div></div>`;
+  }
+  function analyseInhalt(A){
+    const sp = A.spalten || [], M = A.matrix || {};
+    const summe = m => Object.values(m).reduce((a, x) => a + (x.length > 1 && x[0] !== "V" ? Number(x[1]) || 0 : 0), 0);
+    const reihen = Object.entries(M).sort((a, b) => summe(b[1]) - summe(a[1]));
+    const kz = o => (Object.entries(KNAME).find(([, v]) => v === o) || [])[0] || String(o).slice(0, 3).toUpperCase();
+    const verf = Math.min(720, document.documentElement.clientWidth) - 24, w = Math.min(40, Math.max(22, Math.floor((verf - 92 - 3 * sp.length) / Math.max(sp.length, 1))));
+    const cols = `92px repeat(${sp.length},${w}px)`;
+    let mx = `<span></span>${sp.map((o, i) => `<span class="hc${A.cl_ab === i + 1 ? " cl" : ""}">${i + 1}<small>${esc(kz(o))}</small></span>`).join("")}`;
+    reihen.forEach(([name, md]) => { mx += `<span class="nm">${esc(name)}</span>` + sp.map((o, i) => { const m = md[String(i + 1)], art = m ? m[0] : "N", mi = m ? m[1] : 0, to = m ? Number(m[2]) || 0 : 0, no = m && m[3] ? String(m[3]) : "";
+      let t = `${name} · ${i + 1}. Spieltag gegen ${o}: ` + (art === "S" ? `Startelf, ${mi} Minuten` : art === "E" ? `eingewechselt, ${mi} Minuten` : art === "V" ? `fehlte (${no})` : "nicht eingesetzt");
+      if (to > 0) t += `, ${to} Tor${to > 1 ? "e" : ""}`; if (no && art !== "V") t += `, ${no}`;
+      return `<button class="c ${art}" data-mx="${esc(t)}" aria-label="${esc(t)}" aria-pressed="${MXINFO === t}">${art === "V" ? svg(P.plus) : art === "N" ? "·" : esc(mi)}${to > 0 ? '<i class="t"></i>' : ""}${no === "Rote Karte" ? '<i class="r"></i>' : ""}</button>`; }).join(""); });
+    return `<div class="mxw"><div class="mx" style="grid-template-columns:${cols}">${mx}</div></div>
+      <div class="leg"><span><i style="background:var(--accent)"></i>Startelf (Minuten)</span><span><i style="box-shadow:inset 0 0 0 1.5px var(--accent)"></i>eingewechselt</span><span><i style="background:rgba(226,74,74,.3)"></i>verletzt / Reha</span><span><i style="background:var(--pokal);border-radius:50%"></i>Tor</span>${A.cl_ab ? '<span><i style="background:var(--euro);width:3px"></i>Champions League läuft</span>' : ""}</div>
+      <div class="info${MXINFO ? " an" : ""}" id="mxinfo">${esc(MXINFO || "Feld antippen für Details.")}</div>
+      <div class="body" style="display:grid;gap:12px">${(A.text || []).map((p, i) => `<p>${i === 0 && !p.startsWith("Erklärung") ? "<b>Erklärung:</b> " : ""}${esc(p)}</p>`).join("")}</div>
+      ${(A.einschaetzung || []).length ? `<div class="einsch">${kap("Unsere Einschätzung für die nächsten Ligaspiele")}${A.einschaetzung.map(p => `<p>${fett(p)}</p>`).join("")}</div>` : ""}
+      ${kbBox(A.kb)}${A.quelle ? `<p class="dbasis">${esc(A.quelle)}</p>` : ""}`;
+  }
+  function inside(){
+    if (!IN){ $("#main").innerHTML = '<p class="leer">Inside wird geladen …</p>'; return; }
+    const ph = IN.punkt_hinweis, pm = ph && N.find(m => m.id === ph.id), A = IN.analyse;
+    $("#main").innerHTML = vereinsZeile() + `<div class="iv">
+      ${pm ? `<button class="phl" data-punkt="${esc(ph.id)}"><b>Keine Zeit?</b> ${esc(ph.text)} ›</button>` : ""}
+      ${IN.ausgabe ? hero(IN.ausgabe) : ""}${formSektion()}${standardSektion()}${spieleSektion()}${IN.kalender ? kalenderSektion(IN.kalender) : ""}
+      ${A ? `<section class="sek" id="analyse">${sektion("06", "Analyse")}${analyseKopf(A, String(A.tag || "Analyse der Woche").toUpperCase())}${analyseInhalt(A)}</section>` : ""}
+      <p class="dbasis">Datenbasis: Statistik, Aufstellungen und Liveticker der Sportschau, Termine von DFB und UEFA, Sperren aus der DFB-Sperrenliste. Inside enthält Einschätzungen der Redaktion von WOSOINSIDER und wird mit KI erstellt.</p></div>`;
+    railAnbinden();
+  }
+  function anaArticle(){
+    const A = IN && IN.analyse; if (!A) return list();
+    MXINFO = null;
+    $("#main").innerHTML = `<div class="det">${zurueck()}${analyseKopf(A, "TOP-ANALYSE")}<div class="dat">Inside · ${esc(lang(A.news_zeit || IN.stand))}</div>${analyseInhalt(A)}
+      ${kiHinweis("Inside enthält Einschätzungen der Redaktion von WOSOINSIDER und wird mit KI erstellt.")}</div>`;
+    window.scrollTo(0, 0);
+  }
+
+  // ---------------- Rechtliches und Infos (Texte gleich wie legal.json der App)
+  const mail = k => `${k}@wosoinsider.de`;
+  const LEGAL = {
+    impressum: () => `<h1>Impressum</h1>
+      <h2>Angaben gemäß § 5 DDG</h2>
+      <address>Finn Clausen<br>WOSOINSIDER<br>Wiesenweg 14<br>83083 Riedering<br>Deutschland</address>
+      <h2>Kontakt</h2>
+      <p>E-Mail: <a href="mailto:redaktion@wosoinsider.de">redaktion@wosoinsider.de</a></p>
+      <p>Über diese Adresse erreichen Sie uns für alle Anliegen, auch für Hinweise, Korrekturen und Datenschutz.</p>
+      <h2>Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV</h2>
+      <p>Finn Clausen, Anschrift wie oben.</p>
+      <h2>Einsatz von KI</h2>
+      <p>Meldungen und mögliche Aufstellungen werden automatisiert mit einem KI-System erstellt und als solche gekennzeichnet. Die redaktionelle Verantwortung trägt Finn Clausen. Einzelheiten stehen unter KI-Hinweis &amp; Methodik.</p>
+      <h2>Unabhängigkeit</h2>
+      <p>WOSOINSIDER ist ein unabhängiges Angebot. Es besteht keine Verbindung zu Kickbase, zum DFB, zur Google Pixel Frauen-Bundesliga oder zu den Vereinen. Genannte Marken und Namen gehören ihren jeweiligen Inhabern.</p>
+      <h2>Bild- und Datennachweise</h2>
+      <ul>
+      <li>Spielerinnenfotos: Wikimedia Commons unter freien Lizenzen (CC BY, CC BY-SA, CC0), Urheberin oder Urheber und Lizenz stehen im jeweiligen Artikel. Portraits der Spielerinnen des Hamburger SV mit Genehmigung des Vereins.</li>
+      <li>Vereinslogos: mit Genehmigung der jeweiligen Vereine.</li>
+      <li>Spielplan, Ergebnisse, Tore und offizielle Aufstellungen: Sportschau (ARD), verlinkt an der jeweiligen Partie.</li>
+      <li>Meldungen: zusammengefasst aus den im Artikel verlinkten Quellen.</li>
+      </ul>
+      <h2>Haftung für Inhalte</h2>
+      <p>Die Inhalte werden mit Sorgfalt erstellt, aber automatisiert und ohne Prüfung jeder einzelnen Meldung vor der Veröffentlichung. Für Richtigkeit, Vollständigkeit und Aktualität, insbesondere von Prognosen, wird keine Gewähr übernommen. Nach §§ 8 bis 10 DDG sind wir nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen. Sobald uns eine Rechtsverletzung bekannt wird, entfernen wir den Inhalt umgehend.</p>
+      <h2>Haftung für Links</h2>
+      <p>Für die Inhalte verlinkter fremder Seiten sind ausschließlich deren Betreiber verantwortlich. Zum Zeitpunkt der Verlinkung waren keine Rechtsverstöße erkennbar. Bei Bekanntwerden entfernen wir solche Links umgehend.</p>
+      <h2>Verbraucherstreitbeilegung</h2>
+      <p>Wir sind nicht bereit und nicht verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p>`,
+    datenschutz: () => `<h1>Datenschutz</h1>
+      <p><b>Kurz gesagt:</b> WOSOINSIDER braucht kein Konto, setzt keine Cookies und nutzt kein Tracking, keine Analyse und keine Werbung. Personenbezogene Daten fallen nur dort an, wo Technik es zwingend verlangt (Abruf der Inhalte) oder wenn Sie uns schreiben.</p>
+      <h2>1. Geltungsbereich</h2>
+      <p>Diese Erklärung gilt für die iOS-App WOSOINSIDER, die Webseite wosoinsider.de, die Webversion des Newstickers und den E-Mail-Kontakt.</p>
+      <h2>2. Verantwortlicher</h2>
+      <address>Finn Clausen<br>WOSOINSIDER<br>Wiesenweg 14<br>83083 Riedering<br>Deutschland</address>
+      <p>E-Mail: <a href="mailto:redaktion@wosoinsider.de">redaktion@wosoinsider.de</a></p>
+      <p>Eine Datenschutzbeauftragte oder einen Datenschutzbeauftragten müssen wir nicht benennen.</p>
+      <h2>3. Die App</h2>
+      <p>Die App lädt ihre Inhalte (Meldungen, Spielplan, Inside, Fotos, Logos) als Dateien von einem Server bei GitHub und speichert sie für schnelleres Laden im Zwischenspeicher Ihres Geräts. Beim Abruf übermittelt Ihr Gerät technisch notwendig seine IP-Adresse, Datum und Uhrzeit sowie die abgerufene Datei. Was GitHub damit macht, steht in Abschnitt 5. Wir selbst erhalten diese Daten nicht.</p>
+      <p>Die App enthält keine Analyse-, Werbe- oder Tracking-Werkzeuge und keine Software von Drittanbietern. Sie fragt keine Berechtigungen ab, etwa für Standort, Kontakte, Fotos oder Kamera. Links zu Quellen, Lizenzen oder Instagram öffnet sie erst, wenn Sie darauf tippen (siehe Abschnitt 9). Rechtsgrundlage für den Abruf ist unser berechtigtes Interesse, Ihnen die Inhalte auszuliefern (Art. 6 Abs. 1 lit. f DSGVO).</p>
+      <p>Push-Mitteilungen bietet die App derzeit nicht an. Kommen sie dazu, ergänzen wir diese Erklärung vorher.</p>
+      <h2>4. Speicherung auf Ihrem Gerät</h2>
+      <p>Ihre Vereinsauswahl speichern App und Webversion nur lokal auf Ihrem Gerät (App: Einstellungen der App, Webversion: localStorage des Browsers). Sie wird nicht an uns übertragen. Diese Speicherung ist für die von Ihnen gewünschte Funktion unbedingt erforderlich und braucht daher keine Einwilligung (§ 25 Abs. 2 Nr. 2 TDDDG). Sie löschen sie, indem Sie die Auswahl zurücksetzen, die App löschen oder die Browserdaten entfernen. Es werden keine Cookies gesetzt.</p>
+      <h2>5. Webseite und Datenabruf über GitHub Pages</h2>
+      <p>Die Webseite wosoinsider.de und die Dateien für die App liegen bei GitHub Pages, einem Dienst der GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA. Beim Aufruf verarbeitet GitHub technisch notwendige Verbindungsdaten: IP-Adresse, Datum und Uhrzeit, abgerufene Datei, Browser oder App-Kennung, Betriebssystem und gegebenenfalls die zuvor besuchte Seite. Das dient der sicheren und stabilen Auslieferung (Art. 6 Abs. 1 lit. f DSGVO). Wie lange GitHub diese Daten speichert, legt GitHub selbst fest. Wir erhalten keine Logfiles und können keine Nutzerinnen oder Nutzer identifizieren.</p>
+      <p>GitHub verarbeitet Daten auch in den USA. GitHub ist nach dem EU-U.S. Data Privacy Framework zertifiziert, für das ein Angemessenheitsbeschluss der EU-Kommission besteht (Art. 45 DSGVO). Weitere Informationen: <a href="https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement">Datenschutzerklärung von GitHub</a>.</p>
+      <p>Die Schriften werden zusammen mit der Seite ausgeliefert. Es besteht keine Verbindung zu Google Fonts oder anderen Schriftanbietern.</p>
+      <h2>6. Keine Profile, keine automatisierten Entscheidungen</h2>
+      <p>Wir bilden keine Nutzerprofile und verkaufen oder teilen keine Daten. Eine automatisierte Entscheidungsfindung nach Art. 22 DSGVO findet nicht statt.</p>
+      <h2>7. App Store</h2>
+      <p>Die App laden Sie über den App Store von Apple. Dafür verarbeitet Apple Daten wie Ihre Apple-ID, Gerätekennung und Kaufhistorie in eigener Verantwortung. Wir haben darauf keinen Einfluss und erhalten keine personenbezogenen Daten von Apple. Haben Sie in den iOS-Einstellungen zugestimmt, Analysedaten mit App-Entwicklern zu teilen, stellt Apple uns anonymisierte Absturzberichte und Nutzungsstatistiken bereit. Einzelheiten stehen in der <a href="https://www.apple.com/de/legal/privacy/">Datenschutzrichtlinie von Apple</a>.</p>
+      <h2>8. Kontakt per E-Mail</h2>
+      <p>Wenn Sie an <a href="mailto:redaktion@wosoinsider.de">redaktion@wosoinsider.de</a> schreiben, verarbeiten wir Ihre E-Mail-Adresse, Ihren Namen (falls angegeben) und Ihre Nachricht, um die Anfrage zu bearbeiten (Art. 6 Abs. 1 lit. b oder f DSGVO). Hinweise an die Redaktion nutzen wir für die Berichterstattung. Ihren Namen veröffentlichen wir nur mit Ihrer Zustimmung. Die Daten löschen wir, sobald die Anfrage erledigt ist und keine Aufbewahrungspflicht besteht.</p>
+      <p>Das Postfach läuft über Google Workspace. Vertragspartner und Auftragsverarbeiter (Art. 28 DSGVO) ist die Google Cloud EMEA Limited, 70 Sir John Rogerson's Quay, Dublin 2, Irland. Google kann Daten auch in den USA verarbeiten. Die Google LLC ist nach dem EU-U.S. Data Privacy Framework zertifiziert, für das ein Angemessenheitsbeschluss der EU-Kommission besteht (Art. 45 DSGVO).</p>
+      <h2>9. Links zu anderen Seiten</h2>
+      <p>Quellen, die Sportschau und Instagram-Profile sind verlinkt. Daten werden erst übertragen, wenn Sie einen Link antippen. Dann gilt die Datenschutzerklärung der jeweiligen Seite.</p>
+      <h2>10. Berichterstattung über Spielerinnen</h2>
+      <p>Meldungen nennen Spielerinnen, Trainerinnen und Trainer im Rahmen der Sportberichterstattung (journalistische Zwecke, Art. 85 DSGVO in Verbindung mit § 23 MStV). Die redaktionelle Verantwortung trägt Finn Clausen.</p>
+      <p>Für Angaben zur Gesundheit gelten feste Regeln: Wir berichten nur, was Verein, Verband oder Medien bereits veröffentlicht haben, und nur so genau, wie es für die Frage nötig ist, ob und wann eine Spielerin spielen kann. Eigene Vermutungen zu Diagnosen veröffentlichen wir nicht. Meldungen werden nach 14 Tagen aus der App entfernt.</p>
+      <p>Fotos stammen von Wikimedia Commons unter freien Lizenzen oder werden mit Genehmigung genutzt. Betroffene können jederzeit unter <a href="mailto:redaktion@wosoinsider.de">redaktion@wosoinsider.de</a> eine Korrektur, die Entfernung eines Fotos oder einer Angabe verlangen. Berechtigte Anliegen setzen wir unverzüglich um.</p>
+      <h2>11. Ihre Rechte</h2>
+      <p>Sie haben das Recht auf Auskunft (Art. 15), Berichtigung (Art. 16), Löschung (Art. 17), Einschränkung der Verarbeitung (Art. 18) und Datenübertragbarkeit (Art. 20 DSGVO). Eine Nachricht an <a href="mailto:redaktion@wosoinsider.de">redaktion@wosoinsider.de</a> genügt.</p>
+      <p><b>Widerspruchsrecht:</b> Verarbeiten wir Daten auf Grundlage berechtigter Interessen (Art. 6 Abs. 1 lit. f DSGVO), können Sie aus Gründen, die sich aus Ihrer besonderen Situation ergeben, jederzeit widersprechen (Art. 21 DSGVO). Wir verarbeiten die Daten dann nicht mehr, es sei denn, es liegen zwingende schutzwürdige Gründe vor.</p>
+      <h2>12. Beschwerderecht</h2>
+      <p>Sie können sich bei einer Datenschutz-Aufsichtsbehörde beschweren. Zuständig für uns ist das Bayerische Landesamt für Datenschutzaufsicht (BayLDA), Promenade 18, 91522 Ansbach.</p>
+      <h2>13. Stand</h2>
+      <p>Oktober 2026. Ändert sich etwas an App oder Webseite, passen wir diese Erklärung an.</p>`,
+    kontakt: () => `<h1>Kontakt</h1>
+      <p>Eine Adresse für alles: <a href="mailto:redaktion@wosoinsider.de">redaktion@wosoinsider.de</a></p>
+      <ul>
+      <li>Fragen zu WOSOINSIDER und Wünsche für neue Funktionen</li>
+      <li>Fehler in einer Meldung oder Aufstellung, neue Informationen zu Verletzungen, Sperren oder Rückkehr, bitte mit Link zur Quelle</li>
+      <li>Auskunft, Berichtigung oder Löschung personenbezogener Daten sowie Fragen zu Bild- und Markenrechten</li>
+      </ul>
+      <p>Die Postanschrift steht im Impressum.</p>`,
+    "so-entsteht": () => `<h1>KI-Hinweis &amp; Methodik</h1>
+      <p>WOSOINSIDER wird mit künstlicher Intelligenz erstellt. Wir kennzeichnen das offen, wie es Art. 50 Abs. 4 der europäischen KI-Verordnung für KI-erzeugte Texte von öffentlichem Interesse vorsieht.</p>
+      <h2>So entsteht eine Meldung</h2>
+      <ul><li>Mehrmals täglich, an Spieltagen stündlich, sammelt ein Skript öffentlich zugängliche Meldungen: Vereinsseiten, DFB, Sportschau und regionale Medien.</li>
+        <li>Ein KI-System (Claude von Anthropic) sortiert Irrelevantes aus und fasst die Meldungen in eigenen Worten zusammen. Jede Meldung nennt und verlinkt ihre Quelle.</li>
+        <li>Die Meldungen werden vor der Veröffentlichung nicht einzeln von einem Menschen geprüft. Die redaktionelle Verantwortung trägt Finn Clausen.</li></ul>
+      <h2>Regeln für die KI</h2>
+      <ul><li>Nichts erfinden: Jede Meldung stützt sich auf eine Quelle, Unbestätigtes wird als unbestätigt gekennzeichnet.</li>
+        <li>Medizinische Details nur, soweit Verein oder Medien sie veröffentlicht haben.</li>
+        <li>Wörtliche Zitate höchstens 15 Wörter, sonst eigene Formulierungen.</li></ul>
+      <h2>Mögliche Aufstellungen</h2>
+      <p>Die Prognosen sind eine Einschätzung von WOSOINSIDER, keine Quelle behauptet sie. Grundlage sind die Einsätze der letzten fünf Ligaspiele (das jüngste zählt am meisten), gemeldete Verletzungen und Sperren sowie redaktionelle Einschätzungen mit Begründung. Sicher heißt: In unserer Rückrechnung der Spieltage 4 bis 8 standen gut neun von zehn so eingestuften Spielerinnen in der Startelf. In Englischen Wochen, also bei mindestens drei Pflichtspielen in höchstens acht Tagen, stufen wir Feldspielerinnen höchstens als Erwartet ein. Die Begründung erscheint beim Antippen einer Spielerin. Sobald die offizielle Aufstellung vorliegt, ersetzt sie die Prognose.</p>
+      <h2>Inside</h2>
+      <p>Der Reiter Inside erscheint einmal pro Woche. Ein Skript wertet Statistiken, Aufstellungen und Liveticker aller Ligaspiele aus (Sportschau), dazu Termine von DFB und UEFA. Daraus entstehen Formkurven, Rotationsmuster, Standard-Übersichten und Fakten zu den nächsten Spielen. Texte und Einschätzungen schreibt die KI auf dieser Grundlage. Alles, was Bewertung ist, steht unter „Unsere Einschätzung“. Standardschützinnen leiten wir aus Spielberichten ab, die Sicherheit zeigt die Schriftstärke.</p>
+      <h2>Kickbase-Einordnung</h2>
+      <p>Die Einordnung „Für Kickbase“ ist eine Meinung und keine Empfehlung mit Erfolgsgarantie.</p>
+      <h2>Fehler gefunden?</h2>
+      <p>Hinweise bitte an <a href="mailto:${mail("redaktion")}">${mail("redaktion")}</a>. Korrekturen werden in der Meldung mit dem Tag UPDATE nachgetragen.</p>`
+  };
+  const INFO = Object.assign({}, LEGAL, {
+    bildnachweise: () => `<h1>Bildnachweise</h1><p class="mu">Fotos von Wikimedia Commons unter freien Lizenzen, teils zugeschnitten. Portraits des Hamburger SV mit Genehmigung des Vereins. Vereinslogos mit Genehmigung der Vereine.</p>
+      ${Object.keys(FOTOS).sort((a, b) => a.localeCompare(b, "de")).map(n => { const f = FOTOS[n];
+        return `<div class="bn"><b>${esc(n)}</b><small>Foto: ${esc(f.autor || "unbekannt")}${f.lizenz ? `, ${f.lizenz_url ? `<a href="${esc(f.lizenz_url)}" target="_blank" rel="noopener">${esc(f.lizenz)}</a>` : esc(f.lizenz)}` : ""}${quelleURL(f) ? ` · <a href="${esc(quelleURL(f))}" target="_blank" rel="noopener">Quelle</a>` : ""}</small></div>`; }).join("") || '<p class="mu">Wird geladen …</p>'}`,
+    patches: () => `<h1>Patches</h1>${PATCH && (PATCH.eintraege || []).length ? PATCH.eintraege.map(e => `<div class="pv"><div class="h"><span>Version ${esc(e.version)}</span><small>${esc(e.datum)}</small></div>
+      ${e.titel ? `<span class="t">${esc(e.titel)}</span>` : ""}<ul>${(e.aenderungen || []).map(a => `<li>${esc(a)}</li>`).join("")}</ul></div>`).join("") : '<p class="mu">Noch keine Patchnotes geladen.</p>'}`
+  });
+  function legal(k){
+    if (!INFO[k]) return;
+    if (!BACK) BACK = {view: VIEW, game: GAME, md: MD, y: window.scrollY};
+    clearInterval(TIMER);
+    setHash(k);
+    $("#main").innerHTML = `<article class="doc"><button class="back" data-legalback="1" style="justify-self:start">‹ Zurück</button>${INFO[k]()}</article>`;
+    window.scrollTo(0, 0);
+  }
+  function legalBack(){
+    const b = BACK || {view: "meldungen"}; BACK = null;
+    if (b.view === "inside"){ show("inside"); window.scrollTo(0, b.y || 0); return; }
+    if (b.view === "spielplan"){ VIEW = "spielplan"; MD = b.md; setHash("spielplan"); b.game ? spiel(b.game) : spielplan(); TIMER = setInterval(loadSP, 5 * 60000); }
+    else { setHash(""); list(); }
+    window.scrollTo(0, b.y || 0);
+  }
+
+  // ---------------- Laden
+  const json = f => fetch(f, {cache: "no-store"}).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); });
+  function loadSP(){
+    return json("spielplan.json").then(d => { SP = d; if (MD == null) MD = d.aktuell;
+      if (BACK) return; if (VIEW === "spielplan") GAME ? spiel(GAME, true) : spielplan(); else if (VIEW === "inside" && IN) { const y = window.scrollY; inside(); window.scrollTo(0, y); } })
+      .catch(() => { if (VIEW === "spielplan" && !SP) $("#main").innerHTML = '<p class="leer">Der Spielplan konnte nicht geladen werden. Seite neu laden.</p>'; });
+  }
+  function loadIN(){
+    return Promise.all([json("inside.json"), fetch("fotos.json", {cache: "no-store"}).then(r => r.ok ? r.json() : {}).catch(() => ({}))])
+      .then(([d, f]) => { IN = d; FOTOS = f || {}; if (BACK) return;
+        if (VIEW === "inside") inside(); else if (VIEW === "meldungen" && document.querySelector("#main .liste")) list(); })
+      .catch(() => { if (VIEW === "inside" && !IN) $("#main").innerHTML = '<p class="leer">Inside konnte nicht geladen werden. Seite neu laden.</p>'; });
+  }
+  function show(v){
+    VIEW = v; BACK = null;
+    document.querySelectorAll(".seg[role=tablist] button").forEach(b => b.setAttribute("aria-selected", b.dataset.tab === v));
+    setHash(v === "spielplan" ? "spielplan" : v === "inside" ? "inside" : "");
+    clearInterval(TIMER);
+    if (v === "spielplan"){ GAME = null; spielplan(); loadSP(); TIMER = setInterval(loadSP, 5 * 60000); }
+    else if (v === "inside"){ inside(); if (!IN) loadIN(); }
+    else list();
+    window.scrollTo(0, 0);
+  }
+
+  function neuZeichnen(){
+    const y = window.scrollY;
+    if (VIEW === "inside") inside(); else if (VIEW === "spielplan") spielplan(); else list();
+    window.scrollTo(0, y);
+  }
+  document.addEventListener("click", e => {
+    const q = s => e.target.closest(s);
+    let x;
+    if ((x = q("[data-legal]"))) { legal(x.dataset.legal); return; }
+    if (q("[data-legalback]")) { legalBack(); return; }
+    if ((x = q("[data-tab]"))) { show(x.dataset.tab); return; }
+    if ((x = q("[data-tabgo]"))) { show(x.dataset.tabgo); return; }
+    if (q("[data-zu]")) { setHash(""); VIEW === "inside" ? inside() : list(); window.scrollTo(0, SCROLL || 0); return; }
+    if ((x = q("[data-club]"))) { const k = x.dataset.club; SEL.has(k) ? SEL.delete(k) : SEL.add(k); saveSel(); FIDX = 0; NEWSALLE = false; neuZeichnen(); return; }
+    if (q("[data-clear]")) { SEL.clear(); saveSel(); FIDX = 0; NEWSALLE = false; neuZeichnen(); return; }
+    if (q("[data-vzauf]")) { VZOFFEN = !VZOFFEN; neuZeichnen(); return; }
+    if ((x = q("[data-newsalle]"))) { NEWSALLE = x.dataset.newsalle === "1"; neuZeichnen(); return; }
+    if (q("[data-weitere]")) { WEITERE = !WEITERE; neuZeichnen(); return; }
+    if (q("[data-stdalle]")) { STDALLE = !STDALLE; neuZeichnen(); return; }
+    if ((x = q("[data-dir]"))) { FDIR = x.dataset.dir; FIDX = 0; const y = window.scrollY; inside(); window.scrollTo(0, y); return; }
+    if ((x = q("[data-fstep]"))) { const l = formListe(FDIR), j = Math.min(Math.max(FIDX + Number(x.dataset.fstep), 0), l.length - 1), r = $("#rail");
+      FIDX = j; formIndexAnzeigen(); if (r) r.scrollTo({left: j * (r.clientWidth + 12), behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth"}); return; }
+    if ((x = q("[data-imd]"))) { IMD = Number(x.dataset.imd); const y = window.scrollY; inside(); window.scrollTo(0, y); return; }
+    if (q("[data-allcal]")) { ALLCAL = !ALLCAL; const y = window.scrollY; inside(); window.scrollTo(0, y); return; }
+    if ((x = q("[data-kal]"))) { KALINFO = x.dataset.kal; const i = $("#kalinfo"); if (i) { i.textContent = KALINFO; i.classList.add("an"); } return; }
+    if ((x = q("[data-mx]"))) { MXINFO = x.dataset.mx; document.querySelectorAll(".mx .c[aria-pressed=true]").forEach(c => c.setAttribute("aria-pressed", "false")); x.setAttribute("aria-pressed", "true");
+      const i = $("#mxinfo"); if (i) { i.textContent = MXINFO; i.classList.add("an"); } return; }
+    if ((x = q("[data-ana]"))) { SCROLL = window.scrollY; setHash("analyse"); anaArticle(); return; }
+    if ((x = q("[data-punkt]"))) { SCROLL = window.scrollY; article(x.dataset.punkt); return; }
+    if ((x = q("[data-step]"))) { blaettern(Number(x.dataset.step)); return; }
+    if ((x = q("[data-md]"))) { MD = Number(x.dataset.md); spielplan(); return; }
+    if ((x = q("[data-game]"))) { SCROLL = window.scrollY; spiel(x.dataset.game); return; }
+    if (q("[data-back]")) { spielplan(); window.scrollTo(0, SCROLL || 0); return; }
+    if (q("[data-tore]")) { TOREOFFEN = !TOREOFFEN; spiel(GAME, true); return; }
+    if ((x = q("[data-chip]"))) { const [s, n] = x.dataset.chip.split("|"); CHIPSEL[s] = CHIPSEL[s] === n ? null : n; spiel(GAME, true); return; }
+    if ((x = q("[data-id]"))) { SCROLL = window.scrollY; setHash(x.dataset.id); article(x.dataset.id); }
+  });
+
+  json("news.json").then(d => {
+    N = d.meldungen || [];
+    const h = decodeURIComponent(location.hash.slice(1));
+    if (h === "spielplan") show("spielplan");
+    else if (h === "inside") show("inside");
+    else if (h === "analyse") { list(); loadIN().then(() => { if (IN && IN.analyse) anaArticle(); }); }
+    else if (INFO[h]) { list(); legal(h); }
+    else h && N.some(m => m.id === h) ? article(h) : list();
+  }).catch(() => { if (VIEW === "meldungen") $("#main").innerHTML = '<p class="leer">Die Meldungen konnten nicht geladen werden. Seite neu laden.</p>'; });
+  fetch("patchnotes.json", {cache: "no-store"}).then(r => r.ok ? r.json() : null).then(d => { PATCH = d; }).catch(() => {});
+  loadSP();
+  loadIN();
+})();
+</script>
+
+</body></html>
