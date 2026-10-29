@@ -1,6 +1,37 @@
 {
- "stand": "2026-10-29T11:38",
+ "stand": "2026-10-29T15:57",
  "meldungen": [
+  {
+   "id": "noack-2910",
+   "pid": "00365",
+   "zeit": "2026-10-29T15:00",
+   "spielerin": "Mariann Noack",
+   "verein": "Union Berlin",
+   "nr": "",
+   "pos": "ABW",
+   "tags": [
+    "RÜCKKEHR"
+   ],
+   "status": "fit",
+   "headline": "Noack kehrt nach Verletzungspause bei U17-WM zurück",
+   "text": [
+    "Die Abwehrspielerin von Union Berlin hat bei der U17-WM in Marokko nach längerer Verletzungspause ihr Comeback im DFB-Trikot gefeiert. Gegen Argentinien wurde sie beim 2:1 in der 66. Minute eingewechselt, gegen Marokko blieb sie ohne Einsatz.",
+    "Die deutsche Auswahl schied im Achtelfinale aus. Damit steht Noack Union früher wieder zur Verfügung als zunächst geplant, ein genauer Rückkehrtermin ins Training ist nicht genannt."
+   ],
+   "kickbase": "Für Kickbase ohne kurzfristigen Einfluss, sie ist nach der Verletzung aber wieder im Spielbetrieb und ein möglicher Kaderkandidat für Union.",
+   "quellen": [
+    {
+     "name": "1. FC Union Berlin",
+     "url": "https://www.fc-union-berlin.de/de/meldungen/mariann-noack-feiert-comeback-bei-der-u17-wm-Rge9hw"
+    }
+   ],
+   "foto": "fotos/fcu-mariann-noack.webp",
+   "foto_credit": {
+    "autor": "Union Berlin",
+    "lizenz": "mit Genehmigung: 1. FC Union Berlin",
+    "url": "https://www.fc-union-berlin.de/de/fussball/profis-frauen-nJqf"
+   }
+  },
   {
    "id": "dallmann-2910",
    "pid": "00017",
