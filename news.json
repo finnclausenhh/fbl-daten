@@ -1,6 +1,37 @@
 {
- "stand": "2026-10-29T17:31",
+ "stand": "2026-10-29T20:37",
  "meldungen": [
+  {
+   "id": "desic-2910",
+   "pid": "00049",
+   "zeit": "2026-10-29T20:30",
+   "spielerin": "Medina Dešić",
+   "verein": "Werder Bremen",
+   "nr": "9",
+   "pos": "ST",
+   "tags": [
+    "SPIELBERICHT"
+   ],
+   "status": "fit",
+   "headline": "Dešić trifft, Werder gewinnt Nachholspiel 3:0",
+   "text": [
+    "Werder Bremen hat das Nachholspiel gegen die TSG Hoffenheim mit 3:0 gewonnen. Medina Dešić traf in der 30. Minute nach Vorlage von Lilli Purtscheller zur Führung, Jenny Hipp erhöhte direkt nach der Pause (46.) nach Vorarbeit von Mei Shimada. Das 3:0 war in der 75. Minute ein Eigentor der Hoffenheimerin Gloning.",
+    "Hipp sah in der Startelf die Gelbe Karte und wurde in der 66. Minute ausgewechselt. Hoffenheim hatte zuvor vier Spiele in Serie gewonnen, Werder liegt nun einen Punkt hinter Platz drei."
+   ],
+   "kickbase": "Dešić, Hipp sowie die Vorbereiterinnen Purtscheller und Shimada haben Scorerpunkte gesammelt. Bei Hoffenheim blieb die Offensive ohne Tor.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/regional/rb/rb-kromps-wechsel-zuenden-werders-fussballerinnen-besiegen-hoffenheim-100.html"
+    }
+   ],
+   "foto": "fotos/svw-medina-desic.webp",
+   "foto_credit": {
+    "autor": "Werder Bremen",
+    "lizenz": "mit Genehmigung: Werder Bremen",
+    "url": "https://www.werder.de/teams/frauen/spielerinnen/"
+   }
+  },
   {
    "id": "aufstellung-svw-2910",
    "zeit": "2026-10-29T17:29",
