@@ -1,6 +1,339 @@
 {
- "stand": "2026-10-29T15:57",
+ "stand": "2026-10-29T17:31",
  "meldungen": [
+  {
+   "id": "aufstellung-svw-2910",
+   "zeit": "2026-10-29T17:29",
+   "spielerin": "Spielansetzung",
+   "verein": "Werder Bremen",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "TOP"
+   ],
+   "headline": "Offizielle Aufstellung: Werder Bremen gegen TSG Hoffenheim",
+   "text": [],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306226/werder-bremen_tsg-hoffenheim/aufstellung"
+    }
+   ],
+   "aufstellung": {
+    "gegner": "TSG Hoffenheim",
+    "formation": "4-2-3-1",
+    "startelf": [
+     {
+      "n": "Fischer",
+      "p": "TW",
+      "pid": "00032"
+     },
+     {
+      "n": "Weiß",
+      "p": "ABW",
+      "pid": "00041"
+     },
+     {
+      "n": "Ulbrich",
+      "p": "ABW",
+      "pid": "00040"
+     },
+     {
+      "n": "Gutmann",
+      "p": "ABW",
+      "pid": "00035"
+     },
+     {
+      "n": "Zieniewicz",
+      "p": "ABW",
+      "pid": "00042"
+     },
+     {
+      "n": "Hipp",
+      "p": "DM",
+      "pid": "00045",
+      "kp": "MF"
+     },
+     {
+      "n": "Wirtz",
+      "p": "DM",
+      "pid": "00048",
+      "kp": "MF"
+     },
+     {
+      "n": "Purtscheller",
+      "p": "OM",
+      "pid": "00047",
+      "kp": "MF"
+     },
+     {
+      "n": "Dešić",
+      "p": "OM",
+      "pid": "00049",
+      "kp": "ST"
+     },
+     {
+      "n": "Jaron",
+      "p": "OM",
+      "pid": "00051",
+      "kp": "ST"
+     },
+     {
+      "n": "Vanzeir",
+      "p": "ST",
+      "pid": "00055"
+     }
+    ],
+    "bank": [
+     {
+      "n": "Farwick",
+      "p": "TW",
+      "pid": "00031"
+     },
+     {
+      "n": "Sträßer",
+      "p": "ABW",
+      "pid": "00039"
+     },
+     {
+      "n": "Penner",
+      "p": "ABW",
+      "pid": "00037"
+     },
+     {
+      "n": "Mühlemann",
+      "p": "MF",
+      "pid": "00046"
+     },
+     {
+      "n": "Gmeineder",
+      "p": "MF",
+      "pid": "00044"
+     },
+     {
+      "n": "Ernst",
+      "p": "MF",
+      "pid": "00043",
+      "f": "neu"
+     },
+     {
+      "n": "Mahmoud",
+      "p": "ST",
+      "pid": "00052"
+     },
+     {
+      "n": "Dhont",
+      "p": "ST",
+      "pid": "00050"
+     },
+     {
+      "n": "Shimada",
+      "p": "ST",
+      "pid": "00054"
+     }
+    ],
+    "fehlt": [
+     {
+      "n": "Sherif",
+      "p": "TW"
+     },
+     {
+      "n": "Özdemir",
+      "p": "TW"
+     },
+     {
+      "n": "D'Angelo",
+      "p": "ABW"
+     },
+     {
+      "n": "Magerl",
+      "p": "ABW"
+     },
+     {
+      "n": "Siems",
+      "p": "ABW"
+     },
+     {
+      "n": "Petermann",
+      "p": "ST"
+     }
+    ]
+   }
+  },
+  {
+   "id": "aufstellung-tsg-2910",
+   "zeit": "2026-10-29T17:29",
+   "spielerin": "Spielansetzung",
+   "verein": "TSG Hoffenheim",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "TOP"
+   ],
+   "headline": "Offizielle Aufstellung: TSG Hoffenheim gegen Werder Bremen",
+   "text": [],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306226/werder-bremen_tsg-hoffenheim/aufstellung"
+    }
+   ],
+   "aufstellung": {
+    "gegner": "Werder Bremen",
+    "formation": "4-1-2-3",
+    "startelf": [
+     {
+      "n": "Dick",
+      "p": "TW",
+      "pid": "00119"
+     },
+     {
+      "n": "Gloning",
+      "p": "ABW",
+      "pid": "00131",
+      "kp": "MF"
+     },
+     {
+      "n": "Vöhringer",
+      "p": "ABW",
+      "pid": "00139",
+      "kp": "MF"
+     },
+     {
+      "n": "Doorn",
+      "p": "ABW",
+      "pid": "00123"
+     },
+     {
+      "n": "van de Velde",
+      "p": "ABW",
+      "pid": "00127",
+      "f": "neu"
+     },
+     {
+      "n": "Diehm",
+      "p": "DM",
+      "pid": "00122",
+      "kp": "ABW"
+     },
+     {
+      "n": "Steiner",
+      "p": "OM",
+      "pid": "00145",
+      "kp": "ST"
+     },
+     {
+      "n": "Grimm",
+      "p": "OM",
+      "pid": "00132",
+      "kp": "MF"
+     },
+     {
+      "n": "Laia Martret",
+      "p": "ST",
+      "pid": "00142"
+     },
+     {
+      "n": "Fölmli",
+      "p": "ST",
+      "pid": "00141"
+     },
+     {
+      "n": "Hahn",
+      "p": "ST",
+      "pid": "00133",
+      "kp": "MF",
+      "f": "neu"
+     }
+    ],
+    "bank": [
+     {
+      "n": "Lichtfus",
+      "p": "TW",
+      "pid": "00120"
+     },
+     {
+      "n": "Bitzer",
+      "p": "ABW",
+      "pid": "00121"
+     },
+     {
+      "n": "Kaut",
+      "p": "ABW",
+      "pid": "00125",
+      "f": "raus"
+     },
+     {
+      "n": "Douma",
+      "p": "ABW",
+      "pid": "00124"
+     },
+     {
+      "n": "Röder",
+      "p": "MF",
+      "pid": "00137"
+     },
+     {
+      "n": "Thomann",
+      "p": "MF",
+      "pid": "00138",
+      "f": "neu"
+     },
+     {
+      "n": "Natter",
+      "p": "ST",
+      "pid": "00144",
+      "f": "raus"
+     },
+     {
+      "n": "Fenger",
+      "p": "ST",
+      "pid": "00140"
+     },
+     {
+      "n": "Lueger",
+      "p": "ST",
+      "pid": "00143"
+     }
+    ],
+    "fehlt": [
+     {
+      "n": "Bräutigam",
+      "p": "TW"
+     },
+     {
+      "n": "Ritter",
+      "p": "ABW"
+     },
+     {
+      "n": "Wileschek",
+      "p": "ABW"
+     },
+     {
+      "n": "Ampoorter",
+      "p": "MF"
+     },
+     {
+      "n": "Delacauw",
+      "p": "MF"
+     },
+     {
+      "n": "Harsch",
+      "p": "MF"
+     },
+     {
+      "n": "Kemper",
+      "p": "MF"
+     },
+     {
+      "n": "Luyet",
+      "p": "MF"
+     }
+    ]
+   }
+  },
   {
    "id": "noack-2910",
    "pid": "00365",
