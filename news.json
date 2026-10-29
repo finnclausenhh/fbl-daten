@@ -1,6 +1,36 @@
 {
- "stand": "2026-10-28T22:37",
+ "stand": "2026-10-29T11:38",
  "meldungen": [
+  {
+   "id": "dallmann-2910",
+   "pid": "00017",
+   "zeit": "2026-10-29T10:41",
+   "spielerin": "Linda Dallmann",
+   "verein": "FC Bayern",
+   "nr": "10",
+   "pos": "MF",
+   "tags": [
+    "VERLETZUNG"
+   ],
+   "headline": "Dallmann trägt Platzwunde an der Oberlippe davon",
+   "text": [
+    "Linda Dallmann hat sich im Champions-League-Spiel gegen Real Madrid (2:2) eine Wunde über der Oberlippe zugezogen, die genäht wurde. Das berichtet die Passauer Neue Presse.",
+    "Ob die Verletzung einen Einsatz im Pokalspiel gegen Bayer Leverkusen am Sonntag beeinflusst, ist bisher nicht bekannt."
+   ],
+   "kickbase": "Eine genähte Platzwunde ist meist kein längerer Ausfall. Die Aufstellung am Sonntag zeigt, ob Dallmann spielt.",
+   "quellen": [
+    {
+     "name": "Passauer Neue Presse",
+     "url": "https://www.pnp.de/nachrichten/sport/weltklasse-ja-oder-nein-2-2-gegen-real-madrid-entfacht-debatte-um-die-bayern-frauen-22311605"
+    }
+   ],
+   "foto": "fotos/fcb-linda-dallmann.webp",
+   "foto_credit": {
+    "autor": "FC Bayern",
+    "lizenz": "mit Genehmigung: FC Bayern München",
+    "url": "https://fcbayern.com/frauen/de/teams/1.-mannschaft"
+   }
+  },
   {
    "id": "zicai-2810",
    "pid": "00414",
