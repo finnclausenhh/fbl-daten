@@ -1,6 +1,39 @@
 {
- "stand": "2026-10-29T20:37",
+ "stand": "2026-10-30T11:38",
  "meldungen": [
+  {
+   "id": "gwinn-3010",
+   "pid": "00009",
+   "zeit": "2026-10-29T21:15",
+   "spielerin": "Giulia Gwinn",
+   "verein": "FC Bayern",
+   "nr": "7",
+   "pos": "ABW",
+   "tags": [
+    "UPDATE",
+    "VERLETZUNG"
+   ],
+   "status": "verletzt",
+   "headline": "Gwinn trainiert wieder mit Ball, Comeback im November möglich",
+   "text": [
+    "Giulia Gwinn ist nach ihrem Bänderriss im Sprunggelenk wieder am Ball und läuft wieder. Im ZDF sagte sie am Rande des Champions-League-Spiels gegen Real Madrid, sie sei bald wieder beim Team und müsse nicht mehr lange zuschauen.",
+    "Laut BILD fehlt sie dem FC Bayern seit rund vier Wochen. Das Pokalspiel am Sonntag gegen Bayer Leverkusen kommt demnach noch zu früh. Läuft alles nach Plan, könnte sie im November zurückkehren."
+   ],
+   "kickbase": "Für den Spieltag am Wochenende nicht einplanen. Ein Einsatz im November ist möglich, ein Datum gibt es nicht.",
+   "quellen": [
+    {
+     "name": "BILD",
+     "url": "https://www.bild.de/sport/fussball/giulia-gwinn-bald-wieder-beim-team-comeback-im-november-moeglich-6ae351d57953cec15ae6633e"
+    }
+   ],
+   "foto": "fotos/giulia-gwinn.jpg",
+   "foto_credit": {
+    "autor": "Steffen Prößdorf",
+    "lizenz": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:2022-06-24_Fussball,_Frauen,_L%C3%A4nderspiel,_Deutschland_-_Schweiz_1DX_0701_by_Stepro.jpg"
+   },
+   "instagram": "https://www.instagram.com/giuliagwinn/"
+  },
   {
    "id": "desic-2910",
    "pid": "00049",
