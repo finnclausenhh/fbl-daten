@@ -1,6 +1,38 @@
 {
- "stand": "2026-10-30T14:38",
+ "stand": "2026-10-30T15:40",
  "meldungen": [
+  {
+   "id": "zadrazil-3010",
+   "pid": "00022",
+   "zeit": "2026-10-30T15:15",
+   "spielerin": "Sarah Zadrazil",
+   "verein": "FC Bayern",
+   "nr": "",
+   "pos": "MF",
+   "tags": [
+    "UPDATE",
+    "VERLETZUNG"
+   ],
+   "status": "verletzt",
+   "headline": "Zadrazil fällt vor Pokalspiel mit Muskelproblemen aus",
+   "text": [
+    "Sarah Zadrazil fehlt dem FC Bayern im DFB-Pokalachtelfinale gegen Bayer Leverkusen wegen muskulärer Probleme. Das geht aus dem Vorbericht des Vereins hervor. Die Österreicherin war erst vor gut einer Woche nach ihrem Kreuzbandriss in die Startelf zurückgekehrt und hatte gegen Stuttgart 63 Minuten gespielt.",
+    "Neben ihr fehlen Lena Oberdorf mit einer Reaktion im Kniegelenk und Giulia Gwinn mit einem Außenbandriss. Eine Ausfallzeit für Zadrazil nennt der Verein nicht."
+   ],
+   "kickbase": "Zadrazil ist kurzfristig kein Startelfkandidat. Im Bayern-Mittelfeld fehlen damit gleich zwei Stammkräfte, was Einsatzzeiten für andere Spielerinnen erhöht.",
+   "quellen": [
+    {
+     "name": "FC Bayern",
+     "url": "https://fcbayern.com/frauen/de/news/vorberichte/2026/10/vorschau-dfb-pokal-fc-bayern-frauen---bayer-04-leverkusen"
+    }
+   ],
+   "foto": "fotos/fcb-sarah-zadrazil.webp",
+   "foto_credit": {
+    "autor": "FC Bayern",
+    "lizenz": "mit Genehmigung: FC Bayern München",
+    "url": "https://fcbayern.com/frauen/de/teams/1.-mannschaft"
+   }
+  },
   {
    "id": "shimada-3010",
    "pid": "00054",
