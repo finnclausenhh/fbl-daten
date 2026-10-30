@@ -1,6 +1,37 @@
 {
- "stand": "2026-10-30T11:38",
+ "stand": "2026-10-30T14:38",
  "meldungen": [
+  {
+   "id": "shimada-3010",
+   "pid": "00054",
+   "zeit": "2026-10-30T13:21",
+   "spielerin": "Mei Shimada",
+   "verein": "Werder Bremen",
+   "nr": "8",
+   "pos": "ST",
+   "tags": [
+    "TOP"
+   ],
+   "status": "fit",
+   "headline": "Shimada startet auf der Bank und entscheidet Spiel mit",
+   "text": [
+    "Mei Shimada stand beim 3:0 von Werder Bremen gegen die TSG Hoffenheim nicht in der Startelf, obwohl sie zuvor in sechs von sieben Bundesliga-Spielen von Beginn an gespielt hatte. Zur Pause eingewechselt, bereitete sie das 2:0 durch Jenny Hipp vor.",
+    "Beim 3:0 in der 75. Minute setzte sie Hoffenheims Laura Gloning unter Druck, die den Ball ins eigene Tor lenkte. Die DeichStube wählte Shimada zur Werder-Spielerin des Spiels."
+   ],
+   "kickbase": "Shimada blieb trotz der Bankrolle an beiden Treffern der zweiten Halbzeit beteiligt. Ob sie gegen Mainz im Pokal wieder in die Startelf rückt, ist offen.",
+   "quellen": [
+    {
+     "name": "Fehmarn24 (DeichStube)",
+     "url": "https://www.fehmarn24.de/sport/fussball/werder-bremen-frauen-mei-shimada-ist-spielerin-des-spiels-gegen-tsg-hoffenheim-bundesliga-offensive-zr-94459124.html"
+    }
+   ],
+   "foto": "fotos/svw-mei-shimada.webp",
+   "foto_credit": {
+    "autor": "Werder Bremen",
+    "lizenz": "mit Genehmigung: Werder Bremen",
+    "url": "https://www.werder.de/teams/frauen/spielerinnen/"
+   }
+  },
   {
    "id": "gwinn-3010",
    "pid": "00009",
