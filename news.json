@@ -1,6 +1,258 @@
 {
- "stand": "2026-10-31T15:37",
+ "stand": "2026-10-31T16:37",
  "meldungen": [
+  {
+   "id": "bauereisen-3110",
+   "pid": "00381",
+   "zeit": "2026-10-31T16:00",
+   "spielerin": "Nele Bauereisen",
+   "verein": "Union Berlin",
+   "nr": "23",
+   "pos": "ST",
+   "tags": [
+    "SPIELBERICHT"
+   ],
+   "status": "fit",
+   "headline": "Bauereisen schießt Union per Doppelpack ins Viertelfinale",
+   "text": [
+    "Union Berlin gewinnt das Pokal-Achtelfinale beim Hamburger SV mit 4:3 nach Verlängerung. Nele Bauereisen traf in der 80. Minute und in der 113. Minute zum Siegtor. Die Berlinerinnen lagen zur Pause 0:2 zurück und drehten die Partie mit Treffern von Jella Veit (68.) und Judit Pujols (72.) zum 3:2.",
+    "Der HSV glich in der Nachspielzeit durch Jonna Wrede aus. Samantha Steuerwald sah in der 100. Minute Gelb-Rot, Union spielte die Verlängerung zu zehnt. Sie fehlt damit im Viertelfinale, sofern der DFB keine andere Regelung trifft (Sperre noch nicht bestätigt)."
+   ],
+   "kickbase": "Bauereisen ist mit zwei Toren in einem Pokalspiel in Form. Steuerwalds Platzverweis zählt für die Liga nicht automatisch, ein Pokalverweis kann aber Folgen für das nächste Pokalspiel haben.",
+   "quellen": [
+    {
+     "name": "1. FC Union Berlin",
+     "url": "https://www.fc-union-berlin.de/de/meldungen/unionerinnen-stehen-erstmals-im-pokal-viertelfinale--hwB9QT"
+    },
+    {
+     "name": "Kicker",
+     "url": "https://www.kicker.de/hsv-gegen-union-berlin-2026-frauen-dfb-pokal-5268655/spielbericht"
+    }
+   ],
+   "foto": "fotos/fcu-nele-bauereisen.webp",
+   "foto_credit": {
+    "autor": "Union Berlin",
+    "lizenz": "mit Genehmigung: 1. FC Union Berlin",
+    "url": "https://www.fc-union-berlin.de/de/fussball/profis-frauen-nJqf"
+   },
+   "spiel_aufstellung": [
+    {
+     "verein": "Hamburger SV",
+     "k": "HSV",
+     "gegner": "Union Berlin",
+     "wettbewerb": "DFB-Pokal",
+     "ergebnis": "3:4",
+     "vergleich": "8. Spieltag",
+     "startelf": [
+      {
+       "n": "Baum",
+       "p": "TW",
+       "f": "neu"
+      },
+      {
+       "n": "Mirzaliyeva",
+       "p": "ABW"
+      },
+      {
+       "n": "Böhler",
+       "p": "ABW",
+       "aus": "116"
+      },
+      {
+       "n": "Doucouré",
+       "p": "ABW",
+       "f": "neu",
+       "aus": "84",
+       "gelb": true
+      },
+      {
+       "n": "Stoldt",
+       "p": "ABW"
+      },
+      {
+       "n": "Machtens",
+       "p": "MF"
+      },
+      {
+       "n": "Linberg",
+       "p": "MF",
+       "tore": 1,
+       "gelb": true
+      },
+      {
+       "n": "Bartz",
+       "p": "MF",
+       "aus": "84",
+       "tore": 1
+      },
+      {
+       "n": "Morich",
+       "p": "MF",
+       "aus": "101"
+      },
+      {
+       "n": "Eggert",
+       "p": "ST"
+      },
+      {
+       "n": "Brunnthaler",
+       "p": "ST",
+       "aus": "77"
+      }
+     ],
+     "eingewechselt": [
+      {
+       "n": "Peneau",
+       "p": "MF",
+       "ein_min": "77"
+      },
+      {
+       "n": "Wrede",
+       "p": "MF",
+       "ein_min": "84"
+      },
+      {
+       "n": "Karczewska",
+       "p": "ST",
+       "ein_min": "84"
+      },
+      {
+       "n": "Schwalm",
+       "p": "ST",
+       "ein_min": "101"
+      },
+      {
+       "n": "Dönges",
+       "p": "ABW",
+       "ein_min": "116"
+      }
+     ],
+     "raus": [
+      {
+       "n": "Szemik",
+       "p": "TW",
+       "wo": "nicht im Kader"
+      },
+      {
+       "n": "Dönges",
+       "p": "ABW",
+       "wo": "Bank"
+      }
+     ],
+     "ohne_einsatz": [
+      "Sieger",
+      "Matysik",
+      "Räcke",
+      "Rakow"
+     ]
+    },
+    {
+     "verein": "Union Berlin",
+     "k": "FCU",
+     "gegner": "Hamburger SV",
+     "wettbewerb": "DFB-Pokal",
+     "ergebnis": "4:3",
+     "vergleich": "8. Spieltag",
+     "startelf": [
+      {
+       "n": "Böhi",
+       "p": "TW"
+      },
+      {
+       "n": "Schneider",
+       "p": "ABW",
+       "aus": "60"
+      },
+      {
+       "n": "Tysiak",
+       "p": "ABW",
+       "gelb": true
+      },
+      {
+       "n": "Steuerwald",
+       "p": "ABW",
+       "rot": true
+      },
+      {
+       "n": "Judit Pujols",
+       "p": "ABW",
+       "aus": "109",
+       "tore": 1
+      },
+      {
+       "n": "Hausicke",
+       "p": "MF"
+      },
+      {
+       "n": "Gräwe",
+       "p": "MF",
+       "f": "neu",
+       "aus": "60"
+      },
+      {
+       "n": "Janssens",
+       "p": "MF",
+       "aus": "90"
+      },
+      {
+       "n": "Kamber",
+       "p": "MF"
+      },
+      {
+       "n": "Reissner",
+       "p": "MF",
+       "aus": "60",
+       "gelb": true
+      },
+      {
+       "n": "Bauereisen",
+       "p": "ST",
+       "tore": 2
+      }
+     ],
+     "eingewechselt": [
+      {
+       "n": "Veit",
+       "p": "ABW",
+       "ein_min": "60"
+      },
+      {
+       "n": "Weidauer",
+       "p": "ST",
+       "ein_min": "60"
+      },
+      {
+       "n": "Orschmann",
+       "p": "ST",
+       "ein_min": "60"
+      },
+      {
+       "n": "Weiß",
+       "p": "ABW",
+       "ein_min": "90"
+      },
+      {
+       "n": "Steinert",
+       "p": "ABW",
+       "ein_min": "109"
+      }
+     ],
+     "raus": [
+      {
+       "n": "Weidauer",
+       "p": "ST",
+       "wo": "Bank"
+      }
+     ],
+     "ohne_einsatz": [
+      "Bösl",
+      "Heiseler",
+      "Pawollek",
+      "Egli"
+     ]
+    }
+   ]
+  },
   {
    "id": "bremer-3110",
    "pid": "00206",
@@ -10,7 +262,7 @@
    "nr": "9",
    "pos": "ST",
    "tags": [
-    "TOP"
+    "SPIELBERICHT"
    ],
    "status": "fit",
    "headline": "Bremer schießt Köln ins Pokal-Viertelfinale",
@@ -34,7 +286,189 @@
     "autor": "1. FC Köln",
     "lizenz": "mit Genehmigung: 1. FC Köln",
     "url": "https://fc.de/mannschaften/frauen/kader"
-   }
+   },
+   "spiel_aufstellung": [
+    {
+     "verein": "1. FC Köln",
+     "k": "KOE",
+     "gegner": "RB Leipzig",
+     "wettbewerb": "DFB-Pokal",
+     "ergebnis": "1:0",
+     "vergleich": "8. Spieltag",
+     "startelf": [
+      {
+       "n": "Schmitz",
+       "p": "TW"
+      },
+      {
+       "n": "Degen",
+       "p": "ABW"
+      },
+      {
+       "n": "Bohnen",
+       "p": "ABW"
+      },
+      {
+       "n": "Hegering",
+       "p": "ABW"
+      },
+      {
+       "n": "Imping",
+       "p": "DM",
+       "gelb": true
+      },
+      {
+       "n": "Vogt",
+       "p": "DM",
+       "gelb": true
+      },
+      {
+       "n": "Leimenstoll",
+       "p": "DM",
+       "aus": "86"
+      },
+      {
+       "n": "Feiersinger",
+       "p": "OM"
+      },
+      {
+       "n": "Elsen",
+       "p": "OM"
+      },
+      {
+       "n": "Bremer",
+       "p": "ST",
+       "tore": 1
+      },
+      {
+       "n": "Andrade",
+       "p": "ST",
+       "aus": "78"
+      }
+     ],
+     "eingewechselt": [
+      {
+       "n": "Donhauser",
+       "p": "ABW",
+       "ein_min": "78"
+      },
+      {
+       "n": "Hendrich",
+       "p": "ABW",
+       "ein_min": "86"
+      }
+     ],
+     "raus": [],
+     "ohne_einsatz": [
+      "Nelles",
+      "Dübel",
+      "Weber",
+      "Kerschbaumer",
+      "Schiffarth",
+      "Paci"
+     ]
+    },
+    {
+     "verein": "RB Leipzig",
+     "k": "RBL",
+     "gegner": "1. FC Köln",
+     "wettbewerb": "DFB-Pokal",
+     "ergebnis": "0:1",
+     "vergleich": "8. Spieltag",
+     "startelf": [
+      {
+       "n": "Herzog",
+       "p": "TW"
+      },
+      {
+       "n": "Mathys",
+       "p": "ABW",
+       "aus": "84"
+      },
+      {
+       "n": "Dudek",
+       "p": "ABW",
+       "gelb": true
+      },
+      {
+       "n": "Mertens",
+       "p": "ABW"
+      },
+      {
+       "n": "Tuin",
+       "p": "ABW"
+      },
+      {
+       "n": "Starke",
+       "p": "DM"
+      },
+      {
+       "n": "Pusztai",
+       "p": "DM"
+      },
+      {
+       "n": "Ásgeirsdóttir",
+       "p": "OM",
+       "aus": "66"
+      },
+      {
+       "n": "Schimmer",
+       "p": "ST",
+       "f": "neu",
+       "aus": "78"
+      },
+      {
+       "n": "van Dijk",
+       "p": "ST",
+       "f": "neu",
+       "aus": "78"
+      },
+      {
+       "n": "Boboy",
+       "p": "ST"
+      }
+     ],
+     "eingewechselt": [
+      {
+       "n": "Simonsson",
+       "p": "ST",
+       "ein_min": "66"
+      },
+      {
+       "n": "Pfister",
+       "p": "ST",
+       "ein_min": "78"
+      },
+      {
+       "n": "Hulst",
+       "p": "OM",
+       "ein_min": "78"
+      },
+      {
+       "n": "Norheim",
+       "p": "MF",
+       "ein_min": "84"
+      }
+     ],
+     "raus": [
+      {
+       "n": "Hulst",
+       "p": "OM",
+       "wo": "Bank"
+      },
+      {
+       "n": "Simonsson",
+       "p": "ST",
+       "wo": "Bank"
+      }
+     ],
+     "ohne_einsatz": [
+      "Waldbillig",
+      "Veefkind",
+      "Kramer"
+     ]
+    }
+   ]
   },
   {
    "id": "startelf-koe-3110",
@@ -43,9 +477,7 @@
    "verein": "1. FC Köln",
    "nr": "",
    "pos": "Spielansetzung",
-   "tags": [
-    "TOP"
-   ],
+   "tags": [],
    "headline": "Köln im Pokal gegen Leipzig ohne Ziemer und Zeller",
    "text": [
     "Der 1. FC Köln empfängt heute um 13 Uhr RB Leipzig zum DFB-Pokal-Achtelfinale. Trainerin Carlson schickt Schmitz, Imping, Degen, Bohnen, Hegering, Leimenstoll, Vogt, Feiersinger, Elsen, Bremer und Andrade in die Startelf.",
@@ -68,7 +500,7 @@
    "nr": "",
    "pos": "ST",
    "tags": [
-    "TOP"
+    "SPIELBERICHT"
    ],
    "status": "fit",
    "headline": "Rückert trifft, VfB erstmals im Pokal-Viertelfinale",
@@ -88,7 +520,127 @@
     "autor": "VfB Stuttgart",
     "lizenz": "mit Genehmigung: VfB Stuttgart",
     "url": "https://www.vfb.de/de/1893/frauen/frauen/kader/saisonen/2026-2027/kader/?data=&mobile="
-   }
+   },
+   "spiel_aufstellung": [
+    {
+     "verein": "VfB Stuttgart",
+     "k": "VFB",
+     "gegner": "SGS Essen",
+     "wettbewerb": "DFB-Pokal",
+     "ergebnis": "3:0",
+     "vergleich": "8. Spieltag",
+     "startelf": [
+      {
+       "n": "Giuliani",
+       "p": "TW"
+      },
+      {
+       "n": "Stegemann",
+       "p": "ABW",
+       "tore": 1,
+       "gelb": true
+      },
+      {
+       "n": "Rall",
+       "p": "ABW",
+       "f": "neu",
+       "aus": "46"
+      },
+      {
+       "n": "Hechler",
+       "p": "ABW"
+      },
+      {
+       "n": "Zähringer",
+       "p": "ABW",
+       "aus": "73",
+       "gelb": true
+      },
+      {
+       "n": "Achcińska",
+       "p": "DM"
+      },
+      {
+       "n": "Redzepi",
+       "p": "DM"
+      },
+      {
+       "n": "Hirano",
+       "p": "MF",
+       "f": "neu",
+       "aus": "73"
+      },
+      {
+       "n": "Wieder",
+       "p": "OM",
+       "aus": "60",
+       "tore": 1
+      },
+      {
+       "n": "Rückert",
+       "p": "ST",
+       "f": "neu",
+       "aus": "60",
+       "tore": 1
+      },
+      {
+       "n": "Billa",
+       "p": "ST",
+       "gelb": true
+      }
+     ],
+     "eingewechselt": [
+      {
+       "n": "Norman",
+       "p": "ABW",
+       "ein_min": "46"
+      },
+      {
+       "n": "Mickenhagen",
+       "p": "ABW",
+       "ein_min": "60"
+      },
+      {
+       "n": "Schetter",
+       "p": "OM",
+       "ein_min": "60"
+      },
+      {
+       "n": "Dongus",
+       "p": "ABW",
+       "ein_min": "73"
+      },
+      {
+       "n": "Beuschlein",
+       "p": "ST",
+       "ein_min": "73"
+      }
+     ],
+     "raus": [
+      {
+       "n": "Müller",
+       "p": "ABW",
+       "wo": "nicht im Kader"
+      },
+      {
+       "n": "Schetter",
+       "p": "OM",
+       "wo": "Bank"
+      },
+      {
+       "n": "Hagel",
+       "p": "OM",
+       "wo": "Bank"
+      }
+     ],
+     "ohne_einsatz": [
+      "Beck",
+      "Dongus",
+      "Hagel",
+      "Osawa"
+     ]
+    }
+   ]
   },
   {
    "id": "zadrazil-3010",
@@ -131,7 +683,7 @@
    "nr": "8",
    "pos": "ST",
    "tags": [
-    "TOP"
+    "SPIELBERICHT"
    ],
    "status": "fit",
    "headline": "Shimada startet auf der Bank und entscheidet Spiel mit",
@@ -620,7 +1172,7 @@
    "nr": "28",
    "pos": "ST",
    "tags": [
-    "TOP"
+    "SPIELBERICHT"
    ],
    "status": "fit",
    "headline": "Zicai trifft dreifach beim 7:0 gegen Feyenoord",
@@ -655,7 +1207,7 @@
    "nr": "16",
    "pos": "ST",
    "tags": [
-    "TOP"
+    "SPIELBERICHT"
    ],
    "status": "fit",
    "headline": "Raso und Freigang schießen Frankfurt zum 2:0 in Eindhoven",
@@ -685,7 +1237,9 @@
    "verein": "FC Bayern",
    "nr": "29",
    "pos": "ST",
-   "tags": [],
+   "tags": [
+    "SPIELBERICHT"
+   ],
    "status": "fit",
    "headline": "Imade und Tanikawa retten Bayern ein 2:2 gegen Real",
    "text": [
@@ -708,7 +1262,121 @@
     "autor": "FC Bayern",
     "lizenz": "mit Genehmigung: FC Bayern München",
     "url": "https://fcbayern.com/frauen/de/teams/1.-mannschaft"
-   }
+   },
+   "spiel_aufstellung": [
+    {
+     "verein": "FC Bayern",
+     "k": "FCB",
+     "gegner": "Real Madrid",
+     "wettbewerb": "Champions League",
+     "ergebnis": "2:2",
+     "vergleich": "8. Spieltag",
+     "startelf": [
+      {
+       "n": "Mahmutovic",
+       "p": "TW"
+      },
+      {
+       "n": "Kett",
+       "p": "ABW"
+      },
+      {
+       "n": "Gilles",
+       "p": "ABW",
+       "f": "neu",
+       "aus": "46"
+      },
+      {
+       "n": "Viggósdóttir",
+       "p": "ABW"
+      },
+      {
+       "n": "Ballisager",
+       "p": "ABW",
+       "f": "neu"
+      },
+      {
+       "n": "Amani",
+       "p": "DM",
+       "gelb": true
+      },
+      {
+       "n": "Tanikawa",
+       "p": "DM",
+       "tore": 1
+      },
+      {
+       "n": "Dallmann",
+       "p": "MF",
+       "f": "neu",
+       "aus": "79"
+      },
+      {
+       "n": "Bühl",
+       "p": "OM"
+      },
+      {
+       "n": "Harder",
+       "p": "ST"
+      },
+      {
+       "n": "Imade",
+       "p": "ST",
+       "f": "neu",
+       "aus": "70",
+       "tore": 1
+      }
+     ],
+     "eingewechselt": [
+      {
+       "n": "Eriksson",
+       "p": "ABW",
+       "ein_min": "46"
+      },
+      {
+       "n": "Alara",
+       "p": "OM",
+       "ein_min": "70"
+      },
+      {
+       "n": "Proost",
+       "p": "OM",
+       "ein_min": "79"
+      }
+     ],
+     "raus": [
+      {
+       "n": "Eriksson",
+       "p": "ABW",
+       "wo": "Bank"
+      },
+      {
+       "n": "Naschenweng",
+       "p": "ABW",
+       "wo": "Bank"
+      },
+      {
+       "n": "Proost",
+       "p": "OM",
+       "wo": "Bank"
+      },
+      {
+       "n": "Alara",
+       "p": "OM",
+       "wo": "Bank"
+      }
+     ],
+     "ohne_einsatz": [
+      "Klink",
+      "van Eijk",
+      "Naschenweng",
+      "Dunst",
+      "Damnjanović",
+      "Mattner-Trembleau",
+      "Potsi"
+     ]
+    }
+   ]
   },
   {
    "id": "redzepi-2810",
