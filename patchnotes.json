@@ -1,6 +1,21 @@
 {
- "stand": "2026-10-28T23:00",
+ "stand": "2026-10-31T17:15",
  "eintraege": [
+  {
+   "version": "0.13",
+   "datum": "2026-10-31",
+   "titel": "Neue Spielerinnenfotos, Aufstellungen aus Pokal und Europapokal",
+   "aenderungen": [
+    "Spielerinnenfotos: Alle Portraits sind jetzt freigestellt. Hinter jedem Portrait liegt ein einheitlicher dunkelblauer Grund statt der Vereinsfarbe, dahinter das Vereinswappen als Wasserzeichen. Gilt für Ticker-Karte, Artikelkopf und die kompakte Inside-Formkarte.",
+    "Meldungen: Spielberichte aus DFB-Pokal, Champions League und Europa Cup zeigen unter dem Text die Box „Aufstellung im Spiel“, bei zwei Teams mit Umschalter (eigener Verein zuerst). Je Team Wettbewerb und Ergebnis, Vergleich zur letzten Liga-Startelf, Startelf nach Positionen mit NEU, Toren, Karten und Auswechselminute, „Eingewechselt“ mit Minute, „Nicht in der Startelf“ und „Ohne Einsatz“.",
+    "Artikel-Reihenfolge wie im Web: Kopf, Text, Aufstellung im Spiel, Umfrage, „Für Kickbase“, dann Kommentare, darunter abgetrennt Instagram-Link, Quellen, KI-Hinweis und Bildnachweis. Bei Auf den Punkt stehen die Kommentare vor dem KI-Hinweis.",
+    "Spielplan, offizielle Aufstellung: Eingewechselte zeigen die Einwechselminute hinter dem Namen (grün, Pfeil nach oben), sortiert nach Minute.",
+    "Spielplan-Liste: Vereinsnamen einheitlich als Kurzname und einzeilig (Frankfurt, Leverkusen, Wolfsburg ...), der volle Name steht im Spiel-Detail. Uhrzeit und „Uhr“ exakt mittig untereinander.",
+    "Mögliche Aufstellung: Spielerinnen auf der Bank werden höchstens als „Unsicher“ angezeigt.",
+    "Umfragen: Die Info-Zeile unter jeder Antwort ist immer einzeilig und wird abgeschnitten.",
+    "Kommentare: Hinweis unter „Dein Name“ kürzer und einzeilig, Platzhalter nur „Was meinst du?“, kein Text „Noch keine Kommentare“ mehr, Like-Knopf mit größerer Trefferfläche."
+   ]
+  },
   {
    "version": "0.12",
    "datum": "2026-10-28",
