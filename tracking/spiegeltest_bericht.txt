@@ -1,0 +1,7 @@
+WOSOINSIDER Diagnoselauf
+1. ToolSearch "add_repo github repository" -> mcp__github__create_repository, mcp__github__fork_repository, mcp__github__list_repository_collaborators, mcp__github__actions_list, mcp__github__add_issue_comment (kein add_repo gefunden)
+2. add_repo: nicht aufrufbar - Tool nicht vorhanden. Hinweis: fbl-daten ist laut Session-Scope bereits freigegeben.
+3. clone: Cloning into 'gh'... | Sat Oct 31 14:28:36 UTC 2026 | 29b132d Fotos: neue Vereinsportraits Bayer Leverkusen (26 Spielerinnen, Saison 26/27)
+4. push (Spiegel-Test): exit=0 
+   Remote-Check: 434eea1 Spiegel-Test
+5. Bericht nach tracking/spiegeltest_bericht.txt committet/gepusht (siehe exit unten). 6. entfaellt (Schritt 4 ok).
