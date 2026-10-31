@@ -14,7 +14,8 @@
   "verein": "FC Bayern München",
   "nr": "9",
   "position": "ST",
-  "ersetzt": "fotos/jovana-damnjanovic.jpg"
+  "ersetzt": "fotos/jovana-damnjanovic.jpg",
+  "cx": 0.543
  },
  "Thea Bjelde": {
   "datei": "fotos/wob-thea-bjelde.webp",
@@ -31,7 +32,8 @@
   "verein": "VfL Wolfsburg",
   "nr": "2",
   "position": "ABW",
-  "ersetzt": "fotos/thea-bjelde.jpg"
+  "ersetzt": "fotos/thea-bjelde.jpg",
+  "cx": 0.529
  },
  "Lilli Purtscheller": {
   "datei": "fotos/svw-lilli-purtscheller.webp",
@@ -47,7 +49,8 @@
   "portrait": "fotos/svw-lilli-purtscheller.webp",
   "verein": "Werder Bremen",
   "nr": "7",
-  "position": "MF"
+  "position": "MF",
+  "cx": 0.495
  },
  "Lina Hausicke": {
   "datei": "fotos/fcu-lina-hausicke.webp",
@@ -64,7 +67,8 @@
   "verein": "1. FC Union Berlin",
   "nr": "32",
   "position": "MF",
-  "ersetzt": "fotos/lina-hausicke.jpg"
+  "ersetzt": "fotos/lina-hausicke.jpg",
+  "cx": 0.574
  },
  "Vanessa Fischer": {
   "datei": "fotos/svw-vanessa-fischer.webp",
@@ -80,7 +84,8 @@
   "portrait": "fotos/svw-vanessa-fischer.webp",
   "verein": "Werder Bremen",
   "nr": "1",
-  "position": "TW"
+  "position": "TW",
+  "cx": 0.482
  },
  "Franziska Kett": {
   "datei": "fotos/fcb-franziska-kett.webp",
@@ -97,7 +102,8 @@
   "verein": "FC Bayern München",
   "nr": "20",
   "position": "ABW",
-  "ersetzt": "fotos/franziska-kett.jpg"
+  "ersetzt": "fotos/franziska-kett.jpg",
+  "cx": 0.503
  },
  "Magou Doucouré": {
   "datei": "fotos/hsv-02-doucoure.webp",
@@ -110,7 +116,8 @@
   "jahr": 2026,
   "trikot_alt": false,
   "gross": false,
-  "portrait": "fotos/hsv-02-doucoure.webp"
+  "portrait": "fotos/hsv-02-doucoure.webp",
+  "cx": 0.488
  },
  "Marina Hegering": {
   "datei": "fotos/koe-marina-hegering.webp",
@@ -127,7 +134,8 @@
   "verein": "1. FC Köln",
   "nr": "33",
   "position": "ABW",
-  "ersetzt": "fotos/marina-hegering.jpg"
+  "ersetzt": "fotos/marina-hegering.jpg",
+  "cx": 0.492
  },
  "Lisa Schmitz": {
   "datei": "fotos/koe-lisa-schmitz.webp",
@@ -144,7 +152,8 @@
   "verein": "1. FC Köln",
   "nr": "1",
   "position": "TW",
-  "ersetzt": "fotos/lisa-schmitz.jpg"
+  "ersetzt": "fotos/lisa-schmitz.jpg",
+  "cx": 0.506
  },
  "Kathrin Hendrich": {
   "datei": "fotos/koe-kathrin-hendrich.webp",
@@ -161,7 +170,8 @@
   "verein": "1. FC Köln",
   "nr": "4",
   "position": "ABW",
-  "ersetzt": "fotos/kathrin-hendrich.jpg"
+  "ersetzt": "fotos/kathrin-hendrich.jpg",
+  "cx": 0.497
  },
  "Laura Benkarth": {
   "datei": "fotos/scf-laura-benkarth.webp",
@@ -178,7 +188,8 @@
   "verein": "SC Freiburg",
   "nr": "1",
   "position": "TW",
-  "ersetzt": "fotos/laura-benkarth.jpg"
+  "ersetzt": "fotos/laura-benkarth.jpg",
+  "cx": 0.497
  },
  "Lena Petermann": {
   "datei": "fotos/svw-lena-petermann.webp",
@@ -194,7 +205,8 @@
   "portrait": "fotos/svw-lena-petermann.webp",
   "verein": "Werder Bremen",
   "nr": "20",
-  "position": "ST"
+  "position": "ST",
+  "cx": 0.5
  },
  "Linda Dallmann": {
   "datei": "fotos/fcb-linda-dallmann.webp",
@@ -211,7 +223,8 @@
   "verein": "FC Bayern München",
   "nr": "10",
   "position": "MF",
-  "ersetzt": "fotos/linda-dallmann.jpg"
+  "ersetzt": "fotos/linda-dallmann.jpg",
+  "cx": 0.492
  },
  "Reena Wichmann": {
   "datei": "fotos/vfb-reena-wichmann.webp",
@@ -227,7 +240,8 @@
   "portrait": "fotos/vfb-reena-wichmann.webp",
   "verein": "VfB Stuttgart",
   "nr": "28",
-  "position": "MF"
+  "position": "MF",
+  "cx": 0.502
  },
  "Vanessa Fudalla": {
   "datei": "fotos/b04-vanessa-fudalla.webp",
@@ -244,7 +258,8 @@
   "verein": "Bayer 04 Leverkusen",
   "nr": "21",
   "position": "ST",
-  "ersetzt": "fotos/vanessa-fudalla.jpg"
+  "ersetzt": "fotos/vanessa-fudalla.jpg",
+  "cx": 0.501
  },
  "Anna-Lena Stolze": {
   "datei": "fotos/koe-anna-lena-stolze.webp",
@@ -261,7 +276,8 @@
   "verein": "1. FC Köln",
   "nr": "7",
   "position": "ST",
-  "ersetzt": "fotos/anna-lena-stolze.jpg"
+  "ersetzt": "fotos/anna-lena-stolze.jpg",
+  "cx": 0.495
  },
  "Amanda Ilestedt": {
   "datei": "fotos/sge-amanda-ilestedt.webp",
@@ -278,7 +294,8 @@
   "verein": "Eintracht Frankfurt",
   "nr": "13",
   "position": "ABW",
-  "ersetzt": "fotos/amanda-ilestedt.jpg"
+  "ersetzt": "fotos/amanda-ilestedt.jpg",
+  "cx": 0.503
  },
  "Viktoria Schwalm": {
   "datei": "fotos/hsv-23-schwalm.webp",
@@ -291,7 +308,8 @@
   "jahr": 2026,
   "trikot_alt": false,
   "gross": false,
-  "portrait": "fotos/hsv-23-schwalm.webp"
+  "portrait": "fotos/hsv-23-schwalm.webp",
+  "cx": 0.497
  },
  "Anna Gerhardt": {
   "datei": "fotos/koe-anna-gerhardt.webp",
@@ -308,7 +326,8 @@
   "verein": "1. FC Köln",
   "nr": "21",
   "position": "ABW",
-  "ersetzt": "fotos/anna-gerhardt.jpg"
+  "ersetzt": "fotos/anna-gerhardt.jpg",
+  "cx": 0.498
  },
  "Laura Freigang": {
   "datei": "fotos/sge-laura-freigang.webp",
@@ -325,7 +344,8 @@
   "verein": "Eintracht Frankfurt",
   "nr": "10",
   "position": "ST",
-  "ersetzt": "fotos/laura-freigang.jpg"
+  "ersetzt": "fotos/laura-freigang.jpg",
+  "cx": 0.502
  },
  "Giulia Gwinn": {
   "datei": "fotos/fcb-giulia-gwinn.webp",
@@ -342,7 +362,8 @@
   "verein": "FC Bayern München",
   "nr": "7",
   "position": "ABW",
-  "ersetzt": "fotos/giulia-gwinn.jpg"
+  "ersetzt": "fotos/giulia-gwinn.jpg",
+  "cx": 0.522
  },
  "Klara Bühl": {
   "datei": "fotos/fcb-klara-buhl.webp",
@@ -359,7 +380,8 @@
   "verein": "FC Bayern München",
   "nr": "17",
   "position": "ST",
-  "ersetzt": "fotos/klara-buhl.jpg"
+  "ersetzt": "fotos/klara-buhl.jpg",
+  "cx": 0.486
  },
  "Laura Giuliani": {
   "datei": "fotos/vfb-laura-giuliani.webp",
@@ -375,7 +397,8 @@
   "portrait": "fotos/vfb-laura-giuliani.webp",
   "verein": "VfB Stuttgart",
   "nr": "1",
-  "position": "TW"
+  "position": "TW",
+  "cx": 0.488
  },
  "Jana Vojteková": {
   "datei": "fotos/scf-jana-vojtekova.webp",
@@ -392,7 +415,8 @@
   "verein": "SC Freiburg",
   "nr": "20",
   "position": "ABW",
-  "ersetzt": "fotos/jana-vojtekova.jpg"
+  "ersetzt": "fotos/jana-vojtekova.jpg",
+  "cx": 0.511
  },
  "Lisa Lichtfus": {
   "datei": "fotos/tsg-lisa-lichtfus.webp",
@@ -409,7 +433,8 @@
   "verein": "TSG Hoffenheim",
   "nr": "27",
   "position": "TW",
-  "ersetzt": "fotos/lisa-lichtfus.jpg"
+  "ersetzt": "fotos/lisa-lichtfus.jpg",
+  "cx": 0.499
  },
  "Svenja Fölmli": {
   "datei": "fotos/tsg-svenja-julia-folmli.webp",
@@ -426,7 +451,8 @@
   "verein": "TSG Hoffenheim",
   "nr": "19",
   "position": "ST",
-  "ersetzt": "fotos/svenja-folmli.jpg"
+  "ersetzt": "fotos/svenja-folmli.jpg",
+  "cx": 0.513
  },
  "Smilla Vallotto": {
   "datei": "fotos/wob-smilla-vallotto.webp",
@@ -443,7 +469,8 @@
   "verein": "VfL Wolfsburg",
   "nr": "14",
   "position": "MF",
-  "ersetzt": "fotos/smilla-vallotto.jpg"
+  "ersetzt": "fotos/smilla-vallotto.jpg",
+  "cx": 0.52
  },
  "Noemi Ivelj": {
   "datei": "fotos/sge-noemi-ivelj.webp",
@@ -460,7 +487,8 @@
   "verein": "Eintracht Frankfurt",
   "nr": "4",
   "position": "ABW",
-  "ersetzt": "fotos/noemi-ivelj.jpg"
+  "ersetzt": "fotos/noemi-ivelj.jpg",
+  "cx": 0.505
  },
  "Greta Stegemann": {
   "datei": "fotos/vfb-greta-stegemann.webp",
@@ -476,7 +504,8 @@
   "portrait": "fotos/vfb-greta-stegemann.webp",
   "verein": "VfB Stuttgart",
   "nr": "5",
-  "position": "ABW"
+  "position": "ABW",
+  "cx": 0.502
  },
  "Carina Brunold": {
   "datei": "fotos/scf-carina-brunold.webp",
@@ -493,7 +522,8 @@
   "verein": "SC Freiburg",
   "nr": "14",
   "position": "ST",
-  "ersetzt": "fotos/carina-brunold.jpg"
+  "ersetzt": "fotos/carina-brunold.jpg",
+  "cx": 0.502
  },
  "Nia Szenk": {
   "datei": "fotos/scf-nia-szenk.webp",
@@ -510,7 +540,8 @@
   "verein": "SC Freiburg",
   "nr": "19",
   "position": "ABW",
-  "ersetzt": "fotos/nia-szenk.jpg"
+  "ersetzt": "fotos/nia-szenk.jpg",
+  "cx": 0.505
  },
  "Luna Vanzeir": {
   "datei": "fotos/svw-luna-vanzeir.webp",
@@ -526,7 +557,8 @@
   "portrait": "fotos/svw-luna-vanzeir.webp",
   "verein": "Werder Bremen",
   "nr": "13",
-  "position": "ST"
+  "position": "ST",
+  "cx": 0.464
  },
  "Sabah Seghir": {
   "datei": "fotos/scf-sabah-seghir.webp",
@@ -543,7 +575,8 @@
   "verein": "SC Freiburg",
   "nr": "9",
   "position": "MF",
-  "ersetzt": "fotos/sabah-seghir.jpg"
+  "ersetzt": "fotos/sabah-seghir.jpg",
+  "cx": 0.489
  },
  "Laura Feiersinger": {
   "datei": "fotos/koe-laura-feiersinger.webp",
@@ -560,7 +593,8 @@
   "verein": "1. FC Köln",
   "nr": "27",
   "position": "MF",
-  "ersetzt": "fotos/laura-feiersinger.jpg"
+  "ersetzt": "fotos/laura-feiersinger.jpg",
+  "cx": 0.492
  },
  "Sarah Zadrazil": {
   "datei": "fotos/fcb-sarah-zadrazil.webp",
@@ -577,7 +611,8 @@
   "verein": "FC Bayern München",
   "nr": "25",
   "position": "MF",
-  "ersetzt": "fotos/sarah-zadrazil.jpg"
+  "ersetzt": "fotos/sarah-zadrazil.jpg",
+  "cx": 0.459
  },
  "Marina Georgieva": {
   "datei": "fotos/m05-marina-georgieva.webp",
@@ -594,7 +629,8 @@
   "verein": "1. FSV Mainz 05",
   "nr": "3",
   "position": "ABW",
-  "ersetzt": "fotos/marina-georgieva.jpg"
+  "ersetzt": "fotos/marina-georgieva.jpg",
+  "cx": 0.523
  },
  "Jarne Teulings": {
   "datei": "fotos/sge-jarne-teulings.webp",
@@ -611,7 +647,8 @@
   "verein": "Eintracht Frankfurt",
   "nr": "9",
   "position": "MF",
-  "ersetzt": "fotos/jarne-teulings.jpg"
+  "ersetzt": "fotos/jarne-teulings.jpg",
+  "cx": 0.499
  },
  "Sophie Proost": {
   "datei": "fotos/fcb-sophie-proost.webp",
@@ -628,7 +665,8 @@
   "verein": "FC Bayern München",
   "nr": "23",
   "position": "MF",
-  "ersetzt": "fotos/sophie-proost.jpg"
+  "ersetzt": "fotos/sophie-proost.jpg",
+  "cx": 0.499
  },
  "Sophia Kleinherne": {
   "datei": "fotos/wob-sophia-kleinherne.webp",
@@ -645,7 +683,8 @@
   "verein": "VfL Wolfsburg",
   "nr": "4",
   "position": "ABW",
-  "ersetzt": "fotos/sophia-kleinherne.jpg"
+  "ersetzt": "fotos/sophia-kleinherne.jpg",
+  "cx": 0.535
  },
  "Lena Oberdorf": {
   "datei": "fotos/fcb-lena-oberdorf.webp",
@@ -662,7 +701,8 @@
   "verein": "FC Bayern München",
   "nr": "8",
   "position": "MF",
-  "ersetzt": "fotos/lena-oberdorf.jpg"
+  "ersetzt": "fotos/lena-oberdorf.jpg",
+  "cx": 0.508
  },
  "Juliane Wirtz": {
   "datei": "fotos/svw-juliane-wirtz.webp",
@@ -678,7 +718,8 @@
   "portrait": "fotos/svw-juliane-wirtz.webp",
   "verein": "Werder Bremen",
   "nr": "28",
-  "position": "MF"
+  "position": "MF",
+  "cx": 0.485
  },
  "Sara Doorsoun": {
   "datei": "fotos/sge-sara-doorsoun.webp",
@@ -695,7 +736,8 @@
   "verein": "Eintracht Frankfurt",
   "nr": "23",
   "position": "ABW",
-  "ersetzt": "fotos/sara-doorsoun.jpg"
+  "ersetzt": "fotos/sara-doorsoun.jpg",
+  "cx": 0.501
  },
  "Saskia Matheis": {
   "datei": "fotos/m05-saskia-matheis.webp",
@@ -712,7 +754,8 @@
   "verein": "1. FSV Mainz 05",
   "nr": "19",
   "position": "MF",
-  "ersetzt": "fotos/saskia-matheis.jpg"
+  "ersetzt": "fotos/saskia-matheis.jpg",
+  "cx": 0.526
  },
  "Pernille Harder": {
   "datei": "fotos/fcb-pernille-harder.webp",
@@ -729,7 +772,8 @@
   "verein": "FC Bayern München",
   "nr": "21",
   "position": "ST",
-  "ersetzt": "fotos/pernille-harder.jpg"
+  "ersetzt": "fotos/pernille-harder.jpg",
+  "cx": 0.501
  },
  "Caroline Siems": {
   "datei": "fotos/svw-caroline-siems.webp",
@@ -745,7 +789,8 @@
   "portrait": "fotos/svw-caroline-siems.webp",
   "verein": "Werder Bremen",
   "nr": "21",
-  "position": "ABW"
+  "position": "ABW",
+  "cx": 0.493
  },
  "Meret Felde": {
   "datei": "fotos/scf-meret-felde.webp",
@@ -762,7 +807,8 @@
   "verein": "SC Freiburg",
   "nr": "4",
   "position": "MF",
-  "ersetzt": "fotos/meret-felde.jpg"
+  "ersetzt": "fotos/meret-felde.jpg",
+  "cx": 0.506
  },
  "Dina Orschmann": {
   "datei": "fotos/fcu-dina-orschmann.webp",
@@ -779,7 +825,8 @@
   "verein": "1. FC Union Berlin",
   "nr": "11",
   "position": "ST",
-  "ersetzt": "fotos/dina-orschmann.jpg"
+  "ersetzt": "fotos/dina-orschmann.jpg",
+  "cx": 0.513
  },
  "Sophie Weidauer": {
   "datei": "fotos/fcu-sophie-weidauer.webp",
@@ -796,7 +843,8 @@
   "verein": "1. FC Union Berlin",
   "nr": "9",
   "position": "ST",
-  "ersetzt": "fotos/sophie-weidauer.jpg"
+  "ersetzt": "fotos/sophie-weidauer.jpg",
+  "cx": 0.501
  },
  "Lou-Ann Joly": {
   "datei": "fotos/rbl-lou-ann-joly.webp",
@@ -813,7 +861,8 @@
   "verein": "RB Leipzig",
   "nr": "6",
   "position": "MF",
-  "ersetzt": "fotos/lou-ann-joly.jpg"
+  "ersetzt": "fotos/lou-ann-joly.jpg",
+  "cx": 0.511
  },
  "Lumbardha Misini": {
   "datei": "fotos/b04-lumbardha-misini.webp",
@@ -830,7 +879,8 @@
   "verein": "Bayer 04 Leverkusen",
   "nr": "34",
   "position": "MF",
-  "ersetzt": "fotos/lumbardha-misini.jpg"
+  "ersetzt": "fotos/lumbardha-misini.jpg",
+  "cx": 0.497
  },
  "Nadine Anstatt": {
   "datei": "fotos/m05-nadine-anstatt.webp",
@@ -847,7 +897,8 @@
   "verein": "1. FSV Mainz 05",
   "nr": "27",
   "position": "ST",
-  "ersetzt": "fotos/nadine-anstatt.jpg"
+  "ersetzt": "fotos/nadine-anstatt.jpg",
+  "cx": 0.534
  },
  "Elena Dhont": {
   "datei": "fotos/svw-elena-dhont.webp",
@@ -863,7 +914,8 @@
   "portrait": "fotos/svw-elena-dhont.webp",
   "verein": "Werder Bremen",
   "nr": "31",
-  "position": "ST"
+  "position": "ST",
+  "cx": 0.502
  },
  "Therese Simonsson": {
   "datei": "fotos/rbl-therese-simonsson.webp",
@@ -880,7 +932,8 @@
   "verein": "RB Leipzig",
   "nr": "27",
   "position": "ST",
-  "ersetzt": "fotos/therese-simonsson.jpg"
+  "ersetzt": "fotos/therese-simonsson.jpg",
+  "cx": 0.507
  },
  "Anna Klink": {
   "datei": "fotos/fcb-anna-klink.webp",
@@ -897,7 +950,8 @@
   "verein": "FC Bayern München",
   "nr": "38",
   "position": "TW",
-  "ersetzt": "fotos/anna-klink.jpg"
+  "ersetzt": "fotos/anna-klink.jpg",
+  "cx": 0.516
  },
  "Sandra Starke": {
   "datei": "fotos/rbl-sandra-starke.webp",
@@ -914,7 +968,8 @@
   "verein": "RB Leipzig",
   "nr": "13",
   "position": "ST",
-  "ersetzt": "fotos/sandra-starke.jpg"
+  "ersetzt": "fotos/sandra-starke.jpg",
+  "cx": 0.531
  },
  "Fabienne Dongus": {
   "datei": "fotos/vfb-fabienne-dongus.webp",
@@ -930,7 +985,8 @@
   "portrait": "fotos/vfb-fabienne-dongus.webp",
   "verein": "VfB Stuttgart",
   "nr": "33",
-  "position": "MF"
+  "position": "MF",
+  "cx": 0.497
  },
  "Tamar Dongus": {
   "datei": "fotos/vfb-tamar-dongus.webp",
@@ -946,7 +1002,8 @@
   "portrait": "fotos/vfb-tamar-dongus.webp",
   "verein": "VfB Stuttgart",
   "nr": "32",
-  "position": "ABW"
+  "position": "ABW",
+  "cx": 0.495
  },
  "Maximiliane Rall": {
   "datei": "fotos/vfb-maxi-rall.webp",
@@ -962,7 +1019,8 @@
   "portrait": "fotos/vfb-maxi-rall.webp",
   "verein": "VfB Stuttgart",
   "nr": "8",
-  "position": "ABW"
+  "position": "ABW",
+  "cx": 0.509
  },
  "Magdalena Eriksson": {
   "datei": "fotos/fcb-magdalena-eriksson.webp",
@@ -979,7 +1037,8 @@
   "verein": "FC Bayern München",
   "nr": "5",
   "position": "ABW",
-  "ersetzt": "fotos/magdalena-eriksson.jpg"
+  "ersetzt": "fotos/magdalena-eriksson.jpg",
+  "cx": 0.502
  },
  "Hayley Raso": {
   "datei": "fotos/sge-hayley-raso.webp",
@@ -996,7 +1055,8 @@
   "verein": "Eintracht Frankfurt",
   "nr": "16",
   "position": "ST",
-  "ersetzt": "fotos/hayley-raso.jpg"
+  "ersetzt": "fotos/hayley-raso.jpg",
+  "cx": 0.503
  },
  "Barbara Dunst": {
   "datei": "fotos/fcb-barbara-dunst.webp",
@@ -1013,7 +1073,8 @@
   "verein": "FC Bayern München",
   "nr": "28",
   "position": "MF",
-  "ersetzt": "fotos/barbara-dunst.jpg"
+  "ersetzt": "fotos/barbara-dunst.jpg",
+  "cx": 0.507
  },
  "Annabel Schasching": {
   "datei": "fotos/rbl-annabel-schasching.webp",
@@ -1030,7 +1091,8 @@
   "verein": "RB Leipzig",
   "nr": "16",
   "position": "MF",
-  "ersetzt": "fotos/annabel-schasching.jpg"
+  "ersetzt": "fotos/annabel-schasching.jpg",
+  "cx": 0.516
  },
  "Vanessa Gilles": {
   "datei": "fotos/fcb-vanessa-gilles.webp",
@@ -1047,7 +1109,8 @@
   "verein": "FC Bayern München",
   "nr": "2",
   "position": "ABW",
-  "ersetzt": "fotos/vanessa-gilles.jpg"
+  "ersetzt": "fotos/vanessa-gilles.jpg",
+  "cx": 0.494
  },
  "Lisa Karl": {
   "datei": "fotos/scf-lisa-karl.webp",
@@ -1064,7 +1127,8 @@
   "verein": "SC Freiburg",
   "nr": "2",
   "position": "ABW",
-  "ersetzt": "fotos/lisa-karl.jpg"
+  "ersetzt": "fotos/lisa-karl.jpg",
+  "cx": 0.495
  },
  "Janina Minge": {
   "datei": "fotos/wob-janina-minge.webp",
@@ -1081,7 +1145,8 @@
   "verein": "VfL Wolfsburg",
   "nr": "6",
   "position": "MF",
-  "ersetzt": "fotos/janina-minge.jpg"
+  "ersetzt": "fotos/janina-minge.jpg",
+  "cx": 0.513
  },
  "Jana Kappes": {
   "datei": "fotos/jana-kappes.jpg",
@@ -1109,7 +1174,8 @@
   "verein": "Bayer 04 Leverkusen",
   "nr": "2",
   "position": "ABW",
-  "ersetzt": "fotos/selina-ostermeier.jpg"
+  "ersetzt": "fotos/selina-ostermeier.jpg",
+  "cx": 0.499
  },
  "Sofie Lundgaard": {
   "datei": "fotos/sge-sofie-lundgaard.webp",
@@ -1126,7 +1192,8 @@
   "verein": "Eintracht Frankfurt",
   "nr": "6",
   "position": "MF",
-  "ersetzt": "fotos/sofie-lundgaard.jpg"
+  "ersetzt": "fotos/sofie-lundgaard.jpg",
+  "cx": 0.499
  },
  "Lilla Turányi": {
   "datei": "fotos/b04-lilla-turanyi.webp",
@@ -1143,7 +1210,8 @@
   "verein": "Bayer 04 Leverkusen",
   "nr": "24",
   "position": "ABW",
-  "ersetzt": "fotos/lilla-turanyi.jpg"
+  "ersetzt": "fotos/lilla-turanyi.jpg",
+  "cx": 0.505
  },
  "Amber Tysiak": {
   "datei": "fotos/fcu-amber-tysiak.webp",
@@ -1160,7 +1228,8 @@
   "verein": "1. FC Union Berlin",
   "nr": "26",
   "position": "ABW",
-  "ersetzt": "fotos/amber-tysiak.jpg"
+  "ersetzt": "fotos/amber-tysiak.jpg",
+  "cx": 0.604
  },
  "Isabella Jaron": {
   "datei": "fotos/svw-isabella-jaron.webp",
@@ -1176,7 +1245,8 @@
   "portrait": "fotos/svw-isabella-jaron.webp",
   "verein": "Werder Bremen",
   "nr": "11",
-  "position": "ST"
+  "position": "ST",
+  "cx": 0.485
  },
  "Michelle Ulbrich": {
   "datei": "fotos/svw-michelle-ulbrich.webp",
@@ -1192,7 +1262,8 @@
   "portrait": "fotos/svw-michelle-ulbrich.webp",
   "verein": "Werder Bremen",
   "nr": "5",
-  "position": "ABW"
+  "position": "ABW",
+  "cx": 0.492
  },
  "Giovanna Hoffmann": {
   "datei": "fotos/wob-giovanna-hoffmann.webp",
@@ -1209,7 +1280,8 @@
   "verein": "VfL Wolfsburg",
   "nr": "7",
   "position": "ST",
-  "ersetzt": "fotos/giovanna-hoffmann.jpg"
+  "ersetzt": "fotos/giovanna-hoffmann.jpg",
+  "cx": 0.514
  },
  "Nina Lührßen": {
   "datei": "fotos/sge-nina-luhr-en.webp",
@@ -1226,7 +1298,8 @@
   "verein": "Eintracht Frankfurt",
   "nr": "11",
   "position": "ABW",
-  "ersetzt": "fotos/nina-luhren.jpg"
+  "ersetzt": "fotos/nina-luhren.jpg",
+  "cx": 0.498
  },
  "Martina Tufeković": {
   "datei": "fotos/wob-martina-tufekovic.webp",
@@ -1243,7 +1316,8 @@
   "verein": "VfL Wolfsburg",
   "nr": "21",
   "position": "TW",
-  "ersetzt": "fotos/martina-tufekovic.jpg"
+  "ersetzt": "fotos/martina-tufekovic.jpg",
+  "cx": 0.509
  },
  "Andrea Norheim": {
   "datei": "fotos/rbl-andrea-norheim.webp",
@@ -1260,7 +1334,8 @@
   "verein": "RB Leipzig",
   "nr": "3",
   "position": "MF",
-  "ersetzt": "fotos/andrea-norheim.jpg"
+  "ersetzt": "fotos/andrea-norheim.jpg",
+  "cx": 0.505
  },
  "Alieke Tuin": {
   "datei": "fotos/rbl-alieke-tuin.webp",
@@ -1277,7 +1352,8 @@
   "verein": "RB Leipzig",
   "nr": "22",
   "position": "ABW",
-  "ersetzt": "fotos/alieke-tuin.jpg"
+  "ersetzt": "fotos/alieke-tuin.jpg",
+  "cx": 0.508
  },
  "Charlotte Hulst": {
   "datei": "fotos/rbl-charlotte-hulst.webp",
@@ -1294,7 +1370,8 @@
   "verein": "RB Leipzig",
   "nr": "77",
   "position": "ST",
-  "ersetzt": "fotos/charlotte-hulst.jpg"
+  "ersetzt": "fotos/charlotte-hulst.jpg",
+  "cx": 0.514
  },
  "Hanna Bennison": {
   "datei": "fotos/sge-hanna-bennison.webp",
@@ -1311,7 +1388,8 @@
   "verein": "Eintracht Frankfurt",
   "nr": "8",
   "position": "MF",
-  "ersetzt": "fotos/hanna-bennison.jpg"
+  "ersetzt": "fotos/hanna-bennison.jpg",
+  "cx": 0.5
  },
  "Melissa Friedrich": {
   "datei": "fotos/b04-melissa-friedrich.webp",
@@ -1328,7 +1406,8 @@
   "verein": "Bayer 04 Leverkusen",
   "nr": "3",
   "position": "ABW",
-  "ersetzt": "fotos/melissa-friedrich.jpg"
+  "ersetzt": "fotos/melissa-friedrich.jpg",
+  "cx": 0.494
  },
  "Franziska Harsch": {
   "datei": "fotos/tsg-franziska-harsch.webp",
@@ -1345,7 +1424,8 @@
   "verein": "TSG Hoffenheim",
   "nr": "17",
   "position": "MF",
-  "ersetzt": "fotos/franziska-harsch.jpg"
+  "ersetzt": "fotos/franziska-harsch.jpg",
+  "cx": 0.51
  },
  "Regina van Eijk": {
   "datei": "fotos/fcb-regina-van-eijk.webp",
@@ -1362,7 +1442,8 @@
   "verein": "FC Bayern München",
   "nr": "22",
   "position": "TW",
-  "ersetzt": "fotos/regina-van-eijk.jpg"
+  "ersetzt": "fotos/regina-van-eijk.jpg",
+  "cx": 0.476
  },
  "Lisa Doorn": {
   "datei": "fotos/tsg-lisa-doorn.webp",
@@ -1379,7 +1460,8 @@
   "verein": "TSG Hoffenheim",
   "nr": "14",
   "position": "ABW",
-  "ersetzt": "fotos/lisa-doorn.jpg"
+  "ersetzt": "fotos/lisa-doorn.jpg",
+  "cx": 0.501
  },
  "Katharina Naschenweng": {
   "datei": "fotos/fcb-katharina-naschenweng.webp",
@@ -1396,7 +1478,8 @@
   "verein": "FC Bayern München",
   "nr": "19",
   "position": "ABW",
-  "ersetzt": "fotos/katharina-naschenweng.jpg"
+  "ersetzt": "fotos/katharina-naschenweng.jpg",
+  "cx": 0.481
  },
  "Lieske Carleer": {
   "datei": "fotos/wob-lieske-carleer.webp",
@@ -1413,7 +1496,8 @@
   "verein": "VfL Wolfsburg",
   "nr": "3",
   "position": "ABW",
-  "ersetzt": "fotos/lieske-carleer.jpg"
+  "ersetzt": "fotos/lieske-carleer.jpg",
+  "cx": 0.52
  },
  "Nikée van Dijk": {
   "datei": "fotos/rbl-nikee-van-dijk.webp",
@@ -1430,7 +1514,8 @@
   "verein": "RB Leipzig",
   "nr": "7",
   "position": "ST",
-  "ersetzt": "fotos/nikee-van-dijk.jpg"
+  "ersetzt": "fotos/nikee-van-dijk.jpg",
+  "cx": 0.521
  },
  "Erëleta Memeti": {
   "datei": "fotos/sge-ereleta-memeti.webp",
@@ -1447,7 +1532,8 @@
   "verein": "Eintracht Frankfurt",
   "nr": "7",
   "position": "ST",
-  "ersetzt": "fotos/ereleta-memeti.jpg"
+  "ersetzt": "fotos/ereleta-memeti.jpg",
+  "cx": 0.503
  },
  "Verena Wieder": {
   "datei": "fotos/vfb-verena-wieder.webp",
@@ -1463,7 +1549,8 @@
   "portrait": "fotos/vfb-verena-wieder.webp",
   "verein": "VfB Stuttgart",
   "nr": "31",
-  "position": "ST"
+  "position": "ST",
+  "cx": 0.507
  },
  "Ingibjörg Sigurðardóttir": {
   "datei": "fotos/scf-ingibjorg-sigurdardottir.webp",
@@ -1480,7 +1567,8 @@
   "verein": "SC Freiburg",
   "nr": "24",
   "position": "ABW",
-  "ersetzt": "fotos/ingibjorg-sigurardottir.jpg"
+  "ersetzt": "fotos/ingibjorg-sigurardottir.jpg",
+  "cx": 0.505
  },
  "Pauline Bremer": {
   "datei": "fotos/koe-pauline-bremer.webp",
@@ -1497,7 +1585,8 @@
   "verein": "1. FC Köln",
   "nr": "9",
   "position": "ST",
-  "ersetzt": "fotos/pauline-bremer.jpg"
+  "ersetzt": "fotos/pauline-bremer.jpg",
+  "cx": 0.497
  },
  "Kinga Szemik": {
   "datei": "fotos/hsv-12-szemik.webp",
@@ -1510,7 +1599,8 @@
   "jahr": 2026,
   "trikot_alt": false,
   "gross": false,
-  "portrait": "fotos/hsv-12-szemik.webp"
+  "portrait": "fotos/hsv-12-szemik.webp",
+  "cx": 0.502
  },
  "Rebecka Blomqvist": {
   "datei": "fotos/sge-rebecka-blomqvist.webp",
@@ -1527,7 +1617,8 @@
   "verein": "Eintracht Frankfurt",
   "nr": "28",
   "position": "MF",
-  "ersetzt": "fotos/rebecka-blomqvist.jpg"
+  "ersetzt": "fotos/rebecka-blomqvist.jpg",
+  "cx": 0.516
  },
  "Judith Steinert": {
   "datei": "fotos/fcu-judith-steinert.webp",
@@ -1544,7 +1635,8 @@
   "verein": "1. FC Union Berlin",
   "nr": "17",
   "position": "ABW",
-  "ersetzt": "fotos/judith-steinert.jpg"
+  "ersetzt": "fotos/judith-steinert.jpg",
+  "cx": 0.495
  },
  "Pia-Sophie Wolter": {
   "datei": "fotos/sge-pia-sophie-wolter.webp",
@@ -1561,7 +1653,8 @@
   "verein": "Eintracht Frankfurt",
   "nr": "17",
   "position": "MF",
-  "ersetzt": "fotos/pia-sophie-wolter.jpg"
+  "ersetzt": "fotos/pia-sophie-wolter.jpg",
+  "cx": 0.505
  },
  "Tanja Pawollek": {
   "datei": "fotos/fcu-tanja-pawollek.webp",
@@ -1578,7 +1671,8 @@
   "verein": "1. FC Union Berlin",
   "nr": "31",
   "position": "MF",
-  "ersetzt": "fotos/tanja-pawollek.jpg"
+  "ersetzt": "fotos/tanja-pawollek.jpg",
+  "cx": 0.505
  },
  "Stina Johannes": {
   "datei": "fotos/wob-stina-johannes.webp",
@@ -1595,7 +1689,8 @@
   "verein": "VfL Wolfsburg",
   "nr": "1",
   "position": "TW",
-  "ersetzt": "fotos/stina-johannes.jpg"
+  "ersetzt": "fotos/stina-johannes.jpg",
+  "cx": 0.505
  },
  "Janina Hechler": {
   "datei": "fotos/vfb-janina-hechler.webp",
@@ -1611,7 +1706,8 @@
   "portrait": "fotos/vfb-janina-hechler.webp",
   "verein": "VfB Stuttgart",
   "nr": "16",
-  "position": "ABW"
+  "position": "ABW",
+  "cx": 0.494
  },
  "Laura Sieger": {
   "datei": "fotos/hsv-01-sieger.webp",
@@ -1624,7 +1720,8 @@
   "jahr": 2026,
   "trikot_alt": false,
   "gross": false,
-  "portrait": "fotos/hsv-01-sieger.webp"
+  "portrait": "fotos/hsv-01-sieger.webp",
+  "cx": 0.498
  },
  "Cara Bösl": {
   "datei": "fotos/fcu-cara-bosl.webp",
@@ -1641,7 +1738,8 @@
   "verein": "1. FC Union Berlin",
   "nr": "1",
   "position": "TW",
-  "ersetzt": "fotos/cara-bosl.jpg"
+  "ersetzt": "fotos/cara-bosl.jpg",
+  "cx": 0.503
  },
  "Elvira Herzog": {
   "datei": "fotos/rbl-elvira-herzog.webp",
@@ -1658,7 +1756,8 @@
   "verein": "RB Leipzig",
   "nr": "1",
   "position": "TW",
-  "ersetzt": "fotos/elvira-herzog.jpg"
+  "ersetzt": "fotos/elvira-herzog.jpg",
+  "cx": 0.494
  },
  "Lara Marti": {
   "datei": "fotos/rbl-lara-marti.webp",
@@ -1675,7 +1774,8 @@
   "verein": "RB Leipzig",
   "nr": "30",
   "position": "ABW",
-  "ersetzt": "fotos/lara-marti.jpg"
+  "ersetzt": "fotos/lara-marti.jpg",
+  "cx": 0.508
  },
  "Julia Stierli": {
   "datei": "fotos/scf-julia-stierli.webp",
@@ -1692,7 +1792,8 @@
   "verein": "SC Freiburg",
   "nr": "5",
   "position": "ABW",
-  "ersetzt": "fotos/julia-stierli.jpg"
+  "ersetzt": "fotos/julia-stierli.jpg",
+  "cx": 0.498
  },
  "Weronika Zawistowska": {
   "datei": "fotos/koe-weronika-zawistowska.webp",
@@ -1709,7 +1810,8 @@
   "verein": "1. FC Köln",
   "nr": "10",
   "position": "ST",
-  "ersetzt": "fotos/weronika-zawistowska.jpg"
+  "ersetzt": "fotos/weronika-zawistowska.jpg",
+  "cx": 0.491
  },
  "Sára Pusztai": {
   "datei": "fotos/rbl-sara-pusztai.webp",
@@ -1726,7 +1828,8 @@
   "verein": "RB Leipzig",
   "nr": "18",
   "position": "MF",
-  "ersetzt": "fotos/sara-pusztai.jpg"
+  "ersetzt": "fotos/sara-pusztai.jpg",
+  "cx": 0.513
  },
  "Nigar Mirzaliyeva": {
   "datei": "fotos/hsv-04-mirzaliyeva.webp",
@@ -1739,7 +1842,8 @@
   "jahr": 2026,
   "trikot_alt": false,
   "gross": false,
-  "portrait": "fotos/hsv-04-mirzaliyeva.webp"
+  "portrait": "fotos/hsv-04-mirzaliyeva.webp",
+  "cx": 0.508
  },
  "Inga Schuldt": {
   "datei": "fotos/koe-inga-schuldt.webp",
@@ -1756,7 +1860,8 @@
   "verein": "1. FC Köln",
   "nr": "31",
   "position": "TW",
-  "ersetzt": "fotos/inga-schuldt.jpg"
+  "ersetzt": "fotos/inga-schuldt.jpg",
+  "cx": 0.501
  },
  "Michelle Weiß": {
   "datei": "fotos/svw-michelle-wei.webp",
@@ -1772,7 +1877,8 @@
   "portrait": "fotos/svw-michelle-wei.webp",
   "verein": "Werder Bremen",
   "nr": "15",
-  "position": "ABW"
+  "position": "ABW",
+  "cx": 0.477
  },
  "Sanja Homann": {
   "datei": "fotos/fcn-sanja-homann.webp",
@@ -1789,7 +1895,8 @@
   "verein": "1. FC Nürnberg",
   "nr": "19",
   "position": "MF",
-  "ersetzt": "fotos/sanja-homann.jpg"
+  "ersetzt": "fotos/sanja-homann.jpg",
+  "cx": 0.494
  },
  "Nina Räcke": {
   "datei": "fotos/hsv-39-racke.webp",
@@ -1802,7 +1909,8 @@
   "jahr": 2026,
   "trikot_alt": false,
   "gross": false,
-  "portrait": "fotos/hsv-39-racke.webp"
+  "portrait": "fotos/hsv-39-racke.webp",
+  "cx": 0.5
  },
  "Claudia Wenger": {
   "datei": "fotos/b04-claudia-wenger.webp",
@@ -1819,7 +1927,8 @@
   "verein": "Bayer 04 Leverkusen",
   "nr": "5",
   "position": "ABW",
-  "ersetzt": "fotos/claudia-wenger.jpg"
+  "ersetzt": "fotos/claudia-wenger.jpg",
+  "cx": 0.505
  },
  "Julia Pollak": {
   "datei": "fotos/fcn-julia-pollak.webp",
@@ -1836,7 +1945,8 @@
   "verein": "1. FC Nürnberg",
   "nr": "22",
   "position": "ABW",
-  "ersetzt": "fotos/julia-pollak.jpg"
+  "ersetzt": "fotos/julia-pollak.jpg",
+  "cx": 0.504
  },
  "Chiara Hahn": {
   "datei": "fotos/tsg-chiara-hahn.webp",
@@ -1853,7 +1963,8 @@
   "verein": "TSG Hoffenheim",
   "nr": "23",
   "position": "MF",
-  "ersetzt": "fotos/chiara-hahn.jpg"
+  "ersetzt": "fotos/chiara-hahn.jpg",
+  "cx": 0.508
  },
  "Gentiana Fetaj": {
   "datei": "fotos/m05-gentiana-fetaj.webp",
@@ -1870,7 +1981,8 @@
   "verein": "1. FSV Mainz 05",
   "nr": "7",
   "position": "MF",
-  "ersetzt": "fotos/gentiana-fetaj.jpg"
+  "ersetzt": "fotos/gentiana-fetaj.jpg",
+  "cx": 0.544
  },
  "Luca-Emily Birkholz": {
   "datei": "fotos/scf-luca-birkholz.webp",
@@ -1887,7 +1999,8 @@
   "verein": "SC Freiburg",
   "nr": "23",
   "position": "MF",
-  "ersetzt": "fotos/luca-emily-birkholz.jpg"
+  "ersetzt": "fotos/luca-emily-birkholz.jpg",
+  "cx": 0.504
  },
  "Camilla Küver": {
   "datei": "fotos/wob-camilla-kuver.webp",
@@ -1904,7 +2017,8 @@
   "verein": "VfL Wolfsburg",
   "nr": "16",
   "position": "ABW",
-  "ersetzt": "fotos/camilla-kuver.jpg"
+  "ersetzt": "fotos/camilla-kuver.jpg",
+  "cx": 0.522
  },
  "Lisa Heiseler": {
   "datei": "fotos/fcu-lisa-heiseler.webp",
@@ -1921,7 +2035,8 @@
   "verein": "1. FC Union Berlin",
   "nr": "7",
   "position": "MF",
-  "ersetzt": "fotos/lisa-heiseler.jpg"
+  "ersetzt": "fotos/lisa-heiseler.jpg",
+  "cx": 0.526
  },
  "Nadine Böhi": {
   "datei": "fotos/fcu-nadine-bohi.webp",
@@ -1938,7 +2053,8 @@
   "verein": "1. FC Union Berlin",
   "nr": "28",
   "position": "TW",
-  "ersetzt": "fotos/nadine-bohi.jpg"
+  "ersetzt": "fotos/nadine-bohi.jpg",
+  "cx": 0.529
  },
  "Julia Magerl": {
   "datei": "fotos/svw-julia-magerl.webp",
@@ -1954,7 +2070,8 @@
   "portrait": "fotos/svw-julia-magerl.webp",
   "verein": "Werder Bremen",
   "nr": "4",
-  "position": "ABW"
+  "position": "ABW",
+  "cx": 0.462
  },
  "Chantal Hagel": {
   "datei": "fotos/vfb-chantal-hagel.webp",
@@ -1970,7 +2087,8 @@
   "portrait": "fotos/vfb-chantal-hagel.webp",
   "verein": "VfB Stuttgart",
   "nr": "6",
-  "position": "MF"
+  "position": "MF",
+  "cx": 0.505
  },
  "Laura Dick": {
   "datei": "fotos/tsg-laura-dick.webp",
@@ -1987,7 +2105,8 @@
   "verein": "TSG Hoffenheim",
   "nr": "1",
   "position": "TW",
-  "ersetzt": "fotos/laura-dick.jpg"
+  "ersetzt": "fotos/laura-dick.jpg",
+  "cx": 0.507
  },
  "Lisanne Gräwe": {
   "datei": "fotos/fcu-lisanne-grawe.webp",
@@ -2004,7 +2123,8 @@
   "verein": "1. FC Union Berlin",
   "nr": "6",
   "position": "MF",
-  "ersetzt": "fotos/lisanne-grawe.jpg"
+  "ersetzt": "fotos/lisanne-grawe.jpg",
+  "cx": 0.51
  },
  "Vanessa Diehm": {
   "datei": "fotos/tsg-vanessa-diehm.webp",
@@ -2021,7 +2141,8 @@
   "verein": "TSG Hoffenheim",
   "nr": "6",
   "position": "ABW",
-  "ersetzt": "fotos/vanessa-diehm.jpg"
+  "ersetzt": "fotos/vanessa-diehm.jpg",
+  "cx": 0.512
  },
  "Valesca Ampoorter": {
   "datei": "fotos/tsg-valesca-ampoorter.webp",
@@ -2038,7 +2159,8 @@
   "verein": "TSG Hoffenheim",
   "nr": "10",
   "position": "MF",
-  "ersetzt": "fotos/valesca-ampoorter.jpg"
+  "ersetzt": "fotos/valesca-ampoorter.jpg",
+  "cx": 0.502
  },
  "Kiara Beck": {
   "datei": "fotos/vfb-kiara-beck.webp",
@@ -2054,7 +2176,8 @@
   "portrait": "fotos/vfb-kiara-beck.webp",
   "verein": "VfB Stuttgart",
   "nr": "12",
-  "position": "TW"
+  "position": "TW",
+  "cx": 0.491
  },
  "Féli Delacauw": {
   "datei": "fotos/tsg-feli-delacauw.webp",
@@ -2071,7 +2194,8 @@
   "verein": "TSG Hoffenheim",
   "nr": "24",
   "position": "MF",
-  "ersetzt": "fotos/feli-delacauw.jpg"
+  "ersetzt": "fotos/feli-delacauw.jpg",
+  "cx": 0.508
  },
  "Eileen Campbell": {
   "datei": "fotos/fcu-eileen-campbell.webp",
@@ -2088,7 +2212,8 @@
   "verein": "1. FC Union Berlin",
   "nr": "10",
   "position": "ST",
-  "ersetzt": "fotos/eileen-campbell.jpg"
+  "ersetzt": "fotos/eileen-campbell.jpg",
+  "cx": 0.528
  },
  "Jill Janssens": {
   "datei": "fotos/fcu-jill-janssens.webp",
@@ -2105,7 +2230,8 @@
   "verein": "1. FC Union Berlin",
   "nr": "77",
   "position": "ABW",
-  "ersetzt": "fotos/jill-janssens.jpg"
+  "ersetzt": "fotos/jill-janssens.jpg",
+  "cx": 0.529
  },
  "Jamilla Rankin": {
   "datei": "fotos/sge-jamilla-rankin.webp",
@@ -2122,7 +2248,8 @@
   "verein": "Eintracht Frankfurt",
   "nr": "15",
   "position": "ABW",
-  "ersetzt": "fotos/jamilla-rankin.jpg"
+  "ersetzt": "fotos/jamilla-rankin.jpg",
+  "cx": 0.503
  },
  "Lou Bogaert": {
   "datei": "fotos/wob-lou-bogaert.webp",
@@ -2139,7 +2266,8 @@
   "verein": "VfL Wolfsburg",
   "nr": "23",
   "position": "ABW",
-  "ersetzt": "fotos/lou-bogaert.jpg"
+  "ersetzt": "fotos/lou-bogaert.jpg",
+  "cx": 0.521
  },
  "Marie Steiner": {
   "datei": "fotos/tsg-marie-steiner.webp",
@@ -2156,7 +2284,8 @@
   "verein": "TSG Hoffenheim",
   "nr": "9",
   "position": "ST",
-  "ersetzt": "fotos/marie-steiner.jpg"
+  "ersetzt": "fotos/marie-steiner.jpg",
+  "cx": 0.506
  },
  "Naomi Luyet": {
   "datei": "fotos/tsg-naomi-luyet.webp",
@@ -2173,7 +2302,8 @@
   "verein": "TSG Hoffenheim",
   "nr": "7",
   "position": "MF",
-  "ersetzt": "fotos/naomi-luyet.jpg"
+  "ersetzt": "fotos/naomi-luyet.jpg",
+  "cx": 0.503
  },
  "Felicia Sträßer": {
   "datei": "fotos/svw-felicia-stra-er.webp",
@@ -2189,7 +2319,8 @@
   "portrait": "fotos/svw-felicia-stra-er.webp",
   "verein": "Werder Bremen",
   "nr": "19",
-  "position": "ABW"
+  "position": "ABW",
+  "cx": 0.477
  },
  "Paulina Platner": {
   "datei": "fotos/b04-paulina-platner.webp",
@@ -2206,7 +2337,8 @@
   "verein": "Bayer 04 Leverkusen",
   "nr": "6",
   "position": "MF",
-  "ersetzt": "fotos/paulina-platner.jpg"
+  "ersetzt": "fotos/paulina-platner.jpg",
+  "cx": 0.469
  },
  "Nadine Bitzer": {
   "datei": "fotos/tsg-nadine-bitzer.webp",
@@ -2223,7 +2355,8 @@
   "verein": "TSG Hoffenheim",
   "nr": "30",
   "position": "ABW",
-  "ersetzt": "fotos/nadine-bitzer.jpg"
+  "ersetzt": "fotos/nadine-bitzer.jpg",
+  "cx": 0.511
  },
  "Anna Weiß": {
   "datei": "fotos/fcu-anna-wei.webp",
@@ -2240,7 +2373,8 @@
   "verein": "1. FC Union Berlin",
   "nr": "21",
   "position": "ABW",
-  "ersetzt": "fotos/anna-weiss.jpg"
+  "ersetzt": "fotos/anna-weiss.jpg",
+  "cx": 0.48
  },
  "Carolin Simon": {
   "datei": "fotos/b04-carolin-simon.webp",
@@ -2257,7 +2391,8 @@
   "verein": "Bayer 04 Leverkusen",
   "nr": "30",
   "position": "ABW",
-  "ersetzt": "fotos/carolin-simon.jpg"
+  "ersetzt": "fotos/carolin-simon.jpg",
+  "cx": 0.505
  },
  "Ena Mahmutovic": {
   "datei": "fotos/fcb-ena-mahmutovic.webp",
@@ -2274,7 +2409,8 @@
   "verein": "FC Bayern München",
   "nr": "1",
   "position": "TW",
-  "ersetzt": "fotos/ena-mahmutovic.jpg"
+  "ersetzt": "fotos/ena-mahmutovic.jpg",
+  "cx": 0.506
  },
  "Lena Lattwein": {
   "datei": "fotos/wob-lena-lattwein.webp",
@@ -2291,7 +2427,8 @@
   "verein": "VfL Wolfsburg",
   "nr": "8",
   "position": "MF",
-  "ersetzt": "fotos/lena-lattwein.jpg"
+  "ersetzt": "fotos/lena-lattwein.jpg",
+  "cx": 0.52
  },
  "Paulina Krumbiegel": {
   "datei": "fotos/sge-paulina-krumbiegel.webp",
@@ -2308,7 +2445,8 @@
   "verein": "Eintracht Frankfurt",
   "nr": "27",
   "position": "MF",
-  "ersetzt": "fotos/paulina-krumbiegel.jpg"
+  "ersetzt": "fotos/paulina-krumbiegel.jpg",
+  "cx": 0.495
  },
  "Sandra Jessen": {
   "datei": "fotos/koe-sandra-maria-jessen.webp",
@@ -2325,7 +2463,8 @@
   "verein": "1. FC Köln",
   "nr": "11",
   "position": "MF",
-  "ersetzt": "fotos/sandra-jessen.jpg"
+  "ersetzt": "fotos/sandra-jessen.jpg",
+  "cx": 0.497
  },
  "Sarai Linder": {
   "datei": "fotos/wob-sarai-linder.webp",
@@ -2342,7 +2481,8 @@
   "verein": "VfL Wolfsburg",
   "nr": "39",
   "position": "ABW",
-  "ersetzt": "fotos/sarai-linder.jpg"
+  "ersetzt": "fotos/sarai-linder.jpg",
+  "cx": 0.526
  },
  "Svenja Huth": {
   "datei": "fotos/wob-svenja-huth.webp",
@@ -2359,7 +2499,8 @@
   "verein": "VfL Wolfsburg",
   "nr": "10",
   "position": "MF",
-  "ersetzt": "fotos/svenja-huth.jpg"
+  "ersetzt": "fotos/svenja-huth.jpg",
+  "cx": 0.509
  },
  "Lisann Kaut": {
   "datei": "fotos/tsg-lisann-kaut.webp",
@@ -2376,7 +2517,8 @@
   "verein": "TSG Hoffenheim",
   "nr": "4",
   "position": "ABW",
-  "ersetzt": "fotos/lisann-kaut.jpg"
+  "ersetzt": "fotos/lisann-kaut.jpg",
+  "cx": 0.503
  },
  "Lara Prašnikar": {
   "datei": "fotos/wob-lara-prasnikar.webp",
@@ -2393,7 +2535,8 @@
   "verein": "VfL Wolfsburg",
   "nr": "9",
   "position": "ST",
-  "ersetzt": "fotos/lara-prasnikar.jpg"
+  "ersetzt": "fotos/lara-prasnikar.jpg",
+  "cx": 0.53
  },
  "Mariella El Sherif": {
   "datei": "fotos/svw-mariella-el-sherif.webp",
@@ -2409,7 +2552,8 @@
   "portrait": "fotos/svw-mariella-el-sherif.webp",
   "verein": "Werder Bremen",
   "nr": "39",
-  "position": "TW"
+  "position": "TW",
+  "cx": 0.479
  },
  "Joelle Wedemeyer": {
   "datei": "fotos/wob-joelle-wedemeyer.webp",
@@ -2426,7 +2570,8 @@
   "verein": "VfL Wolfsburg",
   "nr": "24",
   "position": "ABW",
-  "ersetzt": "fotos/joelle-wedemeyer.jpg"
+  "ersetzt": "fotos/joelle-wedemeyer.jpg",
+  "cx": 0.519
  },
  "Dóra Zeller": {
   "datei": "fotos/koe-dora-zeller.webp",
@@ -2443,7 +2588,8 @@
   "verein": "1. FC Köln",
   "nr": "19",
   "position": "ST",
-  "ersetzt": "fotos/dora-zeller.jpg"
+  "ersetzt": "fotos/dora-zeller.jpg",
+  "cx": 0.487
  },
  "Nicole Billa": {
   "datei": "fotos/vfb-nicole-billa.webp",
@@ -2459,7 +2605,8 @@
   "portrait": "fotos/vfb-nicole-billa.webp",
   "verein": "VfB Stuttgart",
   "nr": "26",
-  "position": "ST"
+  "position": "ST",
+  "cx": 0.496
  },
  "Melanie Brunnthaler": {
   "datei": "fotos/hsv-11-brunnthaler.webp",
@@ -2472,7 +2619,8 @@
   "jahr": 2026,
   "trikot_alt": false,
   "gross": false,
-  "portrait": "fotos/hsv-11-brunnthaler.webp"
+  "portrait": "fotos/hsv-11-brunnthaler.webp",
+  "cx": 0.5
  },
  "Jule Baum": {
   "datei": "fotos/hsv-36-baum.webp",
@@ -2485,7 +2633,8 @@
   "jahr": 2026,
   "trikot_alt": false,
   "gross": false,
-  "portrait": "fotos/hsv-36-baum.webp"
+  "portrait": "fotos/hsv-36-baum.webp",
+  "cx": 0.501
  },
  "Celainy Obispo": {
   "datei": "fotos/hsv-05-obispo.webp",
@@ -2498,7 +2647,8 @@
   "jahr": 2026,
   "trikot_alt": false,
   "gross": false,
-  "portrait": "fotos/hsv-05-obispo.webp"
+  "portrait": "fotos/hsv-05-obispo.webp",
+  "cx": 0.499
  },
  "Annaleen Böhler": {
   "datei": "fotos/hsv-06-bohler.webp",
@@ -2511,7 +2661,8 @@
   "jahr": 2026,
   "trikot_alt": false,
   "gross": false,
-  "portrait": "fotos/hsv-06-bohler.webp"
+  "portrait": "fotos/hsv-06-bohler.webp",
+  "cx": 0.501
  },
  "Sylwia Matysik": {
   "datei": "fotos/hsv-14-matysik.webp",
@@ -2524,7 +2675,8 @@
   "jahr": 2026,
   "trikot_alt": false,
   "gross": false,
-  "portrait": "fotos/hsv-14-matysik.webp"
+  "portrait": "fotos/hsv-14-matysik.webp",
+  "cx": 0.493
  },
  "Jaqueline Dönges": {
   "datei": "fotos/hsv-21-donges.webp",
@@ -2537,7 +2689,8 @@
   "jahr": 2026,
   "trikot_alt": false,
   "gross": false,
-  "portrait": "fotos/hsv-21-donges.webp"
+  "portrait": "fotos/hsv-21-donges.webp",
+  "cx": 0.501
  },
  "Svea Stoldt": {
   "datei": "fotos/hsv-08-stoldt.webp",
@@ -2550,7 +2703,8 @@
   "jahr": 2026,
   "trikot_alt": false,
   "gross": false,
-  "portrait": "fotos/hsv-08-stoldt.webp"
+  "portrait": "fotos/hsv-08-stoldt.webp",
+  "cx": 0.5
  },
  "Melina Krüger": {
   "datei": "fotos/hsv-09-kruger.webp",
@@ -2563,7 +2717,8 @@
   "jahr": 2026,
   "trikot_alt": false,
   "gross": false,
-  "portrait": "fotos/hsv-09-kruger.webp"
+  "portrait": "fotos/hsv-09-kruger.webp",
+  "cx": 0.499
  },
  "Carla Morich": {
   "datei": "fotos/hsv-10-morich.webp",
@@ -2576,7 +2731,8 @@
   "jahr": 2026,
   "trikot_alt": false,
   "gross": false,
-  "portrait": "fotos/hsv-10-morich.webp"
+  "portrait": "fotos/hsv-10-morich.webp",
+  "cx": 0.495
  },
  "Leïla Peneau": {
   "datei": "fotos/hsv-15-peneau.webp",
@@ -2589,7 +2745,8 @@
   "jahr": 2026,
   "trikot_alt": false,
   "gross": false,
-  "portrait": "fotos/hsv-15-peneau.webp"
+  "portrait": "fotos/hsv-15-peneau.webp",
+  "cx": 0.499
  },
  "Jonna Wrede": {
   "datei": "fotos/hsv-26-wrede-jonna.webp",
@@ -2602,7 +2759,8 @@
   "jahr": 2026,
   "trikot_alt": false,
   "gross": false,
-  "portrait": "fotos/hsv-26-wrede-jonna.webp"
+  "portrait": "fotos/hsv-26-wrede-jonna.webp",
+  "cx": 0.497
  },
  "Pauline Machtens": {
   "datei": "fotos/hsv-28-machtens.webp",
@@ -2615,7 +2773,8 @@
   "jahr": 2026,
   "trikot_alt": false,
   "gross": false,
-  "portrait": "fotos/hsv-28-machtens.webp"
+  "portrait": "fotos/hsv-28-machtens.webp",
+  "cx": 0.504
  },
  "Leni Eggert": {
   "datei": "fotos/hsv-29-eggert.webp",
@@ -2628,7 +2787,8 @@
   "jahr": 2026,
   "trikot_alt": false,
   "gross": false,
-  "portrait": "fotos/hsv-29-eggert.webp"
+  "portrait": "fotos/hsv-29-eggert.webp",
+  "cx": 0.5
  },
  "Lotta Wrede": {
   "datei": "fotos/hsv-32-wrede-lotta.webp",
@@ -2641,7 +2801,8 @@
   "jahr": 2026,
   "trikot_alt": false,
   "gross": false,
-  "portrait": "fotos/hsv-32-wrede-lotta.webp"
+  "portrait": "fotos/hsv-32-wrede-lotta.webp",
+  "cx": 0.499
  },
  "Paulina Bartz": {
   "datei": "fotos/hsv-37-bartz.webp",
@@ -2654,7 +2815,8 @@
   "jahr": 2026,
   "trikot_alt": false,
   "gross": false,
-  "portrait": "fotos/hsv-37-bartz.webp"
+  "portrait": "fotos/hsv-37-bartz.webp",
+  "cx": 0.496
  },
  "Camilla Linberg": {
   "datei": "fotos/hsv-07-linberg.webp",
@@ -2667,7 +2829,8 @@
   "jahr": 2026,
   "trikot_alt": false,
   "gross": false,
-  "portrait": "fotos/hsv-07-linberg.webp"
+  "portrait": "fotos/hsv-07-linberg.webp",
+  "cx": 0.493
  },
  "Andrea Švíbková": {
   "datei": "fotos/hsv-17-svibkova.webp",
@@ -2680,7 +2843,8 @@
   "jahr": 2026,
   "trikot_alt": false,
   "gross": false,
-  "portrait": "fotos/hsv-17-svibkova.webp"
+  "portrait": "fotos/hsv-17-svibkova.webp",
+  "cx": 0.499
  },
  "Victoria Schulz": {
   "datei": "fotos/hsv-19-schulz.webp",
@@ -2693,7 +2857,8 @@
   "jahr": 2026,
   "trikot_alt": false,
   "gross": false,
-  "portrait": "fotos/hsv-19-schulz.webp"
+  "portrait": "fotos/hsv-19-schulz.webp",
+  "cx": 0.511
  },
  "Nikola Karczewska": {
   "datei": "fotos/hsv-20-karczewska.webp",
@@ -2706,7 +2871,8 @@
   "jahr": 2026,
   "trikot_alt": false,
   "gross": false,
-  "portrait": "fotos/hsv-20-karczewska.webp"
+  "portrait": "fotos/hsv-20-karczewska.webp",
+  "cx": 0.494
  },
  "Sophie Hillebrand": {
   "datei": "fotos/hsv-22-hillebrand.webp",
@@ -2719,7 +2885,8 @@
   "jahr": 2026,
   "trikot_alt": false,
   "gross": false,
-  "portrait": "fotos/hsv-22-hillebrand.webp"
+  "portrait": "fotos/hsv-22-hillebrand.webp",
+  "cx": 0.499
  },
  "Amy Wrigge": {
   "datei": "fotos/b04-amy-wrigge.webp",
@@ -2735,7 +2902,8 @@
   "portrait": "fotos/b04-amy-wrigge.webp",
   "verein": "Bayer 04 Leverkusen",
   "nr": "41",
-  "position": "MF"
+  "position": "MF",
+  "cx": 0.511
  },
  "Caroline Kehrer": {
   "datei": "fotos/b04-caroline-kehrer.webp",
@@ -2751,7 +2919,8 @@
   "portrait": "fotos/b04-caroline-kehrer.webp",
   "verein": "Bayer 04 Leverkusen",
   "nr": "9",
-  "position": "ST"
+  "position": "ST",
+  "cx": 0.496
  },
  "Charlotte Voll": {
   "datei": "fotos/b04-charlotte-voll.webp",
@@ -2767,7 +2936,8 @@
   "portrait": "fotos/b04-charlotte-voll.webp",
   "verein": "Bayer 04 Leverkusen",
   "nr": "1",
-  "position": "TW"
+  "position": "TW",
+  "cx": 0.504
  },
  "Cornelia Kramer": {
   "datei": "fotos/b04-cornelia-kramer.webp",
@@ -2783,7 +2953,8 @@
   "portrait": "fotos/b04-cornelia-kramer.webp",
   "verein": "Bayer 04 Leverkusen",
   "nr": "7",
-  "position": "ST"
+  "position": "ST",
+  "cx": 0.5
  },
  "Emily Wallrabenstein": {
   "datei": "fotos/b04-emily-wallrabenstein.webp",
@@ -2799,7 +2970,8 @@
   "portrait": "fotos/b04-emily-wallrabenstein.webp",
   "verein": "Bayer 04 Leverkusen",
   "nr": "14",
-  "position": "ABW"
+  "position": "ABW",
+  "cx": 0.487
  },
  "Estrella Merino": {
   "datei": "fotos/b04-estrella-merino-gonzalez.webp",
@@ -2815,7 +2987,8 @@
   "portrait": "fotos/b04-estrella-merino-gonzalez.webp",
   "verein": "Bayer 04 Leverkusen",
   "nr": "10",
-  "position": "ABW"
+  "position": "ABW",
+  "cx": 0.503
  },
  "Justine Brandau": {
   "datei": "fotos/b04-justine-brandau.webp",
@@ -2831,7 +3004,8 @@
   "portrait": "fotos/b04-justine-brandau.webp",
   "verein": "Bayer 04 Leverkusen",
   "nr": "8",
-  "position": "ABW"
+  "position": "ABW",
+  "cx": 0.499
  },
  "Lobke Loonen": {
   "datei": "fotos/b04-lobke-loonen.webp",
@@ -2847,7 +3021,8 @@
   "portrait": "fotos/b04-lobke-loonen.webp",
   "verein": "Bayer 04 Leverkusen",
   "nr": "18",
-  "position": "ST"
+  "position": "ST",
+  "cx": 0.498
  },
  "Loreen Bender": {
   "datei": "fotos/b04-loreen-bender.webp",
@@ -2863,7 +3038,8 @@
   "portrait": "fotos/b04-loreen-bender.webp",
   "verein": "Bayer 04 Leverkusen",
   "nr": "19",
-  "position": "ST"
+  "position": "ST",
+  "cx": 0.5
  },
  "Louisa Remien": {
   "datei": "fotos/b04-louisa-remien.webp",
@@ -2879,7 +3055,8 @@
   "portrait": "fotos/b04-louisa-remien.webp",
   "verein": "Bayer 04 Leverkusen",
   "nr": "35",
-  "position": "TW"
+  "position": "TW",
+  "cx": 0.502
  },
  "Maja Sternad": {
   "datei": "fotos/b04-maja-sternad.webp",
@@ -2895,7 +3072,8 @@
   "portrait": "fotos/b04-maja-sternad.webp",
   "verein": "Bayer 04 Leverkusen",
   "nr": "23",
-  "position": "ST"
+  "position": "ST",
+  "cx": 0.494
  },
  "Marlene Müller": {
   "datei": "fotos/b04-marlene-muller.webp",
@@ -2911,7 +3089,8 @@
   "portrait": "fotos/b04-marlene-muller.webp",
   "verein": "Bayer 04 Leverkusen",
   "nr": "27",
-  "position": "MF"
+  "position": "MF",
+  "cx": 0.499
  },
  "Natasha Kowalski": {
   "datei": "fotos/b04-natasha-kowalski.webp",
@@ -2927,7 +3106,8 @@
   "portrait": "fotos/b04-natasha-kowalski.webp",
   "verein": "Bayer 04 Leverkusen",
   "nr": "11",
-  "position": "MF"
+  "position": "MF",
+  "cx": 0.501
  },
  "Paulina Tomasiak": {
   "datei": "fotos/b04-paulina-tomasiak.webp",
@@ -2943,7 +3123,8 @@
   "portrait": "fotos/b04-paulina-tomasiak.webp",
   "verein": "Bayer 04 Leverkusen",
   "nr": "28",
-  "position": "ST"
+  "position": "ST",
+  "cx": 0.516
  },
  "Rafaela Borggräfe": {
   "datei": "fotos/b04-rafaela-borggrafe.webp",
@@ -2959,7 +3140,8 @@
   "portrait": "fotos/b04-rafaela-borggrafe.webp",
   "verein": "Bayer 04 Leverkusen",
   "nr": "12",
-  "position": "TW"
+  "position": "TW",
+  "cx": 0.505
  },
  "Sana Coşkun": {
   "datei": "fotos/b04-sana-coskun.webp",
@@ -2975,7 +3157,8 @@
   "portrait": "fotos/b04-sana-coskun.webp",
   "verein": "Bayer 04 Leverkusen",
   "nr": "42",
-  "position": "ABW"
+  "position": "ABW",
+  "cx": 0.499
  },
  "Sofie Zdebel": {
   "datei": "fotos/b04-sofie-zdebel.webp",
@@ -2991,7 +3174,8 @@
   "portrait": "fotos/b04-sofie-zdebel.webp",
   "verein": "Bayer 04 Leverkusen",
   "nr": "16",
-  "position": "MF"
+  "position": "MF",
+  "cx": 0.493
  },
  "Valentina Mädl": {
   "datei": "fotos/b04-valentina-madl.webp",
@@ -3007,7 +3191,8 @@
   "portrait": "fotos/b04-valentina-madl.webp",
   "verein": "Bayer 04 Leverkusen",
   "nr": "17",
-  "position": "ST"
+  "position": "ST",
+  "cx": 0.498
  },
  "Achim Feifel": {
   "datei": "fotos/b04-stab-achim-feifel.webp",
@@ -3023,7 +3208,8 @@
   "portrait": "fotos/b04-stab-achim-feifel.webp",
   "verein": "Bayer 04 Leverkusen",
   "funktion": "Sportlicher Leiter",
-  "stab": true
+  "stab": true,
+  "cx": 0.499
  },
  "Anna Kaleta": {
   "datei": "fotos/b04-stab-anna-kaleta.webp",
@@ -3039,7 +3225,8 @@
   "portrait": "fotos/b04-stab-anna-kaleta.webp",
   "verein": "Bayer 04 Leverkusen",
   "funktion": "Betreuerin",
-  "stab": true
+  "stab": true,
+  "cx": 0.507
  },
  "Friederike Mehring": {
   "datei": "fotos/b04-stab-friederike-mehring.webp",
@@ -3055,7 +3242,8 @@
   "portrait": "fotos/b04-stab-friederike-mehring.webp",
   "verein": "Bayer 04 Leverkusen",
   "funktion": "Co-Trainerin",
-  "stab": true
+  "stab": true,
+  "cx": 0.492
  },
  "Gregor Hencke": {
   "datei": "fotos/b04-stab-gregor-hencke.webp",
@@ -3071,7 +3259,8 @@
   "portrait": "fotos/b04-stab-gregor-hencke.webp",
   "verein": "Bayer 04 Leverkusen",
   "funktion": "Mannschaftsarzt",
-  "stab": true
+  "stab": true,
+  "cx": 0.509
  },
  "Jacqueline Ciompala": {
   "datei": "fotos/b04-stab-jacqueline-ciompala.webp",
@@ -3087,7 +3276,8 @@
   "portrait": "fotos/b04-stab-jacqueline-ciompala.webp",
   "verein": "Bayer 04 Leverkusen",
   "funktion": "Physiotherapeutin",
-  "stab": true
+  "stab": true,
+  "cx": 0.499
  },
  "Jana Weickart": {
   "datei": "fotos/b04-stab-jana-weickart.webp",
@@ -3103,7 +3293,8 @@
   "portrait": "fotos/b04-stab-jana-weickart.webp",
   "verein": "Bayer 04 Leverkusen",
   "funktion": "Teammanagerin",
-  "stab": true
+  "stab": true,
+  "cx": 0.507
  },
  "Joel Kühnle": {
   "datei": "fotos/b04-stab-joel-kuhnle.webp",
@@ -3119,7 +3310,8 @@
   "portrait": "fotos/b04-stab-joel-kuhnle.webp",
   "verein": "Bayer 04 Leverkusen",
   "funktion": "Athletiktrainer",
-  "stab": true
+  "stab": true,
+  "cx": 0.517
  },
  "Kristina Sundov": {
   "datei": "fotos/b04-stab-kristina-sundov.webp",
@@ -3135,7 +3327,8 @@
   "portrait": "fotos/b04-stab-kristina-sundov.webp",
   "verein": "Bayer 04 Leverkusen",
   "funktion": "Co-Trainerin",
-  "stab": true
+  "stab": true,
+  "cx": 0.492
  },
  "Lara Jona": {
   "datei": "fotos/b04-stab-lara-jona.webp",
@@ -3151,7 +3344,8 @@
   "portrait": "fotos/b04-stab-lara-jona.webp",
   "verein": "Bayer 04 Leverkusen",
   "funktion": "Physiotherapeutin",
-  "stab": true
+  "stab": true,
+  "cx": 0.509
  },
  "Laura Gerlich": {
   "datei": "fotos/b04-stab-laura-gerlich.webp",
@@ -3167,7 +3361,8 @@
   "portrait": "fotos/b04-stab-laura-gerlich.webp",
   "verein": "Bayer 04 Leverkusen",
   "funktion": "Physiotherapeutin (Leitung)",
-  "stab": true
+  "stab": true,
+  "cx": 0.496
  },
  "Linda Schöttler": {
   "datei": "fotos/b04-stab-linda-schottler.webp",
@@ -3183,7 +3378,8 @@
   "portrait": "fotos/b04-stab-linda-schottler.webp",
   "verein": "Bayer 04 Leverkusen",
   "funktion": "Managerin Frauenfußball",
-  "stab": true
+  "stab": true,
+  "cx": 0.486
  },
  "Maurice Mülder": {
   "datei": "fotos/b04-stab-maurice-mulder.webp",
@@ -3199,7 +3395,8 @@
   "portrait": "fotos/b04-stab-maurice-mulder.webp",
   "verein": "Bayer 04 Leverkusen",
   "funktion": "Athletiktrainer",
-  "stab": true
+  "stab": true,
+  "cx": 0.499
  },
  "Niklas Dittmann": {
   "datei": "fotos/b04-stab-niklas-dittmann.webp",
@@ -3215,7 +3412,8 @@
   "portrait": "fotos/b04-stab-niklas-dittmann.webp",
   "verein": "Bayer 04 Leverkusen",
   "funktion": "Physiotherapeut",
-  "stab": true
+  "stab": true,
+  "cx": 0.502
  },
  "Patrick Bade": {
   "datei": "fotos/b04-stab-patrick-bade.webp",
@@ -3231,7 +3429,8 @@
   "portrait": "fotos/b04-stab-patrick-bade.webp",
   "verein": "Bayer 04 Leverkusen",
   "funktion": "Torwarttrainer",
-  "stab": true
+  "stab": true,
+  "cx": 0.502
  },
  "Philipp Walther": {
   "datei": "fotos/b04-stab-philipp-walther.webp",
@@ -3247,7 +3446,8 @@
   "portrait": "fotos/b04-stab-philipp-walther.webp",
   "verein": "Bayer 04 Leverkusen",
   "funktion": "Head of Performance",
-  "stab": true
+  "stab": true,
+  "cx": 0.51
  },
  "Raúl Vettraino Galina": {
   "datei": "fotos/b04-stab-raul-vettraino-galina.webp",
@@ -3263,7 +3463,8 @@
   "portrait": "fotos/b04-stab-raul-vettraino-galina.webp",
   "verein": "Bayer 04 Leverkusen",
   "funktion": "Co-Trainer Analyse",
-  "stab": true
+  "stab": true,
+  "cx": 0.503
  },
  "Roberto Pätzold": {
   "datei": "fotos/b04-stab-roberto-patzold.webp",
@@ -3279,7 +3480,8 @@
   "portrait": "fotos/b04-stab-roberto-patzold.webp",
   "verein": "Bayer 04 Leverkusen",
   "funktion": "Cheftrainer",
-  "stab": true
+  "stab": true,
+  "cx": 0.497
  },
  "Simon Borgmann": {
   "datei": "fotos/b04-stab-simon-borgmann.webp",
@@ -3295,7 +3497,8 @@
   "portrait": "fotos/b04-stab-simon-borgmann.webp",
   "verein": "Bayer 04 Leverkusen",
   "funktion": "Sportpsychologe",
-  "stab": true
+  "stab": true,
+  "cx": 0.502
  },
  "Alina Kerschbaumer": {
   "datei": "fotos/koe-alina-kerschbaumer.webp",
@@ -3311,7 +3514,8 @@
   "portrait": "fotos/koe-alina-kerschbaumer.webp",
   "verein": "1. FC Köln",
   "nr": "28",
-  "position": "MF"
+  "position": "MF",
+  "cx": 0.508
  },
  "Amelie Bohnen": {
   "datei": "fotos/koe-amelie-bohnen.webp",
@@ -3327,7 +3531,8 @@
   "portrait": "fotos/koe-amelie-bohnen.webp",
   "verein": "1. FC Köln",
   "nr": "15",
-  "position": "ABW"
+  "position": "ABW",
+  "cx": 0.494
  },
  "Beke Sterner": {
   "datei": "fotos/koe-beke-sterner.webp",
@@ -3343,7 +3548,8 @@
   "portrait": "fotos/koe-beke-sterner.webp",
   "verein": "1. FC Köln",
   "nr": "37",
-  "position": "ABW"
+  "position": "ABW",
+  "cx": 0.494
  },
  "Carlotta Imping": {
   "datei": "fotos/koe-carlotta-imping.webp",
@@ -3359,7 +3565,8 @@
   "portrait": "fotos/koe-carlotta-imping.webp",
   "verein": "1. FC Köln",
   "nr": "14",
-  "position": "ABW"
+  "position": "ABW",
+  "cx": 0.492
  },
  "Carolin Elsen": {
   "datei": "fotos/koe-carolin-elsen.webp",
@@ -3375,7 +3582,8 @@
   "portrait": "fotos/koe-carolin-elsen.webp",
   "verein": "1. FC Köln",
   "nr": "20",
-  "position": "ST"
+  "position": "ST",
+  "cx": 0.491
  },
  "Celina Degen": {
   "datei": "fotos/koe-celina-degen.webp",
@@ -3391,7 +3599,8 @@
   "portrait": "fotos/koe-celina-degen.webp",
   "verein": "1. FC Köln",
   "nr": "5",
-  "position": "ABW"
+  "position": "ABW",
+  "cx": 0.501
  },
  "Elise Stenevik": {
   "datei": "fotos/koe-elise-stenevik.webp",
@@ -3407,7 +3616,8 @@
   "portrait": "fotos/koe-elise-stenevik.webp",
   "verein": "1. FC Köln",
   "nr": "24",
-  "position": "ABW"
+  "position": "ABW",
+  "cx": 0.503
  },
  "Irina Fuchs": {
   "datei": "fotos/koe-irina-fuchs.webp",
@@ -3423,7 +3633,8 @@
   "portrait": "fotos/koe-irina-fuchs.webp",
   "verein": "1. FC Köln",
   "nr": "34",
-  "position": "TW"
+  "position": "TW",
+  "cx": 0.489
  },
  "Jil Schäfer": {
   "datei": "fotos/koe-jil-schafer.webp",
@@ -3439,7 +3650,8 @@
   "portrait": "fotos/koe-jil-schafer.webp",
   "verein": "1. FC Köln",
   "nr": "6",
-  "position": "MF"
+  "position": "MF",
+  "cx": 0.503
  },
  "Julia Schiffarth": {
   "datei": "fotos/koe-julia-schiffarth.webp",
@@ -3455,7 +3667,8 @@
   "portrait": "fotos/koe-julia-schiffarth.webp",
   "verein": "1. FC Köln",
   "nr": "22",
-  "position": "MF"
+  "position": "MF",
+  "cx": 0.494
  },
  "Laura Donhauser": {
   "datei": "fotos/koe-laura-donhauser.webp",
@@ -3471,7 +3684,8 @@
   "portrait": "fotos/koe-laura-donhauser.webp",
   "verein": "1. FC Köln",
   "nr": "25",
-  "position": "ABW"
+  "position": "ABW",
+  "cx": 0.492
  },
  "Laura Vogt": {
   "datei": "fotos/koe-laura-vogt.webp",
@@ -3487,7 +3701,8 @@
   "portrait": "fotos/koe-laura-vogt.webp",
   "verein": "1. FC Köln",
   "nr": "8",
-  "position": "MF"
+  "position": "MF",
+  "cx": 0.496
  },
  "Laureta Elmazi": {
   "datei": "fotos/koe-laureta-elmazi.webp",
@@ -3503,7 +3718,8 @@
   "portrait": "fotos/koe-laureta-elmazi.webp",
   "verein": "1. FC Köln",
   "nr": "26",
-  "position": "ST"
+  "position": "ST",
+  "cx": 0.501
  },
  "Lina Szaraz": {
   "datei": "fotos/koe-lina-szaraz.webp",
@@ -3519,7 +3735,8 @@
   "portrait": "fotos/koe-lina-szaraz.webp",
   "verein": "1. FC Köln",
   "nr": "2",
-  "position": "ABW"
+  "position": "ABW",
+  "cx": 0.498
  },
  "Lydia Andrade": {
   "datei": "fotos/koe-lydia-andrade.webp",
@@ -3535,7 +3752,8 @@
   "portrait": "fotos/koe-lydia-andrade.webp",
   "verein": "1. FC Köln",
   "nr": "17",
-  "position": "ST"
+  "position": "ST",
+  "cx": 0.498
  },
  "Merle Hokamp": {
   "datei": "fotos/koe-merle-hokamp.webp",
@@ -3551,7 +3769,8 @@
   "portrait": "fotos/koe-merle-hokamp.webp",
   "verein": "1. FC Köln",
   "nr": "13",
-  "position": "ABW"
+  "position": "ABW",
+  "cx": 0.493
  },
  "Paula Hoppe": {
   "datei": "fotos/koe-paula-hoppe.webp",
@@ -3567,7 +3786,8 @@
   "portrait": "fotos/koe-paula-hoppe.webp",
   "verein": "1. FC Köln",
   "nr": "12",
-  "position": "TW"
+  "position": "TW",
+  "cx": 0.484
  },
  "Pauline Nelles": {
   "datei": "fotos/koe-pauline-nelles.webp",
@@ -3583,7 +3803,8 @@
   "portrait": "fotos/koe-pauline-nelles.webp",
   "verein": "1. FC Köln",
   "nr": "35",
-  "position": "TW"
+  "position": "TW",
+  "cx": 0.508
  },
  "Sophie Nachtigall": {
   "datei": "fotos/koe-sophie-nachtigall.webp",
@@ -3599,7 +3820,8 @@
   "portrait": "fotos/koe-sophie-nachtigall.webp",
   "verein": "1. FC Köln",
   "nr": "30",
-  "position": "MF"
+  "position": "MF",
+  "cx": 0.492
  },
  "Sædís Rún Heiðarsdóttir": {
   "datei": "fotos/koe-s-dis-run-hei-arsdottir.webp",
@@ -3615,7 +3837,8 @@
   "portrait": "fotos/koe-s-dis-run-hei-arsdottir.webp",
   "verein": "1. FC Köln",
   "nr": "3",
-  "position": "MF"
+  "position": "MF",
+  "cx": 0.492
  },
  "Taylor Ziemer": {
   "datei": "fotos/koe-taylor-ziemer.webp",
@@ -3631,7 +3854,8 @@
   "portrait": "fotos/koe-taylor-ziemer.webp",
   "verein": "1. FC Köln",
   "nr": "18",
-  "position": "MF"
+  "position": "MF",
+  "cx": 0.501
  },
  "Vanessa Leimenstoll": {
   "datei": "fotos/koe-vanessa-leimenstoll.webp",
@@ -3647,7 +3871,8 @@
   "portrait": "fotos/koe-vanessa-leimenstoll.webp",
   "verein": "1. FC Köln",
   "nr": "29",
-  "position": "ST"
+  "position": "ST",
+  "cx": 0.503
  },
  "Britta Carlson": {
   "datei": "fotos/koe-stab-britta-carlson.webp",
@@ -3663,7 +3888,8 @@
   "portrait": "fotos/koe-stab-britta-carlson.webp",
   "verein": "1. FC Köln",
   "funktion": "Cheftrainerin",
-  "stab": true
+  "stab": true,
+  "cx": 0.501
  },
  "Jacqueline Dünker": {
   "datei": "fotos/koe-stab-jacqueline-dunker.webp",
@@ -3679,7 +3905,8 @@
   "portrait": "fotos/koe-stab-jacqueline-dunker.webp",
   "verein": "1. FC Köln",
   "funktion": "Co-Trainerin",
-  "stab": true
+  "stab": true,
+  "cx": 0.492
  },
  "Marc Ernzer": {
   "datei": "fotos/koe-stab-marc-ernzer.webp",
@@ -3695,7 +3922,8 @@
   "portrait": "fotos/koe-stab-marc-ernzer.webp",
   "verein": "1. FC Köln",
   "funktion": "Torwarttrainer",
-  "stab": true
+  "stab": true,
+  "cx": 0.496
  },
  "Nicole Bender-Rummler": {
   "datei": "fotos/koe-stab-nicole-bender-rummler.webp",
@@ -3711,7 +3939,8 @@
   "portrait": "fotos/koe-stab-nicole-bender-rummler.webp",
   "verein": "1. FC Köln",
   "funktion": "Direktorin Frauen- und Mädchenfußball",
-  "stab": true
+  "stab": true,
+  "cx": 0.51
  },
  "Noah Eberhardt": {
   "datei": "fotos/koe-stab-noah-eberhardt.webp",
@@ -3727,7 +3956,8 @@
   "portrait": "fotos/koe-stab-noah-eberhardt.webp",
   "verein": "1. FC Köln",
   "funktion": "Co-Trainer",
-  "stab": true
+  "stab": true,
+  "cx": 0.494
  },
  "Sebastian Kirschbaum": {
   "datei": "fotos/koe-stab-sebastian-kirschbaum.webp",
@@ -3743,7 +3973,8 @@
   "portrait": "fotos/koe-stab-sebastian-kirschbaum.webp",
   "verein": "1. FC Köln",
   "funktion": "Teammanager",
-  "stab": true
+  "stab": true,
+  "cx": 0.488
  },
  "Sven Gruel": {
   "datei": "fotos/koe-stab-sven-gruel.webp",
@@ -3759,7 +3990,8 @@
   "portrait": "fotos/koe-stab-sven-gruel.webp",
   "verein": "1. FC Köln",
   "funktion": "Co-Trainer",
-  "stab": true
+  "stab": true,
+  "cx": 0.492
  },
  "Alara": {
   "datei": "fotos/fcb-alara-sehitler.webp",
@@ -3775,7 +4007,8 @@
   "portrait": "fotos/fcb-alara-sehitler.webp",
   "verein": "FC Bayern München",
   "nr": "14",
-  "position": "MF"
+  "position": "MF",
+  "cx": 0.501
  },
  "Bernadette Amani": {
   "datei": "fotos/fcb-bernadette-amani.webp",
@@ -3791,7 +4024,8 @@
   "portrait": "fotos/fcb-bernadette-amani.webp",
   "verein": "FC Bayern München",
   "nr": "15",
-  "position": "MF"
+  "position": "MF",
+  "cx": 0.508
  },
  "Edna Imade": {
   "datei": "fotos/fcb-edna-imade.webp",
@@ -3807,7 +4041,8 @@
   "portrait": "fotos/fcb-edna-imade.webp",
   "verein": "FC Bayern München",
   "nr": "29",
-  "position": "ST"
+  "position": "ST",
+  "cx": 0.498
  },
  "Glódís Viggósdóttir": {
   "datei": "fotos/fcb-glodis-perla-viggosdottir.webp",
@@ -3823,7 +4058,8 @@
   "portrait": "fotos/fcb-glodis-perla-viggosdottir.webp",
   "verein": "FC Bayern München",
   "nr": "4",
-  "position": "ABW"
+  "position": "ABW",
+  "cx": 0.497
  },
  "Kassandra Potsi": {
   "datei": "fotos/fcb-kassandra-potsi.webp",
@@ -3839,7 +4075,8 @@
   "portrait": "fotos/fcb-kassandra-potsi.webp",
   "verein": "FC Bayern München",
   "nr": "6",
-  "position": "ST"
+  "position": "ST",
+  "cx": 0.475
  },
  "Momoko Tanikawa": {
   "datei": "fotos/fcb-momoko-tanikawa.webp",
@@ -3855,7 +4092,8 @@
   "portrait": "fotos/fcb-momoko-tanikawa.webp",
   "verein": "FC Bayern München",
   "nr": "18",
-  "position": "MF"
+  "position": "MF",
+  "cx": 0.496
  },
  "Sarah Mattner-Trembleau": {
   "datei": "fotos/fcb-sarah-mattner.webp",
@@ -3871,7 +4109,8 @@
   "portrait": "fotos/fcb-sarah-mattner.webp",
   "verein": "FC Bayern München",
   "nr": "11",
-  "position": "ST"
+  "position": "ST",
+  "cx": 0.491
  },
  "Stine Ballisager": {
   "datei": "fotos/fcb-stine-ballisager.webp",
@@ -3887,7 +4126,8 @@
   "portrait": "fotos/fcb-stine-ballisager.webp",
   "verein": "FC Bayern München",
   "nr": "3",
-  "position": "ABW"
+  "position": "ABW",
+  "cx": 0.501
  },
  "Adrian Negro": {
   "datei": "fotos/fcb-stab-adrian-negro.webp",
@@ -3903,7 +4143,8 @@
   "portrait": "fotos/fcb-stab-adrian-negro.webp",
   "verein": "FC Bayern München",
   "funktion": "Co-Trainer",
-  "stab": true
+  "stab": true,
+  "cx": 0.51
  },
  "Bianca Rech": {
   "datei": "fotos/fcb-stab-bianca-rech.webp",
@@ -3919,7 +4160,8 @@
   "portrait": "fotos/fcb-stab-bianca-rech.webp",
   "verein": "FC Bayern München",
   "funktion": "Direktorin Frauenfußball",
-  "stab": true
+  "stab": true,
+  "cx": 0.473
  },
  "Clara Schöne": {
   "datei": "fotos/fcb-stab-clara-schone.webp",
@@ -3935,7 +4177,8 @@
   "portrait": "fotos/fcb-stab-clara-schone.webp",
   "verein": "FC Bayern München",
   "funktion": "Co-Trainerin",
-  "stab": true
+  "stab": true,
+  "cx": 0.498
  },
  "Hamid Masoum Beygi": {
   "datei": "fotos/fcb-stab-hamid-masoum-beygi.webp",
@@ -3951,7 +4194,8 @@
   "portrait": "fotos/fcb-stab-hamid-masoum-beygi.webp",
   "verein": "FC Bayern München",
   "funktion": "Athletiktrainer",
-  "stab": true
+  "stab": true,
+  "cx": 0.498
  },
  "José Barcala": {
   "datei": "fotos/fcb-stab-jose-barcala.webp",
@@ -3967,7 +4211,8 @@
   "portrait": "fotos/fcb-stab-jose-barcala.webp",
   "verein": "FC Bayern München",
   "funktion": "Cheftrainer",
-  "stab": true
+  "stab": true,
+  "cx": 0.525
  },
  "Michael Netolitzky": {
   "datei": "fotos/fcb-stab-michael-netolitzky.webp",
@@ -3983,7 +4228,8 @@
   "portrait": "fotos/fcb-stab-michael-netolitzky.webp",
   "verein": "FC Bayern München",
   "funktion": "Torwarttrainer",
-  "stab": true
+  "stab": true,
+  "cx": 0.5
  },
  "Mohsen Behzadpour": {
   "datei": "fotos/fcb-stab-mohsen-behzadpour.webp",
@@ -3999,7 +4245,8 @@
   "portrait": "fotos/fcb-stab-mohsen-behzadpour.webp",
   "verein": "FC Bayern München",
   "funktion": "Funktionsteam",
-  "stab": true
+  "stab": true,
+  "cx": 0.498
  },
  "Alexsandra Lobanova": {
   "datei": "fotos/fcn-alexsandra-lobanova.webp",
@@ -4015,7 +4262,8 @@
   "portrait": "fotos/fcn-alexsandra-lobanova.webp",
   "verein": "1. FC Nürnberg",
   "nr": "4",
-  "position": "ABW"
+  "position": "ABW",
+  "cx": 0.493
  },
  "Amélie Thöle": {
   "datei": "fotos/fcn-amelie-thole.webp",
@@ -4031,7 +4279,8 @@
   "portrait": "fotos/fcn-amelie-thole.webp",
   "verein": "1. FC Nürnberg",
   "nr": "12",
-  "position": "ABW"
+  "position": "ABW",
+  "cx": 0.492
  },
  "Charline Coutel": {
   "datei": "fotos/fcn-charline-coutel.webp",
@@ -4047,7 +4296,8 @@
   "portrait": "fotos/fcn-charline-coutel.webp",
   "verein": "1. FC Nürnberg",
   "nr": "6",
-  "position": "MF"
+  "position": "MF",
+  "cx": 0.502
  },
  "Clara Fröhlich": {
   "datei": "fotos/fcn-clara-frohlich.webp",
@@ -4063,7 +4313,8 @@
   "portrait": "fotos/fcn-clara-frohlich.webp",
   "verein": "1. FC Nürnberg",
   "nr": "5",
-  "position": "ABW"
+  "position": "ABW",
+  "cx": 0.497
  },
  "Emőke Pápai": {
   "datei": "fotos/fcn-emoke-papai.webp",
@@ -4079,7 +4330,8 @@
   "portrait": "fotos/fcn-emoke-papai.webp",
   "verein": "1. FC Nürnberg",
   "nr": "15",
-  "position": "ST"
+  "position": "ST",
+  "cx": 0.496
  },
  "Fany Proniez": {
   "datei": "fotos/fcn-fany-proniez.webp",
@@ -4095,7 +4347,8 @@
   "portrait": "fotos/fcn-fany-proniez.webp",
   "verein": "1. FC Nürnberg",
   "nr": "3",
-  "position": "MF"
+  "position": "MF",
+  "cx": 0.504
  },
  "Franziska Mai": {
   "datei": "fotos/fcn-franziska-frohnhofer.webp",
@@ -4111,7 +4364,8 @@
   "portrait": "fotos/fcn-franziska-frohnhofer.webp",
   "verein": "1. FC Nürnberg",
   "nr": "18",
-  "position": "MF"
+  "position": "MF",
+  "cx": 0.499
  },
  "Hanna Deuber": {
   "datei": "fotos/fcn-hanna-deuber.webp",
@@ -4127,7 +4381,8 @@
   "portrait": "fotos/fcn-hanna-deuber.webp",
   "verein": "1. FC Nürnberg",
   "nr": "29",
-  "position": "MF"
+  "position": "MF",
+  "cx": 0.505
  },
  "Jacqueline Baumgärtel": {
   "datei": "fotos/fcn-jacqueline-baumgartel.webp",
@@ -4143,7 +4398,8 @@
   "portrait": "fotos/fcn-jacqueline-baumgartel.webp",
   "verein": "1. FC Nürnberg",
   "nr": "20",
-  "position": "ST"
+  "position": "ST",
+  "cx": 0.496
  },
  "Jonna Brengel": {
   "datei": "fotos/fcn-jonna-brengel.webp",
@@ -4159,7 +4415,8 @@
   "portrait": "fotos/fcn-jonna-brengel.webp",
   "verein": "1. FC Nürnberg",
   "nr": "10",
-  "position": "MF"
+  "position": "MF",
+  "cx": 0.505
  },
  "Keira Bednorz": {
   "datei": "fotos/fcn-keira-bednorz.webp",
@@ -4175,7 +4432,8 @@
   "portrait": "fotos/fcn-keira-bednorz.webp",
   "verein": "1. FC Nürnberg",
   "nr": "21",
-  "position": "ABW"
+  "position": "ABW",
+  "cx": 0.502
  },
  "Lara Meroni": {
   "datei": "fotos/fcn-lara-meroni.webp",
@@ -4191,7 +4449,8 @@
   "portrait": "fotos/fcn-lara-meroni.webp",
   "verein": "1. FC Nürnberg",
   "nr": "11",
-  "position": "ST"
+  "position": "ST",
+  "cx": 0.498
  },
  "Laura Miller": {
   "datei": "fotos/fcn-laura-miller.webp",
@@ -4207,7 +4466,8 @@
   "portrait": "fotos/fcn-laura-miller.webp",
   "verein": "1. FC Nürnberg",
   "nr": "9",
-  "position": "MF"
+  "position": "MF",
+  "cx": 0.504
  },
  "Leia Varley": {
   "datei": "fotos/fcn-leia-varley.webp",
@@ -4223,7 +4483,8 @@
   "portrait": "fotos/fcn-leia-varley.webp",
   "verein": "1. FC Nürnberg",
   "nr": "2",
-  "position": "ABW"
+  "position": "ABW",
+  "cx": 0.509
  },
  "Louna Lapassouse": {
   "datei": "fotos/fcn-louna-lapassouse.webp",
@@ -4239,7 +4500,8 @@
   "portrait": "fotos/fcn-louna-lapassouse.webp",
   "verein": "1. FC Nürnberg",
   "nr": "99",
-  "position": "ST"
+  "position": "ST",
+  "cx": 0.493
  },
  "Lourdes Romero": {
   "datei": "fotos/fcn-lourdes-romero.webp",
@@ -4255,7 +4517,8 @@
   "portrait": "fotos/fcn-lourdes-romero.webp",
   "verein": "1. FC Nürnberg",
   "nr": "25",
-  "position": "TW"
+  "position": "TW",
+  "cx": 0.497
  },
  "Maëlle Seguin": {
   "datei": "fotos/fcn-maelle-seguin.webp",
@@ -4271,7 +4534,8 @@
   "portrait": "fotos/fcn-maelle-seguin.webp",
   "verein": "1. FC Nürnberg",
   "nr": "28",
-  "position": "MF"
+  "position": "MF",
+  "cx": 0.501
  },
  "Ana Barboz": {
   "datei": "fotos/fcn-mafalda-barboz.webp",
@@ -4287,7 +4551,8 @@
   "portrait": "fotos/fcn-mafalda-barboz.webp",
   "verein": "1. FC Nürnberg",
   "nr": "",
-  "position": "ABW"
+  "position": "ABW",
+  "cx": 0.503
  },
  "Marie Bleil": {
   "datei": "fotos/fcn-marie-bleil.webp",
@@ -4303,7 +4568,8 @@
   "portrait": "fotos/fcn-marie-bleil.webp",
   "verein": "1. FC Nürnberg",
   "nr": "17",
-  "position": "ST"
+  "position": "ST",
+  "cx": 0.496
  },
  "Marlene Lindner": {
   "datei": "fotos/fcn-marlene-lindner.webp",
@@ -4319,7 +4585,8 @@
   "portrait": "fotos/fcn-marlene-lindner.webp",
   "verein": "1. FC Nürnberg",
   "nr": "14",
-  "position": "ABW"
+  "position": "ABW",
+  "cx": 0.5
  },
  "Nastassja Lein": {
   "datei": "fotos/fcn-nastassja-lein.webp",
@@ -4335,7 +4602,8 @@
   "portrait": "fotos/fcn-nastassja-lein.webp",
   "verein": "1. FC Nürnberg",
   "nr": "24",
-  "position": "ST"
+  "position": "ST",
+  "cx": 0.501
  },
  "Rebecca Adamczyk": {
   "datei": "fotos/fcn-rebecca-adamczyk.webp",
@@ -4351,7 +4619,8 @@
   "portrait": "fotos/fcn-rebecca-adamczyk.webp",
   "verein": "1. FC Nürnberg",
   "nr": "33",
-  "position": "TW"
+  "position": "TW",
+  "cx": 0.495
  },
  "Selma Ličina": {
   "datei": "fotos/fcn-selma-licina.webp",
@@ -4367,7 +4636,8 @@
   "portrait": "fotos/fcn-selma-licina.webp",
   "verein": "1. FC Nürnberg",
   "nr": "7",
-  "position": "MF"
+  "position": "MF",
+  "cx": 0.5
  },
  "Sina Tölzel": {
   "datei": "fotos/fcn-sina-tolzel.webp",
@@ -4383,7 +4653,8 @@
   "portrait": "fotos/fcn-sina-tolzel.webp",
   "verein": "1. FC Nürnberg",
   "nr": "31",
-  "position": "TW"
+  "position": "TW",
+  "cx": 0.5
  },
  "Zuzanna Grzywińska": {
   "datei": "fotos/fcn-zuzanna-grzywinska.webp",
@@ -4399,7 +4670,8 @@
   "portrait": "fotos/fcn-zuzanna-grzywinska.webp",
   "verein": "1. FC Nürnberg",
   "nr": "16",
-  "position": "MF"
+  "position": "MF",
+  "cx": 0.506
  },
  "Alan Niksic": {
   "datei": "fotos/fcn-stab-alan-niksic.webp",
@@ -4415,7 +4687,8 @@
   "portrait": "fotos/fcn-stab-alan-niksic.webp",
   "verein": "1. FC Nürnberg",
   "funktion": "Betreuer",
-  "stab": true
+  "stab": true,
+  "cx": 0.494
  },
  "Christian Reinhardt": {
   "datei": "fotos/fcn-stab-christian-reinhardt.webp",
@@ -4431,7 +4704,8 @@
   "portrait": "fotos/fcn-stab-christian-reinhardt.webp",
   "verein": "1. FC Nürnberg",
   "funktion": "Physiotherapeut",
-  "stab": true
+  "stab": true,
+  "cx": 0.495
  },
  "Domen Kotnjek": {
   "datei": "fotos/fcn-stab-domen-kotnjek.webp",
@@ -4447,7 +4721,8 @@
   "portrait": "fotos/fcn-stab-domen-kotnjek.webp",
   "verein": "1. FC Nürnberg",
   "funktion": "Reha- und Athletiktrainer",
-  "stab": true
+  "stab": true,
+  "cx": 0.501
  },
  "Dr. Andreas Kopf": {
   "datei": "fotos/fcn-stab-dr-andreas-kopf.webp",
@@ -4463,7 +4738,8 @@
   "portrait": "fotos/fcn-stab-dr-andreas-kopf.webp",
   "verein": "1. FC Nürnberg",
   "funktion": "Arzt",
-  "stab": true
+  "stab": true,
+  "cx": 0.508
  },
  "Dr. Johannes Rüther": {
   "datei": "fotos/fcn-stab-dr-johannes-ruther.webp",
@@ -4479,7 +4755,8 @@
   "portrait": "fotos/fcn-stab-dr-johannes-ruther.webp",
   "verein": "1. FC Nürnberg",
   "funktion": "Arzt",
-  "stab": true
+  "stab": true,
+  "cx": 0.497
  },
  "Dr. Lotta Hielscher": {
   "datei": "fotos/fcn-stab-dr-lotta-hielscher.webp",
@@ -4495,7 +4772,8 @@
   "portrait": "fotos/fcn-stab-dr-lotta-hielscher.webp",
   "verein": "1. FC Nürnberg",
   "funktion": "Arzt",
-  "stab": true
+  "stab": true,
+  "cx": 0.494
  },
  "Isabel Bauer": {
   "datei": "fotos/fcn-stab-isabel-bauer.webp",
@@ -4511,7 +4789,8 @@
   "portrait": "fotos/fcn-stab-isabel-bauer.webp",
   "verein": "1. FC Nürnberg",
   "funktion": "Co-Trainerin Analyse",
-  "stab": true
+  "stab": true,
+  "cx": 0.495
  },
  "Jason Altmann": {
   "datei": "fotos/fcn-stab-jason-altmann.webp",
@@ -4527,7 +4806,8 @@
   "portrait": "fotos/fcn-stab-jason-altmann.webp",
   "verein": "1. FC Nürnberg",
   "funktion": "Co-Trainer",
-  "stab": true
+  "stab": true,
+  "cx": 0.49
  },
  "Laura Lücker": {
   "datei": "fotos/fcn-stab-laura-lucker.webp",
@@ -4543,7 +4823,8 @@
   "portrait": "fotos/fcn-stab-laura-lucker.webp",
   "verein": "1. FC Nürnberg",
   "funktion": "Teammanagerin",
-  "stab": true
+  "stab": true,
+  "cx": 0.503
  },
  "Melvin Wulff": {
   "datei": "fotos/fcn-stab-melvin-wulff.webp",
@@ -4559,7 +4840,8 @@
   "portrait": "fotos/fcn-stab-melvin-wulff.webp",
   "verein": "1. FC Nürnberg",
   "funktion": "Torwarttrainer",
-  "stab": true
+  "stab": true,
+  "cx": 0.497
  },
  "Omar Adlani": {
   "datei": "fotos/fcn-stab-omar-adlani.webp",
@@ -4575,7 +4857,8 @@
   "portrait": "fotos/fcn-stab-omar-adlani.webp",
   "verein": "1. FC Nürnberg",
   "funktion": "Cheftrainer",
-  "stab": true
+  "stab": true,
+  "cx": 0.507
  },
  "Prof. Dr. Markus Geßlein": {
   "datei": "fotos/fcn-stab-prof-dr-markus-ge-lein.webp",
@@ -4591,7 +4874,8 @@
   "portrait": "fotos/fcn-stab-prof-dr-markus-ge-lein.webp",
   "verein": "1. FC Nürnberg",
   "funktion": "Arzt",
-  "stab": true
+  "stab": true,
+  "cx": 0.504
  },
  "Prof. Dr. Werner Krutsch": {
   "datei": "fotos/fcn-stab-prof-dr-werner-krutsch.webp",
@@ -4607,7 +4891,8 @@
   "portrait": "fotos/fcn-stab-prof-dr-werner-krutsch.webp",
   "verein": "1. FC Nürnberg",
   "funktion": "Arzt",
-  "stab": true
+  "stab": true,
+  "cx": 0.495
  },
  "Anna Aehling": {
   "datei": "fotos/fcu-anna-aehling.webp",
@@ -4623,7 +4908,8 @@
   "portrait": "fotos/fcu-anna-aehling.webp",
   "verein": "1. FC Union Berlin",
   "nr": "4",
-  "position": "ABW"
+  "position": "ABW",
+  "cx": 0.464
  },
  "Hannah Eurlings": {
   "datei": "fotos/fcu-hannah-eurlings.webp",
@@ -4639,7 +4925,8 @@
   "portrait": "fotos/fcu-hannah-eurlings.webp",
   "verein": "1. FC Union Berlin",
   "nr": "14",
-  "position": "ST"
+  "position": "ST",
+  "cx": 0.532
  },
  "Ida Heikkinen": {
   "datei": "fotos/fcu-ida-heikkinen.webp",
@@ -4655,7 +4942,8 @@
   "portrait": "fotos/fcu-ida-heikkinen.webp",
   "verein": "1. FC Union Berlin",
   "nr": "25",
-  "position": "ABW"
+  "position": "ABW",
+  "cx": 0.52
  },
  "Jella Veit": {
   "datei": "fotos/fcu-jella-veit.webp",
@@ -4671,7 +4959,8 @@
   "portrait": "fotos/fcu-jella-veit.webp",
   "verein": "1. FC Union Berlin",
   "nr": "30",
-  "position": "ABW"
+  "position": "ABW",
+  "cx": 0.52
  },
  "Judit Pujols": {
   "datei": "fotos/fcu-judit-pujols.webp",
@@ -4687,7 +4976,8 @@
   "portrait": "fotos/fcu-judit-pujols.webp",
   "verein": "1. FC Union Berlin",
   "nr": "5",
-  "position": "ABW"
+  "position": "ABW",
+  "cx": 0.558
  },
  "Korina Janež": {
   "datei": "fotos/fcu-korina-janez.webp",
@@ -4703,7 +4993,8 @@
   "portrait": "fotos/fcu-korina-janez.webp",
   "verein": "1. FC Union Berlin",
   "nr": "8",
-  "position": "MF"
+  "position": "MF",
+  "cx": 0.502
  },
  "Leela Egli": {
   "datei": "fotos/fcu-leela-egli.webp",
@@ -4719,7 +5010,8 @@
   "portrait": "fotos/fcu-leela-egli.webp",
   "verein": "1. FC Union Berlin",
   "nr": "27",
-  "position": "ST"
+  "position": "ST",
+  "cx": 0.525
  },
  "Leona Seifert": {
   "datei": "fotos/fcu-leona-seifert.webp",
@@ -4735,7 +5027,8 @@
   "portrait": "fotos/fcu-leona-seifert.webp",
   "verein": "1. FC Union Berlin",
   "nr": "18",
-  "position": "MF"
+  "position": "MF",
+  "cx": 0.503
  },
  "Lia Kamber": {
   "datei": "fotos/fcu-lia-kamber.webp",
@@ -4751,7 +5044,8 @@
   "portrait": "fotos/fcu-lia-kamber.webp",
   "verein": "1. FC Union Berlin",
   "nr": "41",
-  "position": "MF"
+  "position": "MF",
+  "cx": 0.551
  },
  "Mariann Noack": {
   "datei": "fotos/fcu-mariann-noack.webp",
@@ -4767,7 +5061,8 @@
   "portrait": "fotos/fcu-mariann-noack.webp",
   "verein": "1. FC Union Berlin",
   "nr": "22",
-  "position": "ABW"
+  "position": "ABW",
+  "cx": 0.539
  },
  "Naika Reissner": {
   "datei": "fotos/fcu-naika-reissner.webp",
@@ -4783,7 +5078,8 @@
   "portrait": "fotos/fcu-naika-reissner.webp",
   "verein": "1. FC Union Berlin",
   "nr": "42",
-  "position": "ST"
+  "position": "ST",
+  "cx": 0.516
  },
  "Nele Bauereisen": {
   "datei": "fotos/fcu-nele-bauereisen.webp",
@@ -4799,7 +5095,8 @@
   "portrait": "fotos/fcu-nele-bauereisen.webp",
   "verein": "1. FC Union Berlin",
   "nr": "23",
-  "position": "ST"
+  "position": "ST",
+  "cx": 0.559
  },
  "Nelly Smolarczyk": {
   "datei": "fotos/fcu-nelly-smolarczyk.webp",
@@ -4815,7 +5112,8 @@
   "portrait": "fotos/fcu-nelly-smolarczyk.webp",
   "verein": "1. FC Union Berlin",
   "nr": "12",
-  "position": "TW"
+  "position": "TW",
+  "cx": 0.523
  },
  "Samantha Steuerwald": {
   "datei": "fotos/fcu-samantha-steuerwald.webp",
@@ -4831,7 +5129,8 @@
   "portrait": "fotos/fcu-samantha-steuerwald.webp",
   "verein": "1. FC Union Berlin",
   "nr": "19",
-  "position": "ABW"
+  "position": "ABW",
+  "cx": 0.504
  },
  "Sherly Schulz": {
   "datei": "fotos/fcu-sherly-schulz.webp",
@@ -4847,7 +5146,8 @@
   "portrait": "fotos/fcu-sherly-schulz.webp",
   "verein": "1. FC Union Berlin",
   "nr": "40",
-  "position": "TW"
+  "position": "TW",
+  "cx": 0.545
  },
  "Tomke Schneider": {
   "datei": "fotos/fcu-tomke-schneider.webp",
@@ -4863,7 +5163,8 @@
   "portrait": "fotos/fcu-tomke-schneider.webp",
   "verein": "1. FC Union Berlin",
   "nr": "2",
-  "position": "ABW"
+  "position": "ABW",
+  "cx": 0.533
  },
  "Alisa Vetterlein": {
   "datei": "fotos/fcu-stab-alisa-vetterlein.webp",
@@ -4879,7 +5180,8 @@
   "portrait": "fotos/fcu-stab-alisa-vetterlein.webp",
   "verein": "1. FC Union Berlin",
   "funktion": "Torwart-Trainerin",
-  "stab": true
+  "stab": true,
+  "cx": 0.514
  },
  "Andreas Kerwin": {
   "datei": "fotos/fcu-stab-andreas-kerwin.webp",
@@ -4895,7 +5197,8 @@
   "portrait": "fotos/fcu-stab-andreas-kerwin.webp",
   "verein": "1. FC Union Berlin",
   "funktion": "Co-Trainer",
-  "stab": true
+  "stab": true,
+  "cx": 0.511
  },
  "Anna Czerwenka": {
   "datei": "fotos/fcu-stab-anna-czerwenka.webp",
@@ -4911,7 +5214,8 @@
   "portrait": "fotos/fcu-stab-anna-czerwenka.webp",
   "verein": "1. FC Union Berlin",
   "funktion": "Physiotherapeutin",
-  "stab": true
+  "stab": true,
+  "cx": 0.554
  },
  "Bao Nguyen": {
   "datei": "fotos/fcu-stab-bao-nguyen.webp",
@@ -4927,7 +5231,8 @@
   "portrait": "fotos/fcu-stab-bao-nguyen.webp",
   "verein": "1. FC Union Berlin",
   "funktion": "Athletiktrainer",
-  "stab": true
+  "stab": true,
+  "cx": 0.517
  },
  "Dr. Felix Reichl": {
   "datei": "fotos/fcu-stab-dr-felix-reichl.webp",
@@ -4943,7 +5248,8 @@
   "portrait": "fotos/fcu-stab-dr-felix-reichl.webp",
   "verein": "1. FC Union Berlin",
   "funktion": "Mannschaftsarzt",
-  "stab": true
+  "stab": true,
+  "cx": 0.51
  },
  "Elisa Lierhaus": {
   "datei": "fotos/fcu-stab-elisa-lierhaus.webp",
@@ -4959,7 +5265,8 @@
   "portrait": "fotos/fcu-stab-elisa-lierhaus.webp",
   "verein": "1. FC Union Berlin",
   "funktion": "Sportpsychologin",
-  "stab": true
+  "stab": true,
+  "cx": 0.598
  },
  "Giuliana Di Bartolo": {
   "datei": "fotos/fcu-stab-giuliana-di-bartolo.webp",
@@ -4975,7 +5282,8 @@
   "portrait": "fotos/fcu-stab-giuliana-di-bartolo.webp",
   "verein": "1. FC Union Berlin",
   "funktion": "Physiotherapeutin",
-  "stab": true
+  "stab": true,
+  "cx": 0.529
  },
  "Jan Walle": {
   "datei": "fotos/fcu-stab-jan-walle.webp",
@@ -4991,7 +5299,8 @@
   "portrait": "fotos/fcu-stab-jan-walle.webp",
   "verein": "1. FC Union Berlin",
   "funktion": "Zeugwart",
-  "stab": true
+  "stab": true,
+  "cx": 0.574
  },
  "Marie-Louise Eta": {
   "datei": "fotos/fcu-stab-marie-louise-eta.webp",
@@ -5007,7 +5316,8 @@
   "portrait": "fotos/fcu-stab-marie-louise-eta.webp",
   "verein": "1. FC Union Berlin",
   "funktion": "Cheftrainerin",
-  "stab": true
+  "stab": true,
+  "cx": 0.496
  },
  "Monika Kunzelmann": {
   "datei": "fotos/fcu-stab-monika-kunzelmann.webp",
@@ -5023,7 +5333,8 @@
   "portrait": "fotos/fcu-stab-monika-kunzelmann.webp",
   "verein": "1. FC Union Berlin",
   "funktion": "Reha- und Athletiktrainerin",
-  "stab": true
+  "stab": true,
+  "cx": 0.555
  },
  "Nico Haase Marinowski": {
   "datei": "fotos/fcu-stab-nico-haase-marinowski.webp",
@@ -5039,7 +5350,8 @@
   "portrait": "fotos/fcu-stab-nico-haase-marinowski.webp",
   "verein": "1. FC Union Berlin",
   "funktion": "Physiotherapeut",
-  "stab": true
+  "stab": true,
+  "cx": 0.539
  },
  "Patrick Stiewe": {
   "datei": "fotos/fcu-stab-patrick-stiewe.webp",
@@ -5055,7 +5367,8 @@
   "portrait": "fotos/fcu-stab-patrick-stiewe.webp",
   "verein": "1. FC Union Berlin",
   "funktion": "Busfahrer",
-  "stab": true
+  "stab": true,
+  "cx": 0.509
  },
  "Simon Falke": {
   "datei": "fotos/fcu-stab-simon-falke.webp",
@@ -5071,7 +5384,8 @@
   "portrait": "fotos/fcu-stab-simon-falke.webp",
   "verein": "1. FC Union Berlin",
   "funktion": "Co-Trainer",
-  "stab": true
+  "stab": true,
+  "cx": 0.534
  },
  "Sofia Wünsch": {
   "datei": "fotos/fcu-stab-sofia-wunsch.webp",
@@ -5087,7 +5401,8 @@
   "portrait": "fotos/fcu-stab-sofia-wunsch.webp",
   "verein": "1. FC Union Berlin",
   "funktion": "Betreuerin",
-  "stab": true
+  "stab": true,
+  "cx": 0.535
  },
  "Tobias Drössler": {
   "datei": "fotos/fcu-stab-tobias-drossler.webp",
@@ -5103,7 +5418,8 @@
   "portrait": "fotos/fcu-stab-tobias-drossler.webp",
   "verein": "1. FC Union Berlin",
   "funktion": "Spielanalyst",
-  "stab": true
+  "stab": true,
+  "cx": 0.537
  },
  "Viktoria Tänzer": {
   "datei": "fotos/fcu-stab-viktoria-tanzer.webp",
@@ -5119,7 +5435,8 @@
   "portrait": "fotos/fcu-stab-viktoria-tanzer.webp",
   "verein": "1. FC Union Berlin",
   "funktion": "Mannschaftsleiterin",
-  "stab": true
+  "stab": true,
+  "cx": 0.549
  },
  "Akari Kurishima": {
   "datei": "fotos/m05-akari-kurishima.webp",
@@ -5135,7 +5452,8 @@
   "portrait": "fotos/m05-akari-kurishima.webp",
   "verein": "1. FSV Mainz 05",
   "nr": "6",
-  "position": "MF"
+  "position": "MF",
+  "cx": 0.53
  },
  "Anna Donner": {
   "datei": "fotos/m05-anna-donner.webp",
@@ -5151,7 +5469,8 @@
   "portrait": "fotos/m05-anna-donner.webp",
   "verein": "1. FSV Mainz 05",
   "nr": "15",
-  "position": "ABW"
+  "position": "ABW",
+  "cx": 0.506
  },
  "Chiara Bouziane": {
   "datei": "fotos/m05-chiara-bouziane.webp",
@@ -5167,7 +5486,8 @@
   "portrait": "fotos/m05-chiara-bouziane.webp",
   "verein": "1. FSV Mainz 05",
   "nr": "10",
-  "position": "MF"
+  "position": "MF",
+  "cx": 0.543
  },
  "Christine Kilian": {
   "datei": "fotos/m05-christine-kilian.webp",
@@ -5183,7 +5503,8 @@
   "portrait": "fotos/m05-christine-kilian.webp",
   "verein": "1. FSV Mainz 05",
   "nr": "16",
-  "position": "ABW"
+  "position": "ABW",
+  "cx": 0.523
  },
  "Emma Junold": {
   "datei": "fotos/m05-emma-junold.webp",
@@ -5199,7 +5520,8 @@
   "portrait": "fotos/m05-emma-junold.webp",
   "verein": "1. FSV Mainz 05",
   "nr": "22",
-  "position": "MF"
+  "position": "MF",
+  "cx": 0.519
  },
  "Ivana Slipčević": {
   "datei": "fotos/m05-ivana-slipcevic.webp",
@@ -5215,7 +5537,8 @@
   "portrait": "fotos/m05-ivana-slipcevic.webp",
   "verein": "1. FSV Mainz 05",
   "nr": "23",
-  "position": "MF"
+  "position": "MF",
+  "cx": 0.544
  },
  "Johanna Berg": {
   "datei": "fotos/m05-johanna-berg.webp",
@@ -5231,7 +5554,8 @@
   "portrait": "fotos/m05-johanna-berg.webp",
   "verein": "1. FSV Mainz 05",
   "nr": "9",
-  "position": "MF"
+  "position": "MF",
+  "cx": 0.536
  },
  "Kara Bathmann": {
   "datei": "fotos/m05-kara-bathmann.webp",
@@ -5247,7 +5571,8 @@
   "portrait": "fotos/m05-kara-bathmann.webp",
   "verein": "1. FSV Mainz 05",
   "nr": "4",
-  "position": "MF"
+  "position": "MF",
+  "cx": 0.526
  },
  "Lara Martin": {
   "datei": "fotos/m05-lara-martin.webp",
@@ -5263,7 +5588,8 @@
   "portrait": "fotos/m05-lara-martin.webp",
   "verein": "1. FSV Mainz 05",
   "nr": "26",
-  "position": "MF"
+  "position": "MF",
+  "cx": 0.544
  },
  "Laura Pawlowski": {
   "datei": "fotos/m05-laura-pawlowski.webp",
@@ -5279,7 +5605,8 @@
   "portrait": "fotos/m05-laura-pawlowski.webp",
   "verein": "1. FSV Mainz 05",
   "nr": "12",
-  "position": "TW"
+  "position": "TW",
+  "cx": 0.541
  },
  "Leonie Stöhr": {
   "datei": "fotos/m05-leonie-stohr.webp",
@@ -5295,7 +5622,8 @@
   "portrait": "fotos/m05-leonie-stohr.webp",
   "verein": "1. FSV Mainz 05",
   "nr": "31",
-  "position": "ST"
+  "position": "ST",
+  "cx": 0.524
  },
  "Maja Pageler": {
   "datei": "fotos/m05-maja-pageler.webp",
@@ -5311,7 +5639,8 @@
   "portrait": "fotos/m05-maja-pageler.webp",
   "verein": "1. FSV Mainz 05",
   "nr": "37",
-  "position": "ST"
+  "position": "ST",
+  "cx": 0.51
  },
  "Mamiko Matsumoto": {
   "datei": "fotos/m05-mamiko-matsumoto.webp",
@@ -5327,7 +5656,8 @@
   "portrait": "fotos/m05-mamiko-matsumoto.webp",
   "verein": "1. FSV Mainz 05",
   "nr": "1",
-  "position": "TW"
+  "position": "TW",
+  "cx": 0.541
  },
  "Mara Bukowski": {
   "datei": "fotos/m05-mara-bukowski.webp",
@@ -5343,7 +5673,8 @@
   "portrait": "fotos/m05-mara-bukowski.webp",
   "verein": "1. FSV Mainz 05",
   "nr": "24",
-  "position": "ABW"
+  "position": "ABW",
+  "cx": 0.527
  },
  "Marie Voth": {
   "datei": "fotos/m05-marie-voth.webp",
@@ -5359,7 +5690,8 @@
   "portrait": "fotos/m05-marie-voth.webp",
   "verein": "1. FSV Mainz 05",
   "nr": "17",
-  "position": "MF"
+  "position": "MF",
+  "cx": 0.518
  },
  "Marisa Schön": {
   "datei": "fotos/m05-marisa-schon.webp",
@@ -5375,7 +5707,8 @@
   "portrait": "fotos/m05-marisa-schon.webp",
   "verein": "1. FSV Mainz 05",
   "nr": "33",
-  "position": "TW"
+  "position": "TW",
+  "cx": 0.518
  },
  "Mattson Strickler": {
   "datei": "fotos/m05-mattson-strickler.webp",
@@ -5391,7 +5724,8 @@
   "portrait": "fotos/m05-mattson-strickler.webp",
   "verein": "1. FSV Mainz 05",
   "nr": "13",
-  "position": "ST"
+  "position": "ST",
+  "cx": 0.538
  },
  "Nicola Hauk": {
   "datei": "fotos/m05-nicola-hauk.webp",
@@ -5407,7 +5741,8 @@
   "portrait": "fotos/m05-nicola-hauk.webp",
   "verein": "1. FSV Mainz 05",
   "nr": "11",
-  "position": "ABW"
+  "position": "ABW",
+  "cx": 0.543
  },
  "Paula Flach": {
   "datei": "fotos/m05-paula-flach.webp",
@@ -5423,7 +5758,8 @@
   "portrait": "fotos/m05-paula-flach.webp",
   "verein": "1. FSV Mainz 05",
   "nr": "18",
-  "position": "ABW"
+  "position": "ABW",
+  "cx": 0.522
  },
  "Rio Takizawa": {
   "datei": "fotos/m05-rio-takizawa.webp",
@@ -5439,7 +5775,8 @@
   "portrait": "fotos/m05-rio-takizawa.webp",
   "verein": "1. FSV Mainz 05",
   "nr": "8",
-  "position": "MF"
+  "position": "MF",
+  "cx": 0.518
  },
  "Sabina Jackson": {
   "datei": "fotos/m05-sabina-jackson.webp",
@@ -5455,7 +5792,8 @@
   "portrait": "fotos/m05-sabina-jackson.webp",
   "verein": "1. FSV Mainz 05",
   "nr": "20",
-  "position": "MF"
+  "position": "MF",
+  "cx": 0.522
  },
  "Suguri Hashitani": {
   "datei": "fotos/m05-suguri-hashitani.webp",
@@ -5471,7 +5809,8 @@
   "portrait": "fotos/m05-suguri-hashitani.webp",
   "verein": "1. FSV Mainz 05",
   "nr": "25",
-  "position": "ABW"
+  "position": "ABW",
+  "cx": 0.532
  },
  "Vital Kats": {
   "datei": "fotos/m05-vital-kats.webp",
@@ -5487,7 +5826,8 @@
   "portrait": "fotos/m05-vital-kats.webp",
   "verein": "1. FSV Mainz 05",
   "nr": "30",
-  "position": "ST"
+  "position": "ST",
+  "cx": 0.547
  },
  "Yurina Imai": {
   "datei": "fotos/m05-yurina-imai.webp",
@@ -5503,7 +5843,8 @@
   "portrait": "fotos/m05-yurina-imai.webp",
   "verein": "1. FSV Mainz 05",
   "nr": "14",
-  "position": "MF"
+  "position": "MF",
+  "cx": 0.536
  },
  "Alexander Ulbrich": {
   "datei": "fotos/m05-stab-alexander-ulbrich.webp",
@@ -5519,7 +5860,8 @@
   "portrait": "fotos/m05-stab-alexander-ulbrich.webp",
   "verein": "1. FSV Mainz 05",
   "funktion": "Teammanager",
-  "stab": true
+  "stab": true,
+  "cx": 0.5
  },
  "Carmen Müller": {
   "datei": "fotos/m05-stab-carmen-muller.webp",
@@ -5535,7 +5877,8 @@
   "portrait": "fotos/m05-stab-carmen-muller.webp",
   "verein": "1. FSV Mainz 05",
   "funktion": "Physiotherapeutin",
-  "stab": true
+  "stab": true,
+  "cx": 0.486
  },
  "David Lischik": {
   "datei": "fotos/m05-stab-david-lischik.webp",
@@ -5551,7 +5894,8 @@
   "portrait": "fotos/m05-stab-david-lischik.webp",
   "verein": "1. FSV Mainz 05",
   "funktion": "Betreuer",
-  "stab": true
+  "stab": true,
+  "cx": 0.504
  },
  "Elvir Smajlovic": {
   "datei": "fotos/m05-stab-elvir-smajlovic.webp",
@@ -5567,7 +5911,8 @@
   "portrait": "fotos/m05-stab-elvir-smajlovic.webp",
   "verein": "1. FSV Mainz 05",
   "funktion": "Torwart-Trainer",
-  "stab": true
+  "stab": true,
+  "cx": 0.493
  },
  "Fabio Di Dio Parlapoco": {
   "datei": "fotos/m05-stab-fabio-di-dio-parlapoco.webp",
@@ -5583,7 +5928,8 @@
   "portrait": "fotos/m05-stab-fabio-di-dio-parlapoco.webp",
   "verein": "1. FSV Mainz 05",
   "funktion": "Co-Trainer - Videoanalyst",
-  "stab": true
+  "stab": true,
+  "cx": 0.504
  },
  "Johanna Kniepert": {
   "datei": "fotos/m05-stab-johanna-kniepert.webp",
@@ -5599,7 +5945,8 @@
   "portrait": "fotos/m05-stab-johanna-kniepert.webp",
   "verein": "1. FSV Mainz 05",
   "funktion": "Mannschaftsärztin",
-  "stab": true
+  "stab": true,
+  "cx": 0.507
  },
  "Lena Mandrella": {
   "datei": "fotos/m05-stab-lena-mandrella.webp",
@@ -5615,7 +5962,8 @@
   "portrait": "fotos/m05-stab-lena-mandrella.webp",
   "verein": "1. FSV Mainz 05",
   "funktion": "Physiotherapeutin",
-  "stab": true
+  "stab": true,
+  "cx": 0.506
  },
  "Marc Schaum": {
   "datei": "fotos/m05-stab-marc-schaum.webp",
@@ -5631,7 +5979,8 @@
   "portrait": "fotos/m05-stab-marc-schaum.webp",
   "verein": "1. FSV Mainz 05",
   "funktion": "Athletik-Trainer",
-  "stab": true
+  "stab": true,
+  "cx": 0.49
  },
  "Marcel Kostadinov": {
   "datei": "fotos/m05-stab-marcel-kostadinov.webp",
@@ -5647,7 +5996,8 @@
   "portrait": "fotos/m05-stab-marcel-kostadinov.webp",
   "verein": "1. FSV Mainz 05",
   "funktion": "Co-Trainer",
-  "stab": true
+  "stab": true,
+  "cx": 0.487
  },
  "Nadine Kreß": {
   "datei": "fotos/m05-stab-nadine-kre.webp",
@@ -5663,7 +6013,8 @@
   "portrait": "fotos/m05-stab-nadine-kre.webp",
   "verein": "1. FSV Mainz 05",
   "funktion": "Sportliche Leiterin",
-  "stab": true
+  "stab": true,
+  "cx": 0.5
  },
  "Sandra Kärger": {
   "datei": "fotos/m05-stab-sandra-karger.webp",
@@ -5679,7 +6030,8 @@
   "portrait": "fotos/m05-stab-sandra-karger.webp",
   "verein": "1. FSV Mainz 05",
   "funktion": "Mental-Trainerin",
-  "stab": true
+  "stab": true,
+  "cx": 0.498
  },
  "Sho Chikaraishi": {
   "datei": "fotos/m05-stab-sho-chikaraishi.webp",
@@ -5695,7 +6047,8 @@
   "portrait": "fotos/m05-stab-sho-chikaraishi.webp",
   "verein": "1. FSV Mainz 05",
   "funktion": "Co-Trainer - Videoanalyst",
-  "stab": true
+  "stab": true,
+  "cx": 0.501
  },
  "Takashi Yamashita": {
   "datei": "fotos/m05-stab-takashi-yamashita.webp",
@@ -5711,7 +6064,8 @@
   "portrait": "fotos/m05-stab-takashi-yamashita.webp",
   "verein": "1. FSV Mainz 05",
   "funktion": "Chef-Trainer",
-  "stab": true
+  "stab": true,
+  "cx": 0.498
  },
  "Tim Meurer": {
   "datei": "fotos/m05-stab-tim-meurer.webp",
@@ -5727,7 +6081,8 @@
   "portrait": "fotos/m05-stab-tim-meurer.webp",
   "verein": "1. FSV Mainz 05",
   "funktion": "Co-Trainer - Scout",
-  "stab": true
+  "stab": true,
+  "cx": 0.493
  },
  "Ainhoa Alguacil": {
   "datei": "fotos/sge-ainhoa-alguacil.webp",
@@ -5743,7 +6098,8 @@
   "portrait": "fotos/sge-ainhoa-alguacil.webp",
   "verein": "Eintracht Frankfurt",
   "nr": "26",
-  "position": "MF"
+  "position": "MF",
+  "cx": 0.498
  },
  "Danique Tolhoek": {
   "datei": "fotos/sge-danique-tolhoek.webp",
@@ -5759,7 +6115,8 @@
   "portrait": "fotos/sge-danique-tolhoek.webp",
   "verein": "Eintracht Frankfurt",
   "nr": "22",
-  "position": "ST"
+  "position": "ST",
+  "cx": 0.508
  },
  "Dilara Acikgöz": {
   "datei": "fotos/sge-dilara-ac-kgoz.webp",
@@ -5775,7 +6132,8 @@
   "portrait": "fotos/sge-dilara-ac-kgoz.webp",
   "verein": "Eintracht Frankfurt",
   "nr": "29",
-  "position": "ABW"
+  "position": "ABW",
+  "cx": 0.502
  },
  "Ela Demirbas": {
   "datei": "fotos/sge-ela-demirbas.webp",
@@ -5791,7 +6149,8 @@
   "portrait": "fotos/sge-ela-demirbas.webp",
   "verein": "Eintracht Frankfurt",
   "nr": "18",
-  "position": "MF"
+  "position": "MF",
+  "cx": 0.497
  },
  "Janne Krumme": {
   "datei": "fotos/sge-janne-krumme.webp",
@@ -5807,7 +6166,8 @@
   "portrait": "fotos/sge-janne-krumme.webp",
   "verein": "Eintracht Frankfurt",
   "nr": "21",
-  "position": "TW"
+  "position": "TW",
+  "cx": 0.504
  },
  "Katharina Jeppe": {
   "datei": "fotos/sge-katharina-jeppe.webp",
@@ -5823,7 +6183,8 @@
   "portrait": "fotos/sge-katharina-jeppe.webp",
   "verein": "Eintracht Frankfurt",
   "nr": "30",
-  "position": "TW"
+  "position": "TW",
+  "cx": 0.498
  },
  "Larissa Mühlhaus": {
   "datei": "fotos/sge-larissa-muhlhaus.webp",
@@ -5839,7 +6200,8 @@
   "portrait": "fotos/sge-larissa-muhlhaus.webp",
   "verein": "Eintracht Frankfurt",
   "nr": "47",
-  "position": "ST"
+  "position": "ST",
+  "cx": 0.506
  },
  "Lina Altenburg": {
   "datei": "fotos/sge-lina-altenburg.webp",
@@ -5855,7 +6217,8 @@
   "portrait": "fotos/sge-lina-altenburg.webp",
   "verein": "Eintracht Frankfurt",
   "nr": "12",
-  "position": "TW"
+  "position": "TW",
+  "cx": 0.501
  },
  "Marthine Østenstad": {
   "datei": "fotos/sge-marthine-stenstad.webp",
@@ -5871,7 +6234,8 @@
   "portrait": "fotos/sge-marthine-stenstad.webp",
   "verein": "Eintracht Frankfurt",
   "nr": "14",
-  "position": "ABW"
+  "position": "ABW",
+  "cx": 0.506
  },
  "Mina Matijević": {
   "datei": "fotos/sge-mina-matijevic.webp",
@@ -5887,7 +6251,8 @@
   "portrait": "fotos/sge-mina-matijevic.webp",
   "verein": "Eintracht Frankfurt",
   "nr": "38",
-  "position": "ABW"
+  "position": "ABW",
+  "cx": 0.498
  },
  "Sophia Winkler": {
   "datei": "fotos/sge-sophia-winkler.webp",
@@ -5903,7 +6268,8 @@
   "portrait": "fotos/sge-sophia-winkler.webp",
   "verein": "Eintracht Frankfurt",
   "nr": "1",
-  "position": "TW"
+  "position": "TW",
+  "cx": 0.503
  },
  "Tessa Zimmermann": {
   "datei": "fotos/sge-tessa-zimmermann.webp",
@@ -5919,7 +6285,8 @@
   "portrait": "fotos/sge-tessa-zimmermann.webp",
   "verein": "Eintracht Frankfurt",
   "nr": "31",
-  "position": "MF"
+  "position": "MF",
+  "cx": 0.504
  },
  "Vivienne Lia": {
   "datei": "fotos/sge-vivienne-lia.webp",
@@ -5935,7 +6302,8 @@
   "portrait": "fotos/sge-vivienne-lia.webp",
   "verein": "Eintracht Frankfurt",
   "nr": "24",
-  "position": "ST"
+  "position": "ST",
+  "cx": 0.493
  },
  "Babett Peter": {
   "datei": "fotos/sge-stab-babett-peter.webp",
@@ -5951,7 +6319,8 @@
   "portrait": "fotos/sge-stab-babett-peter.webp",
   "verein": "Eintracht Frankfurt",
   "funktion": "Sportdirektorin",
-  "stab": true
+  "stab": true,
+  "cx": 0.51
  },
  "Christos Arnautis": {
   "datei": "fotos/sge-stab-christos-arnautis.webp",
@@ -5967,7 +6336,8 @@
   "portrait": "fotos/sge-stab-christos-arnautis.webp",
   "verein": "Eintracht Frankfurt",
   "funktion": "Co-Trainer",
-  "stab": true
+  "stab": true,
+  "cx": 0.492
  },
  "Christos Rellas": {
   "datei": "fotos/sge-stab-christos-rellas.webp",
@@ -5983,7 +6353,8 @@
   "portrait": "fotos/sge-stab-christos-rellas.webp",
   "verein": "Eintracht Frankfurt",
   "funktion": "Co-Trainer Analyse",
-  "stab": true
+  "stab": true,
+  "cx": 0.492
  },
  "Dennis Tiano": {
   "datei": "fotos/sge-stab-dennis-tiano.webp",
@@ -5999,7 +6370,8 @@
   "portrait": "fotos/sge-stab-dennis-tiano.webp",
   "verein": "Eintracht Frankfurt",
   "funktion": "Torwarttrainer",
-  "stab": true
+  "stab": true,
+  "cx": 0.499
  },
  "Katharina Kiel": {
   "datei": "fotos/sge-stab-katharina-kiel.webp",
@@ -6015,7 +6387,8 @@
   "portrait": "fotos/sge-stab-katharina-kiel.webp",
   "verein": "Eintracht Frankfurt",
   "funktion": "Direktorin Frauenfußball",
-  "stab": true
+  "stab": true,
+  "cx": 0.515
  },
  "Niko Arnautis": {
   "datei": "fotos/sge-stab-niko-arnautis.webp",
@@ -6031,7 +6404,8 @@
   "portrait": "fotos/sge-stab-niko-arnautis.webp",
   "verein": "Eintracht Frankfurt",
   "funktion": "Cheftrainer",
-  "stab": true
+  "stab": true,
+  "cx": 0.496
  },
  "Aude Waldbillig": {
   "datei": "fotos/rbl-aude-waldbillig.webp",
@@ -6047,7 +6421,8 @@
   "portrait": "fotos/rbl-aude-waldbillig.webp",
   "verein": "RB Leipzig",
   "nr": "71",
-  "position": "TW"
+  "position": "TW",
+  "cx": 0.504
  },
  "Delice Boboy": {
   "datei": "fotos/rbl-delice-boboy.webp",
@@ -6063,7 +6438,8 @@
   "portrait": "fotos/rbl-delice-boboy.webp",
   "verein": "RB Leipzig",
   "nr": "17",
-  "position": "ST"
+  "position": "ST",
+  "cx": 0.522
  },
  "Diána Németh": {
   "datei": "fotos/rbl-diana-nemeth.webp",
@@ -6079,7 +6455,8 @@
   "portrait": "fotos/rbl-diana-nemeth.webp",
   "verein": "RB Leipzig",
   "nr": "15",
-  "position": "ABW"
+  "position": "ABW",
+  "cx": 0.508
  },
  "Emanuela Pfister": {
   "datei": "fotos/rbl-emanuela-pfister.webp",
@@ -6095,7 +6472,8 @@
   "portrait": "fotos/rbl-emanuela-pfister.webp",
   "verein": "RB Leipzig",
   "nr": "20",
-  "position": "ST"
+  "position": "ST",
+  "cx": 0.497
  },
  "Emilía Ásgeirsdóttir": {
   "datei": "fotos/rbl-emilia-ki-r-asgeirsdottir.webp",
@@ -6111,7 +6489,8 @@
   "portrait": "fotos/rbl-emilia-ki-r-asgeirsdottir.webp",
   "verein": "RB Leipzig",
   "nr": "8",
-  "position": "ST"
+  "position": "ST",
+  "cx": 0.512
  },
  "Jasmien Mathys": {
   "datei": "fotos/rbl-jasmien-mathys.webp",
@@ -6127,7 +6506,8 @@
   "portrait": "fotos/rbl-jasmien-mathys.webp",
   "verein": "RB Leipzig",
   "nr": "12",
-  "position": "ABW"
+  "position": "ABW",
+  "cx": 0.487
  },
  "Linde Veefkind": {
   "datei": "fotos/rbl-linde-veefkind.webp",
@@ -6143,7 +6523,8 @@
   "portrait": "fotos/rbl-linde-veefkind.webp",
   "verein": "RB Leipzig",
   "nr": "25",
-  "position": "ABW"
+  "position": "ABW",
+  "cx": 0.505
  },
  "Marie Kleemann": {
   "datei": "fotos/rbl-marie-kleemann.webp",
@@ -6159,7 +6540,8 @@
   "portrait": "fotos/rbl-marie-kleemann.webp",
   "verein": "RB Leipzig",
   "nr": "19",
-  "position": "ST"
+  "position": "ST",
+  "cx": 0.51
  },
  "Marleen Schimmer": {
   "datei": "fotos/rbl-marleen-schimmer.webp",
@@ -6175,7 +6557,8 @@
   "portrait": "fotos/rbl-marleen-schimmer.webp",
   "verein": "RB Leipzig",
   "nr": "14",
-  "position": "ST"
+  "position": "ST",
+  "cx": 0.504
  },
  "Mirja Kropp": {
   "datei": "fotos/rbl-mirja-kropp.webp",
@@ -6191,7 +6574,8 @@
   "portrait": "fotos/rbl-mirja-kropp.webp",
   "verein": "RB Leipzig",
   "nr": "44",
-  "position": "TW"
+  "position": "TW",
+  "cx": 0.5
  },
  "Nikoline Dudek": {
   "datei": "fotos/rbl-nikoline-dudek.webp",
@@ -6207,7 +6591,8 @@
   "portrait": "fotos/rbl-nikoline-dudek.webp",
   "verein": "RB Leipzig",
   "nr": "24",
-  "position": "ABW"
+  "position": "ABW",
+  "cx": 0.51
  },
  "Sophie Lindner": {
   "datei": "fotos/rbl-sophie-lindner.webp",
@@ -6223,7 +6608,8 @@
   "portrait": "fotos/rbl-sophie-lindner.webp",
   "verein": "RB Leipzig",
   "nr": "23",
-  "position": "TW"
+  "position": "TW",
+  "cx": 0.501
  },
  "Zenia Mertens": {
   "datei": "fotos/rbl-zenia-mertens.webp",
@@ -6239,7 +6625,8 @@
   "portrait": "fotos/rbl-zenia-mertens.webp",
   "verein": "RB Leipzig",
   "nr": "4",
-  "position": "MF"
+  "position": "MF",
+  "cx": 0.518
  },
  "Jonas Stephan": {
   "datei": "fotos/rbl-stab-jonas-stephan.webp",
@@ -6255,7 +6642,8 @@
   "portrait": "fotos/rbl-stab-jonas-stephan.webp",
   "verein": "RB Leipzig",
   "funktion": "Cheftrainer",
-  "stab": true
+  "stab": true,
+  "cx": 0.514
  },
  "Marius Nowoisky": {
   "datei": "fotos/rbl-stab-marius-nowoisky.webp",
@@ -6271,7 +6659,8 @@
   "portrait": "fotos/rbl-stab-marius-nowoisky.webp",
   "verein": "RB Leipzig",
   "funktion": "Assistenztrainer",
-  "stab": true
+  "stab": true,
+  "cx": 0.5
  },
  "Michael Gurski": {
   "datei": "fotos/rbl-stab-michael-gurski.webp",
@@ -6287,7 +6676,8 @@
   "portrait": "fotos/rbl-stab-michael-gurski.webp",
   "verein": "RB Leipzig",
   "funktion": "Torwarttrainer",
-  "stab": true
+  "stab": true,
+  "cx": 0.507
  },
  "Zsófia Rácz": {
   "datei": "fotos/rbl-stab-zsofia-racz.webp",
@@ -6303,7 +6693,8 @@
   "portrait": "fotos/rbl-stab-zsofia-racz.webp",
   "verein": "RB Leipzig",
   "funktion": "Assistenztrainerin",
-  "stab": true
+  "stab": true,
+  "cx": 0.519
  },
  "Alena Bienz": {
   "datei": "fotos/scf-alena-bienz.webp",
@@ -6319,7 +6710,8 @@
   "portrait": "fotos/scf-alena-bienz.webp",
   "verein": "SC Freiburg",
   "nr": "8",
-  "position": "MF"
+  "position": "MF",
+  "cx": 0.506
  },
  "Alina Axtmann": {
   "datei": "fotos/scf-alina-axtmann.webp",
@@ -6335,7 +6727,8 @@
   "portrait": "fotos/scf-alina-axtmann.webp",
   "verein": "SC Freiburg",
   "nr": "3",
-  "position": "ABW"
+  "position": "ABW",
+  "cx": 0.498
  },
  "Amira Arfaoui": {
   "datei": "fotos/scf-amira-arfaoui.webp",
@@ -6351,7 +6744,8 @@
   "portrait": "fotos/scf-amira-arfaoui.webp",
   "verein": "SC Freiburg",
   "nr": "17",
-  "position": "MF"
+  "position": "MF",
+  "cx": 0.507
  },
  "Anna Reimann": {
   "datei": "fotos/scf-anna-reimann.webp",
@@ -6367,7 +6761,8 @@
   "portrait": "fotos/scf-anna-reimann.webp",
   "verein": "SC Freiburg",
   "nr": "38",
-  "position": "TW"
+  "position": "TW",
+  "cx": 0.506
  },
  "Borbála Vincze": {
   "datei": "fotos/scf-borbala-vincze.webp",
@@ -6383,7 +6778,8 @@
   "portrait": "fotos/scf-borbala-vincze.webp",
   "verein": "SC Freiburg",
   "nr": "29",
-  "position": "ST"
+  "position": "ST",
+  "cx": 0.516
  },
  "Emma Memminger": {
   "datei": "fotos/scf-emma-memminger.webp",
@@ -6399,7 +6795,8 @@
   "portrait": "fotos/scf-emma-memminger.webp",
   "verein": "SC Freiburg",
   "nr": "32",
-  "position": "ABW"
+  "position": "ABW",
+  "cx": 0.504
  },
  "Ilayda Acikgöz": {
   "datei": "fotos/scf-ilayda-ac-kgoz.webp",
@@ -6415,7 +6812,8 @@
   "portrait": "fotos/scf-ilayda-ac-kgoz.webp",
   "verein": "SC Freiburg",
   "nr": "30",
-  "position": "MF"
+  "position": "MF",
+  "cx": 0.503
  },
  "Johanna Hebben": {
   "datei": "fotos/scf-johanna-hebben.webp",
@@ -6431,7 +6829,8 @@
   "portrait": "fotos/scf-johanna-hebben.webp",
   "verein": "SC Freiburg",
   "nr": "16",
-  "position": "MF"
+  "position": "MF",
+  "cx": 0.497
  },
  "Lina von Schrader": {
   "datei": "fotos/scf-lina-von-schrader.webp",
@@ -6447,7 +6846,8 @@
   "portrait": "fotos/scf-lina-von-schrader.webp",
   "verein": "SC Freiburg",
   "nr": "21",
-  "position": "TW"
+  "position": "TW",
+  "cx": 0.493
  },
  "Lisa Kolb": {
   "datei": "fotos/scf-lisa-kolb.webp",
@@ -6463,7 +6863,8 @@
   "portrait": "fotos/scf-lisa-kolb.webp",
   "verein": "SC Freiburg",
   "nr": "22",
-  "position": "ST"
+  "position": "ST",
+  "cx": 0.528
  },
  "Lorena Barth": {
   "datei": "fotos/scf-lorena-barth.webp",
@@ -6479,7 +6880,8 @@
   "portrait": "fotos/scf-lorena-barth.webp",
   "verein": "SC Freiburg",
   "nr": "33",
-  "position": "TW"
+  "position": "TW",
+  "cx": 0.498
  },
  "Maj Schneider": {
   "datei": "fotos/scf-maj-schneider.webp",
@@ -6495,7 +6897,8 @@
   "portrait": "fotos/scf-maj-schneider.webp",
   "verein": "SC Freiburg",
   "nr": "15",
-  "position": "MF"
+  "position": "MF",
+  "cx": 0.496
  },
  "Mia-Lena Maas": {
   "datei": "fotos/scf-mia-lena-maas.webp",
@@ -6511,7 +6914,8 @@
   "portrait": "fotos/scf-mia-lena-maas.webp",
   "verein": "SC Freiburg",
   "nr": "18",
-  "position": "ABW"
+  "position": "ABW",
+  "cx": 0.501
  },
  "Nicole Ojukwu": {
   "datei": "fotos/scf-nicole-ojukwu.webp",
@@ -6527,7 +6931,8 @@
   "portrait": "fotos/scf-nicole-ojukwu.webp",
   "verein": "SC Freiburg",
   "nr": "6",
-  "position": "MF"
+  "position": "MF",
+  "cx": 0.506
  },
  "Nora Scherer": {
   "datei": "fotos/scf-nora-scherer.webp",
@@ -6543,7 +6948,8 @@
   "portrait": "fotos/scf-nora-scherer.webp",
   "verein": "SC Freiburg",
   "nr": "31",
-  "position": "ST"
+  "position": "ST",
+  "cx": 0.496
  },
  "Selina Vobian": {
   "datei": "fotos/scf-selina-vobian.webp",
@@ -6559,7 +6965,8 @@
   "portrait": "fotos/scf-selina-vobian.webp",
   "verein": "SC Freiburg",
   "nr": "10",
-  "position": "MF"
+  "position": "MF",
+  "cx": 0.496
  },
  "Tessa Blumenberg": {
   "datei": "fotos/scf-tessa-blumenberg.webp",
@@ -6575,7 +6982,8 @@
   "portrait": "fotos/scf-tessa-blumenberg.webp",
   "verein": "SC Freiburg",
   "nr": "7",
-  "position": "MF"
+  "position": "MF",
+  "cx": 0.501
  },
  "Weena Simmen": {
   "datei": "fotos/scf-weena-simmen.webp",
@@ -6591,7 +6999,8 @@
   "portrait": "fotos/scf-weena-simmen.webp",
   "verein": "SC Freiburg",
   "nr": "25",
-  "position": "MF"
+  "position": "MF",
+  "cx": 0.5
  },
  "Zoe Schick": {
   "datei": "fotos/scf-zoe-schick.webp",
@@ -6607,7 +7016,8 @@
   "portrait": "fotos/scf-zoe-schick.webp",
   "verein": "SC Freiburg",
   "nr": "35",
-  "position": "MF"
+  "position": "MF",
+  "cx": 0.517
  },
  "Ilse Kemper": {
   "datei": "fotos/tsg-ilse-kemper.webp",
@@ -6623,7 +7033,8 @@
   "portrait": "fotos/tsg-ilse-kemper.webp",
   "verein": "TSG Hoffenheim",
   "nr": "18",
-  "position": "MF"
+  "position": "MF",
+  "cx": 0.507
  },
  "Janna Grimm": {
   "datei": "fotos/tsg-janna-grimm.webp",
@@ -6639,7 +7050,8 @@
   "portrait": "fotos/tsg-janna-grimm.webp",
   "verein": "TSG Hoffenheim",
   "nr": "26",
-  "position": "MF"
+  "position": "MF",
+  "cx": 0.512
  },
  "Jonna van de Velde": {
   "datei": "fotos/tsg-jonna-van-de-velde.webp",
@@ -6655,7 +7067,8 @@
   "portrait": "fotos/tsg-jonna-van-de-velde.webp",
   "verein": "TSG Hoffenheim",
   "nr": "25",
-  "position": "ABW"
+  "position": "ABW",
+  "cx": 0.506
  },
  "Laia Martret": {
   "datei": "fotos/tsg-laia-martret.webp",
@@ -6671,7 +7084,8 @@
   "portrait": "fotos/tsg-laia-martret.webp",
   "verein": "TSG Hoffenheim",
   "nr": "21",
-  "position": "ST"
+  "position": "ST",
+  "cx": 0.546
  },
  "Laura Gloning": {
   "datei": "fotos/tsg-laura-gloning.webp",
@@ -6687,7 +7101,8 @@
   "portrait": "fotos/tsg-laura-gloning.webp",
   "verein": "TSG Hoffenheim",
   "nr": "20",
-  "position": "MF"
+  "position": "MF",
+  "cx": 0.51
  },
  "Linda Natter": {
   "datei": "fotos/tsg-linda-natter.webp",
@@ -6703,7 +7118,8 @@
   "portrait": "fotos/tsg-linda-natter.webp",
   "verein": "TSG Hoffenheim",
   "nr": "11",
-  "position": "ST"
+  "position": "ST",
+  "cx": 0.502
  },
  "Martine Fenger": {
   "datei": "fotos/tsg-martine-fenger.webp",
@@ -6719,7 +7135,8 @@
   "portrait": "fotos/tsg-martine-fenger.webp",
   "verein": "TSG Hoffenheim",
   "nr": "15",
-  "position": "ST"
+  "position": "ST",
+  "cx": 0.512
  },
  "Milena Röder": {
   "datei": "fotos/tsg-milena-roder.webp",
@@ -6735,7 +7152,8 @@
   "portrait": "fotos/tsg-milena-roder.webp",
   "verein": "TSG Hoffenheim",
   "nr": "16",
-  "position": "MF"
+  "position": "MF",
+  "cx": 0.507
  },
  "Romy Bräutigam": {
   "datei": "fotos/tsg-romy-brautigam.webp",
@@ -6751,7 +7169,8 @@
   "portrait": "fotos/tsg-romy-brautigam.webp",
   "verein": "TSG Hoffenheim",
   "nr": "31",
-  "position": "TW"
+  "position": "TW",
+  "cx": 0.503
  },
  "Sara Ritter": {
   "datei": "fotos/tsg-sara-ritter.webp",
@@ -6767,7 +7186,8 @@
   "portrait": "fotos/tsg-sara-ritter.webp",
   "verein": "TSG Hoffenheim",
   "nr": "22",
-  "position": "ABW"
+  "position": "ABW",
+  "cx": 0.519
  },
  "Svenja Vöhringer": {
   "datei": "fotos/tsg-svenja-vohringer.webp",
@@ -6783,7 +7203,8 @@
   "portrait": "fotos/tsg-svenja-vohringer.webp",
   "verein": "TSG Hoffenheim",
   "nr": "34",
-  "position": "MF"
+  "position": "MF",
+  "cx": 0.517
  },
  "Wiëlle Douma": {
   "datei": "fotos/tsg-wielle-douma.webp",
@@ -6799,7 +7220,8 @@
   "portrait": "fotos/tsg-wielle-douma.webp",
   "verein": "TSG Hoffenheim",
   "nr": "13",
-  "position": "ABW"
+  "position": "ABW",
+  "cx": 0.498
  },
  "Eva-Maria Virsinger": {
   "datei": "fotos/tsg-stab-eva-maria-virsinger.webp",
@@ -6815,7 +7237,8 @@
   "portrait": "fotos/tsg-stab-eva-maria-virsinger.webp",
   "verein": "TSG Hoffenheim",
   "funktion": "Cheftrainerin",
-  "stab": true
+  "stab": true,
+  "cx": 0.495
  },
  "Adriana Achcińska": {
   "datei": "fotos/vfb-adriana-achcinska.webp",
@@ -6831,7 +7254,8 @@
   "portrait": "fotos/vfb-adriana-achcinska.webp",
   "verein": "VfB Stuttgart",
   "nr": "22",
-  "position": "MF"
+  "position": "MF",
+  "cx": 0.494
  },
  "Dafina Redzepi": {
   "datei": "fotos/vfb-dafina-redzepi.webp",
@@ -6847,7 +7271,8 @@
   "portrait": "fotos/vfb-dafina-redzepi.webp",
   "verein": "VfB Stuttgart",
   "nr": "7",
-  "position": "MF"
+  "position": "MF",
+  "cx": 0.496
  },
  "Haruka Osawa": {
   "datei": "fotos/vfb-haruka-osawa.webp",
@@ -6863,7 +7288,8 @@
   "portrait": "fotos/vfb-haruka-osawa.webp",
   "verein": "VfB Stuttgart",
   "nr": "79",
-  "position": "ST"
+  "position": "ST",
+  "cx": 0.506
  },
  "Jana Beuschlein": {
   "datei": "fotos/vfb-jana-beuschlein.webp",
@@ -6879,7 +7305,8 @@
   "portrait": "fotos/vfb-jana-beuschlein.webp",
   "verein": "VfB Stuttgart",
   "nr": "20",
-  "position": "ST"
+  "position": "ST",
+  "cx": 0.495
  },
  "Julia Glaser": {
   "datei": "fotos/vfb-julia-glaser.webp",
@@ -6895,7 +7322,8 @@
   "portrait": "fotos/vfb-julia-glaser.webp",
   "verein": "VfB Stuttgart",
   "nr": "9",
-  "position": "ST"
+  "position": "ST",
+  "cx": 0.504
  },
  "Julia Mickenhagen": {
   "datei": "fotos/vfb-julia-mickenhagen.webp",
@@ -6911,7 +7339,8 @@
   "portrait": "fotos/vfb-julia-mickenhagen.webp",
   "verein": "VfB Stuttgart",
   "nr": "18",
-  "position": "ABW"
+  "position": "ABW",
+  "cx": 0.502
  },
  "Katana Norman": {
   "datei": "fotos/vfb-katana-norman.webp",
@@ -6927,7 +7356,8 @@
   "portrait": "fotos/vfb-katana-norman.webp",
   "verein": "VfB Stuttgart",
   "nr": "24",
-  "position": "ABW"
+  "position": "ABW",
+  "cx": 0.513
  },
  "Katharina Schäfer": {
   "datei": "fotos/vfb-katharina-schafer.webp",
@@ -6943,7 +7373,8 @@
   "portrait": "fotos/vfb-katharina-schafer.webp",
   "verein": "VfB Stuttgart",
   "nr": "4",
-  "position": "ABW"
+  "position": "ABW",
+  "cx": 0.507
  },
  "Laura Carollo": {
   "datei": "fotos/vfb-laura-carollo.webp",
@@ -6959,7 +7390,8 @@
   "portrait": "fotos/vfb-laura-carollo.webp",
   "verein": "VfB Stuttgart",
   "nr": "35",
-  "position": "ABW"
+  "position": "ABW",
+  "cx": 0.495
  },
  "Lenelotte Müller": {
   "datei": "fotos/vfb-lenelotte-muller.webp",
@@ -6975,7 +7407,8 @@
   "portrait": "fotos/vfb-lenelotte-muller.webp",
   "verein": "VfB Stuttgart",
   "nr": "3",
-  "position": "MF"
+  "position": "MF",
+  "cx": 0.497
  },
  "Leonie Schetter": {
   "datei": "fotos/vfb-leonie-schetter.webp",
@@ -6991,7 +7424,8 @@
   "portrait": "fotos/vfb-leonie-schetter.webp",
   "verein": "VfB Stuttgart",
   "nr": "77",
-  "position": "ST"
+  "position": "ST",
+  "cx": 0.508
  },
  "Linette Hofmann": {
   "datei": "fotos/vfb-linette-hofmann.webp",
@@ -7007,7 +7441,8 @@
   "portrait": "fotos/vfb-linette-hofmann.webp",
   "verein": "VfB Stuttgart",
   "nr": "2",
-  "position": "ABW"
+  "position": "ABW",
+  "cx": 0.499
  },
  "Luzie Zähringer": {
   "datei": "fotos/vfb-luzie-zahringer.webp",
@@ -7023,7 +7458,8 @@
   "portrait": "fotos/vfb-luzie-zahringer.webp",
   "verein": "VfB Stuttgart",
   "nr": "23",
-  "position": "ABW"
+  "position": "ABW",
+  "cx": 0.504
  },
  "Mira Arouna": {
   "datei": "fotos/vfb-mira-arouna.webp",
@@ -7039,7 +7475,8 @@
   "portrait": "fotos/vfb-mira-arouna.webp",
   "verein": "VfB Stuttgart",
   "nr": "21",
-  "position": "ST"
+  "position": "ST",
+  "cx": 0.469
  },
  "Muriel Dürr": {
   "datei": "fotos/vfb-muriel-durr.webp",
@@ -7055,7 +7492,8 @@
   "portrait": "fotos/vfb-muriel-durr.webp",
   "verein": "VfB Stuttgart",
   "nr": "17",
-  "position": "ABW"
+  "position": "ABW",
+  "cx": 0.503
  },
  "Rosa Rückert": {
   "datei": "fotos/vfb-rosa-ruckert.webp",
@@ -7071,7 +7509,8 @@
   "portrait": "fotos/vfb-rosa-ruckert.webp",
   "verein": "VfB Stuttgart",
   "nr": "11",
-  "position": "ST"
+  "position": "ST",
+  "cx": 0.489
  },
  "Svenja Hecke": {
   "datei": "fotos/vfb-svenja-hecke.webp",
@@ -7087,7 +7526,8 @@
   "portrait": "fotos/vfb-svenja-hecke.webp",
   "verein": "VfB Stuttgart",
   "nr": "34",
-  "position": "MF"
+  "position": "MF",
+  "cx": 0.498
  },
  "Yuka Hirano": {
   "datei": "fotos/vfb-yuka-hirano.webp",
@@ -7103,7 +7543,8 @@
   "portrait": "fotos/vfb-yuka-hirano.webp",
   "verein": "VfB Stuttgart",
   "nr": "19",
-  "position": "MF"
+  "position": "MF",
+  "cx": 0.499
  },
  "Christian Heinrich": {
   "datei": "fotos/vfb-stab-christian-heinrich.webp",
@@ -7119,7 +7560,8 @@
   "portrait": "fotos/vfb-stab-christian-heinrich.webp",
   "verein": "VfB Stuttgart",
   "funktion": "Physiotherapeuten",
-  "stab": true
+  "stab": true,
+  "cx": 0.499
  },
  "Christian Liedtke": {
   "datei": "fotos/vfb-stab-christian-liedtke.webp",
@@ -7135,7 +7577,8 @@
   "portrait": "fotos/vfb-stab-christian-liedtke.webp",
   "verein": "VfB Stuttgart",
   "funktion": "Physiotherapeuten",
-  "stab": true
+  "stab": true,
+  "cx": 0.499
  },
  "Elena Danner": {
   "datei": "fotos/vfb-stab-elena-danner.webp",
@@ -7151,7 +7594,8 @@
   "portrait": "fotos/vfb-stab-elena-danner.webp",
   "verein": "VfB Stuttgart",
   "funktion": "Trainerstab",
-  "stab": true
+  "stab": true,
+  "cx": 0.502
  },
  "Frederik Drechsler": {
   "datei": "fotos/vfb-stab-frederik-drechsler.webp",
@@ -7167,7 +7611,8 @@
   "portrait": "fotos/vfb-stab-frederik-drechsler.webp",
   "verein": "VfB Stuttgart",
   "funktion": "Trainerstab",
-  "stab": true
+  "stab": true,
+  "cx": 0.499
  },
  "Ivana Rudelic": {
   "datei": "fotos/vfb-stab-ivana-rudelic.webp",
@@ -7183,7 +7628,8 @@
   "portrait": "fotos/vfb-stab-ivana-rudelic.webp",
   "verein": "VfB Stuttgart",
   "funktion": "Trainerstab",
-  "stab": true
+  "stab": true,
+  "cx": 0.498
  },
  "Lisa Lang": {
   "datei": "fotos/vfb-stab-lisa-lang.webp",
@@ -7199,7 +7645,8 @@
   "portrait": "fotos/vfb-stab-lisa-lang.webp",
   "verein": "VfB Stuttgart",
   "funktion": "Managerin Sportorganisation Frauenfußball",
-  "stab": true
+  "stab": true,
+  "cx": 0.505
  },
  "Miriam Hanemann": {
   "datei": "fotos/vfb-stab-miriam-hanemann.webp",
@@ -7215,7 +7662,8 @@
   "portrait": "fotos/vfb-stab-miriam-hanemann.webp",
   "verein": "VfB Stuttgart",
   "funktion": "Trainerstab",
-  "stab": true
+  "stab": true,
+  "cx": 0.507
  },
  "Nico Schneck": {
   "datei": "fotos/vfb-stab-nico-schneck.webp",
@@ -7231,7 +7679,8 @@
   "portrait": "fotos/vfb-stab-nico-schneck.webp",
   "verein": "VfB Stuttgart",
   "funktion": "Cheftrainer",
-  "stab": true
+  "stab": true,
+  "cx": 0.493
  },
  "Samuel Fagerholm": {
   "datei": "fotos/vfb-stab-samuel-fagerholm.webp",
@@ -7247,7 +7696,8 @@
   "portrait": "fotos/vfb-stab-samuel-fagerholm.webp",
   "verein": "VfB Stuttgart",
   "funktion": "Trainerstab",
-  "stab": true
+  "stab": true,
+  "cx": 0.508
  },
  "Sascha Glass": {
   "datei": "fotos/vfb-stab-sascha-glass.webp",
@@ -7263,7 +7713,8 @@
   "portrait": "fotos/vfb-stab-sascha-glass.webp",
   "verein": "VfB Stuttgart",
   "funktion": "General Manager Frauenfußball",
-  "stab": true
+  "stab": true,
+  "cx": 0.506
  },
  "Simon Kubach": {
   "datei": "fotos/vfb-stab-simon-kubach.webp",
@@ -7279,7 +7730,8 @@
   "portrait": "fotos/vfb-stab-simon-kubach.webp",
   "verein": "VfB Stuttgart",
   "funktion": "Trainerstab",
-  "stab": true
+  "stab": true,
+  "cx": 0.506
  },
  "Tobias Schwaab": {
   "datei": "fotos/vfb-stab-tobias-schwaab.webp",
@@ -7295,7 +7747,8 @@
   "portrait": "fotos/vfb-stab-tobias-schwaab.webp",
   "verein": "VfB Stuttgart",
   "funktion": "Teammanager",
-  "stab": true
+  "stab": true,
+  "cx": 0.494
  },
  "Anny Kerim-Lindland": {
   "datei": "fotos/wob-anny-kerim-lindland.webp",
@@ -7311,7 +7764,8 @@
   "portrait": "fotos/wob-anny-kerim-lindland.webp",
   "verein": "VfL Wolfsburg",
   "nr": "38",
-  "position": "ST"
+  "position": "ST",
+  "cx": 0.533
  },
  "Cecilie Fløe": {
   "datei": "fotos/wob-cecilie-floe-nielsen.webp",
@@ -7327,7 +7781,8 @@
   "portrait": "fotos/wob-cecilie-floe-nielsen.webp",
   "verein": "VfL Wolfsburg",
   "nr": "13",
-  "position": "ST"
+  "position": "ST",
+  "cx": 0.515
  },
  "Christina Schönwetter": {
   "datei": "fotos/wob-christina-schonwetter.webp",
@@ -7343,7 +7798,8 @@
   "portrait": "fotos/wob-christina-schonwetter.webp",
   "verein": "VfL Wolfsburg",
   "nr": "22",
-  "position": "TW"
+  "position": "TW",
+  "cx": 0.511
  },
  "Cora Zicai": {
   "datei": "fotos/wob-cora-zicai.webp",
@@ -7359,7 +7815,8 @@
   "portrait": "fotos/wob-cora-zicai.webp",
   "verein": "VfL Wolfsburg",
   "nr": "28",
-  "position": "ST"
+  "position": "ST",
+  "cx": 0.534
  },
  "Ella Peddemors": {
   "datei": "fotos/wob-ella-peddemors.webp",
@@ -7375,7 +7832,8 @@
   "portrait": "fotos/wob-ella-peddemors.webp",
   "verein": "VfL Wolfsburg",
   "nr": "5",
-  "position": "MF"
+  "position": "MF",
+  "cx": 0.51
  },
  "Julia Landenberger": {
   "datei": "fotos/wob-julia-landenberger.webp",
@@ -7391,7 +7849,8 @@
   "portrait": "fotos/wob-julia-landenberger.webp",
   "verein": "VfL Wolfsburg",
   "nr": "20",
-  "position": "ABW"
+  "position": "ABW",
+  "cx": 0.53
  },
  "Katharina Piljic": {
   "datei": "fotos/wob-katharina-piljic.webp",
@@ -7407,7 +7866,8 @@
   "portrait": "fotos/wob-katharina-piljic.webp",
   "verein": "VfL Wolfsburg",
   "nr": "17",
-  "position": "MF"
+  "position": "MF",
+  "cx": 0.515
  },
  "Kessya Bussy": {
   "datei": "fotos/wob-kessya-bussy.webp",
@@ -7423,7 +7883,8 @@
   "portrait": "fotos/wob-kessya-bussy.webp",
   "verein": "VfL Wolfsburg",
   "nr": "19",
-  "position": "ST"
+  "position": "ST",
+  "cx": 0.52
  },
  "Linnea Sælen": {
   "datei": "fotos/wob-linnea-saelen.webp",
@@ -7439,7 +7900,8 @@
   "portrait": "fotos/wob-linnea-saelen.webp",
   "verein": "VfL Wolfsburg",
   "nr": "41",
-  "position": "ST"
+  "position": "ST",
+  "cx": 0.506
  },
  "Mara Alber": {
   "datei": "fotos/wob-mara-alber.webp",
@@ -7455,7 +7917,8 @@
   "portrait": "fotos/wob-mara-alber.webp",
   "verein": "VfL Wolfsburg",
   "nr": "18",
-  "position": "MF"
+  "position": "MF",
+  "cx": 0.5
  },
  "Weronika Araśniewicz": {
   "datei": "fotos/wob-weronika-arasniewicz.webp",
@@ -7471,7 +7934,8 @@
   "portrait": "fotos/wob-weronika-arasniewicz.webp",
   "verein": "VfL Wolfsburg",
   "nr": "15",
-  "position": "MF"
+  "position": "MF",
+  "cx": 0.531
  },
  "Ylvi Eisenbeiß": {
   "datei": "fotos/wob-ylvi-eisenbei.webp",
@@ -7487,7 +7951,8 @@
   "portrait": "fotos/wob-ylvi-eisenbei.webp",
   "verein": "VfL Wolfsburg",
   "nr": "40",
-  "position": "TW"
+  "position": "TW",
+  "cx": 0.511
  },
  "Carin Bakhuis": {
   "datei": "fotos/wob-stab-carin-bakhuis.webp",
@@ -7503,7 +7968,8 @@
   "portrait": "fotos/wob-stab-carin-bakhuis.webp",
   "verein": "VfL Wolfsburg",
   "funktion": "Assistenztrainerin",
-  "stab": true
+  "stab": true,
+  "cx": 0.5
  },
  "Marcel Schulz": {
   "datei": "fotos/wob-stab-marcel-schulz.webp",
@@ -7519,7 +7985,8 @@
   "portrait": "fotos/wob-stab-marcel-schulz.webp",
   "verein": "VfL Wolfsburg",
   "funktion": "Torwarttrainer",
-  "stab": true
+  "stab": true,
+  "cx": 0.499
  },
  "Philip Arnold": {
   "datei": "fotos/wob-stab-philip-arnold.webp",
@@ -7535,7 +8002,8 @@
   "portrait": "fotos/wob-stab-philip-arnold.webp",
   "verein": "VfL Wolfsburg",
   "funktion": "Assistenztrainer",
-  "stab": true
+  "stab": true,
+  "cx": 0.503
  },
  "Stephan Lerch": {
   "datei": "fotos/wob-stab-stephan-lerch.webp",
@@ -7551,7 +8019,8 @@
   "portrait": "fotos/wob-stab-stephan-lerch.webp",
   "verein": "VfL Wolfsburg",
   "funktion": "Cheftrainer",
-  "stab": true
+  "stab": true,
+  "cx": 0.5
  },
  "Theresa Panfil": {
   "datei": "fotos/wob-stab-theresa-panfil.webp",
@@ -7567,7 +8036,8 @@
   "portrait": "fotos/wob-stab-theresa-panfil.webp",
   "verein": "VfL Wolfsburg",
   "funktion": "Assistenztrainerin",
-  "stab": true
+  "stab": true,
+  "cx": 0.498
  },
  "Eren Sen": {
   "datei": "fotos/hsv-stab-eren-sen.webp",
@@ -7583,7 +8053,8 @@
   "portrait": "fotos/hsv-stab-eren-sen.webp",
   "verein": "Hamburger SV",
   "funktion": "Co-Trainer",
-  "stab": true
+  "stab": true,
+  "cx": 0.491
  },
  "Felix Kleist": {
   "datei": "fotos/hsv-stab-felix-kleist.webp",
@@ -7599,7 +8070,8 @@
   "portrait": "fotos/hsv-stab-felix-kleist.webp",
   "verein": "Hamburger SV",
   "funktion": "Athletik-Trainer",
-  "stab": true
+  "stab": true,
+  "cx": 0.501
  },
  "Kathleen Krüger": {
   "datei": "fotos/hsv-stab-kathleen-kruger.webp",
@@ -7631,7 +8103,8 @@
   "portrait": "fotos/hsv-stab-phil-nabaoui.webp",
   "verein": "Hamburger SV",
   "funktion": "Co-Trainer",
-  "stab": true
+  "stab": true,
+  "cx": 0.506
  },
  "Philipp Meister": {
   "datei": "fotos/hsv-stab-philipp-meister.webp",
@@ -7647,7 +8120,8 @@
   "portrait": "fotos/hsv-stab-philipp-meister.webp",
   "verein": "Hamburger SV",
   "funktion": "Torwart-Trainer",
-  "stab": true
+  "stab": true,
+  "cx": 0.499
  },
  "Rodolfo Cardoso": {
   "datei": "fotos/hsv-stab-rodolfo-cardoso.webp",
@@ -7663,7 +8137,8 @@
   "portrait": "fotos/hsv-stab-rodolfo-cardoso.webp",
   "verein": "Hamburger SV",
   "funktion": "Cheftrainer",
-  "stab": true
+  "stab": true,
+  "cx": 0.496
  },
  "Chiara D'Angelo": {
   "datei": "fotos/svw-chiara-d-angelo.webp",
@@ -7679,7 +8154,8 @@
   "portrait": "fotos/svw-chiara-d-angelo.webp",
   "verein": "Werder Bremen",
   "nr": "2",
-  "position": "ABW"
+  "position": "ABW",
+  "cx": 0.497
  },
  "Elena Mühlemann": {
   "datei": "fotos/svw-elena-muhlemann.webp",
@@ -7695,7 +8171,8 @@
   "portrait": "fotos/svw-elena-muhlemann.webp",
   "verein": "Werder Bremen",
   "nr": "14",
-  "position": "MF"
+  "position": "MF",
+  "cx": 0.488
  },
  "Maria Penner": {
   "datei": "fotos/svw-maria-penner.webp",
@@ -7711,7 +8188,8 @@
   "portrait": "fotos/svw-maria-penner.webp",
   "verein": "Werder Bremen",
   "nr": "33",
-  "position": "ABW"
+  "position": "ABW",
+  "cx": 0.484
  },
  "Marie Gmeineder": {
   "datei": "fotos/svw-marie-gmeineder.webp",
@@ -7727,7 +8205,8 @@
   "portrait": "fotos/svw-marie-gmeineder.webp",
   "verein": "Werder Bremen",
   "nr": "6",
-  "position": "MF"
+  "position": "MF",
+  "cx": 0.496
  },
  "Mei Shimada": {
   "datei": "fotos/svw-mei-shimada.webp",
@@ -7743,7 +8222,8 @@
   "portrait": "fotos/svw-mei-shimada.webp",
   "verein": "Werder Bremen",
   "nr": "8",
-  "position": "ST"
+  "position": "ST",
+  "cx": 0.484
  },
  "Sarah Ernst": {
   "datei": "fotos/svw-sarah-ernst.webp",
@@ -7759,7 +8239,8 @@
   "portrait": "fotos/svw-sarah-ernst.webp",
   "verein": "Werder Bremen",
   "nr": "26",
-  "position": "MF"
+  "position": "MF",
+  "cx": 0.479
  },
  "Sarah Gutmann": {
   "datei": "fotos/svw-sarah-gutmann.webp",
@@ -7775,7 +8256,8 @@
   "portrait": "fotos/svw-sarah-gutmann.webp",
   "verein": "Werder Bremen",
   "nr": "32",
-  "position": "ABW"
+  "position": "ABW",
+  "cx": 0.487
  },
  "Sinem Özdemir": {
   "datei": "fotos/svw-sinem-ozdemir.webp",
@@ -7791,7 +8273,8 @@
   "portrait": "fotos/svw-sinem-ozdemir.webp",
   "verein": "Werder Bremen",
   "nr": "30",
-  "position": "TW"
+  "position": "TW",
+  "cx": 0.468
  },
  "Thea Farwick": {
   "datei": "fotos/svw-thea-farwick.webp",
@@ -7807,7 +8290,8 @@
   "portrait": "fotos/svw-thea-farwick.webp",
   "verein": "Werder Bremen",
   "nr": "16",
-  "position": "TW"
+  "position": "TW",
+  "cx": 0.49
  },
  "Tuana Mahmoud": {
   "datei": "fotos/svw-tuana-mahmoud.webp",
@@ -7823,7 +8307,8 @@
   "portrait": "fotos/svw-tuana-mahmoud.webp",
   "verein": "Werder Bremen",
   "nr": "10",
-  "position": "ST"
+  "position": "ST",
+  "cx": 0.486
  },
  "Wiktoria Zieniewicz": {
   "datei": "fotos/svw-wiktoria-zieniewicz.webp",
@@ -7839,7 +8324,8 @@
   "portrait": "fotos/svw-wiktoria-zieniewicz.webp",
   "verein": "Werder Bremen",
   "nr": "3",
-  "position": "ABW"
+  "position": "ABW",
+  "cx": 0.483
  },
  "Eve Böttcher": {
   "datei": "fotos/vfb-eve-boettcher.webp",
@@ -7855,7 +8341,8 @@
   "portrait": "fotos/vfb-eve-boettcher.webp",
   "verein": "VfB Stuttgart",
   "nr": "25",
-  "position": "TW"
+  "position": "TW",
+  "cx": 0.498
  },
  "Medina Dešić": {
   "datei": "fotos/svw-medina-desic.webp",
@@ -7871,6 +8358,7 @@
   "portrait": "fotos/svw-medina-desic.webp",
   "verein": "Werder Bremen",
   "nr": "9",
-  "position": "ST"
+  "position": "ST",
+  "cx": 0.491
  }
 }

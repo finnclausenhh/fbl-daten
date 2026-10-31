@@ -566,7 +566,7 @@
    "nr": "",
    "pos": "Spielansetzung",
    "tags": [
-    "AUFSTELLUNG"
+    "POKAL"
    ],
    "headline": "Köln im Pokal gegen Leipzig ohne Ziemer und Zeller",
    "text": [
@@ -579,7 +579,121 @@
      "name": "1. FC Köln",
      "url": "https://fc.de/aktuelles/news/startelf-der-fc-frauen-im-pokal-heimspiel"
     }
-   ]
+   ],
+   "aufstellung": {
+    "gegner": "RB Leipzig",
+    "wettbewerb": "DFB-Pokal",
+    "startelf": [
+     {
+      "n": "Schmitz",
+      "p": "TW",
+      "pid": "00181"
+     },
+     {
+      "n": "Degen",
+      "p": "ABW",
+      "pid": "00185"
+     },
+     {
+      "n": "Bohnen",
+      "p": "ABW",
+      "pid": "00184"
+     },
+     {
+      "n": "Hegering",
+      "p": "ABW",
+      "pid": "00188"
+     },
+     {
+      "n": "Imping",
+      "p": "DM",
+      "pid": "00191"
+     },
+     {
+      "n": "Vogt",
+      "p": "DM",
+      "pid": "00203"
+     },
+     {
+      "n": "Leimenstoll",
+      "p": "DM",
+      "pid": "00209"
+     },
+     {
+      "n": "Feiersinger",
+      "p": "OM",
+      "pid": "00196"
+     },
+     {
+      "n": "Elsen",
+      "p": "OM",
+      "pid": "00208"
+     },
+     {
+      "n": "Bremer",
+      "p": "ST",
+      "pid": "00206"
+     },
+     {
+      "n": "Andrade",
+      "p": "ST",
+      "pid": "00205"
+     }
+    ],
+    "bank": [
+     {
+      "n": "Donhauser",
+      "p": "ABW",
+      "pid": "00186"
+     },
+     {
+      "n": "Hendrich",
+      "p": "ABW",
+      "pid": "00189"
+     },
+     {
+      "n": "Nelles",
+      "p": "TW",
+      "pid": "00180"
+     },
+     {
+      "n": "Dübel",
+      "p": "TW",
+      "pid": "00177"
+     },
+     {
+      "n": "Weber",
+      "p": "ABW",
+      "pid": "00195"
+     },
+     {
+      "n": "Kerschbaumer",
+      "p": "MF",
+      "pid": "00199"
+     },
+     {
+      "n": "Schiffarth",
+      "p": "MF",
+      "pid": "00202"
+     },
+     {
+      "n": "Paci",
+      "p": "MF"
+     }
+    ],
+    "fehlt": [
+     {
+      "n": "Ziemer",
+      "p": "MF",
+      "pid": "00204"
+     },
+     {
+      "n": "Zeller",
+      "p": "ST",
+      "pid": "00212"
+     }
+    ]
+   }
   },
   {
    "id": "vfb-pokal-3010",
