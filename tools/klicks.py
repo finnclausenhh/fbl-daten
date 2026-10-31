@@ -51,7 +51,8 @@ def api(pfad, token, params):
             with urllib.request.urlopen(req, timeout=30) as r:
                 return json.load(r)
         except urllib.error.HTTPError as e:
-            if e.code == 429 and versuch < 3:
+            # 429 = Drosselung; 404 und 5xx kommen bei GoatCounter vereinzelt kurzzeitig vor
+            if e.code in (404, 429, 500, 502, 503, 504) and versuch < 3:
                 time.sleep(2 + versuch * 3)
                 continue
             raise SystemExit(f"GoatCounter {pfad}: HTTP {e.code}")

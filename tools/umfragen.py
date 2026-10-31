@@ -34,7 +34,12 @@ def main():
         token = os.environ.get("GOATCOUNTER_TOKEN", "").strip()
         if not token:
             raise SystemExit("GOATCOUNTER_TOKEN fehlt")
-        hits = hole_hits(token, start, jetzt + timedelta(hours=1))
+        try:
+            hits = hole_hits(token, start, jetzt + timedelta(hours=1))
+        except SystemExit as e:
+            # Vorübergehende Störung bei GoatCounter: diesen Lauf auslassen, der nächste in 15 Minuten holt alles nach
+            print(f"Übersprungen, GoatCounter nicht erreichbar: {e}")
+            return
 
     zaehlung = {}
     for h in hits:
