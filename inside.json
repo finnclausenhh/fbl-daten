@@ -2264,7 +2264,41 @@
   ],
   "kb": "Bayerns Stammkräfte tragen gegen Werder ein höheres Einsatzrisiko als sonst. Rotationsspielerinnen dürften dort mehr Minuten bekommen, im Topspiel in Wolfsburg wieder weniger.",
   "quelle": "Daten: Sportschau-Aufstellungen Spieltag 1 bis 8. Verletzungen: FC Bayern (02.10. und 05.10.), DFB (19.10.).",
-  "news_zeit": "2026-10-25T22:45"
+  "news_zeit": "2026-10-25T22:45",
+  "kurz": [
+   "Nur 3 der 20 Startelf-Wechsel seit Spieltag 5 hatten Verletzungen als Grund, der Rest ist Steuerung.",
+   "Gesetzt sind nur Viggósdóttir und Mahmutovic.",
+   "Im Topspiel in Frankfurt stand trotzdem die stärkste verfügbare Elf."
+  ],
+  "ausblick": [
+   {
+    "md": 9,
+    "datum": "2026-11-06",
+    "gk": "SVW",
+    "ha": "H",
+    "satz": "Zwischen Pokal (1.11.) und Paris (10.11.): mehr Startelf-Minuten erwartet für",
+    "namen": [
+     "Alara",
+     "Proost",
+     "Imade",
+     "Mattner-Trembleau"
+    ],
+    "fehlt": [
+     "Mahmutovic gesperrt"
+    ],
+    "kb": "Rotation",
+    "kbart": "warn"
+   },
+   {
+    "md": 10,
+    "datum": "2026-11-14",
+    "gk": "WOB",
+    "ha": "A",
+    "satz": "Topspiel: stärkste verfügbare Elf mit Bühl und Harder erwartet, wie in Frankfurt nach zwei CL-Spielen.",
+    "kb": "Stammelf",
+    "kbart": "gut"
+   }
+  ]
  },
  "punkt_hinweis": null
 }
