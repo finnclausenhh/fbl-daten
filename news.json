@@ -565,7 +565,9 @@
    "verein": "1. FC Köln",
    "nr": "",
    "pos": "Spielansetzung",
-   "tags": [],
+   "tags": [
+    "AUFSTELLUNG"
+   ],
    "headline": "Köln im Pokal gegen Leipzig ohne Ziemer und Zeller",
    "text": [
     "Der 1. FC Köln empfängt heute um 13 Uhr RB Leipzig zum DFB-Pokal-Achtelfinale. Trainerin Carlson schickt Schmitz, Imping, Degen, Bohnen, Hegering, Leimenstoll, Vogt, Feiersinger, Elsen, Bremer und Andrade in die Startelf.",
@@ -3571,7 +3573,9 @@
    "verein": "Union Berlin",
    "nr": "",
    "pos": "Trainerin",
-   "tags": [],
+   "tags": [
+    "VORBERICHT"
+   ],
    "headline": "Union reist mit acht Ausfällen und Siegesserie nach Hamburg",
    "text": [
     "Union Berlin tritt am Sonntag um 17 Uhr beim Hamburger SV an, nach vier Pflichtspielsiegen in Folge und zuletzt einem 2:1 gegen Nürnberg. Mit neun Punkten haben die Berlinerinnen den Anschluss ans Mittelfeld hergestellt.",
@@ -3623,7 +3627,9 @@
    "verein": "VfL Wolfsburg",
    "nr": "10",
    "pos": "MF",
-   "tags": [],
+   "tags": [
+    "VORBERICHT"
+   ],
    "headline": "Peddemors erwartet gegen Köln ein Kampfspiel",
    "text": [
     "Wolfsburgs Torjägerin Ella Peddemors rechnet am Samstag mit einem intensiven Spiel. Köln sei gut in Form und werde viele Zweikämpfe suchen.",
@@ -3645,7 +3651,9 @@
    "verein": "Werder Bremen",
    "nr": "",
    "pos": "Trainerin",
-   "tags": [],
+   "tags": [
+    "VORBERICHT"
+   ],
    "headline": "Werder trainiert nach Krankheitswelle mit angezogener Handbremse",
    "text": [
     "Am Montag standen Trainerin Friederike Kromp nur sieben gesunde Spielerinnen zur Verfügung. Bis Mittwoch hat sich die Lage gebessert, rund 20 Spielerinnen trainieren wieder, teils aber mit reduzierter Belastung oder in der Halle.",
@@ -3667,7 +3675,9 @@
    "verein": "TSG Hoffenheim",
    "nr": "",
    "pos": "Spielansetzung",
-   "tags": [],
+   "tags": [
+    "VORBERICHT"
+   ],
    "headline": "Nachholspiel Bremen gegen Hoffenheim am 29. Oktober",
    "text": [
     "Das am Sonntag kurzfristig abgesagte Spiel wird am Donnerstag, 29. Oktober, um 18 Uhr auf Platz 11 am Weserstadion nachgeholt.",
@@ -3726,7 +3736,9 @@
    "verein": "1. FC Köln",
    "nr": "",
    "pos": "Trainerin",
-   "tags": [],
+   "tags": [
+    "VORBERICHT"
+   ],
    "headline": "Carlson fordert in Wolfsburg die Effizienz aus dem HSV-Spiel",
    "text": [
     "Kölns Trainerin Britta Carlson spricht vor dem Spiel in Wolfsburg von einer schweren Aufgabe. Wolfsburg habe die klarste Spielanlage der Liga, lasse aber auch Gegentore zu.",
@@ -3813,7 +3825,9 @@
    "verein": "SC Freiburg",
    "nr": "",
    "pos": "TW",
-   "tags": [],
+   "tags": [
+    "NATIONALTEAM"
+   ],
    "headline": "Freiburgs Torhüterin Reimann auf Abruf für die U17-WM",
    "text": [
     "Fünf Freiburgerinnen sind bei der U17-WM in Marokko, darunter Laura Ernst, Johanna Putzer und Johanna Hebben aus dem Profikader. Torhüterin Anna Reimann steht auf Abruf.",
@@ -3929,7 +3943,9 @@
    "verein": "FC Bayern",
    "nr": "",
    "pos": "ABW",
-   "tags": [],
+   "tags": [
+    "ROTATION"
+   ],
    "headline": "Mattner-Trembleau vertritt Gwinn rechts hinten",
    "text": [
     "Gegen Stuttgart begann Mattner-Trembleau als Rechtsverteidigerin und bereitete das 1:0 durch Dallmann vor. Sie war eine von vier neuen Spielerinnen in der Startelf.",
