@@ -1,6 +1,37 @@
 {
- "stand": "2026-10-30T15:40",
+ "stand": "2026-10-30T20:38",
  "meldungen": [
+  {
+   "id": "vfb-pokal-3010",
+   "pid": "00354",
+   "zeit": "2026-10-30T20:15",
+   "spielerin": "Rosa Rückert",
+   "verein": "VfB Stuttgart",
+   "nr": "",
+   "pos": "ST",
+   "tags": [
+    "TOP"
+   ],
+   "status": "fit",
+   "headline": "Rückert trifft, VfB erstmals im Pokal-Viertelfinale",
+   "text": [
+    "Die VfB-Frauen haben das DFB-Pokal-Achtelfinale gegen die SGS Essen 3:0 gewonnen und stehen erstmals in der Vereinsgeschichte im Viertelfinale. Rosa Rückert traf in der 19. Minute zum 1:0, Verena Wieder erhöhte auf 2:0.",
+    "Greta Stegemann machte in der 68. Minute den 3:0-Endstand perfekt. Der Aufsteiger setzte sich damit gegen einen Zweitligisten durch, der mit sieben Siegen aus zehn Spielen angereist war."
+   ],
+   "kickbase": "Drei Stuttgarter Torschützinnen im Pokal sind ein Formhinweis für Rückert, Wieder und Stegemann. Kickbase-Punkte gibt es dafür nicht, für den Ligaalltag zählt der Auftritt aber als Selbstvertrauen.",
+   "quellen": [
+    {
+     "name": "Sportschau (SWR)",
+     "url": "https://www.sportschau.de/regional/swr/swr-vfb-frauen-ziehen-souveraen-ins-pokal-viertelfinale-ein-100.html"
+    }
+   ],
+   "foto": "fotos/vfb-rosa-ruckert.webp",
+   "foto_credit": {
+    "autor": "VfB Stuttgart",
+    "lizenz": "mit Genehmigung: VfB Stuttgart",
+    "url": "https://www.vfb.de/de/1893/frauen/frauen/kader/saisonen/2026-2027/kader/?data=&mobile="
+   }
+  },
   {
    "id": "zadrazil-3010",
    "pid": "00022",
