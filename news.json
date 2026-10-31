@@ -1,6 +1,41 @@
 {
- "stand": "2026-10-31T12:37",
+ "stand": "2026-10-31T15:37",
  "meldungen": [
+  {
+   "id": "bremer-3110",
+   "pid": "00206",
+   "zeit": "2026-10-31T15:21",
+   "spielerin": "Pauline Bremer",
+   "verein": "1. FC Köln",
+   "nr": "9",
+   "pos": "ST",
+   "tags": [
+    "TOP"
+   ],
+   "status": "fit",
+   "headline": "Bremer schießt Köln ins Pokal-Viertelfinale",
+   "text": [
+    "Pauline Bremer erzielte in der 34. Minute das einzige Tor beim 1:0 des 1. FC Köln gegen RB Leipzig im Achtelfinale des DFB-Pokals. Köln steht damit im Viertelfinale, Leipzig ist ausgeschieden.",
+    "Köln trat ohne Ziemer und Zeller an. Bremer stand in der Startelf und entschied die Partie."
+   ],
+   "kickbase": "Bremer ist mit ihrem Treffer in guter Form und bleibt für Köln die erste Wahl im Sturm.",
+   "quellen": [
+    {
+     "name": "WELT",
+     "url": "https://www.welt.de/regionales/sachsen/article6ae5f939aedea8cd9ffbf74c/fussballerinnen-von-rb-leipzig-verlieren-pokal-achtelfinale.html"
+    },
+    {
+     "name": "1. FC Köln",
+     "url": "https://fc.de/aktuelles/news/dfb-pokal-fc-frauen-ziehen-ins-viertelfinale-ein"
+    }
+   ],
+   "foto": "fotos/koe-pauline-bremer.webp",
+   "foto_credit": {
+    "autor": "1. FC Köln",
+    "lizenz": "mit Genehmigung: 1. FC Köln",
+    "url": "https://fc.de/mannschaften/frauen/kader"
+   }
+  },
   {
    "id": "startelf-koe-3110",
    "zeit": "2026-10-31T12:04",
