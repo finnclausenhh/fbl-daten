@@ -1,6 +1,16 @@
 {
- "stand": "2026-10-31T17:15",
+ "stand": "2026-10-31T20:45",
  "eintraege": [
+  {
+   "version": "0.14",
+   "datum": "2026-10-31",
+   "titel": "Hellerer Fotogrund, Kartenminuten und Torschützinnen",
+   "aenderungen": [
+    "Spielerinnenfotos: Hinter freigestellten Portraits liegt statt des flachen Dunkelblaus ein Lichtkegel (radialer Verlauf, innen heller, Mittelpunkt etwas oberhalb der Mitte) mit feinem weißen Innenrand. Das Wappen als Wasserzeichen ist etwas kräftiger. Gilt für Ticker-Karte, Artikelkopf und die kompakte Inside-Formkarte. Ohne Foto bleibt alles wie bisher.",
+    "Kartenminuten: Gelbe und Rote Karten zeigen direkt hinter dem Kartensymbol die Minute, zum Beispiel „▮ 54'“. Gilt für die offizielle Aufstellung im Spielplan und für „Aufstellung im Spiel“ in Meldungen, auch bei Eingewechselten. Fehlt die Minute, steht nur die Karte.",
+    "Aufstellung im Spiel: Neue Zeile „TORE“ unter dem Vergleichshinweis mit allen Toren des Spiels, zum Beispiel „7' Athenea del Castillo (Vorlage Caicedo)“, bei Eigentor oder Elfmeter mit Zusatz in Klammern. Tore des Gegners gedämpft, eigene Tore normal."
+   ]
+  },
   {
    "version": "0.13",
    "datum": "2026-10-31",
