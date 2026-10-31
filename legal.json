@@ -1,4 +1,89 @@
 {
+ "ueber": {
+  "titel": "Über WOSOINSIDER",
+  "bloecke": [
+   {
+    "typ": "p",
+    "text": "Die Frauen-Bundesliga. Jeden Tag auf dem Punkt."
+   },
+   {
+    "typ": "h2",
+    "text": "Warum es WOSOINSIDER gibt"
+   },
+   {
+    "typ": "p",
+    "text": "Seit Kickbase auch die Google Pixel Frauen-Bundesliga anbietet, stellen viele jede Woche ein Team aus Spielerinnen der Liga auf. Dafür braucht es verlässliche Antworten: Wer ist fit, wer fehlt, wer steht in der Startelf, wer ist in Form?"
+   },
+   {
+    "typ": "p",
+    "text": "Diese Informationen gibt es, sie sind nur verstreut: auf Vereinsseiten, in Spielberichten, Pressekonferenzen und regionalen Medien. WOSOINSIDER sammelt sie mehrmals täglich, fasst sie in eigenen Worten zusammen und verlinkt immer die Quelle."
+   },
+   {
+    "typ": "h2",
+    "text": "Für wen"
+   },
+   {
+    "typ": "li",
+    "text": "Kickbase-Spielerinnen und -Spieler, die vor jedem Spieltag Aufstellung und Transfers planen"
+   },
+   {
+    "typ": "li",
+    "text": "Fans der Frauen-Bundesliga, die alle Vereine im Blick behalten wollen"
+   },
+   {
+    "typ": "li",
+    "text": "Alle, die über Fantasy-Spiele neu zur Frauen-Bundesliga finden"
+   },
+   {
+    "typ": "h2",
+    "text": "Was du hier findest"
+   },
+   {
+    "typ": "li",
+    "text": "**News:** Verletzungen, Sperren, Rückkehr und Spielberichte, jede Meldung mit Quelle"
+   },
+   {
+    "typ": "li",
+    "text": "**Spielplan:** alle Partien, mögliche Aufstellungen mit begründeter Einstufung, ca. 60 Minuten vor Anpfiff die offizielle"
+   },
+   {
+    "typ": "li",
+    "text": "**Inside:** die Wochenausgabe mit Formkurven, Standards, Belastung und Analyse"
+   },
+   {
+    "typ": "h2",
+    "text": "Kurz, mit Quelle, fair"
+   },
+   {
+    "typ": "p",
+    "text": "Gerüchte bleiben Gerüchte. Verletzungen nennen wir nur so weit, wie der Verein sie nennt. Alle 14 Vereine bekommen die gleiche Aufmerksamkeit. WOSOINSIDER ist unabhängig, braucht kein Konto und zeigt keine Werbung."
+   },
+   {
+    "typ": "h2",
+    "text": "Wer dahintersteht"
+   },
+   {
+    "typ": "p",
+    "text": "WOSOINSIDER ist ein Projekt von Finn Clausen. Er hat Journalistik studiert und ist seit über zehn Jahren im Frauenfußball unterwegs: lange bei den Frauen des FC Bayern, bei Eintracht Frankfurt in der Zeit der Fusion und im Social-Media-Support für Spielerinnen. Kickbase spielt er selbst, und WOSOINSIDER ist die Tageszeitung, die ihm dafür gefehlt hat."
+   },
+   {
+    "typ": "h2",
+    "text": "Wie die Meldungen entstehen"
+   },
+   {
+    "typ": "p",
+    "text": "Meldungen und Einschätzungen erstellt eine KI aus den verlinkten Quellen, nach festen Regeln und ohne etwas zu erfinden. Einzelheiten stehen unter KI-Hinweis & Methodik."
+   },
+   {
+    "typ": "h2",
+    "text": "Kontakt"
+   },
+   {
+    "typ": "p",
+    "text": "Hinweise, Korrekturen, Vereine und Presse: [redaktion@wosoinsider.de](mailto:redaktion@wosoinsider.de)"
+   }
+  ]
+ },
  "impressum": {
   "titel": "Impressum",
   "bloecke": [
