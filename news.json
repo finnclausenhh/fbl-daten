@@ -1,6 +1,29 @@
 {
- "stand": "2026-10-30T20:38",
+ "stand": "2026-10-31T12:37",
  "meldungen": [
+  {
+   "id": "startelf-koe-3110",
+   "zeit": "2026-10-31T12:04",
+   "spielerin": "Spielansetzung",
+   "verein": "1. FC Köln",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "TOP"
+   ],
+   "headline": "Köln im Pokal gegen Leipzig ohne Ziemer und Zeller",
+   "text": [
+    "Der 1. FC Köln empfängt heute um 13 Uhr RB Leipzig zum DFB-Pokal-Achtelfinale. Trainerin Carlson schickt Schmitz, Imping, Degen, Bohnen, Hegering, Leimenstoll, Vogt, Feiersinger, Elsen, Bremer und Andrade in die Startelf.",
+    "Kathrin Hendrich sitzt auf der Bank, Taylor Ziemer und Dóra Zeller stehen weder in der Startelf noch im Spieltagskader der Vereinsmeldung. Einen Grund nennt der Verein nicht, beide galten zuletzt als fraglich."
+   ],
+   "kickbase": "Für den Ligaalltag taugt die Pokalelf nur bedingt als Hinweis, Rotation ist in Köln ohnehin Dauerzustand. Ziemer und Zeller sollten bis zu einer Klärung als unsicher gelten.",
+   "quellen": [
+    {
+     "name": "1. FC Köln",
+     "url": "https://fc.de/aktuelles/news/startelf-der-fc-frauen-im-pokal-heimspiel"
+    }
+   ]
+  },
   {
    "id": "vfb-pokal-3010",
    "pid": "00354",
