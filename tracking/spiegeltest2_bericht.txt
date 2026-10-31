@@ -1,0 +1,4 @@
+Schritt 1: Cloning into 'gh'...
+Schritt 2: exit=0 (keine weitere Ausgabe)
+Modell: Sonnet 5.5 (claude-sonnet-5-5)
+Tool add_repo: nein, in meiner Toolliste gab es kein add_repo
