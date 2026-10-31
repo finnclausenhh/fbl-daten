@@ -1,6 +1,25 @@
 {
-  "stand": "2026-10-31T22:55",
+  "stand": "2026-11-01T00:57",
   "eintraege": [
+    {
+      "version": "0.17",
+      "datum": "2026-11-01",
+      "titel": "Karten, Fairnesstabelle und neuer Look",
+      "aenderungen": [
+        "Statistik, Karten: Die Kategorien \"Gelbe Karten\" und \"Platzverweise\" sind ersetzt durch \"Karten\" (Erklärung \"Gelb 1, Gelb-Rot 3, Rot 5 Punkte\"). Jede Zeile zeigt statt des Balkens drei Zähler mit kleinen Kartensymbolen: Gelb (#F5C518), Gelb-Rot (diagonal geteilt) und Rot (#E24A4A); rechts steht die Punktzahl. Gelb-Rot kommt aus dem neuen Feld gr je Spiel in spielerinnen.json, die Gelbe vor einer Gelb-Roten zählt nicht extra. Top 3, \"Top 10 ›\" und \"Ebenfalls …\" wie bei den anderen Kategorien",
+        "Statistik, Fairnesstabelle: Neue letzte Kategorie \"Fairnesstabelle\" (Erklärung \"Kartenpunkte der Spielerinnen je Verein, wenigste oben\"). Tabelle mit den Spalten #, Wappen, Verein, Gelb, Gelb-Rot, Rot (als Kartensymbole in der Kopfzeile) und PKT, alle 14 Vereine, wenigste Punkte oben, bei Gleichstand nach Vereinsname und ohne wiederholte Platzzahl. Verein antippen öffnet den Kader, Zurück führt in die Statistik",
+        "Statistik, Dauerbrennerinnen: Solange mehr als 10 Spielerinnen jede Ligaminute gespielt haben, bleiben die Chips mit Wappen und Nachname. Ab 10 oder weniger erscheint dieselbe Listenansicht wie bei den anderen Kategorien, sortiert nach Einsatzminuten (Wert mit Apostroph, zum Beispiel 720'), Erklärung \"Einsatzminuten, 8 haben jede Minute gespielt\", Top 3 und \"Top 10 ›\"",
+        "Tabelle: Links ein farbiger Streifen (3 Punkt) je Zone: Platz 1 #2F5BFF (Champions League, Ligaphase), Platz 2 und 3 #6E9BFF (Champions League, Qualifikation), die letzten beiden #E24A4A (Abstieg). Darunter die Legende mit den drei Farbfeldern und der Hinweistext wie im Web: \"Startplätze wie in der Saison 2026/27 laut DFB: Meister direkt in die Ligaphase, Platz 2 und 3 in die Qualifikation (wer dort ausscheidet, spielt im Europa Cup weiter). Die beiden Letzten steigen ab. Die UEFA kann die Zahl der Plätze über die Länderwertung ändern. Bei Punktgleichheit entscheidet die Tordifferenz, dann die Zahl der Tore. Verein antippen öffnet den Kader. Ergebnisse: Sportschau.\"",
+        "Vereinsfilter in der Kopfleiste: Die Zeile \"Meine Vereine\" über den Listen entfällt. Stattdessen steht links in der Kopfleiste ein Knopf (34 Punkt, abgerundet auf dem Soft-Grund wie die drei Symbole rechts): ohne Auswahl ein Schild mit Haken, mit Auswahl die ersten zwei Wappen (18 Punkt) plus \"+N\" auf blau getöntem Grund. Antippen klappt die Wappenauswahl oben im Reiter auf (Knopf dann Akzentblau), \"Fertig\" rechts darunter schließt sie. Ist gefiltert, steht über der Liste eine dünne Zeile mit Mini-Wappen \"Nur FC Bayern, Köln\" und rechts \"ändern\"; ohne Auswahl steht dort nichts. Gilt in News, Spielplan und Inside",
+        "Kopfleiste: Die Segment-Leiste News, Spielplan, Inside sitzt 6 Punkt tiefer, damit die Symbole nicht daran kleben, und ist jetzt deckend (#272E3C)",
+        "Struktur Taktiktafel: Feine weiße Linien als Hintergrund, 1:1 nach den SVGs der Webversion, nur auf diesen Flächen: Kopfleiste ein Mittelkreis (Radius 66) um das Logo mit Anstoßpunkt (Deckkraft 0,07), Inside-Ausgabe ein angeschnittener Strafraum oben rechts (0,056), Analyse-Kopf ein Strafraum plus gestrichelter blauer Laufweg mit Kreis und Kreuz (Linien 0,056, Laufweg Blau mit 0,17), Profilkopf eine Eckfahne mit Seitenlinie oben rechts (0,084). Feed, Meldungen, Spielplan und Statistik bleiben ohne Struktur",
+        "Inside, Alle Schützinnen: Die Legende steht einzeilig (\"gesetzt\" mit grünem Punkt, \"2 bis 3 Belege\", \"erster Hinweis\" kursiv) mit einem runden i-Knopf rechts. Antippen klappt die Erklärung auf: \"Gesetzt heißt: viele Belege aus Spielberichten oder ein Tor nach ihrem Standard. Normal: 2 bis 3 Belege. Kursiv: bisher nur ein Hinweis.\" Die Trennlinien zwischen den Vereinszeilen bleiben durchgehend",
+        "Profil, Kacheln: Beschriftungen \"Nächstes Spiel\" (vorher \"Nächster Spieltag\") und \"Letzte 3 Spiele\" (vorher \"Letzte 3 Einsätze\"). Ohne Tor und Vorlage steht darunter \"keine Torbeteiligung\", sonst zum Beispiel \"1 Tor · 2 Vorl.\"",
+        "Über WOSOINSIDER und Kontakt: Texte aus legal.json erweitert (Verbesserungsvorschläge, Kooperationsanfragen, Instagram). Markdown-Links wie @finn.baut und redaktion@wosoinsider.de sind antippbar und öffnen Instagram beziehungsweise Mail",
+        "Patches: Solange patchnotes.json noch lädt, steht \"Patchnotes werden geladen …\", danach erscheint die Liste von selbst",
+        "Datenfelder: gr je Spiel in spielerinnen.json ist optional, ältere Daten laden unverändert. Die App sendet keine neuen Daten, Karten und Fairnesstabelle werden auf dem Gerät berechnet"
+      ]
+    },
     {
       "version": "0.16",
       "datum": "2026-10-31",
