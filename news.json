@@ -42,6 +42,43 @@
      "gegner": "Union Berlin",
      "wettbewerb": "DFB-Pokal",
      "ergebnis": "3:4",
+     "tore": [
+      {
+       "min": "10",
+       "n": "Linberg",
+       "eigen": true
+      },
+      {
+       "min": "33",
+       "n": "Bartz",
+       "eigen": true
+      },
+      {
+       "min": "68",
+       "n": "Veit",
+       "eigen": false
+      },
+      {
+       "min": "72",
+       "n": "Judit Pujols",
+       "eigen": false
+      },
+      {
+       "min": "80",
+       "n": "Bauereisen",
+       "eigen": false
+      },
+      {
+       "min": "90",
+       "n": "Wrede",
+       "eigen": true
+      },
+      {
+       "min": "113",
+       "n": "Bauereisen",
+       "eigen": false
+      }
+     ],
      "vergleich": "8. Spieltag",
      "startelf": [
       {
@@ -152,6 +189,43 @@
      "gegner": "Hamburger SV",
      "wettbewerb": "DFB-Pokal",
      "ergebnis": "4:3",
+     "tore": [
+      {
+       "min": "10",
+       "n": "Linberg",
+       "eigen": false
+      },
+      {
+       "min": "33",
+       "n": "Bartz",
+       "eigen": false
+      },
+      {
+       "min": "68",
+       "n": "Veit",
+       "eigen": true
+      },
+      {
+       "min": "72",
+       "n": "Judit Pujols",
+       "eigen": true
+      },
+      {
+       "min": "80",
+       "n": "Bauereisen",
+       "eigen": true
+      },
+      {
+       "min": "90",
+       "n": "Wrede",
+       "eigen": false
+      },
+      {
+       "min": "113",
+       "n": "Bauereisen",
+       "eigen": true
+      }
+     ],
      "vergleich": "8. Spieltag",
      "startelf": [
       {
@@ -294,6 +368,13 @@
      "gegner": "RB Leipzig",
      "wettbewerb": "DFB-Pokal",
      "ergebnis": "1:0",
+     "tore": [
+      {
+       "min": "35",
+       "n": "Bremer",
+       "eigen": true
+      }
+     ],
      "vergleich": "8. Spieltag",
      "startelf": [
       {
@@ -374,6 +455,13 @@
      "gegner": "1. FC Köln",
      "wettbewerb": "DFB-Pokal",
      "ergebnis": "0:1",
+     "tore": [
+      {
+       "min": "35",
+       "n": "Bremer",
+       "eigen": false
+      }
+     ],
      "vergleich": "8. Spieltag",
      "startelf": [
       {
@@ -528,6 +616,23 @@
      "gegner": "SGS Essen",
      "wettbewerb": "DFB-Pokal",
      "ergebnis": "3:0",
+     "tore": [
+      {
+       "min": "19",
+       "n": "Rückert",
+       "eigen": true
+      },
+      {
+       "min": "42",
+       "n": "Wieder",
+       "eigen": true
+      },
+      {
+       "min": "68",
+       "n": "Stegemann",
+       "eigen": true
+      }
+     ],
      "vergleich": "8. Spieltag",
      "startelf": [
       {
@@ -1270,6 +1375,31 @@
      "gegner": "Real Madrid",
      "wettbewerb": "Champions League",
      "ergebnis": "2:2",
+     "tore": [
+      {
+       "min": "7",
+       "n": "Athenea del Castillo",
+       "eigen": false,
+       "vorlage": "Caicedo"
+      },
+      {
+       "min": "22",
+       "n": "Beerensteyn",
+       "eigen": false,
+       "vorlage": "María Méndez"
+      },
+      {
+       "min": "31",
+       "n": "Imade",
+       "eigen": true,
+       "vorlage": "Bühl"
+      },
+      {
+       "min": "52",
+       "n": "Tanikawa",
+       "eigen": true
+      }
+     ],
      "vergleich": "8. Spieltag",
      "startelf": [
       {
@@ -1298,7 +1428,8 @@
       {
        "n": "Amani",
        "p": "DM",
-       "gelb": true
+       "gelb": true,
+       "gelb_min": "85"
       },
       {
        "n": "Tanikawa",
@@ -1331,7 +1462,9 @@
       {
        "n": "Eriksson",
        "p": "ABW",
-       "ein_min": "46"
+       "ein_min": "46",
+       "gelb": true,
+       "gelb_min": "84"
       },
       {
        "n": "Alara",
