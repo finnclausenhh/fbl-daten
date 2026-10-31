@@ -325,7 +325,8 @@
       "Egli"
      ]
     }
-   ]
+   ],
+   "kurz": "Bauereisen schießt Union ins Viertelfinale"
   },
   {
    "id": "bremer-3110",
@@ -861,7 +862,8 @@
       "Osawa"
      ]
     }
-   ]
+   ],
+   "kurz": "Rückert trifft, VfB im Pokal-Viertelfinale"
   },
   {
    "id": "zadrazil-3010",
@@ -893,7 +895,8 @@
     "autor": "FC Bayern",
     "lizenz": "mit Genehmigung: FC Bayern München",
     "url": "https://fcbayern.com/frauen/de/teams/1.-mannschaft"
-   }
+   },
+   "kurz": "Zadrazil fällt im Pokal aus"
   },
   {
    "id": "shimada-3010",
@@ -924,7 +927,8 @@
     "autor": "Werder Bremen",
     "lizenz": "mit Genehmigung: Werder Bremen",
     "url": "https://www.werder.de/teams/frauen/spielerinnen/"
-   }
+   },
+   "kurz": "Jokerin Shimada entscheidet das Spiel"
   },
   {
    "id": "gwinn-3010",
@@ -957,7 +961,8 @@
     "lizenz": "CC BY-SA 4.0",
     "url": "https://commons.wikimedia.org/wiki/File:2022-06-24_Fussball,_Frauen,_L%C3%A4nderspiel,_Deutschland_-_Schweiz_1DX_0701_by_Stepro.jpg"
    },
-   "instagram": "https://www.instagram.com/giuliagwinn/"
+   "instagram": "https://www.instagram.com/giuliagwinn/",
+   "kurz": "Gwinn wieder am Ball, Comeback im November"
   },
   {
    "id": "desic-2910",
@@ -1352,7 +1357,8 @@
     "autor": "Union Berlin",
     "lizenz": "mit Genehmigung: 1. FC Union Berlin",
     "url": "https://www.fc-union-berlin.de/de/fussball/profis-frauen-nJqf"
-   }
+   },
+   "kurz": "Noack nach Verletzung zurück bei U17-WM"
   },
   {
    "id": "dallmann-2910",
@@ -1448,7 +1454,8 @@
     "autor": "Eintracht Frankfurt",
     "lizenz": "mit Genehmigung: Eintracht Frankfurt",
     "url": "https://frauen.eintracht.de/kader/"
-   }
+   },
+   "kurz": "Raso und Freigang: 2:0 in Eindhoven"
   },
   {
    "id": "imade-2810",
@@ -1625,7 +1632,8 @@
       "Potsi"
      ]
     }
-   ]
+   ],
+   "kurz": "Imade und Tanikawa retten 2:2 gegen Real"
   },
   {
    "id": "redzepi-2810",
@@ -1656,7 +1664,8 @@
     "autor": "VfB Stuttgart",
     "lizenz": "mit Genehmigung: VfB Stuttgart",
     "url": "https://www.vfb.de/de/1893/frauen/frauen/kader/saisonen/2026-2027/kader/?data=&mobile="
-   }
+   },
+   "kurz": "Redzepi für ein Ligaspiel gesperrt"
   },
   {
    "id": "mainz-kress-2810",
@@ -1681,7 +1690,8 @@
      "url": "https://www.mainz05.de/news/kress-der-klassenerhalt-ist-und-bleibt-das-ziel-an-das-wir-glauben"
     }
    ],
-   "status": "fraglich"
+   "status": "fraglich",
+   "kurz": "Mainz ohne Matsumoto, Matheis und Jackson"
   },
   {
    "id": "mahmutovic-2710",
@@ -1743,7 +1753,8 @@
     "autor": "Steffen Prößdorf",
     "lizenz": "CC BY-SA 4.0",
     "url": "https://commons.wikimedia.org/wiki/File:2023-06-26_Fussball,_Frauen,_Deutsche_Nationalmannschaft,_Media_Day_1DX_6335_by_Stepro.jpg"
-   }
+   },
+   "kurz": "Bühl beim Ballon d'Or auf Platz zwölf"
   },
   {
    "id": "stoldt-2510",
@@ -1773,7 +1784,8 @@
      "url": "https://www.sportschau.de/regional/ndr/Bundesliga-Frauen-HSV-Union-Berlin-Spielbericht,hsv-frauen-370.html"
     }
    ],
-   "pid": "00167"
+   "pid": "00167",
+   "kurz": "Stoldt trifft dreifach beim 4:4 gegen Union"
   },
   {
    "id": "proniez-2510",
@@ -1802,7 +1814,8 @@
      "url": "https://www.bayer04.de/de-de/team/frauen/frauen"
     }
    ],
-   "pid": "00317"
+   "pid": "00317",
+   "kurz": "Proniez trifft doppelt, Nürnberg schlägt Bayer"
   },
   {
    "id": "aufstellung-hsv-2510",
@@ -2141,7 +2154,8 @@
      "url": "https://www.laola1.at/de/red/fussball/frauen-fussball/gutmann-und-purtscheller-glaenzen-bei-werder-sieg/"
     }
    ],
-   "pid": "00035"
+   "pid": "00035",
+   "kurz": "Gutmann trifft doppelt beim 4:3 gegen Freiburg"
   },
   {
    "id": "aufstellung-fcn-2510",
@@ -2482,7 +2496,8 @@
    },
    "ausfall": "mehrere Monate",
    "pid": "00348",
-   "instagram": "https://www.instagram.com/reena_wi/"
+   "instagram": "https://www.instagram.com/reena_wi/",
+   "kurz": "Wichmann fällt monatelang aus"
   },
   {
    "id": "grimm-2510",
@@ -2924,7 +2939,8 @@
      "url": "https://www.sportschau.de/regional/hr/hr-bundesliga-eintracht-frankfurt-frauen-siegen-in-stuttgart-100.html"
     }
    ],
-   "pid": "00080"
+   "pid": "00080",
+   "kurz": "Mühlhaus trifft per Seitfallzieher"
   },
   {
    "id": "redzepi-2410",
@@ -2954,7 +2970,8 @@
      "url": "https://www.dfb.de/news/muehlhaus-bringt-frankfurt-in-stuttgart-auf-kurs"
     }
    ],
-   "pid": "00347"
+   "pid": "00347",
+   "kurz": "Redzepi sieht Rot beim 0:3 gegen Frankfurt"
   },
   {
    "id": "peddemors-2410",
@@ -2983,7 +3000,8 @@
      "url": "https://fc.de/aktuelles/news/trotz-starkem-beginn-fc-frauen-verlieren-in-wolfsburg"
     }
    ],
-   "pid": "00405"
+   "pid": "00405",
+   "kurz": "Peddemors trifft doppelt beim 3:0 gegen Köln"
   },
   {
    "id": "aufstellung-vfb-2410",
@@ -3549,7 +3567,8 @@
     }
    ],
    "pid": "00003",
-   "instagram": "https://www.instagram.com/ena.mhm/"
+   "instagram": "https://www.instagram.com/ena.mhm/",
+   "kurz": "Mahmutovic sieht Rot, Gilles muss ins Tor"
   },
   {
    "id": "zicai-2410",
@@ -3573,7 +3592,8 @@
      "url": "https://www.sport1.de/news/fussball/frauen-bundesliga/2026/10/zicai-traeumt-moechte-gerne-mal-ins-ausland"
     }
    ],
-   "pid": "00414"
+   "pid": "00414",
+   "kurz": "Zicai offen für Wechsel ins Ausland"
   },
   {
    "id": "buehl-2310",
@@ -3628,7 +3648,8 @@
      "name": "SC Freiburg",
      "url": "https://www.scfreiburg.com/aktuell/nachrichten/frauen-maedchen/2026/27/vorberichte/weite-auswaertsreise-in-den-hohen-norden/"
     }
-   ]
+   ],
+   "kurz": "Freiburg ohne Stierli nach Bremen"
   },
   {
    "id": "floe-2310",
@@ -3701,7 +3722,8 @@
      "name": "1. FC Union Berlin",
      "url": "https://www.fc-union-berlin.de/de/meldungen/unionerinnen-reisen-mit-aufwind-ins-volksparkstadion-ARsCPA"
     }
-   ]
+   ],
+   "kurz": "Union mit acht Ausfällen nach Hamburg"
   },
   {
    "id": "buehl-2210",
@@ -3732,7 +3754,8 @@
     "url": "https://commons.wikimedia.org/wiki/File:2023-06-26_Fussball,_Frauen,_Deutsche_Nationalmannschaft,_Media_Day_1DX_6335_by_Stepro.jpg"
    },
    "pid": "00023",
-   "instagram": "https://www.instagram.com/buehlklara/"
+   "instagram": "https://www.instagram.com/buehlklara/",
+   "kurz": "Barcala will Bühl halten, Vertrag läuft aus"
   },
   {
    "id": "peddemors-2210",
@@ -3780,7 +3803,8 @@
      "name": "buten un binnen",
      "url": "https://www.butenunbinnen.de/sport/frauenfussball-werder-erkrankungen-bundesliga-100.html"
     }
-   ]
+   ],
+   "kurz": "Werder nach Krankheitswelle gebremst"
   },
   {
    "id": "nachhol-2110",
@@ -3807,7 +3831,8 @@
      "name": "buten un binnen",
      "url": "https://butenunbinnen.de/sport/frauenfussball-werder-hoffenheim-nachholspiel-termin-100.html"
     }
-   ]
+   ],
+   "kurz": "Nachholspiel Werder gegen Hoffenheim am 29.10."
   },
   {
    "id": "joly-2110",
@@ -3841,7 +3866,8 @@
     "lizenz": "CC BY-SA 4.0",
     "url": "https://commons.wikimedia.org/wiki/File:Stade_de_reims_1515326_(lou-ann).jpg"
    },
-   "pid": "00223"
+   "pid": "00223",
+   "kurz": "Joly und Schasching vor Bayern-Spiel fraglich"
   },
   {
    "id": "carlson-2010",
@@ -3864,7 +3890,8 @@
      "name": "1. FC Köln",
      "url": "https://fc.de/aktuelles/news/fc-frauen-topspiel-in-wolfsburg"
     }
-   ]
+   ],
+   "kurz": "Carlson fordert Effizienz in Wolfsburg"
   },
   {
    "id": "stierli-2010",
@@ -3954,7 +3981,8 @@
      "url": "https://www.scfreiburg.com/aktuell/nachrichten/frauen-maedchen/2026/27/news/fuenf-freiburgerinnen-bei-u17-wm/"
     }
    ],
-   "pid": "00085"
+   "pid": "00085",
+   "kurz": "Reimann auf Abruf für die U17-WM"
   },
   {
    "id": "gwinn-1910",
@@ -3985,7 +4013,8 @@
     "url": "https://commons.wikimedia.org/wiki/File:2022-06-24_Fussball,_Frauen,_L%C3%A4nderspiel,_Deutschland_-_Schweiz_1DX_0701_by_Stepro.jpg"
    },
    "pid": "00009",
-   "instagram": "https://www.instagram.com/giuliagwinn/"
+   "instagram": "https://www.instagram.com/giuliagwinn/",
+   "kurz": "Gwinn im Zeitplan, Rückkehr in Wochen"
   },
   {
    "id": "harder-1910",
@@ -4159,7 +4188,8 @@
     }
    ],
    "status": "fraglich",
-   "pid": "00204"
+   "pid": "00204",
+   "kurz": "Ziemer angeschlagen, Carlson gibt Entwarnung"
   },
   {
    "id": "gmeineder-1910",
