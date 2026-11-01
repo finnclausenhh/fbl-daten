@@ -1,0 +1,29 @@
+name: Aufstellungen schützen
+
+# Läuft bei jedem Push, der news.json ändert (z. B. Spiegel aus dem Artifact), und fügt Live-Aufstellungen aus
+# tools/aufstellungen_live.json sofort wieder ein, falls sie überschrieben wurden. Pushes dieser Action lösen sie nicht erneut aus.
+on:
+  push:
+    branches: [main]
+    paths: [news.json]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: aufstellungen-live
+  cancel-in-progress: false
+
+jobs:
+  heilen:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Live-Aufstellungen sichern
+        run: python3 tools/aufstellungen_live.py --repo . --push --laufzeit 0
