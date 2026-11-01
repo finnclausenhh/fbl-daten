@@ -1,6 +1,185 @@
 {
- "stand": "2026-11-01T13:45",
+ "stand": "2026-11-01T13:53",
  "meldungen": [
+  {
+   "id": "aufstellung-pokal-fcb-0111",
+   "zeit": "2026-11-01T13:53",
+   "spielerin": "Spielansetzung",
+   "verein": "FC Bayern",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "POKAL"
+   ],
+   "headline": "Offizielle Aufstellung: FC Bayern gegen Bayer Leverkusen",
+   "text": [
+    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Bühl, Naschenweng, Viggósdóttir. Die Bank zeigt die Sportschau im Pokal erst nach Abpfiff. Rotation im Pokal heißt nicht Verletzung, oft wird nur die Belastung gesteuert."
+   ],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165391/bayern-muenchen_bayer-leverkusen/aufstellung"
+    }
+   ],
+   "aufstellung": {
+    "gegner": "Bayer Leverkusen",
+    "startelf": [
+     {
+      "n": "Mahmutovic",
+      "p": "TW",
+      "pid": "00003"
+     },
+     {
+      "n": "Ballisager",
+      "p": "ABW",
+      "pid": "00005",
+      "f": "neu"
+     },
+     {
+      "n": "Eriksson",
+      "p": "ABW",
+      "pid": "00007"
+     },
+     {
+      "n": "Kett",
+      "p": "ABW",
+      "pid": "00011"
+     },
+     {
+      "n": "Alara",
+      "p": "MF",
+      "pid": "00015"
+     },
+     {
+      "n": "Amani",
+      "p": "MF",
+      "pid": "00016"
+     },
+     {
+      "n": "Dallmann",
+      "p": "MF",
+      "pid": "00017",
+      "f": "neu"
+     },
+     {
+      "n": "Tanikawa",
+      "p": "MF",
+      "pid": "00021"
+     },
+     {
+      "n": "Proost",
+      "p": "MF",
+      "pid": "00020"
+     },
+     {
+      "n": "Mattner-Trembleau",
+      "p": "ST",
+      "pid": "00027",
+      "f": "neu"
+     },
+     {
+      "n": "Harder",
+      "p": "ST",
+      "pid": "00025"
+     }
+    ],
+    "bank": [],
+    "fehlt": [],
+    "wettbewerb": "DFB-Pokal",
+    "bank_offen": true
+   },
+   "quelle_live": true
+  },
+  {
+   "id": "aufstellung-pokal-b04-0111",
+   "zeit": "2026-11-01T13:53",
+   "spielerin": "Spielansetzung",
+   "verein": "Bayer Leverkusen",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "POKAL"
+   ],
+   "headline": "Offizielle Aufstellung: Bayer Leverkusen gegen FC Bayern",
+   "text": [
+    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Bender, Fudalla. Die Bank zeigt die Sportschau im Pokal erst nach Abpfiff. Rotation im Pokal heißt nicht Verletzung, oft wird nur die Belastung gesteuert."
+   ],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165391/bayern-muenchen_bayer-leverkusen/aufstellung"
+    }
+   ],
+   "aufstellung": {
+    "gegner": "FC Bayern",
+    "startelf": [
+     {
+      "n": "Borggräfe",
+      "p": "TW",
+      "pid": "00238"
+     },
+     {
+      "n": "Merino",
+      "p": "ABW",
+      "pid": "00245"
+     },
+     {
+      "n": "Turányi",
+      "p": "ABW",
+      "pid": "00248"
+     },
+     {
+      "n": "Ostermeier",
+      "p": "ABW",
+      "pid": "00246"
+     },
+     {
+      "n": "Simon",
+      "p": "ABW",
+      "pid": "00247"
+     },
+     {
+      "n": "Wenger",
+      "p": "ABW",
+      "pid": "00250"
+     },
+     {
+      "n": "Müller",
+      "p": "MF",
+      "pid": "00253"
+     },
+     {
+      "n": "Kehrer",
+      "p": "ST",
+      "pid": "00259",
+      "f": "neu"
+     },
+     {
+      "n": "Sternad",
+      "p": "ST",
+      "pid": "00265"
+     },
+     {
+      "n": "Kramer",
+      "p": "ST",
+      "pid": "00260"
+     },
+     {
+      "n": "Mädl",
+      "p": "ST",
+      "pid": "00263",
+      "f": "neu"
+     }
+    ],
+    "bank": [],
+    "fehlt": [],
+    "wettbewerb": "DFB-Pokal",
+    "bank_offen": true
+   },
+   "quelle_live": true
+  },
   {
    "id": "brengel-0111",
    "pid": "00308",
