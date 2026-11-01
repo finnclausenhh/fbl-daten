@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-01T14:16",
+ "stand": "2026-11-01T14:21",
  "meldungen": [
   {
    "id": "aufstellung-pokal-scf-0111",
@@ -13,13 +13,18 @@
    ],
    "headline": "Offizielle Aufstellung: SC Freiburg gegen FC Carl Zeiss Jena",
    "text": [
-    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Arfaoui, Bienz, Reimann. Die Bank zeigt die Sportschau im Pokal erst nach Abpfiff. Rotation im Pokal heißt nicht Verletzung, oft wird nur die Belastung gesteuert."
+    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Arfaoui, Bienz, Reimann. Rotation im Pokal heißt nicht Verletzung, oft wird nur die Belastung gesteuert.",
+    "Nicht im Spieltagskader (laut DFB-Datencenter), obwohl im letzten Ligaspiel dabei: Reimann, Ihme. Einen Grund nennt bisher keine Quelle, im Pokal kann es auch Belastungssteuerung sein."
    ],
    "kickbase": "",
    "quellen": [
     {
      "name": "Sportschau",
      "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165400/sc-freiburg_fc-carl-zeiss-jena/aufstellung"
+    },
+    {
+     "name": "DFB-Datencenter",
+     "url": "https://datencenter.dfb.de/matches/sc-freiburg-fc-carl-zeiss-jena-2431333"
     }
    ],
    "aufstellung": {
@@ -84,15 +89,21 @@
       "pid": "00112"
      }
     ],
-    "bank": [],
-    "fehlt": [],
-    "wettbewerb": "DFB-Pokal",
-    "bank_offen": true,
-    "nicht_startelf": [
+    "bank": [
      {
-      "n": "Arfaoui",
-      "p": "MF",
-      "pid": "00099"
+      "n": "Jansen",
+      "p": "ABW",
+      "pid": "00090"
+     },
+     {
+      "n": "Schrader",
+      "p": "TW",
+      "pid": "00086"
+     },
+     {
+      "n": "Memminger",
+      "p": "ABW",
+      "pid": "00093"
      },
      {
       "n": "Bienz",
@@ -100,11 +111,46 @@
       "pid": "00100"
      },
      {
+      "n": "Seghir",
+      "p": "MF",
+      "pid": "00109"
+     },
+     {
+      "n": "Simmen",
+      "p": "MF",
+      "pid": "00110"
+     },
+     {
+      "n": "Scherer",
+      "p": "ST",
+      "pid": "00115"
+     },
+     {
+      "n": "Arfaoui",
+      "p": "MF",
+      "pid": "00099"
+     },
+     {
+      "n": "Vincze",
+      "p": "ST",
+      "pid": "00117"
+     }
+    ],
+    "fehlt": [
+     {
       "n": "Reimann",
       "p": "TW",
-      "pid": "00085"
+      "pid": "00085",
+      "f": "raus"
+     },
+     {
+      "n": "Ihme",
+      "p": "ABW",
+      "pid": "00089",
+      "f": "raus"
      }
-    ]
+    ],
+    "wettbewerb": "DFB-Pokal"
    },
    "quelle_live": true
   },

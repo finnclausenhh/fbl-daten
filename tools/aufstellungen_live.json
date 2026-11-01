@@ -1,6 +1,159 @@
 {
  "meldungen": [
   {
+   "id": "aufstellung-pokal-scf-0111",
+   "zeit": "2026-11-01T14:08",
+   "spielerin": "Spielansetzung",
+   "verein": "SC Freiburg",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "POKAL"
+   ],
+   "headline": "Offizielle Aufstellung: SC Freiburg gegen FC Carl Zeiss Jena",
+   "text": [
+    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Arfaoui, Bienz, Reimann. Rotation im Pokal heißt nicht Verletzung, oft wird nur die Belastung gesteuert.",
+    "Nicht im Spieltagskader (laut DFB-Datencenter), obwohl im letzten Ligaspiel dabei: Reimann, Ihme. Einen Grund nennt bisher keine Quelle, im Pokal kann es auch Belastungssteuerung sein."
+   ],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165400/sc-freiburg_fc-carl-zeiss-jena/aufstellung"
+    },
+    {
+     "name": "DFB-Datencenter",
+     "url": "https://datencenter.dfb.de/matches/sc-freiburg-fc-carl-zeiss-jena-2431333"
+    }
+   ],
+   "aufstellung": {
+    "gegner": "FC Carl Zeiss Jena",
+    "startelf": [
+     {
+      "n": "Barth",
+      "p": "TW",
+      "pid": "00083",
+      "f": "neu"
+     },
+     {
+      "n": "Karl",
+      "p": "ABW",
+      "pid": "00091"
+     },
+     {
+      "n": "Maas",
+      "p": "ABW",
+      "pid": "00092"
+     },
+     {
+      "n": "Stierli",
+      "p": "ABW",
+      "pid": "00095",
+      "f": "neu"
+     },
+     {
+      "n": "Acikgöz",
+      "p": "MF",
+      "pid": "00098"
+     },
+     {
+      "n": "Ojukwu",
+      "p": "MF",
+      "pid": "00106"
+     },
+     {
+      "n": "Schneider",
+      "p": "MF",
+      "pid": "00108"
+     },
+     {
+      "n": "Vobian",
+      "p": "MF",
+      "pid": "00111",
+      "f": "neu"
+     },
+     {
+      "n": "Birkholz",
+      "p": "MF",
+      "pid": "00101"
+     },
+     {
+      "n": "Kolb",
+      "p": "ST",
+      "pid": "00113"
+     },
+     {
+      "n": "Brunold",
+      "p": "ST",
+      "pid": "00112"
+     }
+    ],
+    "bank": [
+     {
+      "n": "Jansen",
+      "p": "ABW",
+      "pid": "00090"
+     },
+     {
+      "n": "Schrader",
+      "p": "TW",
+      "pid": "00086"
+     },
+     {
+      "n": "Memminger",
+      "p": "ABW",
+      "pid": "00093"
+     },
+     {
+      "n": "Bienz",
+      "p": "MF",
+      "pid": "00100"
+     },
+     {
+      "n": "Seghir",
+      "p": "MF",
+      "pid": "00109"
+     },
+     {
+      "n": "Simmen",
+      "p": "MF",
+      "pid": "00110"
+     },
+     {
+      "n": "Scherer",
+      "p": "ST",
+      "pid": "00115"
+     },
+     {
+      "n": "Arfaoui",
+      "p": "MF",
+      "pid": "00099"
+     },
+     {
+      "n": "Vincze",
+      "p": "ST",
+      "pid": "00117"
+     }
+    ],
+    "fehlt": [
+     {
+      "n": "Reimann",
+      "p": "TW",
+      "pid": "00085",
+      "f": "raus"
+     },
+     {
+      "n": "Ihme",
+      "p": "ABW",
+      "pid": "00089",
+      "f": "raus"
+     }
+    ],
+    "wettbewerb": "DFB-Pokal"
+   },
+   "quelle_live": true
+  },
+  {
    "id": "aufstellung-pokal-fcb-0111",
    "zeit": "2026-11-01T13:53",
    "spielerin": "Spielansetzung",
@@ -620,5 +773,33 @@
  "entfernt": [
   "aufstellung-folgt-ma12165391",
   "aufstellung-folgt-ma12165400"
+ ],
+ "ableitungen": [
+  {
+   "verein": "SC Freiburg",
+   "n": "Reimann",
+   "spielerin": "Anna Reimann",
+   "war": "Startelf",
+   "zeit": "2026-11-01T14:08",
+   "gegner": "FC Carl Zeiss Jena",
+   "wettbewerb": "DFB-Pokal",
+   "quelle": "https://datencenter.dfb.de/matches/sc-freiburg-fc-carl-zeiss-jena-2431333",
+   "delta": -1,
+   "bis": "2026-11-11",
+   "grund": "stand am 01.11. gegen FC Carl Zeiss Jena nicht im Spieltagskader, obwohl im letzten Ligaspiel in der Startelf; Grund nicht bekannt"
+  },
+  {
+   "verein": "SC Freiburg",
+   "n": "Ihme",
+   "spielerin": "Pauline Ihme",
+   "war": "Bank",
+   "zeit": "2026-11-01T14:08",
+   "gegner": "FC Carl Zeiss Jena",
+   "wettbewerb": "DFB-Pokal",
+   "quelle": "https://datencenter.dfb.de/matches/sc-freiburg-fc-carl-zeiss-jena-2431333",
+   "delta": -1,
+   "bis": "2026-11-11",
+   "grund": "stand am 01.11. gegen FC Carl Zeiss Jena nicht im Spieltagskader, obwohl im letzten Ligaspiel auf der Bank; Grund nicht bekannt"
+  }
  ]
 }
