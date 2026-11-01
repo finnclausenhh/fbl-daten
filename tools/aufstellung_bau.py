@@ -168,9 +168,11 @@ def main():
             if wb:
                 t["wettbewerb"] = wb
                 if not a[bk]:  # Sportschau zeigt im Pokal keine Bank: nur Abweichungen zur letzten Liga-Startelf
-                    raus = (a.get(vg) or {}).get("nicht_mehr_in_startelf", [])
                     t["bank"] = []
-                    t["fehlt"] = [dict(n=n, p=pos_von(n, verein, kader), pid=pid_von(n, verein, kader), f="raus") for n in raus]
+                    t["fehlt"] = []  # ohne Bank nicht ablesbar; GitHub Action aufstellungen_live trägt die Bank nach Abpfiff nach
+                    t["bank_offen"] = True
+                    t["nicht_startelf"] = [dict(n=n, p=pos_von(n, verein, kader), pid=pid_von(n, verein, kader))
+                                           for n in (a.get(vg) or {}).get("nicht_mehr_in_startelf", [])]
             out.append({"id": f"aufstellung-{'pokal-' if wb == 'DFB-Pokal' else 'cl-' if wb else ''}{KURZ[verein]}-{tt}", "zeit": zeit,
                         "spielerin": "Spielansetzung", "verein": verein,
                         "nr": "", "pos": "Spielansetzung", "tags": ["POKAL" if wb == "DFB-Pokal" else "EUROPAPOKAL" if wb else "TOP"],
