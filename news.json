@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-01T19:45",
+ "stand": "2026-11-01T20:47",
  "meldungen": [
   {
    "id": "bayern-pokal-0111",
@@ -81,7 +81,7 @@
       {
        "n": "Alara",
        "p": "OM",
-       "aus": "68"
+       "aus": "69"
       },
       {
        "n": "Proost",
@@ -104,7 +104,7 @@
       {
        "n": "Imade",
        "p": "ST",
-       "ein_min": "68"
+       "ein_min": "69"
       },
       {
        "n": "Potsi",
@@ -293,7 +293,7 @@
        "eigen": true
       },
       {
-       "min": "45",
+       "min": "45+1",
        "n": "Brunold",
        "eigen": true
       },
