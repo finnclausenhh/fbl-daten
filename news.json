@@ -108,7 +108,8 @@
      {
       "n": "Bienz",
       "p": "MF",
-      "pid": "00100"
+      "pid": "00100",
+      "f": "raus"
      },
      {
       "n": "Seghir",
@@ -128,7 +129,8 @@
      {
       "n": "Arfaoui",
       "p": "MF",
-      "pid": "00099"
+      "pid": "00099",
+      "f": "raus"
      },
      {
       "n": "Vincze",
@@ -252,7 +254,8 @@
      {
       "n": "Naschenweng",
       "p": "ABW",
-      "pid": "00012"
+      "pid": "00012",
+      "f": "raus"
      },
      {
       "n": "Dunst",
@@ -262,7 +265,8 @@
      {
       "n": "Bühl",
       "p": "ST",
-      "pid": "00023"
+      "pid": "00023",
+      "f": "raus"
      },
      {
       "n": "Damnjanović",
@@ -415,7 +419,8 @@
      {
       "n": "Fudalla",
       "p": "ST",
-      "pid": "00258"
+      "pid": "00258",
+      "f": "raus"
      },
      {
       "n": "Loonen",
@@ -580,12 +585,14 @@
      {
       "n": "Stöhr",
       "p": "ST",
-      "pid": "00294"
+      "pid": "00294",
+      "f": "raus"
      },
      {
       "n": "Fetaj",
       "p": "MF",
-      "pid": "00281"
+      "pid": "00281",
+      "f": "raus"
      },
      {
       "n": "Takizawa",
@@ -731,7 +738,8 @@
      {
       "n": "Purtscheller",
       "p": "MF",
-      "pid": "00047"
+      "pid": "00047",
+      "f": "raus"
      },
      {
       "n": "Mühlemann",
@@ -741,7 +749,8 @@
      {
       "n": "Desic",
       "p": "ST",
-      "pid": "00049"
+      "pid": "00049",
+      "f": "raus"
      },
      {
       "n": "Mahmoud",
@@ -849,7 +858,8 @@
      {
       "n": "Romero",
       "p": "TW",
-      "pid": "00298"
+      "pid": "00298",
+      "f": "raus"
      },
      {
       "n": "Fröhlich",
@@ -999,7 +1009,8 @@
      {
       "n": "Wolter",
       "p": "MF",
-      "pid": "00075"
+      "pid": "00075",
+      "f": "raus"
      },
      {
       "n": "Ivelj",

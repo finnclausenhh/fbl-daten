@@ -307,8 +307,10 @@ def main():
         bank = auf[f"bank_{seite}"]
         verein = m["verein"]
         im = {nk(x) for x in auf[f"startelf_{seite}"] + bank}
-        au["bank"] = [dict(n=n, p=AB.pos_von(n, verein, kader), pid=AB.pid_von(n, verein, kader)) for n in bank]
         alt_l = letzte_liga(spielplan, verein, m["zeit"]) or {"start": [], "bank": []}
+        alt_s = {nk(x) for x in alt_l["start"]}
+        au["bank"] = [dict(n=n, p=AB.pos_von(n, verein, kader), pid=AB.pid_von(n, verein, kader), **({"f": "raus"} if nk(n) in alt_s else {}))
+                      for n in bank]
         au["fehlt"] = [dict(n=n, p=AB.pos_von(n, verein, kader), pid=AB.pid_von(n, verein, kader), f="raus")
                        for n in alt_l["start"] + alt_l["bank"] if nk(n) not in im]
         au.pop("bank_offen")
