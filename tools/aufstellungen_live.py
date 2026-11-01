@@ -129,30 +129,6 @@ def ableiten(verein, start, bank, zeit, gegner, wb, news, spielplan, quelle):
 
 
 
-def fehlt_meldung(x):
-    """Eigene Meldung "nicht im Kader" aus einer Ableitung (Finn 01.11.2026): nur wenn Startelf und Bank bekannt sind."""
-    nach = x["spielerin"].split()[-1]
-    tt = x["zeit"][8:10] + x["zeit"][5:7]
-    k = AB.KURZ[x["verein"]].lower()
-    kv = AB.KADER_VEREIN.get(x["verein"], x["verein"])
-    r = next((r for r in KADER if r["verein"] == kv and r["name"] == x["spielerin"]), {})
-    pokal = x["wettbewerb"] == "DFB-Pokal"
-    wo = "im DFB-Pokal" if pokal else "in der Champions League" if x["wettbewerb"] == "Champions League" else "in der Liga"
-    war = "in der Startelf" if x["war"] == "Startelf" else "auf der Bank"
-    quelle = "DFB-Datencenter" if "dfb.de" in x["quelle"] else "Sportschau"
-    head = f"{nach} nicht im Kader gegen {x['gegner']}"
-    m = {"id": f"fehlt-{re.sub(r'[^a-z0-9]+', '-', nk(nach))}-{k}-{tt}", "pid": r.get("id", ""), "zeit": x["zeit"],
-         "spielerin": x["spielerin"], "verein": x["verein"], "nr": "", "pos": r.get("position", ""),
-         "tags": ["ROTATION"] + (["POKAL"] if pokal else []),
-         "headline": head,
-         "text": [f"{x['spielerin']} steht {wo} gegen {x['gegner']} weder in der Startelf noch auf der Bank. Im letzten Ligaspiel war sie noch {war}.",
-                  "Einen Grund nennt bisher weder der Verein noch eine andere Quelle." + (" Im Pokal kann es auch Belastungssteuerung sein." if pokal else "")],
-         "kickbase": "Bis zur Klärung stufen wir sie in unserer Prognose für das nächste Ligaspiel eine Stufe herunter.",
-         "quellen": [{"name": quelle, "url": x["quelle"]}], "quelle_live": True}
-    if len(head) > 46:
-        m["kurz"] = f"{nach} nicht im Kader"
-    return m
-
 
 def platzhalter(pid_, wb, basis, ma, an, h, g, jetzt, spielplan):
     """Karte "Aufstellung folgt" ab 80 Minuten vor Anpfiff; wird durch die offiziellen Aufstellungen ersetzt."""
@@ -205,8 +181,7 @@ def baue(wb, basis, ma, an, a, kader, news, spielplan, zeit):
         if t.get("bank_offen"):
             raus = (vgl or {}).get("nicht_mehr_in_startelf", [])
             text = [("Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: " + ", ".join(raus) + ". " if raus else "")
-                    + "Die Bank zeigt die Sportschau im Pokal erst nach Abpfiff. Rotation im Pokal heißt nicht Verletzung, "
-                    "oft wird nur die Belastung gesteuert."]
+                    + "Die Bank folgt, sobald sie veröffentlicht ist."]
         out.append({"id": f"aufstellung-{pre}{AB.KURZ[verein]}-{tt}", "zeit": zeit, "spielerin": "Spielansetzung", "verein": verein,
                     "nr": "", "pos": "Spielansetzung", "tags": ["POKAL" if wb == "DFB-Pokal" else "EUROPAPOKAL" if wb else "TOP"],
                     "headline": f"Offizielle Aufstellung: {verein} gegen {t['gegner']}", "text": text, "kickbase": "",
@@ -218,8 +193,7 @@ def baue(wb, basis, ma, an, a, kader, news, spielplan, zeit):
                            a.get("dfb_url") or url)
             if abl:
                 out[-1]["text"] = out[-1]["text"] + ["Nicht im Spieltagskader, obwohl im letzten Ligaspiel dabei: "
-                    + ", ".join(x["n"] for x in abl) + ". Einen Grund nennt bisher keine Quelle"
-                    + (", im Pokal kann es auch Belastungssteuerung sein." if wb else ".")]
+                    + ", ".join(x["n"] for x in abl) + ". Einen Grund nennt bisher keine Quelle."]
                 out[-1]["ableitungen"] = abl
     return out
 
@@ -260,20 +234,107 @@ def speichern(a, pn, pl, news, live, nachricht):
     sys.exit(1)
 
 
-def fehlt_meldungen(a, pn, pl, news, live):
+def einsatz(spielplan, verein, nach, vor, n=5):
+    """Startelf-Einsätze in den letzten n Ligaspielen mit offizieller Aufstellung vor einem Zeitpunkt: (starts, spiele, zuletzt_start)."""
+    sp = []
+    for t in spielplan.get("spieltage", []):
+        for p in t.get("partien", []) + t.get("nachholspiele", []):
+            if p.get("status") != "beendet" or p.get("anstoss", "") >= vor:
+                continue
+            for seite in ("heim", "gast"):
+                au = p.get(f"{seite}_aufstellung") or {}
+                if p.get(seite) == verein and au.get("typ") == "offiziell":
+                    sp.append((p["anstoss"], {nk(x["n"]) for x in au.get("startelf", [])}))
+    sp = sorted(sp)[-n:]
+    k = nk(nach)
+    starts = sum(1 for _, s in sp if k in s)
+    return starts, len(sp), bool(sp) and k in sp[-1][1]
+
+
+def relevant(spielplan, x):
+    """Aufmacher nur für Stammspielerinnen (Finn 01.11.2026): zuletzt in der Startelf oder in mindestens der Hälfte der letzten Ligaspiele."""
+    st, n, zul = einsatz(spielplan, x["verein"], x["n"], x["zeit"])
+    return zul or (n >= 2 and st / n >= 0.5), st, n
+
+
+def fehlt_meldung_gruppe(gruppe, spielplan):
+    bew = []
+    for x in gruppe:
+        rel, st, n = relevant(spielplan, x)
+        bew.append((rel, st, n, x))
+    rel = sorted([b for b in bew if b[0]], key=lambda b: -b[1])
+    rest = [b for b in bew if not b[0]]
+    if not rel:
+        return None
+    x0 = rel[0][3]
+    nach = lambda x: x["spielerin"].split()[-1]
+    g = x0["gegner"]
+    if len(rel) == 1:
+        head = f"{nach(x0)} nicht im Kader gegen {g}"
+    elif len(rel) == 2:
+        head = f"{nach(x0)} und {nach(rel[1][3])} fehlen gegen {g}"
+    elif len(rel) == 3:
+        head = f"Trio um {nach(x0)} fehlt gegen {g}"
+    else:
+        head = f"{len(rel)} Spielerinnen um {nach(x0)} fehlen gegen {g}"
+    tt = x0["zeit"][8:10] + x0["zeit"][5:7]
+    k = AB.KURZ[x0["verein"]].lower()
+    kv = AB.KADER_VEREIN.get(x0["verein"], x0["verein"])
+    r = next((r for r in KADER if r["verein"] == kv and r["name"] == x0["spielerin"]), {})
+    pokal = x0["wettbewerb"] == "DFB-Pokal"
+    wo = "im DFB-Pokal" if pokal else "in der Champions League" if x0["wettbewerb"] == "Champions League" else "in der Liga"
+    quelle = "DFB-Datencenter" if "dfb.de" in x0["quelle"] else "Sportschau"
+    def satz(b):
+        rel_, st, n, x = b
+        war = "stand sie in der Startelf" if x["war"] == "Startelf" else "saß sie auf der Bank"
+        return f"Im letzten Ligaspiel {war}, in den letzten {n} Ligaspielen begann sie {st}-mal."
+    if len(rel) == 1:
+        text = [f"{x0['spielerin']} steht {wo} gegen {g} weder in der Startelf noch auf der Bank. " + satz(rel[0])]
+    else:
+        text = [f"{wo[0].upper() + wo[1:]} gegen {g} stehen weder in der Startelf noch auf der Bank: "
+                + ", ".join(f"{b[3]['spielerin']} ({b[1]} von {b[2]} Ligaspielen in der Startelf)" for b in rel) + "."]
+    if rest:
+        text.append("Außerdem nicht im Kader: " + ", ".join(
+            f"{b[3]['spielerin']} ({b[1]} von {b[2]} Ligaspielen in der Startelf)" for b in rest) + ".")
+    text.append("Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, "
+                "das lässt sich aus der Aufstellung allein nicht ablesen.")
+    m = {"id": f"fehlt-{re.sub(r'[^a-z0-9]+', '-', nk(nach(x0)))}-{k}-{tt}", "pid": r.get("id", ""), "zeit": x0["zeit"],
+         "spielerin": x0["spielerin"], "verein": x0["verein"], "nr": "", "pos": r.get("position", ""),
+         "tags": ["AUFSTELLUNG"] + (["POKAL"] if pokal else []), "status": "fraglich", "headline": head, "text": text,
+         "kickbase": ("Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich"
+                      if len(rel) == 1 else "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie alle als fraglich")
+                     + " und stufen sie in der Prognose herunter.",
+         "quellen": [{"name": quelle, "url": x0["quelle"]}], "quelle_live": True}
+    if len(head) > 46:
+        m["kurz"] = f"{nach(x0)} nicht im Kader" if len(rel) == 1 else head.split(" gegen ")[0]
+    return m
+
+
+def fehlt_meldungen(a, pn, pl, news, live, spielplan):
+    """Eine Meldung je Verein und Spiel, Aufmacher nur mit Stammspielerin; Ergänzungsspielerinnen stehen im Text."""
     ids = {m["id"] for m in news["meldungen"]} | set(live.get("entfernt", []))
-    neu = []
+    gruppen = {}
     for x in live.get("ableitungen", []):
-        if not x.get("spielerin") or x["verein"] not in AB.KURZ:
+        if x.get("spielerin") and x["verein"] in AB.KURZ:
+            gruppen.setdefault((x["verein"], x["zeit"][:10], x["gegner"]), []).append(x)
+    neu, ersetzt = [], []
+    for gr in gruppen.values():
+        m = fehlt_meldung_gruppe(gr, spielplan)
+        if not m:
             continue
-        m = fehlt_meldung(x)
-        if m["id"] not in ids:
+        alt = next((y for y in news["meldungen"] if y["id"] == m["id"]), None)
+        if alt is None and m["id"] not in ids:
             neu.append(m); ids.add(m["id"])
-    if neu:
+        elif alt is not None and alt.get("quelle_live") and (alt["headline"] != m["headline"] or alt["text"] != m["text"]):
+            ersetzt.append(m)
+    for m in ersetzt:
+        news["meldungen"] = [m if y["id"] == m["id"] else y for y in news["meldungen"]]
+        live["meldungen"] = [m if y["id"] == m["id"] else y for y in live["meldungen"]]
+    if neu or ersetzt:
         news["meldungen"] = neu + news["meldungen"]
         live["meldungen"] = neu + live["meldungen"]
-        print(f"fehlt-Meldungen: {[m['headline'] for m in neu]}")
-        speichern(a, pn, pl, news, live, "Aufstellungen live: nicht im Kader " + ", ".join(m["id"] for m in neu))
+        print(f"fehlt-Meldungen: {[m['headline'] for m in neu + ersetzt]}")
+        speichern(a, pn, pl, news, live, "Aufstellungen live: nicht im Kader " + ", ".join(m["id"] for m in neu + ersetzt))
 
 
 def main():
@@ -363,7 +424,7 @@ def main():
                        next((q["url"] for q in m["quellen"] if q["name"] == quelle_name), url))
         if abl:
             m["text"].append(f"Nicht im Spieltagskader (laut {quelle_name}), obwohl im letzten Ligaspiel dabei: " + ", ".join(x["n"] for x in abl)
-                             + ". Einen Grund nennt bisher keine Quelle, im Pokal kann es auch Belastungssteuerung sein.")
+                             + ". Einen Grund nennt bisher keine Quelle.")
             for x in abl:
                 if not any(y["n"] == x["n"] and y["verein"] == x["verein"] and y["zeit"] == x["zeit"] for y in live.setdefault("ableitungen", [])):
                     live["ableitungen"].append(x)
@@ -375,7 +436,7 @@ def main():
         print(f"Bank nachgetragen: {m['id']}")
         speichern(a, pn, pl, news, live, "Aufstellungen live: Bank nachgetragen " + m["id"])
 
-    fehlt_meldungen(a, pn, pl, news, live)
+    fehlt_meldungen(a, pn, pl, news, live, spielplan)
 
     # Platzhalter ohne Aufstellung 15 Minuten nach Anpfiff entfernen
     jetzt_s = (datetime.now(TZ) - timedelta(minutes=15)).strftime("%Y-%m-%dT%H:%M")
@@ -431,7 +492,7 @@ def main():
                 geaendert = True
                 print(f"neu: {[m['headline'] for m in neu]}")
                 speichern(a, pn, pl, news, live, "Aufstellungen live: " + ", ".join(m["id"] for m in neu))
-        fehlt_meldungen(a, pn, pl, news, live)
+        fehlt_meldungen(a, pn, pl, news, live, spielplan)
         if (not offen and not SPAETER) or time.time() + 60 > ende:
             break
         time.sleep(60)
