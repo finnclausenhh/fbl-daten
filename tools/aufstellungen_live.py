@@ -65,6 +65,28 @@ def letzte_liga(spielplan, verein, vor):
     return best[1] if best else None
 
 
+def platzhalter(pid_, wb, basis, ma, an, h, g, jetzt, spielplan):
+    """Karte "Aufstellung folgt" ab 80 Minuten vor Anpfiff; wird durch die offiziellen Aufstellungen ersetzt."""
+    name = lambda s: AB.SLUG.get(s) or s.replace("-", " ").title().replace("Fc ", "FC ").replace("Sgs ", "SGS ").replace("Vfl ", "VfL ")
+    verein = AB.SLUG.get(h) or AB.SLUG.get(g)
+    partie = None
+    for t in spielplan.get("spieltage", []):
+        for p in t.get("partien", []) + t.get("nachholspiele", []):
+            if ma.split("/")[0] in p.get("url", ""):
+                partie = p.get("id")
+    wtext = {"DFB-Pokal": "im DFB-Pokal", "Champions League": "in der Champions League"}.get(wb, "in der Liga")
+    return {"id": pid_, "zeit": jetzt.strftime("%Y-%m-%dT%H:%M"), "spielerin": "Spielansetzung", "verein": verein, "nr": "",
+            "pos": "Spielansetzung", "tags": ["AUFSTELLUNG"] + (["POKAL"] if wb == "DFB-Pokal" else ["EUROPAPOKAL"] if wb else []),
+            "headline": f"Aufstellung {name(h)} gegen {name(g)} folgt", "kurz": "Aufstellung folgt",
+            "text": [f"Anpfiff {wtext} ist um {an.strftime('%H:%M')} Uhr. " + ("Die offizielle Aufstellung kommt meist rund 60 Minuten "
+                     "vorher" if an - jetzt > timedelta(minutes=60) else "Die offizielle Aufstellung sollte in Kürze kommen")
+                     + ", wir ergänzen sie hier automatisch, sobald sie veröffentlicht ist.",
+                     "Bis dahin steht unsere Prognose im Spielplan bei der Partie." if partie else
+                     "Für Pokal- und Europapokalspiele gibt es keine Prognose, die Aufstellung kommt hier automatisch."],
+            "kickbase": "", "quellen": [{"name": "Sportschau", "url": basis + ma + "/aufstellung"}],
+            "platzhalter": True, "anstoss": an.strftime("%Y-%m-%dT%H:%M"), **({"partie_id": partie} if partie else {})}
+
+
 def baue(wb, basis, ma, an, a, kader, news, spielplan, zeit):
     url = basis + ma + "/aufstellung"
     gr = AB.grafik(url)
@@ -76,7 +98,7 @@ def baue(wb, basis, ma, an, a, kader, news, spielplan, zeit):
             continue
         verein = AB.SLUG[slug]
         if gs not in AB.SLUG:
-            AB.SLUG[gs] = gs.replace("fc-", "FC ").replace("-", " ").title()
+            AB.SLUG[gs] = gs.replace("-", " ").title().replace("Fc ", "FC ").replace("Sgs ", "SGS ").replace("Vfl ", "VfL ")
         alt = letzte_liga(spielplan, verein, an.strftime("%Y-%m-%dT%H:%M"))
         vgl = F.vergleich(alt, a[st], a[bk])
         t = AB.team(slug, gs, a[st], a[bk], vgl, kader, news, gr.get(sd))
@@ -153,6 +175,12 @@ def main():
     jetzt = datetime.now(TZ)
     grenze = (jetzt - timedelta(days=1)).strftime("%Y-%m-%d")
     live["meldungen"] = [m for m in live["meldungen"] if m["zeit"][:10] >= grenze]
+    entfernt = set(live.setdefault("entfernt", []))
+    vorher = len(news["meldungen"])
+    news["meldungen"] = [m for m in news["meldungen"] if m["id"] not in entfernt]
+    if len(news["meldungen"]) != vorher:
+        print("Platzhalter entfernt (wieder aufgetaucht)")
+        speichern(a, pn, pl, news, live, "Aufstellungen live: alte Platzhalter entfernt")
     ids = {m["id"] for m in news["meldungen"]}
     fehlend = [m for m in live["meldungen"] if m["id"] not in ids]
     lv = {m["id"]: m for m in live["meldungen"]}
@@ -203,6 +231,15 @@ def main():
         print(f"Bank nachgetragen: {m['id']}")
         speichern(a, pn, pl, news, live, "Aufstellungen live: Bank nachgetragen " + m["id"])
 
+    # Platzhalter ohne Aufstellung 15 Minuten nach Anpfiff entfernen
+    jetzt_s = (datetime.now(TZ) - timedelta(minutes=15)).strftime("%Y-%m-%dT%H:%M")
+    alt_ph = [m["id"] for m in news["meldungen"] if m.get("platzhalter") and m.get("anstoss", "9") < jetzt_s]
+    if alt_ph:
+        news["meldungen"] = [m for m in news["meldungen"] if m["id"] not in alt_ph]
+        live["meldungen"] = [m for m in live["meldungen"] if m["id"] not in alt_ph]
+        live["entfernt"] = list(dict.fromkeys(live["entfernt"] + alt_ph))
+        speichern(a, pn, pl, news, live, "Aufstellungen live: Platzhalter nach Anpfiff entfernt")
+
     ende = time.time() + a.laufzeit * 60
     while True:
         jetzt = datetime.now(TZ)
@@ -221,12 +258,23 @@ def main():
                 auf = None
             if not auf or auf["beendet"]:
                 offen += 1
+                pid_ = "aufstellung-folgt-" + ma.split("/")[0]
+                if not auf and pid_ not in ids and pid_ not in live["entfernt"] and jetzt < an:
+                    ph = platzhalter(pid_, wb, basis, ma, an, h, g, jetzt, spielplan)
+                    news["meldungen"].insert(0, ph)
+                    live["meldungen"].insert(0, ph)
+                    ids.add(pid_)
+                    print(f"Platzhalter: {ph['headline']}")
+                    speichern(a, pn, pl, news, live, "Aufstellungen live: Platzhalter " + pid_)
                 continue
             neu = [m for m in baue(wb, basis, ma, an, auf, kader, news["meldungen"], spielplan, jetzt.strftime("%Y-%m-%dT%H:%M"))
                    if m["id"] not in ids]
             if neu:
-                news["meldungen"] = neu + news["meldungen"]
-                live["meldungen"] = neu + live["meldungen"]
+                pid_ = "aufstellung-folgt-" + ma.split("/")[0]
+                news["meldungen"] = neu + [m for m in news["meldungen"] if m["id"] != pid_]
+                live["meldungen"] = neu + [m for m in live["meldungen"] if m["id"] != pid_]
+                if pid_ not in live["entfernt"]:
+                    live["entfernt"].append(pid_)
                 geaendert = True
                 print(f"neu: {[m['headline'] for m in neu]}")
                 speichern(a, pn, pl, news, live, "Aufstellungen live: " + ", ".join(m["id"] for m in neu))
