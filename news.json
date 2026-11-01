@@ -2,6 +2,56 @@
  "stand": "2026-11-01T16:46",
  "meldungen": [
   {
+   "id": "bayern-pokal-0111",
+   "zeit": "2026-11-01T17:05",
+   "spielerin": "Spielansetzung",
+   "verein": "FC Bayern",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "POKAL",
+    "SPIELBERICHT"
+   ],
+   "headline": "Bayern schlägt Leverkusen 1:0 und steht im Viertelfinale",
+   "kurz": "Bayern gewinnt 1:0 gegen Leverkusen",
+   "text": [
+    "Der FC Bayern steht im Viertelfinale des DFB-Pokals. Gegen Bayer Leverkusen hieß es laut DFB-Datencenter am Ende 1:0, zur Pause stand es 0:0.",
+    "Wer das Tor erzielt hat, nennt unsere Quelle nicht, wir ergänzen es, sobald ein Spielbericht vorliegt. Viggósdóttir gehörte nicht zum Kader, Bühl saß zu Beginn auf der Bank. Bei Leverkusen fehlten Bender und Remien."
+   ],
+   "kickbase": "Ob Viggósdóttir zum nächsten Ligaspiel zurückkehrt, ist offen. Einen Grund für ihr Fehlen nennt bisher keine Quelle.",
+   "quellen": [
+    {
+     "name": "DFB-Datencenter",
+     "url": "https://datencenter.dfb.de/matches/fc-bayern-muenchen-bayer-04-leverkusen-2431330"
+    }
+   ]
+  },
+  {
+   "id": "freiburg-pokal-0111",
+   "zeit": "2026-11-01T17:05",
+   "spielerin": "Spielansetzung",
+   "verein": "SC Freiburg",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "POKAL",
+    "SPIELBERICHT"
+   ],
+   "headline": "Freiburg schlägt Jena 4:0 und zieht ins Viertelfinale ein",
+   "kurz": "Freiburg gewinnt 4:0 gegen Jena",
+   "text": [
+    "Der SC Freiburg steht im Viertelfinale des DFB-Pokals. Gegen den FC Carl Zeiss Jena gewann das Team von Marco Konrad laut DFB-Datencenter 4:0, schon zur Pause stand es 3:0.",
+    "Die Torschützinnen nennt unsere Quelle nicht, wir ergänzen sie, sobald ein Spielbericht vorliegt. Reimann und Ihme gehörten nicht zum Kader, Arfaoui und Bienz begannen auf der Bank."
+   ],
+   "kickbase": "Ein 4:0 gegen einen Zweitligisten sagt wenig über die Liga. Ob Reimann und Ihme zum nächsten Spiel zurückkehren, ist offen.",
+   "quellen": [
+    {
+     "name": "DFB-Datencenter",
+     "url": "https://datencenter.dfb.de/matches/sc-freiburg-fc-carl-zeiss-jena-2431333"
+    }
+   ]
+  },
+  {
    "id": "frankfurt-pokal-0111",
    "zeit": "2026-11-01T15:55",
    "spielerin": "Spielansetzung",
