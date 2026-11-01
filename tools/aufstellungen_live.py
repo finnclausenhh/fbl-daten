@@ -17,6 +17,7 @@ from zoneinfo import ZoneInfo
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import fbl_fetch as F  # noqa: E402
 import aufstellung_bau as AB  # noqa: E402
+import dfb_quelle as D  # noqa: E402
 
 TZ = ZoneInfo("Europe/Berlin")
 BASIS = "https://www.sportschau.de/live-und-ergebnisse/fussball/"
@@ -70,6 +71,63 @@ def letzte_liga(spielplan, verein, vor):
     return best[1] if best else None
 
 
+_TR = str.maketrans({"ø": "o", "Ø": "O", "æ": "ae", "Æ": "Ae", "ß": "ss", "đ": "d", "Đ": "D", "ł": "l", "Ł": "L", "ð": "d", "þ": "th"})
+
+
+def nk(name):
+    """Nachname vergleichbar machen (Østenstad = Östenstad, Pápai = Papai)."""
+    return F.norm(str(name).translate(_TR)).split()[-1] if str(name).strip() else ""
+
+
+KADER = []
+
+
+def ergaenze_dfb(auf, h, g, wb):
+    """DFB-Datencenter als zweite Quelle: Startelf, wenn die Sportschau keine hat, und Bank, wenn sie fehlt."""
+    if wb == "Champions League":
+        return auf
+    if auf and auf["bank_heim"] and auf["bank_gast"]:
+        return auf
+    try:
+        d = D.aufstellung(h, g, wb)
+    except Exception as e:
+        print(f"WARN DFB: {e}", file=sys.stderr)
+        d = None
+    if not d:
+        return auf
+    if not auf:
+        if len(d["startelf_heim"]) < 11 or len(d["startelf_gast"]) < 11:
+            return None
+        return {"heim": h, "gast": g, "beendet": False, "startelf_heim": d["startelf_heim"], "startelf_gast": d["startelf_gast"],
+                "bank_heim": d["bank_heim"], "bank_gast": d["bank_gast"], "dfb_url": d["url"], "nur_dfb": True}
+    for sd in ("heim", "gast"):
+        if not auf[f"bank_{sd}"] and d[f"bank_{sd}"]:
+            auf[f"bank_{sd}"] = d[f"bank_{sd}"]
+            auf["dfb_url"] = d["url"]
+    return auf
+
+
+def ableiten(verein, start, bank, zeit, gegner, wb, news, spielplan, quelle):
+    """Fehlt ohne bekannten Grund (Finn 01.11.2026): stand im letzten Ligaspiel im Kader, jetzt weder Startelf noch Bank.
+    Spielerinnen mit bekanntem Status (verletzt, gesperrt, fraglich) laut news.json sind ausgenommen."""
+    alt = letzte_liga(spielplan, verein, zeit) or {"start": [], "bank": []}
+    jetzt_k = {nk(x) for x in start + bank}
+    bekannt = {nk(k) for k in AB.infos(verein, [], news)}
+    out = []
+    for n in alt["start"] + alt["bank"]:
+        k = nk(n)
+        if k in jetzt_k or k in bekannt:
+            continue
+        kv = AB.KADER_VEREIN.get(verein, verein)
+        voll = next((r["name"] for r in KADER if r["verein"] == kv and nk(r["name"]) == k), n)
+        bis = (datetime.fromisoformat(zeit[:16]) + timedelta(days=10)).strftime("%Y-%m-%d")
+        out.append({"verein": verein, "n": n, "spielerin": voll, "war": "Startelf" if n in alt["start"] else "Bank", "zeit": zeit,
+                    "gegner": gegner, "wettbewerb": wb or "Liga", "quelle": quelle, "delta": -1, "bis": bis,
+                    "grund": f"stand am {zeit[8:10]}.{zeit[5:7]}. gegen {gegner} nicht im Spieltagskader, obwohl im letzten Ligaspiel "
+                             f"{'in der Startelf' if n in alt['start'] else 'auf der Bank'}; Grund nicht bekannt"})
+    return out
+
+
 def platzhalter(pid_, wb, basis, ma, an, h, g, jetzt, spielplan):
     """Karte "Aufstellung folgt" ab 80 Minuten vor Anpfiff; wird durch die offiziellen Aufstellungen ersetzt."""
     name = lambda s: AB.SLUG.get(s) or s.replace("-", " ").title().replace("Fc ", "FC ").replace("Sgs ", "SGS ").replace("Vfl ", "VfL ")
@@ -94,7 +152,7 @@ def platzhalter(pid_, wb, basis, ma, an, h, g, jetzt, spielplan):
 
 def baue(wb, basis, ma, an, a, kader, news, spielplan, zeit):
     url = basis + ma + "/aufstellung"
-    gr = AB.grafik(url)
+    gr = {} if a.get("nur_dfb") else AB.grafik(url)
     tt = an.strftime("%d%m")
     out = []
     for slug, gs, st, bk, sd in ((a["heim"], a["gast"], "startelf_heim", "bank_heim", "home"),
@@ -126,7 +184,17 @@ def baue(wb, basis, ma, an, a, kader, news, spielplan, zeit):
         out.append({"id": f"aufstellung-{pre}{AB.KURZ[verein]}-{tt}", "zeit": zeit, "spielerin": "Spielansetzung", "verein": verein,
                     "nr": "", "pos": "Spielansetzung", "tags": ["POKAL" if wb == "DFB-Pokal" else "EUROPAPOKAL" if wb else "TOP"],
                     "headline": f"Offizielle Aufstellung: {verein} gegen {t['gegner']}", "text": text, "kickbase": "",
-                    "quellen": [{"name": "Sportschau", "url": url}], "aufstellung": t, "quelle_live": True})
+                    "quellen": ([] if a.get("nur_dfb") else [{"name": "Sportschau", "url": url}])
+                               + ([{"name": "DFB-Datencenter", "url": a["dfb_url"]}] if a.get("dfb_url") else []),
+                    "aufstellung": t, "quelle_live": True})
+        if a[bk]:
+            abl = ableiten(verein, a[st], a[bk], an.strftime("%Y-%m-%dT%H:%M"), AB.SLUG.get(gs, gs), wb, news, spielplan,
+                           a.get("dfb_url") or url)
+            if abl:
+                out[-1]["text"] = out[-1]["text"] + ["Nicht im Spieltagskader, obwohl im letzten Ligaspiel dabei: "
+                    + ", ".join(x["n"] for x in abl) + ". Einen Grund nennt bisher keine Quelle"
+                    + (", im Pokal kann es auch Belastungssteuerung sein." if wb else ".")]
+                out[-1]["ableitungen"] = abl
     return out
 
 
@@ -177,6 +245,7 @@ def main():
     live = json.load(open(pl, encoding="utf-8")) if os.path.exists(pl) else {"meldungen": []}
     spielplan = json.load(open(ps, encoding="utf-8"))
     kader = list(csv.DictReader(open(os.path.join(a.repo, "tools/kader.csv"), encoding="utf-8")))
+    KADER[:] = kader
     F.setze_kader_slugs(F.lade_kader(os.path.join(a.repo, "tools/kader.csv")))
     geaendert = False
 
@@ -210,29 +279,49 @@ def main():
         au = m.get("aufstellung") or {}
         if not au.get("bank_offen") or m["zeit"][:10] < grenze:
             continue
-        url = m["quellen"][0]["url"]
-        mm = re.search(r"(https://[^ ]+/)(ma\d+/[a-z0-9\-_]+)/aufstellung", url)
+        url = next((q["url"] for q in m["quellen"] if "sportschau" in q["url"]), m["quellen"][0]["url"])
+        mm = re.search(r"(https://[^ ]+/)(ma\d+/([a-z0-9\-]+)_([a-z0-9\-]+))/aufstellung", url)
+        if not mm:
+            continue
         try:
-            auf = F.lies_aufstellung(mm.group(2), mm.group(1)) if mm else None
+            auf = F.lies_aufstellung(mm.group(2), mm.group(1))
         except Exception:
             auf = None
-        if not auf or not auf["beendet"] or not (auf["bank_heim"] or auf["bank_gast"]):
-            continue
+        quelle_name = "Sportschau"
+        if not auf or not (auf["bank_heim"] or auf["bank_gast"]):
+            d = None
+            try:
+                d = D.aufstellung(mm.group(3), mm.group(4), au.get("wettbewerb"))
+            except Exception:
+                pass
+            if d and (d["bank_heim"] or d["bank_gast"]):
+                auf = {"heim": mm.group(3), "gast": mm.group(4), "beendet": False, "startelf_heim": d["startelf_heim"],
+                       "startelf_gast": d["startelf_gast"], "bank_heim": d["bank_heim"], "bank_gast": d["bank_gast"]}
+                quelle_name = "DFB-Datencenter"
+                if not any(q["url"] == d["url"] for q in m["quellen"]):
+                    m["quellen"].append({"name": "DFB-Datencenter", "url": d["url"]})
+            else:
+                continue
         slug = next((k for k, v in AB.SLUG.items() if v == m["verein"]), None)
         seite = "heim" if slug == auf["heim"] else "gast"
         bank = auf[f"bank_{seite}"]
         verein = m["verein"]
-        im = {F.norm(x).split()[-1] for x in auf[f"startelf_{seite}"] + bank}
+        im = {nk(x) for x in auf[f"startelf_{seite}"] + bank}
         au["bank"] = [dict(n=n, p=AB.pos_von(n, verein, kader), pid=AB.pid_von(n, verein, kader)) for n in bank]
         alt_l = letzte_liga(spielplan, verein, m["zeit"]) or {"start": [], "bank": []}
         au["fehlt"] = [dict(n=n, p=AB.pos_von(n, verein, kader), pid=AB.pid_von(n, verein, kader), f="raus")
-                       for n in alt_l["start"] + alt_l["bank"] if F.norm(n).split()[-1] not in im]
+                       for n in alt_l["start"] + alt_l["bank"] if nk(n) not in im]
         au.pop("bank_offen")
         au.pop("nicht_startelf", None)
-        m["text"] = [x for x in m["text"] if "erst nach Abpfiff" not in x]
-        if au["fehlt"]:
-            m["text"].append("Nicht im Spieltagskader (laut Sportschau nach Abpfiff): " + ", ".join(x["n"] for x in au["fehlt"])
-                             + ". Ein Grund ist damit nicht bekannt, im Pokal kann das auch Belastungssteuerung sein.")
+        m["text"] = [x.replace(" Die Bank zeigt die Sportschau im Pokal erst nach Abpfiff.", "") for x in m["text"] if "erst nach Abpfiff" not in x or "Nicht mehr in der Startelf" in x]
+        abl = ableiten(verein, auf[f"startelf_{seite}"], bank, m["zeit"], au.get("gegner", ""), au.get("wettbewerb"), news["meldungen"], spielplan,
+                       next((q["url"] for q in m["quellen"] if q["name"] == quelle_name), url))
+        if abl:
+            m["text"].append(f"Nicht im Spieltagskader (laut {quelle_name}), obwohl im letzten Ligaspiel dabei: " + ", ".join(x["n"] for x in abl)
+                             + ". Einen Grund nennt bisher keine Quelle, im Pokal kann es auch Belastungssteuerung sein.")
+            for x in abl:
+                if not any(y["n"] == x["n"] and y["verein"] == x["verein"] and y["zeit"] == x["zeit"] for y in live.setdefault("ableitungen", [])):
+                    live["ableitungen"].append(x)
         for lm in live["meldungen"]:
             if lm["id"] == m["id"]:
                 lm.update(m)
@@ -267,6 +356,8 @@ def main():
             except Exception as e:
                 print(f"WARN {ma}: {e}", file=sys.stderr)
                 auf = None
+            if not auf or not (auf["bank_heim"] and auf["bank_gast"]):
+                auf = ergaenze_dfb(auf, h, g, wb)
             if not auf or auf["beendet"]:
                 offen += 1
                 pid_ = "aufstellung-folgt-" + ma.split("/")[0]
@@ -286,6 +377,10 @@ def main():
                 live["meldungen"] = neu + [m for m in live["meldungen"] if m["id"] != pid_]
                 if pid_ not in live["entfernt"]:
                     live["entfernt"].append(pid_)
+                for m in neu:
+                    for x in m.get("ableitungen", []):
+                        if not any(y["n"] == x["n"] and y["verein"] == x["verein"] and y["zeit"] == x["zeit"] for y in live.setdefault("ableitungen", [])):
+                            live["ableitungen"].append(x)
                 geaendert = True
                 print(f"neu: {[m['headline'] for m in neu]}")
                 speichern(a, pn, pl, news, live, "Aufstellungen live: " + ", ".join(m["id"] for m in neu))
