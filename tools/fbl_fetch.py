@@ -249,7 +249,12 @@ def lies_aufstellung(ma, basis=None):
     start = tok[1:tok.index("Auswechslungen")]
     namen = [w for j, w in enumerate(start) if j > 0 and not re.fullmatch(r"\d+\.?", w) and re.fullmatch(r"\d+", start[j - 1])]
     if len(namen) < 22:
-        return None
+        # Spielerinnen ohne Rückennummer (z. B. Pokalgegner aus unteren Ligen): alle Namens-Tokens nehmen (Finn 01.11.2026)
+        alle = [w for w in start if not re.fullmatch(r"\d+\.?", w) and not re.fullmatch(r"\d+'?", w)]
+        if len(alle) == 22:
+            namen = alle
+        else:
+            return None
     beendet = any(re.fullmatch(r"\d+\.", x) for x in start)
     bank = tok[tok.index("Reservebank") + 1: tok.index("Trainer")] if "Reservebank" in tok and "Trainer" in tok else []
     heim, gast = ma.split("/")[1].split("_")
