@@ -27,7 +27,10 @@ Die Darstellung entsteht in der App aus den vorhandenen Daten. Damit gilt sie au
 - Platzhalter „Aufstellung X gegen Y folgt“: `platzhalter: true`, `anstoss`, bei Ligaspielen `partie_id`. Im Artikel Knopf „Unsere Prognose ansehen ›“, der zum Spielplan wechselt und die Partie öffnet.
 - Meldungen „X nicht im Kader gegen Y“ (id `fehlt-...`): Tags AUFSTELLUNG (+ POKAL), `status: "fraglich"`. Normale Meldungskarte.
 
-## 5. Fehler aus der aktuellen App
+## 5. Lichtkegel auch hinter Vereinslogos
+- Karten, die nur ein Vereinslogo zeigen (Aufstellungen, Vereinsthemen), bekommen denselben Hintergrund wie die Portraits: radialer Verlauf, Mitte bei 50 % / 45 %, #3A4F78 nach #2A3B5E bei 70 %. Damit wirken alle Karten einheitlich.
+
+## 6. Fehler aus der aktuellen App
 - RAUS-Kästchen in Chips wird abgeschnitten („RA…“), z. B. bei Bühl und Ihme. Mit der neuen Darstellung entfallen diese Chips; falls Chips bleiben, das Schild nie kürzen, lieber den Namen.
 
 ## Nach dem Build
