@@ -1,6 +1,33 @@
 {
  "meldungen": [
   {
+   "id": "aufstellung-folgt-ma12165391",
+   "zeit": "2026-11-01T13:40",
+   "spielerin": "Spielansetzung",
+   "verein": "FC Bayern",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "AUFSTELLUNG",
+    "POKAL"
+   ],
+   "headline": "Aufstellung FC Bayern gegen Bayer Leverkusen folgt",
+   "kurz": "Aufstellung folgt",
+   "text": [
+    "Anpfiff im DFB-Pokal ist um 15:00 Uhr. Die offizielle Aufstellung kommt meist rund 60 Minuten vorher, wir ergänzen sie hier automatisch, sobald sie veröffentlicht ist.",
+    "Für Pokal- und Europapokalspiele gibt es keine Prognose, die Aufstellung kommt hier automatisch."
+   ],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165391/bayern-muenchen_bayer-leverkusen/aufstellung"
+    }
+   ],
+   "platzhalter": true,
+   "anstoss": "2026-11-01T15:00"
+  },
+  {
    "id": "aufstellung-folgt-ma12165400",
    "zeit": "2026-11-01T13:34",
    "spielerin": "Spielansetzung",
