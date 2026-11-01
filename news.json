@@ -486,13 +486,17 @@
    "headline": "Offizielle Aufstellung: Mainz 05 gegen Werder Bremen",
    "text": [
     "Offizielle Startelf für das DFB-Pokal-Achtelfinale gegen Werder Bremen laut Sportschau.",
-    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Georgieva, Stöhr, Fetaj. Die Bank zeigt die Sportschau im Pokal erst nach Abpfiff. Rotation im Pokal heißt nicht Verletzung, oft wird nur die Belastung gesteuert."
+    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Georgieva, Stöhr, Fetaj. Rotation im Pokal heißt nicht Verletzung, oft wird nur die Belastung gesteuert."
    ],
    "kickbase": "",
    "quellen": [
     {
      "name": "Sportschau",
      "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165385/1-fsv-mainz-05_werder-bremen/aufstellung"
+    },
+    {
+     "name": "DFB-Datencenter",
+     "url": "https://datencenter.dfb.de/matches/1-fsv-mainz-05-sv-werder-bremen-2431328"
     }
    ],
    "aufstellung": {
@@ -557,15 +561,21 @@
       "pid": "00291"
      }
     ],
-    "bank": [],
-    "fehlt": [],
-    "wettbewerb": "DFB-Pokal",
-    "bank_offen": true,
-    "nicht_startelf": [
+    "bank": [
      {
-      "n": "Georgieva",
+      "n": "Donner",
       "p": "ABW",
-      "pid": "00274"
+      "pid": "00272"
+     },
+     {
+      "n": "Pawlowski",
+      "p": "TW",
+      "pid": "00269"
+     },
+     {
+      "n": "Hauk",
+      "p": "ABW",
+      "pid": "00276"
      },
      {
       "n": "Stöhr",
@@ -576,8 +586,37 @@
       "n": "Fetaj",
       "p": "MF",
       "pid": "00281"
+     },
+     {
+      "n": "Takizawa",
+      "p": "MF",
+      "pid": "00289"
+     },
+     {
+      "n": "Junold",
+      "p": "MF",
+      "pid": "00284"
+     },
+     {
+      "n": "Martin",
+      "p": "MF",
+      "pid": "00286"
+     },
+     {
+      "n": "Strickler",
+      "p": "ST",
+      "pid": "00295"
      }
-    ]
+    ],
+    "fehlt": [
+     {
+      "n": "Georgieva",
+      "p": "ABW",
+      "pid": "00274",
+      "f": "raus"
+     }
+    ],
+    "wettbewerb": "DFB-Pokal"
    },
    "quelle_live": true
   },
