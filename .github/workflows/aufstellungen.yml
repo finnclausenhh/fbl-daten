@@ -1,0 +1,30 @@
+name: Aufstellungen live
+
+# Holt offizielle Aufstellungen (Liga, DFB-Pokal, Champions League) von der Sportschau, sobald sie da sind,
+# und schreibt sie sofort in news.json. Ohne Claude. Alle 10 Minuten von 7 bis 23 Uhr; jeder Aufruf fragt
+# bis zu 13 Minuten lang jede Minute nach, solange ein Spiel mit Bundesliga-Verein in den nächsten 80 Minuten ansteht.
+on:
+  schedule:
+    - cron: "*/10 5-22 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: aufstellungen-live
+  cancel-in-progress: false
+
+jobs:
+  live:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Aufstellungen holen
+        run: python3 tools/aufstellungen_live.py --repo . --push --laufzeit 13

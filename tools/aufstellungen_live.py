@@ -1,0 +1,191 @@
+#!/usr/bin/env python3
+"""Offizielle Aufstellungen so schnell wie möglich (Finn, 01.11.2026). Läuft als GitHub Action, ohne Claude.
+
+Prüft Liga, DFB-Pokal und Champions League bei der Sportschau. Für jedes Spiel mit Bundesliga-Verein, dessen Anpfiff
+in höchstens VORLAUF Minuten ist (oder bis 15 Minuten danach), fragt es die Aufstellung ab, bis sie da ist (jede Minute,
+höchstens LAUFZEIT Minuten pro Aufruf). Gefundene Aufstellungen kommen als Meldungen (gleiches Format und gleiche Ids wie
+engine/aufstellung_bau.py im Artifact) vorne in news.json und zusätzlich in tools/aufstellungen_live.json.
+Selbstheilung: Fehlen Meldungen aus aufstellungen_live.json in news.json (etwa weil ein Spiegel news.json überschrieben
+hat), werden sie wieder eingefügt (nur Spiele von heute und gestern).
+
+Aufruf: python3 tools/aufstellungen_live.py --repo .   (Exit 0; Ausgabe "geaendert=1", wenn news.json geschrieben wurde)
+"""
+import argparse, csv, json, os, re, subprocess, sys, time
+from datetime import datetime, timedelta
+from zoneinfo import ZoneInfo
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import fbl_fetch as F  # noqa: E402
+import aufstellung_bau as AB  # noqa: E402
+
+TZ = ZoneInfo("Europe/Berlin")
+BASIS = "https://www.sportschau.de/live-und-ergebnisse/fussball/"
+WETTBEWERBE = [("deutschland-bundesliga-frauen", None), ("deutschland-dfb-pokal-frauen", "DFB-Pokal"),
+               ("uefa-champions-league-frauen", "Champions League")]
+VORLAUF = 80
+LAUFZEIT = 13
+
+
+def spiele_heute(jetzt):
+    """[(wettbewerb, basis, ma, anstoss)] für Spiele mit Bundesliga-Verein im Zeitfenster."""
+    out = []
+    for pfad, wb in WETTBEWERBE:
+        basis = BASIS + pfad + "/"
+        try:
+            s = F.get(basis + "spiele-und-ergebnisse")
+        except Exception as e:
+            print(f"WARN {pfad}: {e}", file=sys.stderr)
+            continue
+        for li in re.finditer(r'data-match_id="(\d+)" data-datetime="([0-9T:\-]+)Z"', s):
+            mid, dt = li.group(1), li.group(2)
+            m = re.search(pfad + r"/(ma" + mid + r"/[a-z0-9\-_]+)/", s[li.start():li.start() + 20000])
+            if not m:
+                continue
+            ma = m.group(1)
+            heim, gast = ma.split("/")[1].split("_")
+            if heim not in AB.SLUG and gast not in AB.SLUG:
+                continue
+            an = datetime.fromisoformat(dt).replace(tzinfo=ZoneInfo("UTC")).astimezone(TZ)
+            if an - timedelta(minutes=VORLAUF) <= jetzt <= an + timedelta(minutes=15):
+                out.append((wb, basis, ma, an))
+    return out
+
+
+def letzte_liga(spielplan, verein, vor):
+    """Startelf und Bank des letzten Ligaspiels (offizielle Aufstellung aus spielplan.json)."""
+    best = None
+    for t in spielplan.get("spieltage", []):
+        for p in t.get("partien", []) + t.get("nachholspiele", []):
+            if p.get("status") != "beendet" or p.get("anstoss", "") >= vor:
+                continue
+            for seite in ("heim", "gast"):
+                a = p.get(f"{seite}_aufstellung") or {}
+                if p.get(seite) == verein and a.get("typ") == "offiziell" and (not best or p["anstoss"] > best[0]):
+                    best = (p["anstoss"], {"start": [x["n"] for x in a.get("startelf", [])], "bank": [x["n"] for x in a.get("bank", [])]})
+    return best[1] if best else None
+
+
+def baue(wb, basis, ma, an, a, kader, news, spielplan, zeit):
+    url = basis + ma + "/aufstellung"
+    gr = AB.grafik(url)
+    tt = an.strftime("%d%m")
+    out = []
+    for slug, gs, st, bk, sd in ((a["heim"], a["gast"], "startelf_heim", "bank_heim", "home"),
+                                 (a["gast"], a["heim"], "startelf_gast", "bank_gast", "away")):
+        if slug not in AB.SLUG:
+            continue
+        verein = AB.SLUG[slug]
+        if gs not in AB.SLUG:
+            AB.SLUG[gs] = gs.replace("fc-", "FC ").replace("-", " ").title()
+        alt = letzte_liga(spielplan, verein, an.strftime("%Y-%m-%dT%H:%M"))
+        vgl = F.vergleich(alt, a[st], a[bk])
+        t = AB.team(slug, gs, a[st], a[bk], vgl, kader, news, gr.get(sd))
+        if wb:
+            t["wettbewerb"] = wb
+            if not a[bk]:
+                raus = (vgl or {}).get("nicht_mehr_in_startelf", [])
+                t["bank"] = []
+                t["fehlt"] = [dict(n=n, p=AB.pos_von(n, verein, kader), pid=AB.pid_von(n, verein, kader), f="raus") for n in raus]
+        pre = "pokal-" if wb == "DFB-Pokal" else "cl-" if wb else ""
+        out.append({"id": f"aufstellung-{pre}{AB.KURZ[verein]}-{tt}", "zeit": zeit, "spielerin": "Spielansetzung", "verein": verein,
+                    "nr": "", "pos": "Spielansetzung", "tags": ["POKAL" if wb == "DFB-Pokal" else "EUROPAPOKAL" if wb else "TOP"],
+                    "headline": f"Offizielle Aufstellung: {verein} gegen {t['gegner']}", "text": [], "kickbase": "",
+                    "quellen": [{"name": "Sportschau", "url": url}], "aufstellung": t, "quelle_live": True})
+    return out
+
+
+def speichern(a, pn, pl, news, live, nachricht):
+    news["stand"] = datetime.now(TZ).strftime("%Y-%m-%dT%H:%M")
+    json.dump(news, open(pn, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    json.dump(live, open(pl, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    if not a.push:
+        return
+    g = ["git", "-C", a.repo]
+    st = {"letzter_lauf": datetime.now(TZ).strftime("%Y-%m-%dT%H:%M"), "lauf": "Aufstellungen live", "news_neu": 1, "spielplan_geaendert": False}
+    json.dump(st, open(os.path.join(a.repo, "status.json"), "w", encoding="utf-8"), ensure_ascii=False)
+    subprocess.run(g + ["add", "news.json", "tools/aufstellungen_live.json", "status.json"], check=True)
+    subprocess.run(g + ["-c", "user.name=WOSOINSIDER", "-c", "user.email=finnclausenhh@users.noreply.github.com",
+                        "commit", "-qm", nachricht], check=True)
+    for _ in range(4):
+        if subprocess.run(g + ["push", "-q", "origin", "HEAD:main"]).returncode == 0:
+            print("gepusht")
+            return
+        # Konflikt: neu holen, eigene Meldungen erneut einfügen (news.json kann vom Spiegel überschrieben worden sein)
+        subprocess.run(g + ["fetch", "-q", "origin", "main"], check=True)
+        subprocess.run(g + ["reset", "-q", "--hard", "origin/main"], check=True)
+        n2 = json.load(open(pn, encoding="utf-8"))
+        ids = {m["id"] for m in n2["meldungen"]}
+        n2["meldungen"] = [m for m in live["meldungen"] if m["id"] not in ids] + n2["meldungen"]
+        news.clear(); news.update(n2)
+        news["stand"] = datetime.now(TZ).strftime("%Y-%m-%dT%H:%M")
+        json.dump(news, open(pn, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+        json.dump(live, open(pl, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+        subprocess.run(g + ["add", "news.json", "tools/aufstellungen_live.json"], check=True)
+        subprocess.run(g + ["-c", "user.name=WOSOINSIDER", "-c", "user.email=finnclausenhh@users.noreply.github.com",
+                            "commit", "-qm", nachricht], check=True)
+        time.sleep(3)
+    print("WARN push fehlgeschlagen", file=sys.stderr)
+    sys.exit(1)
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--repo", default=".")
+    ap.add_argument("--laufzeit", type=int, default=LAUFZEIT)
+    ap.add_argument("--push", action="store_true", help="nach jedem Fund sofort committen und pushen")
+    a = ap.parse_args()
+    pn, pl, ps = (os.path.join(a.repo, x) for x in ("news.json", "tools/aufstellungen_live.json", "spielplan.json"))
+    news = json.load(open(pn, encoding="utf-8"))
+    live = json.load(open(pl, encoding="utf-8")) if os.path.exists(pl) else {"meldungen": []}
+    spielplan = json.load(open(ps, encoding="utf-8"))
+    kader = list(csv.DictReader(open(os.path.join(a.repo, "tools/kader.csv"), encoding="utf-8")))
+    F.setze_kader_slugs(F.lade_kader(os.path.join(a.repo, "tools/kader.csv")))
+    geaendert = False
+
+    # Selbstheilung
+    jetzt = datetime.now(TZ)
+    grenze = (jetzt - timedelta(days=1)).strftime("%Y-%m-%d")
+    live["meldungen"] = [m for m in live["meldungen"] if m["zeit"][:10] >= grenze]
+    ids = {m["id"] for m in news["meldungen"]}
+    fehlend = [m for m in live["meldungen"] if m["id"] not in ids]
+    if fehlend:
+        news["meldungen"] = fehlend + news["meldungen"]
+        geaendert = True
+        print(f"wieder eingefügt: {[m['id'] for m in fehlend]}")
+        speichern(a, pn, pl, news, live, "Aufstellungen live: wieder eingefügt")
+
+    ende = time.time() + a.laufzeit * 60
+    while True:
+        jetzt = datetime.now(TZ)
+        ids = {m["id"] for m in news["meldungen"]}
+        offen = 0
+        for wb, basis, ma, an in spiele_heute(jetzt):
+            pre = "pokal-" if wb == "DFB-Pokal" else "cl-" if wb else ""
+            h, g = ma.split("/")[1].split("_")
+            soll = [f"aufstellung-{pre}{AB.KURZ[AB.SLUG[s]]}-{an.strftime('%d%m')}" for s in (h, g) if s in AB.SLUG and AB.SLUG[s] in AB.KURZ]
+            if all(i in ids for i in soll):
+                continue
+            try:
+                auf = F.lies_aufstellung(ma, basis)
+            except Exception as e:
+                print(f"WARN {ma}: {e}", file=sys.stderr)
+                auf = None
+            if not auf or auf["beendet"]:
+                offen += 1
+                continue
+            neu = [m for m in baue(wb, basis, ma, an, auf, kader, news["meldungen"], spielplan, jetzt.strftime("%Y-%m-%dT%H:%M"))
+                   if m["id"] not in ids]
+            if neu:
+                news["meldungen"] = neu + news["meldungen"]
+                live["meldungen"] = neu + live["meldungen"]
+                geaendert = True
+                print(f"neu: {[m['headline'] for m in neu]}")
+                speichern(a, pn, pl, news, live, "Aufstellungen live: " + ", ".join(m["id"] for m in neu))
+        if not offen or time.time() + 60 > ende:
+            break
+        time.sleep(60)
+    print(f"geaendert={int(geaendert)}")
+
+
+if __name__ == "__main__":
+    main()
