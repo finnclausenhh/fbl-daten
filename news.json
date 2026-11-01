@@ -310,7 +310,8 @@
    ],
    "headline": "Offizielle Aufstellung: Bayer Leverkusen gegen FC Bayern",
    "text": [
-    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Bender, Fudalla. Die Bank zeigt die Sportschau im Pokal erst nach Abpfiff. Rotation im Pokal heißt nicht Verletzung, oft wird nur die Belastung gesteuert."
+    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Bender, Fudalla. Rotation im Pokal heißt nicht Verletzung, oft wird nur die Belastung gesteuert.",
+    "Nicht im Spieltagskader (laut Sportschau), obwohl im letzten Ligaspiel dabei: Bender, Remien. Einen Grund nennt bisher keine Quelle, im Pokal kann es auch Belastungssteuerung sein."
    ],
    "kickbase": "",
    "quellen": [
@@ -380,22 +381,63 @@
       "f": "neu"
      }
     ],
-    "bank": [],
-    "fehlt": [],
-    "wettbewerb": "DFB-Pokal",
-    "bank_offen": true,
-    "nicht_startelf": [
+    "bank": [
      {
-      "n": "Bender",
-      "p": "ST",
-      "pid": "00257"
+      "n": "Voll",
+      "p": "TW",
+      "pid": "00240"
+     },
+     {
+      "n": "Brandau",
+      "p": "ABW",
+      "pid": "00241"
+     },
+     {
+      "n": "Wallrabenstein",
+      "p": "ABW",
+      "pid": "00249"
+     },
+     {
+      "n": "Misini",
+      "p": "MF",
+      "pid": "00252"
+     },
+     {
+      "n": "Platner",
+      "p": "MF",
+      "pid": "00254"
+     },
+     {
+      "n": "Zdebel",
+      "p": "MF",
+      "pid": "00256"
      },
      {
       "n": "Fudalla",
       "p": "ST",
       "pid": "00258"
+     },
+     {
+      "n": "Loonen",
+      "p": "ST",
+      "pid": "00262"
      }
-    ]
+    ],
+    "fehlt": [
+     {
+      "n": "Bender",
+      "p": "ST",
+      "pid": "00257",
+      "f": "raus"
+     },
+     {
+      "n": "Remien",
+      "p": "TW",
+      "pid": "00239",
+      "f": "raus"
+     }
+    ],
+    "wettbewerb": "DFB-Pokal"
    },
    "quelle_live": true
   },
