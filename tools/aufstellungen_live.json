@@ -739,13 +739,17 @@
    "headline": "Offizielle Aufstellung: 1. FC Nürnberg gegen Eintracht Frankfurt",
    "text": [
     "Offizielle Startelf für das DFB-Pokal-Achtelfinale gegen Eintracht Frankfurt laut Sportschau.",
-    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Romero. Die Bank zeigt die Sportschau im Pokal erst nach Abpfiff. Rotation im Pokal heißt nicht Verletzung, oft wird nur die Belastung gesteuert."
+    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Romero. Rotation im Pokal heißt nicht Verletzung, oft wird nur die Belastung gesteuert."
    ],
    "kickbase": "",
    "quellen": [
     {
      "name": "Sportschau",
      "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165406/1-fc-nuernberg_eintracht-frankfurt/aufstellung"
+    },
+    {
+     "name": "DFB-Datencenter",
+     "url": "https://datencenter.dfb.de/matches/1-fc-nuernberg-eintracht-frankfurt-2431335"
     }
    ],
    "aufstellung": {
@@ -808,17 +812,55 @@
       "pid": "00322"
      }
     ],
-    "bank": [],
-    "fehlt": [],
-    "wettbewerb": "DFB-Pokal",
-    "bank_offen": true,
-    "nicht_startelf": [
+    "bank": [
      {
       "n": "Romero",
       "p": "TW",
       "pid": "00298"
+     },
+     {
+      "n": "Fröhlich",
+      "p": "ABW",
+      "pid": "00302"
+     },
+     {
+      "n": "Mai",
+      "p": "MF",
+      "pid": "00315"
+     },
+     {
+      "n": "Bednorz",
+      "p": "ABW",
+      "pid": "00301"
+     },
+     {
+      "n": "Pollak",
+      "p": "ABW",
+      "pid": "00305"
+     },
+     {
+      "n": "Barboz",
+      "p": "ABW",
+      "pid": "00300"
+     },
+     {
+      "n": "Coutel",
+      "p": "MF",
+      "pid": "00310"
+     },
+     {
+      "n": "Licina",
+      "p": "MF",
+      "pid": "00314"
+     },
+     {
+      "n": "Brengel",
+      "p": "MF",
+      "pid": "00308"
      }
-    ]
+    ],
+    "fehlt": [],
+    "wettbewerb": "DFB-Pokal"
    },
    "quelle_live": true
   },
