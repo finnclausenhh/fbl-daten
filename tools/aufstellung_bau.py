@@ -103,7 +103,7 @@ def infos(verein, kader, news):
     return out
 
 
-def team(slug, gegner_slug, start, bank, vgl, kader, news=(), g=None):
+def team(slug, gegner_slug, start, bank, vgl, kader, news=(), g=None, lern=None):
     verein = SLUG[slug]
     bank = list(dict.fromkeys(bank))
     neu_s = set((vgl or {}).get("neu_in_startelf", []))
@@ -112,6 +112,11 @@ def team(slug, gegner_slug, start, bank, vgl, kader, news=(), g=None):
     fehlt = (vgl or {}).get("fehlt_im_kader", [])
     P = lambda n: pos_von(n, verein, kader)
     I = lambda n: pid_von(n, verein, kader)
+    abgeleitet = None
+    if not g and lern and len(start) == 11:
+        form, pos, hinweis = ableiten_pos(start, verein, kader, lern)
+        g = {"formation": form, "pos": {k: v for k, v in pos.items()}}
+        abgeleitet = hinweis or "Positionen aus den bisherigen Liga-Einsätzen abgeleitet"
     ordnung = {p: i for i, p in enumerate(POS)}
 
     def S(n):  # Startelf: Position aus der Grafik, sonst Kaderposition
@@ -123,6 +128,7 @@ def team(slug, gegner_slug, start, bank, vgl, kader, news=(), g=None):
     for c in elf:
         c.pop("_o")
     return {"gegner": SLUG[gegner_slug], **({"formation": g["formation"]} if g else {}),
+            **({"geschaetzt": True, "hinweis": abgeleitet} if abgeleitet else {}),
             "startelf": elf,
             "bank": [dict(n=n, p=P(n), pid=I(n), **({"f": "raus"} if n in raus_s else {"f": "neu"} if n in neu_k else {})) for n in bank],
             "fehlt": fehlt_liste(verein, start, bank, fehlt, kader, news, P)}
@@ -142,6 +148,94 @@ def fehlt_liste(verein, start, bank, raus, kader, news, P):
             continue
         out.append(dict(n=r["name"].split()[-1], p=r["position"], **({"i": inf[k]} if k in inf else {})))
     return out
+
+
+# ---------- Positionen lernen (Finn 01.11.2026) ----------
+from collections import Counter
+TIEF = {"ABW": 1, "DM": 2, "MF": 3, "OM": 4, "ST": 5}
+KB_TIEF = {"ABW": 1, "DM": 2, "MF": 3, "OM": 4, "ST": 5}
+
+
+def _kz(n):
+    return norm(n).split()[-1] if n else ""
+
+
+def lernen(spielplan, verein):
+    """Liga-Aufstellungen mit Sportschau-Grafik dieser Saison: je Spielerin Linie und Seite (0 rechts, 1 links), je Verein die Formationen."""
+    kz = KURZ.get(verein)
+    hist, forms = {}, Counter()
+    for t in (spielplan or {}).get("spieltage", []):
+        for p in t.get("partien", []):
+            for sd in ("heim", "gast"):
+                if p.get(sd + "_k") != (kz or "").upper() and p.get(sd + "_k") != kz:
+                    continue
+                a = p.get(sd + "_aufstellung")
+                if not a or not a.get("formation"):
+                    continue
+                forms[a["formation"]] += 1
+                zeilen = {}
+                for x in a["startelf"]:
+                    zeilen.setdefault(x["p"], []).append(x)
+                for lin, xs in zeilen.items():
+                    if lin == "TW":
+                        continue
+                    for i, x in enumerate(xs):
+                        frac = i / (len(xs) - 1) if len(xs) > 1 else 0.5
+                        hist.setdefault(_kz(x["n"]), []).append((lin, frac, p.get("md", 0)))
+    return {"spielerinnen": hist, "formationen": forms}
+
+
+def _plausibel(abw, st, formationen):
+    if not 3 <= abw <= 5 or not 1 <= st <= 3 or 10 - abw - st < 2:
+        return False
+    ruecken = {int(f.split("-")[0]) for f in formationen}
+    return not ruecken or abw in ruecken
+
+
+def ableiten_pos(start, verein, kader, lern):
+    """Formation und Linien einer Startelf ohne Grafik, aus den bisherigen Liga-Einsätzen. Gibt (formation, {kz: (linie, frac)}, hinweis)."""
+    h = lern["spielerinnen"]
+    tw = next((n for n in start if pos_von(n, verein, kader) == "TW"), None)
+    feld = [n for n in start if n != tw]
+    info = {}
+    for n in feld:
+        eintr = h.get(_kz(n), [])
+        if eintr:
+            lin = Counter(l for l, _, _ in eintr).most_common(1)[0][0]
+            tief = sum(TIEF[l] for l, _, _ in eintr) / len(eintr)
+            fr = [f for l, f, _ in eintr if l == lin]
+            info[n] = dict(lin=lin, tief=tief, frac=sum(fr) / len(fr), n=len(eintr), kb=False)
+        else:
+            kp = pos_von(n, verein, kader)
+            info[n] = dict(lin={"ABW": "ABW", "ST": "ST"}.get(kp, "MF"), tief=KB_TIEF.get({"ABW": "ABW", "ST": "ST"}.get(kp, "MF")), frac=0.5, n=0, kb=True)
+    zaehl = Counter(i["lin"] for i in info.values())
+    hinweis = ""
+    if _plausibel(zaehl["ABW"], zaehl["ST"], lern["formationen"]) and len(feld) == 10:
+        reihen = [[n for n in feld if info[n]["lin"] == l] for l in ("ABW", "DM", "MF", "OM", "ST")]
+        reihen = [sorted(r, key=lambda n: info[n]["frac"]) for r in reihen if r]
+        marker = [l for l in ("ABW", "DM", "MF", "OM", "ST") if zaehl[l]]
+        zeilen = list(zip(marker, reihen))
+        if any(info[n]["kb"] for n in feld):
+            hinweis = "Ohne Einsatzdaten: " + ", ".join(n for n in feld if info[n]["kb"])
+    else:
+        ziel = (lern["formationen"].most_common(1)[0][0] if lern["formationen"] else "4-2-3-1")
+        zahlen = [int(x) for x in ziel.split("-")]
+        sortiert = sorted(feld, key=lambda n: (info[n]["tief"], info[n]["frac"]))
+        reihen, k = [], 0
+        for z in zahlen:
+            reihen.append(sorted(sortiert[k:k + z], key=lambda n: info[n]["frac"]))
+            k += z
+        namen = LINIEN.get(len(zahlen) + 1, ["TW", "ABW", "MF", "ST"])[1:]
+        zeilen = list(zip(namen, reihen))
+        hinweis = f"Formation geschätzt ({ziel}, übliches System des Vereins), weil die Daten kein plausibles System ergaben"
+    form = "-".join(str(len(r)) for _, r in zeilen)
+    pos = {}
+    for lab, r in zeilen:
+        for i, n in enumerate(r):
+            pos[_kz(n)] = (lab, i)
+    if tw:
+        pos[_kz(tw)] = ("TW", 0)
+    return form, pos, hinweis
 
 
 def main():

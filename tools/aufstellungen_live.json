@@ -165,40 +165,46 @@
       "f": "neu"
      },
      {
-      "n": "Acikgöz",
-      "p": "MF",
-      "pid": "00098"
+      "n": "Kolb",
+      "p": "ABW",
+      "pid": "00113",
+      "kp": "ST"
      },
      {
       "n": "Ojukwu",
-      "p": "MF",
-      "pid": "00106"
+      "p": "DM",
+      "pid": "00106",
+      "kp": "MF"
+     },
+     {
+      "n": "Acikgöz",
+      "p": "DM",
+      "pid": "00098",
+      "kp": "MF"
      },
      {
       "n": "Schneider",
-      "p": "MF",
-      "pid": "00108"
+      "p": "DM",
+      "pid": "00108",
+      "kp": "MF"
      },
      {
       "n": "Vobian",
-      "p": "MF",
+      "p": "OM",
       "pid": "00111",
-      "f": "neu"
-     },
-     {
-      "n": "Birkholz",
-      "p": "MF",
-      "pid": "00101"
-     },
-     {
-      "n": "Kolb",
-      "p": "ST",
-      "pid": "00113"
+      "f": "neu",
+      "kp": "MF"
      },
      {
       "n": "Brunold",
       "p": "ST",
       "pid": "00112"
+     },
+     {
+      "n": "Birkholz",
+      "p": "ST",
+      "pid": "00101",
+      "kp": "MF"
      }
     ],
     "bank": [
@@ -267,7 +273,10 @@
       "war": "Bank"
      }
     ],
-    "wettbewerb": "DFB-Pokal"
+    "wettbewerb": "DFB-Pokal",
+    "geschaetzt": true,
+    "hinweis": "Positionen aus den bisherigen Liga-Einsätzen abgeleitet",
+    "formation": "4-3-1-2"
    },
    "quelle_live": true
   },
@@ -302,6 +311,13 @@
       "pid": "00003"
      },
      {
+      "n": "Mattner-Trembleau",
+      "p": "ABW",
+      "pid": "00027",
+      "f": "neu",
+      "kp": "ST"
+     },
+     {
       "n": "Ballisager",
       "p": "ABW",
       "pid": "00005",
@@ -318,36 +334,35 @@
       "pid": "00011"
      },
      {
-      "n": "Alara",
-      "p": "MF",
-      "pid": "00015"
+      "n": "Tanikawa",
+      "p": "DM",
+      "pid": "00021",
+      "kp": "MF"
      },
      {
       "n": "Amani",
-      "p": "MF",
-      "pid": "00016"
+      "p": "DM",
+      "pid": "00016",
+      "kp": "MF"
      },
      {
       "n": "Dallmann",
-      "p": "MF",
+      "p": "OM",
       "pid": "00017",
-      "f": "neu"
+      "f": "neu",
+      "kp": "MF"
      },
      {
-      "n": "Tanikawa",
-      "p": "MF",
-      "pid": "00021"
+      "n": "Alara",
+      "p": "OM",
+      "pid": "00015",
+      "kp": "MF"
      },
      {
       "n": "Proost",
-      "p": "MF",
-      "pid": "00020"
-     },
-     {
-      "n": "Mattner-Trembleau",
-      "p": "ST",
-      "pid": "00027",
-      "f": "neu"
+      "p": "OM",
+      "pid": "00020",
+      "kp": "MF"
      },
      {
       "n": "Harder",
@@ -417,7 +432,8 @@
       "i": "verletzt"
      }
     ],
-    "wettbewerb": "DFB-Pokal"
+    "wettbewerb": "DFB-Pokal",
+    "formation": "4-2-3-1"
    },
    "quelle_live": true
   },
@@ -473,24 +489,28 @@
      },
      {
       "n": "Wenger",
-      "p": "ABW",
-      "pid": "00250"
+      "p": "DM",
+      "pid": "00250",
+      "kp": "ABW"
      },
      {
       "n": "Müller",
-      "p": "MF",
-      "pid": "00253"
+      "p": "DM",
+      "pid": "00253",
+      "kp": "MF"
      },
      {
-      "n": "Kehrer",
-      "p": "ST",
-      "pid": "00259",
-      "f": "neu"
+      "n": "Mädl",
+      "p": "OM",
+      "pid": "00263",
+      "f": "neu",
+      "kp": "ST"
      },
      {
       "n": "Sternad",
-      "p": "ST",
-      "pid": "00265"
+      "p": "OM",
+      "pid": "00265",
+      "kp": "ST"
      },
      {
       "n": "Kramer",
@@ -498,9 +518,9 @@
       "pid": "00260"
      },
      {
-      "n": "Mädl",
+      "n": "Kehrer",
       "p": "ST",
-      "pid": "00263",
+      "pid": "00259",
       "f": "neu"
      }
     ],
@@ -564,7 +584,8 @@
       "war": "Bank"
      }
     ],
-    "wettbewerb": "DFB-Pokal"
+    "wettbewerb": "DFB-Pokal",
+    "formation": "4-2-2-2"
    },
    "quelle_live": true
   },
@@ -603,10 +624,16 @@
       "pid": "00270"
      },
      {
-      "n": "Flach",
+      "n": "Bathmann",
       "p": "ABW",
-      "pid": "00273",
-      "f": "neu"
+      "pid": "00278",
+      "kp": "MF"
+     },
+     {
+      "n": "Berg",
+      "p": "ABW",
+      "pid": "00279",
+      "kp": "MF"
      },
      {
       "n": "Hashitani",
@@ -615,45 +642,45 @@
       "f": "neu"
      },
      {
-      "n": "Bathmann",
-      "p": "MF",
-      "pid": "00278"
-     },
-     {
-      "n": "Berg",
-      "p": "MF",
-      "pid": "00279"
-     },
-     {
-      "n": "Kurishima",
-      "p": "MF",
-      "pid": "00285"
-     },
-     {
-      "n": "Bouziane",
-      "p": "MF",
-      "pid": "00280",
+      "n": "Flach",
+      "p": "ABW",
+      "pid": "00273",
       "f": "neu"
      },
      {
-      "n": "Imai",
-      "p": "MF",
-      "pid": "00282"
-     },
-     {
       "n": "Pageler",
-      "p": "ST",
-      "pid": "00293"
+      "p": "ABW",
+      "pid": "00293",
+      "kp": "ST"
      },
      {
-      "n": "Kats",
+      "n": "Kurishima",
+      "p": "DM",
+      "pid": "00285",
+      "kp": "MF"
+     },
+     {
+      "n": "Imai",
+      "p": "DM",
+      "pid": "00282",
+      "kp": "MF"
+     },
+     {
+      "n": "Bouziane",
       "p": "ST",
-      "pid": "00292"
+      "pid": "00280",
+      "f": "neu",
+      "kp": "MF"
      },
      {
       "n": "Anstatt",
       "p": "ST",
       "pid": "00291"
+     },
+     {
+      "n": "Kats",
+      "p": "ST",
+      "pid": "00292"
      }
     ],
     "bank": [
@@ -715,7 +742,10 @@
       "i": "fraglich"
      }
     ],
-    "wettbewerb": "DFB-Pokal"
+    "wettbewerb": "DFB-Pokal",
+    "geschaetzt": true,
+    "hinweis": "Ohne Einsatzdaten: Hashitani",
+    "formation": "5-2-3"
    },
    "quelle_live": true
   },
@@ -774,36 +804,41 @@
       "pid": "00042"
      },
      {
-      "n": "Wirtz",
-      "p": "MF",
-      "pid": "00048"
+      "n": "Hipp",
+      "p": "DM",
+      "pid": "00045",
+      "kp": "MF"
      },
      {
-      "n": "Hipp",
-      "p": "MF",
-      "pid": "00045"
+      "n": "Wirtz",
+      "p": "DM",
+      "pid": "00048",
+      "kp": "MF"
      },
      {
       "n": "Dhont",
-      "p": "ST",
+      "p": "OM",
       "pid": "00050",
-      "f": "neu"
+      "f": "neu",
+      "kp": "ST"
+     },
+     {
+      "n": "Vanzeir",
+      "p": "OM",
+      "pid": "00055",
+      "kp": "ST"
+     },
+     {
+      "n": "Jaron",
+      "p": "OM",
+      "pid": "00051",
+      "kp": "ST"
      },
      {
       "n": "Shimada",
       "p": "ST",
       "pid": "00054",
       "f": "neu"
-     },
-     {
-      "n": "Jaron",
-      "p": "ST",
-      "pid": "00051"
-     },
-     {
-      "n": "Vanzeir",
-      "p": "ST",
-      "pid": "00055"
      }
     ],
     "bank": [
@@ -856,7 +891,10 @@
      }
     ],
     "fehlt": [],
-    "wettbewerb": "DFB-Pokal"
+    "wettbewerb": "DFB-Pokal",
+    "geschaetzt": true,
+    "hinweis": "Positionen aus den bisherigen Liga-Einsätzen abgeleitet",
+    "formation": "4-2-3-1"
    },
    "quelle_live": true
   },
@@ -896,6 +934,12 @@
       "f": "neu"
      },
      {
+      "n": "Bleil",
+      "p": "ABW",
+      "pid": "00321",
+      "kp": "ST"
+     },
+     {
       "n": "Lobanova",
       "p": "ABW",
       "pid": "00304"
@@ -906,34 +950,33 @@
       "pid": "00307"
      },
      {
-      "n": "Proniez",
-      "p": "MF",
-      "pid": "00317"
+      "n": "Homann",
+      "p": "ABW",
+      "pid": "00313",
+      "kp": "MF"
      },
      {
       "n": "Miller",
-      "p": "MF",
-      "pid": "00316"
+      "p": "DM",
+      "pid": "00316",
+      "kp": "MF"
      },
      {
-      "n": "Homann",
-      "p": "MF",
-      "pid": "00313"
+      "n": "Proniez",
+      "p": "OM",
+      "pid": "00317",
+      "kp": "MF"
      },
      {
-      "n": "Bleil",
-      "p": "ST",
-      "pid": "00321"
+      "n": "Meroni",
+      "p": "OM",
+      "pid": "00324",
+      "kp": "ST"
      },
      {
       "n": "Pápai",
       "p": "ST",
       "pid": "00325"
-     },
-     {
-      "n": "Meroni",
-      "p": "ST",
-      "pid": "00324"
      },
      {
       "n": "Lein",
@@ -995,7 +1038,10 @@
      }
     ],
     "fehlt": [],
-    "wettbewerb": "DFB-Pokal"
+    "wettbewerb": "DFB-Pokal",
+    "geschaetzt": true,
+    "hinweis": "Positionen aus den bisherigen Liga-Einsätzen abgeleitet",
+    "formation": "4-1-2-3"
    },
    "quelle_live": true
   },
@@ -1036,6 +1082,13 @@
       "f": "neu"
      },
      {
+      "n": "Krumbiegel",
+      "p": "ABW",
+      "pid": "00072",
+      "f": "neu",
+      "kp": "MF"
+     },
+     {
       "n": "Ilestedt",
       "p": "ABW",
       "pid": "00062"
@@ -1051,40 +1104,39 @@
       "pid": "00064"
      },
      {
-      "n": "Acikgöz",
-      "p": "ABW",
-      "pid": "00060"
-     },
-     {
-      "n": "Krumbiegel",
-      "p": "MF",
-      "pid": "00072",
-      "f": "neu"
-     },
-     {
       "n": "Bennison",
-      "p": "MF",
-      "pid": "00069"
-     },
-     {
-      "n": "Blomqvist",
-      "p": "MF",
-      "pid": "00070"
+      "p": "DM",
+      "pid": "00069",
+      "kp": "MF"
      },
      {
       "n": "Memeti",
-      "p": "ST",
-      "pid": "00079"
+      "p": "MF",
+      "pid": "00079",
+      "kp": "ST"
+     },
+     {
+      "n": "Acikgöz",
+      "p": "MF",
+      "pid": "00060",
+      "kp": "ABW"
      },
      {
       "n": "Mühlhaus",
-      "p": "ST",
-      "pid": "00080"
+      "p": "OM",
+      "pid": "00080",
+      "kp": "ST"
      },
      {
       "n": "Freigang",
       "p": "ST",
       "pid": "00077"
+     },
+     {
+      "n": "Blomqvist",
+      "p": "ST",
+      "pid": "00070",
+      "kp": "MF"
      }
     ],
     "bank": [
@@ -1152,7 +1204,10 @@
       "war": "Bank"
      }
     ],
-    "wettbewerb": "DFB-Pokal"
+    "wettbewerb": "DFB-Pokal",
+    "geschaetzt": true,
+    "hinweis": "Positionen aus den bisherigen Liga-Einsätzen abgeleitet",
+    "formation": "4-1-2-1-2"
    },
    "quelle_live": true
   }

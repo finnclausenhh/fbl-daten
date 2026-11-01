@@ -154,7 +154,7 @@ def platzhalter(pid_, wb, basis, ma, an, h, g, jetzt, spielplan):
 
 def baue(wb, basis, ma, an, a, kader, news, spielplan, zeit):
     url = basis + ma + "/aufstellung"
-    gr = {} if a.get("nur_dfb") else AB.grafik(url)
+    gr = AB.grafik(url)  # auch bei nur_dfb versuchen, die Sportschau-Grafik kann später kommen
     tt = an.strftime("%d%m")
     out = []
     for slug, gs, st, bk, sd in ((a["heim"], a["gast"], "startelf_heim", "bank_heim", "home"),
@@ -166,7 +166,7 @@ def baue(wb, basis, ma, an, a, kader, news, spielplan, zeit):
             AB.SLUG[gs] = gs.replace("-", " ").title().replace("Fc ", "FC ").replace("Sgs ", "SGS ").replace("Vfl ", "VfL ")
         alt = letzte_liga(spielplan, verein, an.strftime("%Y-%m-%dT%H:%M"))
         vgl = F.vergleich(alt, a[st], a[bk])
-        t = AB.team(slug, gs, a[st], a[bk], vgl, kader, news, gr.get(sd))
+        t = AB.team(slug, gs, a[st], a[bk], vgl, kader, news, gr.get(sd), AB.lernen(spielplan, verein))
         if wb:
             t["wettbewerb"] = wb
             if not a[bk]:
