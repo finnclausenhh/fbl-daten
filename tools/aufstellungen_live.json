@@ -38,15 +38,15 @@
    "pos": "ABW",
    "tags": [
     "AUFSTELLUNG",
-    "POKAL"
+    "STANDARD"
    ],
    "status": "fraglich",
-   "headline": "Viggósdóttir nicht im Kader gegen Bayer Leverkusen",
+   "headline": "Viggósdóttir fehlt im Pokal, Bühl nur auf der Bank",
    "text": [
-    "Glódís Viggósdóttir steht im DFB-Pokal gegen Bayer Leverkusen weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
-    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
+    "Glódís Viggósdóttir steht im DFB-Pokal gegen Bayer Leverkusen weder in der Startelf noch auf der Bank, im letzten Ligaspiel stand sie in der Startelf und begann in den letzten 5 Ligaspielen 5-mal. Einen Grund nennt bisher keine Quelle, möglich sind Verletzung, Krankheit oder Schonung.",
+    "Klara Bühl sitzt auf der Bank. Sie ist die erste Schützin bei Ecken und Freistößen: Freistöße übernimmt Alara aus der Startelf, wer die Ecken tritt, ist offen."
    ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
+   "kickbase": "Viggósdóttir führen wir bis zu einer Auskunft als fraglich und stufen sie in der Prognose herunter. Bei Standards ist Alara bei Freistößen und Elfmetern die erste Wahl, bei Ecken fehlt eine klare Schützin.",
    "quellen": [
     {
      "name": "Sportschau",
@@ -54,7 +54,14 @@
     }
    ],
    "quelle_live": true,
-   "kurz": "Viggósdóttir nicht im Kader"
+   "kurz": "Viggósdóttir fehlt, Bühl nur auf der Bank",
+   "zusammen": true,
+   "foto": "fotos/fcb-glodis-perla-viggosdottir.webp",
+   "foto_credit": {
+    "autor": "FC Bayern",
+    "lizenz": "mit Genehmigung: FC Bayern München",
+    "url": "https://fcbayern.com/frauen/de/teams/1.-mannschaft"
+   }
   },
   {
    "id": "fehlt-bender-b04-0111",

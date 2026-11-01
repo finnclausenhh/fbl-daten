@@ -332,7 +332,7 @@ def fehlt_meldungen(a, pn, pl, news, live, spielplan):
         alt = next((y for y in news["meldungen"] if y["id"] == m["id"]), None)
         if alt is None and m["id"] not in ids:
             neu.append(m); ids.add(m["id"])
-        elif alt is not None and alt.get("quelle_live") and (alt["headline"] != m["headline"] or alt["text"] != m["text"]):
+        elif alt is not None and alt.get("quelle_live") and not alt.get("zusammen") and (alt["headline"] != m["headline"] or alt["text"] != m["text"]):
             ersetzt.append(m)
     for m in ersetzt:
         news["meldungen"] = [m if y["id"] == m["id"] else y for y in news["meldungen"]]
