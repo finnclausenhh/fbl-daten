@@ -144,7 +144,9 @@ def speichern(a, pn, pl, news, live, nachricht):
         subprocess.run(g + ["reset", "-q", "--hard", "origin/main"], check=True)
         n2 = json.load(open(pn, encoding="utf-8"))
         ids = {m["id"] for m in n2["meldungen"]}
-        n2["meldungen"] = [m for m in live["meldungen"] if m["id"] not in ids] + n2["meldungen"]
+        weg = set(live.get("entfernt", []))
+        lv = {m["id"]: m for m in live["meldungen"]}
+        n2["meldungen"] = [m for m in live["meldungen"] if m["id"] not in ids] + [lv.get(m["id"], m) for m in n2["meldungen"] if m["id"] not in weg]
         news.clear(); news.update(n2)
         news["stand"] = datetime.now(TZ).strftime("%Y-%m-%dT%H:%M")
         json.dump(news, open(pn, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
