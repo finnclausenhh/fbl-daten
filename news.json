@@ -34,38 +34,6 @@
    }
   },
   {
-   "id": "bender-0111",
-   "pid": "00257",
-   "zeit": "2026-11-01T13:53",
-   "spielerin": "Loreen Bender",
-   "verein": "Bayer Leverkusen",
-   "nr": "",
-   "pos": "ST",
-   "tags": [
-    "STANDARD",
-    "POKAL"
-   ],
-   "headline": "Leverkusen ohne Bender und Tomasiak, Merino und Simon übernehmen",
-   "kurz": "Leverkusen ohne Bender und Tomasiak",
-   "text": [
-    "Loreen Bender und Paulina Tomasiak stehen im Pokalspiel beim FC Bayern nicht im Spieltagskader von Bayer Leverkusen. Bender ist die erste Eckenschützin, Tomasiak die erste Freistoßschützin.",
-    "Bei Ecken übernimmt voraussichtlich Estrella Merino, bei Freistößen Carolin Simon, beide stehen in der Startelf. Elfmeterschützin Cornelia Kramer spielt von Beginn an. Gründe für das Fehlen nennt die Sportschau nicht."
-   ],
-   "kickbase": "Beide Standardrollen gehen an Spielerinnen aus der Startelf. Merino und Simon bekommen dadurch mehr Chancen auf Standardpunkte.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165391/bayern-muenchen_bayer-leverkusen/aufstellung"
-    }
-   ],
-   "foto": "fotos/b04-loreen-bender.webp",
-   "foto_credit": {
-    "autor": "Bayer 04",
-    "lizenz": "mit Genehmigung: Bayer 04 Leverkusen",
-    "url": "https://www.bayer04.de/de-de/team/frauen/frauen"
-   }
-  },
-  {
    "id": "fehlt-reimann-scf-0111",
    "pid": "00085",
    "zeit": "2026-11-01T14:08",
@@ -632,38 +600,6 @@
     "wettbewerb": "DFB-Pokal"
    },
    "quelle_live": true
-  },
-  {
-   "id": "brengel-0111",
-   "pid": "00308",
-   "zeit": "2026-11-01T13:45",
-   "spielerin": "Jonna Brengel",
-   "verein": "1. FC Nürnberg",
-   "nr": "",
-   "pos": "MF",
-   "tags": [
-    "STANDARD",
-    "POKAL"
-   ],
-   "headline": "Nürnberg im Pokal ohne Freistoßschützin Brengel in der Startelf",
-   "kurz": "Brengel fehlt in Nürnbergs Startelf",
-   "text": [
-    "Jonna Brengel steht im Pokalspiel gegen Eintracht Frankfurt nicht in der Startelf des 1. FC Nürnberg. Sie ist die erste Freistoßschützin der ClubFrauen, auch bei Ecken gilt sie als zweite Option nach Lein, die spielt.",
-    "Wer die Freistöße übernimmt, ist offen, in der Startelf steht keine zweite Schützin aus der Hierarchie. Ob Brengel auf der Bank sitzt, zeigt die Sportschau vor Anpfiff im Pokal nicht. Zuletzt war sie nach einem Schlag auf den Knöchel fraglich und kam am 25. Oktober wieder von der Bank."
-   ],
-   "kickbase": "Für Freistöße der Nürnbergerinnen im Pokal gibt es keine klare Schützin, Standardpunkte sind daher schwerer zu planen.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165406/1-fc-nuernberg_eintracht-frankfurt/aufstellung"
-    }
-   ],
-   "foto": "fotos/fcn-jonna-brengel.webp",
-   "foto_credit": {
-    "autor": "1. FC Nürnberg",
-    "lizenz": "mit Genehmigung: 1. FC Nürnberg",
-    "url": "https://www.fcn.de/clubfrauen/spielerinnen/"
-   }
   },
   {
    "id": "aufstellung-pokal-m05-0111",
