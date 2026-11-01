@@ -365,7 +365,8 @@
       {
        "n": "Vincze",
        "p": "ST",
-       "ein_min": "63"
+       "ein_min": "63",
+       "tore": 1
       },
       {
        "n": "Memminger",
@@ -419,7 +420,8 @@
    "kurz": "Frankfurt gewinnt in Nürnberg im Elfmeterschießen",
    "text": [
     "Eintracht Frankfurt steht im Viertelfinale des DFB-Pokals. Beim 1. FC Nürnberg fiel kein Tor, das Elfmeterschießen gewann Frankfurt laut DFB-Datencenter mit 4:2.",
-    "Im Tor stand Sophia Winkler, Lina Altenburg und Sara Doorsoun gehörten nicht zum Kader. Torhüterin Sophia Winkler gilt laut BILD als Heldin des Elfmeterschießens."
+    "Im Tor stand Sophia Winkler, Lina Altenburg und Sara Doorsoun gehörten nicht zum Kader. Torhüterin Sophia Winkler gilt laut BILD als Heldin des Elfmeterschießens.",
+    "Für Frankfurt verwandelten im Elfmeterschießen laut DFB-Datencenter Danique Tolhoek, Amanda Ilestedt, Ainhoa Alguacil und Hanna Bennison. Für Nürnberg trafen Nastassja Lein und Emöke Pápai."
    ],
    "kickbase": "Ob Altenburg zum nächsten Ligaspiel wieder im Tor steht, ist offen. Einsatzzeiten und Wechsel sind noch nicht bekannt.",
    "quellen": [
@@ -531,7 +533,52 @@
       "Fröhlich",
       "Coutel",
       "Ličina"
-     ]
+     ],
+     "elfmeterschiessen": [
+      {
+       "stand": "0:1",
+       "n": "Danique Tolhoek",
+       "seite": "gast",
+       "trifft": true,
+       "eigen": false
+      },
+      {
+       "stand": "0:2",
+       "n": "Amanda Ilestedt",
+       "seite": "gast",
+       "trifft": true,
+       "eigen": false
+      },
+      {
+       "stand": "1:2",
+       "n": "Nastassja Lein",
+       "seite": "heim",
+       "trifft": true,
+       "eigen": true
+      },
+      {
+       "stand": "1:3",
+       "n": "Ainhoa Alguacil",
+       "seite": "gast",
+       "trifft": true,
+       "eigen": false
+      },
+      {
+       "stand": "2:3",
+       "n": "Emöke Papai",
+       "seite": "heim",
+       "trifft": true,
+       "eigen": true
+      },
+      {
+       "stand": "2:4",
+       "n": "Hanna Bennison",
+       "seite": "gast",
+       "trifft": true,
+       "eigen": false
+      }
+     ],
+     "ergebnis_ie": "2:4"
     },
     {
      "verein": "Eintracht Frankfurt",
@@ -641,7 +688,52 @@
       "Rankin",
       "Lundgaard",
       "Teulings"
-     ]
+     ],
+     "elfmeterschiessen": [
+      {
+       "stand": "0:1",
+       "n": "Danique Tolhoek",
+       "seite": "gast",
+       "trifft": true,
+       "eigen": true
+      },
+      {
+       "stand": "0:2",
+       "n": "Amanda Ilestedt",
+       "seite": "gast",
+       "trifft": true,
+       "eigen": true
+      },
+      {
+       "stand": "1:2",
+       "n": "Nastassja Lein",
+       "seite": "heim",
+       "trifft": true,
+       "eigen": false
+      },
+      {
+       "stand": "1:3",
+       "n": "Ainhoa Alguacil",
+       "seite": "gast",
+       "trifft": true,
+       "eigen": true
+      },
+      {
+       "stand": "2:3",
+       "n": "Emöke Papai",
+       "seite": "heim",
+       "trifft": true,
+       "eigen": false
+      },
+      {
+       "stand": "2:4",
+       "n": "Hanna Bennison",
+       "seite": "gast",
+       "trifft": true,
+       "eigen": true
+      }
+     ],
+     "ergebnis_ie": "4:2"
     }
    ]
   },
