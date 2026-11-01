@@ -208,6 +208,9 @@ def speichern(a, pn, pl, news, live, nachricht):
     st = {"letzter_lauf": datetime.now(TZ).strftime("%Y-%m-%dT%H:%M"), "lauf": "Aufstellungen live", "news_neu": 1, "spielplan_geaendert": False}
     json.dump(st, open(os.path.join(a.repo, "status.json"), "w", encoding="utf-8"), ensure_ascii=False)
     subprocess.run(g + ["add", "news.json", "tools/aufstellungen_live.json", "status.json"], check=True)
+    if subprocess.run(g + ["diff", "--cached", "--quiet", "--", "news.json", "tools/aufstellungen_live.json"]).returncode == 0:
+        subprocess.run(g + ["reset", "-q"], check=False)
+        return
     subprocess.run(g + ["-c", "user.name=WOSOINSIDER", "-c", "user.email=finnclausenhh@users.noreply.github.com",
                         "commit", "-qm", nachricht], check=True)
     for _ in range(4):
