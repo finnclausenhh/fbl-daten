@@ -1,6 +1,39 @@
 {
- "stand": "2026-11-01T15:45",
+ "stand": "2026-11-01T16:46",
  "meldungen": [
+  {
+   "id": "gutmann-0111",
+   "pid": "00035",
+   "zeit": "2026-11-01T16:36",
+   "spielerin": "Sarah Gutmann",
+   "verein": "Werder Bremen",
+   "nr": "",
+   "pos": "ABW",
+   "tags": [
+    "POKAL",
+    "SPIELBERICHT"
+   ],
+   "status": "fit",
+   "headline": "Gutmann trifft zweimal, Werder im Pokal-Viertelfinale",
+   "kurz": "Gutmann köpft Werder ins Pokal-Viertelfinale",
+   "text": [
+    "Werder Bremen gewinnt das DFB-Pokal-Achtelfinale bei Mainz 05 mit 2:0 nach Verlängerung. Nach 90 torlosen Minuten trifft Abwehrspielerin Sarah Gutmann in der 102. und in der 116. Minute.",
+    "Trainerin Fritzy Kromp änderte die Startelf auf zwei Positionen: Mei Shimada begann für Medina Dešić, Elena Dhont für Lilli Purtscheller. Dešić und Purtscheller kamen in der 69. Minute ins Spiel. Bei Mainz sah Kats in der 68. Minute Gelb-Rot."
+   ],
+   "kickbase": "Gutmann hat damit in kurzer Zeit vier Tore erzielt (Doppelpack gegen Freiburg am 25.10.). Pokaltore zählen in Kickbase nicht, die Form spricht aber für sie vor dem nächsten Ligaspiel.",
+   "quellen": [
+    {
+     "name": "Weser Kurier",
+     "url": "https://www.weser-kurier.de/werder/frauen/werder-bremen-frauen-ziehen-in-mainz-ins-dfb-pokal-viertelfinale-ein-doc88a7wo8087s1e4kpee09"
+    }
+   ],
+   "foto": "fotos/svw-sarah-gutmann.webp",
+   "foto_credit": {
+    "autor": "Werder Bremen",
+    "lizenz": "mit Genehmigung: Werder Bremen",
+    "url": "https://www.werder.de/teams/frauen/spielerinnen/"
+   }
+  },
   {
    "id": "fehlt-reimann-scf-0111",
    "pid": "00085",
@@ -281,9 +314,9 @@
      }
     ],
     "wettbewerb": "DFB-Pokal",
-    "formation": "4-3-1-2",
     "geschaetzt": true,
-    "hinweis": "Positionen aus den bisherigen Liga-Einsätzen abgeleitet"
+    "hinweis": "Positionen aus den bisherigen Liga-Einsätzen abgeleitet",
+    "formation": "4-3-1-2"
    },
    "quelle_live": true
   },
@@ -750,9 +783,9 @@
      }
     ],
     "wettbewerb": "DFB-Pokal",
-    "formation": "5-2-3",
     "geschaetzt": true,
-    "hinweis": "Ohne Einsatzdaten: Hashitani"
+    "hinweis": "Ohne Einsatzdaten: Hashitani",
+    "formation": "5-2-3"
    },
    "quelle_live": true
   },
@@ -899,9 +932,9 @@
     ],
     "fehlt": [],
     "wettbewerb": "DFB-Pokal",
-    "formation": "4-2-3-1",
     "geschaetzt": true,
-    "hinweis": "Positionen aus den bisherigen Liga-Einsätzen abgeleitet"
+    "hinweis": "Positionen aus den bisherigen Liga-Einsätzen abgeleitet",
+    "formation": "4-2-3-1"
    },
    "quelle_live": true
   },
@@ -1046,9 +1079,9 @@
     ],
     "fehlt": [],
     "wettbewerb": "DFB-Pokal",
-    "formation": "4-1-2-3",
     "geschaetzt": true,
-    "hinweis": "Positionen aus den bisherigen Liga-Einsätzen abgeleitet"
+    "hinweis": "Positionen aus den bisherigen Liga-Einsätzen abgeleitet",
+    "formation": "4-1-2-3"
    },
    "quelle_live": true
   },
@@ -1212,9 +1245,9 @@
      }
     ],
     "wettbewerb": "DFB-Pokal",
-    "formation": "4-1-2-1-2",
     "geschaetzt": true,
-    "hinweis": "Positionen aus den bisherigen Liga-Einsätzen abgeleitet"
+    "hinweis": "Positionen aus den bisherigen Liga-Einsätzen abgeleitet",
+    "formation": "4-1-2-1-2"
    },
    "quelle_live": true
   },
