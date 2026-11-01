@@ -1,119 +1,6 @@
 {
- "stand": "2026-11-01T14:46",
+ "stand": "2026-11-01T14:45",
  "meldungen": [
-  {
-   "id": "fehlt-reimann-scf-0111",
-   "pid": "00085",
-   "zeit": "2026-11-01T14:08",
-   "spielerin": "Anna Reimann",
-   "verein": "SC Freiburg",
-   "nr": "",
-   "pos": "TW",
-   "tags": [
-    "AUFSTELLUNG",
-    "POKAL"
-   ],
-   "status": "fraglich",
-   "headline": "Reimann nicht im Kader gegen FC Carl Zeiss Jena",
-   "text": [
-    "Anna Reimann steht im DFB-Pokal gegen FC Carl Zeiss Jena weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
-    "Außerdem nicht im Kader: Pauline Ihme (0 von 5 Ligaspielen in der Startelf).",
-    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
-   ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
-   "quellen": [
-    {
-     "name": "DFB-Datencenter",
-     "url": "https://datencenter.dfb.de/matches/sc-freiburg-fc-carl-zeiss-jena-2431333"
-    }
-   ],
-   "quelle_live": true,
-   "kurz": "Reimann nicht im Kader"
-  },
-  {
-   "id": "fehlt-viggosdottir-fcb-0111",
-   "pid": "00013",
-   "zeit": "2026-11-01T13:53",
-   "spielerin": "Glódís Viggósdóttir",
-   "verein": "FC Bayern",
-   "nr": "",
-   "pos": "ABW",
-   "tags": [
-    "AUFSTELLUNG",
-    "POKAL"
-   ],
-   "status": "fraglich",
-   "headline": "Viggósdóttir nicht im Kader gegen Bayer Leverkusen",
-   "text": [
-    "Glódís Viggósdóttir steht im DFB-Pokal gegen Bayer Leverkusen weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
-    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
-   ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165391/bayern-muenchen_bayer-leverkusen/aufstellung"
-    }
-   ],
-   "quelle_live": true,
-   "kurz": "Viggósdóttir nicht im Kader"
-  },
-  {
-   "id": "fehlt-bender-b04-0111",
-   "pid": "00257",
-   "zeit": "2026-11-01T13:53",
-   "spielerin": "Loreen Bender",
-   "verein": "Bayer Leverkusen",
-   "nr": "",
-   "pos": "ST",
-   "tags": [
-    "AUFSTELLUNG",
-    "POKAL"
-   ],
-   "status": "fraglich",
-   "headline": "Bender nicht im Kader gegen FC Bayern",
-   "text": [
-    "Loreen Bender steht im DFB-Pokal gegen FC Bayern weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 4-mal.",
-    "Außerdem nicht im Kader: Louisa Remien (0 von 5 Ligaspielen in der Startelf).",
-    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
-   ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165391/bayern-muenchen_bayer-leverkusen/aufstellung"
-    }
-   ],
-   "quelle_live": true
-  },
-  {
-   "id": "fehlt-altenburg-sge-0111",
-   "pid": "00056",
-   "zeit": "2026-11-01T13:12",
-   "spielerin": "Lina Altenburg",
-   "verein": "Eintracht Frankfurt",
-   "nr": "",
-   "pos": "TW",
-   "tags": [
-    "AUFSTELLUNG",
-    "POKAL"
-   ],
-   "status": "fraglich",
-   "headline": "Altenburg nicht im Kader gegen 1. FC Nürnberg",
-   "text": [
-    "Lina Altenburg steht im DFB-Pokal gegen 1. FC Nürnberg weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
-    "Außerdem nicht im Kader: Sara Doorsoun (2 von 5 Ligaspielen in der Startelf).",
-    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
-   ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
-   "quellen": [
-    {
-     "name": "DFB-Datencenter",
-     "url": "https://datencenter.dfb.de/matches/1-fc-nuernberg-eintracht-frankfurt-2431335"
-    }
-   ],
-   "quelle_live": true
-  },
   {
    "id": "buehl-0111",
    "pid": "00023",
@@ -179,6 +66,190 @@
    }
   },
   {
+   "id": "fehlt-reimann-scf-0111",
+   "pid": "00085",
+   "zeit": "2026-11-01T14:08",
+   "spielerin": "Anna Reimann",
+   "verein": "SC Freiburg",
+   "nr": "",
+   "pos": "TW",
+   "tags": [
+    "ROTATION",
+    "POKAL"
+   ],
+   "headline": "Reimann nicht im Kader gegen FC Carl Zeiss Jena",
+   "text": [
+    "Anna Reimann steht im DFB-Pokal gegen FC Carl Zeiss Jena weder in der Startelf noch auf der Bank. Im letzten Ligaspiel war sie noch in der Startelf.",
+    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Im Pokal kann es auch Belastungssteuerung sein."
+   ],
+   "kickbase": "Bis zur Klärung stufen wir sie in unserer Prognose für das nächste Ligaspiel eine Stufe herunter.",
+   "quellen": [
+    {
+     "name": "DFB-Datencenter",
+     "url": "https://datencenter.dfb.de/matches/sc-freiburg-fc-carl-zeiss-jena-2431333"
+    }
+   ],
+   "quelle_live": true,
+   "kurz": "Reimann nicht im Kader"
+  },
+  {
+   "id": "fehlt-ihme-scf-0111",
+   "pid": "00089",
+   "zeit": "2026-11-01T14:08",
+   "spielerin": "Pauline Ihme",
+   "verein": "SC Freiburg",
+   "nr": "",
+   "pos": "ABW",
+   "tags": [
+    "ROTATION",
+    "POKAL"
+   ],
+   "headline": "Ihme nicht im Kader gegen FC Carl Zeiss Jena",
+   "text": [
+    "Pauline Ihme steht im DFB-Pokal gegen FC Carl Zeiss Jena weder in der Startelf noch auf der Bank. Im letzten Ligaspiel war sie noch auf der Bank.",
+    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Im Pokal kann es auch Belastungssteuerung sein."
+   ],
+   "kickbase": "Bis zur Klärung stufen wir sie in unserer Prognose für das nächste Ligaspiel eine Stufe herunter.",
+   "quellen": [
+    {
+     "name": "DFB-Datencenter",
+     "url": "https://datencenter.dfb.de/matches/sc-freiburg-fc-carl-zeiss-jena-2431333"
+    }
+   ],
+   "quelle_live": true
+  },
+  {
+   "id": "fehlt-viggosdottir-fcb-0111",
+   "pid": "00013",
+   "zeit": "2026-11-01T13:53",
+   "spielerin": "Glódís Viggósdóttir",
+   "verein": "FC Bayern",
+   "nr": "",
+   "pos": "ABW",
+   "tags": [
+    "ROTATION",
+    "POKAL"
+   ],
+   "headline": "Viggósdóttir nicht im Kader gegen Bayer Leverkusen",
+   "text": [
+    "Glódís Viggósdóttir steht im DFB-Pokal gegen Bayer Leverkusen weder in der Startelf noch auf der Bank. Im letzten Ligaspiel war sie noch in der Startelf.",
+    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Im Pokal kann es auch Belastungssteuerung sein."
+   ],
+   "kickbase": "Bis zur Klärung stufen wir sie in unserer Prognose für das nächste Ligaspiel eine Stufe herunter.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165391/bayern-muenchen_bayer-leverkusen/aufstellung"
+    }
+   ],
+   "quelle_live": true,
+   "kurz": "Viggósdóttir nicht im Kader"
+  },
+  {
+   "id": "fehlt-bender-b04-0111",
+   "pid": "00257",
+   "zeit": "2026-11-01T13:53",
+   "spielerin": "Loreen Bender",
+   "verein": "Bayer Leverkusen",
+   "nr": "",
+   "pos": "ST",
+   "tags": [
+    "ROTATION",
+    "POKAL"
+   ],
+   "headline": "Bender nicht im Kader gegen FC Bayern",
+   "text": [
+    "Loreen Bender steht im DFB-Pokal gegen FC Bayern weder in der Startelf noch auf der Bank. Im letzten Ligaspiel war sie noch in der Startelf.",
+    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Im Pokal kann es auch Belastungssteuerung sein."
+   ],
+   "kickbase": "Bis zur Klärung stufen wir sie in unserer Prognose für das nächste Ligaspiel eine Stufe herunter.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165391/bayern-muenchen_bayer-leverkusen/aufstellung"
+    }
+   ],
+   "quelle_live": true
+  },
+  {
+   "id": "fehlt-remien-b04-0111",
+   "pid": "00239",
+   "zeit": "2026-11-01T13:53",
+   "spielerin": "Louisa Remien",
+   "verein": "Bayer Leverkusen",
+   "nr": "",
+   "pos": "TW",
+   "tags": [
+    "ROTATION",
+    "POKAL"
+   ],
+   "headline": "Remien nicht im Kader gegen FC Bayern",
+   "text": [
+    "Louisa Remien steht im DFB-Pokal gegen FC Bayern weder in der Startelf noch auf der Bank. Im letzten Ligaspiel war sie noch auf der Bank.",
+    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Im Pokal kann es auch Belastungssteuerung sein."
+   ],
+   "kickbase": "Bis zur Klärung stufen wir sie in unserer Prognose für das nächste Ligaspiel eine Stufe herunter.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165391/bayern-muenchen_bayer-leverkusen/aufstellung"
+    }
+   ],
+   "quelle_live": true
+  },
+  {
+   "id": "fehlt-altenburg-sge-0111",
+   "pid": "00056",
+   "zeit": "2026-11-01T13:12",
+   "spielerin": "Lina Altenburg",
+   "verein": "Eintracht Frankfurt",
+   "nr": "",
+   "pos": "TW",
+   "tags": [
+    "ROTATION",
+    "POKAL"
+   ],
+   "headline": "Altenburg nicht im Kader gegen 1. FC Nürnberg",
+   "text": [
+    "Lina Altenburg steht im DFB-Pokal gegen 1. FC Nürnberg weder in der Startelf noch auf der Bank. Im letzten Ligaspiel war sie noch in der Startelf.",
+    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Im Pokal kann es auch Belastungssteuerung sein."
+   ],
+   "kickbase": "Bis zur Klärung stufen wir sie in unserer Prognose für das nächste Ligaspiel eine Stufe herunter.",
+   "quellen": [
+    {
+     "name": "DFB-Datencenter",
+     "url": "https://datencenter.dfb.de/matches/1-fc-nuernberg-eintracht-frankfurt-2431335"
+    }
+   ],
+   "quelle_live": true
+  },
+  {
+   "id": "fehlt-doorsoun-sge-0111",
+   "pid": "00061",
+   "zeit": "2026-11-01T13:12",
+   "spielerin": "Sara Doorsoun",
+   "verein": "Eintracht Frankfurt",
+   "nr": "",
+   "pos": "ABW",
+   "tags": [
+    "ROTATION",
+    "POKAL"
+   ],
+   "headline": "Doorsoun nicht im Kader gegen 1. FC Nürnberg",
+   "text": [
+    "Sara Doorsoun steht im DFB-Pokal gegen 1. FC Nürnberg weder in der Startelf noch auf der Bank. Im letzten Ligaspiel war sie noch auf der Bank.",
+    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Im Pokal kann es auch Belastungssteuerung sein."
+   ],
+   "kickbase": "Bis zur Klärung stufen wir sie in unserer Prognose für das nächste Ligaspiel eine Stufe herunter.",
+   "quellen": [
+    {
+     "name": "DFB-Datencenter",
+     "url": "https://datencenter.dfb.de/matches/1-fc-nuernberg-eintracht-frankfurt-2431335"
+    }
+   ],
+   "quelle_live": true
+  },
+  {
    "id": "aufstellung-pokal-scf-0111",
    "zeit": "2026-11-01T14:08",
    "spielerin": "Spielansetzung",
@@ -190,8 +261,8 @@
    ],
    "headline": "Offizielle Aufstellung: SC Freiburg gegen FC Carl Zeiss Jena",
    "text": [
-    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Arfaoui, Bienz, Reimann.",
-    "Nicht im Spieltagskader (laut DFB-Datencenter), obwohl im letzten Ligaspiel dabei: Reimann, Ihme. Einen Grund nennt bisher keine Quelle."
+    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Arfaoui, Bienz, Reimann. Rotation im Pokal heißt nicht Verletzung, oft wird nur die Belastung gesteuert.",
+    "Nicht im Spieltagskader (laut DFB-Datencenter), obwohl im letzten Ligaspiel dabei: Reimann, Ihme. Einen Grund nennt bisher keine Quelle, im Pokal kann es auch Belastungssteuerung sein."
    ],
    "kickbase": "",
    "quellen": [
@@ -321,8 +392,7 @@
       "p": "TW",
       "pid": "00085",
       "f": "raus",
-      "war": "Startelf",
-      "i": "fraglich"
+      "war": "Startelf"
      },
      {
       "n": "Ihme",
@@ -348,8 +418,8 @@
    ],
    "headline": "Offizielle Aufstellung: FC Bayern gegen Bayer Leverkusen",
    "text": [
-    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Bühl, Naschenweng, Viggósdóttir.",
-    "Nicht im Spieltagskader (laut Sportschau), obwohl im letzten Ligaspiel dabei: Viggósdóttir. Einen Grund nennt bisher keine Quelle."
+    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Bühl, Naschenweng, Viggósdóttir. Rotation im Pokal heißt nicht Verletzung, oft wird nur die Belastung gesteuert.",
+    "Nicht im Spieltagskader (laut Sportschau), obwohl im letzten Ligaspiel dabei: Viggósdóttir. Einen Grund nennt bisher keine Quelle, im Pokal kann es auch Belastungssteuerung sein."
    ],
    "kickbase": "",
    "quellen": [
@@ -470,16 +540,14 @@
       "p": "ABW",
       "pid": "00013",
       "f": "raus",
-      "war": "Startelf",
-      "i": "fraglich"
+      "war": "Startelf"
      },
      {
       "n": "Zadrazil",
       "p": "MF",
       "pid": "00022",
       "f": "raus",
-      "war": "Bank",
-      "i": "verletzt"
+      "war": "Bank"
      }
     ],
     "wettbewerb": "DFB-Pokal"
@@ -498,8 +566,8 @@
    ],
    "headline": "Offizielle Aufstellung: Bayer Leverkusen gegen FC Bayern",
    "text": [
-    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Bender, Fudalla.",
-    "Nicht im Spieltagskader (laut Sportschau), obwohl im letzten Ligaspiel dabei: Bender, Remien. Einen Grund nennt bisher keine Quelle."
+    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Bender, Fudalla. Rotation im Pokal heißt nicht Verletzung, oft wird nur die Belastung gesteuert.",
+    "Nicht im Spieltagskader (laut Sportschau), obwohl im letzten Ligaspiel dabei: Bender, Remien. Einen Grund nennt bisher keine Quelle, im Pokal kann es auch Belastungssteuerung sein."
    ],
    "kickbase": "",
    "quellen": [
@@ -618,8 +686,7 @@
       "p": "ST",
       "pid": "00257",
       "f": "raus",
-      "war": "Startelf",
-      "i": "fraglich"
+      "war": "Startelf"
      },
      {
       "n": "Remien",
@@ -678,17 +745,13 @@
    "headline": "Offizielle Aufstellung: Mainz 05 gegen Werder Bremen",
    "text": [
     "Offizielle Startelf für das DFB-Pokal-Achtelfinale gegen Werder Bremen laut Sportschau.",
-    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Georgieva, Stöhr, Fetaj."
+    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Georgieva, Stöhr, Fetaj. Die Bank zeigt die Sportschau im Pokal erst nach Abpfiff. Rotation im Pokal heißt nicht Verletzung, oft wird nur die Belastung gesteuert."
    ],
    "kickbase": "",
    "quellen": [
     {
      "name": "Sportschau",
      "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165385/1-fsv-mainz-05_werder-bremen/aufstellung"
-    },
-    {
-     "name": "DFB-Datencenter",
-     "url": "https://datencenter.dfb.de/matches/1-fsv-mainz-05-sv-werder-bremen-2431328"
     }
    ],
    "aufstellung": {
@@ -753,66 +816,10 @@
       "pid": "00291"
      }
     ],
-    "bank": [
-     {
-      "n": "Donner",
-      "p": "ABW",
-      "pid": "00272"
-     },
-     {
-      "n": "Pawlowski",
-      "p": "TW",
-      "pid": "00269"
-     },
-     {
-      "n": "Hauk",
-      "p": "ABW",
-      "pid": "00276"
-     },
-     {
-      "n": "Stöhr",
-      "p": "ST",
-      "pid": "00294",
-      "f": "raus"
-     },
-     {
-      "n": "Fetaj",
-      "p": "MF",
-      "pid": "00281",
-      "f": "raus"
-     },
-     {
-      "n": "Takizawa",
-      "p": "MF",
-      "pid": "00289"
-     },
-     {
-      "n": "Junold",
-      "p": "MF",
-      "pid": "00284"
-     },
-     {
-      "n": "Martin",
-      "p": "MF",
-      "pid": "00286"
-     },
-     {
-      "n": "Strickler",
-      "p": "ST",
-      "pid": "00295"
-     }
-    ],
-    "fehlt": [
-     {
-      "n": "Georgieva",
-      "p": "ABW",
-      "pid": "00274",
-      "f": "raus",
-      "war": "Startelf",
-      "i": "fraglich"
-     }
-    ],
-    "wettbewerb": "DFB-Pokal"
+    "bank": [],
+    "fehlt": [],
+    "wettbewerb": "DFB-Pokal",
+    "bank_offen": true
    },
    "quelle_live": true
   },
@@ -829,17 +836,13 @@
    "headline": "Offizielle Aufstellung: Werder Bremen gegen Mainz 05",
    "text": [
     "Offizielle Startelf für das DFB-Pokal-Achtelfinale gegen Mainz 05 laut Sportschau.",
-    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Purtscheller, Dešić."
+    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Purtscheller, Dešić. Die Bank zeigt die Sportschau im Pokal erst nach Abpfiff. Rotation im Pokal heißt nicht Verletzung, oft wird nur die Belastung gesteuert."
    ],
    "kickbase": "",
    "quellen": [
     {
      "name": "Sportschau",
      "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165385/1-fsv-mainz-05_werder-bremen/aufstellung"
-    },
-    {
-     "name": "DFB-Datencenter",
-     "url": "https://datencenter.dfb.de/matches/1-fsv-mainz-05-sv-werder-bremen-2431328"
     }
    ],
    "aufstellung": {
@@ -903,57 +906,10 @@
       "pid": "00055"
      }
     ],
-    "bank": [
-     {
-      "n": "Farwick",
-      "p": "TW",
-      "pid": "00031"
-     },
-     {
-      "n": "Sträßer",
-      "p": "ABW",
-      "pid": "00039"
-     },
-     {
-      "n": "Penner",
-      "p": "ABW",
-      "pid": "00037"
-     },
-     {
-      "n": "Gmeineder",
-      "p": "MF",
-      "pid": "00044"
-     },
-     {
-      "n": "Purtscheller",
-      "p": "MF",
-      "pid": "00047",
-      "f": "raus"
-     },
-     {
-      "n": "Mühlemann",
-      "p": "MF",
-      "pid": "00046"
-     },
-     {
-      "n": "Desic",
-      "p": "ST",
-      "pid": "00049",
-      "f": "raus"
-     },
-     {
-      "n": "Mahmoud",
-      "p": "ST",
-      "pid": "00052"
-     },
-     {
-      "n": "Ernst",
-      "p": "MF",
-      "pid": "00043"
-     }
-    ],
+    "bank": [],
     "fehlt": [],
-    "wettbewerb": "DFB-Pokal"
+    "wettbewerb": "DFB-Pokal",
+    "bank_offen": true
    },
    "quelle_live": true
   },
@@ -970,17 +926,13 @@
    "headline": "Offizielle Aufstellung: 1. FC Nürnberg gegen Eintracht Frankfurt",
    "text": [
     "Offizielle Startelf für das DFB-Pokal-Achtelfinale gegen Eintracht Frankfurt laut Sportschau.",
-    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Romero."
+    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Romero. Die Bank zeigt die Sportschau im Pokal erst nach Abpfiff. Rotation im Pokal heißt nicht Verletzung, oft wird nur die Belastung gesteuert."
    ],
    "kickbase": "",
    "quellen": [
     {
      "name": "Sportschau",
      "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165406/1-fc-nuernberg_eintracht-frankfurt/aufstellung"
-    },
-    {
-     "name": "DFB-Datencenter",
-     "url": "https://datencenter.dfb.de/matches/1-fc-nuernberg-eintracht-frankfurt-2431335"
     }
    ],
    "aufstellung": {
@@ -1043,56 +995,10 @@
       "pid": "00322"
      }
     ],
-    "bank": [
-     {
-      "n": "Romero",
-      "p": "TW",
-      "pid": "00298",
-      "f": "raus"
-     },
-     {
-      "n": "Fröhlich",
-      "p": "ABW",
-      "pid": "00302"
-     },
-     {
-      "n": "Mai",
-      "p": "MF",
-      "pid": "00315"
-     },
-     {
-      "n": "Bednorz",
-      "p": "ABW",
-      "pid": "00301"
-     },
-     {
-      "n": "Pollak",
-      "p": "ABW",
-      "pid": "00305"
-     },
-     {
-      "n": "Barboz",
-      "p": "ABW",
-      "pid": "00300"
-     },
-     {
-      "n": "Coutel",
-      "p": "MF",
-      "pid": "00310"
-     },
-     {
-      "n": "Licina",
-      "p": "MF",
-      "pid": "00314"
-     },
-     {
-      "n": "Brengel",
-      "p": "MF",
-      "pid": "00308"
-     }
-    ],
+    "bank": [],
     "fehlt": [],
-    "wettbewerb": "DFB-Pokal"
+    "wettbewerb": "DFB-Pokal",
+    "bank_offen": true
    },
    "quelle_live": true
   },
@@ -1109,18 +1015,13 @@
    "headline": "Offizielle Aufstellung: Eintracht Frankfurt gegen 1. FC Nürnberg",
    "text": [
     "Offizielle Startelf für das DFB-Pokal-Achtelfinale gegen 1. FC Nürnberg laut Sportschau.",
-    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Altenburg, Wolter.",
-    "Nicht im Spieltagskader (laut DFB-Datencenter), obwohl im letzten Ligaspiel dabei: Altenburg, Doorsoun. Einen Grund nennt bisher keine Quelle."
+    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Altenburg, Wolter. Die Bank zeigt die Sportschau im Pokal erst nach Abpfiff. Rotation im Pokal heißt nicht Verletzung, oft wird nur die Belastung gesteuert."
    ],
    "kickbase": "",
    "quellen": [
     {
      "name": "Sportschau",
      "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165406/1-fc-nuernberg_eintracht-frankfurt/aufstellung"
-    },
-    {
-     "name": "DFB-Datencenter",
-     "url": "https://datencenter.dfb.de/matches/1-fc-nuernberg-eintracht-frankfurt-2431335"
     }
    ],
    "aufstellung": {
@@ -1184,72 +1085,10 @@
       "pid": "00077"
      }
     ],
-    "bank": [
-     {
-      "n": "Krumme",
-      "p": "TW",
-      "pid": "00058"
-     },
-     {
-      "n": "Rankin",
-      "p": "ABW",
-      "pid": "00067"
-     },
-     {
-      "n": "Wolter",
-      "p": "MF",
-      "pid": "00075",
-      "f": "raus"
-     },
-     {
-      "n": "Ivelj",
-      "p": "ABW",
-      "pid": "00063"
-     },
-     {
-      "n": "Lundgaard",
-      "p": "MF",
-      "pid": "00073"
-     },
-     {
-      "n": "Teulings",
-      "p": "MF",
-      "pid": "00074"
-     },
-     {
-      "n": "Alguacil",
-      "p": "MF",
-      "pid": "00068"
-     },
-     {
-      "n": "Raso",
-      "p": "ST",
-      "pid": "00081"
-     },
-     {
-      "n": "Tolhoek",
-      "p": "ST",
-      "pid": "00082"
-     }
-    ],
-    "fehlt": [
-     {
-      "n": "Altenburg",
-      "p": "TW",
-      "pid": "00056",
-      "f": "raus",
-      "war": "Startelf",
-      "i": "fraglich"
-     },
-     {
-      "n": "Doorsoun",
-      "p": "ABW",
-      "pid": "00061",
-      "f": "raus",
-      "war": "Bank"
-     }
-    ],
-    "wettbewerb": "DFB-Pokal"
+    "bank": [],
+    "fehlt": [],
+    "wettbewerb": "DFB-Pokal",
+    "bank_offen": true
    },
    "quelle_live": true
   },
