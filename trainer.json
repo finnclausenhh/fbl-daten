@@ -1,0 +1,62 @@
+{
+ "stand": "2026-11-01",
+ "quelle": "Sportschau, offizielle Aufstellung des letzten Ligaspiels (Feld Trainer)",
+ "trainer": {
+  "FCU": {
+   "name": "Marie-Louise Eta",
+   "funktion": "Cheftrainerin"
+  },
+  "FCB": {
+   "name": "José Barcala",
+   "funktion": "Cheftrainer"
+  },
+  "SGE": {
+   "name": "Niko Arnautis",
+   "funktion": "Cheftrainer"
+  },
+  "KOE": {
+   "name": "Britta Carlson",
+   "funktion": "Cheftrainerin"
+  },
+  "FCN": {
+   "name": "Omar Adlani",
+   "funktion": "Cheftrainer"
+  },
+  "WOB": {
+   "name": "Stephan Lerch",
+   "funktion": "Cheftrainer"
+  },
+  "TSG": {
+   "name": "Eva-Maria Virsinger",
+   "funktion": "Cheftrainerin"
+  },
+  "VFB": {
+   "name": "Nico Schneck",
+   "funktion": "Cheftrainer"
+  },
+  "RBL": {
+   "name": "Jonas Stephan",
+   "funktion": "Cheftrainer"
+  },
+  "B04": {
+   "name": "Roberto Pätzold",
+   "funktion": "Cheftrainer"
+  },
+  "HSV": {
+   "name": "Rodolfo Cardoso",
+   "funktion": "Cheftrainer"
+  },
+  "SCF": {
+   "name": "Marco Konrad",
+   "funktion": "Cheftrainer"
+  },
+  "M05": {
+   "name": "Takashi Yamashita",
+   "funktion": "Cheftrainer"
+  },
+  "SVW": {
+   "name": "Friederike Kromp",
+   "funktion": "Cheftrainerin"
+  }
+ }
+}
