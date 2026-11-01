@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-01T17:44",
+ "stand": "2026-11-01T18:46",
  "meldungen": [
   {
    "id": "bayern-pokal-0111",
@@ -2305,7 +2305,7 @@
        "eigen": false
       },
       {
-       "min": "90",
+       "min": "90+4",
        "n": "Wrede",
        "eigen": true
       },
@@ -2382,7 +2382,8 @@
       {
        "n": "Wrede",
        "p": "MF",
-       "ein_min": "84"
+       "ein_min": "84",
+       "tore": 1
       },
       {
        "n": "Karczewska",
@@ -2452,7 +2453,7 @@
        "eigen": true
       },
       {
-       "min": "90",
+       "min": "90+4",
        "n": "Wrede",
        "eigen": false
       },
@@ -2524,7 +2525,8 @@
       {
        "n": "Veit",
        "p": "ABW",
-       "ein_min": "60"
+       "ein_min": "60",
+       "tore": 1
       },
       {
        "n": "Weidauer",
