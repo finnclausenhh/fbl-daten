@@ -1,0 +1,364 @@
+{
+ "meldungen": [
+  {
+   "id": "aufstellung-pokal-m05-0111",
+   "zeit": "2026-11-01T13:12",
+   "spielerin": "Spielansetzung",
+   "verein": "Mainz 05",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "POKAL"
+   ],
+   "headline": "Offizielle Aufstellung: Mainz 05 gegen Werder Bremen",
+   "text": [
+    "Offizielle Startelf für das DFB-Pokal-Achtelfinale gegen Werder Bremen laut Sportschau.",
+    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Georgieva, Stöhr, Fetaj. Die Bank zeigt die Sportschau im Pokal erst nach Abpfiff. Rotation im Pokal heißt nicht Verletzung, oft wird nur die Belastung gesteuert."
+   ],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165385/1-fsv-mainz-05_werder-bremen/aufstellung"
+    }
+   ],
+   "aufstellung": {
+    "gegner": "Werder Bremen",
+    "startelf": [
+     {
+      "n": "Schön",
+      "p": "TW",
+      "pid": "00270"
+     },
+     {
+      "n": "Bathmann",
+      "p": "MF",
+      "pid": "00278"
+     },
+     {
+      "n": "Berg",
+      "p": "MF",
+      "pid": "00279"
+     },
+     {
+      "n": "Pageler",
+      "p": "ST",
+      "pid": "00293"
+     },
+     {
+      "n": "Flach",
+      "p": "ABW",
+      "pid": "00273",
+      "f": "neu"
+     },
+     {
+      "n": "Kurishima",
+      "p": "MF",
+      "pid": "00285"
+     },
+     {
+      "n": "Hashitani",
+      "p": "ABW",
+      "pid": "00275",
+      "f": "neu"
+     },
+     {
+      "n": "Kats",
+      "p": "ST",
+      "pid": "00292"
+     },
+     {
+      "n": "Bouziane",
+      "p": "MF",
+      "pid": "00280",
+      "f": "neu"
+     },
+     {
+      "n": "Imai",
+      "p": "MF",
+      "pid": "00282"
+     },
+     {
+      "n": "Anstatt",
+      "p": "ST",
+      "pid": "00291"
+     }
+    ],
+    "bank": [],
+    "fehlt": [],
+    "wettbewerb": "DFB-Pokal",
+    "bank_offen": true
+   },
+   "quelle_live": true
+  },
+  {
+   "id": "aufstellung-pokal-svw-0111",
+   "zeit": "2026-11-01T13:12",
+   "spielerin": "Spielansetzung",
+   "verein": "Werder Bremen",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "POKAL"
+   ],
+   "headline": "Offizielle Aufstellung: Werder Bremen gegen Mainz 05",
+   "text": [
+    "Offizielle Startelf für das DFB-Pokal-Achtelfinale gegen Mainz 05 laut Sportschau.",
+    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Purtscheller, Dešić. Die Bank zeigt die Sportschau im Pokal erst nach Abpfiff. Rotation im Pokal heißt nicht Verletzung, oft wird nur die Belastung gesteuert."
+   ],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165385/1-fsv-mainz-05_werder-bremen/aufstellung"
+    }
+   ],
+   "aufstellung": {
+    "gegner": "Mainz 05",
+    "startelf": [
+     {
+      "n": "Fischer",
+      "p": "TW",
+      "pid": "00032"
+     },
+     {
+      "n": "Weiß",
+      "p": "ABW",
+      "pid": "00041"
+     },
+     {
+      "n": "Ulbrich",
+      "p": "ABW",
+      "pid": "00040"
+     },
+     {
+      "n": "Gutmann",
+      "p": "ABW",
+      "pid": "00035"
+     },
+     {
+      "n": "Zieniewicz",
+      "p": "ABW",
+      "pid": "00042"
+     },
+     {
+      "n": "Wirtz",
+      "p": "MF",
+      "pid": "00048"
+     },
+     {
+      "n": "Hipp",
+      "p": "MF",
+      "pid": "00045"
+     },
+     {
+      "n": "Dhont",
+      "p": "ST",
+      "pid": "00050",
+      "f": "neu"
+     },
+     {
+      "n": "Shimada",
+      "p": "ST",
+      "pid": "00054",
+      "f": "neu"
+     },
+     {
+      "n": "Jaron",
+      "p": "ST",
+      "pid": "00051"
+     },
+     {
+      "n": "Vanzeir",
+      "p": "ST",
+      "pid": "00055"
+     }
+    ],
+    "bank": [],
+    "fehlt": [],
+    "wettbewerb": "DFB-Pokal",
+    "bank_offen": true
+   },
+   "quelle_live": true
+  },
+  {
+   "id": "aufstellung-pokal-fcn-0111",
+   "zeit": "2026-11-01T13:12",
+   "spielerin": "Spielansetzung",
+   "verein": "1. FC Nürnberg",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "POKAL"
+   ],
+   "headline": "Offizielle Aufstellung: 1. FC Nürnberg gegen Eintracht Frankfurt",
+   "text": [
+    "Offizielle Startelf für das DFB-Pokal-Achtelfinale gegen Eintracht Frankfurt laut Sportschau.",
+    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Romero. Die Bank zeigt die Sportschau im Pokal erst nach Abpfiff. Rotation im Pokal heißt nicht Verletzung, oft wird nur die Belastung gesteuert."
+   ],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165406/1-fc-nuernberg_eintracht-frankfurt/aufstellung"
+    }
+   ],
+   "aufstellung": {
+    "gegner": "Eintracht Frankfurt",
+    "startelf": [
+     {
+      "n": "Adamczyk",
+      "p": "TW",
+      "pid": "00296",
+      "f": "neu"
+     },
+     {
+      "n": "Bleil",
+      "p": "ST",
+      "pid": "00321"
+     },
+     {
+      "n": "Lobanova",
+      "p": "ABW",
+      "pid": "00304"
+     },
+     {
+      "n": "Varley",
+      "p": "ABW",
+      "pid": "00307"
+     },
+     {
+      "n": "Proniez",
+      "p": "MF",
+      "pid": "00317"
+     },
+     {
+      "n": "Miller",
+      "p": "MF",
+      "pid": "00316"
+     },
+     {
+      "n": "Pápai",
+      "p": "ST",
+      "pid": "00325"
+     },
+     {
+      "n": "Homann",
+      "p": "MF",
+      "pid": "00313"
+     },
+     {
+      "n": "Meroni",
+      "p": "ST",
+      "pid": "00324"
+     },
+     {
+      "n": "Lein",
+      "p": "ST",
+      "pid": "00323"
+     },
+     {
+      "n": "Lapassouse",
+      "p": "ST",
+      "pid": "00322"
+     }
+    ],
+    "bank": [],
+    "fehlt": [],
+    "wettbewerb": "DFB-Pokal",
+    "bank_offen": true
+   },
+   "quelle_live": true
+  },
+  {
+   "id": "aufstellung-pokal-sge-0111",
+   "zeit": "2026-11-01T13:12",
+   "spielerin": "Spielansetzung",
+   "verein": "Eintracht Frankfurt",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "POKAL"
+   ],
+   "headline": "Offizielle Aufstellung: Eintracht Frankfurt gegen 1. FC Nürnberg",
+   "text": [
+    "Offizielle Startelf für das DFB-Pokal-Achtelfinale gegen 1. FC Nürnberg laut Sportschau.",
+    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Altenburg, Wolter. Die Bank zeigt die Sportschau im Pokal erst nach Abpfiff. Rotation im Pokal heißt nicht Verletzung, oft wird nur die Belastung gesteuert."
+   ],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165406/1-fc-nuernberg_eintracht-frankfurt/aufstellung"
+    }
+   ],
+   "aufstellung": {
+    "gegner": "1. FC Nürnberg",
+    "startelf": [
+     {
+      "n": "Winkler",
+      "p": "TW",
+      "pid": "00059",
+      "f": "neu"
+     },
+     {
+      "n": "Krumbiegel",
+      "p": "MF",
+      "pid": "00072",
+      "f": "neu"
+     },
+     {
+      "n": "Ilestedt",
+      "p": "ABW",
+      "pid": "00062"
+     },
+     {
+      "n": "Østenstad",
+      "p": "ABW",
+      "pid": "00066"
+     },
+     {
+      "n": "Lührßen",
+      "p": "ABW",
+      "pid": "00064"
+     },
+     {
+      "n": "Bennison",
+      "p": "MF",
+      "pid": "00069"
+     },
+     {
+      "n": "Memeti",
+      "p": "ST",
+      "pid": "00079"
+     },
+     {
+      "n": "Acikgöz",
+      "p": "ABW",
+      "pid": "00060"
+     },
+     {
+      "n": "Mühlhaus",
+      "p": "ST",
+      "pid": "00080"
+     },
+     {
+      "n": "Freigang",
+      "p": "ST",
+      "pid": "00077"
+     },
+     {
+      "n": "Blomqvist",
+      "p": "MF",
+      "pid": "00070"
+     }
+    ],
+    "bank": [],
+    "fehlt": [],
+    "wettbewerb": "DFB-Pokal",
+    "bank_offen": true
+   },
+   "quelle_live": true
+  }
+ ]
+}

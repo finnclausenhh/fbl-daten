@@ -14,8 +14,7 @@
    "headline": "Offizielle Aufstellung: Mainz 05 gegen Werder Bremen",
    "text": [
     "Offizielle Startelf für das DFB-Pokal-Achtelfinale gegen Werder Bremen laut Sportschau.",
-    "Neu gegenüber dem letzten Ligaspiel: Bouziane, Flach, Hashitani. Nicht mehr in der Startelf: Georgieva, Stöhr, Fetaj.",
-    "Die Ersatzbank weist die Sportschau im Pokal nicht aus, ob Spielerinnen ganz fehlen, ist daraus nicht ablesbar."
+    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Georgieva, Stöhr, Fetaj. Die Bank zeigt die Sportschau im Pokal erst nach Abpfiff. Rotation im Pokal heißt nicht Verletzung, oft wird nur die Belastung gesteuert."
    ],
    "kickbase": "",
    "quellen": [
@@ -87,28 +86,11 @@
      }
     ],
     "bank": [],
-    "fehlt": [
-     {
-      "n": "Georgieva",
-      "p": "ABW",
-      "pid": "00274",
-      "f": "raus"
-     },
-     {
-      "n": "Stöhr",
-      "p": "ST",
-      "pid": "00294",
-      "f": "raus"
-     },
-     {
-      "n": "Fetaj",
-      "p": "MF",
-      "pid": "00281",
-      "f": "raus"
-     }
-    ],
-    "wettbewerb": "DFB-Pokal"
-   }
+    "fehlt": [],
+    "wettbewerb": "DFB-Pokal",
+    "bank_offen": true
+   },
+   "quelle_live": true
   },
   {
    "id": "aufstellung-pokal-svw-0111",
@@ -123,8 +105,7 @@
    "headline": "Offizielle Aufstellung: Werder Bremen gegen Mainz 05",
    "text": [
     "Offizielle Startelf für das DFB-Pokal-Achtelfinale gegen Mainz 05 laut Sportschau.",
-    "Neu gegenüber dem letzten Ligaspiel: Dhont, Shimada. Nicht mehr in der Startelf: Purtscheller, Dešić.",
-    "Die Ersatzbank weist die Sportschau im Pokal nicht aus, ob Spielerinnen ganz fehlen, ist daraus nicht ablesbar."
+    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Purtscheller, Dešić. Die Bank zeigt die Sportschau im Pokal erst nach Abpfiff. Rotation im Pokal heißt nicht Verletzung, oft wird nur die Belastung gesteuert."
    ],
    "kickbase": "",
    "quellen": [
@@ -195,22 +176,11 @@
      }
     ],
     "bank": [],
-    "fehlt": [
-     {
-      "n": "Purtscheller",
-      "p": "MF",
-      "pid": "00047",
-      "f": "raus"
-     },
-     {
-      "n": "Dešić",
-      "p": "ST",
-      "pid": "00049",
-      "f": "raus"
-     }
-    ],
-    "wettbewerb": "DFB-Pokal"
-   }
+    "fehlt": [],
+    "wettbewerb": "DFB-Pokal",
+    "bank_offen": true
+   },
+   "quelle_live": true
   },
   {
    "id": "aufstellung-pokal-fcn-0111",
@@ -225,8 +195,7 @@
    "headline": "Offizielle Aufstellung: 1. FC Nürnberg gegen Eintracht Frankfurt",
    "text": [
     "Offizielle Startelf für das DFB-Pokal-Achtelfinale gegen Eintracht Frankfurt laut Sportschau.",
-    "Neu gegenüber dem letzten Ligaspiel: Adamczyk. Nicht mehr in der Startelf: Romero.",
-    "Die Ersatzbank weist die Sportschau im Pokal nicht aus, ob Spielerinnen ganz fehlen, ist daraus nicht ablesbar."
+    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Romero. Die Bank zeigt die Sportschau im Pokal erst nach Abpfiff. Rotation im Pokal heißt nicht Verletzung, oft wird nur die Belastung gesteuert."
    ],
    "kickbase": "",
    "quellen": [
@@ -296,16 +265,11 @@
      }
     ],
     "bank": [],
-    "fehlt": [
-     {
-      "n": "Romero",
-      "p": "TW",
-      "pid": "00298",
-      "f": "raus"
-     }
-    ],
-    "wettbewerb": "DFB-Pokal"
-   }
+    "fehlt": [],
+    "wettbewerb": "DFB-Pokal",
+    "bank_offen": true
+   },
+   "quelle_live": true
   },
   {
    "id": "aufstellung-pokal-sge-0111",
@@ -320,8 +284,7 @@
    "headline": "Offizielle Aufstellung: Eintracht Frankfurt gegen 1. FC Nürnberg",
    "text": [
     "Offizielle Startelf für das DFB-Pokal-Achtelfinale gegen 1. FC Nürnberg laut Sportschau.",
-    "Neu gegenüber dem letzten Ligaspiel: Krumbiegel, Winkler. Nicht mehr in der Startelf: Altenburg, Wolter.",
-    "Die Ersatzbank weist die Sportschau im Pokal nicht aus, ob Spielerinnen ganz fehlen, ist daraus nicht ablesbar."
+    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Altenburg, Wolter. Die Bank zeigt die Sportschau im Pokal erst nach Abpfiff. Rotation im Pokal heißt nicht Verletzung, oft wird nur die Belastung gesteuert."
    ],
    "kickbase": "",
    "quellen": [
@@ -392,22 +355,11 @@
      }
     ],
     "bank": [],
-    "fehlt": [
-     {
-      "n": "Altenburg",
-      "p": "TW",
-      "pid": "00056",
-      "f": "raus"
-     },
-     {
-      "n": "Wolter",
-      "p": "MF",
-      "pid": "00075",
-      "f": "raus"
-     }
-    ],
-    "wettbewerb": "DFB-Pokal"
-   }
+    "fehlt": [],
+    "wettbewerb": "DFB-Pokal",
+    "bank_offen": true
+   },
+   "quelle_live": true
   },
   {
    "id": "bauereisen-3110",

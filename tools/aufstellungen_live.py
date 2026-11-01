@@ -83,13 +83,20 @@ def baue(wb, basis, ma, an, a, kader, news, spielplan, zeit):
         if wb:
             t["wettbewerb"] = wb
             if not a[bk]:
-                raus = (vgl or {}).get("nicht_mehr_in_startelf", [])
+                # Sportschau zeigt im Pokal vor Anpfiff keine Bank: niemand als "fehlt" führen, nur im Text nennen
                 t["bank"] = []
-                t["fehlt"] = [dict(n=n, p=AB.pos_von(n, verein, kader), pid=AB.pid_von(n, verein, kader), f="raus") for n in raus]
+                t["fehlt"] = []
+                t["bank_offen"] = True
         pre = "pokal-" if wb == "DFB-Pokal" else "cl-" if wb else ""
+        text = []
+        if t.get("bank_offen"):
+            raus = (vgl or {}).get("nicht_mehr_in_startelf", [])
+            text = [("Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: " + ", ".join(raus) + ". " if raus else "")
+                    + "Die Bank zeigt die Sportschau im Pokal erst nach Abpfiff. Rotation im Pokal heißt nicht Verletzung, "
+                    "oft wird nur die Belastung gesteuert."]
         out.append({"id": f"aufstellung-{pre}{AB.KURZ[verein]}-{tt}", "zeit": zeit, "spielerin": "Spielansetzung", "verein": verein,
                     "nr": "", "pos": "Spielansetzung", "tags": ["POKAL" if wb == "DFB-Pokal" else "EUROPAPOKAL" if wb else "TOP"],
-                    "headline": f"Offizielle Aufstellung: {verein} gegen {t['gegner']}", "text": [], "kickbase": "",
+                    "headline": f"Offizielle Aufstellung: {verein} gegen {t['gegner']}", "text": text, "kickbase": "",
                     "quellen": [{"name": "Sportschau", "url": url}], "aufstellung": t, "quelle_live": True})
     return out
 
@@ -153,6 +160,41 @@ def main():
         geaendert = True
         print(f"wieder eingefügt: {[m['id'] for m in fehlend]}")
         speichern(a, pn, pl, news, live, "Aufstellungen live: wieder eingefügt")
+
+    # Pokal: Bank nach Abpfiff nachtragen (Meldungen mit bank_offen von heute und gestern)
+    for m in news["meldungen"]:
+        au = m.get("aufstellung") or {}
+        if not au.get("bank_offen") or m["zeit"][:10] < grenze:
+            continue
+        url = m["quellen"][0]["url"]
+        mm = re.search(r"(https://[^ ]+/)(ma\d+/[a-z0-9\-_]+)/aufstellung", url)
+        try:
+            auf = F.lies_aufstellung(mm.group(2), mm.group(1)) if mm else None
+        except Exception:
+            auf = None
+        if not auf or not auf["beendet"] or not (auf["bank_heim"] or auf["bank_gast"]):
+            continue
+        slug = next((k for k, v in AB.SLUG.items() if v == m["verein"]), None)
+        seite = "heim" if slug == auf["heim"] else "gast"
+        bank = auf[f"bank_{seite}"]
+        verein = m["verein"]
+        im = {F.norm(x).split()[-1] for x in auf[f"startelf_{seite}"] + bank}
+        au["bank"] = [dict(n=n, p=AB.pos_von(n, verein, kader), pid=AB.pid_von(n, verein, kader)) for n in bank]
+        alt_l = letzte_liga(spielplan, verein, m["zeit"]) or {"start": [], "bank": []}
+        au["fehlt"] = [dict(n=n, p=AB.pos_von(n, verein, kader), pid=AB.pid_von(n, verein, kader), f="raus")
+                       for n in alt_l["start"] + alt_l["bank"] if F.norm(n).split()[-1] not in im]
+        au.pop("bank_offen")
+        m["text"] = [x for x in m["text"] if "erst nach Abpfiff" not in x]
+        if au["fehlt"]:
+            m["text"].append("Nicht im Spieltagskader (laut Sportschau nach Abpfiff): " + ", ".join(x["n"] for x in au["fehlt"])
+                             + ". Ein Grund ist damit nicht bekannt, im Pokal kann das auch Belastungssteuerung sein.")
+        for lm in live["meldungen"]:
+            if lm["id"] == m["id"]:
+                lm.update(m)
+        if m["id"] not in {x["id"] for x in live["meldungen"]}:
+            live["meldungen"].insert(0, m)
+        print(f"Bank nachgetragen: {m['id']}")
+        speichern(a, pn, pl, news, live, "Aufstellungen live: Bank nachgetragen " + m["id"])
 
     ende = time.time() + a.laufzeit * 60
     while True:
