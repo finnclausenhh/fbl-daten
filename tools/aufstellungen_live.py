@@ -94,7 +94,7 @@ def baue(wb, basis, ma, an, a, kader, news, spielplan, zeit):
     out = []
     for slug, gs, st, bk, sd in ((a["heim"], a["gast"], "startelf_heim", "bank_heim", "home"),
                                  (a["gast"], a["heim"], "startelf_gast", "bank_gast", "away")):
-        if slug not in AB.SLUG:
+        if slug not in AB.SLUG or AB.SLUG[slug] not in AB.KURZ:
             continue
         verein = AB.SLUG[slug]
         if gs not in AB.SLUG:

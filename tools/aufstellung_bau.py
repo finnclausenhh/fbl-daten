@@ -158,7 +158,7 @@ def main():
         gr = grafik(a["url"]) if a.get("url") else {}
         for slug, gs, st, bk, vg, sd in ((heim, gast, "startelf_heim", "bank_heim", "vergleich_heim", "home"),
                                          (gast, heim, "startelf_gast", "bank_gast", "vergleich_gast", "away")):
-            if slug not in SLUG:  # Pokalgegner ohne Bundesliga-Kader
+            if slug not in SLUG or SLUG[slug] not in KURZ:  # Pokalgegner ohne Bundesliga-Kader
                 continue
             verein = SLUG[slug]
             wb = a.get("wettbewerb")
