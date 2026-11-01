@@ -87,7 +87,24 @@
     "bank": [],
     "fehlt": [],
     "wettbewerb": "DFB-Pokal",
-    "bank_offen": true
+    "bank_offen": true,
+    "nicht_startelf": [
+     {
+      "n": "Bühl",
+      "p": "ST",
+      "pid": "00023"
+     },
+     {
+      "n": "Naschenweng",
+      "p": "ABW",
+      "pid": "00012"
+     },
+     {
+      "n": "Viggósdóttir",
+      "p": "ABW",
+      "pid": "00013"
+     }
+    ]
    },
    "quelle_live": true
   },
@@ -176,7 +193,19 @@
     "bank": [],
     "fehlt": [],
     "wettbewerb": "DFB-Pokal",
-    "bank_offen": true
+    "bank_offen": true,
+    "nicht_startelf": [
+     {
+      "n": "Bender",
+      "p": "ST",
+      "pid": "00257"
+     },
+     {
+      "n": "Fudalla",
+      "p": "ST",
+      "pid": "00258"
+     }
+    ]
    },
    "quelle_live": true
   },
@@ -326,7 +355,24 @@
     "bank": [],
     "fehlt": [],
     "wettbewerb": "DFB-Pokal",
-    "bank_offen": true
+    "bank_offen": true,
+    "nicht_startelf": [
+     {
+      "n": "Georgieva",
+      "p": "ABW",
+      "pid": "00274"
+     },
+     {
+      "n": "Stöhr",
+      "p": "ST",
+      "pid": "00294"
+     },
+     {
+      "n": "Fetaj",
+      "p": "MF",
+      "pid": "00281"
+     }
+    ]
    },
    "quelle_live": true
   },
@@ -416,7 +462,19 @@
     "bank": [],
     "fehlt": [],
     "wettbewerb": "DFB-Pokal",
-    "bank_offen": true
+    "bank_offen": true,
+    "nicht_startelf": [
+     {
+      "n": "Purtscheller",
+      "p": "MF",
+      "pid": "00047"
+     },
+     {
+      "n": "Dešić",
+      "p": "ST",
+      "pid": "00049"
+     }
+    ]
    },
    "quelle_live": true
   },
@@ -505,7 +563,14 @@
     "bank": [],
     "fehlt": [],
     "wettbewerb": "DFB-Pokal",
-    "bank_offen": true
+    "bank_offen": true,
+    "nicht_startelf": [
+     {
+      "n": "Romero",
+      "p": "TW",
+      "pid": "00298"
+     }
+    ]
    },
    "quelle_live": true
   },
@@ -595,7 +660,19 @@
     "bank": [],
     "fehlt": [],
     "wettbewerb": "DFB-Pokal",
-    "bank_offen": true
+    "bank_offen": true,
+    "nicht_startelf": [
+     {
+      "n": "Altenburg",
+      "p": "TW",
+      "pid": "00056"
+     },
+     {
+      "n": "Wolter",
+      "p": "MF",
+      "pid": "00075"
+     }
+    ]
    },
    "quelle_live": true
   },

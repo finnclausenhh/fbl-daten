@@ -77,7 +77,7 @@ def platzhalter(pid_, wb, basis, ma, an, h, g, jetzt, spielplan):
     wtext = {"DFB-Pokal": "im DFB-Pokal", "Champions League": "in der Champions League"}.get(wb, "in der Liga")
     return {"id": pid_, "zeit": jetzt.strftime("%Y-%m-%dT%H:%M"), "spielerin": "Spielansetzung", "verein": verein, "nr": "",
             "pos": "Spielansetzung", "tags": ["AUFSTELLUNG"] + (["POKAL"] if wb == "DFB-Pokal" else ["EUROPAPOKAL"] if wb else []),
-            "headline": f"Aufstellung {name(h)} gegen {name(g)} folgt", "kurz": "Aufstellung folgt",
+            "headline": f"Aufstellung {name(h)} gegen {name(g)} folgt", "kurz": f"Aufstellung folgt, Anpfiff {an.strftime('%H:%M')}",
             "text": [f"Anpfiff {wtext} ist um {an.strftime('%H:%M')} Uhr. " + ("Die offizielle Aufstellung kommt meist rund 60 Minuten "
                      "vorher" if an - jetzt > timedelta(minutes=60) else "Die offizielle Aufstellung sollte in Kürze kommen")
                      + ", wir ergänzen sie hier automatisch, sobald sie veröffentlicht ist.",
@@ -109,6 +109,8 @@ def baue(wb, basis, ma, an, a, kader, news, spielplan, zeit):
                 t["bank"] = []
                 t["fehlt"] = []
                 t["bank_offen"] = True
+                t["nicht_startelf"] = [dict(n=n, p=AB.pos_von(n, verein, kader), pid=AB.pid_von(n, verein, kader))
+                                       for n in (vgl or {}).get("nicht_mehr_in_startelf", [])]
         pre = "pokal-" if wb == "DFB-Pokal" else "cl-" if wb else ""
         text = []
         if t.get("bank_offen"):
@@ -221,6 +223,7 @@ def main():
         au["fehlt"] = [dict(n=n, p=AB.pos_von(n, verein, kader), pid=AB.pid_von(n, verein, kader), f="raus")
                        for n in alt_l["start"] + alt_l["bank"] if F.norm(n).split()[-1] not in im]
         au.pop("bank_offen")
+        au.pop("nicht_startelf", None)
         m["text"] = [x for x in m["text"] if "erst nach Abpfiff" not in x]
         if au["fehlt"]:
             m["text"].append("Nicht im Spieltagskader (laut Sportschau nach Abpfiff): " + ", ".join(x["n"] for x in au["fehlt"])
