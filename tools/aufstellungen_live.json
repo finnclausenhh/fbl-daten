@@ -165,7 +165,8 @@
    ],
    "headline": "Offizielle Aufstellung: FC Bayern gegen Bayer Leverkusen",
    "text": [
-    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Bühl, Naschenweng, Viggósdóttir. Die Bank zeigt die Sportschau im Pokal erst nach Abpfiff. Rotation im Pokal heißt nicht Verletzung, oft wird nur die Belastung gesteuert."
+    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Bühl, Naschenweng, Viggósdóttir. Rotation im Pokal heißt nicht Verletzung, oft wird nur die Belastung gesteuert.",
+    "Nicht im Spieltagskader (laut Sportschau), obwohl im letzten Ligaspiel dabei: Viggósdóttir. Einen Grund nennt bisher keine Quelle, im Pokal kann es auch Belastungssteuerung sein."
    ],
    "kickbase": "",
    "quellen": [
@@ -236,15 +237,16 @@
       "pid": "00025"
      }
     ],
-    "bank": [],
-    "fehlt": [],
-    "wettbewerb": "DFB-Pokal",
-    "bank_offen": true,
-    "nicht_startelf": [
+    "bank": [
      {
-      "n": "Bühl",
-      "p": "ST",
-      "pid": "00023"
+      "n": "van Eijk",
+      "p": "TW",
+      "pid": "00004"
+     },
+     {
+      "n": "Gilles",
+      "p": "ABW",
+      "pid": "00008"
      },
      {
       "n": "Naschenweng",
@@ -252,11 +254,46 @@
       "pid": "00012"
      },
      {
+      "n": "Dunst",
+      "p": "MF",
+      "pid": "00018"
+     },
+     {
+      "n": "Bühl",
+      "p": "ST",
+      "pid": "00023"
+     },
+     {
+      "n": "Damnjanović",
+      "p": "ST",
+      "pid": "00024"
+     },
+     {
+      "n": "Imade",
+      "p": "ST",
+      "pid": "00026"
+     },
+     {
+      "n": "Potsi",
+      "p": "ST",
+      "pid": "00028"
+     }
+    ],
+    "fehlt": [
+     {
       "n": "Viggósdóttir",
       "p": "ABW",
-      "pid": "00013"
+      "pid": "00013",
+      "f": "raus"
+     },
+     {
+      "n": "Zadrazil",
+      "p": "MF",
+      "pid": "00022",
+      "f": "raus"
      }
-    ]
+    ],
+    "wettbewerb": "DFB-Pokal"
    },
    "quelle_live": true
   },
@@ -800,6 +837,19 @@
    "delta": -1,
    "bis": "2026-11-11",
    "grund": "stand am 01.11. gegen FC Carl Zeiss Jena nicht im Spieltagskader, obwohl im letzten Ligaspiel auf der Bank; Grund nicht bekannt"
+  },
+  {
+   "verein": "FC Bayern",
+   "n": "Viggósdóttir",
+   "spielerin": "Glódís Viggósdóttir",
+   "war": "Startelf",
+   "zeit": "2026-11-01T13:53",
+   "gegner": "Bayer Leverkusen",
+   "wettbewerb": "DFB-Pokal",
+   "quelle": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165391/bayern-muenchen_bayer-leverkusen/aufstellung",
+   "delta": -1,
+   "bis": "2026-11-11",
+   "grund": "stand am 01.11. gegen Bayer Leverkusen nicht im Spieltagskader, obwohl im letzten Ligaspiel in der Startelf; Grund nicht bekannt"
   }
  ]
 }
