@@ -414,8 +414,9 @@ def main():
         alt_s = {nk(x) for x in alt_l["start"]}
         au["bank"] = [dict(n=n, p=AB.pos_von(n, verein, kader), pid=AB.pid_von(n, verein, kader), **({"f": "raus"} if nk(n) in alt_s else {}))
                       for n in bank]
+        inf = {nk(k): v for k, v in AB.infos(verein, [], news["meldungen"]).items()}
         au["fehlt"] = [dict(n=n, p=AB.pos_von(n, verein, kader), pid=AB.pid_von(n, verein, kader), f="raus",
-                            war="Startelf" if n in alt_l["start"] else "Bank")
+                            war="Startelf" if n in alt_l["start"] else "Bank", **({"i": inf[nk(n)]} if nk(n) in inf else {}))
                        for n in alt_l["start"] + alt_l["bank"] if nk(n) not in im]
         au.pop("bank_offen")
         au.pop("nicht_startelf", None)

@@ -256,7 +256,8 @@
       "p": "TW",
       "pid": "00085",
       "f": "raus",
-      "war": "Startelf"
+      "war": "Startelf",
+      "i": "fraglich"
      },
      {
       "n": "Ihme",
@@ -404,14 +405,16 @@
       "p": "ABW",
       "pid": "00013",
       "f": "raus",
-      "war": "Startelf"
+      "war": "Startelf",
+      "i": "fraglich"
      },
      {
       "n": "Zadrazil",
       "p": "MF",
       "pid": "00022",
       "f": "raus",
-      "war": "Bank"
+      "war": "Bank",
+      "i": "verletzt"
      }
     ],
     "wettbewerb": "DFB-Pokal"
@@ -550,7 +553,8 @@
       "p": "ST",
       "pid": "00257",
       "f": "raus",
-      "war": "Startelf"
+      "war": "Startelf",
+      "i": "fraglich"
      },
      {
       "n": "Remien",
@@ -707,7 +711,8 @@
       "p": "ABW",
       "pid": "00274",
       "f": "raus",
-      "war": "Startelf"
+      "war": "Startelf",
+      "i": "fraglich"
      }
     ],
     "wettbewerb": "DFB-Pokal"
@@ -1136,7 +1141,8 @@
       "p": "TW",
       "pid": "00056",
       "f": "raus",
-      "war": "Startelf"
+      "war": "Startelf",
+      "i": "fraglich"
      },
      {
       "n": "Doorsoun",
