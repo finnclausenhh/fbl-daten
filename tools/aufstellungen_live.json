@@ -1,6 +1,190 @@
 {
  "meldungen": [
   {
+   "id": "fehlt-reimann-scf-0111",
+   "pid": "00085",
+   "zeit": "2026-11-01T14:08",
+   "spielerin": "Anna Reimann",
+   "verein": "SC Freiburg",
+   "nr": "",
+   "pos": "TW",
+   "tags": [
+    "ROTATION",
+    "POKAL"
+   ],
+   "headline": "Reimann nicht im Kader gegen FC Carl Zeiss Jena",
+   "text": [
+    "Anna Reimann steht im DFB-Pokal gegen FC Carl Zeiss Jena weder in der Startelf noch auf der Bank. Im letzten Ligaspiel war sie noch in der Startelf.",
+    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Im Pokal kann es auch Belastungssteuerung sein."
+   ],
+   "kickbase": "Bis zur Klärung stufen wir sie in unserer Prognose für das nächste Ligaspiel eine Stufe herunter.",
+   "quellen": [
+    {
+     "name": "DFB-Datencenter",
+     "url": "https://datencenter.dfb.de/matches/sc-freiburg-fc-carl-zeiss-jena-2431333"
+    }
+   ],
+   "quelle_live": true,
+   "kurz": "Reimann nicht im Kader"
+  },
+  {
+   "id": "fehlt-ihme-scf-0111",
+   "pid": "00089",
+   "zeit": "2026-11-01T14:08",
+   "spielerin": "Pauline Ihme",
+   "verein": "SC Freiburg",
+   "nr": "",
+   "pos": "ABW",
+   "tags": [
+    "ROTATION",
+    "POKAL"
+   ],
+   "headline": "Ihme nicht im Kader gegen FC Carl Zeiss Jena",
+   "text": [
+    "Pauline Ihme steht im DFB-Pokal gegen FC Carl Zeiss Jena weder in der Startelf noch auf der Bank. Im letzten Ligaspiel war sie noch auf der Bank.",
+    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Im Pokal kann es auch Belastungssteuerung sein."
+   ],
+   "kickbase": "Bis zur Klärung stufen wir sie in unserer Prognose für das nächste Ligaspiel eine Stufe herunter.",
+   "quellen": [
+    {
+     "name": "DFB-Datencenter",
+     "url": "https://datencenter.dfb.de/matches/sc-freiburg-fc-carl-zeiss-jena-2431333"
+    }
+   ],
+   "quelle_live": true
+  },
+  {
+   "id": "fehlt-viggosdottir-fcb-0111",
+   "pid": "00013",
+   "zeit": "2026-11-01T13:53",
+   "spielerin": "Glódís Viggósdóttir",
+   "verein": "FC Bayern",
+   "nr": "",
+   "pos": "ABW",
+   "tags": [
+    "ROTATION",
+    "POKAL"
+   ],
+   "headline": "Viggósdóttir nicht im Kader gegen Bayer Leverkusen",
+   "text": [
+    "Glódís Viggósdóttir steht im DFB-Pokal gegen Bayer Leverkusen weder in der Startelf noch auf der Bank. Im letzten Ligaspiel war sie noch in der Startelf.",
+    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Im Pokal kann es auch Belastungssteuerung sein."
+   ],
+   "kickbase": "Bis zur Klärung stufen wir sie in unserer Prognose für das nächste Ligaspiel eine Stufe herunter.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165391/bayern-muenchen_bayer-leverkusen/aufstellung"
+    }
+   ],
+   "quelle_live": true,
+   "kurz": "Viggósdóttir nicht im Kader"
+  },
+  {
+   "id": "fehlt-bender-b04-0111",
+   "pid": "00257",
+   "zeit": "2026-11-01T13:53",
+   "spielerin": "Loreen Bender",
+   "verein": "Bayer Leverkusen",
+   "nr": "",
+   "pos": "ST",
+   "tags": [
+    "ROTATION",
+    "POKAL"
+   ],
+   "headline": "Bender nicht im Kader gegen FC Bayern",
+   "text": [
+    "Loreen Bender steht im DFB-Pokal gegen FC Bayern weder in der Startelf noch auf der Bank. Im letzten Ligaspiel war sie noch in der Startelf.",
+    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Im Pokal kann es auch Belastungssteuerung sein."
+   ],
+   "kickbase": "Bis zur Klärung stufen wir sie in unserer Prognose für das nächste Ligaspiel eine Stufe herunter.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165391/bayern-muenchen_bayer-leverkusen/aufstellung"
+    }
+   ],
+   "quelle_live": true
+  },
+  {
+   "id": "fehlt-remien-b04-0111",
+   "pid": "00239",
+   "zeit": "2026-11-01T13:53",
+   "spielerin": "Louisa Remien",
+   "verein": "Bayer Leverkusen",
+   "nr": "",
+   "pos": "TW",
+   "tags": [
+    "ROTATION",
+    "POKAL"
+   ],
+   "headline": "Remien nicht im Kader gegen FC Bayern",
+   "text": [
+    "Louisa Remien steht im DFB-Pokal gegen FC Bayern weder in der Startelf noch auf der Bank. Im letzten Ligaspiel war sie noch auf der Bank.",
+    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Im Pokal kann es auch Belastungssteuerung sein."
+   ],
+   "kickbase": "Bis zur Klärung stufen wir sie in unserer Prognose für das nächste Ligaspiel eine Stufe herunter.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165391/bayern-muenchen_bayer-leverkusen/aufstellung"
+    }
+   ],
+   "quelle_live": true
+  },
+  {
+   "id": "fehlt-altenburg-sge-0111",
+   "pid": "00056",
+   "zeit": "2026-11-01T13:12",
+   "spielerin": "Lina Altenburg",
+   "verein": "Eintracht Frankfurt",
+   "nr": "",
+   "pos": "TW",
+   "tags": [
+    "ROTATION",
+    "POKAL"
+   ],
+   "headline": "Altenburg nicht im Kader gegen 1. FC Nürnberg",
+   "text": [
+    "Lina Altenburg steht im DFB-Pokal gegen 1. FC Nürnberg weder in der Startelf noch auf der Bank. Im letzten Ligaspiel war sie noch in der Startelf.",
+    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Im Pokal kann es auch Belastungssteuerung sein."
+   ],
+   "kickbase": "Bis zur Klärung stufen wir sie in unserer Prognose für das nächste Ligaspiel eine Stufe herunter.",
+   "quellen": [
+    {
+     "name": "DFB-Datencenter",
+     "url": "https://datencenter.dfb.de/matches/1-fc-nuernberg-eintracht-frankfurt-2431335"
+    }
+   ],
+   "quelle_live": true
+  },
+  {
+   "id": "fehlt-doorsoun-sge-0111",
+   "pid": "00061",
+   "zeit": "2026-11-01T13:12",
+   "spielerin": "Sara Doorsoun",
+   "verein": "Eintracht Frankfurt",
+   "nr": "",
+   "pos": "ABW",
+   "tags": [
+    "ROTATION",
+    "POKAL"
+   ],
+   "headline": "Doorsoun nicht im Kader gegen 1. FC Nürnberg",
+   "text": [
+    "Sara Doorsoun steht im DFB-Pokal gegen 1. FC Nürnberg weder in der Startelf noch auf der Bank. Im letzten Ligaspiel war sie noch auf der Bank.",
+    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Im Pokal kann es auch Belastungssteuerung sein."
+   ],
+   "kickbase": "Bis zur Klärung stufen wir sie in unserer Prognose für das nächste Ligaspiel eine Stufe herunter.",
+   "quellen": [
+    {
+     "name": "DFB-Datencenter",
+     "url": "https://datencenter.dfb.de/matches/1-fc-nuernberg-eintracht-frankfurt-2431335"
+    }
+   ],
+   "quelle_live": true
+  },
+  {
    "id": "aufstellung-pokal-scf-0111",
    "zeit": "2026-11-01T14:08",
    "spielerin": "Spielansetzung",
