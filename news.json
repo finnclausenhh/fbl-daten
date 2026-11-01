@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-01T16:46",
+ "stand": "2026-11-01T17:44",
  "meldungen": [
   {
    "id": "bayern-pokal-0111",
@@ -16,13 +16,226 @@
    "kurz": "Bayern gewinnt 1:0 gegen Leverkusen",
    "text": [
     "Der FC Bayern steht im Viertelfinale des DFB-Pokals. Gegen Bayer Leverkusen hieß es laut DFB-Datencenter am Ende 1:0, zur Pause stand es 0:0.",
-    "Wer das Tor erzielt hat, nennt unsere Quelle nicht, wir ergänzen es, sobald ein Spielbericht vorliegt. Viggósdóttir gehörte nicht zum Kader, Bühl saß zu Beginn auf der Bank. Bei Leverkusen fehlten Bender und Remien."
+    "Das Tor erzielte laut Sportschau Pernille Harder. Viggósdóttir gehörte nicht zum Kader, Bühl saß zu Beginn auf der Bank. Bei Leverkusen fehlten Bender und Remien."
    ],
    "kickbase": "Ob Viggósdóttir zum nächsten Ligaspiel zurückkehrt, ist offen. Einen Grund für ihr Fehlen nennt bisher keine Quelle.",
    "quellen": [
     {
      "name": "DFB-Datencenter",
      "url": "https://datencenter.dfb.de/matches/fc-bayern-muenchen-bayer-04-leverkusen-2431330"
+    },
+    {
+     "name": "Sportschau (BR)",
+     "url": "https://www.sportschau.de/regional/br/br-harder-schiesst-fc-bayern-frauen-ins-pokal-viertelfinale-100.html"
+    }
+   ],
+   "spiel_aufstellung": [
+    {
+     "verein": "FC Bayern",
+     "k": "FCB",
+     "gegner": "Bayer Leverkusen",
+     "wettbewerb": "DFB-Pokal",
+     "ergebnis": "1:0",
+     "tore": [
+      {
+       "min": "73",
+       "n": "Harder",
+       "eigen": true,
+       "art": "Elfmeter"
+      }
+     ],
+     "vergleich": "8. Spieltag",
+     "startelf": [
+      {
+       "n": "Mahmutovic",
+       "p": "TW"
+      },
+      {
+       "n": "Ballisager",
+       "p": "ABW",
+       "f": "neu"
+      },
+      {
+       "n": "Eriksson",
+       "p": "ABW"
+      },
+      {
+       "n": "Kett",
+       "p": "ABW"
+      },
+      {
+       "n": "Amani",
+       "p": "DM",
+       "gelb": true,
+       "gelb_min": "78"
+      },
+      {
+       "n": "Tanikawa",
+       "p": "DM"
+      },
+      {
+       "n": "Dallmann",
+       "p": "MF",
+       "f": "neu"
+      },
+      {
+       "n": "Alara",
+       "p": "OM",
+       "aus": "68"
+      },
+      {
+       "n": "Proost",
+       "p": "OM",
+       "aus": "80"
+      },
+      {
+       "n": "Mattner-Trembleau",
+       "p": "ST",
+       "f": "neu"
+      },
+      {
+       "n": "Harder",
+       "p": "ST",
+       "aus": "89",
+       "tore": 1
+      }
+     ],
+     "eingewechselt": [
+      {
+       "n": "Imade",
+       "p": "ST",
+       "ein_min": "68"
+      },
+      {
+       "n": "Potsi",
+       "p": "ST",
+       "ein_min": "80"
+      },
+      {
+       "n": "Damnjanović",
+       "p": "ST",
+       "ein_min": "89"
+      }
+     ],
+     "raus": [
+      {
+       "n": "Viggósdóttir",
+       "p": "ABW",
+       "wo": "nicht im Kader"
+      },
+      {
+       "n": "Naschenweng",
+       "p": "ABW",
+       "wo": "Bank"
+      },
+      {
+       "n": "Bühl",
+       "p": "OM",
+       "wo": "Bank"
+      }
+     ],
+     "ohne_einsatz": [
+      "van Eijk",
+      "Gilles",
+      "Naschenweng",
+      "Dunst",
+      "Bühl"
+     ]
+    },
+    {
+     "verein": "Bayer Leverkusen",
+     "k": "B04",
+     "gegner": "FC Bayern",
+     "wettbewerb": "DFB-Pokal",
+     "ergebnis": "0:1",
+     "tore": [
+      {
+       "min": "73",
+       "n": "Harder",
+       "eigen": false,
+       "art": "Elfmeter"
+      }
+     ],
+     "vergleich": "8. Spieltag",
+     "startelf": [
+      {
+       "n": "Borggräfe",
+       "p": "TW"
+      },
+      {
+       "n": "Merino",
+       "p": "ABW"
+      },
+      {
+       "n": "Turányi",
+       "p": "ABW"
+      },
+      {
+       "n": "Ostermeier",
+       "p": "ABW"
+      },
+      {
+       "n": "Simon",
+       "p": "ABW"
+      },
+      {
+       "n": "Wenger",
+       "p": "DM",
+       "aus": "82"
+      },
+      {
+       "n": "Müller",
+       "p": "DM",
+       "gelb": true,
+       "gelb_min": "34"
+      },
+      {
+       "n": "Kehrer",
+       "p": "ST",
+       "f": "neu"
+      },
+      {
+       "n": "Sternad",
+       "p": "ST"
+      },
+      {
+       "n": "Kramer",
+       "p": "ST"
+      },
+      {
+       "n": "Mädl",
+       "p": "ST",
+       "f": "neu"
+      }
+     ],
+     "eingewechselt": [
+      {
+       "n": "Zdebel",
+       "p": "MF",
+       "ein_min": "82"
+      }
+     ],
+     "raus": [
+      {
+       "n": "Bender",
+       "p": "OM",
+       "wo": "nicht im Kader"
+      },
+      {
+       "n": "Fudalla",
+       "p": "OM",
+       "wo": "Bank"
+      }
+     ],
+     "ohne_einsatz": [
+      "Voll",
+      "Brandau",
+      "Wallrabenstein",
+      "Misini",
+      "Platner",
+      "Fudalla",
+      "Loonen"
+     ]
     }
    ]
   },
@@ -49,6 +262,146 @@
      "name": "DFB-Datencenter",
      "url": "https://datencenter.dfb.de/matches/sc-freiburg-fc-carl-zeiss-jena-2431333"
     }
+   ],
+   "spiel_aufstellung": [
+    {
+     "verein": "SC Freiburg",
+     "k": "SCF",
+     "gegner": "Carl Zeiss Jena",
+     "wettbewerb": "DFB-Pokal",
+     "ergebnis": "4:0",
+     "tore": [
+      {
+       "min": "21",
+       "n": "Ojukwu",
+       "eigen": true,
+       "art": "Elfmeter"
+      },
+      {
+       "min": "28",
+       "n": "Schneider",
+       "eigen": true
+      },
+      {
+       "min": "45",
+       "n": "Brunold",
+       "eigen": true
+      },
+      {
+       "min": "90",
+       "n": "Vincze",
+       "eigen": true
+      }
+     ],
+     "vergleich": "8. Spieltag",
+     "startelf": [
+      {
+       "n": "Barth",
+       "p": "TW",
+       "f": "neu"
+      },
+      {
+       "n": "Karl",
+       "p": "ABW"
+      },
+      {
+       "n": "Maas",
+       "p": "ABW"
+      },
+      {
+       "n": "Stierli",
+       "p": "ABW",
+       "f": "neu"
+      },
+      {
+       "n": "Kolb",
+       "p": "ABW",
+       "aus": "63"
+      },
+      {
+       "n": "Ojukwu",
+       "p": "ABW",
+       "tore": 1
+      },
+      {
+       "n": "Acikgöz",
+       "p": "DM",
+       "aus": "74"
+      },
+      {
+       "n": "Schneider",
+       "p": "DM",
+       "aus": "63",
+       "tore": 1
+      },
+      {
+       "n": "Vobian",
+       "p": "MF",
+       "f": "neu",
+       "aus": "63"
+      },
+      {
+       "n": "Brunold",
+       "p": "OM",
+       "aus": "74",
+       "tore": 1
+      },
+      {
+       "n": "Birkholz",
+       "p": "ST"
+      }
+     ],
+     "eingewechselt": [
+      {
+       "n": "Bienz",
+       "p": "OM",
+       "ein_min": "63"
+      },
+      {
+       "n": "Seghir",
+       "p": "MF",
+       "ein_min": "63"
+      },
+      {
+       "n": "Vincze",
+       "p": "ST",
+       "ein_min": "63"
+      },
+      {
+       "n": "Memminger",
+       "p": "ABW",
+       "ein_min": "74"
+      },
+      {
+       "n": "Simmen",
+       "p": "MF",
+       "ein_min": "74"
+      }
+     ],
+     "raus": [
+      {
+       "n": "Reimann",
+       "p": "TW",
+       "wo": "nicht im Kader"
+      },
+      {
+       "n": "Arfaoui",
+       "p": "OM",
+       "wo": "Bank"
+      },
+      {
+       "n": "Bienz",
+       "p": "OM",
+       "wo": "Bank"
+      }
+     ],
+     "ohne_einsatz": [
+      "von Schrader",
+      "Jansen",
+      "Arfaoui",
+      "Scherer"
+     ]
+    }
    ]
   },
   {
@@ -66,13 +419,229 @@
    "kurz": "Frankfurt gewinnt in Nürnberg im Elfmeterschießen",
    "text": [
     "Eintracht Frankfurt steht im Viertelfinale des DFB-Pokals. Beim 1. FC Nürnberg fiel kein Tor, das Elfmeterschießen gewann Frankfurt laut DFB-Datencenter mit 4:2.",
-    "Im Tor stand Sophia Winkler, Lina Altenburg und Sara Doorsoun gehörten nicht zum Kader. Wer im Elfmeterschießen getroffen oder verschossen hat und in welcher Reihenfolge, ist in den uns zugänglichen Quellen noch nicht zu finden, wir ergänzen es, sobald ein Spielbericht vorliegt."
+    "Im Tor stand Sophia Winkler, Lina Altenburg und Sara Doorsoun gehörten nicht zum Kader. Torhüterin Sophia Winkler gilt laut BILD als Heldin des Elfmeterschießens."
    ],
    "kickbase": "Ob Altenburg zum nächsten Ligaspiel wieder im Tor steht, ist offen. Einsatzzeiten und Wechsel sind noch nicht bekannt.",
    "quellen": [
     {
      "name": "DFB-Datencenter",
      "url": "https://datencenter.dfb.de/matches/1-fc-nuernberg-eintracht-frankfurt-2431335"
+    },
+    {
+     "name": "BILD",
+     "url": "https://www.bild.de/sport/fussball/eintracht-frauen-im-dfb-pokal-weiter-sophia-winkler-elfmeter-heldin-6ae764f35e7018b4bea94eb9"
+    }
+   ],
+   "spiel_aufstellung": [
+    {
+     "verein": "1. FC Nürnberg",
+     "k": "FCN",
+     "gegner": "Eintracht Frankfurt",
+     "wettbewerb": "DFB-Pokal",
+     "ergebnis": "0:0",
+     "tore": [],
+     "vergleich": "8. Spieltag",
+     "startelf": [
+      {
+       "n": "Adamczyk",
+       "p": "TW",
+       "f": "neu"
+      },
+      {
+       "n": "Bleil",
+       "p": "ABW",
+       "aus": "113",
+       "gelb": true
+      },
+      {
+       "n": "Lobanova",
+       "p": "ABW",
+       "gelb": true
+      },
+      {
+       "n": "Varley",
+       "p": "ABW",
+       "aus": "105"
+      },
+      {
+       "n": "Homann",
+       "p": "ABW"
+      },
+      {
+       "n": "Miller",
+       "p": "DM"
+      },
+      {
+       "n": "Pápai",
+       "p": "DM",
+       "gelb": true
+      },
+      {
+       "n": "Proniez",
+       "p": "OM",
+       "gelb": true
+      },
+      {
+       "n": "Meroni",
+       "p": "OM",
+       "aus": "88"
+      },
+      {
+       "n": "Lein",
+       "p": "ST"
+      },
+      {
+       "n": "Lapassouse",
+       "p": "ST",
+       "aus": "82"
+      }
+     ],
+     "eingewechselt": [
+      {
+       "n": "Brengel",
+       "p": "MF",
+       "ein_min": "82"
+      },
+      {
+       "n": "Bednorz",
+       "p": "ABW",
+       "ein_min": "88"
+      },
+      {
+       "n": "Pollak",
+       "p": "ABW",
+       "ein_min": "105"
+      },
+      {
+       "n": "Mai",
+       "p": "MF",
+       "ein_min": "113"
+      }
+     ],
+     "raus": [
+      {
+       "n": "Romero",
+       "p": "TW",
+       "wo": "Bank"
+      }
+     ],
+     "ohne_einsatz": [
+      "Romero",
+      "Barboz",
+      "Fröhlich",
+      "Coutel",
+      "Ličina"
+     ]
+    },
+    {
+     "verein": "Eintracht Frankfurt",
+     "k": "SGE",
+     "gegner": "1. FC Nürnberg",
+     "wettbewerb": "DFB-Pokal",
+     "ergebnis": "0:0",
+     "tore": [],
+     "vergleich": "8. Spieltag",
+     "startelf": [
+      {
+       "n": "Winkler",
+       "p": "TW",
+       "f": "neu"
+      },
+      {
+       "n": "Ilestedt",
+       "p": "ABW",
+       "gelb": true
+      },
+      {
+       "n": "Østenstad",
+       "p": "ABW"
+      },
+      {
+       "n": "Lührßen",
+       "p": "ABW"
+      },
+      {
+       "n": "Bennison",
+       "p": "DM"
+      },
+      {
+       "n": "Krumbiegel",
+       "p": "MF",
+       "f": "neu",
+       "aus": "46",
+       "gelb": true
+      },
+      {
+       "n": "Memeti",
+       "p": "MF",
+       "aus": "113"
+      },
+      {
+       "n": "Acikgöz",
+       "p": "MF",
+       "aus": "104",
+       "gelb": true
+      },
+      {
+       "n": "Mühlhaus",
+       "p": "OM",
+       "aus": "104"
+      },
+      {
+       "n": "Freigang",
+       "p": "ST"
+      },
+      {
+       "n": "Blomqvist",
+       "p": "ST",
+       "aus": "75"
+      }
+     ],
+     "eingewechselt": [
+      {
+       "n": "Wolter",
+       "p": "ABW",
+       "ein_min": "46"
+      },
+      {
+       "n": "Raso",
+       "p": "ST",
+       "ein_min": "75"
+      },
+      {
+       "n": "Ivelj",
+       "p": "ABW",
+       "ein_min": "104"
+      },
+      {
+       "n": "Tolhoek",
+       "p": "ST",
+       "ein_min": "104"
+      },
+      {
+       "n": "Ainhoa Alguacil",
+       "p": "MF",
+       "ein_min": "113"
+      }
+     ],
+     "raus": [
+      {
+       "n": "Altenburg",
+       "p": "TW",
+       "wo": "nicht im Kader"
+      },
+      {
+       "n": "Wolter",
+       "p": "ABW",
+       "wo": "Bank"
+      }
+     ],
+     "ohne_einsatz": [
+      "Krumme",
+      "Rankin",
+      "Lundgaard",
+      "Teulings"
+     ]
     }
    ]
   },
@@ -107,7 +676,257 @@
     "autor": "Werder Bremen",
     "lizenz": "mit Genehmigung: Werder Bremen",
     "url": "https://www.werder.de/teams/frauen/spielerinnen/"
-   }
+   },
+   "spiel_aufstellung": [
+    {
+     "verein": "Mainz 05",
+     "k": "M05",
+     "gegner": "Werder Bremen",
+     "wettbewerb": "DFB-Pokal",
+     "ergebnis": "0:2",
+     "tore": [
+      {
+       "min": "101",
+       "n": "Gutmann",
+       "eigen": false
+      },
+      {
+       "min": "116",
+       "n": "Gutmann",
+       "eigen": false
+      }
+     ],
+     "vergleich": "8. Spieltag",
+     "startelf": [
+      {
+       "n": "Schön",
+       "p": "TW"
+      },
+      {
+       "n": "Bathmann",
+       "p": "ABW",
+       "aus": "106",
+       "gelb": true
+      },
+      {
+       "n": "Berg",
+       "p": "ABW"
+      },
+      {
+       "n": "Pageler",
+       "p": "ABW",
+       "aus": "83"
+      },
+      {
+       "n": "Flach",
+       "p": "ABW",
+       "f": "neu",
+       "aus": "70"
+      },
+      {
+       "n": "Hashitani",
+       "p": "ABW",
+       "f": "neu"
+      },
+      {
+       "n": "Kurishima",
+       "p": "DM",
+       "aus": "90"
+      },
+      {
+       "n": "Imai",
+       "p": "DM"
+      },
+      {
+       "n": "Bouziane",
+       "p": "MF",
+       "f": "neu",
+       "aus": "70",
+       "gelb": true
+      },
+      {
+       "n": "Kats",
+       "p": "OM",
+       "rot": true
+      },
+      {
+       "n": "Anstatt",
+       "p": "ST"
+      }
+     ],
+     "eingewechselt": [
+      {
+       "n": "Strickler",
+       "p": "ST",
+       "ein_min": "70"
+      },
+      {
+       "n": "Stöhr",
+       "p": "OM",
+       "ein_min": "70"
+      },
+      {
+       "n": "Martin",
+       "p": "MF",
+       "ein_min": "83"
+      },
+      {
+       "n": "Junold",
+       "p": "MF",
+       "ein_min": "90"
+      },
+      {
+       "n": "Fetaj",
+       "p": "OM",
+       "ein_min": "106"
+      }
+     ],
+     "raus": [
+      {
+       "n": "Georgieva",
+       "p": "ABW",
+       "wo": "nicht im Kader"
+      },
+      {
+       "n": "Fetaj",
+       "p": "OM",
+       "wo": "Bank"
+      },
+      {
+       "n": "Stöhr",
+       "p": "OM",
+       "wo": "Bank"
+      }
+     ],
+     "ohne_einsatz": [
+      "Pawlowski",
+      "Hauk",
+      "Donner",
+      "Takizawa"
+     ]
+    },
+    {
+     "verein": "Werder Bremen",
+     "k": "SVW",
+     "gegner": "Mainz 05",
+     "wettbewerb": "DFB-Pokal",
+     "ergebnis": "2:0",
+     "tore": [
+      {
+       "min": "101",
+       "n": "Gutmann",
+       "eigen": true
+      },
+      {
+       "min": "116",
+       "n": "Gutmann",
+       "eigen": true
+      }
+     ],
+     "vergleich": "7. Spieltag",
+     "startelf": [
+      {
+       "n": "Fischer",
+       "p": "TW"
+      },
+      {
+       "n": "Weiß",
+       "p": "ABW"
+      },
+      {
+       "n": "Ulbrich",
+       "p": "ABW"
+      },
+      {
+       "n": "Gutmann",
+       "p": "ABW",
+       "tore": 2
+      },
+      {
+       "n": "Zieniewicz",
+       "p": "ABW",
+       "aus": "91"
+      },
+      {
+       "n": "Wirtz",
+       "p": "DM",
+       "gelb": true
+      },
+      {
+       "n": "Hipp",
+       "p": "DM",
+       "aus": "112",
+       "gelb": true
+      },
+      {
+       "n": "Jaron",
+       "p": "OM",
+       "aus": "69"
+      },
+      {
+       "n": "Dhont",
+       "p": "ST",
+       "f": "neu",
+       "aus": "83"
+      },
+      {
+       "n": "Shimada",
+       "p": "ST",
+       "f": "neu",
+       "aus": "69"
+      },
+      {
+       "n": "Vanzeir",
+       "p": "ST"
+      }
+     ],
+     "eingewechselt": [
+      {
+       "n": "Purtscheller",
+       "p": "OM",
+       "ein_min": "69"
+      },
+      {
+       "n": "Dešić",
+       "p": "ST",
+       "ein_min": "69"
+      },
+      {
+       "n": "Mahmoud",
+       "p": "ST",
+       "ein_min": "83"
+      },
+      {
+       "n": "Sträßer",
+       "p": "ABW",
+       "ein_min": "91"
+      },
+      {
+       "n": "Gmeineder",
+       "p": "MF",
+       "ein_min": "112"
+      }
+     ],
+     "raus": [
+      {
+       "n": "Purtscheller",
+       "p": "OM",
+       "wo": "Bank"
+      },
+      {
+       "n": "Dešić",
+       "p": "ST",
+       "wo": "Bank"
+      }
+     ],
+     "ohne_einsatz": [
+      "Farwick",
+      "Penner",
+      "Mühlemann",
+      "Ernst"
+     ]
+    }
+   ]
   },
   {
    "id": "fehlt-reimann-scf-0111",
