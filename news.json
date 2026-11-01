@@ -1,6 +1,38 @@
 {
- "stand": "2026-11-01T13:41",
+ "stand": "2026-11-01T13:45",
  "meldungen": [
+  {
+   "id": "brengel-0111",
+   "pid": "00308",
+   "zeit": "2026-11-01T13:45",
+   "spielerin": "Jonna Brengel",
+   "verein": "1. FC Nürnberg",
+   "nr": "",
+   "pos": "MF",
+   "tags": [
+    "STANDARD",
+    "POKAL"
+   ],
+   "headline": "Nürnberg im Pokal ohne Freistoßschützin Brengel in der Startelf",
+   "kurz": "Brengel fehlt in Nürnbergs Startelf",
+   "text": [
+    "Jonna Brengel steht im Pokalspiel gegen Eintracht Frankfurt nicht in der Startelf des 1. FC Nürnberg. Sie ist die erste Freistoßschützin der ClubFrauen, auch bei Ecken gilt sie als zweite Option nach Lein, die spielt.",
+    "Wer die Freistöße übernimmt, ist offen, in der Startelf steht keine zweite Schützin aus der Hierarchie. Ob Brengel auf der Bank sitzt, zeigt die Sportschau vor Anpfiff im Pokal nicht. Zuletzt war sie nach einem Schlag auf den Knöchel fraglich und kam am 25. Oktober wieder von der Bank."
+   ],
+   "kickbase": "Für Freistöße der Nürnbergerinnen im Pokal gibt es keine klare Schützin, Standardpunkte sind daher schwerer zu planen.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165406/1-fc-nuernberg_eintracht-frankfurt/aufstellung"
+    }
+   ],
+   "foto": "fotos/fcn-jonna-brengel.webp",
+   "foto_credit": {
+    "autor": "1. FC Nürnberg",
+    "lizenz": "mit Genehmigung: 1. FC Nürnberg",
+    "url": "https://www.fcn.de/clubfrauen/spielerinnen/"
+   }
+  },
   {
    "id": "aufstellung-folgt-ma12165391",
    "zeit": "2026-11-01T13:40",
