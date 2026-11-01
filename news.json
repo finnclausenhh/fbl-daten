@@ -143,13 +143,15 @@
       "n": "Reimann",
       "p": "TW",
       "pid": "00085",
-      "f": "raus"
+      "f": "raus",
+      "war": "Startelf"
      },
      {
       "n": "Ihme",
       "p": "ABW",
       "pid": "00089",
-      "f": "raus"
+      "f": "raus",
+      "war": "Bank"
      }
     ],
     "wettbewerb": "DFB-Pokal"
@@ -289,13 +291,15 @@
       "n": "Viggósdóttir",
       "p": "ABW",
       "pid": "00013",
-      "f": "raus"
+      "f": "raus",
+      "war": "Startelf"
      },
      {
       "n": "Zadrazil",
       "p": "MF",
       "pid": "00022",
-      "f": "raus"
+      "f": "raus",
+      "war": "Bank"
      }
     ],
     "wettbewerb": "DFB-Pokal"
@@ -433,13 +437,15 @@
       "n": "Bender",
       "p": "ST",
       "pid": "00257",
-      "f": "raus"
+      "f": "raus",
+      "war": "Startelf"
      },
      {
       "n": "Remien",
       "p": "TW",
       "pid": "00239",
-      "f": "raus"
+      "f": "raus",
+      "war": "Bank"
      }
     ],
     "wettbewerb": "DFB-Pokal"
@@ -620,7 +626,8 @@
       "n": "Georgieva",
       "p": "ABW",
       "pid": "00274",
-      "f": "raus"
+      "f": "raus",
+      "war": "Startelf"
      }
     ],
     "wettbewerb": "DFB-Pokal"
@@ -1048,13 +1055,15 @@
       "n": "Altenburg",
       "p": "TW",
       "pid": "00056",
-      "f": "raus"
+      "f": "raus",
+      "war": "Startelf"
      },
      {
       "n": "Doorsoun",
       "p": "ABW",
       "pid": "00061",
-      "f": "raus"
+      "f": "raus",
+      "war": "Bank"
      }
     ],
     "wettbewerb": "DFB-Pokal"
