@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-01T18:46",
+ "stand": "2026-11-01T19:45",
  "meldungen": [
   {
    "id": "bayern-pokal-0111",
@@ -192,7 +192,8 @@
       {
        "n": "Kehrer",
        "p": "ST",
-       "f": "neu"
+       "f": "neu",
+       "aus": "74"
       },
       {
        "n": "Sternad",
@@ -205,10 +206,21 @@
       {
        "n": "Mädl",
        "p": "ST",
-       "f": "neu"
+       "f": "neu",
+       "aus": "74"
       }
      ],
      "eingewechselt": [
+      {
+       "n": "Misini",
+       "p": "MF",
+       "ein_min": "74"
+      },
+      {
+       "n": "Loonen",
+       "p": "ST",
+       "ein_min": "74"
+      },
       {
        "n": "Zdebel",
        "p": "MF",
@@ -231,10 +243,8 @@
       "Voll",
       "Brandau",
       "Wallrabenstein",
-      "Misini",
       "Platner",
-      "Fudalla",
-      "Loonen"
+      "Fudalla"
      ]
     }
    ]
