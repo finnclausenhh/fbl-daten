@@ -1,6 +1,70 @@
 {
- "stand": "2026-11-01T14:39",
+ "stand": "2026-11-01T14:45",
  "meldungen": [
+  {
+   "id": "buehl-0111",
+   "pid": "00023",
+   "zeit": "2026-11-01T13:53",
+   "spielerin": "Klara Bühl",
+   "verein": "FC Bayern",
+   "nr": "",
+   "pos": "ST",
+   "tags": [
+    "STANDARD",
+    "POKAL"
+   ],
+   "headline": "Bühl im Pokal nur auf der Bank, Alara bei Freistößen",
+   "kurz": "Bühl sitzt gegen Leverkusen auf der Bank",
+   "text": [
+    "Klara Bühl steht im Pokalspiel gegen Bayer Leverkusen nicht in der Startelf des FC Bayern, sie sitzt auf der Bank. Sie ist die erste Schützin bei Ecken und Freistößen.",
+    "Bei Freistößen rückt Alara nach, sie steht in der Startelf. Wer die Ecken tritt, ist offen, aus der bisherigen Hierarchie steht keine zweite Schützin auf dem Platz. Elfmeter schießt weiterhin Alara."
+   ],
+   "kickbase": "Für Standardpunkte der Bayern-Spielerinnen im Pokal ist Alara bei Freistößen und Elfmetern die erste Wahl, bei Ecken fehlt eine klare Schützin.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165391/bayern-muenchen_bayer-leverkusen/aufstellung"
+    }
+   ],
+   "foto": "fotos/fcb-klara-buhl.webp",
+   "foto_credit": {
+    "autor": "FC Bayern",
+    "lizenz": "mit Genehmigung: FC Bayern München",
+    "url": "https://fcbayern.com/frauen/de/teams/1.-mannschaft"
+   }
+  },
+  {
+   "id": "bender-0111",
+   "pid": "00257",
+   "zeit": "2026-11-01T13:53",
+   "spielerin": "Loreen Bender",
+   "verein": "Bayer Leverkusen",
+   "nr": "",
+   "pos": "ST",
+   "tags": [
+    "STANDARD",
+    "POKAL"
+   ],
+   "headline": "Leverkusen ohne Bender und Tomasiak, Merino und Simon übernehmen",
+   "kurz": "Leverkusen ohne Bender und Tomasiak",
+   "text": [
+    "Loreen Bender und Paulina Tomasiak stehen im Pokalspiel beim FC Bayern nicht im Spieltagskader von Bayer Leverkusen. Bender ist die erste Eckenschützin, Tomasiak die erste Freistoßschützin.",
+    "Bei Ecken übernimmt voraussichtlich Estrella Merino, bei Freistößen Carolin Simon, beide stehen in der Startelf. Elfmeterschützin Cornelia Kramer spielt von Beginn an. Gründe für das Fehlen nennt die Sportschau nicht."
+   ],
+   "kickbase": "Beide Standardrollen gehen an Spielerinnen aus der Startelf. Merino und Simon bekommen dadurch mehr Chancen auf Standardpunkte.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165391/bayern-muenchen_bayer-leverkusen/aufstellung"
+    }
+   ],
+   "foto": "fotos/b04-loreen-bender.webp",
+   "foto_credit": {
+    "autor": "Bayer 04",
+    "lizenz": "mit Genehmigung: Bayer 04 Leverkusen",
+    "url": "https://www.bayer04.de/de-de/team/frauen/frauen"
+   }
+  },
   {
    "id": "fehlt-reimann-scf-0111",
    "pid": "00085",
@@ -681,17 +745,13 @@
    "headline": "Offizielle Aufstellung: Mainz 05 gegen Werder Bremen",
    "text": [
     "Offizielle Startelf für das DFB-Pokal-Achtelfinale gegen Werder Bremen laut Sportschau.",
-    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Georgieva, Stöhr, Fetaj. Rotation im Pokal heißt nicht Verletzung, oft wird nur die Belastung gesteuert."
+    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Georgieva, Stöhr, Fetaj. Die Bank zeigt die Sportschau im Pokal erst nach Abpfiff. Rotation im Pokal heißt nicht Verletzung, oft wird nur die Belastung gesteuert."
    ],
    "kickbase": "",
    "quellen": [
     {
      "name": "Sportschau",
      "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165385/1-fsv-mainz-05_werder-bremen/aufstellung"
-    },
-    {
-     "name": "DFB-Datencenter",
-     "url": "https://datencenter.dfb.de/matches/1-fsv-mainz-05-sv-werder-bremen-2431328"
     }
    ],
    "aufstellung": {
@@ -756,65 +816,10 @@
       "pid": "00291"
      }
     ],
-    "bank": [
-     {
-      "n": "Donner",
-      "p": "ABW",
-      "pid": "00272"
-     },
-     {
-      "n": "Pawlowski",
-      "p": "TW",
-      "pid": "00269"
-     },
-     {
-      "n": "Hauk",
-      "p": "ABW",
-      "pid": "00276"
-     },
-     {
-      "n": "Stöhr",
-      "p": "ST",
-      "pid": "00294",
-      "f": "raus"
-     },
-     {
-      "n": "Fetaj",
-      "p": "MF",
-      "pid": "00281",
-      "f": "raus"
-     },
-     {
-      "n": "Takizawa",
-      "p": "MF",
-      "pid": "00289"
-     },
-     {
-      "n": "Junold",
-      "p": "MF",
-      "pid": "00284"
-     },
-     {
-      "n": "Martin",
-      "p": "MF",
-      "pid": "00286"
-     },
-     {
-      "n": "Strickler",
-      "p": "ST",
-      "pid": "00295"
-     }
-    ],
-    "fehlt": [
-     {
-      "n": "Georgieva",
-      "p": "ABW",
-      "pid": "00274",
-      "f": "raus",
-      "war": "Startelf"
-     }
-    ],
-    "wettbewerb": "DFB-Pokal"
+    "bank": [],
+    "fehlt": [],
+    "wettbewerb": "DFB-Pokal",
+    "bank_offen": true
    },
    "quelle_live": true
   },
@@ -831,17 +836,13 @@
    "headline": "Offizielle Aufstellung: Werder Bremen gegen Mainz 05",
    "text": [
     "Offizielle Startelf für das DFB-Pokal-Achtelfinale gegen Mainz 05 laut Sportschau.",
-    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Purtscheller, Dešić. Rotation im Pokal heißt nicht Verletzung, oft wird nur die Belastung gesteuert."
+    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Purtscheller, Dešić. Die Bank zeigt die Sportschau im Pokal erst nach Abpfiff. Rotation im Pokal heißt nicht Verletzung, oft wird nur die Belastung gesteuert."
    ],
    "kickbase": "",
    "quellen": [
     {
      "name": "Sportschau",
      "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165385/1-fsv-mainz-05_werder-bremen/aufstellung"
-    },
-    {
-     "name": "DFB-Datencenter",
-     "url": "https://datencenter.dfb.de/matches/1-fsv-mainz-05-sv-werder-bremen-2431328"
     }
    ],
    "aufstellung": {
@@ -905,57 +906,10 @@
       "pid": "00055"
      }
     ],
-    "bank": [
-     {
-      "n": "Farwick",
-      "p": "TW",
-      "pid": "00031"
-     },
-     {
-      "n": "Sträßer",
-      "p": "ABW",
-      "pid": "00039"
-     },
-     {
-      "n": "Penner",
-      "p": "ABW",
-      "pid": "00037"
-     },
-     {
-      "n": "Gmeineder",
-      "p": "MF",
-      "pid": "00044"
-     },
-     {
-      "n": "Purtscheller",
-      "p": "MF",
-      "pid": "00047",
-      "f": "raus"
-     },
-     {
-      "n": "Mühlemann",
-      "p": "MF",
-      "pid": "00046"
-     },
-     {
-      "n": "Desic",
-      "p": "ST",
-      "pid": "00049",
-      "f": "raus"
-     },
-     {
-      "n": "Mahmoud",
-      "p": "ST",
-      "pid": "00052"
-     },
-     {
-      "n": "Ernst",
-      "p": "MF",
-      "pid": "00043"
-     }
-    ],
+    "bank": [],
     "fehlt": [],
-    "wettbewerb": "DFB-Pokal"
+    "wettbewerb": "DFB-Pokal",
+    "bank_offen": true
    },
    "quelle_live": true
   },
@@ -972,17 +926,13 @@
    "headline": "Offizielle Aufstellung: 1. FC Nürnberg gegen Eintracht Frankfurt",
    "text": [
     "Offizielle Startelf für das DFB-Pokal-Achtelfinale gegen Eintracht Frankfurt laut Sportschau.",
-    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Romero. Rotation im Pokal heißt nicht Verletzung, oft wird nur die Belastung gesteuert."
+    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Romero. Die Bank zeigt die Sportschau im Pokal erst nach Abpfiff. Rotation im Pokal heißt nicht Verletzung, oft wird nur die Belastung gesteuert."
    ],
    "kickbase": "",
    "quellen": [
     {
      "name": "Sportschau",
      "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165406/1-fc-nuernberg_eintracht-frankfurt/aufstellung"
-    },
-    {
-     "name": "DFB-Datencenter",
-     "url": "https://datencenter.dfb.de/matches/1-fc-nuernberg-eintracht-frankfurt-2431335"
     }
    ],
    "aufstellung": {
@@ -1045,56 +995,10 @@
       "pid": "00322"
      }
     ],
-    "bank": [
-     {
-      "n": "Romero",
-      "p": "TW",
-      "pid": "00298",
-      "f": "raus"
-     },
-     {
-      "n": "Fröhlich",
-      "p": "ABW",
-      "pid": "00302"
-     },
-     {
-      "n": "Mai",
-      "p": "MF",
-      "pid": "00315"
-     },
-     {
-      "n": "Bednorz",
-      "p": "ABW",
-      "pid": "00301"
-     },
-     {
-      "n": "Pollak",
-      "p": "ABW",
-      "pid": "00305"
-     },
-     {
-      "n": "Barboz",
-      "p": "ABW",
-      "pid": "00300"
-     },
-     {
-      "n": "Coutel",
-      "p": "MF",
-      "pid": "00310"
-     },
-     {
-      "n": "Licina",
-      "p": "MF",
-      "pid": "00314"
-     },
-     {
-      "n": "Brengel",
-      "p": "MF",
-      "pid": "00308"
-     }
-    ],
+    "bank": [],
     "fehlt": [],
-    "wettbewerb": "DFB-Pokal"
+    "wettbewerb": "DFB-Pokal",
+    "bank_offen": true
    },
    "quelle_live": true
   },
@@ -1111,18 +1015,13 @@
    "headline": "Offizielle Aufstellung: Eintracht Frankfurt gegen 1. FC Nürnberg",
    "text": [
     "Offizielle Startelf für das DFB-Pokal-Achtelfinale gegen 1. FC Nürnberg laut Sportschau.",
-    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Altenburg, Wolter. Rotation im Pokal heißt nicht Verletzung, oft wird nur die Belastung gesteuert.",
-    "Nicht im Spieltagskader (laut DFB-Datencenter), obwohl im letzten Ligaspiel dabei: Altenburg, Doorsoun. Einen Grund nennt bisher keine Quelle, im Pokal kann es auch Belastungssteuerung sein."
+    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Altenburg, Wolter. Die Bank zeigt die Sportschau im Pokal erst nach Abpfiff. Rotation im Pokal heißt nicht Verletzung, oft wird nur die Belastung gesteuert."
    ],
    "kickbase": "",
    "quellen": [
     {
      "name": "Sportschau",
      "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165406/1-fc-nuernberg_eintracht-frankfurt/aufstellung"
-    },
-    {
-     "name": "DFB-Datencenter",
-     "url": "https://datencenter.dfb.de/matches/1-fc-nuernberg-eintracht-frankfurt-2431335"
     }
    ],
    "aufstellung": {
@@ -1186,71 +1085,10 @@
       "pid": "00077"
      }
     ],
-    "bank": [
-     {
-      "n": "Krumme",
-      "p": "TW",
-      "pid": "00058"
-     },
-     {
-      "n": "Rankin",
-      "p": "ABW",
-      "pid": "00067"
-     },
-     {
-      "n": "Wolter",
-      "p": "MF",
-      "pid": "00075",
-      "f": "raus"
-     },
-     {
-      "n": "Ivelj",
-      "p": "ABW",
-      "pid": "00063"
-     },
-     {
-      "n": "Lundgaard",
-      "p": "MF",
-      "pid": "00073"
-     },
-     {
-      "n": "Teulings",
-      "p": "MF",
-      "pid": "00074"
-     },
-     {
-      "n": "Alguacil",
-      "p": "MF",
-      "pid": "00068"
-     },
-     {
-      "n": "Raso",
-      "p": "ST",
-      "pid": "00081"
-     },
-     {
-      "n": "Tolhoek",
-      "p": "ST",
-      "pid": "00082"
-     }
-    ],
-    "fehlt": [
-     {
-      "n": "Altenburg",
-      "p": "TW",
-      "pid": "00056",
-      "f": "raus",
-      "war": "Startelf"
-     },
-     {
-      "n": "Doorsoun",
-      "p": "ABW",
-      "pid": "00061",
-      "f": "raus",
-      "war": "Bank"
-     }
-    ],
-    "wettbewerb": "DFB-Pokal"
+    "bank": [],
+    "fehlt": [],
+    "wettbewerb": "DFB-Pokal",
+    "bank_offen": true
    },
    "quelle_live": true
   },
