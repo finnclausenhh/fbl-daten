@@ -2,6 +2,119 @@
  "stand": "2026-11-01T14:46",
  "meldungen": [
   {
+   "id": "fehlt-reimann-scf-0111",
+   "pid": "00085",
+   "zeit": "2026-11-01T14:08",
+   "spielerin": "Anna Reimann",
+   "verein": "SC Freiburg",
+   "nr": "",
+   "pos": "TW",
+   "tags": [
+    "AUFSTELLUNG",
+    "POKAL"
+   ],
+   "status": "fraglich",
+   "headline": "Reimann nicht im Kader gegen FC Carl Zeiss Jena",
+   "text": [
+    "Anna Reimann steht im DFB-Pokal gegen FC Carl Zeiss Jena weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
+    "Außerdem nicht im Kader: Pauline Ihme (0 von 5 Ligaspielen in der Startelf).",
+    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
+   ],
+   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
+   "quellen": [
+    {
+     "name": "DFB-Datencenter",
+     "url": "https://datencenter.dfb.de/matches/sc-freiburg-fc-carl-zeiss-jena-2431333"
+    }
+   ],
+   "quelle_live": true,
+   "kurz": "Reimann nicht im Kader"
+  },
+  {
+   "id": "fehlt-viggosdottir-fcb-0111",
+   "pid": "00013",
+   "zeit": "2026-11-01T13:53",
+   "spielerin": "Glódís Viggósdóttir",
+   "verein": "FC Bayern",
+   "nr": "",
+   "pos": "ABW",
+   "tags": [
+    "AUFSTELLUNG",
+    "POKAL"
+   ],
+   "status": "fraglich",
+   "headline": "Viggósdóttir nicht im Kader gegen Bayer Leverkusen",
+   "text": [
+    "Glódís Viggósdóttir steht im DFB-Pokal gegen Bayer Leverkusen weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
+    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
+   ],
+   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165391/bayern-muenchen_bayer-leverkusen/aufstellung"
+    }
+   ],
+   "quelle_live": true,
+   "kurz": "Viggósdóttir nicht im Kader"
+  },
+  {
+   "id": "fehlt-bender-b04-0111",
+   "pid": "00257",
+   "zeit": "2026-11-01T13:53",
+   "spielerin": "Loreen Bender",
+   "verein": "Bayer Leverkusen",
+   "nr": "",
+   "pos": "ST",
+   "tags": [
+    "AUFSTELLUNG",
+    "POKAL"
+   ],
+   "status": "fraglich",
+   "headline": "Bender nicht im Kader gegen FC Bayern",
+   "text": [
+    "Loreen Bender steht im DFB-Pokal gegen FC Bayern weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 4-mal.",
+    "Außerdem nicht im Kader: Louisa Remien (0 von 5 Ligaspielen in der Startelf).",
+    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
+   ],
+   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165391/bayern-muenchen_bayer-leverkusen/aufstellung"
+    }
+   ],
+   "quelle_live": true
+  },
+  {
+   "id": "fehlt-altenburg-sge-0111",
+   "pid": "00056",
+   "zeit": "2026-11-01T13:12",
+   "spielerin": "Lina Altenburg",
+   "verein": "Eintracht Frankfurt",
+   "nr": "",
+   "pos": "TW",
+   "tags": [
+    "AUFSTELLUNG",
+    "POKAL"
+   ],
+   "status": "fraglich",
+   "headline": "Altenburg nicht im Kader gegen 1. FC Nürnberg",
+   "text": [
+    "Lina Altenburg steht im DFB-Pokal gegen 1. FC Nürnberg weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
+    "Außerdem nicht im Kader: Sara Doorsoun (2 von 5 Ligaspielen in der Startelf).",
+    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
+   ],
+   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
+   "quellen": [
+    {
+     "name": "DFB-Datencenter",
+     "url": "https://datencenter.dfb.de/matches/1-fc-nuernberg-eintracht-frankfurt-2431335"
+    }
+   ],
+   "quelle_live": true
+  },
+  {
    "id": "buehl-0111",
    "pid": "00023",
    "zeit": "2026-11-01T13:53",
