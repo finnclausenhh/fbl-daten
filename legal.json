@@ -290,7 +290,7 @@
    },
    {
     "typ": "p",
-    "text": "Speicherdauer: Kommentare, bis Sie sie löschen oder wir sie entfernen. Profile ohne jede Aktivität löschen wir nach 30 Tagen automatisch. Erledigte Meldungen löschen wir nach 6 Monaten, das Moderationsprotokoll nach 12 Monaten. Eigene Kommentare können Sie jederzeit selbst löschen. Für die Löschung Ihres Profils oder Auskunft schreiben Sie an [redaktion@wosoinsider.de](mailto:redaktion@wosoinsider.de) und nennen Ihren Namen in den Kommentaren. Die Kommentarregeln stehen unter dem Eingabefeld; rechtswidrige Inhalte melden Sie über „Melden“ oder per E-Mail."
+    "text": "Speicherdauer: Kommentare, bis Sie sie löschen oder wir sie entfernen. Profile ohne jede Aktivität löschen wir nach 30 Tagen automatisch. Erledigte Meldungen löschen wir nach 6 Monaten, das Moderationsprotokoll nach 12 Monaten. Eigene Kommentare können Sie jederzeit selbst löschen. Für die Löschung Ihres Profils oder Auskunft schreiben Sie an [redaktion@wosoinsider.de](mailto:redaktion@wosoinsider.de) und nennen Ihren Namen in den Kommentaren. Die Kommentarregeln stehen unter „KI-Hinweis & Regeln“; rechtswidrige Inhalte melden Sie über „Melden“ oder per E-Mail."
    },
    {
     "typ": "h2",
@@ -408,7 +408,7 @@
   ]
  },
  "so-entsteht": {
-  "titel": "KI-Hinweis & Methodik",
+  "titel": "KI-Hinweis, Methodik & Regeln",
   "bloecke": [
    {
     "typ": "p",
@@ -477,6 +477,42 @@
    {
     "typ": "p",
     "text": "Hinweise bitte an [redaktion@wosoinsider.de](mailto:redaktion@wosoinsider.de). Korrekturen werden in der Meldung mit dem Tag UPDATE nachgetragen."
+   },
+   {
+    "typ": "h2",
+    "text": "Kommentarregeln"
+   },
+   {
+    "typ": "p",
+    "text": "Hier geht es um Fußball. Diskutiere fair, auch wenn es hitzig wird."
+   },
+   {
+    "typ": "li",
+    "text": "Keine Beleidigungen, keine Hetze, keine Drohungen. Das gilt besonders gegenüber Spielerinnen, Trainerinnen und Trainern, Schiedsrichterinnen und anderen Fans."
+   },
+   {
+    "typ": "li",
+    "text": "Keine Kommentare über Aussehen, Körper oder Privatleben von Spielerinnen."
+   },
+   {
+    "typ": "li",
+    "text": "Keine Werbung, kein Spam, keine Links zu fremden Angeboten."
+   },
+   {
+    "typ": "li",
+    "text": "Keine Gerüchte als Tatsache. Verletzungs- oder Aufstellungsinfos gern als Hinweis an [redaktion@wosoinsider.de](mailto:redaktion@wosoinsider.de)."
+   },
+   {
+    "typ": "li",
+    "text": "Nichts Rechtswidriges, keine persönlichen Daten anderer."
+   },
+   {
+    "typ": "p",
+    "text": "Ein Wortfilter hält manche Kommentare zurück, bis die Redaktion sie prüft. Kommentare, die mehrfach gemeldet werden, werden automatisch ausgeblendet und geprüft. Bei Verstößen können wir Kommentare ausblenden oder löschen und Profile zeitweise oder dauerhaft sperren. Den Grund siehst du bei deinem Kommentar."
+   },
+   {
+    "typ": "p",
+    "text": "Rechtswidrige Inhalte bitte über „Melden“ oder an [redaktion@wosoinsider.de](mailto:redaktion@wosoinsider.de). Für deine Kommentare bist du selbst verantwortlich."
    }
   ]
  }
