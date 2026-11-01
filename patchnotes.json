@@ -1,6 +1,32 @@
 {
-  "stand": "2026-11-01T12:30",
+  "stand": "2026-11-01T16:00",
   "eintraege": [
+    {
+      "version": "0.20",
+      "datum": "2026-11-01",
+      "titel": "Aufstellungen auf dem Spielfeld",
+      "aenderungen": [
+        "Aufstellungen stehen jetzt auf einem Spielfeld mit Fotos: Sturm oben, Torhüterin unten, die Formation klein in der Ecke",
+        "Wer neu in der Startelf ist, trägt ein grünes NEU am Foto; Tore, Karten und die Auswechselminute stehen direkt am Foto",
+        "Unter dem Feld steht die Bank als Namen nach Position, mit rotem RAUS hinter denen, die zuletzt begonnen hatten",
+        "Neuer Block „Änderungen zum letzten Ligaspiel“ zeigt Paare: Wer ist neu drin, wer dafür draußen",
+        "„Nicht im Kader“ nennt den Grund, wenn er bekannt ist, sonst „zuletzt Startelf, Grund unbekannt“",
+        "Spielplan, Prognose: Die Stufe steht als Symbol am Foto, Alternativen stehen als Paare darunter, die Begründung erscheint nach Antippen; Legende und Hinweis stehen ganz unten",
+        "Neue Kopfzeile: Logo links, Tabelle, Statistik und Suche rechts als schlichte Symbole, ohne Mittelkreis",
+        "Der Vereinsfilter ist weg, alle Meldungen und Spiele sind wieder für alle sichtbar; die Vereinsauswahl kommt später zu den Push-Einstellungen",
+        "Feed: Karten mit Vereinswappen haben denselben Lichtkegel wie die Fotos",
+        "Feed: Passt die Zeile mit Name und Verein nicht, steht der Verein kurz („Bayern“) oder entfällt, nie als Code",
+        "Meldung „Aufstellung folgt“: Ein Knopf führt zur Prognose im Spielplan",
+        "Spielbericht: Wer erst später ins Spiel kam, steht mit „(eingewechselt)“ statt „(Bank)“",
+        "Profil, Status-Verlauf: Bei Sperren steht „Wieder spielberechtigt“, sonst „Rückkehr“ vor dem Termin",
+        "Umfragen: Die Gesichter in den Antwortkreisen sind größer; Umfragen ohne Foto zu einer Spielerin werden nicht gezeigt",
+        "Fairnesstabelle: Ein Hinweis erklärt Platzverweise, die der Spielbericht ohne Namen führt",
+        "Partie: Ein Platzverweis ohne Namen heißt jetzt „ohne Namen im Spielbericht“; fehlt bei einem gespielten Spiel die Aufstellung, steht das dort",
+        "Behobener Fehler: Das RAUS-Schild hinter Namen wurde abgeschnitten („RA…“)",
+        "Behobener Fehler: Bei Pokalgegnern ohne Wappen stand rechts oben auf der Karte ein leerer Kreis",
+        "Behobener Fehler: Die Bildnachweise blieben direkt geöffnet bei „Wird geladen …“ stehen"
+      ]
+    },
     {
       "version": "0.19",
       "datum": "2026-11-01",
