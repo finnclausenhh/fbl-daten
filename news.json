@@ -2,6 +2,31 @@
  "stand": "2026-11-01T16:46",
  "meldungen": [
   {
+   "id": "frankfurt-pokal-0111",
+   "zeit": "2026-11-01T15:55",
+   "spielerin": "Spielansetzung",
+   "verein": "Eintracht Frankfurt",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "POKAL",
+    "SPIELBERICHT"
+   ],
+   "headline": "Frankfurt wirft Nürnberg im Elfmeterschießen raus",
+   "kurz": "Frankfurt gewinnt in Nürnberg im Elfmeterschießen",
+   "text": [
+    "Eintracht Frankfurt steht im Viertelfinale des DFB-Pokals. Beim 1. FC Nürnberg fiel kein Tor, das Elfmeterschießen gewann Frankfurt laut DFB-Datencenter mit 4:2.",
+    "Im Tor stand Sophia Winkler, Lina Altenburg und Sara Doorsoun gehörten nicht zum Kader. Wer im Elfmeterschießen getroffen oder verschossen hat und in welcher Reihenfolge, ist in den uns zugänglichen Quellen noch nicht zu finden, wir ergänzen es, sobald ein Spielbericht vorliegt."
+   ],
+   "kickbase": "Ob Altenburg zum nächsten Ligaspiel wieder im Tor steht, ist offen. Einsatzzeiten und Wechsel sind noch nicht bekannt.",
+   "quellen": [
+    {
+     "name": "DFB-Datencenter",
+     "url": "https://datencenter.dfb.de/matches/1-fc-nuernberg-eintracht-frankfurt-2431335"
+    }
+   ]
+  },
+  {
    "id": "gutmann-0111",
    "pid": "00035",
    "zeit": "2026-11-01T16:36",
