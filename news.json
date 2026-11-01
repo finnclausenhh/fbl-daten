@@ -1,6 +1,113 @@
 {
- "stand": "2026-11-01T13:53",
+ "stand": "2026-11-01T14:08",
  "meldungen": [
+  {
+   "id": "aufstellung-pokal-scf-0111",
+   "zeit": "2026-11-01T14:08",
+   "spielerin": "Spielansetzung",
+   "verein": "SC Freiburg",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "POKAL"
+   ],
+   "headline": "Offizielle Aufstellung: SC Freiburg gegen FC Carl Zeiss Jena",
+   "text": [
+    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Arfaoui, Bienz, Reimann. Die Bank zeigt die Sportschau im Pokal erst nach Abpfiff. Rotation im Pokal heißt nicht Verletzung, oft wird nur die Belastung gesteuert."
+   ],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165400/sc-freiburg_fc-carl-zeiss-jena/aufstellung"
+    }
+   ],
+   "aufstellung": {
+    "gegner": "FC Carl Zeiss Jena",
+    "startelf": [
+     {
+      "n": "Barth",
+      "p": "TW",
+      "pid": "00083",
+      "f": "neu"
+     },
+     {
+      "n": "Karl",
+      "p": "ABW",
+      "pid": "00091"
+     },
+     {
+      "n": "Maas",
+      "p": "ABW",
+      "pid": "00092"
+     },
+     {
+      "n": "Stierli",
+      "p": "ABW",
+      "pid": "00095",
+      "f": "neu"
+     },
+     {
+      "n": "Acikgöz",
+      "p": "MF",
+      "pid": "00098"
+     },
+     {
+      "n": "Ojukwu",
+      "p": "MF",
+      "pid": "00106"
+     },
+     {
+      "n": "Schneider",
+      "p": "MF",
+      "pid": "00108"
+     },
+     {
+      "n": "Vobian",
+      "p": "MF",
+      "pid": "00111",
+      "f": "neu"
+     },
+     {
+      "n": "Birkholz",
+      "p": "MF",
+      "pid": "00101"
+     },
+     {
+      "n": "Kolb",
+      "p": "ST",
+      "pid": "00113"
+     },
+     {
+      "n": "Brunold",
+      "p": "ST",
+      "pid": "00112"
+     }
+    ],
+    "bank": [],
+    "fehlt": [],
+    "wettbewerb": "DFB-Pokal",
+    "bank_offen": true,
+    "nicht_startelf": [
+     {
+      "n": "Arfaoui",
+      "p": "MF",
+      "pid": "00099"
+     },
+     {
+      "n": "Bienz",
+      "p": "MF",
+      "pid": "00100"
+     },
+     {
+      "n": "Reimann",
+      "p": "TW",
+      "pid": "00085"
+     }
+    ]
+   },
+   "quelle_live": true
+  },
   {
    "id": "aufstellung-pokal-fcb-0111",
    "zeit": "2026-11-01T13:53",
@@ -240,33 +347,6 @@
     "lizenz": "mit Genehmigung: 1. FC Nürnberg",
     "url": "https://www.fcn.de/clubfrauen/spielerinnen/"
    }
-  },
-  {
-   "id": "aufstellung-folgt-ma12165400",
-   "zeit": "2026-11-01T13:34",
-   "spielerin": "Spielansetzung",
-   "verein": "SC Freiburg",
-   "nr": "",
-   "pos": "Spielansetzung",
-   "tags": [
-    "AUFSTELLUNG",
-    "POKAL"
-   ],
-   "headline": "Aufstellung SC Freiburg gegen FC Carl Zeiss Jena folgt",
-   "kurz": "Aufstellung folgt",
-   "text": [
-    "Anpfiff im DFB-Pokal ist um 14:00 Uhr. Die offizielle Aufstellung sollte in Kürze kommen, wir ergänzen sie hier automatisch, sobald sie veröffentlicht ist.",
-    "Für Pokal- und Europapokalspiele gibt es keine Prognose, die Aufstellung kommt hier automatisch."
-   ],
-   "kickbase": "",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165400/sc-freiburg_fc-carl-zeiss-jena/aufstellung"
-    }
-   ],
-   "platzhalter": true,
-   "anstoss": "2026-11-01T14:00"
   },
   {
    "id": "aufstellung-pokal-m05-0111",
