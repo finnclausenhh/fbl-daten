@@ -269,16 +269,17 @@ def fehlt_meldung_gruppe(gruppe, spielplan):
         rel, st, n = relevant(spielplan, x)
         bew.append((rel, st, n, x))
     rel = sorted([b for b in bew if b[0]], key=lambda b: -b[1])
-    rest = [b for b in bew if not b[0]]
+    rest = sorted([b for b in bew if not b[0]], key=lambda b: -b[1])
     if not rel:
-        return None
+        return None  # nur Ergänzungsspielerinnen (z. B. nur Bank): keine eigene Meldung (Finn 01.11.2026)
+    rel, rest = rel + rest, []  # Ergänzungsspielerinnen kommen in dieselbe Meldung und in die Überschrift
     x0 = rel[0][3]
     nach = lambda x: x["spielerin"].split()[-1]
     g = x0["gegner"]
     if len(rel) == 1:
         head = f"{nach(x0)} nicht im Kader gegen {g}"
     elif len(rel) == 2:
-        head = f"{nach(x0)} und {nach(rel[1][3])} fehlen gegen {g}"
+        head = f"{nach(x0)} und {nach(rel[1][3])} nicht im Kader gegen {g}"
     elif len(rel) == 3:
         head = f"Trio um {nach(x0)} fehlt gegen {g}"
     else:
