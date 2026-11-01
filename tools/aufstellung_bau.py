@@ -119,7 +119,7 @@ def team(slug, gegner_slug, start, bank, vgl, kader, news=(), g=None):
         kp = P(n)
         return dict(n=n, p=gp[0] if gp else kp, pid=I(n), _o=(ordnung.get(gp[0] if gp else kp, 9), gp[1] if gp else 9),
                     **({"kp": kp} if gp and gp[0] != kp else {}), **({"f": "neu"} if n in neu_s else {}))
-    elf = sorted([S(n) for n in start], key=lambda c: c["_o"]) if g else [S(n) for n in start]
+    elf = sorted([S(n) for n in start], key=lambda c: c["_o"])  # ohne Grafik nach Kaderposition TW, ABW, MF, ST
     for c in elf:
         c.pop("_o")
     return {"gegner": SLUG[gegner_slug], **({"formation": g["formation"]} if g else {}),

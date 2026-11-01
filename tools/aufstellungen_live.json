@@ -31,6 +31,18 @@
       "pid": "00270"
      },
      {
+      "n": "Flach",
+      "p": "ABW",
+      "pid": "00273",
+      "f": "neu"
+     },
+     {
+      "n": "Hashitani",
+      "p": "ABW",
+      "pid": "00275",
+      "f": "neu"
+     },
+     {
       "n": "Bathmann",
       "p": "MF",
       "pid": "00278"
@@ -41,31 +53,9 @@
       "pid": "00279"
      },
      {
-      "n": "Pageler",
-      "p": "ST",
-      "pid": "00293"
-     },
-     {
-      "n": "Flach",
-      "p": "ABW",
-      "pid": "00273",
-      "f": "neu"
-     },
-     {
       "n": "Kurishima",
       "p": "MF",
       "pid": "00285"
-     },
-     {
-      "n": "Hashitani",
-      "p": "ABW",
-      "pid": "00275",
-      "f": "neu"
-     },
-     {
-      "n": "Kats",
-      "p": "ST",
-      "pid": "00292"
      },
      {
       "n": "Bouziane",
@@ -77,6 +67,16 @@
       "n": "Imai",
       "p": "MF",
       "pid": "00282"
+     },
+     {
+      "n": "Pageler",
+      "p": "ST",
+      "pid": "00293"
+     },
+     {
+      "n": "Kats",
+      "p": "ST",
+      "pid": "00292"
      },
      {
       "n": "Anstatt",
@@ -213,11 +213,6 @@
       "f": "neu"
      },
      {
-      "n": "Bleil",
-      "p": "ST",
-      "pid": "00321"
-     },
-     {
       "n": "Lobanova",
       "p": "ABW",
       "pid": "00304"
@@ -238,14 +233,19 @@
       "pid": "00316"
      },
      {
-      "n": "Pápai",
-      "p": "ST",
-      "pid": "00325"
-     },
-     {
       "n": "Homann",
       "p": "MF",
       "pid": "00313"
+     },
+     {
+      "n": "Bleil",
+      "p": "ST",
+      "pid": "00321"
+     },
+     {
+      "n": "Pápai",
+      "p": "ST",
+      "pid": "00325"
      },
      {
       "n": "Meroni",
@@ -302,12 +302,6 @@
       "f": "neu"
      },
      {
-      "n": "Krumbiegel",
-      "p": "MF",
-      "pid": "00072",
-      "f": "neu"
-     },
-     {
       "n": "Ilestedt",
       "p": "ABW",
       "pid": "00062"
@@ -323,19 +317,30 @@
       "pid": "00064"
      },
      {
+      "n": "Acikgöz",
+      "p": "ABW",
+      "pid": "00060"
+     },
+     {
+      "n": "Krumbiegel",
+      "p": "MF",
+      "pid": "00072",
+      "f": "neu"
+     },
+     {
       "n": "Bennison",
       "p": "MF",
       "pid": "00069"
      },
      {
+      "n": "Blomqvist",
+      "p": "MF",
+      "pid": "00070"
+     },
+     {
       "n": "Memeti",
       "p": "ST",
       "pid": "00079"
-     },
-     {
-      "n": "Acikgöz",
-      "p": "ABW",
-      "pid": "00060"
      },
      {
       "n": "Mühlhaus",
@@ -346,11 +351,6 @@
       "n": "Freigang",
       "p": "ST",
       "pid": "00077"
-     },
-     {
-      "n": "Blomqvist",
-      "p": "MF",
-      "pid": "00070"
      }
     ],
     "bank": [],
