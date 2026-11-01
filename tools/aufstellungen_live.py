@@ -227,6 +227,9 @@ def speichern(a, pn, pl, news, live, nachricht):
         json.dump(news, open(pn, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
         json.dump(live, open(pl, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
         subprocess.run(g + ["add", "news.json", "tools/aufstellungen_live.json"], check=True)
+        if subprocess.run(g + ["diff", "--cached", "--quiet"]).returncode == 0:
+            print("nichts mehr zu pushen (schon aktuell)")
+            return
         subprocess.run(g + ["-c", "user.name=WOSOINSIDER", "-c", "user.email=finnclausenhh@users.noreply.github.com",
                             "commit", "-qm", nachricht], check=True)
         time.sleep(3)
