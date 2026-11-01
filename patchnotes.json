@@ -1,6 +1,17 @@
 {
-  "stand": "2026-11-01T16:00",
+  "stand": "2026-11-01T17:20",
   "eintraege": [
+    {
+      "version": "0.21",
+      "datum": "2026-11-01",
+      "titel": "Kopfzeile auf einer Linie",
+      "aenderungen": [
+        "Kopfzeile: Logo und die drei Symbole für Tabelle, Statistik und Suche stehen jetzt auf einer Linie, die Symbole sind etwas größer",
+        "Kopfzeile: Die Symbole haben rechts denselben Abstand zum Rand wie das Logo links",
+        "Tabelle und Statistik: Die Symbole oben rechts sind genauso groß und stehen am selben Platz wie im Hauptbild",
+        "Aufstellungen: Sind die Positionen auf dem Feld geschätzt, steht das hinter der Formation und als Hinweis unter dem Spielfeld"
+      ]
+    },
     {
       "version": "0.20",
       "datum": "2026-11-01",
