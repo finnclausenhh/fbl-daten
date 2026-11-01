@@ -1,15 +1,19 @@
 name: Aufstellungen live
 
 # Holt offizielle Aufstellungen (Liga, DFB-Pokal, Champions League) von der Sportschau, sobald sie da sind,
-# und schreibt sie sofort in news.json. Ohne Claude. Alle 10 Minuten von 7 bis 23 Uhr; jeder Aufruf fragt
-# bis zu 28 Minuten lang jede Minute nach, solange ein Spiel mit Bundesliga-Verein in den nächsten 80 Minuten ansteht.
+# und schreibt sie sofort in news.json. Ohne Claude.
+# Start: stündlich per Zeitplan (GitHub startet geplante Läufe oft verspätet) und von Hand.
+# Kette: Steht heute noch ein Spiel mit Bundesliga-Verein an, startet sich die Action am Ende selbst neu
+# (workflow_dispatch mit GITHUB_TOKEN ist erlaubt). So läuft sie an Spieltagen lückenlos bis zum letzten Anpfiff.
 on:
   schedule:
-    - cron: "*/10 5-22 * * *"
+    - cron: "3 6-21 * * *"
+    - cron: "33 6-21 * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: aufstellungen-live
@@ -27,4 +31,10 @@ jobs:
         with:
           python-version: "3.12"
       - name: Aufstellungen holen
+        id: auf
         run: python3 tools/aufstellungen_live.py --repo . --push --laufzeit 28
+      - name: Kette fortsetzen
+        if: always() && steps.auf.outputs.weiter == '1'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run aufstellungen.yml --ref main -R ${{ github.repository }}

@@ -48,7 +48,12 @@ def spiele_heute(jetzt):
             an = datetime.fromisoformat(dt).replace(tzinfo=ZoneInfo("UTC")).astimezone(TZ)
             if an - timedelta(minutes=VORLAUF) <= jetzt <= an + timedelta(minutes=15):
                 out.append((wb, basis, ma, an))
+            elif an.date() == jetzt.date() and an > jetzt:
+                SPAETER.append(an)
     return out
+
+
+SPAETER = []  # Anstoßzeiten späterer Spiele heute (für die Kette der Action)
 
 
 def letzte_liga(spielplan, verein, vor):
@@ -250,6 +255,7 @@ def main():
         jetzt = datetime.now(TZ)
         ids = {m["id"] for m in news["meldungen"]}
         offen = 0
+        SPAETER.clear()
         for wb, basis, ma, an in spiele_heute(jetzt):
             pre = "pokal-" if wb == "DFB-Pokal" else "cl-" if wb else ""
             h, g = ma.split("/")[1].split("_")
@@ -283,9 +289,14 @@ def main():
                 geaendert = True
                 print(f"neu: {[m['headline'] for m in neu]}")
                 speichern(a, pn, pl, news, live, "Aufstellungen live: " + ", ".join(m["id"] for m in neu))
-        if not offen or time.time() + 60 > ende:
+        if (not offen and not SPAETER) or time.time() + 60 > ende:
             break
         time.sleep(60)
+    # Kette: solange heute noch ein Spiel mit Bundesliga-Verein ansteht oder läuft, startet die Action sich neu
+    weiter = bool(offen or SPAETER)
+    if os.environ.get("GITHUB_OUTPUT"):
+        open(os.environ["GITHUB_OUTPUT"], "a").write(f"weiter={int(weiter)}\n")
+    print(f"weiter={int(weiter)}")
     print(f"geaendert={int(geaendert)}")
 
 
