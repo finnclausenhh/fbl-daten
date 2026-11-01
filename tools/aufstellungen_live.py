@@ -155,6 +155,13 @@ def main():
     live["meldungen"] = [m for m in live["meldungen"] if m["zeit"][:10] >= grenze]
     ids = {m["id"] for m in news["meldungen"]}
     fehlend = [m for m in live["meldungen"] if m["id"] not in ids]
+    lv = {m["id"]: m for m in live["meldungen"]}
+    anders = [i for i, m in enumerate(news["meldungen"]) if m["id"] in lv and m != lv[m["id"]]]
+    for i in anders:  # Live-Fassung gewinnt (etwa nachgetragene Bank)
+        news["meldungen"][i] = lv[news["meldungen"][i]["id"]]
+    if anders and not fehlend:
+        print(f"Live-Fassung wiederhergestellt: {len(anders)}")
+        speichern(a, pn, pl, news, live, "Aufstellungen live: Live-Fassung wiederhergestellt")
     if fehlend:
         news["meldungen"] = fehlend + news["meldungen"]
         geaendert = True
