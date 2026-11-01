@@ -1,6 +1,33 @@
 {
  "meldungen": [
   {
+   "id": "aufstellung-folgt-ma12165400",
+   "zeit": "2026-11-01T13:34",
+   "spielerin": "Spielansetzung",
+   "verein": "SC Freiburg",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "AUFSTELLUNG",
+    "POKAL"
+   ],
+   "headline": "Aufstellung SC Freiburg gegen FC Carl Zeiss Jena folgt",
+   "kurz": "Aufstellung folgt",
+   "text": [
+    "Anpfiff im DFB-Pokal ist um 14:00 Uhr. Die offizielle Aufstellung sollte in Kürze kommen, wir ergänzen sie hier automatisch, sobald sie veröffentlicht ist.",
+    "Für Pokal- und Europapokalspiele gibt es keine Prognose, die Aufstellung kommt hier automatisch."
+   ],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165400/sc-freiburg_fc-carl-zeiss-jena/aufstellung"
+    }
+   ],
+   "platzhalter": true,
+   "anstoss": "2026-11-01T14:00"
+  },
+  {
    "id": "aufstellung-pokal-m05-0111",
    "zeit": "2026-11-01T13:12",
    "spielerin": "Spielansetzung",
@@ -360,5 +387,6 @@
    },
    "quelle_live": true
   }
- ]
+ ],
+ "entfernt": []
 }
