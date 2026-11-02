@@ -284,12 +284,14 @@
       {
        "n": "Hahn",
        "p": "ST",
-       "aus": "64"
+       "aus": "64",
+       "x": 0.1
       },
       {
        "n": "Natter",
        "p": "ST",
-       "f": "neu"
+       "f": "neu",
+       "x": 0.9
       },
       {
        "n": "Fölmli",
@@ -383,23 +385,24 @@
   },
   {
    "id": "fehlt-martret-tsg-0211",
-   "pid": "00142",
+   "pid": "00138",
    "zeit": "2026-11-02T18:00",
-   "spielerin": "Laia Martret",
+   "spielerin": "Vivien Thomann",
    "verein": "TSG Hoffenheim",
    "nr": "",
-   "pos": "ST",
+   "pos": "MF",
    "tags": [
     "AUFSTELLUNG",
     "POKAL"
    ],
    "status": "fraglich",
-   "headline": "Martret und Thomann nicht im Kader gegen VfL Wolfsburg",
+   "headline": "Thomann nicht im Kader gegen VfL Wolfsburg",
    "text": [
-    "Im DFB-Pokal gegen VfL Wolfsburg stehen weder in der Startelf noch auf der Bank: Laia Martret (5 von 5 Ligaspielen in der Startelf), Vivien Thomann (0 von 5 Ligaspielen in der Startelf).",
-    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
+    "Im DFB-Pokal gegen den VfL Wolfsburg stand Vivien Thomann weder in der Startelf noch auf der Bank (0 von 5 Ligaspielen in der Startelf, zuletzt auf der Bank).",
+    "Laia Martret saß dagegen auf der Bank (laut Sportschau-Aufstellung). Das DFB-Datencenter führt sie offenbar unter dem Namen Jimenez, deshalb galt sie hier zunächst als fehlend.",
+    "Einen Grund für Thomanns Fehlen nennt bisher weder der Verein noch eine andere Quelle."
    ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie alle als fraglich und stufen sie in der Prognose herunter.",
+   "kickbase": "Für Kickbase kaum relevant, Thomann spielte in der Liga bisher keine Rolle. Martret bleibt in der Prognose unverändert.",
    "quellen": [
     {
      "name": "DFB-Datencenter",
@@ -407,7 +410,7 @@
     }
    ],
    "quelle_live": true,
-   "kurz": "Martret und Thomann nicht im Kader"
+   "kurz": "Thomann nicht im Kader"
   },
   {
    "id": "aufstellung-pokal-wob-0211",
@@ -421,7 +424,7 @@
    ],
    "headline": "Offizielle Aufstellung: VfL Wolfsburg gegen TSG Hoffenheim",
    "text": [
-    "Nicht im Spieltagskader, obwohl im letzten Ligaspiel dabei: Fløe, Bogaert. Einen Grund nennt bisher keine Quelle."
+    "Nicht im Spieltagskader, obwohl im letzten Ligaspiel auf der Bank: Bogaert. Einen Grund nennt bisher keine Quelle."
    ],
    "kickbase": "",
    "quellen": [
@@ -491,18 +494,16 @@
       "f": "neu"
      },
      {
-      "n": "Prasnikar",
+      "n": "Prašnikar",
       "p": "ST",
-      "pid": "00412",
-      "f": "neu"
+      "pid": "00412"
      }
     ],
     "bank": [
      {
-      "n": "Tufekovic",
+      "n": "Tufeković",
       "p": "TW",
-      "pid": "00391",
-      "f": "neu"
+      "pid": "00391"
      },
      {
       "n": "Kleinherne",
@@ -536,10 +537,9 @@
       "pid": "00400"
      },
      {
-      "n": "Nielsen",
-      "p": "MF",
-      "pid": "",
-      "f": "neu"
+      "n": "Fløe",
+      "p": "ST",
+      "pid": "00409"
      },
      {
       "n": "Bussy",
@@ -552,22 +552,8 @@
      {
       "n": "Bogaert",
       "p": "ABW",
-      "f": "raus"
-     },
-     {
-      "n": "Fløe",
-      "p": "ST",
-      "f": "raus"
-     },
-     {
-      "n": "Prašnikar",
-      "p": "ST",
-      "f": "raus"
-     },
-     {
-      "n": "Tufeković",
-      "p": "TW",
-      "f": "raus"
+      "f": "raus",
+      "war": "Bank"
      },
      {
       "n": "Eisenbeiß",
@@ -600,19 +586,6 @@
    "ableitungen": [
     {
      "verein": "VfL Wolfsburg",
-     "n": "Fløe",
-     "spielerin": "Cecilie Fløe",
-     "war": "Bank",
-     "zeit": "2026-11-02T18:00",
-     "gegner": "TSG Hoffenheim",
-     "wettbewerb": "DFB-Pokal",
-     "quelle": "https://datencenter.dfb.de/matches/vfl-wolfsburg-tsg-hoffenheim-2431329",
-     "delta": -1,
-     "bis": "2026-11-12",
-     "grund": "stand am 02.11. gegen TSG Hoffenheim nicht im Spieltagskader, obwohl im letzten Ligaspiel auf der Bank; Grund nicht bekannt"
-    },
-    {
-     "verein": "VfL Wolfsburg",
      "n": "Bogaert",
      "spielerin": "Lou Bogaert",
      "war": "Bank",
@@ -638,7 +611,7 @@
    ],
    "headline": "Offizielle Aufstellung: TSG Hoffenheim gegen VfL Wolfsburg",
    "text": [
-    "Nicht im Spieltagskader, obwohl im letzten Ligaspiel dabei: Laia Martret, Thomann. Einen Grund nennt bisher keine Quelle."
+    "Nicht im Spieltagskader, obwohl im letzten Ligaspiel auf der Bank: Thomann. Einen Grund nennt bisher keine Quelle."
    ],
    "kickbase": "",
    "quellen": [
@@ -660,10 +633,9 @@
       "f": "neu"
      },
      {
-      "n": "Velde",
+      "n": "van de Velde",
       "p": "ABW",
-      "pid": "00127",
-      "f": "neu"
+      "pid": "00127"
      },
      {
       "n": "Vöhringer",
@@ -709,13 +681,15 @@
       "n": "Natter",
       "p": "ST",
       "pid": "00144",
-      "f": "neu"
+      "f": "neu",
+      "x": 0.9
      },
      {
       "n": "Hahn",
       "p": "ST",
       "pid": "00133",
-      "kp": "MF"
+      "kp": "MF",
+      "x": 0.1
      }
     ],
     "bank": [
@@ -753,10 +727,10 @@
       "pid": "00137"
      },
      {
-      "n": "Jimenez",
-      "p": "MF",
-      "pid": "",
-      "f": "neu"
+      "n": "Laia Martret",
+      "p": "ST",
+      "pid": "00142",
+      "f": "raus"
      },
      {
       "n": "Fenger",
@@ -771,19 +745,10 @@
     ],
     "fehlt": [
      {
-      "n": "Laia Martret",
-      "p": "ST",
-      "f": "raus"
-     },
-     {
       "n": "Thomann",
       "p": "MF",
-      "f": "raus"
-     },
-     {
-      "n": "van de Velde",
-      "p": "ABW",
-      "f": "raus"
+      "f": "raus",
+      "war": "Bank"
      },
      {
       "n": "Bräutigam",
@@ -818,19 +783,6 @@
    },
    "quelle_live": true,
    "ableitungen": [
-    {
-     "verein": "TSG Hoffenheim",
-     "n": "Laia Martret",
-     "spielerin": "Laia Martret",
-     "war": "Startelf",
-     "zeit": "2026-11-02T18:00",
-     "gegner": "VfL Wolfsburg",
-     "wettbewerb": "DFB-Pokal",
-     "quelle": "https://datencenter.dfb.de/matches/vfl-wolfsburg-tsg-hoffenheim-2431329",
-     "delta": -1,
-     "bis": "2026-11-12",
-     "grund": "stand am 02.11. gegen VfL Wolfsburg nicht im Spieltagskader, obwohl im letzten Ligaspiel in der Startelf; Grund nicht bekannt"
-    },
     {
      "verein": "TSG Hoffenheim",
      "n": "Thomann",

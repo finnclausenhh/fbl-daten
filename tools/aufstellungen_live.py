@@ -81,6 +81,28 @@ def nk(name):
 
 KADER = []
 
+# Namen, unter denen das DFB-Datencenter Spielerinnen abweichend führt (Zweitnamen). Ergänzbar in tools/namen_alias.json
+ALIAS = {("VfL Wolfsburg", "Nielsen"): "Fløe", ("TSG Hoffenheim", "Jimenez"): "Laia Martret", ("TSG Hoffenheim", "Jiménez"): "Laia Martret"}
+try:
+    for _v, _m in json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "namen_alias.json"), encoding="utf-8")).items():
+        for _a, _z in _m.items():
+            ALIAS[(_v, _a)] = _z
+except (OSError, ValueError):
+    pass
+
+
+def vereinheitliche(namen, verein, alt):
+    """Namen aus Sportschau/DFB auf die Schreibweise des letzten Ligaspiels bringen (Finn 02.11.2026: Prasnikar = Prašnikar,
+    Velde = van de Velde, Nielsen = Fløe). Sonst würden dieselben Spielerinnen gleichzeitig als NEU und RAUS geführt."""
+    ref = {}
+    for n in (alt or {}).get("start", []) + (alt or {}).get("bank", []):
+        ref.setdefault(nk(n), n)
+    out = []
+    for n in namen:
+        n = ALIAS.get((verein, n), ALIAS.get((verein, nk(n)), n))
+        out.append(ref.get(nk(n), n))
+    return out
+
 
 def ergaenze_dfb(auf, h, g, wb):
     """DFB-Datencenter als zweite Quelle: Startelf, wenn die Sportschau keine hat, und Bank, wenn sie fehlt."""
@@ -165,6 +187,7 @@ def baue(wb, basis, ma, an, a, kader, news, spielplan, zeit):
         if gs not in AB.SLUG:
             AB.SLUG[gs] = gs.replace("-", " ").title().replace("Fc ", "FC ").replace("Sgs ", "SGS ").replace("Vfl ", "VfL ")
         alt = letzte_liga(spielplan, verein, an.strftime("%Y-%m-%dT%H:%M"))
+        a[st], a[bk] = vereinheitliche(a[st], verein, alt), vereinheitliche(a[bk], verein, alt)
         vgl = F.vergleich(alt, a[st], a[bk])
         t = AB.team(slug, gs, a[st], a[bk], vgl, kader, news, gr.get(sd), AB.lernen(spielplan, verein))
         if wb:
@@ -414,10 +437,11 @@ def main():
                 continue
         slug = next((k for k, v in AB.SLUG.items() if v == m["verein"]), None)
         seite = "heim" if slug == auf["heim"] else "gast"
-        bank = auf[f"bank_{seite}"]
         verein = m["verein"]
-        im = {nk(x) for x in auf[f"startelf_{seite}"] + bank}
         alt_l = letzte_liga(spielplan, verein, m["zeit"]) or {"start": [], "bank": []}
+        auf[f"startelf_{seite}"] = vereinheitliche(auf[f"startelf_{seite}"], verein, alt_l)
+        bank = auf[f"bank_{seite}"] = vereinheitliche(auf[f"bank_{seite}"], verein, alt_l)
+        im = {nk(x) for x in auf[f"startelf_{seite}"] + bank}
         alt_s = {nk(x) for x in alt_l["start"]}
         au["bank"] = [dict(n=n, p=AB.pos_von(n, verein, kader), pid=AB.pid_von(n, verein, kader), **({"f": "raus"} if nk(n) in alt_s else {}))
                       for n in bank]
