@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-02T21:50",
+ "stand": "2026-11-02T21:47",
  "meldungen": [
   {
    "id": "wolfsburg-pokal-0211",
@@ -284,14 +284,12 @@
       {
        "n": "Hahn",
        "p": "ST",
-       "aus": "64",
-       "x": 0.1
+       "aus": "64"
       },
       {
        "n": "Natter",
        "p": "ST",
-       "f": "neu",
-       "x": 0.9
+       "f": "neu"
       },
       {
        "n": "Fölmli",
