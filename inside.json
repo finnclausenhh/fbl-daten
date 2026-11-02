@@ -7,7 +7,7 @@
    {
     "art": "risk",
     "label": "Risiko",
-    "text": "FC Bayern, Wolfsburg und Frankfurt spielen bis Mitte November neben der Liga auch im Pokal und im Europapokal. Bayern wechselte zuletzt fünf Startelfplätze pro Ligaspiel."
+    "text": "FC Bayern, Wolfsburg und Frankfurt spielen bis Mitte November neben der Liga auch im Europapokal. Die Pokalspiele sind gespielt, alle drei stehen im Viertelfinale. Bayern wechselte zuletzt fünf Startelfplätze pro Ligaspiel."
    },
    {
     "art": "chance",
@@ -928,7 +928,7 @@
       "fakten": [
        "Wolfsburg holte <b>12 von 15</b> Auswärtspunkten bei <b>18:5</b> Toren.",
        "Frankfurt kassierte erst <b>7</b> Gegentore, Bestwert gemeinsam mit Bayern.",
-       "Wolfsburg hat nach dem Pokal am Montag nur <b>3 Tage</b> Pause, Frankfurt einen Tag mehr."
+       "Wolfsburg hat nach dem 8:0 im Pokal am Montag nur <b>3 Tage</b> Pause, Frankfurt einen Tag mehr."
       ],
       "kb": "Peddemors bleibt gesetzt. Bei Wolfsburgs Rotationskandidatinnen ist Vorsicht angebracht."
      },
@@ -2284,5 +2284,5 @@
   ]
  },
  "punkt_hinweis": null,
- "geprueft": "2026-11-01T22:58"
+ "geprueft": "2026-11-02T22:48"
 }
