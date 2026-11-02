@@ -1,6 +1,33 @@
 {
  "meldungen": [
   {
+   "id": "aufstellung-folgt-ma12165388",
+   "zeit": "2026-11-02T16:40",
+   "spielerin": "Spielansetzung",
+   "verein": "VfL Wolfsburg",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "AUFSTELLUNG",
+    "POKAL"
+   ],
+   "headline": "Aufstellung VfL Wolfsburg gegen TSG Hoffenheim folgt",
+   "kurz": "Aufstellung folgt, Anpfiff 18:00",
+   "text": [
+    "Anpfiff im DFB-Pokal ist um 18:00 Uhr. Die offizielle Aufstellung kommt meist rund 60 Minuten vorher, wir ergänzen sie hier automatisch, sobald sie veröffentlicht ist.",
+    "Für Pokal- und Europapokalspiele gibt es keine Prognose, die Aufstellung kommt hier automatisch."
+   ],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165388/vfl-wolfsburg_tsg-hoffenheim/aufstellung"
+    }
+   ],
+   "platzhalter": true,
+   "anstoss": "2026-11-02T18:00"
+  },
+  {
    "id": "fehlt-reimann-scf-0111",
    "pid": "00085",
    "zeit": "2026-11-01T14:08",
