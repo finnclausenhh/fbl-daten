@@ -1,6 +1,37 @@
 {
- "stand": "2026-11-02T16:46",
+ "stand": "2026-11-02T16:50",
  "meldungen": [
+  {
+   "id": "gwinn-0211",
+   "pid": "00009",
+   "zeit": "2026-11-02T15:43",
+   "spielerin": "Giulia Gwinn",
+   "verein": "FC Bayern",
+   "nr": "7",
+   "pos": "ABW",
+   "tags": [
+    "TRANSFER"
+   ],
+   "headline": "Gwinn lässt Zukunft beim FC Bayern offen",
+   "kurz": "Gwinn lässt Zukunft bei Bayern offen",
+   "text": [
+    "Giulia Gwinns Vertrag beim FC Bayern läuft bis zum 30. Juni 2027. Am Rande des Pokalspiels gegen Bayer Leverkusen sagte die Kapitänin der Nationalmannschaft laut Merkur: \"Ich halte mir alles offen. Ich fühle mich sehr wohl bei Bayern.\"",
+    "Das Gesamtpaket müsse passen, dann werde man sehen. Zugleich wolle sie die Frage nicht unnötig in die Länge ziehen. Eine Einigung oder ein Abschied ist bisher nicht bekannt. Gwinn fällt aktuell noch wegen eines Außenbandrisses aus."
+   ],
+   "kickbase": "Für die Aufstellung ändert die Vertragsfrage nichts. Wichtig bleibt ihre Rückkehr aus der Verletzung, die im November möglich ist.",
+   "quellen": [
+    {
+     "name": "Merkur",
+     "url": "https://www.merkur.de/sport/fc-bayern/gwinn-heizt-spekulationen-um-ihre-bayern-zukunft-weiter-an-94570344.html"
+    }
+   ],
+   "foto": "fotos/fcb-giulia-gwinn.webp",
+   "foto_credit": {
+    "autor": "FC Bayern",
+    "lizenz": "mit Genehmigung: FC Bayern München",
+    "url": "https://fcbayern.com/frauen/de/teams/1.-mannschaft"
+   }
+  },
   {
    "id": "fehlt-martret-tsg-0211",
    "pid": "00142",
@@ -6728,206 +6759,6 @@
    "pid": "00009",
    "instagram": "https://www.instagram.com/giuliagwinn/",
    "kurz": "Gwinn im Zeitplan, Rückkehr in Wochen"
-  },
-  {
-   "id": "harder-1910",
-   "zeit": "2026-10-19",
-   "spielerin": "Pernille Harder",
-   "verein": "FC Bayern",
-   "nr": "",
-   "pos": "ST",
-   "tags": [
-    "SPIELBERICHT"
-   ],
-   "headline": "Harder trifft doppelt beim 5:0 gegen Stuttgart",
-   "text": [
-    "Bayern hat Aufsteiger Stuttgart mit 5:0 geschlagen und ist seit 49 Ligaspielen ungeschlagen. Pernille Harder traf zweimal und bereitete ein Tor vor.",
-    "Klara Bühl erzielte ein Tor und gab eine Vorlage, sie steht nun bei vier Toren und fünf Vorlagen. Dazu trafen Dallmann und Imade."
-   ],
-   "kickbase": "Harder, Bühl und Imade sind in Form. Bayern spielt schon am Freitag um 18:30 Uhr in Leipzig.",
-   "quellen": [
-    {
-     "name": "DFB",
-     "url": "https://www.dfb.de/news/bei-50-gegen-stuttgart-fc-bayern-baut-rekord-aus"
-    }
-   ],
-   "foto": "fotos/pernille-harder.jpg",
-   "foto_credit": {
-    "autor": "Granada",
-    "lizenz": "CC BY-SA 4.0",
-    "url": "https://commons.wikimedia.org/wiki/File:20170706_OEFB_AUT-DEN_Pernille_Harder_DSC_8228.jpg"
-   },
-   "pid": "00025",
-   "instagram": "https://www.instagram.com/pharder10/"
-  },
-  {
-   "id": "zadrazil-1910",
-   "zeit": "2026-10-19",
-   "spielerin": "Sarah Zadrazil",
-   "verein": "FC Bayern",
-   "nr": "25",
-   "pos": "MF",
-   "tags": [
-    "RÜCKKEHR",
-    "TOP"
-   ],
-   "headline": "Zadrazil nach Kreuzbandriss zurück in der Startelf",
-   "text": [
-    "Sarah Zadrazil stand gegen Stuttgart zum ersten Mal seit September 2025 wieder in Bayerns Startelf. Nach 63 Minuten wurde sie ausgewechselt.",
-    "Die Österreicherin hatte sich vor gut einem Jahr das Kreuzband gerissen."
-   ],
-   "kickbase": "Einsatzzeit dürfte vorerst gesteuert werden. Mit der Champions League am Mittwoch ist Rotation im Mittelfeld möglich.",
-   "quellen": [
-    {
-     "name": "DFB",
-     "url": "https://www.dfb.de/news/bei-50-gegen-stuttgart-fc-bayern-baut-rekord-aus"
-    }
-   ],
-   "foto": "fotos/sarah-zadrazil.jpg",
-   "foto_credit": {
-    "autor": "Ailura",
-    "lizenz": "CC BY-SA 3.0 at",
-    "url": "https://commons.wikimedia.org/wiki/File:20170803_WEURO_DEN_AUT_0371.jpg"
-   },
-   "pid": "00022",
-   "instagram": "https://www.instagram.com/sarahzadrazil25/"
-  },
-  {
-   "id": "mattner-1910",
-   "zeit": "2026-10-19",
-   "spielerin": "Mattner-Trembleau",
-   "verein": "FC Bayern",
-   "nr": "",
-   "pos": "ABW",
-   "tags": [
-    "ROTATION"
-   ],
-   "headline": "Mattner-Trembleau vertritt Gwinn rechts hinten",
-   "text": [
-    "Gegen Stuttgart begann Mattner-Trembleau als Rechtsverteidigerin und bereitete das 1:0 durch Dallmann vor. Sie war eine von vier neuen Spielerinnen in der Startelf.",
-    "Bei der Sportschau ist sie als Stürmerin geführt, gespielt hat sie in der Viererkette."
-   ],
-   "kickbase": "Kickbase-Position in der App prüfen. Wird sie dort offensiv geführt, ist sie als Rechtsverteidigerin besonders interessant, solange Gwinn fehlt.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306244/bayern-muenchen_vfb-stuttgart/aufstellung"
-    }
-   ]
-  },
-  {
-   "id": "oberdorf-1910",
-   "zeit": "2026-10-19",
-   "spielerin": "Lena Oberdorf",
-   "verein": "FC Bayern",
-   "nr": "8",
-   "pos": "MF",
-   "tags": [
-    "VERLETZUNG"
-   ],
-   "headline": "Oberdorfs Knie macht weiter Probleme",
-   "text": [
-    "Lena Oberdorf fehlte auch gegen Stuttgart. Laut DFB zeigt ihr rechtes Kniegelenk weiterhin eine Reaktion.",
-    "Bayern hatte schon im September von einer Pause in den kommenden Wochen gesprochen. Einen Rückkehrtermin gibt es nicht. Ebenfalls weiter verletzt sind Jovana Damnjanović und Vanessa Gilles."
-   ],
-   "kickbase": "Für die nächsten Spieltage nicht einplanen.",
-   "quellen": [
-    {
-     "name": "DFB",
-     "url": "https://www.dfb.de/news/bei-50-gegen-stuttgart-fc-bayern-baut-rekord-aus"
-    }
-   ],
-   "foto": "fotos/lena-oberdorf.jpg",
-   "foto_credit": {
-    "autor": "Steffen Prößdorf",
-    "lizenz": "CC BY-SA 4.0",
-    "url": "https://commons.wikimedia.org/wiki/File:2023-07-03_Fussball,_Frauen,_Deutsche_Nationalmannschaft,_Media_Day_1DX_6658_by_Stepro-2.jpg"
-   },
-   "pid": "00019",
-   "instagram": "https://www.instagram.com/lena_oberdorf/"
-  },
-  {
-   "id": "rall-1910",
-   "zeit": "2026-10-19",
-   "spielerin": "Maximiliane Rall",
-   "verein": "VfB Stuttgart",
-   "nr": "",
-   "pos": "ABW",
-   "tags": [
-    "VERLETZUNG",
-    "TOP"
-   ],
-   "headline": "Rall und Arouna fehlen mit Oberschenkelproblemen",
-   "text": [
-    "Stuttgart musste in München auf sieben Spielerinnen verzichten. Kapitänin Maximiliane Rall und Mira Arouna fehlten mit Oberschenkelproblemen, Julia Glaser mit Rückenproblemen, Julia Mickenhagen mit Hüftproblemen und Reena Wichmann mit Knieproblemen.",
-    "Fabienne Dongus war erkältet, Rosa Rückert ist im Aufbautraining. Die 16-jährige Hecke und Norman gaben ihr Bundesliga-Debüt."
-   ],
-   "kickbase": "Rall hat drei Saisontore. Ob sie am Samstag gegen Frankfurt zurückkehrt, ist offen.",
-   "quellen": [
-    {
-     "name": "VfB Stuttgart",
-     "url": "https://www.vfb.de/de/vfb/frauen/vfb-frauen-i/frauen-bundesliga/2627/7-bayern-frauen---vfb-stuttgart-frauen-i/"
-    }
-   ],
-   "foto": "fotos/maximiliane-rall.jpg",
-   "foto_credit": {
-    "autor": "Hameltion",
-    "lizenz": "CC BY-SA 4.0",
-    "url": "https://commons.wikimedia.org/wiki/File:NC_Courage_vs_Chicago_Red_Stars_(Jun_2024)_092.jpg"
-   },
-   "pid": "00337",
-   "instagram": "https://www.instagram.com/maxi_rall/"
-  },
-  {
-   "id": "ziemer-1910",
-   "zeit": "2026-10-19",
-   "spielerin": "Taylor Ziemer",
-   "verein": "1. FC Köln",
-   "nr": "",
-   "pos": "MF",
-   "tags": [
-    "VERLETZUNG"
-   ],
-   "headline": "Ziemer muskulär angeschlagen, Carlson gibt Entwarnung",
-   "text": [
-    "Taylor Ziemer sollte gegen den HSV in der Startelf stehen, sagte nach dem Aufwärmen aber wegen muskulärer Probleme ab. Trainerin Carlson stuft die Verletzung als nicht schlimm ein.",
-    "Ziemer hatte zuvor eine Gehirnerschütterung aus dem Freiburg-Spiel auskuriert."
-   ],
-   "kickbase": "Fraglich für Wolfsburg. Ist sie fit, ist sie eine Kandidatin für das Mittelfeld.",
-   "quellen": [
-    {
-     "name": "Geissblog",
-     "url": "https://geissblog.koeln/2026/10/wie-rotation-als-dauerzustand-zum-erfolgsfaktor-wird"
-    }
-   ],
-   "status": "fraglich",
-   "pid": "00204",
-   "kurz": "Ziemer angeschlagen, Carlson gibt Entwarnung"
-  },
-  {
-   "id": "gmeineder-1910",
-   "zeit": "2026-10-19",
-   "spielerin": "Marie Gmeineder",
-   "verein": "Werder Bremen",
-   "nr": "",
-   "pos": "MF",
-   "tags": [
-    "VERLETZUNG"
-   ],
-   "headline": "Gmeineder und Ernst unter den Erkrankten",
-   "text": [
-    "Bei Werder sind Marie Gmeineder und Sarah Ernst namentlich unter den erkrankten Spielerinnen. Die weiteren Namen hat der Verein nicht veröffentlicht.",
-    "Laut Weser-Kurier waren am Wochenende mindestens acht Spielerinnen krank und fünf verletzt. Eine erneute Absage gilt im Verein als sehr unwahrscheinlich."
-   ],
-   "kickbase": "Beide sind für Sonntag fraglich.",
-   "quellen": [
-    {
-     "name": "Weser-Kurier",
-     "url": "https://www.weser-kurier.de/werder/frauen/werder-bremen-wie-die-frauen-mit-der-krankheitswelle-umgehen-doc883ifwl1is916unlh4i7"
-    }
-   ],
-   "pid": "00044",
-   "instagram": "https://www.instagram.com/marie.gmeineder/"
   },
   {
    "id": "aufstellung-rbl-2310",
