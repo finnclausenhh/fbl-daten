@@ -1,6 +1,355 @@
 {
- "stand": "2026-11-02T18:58",
+ "stand": "2026-11-02T21:50",
  "meldungen": [
+  {
+   "id": "wolfsburg-pokal-0211",
+   "zeit": "2026-11-02T19:58",
+   "spielerin": "Spielansetzung",
+   "verein": "VfL Wolfsburg",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "POKAL",
+    "SPIELBERICHT"
+   ],
+   "headline": "Wolfsburg schlägt Hoffenheim 8:0 im Pokal",
+   "kurz": "Wolfsburg gewinnt 8:0 gegen Hoffenheim",
+   "text": [
+    "Der VfL Wolfsburg steht im Viertelfinale des DFB-Pokals. Gegen die TSG Hoffenheim hieß es am Ende 8:0, zur Pause stand es laut Sportschau 5:0.",
+    "Laut DFB-Datencenter trafen Lena Lattwein und Cora Zicai je zweimal, dazu kamen Tore von Lieske Carleer, Janina Minge, Lara Prašnikar und Cecilie Fløe. Fløe traf nach ihrer Einwechslung zur zweiten Halbzeit, Kessya Bussy legte nach ihrer Einwechslung ein Tor vor."
+   ],
+   "kickbase": "Fløe kam im Pokal von der Bank und traf. Bei Hoffenheim saßen Martret und Dick zu Beginn auf der Bank.",
+   "quellen": [
+    {
+     "name": "Sportschau (NDR)",
+     "url": "https://www.sportschau.de/regional/ndr/VfL-Wolfsburg-Frauen-DFB-Pokal-Achtelfinale-TSG-Hoffenheim,wolfsburg-1790.html"
+    },
+    {
+     "name": "Sportschau Aufstellung",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165388/vfl-wolfsburg_tsg-hoffenheim/aufstellung"
+    }
+   ],
+   "spiel_aufstellung": [
+    {
+     "verein": "VfL Wolfsburg",
+     "k": "WOB",
+     "gegner": "TSG Hoffenheim",
+     "wettbewerb": "DFB-Pokal",
+     "ergebnis": "8:0",
+     "tore": [
+      {
+       "min": "2",
+       "n": "Carleer",
+       "eigen": true,
+       "vorlage": "Huth"
+      },
+      {
+       "min": "11",
+       "n": "Zicai",
+       "eigen": true,
+       "vorlage": "Prašnikar"
+      },
+      {
+       "min": "22",
+       "n": "Minge",
+       "eigen": true,
+       "vorlage": "Huth"
+      },
+      {
+       "min": "25",
+       "n": "Prašnikar",
+       "eigen": true
+      },
+      {
+       "min": "41",
+       "n": "Zicai",
+       "eigen": true,
+       "vorlage": "Lattwein"
+      },
+      {
+       "min": "63",
+       "n": "Lattwein",
+       "eigen": true,
+       "vorlage": "Huth"
+      },
+      {
+       "min": "75",
+       "n": "Lattwein",
+       "eigen": true,
+       "vorlage": "Bussy"
+      },
+      {
+       "min": "85",
+       "n": "Fløe",
+       "eigen": true
+      }
+     ],
+     "vergleich": "8. Spieltag",
+     "startelf": [
+      {
+       "n": "Johannes",
+       "p": "TW"
+      },
+      {
+       "n": "Bjelde",
+       "p": "ABW",
+       "aus": "70"
+      },
+      {
+       "n": "Carleer",
+       "p": "ABW",
+       "aus": "46",
+       "tore": 1
+      },
+      {
+       "n": "Küver",
+       "p": "ABW"
+      },
+      {
+       "n": "Linder",
+       "p": "ABW"
+      },
+      {
+       "n": "Minge",
+       "p": "DM",
+       "tore": 1
+      },
+      {
+       "n": "Peddemors",
+       "p": "MF",
+       "aus": "56"
+      },
+      {
+       "n": "Lattwein",
+       "p": "MF",
+       "tore": 2,
+       "vorl": 1
+      },
+      {
+       "n": "Huth",
+       "p": "OM",
+       "vorl": 3
+      },
+      {
+       "n": "Zicai",
+       "p": "ST",
+       "f": "neu",
+       "aus": "57",
+       "tore": 2
+      },
+      {
+       "n": "Prašnikar",
+       "p": "ST",
+       "aus": "46",
+       "tore": 1,
+       "vorl": 1
+      }
+     ],
+     "eingewechselt": [
+      {
+       "n": "Kleinherne",
+       "p": "ABW",
+       "ein_min": "46"
+      },
+      {
+       "n": "Fløe",
+       "p": "ST",
+       "ein_min": "46",
+       "tore": 1
+      },
+      {
+       "n": "Vallotto",
+       "p": "MF",
+       "ein_min": "56"
+      },
+      {
+       "n": "Bussy",
+       "p": "OM",
+       "ein_min": "57",
+       "vorl": 1
+      },
+      {
+       "n": "Wedemeyer",
+       "p": "ABW",
+       "ein_min": "70"
+      }
+     ],
+     "raus": [
+      {
+       "n": "Bussy",
+       "p": "OM",
+       "wo": "Bank"
+      }
+     ],
+     "ohne_einsatz": [
+      "Tufeković",
+      "Landenberger",
+      "Alber",
+      "Piljic"
+     ]
+    },
+    {
+     "verein": "TSG Hoffenheim",
+     "k": "TSG",
+     "gegner": "VfL Wolfsburg",
+     "wettbewerb": "DFB-Pokal",
+     "ergebnis": "0:8",
+     "tore": [
+      {
+       "min": "2",
+       "n": "Carleer",
+       "eigen": false,
+       "vorlage": "Huth"
+      },
+      {
+       "min": "11",
+       "n": "Zicai",
+       "eigen": false,
+       "vorlage": "Prašnikar"
+      },
+      {
+       "min": "22",
+       "n": "Minge",
+       "eigen": false,
+       "vorlage": "Huth"
+      },
+      {
+       "min": "25",
+       "n": "Prašnikar",
+       "eigen": false
+      },
+      {
+       "min": "41",
+       "n": "Zicai",
+       "eigen": false,
+       "vorlage": "Lattwein"
+      },
+      {
+       "min": "63",
+       "n": "Lattwein",
+       "eigen": false,
+       "vorlage": "Huth"
+      },
+      {
+       "min": "75",
+       "n": "Lattwein",
+       "eigen": false,
+       "vorlage": "Bussy"
+      },
+      {
+       "min": "85",
+       "n": "Fløe",
+       "eigen": false
+      }
+     ],
+     "vergleich": "7. Spieltag",
+     "startelf": [
+      {
+       "n": "Lichtfus",
+       "p": "TW",
+       "f": "neu"
+      },
+      {
+       "n": "van de Velde",
+       "p": "ABW",
+       "aus": "77"
+      },
+      {
+       "n": "Vöhringer",
+       "p": "ABW",
+       "aus": "46"
+      },
+      {
+       "n": "Doorn",
+       "p": "ABW"
+      },
+      {
+       "n": "Kaut",
+       "p": "ABW",
+       "f": "neu"
+      },
+      {
+       "n": "Diehm",
+       "p": "DM"
+      },
+      {
+       "n": "Steiner",
+       "p": "OM",
+       "aus": "70"
+      },
+      {
+       "n": "Grimm",
+       "p": "OM"
+      },
+      {
+       "n": "Hahn",
+       "p": "ST",
+       "aus": "64"
+      },
+      {
+       "n": "Natter",
+       "p": "ST",
+       "f": "neu"
+      },
+      {
+       "n": "Fölmli",
+       "p": "ST",
+       "aus": "64"
+      }
+     ],
+     "eingewechselt": [
+      {
+       "n": "Gloning",
+       "p": "ABW",
+       "ein_min": "46"
+      },
+      {
+       "n": "Bitzer",
+       "p": "ABW",
+       "ein_min": "64"
+      },
+      {
+       "n": "Fenger",
+       "p": "ST",
+       "ein_min": "64"
+      },
+      {
+       "n": "Douma",
+       "p": "ABW",
+       "ein_min": "70"
+      },
+      {
+       "n": "Ampoorter",
+       "p": "MF",
+       "ein_min": "77"
+      }
+     ],
+     "raus": [
+      {
+       "n": "Dick",
+       "p": "TW",
+       "wo": "Bank"
+      },
+      {
+       "n": "Gloning",
+       "p": "ABW",
+       "wo": "Bank"
+      },
+      {
+       "n": "Laia Martret",
+       "p": "ST",
+       "wo": "Bank"
+      }
+     ],
+     "ohne_einsatz": [
+      "Dick",
+      "Röder",
+      "Laia Martret",
+      "Lueger"
+     ]
+    }
+   ]
+  },
   {
    "id": "gwinn-0211",
    "pid": "00009",
