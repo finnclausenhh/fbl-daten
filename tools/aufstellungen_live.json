@@ -1,6 +1,34 @@
 {
  "meldungen": [
   {
+   "id": "fehlt-martret-tsg-0211",
+   "pid": "00142",
+   "zeit": "2026-11-02T18:00",
+   "spielerin": "Laia Martret",
+   "verein": "TSG Hoffenheim",
+   "nr": "",
+   "pos": "ST",
+   "tags": [
+    "AUFSTELLUNG",
+    "POKAL"
+   ],
+   "status": "fraglich",
+   "headline": "Martret und Thomann nicht im Kader gegen VfL Wolfsburg",
+   "text": [
+    "Im DFB-Pokal gegen VfL Wolfsburg stehen weder in der Startelf noch auf der Bank: Laia Martret (5 von 5 Ligaspielen in der Startelf), Vivien Thomann (0 von 5 Ligaspielen in der Startelf).",
+    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
+   ],
+   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie alle als fraglich und stufen sie in der Prognose herunter.",
+   "quellen": [
+    {
+     "name": "DFB-Datencenter",
+     "url": "https://datencenter.dfb.de/matches/vfl-wolfsburg-tsg-hoffenheim-2431329"
+    }
+   ],
+   "quelle_live": true,
+   "kurz": "Martret und Thomann nicht im Kader"
+  },
+  {
    "id": "aufstellung-pokal-wob-0211",
    "zeit": "2026-11-02T16:46",
    "spielerin": "Spielansetzung",
