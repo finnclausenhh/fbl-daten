@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-03T13:46",
+ "stand": "2026-11-03T13:48",
  "meldungen": [
   {
    "id": "wolfsburg-pokal-0211",
@@ -1809,12 +1809,12 @@
     "POKAL"
    ],
    "status": "fraglich",
-   "headline": "Reimann und Ihme nicht im Kader gegen FC Carl Zeiss Jena",
+   "headline": "Reimann nicht im Kader gegen FC Carl Zeiss Jena",
    "text": [
-    "Im DFB-Pokal gegen FC Carl Zeiss Jena stehen weder in der Startelf noch auf der Bank: Anna Reimann (5 von 5 Ligaspielen in der Startelf), Pauline Ihme (0 von 5 Ligaspielen in der Startelf).",
+    "Anna Reimann steht im DFB-Pokal gegen FC Carl Zeiss Jena weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
     "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
    ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie alle als fraglich und stufen sie in der Prognose herunter.",
+   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
    "quellen": [
     {
      "name": "DFB-Datencenter",
@@ -1822,7 +1822,7 @@
     }
    ],
    "quelle_live": true,
-   "kurz": "Reimann und Ihme nicht im Kader"
+   "kurz": "Reimann nicht im Kader"
   },
   {
    "id": "fehlt-viggosdottir-fcb-0111",
@@ -1872,20 +1872,19 @@
     "POKAL"
    ],
    "status": "fraglich",
-   "headline": "Bender und Remien nicht im Kader gegen FC Bayern",
+   "headline": "Bender nicht im Kader gegen FC Bayern",
    "text": [
-    "Im DFB-Pokal gegen FC Bayern stehen weder in der Startelf noch auf der Bank: Loreen Bender (4 von 5 Ligaspielen in der Startelf), Louisa Remien (0 von 5 Ligaspielen in der Startelf).",
+    "Loreen Bender steht im DFB-Pokal gegen FC Bayern weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 4-mal.",
     "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
    ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie alle als fraglich und stufen sie in der Prognose herunter.",
+   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
    "quellen": [
     {
      "name": "Sportschau",
      "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165391/bayern-muenchen_bayer-leverkusen/aufstellung"
     }
    ],
-   "quelle_live": true,
-   "kurz": "Bender und Remien nicht im Kader"
+   "quelle_live": true
   },
   {
    "id": "fehlt-altenburg-sge-0111",
@@ -1900,20 +1899,19 @@
     "POKAL"
    ],
    "status": "fraglich",
-   "headline": "Altenburg und Doorsoun nicht im Kader gegen 1. FC Nürnberg",
+   "headline": "Altenburg nicht im Kader gegen 1. FC Nürnberg",
    "text": [
-    "Im DFB-Pokal gegen 1. FC Nürnberg stehen weder in der Startelf noch auf der Bank: Lina Altenburg (5 von 5 Ligaspielen in der Startelf), Sara Doorsoun (2 von 5 Ligaspielen in der Startelf).",
+    "Lina Altenburg steht im DFB-Pokal gegen 1. FC Nürnberg weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
     "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
    ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie alle als fraglich und stufen sie in der Prognose herunter.",
+   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
    "quellen": [
     {
      "name": "DFB-Datencenter",
      "url": "https://datencenter.dfb.de/matches/1-fc-nuernberg-eintracht-frankfurt-2431335"
     }
    ],
-   "quelle_live": true,
-   "kurz": "Altenburg und Doorsoun nicht im Kader"
+   "quelle_live": true
   },
   {
    "id": "aufstellung-pokal-scf-0111",
