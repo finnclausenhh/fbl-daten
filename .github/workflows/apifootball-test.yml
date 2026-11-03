@@ -1,0 +1,52 @@
+name: API-Football Prüflauf (Test)
+
+# Nur Test, schreibt nichts in den Ticker. Skript und Ergebnisse liegen im Zweig apifootball-test.
+# Diese Datei muss zusätzlich auf main liegen, weil GitHub geplante Läufe nur von dort startet.
+# Schlüssel aus dem Repo-Geheimnis API_FOOTBALL_KEY (Gratistarif, 100 Abfragen pro Tag).
+on:
+  push:
+    branches: [apifootball-test]
+    paths: ["tools/apifootball_test.py", ".github/workflows/apifootball-test.yml"]
+  workflow_dispatch:
+    inputs:
+      modus:
+        description: "bestand oder messen"
+        default: bestand
+  schedule:
+    # Fr bis Mo stündlich: misst nur, wenn ein Anpfiff in den nächsten 90 Minuten liegt
+    - cron: "5 * * * 5,6,0,1"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: apifootball-test
+  cancel-in-progress: false
+
+jobs:
+  pruefen:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: apifootball-test
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Prüflauf
+        env:
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ] || [ "${{ inputs.modus }}" = "messen" ]; then
+            python3 tools/apifootball_test.py --messen
+          else
+            python3 tools/apifootball_test.py --bestand
+          fi
+      - name: Ergebnis sichern
+        run: |
+          git add apifootball/ 2>/dev/null || true
+          if git diff --cached --quiet; then echo "keine Änderung"; exit 0; fi
+          git -c user.name="WOSOINSIDER" -c user.email="finnclausenhh@users.noreply.github.com" commit -qm "API-Football Prüflauf: Ergebnis"
+          for i in 1 2 3; do git pull -q --rebase origin apifootball-test && git push -q origin HEAD:apifootball-test && exit 0; sleep 10; done
+          exit 1
