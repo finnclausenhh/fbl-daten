@@ -481,6 +481,37 @@ if xgcheck:
 news = [n for n in news if n]
 for n in news: n["text"] = [t for t in n.get("text", []) if t]
 
+# Über den Tag verteilen (Finn: etwa 10 Beiträge am Tag): feste Sendezeiten, bereits vergebene Zeiten bleiben
+from zoneinfo import ZoneInfo
+BER = ZoneInfo("Europe/Berlin")
+jetzt = datetime.datetime.now(BER).replace(tzinfo=None)
+alt = {}
+try:
+    for n in lade(AUS).get("news", []): alt[n["id"]] = n["zeit"]
+except Exception: pass
+# Ereignis-Meldungen nur, solange der Spieltag frisch ist (bis 3 Tage nach dem letzten Spiel)
+letzt = max((p["anstoss"] for (m, h, g), p in PARTIE.items() if m == MDL and p.get("anstoss")), default=None)
+if letzt and (jetzt - datetime.datetime.fromisoformat(letzt)).days > 3:
+    news = [n for n in news if n["tags"][0] not in ("JOKER", "ELFMETER", "xG-CHECK")]
+RANGF = {"JOKER": 0, "ELFMETER": 1, "xG-CHECK": 2, "GELBSPERRE": 3, "FORMTIEF": 4, "FORMHOCH": 5, "AUFWIND": 6}
+news.sort(key=lambda n: RANGF.get(n["tags"][0], 9))
+SLOTS = ["08:15", "10:15", "12:15", "14:15", "16:15", "18:15", "20:15"]
+def slots_ab(t):
+    d = t.date()
+    while True:
+        for z in SLOTS:
+            x = datetime.datetime.combine(d, datetime.time.fromisoformat(z))
+            if x > t: yield x
+        d += datetime.timedelta(days=1)
+belegt = {alt[n["id"]] for n in news if n["id"] in alt}
+gen = slots_ab(jetzt)
+for n in news:
+    if n["id"] in alt: n["zeit"] = alt[n["id"]]; continue
+    while True:
+        x = next(gen).strftime("%Y-%m-%dT%H:%M")
+        if x not in belegt: break
+    n["zeit"] = x; belegt.add(x)
+
 # ---------------------------------------------------------------- schreiben
 out = {"stand": datetime.datetime.now().strftime("%Y-%m-%dT%H:%M"), "saison": SAISON, "md": max((s["md"] for s in spiele.values()), default=0),
        "hinweis": "Noten und Teamwerte: API-Football. Minuten, Startelf, Tore, Vorlagen: Sportschau und eigene Auswertung.",

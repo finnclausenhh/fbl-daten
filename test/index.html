@@ -2611,7 +2611,7 @@ details.dzb[open]{padding-bottom:10px}
   }).catch(() => { if (VIEW === "meldungen") $("#main").innerHTML = '<p class="leer">Die Meldungen konnten nicht geladen werden. Seite neu laden.</p>'; });
   Object.assign(TAGF, {FORMTIEF: ["#F59E0B", "#1A1206"], FORMHOCH: ["#22C55E", "#06210f"], ELFMETER: ["#6E9BFF", "#0B1220"], JOKER: ["#4ADE80", "#06210f"], GELBSPERRE: ["#F5C518", "#1A1606"], "xG-CHECK": ["#9B6BE8", "#fff"], INSIDER: ["#2A3B5E", "#C7D7FF"], AUFWIND: ["#22C55E", "#06210f"]});
   ladeAF().then(afNeu).then(() => { ladeSPN().catch(() => {}); const mische = () => { if (!N.length) return setTimeout(mische, 400);
-    const neu = (AF.news || []).filter(n => !N.some(m => m.id === n.id)); if (!neu.length) return;
+    const neu = (AF.news || []).filter(n => !N.some(m => m.id === n.id) && dt(n.zeit) <= new Date()); if (!neu.length) return;
     N = N.concat(neu).sort((a, b) => String(b.zeit).localeCompare(String(a.zeit)));
     if (VIEW === "meldungen" && document.querySelector("#main .liste")) { const y = window.scrollY; list(); window.scrollTo(0, y); } }; mische(); });
   window.AFT = {spiel: id => { VIEW = "spielplan"; Promise.all([loadSP(), ladeSPN(), ladeAF()]).then(() => spiel(id)); }, show};

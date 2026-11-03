@@ -1,0 +1,53 @@
+name: API-Football Daten für den Ticker
+
+# Zieht die Saison bei API-Football (Rohdaten in den Zweig apifootball-test) und baut daraus apifootball.json auf main.
+# Der Ticker liest apifootball.json (Noten, Teamwerte, Formkurve, Vorschau, News-Kandidaten).
+# Pro-Testmonat bis 03.12.2026. Danach liefert die API die laufende Saison nicht mehr, der Bau nutzt dann den letzten Stand.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "40 4 * * *"        # täglich früh
+    - cron: "50 21 * * 5,6,0"   # Spieltagsabende
+    - cron: "50 16 * * 6,0"     # nach den Nachmittagsspielen
+
+permissions:
+  contents: write
+
+concurrency:
+  group: apifootball-daten
+  cancel-in-progress: false
+
+jobs:
+  bauen:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Rohdaten holen
+        continue-on-error: true
+        env:
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+        run: |
+          git fetch -q origin apifootball-test
+          git worktree add -q /tmp/aft origin/apifootball-test
+          cd /tmp/aft
+          SAISON=2026 python3 tools/apifootball_test.py --saison
+          git add apifootball/ 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git -c user.name="WOSOINSIDER" -c user.email="finnclausenhh@users.noreply.github.com" commit -qm "API-Football: Saison 2026 aktualisiert"
+            for i in 1 2 3; do git fetch -q origin apifootball-test && git rebase -q origin/apifootball-test && git push -q origin HEAD:apifootball-test && break; sleep 10; done
+          fi
+      - name: apifootball.json bauen
+        run: |
+          [ -d /tmp/aft/apifootball ] || git worktree add -q /tmp/aft origin/apifootball-test
+          AFDIR=/tmp/aft/apifootball python3 tools/apifootball_bau.py --aus apifootball.json
+      - name: Sichern
+        run: |
+          git add apifootball.json
+          if git diff --cached --quiet; then echo "keine Änderung"; exit 0; fi
+          git -c user.name="WOSOINSIDER" -c user.email="finnclausenhh@users.noreply.github.com" commit -qm "API-Football: apifootball.json"
+          for i in 1 2 3; do git fetch -q origin main && git rebase -q origin/main && git push -q origin HEAD:main && exit 0; sleep 10; done
+          exit 1

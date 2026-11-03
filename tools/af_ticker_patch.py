@@ -8,6 +8,7 @@ import sys
 
 QUELLE, ZIEL = sys.argv[1], sys.argv[2]
 DATEN = sys.argv[3] if len(sys.argv) > 3 else "test/apifootball.json"
+LIVE = "--live" in sys.argv
 h = open(QUELLE, encoding="utf-8").read()
 
 def ers(alt, neu, n=1):
@@ -476,7 +477,7 @@ h = h[:i1] + r"""  let NCDIR = "tief";
 # News-Kandidaten aus API-Football in den Feed (nur Testkopie)
 ers("  ladeAF().then(afNeu);", r"""  Object.assign(TAGF, {FORMTIEF: ["#F59E0B", "#1A1206"], FORMHOCH: ["#22C55E", "#06210f"], ELFMETER: ["#6E9BFF", "#0B1220"], JOKER: ["#4ADE80", "#06210f"], GELBSPERRE: ["#F5C518", "#1A1606"], "xG-CHECK": ["#9B6BE8", "#fff"], INSIDER: ["#2A3B5E", "#C7D7FF"]});
   ladeAF().then(afNeu).then(() => { const mische = () => { if (!N.length) return setTimeout(mische, 400);
-    const neu = (AF.news || []).filter(n => !N.some(m => m.id === n.id)); if (!neu.length) return;
+    const neu = (AF.news || []).filter(n => !N.some(m => m.id === n.id) && dt(n.zeit) <= new Date()); if (!neu.length) return;
     N = N.concat(neu).sort((a, b) => String(b.zeit).localeCompare(String(a.zeit)));
     if (VIEW === "meldungen" && document.querySelector("#main .liste")) { const y = window.scrollY; list(); window.scrollTo(0, y); } }; mische(); });""")
 
@@ -517,5 +518,9 @@ CSS3 = """
 """
 i = h.rfind("</style>"); h = h[:i] + CSS3 + h[i:]
 
+if LIVE:
+    h = h.replace('<div class="af-test">TESTVERSION · neue Daten aus API-Football · nicht öffentlich</div>', "")
+    h = h.replace('  window.AFT = {spiel: id => { VIEW = "spielplan"; Promise.all([loadSP(), ladeSPN(), ladeAF()]).then(() => spiel(id)); }, show};\n', "")
+    assert "af-test\">TEST" not in h and "window.AFT" not in h
 open(ZIEL, "w", encoding="utf-8").write(h)
 print("ok", ZIEL, len(h))
