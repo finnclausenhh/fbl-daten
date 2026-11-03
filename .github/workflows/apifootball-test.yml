@@ -10,11 +10,11 @@ on:
   workflow_dispatch:
     inputs:
       modus:
-        description: "bestand oder messen"
+        description: "saison, bestand, abdeckung oder messen"
         default: bestand
-  # Messung am Spieltag (stündlich Fr bis Mo) erst wieder aktivieren, wenn ein Bezahltarif die laufende Saison freigibt:
-  # schedule:
-  #   - cron: "5 * * * 5,6,0,1"
+  # Messung am Spieltag: stündlich Fr bis Mo, misst nur, wenn ein Anpfiff in den nächsten 90 Minuten liegt (Pro-Testmonat bis 03.12.2026)
+  schedule:
+    - cron: "5 * * * 5,6,0,1"
 
 permissions:
   contents: write
@@ -41,6 +41,8 @@ jobs:
         run: |
           if [ "${{ github.event_name }}" = "schedule" ] || [ "${{ inputs.modus }}" = "messen" ]; then
             python3 tools/apifootball_test.py --messen
+          elif [ "${{ github.event_name }}" = "push" ] || [ "${{ inputs.modus }}" = "saison" ]; then
+            python3 tools/apifootball_test.py --saison
           elif [ "${{ inputs.modus }}" = "bestand" ]; then
             python3 tools/apifootball_test.py --bestand
           else

@@ -17,7 +17,7 @@ from pathlib import Path
 
 BASIS = "https://v3.football.api-sports.io"
 SAISON = int(os.environ.get("SAISON", "2026"))  # Pro-Testmonat ab 03.11.2026; im Gratistarif nur 2022 bis 2024
-LIMIT = 90
+LIMIT = int(os.environ.get("LIMIT", "400"))
 AUS = Path("apifootball")
 abfragen = 0
 
@@ -29,7 +29,7 @@ def api(pfad, **params):
     url = f"{BASIS}/{pfad}" + ("?" + urllib.parse.urlencode(params) if params else "")
     req = urllib.request.Request(url, headers={"x-apisports-key": os.environ["API_FOOTBALL_KEY"],
                                                "User-Agent": "WOSOINSIDER-Test/0.1"})
-    time.sleep(7)  # Gratistarif: höchstens 10 Abfragen pro Minute
+    time.sleep(float(os.environ.get("TAKT", "1.2")))  # Gratistarif bräuchte 7 s (10/min)
     with urllib.request.urlopen(req, timeout=30) as r:
         abfragen += 1
         d = json.loads(r.read().decode("utf-8"))
@@ -57,6 +57,47 @@ def abdeckung():
             (AUS / "abdeckung.json").write_text(json.dumps(out, ensure_ascii=False, indent=1))
             print(json.dumps(out, ensure_ascii=False, indent=1))
             return
+
+
+def saison():
+    """Alles zur laufenden Saison als Rohdaten sichern (Pro-Tarif): Spiele mit Details, Spielerinnen, Toplisten."""
+    lid, sinfo = liga()
+    ziel = AUS / f"saison{SAISON}"
+    ziel.mkdir(parents=True, exist_ok=True)
+    spiele = api("fixtures", league=lid, season=SAISON)
+    beendet = [s["fixture"]["id"] for s in spiele if s["fixture"]["status"]["short"] in ("FT", "AET", "PEN")]
+    details = []
+    for i in range(0, len(beendet), 20):
+        details += api("fixtures", ids="-".join(map(str, beendet[i:i + 20])))
+    spielerinnen, seite = [], 1
+    while True:
+        d = api_voll("players", league=lid, season=SAISON, page=seite)
+        spielerinnen += d["response"]
+        if seite >= d["paging"]["total"]:
+            break
+        seite += 1
+    teams = api("teams", league=lid, season=SAISON)
+    kader = {t["team"]["id"]: api("players/squads", team=t["team"]["id"]) for t in teams}
+    top = {k: api(f"players/{k}", league=lid, season=SAISON) for k in ("topscorers", "topassists", "topyellowcards")}
+    for name, inhalt in (("spiele", spiele), ("spiele_details", details), ("spielerinnen", spielerinnen),
+                         ("teams", teams), ("kader", kader), ("toplisten", top), ("liga", sinfo)):
+        (ziel / f"{name}.json").write_text(json.dumps(inhalt, ensure_ascii=False))
+    print(json.dumps({"spiele": len(spiele), "beendet": len(beendet), "details": len(details),
+                      "spielerinnen": len(spielerinnen), "teams": len(teams), "abfragen": abfragen}, ensure_ascii=False))
+
+
+def api_voll(pfad, **params):
+    """Wie api(), gibt aber die ganze Antwort inkl. paging zurück."""
+    global abfragen
+    url = f"{BASIS}/{pfad}?" + urllib.parse.urlencode(params)
+    req = urllib.request.Request(url, headers={"x-apisports-key": os.environ["API_FOOTBALL_KEY"], "User-Agent": "WOSOINSIDER-Test/0.1"})
+    time.sleep(float(os.environ.get("TAKT", "1.2")))
+    with urllib.request.urlopen(req, timeout=30) as r:
+        abfragen += 1
+        d = json.loads(r.read().decode("utf-8"))
+    if d.get("errors"):
+        raise SystemExit(f"API-Fehler bei {pfad}: {d['errors']}")
+    return d
 
 
 def befuellt(x):
@@ -177,7 +218,7 @@ def messen():
 
 if __name__ == "__main__":
     try:
-        abdeckung() if "--abdeckung" in sys.argv else (messen() if "--messen" in sys.argv else bestand())
+        saison() if "--saison" in sys.argv else abdeckung() if "--abdeckung" in sys.argv else (messen() if "--messen" in sys.argv else bestand())
     except (SystemExit, Exception) as e:
         import traceback
         code = getattr(e, "code", None) if isinstance(e, SystemExit) else traceback.format_exc()[-1500:]
