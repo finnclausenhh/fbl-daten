@@ -1,0 +1,344 @@
+#!/usr/bin/env python3
+"""Baut apifootball.json für den Ticker aus den API-Football-Rohdaten.
+
+Regeln (Finn, 03.11.2026):
+- Minuten, Startelf, Tore, Vorlagen, Status kommen aus unserer Quelle (spielerinnen.json).
+  API-Football ergänzt nur: Noten, Teamwerte (xG, Schüsse, Ecken ...), Schlüsselpässe, Paraden, Elfmeter.
+- Formkurve nur aus Einsätzen ab 60 Minuten (unsere Minuten).
+- Summen immer selbst aus den Einzelspielen (Saison-Endpunkt ist unvollständig).
+
+Aufruf: python3 tools/apifootball_bau.py [--aus test/apifootball.json]
+Liest: spielerinnen.json, spielplan.json, apifootball/saison2023..2026/
+"""
+import json, os, re, sys, unicodedata, datetime, collections
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+AUS = sys.argv[sys.argv.index("--aus") + 1] if "--aus" in sys.argv else os.path.join(ROOT, "apifootball.json")
+SAISON = int(os.environ.get("SAISON", "2026"))
+P = lambda *a: os.path.join(ROOT, *a)
+lade = lambda p: json.load(open(p, encoding="utf-8"))
+
+# API-Team-ID -> unser Kürzel (IDs bleiben über die Saisons gleich)
+TEAM = {1858: "TSG", 1859: "B04", 1860: "FCB", 1863: "WOB", 1867: "SCF", 1870: "SVW", 1871: "KOE",
+        14014: "SGE", 20487: "FCN", 20498: "HSV", 20501: "RBL", 21564: "M05", 24130: "VFB", 24133: "FCU"}
+
+# Starker Fuß aus unseren Stammdaten (claude/fbl-kader-stammdaten.csv, Stand 25.10.2026), Schlüssel Verein + Rückennummer
+# r = rechts, l = links, b = beidfüßig. Zusätzlich die abweichenden Nummern aus dem Ligadatenfeed.
+FUSS_ROH = """FCB 01b 22r 38r 02r 03r 04r 05l 07r 11r 19l 20l 36l 08b 10r 14l 15r 18r 25r 28r 06r 09r 17r 21b 23r 29r
+WOB 01r 21r 22r 40b 02b 04r 16b 20r 23l 24r 39r 05r 06r 08r 10b 14b 15r 17r 07r 09b 13r 18b 19r 28r 38b 41b
+SGE 01b 12r 21r 11l 13r 14r 15l 17r 19r 38r 23r 27b 29r 04r 06r 07r 08r 09r 18r 26r 10r 16r 22r 28r 47r
+TSG 01r 28r 27r 04l 14l 20r 22b 30r 34r 06r 16r 17r 21l 23r 26r 11b 15b 19r 29r
+B04 01r 12r 35r 02r 03r 05r 08l 10r 14l 24r 30l 06r 11b 16r 19r 21l 27r 34r 42b 07r 09r 17r 18r 23r 41r
+SCF 01r 21r 33l 02r 03r 05l 18r 19r 20l 32b 34l 35l 04l 06r 07r 08r 09l 10b 15r 16r 30r 13r 31r 14r 17r 22r 23r
+RBL 01r 44r 03r 05b 15r 22l 24r 30r 06r 13r 16r 18r 07r 08r 14r 17r 20r 77r
+KOE 01r 12l 34r 35r 02r 04r 05r 13r 14r 21b 24l 25r 33r 37r 08r 17r 27r 28l 30r 09r 11b 19r 26r 29r
+SVW 01r 16b 30r 39r 02l 03r 04r 05r 15r 19r 21r 27b 32b 33r 06r 07r 14r 23r 28r 08r 09r 10r 11b 13r 20r 26l 31b
+FCU 01r 12r 28r 40r 02r 04r 05l 17r 19r 21r 25r 26r 30r 77r 06b 07l 08r 31l 32r 41r 09r 10r 11r 14r 23r 27r 42l
+HSV 01r 18r 12r 33l 36r 02r 04r 05l 14r 21l 39b 08r 09r 10r 15r 26l 28r 29r 32l 37r 07r 11r 17r 19b 20r 22b 23r
+FCN 01b 25b 31r 33r 02b 04r 05b 12r 14l 16r 17b 18r 21r 22l 03r 06r 07r 09r 10b 11r 19r 28r 15r 20r 23r 24r 29r 99r
+VFB 01r 12r 25l 03l 05r 16b 18l 32r 06l 08b 11r 19b 28r 31r 33r 10r 79r 20r 26r
+M05 01r 32r 03r 04r 09r 15r 18l 20b 25r 31r 37l 06r 07r 08r 10r 14r 16r 19r 22r 23r 27r"""
+FUSS = {}
+for z in FUSS_ROH.splitlines():
+    k, *w = z.split()
+    for t in w: FUSS[(k, str(int(t[:-1])))] = {"r": "rechts", "l": "links", "b": "beidfüßig"}[t[-1]]
+
+def norm(s):
+    s = unicodedata.normalize("NFKD", str(s or "")).encode("ascii", "ignore").decode().lower()
+    return re.sub(r"[^a-z ]", " ", s).split()
+
+def zahl(v):
+    try: return float(str(v).rstrip("%"))
+    except (TypeError, ValueError): return None
+
+# ---------------------------------------------------------------- unsere Daten
+SPN = lade(P("spielerinnen.json"))
+SPP = lade(P("spielplan.json"))
+WIR = SPN["spielerinnen"]
+PRO_K = collections.defaultdict(list)
+for s in WIR: PRO_K[s["k"]].append(s)
+
+PARTIE = {}   # (md, heimK, gastK) -> partie
+for t in SPP["spieltage"]:
+    for p in t["partien"]: PARTIE[(p["md"], p["heim_k"], p["gast_k"])] = p
+
+def md_aus(r):
+    m = re.search(r"(\d+)$", r or ""); return int(m.group(1)) if m else None
+
+def finde(k, api_name, nr):
+    """API-Spielerin einer unserer Spielerinnen im Verein k zuordnen: Nachname, sonst Rückennummer."""
+    teile = norm(api_name)
+    kand = PRO_K.get(k, [])
+    if teile:
+        nach = teile[-1]
+        treffer = [s for s in kand if nach in norm(s["n"])]
+        if len(treffer) == 1: return treffer[0]
+        if len(treffer) > 1 and nr is not None:
+            t2 = [s for s in treffer if str(s.get("nr")) == str(nr)]
+            if t2: return t2[0]
+        # "K. Buhl" vs "Bühl": norm entfernt Umlaute schon; zusammengesetzte Namen
+        for s in kand:
+            ns = norm(s["n"])
+            if teile and len(teile[-1]) > 3 and any(x.startswith(teile[-1][:5]) for x in ns): return s
+    if nr is not None:
+        t3 = [s for s in kand if str(s.get("nr")) == str(nr)]
+        if len(t3) == 1: return t3[0]
+    return None
+
+# ---------------------------------------------------------------- aktuelle Saison
+DET = lade(P("apifootball", f"saison{SAISON}", "spiele_details.json"))
+APIP = lade(P("apifootball", f"saison{SAISON}", "spielerinnen.json"))
+APIP_BY = {a["player"]["id"]: a["player"] for a in APIP}
+
+ID = {}                 # API-ID -> unsere ID
+ungeklaert = set()
+spiele = {}             # unsere Partie-ID -> Teamwerte, Noten
+sp = collections.defaultdict(lambda: {"no": [], "kp": 0, "kpmin": 0, "par": 0, "parsp": 0, "elf": [0, 0], "drib": [0, 0]})
+teamsp = collections.defaultdict(list)   # K -> Liste je Spiel (für Ecken, xG)
+ST = {"Total Shots": "sch", "Shots on Goal": "tor", "Ball Possession": "bes", "Corner Kicks": "eck",
+      "Fouls": "fou", "Goalkeeper Saves": "par", "Total passes": "pas", "Passes %": "pq", "expected_goals": "xg"}
+WIRBYID = {s["id"]: s for s in WIR}
+
+for g in DET:
+    md = md_aus(g["league"]["round"])
+    hk, gk = TEAM.get(g["teams"]["home"]["id"]), TEAM.get(g["teams"]["away"]["id"])
+    p = PARTIE.get((md, hk, gk))
+    if not p or g["fixture"]["status"]["short"] not in ("FT", "AET", "PEN"): continue
+    pid = p["id"]
+    werte = {}
+    for blk in g.get("statistics") or []:
+        k = TEAM.get(blk["team"]["id"]); seite = 0 if k == hk else 1
+        for e in blk["statistics"]:
+            if e["type"] in ST:
+                werte.setdefault(ST[e["type"]], [None, None])[seite] = zahl(e["value"])
+    noten = {}
+    for blk in g.get("players") or []:
+        k = TEAM.get(blk["team"]["id"])
+        for pl in blk["players"]:
+            a = pl["player"]; st = pl["statistics"][0]; gm = st["games"]
+            wir = ID.get(a["id"])
+            if not wir:
+                f = finde(k, (APIP_BY.get(a["id"]) or {}).get("lastname") or a["name"], gm.get("number"))
+                if f: ID[a["id"]] = wir = f["id"]
+                elif gm.get("minutes"): ungeklaert.add(f"{k} {a['name']} #{gm.get('number')}")
+            if not wir or not gm.get("minutes"): continue
+            r = zahl(gm.get("rating"))
+            if r: noten[wir] = round(r, 1)
+            d = sp[wir]
+            kp = (st.get("passes") or {}).get("key")
+            if kp is not None: d["kp"] += kp; d["kpmin"] += gm["minutes"]
+            sv = (st.get("goals") or {}).get("saves")
+            if gm.get("position") == "G" and sv is not None: d["par"] += sv; d["parsp"] += 1
+            dr = st.get("dribbles") or {}
+            if dr.get("attempts"): d["drib"][0] += dr.get("success") or 0; d["drib"][1] += dr["attempts"]
+    # Elfmeter aus den Ereignissen
+    for ev in g.get("events") or []:
+        if ev["type"] == "Goal" and ev["detail"] in ("Penalty", "Missed Penalty"):
+            wir = ID.get(ev["player"]["id"])
+            if not wir:
+                f = finde(TEAM.get(ev["team"]["id"]), ev["player"]["name"], None)
+                wir = f and f["id"]
+            if wir: sp[wir]["elf"][0 if ev["detail"] == "Penalty" else 1] += 1
+    spiele[pid] = {"md": md, "w": werte, "no": noten}
+    for seite, k in ((0, hk), (1, gk)):
+        teamsp[k].append({"md": md, "ha": "H" if seite == 0 else "A",
+                          "eck": (werte.get("eck") or [None, None])[seite], "eckg": (werte.get("eck") or [None, None])[1 - seite],
+                          "xg": (werte.get("xg") or [None, None])[seite], "xgg": (werte.get("xg") or [None, None])[1 - seite],
+                          "t": int(p["ergebnis"][seite]), "g": int(p["ergebnis"][1 - seite])})
+
+# Noten den Ligaspielen zuordnen (unsere Minuten zählen)
+for pid, s in spiele.items():
+    for wir, note in s["no"].items():
+        e = next((x for x in WIRBYID[wir]["spiele"] if x["md"] == s["md"]), None)
+        if e and e.get("art") in ("S", "E"): sp[wir]["no"].append([s["md"], note, e.get("min", 0)])
+
+def heute():
+    return datetime.date.today()
+
+# ---------------------------------------------------------------- Profilwerte
+profil = {}
+for s in WIR:
+    d = sp.get(s["id"]); a = None
+    for aid, wid in ID.items():
+        if wid == s["id"]: a = APIP_BY.get(aid); break
+    noten = sorted(d["no"]) if d else []
+    voll = [n for n in noten if n[2] >= 60]
+    alter = (a or {}).get("age")
+    geb = ((a or {}).get("birth") or {}).get("date")
+    if geb:
+        g = datetime.date.fromisoformat(geb); h = heute(); alter = h.year - g.year - ((h.month, h.day) < (g.month, g.day))
+    gr = zahl((a or {}).get("height"))
+    eintrag = {}
+    if noten: eintrag["no"] = noten
+    if voll:
+        eintrag["avg"] = round(sum(n[1] for n in voll) / len(voll), 2)
+        eintrag["best"] = max(n[1] for n in voll)
+        if len(voll) >= 3: eintrag["l3"] = round(sum(n[1] for n in voll[-3:]) / 3, 2)
+    f = FUSS.get((s["k"], str(s.get("nr") or "")))
+    if f: eintrag["fuss"] = f
+    if alter: eintrag["alter"] = alter
+    if gr and 140 < gr < 200: eintrag["gr"] = int(gr)
+    if d:
+        if d["kpmin"] >= 90: eintrag["kp90"] = round(d["kp"] / d["kpmin"] * 90, 2); eintrag["kp"] = d["kp"]
+        if d["parsp"]: eintrag["par"] = d["par"]; eintrag["parsp"] = d["parsp"]
+        if any(d["elf"]): eintrag["elf"] = d["elf"]
+        if d["drib"][1] >= 5: eintrag["drib"] = d["drib"]
+    if eintrag: profil[s["id"]] = eintrag
+
+# ---------------------------------------------------------------- Formtief / Formhoch (Inside)
+def form_liste():
+    tief, hoch = [], []
+    for s in WIR:
+        e = profil.get(s["id"]) or {}
+        voll = [n for n in e.get("no", []) if n[2] >= 60]
+        starts = sum(1 for x in s["spiele"] if x.get("art") == "S")
+        if len(voll) < 5 or starts < 5 or s.get("pos") == "TW": continue
+        l3 = sum(n[1] for n in voll[-3:]) / 3
+        vor = voll[:-3]; basis = sum(n[1] for n in vor) / len(vor)
+        diff = round(l3 - basis, 2)
+        letzte = s["spiele"][-3:]
+        k = {"id": s["id"], "n": s["n"], "k": s["k"], "l3": round(l3, 2), "vorher": round(basis, 2), "diff": diff,
+             "noten": [n[1] for n in voll[-5:]], "min3": [x.get("min", 0) for x in letzte],
+             "prog": (s.get("prognose") or {}).get("st")}
+        if diff <= -0.6: tief.append(k)
+        elif diff >= 0.6: hoch.append(k)
+    tief.sort(key=lambda x: x["diff"]); hoch.sort(key=lambda x: -x["diff"])
+    return tief[:6], hoch[:6]
+
+tief, hoch = form_liste()
+
+# xG-Check der letzten beiden Spieltage mit xG
+xgmds = sorted({s["md"] for s in spiele.values() if (s["w"].get("xg") or [None])[0] is not None})[-2:]
+xgcheck = []
+for pid, s in spiele.items():
+    if s["md"] not in xgmds: continue
+    p = next(pp for (m, h, g), pp in PARTIE.items() if pp["id"] == pid)
+    xg = s["w"]["xg"]
+    for seite, k in ((0, p["heim_k"]), (1, p["gast_k"])):
+        t = int(p["ergebnis"][seite])
+        if xg[seite] is None: continue
+        xgcheck.append({"md": s["md"], "k": k, "gg": p["gast_k"] if seite == 0 else p["heim_k"], "t": t, "xg": xg[seite], "d": round(t - xg[seite], 2)})
+xgcheck.sort(key=lambda x: -abs(x["d"]))
+
+# Standards: Ecken je Team, Elfmeter
+ecken = {}
+for k, L in teamsp.items():
+    e = [x["eck"] for x in L if x["eck"] is not None]; eg = [x["eckg"] for x in L if x["eckg"] is not None]
+    if e: ecken[k] = {"f": round(sum(e) / len(e), 1), "g": round(sum(eg) / len(eg), 1) if eg else None, "n": len(e)}
+elfer = sorted([{"id": i, "n": WIRBYID[i]["n"], "k": WIRBYID[i]["k"], "t": e["elf"][0], "v": e["elf"][1], "fuss": e.get("fuss")}
+                for i, e in profil.items() if e.get("elf")], key=lambda x: (-x["t"], x["v"]))
+
+# Bestenlisten (Statistik)
+def bl(werte, n=10): return sorted(werte, key=lambda x: -x["w"])[:n]
+best = {}
+best["note"] = bl([{"id": i, "w": e["avg"], "z": f"{len([n for n in e['no'] if n[2] >= 60])} Spiele"} for i, e in profil.items()
+                   if len([n for n in e.get("no", []) if n[2] >= 60]) >= 4])
+best["kp90"] = bl([{"id": i, "w": e["kp90"], "z": f"{e['kp']} gesamt"} for i, e in profil.items()
+                   if e.get("kp90") and sp[i]["kpmin"] >= 300])
+best["par"] = bl([{"id": i, "w": round(e["par"] / e["parsp"], 1), "z": f"{e['par']} in {e['parsp']} Spielen"} for i, e in profil.items()
+                  if e.get("parsp", 0) >= 3], 8)
+joker = []
+for s in WIR:
+    t = sum(len(x.get("tore") or []) for x in s["spiele"] if x.get("art") == "E")
+    if t: joker.append({"id": s["id"], "w": t, "z": f"{sum(1 for x in s['spiele'] if x.get('art') == 'E')}x eingewechselt"})
+best["joker"] = bl(joker, 8)
+
+# ---------------------------------------------------------------- Vorschau "Daten zum Spiel"
+ARCH = []
+for y in range(2023, SAISON):
+    try: ARCH += lade(P("apifootball", f"saison{y}", "spiele_details.json"))
+    except FileNotFoundError: pass
+
+def tabelle():
+    t = {k: {"p": 0, "t": 0, "g": 0, "sp": 0} for k in SPN["vereine"]}
+    for (m, h, g), p in PARTIE.items():
+        if p.get("status") != "beendet": continue
+        a, b = int(p["ergebnis"][0]), int(p["ergebnis"][1])
+        for k, x, y in ((h, a, b), (g, b, a)):
+            t[k]["t"] += x; t[k]["g"] += y; t[k]["sp"] += 1; t[k]["p"] += 3 if x > y else 1 if x == y else 0
+    rang = sorted(t, key=lambda k: (-t[k]["p"], -(t[k]["t"] - t[k]["g"]), -t[k]["t"]))
+    return {k: i + 1 for i, k in enumerate(rang)}, t
+
+RANG, TAB = tabelle()
+
+def spiele_von(k):
+    out = []
+    for (m, h, g), p in sorted(PARTIE.items()):
+        if p.get("status") != "beendet" or k not in (h, g): continue
+        s = 0 if k == h else 1
+        out.append({"md": m, "ha": "H" if s == 0 else "A", "t": int(p["ergebnis"][s]), "g": int(p["ergebnis"][1 - s]),
+                    "gk": g if s == 0 else h})
+    return out
+
+def schnitt(L, f):
+    w = [f(x) for x in L if f(x) is not None]
+    return round(sum(w) / len(w), 2) if w else None
+
+def duelle(a, b):
+    ida = [i for i, k in TEAM.items() if k == a][0]; idb = [i for i, k in TEAM.items() if k == b][0]
+    out = []
+    for g in ARCH:
+        h, w = g["teams"]["home"]["id"], g["teams"]["away"]["id"]
+        if {h, w} != {ida, idb} or g["goals"]["home"] is None: continue
+        ta = g["goals"]["home"] if h == ida else g["goals"]["away"]; tb = g["goals"]["away"] if h == ida else g["goals"]["home"]
+        out.append({"d": g["fixture"]["date"][:10], "h": TEAM[h], "t": [ta, tb]})
+    for s in spiele_von(a):
+        if s["gk"] == b: out.append({"d": f"{SAISON}-md{s['md']}", "h": a if s["ha"] == "H" else b, "t": [s["t"], s["g"]]})
+    return sorted(out, key=lambda x: x["d"])
+
+def form5(L): return "".join("S" if x["t"] > x["g"] else "U" if x["t"] == x["g"] else "N" for x in L[-5:])
+
+def karte(p):
+    h, g = p["heim_k"], p["gast_k"]
+    H, G = spiele_von(h), spiele_von(g)
+    hh = [x for x in H if x["ha"] == "H"]; ga = [x for x in G if x["ha"] == "A"]
+    def blk(L, k, ort):
+        tl = [x for x in teamsp[k] if x["ha"] == ort]
+        return {"sp": len(L), "pkt": schnitt(L, lambda x: 3 if x["t"] > x["g"] else 1 if x["t"] == x["g"] else 0),
+                "t": schnitt(L, lambda x: x["t"]), "g": schnitt(L, lambda x: x["g"]),
+                "zn": sum(1 for x in L if x["g"] == 0), "eck": schnitt(tl, lambda x: x["eck"]), "xg": schnitt(tl, lambda x: x["xg"])}
+    bh, bg = blk(hh, h, "H"), blk(ga, g, "A")
+    du = duelle(h, g)
+    siege = [sum(1 for x in du if x["t"][0] > x["t"][1]), sum(1 for x in du if x["t"][0] == x["t"][1]), sum(1 for x in du if x["t"][0] < x["t"][1])]
+    # Einordnung: Grundregeln aus dem Archiv 2023 bis 2025
+    satz = []
+    dh = (bh["t"] or 0) - (bh["g"] or 0); dg = (bg["t"] or 0) - (bg["g"] or 0)
+    name = lambda k: SPN["vereine"][k]["name"]
+    if bh["sp"] >= 4 and bg["sp"] >= 4:
+        if dh - dg >= 1.5: satz.append(f"{name(h)} ist zu Hause klar stärker als {name(g)} auswärts. Die Tordifferenz der ersten Heim- bzw. Auswärtsspiele hat in den letzten drei Saisons den Rest der Saison gut vorhergesagt.")
+        elif dg - dh >= 1.5: satz.append(f"{name(g)} ist auswärts klar stärker als {name(h)} zu Hause. Die Tordifferenz der ersten Heim- bzw. Auswärtsspiele hat in den letzten drei Saisons den Rest der Saison gut vorhergesagt.")
+        else: satz.append("Heimbilanz und Auswärtsbilanz liegen nah beieinander, die Daten sprechen für ein offenes Spiel.")
+    # Heimstärke/-schwäche nur als Zufall einordnen (r = -0,04 im Archiv)
+    gef = []
+    for k, L in ((h, H), (g, G)):
+        heim = [x for x in L if x["ha"] == "H"]; aus = [x for x in L if x["ha"] == "A"]
+        if len(heim) >= 3 and len(aus) >= 3:
+            ph = schnitt(heim, lambda x: 3 if x["t"] > x["g"] else 1 if x["t"] == x["g"] else 0); pa = schnitt(aus, lambda x: 3 if x["t"] > x["g"] else 1 if x["t"] == x["g"] else 0)
+            if abs(ph - pa) >= 1.2: gef.append(f"{name(k)} {'zu Hause' if ph > pa else 'auswärts'}")
+    if gef:
+        satz.append(f"Dass {' und '.join(gef)} deutlich mehr Punkte {'holen' if len(gef) > 1 else 'holt'}, ist nach so wenigen Spielen eher Zufall: Ein Heim-Auswärts-Gefälle nach 4 Spielen hat im Archiv nichts über den Rest der Saison gesagt.")
+    # Kantersieg zuletzt: nicht fortschreiben
+    for k, L in ((h, H), (g, G)):
+        if L and L[-1]["t"] - L[-1]["g"] >= 5:
+            satz.append(f"Das {L[-1]['t']}:{L[-1]['g']} von {name(k)} zuletzt lässt sich nicht fortschreiben: Nach Siegen mit 5 Toren Abstand fielen im nächsten Spiel im Schnitt weniger Tore als sonst (2,26 gegenüber 2,59).")
+    kb = []
+    if bh["zn"] and bh["sp"] and bh["zn"] / bh["sp"] >= .5: kb.append(f"{name(h)} spielt zu Hause oft zu Null ({bh['zn']} von {bh['sp']}), gut für Torhüterin und Abwehr.")
+    if bg["zn"] and bg["sp"] and bg["zn"] / bg["sp"] >= .5: kb.append(f"{name(g)} spielt auswärts oft zu Null ({bg['zn']} von {bg['sp']}), gut für Torhüterin und Abwehr.")
+    if (bh["t"] or 0) >= 2.5: kb.append(f"{name(h)} trifft zu Hause im Schnitt {f"{bh['t']:g}".replace('.', ',')}-mal, Offensive gefragt.")
+    if (bg["t"] or 0) >= 2.5: kb.append(f"{name(g)} trifft auswärts im Schnitt {f"{bg['t']:g}".replace('.', ',')}-mal, Offensive gefragt.")
+    if (bh["g"] or 0) >= 2.5: kb.append(f"{name(h)} kassiert zu Hause im Schnitt {f"{bh['g']:g}".replace('.', ',')} Tore.")
+    if (bg["g"] or 0) >= 2.5: kb.append(f"{name(g)} kassiert auswärts im Schnitt {f"{bg['g']:g}".replace('.', ',')} Tore.")
+    return {"id": p["id"], "md": p["md"], "h": h, "g": g, "rang": [RANG[h], RANG[g]], "form": [form5(H), form5(G)],
+            "heim": bh, "gast": bg, "du": du[-6:], "dus": siege, "satz": satz[:3], "kb": kb[:2]}
+
+naechster = SPP.get("aktuell")
+vorschau = [karte(p) for (m, h, g), p in sorted(PARTIE.items()) if m == naechster and p.get("status") != "beendet"]
+
+# ---------------------------------------------------------------- schreiben
+out = {"stand": datetime.datetime.now().strftime("%Y-%m-%dT%H:%M"), "saison": SAISON, "md": max((s["md"] for s in spiele.values()), default=0),
+       "hinweis": "Noten und Teamwerte: API-Football. Minuten, Startelf, Tore, Vorlagen: Sportschau und eigene Auswertung.",
+       "sp": profil, "spiele": spiele, "form": {"tief": tief, "hoch": hoch}, "xg": xgcheck[:8], "xgmd": xgmds,
+       "ecken": ecken, "elf": elfer, "best": best, "vorschau": vorschau, "ungeklaert": sorted(ungeklaert)}
+os.makedirs(os.path.dirname(os.path.abspath(AUS)), exist_ok=True)
+json.dump(out, open(AUS, "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
+print(f"{AUS}: {len(profil)} Profile, {len(spiele)} Spiele, zugeordnet {len(ID)}, ungeklärt {len(ungeklaert)}, Vorschau {len(vorschau)}")
