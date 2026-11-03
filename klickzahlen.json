@@ -1,30 +1,40 @@
 {
- "stand": "2026-10-31T16:09",
+ "stand": "2026-11-03T06:54",
  "zeitraum_tage": 28,
  "quelle": "GoatCounter (nur Webversion, die App zählt nicht)",
  "belastbar": false,
- "hinweis": "Noch zu wenig Daten (20 von 150 geöffneten Meldungen). Themenwahl ohne Klickzahlen, Top-Teams bevorzugen.",
+ "hinweis": "Noch zu wenig Daten (37 von 150 geöffneten Meldungen). Themenwahl ohne Klickzahlen, Top-Teams bevorzugen.",
  "summen": {
-  "besuche_seiten": 27,
-  "meldungen_geoeffnet": 20,
-  "meldungen_veroeffentlicht": 67,
+  "besuche_seiten": 51,
+  "meldungen_geoeffnet": 37,
+  "meldungen_veroeffentlicht": 98,
   "analyse_geoeffnet": 0,
-  "spiele_geoeffnet": 7
+  "spiele_geoeffnet": 9
  },
  "reiter": {
-  "spielplan": 7,
-  "meldungen": 6,
-  "inside": 5
+  "spielplan": 14,
+  "meldungen": 11,
+  "inside": 11
  },
  "vereine": [
   {
    "k": "FCB",
    "name": "FC Bayern",
    "top_team": true,
-   "meldungen": 16,
-   "oeffnungen": 5,
-   "oeffnungen_7t": 5,
-   "pro_meldung": 0.31,
+   "meldungen": 22,
+   "oeffnungen": 10,
+   "oeffnungen_7t": 10,
+   "pro_meldung": 0.45,
+   "interesse": null
+  },
+  {
+   "k": "WOB",
+   "name": "VfL Wolfsburg",
+   "top_team": true,
+   "meldungen": 10,
+   "oeffnungen": 6,
+   "oeffnungen_7t": 6,
+   "pro_meldung": 0.6,
    "interesse": null
   },
   {
@@ -41,49 +51,19 @@
    "k": "SVW",
    "name": "Werder Bremen",
    "top_team": false,
-   "meldungen": 8,
+   "meldungen": 10,
    "oeffnungen": 2,
    "oeffnungen_7t": 2,
-   "pro_meldung": 0.25,
-   "interesse": null
-  },
-  {
-   "k": "WOB",
-   "name": "VfL Wolfsburg",
-   "top_team": true,
-   "meldungen": 7,
-   "oeffnungen": 2,
-   "oeffnungen_7t": 2,
-   "pro_meldung": 0.29,
-   "interesse": null
-  },
-  {
-   "k": "FCN",
-   "name": "1. FC Nürnberg",
-   "top_team": false,
-   "meldungen": 2,
-   "oeffnungen": 2,
-   "oeffnungen_7t": 2,
-   "pro_meldung": 1.0,
+   "pro_meldung": 0.2,
    "interesse": null
   },
   {
    "k": "TSG",
    "name": "TSG Hoffenheim",
    "top_team": false,
-   "meldungen": 4,
-   "oeffnungen": 1,
-   "oeffnungen_7t": 1,
-   "pro_meldung": 0.25,
-   "interesse": null
-  },
-  {
-   "k": "SGE",
-   "name": "Eintracht Frankfurt",
-   "top_team": true,
-   "meldungen": 3,
-   "oeffnungen": 1,
-   "oeffnungen_7t": 1,
+   "meldungen": 6,
+   "oeffnungen": 2,
+   "oeffnungen_7t": 2,
    "pro_meldung": 0.33,
    "interesse": null
   },
@@ -91,10 +71,40 @@
    "k": "FCU",
    "name": "Union Berlin",
    "top_team": false,
-   "meldungen": 3,
+   "meldungen": 4,
+   "oeffnungen": 2,
+   "oeffnungen_7t": 2,
+   "pro_meldung": 0.5,
+   "interesse": null
+  },
+  {
+   "k": "FCN",
+   "name": "1. FC Nürnberg",
+   "top_team": false,
+   "meldungen": 4,
+   "oeffnungen": 2,
+   "oeffnungen_7t": 2,
+   "pro_meldung": 0.5,
+   "interesse": null
+  },
+  {
+   "k": "SGE",
+   "name": "Eintracht Frankfurt",
+   "top_team": true,
+   "meldungen": 7,
    "oeffnungen": 1,
    "oeffnungen_7t": 1,
-   "pro_meldung": 0.33,
+   "pro_meldung": 0.14,
+   "interesse": null
+  },
+  {
+   "k": "KOE",
+   "name": "1. FC Köln",
+   "top_team": false,
+   "meldungen": 5,
+   "oeffnungen": 1,
+   "oeffnungen_7t": 1,
+   "pro_meldung": 0.2,
    "interesse": null
   },
   {
@@ -111,27 +121,27 @@
    "k": "M05",
    "name": "Mainz 05",
    "top_team": false,
-   "meldungen": 2,
+   "meldungen": 3,
    "oeffnungen": 1,
    "oeffnungen_7t": 1,
-   "pro_meldung": 0.5,
-   "interesse": null
-  },
-  {
-   "k": "KOE",
-   "name": "1. FC Köln",
-   "top_team": false,
-   "meldungen": 5,
-   "oeffnungen": 0,
-   "oeffnungen_7t": 0,
-   "pro_meldung": 0.0,
+   "pro_meldung": 0.33,
    "interesse": null
   },
   {
    "k": "SCF",
    "name": "SC Freiburg",
    "top_team": false,
-   "meldungen": 3,
+   "meldungen": 8,
+   "oeffnungen": 0,
+   "oeffnungen_7t": 0,
+   "pro_meldung": 0.0,
+   "interesse": null
+  },
+  {
+   "k": "B04",
+   "name": "Bayer Leverkusen",
+   "top_team": true,
+   "meldungen": 5,
    "oeffnungen": 0,
    "oeffnungen_7t": 0,
    "pro_meldung": 0.0,
@@ -146,16 +156,6 @@
    "oeffnungen_7t": 0,
    "pro_meldung": 0.0,
    "interesse": null
-  },
-  {
-   "k": "B04",
-   "name": "Bayer Leverkusen",
-   "top_team": true,
-   "meldungen": 1,
-   "oeffnungen": 0,
-   "oeffnungen_7t": 0,
-   "pro_meldung": 0.0,
-   "interesse": null
   }
  ],
  "spielerinnen": [
@@ -165,6 +165,22 @@
    "meldungen": 2,
    "oeffnungen": 4,
    "oeffnungen_7t": 4,
+   "pro_meldung": 2.0
+  },
+  {
+   "n": "Giulia Gwinn",
+   "k": "FCB",
+   "meldungen": 3,
+   "oeffnungen": 3,
+   "oeffnungen_7t": 3,
+   "pro_meldung": 1.0
+  },
+  {
+   "n": "Linda Dallmann",
+   "k": "FCB",
+   "meldungen": 1,
+   "oeffnungen": 2,
+   "oeffnungen_7t": 2,
    "pro_meldung": 2.0
   },
   {
@@ -192,8 +208,24 @@
    "pro_meldung": 1.0
   },
   {
-   "n": "Linda Dallmann",
-   "k": "FCB",
+   "n": "Vivien Thomann",
+   "k": "TSG",
+   "meldungen": 1,
+   "oeffnungen": 1,
+   "oeffnungen_7t": 1,
+   "pro_meldung": 1.0
+  },
+  {
+   "n": "Nele Bauereisen",
+   "k": "FCU",
+   "meldungen": 1,
+   "oeffnungen": 1,
+   "oeffnungen_7t": 1,
+   "pro_meldung": 1.0
+  },
+  {
+   "n": "Pauline Bremer",
+   "k": "KOE",
    "meldungen": 1,
    "oeffnungen": 1,
    "oeffnungen_7t": 1,
@@ -232,12 +264,20 @@
    "pro_meldung": 1.0
   },
   {
-   "n": "Klara Bühl",
+   "n": "Sarah Zadrazil",
    "k": "FCB",
-   "meldungen": 3,
+   "meldungen": 2,
    "oeffnungen": 1,
    "oeffnungen_7t": 1,
-   "pro_meldung": 0.33
+   "pro_meldung": 0.5
+  },
+  {
+   "n": "Klara Bühl",
+   "k": "FCB",
+   "meldungen": 4,
+   "oeffnungen": 1,
+   "oeffnungen_7t": 1,
+   "pro_meldung": 0.25
   }
  ],
  "meldungen_top": [
@@ -249,6 +289,50 @@
     "SPERRE"
    ],
    "oeffnungen": 4
+  },
+  {
+   "id": "gwinn-0211",
+   "headline": "Gwinn lässt Zukunft beim FC Bayern offen",
+   "verein": "FCB",
+   "tags": [
+    "TRANSFER"
+   ],
+   "oeffnungen": 3
+  },
+  {
+   "id": "wolfsburg-pokal-0211",
+   "headline": "Wolfsburg schlägt Hoffenheim 8:0 im Pokal",
+   "verein": "WOB",
+   "tags": [
+    "POKAL",
+    "SPIELBERICHT"
+   ],
+   "oeffnungen": 2
+  },
+  {
+   "id": "aufstellung-pokal-wob-0211",
+   "headline": "Offizielle Aufstellung: VfL Wolfsburg gegen TSG Hoffenheim",
+   "verein": "WOB",
+   "tags": [
+    "POKAL"
+   ],
+   "oeffnungen": 2
+  },
+  {
+   "id": "statistik",
+   "headline": "",
+   "verein": "",
+   "tags": [],
+   "oeffnungen": 2
+  },
+  {
+   "id": "dallmann-2910",
+   "headline": "Dallmann trägt Platzwunde an der Oberlippe davon",
+   "verein": "FCB",
+   "tags": [
+    "VERLETZUNG"
+   ],
+   "oeffnungen": 2
   },
   {
    "id": "aufstellung-svw-2910",
@@ -264,7 +348,7 @@
    "headline": "Zicai trifft dreifach beim 7:0 gegen Feyenoord",
    "verein": "WOB",
    "tags": [
-    "TOP"
+    "SPIELBERICHT"
    ],
    "oeffnungen": 2
   },
@@ -287,106 +371,103 @@
    "oeffnungen": 2
   },
   {
-   "id": "aufstellung-tsg-2910",
-   "headline": "Offizielle Aufstellung: TSG Hoffenheim gegen Werder Bremen",
+   "id": "fehlt-martret-tsg-0211",
+   "headline": "Thomann nicht im Kader gegen VfL Wolfsburg",
    "verein": "TSG",
    "tags": [
-    "TOP"
+    "AUFSTELLUNG",
+    "POKAL"
    ],
    "oeffnungen": 1
   },
   {
-   "id": "dallmann-2910",
-   "headline": "Dallmann trägt Platzwunde an der Oberlippe davon",
+   "id": "zadrazil-3010",
+   "headline": "Zadrazil fällt vor Pokalspiel mit Muskelproblemen aus",
    "verein": "FCB",
    "tags": [
+    "UPDATE",
     "VERLETZUNG"
    ],
    "oeffnungen": 1
   },
   {
-   "id": "imade-2810",
-   "headline": "Imade und Tanikawa retten Bayern ein 2:2 gegen Real",
+   "id": "bayern-pokal-0111",
+   "headline": "Bayern schlägt Leverkusen 1:0 und steht im Viertelfinale",
    "verein": "FCB",
-   "tags": [],
-   "oeffnungen": 1
-  },
-  {
-   "id": "raso-2810",
-   "headline": "Raso und Freigang schießen Frankfurt zum 2:0 in Eindhoven",
-   "verein": "SGE",
    "tags": [
-    "TOP"
-   ],
-   "oeffnungen": 1
-  },
-  {
-   "id": "mainz-kress-2810",
-   "headline": "Georgieva angeschlagen, Mainz weiter ohne Matsumoto, Matheis und Jackson",
-   "verein": "M05",
-   "tags": [
-    "VERLETZUNG"
-   ],
-   "oeffnungen": 1
-  },
-  {
-   "id": "stoldt-2510",
-   "headline": "Stoldt trifft dreifach, HSV und Union trennen sich 4:4",
-   "verein": "HSV",
-   "tags": [
-    "TOP",
+    "POKAL",
     "SPIELBERICHT"
    ],
    "oeffnungen": 1
   },
   {
-   "id": "aufstellung-fcu-2510",
-   "headline": "Offizielle Aufstellung: Union Berlin gegen Hamburger SV",
-   "verein": "FCU",
+   "id": "aufstellung-pokal-fcb-0111",
+   "headline": "Offizielle Aufstellung: FC Bayern gegen Bayer Leverkusen",
+   "verein": "FCB",
    "tags": [
-    "TOP"
+    "POKAL"
    ],
    "oeffnungen": 1
   },
   {
-   "id": "buehl-2710",
-   "headline": "Bühl wird beim Ballon d'Or Zwölfte, Harder in den Top 10",
-   "verein": "FCB",
+   "id": "aufstellung-pokal-tsg-0211",
+   "headline": "Offizielle Aufstellung: TSG Hoffenheim gegen VfL Wolfsburg",
+   "verein": "TSG",
    "tags": [
-    "TOP"
+    "POKAL"
    ],
    "oeffnungen": 1
   }
  ],
  "tags": {
+  "OHNE": {
+   "oeffnungen": 2,
+   "meldungen": 1,
+   "pro_meldung": 2.0
+  },
   "SPERRE": {
    "oeffnungen": 6,
    "meldungen": 5,
    "pro_meldung": 1.2
   },
-  "TOP": {
-   "oeffnungen": 9,
-   "meldungen": 32,
-   "pro_meldung": 0.28
+  "TRANSFER": {
+   "oeffnungen": 3,
+   "meldungen": 3,
+   "pro_meldung": 1.0
   },
   "SPIELBERICHT": {
-   "oeffnungen": 3,
-   "meldungen": 11,
-   "pro_meldung": 0.27
+   "oeffnungen": 12,
+   "meldungen": 23,
+   "pro_meldung": 0.52
   },
   "VERLETZUNG": {
-   "oeffnungen": 2,
+   "oeffnungen": 4,
    "meldungen": 10,
-   "pro_meldung": 0.2
+   "pro_meldung": 0.4
   },
-  "OHNE": {
+  "UPDATE": {
+   "oeffnungen": 1,
+   "meldungen": 3,
+   "pro_meldung": 0.33
+  },
+  "POKAL": {
+   "oeffnungen": 8,
+   "meldungen": 28,
+   "pro_meldung": 0.29
+  },
+  "TOP": {
+   "oeffnungen": 6,
+   "meldungen": 26,
+   "pro_meldung": 0.23
+  },
+  "AUFSTELLUNG": {
    "oeffnungen": 1,
    "meldungen": 8,
    "pro_meldung": 0.12
   },
-  "UPDATE": {
+  "STANDARD": {
    "oeffnungen": 0,
-   "meldungen": 3,
+   "meldungen": 4,
    "pro_meldung": 0.0
   },
   "RÜCKKEHR": {
@@ -394,14 +475,24 @@
    "meldungen": 7,
    "pro_meldung": 0.0
   },
-  "TRANSFER": {
+  "VORBERICHT": {
    "oeffnungen": 0,
-   "meldungen": 2,
+   "meldungen": 5,
+   "pro_meldung": 0.0
+  },
+  "NATIONALTEAM": {
+   "oeffnungen": 0,
+   "meldungen": 1,
+   "pro_meldung": 0.0
+  },
+  "ROTATION": {
+   "oeffnungen": 0,
+   "meldungen": 4,
    "pro_meldung": 0.0
   }
  },
  "_technik": {
-  "pfade": 49,
-  "news_staende": 19
+  "pfade": 66,
+  "news_staende": 75
  }
 }
