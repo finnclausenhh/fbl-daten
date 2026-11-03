@@ -1,35 +1,6 @@
 {
  "meldungen": [
   {
-   "id": "fehlt-martret-tsg-0211",
-   "pid": "00138",
-   "zeit": "2026-11-02T18:00",
-   "spielerin": "Vivien Thomann",
-   "verein": "TSG Hoffenheim",
-   "nr": "",
-   "pos": "MF",
-   "tags": [
-    "AUFSTELLUNG",
-    "POKAL"
-   ],
-   "status": "fraglich",
-   "headline": "Thomann nicht im Kader gegen VfL Wolfsburg",
-   "text": [
-    "Im DFB-Pokal gegen den VfL Wolfsburg stand Vivien Thomann weder in der Startelf noch auf der Bank (0 von 5 Ligaspielen in der Startelf, zuletzt auf der Bank).",
-    "Laia Martret saß dagegen auf der Bank (laut Sportschau-Aufstellung). Das DFB-Datencenter führt sie offenbar unter dem Namen Jimenez, deshalb galt sie hier zunächst als fehlend.",
-    "Einen Grund für Thomanns Fehlen nennt bisher weder der Verein noch eine andere Quelle."
-   ],
-   "kickbase": "Für Kickbase kaum relevant, Thomann spielte in der Liga bisher keine Rolle. Martret bleibt in der Prognose unverändert.",
-   "quellen": [
-    {
-     "name": "DFB-Datencenter",
-     "url": "https://datencenter.dfb.de/matches/vfl-wolfsburg-tsg-hoffenheim-2431329"
-    }
-   ],
-   "quelle_live": true,
-   "kurz": "Thomann nicht im Kader"
-  },
-  {
    "id": "aufstellung-pokal-wob-0211",
    "zeit": "2026-11-02T16:46",
    "spielerin": "Spielansetzung",
@@ -1641,7 +1612,8 @@
   "fehlt-doorsoun-sge-0111",
   "fehlt-ihme-scf-0111",
   "fehlt-remien-b04-0111",
-  "aufstellung-folgt-ma12165388"
+  "aufstellung-folgt-ma12165388",
+  "fehlt-martret-tsg-0211"
  ],
  "ableitungen": [
   {
@@ -1656,19 +1628,6 @@
    "delta": -1,
    "bis": "2026-11-11",
    "grund": "stand am 01.11. gegen FC Carl Zeiss Jena nicht im Spieltagskader, obwohl im letzten Ligaspiel in der Startelf; Grund nicht bekannt"
-  },
-  {
-   "verein": "SC Freiburg",
-   "n": "Ihme",
-   "spielerin": "Pauline Ihme",
-   "war": "Bank",
-   "zeit": "2026-11-01T14:08",
-   "gegner": "FC Carl Zeiss Jena",
-   "wettbewerb": "DFB-Pokal",
-   "quelle": "https://datencenter.dfb.de/matches/sc-freiburg-fc-carl-zeiss-jena-2431333",
-   "delta": -1,
-   "bis": "2026-11-11",
-   "grund": "stand am 01.11. gegen FC Carl Zeiss Jena nicht im Spieltagskader, obwohl im letzten Ligaspiel auf der Bank; Grund nicht bekannt"
   },
   {
    "verein": "FC Bayern",
@@ -1697,19 +1656,6 @@
    "grund": "stand am 01.11. gegen FC Bayern nicht im Spieltagskader, obwohl im letzten Ligaspiel in der Startelf; Grund nicht bekannt"
   },
   {
-   "verein": "Bayer Leverkusen",
-   "n": "Remien",
-   "spielerin": "Louisa Remien",
-   "war": "Bank",
-   "zeit": "2026-11-01T13:53",
-   "gegner": "FC Bayern",
-   "wettbewerb": "DFB-Pokal",
-   "quelle": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165391/bayern-muenchen_bayer-leverkusen/aufstellung",
-   "delta": -1,
-   "bis": "2026-11-11",
-   "grund": "stand am 01.11. gegen FC Bayern nicht im Spieltagskader, obwohl im letzten Ligaspiel auf der Bank; Grund nicht bekannt"
-  },
-  {
    "verein": "Eintracht Frankfurt",
    "n": "Altenburg",
    "spielerin": "Lina Altenburg",
@@ -1721,45 +1667,6 @@
    "delta": -1,
    "bis": "2026-11-11",
    "grund": "stand am 01.11. gegen 1. FC Nürnberg nicht im Spieltagskader, obwohl im letzten Ligaspiel in der Startelf; Grund nicht bekannt"
-  },
-  {
-   "verein": "Eintracht Frankfurt",
-   "n": "Doorsoun",
-   "spielerin": "Sara Doorsoun",
-   "war": "Bank",
-   "zeit": "2026-11-01T13:12",
-   "gegner": "1. FC Nürnberg",
-   "wettbewerb": "DFB-Pokal",
-   "quelle": "https://datencenter.dfb.de/matches/1-fc-nuernberg-eintracht-frankfurt-2431335",
-   "delta": -1,
-   "bis": "2026-11-11",
-   "grund": "stand am 01.11. gegen 1. FC Nürnberg nicht im Spieltagskader, obwohl im letzten Ligaspiel auf der Bank; Grund nicht bekannt"
-  },
-  {
-   "verein": "VfL Wolfsburg",
-   "n": "Bogaert",
-   "spielerin": "Lou Bogaert",
-   "war": "Bank",
-   "zeit": "2026-11-02T18:00",
-   "gegner": "TSG Hoffenheim",
-   "wettbewerb": "DFB-Pokal",
-   "quelle": "https://datencenter.dfb.de/matches/vfl-wolfsburg-tsg-hoffenheim-2431329",
-   "delta": -1,
-   "bis": "2026-11-12",
-   "grund": "stand am 02.11. gegen TSG Hoffenheim nicht im Spieltagskader, obwohl im letzten Ligaspiel auf der Bank; Grund nicht bekannt"
-  },
-  {
-   "verein": "TSG Hoffenheim",
-   "n": "Thomann",
-   "spielerin": "Vivien Thomann",
-   "war": "Bank",
-   "zeit": "2026-11-02T18:00",
-   "gegner": "VfL Wolfsburg",
-   "wettbewerb": "DFB-Pokal",
-   "quelle": "https://datencenter.dfb.de/matches/vfl-wolfsburg-tsg-hoffenheim-2431329",
-   "delta": -1,
-   "bis": "2026-11-12",
-   "grund": "stand am 02.11. gegen VfL Wolfsburg nicht im Spieltagskader, obwohl im letzten Ligaspiel auf der Bank; Grund nicht bekannt"
   }
  ]
 }

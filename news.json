@@ -382,35 +382,6 @@
    }
   },
   {
-   "id": "fehlt-martret-tsg-0211",
-   "pid": "00138",
-   "zeit": "2026-11-02T18:00",
-   "spielerin": "Vivien Thomann",
-   "verein": "TSG Hoffenheim",
-   "nr": "",
-   "pos": "MF",
-   "tags": [
-    "AUFSTELLUNG",
-    "POKAL"
-   ],
-   "status": "fraglich",
-   "headline": "Thomann nicht im Kader gegen VfL Wolfsburg",
-   "text": [
-    "Im DFB-Pokal gegen den VfL Wolfsburg stand Vivien Thomann weder in der Startelf noch auf der Bank (0 von 5 Ligaspielen in der Startelf, zuletzt auf der Bank).",
-    "Laia Martret saß dagegen auf der Bank (laut Sportschau-Aufstellung). Das DFB-Datencenter führt sie offenbar unter dem Namen Jimenez, deshalb galt sie hier zunächst als fehlend.",
-    "Einen Grund für Thomanns Fehlen nennt bisher weder der Verein noch eine andere Quelle."
-   ],
-   "kickbase": "Für Kickbase kaum relevant, Thomann spielte in der Liga bisher keine Rolle. Martret bleibt in der Prognose unverändert.",
-   "quellen": [
-    {
-     "name": "DFB-Datencenter",
-     "url": "https://datencenter.dfb.de/matches/vfl-wolfsburg-tsg-hoffenheim-2431329"
-    }
-   ],
-   "quelle_live": true,
-   "kurz": "Thomann nicht im Kader"
-  },
-  {
    "id": "aufstellung-pokal-wob-0211",
    "zeit": "2026-11-02T16:46",
    "spielerin": "Spielansetzung",

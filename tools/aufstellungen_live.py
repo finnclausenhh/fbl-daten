@@ -131,6 +131,7 @@ def ergaenze_dfb(auf, h, g, wb):
 
 def ableiten(verein, start, bank, zeit, gegner, wb, news, spielplan, quelle):
     """Fehlt ohne bekannten Grund (Finn 01.11.2026): stand im letzten Ligaspiel im Kader, jetzt weder Startelf noch Bank.
+    Nur Stammspielerinnen (Finn 03.11.2026): zuletzt in der Startelf oder in mindestens der Hälfte der letzten Ligaspiele, sonst übergangen.
     Spielerinnen mit bekanntem Status (verletzt, gesperrt, fraglich) laut news.json sind ausgenommen."""
     alt = letzte_liga(spielplan, verein, zeit) or {"start": [], "bank": []}
     jetzt_k = {nk(x) for x in start + bank}
@@ -143,6 +144,10 @@ def ableiten(verein, start, bank, zeit, gegner, wb, news, spielplan, quelle):
         kv = AB.KADER_VEREIN.get(verein, verein)
         voll = next((r["name"] for r in KADER if r["verein"] == kv and nk(r["name"]) == k), n)
         bis = (datetime.fromisoformat(zeit[:16]) + timedelta(days=10)).strftime("%Y-%m-%d")
+        x = {"verein": verein, "n": n, "spielerin": voll, "war": "Startelf" if n in alt["start"] else "Bank", "zeit": zeit,
+             "gegner": gegner, "wettbewerb": wb or "Liga", "quelle": quelle, "delta": -1, "bis": bis}
+        if not relevant(spielplan, x)[0]:
+            continue  # Ergänzungsspielerin: keine Meldung und kein Abzug in der Prognose (Finn 03.11.2026)
         out.append({"verein": verein, "n": n, "spielerin": voll, "war": "Startelf" if n in alt["start"] else "Bank", "zeit": zeit,
                     "gegner": gegner, "wettbewerb": wb or "Liga", "quelle": quelle, "delta": -1, "bis": bis,
                     "grund": f"stand am {zeit[8:10]}.{zeit[5:7]}. gegen {gegner} nicht im Spieltagskader, obwohl im letzten Ligaspiel "
