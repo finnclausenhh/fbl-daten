@@ -156,7 +156,13 @@ def messen():
 
 
 if __name__ == "__main__":
-    if "--messen" in sys.argv:
-        messen()
-    else:
-        bestand()
+    try:
+        messen() if "--messen" in sys.argv else bestand()
+    except SystemExit as e:
+        if e.code not in (None, 0):
+            AUS.mkdir(exist_ok=True)
+            (AUS / "fehler.json").write_text(json.dumps({"stand": datetime.now(timezone.utc).isoformat(timespec="minutes"),
+                "modus": "messen" if "--messen" in sys.argv else "bestand", "fehler": str(e.code), "abfragen": abfragen},
+                ensure_ascii=False, indent=1))
+            print("FEHLER:", e.code)
+        raise
