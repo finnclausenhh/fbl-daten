@@ -888,6 +888,14 @@ details.dzb[open]{padding-bottom:10px}
 .tfm-r .c b{font-size:15px;font-weight:700}
 .tfm-r .c span{font-size:10px;color:var(--muted);white-space:nowrap}
 .tfm-h{display:grid;grid-template-columns:24px minmax(0,1fr) 54px 62px;gap:8px;padding:0 10px;font:600 9.5px var(--f-mono);color:var(--muted);text-align:center}
+
+.af-hin{display:flex;gap:5px;justify-content:center;margin-top:6px}
+.af-hin span{font:700 9.5px var(--f-mono);letter-spacing:.03em;padding:2px 6px;border-radius:4px}
+.af-hin .v{background:rgba(155,107,232,.22);color:#C9AEF7}
+.af-hin .a{background:rgba(245,158,11,.18);color:#F7C27A}
+.af-hin .o{background:rgba(34,197,94,.18);color:#86EFAC}
+.af-sprung{display:flex;gap:6px;align-items:center;flex-wrap:wrap;justify-content:center;font-size:12px}
+.af-sprung button{background:var(--soft);border-radius:999px;padding:6px 11px;font-weight:600;font-size:12.5px;color:var(--ink)}
 </style>
 
 
@@ -1419,6 +1427,8 @@ details.dzb[open]{padding-bottom:10px}
     const bs = belSeiten(p), mk = meinK(p), klein = SEL.size && !mk;
     return `<button class="pr${mk ? " mein" : ""}" ${mk ? `style="--vc:${ring(mk)}" ` : ""}data-game="${esc(p.id)}">${mitTag ? `<div class="dat" style="font-size:11px">${esc(terminiert(p) ? wtLang(p.anstoss) : "Termin offen")}</div>` : ""}<div class="pr-z">
       <span class="pr-t h"><span data-kname="${esc(KNAME[p.heim_k] || "")}" title="${esc(p.heim)}">${esc(KNAME[p.heim_k] || p.heim)}</span><span class="kd-l" data-kader="${esc(p.heim_k)}">${logo(p.heim_k, 30)}</span></span>${mitte(p)}<span class="pr-t"><span class="kd-l" data-kader="${esc(p.gast_k)}">${logo(p.gast_k, 30)}</span><span data-kname="${esc(KNAME[p.gast_k] || "")}" title="${esc(p.gast)}">${esc(KNAME[p.gast_k] || p.gast)}</span></span></div>
+      ${p.status !== "beendet" ? (() => { const v = AF && (AF.vorschau || []).some(x => x.id === p.id), a = [p.heim_aufstellung, p.gast_aufstellung].filter(Boolean), off = a.some(x => x.typ === "offiziell");
+        return v || a.length ? `<div class="af-hin">${v ? '<span class="v">VORSCHAU</span>' : ""}${a.length ? `<span class="${off ? "o" : "a"}">${off ? "OFFIZIELLE AUFSTELLUNG" : "MÖGLICHE AUFSTELLUNG"}</span>` : ""}</div>` : ""; })() : ""}
       ${bs.length ? (klein ? `<div class="belh klein"><span class="kap">ENGLISCHE WOCHE</span></div>` : `<div class="belh"><span class="kap">ENGLISCHE WOCHE</span>${bs.map(([n, b]) => `<span><b>${esc(n)}</b> ${esc(b.text)}</span>`).join("")}</div>`) : ""}</button>`;
   }
   const alleSpiele = () => { const g = new Set(); return (SP.spieltage || []).flatMap(t => t.partien.concat(t.nachholspiele || [])).filter(p => !g.has(p.id) && g.add(p.id)); };
@@ -1482,7 +1492,9 @@ details.dzb[open]{padding-bottom:10px}
     const AS = AF && AF.spiele && AF.spiele[p.id];
     AFNOTEN = AS ? AS.no : null; AFBEST = null;
     if (AS && SPN) { AFBEST = new Set(); [p.heim_k, p.gast_k].forEach(k => { const l = Object.entries(AS.no).filter(([id]) => (spById(id) || {}).k === k).sort((a, b) => b[1] - a[1]); if (l[0]) AFBEST.add(l[0][0]); }); }
-    const afBox = AS ? afStatBox(p, AS) : p.status !== "beendet" && AF && (AF.vorschau || []).find(v => v.id === p.id) ? `<div class="kartebox">${kap("Daten zum Spiel")}${datenZumSpiel(AF.vorschau.find(v => v.id === p.id))}</div>` : "";
+    const hatV = p.status !== "beendet" && AF && (AF.vorschau || []).some(v => v.id === p.id), hatA = p.status !== "beendet" && [p.heim_aufstellung, p.gast_aufstellung].some(Boolean), offA = [p.heim_aufstellung, p.gast_aufstellung].some(a => a && a.typ === "offiziell");
+    const sprung = hatV || hatA ? `<div class="af-sprung"><span class="mu">In diesem Spiel:</span>${hatV ? '<button data-afsprung="af-dz">Vorschau ↓</button>' : ""}${hatA ? `<button data-afsprung="af-auf">${offA ? "Aufstellung" : "Aufstellungen"} ↓</button>` : ""}</div>` : "";
+    const afBox = AS ? afStatBox(p, AS) : hatV ? `<div class="kartebox" id="af-dz">${kap("Vorschau: Daten zum Spiel")}${datenZumSpiel(AF.vorschau.find(v => v.id === p.id))}</div>` : "";
     $("#main").innerHTML = `<div class="det">
       <button class="back" data-back="1">‹ ${p.md ? `${p.md}. Spieltag` : "Spielplan"}</button>
       <div class="kopf"><div class="info">${esc(info)}</div>
@@ -1491,10 +1503,10 @@ details.dzb[open]{padding-bottom:10px}
           <button class="tbtn" data-tore="1" aria-expanded="${TOREOFFEN}">${TOREOFFEN ? "Tore im Detail ausblenden" : "Tore im Detail mit Vorlage"}</button>${TOREOFFEN ? `<div class="tdet">${det}</div>` : ""}` : ""}
       </div>
       
-      ${afBox}${pv.length ? `<div class="kartebox">${kap("Platzverweise")}${pv.map(x => `<div style="display:flex;gap:8px;align-items:center;font-size:14px">${karte(true)}<span style="flex:1">${x.n ? esc(x.n) : '<span class="mu">ohne Namen im Spielbericht</span>'} (${esc(x.min)}')</span>${logo(x.seite === "heim" ? p.heim_k : p.gast_k, 20)}</div>`).join("")}</div>` : ""}
+      ${sprung}${afBox}${pv.length ? `<div class="kartebox">${kap("Platzverweise")}${pv.map(x => `<div style="display:flex;gap:8px;align-items:center;font-size:14px">${karte(true)}<span style="flex:1">${x.n ? esc(x.n) : '<span class="mu">ohne Namen im Spielbericht</span>'} (${esc(x.min)}')</span>${logo(x.seite === "heim" ? p.heim_k : p.gast_k, 20)}</div>`).join("")}</div>` : ""}
       ${bs.length ? `<div class="kartebox" style="gap:8px">${kap("Englische Woche")}${bs.map(([n, b]) => `<div style="display:grid;gap:2px"><b style="font-size:14px;font-weight:600">${esc(n)}: ${esc(b.text)}</b><span class="dat">${(b.spiele || []).map(esc).join(" · ")}</span></div>`).join("")}${prog ? '<span style="font-size:12px;color:var(--frag)">Deshalb stufen wir Feldspielerinnen höchstens als Erwartet ein.</span>' : ""}</div>` : ""}
       ${!p.heim_aufstellung && !p.gast_aufstellung && p.status === "beendet" ? '<p class="dat">Zu diesem Spiel hat der Spielbericht keine offizielle Aufstellung. Darauf haben wir leider keinen Einfluss.</p>' : !p.heim_aufstellung && !p.gast_aufstellung ? '<p class="dat">Die mögliche Aufstellung erscheint, sobald dieser Spieltag als nächster ansteht. Die offizielle kommt ca. 60 Minuten vor Anpfiff.</p>'
-        : teamBlock(p.heim, p.heim_k, p.heim_aufstellung, "heim", p.status === "beendet", p.anstoss) + teamBlock(p.gast, p.gast_k, p.gast_aufstellung, "gast", p.status === "beendet", p.anstoss)}
+        : `<span id="af-auf"></span>` + teamBlock(p.heim, p.heim_k, p.heim_aufstellung, "heim", p.status === "beendet", p.anstoss) + teamBlock(p.gast, p.gast_k, p.gast_aufstellung, "gast", p.status === "beendet", p.anstoss)}
       ${prog ? `<div class="leg" style="margin-top:14px;padding-top:10px;border-top:1px solid var(--line)">${Object.keys(STUFE).filter(k => ["sicher","erwartet","unsicher"].includes(k)).map(k => `<span>${stufeSym(k, 14)}${STUFE[k][2]}</span>`).join("")}</div><button class="hk" data-legal="so-entsteht" style="background:none;padding:6px 0"><span class="mu" style="font-size:12px">Prognose von WOSOINSIDER, die offizielle Aufstellung kommt ca. 60 Minuten vor Anpfiff und ersetzt sie hier. <span class="lk">So entsteht sie</span></span></button>` : ""}
     </div>`;
     AFNOTEN = null; AFBEST = null;
@@ -1643,7 +1655,7 @@ details.dzb[open]{padding-bottom:10px}
       <div class="rail" id="rail">${l.map(f => formKarte(f, g)).join("")}</div>`}${notenCheck()}</section>`;
   }
   let NCDIR = "tief";
-  const NCG = [["tief", "Formtief", "#F59E0B"], ["hoch", "Formhoch", "#4ADE80"], ["trifft", "Schwache Noten, trifft trotzdem", "#8FB0FF"], ["leer", "Starke Noten, ohne Ertrag", "#C9AEF7"]];
+  const NCG = [["tief", "Formtief", "#F59E0B"], ["hoch", "Formhoch", "#4ADE80"], ["lauf", "Gute Form, leichte Gegner", "#4ADE80"], ["trifft", "Schwache Noten, trifft trotzdem", "#8FB0FF"], ["leer", "Starke Noten, ohne Ertrag", "#C9AEF7"]];
   const PST2 = {sicher: ["SICHER", "#1A2A55", "#8FB0FF"], erwartet: ["ERWARTET", "#12351F", "#4ADE80"], unsicher: ["UNSICHER", "#3A2A10", "#F5B041"], unwahrscheinlich: ["UNWAHRSCH.", "#3A1616", "#FF8A8A"], ausgeschlossen: ["FÄLLT AUS", "#2A2F3A", "#A9B4C6"]};
   function spark(noten, farbe){
     const W = 110, H = 30, n = noten.length; if (n < 2) return "";
@@ -1656,6 +1668,11 @@ details.dzb[open]{padding-bottom:10px}
     if (f.last >= 4) t.push(`${f.last} Spiele in 14 Tagen inkl. Pokal/Europa`);
     if (f.tv) t.push(`${f.tv} ${f.tv === 1 ? "Scorerpunkt" : "Scorerpunkte"} in den letzten 3`);
     return t.join(" · ");
+  }
+  function programmZeile(f){
+    if (!f.next || !f.next.length) return "";
+    const c = f.ns === "schwer" ? "#FF8A8A" : f.ns === "leicht" ? "#4ADE80" : "#A9B4C6";
+    return `<span style="display:flex;gap:6px;align-items:center;flex-wrap:wrap;margin-top:4px"><span class="mu" style="font-size:11px">Nächste:</span>${f.next.map(([g, h, r]) => `<span style="display:inline-flex;gap:3px;align-items:center;font-size:11px">${logo(g, 14)}${r}.${h === "A" ? " <small class=mu>A</small>" : ""}</span>`).join("")}<span style="font:700 10px var(--f-mono);color:${c}">${f.ns === "schwer" ? "SCHWERES PROGRAMM" : f.ns === "leicht" ? "LEICHTES PROGRAMM" : "GEMISCHT"}</span></span>`;
   }
   function teamForm(){
     const L = ((AF && AF.team) || []).filter(t => zeigen(t.k)); if (!L.length) return "";
@@ -1678,7 +1695,7 @@ details.dzb[open]{padding-bottom:10px}
       <div class="nc">${l.length ? l.map(f => { const sp = spById(f.id) || {}, ps = PST2[f.prog], e = einordnungSatz(f);
         return `<button class="ncf" data-profil="${esc(f.id)}"><span class="a">${logo(f.k, 24)}<span><b>${esc(f.n)}</b><small>${esc(kname(f.k))} · ${esc(POSN[f.pos || sp.pos] || "")}</small></span></span>
           <span class="sp">${spark(f.noten, g[2])}<div><span class="mu">${dez(f.vorher)}</span> → <b style="color:${g[2]}">${dez(f.l3)}</b></div></span>
-          <span class="u"><span>Minuten letzte 3: ${f.min3.map(m => m + "'").join(" · ")}${e ? "<br>" + esc(e) : ""}</span>${ps ? `<span class="st" style="background:${ps[1]};color:${ps[2]}">${ps[0]}</span>` : ""}</span></button>`; }).join("") : '<p class="dat">Keine Spielerin deiner Vereine in dieser Gruppe.</p>'}</div>
+          <span class="u"><span>Minuten letzte 3: ${f.min3.map(m => m + "'").join(" · ")}${e ? "<br>" + esc(e) : ""}${programmZeile(f)}</span>${ps ? `<span class="st" style="background:${ps[1]};color:${ps[2]}">${ps[0]}</span>` : ""}</span></button>`; }).join("") : '<p class="dat">Keine Spielerin deiner Vereine in dieser Gruppe.</p>'}</div>
       ${x.length ? `<h3 class="disp" style="font-size:19px;margin-top:8px">xG-Check ${(AF.xgmd || []).join(". und ")}. Spieltag</h3><div class="nc">${x.map(r => `<div class="nc-r">${logo(r.k, 26)}<span class="nm"><b>${esc(kname(r.k))} gegen ${esc(kname(r.gg))}</b><small>${r.md}. Spieltag: ${r.t} ${r.t === 1 ? "Tor" : "Tore"} bei ${dez(r.xg, 2)} xG. ${r.d > 0 ? "Mehr getroffen als erspielt, das gleicht sich meist aus." : "Chancen ungenutzt, die Offensive war besser als das Ergebnis."}</small></span><span class="w"><b style="color:${r.d > 0 ? "#4ADE80" : "#FF8A8A"}">${r.d > 0 ? "+" : ""}${dez(r.d)}</b><span>Tore minus xG</span></span></div>`).join("")}</div>` : ""}
       ${teamForm()}
       <p class="af-st">${NOTE_ERKL}</p></div>`;
@@ -1785,6 +1802,7 @@ details.dzb[open]{padding-bottom:10px}
       ${(A.einschaetzung || []).length ? `<div class="einsch">${kap("Unsere Einschätzung für die nächsten Ligaspiele")}${A.einschaetzung.map(p => `<p>${fett(p)}</p>`).join("")}</div>` : ""}
       ${A.ausblick ? "" : kbBox(A.kb)}${A.kurz || A.ausblick ? `</details>` : ""}${A.quelle ? `<p class="dbasis">${esc(A.quelle)}</p>` : ""}`;
   }
+  document.addEventListener("click", e => { const b = e.target.closest("[data-afsprung]"); if (!b) return; const z = document.getElementById(b.dataset.afsprung); if (z) window.scrollTo({top: z.getBoundingClientRect().top + window.scrollY - 70, behavior: "smooth"}); });
   document.addEventListener("click", e => { const b = e.target.closest("[data-nc]"); if (!b) return; NCDIR = b.dataset.nc; const y = window.scrollY; inside(); window.scrollTo(0, y); });
   function inside(){
     if (!IN){ $("#main").innerHTML = '<p class="leer">Inside wird geladen …</p>'; return; }
@@ -2591,8 +2609,8 @@ details.dzb[open]{padding-bottom:10px}
     else if (INFO[h]) { list(); legal(h); }
     else h && N.some(m => m.id === h) ? article(h) : list();
   }).catch(() => { if (VIEW === "meldungen") $("#main").innerHTML = '<p class="leer">Die Meldungen konnten nicht geladen werden. Seite neu laden.</p>'; });
-  Object.assign(TAGF, {FORMTIEF: ["#F59E0B", "#1A1206"], FORMHOCH: ["#22C55E", "#06210f"], ELFMETER: ["#6E9BFF", "#0B1220"], JOKER: ["#4ADE80", "#06210f"], GELBSPERRE: ["#F5C518", "#1A1606"], "xG-CHECK": ["#9B6BE8", "#fff"], INSIDER: ["#2A3B5E", "#C7D7FF"]});
-  ladeAF().then(afNeu).then(() => { const mische = () => { if (!N.length) return setTimeout(mische, 400);
+  Object.assign(TAGF, {FORMTIEF: ["#F59E0B", "#1A1206"], FORMHOCH: ["#22C55E", "#06210f"], ELFMETER: ["#6E9BFF", "#0B1220"], JOKER: ["#4ADE80", "#06210f"], GELBSPERRE: ["#F5C518", "#1A1606"], "xG-CHECK": ["#9B6BE8", "#fff"], INSIDER: ["#2A3B5E", "#C7D7FF"], AUFWIND: ["#22C55E", "#06210f"]});
+  ladeAF().then(afNeu).then(() => { ladeSPN().catch(() => {}); const mische = () => { if (!N.length) return setTimeout(mische, 400);
     const neu = (AF.news || []).filter(n => !N.some(m => m.id === n.id)); if (!neu.length) return;
     N = N.concat(neu).sort((a, b) => String(b.zeit).localeCompare(String(a.zeit)));
     if (VIEW === "meldungen" && document.querySelector("#main .liste")) { const y = window.scrollY; list(); window.scrollTo(0, y); } }; mische(); });

@@ -480,5 +480,42 @@ ers("  ladeAF().then(afNeu);", r"""  Object.assign(TAGF, {FORMTIEF: ["#F59E0B", 
     N = N.concat(neu).sort((a, b) => String(b.zeit).localeCompare(String(a.zeit)));
     if (VIEW === "meldungen" && document.querySelector("#main .liste")) { const y = window.scrollY; list(); window.scrollTo(0, y); } }; mische(); });""")
 
+# Runde 3 (Finn 22:53): Programm der nächsten Gegner, Lauf-Gruppe, Vorschau und Aufstellung sichtbar machen
+ers('  const NCG = [["tief", "Formtief", "#F59E0B"], ["hoch", "Formhoch", "#4ADE80"],', '  const NCG = [["tief", "Formtief", "#F59E0B"], ["hoch", "Formhoch", "#4ADE80"], ["lauf", "Gute Form, leichte Gegner", "#4ADE80"],')
+ers("""    if (f.tv) t.push(`${f.tv} ${f.tv === 1 ? "Scorerpunkt" : "Scorerpunkte"} in den letzten 3`);
+    return t.join(" · ");""", """    if (f.tv) t.push(`${f.tv} ${f.tv === 1 ? "Scorerpunkt" : "Scorerpunkte"} in den letzten 3`);
+    return t.join(" · ");
+  }
+  function programmZeile(f){
+    if (!f.next || !f.next.length) return "";
+    const c = f.ns === "schwer" ? "#FF8A8A" : f.ns === "leicht" ? "#4ADE80" : "#A9B4C6";
+    return `<span style="display:flex;gap:6px;align-items:center;flex-wrap:wrap;margin-top:4px"><span class="mu" style="font-size:11px">Nächste:</span>${f.next.map(([g, h, r]) => `<span style="display:inline-flex;gap:3px;align-items:center;font-size:11px">${logo(g, 14)}${r}.${h === "A" ? " <small class=mu>A</small>" : ""}</span>`).join("")}<span style="font:700 10px var(--f-mono);color:${c}">${f.ns === "schwer" ? "SCHWERES PROGRAMM" : f.ns === "leicht" ? "LEICHTES PROGRAMM" : "GEMISCHT"}</span></span>`;""")
+ers("""<span class="u"><span>Minuten letzte 3: ${f.min3.map(m => m + "'").join(" · ")}${e ? "<br>" + esc(e) : ""}</span>""",
+    """<span class="u"><span>Minuten letzte 3: ${f.min3.map(m => m + "'").join(" · ")}${e ? "<br>" + esc(e) : ""}${programmZeile(f)}</span>""")
+ers('INSIDER: ["#2A3B5E", "#C7D7FF"]});', 'INSIDER: ["#2A3B5E", "#C7D7FF"], AUFWIND: ["#22C55E", "#06210f"]});')
+ers("""  ladeAF().then(afNeu).then(() => { const mische = () => { if (!N.length) return setTimeout(mische, 400);""",
+    """  ladeAF().then(afNeu).then(() => { ladeSPN().catch(() => {}); const mische = () => { if (!N.length) return setTimeout(mische, 400);""")
+ers("""      ${bs.length ? (klein ? `<div class="belh klein">""", """      ${p.status !== "beendet" ? (() => { const v = AF && (AF.vorschau || []).some(x => x.id === p.id), a = [p.heim_aufstellung, p.gast_aufstellung].filter(Boolean), off = a.some(x => x.typ === "offiziell");
+        return v || a.length ? `<div class="af-hin">${v ? '<span class="v">VORSCHAU</span>' : ""}${a.length ? `<span class="${off ? "o" : "a"}">${off ? "OFFIZIELLE AUFSTELLUNG" : "MÖGLICHE AUFSTELLUNG"}</span>` : ""}</div>` : ""; })() : ""}
+      ${bs.length ? (klein ? `<div class="belh klein">""")
+ers("""    const afBox = AS ? afStatBox(p, AS) : p.status !== "beendet" && AF && (AF.vorschau || []).find(v => v.id === p.id) ? `<div class="kartebox">${kap("Daten zum Spiel")}""",
+    """    const hatV = p.status !== "beendet" && AF && (AF.vorschau || []).some(v => v.id === p.id), hatA = p.status !== "beendet" && [p.heim_aufstellung, p.gast_aufstellung].some(Boolean), offA = [p.heim_aufstellung, p.gast_aufstellung].some(a => a && a.typ === "offiziell");
+    const sprung = hatV || hatA ? `<div class="af-sprung"><span class="mu">In diesem Spiel:</span>${hatV ? '<button data-afsprung="af-dz">Vorschau ↓</button>' : ""}${hatA ? `<button data-afsprung="af-auf">${offA ? "Aufstellung" : "Aufstellungen"} ↓</button>` : ""}</div>` : "";
+    const afBox = AS ? afStatBox(p, AS) : hatV ? `<div class="kartebox" id="af-dz">${kap("Vorschau: Daten zum Spiel")}""")
+ers("""${afBox}${pv.length ? `<div class="kartebox">${kap("Platzverweise")}""", """${sprung}${afBox}${pv.length ? `<div class="kartebox">${kap("Platzverweise")}""")
+ers("""        : teamBlock(p.heim, p.heim_k, p.heim_aufstellung, "heim",""", """        : `<span id="af-auf"></span>` + teamBlock(p.heim, p.heim_k, p.heim_aufstellung, "heim",""")
+ers("""  document.addEventListener("click", e => { const b = e.target.closest("[data-nc]");""", """  document.addEventListener("click", e => { const b = e.target.closest("[data-afsprung]"); if (!b) return; const z = document.getElementById(b.dataset.afsprung); if (z) window.scrollTo({top: z.getBoundingClientRect().top + window.scrollY - 70, behavior: "smooth"}); });
+  document.addEventListener("click", e => { const b = e.target.closest("[data-nc]");""")
+CSS3 = """
+.af-hin{display:flex;gap:5px;justify-content:center;margin-top:6px}
+.af-hin span{font:700 9.5px var(--f-mono);letter-spacing:.03em;padding:2px 6px;border-radius:4px}
+.af-hin .v{background:rgba(155,107,232,.22);color:#C9AEF7}
+.af-hin .a{background:rgba(245,158,11,.18);color:#F7C27A}
+.af-hin .o{background:rgba(34,197,94,.18);color:#86EFAC}
+.af-sprung{display:flex;gap:6px;align-items:center;flex-wrap:wrap;justify-content:center;font-size:12px}
+.af-sprung button{background:var(--soft);border-radius:999px;padding:6px 11px;font-weight:600;font-size:12.5px;color:var(--ink)}
+"""
+i = h.rfind("</style>"); h = h[:i] + CSS3 + h[i:]
+
 open(ZIEL, "w", encoding="utf-8").write(h)
 print("ok", ZIEL, len(h))

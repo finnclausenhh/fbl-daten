@@ -232,7 +232,13 @@ def einordnung(s):
     tv = sum(len(x.get("tore") or []) + (x.get("vorl") or 0) for x in letzte)
     return {"geg": [x.get("gk") for x in letzte], "gr": avg, "gs": stufe, "last": last, "tv": tv}
 
-for k in tief + hoch: k.update(einordnung(WIRBYID[k["id"]]))
+def programm(k):
+    L = [z for z in SPN["vereine"][k].get("kommend") or [] if z.get("wb") == "Liga" and z.get("gk")][:3]
+    if not L: return {}
+    rg = [RANG0.get(z["gk"]) for z in L if RANG0.get(z["gk"])]
+    av = round(sum(rg) / len(rg), 1) if rg else None
+    return {"next": [[z["gk"], z["ha"], RANG0.get(z["gk"])] for z in L], "nr": av, "ns": None if av is None else "schwer" if av <= 5.5 else "leicht" if av >= 9.5 else "mittel"}
+for k in tief + hoch: k.update(einordnung(WIRBYID[k["id"]])); k.update(programm(k["k"]))
 
 # Noten und Ertrag passen nicht zusammen
 trifft, leer = [], []
@@ -244,10 +250,20 @@ for s in WIR:
     l3 = sum(n[1] for n in voll[-3:]) / 3; avg = sum(n[1] for n in voll) / len(voll)
     ein = einordnung(s)
     k = {"id": s["id"], "n": s["n"], "k": s["k"], "pos": s.get("pos"), "l3": round(l3, 2), "vorher": round(avg, 2), "diff": round(l3 - avg, 2), "noten": [n[1] for n in voll[-5:]],
-         "min3": [x.get("min", 0) for x in s["spiele"][-3:]], "prog": (s.get("prognose") or {}).get("st"), **ein}
+         "min3": [x.get("min", 0) for x in s["spiele"][-3:]], "prog": (s.get("prognose") or {}).get("st"), **ein, **programm(s["k"])}
     if (l3 <= avg - 0.2 and ein.get("tv", 0) >= 2) or (l3 < 6.5 and ein.get("tv", 0) >= 1): trifft.append(k)
     elif (l3 >= avg + 0.2 or l3 >= 7.3) and ein.get("tv", 0) == 0 and s.get("pos") in ("MF", "ST") and sum(1 for x in s["spiele"][-3:] if x.get("art") == "S") >= 2: leer.append(k)
 trifft.sort(key=lambda x: -x["tv"]); leer.sort(key=lambda x: -x["l3"])
+lauf = []
+for s in WIR:
+    e = profil.get(s["id"]) or {}
+    voll = [n for n in e.get("no", []) if n[2] >= 60]
+    if len(voll) < 4 or s.get("pos") == "TW" or (s.get("prognose") or {}).get("st") not in ("sicher", "erwartet"): continue
+    l3 = sum(n[1] for n in voll[-3:]) / 3
+    pg = programm(s["k"])
+    if l3 >= 7.4 and pg.get("ns") == "leicht":
+        lauf.append({"id": s["id"], "n": s["n"], "k": s["k"], "pos": s.get("pos"), "l3": round(l3, 2), "noten": [n[1] for n in voll[-5:]], "min3": [x.get("min", 0) for x in s["spiele"][-3:]], "prog": (s.get("prognose") or {}).get("st"), **einordnung(s), **pg})
+lauf.sort(key=lambda x: -x["l3"])
 
 # Team-Form: letzte 3 Ligaspiele gegen die Spiele davor
 teamform = []
@@ -404,24 +420,36 @@ VN = lambda k: SPN["vereine"][k]["name"]
 QAF = [{"name": "API-Football (Noten, Teamwerte)", "url": "https://www.api-football.com"}, {"name": "Sportschau (Minuten, Tore)", "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/"}]
 PSW = {"sicher": "gesetzt", "erwartet": "erwartet in der Startelf", "unsicher": "unsicher", "unwahrscheinlich": "eher nicht in der Startelf", "ausgeschlossen": "fällt aus"}
 def dz(x): return f"{x:.1f}".replace(".", ",")
+def prog_satz(f):
+    if not f.get("next"): return ""
+    t = ", ".join(f"{'zu Hause' if h == 'H' else 'auswärts'} gegen {VN(g)} ({r}.)" for g, h, r in f["next"])
+    return f"Die nächsten Ligaspiele: {t}. Im Schnitt Tabellenplatz {round(f['nr'])}, {'ein schweres' if f['ns'] == 'schwer' else 'ein leichtes' if f['ns'] == 'leicht' else 'ein gemischtes'} Programm."
 def meld(sid, tags, head, kurz, text, kb, typ):
     s = WIRBYID[sid]
     return {"id": f"af-{typ}-{sid}-{MDL}", "pid": sid, "zeit": STAND, "spielerin": s["n"], "verein": s["verein"], "nr": s.get("nr"), "pos": s.get("pos"),
             "tags": tags, "headline": head, "kurz": kurz, "text": text, "kickbase": kb, "quellen": QAF, "af": True}
 news = []
-for f in tief[:2]:
+for f in tief[:2] + [x for x in tief[2:] if x.get("ns") == "schwer"][:1]:
     nach = f["n"].split()[-1]; pr = PSW.get(f["prog"] or "", "offen")
+    schwer = f.get("ns") == "schwer"
     geg = ", ".join(VN(k) for k in f.get("geg") or [])
-    news.append(meld(f["id"], ["FORMTIEF", "INSIDER"], f"{nach} im Formtief: Noten zuletzt deutlich schwächer", f"{nach} im Formtief: Ø {dz(f['l3'])} statt {dz(f['vorher'])}",
+    news.append(meld(f["id"], ["FORMTIEF", "INSIDER"], f"{nach} im Formtief, {'jetzt warten schwere Gegner' if schwer else 'Noten zuletzt deutlich schwächer'}", f"{nach} im Formtief: Ø {dz(f['l3'])} statt {dz(f['vorher'])}",
         [f"{f['n']} ({VN(f['k'])}) kommt in den letzten drei Spielen ab 60 Minuten auf eine Durchschnittsnote von {dz(f['l3'])}, davor waren es {dz(f['vorher'])}. Die Noten berechnet API-Football aus den Spielwerten, es sind keine Kickbase-Punkte.",
+         prog_satz(f),
          f"Die Gegner zuletzt: {geg} (im Schnitt Tabellenplatz {round(f['gr'])}, {'eher stark' if f.get('gs') == 'stark' else 'eher schwach' if f.get('gs') == 'schwach' else 'gemischt'}). {f.get('last', 0)} Einsätze in 14 Tagen inklusive Pokal und Europapokal." if geg else ""],
         f"Minuten der letzten 3 Ligaspiele: {' · '.join(str(m) + chr(39) for m in f['min3'])}. Prognose fürs nächste Spiel: {pr}.", "formtief"))
 for f in hoch[:2]:
-    nach = f["n"].split()[-1]; pr = PSW.get(f["prog"] or "", "offen")
-    news.append(meld(f["id"], ["FORMHOCH", "INSIDER"], f"{nach} im Formhoch: Noten zuletzt deutlich besser", f"{nach} im Formhoch: Ø {dz(f['l3'])} statt {dz(f['vorher'])}",
+    nach = f["n"].split()[-1]; pr = PSW.get(f["prog"] or "", "offen"); leicht = f.get("ns") == "leicht"
+    news.append(meld(f["id"], ["FORMHOCH", "INSIDER"], f"{nach} im Formhoch{', dazu ein leichtes Programm' if leicht else ': Noten zuletzt deutlich besser'}", f"{nach} im Formhoch: Ø {dz(f['l3'])} statt {dz(f['vorher'])}",
         [f"{f['n']} ({VN(f['k'])}) steigert sich: Durchschnittsnote {dz(f['l3'])} in den letzten drei Spielen ab 60 Minuten, davor {dz(f['vorher'])}.",
+         prog_satz(f),
          f"Dabei kamen {f.get('tv', 0)} Scorerpunkte heraus. Die Gegner standen im Schnitt auf Platz {round(f['gr'])}." if f.get("gr") else ""],
         f"Minuten der letzten 3 Ligaspiele: {' · '.join(str(m) + chr(39) for m in f['min3'])}. Prognose fürs nächste Spiel: {pr}.", "formhoch"))
+for f in [x for x in lauf if x["id"] not in {h["id"] for h in hoch[:2]}][:2]:
+    nach = f["n"].split()[-1]; pr = PSW.get(f["prog"] or "", "offen")
+    news.append(meld(f["id"], ["AUFWIND", "INSIDER"], f"{nach} in starker Form, die nächsten Gegner stehen unten", f"{nach}: Form gut, Gegner leicht",
+        [f"{f['n']} ({VN(f['k'])}) kommt in den letzten drei Spielen ab 60 Minuten auf eine Durchschnittsnote von {dz(f['l3'])} und hat dabei {f.get('tv', 0)} Scorerpunkte gesammelt.", prog_satz(f)],
+        f"Minuten der letzten 3 Ligaspiele: {' · '.join(str(m) + chr(39) for m in f['min3'])}. Prognose fürs nächste Spiel: {pr}.", "lauf"))
 PENG = {}
 for x in PEN:
     if x["md"] == MDL: PENG.setdefault(x["id"], []).append(x)
@@ -456,7 +484,7 @@ for n in news: n["text"] = [t for t in n.get("text", []) if t]
 # ---------------------------------------------------------------- schreiben
 out = {"stand": datetime.datetime.now().strftime("%Y-%m-%dT%H:%M"), "saison": SAISON, "md": max((s["md"] for s in spiele.values()), default=0),
        "hinweis": "Noten und Teamwerte: API-Football. Minuten, Startelf, Tore, Vorlagen: Sportschau und eigene Auswertung.",
-       "sp": profil, "spiele": spiele, "form": {"tief": tief, "hoch": hoch, "trifft": trifft[:6], "leer": leer[:6]}, "team": teamform, "news": news, "xg": xgcheck[:8], "xgmd": xgmds,
+       "sp": profil, "spiele": spiele, "form": {"tief": tief, "hoch": hoch, "trifft": trifft[:6], "leer": leer[:6], "lauf": lauf[:6]}, "team": teamform, "news": news, "xg": xgcheck[:8], "xgmd": xgmds,
        "ecken": ecken, "elf": elfer, "best": best, "vorschau": vorschau, "ungeklaert": sorted(ungeklaert)}
 os.makedirs(os.path.dirname(os.path.abspath(AUS)), exist_ok=True)
 json.dump(out, open(AUS, "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
