@@ -38,7 +38,7 @@ def api(pfad, **params):
 
 
 def liga():
-    for eintrag in api("leagues", country="Germany", search="Frauen"):
+    for eintrag in api("leagues", country="Germany"):
         if eintrag["league"]["name"].strip().lower() == "frauen bundesliga":
             saison = next((s for s in eintrag["seasons"] if s["year"] == SAISON), None)
             return eintrag["league"]["id"], saison
