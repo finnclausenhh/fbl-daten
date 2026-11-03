@@ -518,6 +518,25 @@ CSS3 = """
 """
 i = h.rfind("</style>"); h = h[:i] + CSS3 + h[i:]
 
+# Runde 4 (Finn 23:20): ein Begriff im Spielplan, Aufstellung zuerst, Daten zum Spiel danach
+def r4(h):
+    def e(a, b):
+        nonlocal h
+        if h.count(a) != 1: raise SystemExit(f"R4: {h.count(a)}x: {a[:80]!r}")
+        h = h.replace(a, b)
+    e("""return v || a.length ? `<div class="af-hin">${v ? '<span class="v">VORSCHAU</span>' : ""}${a.length ? `<span class="${off ? "o" : "a"}">${off ? "OFFIZIELLE AUFSTELLUNG" : "MÖGLICHE AUFSTELLUNG"}</span>` : ""}</div>` : "";""",
+      """return v || a.length ? `<div class="af-hin"><span class="${off ? "o" : "v"}">${off ? "OFFIZIELLE AUFSTELLUNG" : "VORSCHAU"}</span></div>` : "";""")
+    e("""    const sprung = hatV || hatA ? `<div class="af-sprung"><span class="mu">In diesem Spiel:</span>${hatV ? '<button data-afsprung="af-dz">Vorschau ↓</button>' : ""}${hatA ? `<button data-afsprung="af-auf">${offA ? "Aufstellung" : "Aufstellungen"} ↓</button>` : ""}</div>` : "";""",
+      """    const sprung = hatV && hatA ? '<div class="af-sprung"><button data-afsprung="af-dz">Daten zum Spiel ↓</button></div>' : "";""")
+    e("""kap("Vorschau: Daten zum Spiel")""", """kap("Daten zum Spiel")""")
+    e("""${sprung}${afBox}${pv.length ? `<div class="kartebox">${kap("Platzverweise")}""", """${sprung}${AS ? afBox : ""}${pv.length ? `<div class="kartebox">${kap("Platzverweise")}""")
+    i = h.index('So entsteht sie</span></span></button>` : ""}')
+    j = h.index("\n    </div>`;", i)
+    h = h[:j] + "\n      ${!AS ? afBox : \"\"}" + h[j:]
+    return h
+
+h = r4(h)
+
 if LIVE:
     h = h.replace('<div class="af-test">TESTVERSION · neue Daten aus API-Football · nicht öffentlich</div>', "")
     h = h.replace('  window.AFT = {spiel: id => { VIEW = "spielplan"; Promise.all([loadSP(), ladeSPN(), ladeAF()]).then(() => spiel(id)); }, show};\n', "")
