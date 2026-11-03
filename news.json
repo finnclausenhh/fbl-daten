@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-02T21:47",
+ "stand": "2026-11-03T09:45",
  "meldungen": [
   {
    "id": "wolfsburg-pokal-0211",
@@ -7026,38 +7026,6 @@
    ],
    "pid": "00085",
    "kurz": "Reimann auf Abruf für die U17-WM"
-  },
-  {
-   "id": "gwinn-1910",
-   "zeit": "2026-10-19T19:47",
-   "spielerin": "Giulia Gwinn",
-   "verein": "FC Bayern",
-   "nr": "7",
-   "pos": "ABW",
-   "tags": [
-    "VERLETZUNG"
-   ],
-   "headline": "Gwinn liegt im Zeitplan, Rückkehr in den nächsten Wochen",
-   "text": [
-    "Giulia Gwinn macht nach ihrem Außenbandriss im linken Sprunggelenk Fortschritte. Laut Abteilungsleiterin Bianca Rech liegt sie im Zeitplan und absolviert erste Einheiten auf dem Platz.",
-    "Die Kapitänin der Nationalmannschaft hatte sich am 3. Oktober in Frankfurt verletzt. Eine Rückkehr wird in den nächsten Wochen erwartet, für das Spiel in Leipzig kommt sie nicht infrage."
-   ],
-   "kickbase": "Noch nicht aufstellen. Rechts hinten spielt derzeit Mattner-Trembleau.",
-   "quellen": [
-    {
-     "name": "90min",
-     "url": "https://www.90min.de/leidenszeit-am-ende-fc-bayern-mit-wichtigem-gwinn-update"
-    }
-   ],
-   "foto": "fotos/giulia-gwinn.jpg",
-   "foto_credit": {
-    "autor": "Steffen Prößdorf",
-    "lizenz": "CC BY-SA 4.0",
-    "url": "https://commons.wikimedia.org/wiki/File:2022-06-24_Fussball,_Frauen,_L%C3%A4nderspiel,_Deutschland_-_Schweiz_1DX_0701_by_Stepro.jpg"
-   },
-   "pid": "00009",
-   "instagram": "https://www.instagram.com/giuliagwinn/",
-   "kurz": "Gwinn im Zeitplan, Rückkehr in Wochen"
   },
   {
    "id": "aufstellung-rbl-2310",
