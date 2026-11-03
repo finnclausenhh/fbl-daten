@@ -90,10 +90,16 @@ def werte_spiel(f):
 def bestand():
     lid, saison = liga()
     spiele = api("fixtures", league=lid, season=SAISON, status="FT-AET-PEN")
-    ids = [s["fixture"]["id"] for s in spiele]
+    # Gratistarif kennt kein ids-Parameter: Stichprobe von 8 Spielen über die Saison verteilt,
+    # je Spiel 3 Einzelabfragen (Aufstellung, Teamstatistik, Spielerwerte).
+    spiele.sort(key=lambda s: s["fixture"]["date"])
+    schritt = max(1, len(spiele) // 8)
     details = []
-    for i in range(0, len(ids), 20):
-        details += api("fixtures", ids="-".join(map(str, ids[i:i + 20])))
+    for s in spiele[::schritt][:8]:
+        fid = s["fixture"]["id"]
+        details.append(dict(s, lineups=api("fixtures/lineups", fixture=fid),
+                            statistics=api("fixtures/statistics", fixture=fid),
+                            players=api("fixtures/players", fixture=fid), events=s.get("events", [])))
     auswertung = [werte_spiel(f) for f in details]
     n = len(auswertung) or 1
     quote = lambda key: round(sum(1 for a in auswertung if a[key]) / n * 100)
@@ -104,7 +110,7 @@ def bestand():
         "stand": datetime.now(timezone.utc).isoformat(timespec="minutes"),
         "liga_id": lid, "saison": SAISON,
         "abdeckung_laut_api": saison and saison.get("coverage"),
-        "spiele_beendet": len(auswertung),
+        "spiele_beendet_saison": len(spiele), "stichprobe": len(auswertung),
         "quote_spiele_mit_aufstellung": quote("aufstellung_teams"),
         "quote_spiele_mit_teamstatistik": quote("teamstatistik"),
         "quote_spiele_mit_spielerwerten": quote("spielerinnen_mit_minuten"),
