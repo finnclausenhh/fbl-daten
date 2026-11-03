@@ -1,41 +1,41 @@
 {
- "stand": "2026-10-27T06:44",
+ "stand": "2026-11-03T07:50",
  "ausgabe": {
-  "kicker": "Inside · KW 44 · nach Spieltag 8",
-  "titel": "Ein Nachholspiel, dann Pokal und Europapokal",
+  "kicker": "Inside · KW 45 · nach Spieltag 8",
+  "titel": "Wolfsburgs offene Plätze vor zwei Topspielen",
   "punkte": [
    {
     "art": "risk",
     "label": "Risiko",
-    "text": "FC Bayern, Wolfsburg und Frankfurt spielen bis Mitte November neben der Liga auch im Europapokal. Die Pokalspiele sind gespielt, alle drei stehen im Viertelfinale. Bayern wechselte zuletzt fünf Startelfplätze pro Ligaspiel."
+    "text": "Wolfsburg wechselte im Schnitt 3,4 Startelfplätze pro Ligaspiel. Nur sechs Spielerinnen begannen in allen vier letzten Ligaspielen, dazu kommen Frankfurt (6.11.), Rotterdam (10.11.) und FC Bayern (14.11.)."
    },
    {
     "art": "chance",
     "label": "Chance",
-    "text": "Mainz erzielte in 8 Spielen 4 Tore und kassierte 27. Als Nächstes gegen Mainz: Stuttgart (8.11.), HSV (13.11.), Nürnberg (22.11.)."
+    "text": "Mainz kassierte 27 Tore in 8 Spielen (3,38 pro Spiel) und traf nur viermal. Als Nächstes gegen Mainz: Stuttgart (8.11.), HSV (13.11.), Nürnberg (22.11.)."
    },
    {
     "art": "watch",
     "label": "Beobachten",
-    "text": "Am 9. Spieltag fehlen zwei gesperrte Stammkräfte: Torhüterin Mahmutovic bei Bayern gegen Werder und Redzepi bei Stuttgart in Mainz. Werder gewann das Nachholspiel gegen Hoffenheim 3:0 und traf in allen 8 Ligaspielen."
+    "text": "Am 9. Spieltag fehlen gesperrt Mahmutovic bei FC Bayern gegen Werder und Redzepi bei Stuttgart in Mainz. Gwinn trainiert seit dem 29.10. mit Ball, ein Comeback im November ist laut BILD möglich."
    }
   ]
  },
  "ga": {
-  "FCU": 2.0,
   "FCB": 0.88,
-  "SGE": 0.88,
-  "KOE": 1.5,
-  "FCN": 2.88,
   "WOB": 1.0,
-  "TSG": 1.71,
-  "VFB": 2.5,
-  "RBL": 1.75,
+  "SGE": 0.88,
   "B04": 1.5,
-  "HSV": 1.88,
+  "KOE": 1.5,
+  "RBL": 1.75,
+  "SVW": 1.38,
   "SCF": 1.75,
-  "M05": 3.38,
-  "SVW": 1.57
+  "FCU": 2.0,
+  "VFB": 2.5,
+  "TSG": 1.88,
+  "HSV": 1.88,
+  "FCN": 2.88,
+  "M05": 3.38
  },
  "form": {
   "up": [
@@ -86,67 +86,12 @@
       3
      ]
     ],
-    "text": "Nach fünf Spielen ohne Tor traf sie in Köln einmal und gegen Union dreifach, zwei davon per Elfmeter.",
-    "kb": "Spielt jede Minute und schießt die Elfer. Erst auswärts in Leverkusen, dann zu Hause gegen Mainz mit 3,4 Gegentoren pro Spiel.",
+    "text": "Nach sechs Ligaspielen ohne Tor traf sie in Köln einmal und gegen Union dreifach, zwei davon per Elfmeter.",
+    "kb": "Spielt jede Minute und schießt die Elfer. Erst in Leverkusen (1,5 Gegentore pro Spiel), dann zu Hause gegen Mainz (3,38).",
     "next": {
      "k": "B04",
      "ort": "A",
      "datum": "Sa 07.11."
-    }
-   },
-   {
-    "n": "Pauline Bremer",
-    "k": "KOE",
-    "big": "3",
-    "big_txt": "Tore in den letzten 3 Spielen",
-    "s": [
-     [
-      90,
-      1,
-      0
-     ],
-     [
-      90,
-      1,
-      0
-     ],
-     [
-      13,
-      0,
-      0
-     ],
-     [
-      70,
-      1,
-      1
-     ],
-     [
-      90,
-      1,
-      0
-     ],
-     [
-      62,
-      1,
-      0
-     ],
-     [
-      90,
-      1,
-      3
-     ],
-     [
-      90,
-      1,
-      0
-     ]
-    ],
-    "text": "Mit Jessen nach Meniskus-OP lange raus ist sie Kölns einzige echte Stürmerin.",
-    "kb": "Ihr Tor entschied am 31.10. das Pokalspiel gegen Leipzig (1:0). Am 9.11. kommt Leipzig in der Liga nach Köln, wo Köln 9 von 12 Punkten holte.",
-    "next": {
-     "k": "RBL",
-     "ort": "H",
-     "datum": "Mo 09.11."
     }
    },
    {
@@ -196,8 +141,8 @@
       1
      ]
     ],
-    "text": "2 Tore und 7 Schüsse in der Liga, seit sie beginnt. Im Pokal gegen den HSV traf sie doppelt.",
-    "kb": "Union rotiert am wenigsten. Hoffenheim kommt mit drei Auswärtsspielen in elf Tagen nach Berlin.",
+    "text": "2 Tore und 7 Schüsse in den drei Ligaspielen, seit sie beginnt. Im Pokal beim HSV traf sie doppelt, auch zum 4:3 in der Verlängerung.",
+    "kb": "Union wechselt am wenigsten Startelfplätze (0,7 pro Spiel zuletzt). Hoffenheim kassiert 1,88 Tore pro Spiel und kommt mit dem dritten Auswärtsspiel in elf Tagen.",
     "next": {
      "k": "TSG",
      "ort": "H",
@@ -205,18 +150,23 @@
     }
    },
    {
-    "n": "Larissa Mühlhaus",
-    "k": "SGE",
-    "big": "12",
-    "big_txt": "Schüsse in den letzten 3 Spielen",
+    "n": "Sarah Gutmann",
+    "k": "SVW",
+    "big": "2",
+    "big_txt": "Tore in den letzten 3 Ligaspielen",
     "s": [
      [
-      70,
+      83,
       1,
       0
      ],
      [
-      11,
+      0,
+      0,
+      0
+     ],
+     [
+      21,
       0,
       0
      ],
@@ -226,12 +176,7 @@
       0
      ],
      [
-      0,
-      0,
-      0
-     ],
-     [
-      0,
+      28,
       0,
       0
      ],
@@ -241,22 +186,77 @@
       0
      ],
      [
-      74,
+      90,
       1,
       0
      ],
      [
-      80,
+      90,
       1,
-      1
+      2
      ]
     ],
-    "text": "Seit drei Spielen gesetzt, aber erst ein Tor daraus.",
-    "kb": "Erst kommt Wolfsburg mit der zweitbesten Abwehr der Liga. Interessanter ab Spieltag 10 in Leipzig.",
+    "text": "Seit Spieltag 6 dreimal in Folge 90 Minuten, vorher nur ein Startelfeinsatz. Gegen Freiburg traf sie zweimal nach Standards, im Pokal in Mainz erneut doppelt.",
+    "kb": "Erst beim FC Bayern (0,88 Gegentore pro Spiel), dann zu Hause gegen Union (2).",
     "next": {
-     "k": "WOB",
-     "ort": "H",
+     "k": "FCB",
+     "ort": "A",
      "datum": "Fr 06.11."
+    }
+   },
+   {
+    "n": "Pauline Bremer",
+    "k": "KOE",
+    "big": "3",
+    "big_txt": "Tore in den letzten 3 Spielen",
+    "s": [
+     [
+      90,
+      1,
+      0
+     ],
+     [
+      90,
+      1,
+      0
+     ],
+     [
+      13,
+      0,
+      0
+     ],
+     [
+      70,
+      1,
+      1
+     ],
+     [
+      90,
+      1,
+      0
+     ],
+     [
+      62,
+      1,
+      0
+     ],
+     [
+      90,
+      1,
+      3
+     ],
+     [
+      90,
+      1,
+      0
+     ]
+    ],
+    "text": "Mit Jessen nach Meniskus-OP lange raus ist sie Kölns einzige echte Stürmerin, 16 Schüsse in 8 Spielen.",
+    "kb": "Ihr Tor entschied am 31.10. das Pokalspiel gegen Leipzig (1:0). Am 9.11. kommt Leipzig (1,75 Gegentore pro Spiel) in der Liga nach Köln, wo Köln 9 von 12 Punkten holte.",
+    "next": {
+     "k": "RBL",
+     "ort": "H",
+     "datum": "Mo 09.11."
     }
    }
   ],
@@ -309,7 +309,7 @@
      ]
     ],
     "text": "Sechsmal 90 Minuten, dann zweimal in der Liga und im Pokal gegen Köln nicht im Kader. Einen Grund nannte Leipzig nicht.",
-    "kb": "Ecken übernimmt ohne sie Tuin, der Elfmeter ist offen.",
+    "kb": "Ecken übernimmt ohne sie Tuin, der Elfmeter ist offen. Nächster Gegner Köln kassiert 1,5 Tore pro Spiel.",
     "next": {
      "k": "KOE",
      "ort": "A",
@@ -364,7 +364,7 @@
      ]
     ],
     "text": "Nach Oberschenkelproblemen wieder dabei: in der Liga eingewechselt, im Pokal am 30.10. in der Startelf. Ihre Kopfballtore nach Redzepi-Ecken fallen in Mainz trotzdem weg, Redzepi ist gesperrt.",
-    "kb": "In Mainz wartet das leichteste Spiel. Einplanen, wenn sie auch in der Liga wieder beginnt.",
+    "kb": "In Mainz (3,38 Gegentore pro Spiel) wartet das leichteste Spiel. Interessant erst, wenn sie auch in der Liga wieder beginnt.",
     "next": {
      "k": "M05",
      "ort": "A",
@@ -419,7 +419,7 @@
      ]
     ],
     "text": "Seit Frankfurt seine Elf gefunden hat, nur noch Kurzeinsätze.",
-    "kb": "Kein Startelfplatz in Sicht.",
+    "kb": "Kein Startelfplatz in Sicht, nächster Gegner Wolfsburg kassiert 1 Tore pro Spiel.",
     "next": {
      "k": "WOB",
      "ort": "H",
@@ -475,8 +475,8 @@
       2
      ]
     ],
-    "text": "4,2 Schüsse pro 90 Minuten und dazu Ecken und Freistöße.",
-    "kb": "Frankfurt hat erst 7 Gegentore, das schwerste Spiel des Monats. Trotzdem: Wolfsburg holte auswärts 12 von 15 Punkten.",
+    "text": "4,2 Schüsse pro 90 Minuten, dazu Ecken und Freistöße. In den letzten 3 Spielen 5 Tore.",
+    "kb": "Frankfurt kassiert nur 0,88 Tore pro Spiel, das schwerste Spiel des Monats. Wolfsburg holte auswärts trotzdem 12 von 15 Punkten.",
     "next": {
      "k": "SGE",
      "ort": "A",
@@ -486,8 +486,8 @@
    {
     "n": "Klara Bühl",
     "k": "FCB",
-    "big": "11",
-    "big_txt": "Scorerpunkte (6 Tore, 5 Vorlagen)",
+    "big": "4",
+    "big_txt": "Tore in den letzten 3 Spielen",
     "s": [
      [
       74,
@@ -530,8 +530,8 @@
       2
      ]
     ],
-    "text": "Schießt bei Bayern alle Ecken und Freistöße, 4 Tore entstanden daraus.",
-    "kb": "Gegen Werder (1,6 Gegentore pro Spiel) eigentlich gutes Spiel, aber Bühl saß am 01.11. im Pokal zunächst auf der Bank und am 10.11. wartet Paris.",
+    "text": "6 Tore in 7 Einsätzen. Bayerns erste Wahl bei Ecken und Freistößen.",
+    "kb": "Werder kassiert 1,38 Tore pro Spiel. Aber Bühl saß am 01.11. im Pokal zunächst auf der Bank und am 10.11. wartet Paris.",
     "next": {
      "k": "SVW",
      "ort": "H",
@@ -939,8 +939,8 @@
       "zeit": "18:30",
       "fakten": [
        "Bayern gewann alle <b>4</b> Heimspiele, <b>16:3</b> Tore.",
-       "Für Werder ist es das <b>3. Spiel in 8 Tagen</b>.",
-       "<b>5</b> der 14 Werder-Tore fielen nach Ecken, Vanzeir tritt sie."
+       "Für Werder ist es das <b>3. Pflichtspiel in 9 Tagen</b> (29.10., 1.11., 6.11.).",
+       "Werder holte auswärts <b>3 Punkte</b> aus 3 Spielen und traf in allen <b>8</b> Ligaspielen."
       ],
       "kb": "Gute Ausgangslage für Bayerns Offensive, aber Bühl saß im Pokal zunächst auf der Bank, Viggósdóttir stand nicht im Kader und am 10.11. wartet Paris."
      },
@@ -964,7 +964,7 @@
        "Der HSV holte auswärts <b>0 Punkte</b> aus 4 Spielen.",
        "Leverkusen ist daheim schwächer als auswärts: <b>4</b> Punkte zu Hause, <b>9</b> in der Fremde."
       ],
-      "kb": "Kramer ist mit 21 Schüssen Leverkusens Abschlussspielerin."
+      "kb": "Kramer ist mit 21 Schüssen Leverkusens Abschlussspielerin. Der HSV kassierte auswärts 8 Tore in 4 Spielen."
      },
      {
       "heim": "FCU",
@@ -1032,7 +1032,7 @@
       "heim": "SVW",
       "gast": "FCU",
       "fakten": [
-       "Werder holte zu Hause <b>13 von 15</b> Punkten.",
+       "Werder holte zu Hause <b>13 von 15</b> Punkten bei <b>11:4</b> Toren.",
        "Union auswärts: <b>4 Punkte</b>, <b>8:8</b> Tore."
       ],
       "kb": "Werders Heimstärke gegen Unions stabile Elf.",
@@ -1046,7 +1046,8 @@
       "zeit": "17:55",
       "fakten": [
        "Bayern spielt <b>4 Tage</b> nach Paris, Wolfsburg 4 Tage nach Rotterdam.",
-       "Wolfsburg kassierte zu Hause <b>3</b> Tore in 4 Spielen."
+       "Wolfsburg kassierte zu Hause <b>3</b> Tore in 3 Spielen.",
+       "Bayern holte auswärts <b>12 von 12</b> Punkten."
       ],
       "kb": "Im Topspiel erwarten wir Bayerns A-Elf mit Bühl und Harder."
      },
@@ -1085,86 +1086,104 @@
       "kb": "Leverkusens Offensive hat hier eine gute Ausgangslage."
      }
     ]
+   },
+   {
+    "md": 11,
+    "partien": [
+     {
+      "heim": "FCU",
+      "gast": "B04",
+      "datum": "Fr 20.11.",
+      "zeit": "18:30",
+      "fakten": [
+       "Leverkusen spielt <b>4 Tage</b> nach dem Montagsspiel in Stuttgart.",
+       "Leverkusen holte auswärts <b>9 Punkte</b>, zu Hause nur 4.",
+       "Union blieb in <b>3</b> von 8 Spielen ohne Tor."
+      ],
+      "kb": "Unions stabile Elf gegen Leverkusens kurze Pause. Bei Leverkusens Randspielerinnen ist Vorsicht angebracht."
+     },
+     {
+      "heim": "SGE",
+      "gast": "HSV",
+      "datum": "Sa 21.11.",
+      "zeit": "12:00",
+      "fakten": [
+       "Der HSV holte auswärts <b>0 Punkte</b> bei <b>3:8</b> Toren.",
+       "Frankfurt kassierte in 8 Spielen nur <b>7</b> Gegentore.",
+       "Für Frankfurt ist es das <b>3. Pflichtspiel in 11 Tagen</b> (11.11., 15.11., 21.11.)."
+      ],
+      "kb": "Gute Ausgangslage für Frankfurts Abwehr, Rotation nach dem Europa Cup bleibt ein Risiko."
+     },
+     {
+      "heim": "KOE",
+      "gast": "SVW",
+      "datum": "Sa 21.11.",
+      "zeit": "14:00",
+      "fakten": [
+       "Köln zu Hause: <b>9 Punkte</b>, <b>7:2</b> Tore.",
+       "Werder traf in allen <b>8</b> Ligaspielen.",
+       "Werder holte auswärts <b>3 Punkte</b> aus 3 Spielen, zu Hause 13."
+      ],
+      "kb": "Kölns Heimstärke gegen Werders Offensive, offenes Spiel."
+     },
+     {
+      "heim": "SCF",
+      "gast": "VFB",
+      "datum": "So 22.11.",
+      "zeit": "14:00",
+      "fakten": [
+       "Stuttgart blieb in <b>4</b> von 8 Spielen ohne Tor, zuletzt dreimal in Folge (<b>0:12</b>).",
+       "Freiburg zu Hause: <b>6 Punkte</b>, <b>5:5</b> Tore.",
+       "Freiburg spielte <b>3-mal</b> zu null."
+      ],
+      "kb": "Eher Freiburgs Abwehr als die Offensive beider Teams."
+     },
+     {
+      "heim": "RBL",
+      "gast": "WOB",
+      "datum": "So 22.11.",
+      "zeit": "16:00",
+      "fakten": [
+       "Wolfsburg holte auswärts <b>12 von 15</b> Punkten bei <b>18:5</b> Toren.",
+       "Leipzig zu Hause: <b>6 Punkte</b>, <b>8:8</b> Tore.",
+       "Leipzig hat zwei Heimspiele in Folge, erst Frankfurt (15.11.), dann Wolfsburg."
+      ],
+      "kb": "Peddemors bleibt gesetzt, hinter den sechs Gesetzten rotiert Wolfsburg weiter."
+     },
+     {
+      "heim": "M05",
+      "gast": "FCN",
+      "datum": "So 22.11.",
+      "zeit": "18:30",
+      "fakten": [
+       "Mainz holte zu Hause <b>0 Punkte</b> bei <b>3:14</b> Toren.",
+       "Nürnberg traf in <b>jedem</b> Saisonspiel.",
+       "Nürnberg holte auswärts erst <b>1 Punkt</b>."
+      ],
+      "kb": "Beste Ausgangslage der Saison für Nürnbergs Offensive."
+     },
+     {
+      "heim": "FCB",
+      "gast": "TSG",
+      "datum": "Mo 23.11.",
+      "zeit": "18:00",
+      "fakten": [
+       "Bayern spielt <b>4 Tage</b> nach dem CL-Spiel bei Austria Wien.",
+       "Bayern gewann alle <b>4</b> Heimspiele, <b>16:3</b> Tore.",
+       "Hoffenheim holte auswärts <b>3 Punkte</b> bei <b>4:9</b> Toren."
+      ],
+      "kb": "Zwischen Wien und dem Dezember erwarten wir bei Bayern wieder Rotation. Die Gesetzten sind Viggósdóttir und Mahmutovic."
+     }
+    ]
    }
   ]
  },
  "kalender": {
-  "titel": "Belastung bis 17.11.",
-  "von": "2026-10-27",
-  "bis": "2026-11-17",
+  "titel": "Belastung bis 25.11.",
+  "von": "2026-11-03",
+  "bis": "2026-11-25",
   "vereine": {
-   "SVW": [
-    {
-     "d": "29.10",
-     "art": "L",
-     "ort": "H",
-     "txt": "Hoffenheim"
-    },
-    {
-     "d": "01.11",
-     "art": "P",
-     "ort": "A",
-     "txt": "Mainz 05, Pokal",
-     "km": 346
-    },
-    {
-     "d": "06.11",
-     "art": "L",
-     "ort": "A",
-     "txt": "FC Bayern",
-     "km": 574
-    },
-    {
-     "d": "14.11",
-     "art": "L",
-     "ort": "H",
-     "txt": "Union"
-    }
-   ],
-   "TSG": [
-    {
-     "d": "29.10",
-     "art": "L",
-     "ort": "A",
-     "txt": "Werder",
-     "km": 423
-    },
-    {
-     "d": "02.11",
-     "art": "P",
-     "ort": "A",
-     "txt": "VfL Wolfsburg, Pokal",
-     "km": 377
-    },
-    {
-     "d": "08.11",
-     "art": "L",
-     "ort": "A",
-     "txt": "Union",
-     "km": 485
-    },
-    {
-     "d": "14.11",
-     "art": "L",
-     "ort": "H",
-     "txt": "Freiburg"
-    }
-   ],
    "SGE": [
-    {
-     "d": "28.10",
-     "art": "E",
-     "ort": "A",
-     "txt": "PSV Eindhoven, Europa Cup",
-     "km": 266
-    },
-    {
-     "d": "01.11",
-     "art": "P",
-     "ort": "A",
-     "txt": "1. FC Nürnberg, Pokal",
-     "km": 195
-    },
     {
      "d": "06.11",
      "art": "L",
@@ -1183,21 +1202,15 @@
      "ort": "A",
      "txt": "Leipzig",
      "km": 296
+    },
+    {
+     "d": "21.11",
+     "art": "L",
+     "ort": "H",
+     "txt": "HSV"
     }
    ],
    "WOB": [
-    {
-     "d": "28.10",
-     "art": "E",
-     "ort": "H",
-     "txt": "Feyenoord, Europa Cup"
-    },
-    {
-     "d": "02.11",
-     "art": "P",
-     "ort": "H",
-     "txt": "TSG Hoffenheim, Pokal"
-    },
     {
      "d": "06.11",
      "art": "L",
@@ -1217,21 +1230,16 @@
      "art": "L",
      "ort": "H",
      "txt": "FC Bayern"
+    },
+    {
+     "d": "22.11",
+     "art": "L",
+     "ort": "A",
+     "txt": "Leipzig",
+     "km": 163
     }
    ],
    "FCB": [
-    {
-     "d": "28.10",
-     "art": "E",
-     "ort": "H",
-     "txt": "Real Madrid, Champions League"
-    },
-    {
-     "d": "01.11",
-     "art": "P",
-     "ort": "H",
-     "txt": "Bayer Leverkusen, Pokal"
-    },
     {
      "d": "06.11",
      "art": "L",
@@ -1251,15 +1259,44 @@
      "ort": "A",
      "txt": "Wolfsburg",
      "km": 472
+    },
+    {
+     "d": "19.11",
+     "art": "E",
+     "ort": "A",
+     "txt": "Austria Wien, Champions League",
+     "km": 400
+    },
+    {
+     "d": "23.11",
+     "art": "L",
+     "ort": "H",
+     "txt": "Hoffenheim"
+    }
+   ],
+   "SVW": [
+    {
+     "d": "06.11",
+     "art": "L",
+     "ort": "A",
+     "txt": "FC Bayern",
+     "km": 574
+    },
+    {
+     "d": "14.11",
+     "art": "L",
+     "ort": "H",
+     "txt": "Union"
+    },
+    {
+     "d": "21.11",
+     "art": "L",
+     "ort": "A",
+     "txt": "Köln",
+     "km": 270
     }
    ],
    "SCF": [
-    {
-     "d": "01.11",
-     "art": "P",
-     "ort": "H",
-     "txt": "Carl Zeiss Jena, Pokal"
-    },
     {
      "d": "07.11",
      "art": "L",
@@ -1272,15 +1309,15 @@
      "ort": "A",
      "txt": "Hoffenheim",
      "km": 161
+    },
+    {
+     "d": "22.11",
+     "art": "L",
+     "ort": "H",
+     "txt": "Stuttgart"
     }
    ],
    "FCN": [
-    {
-     "d": "01.11",
-     "art": "P",
-     "ort": "H",
-     "txt": "Eintracht Frankfurt, Pokal"
-    },
     {
      "d": "07.11",
      "art": "L",
@@ -1293,16 +1330,16 @@
      "art": "L",
      "ort": "H",
      "txt": "Köln"
+    },
+    {
+     "d": "22.11",
+     "art": "L",
+     "ort": "A",
+     "txt": "Mainz",
+     "km": 217
     }
    ],
    "B04": [
-    {
-     "d": "01.11",
-     "art": "P",
-     "ort": "A",
-     "txt": "FC Bayern, Pokal",
-     "km": 455
-    },
     {
      "d": "07.11",
      "art": "L",
@@ -1315,15 +1352,16 @@
      "ort": "A",
      "txt": "Stuttgart",
      "km": 296
+    },
+    {
+     "d": "20.11",
+     "art": "L",
+     "ort": "A",
+     "txt": "Union",
+     "km": 479
     }
    ],
    "HSV": [
-    {
-     "d": "31.10",
-     "art": "P",
-     "ort": "H",
-     "txt": "Union Berlin, Pokal"
-    },
     {
      "d": "07.11",
      "art": "L",
@@ -1336,16 +1374,16 @@
      "art": "L",
      "ort": "H",
      "txt": "Mainz"
+    },
+    {
+     "d": "21.11",
+     "art": "L",
+     "ort": "A",
+     "txt": "Frankfurt",
+     "km": 396
     }
    ],
    "FCU": [
-    {
-     "d": "31.10",
-     "art": "P",
-     "ort": "A",
-     "txt": "Hamburger SV, Pokal",
-     "km": 276
-    },
     {
      "d": "08.11",
      "art": "L",
@@ -1358,15 +1396,37 @@
      "ort": "A",
      "txt": "Werder",
      "km": 325
+    },
+    {
+     "d": "20.11",
+     "art": "L",
+     "ort": "H",
+     "txt": "Leverkusen"
+    }
+   ],
+   "TSG": [
+    {
+     "d": "08.11",
+     "art": "L",
+     "ort": "A",
+     "txt": "Union",
+     "km": 485
+    },
+    {
+     "d": "14.11",
+     "art": "L",
+     "ort": "H",
+     "txt": "Freiburg"
+    },
+    {
+     "d": "23.11",
+     "art": "L",
+     "ort": "A",
+     "txt": "FC Bayern",
+     "km": 232
     }
    ],
    "M05": [
-    {
-     "d": "01.11",
-     "art": "P",
-     "ort": "H",
-     "txt": "Werder Bremen, Pokal"
-    },
     {
      "d": "08.11",
      "art": "L",
@@ -1379,15 +1439,15 @@
      "ort": "A",
      "txt": "HSV",
      "km": 418
+    },
+    {
+     "d": "22.11",
+     "art": "L",
+     "ort": "H",
+     "txt": "Nürnberg"
     }
    ],
    "VFB": [
-    {
-     "d": "30.10",
-     "art": "P",
-     "ort": "H",
-     "txt": "SGS Essen, Pokal"
-    },
     {
      "d": "08.11",
      "art": "L",
@@ -1400,15 +1460,16 @@
      "art": "L",
      "ort": "H",
      "txt": "Leverkusen"
+    },
+    {
+     "d": "22.11",
+     "art": "L",
+     "ort": "A",
+     "txt": "Freiburg",
+     "km": 132
     }
    ],
    "KOE": [
-    {
-     "d": "31.10",
-     "art": "P",
-     "ort": "H",
-     "txt": "RB Leipzig, Pokal"
-    },
     {
      "d": "09.11",
      "art": "L",
@@ -1421,16 +1482,15 @@
      "ort": "A",
      "txt": "Nürnberg",
      "km": 342
+    },
+    {
+     "d": "21.11",
+     "art": "L",
+     "ort": "H",
+     "txt": "Werder"
     }
    ],
    "RBL": [
-    {
-     "d": "31.10",
-     "art": "P",
-     "ort": "A",
-     "txt": "1. FC Köln, Pokal",
-     "km": 381
-    },
     {
      "d": "09.11",
      "art": "L",
@@ -1443,158 +1503,79 @@
      "art": "L",
      "ort": "H",
      "txt": "Frankfurt"
+    },
+    {
+     "d": "22.11",
+     "art": "L",
+     "ort": "H",
+     "txt": "Wolfsburg"
     }
    ]
   },
-  "hinweis": "Reise = Luftlinie hin und zurück zu allen Auswärtsspielen. Hoffenheim reist mit rund 2.570 km am weitesten, drei Auswärtsspiele in elf Tagen. Bayern kommt durch Paris und Wolfsburg auf rund 2.320 km, Bremen durch den Pokal in Mainz und die Liga in München auf 1.840 km."
+  "hinweis": "Reise = Luftlinie hin und zurück zu allen Auswärtsspielen. FC Bayern reist mit rund 3.120 km am weitesten (Paris, Wolfsburg, Wien). Wolfsburg kommt auf rund 1.790 km, Werder auf 1.690 km."
  },
  "analyse": {
-  "id": "analyse-bayern-kw44",
-  "verein": "FCB",
-  "tag": "Analyse der Woche",
-  "titel": "Bayern rotiert, aber nicht nur freiwillig",
-  "teaser": "Wer gesetzt ist, wer verletzt fehlte und was das für die nächsten Ligaspiele heißt.",
+  "id": "analyse-wolfsburg-kw45",
+  "verein": "WOB",
+  "tag": "ROTATION",
+  "titel": "Wolfsburg: sechs feste Plätze, fünf offene",
+  "teaser": "Wer bei Wolfsburg gesetzt ist, wer zuletzt rausrotiert wurde und was das für Frankfurt und FC Bayern heißt.",
   "stats": [
    [
-    "5,0",
-    "Startelf-Wechsel pro Spiel seit dem CL-Start"
+    "6",
+    "Spielerinnen begannen alle vier letzten Ligaspiele"
    ],
    [
-    "17 von 20",
-    "Wechseln seit Spieltag 5 waren freiwillig, nur 3 wegen Verletzungen"
+    "11",
+    "verschiedene Spielerinnen teilten sich seit Spieltag 5 die übrigen Plätze"
    ],
    [
-    "1,7",
-    "Wechsel pro Spiel an den Spieltagen 2 bis 4"
+    "10 von 11",
+    "Startplätzen im Pokal wie am 8. Spieltag"
    ]
   ],
   "spalten": [
-   "Union",
-   "Mainz",
-   "Freiburg",
+   "Nürnberg",
    "Leverkusen",
-   "Köln",
-   "Frankfurt",
+   "Werder",
    "Stuttgart",
-   "Leipzig"
+   "Hoffenheim",
+   "HSV",
+   "Mainz",
+   "Köln"
   ],
   "cl_ab": 6,
   "matrix": {
-   "Viggósdóttir": {
+   "Peddemors": {
     "1": [
+     "S",
+     90,
+     2
+    ],
+    "2": [
      "S",
      90,
      1
     ],
-    "2": [
-     "S",
-     90,
-     0
-    ],
     "3": [
      "S",
      90,
      0
     ],
     "4": [
-     "S",
-     90,
-     0
-    ],
-    "5": [
-     "S",
-     90,
-     0
-    ],
-    "6": [
-     "S",
-     90,
-     0
-    ],
-    "7": [
-     "S",
-     90,
-     0
-    ],
-    "8": [
-     "S",
-     90,
-     0
-    ]
-   },
-   "Mahmutovic": {
-    "1": [
-     "S",
-     90,
-     0
-    ],
-    "2": [
-     "S",
-     90,
-     0
-    ],
-    "3": [
-     "S",
-     90,
-     0
-    ],
-    "4": [
-     "S",
-     90,
-     0
-    ],
-    "5": [
-     "S",
-     90,
-     0
-    ],
-    "6": [
-     "S",
-     90,
-     0
-    ],
-    "7": [
-     "S",
-     90,
-     0
-    ],
-    "8": [
-     "S",
-     75,
-     0,
-     "Rote Karte"
-    ]
-   },
-   "Harder": {
-    "1": [
      "S",
      90,
      1
     ],
-    "2": [
+    "5": [
      "S",
      90,
-     0
-    ],
-    "3": [
-     "S",
-     65,
-     0
-    ],
-    "4": [
-     "S",
-     85,
-     0
-    ],
-    "5": [
-     "E",
-     26,
      0
     ],
     "6": [
      "S",
      90,
-     0
+     1
     ],
     "7": [
      "S",
@@ -1603,48 +1584,12 @@
     ],
     "8": [
      "S",
-     73,
-     0
+     90,
+     2,
+     "ein Tor per Freistoß"
     ]
    },
-   "Bühl": {
-    "1": [
-     "S",
-     74,
-     1
-    ],
-    "2": [
-     "S",
-     90,
-     0
-    ],
-    "3": [
-     "S",
-     90,
-     1
-    ],
-    "4": [
-     "S",
-     90,
-     0
-    ],
-    "6": [
-     "S",
-     90,
-     1
-    ],
-    "7": [
-     "S",
-     73,
-     1
-    ],
-    "8": [
-     "S",
-     90,
-     2
-    ]
-   },
-   "Tanikawa": {
+   "Huth": {
     "1": [
      "S",
      90,
@@ -1658,7 +1603,7 @@
     "3": [
      "S",
      90,
-     2
+     0
     ],
     "4": [
      "S",
@@ -1667,104 +1612,31 @@
     ],
     "5": [
      "S",
-     46,
+     90,
      0
     ],
     "6": [
-     "E",
-     30,
+     "S",
+     90,
      0
     ],
     "7": [
      "S",
      90,
-     0
-    ],
-    "8": [
-     "S",
-     72,
      1
-    ]
-   },
-   "Amani": {
-    "1": [
-     "S",
-     90,
-     0
-    ],
-    "2": [
-     "S",
-     71,
-     0
-    ],
-    "3": [
-     "S",
-     82,
-     0
-    ],
-    "4": [
-     "S",
-     73,
-     0
-    ],
-    "6": [
-     "S",
-     90,
-     0
     ],
     "8": [
-     "S",
-     90,
-     0
-    ]
-   },
-   "Dallmann": {
-    "1": [
-     "S",
-     74,
-     0
-    ],
-    "2": [
-     "S",
-     71,
-     0
-    ],
-    "3": [
      "S",
      80,
-     0
-    ],
-    "4": [
-     "S",
-     66,
-     0
-    ],
-    "5": [
-     "S",
-     65,
-     0
-    ],
-    "6": [
-     "E",
-     30,
-     0
-    ],
-    "7": [
-     "S",
-     73,
-     1
-    ],
-    "8": [
-     "E",
-     18,
-     0
+     0,
+     "Ecke zum 3:0"
     ]
    },
-   "Naschenweng": {
+   "Minge": {
     "1": [
      "S",
-     90,
-     0
+     83,
+     2
     ],
     "2": [
      "S",
@@ -1773,12 +1645,12 @@
     ],
     "3": [
      "S",
-     46,
+     90,
      0
     ],
     "4": [
-     "E",
-     25,
+     "S",
+     90,
      0
     ],
     "5": [
@@ -1786,95 +1658,131 @@
      90,
      0
     ],
+    "6": [
+     "S",
+     90,
+     0
+    ],
+    "7": [
+     "S",
+     54,
+     0
+    ],
     "8": [
      "S",
-     62,
+     67,
      0
     ]
    },
-   "Alara": {
+   "Küver": {
     "1": [
+     "S",
+     90,
+     1
+    ],
+    "2": [
+     "S",
+     90,
+     0
+    ],
+    "3": [
+     "E",
+     25,
+     2
+    ],
+    "4": [
+     "S",
+     90,
+     0
+    ],
+    "5": [
+     "S",
+     90,
+     0
+    ],
+    "6": [
+     "S",
+     90,
+     0
+    ],
+    "7": [
+     "S",
+     66,
+     0
+    ],
+    "8": [
+     "S",
+     90,
+     1,
+     "Kopfball nach Huth-Ecke"
+    ]
+   },
+   "Linder": {
+    "1": [
+     "S",
+     76,
+     0
+    ],
+    "2": [
+     "S",
+     77,
+     0
+    ],
+    "3": [
+     "E",
+     35,
+     0
+    ],
+    "4": [
+     "S",
+     90,
+     0
+    ],
+    "5": [
+     "S",
+     90,
+     0
+    ],
+    "6": [
+     "S",
+     90,
+     0
+    ],
+    "7": [
+     "S",
+     78,
+     0
+    ],
+    "8": [
+     "S",
+     90,
+     0
+    ]
+   },
+   "Zicai": {
+    "1": [
+     "S",
+     90,
+     2
+    ],
+    "2": [
+     "S",
+     85,
+     1
+    ],
+    "3": [
+     "S",
+     56,
+     0
+    ],
+    "4": [
      "E",
      29,
-     0
-    ],
-    "2": [
-     "E",
-     20,
-     0
-    ],
-    "4": [
-     "E",
-     18,
      1
     ],
     "5": [
      "S",
-     90,
-     1
-    ],
-    "6": [
-     "S",
-     86,
-     0
-    ],
-    "7": [
-     "E",
-     28,
-     0
-    ],
-    "8": [
-     "S",
-     90,
-     0
-    ]
-   },
-   "Kett": {
-    "4": [
-     "S",
-     66,
-     0
-    ],
-    "5": [
-     "E",
-     45,
-     0
-    ],
-    "6": [
-     "S",
-     90,
-     0
-    ],
-    "7": [
-     "S",
-     64,
-     0
-    ],
-    "8": [
-     "S",
-     90,
-     0
-    ]
-   },
-   "Proost": {
-    "1": [
-     "E",
-     17,
-     1
-    ],
-    "3": [
-     "S",
-     64,
-     0
-    ],
-    "4": [
-     "E",
-     25,
-     0
-    ],
-    "5": [
-     "S",
-     90,
+     68,
      0
     ],
     "6": [
@@ -1883,58 +1791,105 @@
      0
     ],
     "7": [
+     "S",
+     66,
+     0
+    ],
+    "8": [
      "E",
-     18,
+     24,
+     0
+    ]
+   },
+   "Prašnikar": {
+    "1": [
+     "S",
+     90,
+     0
+    ],
+    "2": [
+     "E",
+     31,
+     0
+    ],
+    "3": [
+     "S",
+     90,
+     0
+    ],
+    "4": [
+     "S",
+     90,
+     0
+    ],
+    "5": [
+     "S",
+     59,
+     0
+    ],
+    "6": [
+     "S",
+     74,
      0
     ],
     "8": [
      "S",
-     62,
+     74,
      0
     ]
    },
-   "Imade": {
+   "Bjelde": {
+    "1": [
+     "S",
+     46,
+     0
+    ],
     "2": [
+     "S",
+     90,
+     0
+    ],
+    "3": [
      "E",
      12,
      0
     ],
-    "3": [
-     "E",
-     27,
-     0
-    ],
     "4": [
-     "E",
-     25,
-     1
+     "S",
+     73,
+     0
     ],
     "5": [
      "S",
-     71,
-     2
+     90,
+     0
     ],
     "6": [
+     "E",
+     18,
+     0
+    ],
+    "7": [
+     "S",
+     90,
+     0
+    ],
+    "8": [
+     "S",
+     74,
+     0
+    ]
+   },
+   "Kleinherne": {
+    "1": [
      "S",
      61,
      0
     ],
-    "7": [
-     "S",
-     90,
-     1
-    ],
-    "8": [
-     "E",
-     19,
-     1
-    ]
-   },
-   "Gwinn": {
     "2": [
      "S",
-     64,
-     1
+     60,
+     0
     ],
     "3": [
      "S",
@@ -1942,123 +1897,13 @@
      0
     ],
     "4": [
-     "S",
-     90,
-     0
-    ],
-    "6": [
-     "S",
-     86,
-     0,
-     "verletzte sich dabei (Außenbandriss)"
-    ],
-    "7": [
-     "V",
-     0,
-     0,
-     "Außenbandriss linkes Sprunggelenk (FC Bayern, 05.10.)"
-    ],
-    "8": [
-     "V",
-     0,
-     0,
-     "Außenbandriss linkes Sprunggelenk"
-    ]
-   },
-   "Gilles": {
-    "2": [
      "E",
-     27,
-     1
-    ],
-    "3": [
-     "S",
-     90,
-     1
-    ],
-    "4": [
-     "S",
-     90,
-     1
-    ],
-    "5": [
-     "S",
-     46,
-     0
-    ],
-    "6": [
-     "V",
-     0,
-     0,
-     "muskuläre Probleme (FC Bayern, 02.10.)"
-    ],
-    "7": [
-     "V",
-     0,
-     0,
-     "muskuläre Probleme"
-    ],
-    "8": [
-     "E",
-     29,
-     0,
-     "Comeback, nach der Roten Karte im Tor"
-    ]
-   },
-   "Damnjanović": {
-    "1": [
-     "S",
-     62,
-     0
-    ],
-    "2": [
-     "S",
-     79,
-     0
-    ],
-    "4": [
-     "S",
-     66,
+     41,
      0
     ],
     "5": [
      "S",
-     65,
-     1
-    ],
-    "6": [
-     "V",
-     0,
-     0,
-     "Muskelverletzung (FC Bayern, 02.10.)"
-    ],
-    "7": [
-     "V",
-     0,
-     0,
-     "Muskelverletzung"
-    ],
-    "8": [
-     "V",
-     0,
-     0,
-     "Muskelverletzung"
-    ]
-   },
-   "Mattner-Trembleau": {
-    "2": [
-     "E",
-     27,
-     0
-    ],
-    "3": [
-     "E",
-     45,
-     0
-    ],
-    "5": [
-     "S",
-     90,
+     59,
      0
     ],
     "6": [
@@ -2070,219 +1915,1626 @@
      "S",
      90,
      0
+    ]
+   },
+   "Vallotto": {
+    "1": [
+     "S",
+     61,
+     0
     ],
-    "8": [
-     "E",
-     29,
+    "3": [
+     "S",
+     66,
+     0
+    ],
+    "4": [
+     "S",
+     61,
+     0
+    ],
+    "5": [
+     "S",
+     46,
+     0
+    ],
+    "7": [
+     "S",
+     54,
      0
     ]
    },
-   "Eriksson": {
+   "Carleer": {
     "1": [
+     "E",
+     30,
+     0
+    ],
+    "2": [
+     "E",
+     31,
+     0
+    ],
+    "3": [
+     "S",
+     66,
+     0
+    ],
+    "4": [
+     "S",
+     46,
+     0
+    ],
+    "6": [
+     "S",
+     86,
+     0
+    ],
+    "7": [
+     "E",
+     25,
+     0
+    ],
+    "8": [
      "S",
      90,
      0
-    ],
-    "2": [
-     "S",
-     64,
-     0
-    ],
-    "7": [
-     "E",
-     28,
-     0
-    ],
-    "8": [
-     "S",
-     62,
-     0
     ]
    },
-   "Ballisager": {
-    "1": [
-     "S",
-     62,
-     0
-    ],
-    "6": [
-     "S",
-     69,
-     0
-    ],
-    "7": [
-     "S",
-     63,
-     0
-    ]
-   },
-   "Zadrazil": {
-    "1": [
-     "V",
-     0,
-     0,
-     "Reha nach Kreuzbandriss"
-    ],
-    "2": [
-     "V",
-     0,
-     0,
-     "Reha nach Kreuzbandriss"
-    ],
-    "3": [
-     "E",
-     9,
-     0,
-     "Comeback nach Kreuzbandriss"
-    ],
-    "4": [
-     "E",
-     6,
-     0
-    ],
-    "5": [
-     "E",
-     26,
-     1
-    ],
-    "6": [
-     "E",
-     22,
-     0
-    ],
-    "7": [
-     "S",
-     63,
-     0,
-     "erstmals wieder Startelf"
-    ]
-   },
-   "Oberdorf": {
-    "2": [
-     "E",
-     20,
-     0
-    ],
-    "3": [
-     "E",
-     26,
-     0
-    ],
-    "4": [
-     "V",
-     0,
-     0,
-     "nicht im Kader, laut DFB (19.10.) Reaktion im rechten Kniegelenk"
-    ],
-    "5": [
-     "V",
-     0,
-     0,
-     "Knie"
-    ],
-    "6": [
-     "V",
-     0,
-     0,
-     "Knie"
-    ],
-    "7": [
-     "V",
-     0,
-     0,
-     "Knie"
-    ],
-    "8": [
-     "V",
-     0,
-     0,
-     "Knie"
-    ]
-   },
-   "Potsi": {
-    "1": [
-     "E",
-     17,
-     0
-    ],
-    "3": [
-     "E",
-     11,
-     0
-    ],
+   "Lattwein": {
     "5": [
      "E",
      45,
      0
     ],
+    "6": [
+     "E",
+     30,
+     0
+    ],
     "7": [
      "E",
-     18,
+     37,
      0
     ],
     "8": [
+     "S",
+     90,
+     0,
+     "erste Startelf der Saison"
+    ]
+   },
+   "Bussy": {
+    "2": [
      "E",
-     29,
+     6,
      0
+    ],
+    "4": [
+     "S",
+     62,
+     0
+    ],
+    "6": [
+     "E",
+     30,
+     0
+    ],
+    "7": [
+     "E",
+     25,
+     1
+    ],
+    "8": [
+     "S",
+     67,
+     0
+    ]
+   },
+   "Kerim-Lindland": {
+    "2": [
+     "S",
+     60,
+     0
+    ],
+    "5": [
+     "E",
+     32,
+     1
+    ],
+    "6": [
+     "E",
+     17,
+     1
+    ],
+    "7": [
+     "S",
+     90,
+     1
     ]
    }
   },
   "vorschau": [
-   "Viggósdóttir",
-   "Bühl",
-   "Harder",
-   "Tanikawa",
-   "Gwinn",
-   "Gilles",
-   "Damnjanović",
-   "Imade"
+   "Peddemors",
+   "Huth",
+   "Zicai",
+   "Kleinherne",
+   "Lattwein"
   ],
   "text": [
-   "Die Rotation hat zwei Ursachen. Vor dem Spiel in Frankfurt fielen Gilles und Damnjanović mit Muskelproblemen aus, in Frankfurt riss sich Gwinn das Außenband. Oberdorf fehlt seit dem 4. Spieltag mit Kniebeschwerden. Diese Ausfälle erklären aber nur 3 der 20 Wechsel seit Spieltag 5. Der Rest ist Steuerung.",
-   "Gesetzt sind nur Viggósdóttir und Mahmutovic. Bühl und Harder wurden genau einmal geschont, gegen Köln direkt vor dem CL-Auftakt. Im Topspiel in Frankfurt stand die stärkste verfügbare Elf, Tanikawa kam dort nur als Jokerin."
+   "Wolfsburg wechselte im Schnitt 3,4 Startelfplätze pro Ligaspiel, am 7. und 8. Spieltag jeweils vier. Gesetzt waren in den letzten vier Spielen nur Johannes, Peddemors, Huth, Minge, Küver und Linder. Peddemors, Huth, Minge und Johannes begannen sogar alle acht Ligaspiele.",
+   "Um die übrigen fünf Plätze konkurrierten seit Spieltag 5 elf Spielerinnen. Kleinherne und Vallotto begannen an den Spieltagen 5 und 7, an 6 und 8 nicht. Gegen Köln und im Pokal saßen beide zu Beginn auf der Bank. Zicai stand in den ersten sieben Spielen sechsmal in der Startelf, gegen Köln kam sie erst nach 66 Minuten.",
+   "Am 8. Spieltag gegen Köln begann Lattwein erstmals in dieser Saison, vorher kam sie dreimal von der Bank. Im Pokal gegen Hoffenheim (8:0) stand fast dieselbe Elf: zehn von elf Spielerinnen wie gegen Köln, nur Zicai für Bussy. Lattwein und Zicai trafen dort je zweimal."
   ],
   "einschaetzung": [
-   "<b>Spieltag 9 gegen Werder (6.11.):</b> Das Spiel liegt zwischen Pokal (1.11.) und Paris (10.11.). Wir erwarten mehr Startelf-Minuten für Alara, Proost, Imade und Mattner-Trembleau. Im Tor fehlt Mahmutovic gesperrt (Rote Karte in Leipzig, DFB 27.10.).",
-   "<b>Spieltag 10 in Wolfsburg (14.11.):</b> Trotz Paris vier Tage vorher erwarten wir im Topspiel die stärkste verfügbare Elf mit Bühl und Harder. So war es auch in Frankfurt nach zwei CL-Spielen."
+   "<b>Spieltag 9 in Frankfurt (6.11.):</b> Frankfurt kassierte erst 7 Gegentore. Für das Topspiel erwarten wir die Elf aus Liga und Pokal, also mit Lattwein, Carleer, Bjelde und Prašnikar. Offen ist der Platz von Bussy oder Zicai. Kleinherne und Vallotto saßen gegen Köln und im Pokal zu Beginn auf der Bank.",
+   "<b>Spieltag 10 gegen FC Bayern (14.11.):</b> Vier Tage vorher spielt Wolfsburg in Rotterdam, das Hinspiel endete 7:0. Wir erwarten dort Rotation und gegen Bayern wieder die stärkste verfügbare Elf. Dahinter folgt am 22.11. das Auswärtsspiel in Leipzig."
   ],
-  "kb": "Bayerns Stammkräfte tragen gegen Werder ein höheres Einsatzrisiko als sonst. Rotationsspielerinnen dürften dort mehr Minuten bekommen, im Topspiel in Wolfsburg wieder weniger.",
-  "quelle": "Daten: Sportschau-Aufstellungen Spieltag 1 bis 8. Verletzungen: FC Bayern (02.10. und 05.10.), DFB (19.10.).",
-  "news_zeit": "2026-10-25T22:45",
+  "kb": "Bei Wolfsburg sind sechs Spielerinnen in der Liga sicher gesetzt. Für die übrigen fünf Plätze zeigt die Elf aus Liga und Pokal vom 24.10. und 2.11. die aktuelle Rangfolge, in den Topspielen gegen Frankfurt und FC Bayern erwarten wir genau diese Elf.",
+  "quelle": "Daten: Sportschau-Aufstellungen und Liveticker Spieltag 1 bis 8. Pokal: DFB-Datencenter (2.11.).",
+  "news_zeit": "2026-11-03T12:00",
   "kurz": [
-   "Nur 3 der 20 Startelf-Wechsel seit Spieltag 5 hatten Verletzungen als Grund, der Rest ist Steuerung.",
-   "Gesetzt sind nur Viggósdóttir und Mahmutovic.",
-   "Im Topspiel in Frankfurt stand trotzdem die stärkste verfügbare Elf."
+   "Nur sechs Spielerinnen begannen alle vier letzten Ligaspiele, die anderen fünf Plätze wechselten.",
+   "Gegen Köln und im Pokal stand zehnmal dieselbe Elf, mit Lattwein, Carleer, Bjelde und Prašnikar.",
+   "Kleinherne und Vallotto begannen an den Spieltagen 5 und 7, an 6 und 8 nicht."
   ],
   "ausblick": [
    {
     "md": 9,
     "datum": "2026-11-06",
-    "gk": "SVW",
-    "ha": "H",
-    "satz": "Zwischen Pokal (1.11.) und Paris (10.11.): mehr Startelf-Minuten erwartet für",
+    "gk": "SGE",
+    "ha": "A",
+    "satz": "Topspiel nach dem Pokal: Wir erwarten die Elf vom 8. Spieltag, offen ist der Platz von Bussy oder Zicai.",
     "namen": [
-     "Alara",
-     "Proost",
-     "Imade",
-     "Mattner-Trembleau"
+     "Lattwein",
+     "Carleer",
+     "Bussy",
+     "Zicai",
+     "Kleinherne"
     ],
-    "fehlt": [
-     "Mahmutovic gesperrt"
-    ],
-    "kb": "Rotation",
-    "kbart": "warn"
+    "kb": "Stammelf",
+    "kbart": "gut"
    },
    {
     "md": 10,
     "datum": "2026-11-14",
-    "gk": "WOB",
-    "ha": "A",
-    "satz": "Topspiel: stärkste verfügbare Elf mit Bühl und Harder erwartet, wie in Frankfurt nach zwei CL-Spielen.",
+    "gk": "FCB",
+    "ha": "H",
+    "satz": "Nach dem 7:0 im Hinspiel eher Rotation in Rotterdam, gegen FC Bayern die stärkste verfügbare Elf.",
     "kb": "Stammelf",
     "kbart": "gut"
    }
   ]
  },
+ "analyse_archiv": [
+  {
+   "id": "analyse-wolfsburg-kw45",
+   "verein": "WOB",
+   "tag": "ROTATION",
+   "titel": "Wolfsburg: sechs feste Plätze, fünf offene",
+   "teaser": "Wer bei Wolfsburg gesetzt ist, wer zuletzt rausrotiert wurde und was das für Frankfurt und FC Bayern heißt.",
+   "stats": [
+    [
+     "6",
+     "Spielerinnen begannen alle vier letzten Ligaspiele"
+    ],
+    [
+     "11",
+     "verschiedene Spielerinnen teilten sich seit Spieltag 5 die übrigen Plätze"
+    ],
+    [
+     "10 von 11",
+     "Startplätzen im Pokal wie am 8. Spieltag"
+    ]
+   ],
+   "spalten": [
+    "Nürnberg",
+    "Leverkusen",
+    "Werder",
+    "Stuttgart",
+    "Hoffenheim",
+    "HSV",
+    "Mainz",
+    "Köln"
+   ],
+   "cl_ab": 6,
+   "matrix": {
+    "Peddemors": {
+     "1": [
+      "S",
+      90,
+      2
+     ],
+     "2": [
+      "S",
+      90,
+      1
+     ],
+     "3": [
+      "S",
+      90,
+      0
+     ],
+     "4": [
+      "S",
+      90,
+      1
+     ],
+     "5": [
+      "S",
+      90,
+      0
+     ],
+     "6": [
+      "S",
+      90,
+      1
+     ],
+     "7": [
+      "S",
+      90,
+      2
+     ],
+     "8": [
+      "S",
+      90,
+      2,
+      "ein Tor per Freistoß"
+     ]
+    },
+    "Huth": {
+     "1": [
+      "S",
+      90,
+      0
+     ],
+     "2": [
+      "S",
+      90,
+      0
+     ],
+     "3": [
+      "S",
+      90,
+      0
+     ],
+     "4": [
+      "S",
+      90,
+      0
+     ],
+     "5": [
+      "S",
+      90,
+      0
+     ],
+     "6": [
+      "S",
+      90,
+      0
+     ],
+     "7": [
+      "S",
+      90,
+      1
+     ],
+     "8": [
+      "S",
+      80,
+      0,
+      "Ecke zum 3:0"
+     ]
+    },
+    "Minge": {
+     "1": [
+      "S",
+      83,
+      2
+     ],
+     "2": [
+      "S",
+      90,
+      0
+     ],
+     "3": [
+      "S",
+      90,
+      0
+     ],
+     "4": [
+      "S",
+      90,
+      0
+     ],
+     "5": [
+      "S",
+      90,
+      0
+     ],
+     "6": [
+      "S",
+      90,
+      0
+     ],
+     "7": [
+      "S",
+      54,
+      0
+     ],
+     "8": [
+      "S",
+      67,
+      0
+     ]
+    },
+    "Küver": {
+     "1": [
+      "S",
+      90,
+      1
+     ],
+     "2": [
+      "S",
+      90,
+      0
+     ],
+     "3": [
+      "E",
+      25,
+      2
+     ],
+     "4": [
+      "S",
+      90,
+      0
+     ],
+     "5": [
+      "S",
+      90,
+      0
+     ],
+     "6": [
+      "S",
+      90,
+      0
+     ],
+     "7": [
+      "S",
+      66,
+      0
+     ],
+     "8": [
+      "S",
+      90,
+      1,
+      "Kopfball nach Huth-Ecke"
+     ]
+    },
+    "Linder": {
+     "1": [
+      "S",
+      76,
+      0
+     ],
+     "2": [
+      "S",
+      77,
+      0
+     ],
+     "3": [
+      "E",
+      35,
+      0
+     ],
+     "4": [
+      "S",
+      90,
+      0
+     ],
+     "5": [
+      "S",
+      90,
+      0
+     ],
+     "6": [
+      "S",
+      90,
+      0
+     ],
+     "7": [
+      "S",
+      78,
+      0
+     ],
+     "8": [
+      "S",
+      90,
+      0
+     ]
+    },
+    "Zicai": {
+     "1": [
+      "S",
+      90,
+      2
+     ],
+     "2": [
+      "S",
+      85,
+      1
+     ],
+     "3": [
+      "S",
+      56,
+      0
+     ],
+     "4": [
+      "E",
+      29,
+      1
+     ],
+     "5": [
+      "S",
+      68,
+      0
+     ],
+     "6": [
+      "S",
+      61,
+      0
+     ],
+     "7": [
+      "S",
+      66,
+      0
+     ],
+     "8": [
+      "E",
+      24,
+      0
+     ]
+    },
+    "Prašnikar": {
+     "1": [
+      "S",
+      90,
+      0
+     ],
+     "2": [
+      "E",
+      31,
+      0
+     ],
+     "3": [
+      "S",
+      90,
+      0
+     ],
+     "4": [
+      "S",
+      90,
+      0
+     ],
+     "5": [
+      "S",
+      59,
+      0
+     ],
+     "6": [
+      "S",
+      74,
+      0
+     ],
+     "8": [
+      "S",
+      74,
+      0
+     ]
+    },
+    "Bjelde": {
+     "1": [
+      "S",
+      46,
+      0
+     ],
+     "2": [
+      "S",
+      90,
+      0
+     ],
+     "3": [
+      "E",
+      12,
+      0
+     ],
+     "4": [
+      "S",
+      73,
+      0
+     ],
+     "5": [
+      "S",
+      90,
+      0
+     ],
+     "6": [
+      "E",
+      18,
+      0
+     ],
+     "7": [
+      "S",
+      90,
+      0
+     ],
+     "8": [
+      "S",
+      74,
+      0
+     ]
+    },
+    "Kleinherne": {
+     "1": [
+      "S",
+      61,
+      0
+     ],
+     "2": [
+      "S",
+      60,
+      0
+     ],
+     "3": [
+      "S",
+      90,
+      0
+     ],
+     "4": [
+      "E",
+      41,
+      0
+     ],
+     "5": [
+      "S",
+      59,
+      0
+     ],
+     "6": [
+      "E",
+      5,
+      0
+     ],
+     "7": [
+      "S",
+      90,
+      0
+     ]
+    },
+    "Vallotto": {
+     "1": [
+      "S",
+      61,
+      0
+     ],
+     "3": [
+      "S",
+      66,
+      0
+     ],
+     "4": [
+      "S",
+      61,
+      0
+     ],
+     "5": [
+      "S",
+      46,
+      0
+     ],
+     "7": [
+      "S",
+      54,
+      0
+     ]
+    },
+    "Carleer": {
+     "1": [
+      "E",
+      30,
+      0
+     ],
+     "2": [
+      "E",
+      31,
+      0
+     ],
+     "3": [
+      "S",
+      66,
+      0
+     ],
+     "4": [
+      "S",
+      46,
+      0
+     ],
+     "6": [
+      "S",
+      86,
+      0
+     ],
+     "7": [
+      "E",
+      25,
+      0
+     ],
+     "8": [
+      "S",
+      90,
+      0
+     ]
+    },
+    "Lattwein": {
+     "5": [
+      "E",
+      45,
+      0
+     ],
+     "6": [
+      "E",
+      30,
+      0
+     ],
+     "7": [
+      "E",
+      37,
+      0
+     ],
+     "8": [
+      "S",
+      90,
+      0,
+      "erste Startelf der Saison"
+     ]
+    },
+    "Bussy": {
+     "2": [
+      "E",
+      6,
+      0
+     ],
+     "4": [
+      "S",
+      62,
+      0
+     ],
+     "6": [
+      "E",
+      30,
+      0
+     ],
+     "7": [
+      "E",
+      25,
+      1
+     ],
+     "8": [
+      "S",
+      67,
+      0
+     ]
+    },
+    "Kerim-Lindland": {
+     "2": [
+      "S",
+      60,
+      0
+     ],
+     "5": [
+      "E",
+      32,
+      1
+     ],
+     "6": [
+      "E",
+      17,
+      1
+     ],
+     "7": [
+      "S",
+      90,
+      1
+     ]
+    }
+   },
+   "vorschau": [
+    "Peddemors",
+    "Huth",
+    "Zicai",
+    "Kleinherne",
+    "Lattwein"
+   ],
+   "text": [
+    "Wolfsburg wechselte im Schnitt 3,4 Startelfplätze pro Ligaspiel, am 7. und 8. Spieltag jeweils vier. Gesetzt waren in den letzten vier Spielen nur Johannes, Peddemors, Huth, Minge, Küver und Linder. Peddemors, Huth, Minge und Johannes begannen sogar alle acht Ligaspiele.",
+    "Um die übrigen fünf Plätze konkurrierten seit Spieltag 5 elf Spielerinnen. Kleinherne und Vallotto begannen an den Spieltagen 5 und 7 und saßen an 6 und 8 draußen. Zicai stand in den ersten sieben Spielen sechsmal in der Startelf, gegen Köln kam sie erst nach 66 Minuten.",
+    "Am 8. Spieltag gegen Köln begann Lattwein erstmals in dieser Saison, vorher kam sie viermal von der Bank. Im Pokal gegen Hoffenheim (8:0) stand fast dieselbe Elf: zehn von elf Spielerinnen wie gegen Köln, nur Zicai für Bussy. Lattwein und Zicai trafen dort je zweimal."
+   ],
+   "einschaetzung": [
+    "<b>Spieltag 9 in Frankfurt (6.11.):</b> Frankfurt kassierte erst 7 Gegentore. Für das Topspiel erwarten wir die Elf aus Liga und Pokal, also mit Lattwein, Carleer, Bjelde und Prašnikar. Offen ist der Platz von Bussy oder Zicai. Kleinherne und Vallotto saßen zweimal in Folge draußen.",
+    "<b>Spieltag 10 gegen FC Bayern (14.11.):</b> Vier Tage vorher spielt Wolfsburg in Rotterdam, das Hinspiel endete 7:0. Wir erwarten dort Rotation und gegen Bayern wieder die stärkste verfügbare Elf. Dahinter folgt am 22.11. das Auswärtsspiel in Leipzig."
+   ],
+   "kb": "Bei Wolfsburg sind sechs Spielerinnen in der Liga sicher gesetzt. Für die übrigen fünf Plätze zeigt die Elf aus Liga und Pokal vom 24.10. und 2.11. die aktuelle Rangfolge, in den Topspielen gegen Frankfurt und FC Bayern erwarten wir genau diese Elf.",
+   "quelle": "Daten: Sportschau-Aufstellungen und Liveticker Spieltag 1 bis 8. Pokal: DFB-Datencenter (2.11.).",
+   "news_zeit": "2026-11-03T12:00",
+   "kurz": [
+    "Nur sechs Spielerinnen begannen alle vier letzten Ligaspiele, die anderen fünf Plätze wechselten.",
+    "Gegen Köln und im Pokal stand zehnmal dieselbe Elf, mit Lattwein, Carleer, Bjelde und Prašnikar.",
+    "Kleinherne und Vallotto begannen an den Spieltagen 5 und 7, an 6 und 8 saßen sie draußen."
+   ],
+   "ausblick": [
+    {
+     "md": 9,
+     "datum": "2026-11-06",
+     "gk": "SGE",
+     "ha": "A",
+     "satz": "Topspiel nach dem Pokal: Wir erwarten die Elf vom 8. Spieltag, offen ist der Platz von Bussy oder Zicai.",
+     "namen": [
+      "Lattwein",
+      "Carleer",
+      "Bussy",
+      "Zicai",
+      "Kleinherne"
+     ],
+     "kb": "Stammelf",
+     "kbart": "gut"
+    },
+    {
+     "md": 10,
+     "datum": "2026-11-14",
+     "gk": "FCB",
+     "ha": "H",
+     "satz": "Nach dem 7:0 im Hinspiel eher Rotation in Rotterdam, gegen FC Bayern die stärkste verfügbare Elf.",
+     "kb": "Stammelf",
+     "kbart": "gut"
+    }
+   ]
+  },
+  {
+   "id": "analyse-bayern-kw44",
+   "verein": "FCB",
+   "tag": "Analyse der Woche",
+   "titel": "Bayern rotiert, aber nicht nur freiwillig",
+   "teaser": "Wer gesetzt ist, wer verletzt fehlte und was das für die nächsten Ligaspiele heißt.",
+   "stats": [
+    [
+     "5,0",
+     "Startelf-Wechsel pro Spiel seit dem CL-Start"
+    ],
+    [
+     "17 von 20",
+     "Wechseln seit Spieltag 5 waren freiwillig, nur 3 wegen Verletzungen"
+    ],
+    [
+     "1,7",
+     "Wechsel pro Spiel an den Spieltagen 2 bis 4"
+    ]
+   ],
+   "spalten": [
+    "Union",
+    "Mainz",
+    "Freiburg",
+    "Leverkusen",
+    "Köln",
+    "Frankfurt",
+    "Stuttgart",
+    "Leipzig"
+   ],
+   "cl_ab": 6,
+   "matrix": {
+    "Viggósdóttir": {
+     "1": [
+      "S",
+      90,
+      1
+     ],
+     "2": [
+      "S",
+      90,
+      0
+     ],
+     "3": [
+      "S",
+      90,
+      0
+     ],
+     "4": [
+      "S",
+      90,
+      0
+     ],
+     "5": [
+      "S",
+      90,
+      0
+     ],
+     "6": [
+      "S",
+      90,
+      0
+     ],
+     "7": [
+      "S",
+      90,
+      0
+     ],
+     "8": [
+      "S",
+      90,
+      0
+     ]
+    },
+    "Mahmutovic": {
+     "1": [
+      "S",
+      90,
+      0
+     ],
+     "2": [
+      "S",
+      90,
+      0
+     ],
+     "3": [
+      "S",
+      90,
+      0
+     ],
+     "4": [
+      "S",
+      90,
+      0
+     ],
+     "5": [
+      "S",
+      90,
+      0
+     ],
+     "6": [
+      "S",
+      90,
+      0
+     ],
+     "7": [
+      "S",
+      90,
+      0
+     ],
+     "8": [
+      "S",
+      75,
+      0,
+      "Rote Karte"
+     ]
+    },
+    "Harder": {
+     "1": [
+      "S",
+      90,
+      1
+     ],
+     "2": [
+      "S",
+      90,
+      0
+     ],
+     "3": [
+      "S",
+      65,
+      0
+     ],
+     "4": [
+      "S",
+      85,
+      0
+     ],
+     "5": [
+      "E",
+      26,
+      0
+     ],
+     "6": [
+      "S",
+      90,
+      0
+     ],
+     "7": [
+      "S",
+      90,
+      2
+     ],
+     "8": [
+      "S",
+      73,
+      0
+     ]
+    },
+    "Bühl": {
+     "1": [
+      "S",
+      74,
+      1
+     ],
+     "2": [
+      "S",
+      90,
+      0
+     ],
+     "3": [
+      "S",
+      90,
+      1
+     ],
+     "4": [
+      "S",
+      90,
+      0
+     ],
+     "6": [
+      "S",
+      90,
+      1
+     ],
+     "7": [
+      "S",
+      73,
+      1
+     ],
+     "8": [
+      "S",
+      90,
+      2
+     ]
+    },
+    "Tanikawa": {
+     "1": [
+      "S",
+      90,
+      0
+     ],
+     "2": [
+      "S",
+      90,
+      0
+     ],
+     "3": [
+      "S",
+      90,
+      2
+     ],
+     "4": [
+      "S",
+      90,
+      0
+     ],
+     "5": [
+      "S",
+      46,
+      0
+     ],
+     "6": [
+      "E",
+      30,
+      0
+     ],
+     "7": [
+      "S",
+      90,
+      0
+     ],
+     "8": [
+      "S",
+      72,
+      1
+     ]
+    },
+    "Amani": {
+     "1": [
+      "S",
+      90,
+      0
+     ],
+     "2": [
+      "S",
+      71,
+      0
+     ],
+     "3": [
+      "S",
+      82,
+      0
+     ],
+     "4": [
+      "S",
+      73,
+      0
+     ],
+     "6": [
+      "S",
+      90,
+      0
+     ],
+     "8": [
+      "S",
+      90,
+      0
+     ]
+    },
+    "Dallmann": {
+     "1": [
+      "S",
+      74,
+      0
+     ],
+     "2": [
+      "S",
+      71,
+      0
+     ],
+     "3": [
+      "S",
+      80,
+      0
+     ],
+     "4": [
+      "S",
+      66,
+      0
+     ],
+     "5": [
+      "S",
+      65,
+      0
+     ],
+     "6": [
+      "E",
+      30,
+      0
+     ],
+     "7": [
+      "S",
+      73,
+      1
+     ],
+     "8": [
+      "E",
+      18,
+      0
+     ]
+    },
+    "Naschenweng": {
+     "1": [
+      "S",
+      90,
+      0
+     ],
+     "2": [
+      "S",
+      90,
+      0
+     ],
+     "3": [
+      "S",
+      46,
+      0
+     ],
+     "4": [
+      "E",
+      25,
+      0
+     ],
+     "5": [
+      "S",
+      90,
+      0
+     ],
+     "8": [
+      "S",
+      62,
+      0
+     ]
+    },
+    "Alara": {
+     "1": [
+      "E",
+      29,
+      0
+     ],
+     "2": [
+      "E",
+      20,
+      0
+     ],
+     "4": [
+      "E",
+      18,
+      1
+     ],
+     "5": [
+      "S",
+      90,
+      1
+     ],
+     "6": [
+      "S",
+      86,
+      0
+     ],
+     "7": [
+      "E",
+      28,
+      0
+     ],
+     "8": [
+      "S",
+      90,
+      0
+     ]
+    },
+    "Kett": {
+     "4": [
+      "S",
+      66,
+      0
+     ],
+     "5": [
+      "E",
+      45,
+      0
+     ],
+     "6": [
+      "S",
+      90,
+      0
+     ],
+     "7": [
+      "S",
+      64,
+      0
+     ],
+     "8": [
+      "S",
+      90,
+      0
+     ]
+    },
+    "Proost": {
+     "1": [
+      "E",
+      17,
+      1
+     ],
+     "3": [
+      "S",
+      64,
+      0
+     ],
+     "4": [
+      "E",
+      25,
+      0
+     ],
+     "5": [
+      "S",
+      90,
+      0
+     ],
+     "6": [
+      "S",
+      61,
+      0
+     ],
+     "7": [
+      "E",
+      18,
+      0
+     ],
+     "8": [
+      "S",
+      62,
+      0
+     ]
+    },
+    "Imade": {
+     "2": [
+      "E",
+      12,
+      0
+     ],
+     "3": [
+      "E",
+      27,
+      0
+     ],
+     "4": [
+      "E",
+      25,
+      1
+     ],
+     "5": [
+      "S",
+      71,
+      2
+     ],
+     "6": [
+      "S",
+      61,
+      0
+     ],
+     "7": [
+      "S",
+      90,
+      1
+     ],
+     "8": [
+      "E",
+      19,
+      1
+     ]
+    },
+    "Gwinn": {
+     "2": [
+      "S",
+      64,
+      1
+     ],
+     "3": [
+      "S",
+      90,
+      0
+     ],
+     "4": [
+      "S",
+      90,
+      0
+     ],
+     "6": [
+      "S",
+      86,
+      0,
+      "verletzte sich dabei (Außenbandriss)"
+     ],
+     "7": [
+      "V",
+      0,
+      0,
+      "Außenbandriss linkes Sprunggelenk (FC Bayern, 05.10.)"
+     ],
+     "8": [
+      "V",
+      0,
+      0,
+      "Außenbandriss linkes Sprunggelenk"
+     ]
+    },
+    "Gilles": {
+     "2": [
+      "E",
+      27,
+      1
+     ],
+     "3": [
+      "S",
+      90,
+      1
+     ],
+     "4": [
+      "S",
+      90,
+      1
+     ],
+     "5": [
+      "S",
+      46,
+      0
+     ],
+     "6": [
+      "V",
+      0,
+      0,
+      "muskuläre Probleme (FC Bayern, 02.10.)"
+     ],
+     "7": [
+      "V",
+      0,
+      0,
+      "muskuläre Probleme"
+     ],
+     "8": [
+      "E",
+      29,
+      0,
+      "Comeback, nach der Roten Karte im Tor"
+     ]
+    },
+    "Damnjanović": {
+     "1": [
+      "S",
+      62,
+      0
+     ],
+     "2": [
+      "S",
+      79,
+      0
+     ],
+     "4": [
+      "S",
+      66,
+      0
+     ],
+     "5": [
+      "S",
+      65,
+      1
+     ],
+     "6": [
+      "V",
+      0,
+      0,
+      "Muskelverletzung (FC Bayern, 02.10.)"
+     ],
+     "7": [
+      "V",
+      0,
+      0,
+      "Muskelverletzung"
+     ],
+     "8": [
+      "V",
+      0,
+      0,
+      "Muskelverletzung"
+     ]
+    },
+    "Mattner-Trembleau": {
+     "2": [
+      "E",
+      27,
+      0
+     ],
+     "3": [
+      "E",
+      45,
+      0
+     ],
+     "5": [
+      "S",
+      90,
+      0
+     ],
+     "6": [
+      "E",
+      5,
+      0
+     ],
+     "7": [
+      "S",
+      90,
+      0
+     ],
+     "8": [
+      "E",
+      29,
+      0
+     ]
+    },
+    "Eriksson": {
+     "1": [
+      "S",
+      90,
+      0
+     ],
+     "2": [
+      "S",
+      64,
+      0
+     ],
+     "7": [
+      "E",
+      28,
+      0
+     ],
+     "8": [
+      "S",
+      62,
+      0
+     ]
+    },
+    "Ballisager": {
+     "1": [
+      "S",
+      62,
+      0
+     ],
+     "6": [
+      "S",
+      69,
+      0
+     ],
+     "7": [
+      "S",
+      63,
+      0
+     ]
+    },
+    "Zadrazil": {
+     "1": [
+      "V",
+      0,
+      0,
+      "Reha nach Kreuzbandriss"
+     ],
+     "2": [
+      "V",
+      0,
+      0,
+      "Reha nach Kreuzbandriss"
+     ],
+     "3": [
+      "E",
+      9,
+      0,
+      "Comeback nach Kreuzbandriss"
+     ],
+     "4": [
+      "E",
+      6,
+      0
+     ],
+     "5": [
+      "E",
+      26,
+      1
+     ],
+     "6": [
+      "E",
+      22,
+      0
+     ],
+     "7": [
+      "S",
+      63,
+      0,
+      "erstmals wieder Startelf"
+     ]
+    },
+    "Oberdorf": {
+     "2": [
+      "E",
+      20,
+      0
+     ],
+     "3": [
+      "E",
+      26,
+      0
+     ],
+     "4": [
+      "V",
+      0,
+      0,
+      "nicht im Kader, laut DFB (19.10.) Reaktion im rechten Kniegelenk"
+     ],
+     "5": [
+      "V",
+      0,
+      0,
+      "Knie"
+     ],
+     "6": [
+      "V",
+      0,
+      0,
+      "Knie"
+     ],
+     "7": [
+      "V",
+      0,
+      0,
+      "Knie"
+     ],
+     "8": [
+      "V",
+      0,
+      0,
+      "Knie"
+     ]
+    },
+    "Potsi": {
+     "1": [
+      "E",
+      17,
+      0
+     ],
+     "3": [
+      "E",
+      11,
+      0
+     ],
+     "5": [
+      "E",
+      45,
+      0
+     ],
+     "7": [
+      "E",
+      18,
+      0
+     ],
+     "8": [
+      "E",
+      29,
+      0
+     ]
+    }
+   },
+   "vorschau": [
+    "Viggósdóttir",
+    "Bühl",
+    "Harder",
+    "Tanikawa",
+    "Gwinn",
+    "Gilles",
+    "Damnjanović",
+    "Imade"
+   ],
+   "text": [
+    "Die Rotation hat zwei Ursachen. Vor dem Spiel in Frankfurt fielen Gilles und Damnjanović mit Muskelproblemen aus, in Frankfurt riss sich Gwinn das Außenband. Oberdorf fehlt seit dem 4. Spieltag mit Kniebeschwerden. Diese Ausfälle erklären aber nur 3 der 20 Wechsel seit Spieltag 5. Der Rest ist Steuerung.",
+    "Gesetzt sind nur Viggósdóttir und Mahmutovic. Bühl und Harder wurden genau einmal geschont, gegen Köln direkt vor dem CL-Auftakt. Im Topspiel in Frankfurt stand die stärkste verfügbare Elf, Tanikawa kam dort nur als Jokerin."
+   ],
+   "einschaetzung": [
+    "<b>Spieltag 9 gegen Werder (6.11.):</b> Das Spiel liegt zwischen Pokal (1.11.) und Paris (10.11.). Wir erwarten mehr Startelf-Minuten für Alara, Proost, Imade und Mattner-Trembleau. Im Tor fehlt Mahmutovic gesperrt (Rote Karte in Leipzig, DFB 27.10.).",
+    "<b>Spieltag 10 in Wolfsburg (14.11.):</b> Trotz Paris vier Tage vorher erwarten wir im Topspiel die stärkste verfügbare Elf mit Bühl und Harder. So war es auch in Frankfurt nach zwei CL-Spielen."
+   ],
+   "kb": "Bayerns Stammkräfte tragen gegen Werder ein höheres Einsatzrisiko als sonst. Rotationsspielerinnen dürften dort mehr Minuten bekommen, im Topspiel in Wolfsburg wieder weniger.",
+   "quelle": "Daten: Sportschau-Aufstellungen Spieltag 1 bis 8. Verletzungen: FC Bayern (02.10. und 05.10.), DFB (19.10.).",
+   "news_zeit": "2026-10-25T22:45",
+   "kurz": [
+    "Nur 3 der 20 Startelf-Wechsel seit Spieltag 5 hatten Verletzungen als Grund, der Rest ist Steuerung.",
+    "Gesetzt sind nur Viggósdóttir und Mahmutovic.",
+    "Im Topspiel in Frankfurt stand trotzdem die stärkste verfügbare Elf."
+   ],
+   "ausblick": [
+    {
+     "md": 9,
+     "datum": "2026-11-06",
+     "gk": "SVW",
+     "ha": "H",
+     "satz": "Zwischen Pokal (1.11.) und Paris (10.11.): mehr Startelf-Minuten erwartet für",
+     "namen": [
+      "Alara",
+      "Proost",
+      "Imade",
+      "Mattner-Trembleau"
+     ],
+     "fehlt": [
+      "Mahmutovic gesperrt"
+     ],
+     "kb": "Rotation",
+     "kbart": "warn"
+    },
+    {
+     "md": 10,
+     "datum": "2026-11-14",
+     "gk": "WOB",
+     "ha": "A",
+     "satz": "Topspiel: stärkste verfügbare Elf mit Bühl und Harder erwartet, wie in Frankfurt nach zwei CL-Spielen.",
+     "kb": "Stammelf",
+     "kbart": "gut"
+    }
+   ]
+  }
+ ],
  "punkt_hinweis": null,
  "geprueft": "2026-11-02T22:48"
 }
