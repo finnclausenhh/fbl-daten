@@ -16,6 +16,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 AUS = sys.argv[sys.argv.index("--aus") + 1] if "--aus" in sys.argv else os.path.join(ROOT, "apifootball.json")
 SAISON = int(os.environ.get("SAISON", "2026"))
 P = lambda *a: os.path.join(ROOT, *a)
+PA = lambda *a: os.path.join(os.environ.get("AFDIR", os.path.join(ROOT, "apifootball")), *a)
 lade = lambda p: json.load(open(p, encoding="utf-8"))
 
 # API-Team-ID -> unser Kürzel (IDs bleiben über die Saisons gleich)
@@ -86,11 +87,12 @@ def finde(k, api_name, nr):
     return None
 
 # ---------------------------------------------------------------- aktuelle Saison
-DET = lade(P("apifootball", f"saison{SAISON}", "spiele_details.json"))
-APIP = lade(P("apifootball", f"saison{SAISON}", "spielerinnen.json"))
+DET = lade(PA(f"saison{SAISON}", "spiele_details.json"))
+APIP = lade(PA(f"saison{SAISON}", "spielerinnen.json"))
 APIP_BY = {a["player"]["id"]: a["player"] for a in APIP}
 
 ID = {}                 # API-ID -> unsere ID
+PEN = []
 ungeklaert = set()
 spiele = {}             # unsere Partie-ID -> Teamwerte, Noten
 sp = collections.defaultdict(lambda: {"no": [], "kp": 0, "kpmin": 0, "par": 0, "parsp": 0, "elf": [0, 0], "drib": [0, 0]})
@@ -138,7 +140,7 @@ for g in DET:
             if not wir:
                 f = finde(TEAM.get(ev["team"]["id"]), ev["player"]["name"], None)
                 wir = f and f["id"]
-            if wir: sp[wir]["elf"][0 if ev["detail"] == "Penalty" else 1] += 1
+            if wir: sp[wir]["elf"][0 if ev["detail"] == "Penalty" else 1] += 1; PEN.append({"md": md, "id": wir, "ok": ev["detail"] == "Penalty", "min": ev["time"]["elapsed"], "pid": pid})
     spiele[pid] = {"md": md, "w": werte, "no": noten}
     for seite, k in ((0, hk), (1, gk)):
         teamsp[k].append({"md": md, "ha": "H" if seite == 0 else "A",
@@ -197,7 +199,7 @@ def form_liste():
         vor = voll[:-3]; basis = sum(n[1] for n in vor) / len(vor)
         diff = round(l3 - basis, 2)
         letzte = s["spiele"][-3:]
-        k = {"id": s["id"], "n": s["n"], "k": s["k"], "l3": round(l3, 2), "vorher": round(basis, 2), "diff": diff,
+        k = {"id": s["id"], "n": s["n"], "k": s["k"], "pos": s.get("pos"), "l3": round(l3, 2), "vorher": round(basis, 2), "diff": diff,
              "noten": [n[1] for n in voll[-5:]], "min3": [x.get("min", 0) for x in letzte],
              "prog": (s.get("prognose") or {}).get("st")}
         if diff <= -0.6: tief.append(k)
@@ -206,6 +208,67 @@ def form_liste():
     return tief[:6], hoch[:6]
 
 tief, hoch = form_liste()
+
+# ---------------------------------------------------------------- Einordnung: Gegner, Belastung, Ertrag (Finn 03.11.2026)
+def _tab():
+    t = {k: {"p": 0, "d": 0, "t": 0} for k in SPN["vereine"]}
+    for (m, h, g), p in PARTIE.items():
+        if p.get("status") != "beendet": continue
+        a, b = int(p["ergebnis"][0]), int(p["ergebnis"][1])
+        for k, x, y in ((h, a, b), (g, b, a)): t[k]["p"] += 3 if x > y else 1 if x == y else 0; t[k]["d"] += x - y; t[k]["t"] += x
+    r = sorted(t, key=lambda k: (-t[k]["p"], -t[k]["d"], -t[k]["t"])); return {k: i + 1 for i, k in enumerate(r)}
+RANG0 = _tab()
+
+def einordnung(s):
+    letzte = [x for x in s["spiele"] if x.get("art") in ("S", "E")][-3:]
+    if not letzte: return {}
+    rg = [RANG0.get(x.get("gk")) for x in letzte if x.get("gk")]
+    avg = round(sum(rg) / len(rg), 1) if rg else None
+    stufe = None if avg is None else "stark" if avg <= 5 else "schwach" if avg >= 10 else "mittel"
+    ende = max(x["datum"][:10] for x in letzte)
+    start = (datetime.date.fromisoformat(ende) - datetime.timedelta(days=14)).isoformat()
+    alle = [x["datum"][:10] for x in s["spiele"] if x.get("art") in ("S", "E")] + [x["datum"][:10] for x in s.get("pokal") or [] if x.get("art") in ("S", "E")]
+    last = sum(1 for d in alle if start < d <= ende)
+    tv = sum(len(x.get("tore") or []) + (x.get("vorl") or 0) for x in letzte)
+    return {"geg": [x.get("gk") for x in letzte], "gr": avg, "gs": stufe, "last": last, "tv": tv}
+
+for k in tief + hoch: k.update(einordnung(WIRBYID[k["id"]]))
+
+# Noten und Ertrag passen nicht zusammen
+trifft, leer = [], []
+for s in WIR:
+    e = profil.get(s["id"]) or {}
+    voll = [n for n in e.get("no", []) if n[2] >= 60]
+    starts = sum(1 for x in s["spiele"] if x.get("art") == "S")
+    if len(voll) < 5 or starts < 5 or s.get("pos") == "TW": continue
+    l3 = sum(n[1] for n in voll[-3:]) / 3; avg = sum(n[1] for n in voll) / len(voll)
+    ein = einordnung(s)
+    k = {"id": s["id"], "n": s["n"], "k": s["k"], "pos": s.get("pos"), "l3": round(l3, 2), "vorher": round(avg, 2), "diff": round(l3 - avg, 2), "noten": [n[1] for n in voll[-5:]],
+         "min3": [x.get("min", 0) for x in s["spiele"][-3:]], "prog": (s.get("prognose") or {}).get("st"), **ein}
+    if (l3 <= avg - 0.2 and ein.get("tv", 0) >= 2) or (l3 < 6.5 and ein.get("tv", 0) >= 1): trifft.append(k)
+    elif (l3 >= avg + 0.2 or l3 >= 7.3) and ein.get("tv", 0) == 0 and s.get("pos") in ("MF", "ST") and sum(1 for x in s["spiele"][-3:] if x.get("art") == "S") >= 2: leer.append(k)
+trifft.sort(key=lambda x: -x["tv"]); leer.sort(key=lambda x: -x["l3"])
+
+# Team-Form: letzte 3 Ligaspiele gegen die Spiele davor
+teamform = []
+for k in SPN["vereine"]:
+    L = []
+    for (m, h, g), p in sorted(PARTIE.items()):
+        if p.get("status") != "beendet" or k not in (h, g): continue
+        si = 0 if k == h else 1; a = spiele.get(p["id"]) or {}
+        no = [n for i, n in (a.get("no") or {}).items() if WIRBYID[i]["k"] == k and next((x.get("min", 0) for x in WIRBYID[i]["spiele"] if x["md"] == m), 0) >= 60]
+        xg = (a.get("w") or {}).get("xg") or [None, None]
+        t, gg = int(p["ergebnis"][si]), int(p["ergebnis"][1 - si])
+        L.append({"md": m, "pkt": 3 if t > gg else 1 if t == gg else 0, "t": t, "g": gg, "no": sum(no) / len(no) if no else None, "xg": xg[si], "xgg": xg[1 - si], "gk": g if si == 0 else h})
+    if len(L) < 5: continue
+    d3, dv = L[-3:], L[:-3]
+    sn = lambda X, f: (lambda w: round(sum(w) / len(w), 2) if w else None)([f(x) for x in X if f(x) is not None])
+    tf = {"k": k, "rang": RANG0[k], "p3": sn(d3, lambda x: x["pkt"]), "pv": sn(dv, lambda x: x["pkt"]), "n3": sn(d3, lambda x: x["no"]), "nv": sn(dv, lambda x: x["no"]),
+          "t3": sn(d3, lambda x: x["t"]), "g3": sn(d3, lambda x: x["g"]), "xg3": sn(d3, lambda x: x["xg"]), "xgg3": sn(d3, lambda x: x["xgg"]),
+          "gr3": round(sum(RANG0[x["gk"]] for x in d3) / 3, 1), "form": "".join("S" if x["pkt"] == 3 else "U" if x["pkt"] == 1 else "N" for x in d3)}
+    tf["trend"] = round((tf["n3"] or 0) - (tf["nv"] or 0), 2)
+    teamform.append(tf)
+teamform.sort(key=lambda x: -x["trend"])
 
 # xG-Check der letzten beiden Spieltage mit xG
 xgmds = sorted({s["md"] for s in spiele.values() if (s["w"].get("xg") or [None])[0] is not None})[-2:]
@@ -246,7 +309,7 @@ best["joker"] = bl(joker, 8)
 # ---------------------------------------------------------------- Vorschau "Daten zum Spiel"
 ARCH = []
 for y in range(2023, SAISON):
-    try: ARCH += lade(P("apifootball", f"saison{y}", "spiele_details.json"))
+    try: ARCH += lade(PA(f"saison{y}", "spiele_details.json"))
     except FileNotFoundError: pass
 
 def tabelle():
@@ -334,10 +397,66 @@ def karte(p):
 naechster = SPP.get("aktuell")
 vorschau = [karte(p) for (m, h, g), p in sorted(PARTIE.items()) if m == naechster and p.get("status") != "beendet"]
 
+# ---------------------------------------------------------------- News-Kandidaten (Testkopie; später in die News-Läufe)
+MDL = max((v["md"] for v in spiele.values()), default=0)
+STAND = datetime.datetime.now().strftime("%Y-%m-%dT%H:%M")
+VN = lambda k: SPN["vereine"][k]["name"]
+QAF = [{"name": "API-Football (Noten, Teamwerte)", "url": "https://www.api-football.com"}, {"name": "Sportschau (Minuten, Tore)", "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/"}]
+PSW = {"sicher": "gesetzt", "erwartet": "erwartet in der Startelf", "unsicher": "unsicher", "unwahrscheinlich": "eher nicht in der Startelf", "ausgeschlossen": "fällt aus"}
+def dz(x): return f"{x:.1f}".replace(".", ",")
+def meld(sid, tags, head, kurz, text, kb, typ):
+    s = WIRBYID[sid]
+    return {"id": f"af-{typ}-{sid}-{MDL}", "pid": sid, "zeit": STAND, "spielerin": s["n"], "verein": s["verein"], "nr": s.get("nr"), "pos": s.get("pos"),
+            "tags": tags, "headline": head, "kurz": kurz, "text": text, "kickbase": kb, "quellen": QAF, "af": True}
+news = []
+for f in tief[:2]:
+    nach = f["n"].split()[-1]; pr = PSW.get(f["prog"] or "", "offen")
+    geg = ", ".join(VN(k) for k in f.get("geg") or [])
+    news.append(meld(f["id"], ["FORMTIEF", "INSIDER"], f"{nach} im Formtief: Noten zuletzt deutlich schwächer", f"{nach} im Formtief: Ø {dz(f['l3'])} statt {dz(f['vorher'])}",
+        [f"{f['n']} ({VN(f['k'])}) kommt in den letzten drei Spielen ab 60 Minuten auf eine Durchschnittsnote von {dz(f['l3'])}, davor waren es {dz(f['vorher'])}. Die Noten berechnet API-Football aus den Spielwerten, es sind keine Kickbase-Punkte.",
+         f"Die Gegner zuletzt: {geg} (im Schnitt Tabellenplatz {round(f['gr'])}, {'eher stark' if f.get('gs') == 'stark' else 'eher schwach' if f.get('gs') == 'schwach' else 'gemischt'}). {f.get('last', 0)} Einsätze in 14 Tagen inklusive Pokal und Europapokal." if geg else ""],
+        f"Minuten der letzten 3 Ligaspiele: {' · '.join(str(m) + chr(39) for m in f['min3'])}. Prognose fürs nächste Spiel: {pr}.", "formtief"))
+for f in hoch[:2]:
+    nach = f["n"].split()[-1]; pr = PSW.get(f["prog"] or "", "offen")
+    news.append(meld(f["id"], ["FORMHOCH", "INSIDER"], f"{nach} im Formhoch: Noten zuletzt deutlich besser", f"{nach} im Formhoch: Ø {dz(f['l3'])} statt {dz(f['vorher'])}",
+        [f"{f['n']} ({VN(f['k'])}) steigert sich: Durchschnittsnote {dz(f['l3'])} in den letzten drei Spielen ab 60 Minuten, davor {dz(f['vorher'])}.",
+         f"Dabei kamen {f.get('tv', 0)} Scorerpunkte heraus. Die Gegner standen im Schnitt auf Platz {round(f['gr'])}." if f.get("gr") else ""],
+        f"Minuten der letzten 3 Ligaspiele: {' · '.join(str(m) + chr(39) for m in f['min3'])}. Prognose fürs nächste Spiel: {pr}.", "formhoch"))
+PENG = {}
+for x in PEN:
+    if x["md"] == MDL: PENG.setdefault(x["id"], []).append(x)
+for sid, L in PENG.items():
+    s = WIRBYID[sid]; nach = s["n"].split()[-1]; ok = sum(1 for x in L if x["ok"]); e = {"ok": ok == len(L)}
+    news.append(meld(sid, ["ELFMETER", "STANDARD"], f"Bitter: {nach} verschießt Elfmeter" if not ok else f"{nach} verwandelt {'zwei Elfmeter' if ok == 2 else 'Elfmeter'}", (f"{nach} verwandelt {'zwei Elfmeter' if ok == 2 else 'Elfmeter'}" if ok == len(L) else f"{nach} verschießt Elfmeter"),
+        [f"{s['n']} ({VN(s['k'])}) trat am {MDL}. Spieltag {'zweimal' if len(L) == 2 else ''} zum Elfmeter an ({', '.join(str(x['min']) + '. Minute' for x in L)}) und verwandelte {ok} von {len(L)}.".replace("  ", " ")],
+        "Für Kickbase zählt, wer schießt: Sie ist als Schützin vermerkt." if e["ok"] else "Ob sie Schützin bleibt, ist offen. Wir beobachten den nächsten Elfmeter.", "elfmeter"))
+JK = sorted([(s, next((z for z in s["spiele"] if z["md"] == MDL and z.get("art") == "E" and z.get("tore")), None)) for s in WIR], key=lambda q: -len((q[1] or {}).get("tore") or []))
+JK = [q for q in JK if q[1]][:3]
+for s, x in JK:
+    news.append(meld(s["id"], ["JOKER"], f"Joker sticht: {s['n'].split()[-1]} trifft nach Einwechslung", f"{s['n'].split()[-1]} trifft als Joker" + (" doppelt" if len(x["tore"]) == 2 else ""),
+        [f"{s['n']} ({VN(s['k'])}) kam am {MDL}. Spieltag von der Bank und traf {({1: 'einmal', 2: 'doppelt', 3: 'dreifach'}).get(len(x['tore']), str(len(x['tore'])) + '-mal')} ({', '.join(t + chr(39) for t in x['tore'])}), nach {x.get('min', 0)} Minuten Einsatzzeit."],
+        "Ein Joker-Tor ist noch kein Startelf-Platz. Erst die Aufstellung am nächsten Spieltag zeigt, ob sie beginnt.", "joker"))
+for s in WIR:
+    g = sum(1 for z in s["spiele"] if z.get("gelb") and not z.get("gr"))
+    if g == 4: news.append(meld(s["id"], ["GELBSPERRE"], f"Gelbsperre droht: {s['n'].split()[-1]} steht bei vier Gelben", f"{s['n'].split()[-1]} droht Gelbsperre",
+        [f"{s['n']} ({VN(s['k'])}) hat in der Liga vier Gelbe Karten gesammelt. Mit der fünften ist sie ein Spiel gesperrt."],
+        "Vor jedem Spieltag prüfen: Eine Gelbe mehr und sie fehlt im Spiel danach.", "gelb"))
+if xgcheck:
+    x = [r for r in xgcheck if r["md"] == MDL]
+    if x:
+        r = x[0]
+        news.append({"id": f"af-xg-{MDL}", "zeit": STAND, "verein": VN(r["k"]), "tags": ["xG-CHECK", "INSIDER"],
+            "headline": f"xG-Check: {VN(r['k'])} {'trifft weit über' if r['d'] > 0 else 'bleibt weit unter'} den Chancen",
+            "kurz": f"xG-Check: {VN(r['k'])} {r['t']} Tore bei {dz(r['xg'])} xG", "text": [f"{VN(r['k'])} erzielte gegen {VN(r['gg'])} {r['t']} Tore bei {dz(r['xg'])} erwarteten Toren (xG)."] +
+            [f"{VN(z['k'])}: {z['t']} Tore bei {dz(z['xg'])} xG." for z in x[1:4]],
+            "kickbase": "Hohe Effizienz gleicht sich meist aus, ungenutzte Chancen sprechen eher für mehr Tore im nächsten Spiel.", "quellen": QAF, "af": True})
+news = [n for n in news if n]
+for n in news: n["text"] = [t for t in n.get("text", []) if t]
+
 # ---------------------------------------------------------------- schreiben
 out = {"stand": datetime.datetime.now().strftime("%Y-%m-%dT%H:%M"), "saison": SAISON, "md": max((s["md"] for s in spiele.values()), default=0),
        "hinweis": "Noten und Teamwerte: API-Football. Minuten, Startelf, Tore, Vorlagen: Sportschau und eigene Auswertung.",
-       "sp": profil, "spiele": spiele, "form": {"tief": tief, "hoch": hoch}, "xg": xgcheck[:8], "xgmd": xgmds,
+       "sp": profil, "spiele": spiele, "form": {"tief": tief, "hoch": hoch, "trifft": trifft[:6], "leer": leer[:6]}, "team": teamform, "news": news, "xg": xgcheck[:8], "xgmd": xgmds,
        "ecken": ecken, "elf": elfer, "best": best, "vorschau": vorschau, "ungeklaert": sorted(ungeklaert)}
 os.makedirs(os.path.dirname(os.path.abspath(AUS)), exist_ok=True)
 json.dump(out, open(AUS, "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
