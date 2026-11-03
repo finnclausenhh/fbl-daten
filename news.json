@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-03T18:52",
+ "stand": "2026-11-03T19:49",
  "meldungen": [
   {
    "id": "baum-0311",
@@ -121,7 +121,7 @@
        "vorlage": "Huth"
       },
       {
-       "min": "25",
+       "min": "24",
        "n": "Prašnikar",
        "eigen": true
       },
@@ -199,7 +199,7 @@
        "n": "Zicai",
        "p": "ST",
        "f": "neu",
-       "aus": "57",
+       "aus": "56",
        "tore": 2
       },
       {
@@ -230,7 +230,7 @@
       {
        "n": "Bussy",
        "p": "OM",
-       "ein_min": "57",
+       "ein_min": "56",
        "vorl": 1
       },
       {
@@ -279,7 +279,7 @@
        "vorlage": "Huth"
       },
       {
-       "min": "25",
+       "min": "24",
        "n": "Prašnikar",
        "eigen": false
       },
@@ -349,7 +349,7 @@
       {
        "n": "Hahn",
        "p": "ST",
-       "aus": "64"
+       "aus": "63"
       },
       {
        "n": "Natter",
@@ -359,7 +359,7 @@
       {
        "n": "Fölmli",
        "p": "ST",
-       "aus": "64"
+       "aus": "63"
       }
      ],
      "eingewechselt": [
@@ -371,12 +371,12 @@
       {
        "n": "Bitzer",
        "p": "ABW",
-       "ein_min": "64"
+       "ein_min": "63"
       },
       {
        "n": "Fenger",
        "p": "ST",
-       "ein_min": "64"
+       "ein_min": "63"
       },
       {
        "n": "Douma",
@@ -1874,12 +1874,12 @@
     "POKAL"
    ],
    "status": "fraglich",
-   "headline": "Reimann nicht im Kader gegen FC Carl Zeiss Jena",
+   "headline": "Reimann und Ihme nicht im Kader gegen FC Carl Zeiss Jena",
    "text": [
-    "Anna Reimann steht im DFB-Pokal gegen FC Carl Zeiss Jena weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
+    "Im DFB-Pokal gegen FC Carl Zeiss Jena stehen weder in der Startelf noch auf der Bank: Anna Reimann (5 von 5 Ligaspielen in der Startelf), Pauline Ihme (0 von 5 Ligaspielen in der Startelf).",
     "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
    ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
+   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie alle als fraglich und stufen sie in der Prognose herunter.",
    "quellen": [
     {
      "name": "DFB-Datencenter",
@@ -1887,7 +1887,7 @@
     }
    ],
    "quelle_live": true,
-   "kurz": "Reimann nicht im Kader"
+   "kurz": "Reimann und Ihme nicht im Kader"
   },
   {
    "id": "fehlt-viggosdottir-fcb-0111",
@@ -1937,19 +1937,20 @@
     "POKAL"
    ],
    "status": "fraglich",
-   "headline": "Bender nicht im Kader gegen FC Bayern",
+   "headline": "Bender und Remien nicht im Kader gegen FC Bayern",
    "text": [
-    "Loreen Bender steht im DFB-Pokal gegen FC Bayern weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 4-mal.",
+    "Im DFB-Pokal gegen FC Bayern stehen weder in der Startelf noch auf der Bank: Loreen Bender (4 von 5 Ligaspielen in der Startelf), Louisa Remien (0 von 5 Ligaspielen in der Startelf).",
     "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
    ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
+   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie alle als fraglich und stufen sie in der Prognose herunter.",
    "quellen": [
     {
      "name": "Sportschau",
      "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165391/bayern-muenchen_bayer-leverkusen/aufstellung"
     }
    ],
-   "quelle_live": true
+   "quelle_live": true,
+   "kurz": "Bender und Remien nicht im Kader"
   },
   {
    "id": "fehlt-altenburg-sge-0111",
@@ -1964,19 +1965,20 @@
     "POKAL"
    ],
    "status": "fraglich",
-   "headline": "Altenburg nicht im Kader gegen 1. FC Nürnberg",
+   "headline": "Altenburg und Doorsoun nicht im Kader gegen 1. FC Nürnberg",
    "text": [
-    "Lina Altenburg steht im DFB-Pokal gegen 1. FC Nürnberg weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
+    "Im DFB-Pokal gegen 1. FC Nürnberg stehen weder in der Startelf noch auf der Bank: Lina Altenburg (5 von 5 Ligaspielen in der Startelf), Sara Doorsoun (2 von 5 Ligaspielen in der Startelf).",
     "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
    ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
+   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie alle als fraglich und stufen sie in der Prognose herunter.",
    "quellen": [
     {
      "name": "DFB-Datencenter",
      "url": "https://datencenter.dfb.de/matches/1-fc-nuernberg-eintracht-frankfurt-2431335"
     }
    ],
-   "quelle_live": true
+   "quelle_live": true,
+   "kurz": "Altenburg und Doorsoun nicht im Kader"
   },
   {
    "id": "aufstellung-pokal-scf-0111",
@@ -6945,121 +6947,6 @@
    },
    "pid": "00223",
    "kurz": "Joly und Schasching vor Bayern-Spiel fraglich"
-  },
-  {
-   "id": "carlson-2010",
-   "zeit": "2026-10-20T20:00",
-   "spielerin": "Britta Carlson",
-   "verein": "1. FC Köln",
-   "nr": "",
-   "pos": "Trainerin",
-   "tags": [
-    "VORBERICHT"
-   ],
-   "headline": "Carlson fordert in Wolfsburg die Effizienz aus dem HSV-Spiel",
-   "text": [
-    "Kölns Trainerin Britta Carlson spricht vor dem Spiel in Wolfsburg von einer schweren Aufgabe. Wolfsburg habe die klarste Spielanlage der Liga, lasse aber auch Gegentore zu.",
-    "Köln hat in der Bundesliga noch nie gegen Wolfsburg gewonnen. Gegen den HSV gelang zuletzt ein 3:1 mit drei Toren von Pauline Bremer."
-   ],
-   "kickbase": "Bremer bleibt die Kölner Spielerin mit dem größten Punktepotenzial, die Aufgabe am Samstag ist aber die schwerste denkbare.",
-   "quellen": [
-    {
-     "name": "1. FC Köln",
-     "url": "https://fc.de/aktuelles/news/fc-frauen-topspiel-in-wolfsburg"
-    }
-   ],
-   "kurz": "Carlson fordert Effizienz in Wolfsburg"
-  },
-  {
-   "id": "stierli-2010",
-   "zeit": "2026-10-20",
-   "spielerin": "Julia Stierli",
-   "verein": "SC Freiburg",
-   "nr": "",
-   "pos": "ABW",
-   "tags": [
-    "SPERRE",
-    "TOP"
-   ],
-   "headline": "Stierli für zwei Ligaspiele gesperrt",
-   "text": [
-    "Nach ihrer Roten Karte gegen Leipzig hat der DFB Julia Stierli für zwei Meisterschaftsspiele gesperrt. Sie hatte in der 18. Minute eine klare Torchance von Emanuela Pfister per Foul verhindert.",
-    "Die Abwehrchefin fehlt damit am Sonntag in Bremen und voraussichtlich am 7. November gegen Nürnberg. Für das Pokalspiel gegen Jena gilt die Sperre nicht."
-   ],
-   "kickbase": "Nicht aufstellen. Als Ersatz kommt die zuletzt kranke Mia-Lena Maas infrage, sonst eine Umstellung mit Ojukwu in der Abwehr.",
-   "quellen": [
-    {
-     "name": "DFB-Sperrenliste",
-     "url": "https://www.dfb.de/ueber-uns/verbandsrecht/sperren"
-    }
-   ],
-   "foto": "fotos/julia-stierli.jpg",
-   "foto_credit": {
-    "autor": "Frank Haug",
-    "lizenz": "CC BY 3.0",
-    "url": "https://commons.wikimedia.org/wiki/File:Julia_Stierli_by_Frank_Haug.JPG"
-   },
-   "pid": "00095"
-  },
-  {
-   "id": "doucoure-2010",
-   "zeit": "2026-10-20",
-   "spielerin": "Magou Doucouré",
-   "verein": "Hamburger SV",
-   "nr": "",
-   "pos": "ABW",
-   "tags": [
-    "SPERRE",
-    "TOP"
-   ],
-   "headline": "Doucouré fehlt gegen Union gesperrt",
-   "text": [
-    "Nach ihrer Gelb-Roten Karte in Köln ist Magou Doucouré für ein Meisterschaftsspiel gesperrt und fehlt am Sonntag gegen Union Berlin.",
-    "Nach ihrem Platzverweis in Köln rückte Mirzaliyeva auf die rechte Abwehrseite. Sie ist die naheliegende Vertreterin."
-   ],
-   "kickbase": "Doucouré am Sonntag nicht aufstellen.",
-   "quellen": [
-    {
-     "name": "DFB-Sperrenliste",
-     "url": "https://www.dfb.de/ueber-uns/verbandsrecht/sperren"
-    },
-    {
-     "name": "NDR",
-     "url": "https://www.sportschau.de/regional/ndr/Bundesliga-Frauen-HSV-1-fc-koeln,hsv-frauen-362.html"
-    }
-   ],
-   "foto": "fotos/magou-doucoure.jpg",
-   "foto_credit": {
-    "autor": "Andreas Schikora",
-    "lizenz": "CC0",
-    "url": "https://commons.wikimedia.org/wiki/File:Magou_Doucour%C3%A9.jpg"
-   },
-   "pid": "00154"
-  },
-  {
-   "id": "reimann-2010",
-   "zeit": "2026-10-20",
-   "spielerin": "Anna Reimann",
-   "verein": "SC Freiburg",
-   "nr": "",
-   "pos": "TW",
-   "tags": [
-    "NATIONALTEAM"
-   ],
-   "headline": "Freiburgs Torhüterin Reimann auf Abruf für die U17-WM",
-   "text": [
-    "Fünf Freiburgerinnen sind bei der U17-WM in Marokko, darunter Laura Ernst, Johanna Putzer und Johanna Hebben aus dem Profikader. Torhüterin Anna Reimann steht auf Abruf.",
-    "Reimann ist derzeit die Nummer eins, weil Laura Benkarth in der Babypause ist. Sollte sie nachnominiert werden, müsste Lorena Barth oder Lina von Schrader ins Tor."
-   ],
-   "kickbase": "Solange Reimann nicht nachnominiert ist, bleibt sie gesetzt. Vor dem Spiel in Bremen noch einmal prüfen.",
-   "quellen": [
-    {
-     "name": "SC Freiburg",
-     "url": "https://www.scfreiburg.com/aktuell/nachrichten/frauen-maedchen/2026/27/news/fuenf-freiburgerinnen-bei-u17-wm/"
-    }
-   ],
-   "pid": "00085",
-   "kurz": "Reimann auf Abruf für die U17-WM"
   },
   {
    "id": "aufstellung-rbl-2310",
