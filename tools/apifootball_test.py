@@ -29,6 +29,7 @@ def api(pfad, **params):
     url = f"{BASIS}/{pfad}" + ("?" + urllib.parse.urlencode(params) if params else "")
     req = urllib.request.Request(url, headers={"x-apisports-key": os.environ["API_FOOTBALL_KEY"],
                                                "User-Agent": "WOSOINSIDER-Test/0.1"})
+    time.sleep(7)  # Gratistarif: höchstens 10 Abfragen pro Minute
     with urllib.request.urlopen(req, timeout=30) as r:
         abfragen += 1
         d = json.loads(r.read().decode("utf-8"))
@@ -164,11 +165,13 @@ def messen():
 if __name__ == "__main__":
     try:
         messen() if "--messen" in sys.argv else bestand()
-    except SystemExit as e:
-        if e.code not in (None, 0):
+    except (SystemExit, Exception) as e:
+        import traceback
+        code = getattr(e, "code", None) if isinstance(e, SystemExit) else traceback.format_exc()[-1500:]
+        if code not in (None, 0):
             AUS.mkdir(exist_ok=True)
             (AUS / "fehler.json").write_text(json.dumps({"stand": datetime.now(timezone.utc).isoformat(timespec="minutes"),
-                "modus": "messen" if "--messen" in sys.argv else "bestand", "fehler": str(e.code), "abfragen": abfragen},
+                "modus": "messen" if "--messen" in sys.argv else "bestand", "fehler": str(code), "abfragen": abfragen},
                 ensure_ascii=False, indent=1))
-            print("FEHLER:", e.code)
+            print("FEHLER:", code)
         raise

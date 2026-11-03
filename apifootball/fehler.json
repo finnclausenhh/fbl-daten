@@ -1,6 +1,0 @@
-{
- "stand": "2026-11-03T19:26+00:00",
- "modus": "bestand",
- "fehler": "API-Fehler bei fixtures: {'plan': 'Free plans do not have access to the Ids parameter.'}",
- "abfragen": 3
-}
