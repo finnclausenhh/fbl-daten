@@ -16,7 +16,7 @@ from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 BASIS = "https://v3.football.api-sports.io"
-SAISON = int(os.environ.get("SAISON", "2024"))  # Gratistarif: nur 2022 bis 2024
+SAISON = int(os.environ.get("SAISON", "2026"))  # Pro-Testmonat ab 03.11.2026; im Gratistarif nur 2022 bis 2024
 LIMIT = 90
 AUS = Path("apifootball")
 abfragen = 0
