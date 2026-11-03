@@ -1,0 +1,238 @@
+{
+ "liga_id": 82,
+ "stand": "2026-11-03T19:46+00:00",
+ "saisons": {
+  "2016": {
+   "von": "2016-09-03",
+   "bis": "2017-05-21",
+   "aktuell": false,
+   "abdeckung": {
+    "fixtures": {
+     "events": false,
+     "lineups": false,
+     "statistics_fixtures": false,
+     "statistics_players": false
+    },
+    "standings": true,
+    "players": true,
+    "top_scorers": true,
+    "top_assists": true,
+    "top_cards": true,
+    "injuries": false,
+    "predictions": true,
+    "odds": false
+   }
+  },
+  "2017": {
+   "von": "2017-09-02",
+   "bis": "2018-06-03",
+   "aktuell": false,
+   "abdeckung": {
+    "fixtures": {
+     "events": false,
+     "lineups": false,
+     "statistics_fixtures": false,
+     "statistics_players": false
+    },
+    "standings": true,
+    "players": true,
+    "top_scorers": true,
+    "top_assists": true,
+    "top_cards": true,
+    "injuries": false,
+    "predictions": true,
+    "odds": false
+   }
+  },
+  "2018": {
+   "von": "2018-09-15",
+   "bis": "2019-05-12",
+   "aktuell": false,
+   "abdeckung": {
+    "fixtures": {
+     "events": true,
+     "lineups": true,
+     "statistics_fixtures": false,
+     "statistics_players": false
+    },
+    "standings": true,
+    "players": true,
+    "top_scorers": true,
+    "top_assists": true,
+    "top_cards": true,
+    "injuries": false,
+    "predictions": true,
+    "odds": false
+   }
+  },
+  "2019": {
+   "von": "2019-08-16",
+   "bis": "2020-06-28",
+   "aktuell": false,
+   "abdeckung": {
+    "fixtures": {
+     "events": true,
+     "lineups": true,
+     "statistics_fixtures": false,
+     "statistics_players": false
+    },
+    "standings": true,
+    "players": true,
+    "top_scorers": true,
+    "top_assists": true,
+    "top_cards": true,
+    "injuries": false,
+    "predictions": true,
+    "odds": false
+   }
+  },
+  "2020": {
+   "von": "2020-09-04",
+   "bis": "2021-06-06",
+   "aktuell": false,
+   "abdeckung": {
+    "fixtures": {
+     "events": true,
+     "lineups": true,
+     "statistics_fixtures": false,
+     "statistics_players": false
+    },
+    "standings": true,
+    "players": true,
+    "top_scorers": true,
+    "top_assists": true,
+    "top_cards": true,
+    "injuries": false,
+    "predictions": true,
+    "odds": false
+   }
+  },
+  "2021": {
+   "von": "2021-08-27",
+   "bis": "2022-05-15",
+   "aktuell": false,
+   "abdeckung": {
+    "fixtures": {
+     "events": true,
+     "lineups": true,
+     "statistics_fixtures": false,
+     "statistics_players": false
+    },
+    "standings": true,
+    "players": true,
+    "top_scorers": true,
+    "top_assists": true,
+    "top_cards": true,
+    "injuries": false,
+    "predictions": true,
+    "odds": false
+   }
+  },
+  "2022": {
+   "von": "2022-09-16",
+   "bis": "2023-05-28",
+   "aktuell": false,
+   "abdeckung": {
+    "fixtures": {
+     "events": true,
+     "lineups": true,
+     "statistics_fixtures": false,
+     "statistics_players": false
+    },
+    "standings": true,
+    "players": true,
+    "top_scorers": true,
+    "top_assists": true,
+    "top_cards": true,
+    "injuries": false,
+    "predictions": true,
+    "odds": false
+   }
+  },
+  "2023": {
+   "von": "2023-09-15",
+   "bis": "2024-05-20",
+   "aktuell": false,
+   "abdeckung": {
+    "fixtures": {
+     "events": true,
+     "lineups": true,
+     "statistics_fixtures": true,
+     "statistics_players": true
+    },
+    "standings": true,
+    "players": true,
+    "top_scorers": true,
+    "top_assists": true,
+    "top_cards": true,
+    "injuries": false,
+    "predictions": true,
+    "odds": false
+   }
+  },
+  "2024": {
+   "von": "2024-08-30",
+   "bis": "2025-05-11",
+   "aktuell": false,
+   "abdeckung": {
+    "fixtures": {
+     "events": true,
+     "lineups": true,
+     "statistics_fixtures": true,
+     "statistics_players": true
+    },
+    "standings": true,
+    "players": true,
+    "top_scorers": true,
+    "top_assists": true,
+    "top_cards": true,
+    "injuries": false,
+    "predictions": true,
+    "odds": false
+   }
+  },
+  "2025": {
+   "von": "2025-09-05",
+   "bis": "2026-05-17",
+   "aktuell": false,
+   "abdeckung": {
+    "fixtures": {
+     "events": true,
+     "lineups": true,
+     "statistics_fixtures": true,
+     "statistics_players": true
+    },
+    "standings": true,
+    "players": true,
+    "top_scorers": true,
+    "top_assists": true,
+    "top_cards": true,
+    "injuries": false,
+    "predictions": true,
+    "odds": false
+   }
+  },
+  "2026": {
+   "von": "2026-08-21",
+   "bis": "2027-05-23",
+   "aktuell": true,
+   "abdeckung": {
+    "fixtures": {
+     "events": true,
+     "lineups": true,
+     "statistics_fixtures": true,
+     "statistics_players": true
+    },
+    "standings": true,
+    "players": true,
+    "top_scorers": true,
+    "top_assists": true,
+    "top_cards": true,
+    "injuries": false,
+    "predictions": true,
+    "odds": true
+   }
+  }
+ },
+ "abfragen": 1
+}
