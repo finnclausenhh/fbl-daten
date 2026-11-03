@@ -46,6 +46,19 @@ def liga():
     raise SystemExit("Frauen Bundesliga nicht gefunden")
 
 
+def abdeckung():
+    """Abdeckung aller Saisons der Liga (1 Abfrage, auch im Gratistarif erlaubt)."""
+    for eintrag in api("leagues", country="Germany"):
+        if eintrag["league"]["name"].strip().lower() == "frauen bundesliga":
+            out = {"liga_id": eintrag["league"]["id"], "stand": datetime.now(timezone.utc).isoformat(timespec="minutes"),
+                   "saisons": {s["year"]: {"von": s["start"], "bis": s["end"], "aktuell": s["current"], "abdeckung": s["coverage"]}
+                               for s in eintrag["seasons"]}, "abfragen": abfragen}
+            AUS.mkdir(exist_ok=True)
+            (AUS / "abdeckung.json").write_text(json.dumps(out, ensure_ascii=False, indent=1))
+            print(json.dumps(out, ensure_ascii=False, indent=1))
+            return
+
+
 def befuellt(x):
     return x not in (None, "", [], {}, 0)
 
@@ -164,7 +177,7 @@ def messen():
 
 if __name__ == "__main__":
     try:
-        messen() if "--messen" in sys.argv else bestand()
+        abdeckung() if "--abdeckung" in sys.argv else (messen() if "--messen" in sys.argv else bestand())
     except (SystemExit, Exception) as e:
         import traceback
         code = getattr(e, "code", None) if isinstance(e, SystemExit) else traceback.format_exc()[-1500:]

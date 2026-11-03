@@ -41,8 +41,10 @@ jobs:
         run: |
           if [ "${{ github.event_name }}" = "schedule" ] || [ "${{ inputs.modus }}" = "messen" ]; then
             python3 tools/apifootball_test.py --messen
-          else
+          elif [ "${{ inputs.modus }}" = "bestand" ]; then
             python3 tools/apifootball_test.py --bestand
+          else
+            python3 tools/apifootball_test.py --abdeckung
           fi
       - name: Ergebnis sichern
         run: |
