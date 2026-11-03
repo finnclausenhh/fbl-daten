@@ -263,8 +263,8 @@ ers("""          ${s.hinweis ? `<div class="hw">${svg(P.warn, "").replace("<svg"
       <p class="af-st">* aus API-Football, ${AF.md}. Spieltag. Fuß aus unseren Stammdaten.</p></div>`;""")
 
 # Spiele mit Ansage: Daten zum Spiel aufklappbar
-ers("""        ${(g.fakten || []).map(x => `<div class="fakt"><i></i><span>${fett(x)}</span></div>`).join("")}${kbBox(g.kb)}</div>`).join("")}</section>`;""",
-    """        ${(g.fakten || []).map(x => `<div class="fakt"><i></i><span>${fett(x)}</span></div>`).join("")}${kbBox(g.kb)}${(() => { const v = AF && (AF.vorschau || []).find(v => v.h === g.heim && v.g === g.gast); return v ? `<details class="dzb"><summary>Daten zum Spiel</summary>${datenZumSpiel(v)}</details>` : ""; })()}</div>`).join("")}</section>`;""")
+ers("""<span>${fett(x)}</span></div>`).join("")}${kbBox(g.kb)}""",
+    """<span>${fett(x)}</span></div>`).join("")}${kbBox(g.kb)}${(() => { const v = AF && (AF.vorschau || []).find(v => v.h === g.heim && v.g === g.gast); return v ? `<details class="dzb"><summary>Daten zum Spiel</summary>${datenZumSpiel(v)}</details>` : ""; })()}""")
 
 # ------------------------------------------------------------------ Statistik: neue Bestenlisten
 ers("""["p90","Tore pro 90 Minuten","ab 270 Einsatzminuten"],""",

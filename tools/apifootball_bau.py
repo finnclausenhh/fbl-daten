@@ -95,6 +95,7 @@ APIP_BY = {a["player"]["id"]: a["player"] for a in APIP}
 
 ID = {}                 # API-ID -> unsere ID
 PEN = []
+GELB_AF = collections.Counter()
 ungeklaert = set()
 spiele = {}             # unsere Partie-ID -> Teamwerte, Noten
 sp = collections.defaultdict(lambda: {"no": [], "kp": 0, "kpmin": 0, "par": 0, "parsp": 0, "elf": [0, 0], "drib": [0, 0]})
@@ -137,6 +138,11 @@ for g in DET:
             if dr.get("attempts"): d["drib"][0] += dr.get("success") or 0; d["drib"][1] += dr["attempts"]
     # Elfmeter aus den Ereignissen
     for ev in g.get("events") or []:
+        if ev["type"] == "Card" and ev["detail"] == "Yellow Card":
+            wy = ID.get((ev.get("player") or {}).get("id"))
+            if not wy:
+                fy = finde(TEAM.get(ev["team"]["id"]), (ev.get("player") or {}).get("name"), None); wy = fy and fy["id"]
+            if wy: GELB_AF[wy] += 1
         if ev["type"] == "Goal" and ev["detail"] in ("Penalty", "Missed Penalty"):
             wir = ID.get(ev["player"]["id"])
             if not wir:
@@ -466,9 +472,38 @@ for s, x in JK:
     news.append(meld(s["id"], ["JOKER"], f"Joker sticht: {s['n'].split()[-1]} trifft nach Einwechslung", f"{s['n'].split()[-1]} trifft als Joker" + (" doppelt" if len(x["tore"]) == 2 else ""),
         [f"{s['n']} ({VN(s['k'])}) kam am {MDL}. Spieltag von der Bank und traf {({1: 'einmal', 2: 'doppelt', 3: 'dreifach'}).get(len(x['tore']), str(len(x['tore'])) + '-mal')} ({', '.join(t + chr(39) for t in x['tore'])}), nach {x.get('min', 0)} Minuten Einsatzzeit."],
         "Ein Joker-Tor ist noch kein Startelf-Platz. Erst die Aufstellung am nächsten Spieltag zeigt, ob sie beginnt.", "joker"))
+# Gelbe Karten: nur melden, wenn Sportschau und API-Football übereinstimmen und die DFB-Sperrenliste passt
+def dfb_sperren():
+    import urllib.request, html as H
+    try:
+        req = urllib.request.Request("https://www.dfb.de/ueber-uns/verbandsrecht/sperren", headers={"User-Agent": "Mozilla/5.0"})
+        t = urllib.request.urlopen(req, timeout=20).read().decode("utf-8", "ignore")
+    except Exception as e:
+        print("DFB-Sperrenliste nicht erreichbar:", e); return None
+    t = re.sub(r"<script.*?</script>|<style.*?</style>", "", t, flags=re.S)
+    z = [H.unescape(x).strip() for x in re.sub(r"<[^>]+>", "\n", t).split("\n")]
+    z = [x for x in z if x]
+    try: i = next(j for j, x in enumerate(z) if "Sperren in der Google Pixel Frauen-Bundesliga" in x)
+    except StopIteration: return []
+    out, j = [], i + 1
+    while j < len(z) and not z[j].startswith("Die aktuellen Sperren"):
+        if z[j] in ("Spielerin", "Verein", "Urteil", "Grund") or z[j].startswith("Stand"): j += 1; continue
+        if j + 3 < len(z): out.append({"n": z[j], "verein": z[j + 1], "urteil": z[j + 2], "grund": z[j + 3]}); j += 4
+        else: break
+    return out
+SPERREN = dfb_sperren()
+gesperrt_dfb = lambda s: SPERREN is not None and any(norm(x["n"])[-1:] == norm(s["n"])[-1:] and set(norm(x["n"])) & set(norm(s["n"])) for x in SPERREN)
+gelb_pruefen = []
 for s in WIR:
     g = sum(1 for z in s["spiele"] if z.get("gelb") and not z.get("gr"))
-    if g == 4: news.append(meld(s["id"], ["GELBSPERRE"], f"Gelbsperre droht: {s['n'].split()[-1]} steht bei vier Gelben", f"{s['n'].split()[-1]} droht Gelbsperre",
+    ga = GELB_AF.get(s["id"], 0)
+    if g >= 4 and g != ga: gelb_pruefen.append({"id": s["id"], "n": s["n"], "sportschau": g, "apifootball": ga})
+    if g == 5 and ga == 5 and SPERREN is not None and not gesperrt_dfb(s): gelb_pruefen.append({"id": s["id"], "n": s["n"], "sportschau": g, "apifootball": ga, "hinweis": "5. Gelbe, nicht in der DFB-Sperrenliste"})
+    if g == 5 and ga == 5 and gesperrt_dfb(s):
+        news.append(meld(s["id"], ["GELBSPERRE", "SPERRE"], f"Gelbsperre: {s['n'].split()[-1]} fehlt am nächsten Spieltag", f"{s['n'].split()[-1]} gelbgesperrt",
+            [f"{s['n']} ({VN(s['k'])}) hat ihre fünfte Gelbe Karte gesehen und steht auf der Sperrenliste des DFB. Sie fehlt im nächsten Ligaspiel."],
+            "Für den nächsten Spieltag nicht einplanen.", "gelb5"))
+    if g == 4 and ga == 4 and SPERREN is not None and not gesperrt_dfb(s): news.append(meld(s["id"], ["GELBSPERRE"], f"Gelbsperre droht: {s['n'].split()[-1]} steht bei vier Gelben", f"{s['n'].split()[-1]} droht Gelbsperre",
         [f"{s['n']} ({VN(s['k'])}) hat in der Liga vier Gelbe Karten gesammelt. Mit der fünften ist sie ein Spiel gesperrt."],
         "Vor jedem Spieltag prüfen: Eine Gelbe mehr und sie fehlt im Spiel danach.", "gelb"))
 if xgcheck:
@@ -517,7 +552,7 @@ for n in news:
 # ---------------------------------------------------------------- schreiben
 out = {"stand": JETZT_B().strftime("%Y-%m-%dT%H:%M"), "saison": SAISON, "md": max((s["md"] for s in spiele.values()), default=0),
        "hinweis": "Noten und Teamwerte: API-Football. Minuten, Startelf, Tore, Vorlagen: Sportschau und eigene Auswertung.",
-       "sp": profil, "spiele": spiele, "form": {"tief": tief, "hoch": hoch, "trifft": trifft[:6], "leer": leer[:6], "lauf": lauf[:6]}, "team": teamform, "news": news, "xg": xgcheck[:8], "xgmd": xgmds,
+       "sp": profil, "spiele": spiele, "form": {"tief": tief, "hoch": hoch, "trifft": trifft[:6], "leer": leer[:6], "lauf": lauf[:6]}, "team": teamform, "news": news, "gelb_pruefen": gelb_pruefen, "sperren_dfb": SPERREN, "xg": xgcheck[:8], "xgmd": xgmds,
        "ecken": ecken, "elf": elfer, "best": best, "vorschau": vorschau, "ungeklaert": sorted(ungeklaert)}
 os.makedirs(os.path.dirname(os.path.abspath(AUS)), exist_ok=True)
 json.dump(out, open(AUS, "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
