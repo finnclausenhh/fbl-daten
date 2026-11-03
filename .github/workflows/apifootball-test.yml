@@ -43,7 +43,7 @@ jobs:
             python3 tools/apifootball_test.py --messen
           elif [ "${{ github.event_name }}" = "push" ] || [ "${{ inputs.modus }}" = "saison" ]; then
             # Archiv: Vorsaisons einmalig mitziehen (Statistiken bei API-Football ab 2023/24)
-            for s in 2026 2025 2024 2023; do SAISON=$s python3 tools/apifootball_test.py --saison; done
+            SAISON=2026 python3 tools/apifootball_test.py --saison  # Archiv 2023 bis 2025 liegt seit 03.11. in apifootball/saison20xx
           elif [ "${{ inputs.modus }}" = "bestand" ]; then
             python3 tools/apifootball_test.py --bestand
           else
