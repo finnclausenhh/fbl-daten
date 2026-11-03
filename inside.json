@@ -1517,7 +1517,7 @@
  "analyse": {
   "id": "analyse-wolfsburg-kw45",
   "verein": "WOB",
-  "tag": "ROTATION",
+  "tag": "INSIDER",
   "titel": "Wolfsburg: sechs feste Plätze, fünf offene",
   "teaser": "Wer bei Wolfsburg gesetzt ist, wer zuletzt rausrotiert wurde und was das für Frankfurt und FC Bayern heißt.",
   "stats": [
@@ -1585,8 +1585,7 @@
     "8": [
      "S",
      90,
-     2,
-     "ein Tor per Freistoß"
+     2
     ]
    },
    "Huth": {
@@ -2070,7 +2069,7 @@
    "<b>Spieltag 9 in Frankfurt (6.11.):</b> Frankfurt kassierte erst 7 Gegentore. Für das Topspiel erwarten wir die Elf aus Liga und Pokal, also mit Lattwein, Carleer, Bjelde und Prašnikar. Offen ist der Platz von Bussy oder Zicai. Kleinherne und Vallotto saßen gegen Köln und im Pokal zu Beginn auf der Bank.",
    "<b>Spieltag 10 gegen FC Bayern (14.11.):</b> Vier Tage vorher spielt Wolfsburg in Rotterdam, das Hinspiel endete 7:0. Wir erwarten dort Rotation und gegen Bayern wieder die stärkste verfügbare Elf. Dahinter folgt am 22.11. das Auswärtsspiel in Leipzig."
   ],
-  "kb": "Bei Wolfsburg sind sechs Spielerinnen in der Liga sicher gesetzt. Für die übrigen fünf Plätze zeigt die Elf aus Liga und Pokal vom 24.10. und 2.11. die aktuelle Rangfolge, in den Topspielen gegen Frankfurt und FC Bayern erwarten wir genau diese Elf.",
+  "kb": "Bei Wolfsburg sind sechs Spielerinnen in der Liga fest gesetzt. Für die übrigen fünf Plätze zeigen Liga und Pokal vom 24.10. und 2.11. die aktuelle Rangfolge: Lattwein, Carleer, Bjelde und Prašnikar begannen beide Spiele, offen ist der Platz von Bussy oder Zicai. In den Topspielen gegen Frankfurt und FC Bayern erwarten wir diese Elf.",
   "quelle": "Daten: Sportschau-Aufstellungen und Liveticker Spieltag 1 bis 8. Pokal: DFB-Datencenter (2.11.).",
   "news_zeit": "2026-11-03T12:00",
   "kurz": [
