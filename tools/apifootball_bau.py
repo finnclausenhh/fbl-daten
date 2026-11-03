@@ -11,6 +11,8 @@ Aufruf: python3 tools/apifootball_bau.py [--aus test/apifootball.json]
 Liest: spielerinnen.json, spielplan.json, apifootball/saison2023..2026/
 """
 import json, os, re, sys, unicodedata, datetime, collections
+from zoneinfo import ZoneInfo
+JETZT_B = lambda: datetime.datetime.now(ZoneInfo("Europe/Berlin")).replace(tzinfo=None)
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 AUS = sys.argv[sys.argv.index("--aus") + 1] if "--aus" in sys.argv else os.path.join(ROOT, "apifootball.json")
@@ -415,7 +417,7 @@ vorschau = [karte(p) for (m, h, g), p in sorted(PARTIE.items()) if m == naechste
 
 # ---------------------------------------------------------------- News-Kandidaten (Testkopie; später in die News-Läufe)
 MDL = max((v["md"] for v in spiele.values()), default=0)
-STAND = datetime.datetime.now().strftime("%Y-%m-%dT%H:%M")
+STAND = JETZT_B().strftime("%Y-%m-%dT%H:%M")
 VN = lambda k: SPN["vereine"][k]["name"]
 QAF = [{"name": "API-Football (Noten, Teamwerte)", "url": "https://www.api-football.com"}, {"name": "Sportschau (Minuten, Tore)", "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/"}]
 PSW = {"sicher": "gesetzt", "erwartet": "erwartet in der Startelf", "unsicher": "unsicher", "unwahrscheinlich": "eher nicht in der Startelf", "ausgeschlossen": "fällt aus"}
@@ -513,7 +515,7 @@ for n in news:
     n["zeit"] = x; belegt.add(x)
 
 # ---------------------------------------------------------------- schreiben
-out = {"stand": datetime.datetime.now().strftime("%Y-%m-%dT%H:%M"), "saison": SAISON, "md": max((s["md"] for s in spiele.values()), default=0),
+out = {"stand": JETZT_B().strftime("%Y-%m-%dT%H:%M"), "saison": SAISON, "md": max((s["md"] for s in spiele.values()), default=0),
        "hinweis": "Noten und Teamwerte: API-Football. Minuten, Startelf, Tore, Vorlagen: Sportschau und eigene Auswertung.",
        "sp": profil, "spiele": spiele, "form": {"tief": tief, "hoch": hoch, "trifft": trifft[:6], "leer": leer[:6], "lauf": lauf[:6]}, "team": teamform, "news": news, "xg": xgcheck[:8], "xgmd": xgmds,
        "ecken": ecken, "elf": elfer, "best": best, "vorschau": vorschau, "ungeklaert": sorted(ungeklaert)}
