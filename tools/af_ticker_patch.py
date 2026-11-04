@@ -547,6 +547,8 @@ from af_r7 import r7
 h = r7(h)
 from af_r8 import r8
 h = r8(h)
+from af_r9 import r9
+h = r9(h)
 
 if LIVE:
     h = h.replace('<div class="af-test">TESTVERSION · neue Daten aus API-Football · nicht öffentlich</div>', "")

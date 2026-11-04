@@ -627,6 +627,11 @@ HALTEN = {"af-standards-"}
 for n in news:
     if any(n["id"].startswith(h) for h in HALTEN): n["halten"] = True; n["zeit"] = None
 
+# Von Finn ausgeblendete Meldungen (tools/af_ausblenden.json: Liste von IDs oder ID-Anfängen)
+try: AUSBL = lade(os.path.join(ROOT, "tools", "af_ausblenden.json"))
+except FileNotFoundError: AUSBL = []
+news = [n for n in news if not any(n["id"].startswith(x) for x in AUSBL)]
+
 # ---------------------------------------------------------------- schreiben
 out = {"stand": JETZT_B().strftime("%Y-%m-%dT%H:%M"), "saison": SAISON, "md": max((s["md"] for s in spiele.values()), default=0),
        "hinweis": "Noten und Teamwerte: API-Football. Minuten, Startelf, Tore, Vorlagen: Sportschau und eigene Auswertung.",
