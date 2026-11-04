@@ -155,6 +155,8 @@ for g in DET:
                           "eck": (werte.get("eck") or [None, None])[seite], "eckg": (werte.get("eck") or [None, None])[1 - seite],
                           "fs": (werte.get("fou") or [None, None])[1 - seite], "fsg": (werte.get("fou") or [None, None])[seite],
                           "xg": (werte.get("xg") or [None, None])[seite], "xgg": (werte.get("xg") or [None, None])[1 - seite],
+                          "sch": (werte.get("sch") or [None, None])[seite], "schg": (werte.get("sch") or [None, None])[1 - seite],
+                          "tor": (werte.get("tor") or [None, None])[seite], "torg": (werte.get("tor") or [None, None])[1 - seite],
                           "t": int(p["ergebnis"][seite]), "g": int(p["ergebnis"][1 - seite])})
 
 # Noten den Ligaspielen zuordnen (unsere Minuten zählen)
@@ -320,6 +322,13 @@ ecken = {}
 for k, L in teamsp.items():
     e = [x["eck"] for x in L if x["eck"] is not None]; eg = [x["eckg"] for x in L if x["eckg"] is not None]
     if e: ecken[k] = {"f": round(sum(e) / len(e), 1), "g": round(sum(eg) / len(eg), 1) if eg else None, "n": len(e)}
+# Schüsse pro Spiel (Finn 04.11.2026): abgegeben und zugelassen, aufs Tor, xG. Großchancen liefert API-Football nicht.
+schuesse = {}
+for k, L in teamsp.items():
+    def avg(f, nk=1):
+        v = [x[f] for x in L if x.get(f) is not None]; return (round(sum(v) / len(v), nk), len(v)) if v else (None, 0)
+    sch, n = avg("sch"); schg, _ = avg("schg"); tor, _ = avg("tor"); torg, _ = avg("torg"); xg, nx = avg("xg", 2); xgg, _ = avg("xgg", 2)
+    if n: schuesse[k] = {"f": sch, "g": schg, "tf": tor, "tg": torg, "xf": xg, "xgg": xgg, "n": n, "nx": nx}
 # Freistöße pro Spiel: Fouls des Gegners (API-Football zählt Freistöße nicht getrennt)
 freist = {}
 for k, L in teamsp.items():
@@ -649,7 +658,7 @@ news = [n for n in news if not any(n["id"].startswith(x) for x in AUSBL)]
 out = {"stand": JETZT_B().strftime("%Y-%m-%dT%H:%M"), "saison": SAISON, "md": max((s["md"] for s in spiele.values()), default=0),
        "hinweis": "Noten und Teamwerte: API-Football. Minuten, Startelf, Tore, Vorlagen: Sportschau und eigene Auswertung.",
        "sp": profil, "spiele": spiele, "form": {"tief": tief, "hoch": hoch, "stabil": stabil, "trifft": trifft[:6], "leer": leer[:6], "lauf": lauf[:6]}, "team": teamform, "stdt": stdt, "news": news, "gelb_pruefen": gelb_pruefen, "sperren_dfb": SPERREN, "xg": xgcheck[:8], "xgmd": xgmds,
-       "ecken": ecken, "freist": freist, "elf": elfer, "best": best, "vorschau": vorschau, "ungeklaert": sorted(ungeklaert)}
+       "ecken": ecken, "freist": freist, "schuesse": schuesse, "elf": elfer, "best": best, "vorschau": vorschau, "ungeklaert": sorted(ungeklaert)}
 os.makedirs(os.path.dirname(os.path.abspath(AUS)), exist_ok=True)
 json.dump(out, open(AUS, "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
 print(f"{AUS}: {len(profil)} Profile, {len(spiele)} Spiele, zugeordnet {len(ID)}, ungeklärt {len(ungeklaert)}, Vorschau {len(vorschau)}")
