@@ -153,6 +153,7 @@ for g in DET:
     for seite, k in ((0, hk), (1, gk)):
         teamsp[k].append({"md": md, "ha": "H" if seite == 0 else "A",
                           "eck": (werte.get("eck") or [None, None])[seite], "eckg": (werte.get("eck") or [None, None])[1 - seite],
+                          "fs": (werte.get("fou") or [None, None])[1 - seite], "fsg": (werte.get("fou") or [None, None])[seite],
                           "xg": (werte.get("xg") or [None, None])[seite], "xgg": (werte.get("xg") or [None, None])[1 - seite],
                           "t": int(p["ergebnis"][seite]), "g": int(p["ergebnis"][1 - seite])})
 
@@ -319,6 +320,11 @@ ecken = {}
 for k, L in teamsp.items():
     e = [x["eck"] for x in L if x["eck"] is not None]; eg = [x["eckg"] for x in L if x["eckg"] is not None]
     if e: ecken[k] = {"f": round(sum(e) / len(e), 1), "g": round(sum(eg) / len(eg), 1) if eg else None, "n": len(e)}
+# Freistöße pro Spiel: Fouls des Gegners (API-Football zählt Freistöße nicht getrennt)
+freist = {}
+for k, L in teamsp.items():
+    e = [x["fs"] for x in L if x.get("fs") is not None]; eg = [x["fsg"] for x in L if x.get("fsg") is not None]
+    if e: freist[k] = {"f": round(sum(e) / len(e), 1), "g": round(sum(eg) / len(eg), 1) if eg else None, "n": len(e)}
 elfer = sorted([{"id": i, "n": WIRBYID[i]["n"], "k": WIRBYID[i]["k"], "t": e["elf"][0], "v": e["elf"][1], "fuss": e.get("fuss")}
                 for i, e in profil.items() if e.get("elf")], key=lambda x: (-x["t"], x["v"]))
 
@@ -595,6 +601,14 @@ if stdt:
             "grafik": {"typ": "messlatte", "titel": titel, "sp": sp, "liste": liste, "liste_titel": "Alle mit mindestens 3 Kopfbällen oder einem Tor nach Standard"},
             "kickbase": "Abwehrspielerinnen mit vielen Kopfbällen nach Standards sammeln Torchancen, die im Kader oft unterschätzt werden.",
             "quellen": [{"name": "Sportschau-Liveticker", "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/"}], "af": True})
+try:
+    for w in (lade(P("inside.json")).get("swaps") or []):
+        if not w.get("k") or not w.get("neu"): continue
+        news.append({"id": "af-swap-" + w["k"] + "-" + "".join(norm((w.get("art") or "") + " " + (w.get("neu") or ""))), "zeit": None, "verein": VN(w["k"]),
+            "tags": ["STANDARD"], "headline": f"Standard-Wechsel bei {VN(w['k'])}: {w['neu']} übernimmt {w.get('art') or 'die Standards'}",
+            "kurz": f"{w['neu']} übernimmt {w.get('art') or 'Standards'}", "text": [t for t in [w.get("text"), w.get("check")] if t],
+            "kickbase": w.get("kb") or "", "quellen": [{"name": "WOSOINSIDER Inside", "url": "https://wosoinsider.de/ticker/#inside"}], "af": True})
+except FileNotFoundError: pass
 news = [n for n in news if n]
 # Von Hand überarbeitete Meldungen (tools/af_text.json: ID -> Felder), z. B. tiefere Analyse mit eigener Grafik
 try: OVR = lade(os.path.join(ROOT, "tools", "af_text.json"))
@@ -636,7 +650,7 @@ news = [n for n in news if not any(n["id"].startswith(x) for x in AUSBL)]
 out = {"stand": JETZT_B().strftime("%Y-%m-%dT%H:%M"), "saison": SAISON, "md": max((s["md"] for s in spiele.values()), default=0),
        "hinweis": "Noten und Teamwerte: API-Football. Minuten, Startelf, Tore, Vorlagen: Sportschau und eigene Auswertung.",
        "sp": profil, "spiele": spiele, "form": {"tief": tief, "hoch": hoch, "stabil": stabil, "trifft": trifft[:6], "leer": leer[:6], "lauf": lauf[:6]}, "team": teamform, "stdt": stdt, "news": news, "gelb_pruefen": gelb_pruefen, "sperren_dfb": SPERREN, "xg": xgcheck[:8], "xgmd": xgmds,
-       "ecken": ecken, "elf": elfer, "best": best, "vorschau": vorschau, "ungeklaert": sorted(ungeklaert)}
+       "ecken": ecken, "freist": freist, "elf": elfer, "best": best, "vorschau": vorschau, "ungeklaert": sorted(ungeklaert)}
 os.makedirs(os.path.dirname(os.path.abspath(AUS)), exist_ok=True)
 json.dump(out, open(AUS, "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
 print(f"{AUS}: {len(profil)} Profile, {len(spiele)} Spiele, zugeordnet {len(ID)}, ungeklärt {len(ungeklaert)}, Vorschau {len(vorschau)}")
