@@ -40,7 +40,8 @@ def im_wb(wb):
     return "in der Liga" if wb == "Liga" else "in der Champions League" if wb == "Champions League" else "im " + wb
 
 
-def runde(sp, spn, um, fotos, jetzt):
+def runde(sp, spn, um, fotos, jetzt, anlass_m=None):
+    anlass_m = anlass_m or {}
     t = next((x for x in sp.get("spieltage", []) if x.get("nr") == sp.get("aktuell")), None)
     if not t:
         return None, "kein aktueller Spieltag"
@@ -73,7 +74,9 @@ def runde(sp, spn, um, fotos, jetzt):
         nimm(u.get("verein"))
         fragen.append({"id": "u-" + u["id"], "art": "TOR" if u.get("position") == "TW" else "WER STARTET", "partie": p["id"], "k": u.get("verein"),
                        "umfrage": u["id"], "einsehbar": p["id"] in ein, "frage": u["frage"],
-                       "warum": ("Torhüterinnen punkten bei Kickbase stark. " if u.get("position") == "TW" else "") + " · ".join(f"{o.get('nachname') or o['n']}: {o['info']}" for o in u.get("optionen", []) if o.get("info")),
+                       # WARUM = Anlass (Feld anlass der Umfrage, sonst Überschrift der Meldung) plus Kickbase-Bezug; die Infos je Antwort stehen schon an den Karten (Finn 04.11.2026)
+                       "warum": " ".join(x for x in [u["anlass"] if u.get("anlass") else (anlass_m.get(u.get("meldung")) or "").rstrip(".") + "." if anlass_m.get(u.get("meldung")) else "",
+                                                       "Torhüterinnen punkten bei Kickbase stark." if u.get("position") == "TW" else "Wer startet, sammelt bei Kickbase die Punkte."] if x),
                        "prognose": f"{STUFE.get(e.get('stufe'), '')}: {eo.get('nachname') or eo['n']}. {e.get('text', '')}".strip() if eo else "",
                        "optionen": [{"id": o["id"], "n": o.get("nachname") or ("Andere" if o["id"] == "andere" else o["n"])} for o in u.get("optionen", [])]})
     kand = []
@@ -121,6 +124,11 @@ def runde(sp, spn, um, fotos, jetzt):
                     anlass = f"In den letzten 3 Ligaspielen {s3}-mal in der Startelf."
                 else:
                     continue
+                st = s.get("status") or {}
+                if st.get("s") in ("fraglich", "verletzt", "gesperrt", "aufbau"):
+                    # Status immer nennen (Finn 04.11.2026: Tomasiak ohne Hinweis auf ihre Probleme)
+                    seit = st.get("stand", "")
+                    anlass = f"{st['s'].capitalize()}{' seit ' + seit[8:10] + '.' + seit[5:7] + '.' if len(seit) >= 10 else ''}: {st.get('grund') or 'Grund offen'}. " + anlass
                 stz = re.search(r"(\d)/5 Startelf", x.get("warum") or "")
                 kand.append({"id": "s-" + s["id"], "art": "STARTELF", "partie": p["id"], "k": k, "sid": s["id"], "einsehbar": p["id"] in ein, "_g": gew,
                              "frage": f"Steht {nach(s['n'])} in der Startelf?",
@@ -194,7 +202,8 @@ def main():
             print(f"Auflösung Runde {lo['md']}: {len(lo['loesung'])} von {len(alt['fragen'])} Fragen")
     if not a.neu and alt.get("md") == sp.get("aktuell") and alt.get("fragen"):
         print(f"Runde {alt['md']} steht schon ({len(alt['fragen'])} Fragen), bleibt unverändert"); return
-    r, grund = runde(sp, spn, um, fotos, jetzt)
+    anlass_m = {m["id"]: m.get("headline", "") for m in (lade("news.json", {}) or {}).get("meldungen", [])}
+    r, grund = runde(sp, spn, um, fotos, jetzt, anlass_m)
     if not r:
         print("keine neue Runde:", grund); return
     if not r["fragen"]:

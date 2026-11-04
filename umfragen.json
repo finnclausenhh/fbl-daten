@@ -24,7 +24,7 @@
      "id": "klink",
      "n": "Anna Klink",
      "nachname": "Klink",
-     "info": "Nach Mittelhandbruch wieder dabei",
+     "info": "Am 5. und 6. Spieltag auf der Bank",
      "kader": "-bb--"
     },
     {
@@ -41,7 +41,8 @@
     "text": "Sie saß in 3 der letzten 5 Spiele als Nummer 2 auf der Bank, zuletzt zweimal als einzige Ersatztorhüterin."
    },
    "top": true,
-   "art": "startelf"
+   "art": "startelf",
+   "anlass": "Mahmutovic ist nach Rot in Leipzig für ein Ligaspiel gesperrt."
   },
   {
    "id": "wob-sturm-md9",
@@ -86,7 +87,8 @@
     "option": "zicai",
     "stufe": "erwartet",
     "text": "Sie stand in 6 von 8 Spielen in der Startelf. Bussy sehen wir knapp dahinter auf der Bank."
-   }
+   },
+   "anlass": "Zicai hat seit dem 5. Spieltag nicht getroffen, Bussy stand gegen Köln in der Startelf."
   },
   {
    "id": "peddemors-tore-md9",

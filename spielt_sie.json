@@ -1,6 +1,6 @@
 {
  "md": 9,
- "erstellt": "2026-11-04T20:47",
+ "erstellt": "2026-11-04T22:28",
  "erst": "2026-11-06T18:30",
  "schluss": "2026-11-06T17:00",
  "hinweis": "Fragen festgeschrieben von tools/spielt_sie.py, ändern sich bis zur Wertung nicht.",
@@ -13,7 +13,7 @@
    "umfrage": "fcb-tor-md9",
    "einsehbar": true,
    "frage": "Wer steht für Mahmutovic im Tor?",
-   "warum": "Torhüterinnen punkten bei Kickbase stark. van Eijk: Zuletzt Nummer 2 hinter Mahmutovic · Klink: Nach Mittelhandbruch wieder dabei · Eine andere: Sophie Klein, am 4. Spieltag Ersatz",
+   "warum": "Mahmutovic ist nach Rot in Leipzig für ein Ligaspiel gesperrt. Torhüterinnen punkten bei Kickbase stark.",
    "prognose": "Erwartet: van Eijk. Sie saß in 3 der letzten 5 Spiele als Nummer 2 auf der Bank, zuletzt zweimal als einzige Ersatztorhüterin.",
    "optionen": [
     {
@@ -38,7 +38,7 @@
    "umfrage": "wob-sturm-md9",
    "einsehbar": true,
    "frage": "Zicai oder Bussy: Wer stürmt in Frankfurt?",
-   "warum": "Zicai: 4 Tore, seit Spieltag 5 ohne Treffer · Bussy: Gegen Köln in der Startelf · Beide: Noch nie zusammen in der Startelf · Keine von beiden: Prašnikar startete 6 von 8 Spielen",
+   "warum": "Zicai hat seit dem 5. Spieltag nicht getroffen, Bussy stand gegen Köln in der Startelf. Wer startet, sammelt bei Kickbase die Punkte.",
    "prognose": "Erwartet: Zicai. Sie stand in 6 von 8 Spielen in der Startelf. Bussy sehen wir knapp dahinter auf der Bank.",
    "optionen": [
     {
@@ -109,7 +109,7 @@
    "sid": "00266",
    "einsehbar": false,
    "frage": "Steht Tomasiak in der Startelf?",
-   "warum": "In den letzten 3 Ligaspielen 1-mal in der Startelf. Diese Saison 3 Tore, 2 Vorlagen.",
+   "warum": "Fraglich seit 22.10.: muskuläre Probleme nach Länderspielreise. In den letzten 3 Ligaspielen 1-mal in der Startelf. Diese Saison 3 Tore, 2 Vorlagen.",
    "prognose": "Unsicher. 3 von 5 zuletzt in der Startelf, Einsatzwert 44 %.",
    "optionen": [
     {
