@@ -29,13 +29,15 @@ def text(p):
     req = urllib.request.Request(p["url"], headers={"User-Agent": "Mozilla/5.0"})
     t = urllib.request.urlopen(req, timeout=30).read().decode("utf-8", "ignore")
     t = re.sub(r"<script.*?</script>|<style.*?</style>", "", t, flags=re.S)
+    # Hervorhebungen und Links im Fließtext nicht als Zeilenumbruch werten, sonst landet der Name in einer eigenen (zu kurzen) Zeile
+    t = re.sub(r"</?(?:a|strong|b|em|i)(?:\s[^>]*)?>", "", t)
     z = [html.unescape(x).strip() for x in re.sub(r"<[^>]+>", "\n", t).split("\n")]
     z = [x for x in z if len(x) > 40]
     open(f, "w", encoding="utf-8").write("\n".join(z)); time.sleep(0.8)
     return z
 
 STD = re.compile(r"\bEcke|Eckball|Freisto[ßs]|Standard", re.I)
-KOPF = re.compile(r"Kopf(ball|stoß|ballt)|köpft|nickt|per Kopf", re.I)
+KOPF = re.compile(r"Kopf(ball|stoß|ballt)|köpft|köpfte|köpfen|köpfelt|geköpft|nickt|per Kopf|mit dem Kopf|mit der Stirn", re.I)
 TOR = re.compile(r"\bTor\b|Führung|trifft|Treffer|zum \d:\d|erhöht|gleicht aus|Ausgleich|verkürzt|einköpf|ins Netz|ins Tor|Winkel|versenkt|netzt|köpft (?:\w+ ){0,3}ein\b|nickt (?:\w+ ){0,3}ein\b|Entscheidung|Tooor|\d:\d", re.I)
 NICHT_TOR = re.compile(r"knapp (vorbei|neben|über)|verfehlt|Latte|Pfosten|pariert|hält|zupackt|vorbei|daneben|drüber|abgewehrt|klärt", re.I)
 TRITT = [re.compile(r"(?:Ecke|Eckball|Freistoß) von (?:\w+ )?(\w[\w-]+)"), re.compile(r"(\w[\w-]+) (?:bringt|schlägt|tritt|zirkelt|flankt|chippt|bringt) (?:die|den|eine|einen) (?:Ecke|Eckball|Freistoß)"),
@@ -55,6 +57,7 @@ def ist_schuetzin(n, satz):
 
 zaehl = collections.defaultdict(lambda: {"k": None, "n": None, "kopf": 0, "std_kopf": 0, "std_tore": 0, "ecke_tritt": 0, "fs_tritt": 0, "std_kopftore": 0})
 spiele = 0
+OHNE = []   # Kopfbälle nach Standard ohne erkannte Spielerin (zum Nachschärfen der Regeln)
 for t in SP["spieltage"]:
     for p in t["partien"]:
         if p.get("status") != "beendet" or not p.get("url"): continue
@@ -103,6 +106,7 @@ for t in SP["spieltage"]:
                         wer = sorted([n for n in treffer if n not in schuetz], key=lambda n: abs(pos[n] - km.start()))
                         if wer: koepfe.add(wer[0])
                         elif zuletzt: koepfe.add(zuletzt)
+                        elif std: OHNE.append({"spiel": p["id"], "satz": satz[:220]})
                 spaeter = [n for n in sorted(treffer, key=lambda n: pos[n]) if n not in schuetz]
                 if spaeter: zuletzt = spaeter[-1]
                 for r in TRITT:
@@ -123,5 +127,5 @@ teams = collections.defaultdict(list)
 for key, d in zaehl.items():
     if d["kopf"] or d["std_tore"] or d["ecke_tritt"] or d["fs_tritt"]: teams[d["k"]].append(d)
 for k in teams: teams[k].sort(key=lambda d: (-d["std_tore"], -d["std_kopf"], -d["kopf"]))
-json.dump({"spiele": spiele, "teams": teams}, open(AUS, "w", encoding="utf-8"), ensure_ascii=False, indent=0)
+json.dump({"spiele": spiele, "teams": teams, "ohne_zuordnung": OHNE[-60:]}, open(AUS, "w", encoding="utf-8"), ensure_ascii=False, indent=0)
 print(f"{AUS}: {spiele} Spiele, {sum(len(v) for v in teams.values())} Spielerinnen")
