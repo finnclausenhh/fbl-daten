@@ -1,0 +1,31 @@
+name: API-Football Meldung freigeben
+
+# Regel Finn 04.11.2026: zwischen 7 und 22 Uhr, wenn im Ticker seit 4 Stunden nichts Neues kam,
+# die nächste datenbasierte Meldung aus apifootball.json freigeben (tools/af_freigabe.py).
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "10,40 5-21 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: apifootball-daten
+  cancel-in-progress: false
+
+jobs:
+  freigeben:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Freigabe prüfen
+        run: python3 tools/af_freigabe.py apifootball.json news.json
+      - name: Sichern
+        run: |
+          git add apifootball.json
+          if git diff --cached --quiet; then echo "keine Änderung"; exit 0; fi
+          git -c user.name="WOSOINSIDER" -c user.email="finnclausenhh@users.noreply.github.com" commit -qm "API-Football: Meldung freigegeben"
+          for i in 1 2 3; do git fetch -q origin main && git rebase -q origin/main && git push -q origin HEAD:main && exit 0; sleep 10; done
+          exit 1

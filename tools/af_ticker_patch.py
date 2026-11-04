@@ -537,6 +537,11 @@ def r4(h):
 
 h = r4(h)
 
+import os
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from af_r5 import r5
+h = r5(h)
+
 if LIVE:
     h = h.replace('<div class="af-test">TESTVERSION · neue Daten aus API-Football · nicht öffentlich</div>', "")
     h = h.replace('  window.AFT = {spiel: id => { VIEW = "spielplan"; Promise.all([loadSP(), ladeSPN(), ladeAF()]).then(() => spiel(id)); }, show};\n', "")

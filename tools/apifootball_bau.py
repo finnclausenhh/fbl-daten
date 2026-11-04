@@ -196,6 +196,7 @@ for s in WIR:
     if eintrag: profil[s["id"]] = eintrag
 
 # ---------------------------------------------------------------- Formtief / Formhoch (Inside)
+stabil = []
 def form_liste():
     tief, hoch = [], []
     for s in WIR:
@@ -212,8 +213,9 @@ def form_liste():
              "prog": (s.get("prognose") or {}).get("st")}
         if diff <= -0.6: tief.append(k)
         elif diff >= 0.6: hoch.append(k)
-    tief.sort(key=lambda x: x["diff"]); hoch.sort(key=lambda x: -x["diff"])
-    return tief[:6], hoch[:6]
+        elif abs(diff) < 0.3 and l3 >= 7.0: stabil.append(k)
+    tief.sort(key=lambda x: x["diff"]); hoch.sort(key=lambda x: -x["diff"]); stabil.sort(key=lambda x: -x["l3"])
+    return tief[:10], hoch[:10]
 
 tief, hoch = form_liste()
 
@@ -246,7 +248,8 @@ def programm(k):
     rg = [RANG0.get(z["gk"]) for z in L if RANG0.get(z["gk"])]
     av = round(sum(rg) / len(rg), 1) if rg else None
     return {"next": [[z["gk"], z["ha"], RANG0.get(z["gk"])] for z in L], "nr": av, "ns": None if av is None else "schwer" if av <= 5.5 else "leicht" if av >= 9.5 else "mittel"}
-for k in tief + hoch: k.update(einordnung(WIRBYID[k["id"]])); k.update(programm(k["k"]))
+stabil = stabil[:10]
+for k in tief + hoch + stabil: k.update(einordnung(WIRBYID[k["id"]])); k.update(programm(k["k"]))
 
 # Noten und Ertrag passen nicht zusammen
 trifft, leer = [], []
@@ -348,6 +351,17 @@ def tabelle():
 
 RANG, TAB = tabelle()
 
+def rolltab(ort):
+    t = {k: [0, 0, 0, 0] for k in SPN["vereine"]}
+    for (m, h, g), p in PARTIE.items():
+        if p.get("status") != "beendet": continue
+        a, b = int(p["ergebnis"][0]), int(p["ergebnis"][1])
+        k, x, y = (h, a, b) if ort == "H" else (g, b, a)
+        t[k][0] += 3 if x > y else 1 if x == y else 0; t[k][1] += x - y; t[k][2] += x; t[k][3] += 1
+    r = sorted(t, key=lambda k: (-(t[k][0] / max(1, t[k][3])), -(t[k][1] / max(1, t[k][3])), -t[k][2]))
+    return {k: i + 1 for i, k in enumerate(r)}
+HEIMTAB, AUSTAB = rolltab("H"), rolltab("A")
+
 def spiele_von(k):
     out = []
     for (m, h, g), p in sorted(PARTIE.items()):
@@ -391,10 +405,14 @@ def karte(p):
     satz = []
     dh = (bh["t"] or 0) - (bh["g"] or 0); dg = (bg["t"] or 0) - (bg["g"] or 0)
     name = lambda k: SPN["vereine"][k]["name"]
-    if bh["sp"] >= 4 and bg["sp"] >= 4:
-        if dh - dg >= 1.5: satz.append(f"{name(h)} ist zu Hause klar stärker als {name(g)} auswärts. Die Tordifferenz der ersten Heim- bzw. Auswärtsspiele hat in den letzten drei Saisons den Rest der Saison gut vorhergesagt.")
-        elif dg - dh >= 1.5: satz.append(f"{name(g)} ist auswärts klar stärker als {name(h)} zu Hause. Die Tordifferenz der ersten Heim- bzw. Auswärtsspiele hat in den letzten drei Saisons den Rest der Saison gut vorhergesagt.")
-        else: satz.append("Heimbilanz und Auswärtsbilanz liegen nah beieinander, die Daten sprechen für ein offenes Spiel.")
+    rh, ra = HEIMTAB.get(h), AUSTAB.get(g)
+    if bh["sp"] >= 4 and bg["sp"] >= 4 and rh and ra:
+        rolle = f"{name(h)} steht auf Platz {rh} der Heimtabelle, {name(g)} auf Platz {ra} der Auswärtstabelle"
+        if rh <= 4 and ra <= 4: satz.append(f"{rolle}: Hier treffen zwei der stärksten Teams in ihrer Rolle aufeinander, die Daten sprechen für ein enges Spiel.")
+        elif ra - rh >= 5 and dh - dg >= 1.5: satz.append(f"{rolle}. {name(h)} ist zu Hause klar stärker als {name(g)} auswärts. Die Tordifferenz der ersten Heim- bzw. Auswärtsspiele hat in den letzten drei Saisons den Rest der Saison gut vorhergesagt.")
+        elif rh - ra >= 5 and dg - dh >= 1.5: satz.append(f"{rolle}. {name(g)} ist auswärts klar stärker als {name(h)} zu Hause. Die Tordifferenz der ersten Heim- bzw. Auswärtsspiele hat in den letzten drei Saisons den Rest der Saison gut vorhergesagt.")
+        elif abs(rh - ra) >= 3: satz.append(f"{rolle}. Leichte Vorteile für {name(h) if rh < ra else name(g)}, aber kein klares Gefälle.")
+        else: satz.append(f"{rolle}. Die Bilanzen liegen nah beieinander, die Daten sprechen für ein offenes Spiel.")
     # Heimstärke/-schwäche nur als Zufall einordnen (r = -0,04 im Archiv)
     gef = []
     for k, L in ((h, H), (g, G)):
@@ -415,7 +433,7 @@ def karte(p):
     if (bg["t"] or 0) >= 2.5: kb.append(f"{name(g)} trifft auswärts im Schnitt {f"{bg['t']:g}".replace('.', ',')}-mal, Offensive gefragt.")
     if (bh["g"] or 0) >= 2.5: kb.append(f"{name(h)} kassiert zu Hause im Schnitt {f"{bh['g']:g}".replace('.', ',')} Tore.")
     if (bg["g"] or 0) >= 2.5: kb.append(f"{name(g)} kassiert auswärts im Schnitt {f"{bg['g']:g}".replace('.', ',')} Tore.")
-    return {"id": p["id"], "md": p["md"], "h": h, "g": g, "rang": [RANG[h], RANG[g]], "form": [form5(H), form5(G)],
+    return {"id": p["id"], "md": p["md"], "h": h, "g": g, "rang": [RANG[h], RANG[g]], "rolle": [HEIMTAB.get(h), AUSTAB.get(g)], "form": [form5(H), form5(G)],
             "heim": bh, "gast": bg, "du": du[-6:], "dus": siege, "satz": satz[:3], "kb": kb[:2]}
 
 naechster = SPP.get("aktuell")
@@ -423,6 +441,8 @@ vorschau = [karte(p) for (m, h, g), p in sorted(PARTIE.items()) if m == naechste
 
 # ---------------------------------------------------------------- News-Kandidaten (Testkopie; später in die News-Läufe)
 MDL = max((v["md"] for v in spiele.values()), default=0)
+jetzt = JETZT_B()
+letzt = max((p["anstoss"] for (m, h, g), p in PARTIE.items() if m == MDL and p.get("anstoss")), default=None)
 STAND = JETZT_B().strftime("%Y-%m-%dT%H:%M")
 VN = lambda k: SPN["vereine"][k]["name"]
 QAF = [{"name": "API-Football (Noten, Teamwerte)", "url": "https://www.api-football.com"}, {"name": "Sportschau (Minuten, Tore)", "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/"}]
@@ -493,19 +513,39 @@ def dfb_sperren():
     return out
 SPERREN = dfb_sperren()
 gesperrt_dfb = lambda s: SPERREN is not None and any(norm(x["n"])[-1:] == norm(s["n"])[-1:] and set(norm(x["n"])) & set(norm(s["n"])) for x in SPERREN)
-gelb_pruefen = []
+gelb_pruefen, gelb4, gelb5 = [], [], []
 for s in WIR:
     g = sum(1 for z in s["spiele"] if z.get("gelb") and not z.get("gr"))
     ga = GELB_AF.get(s["id"], 0)
     if g >= 4 and g != ga: gelb_pruefen.append({"id": s["id"], "n": s["n"], "sportschau": g, "apifootball": ga})
     if g == 5 and ga == 5 and SPERREN is not None and not gesperrt_dfb(s): gelb_pruefen.append({"id": s["id"], "n": s["n"], "sportschau": g, "apifootball": ga, "hinweis": "5. Gelbe, nicht in der DFB-Sperrenliste"})
-    if g == 5 and ga == 5 and gesperrt_dfb(s):
-        news.append(meld(s["id"], ["GELBSPERRE", "SPERRE"], f"Gelbsperre: {s['n'].split()[-1]} fehlt am nächsten Spieltag", f"{s['n'].split()[-1]} gelbgesperrt",
-            [f"{s['n']} ({VN(s['k'])}) hat ihre fünfte Gelbe Karte gesehen und steht auf der Sperrenliste des DFB. Sie fehlt im nächsten Ligaspiel."],
-            "Für den nächsten Spieltag nicht einplanen.", "gelb5"))
-    if g == 4 and ga == 4 and SPERREN is not None and not gesperrt_dfb(s): news.append(meld(s["id"], ["GELBSPERRE"], f"Gelbsperre droht: {s['n'].split()[-1]} steht bei vier Gelben", f"{s['n'].split()[-1]} droht Gelbsperre",
-        [f"{s['n']} ({VN(s['k'])}) hat in der Liga vier Gelbe Karten gesammelt. Mit der fünften ist sie ein Spiel gesperrt."],
-        "Vor jedem Spieltag prüfen: Eine Gelbe mehr und sie fehlt im Spiel danach.", "gelb"))
+    if g == 4 and ga == 4 and SPERREN is not None and not gesperrt_dfb(s): gelb4.append(s)
+    letzte_gelb = max((z["md"] for z in s["spiele"] if z.get("gelb") and not z.get("gr")), default=0)
+    if g == 5 and ga == 5 and letzte_gelb == MDL and gesperrt_dfb(s): gelb5.append(s)
+def naechster_gegner(k):
+    z = next((z for z in SPN["vereine"][k].get("kommend") or [] if z.get("wb") == "Liga"), None)
+    return f"{'zu Hause gegen' if z['ha'] == 'H' else 'auswärts gegen'} {VN(z['gk'])}" if z and z.get("gk") else "im nächsten Ligaspiel"
+QDFB = [{"name": "DFB-Sperrenliste", "url": "https://www.dfb.de/ueber-uns/verbandsrecht/sperren"}]
+NMD = SPP.get("aktuell")
+anst = sorted(p["anstoss"] for (m, h, g), p in PARTIE.items() if m == NMD and p.get("anstoss") and p.get("status") != "beendet")
+if gelb4 and anst:
+    # Vorbericht: fester Artikel am Tag vor dem ersten Spiel, 10:15 (liegt das schon zurück: sofort)
+    vor = (datetime.datetime.fromisoformat(anst[0]) - datetime.timedelta(days=1)).replace(hour=10, minute=15)
+    news.append({"id": f"af-gelb-vor-md{NMD}", "zeit": (vor if vor > jetzt else jetzt).strftime("%Y-%m-%dT%H:%M"), "fix": True,
+        "tags": ["GELBSPERRE", "VORBERICHT"], "headline": f"Gelbsperre droht: {len(gelb4)} {'Spielerin steht' if len(gelb4) == 1 else 'Spielerinnen stehen'} vor dem {NMD}. Spieltag bei vier Gelben",
+        "kurz": f"Gelbsperre droht: {', '.join(x['n'].split()[-1] for x in gelb4)}",
+        "text": ["Mit der fünften Gelben Karte ist eine Spielerin in der Frauen-Bundesliga ein Spiel gesperrt. Vor dem Spieltag stehen bei vier Gelben:"] +
+                [f"{x['n']} ({VN(x['k'])}), {naechster_gegner(x['k'])}." for x in gelb4] +
+                ["Gezählt nach den Spielberichten der Sportschau und gegengeprüft mit API-Football. Wer bereits gesperrt ist, steht auf der Sperrenliste des DFB und fehlt hier."],
+        "kickbase": "Eine Gelbe mehr und sie fehlt im Spiel danach.", "quellen": QAF + QDFB, "af": True})
+if gelb5 and letzt:
+    # Nachbericht: fester Artikel am Tag nach dem letzten Spiel, 10:15
+    nach = (datetime.datetime.fromisoformat(letzt) + datetime.timedelta(days=1)).replace(hour=10, minute=15)
+    news.append({"id": f"af-gelb-nach-md{MDL}", "zeit": nach.strftime("%Y-%m-%dT%H:%M"), "fix": True, "tags": ["GELBSPERRE", "SPERRE"],
+        "headline": f"Neue Gelbsperren nach dem {MDL}. Spieltag", "kurz": f"Gelbgesperrt: {', '.join(x['n'].split()[-1] for x in gelb5)}",
+        "text": ["Diese Spielerinnen haben am Spieltag ihre fünfte Gelbe Karte gesehen und stehen auf der Sperrenliste des DFB:"] +
+                [f"{x['n']} ({VN(x['k'])}) fehlt {naechster_gegner(x['k'])}." for x in gelb5],
+        "kickbase": "Für den nächsten Spieltag nicht einplanen.", "quellen": QAF + QDFB, "af": True})
 if xgcheck:
     x = [r for r in xgcheck if r["md"] == MDL]
     if x:
@@ -518,41 +558,28 @@ if xgcheck:
 news = [n for n in news if n]
 for n in news: n["text"] = [t for t in n.get("text", []) if t]
 
-# Über den Tag verteilen (Finn: etwa 10 Beiträge am Tag): feste Sendezeiten, bereits vergebene Zeiten bleiben
-from zoneinfo import ZoneInfo
-BER = ZoneInfo("Europe/Berlin")
-jetzt = datetime.datetime.now(BER).replace(tzinfo=None)
-alt = {}
-try:
-    for n in lade(AUS).get("news", []): alt[n["id"]] = n["zeit"]
-except Exception: pass
 # Ereignis-Meldungen nur, solange der Spieltag frisch ist (bis 3 Tage nach dem letzten Spiel)
-letzt = max((p["anstoss"] for (m, h, g), p in PARTIE.items() if m == MDL and p.get("anstoss")), default=None)
 if letzt and (jetzt - datetime.datetime.fromisoformat(letzt)).days > 3:
     news = [n for n in news if n["tags"][0] not in ("JOKER", "ELFMETER", "xG-CHECK")]
-RANGF = {"JOKER": 0, "ELFMETER": 1, "xG-CHECK": 2, "GELBSPERRE": 3, "FORMTIEF": 4, "FORMHOCH": 5, "AUFWIND": 6}
-news.sort(key=lambda n: RANGF.get(n["tags"][0], 9))
-SLOTS = ["08:15", "10:15", "12:15", "14:15", "16:15", "18:15", "20:15"]
-def slots_ab(t):
-    d = t.date()
-    while True:
-        for z in SLOTS:
-            x = datetime.datetime.combine(d, datetime.time.fromisoformat(z))
-            if x > t: yield x
-        d += datetime.timedelta(days=1)
-belegt = {alt[n["id"]] for n in news if n["id"] in alt}
-gen = slots_ab(jetzt)
+# Warteschlange (Finn 04.11.2026): eine Meldung erscheint erst, wenn tools/af_freigabe.py sie freigibt
+# (zwischen 7 und 22 Uhr, wenn im Ticker seit 4 Stunden nichts Neues kam). Feste Artikel (fix) haben ihre eigene Zeit.
+alt, alt_n = {}, []
+try:
+    for n in lade(AUS).get("news", []):
+        if n.get("zeit") and datetime.datetime.fromisoformat(n["zeit"]) <= jetzt: alt[n["id"]] = n["zeit"]; alt_n.append(n)
+except Exception: pass
+# schon erschienene Meldungen bleiben 3 Tage stehen, auch wenn sie nicht mehr neu entstehen
+ids = {n["id"] for n in news}
+news += [n for n in alt_n if n["id"] not in ids and jetzt - datetime.datetime.fromisoformat(n["zeit"]) <= datetime.timedelta(days=3)]
+RANGF = {"JOKER": 0, "ELFMETER": 1, "xG-CHECK": 2, "FORMTIEF": 3, "FORMHOCH": 4, "AUFWIND": 5}
+news.sort(key=lambda n: (0 if n.get("fix") else 1, RANGF.get(n["tags"][0], 9)))
 for n in news:
-    if n["id"] in alt: n["zeit"] = alt[n["id"]]; continue
-    while True:
-        x = next(gen).strftime("%Y-%m-%dT%H:%M")
-        if x not in belegt: break
-    n["zeit"] = x; belegt.add(x)
+    if not n.get("fix"): n["zeit"] = alt.get(n["id"])
 
 # ---------------------------------------------------------------- schreiben
 out = {"stand": JETZT_B().strftime("%Y-%m-%dT%H:%M"), "saison": SAISON, "md": max((s["md"] for s in spiele.values()), default=0),
        "hinweis": "Noten und Teamwerte: API-Football. Minuten, Startelf, Tore, Vorlagen: Sportschau und eigene Auswertung.",
-       "sp": profil, "spiele": spiele, "form": {"tief": tief, "hoch": hoch, "trifft": trifft[:6], "leer": leer[:6], "lauf": lauf[:6]}, "team": teamform, "news": news, "gelb_pruefen": gelb_pruefen, "sperren_dfb": SPERREN, "xg": xgcheck[:8], "xgmd": xgmds,
+       "sp": profil, "spiele": spiele, "form": {"tief": tief, "hoch": hoch, "stabil": stabil, "trifft": trifft[:6], "leer": leer[:6], "lauf": lauf[:6]}, "team": teamform, "news": news, "gelb_pruefen": gelb_pruefen, "sperren_dfb": SPERREN, "xg": xgcheck[:8], "xgmd": xgmds,
        "ecken": ecken, "elf": elfer, "best": best, "vorschau": vorschau, "ungeklaert": sorted(ungeklaert)}
 os.makedirs(os.path.dirname(os.path.abspath(AUS)), exist_ok=True)
 json.dump(out, open(AUS, "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
