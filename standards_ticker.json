@@ -14,6 +14,16 @@
 },
 {
 "k": "FCB",
+"n": "Pernille Harder",
+"kopf": 4,
+"std_kopf": 4,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0,
+"std_kopftore": 0
+},
+{
+"k": "FCB",
 "n": "Vanessa Gilles",
 "kopf": 3,
 "std_kopf": 3,
@@ -24,18 +34,8 @@
 },
 {
 "k": "FCB",
-"n": "Pernille Harder",
-"kopf": 2,
-"std_kopf": 2,
-"std_tore": 0,
-"ecke_tritt": 0,
-"fs_tritt": 0,
-"std_kopftore": 0
-},
-{
-"k": "FCB",
 "n": "Edna Imade",
-"kopf": 2,
+"kopf": 3,
 "std_kopf": 1,
 "std_tore": 0,
 "ecke_tritt": 0,
@@ -55,7 +55,7 @@
 {
 "k": "FCB",
 "n": "Linda Dallmann",
-"kopf": 1,
+"kopf": 2,
 "std_kopf": 0,
 "std_tore": 0,
 "ecke_tritt": 0,
@@ -170,7 +170,7 @@
 "k": "KOE",
 "n": "Sophie Nachtigall",
 "kopf": 2,
-"std_kopf": 1,
+"std_kopf": 2,
 "std_tore": 0,
 "ecke_tritt": 1,
 "fs_tritt": 0,
@@ -209,6 +209,16 @@
 {
 "k": "KOE",
 "n": "Beke Sterner",
+"kopf": 1,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0,
+"std_kopftore": 0
+},
+{
+"k": "KOE",
+"n": "Dóra Zeller",
 "kopf": 1,
 "std_kopf": 0,
 "std_tore": 0,
@@ -281,7 +291,7 @@
 {
 "k": "SGE",
 "n": "Laura Freigang",
-"kopf": 8,
+"kopf": 9,
 "std_kopf": 4,
 "std_tore": 0,
 "ecke_tritt": 0,
@@ -301,7 +311,17 @@
 {
 "k": "SGE",
 "n": "Rebecka Blomqvist",
-"kopf": 3,
+"kopf": 4,
+"std_kopf": 1,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0,
+"std_kopftore": 0
+},
+{
+"k": "SGE",
+"n": "Hanna Bennison",
+"kopf": 1,
 "std_kopf": 1,
 "std_tore": 0,
 "ecke_tritt": 0,
@@ -454,6 +474,16 @@
 },
 {
 "k": "FCN",
+"n": "Emőke Pápai",
+"kopf": 1,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0,
+"std_kopftore": 0
+},
+{
+"k": "FCN",
 "n": "Fany Proniez",
 "kopf": 1,
 "std_kopf": 0,
@@ -479,6 +509,16 @@
 "n": "Maximiliane Rall",
 "kopf": 2,
 "std_kopf": 2,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0,
+"std_kopftore": 0
+},
+{
+"k": "VFB",
+"n": "Nicole Billa",
+"kopf": 1,
+"std_kopf": 1,
 "std_tore": 0,
 "ecke_tritt": 0,
 "fs_tritt": 0,
@@ -548,8 +588,18 @@
 },
 {
 "k": "B04",
+"n": "Justine Brandau",
+"kopf": 2,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0,
+"std_kopftore": 0
+},
+{
+"k": "B04",
 "n": "Lobke Loonen",
-"kopf": 1,
+"kopf": 2,
 "std_kopf": 0,
 "std_tore": 0,
 "ecke_tritt": 0,
@@ -559,16 +609,6 @@
 {
 "k": "B04",
 "n": "Paulina Tomasiak",
-"kopf": 1,
-"std_kopf": 0,
-"std_tore": 0,
-"ecke_tritt": 0,
-"fs_tritt": 0,
-"std_kopftore": 0
-},
-{
-"k": "B04",
-"n": "Justine Brandau",
 "kopf": 1,
 "std_kopf": 0,
 "std_tore": 0,
@@ -621,8 +661,8 @@
 {
 "k": "RBL",
 "n": "Delice Boboy",
-"kopf": 6,
-"std_kopf": 1,
+"kopf": 7,
+"std_kopf": 2,
 "std_tore": 0,
 "ecke_tritt": 0,
 "fs_tritt": 0,
@@ -683,7 +723,7 @@
 {
 "k": "HSV",
 "n": "Nikola Karczewska",
-"kopf": 2,
+"kopf": 3,
 "std_kopf": 2,
 "std_tore": 0,
 "ecke_tritt": 0,
@@ -776,6 +816,16 @@
 "k": "SCF",
 "n": "Alina Axtmann",
 "kopf": 2,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0,
+"std_kopftore": 0
+},
+{
+"k": "SCF",
+"n": "Sabah Seghir",
+"kopf": 1,
 "std_kopf": 0,
 "std_tore": 0,
 "ecke_tritt": 0,
@@ -928,6 +978,16 @@
 },
 {
 "k": "SVW",
+"n": "Isabella Jaron",
+"kopf": 2,
+"std_kopf": 1,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0,
+"std_kopftore": 0
+},
+{
+"k": "SVW",
 "n": "Sarah Gutmann",
 "kopf": 1,
 "std_kopf": 1,
@@ -941,16 +1001,6 @@
 "n": "Medina Dešić",
 "kopf": 1,
 "std_kopf": 1,
-"std_tore": 0,
-"ecke_tritt": 0,
-"fs_tritt": 0,
-"std_kopftore": 0
-},
-{
-"k": "SVW",
-"n": "Isabella Jaron",
-"kopf": 1,
-"std_kopf": 0,
 "std_tore": 0,
 "ecke_tritt": 0,
 "fs_tritt": 0,
@@ -1019,5 +1069,23 @@
 "std_kopftore": 0
 }
 ]
+},
+"ohne_zuordnung": [
+{
+"spiel": "12306070",
+"satz": "Allerdings ist der Winkel für einen Kopfball zu spitz, sodass der Ball ins Aus fliegt."
+},
+{
+"spiel": "12306133",
+"satz": "Nach einer Vanzeir-Ecke von der linken Seite kommt die Torschützin fünf Meter halbrechts vor dem Tor zum Kopfball und bringt ihn unhaltbar in der rechten Ecke unter!"
+},
+{
+"spiel": "12306181",
+"satz": "Bei einem Freistoß von links im Mittelfeld gehen mal alle kopfballstarken FC-Spielerinnen mit nach vorne."
+},
+{
+"spiel": "12306211",
+"satz": "Zuvor hatte Carleer aufs Tor geköpft."
 }
+]
 }
