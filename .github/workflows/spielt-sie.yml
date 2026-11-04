@@ -28,7 +28,7 @@ jobs:
         run: python3 tools/spielt_sie.py --repo .
       - name: Speichern
         run: |
-          git add spielt_sie.json tipp_loesung.json 2>/dev/null || true
+          git add spielt_sie.json tipp_loesung.json tipp_auswertung.json 2>/dev/null || true
           if git diff --cached --quiet; then echo "keine Änderung"; exit 0; fi
           git -c user.name="WOSOINSIDER" -c user.email="finnclausenhh@users.noreply.github.com" commit -qm "Tippspiel: Fragen festgeschrieben"
           for i in 1 2 3; do git pull -q --rebase origin main && git push -q origin HEAD:main && exit 0; sleep 10; done

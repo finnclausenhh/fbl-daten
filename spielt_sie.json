@@ -1,6 +1,6 @@
 {
  "md": 9,
- "erstellt": "2026-11-04T23:09",
+ "erstellt": "2026-11-04T23:22",
  "erst": "2026-11-06T18:30",
  "schluss": "2026-11-06T17:00",
  "hinweis": "Fragen festgeschrieben von tools/spielt_sie.py, ändern sich bis zur Wertung nicht.",
@@ -29,6 +29,7 @@
      "n": "Andere"
     }
    ],
+   "daten": "van-eijk",
    "typ": "einsatz"
   },
   {
@@ -59,6 +60,7 @@
      "n": "Keine von beiden"
     }
    ],
+   "daten": "zicai",
    "typ": "einsatz"
   },
   {
@@ -101,7 +103,8 @@
      "k": "B04",
      "info": "Ø 7,2* · gegen den HSV"
     }
-   ]
+   ],
+   "daten": "00021"
   },
   {
    "id": "weste-md9",
@@ -141,7 +144,8 @@
      "n": "Keine",
      "info": "Alle kassieren"
     }
-   ]
+   ],
+   "daten": "00389"
   },
   {
    "id": "serie-md9",
@@ -166,7 +170,8 @@
      "info": "Serie reißt"
     }
    ],
-   "sid": "00405"
+   "sid": "00405",
+   "daten": "ja"
   }
  ]
 }

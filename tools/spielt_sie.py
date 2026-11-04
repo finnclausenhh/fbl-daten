@@ -93,7 +93,8 @@ def runde(sp, spn, um, fotos, jetzt, anlass_m=None, af=None):
                        "warum": " ".join(x for x in [u["anlass"] if u.get("anlass") else (anlass_m.get(u.get("meldung")) or "").rstrip(".") + "." if anlass_m.get(u.get("meldung")) else "",
                                                        "Torhüterinnen punkten bei Kickbase stark." if u.get("position") == "TW" else "Wer startet, sammelt bei Kickbase die Punkte."] if x),
                        "prognose": f"{STUFE.get(e.get('stufe'), '')}: {eo.get('nachname') or eo['n']}. {e.get('text', '')}".strip() if eo else "",
-                       "optionen": [{"id": o["id"], "n": o.get("nachname") or ("Andere" if o["id"] == "andere" else o["n"])} for o in u.get("optionen", [])]})
+                       "optionen": [{"id": o["id"], "n": o.get("nachname") or ("Andere" if o["id"] == "andere" else o["n"])} for o in u.get("optionen", [])],
+                       "daten": eo["id"] if eo else None})
     kand = []
     for p in t["partien"]:
         for k, a in ((p["heim_k"], p.get("heim_aufstellung")), (p["gast_k"], p.get("gast_aufstellung"))):
@@ -149,7 +150,8 @@ def runde(sp, spn, um, fotos, jetzt, anlass_m=None, af=None):
                              "frage": f"Steht {nach(s['n'])} in der Startelf?",
                              "warum": f"{anlass} " + ("Torhüterinnen punkten bei Kickbase stark." if tw else f"Diese Saison {tore} {'Tor' if tore == 1 else 'Tore'}, {vorl} {'Vorlage' if vorl == 1 else 'Vorlagen'}."),
                              "prognose": f"{STUFE[x['st']]}. {stz.group(1) + ' von 5 zuletzt in der Startelf, ' if stz else ''}Einsatzwert {w} %.",
-                             "optionen": [{"id": "ja", "n": "Ja"}, {"id": "nein", "n": "Nein"}]})
+                             "optionen": [{"id": "ja", "n": "Ja"}, {"id": "nein", "n": "Nein"}],
+                             "daten": "ja" if x["st"] in ("sicher", "erwartet") else "nein"})
     kand.sort(key=lambda q: -q["_g"])
     # Mix (Finn 04.11.2026): MVP, Weiße Weste, höchstens 2 Einsatzfragen, Torflaute und/oder Serie, nie dieselbe Art doppelt
     einsatz = fragen[:2]
@@ -229,7 +231,7 @@ def mix_fragen(t, alle, af, fotos, ein, belegt):
             f"Getroffen in {k} von {n} Ligaspielen, {tore} Tore. {NOM(o)[0].upper() + NOM(o)[1:]} hat {G['ga']} Gegentore in {G['g']} Spielen.",
             f"{'Eher ja' if r_ >= .6 else 'Offen'}: sie trifft in {round(r_ * 100)} % ihrer Spiele.",
             [{"id": "ja", "n": "Ja", "info": f"{nach(s['n'])} trifft"}, {"id": "nein", "n": "Nein", "info": "Serie reißt"}])
-        out["serie"]["sid"] = s["id"]; belegt.add(s["id"])
+        out["serie"]["sid"] = s["id"]; out["serie"]["daten"] = "ja" if r_ >= .5 else "nein"; belegt.add(s["id"])
     # Torflaute: Stürmerinnen, mind. 5 Starts, die letzten 3 Ligaspiele in der Startelf und ohne Tor
     fl = []
     for s in alle:
@@ -252,6 +254,7 @@ def mix_fragen(t, alle, af, fotos, ein, belegt):
             "Beide stehen fast immer in der Startelf, haben aber in den letzten 3 Ligaspielen nicht getroffen. Tore bringen bei Kickbase die meisten Punkte.",
             f"{nach(schwach[2]['n'])}: {NOM(o)[0].upper() + NOM(o)[1:]} kassiert {kom(G['ga'] / max(1, G['g']))} Tore pro Spiel.",
             os_ + [{"id": "beide", "n": "Beide"}, {"id": "keine", "n": "Keine"}])
+        out["flaute"]["daten"] = schwach[2]["id"]
         for x in fl2: belegt.add(x[2]["id"])
     # Weiße Weste: erwartete Torhüterinnen, Wert = Tore des Gegners + eigene Gegentore pro Spiel (kleiner = besser), je Spiel höchstens eine
     ww = []
@@ -275,6 +278,7 @@ def mix_fragen(t, alle, af, fotos, ein, belegt):
             w + ". Spiele ohne Gegentor bringen Torhüterin und Abwehr Kickbase-Punkte.",
             f"{nach(b['n'])}: {NOM(b['k'])[0].upper() + NOM(b['k'])[1:]} hat {Gb['ga']} Gegentore in {Gb['g']} Spielen.",
             [opt(s, ort(s["k"])) for _, _, s, o in ww3] + [{"id": "keine", "n": "Keine", "info": "Alle kassieren"}])
+        out["weste"]["daten"] = ww3[0][2]["id"]
         for x in ww3: belegt.add(x[2]["id"])
     # MVP: die 4 besten Notenschnitte* (mind. 4 Noten), höchstens eine je Verein, nur wer laut Prognose spielt
     # gleicher Schnitt wie die Statistik im Ticker (apifootball.json sp.avg, mind. 4 Spiele mit 60+ Minuten)
@@ -292,6 +296,7 @@ def mix_fragen(t, alle, af, fotos, ein, belegt):
             "Die vier besten Notenschnitte* der Saison unter allen, die laut Prognose spielen, höchstens eine je Verein. MVP ist, wer am Spieltag die beste Note* holt. *Note von API-Football, keine Kickbase-Punkte.",
             f"{nach(s0['n'])}: bester Schnitt der vier ({kom(a0)}*), {NOM(o)[0].upper() + NOM(o)[1:]} hat {G['ga']} Gegentore in {G['g']} Spielen.",
             [opt(s, f"Ø {kom(a)}* · {ort(s['k'])}") for a, s in mv4])
+        out["mvp"]["daten"] = s0["id"]
     reihe = [out.get("mvp"), out.get("weste")] + [out.get(k) for k in ("serie", "flaute")]
     return [q for q in reihe if q]
 
@@ -365,6 +370,46 @@ def loesung_mix(q, t, af):
         return "ja" if tore(s, ps[0]) else "nein"
 
 
+SB_URL = "https://tyhlxkgyfykxjwnqgnoj.supabase.co"
+SB_KEY = "sb_publishable_8OOLyVhf2kPU7h_NfKAypg_FAC8P7h3"   # öffentlicher Schlüssel (wie kommentare/config.js), Rechte über RLS
+
+
+def fans_stand(md):
+    """Tippstand einer Runde aus Supabase (nach dem Tippschluss öffentlich): {frage: {antwort: anzahl}}."""
+    import urllib.request
+    rq = urllib.request.Request(SB_URL + "/rest/v1/rpc/tipp_stand", data=json.dumps({"p_md": md}).encode(), method="POST",
+                                headers={"apikey": SB_KEY, "Authorization": "Bearer " + SB_KEY, "Content-Type": "application/json"})
+    with urllib.request.urlopen(rq, timeout=20) as r:
+        return json.loads(r.read().decode() or "{}") or {}
+
+
+def auswertung(runde_, lo, stand, jetzt):
+    """Fans gegen Daten (Finn 04.11.2026): erst wenn alle Fragen aufgelöst sind. FANS = Antwort mit den meisten Tipps
+    (bei Gleichstand zählt sie nicht), DATEN = unsere Prognose (Feld daten). Ergebnis: eine normale Meldung."""
+    md, L = runde_["md"], (lo or {}).get("loesung", {})
+    if not runde_.get("fragen") or any(q["id"] not in L for q in runde_["fragen"]): return None
+    zeilen, f_ok, d_ok, tipps = [], 0, 0, 0
+    for q in runde_["fragen"]:
+        st = stand.get(q["id"]) or {}; ges = sum(int(v) for v in st.values()); tipps = max(tipps, ges)
+        rt = str(L[q["id"]]).split(",")
+        top = sorted(st.items(), key=lambda x: -int(x[1]))
+        fans = top[0][0] if top and (len(top) == 1 or int(top[0][1]) > int(top[1][1])) else None
+        fo, do = fans in rt if fans else None, (q.get("daten") in rt) if q.get("daten") else None
+        f_ok += 1 if fo else 0; d_ok += 1 if do else 0
+        name = lambda i: next((o["n"] for o in q["optionen"] if o["id"] == i), i)
+        zeilen.append({"frage": q["frage"], "richtig": " / ".join(name(i) for i in rt), "fans": fo, "daten": do,
+                       "fans_n": name(fans) if fans else None, "fans_p": round(int(top[0][1]) / ges * 100) if fans and ges else None})
+    n = len(runde_["fragen"])
+    if f_ok > d_ok: h = f"Fans schlagen die Daten: {f_ok} von {n} richtig"
+    elif d_ok > f_ok: h = f"Die Daten schlagen die Fans: {d_ok} von {n} richtig"
+    else: h = f"Fans und Daten gleichauf: je {f_ok} von {n} richtig"
+    return {"md": md, "news": [{"id": f"tipp-fans-md{md}", "zeit": jetzt.strftime("%Y-%m-%dT%H:%M"), "tags": ["SPIELT SIE?"], "typ": "auswertung",
+            "headline": h, "kurz": h, "spielerin": f"{md}. Spieltag",
+            "text": [f"Beim Tippspiel „Spielt sie?“ zum {md}. Spieltag lagen die Fans bei {f_ok} von {n} Fragen richtig, unsere Prognose bei {d_ok}.",
+                     f"Als Fan-Tipp zählt die Antwort mit den meisten Stimmen. {tipps} {'Fan hat' if tipps == 1 else 'Fans haben'} mitgetippt."],
+            "grafik": {"typ": "fansdaten", "md": md, "fans": f_ok, "daten": d_ok, "n": n, "tipps": tipps, "zeilen": zeilen}}]}
+
+
 def main():
     a = argparse.ArgumentParser(); a.add_argument("--repo", default="."); a.add_argument("--neu", action="store_true"); a = a.parse_args()
     R = Path(a.repo)
@@ -381,6 +426,16 @@ def main():
         if vorher.get("md") != lo["md"] or vorher.get("loesung") != lo["loesung"]:
             json.dump(lo, open(R / "tipp_loesung.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
             print(f"Auflösung Runde {lo['md']}: {len(lo['loesung'])} von {len(alt['fragen'])} Fragen")
+    # Fans gegen Daten: einmal je Runde, sobald alles aufgelöst ist (tipp_auswertung.json, der Ticker mischt die Meldung in den Feed)
+    aw_alt = lade("tipp_auswertung.json", {}) or {}
+    if lo and alt.get("fragen") and aw_alt.get("md") != alt["md"] and jetzt >= dt(alt["schluss"]):
+        try:
+            aw = auswertung(alt, lo, fans_stand(alt["md"]), jetzt)
+            if aw:
+                json.dump(aw, open(R / "tipp_auswertung.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+                print("Fans gegen Daten:", aw["news"][0]["headline"])
+        except Exception as e:
+            print("Auswertung nicht möglich:", e)
     if not a.neu and alt.get("md") == sp.get("aktuell") and alt.get("fragen"):
         print(f"Runde {alt['md']} steht schon ({len(alt['fragen'])} Fragen), bleibt unverändert"); return
     anlass_m = {m["id"]: m.get("headline", "") for m in (lade("news.json", {}) or {}).get("meldungen", [])}
