@@ -5,7 +5,11 @@ Bisher hat der Ticker die Fragen im Browser aus der aktuellen Prognose gerechnet
 ändern sich die Fragen, und abgegebene Tipps passen nicht mehr. Dieses Skript schreibt spielt_sie.json
 für den aktuellen Spieltag genau einmal. Steht für den Spieltag schon eine Runde, bleibt sie unverändert.
 
-Regeln (wie zuvor im Browser, claude/wosoinsider-gamification.md):
+Mix ab 04.11.2026 (Finn): höchstens 2 Einsatzfragen (Umfragen und Startelf, nur mit Anlass), dazu MVP des Spieltags,
+Weiße Weste, Reißt die Serie und Wer beendet die Torflaute (mix_fragen); nie dieselbe Spielerin in zwei Fragen.
+Auflösung der neuen Typen in loesung_mix (Noten API-Football, Endergebnis, Torschützinnen), mehrere richtige mit Komma.
+
+Regeln Einsatzfragen (wie zuvor im Browser, claude/wosoinsider-gamification.md):
 - Abgabe bis 90 Minuten vor dem ersten Anpfiff des Spieltags.
 - Zuerst bis zu 2 bestehende Startelf-Umfragen des Spieltags (mit Infos und Einschätzung).
 - Dann Startelf-Fragen aus der Prognose: nur Erwartet oder Unsicher, Einsatzwert 30 bis 94 %, Gewicht
@@ -22,6 +26,7 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 BERLIN = ZoneInfo("Europe/Berlin")
+TEAM = {}
 SCHLUSS_MIN = 90
 STUFE = {"sicher": "Sicher", "erwartet": "Erwartet", "unsicher": "Unsicher", "unwahrscheinlich": "Unwahrscheinlich", "ausgeschlossen": "Ausgeschlossen"}
 
@@ -40,7 +45,7 @@ def im_wb(wb):
     return "in der Liga" if wb == "Liga" else "in der Champions League" if wb == "Champions League" else "im " + wb
 
 
-def runde(sp, spn, um, fotos, jetzt, anlass_m=None):
+def runde(sp, spn, um, fotos, jetzt, anlass_m=None, af=None):
     anlass_m = anlass_m or {}
     t = next((x for x in sp.get("spieltage", []) if x.get("nr") == sp.get("aktuell")), None)
     if not t:
@@ -61,6 +66,16 @@ def runde(sp, spn, um, fotos, jetzt, anlass_m=None):
         L = [x for x in alle if x["k"] == k and (norm(nach(x["n"])) == norm(n) or norm(x["n"]) == norm(n))]
         return L[0] if len(L) == 1 else None
 
+    global TEAM
+    TEAM = {}
+    for tt in sp.get("spieltage", []):
+        if tt.get("nr", 0) >= t["nr"]: continue
+        for p in tt["partien"]:
+            e = p.get("ergebnis")
+            if p.get("status") != "beendet" or not e: continue
+            a, b = int(e[0]), int(e[1])
+            for k, f_, g_ in ((p["heim_k"], a, b), (p["gast_k"], b, a)):
+                T = TEAM.setdefault(k, {"gf": 0, "ga": 0, "g": 0}); T["gf"] += f_; T["ga"] += g_; T["g"] += 1
     fragen, belegt, pro_v = [], set(), {}
     nimm = lambda k: pro_v.__setitem__(k, pro_v.get(k, 0) + 1)
     frei = lambda k: pro_v.get(k, 0) < 2
@@ -136,13 +151,21 @@ def runde(sp, spn, um, fotos, jetzt, anlass_m=None):
                              "prognose": f"{STUFE[x['st']]}. {stz.group(1) + ' von 5 zuletzt in der Startelf, ' if stz else ''}Einsatzwert {w} %.",
                              "optionen": [{"id": "ja", "n": "Ja"}, {"id": "nein", "n": "Nein"}]})
     kand.sort(key=lambda q: -q["_g"])
-
-    def pick(q):
-        if len(fragen) >= 5 or not frei(q["k"]) or any(f["id"] == q["id"] for f in fragen):
-            return
-        nimm(q["k"]); fragen.append(q)
-    for q in [q for q in kand if not q["einsehbar"]][:2]: pick(q)
-    for q in kand: pick(q)
+    # Mix (Finn 04.11.2026): MVP, Weiße Weste, höchstens 2 Einsatzfragen, Torflaute und/oder Serie, nie dieselbe Art doppelt
+    einsatz = fragen[:2]
+    for q in [q for q in kand if not q["einsehbar"]] + kand:
+        if len(einsatz) >= 2: break
+        if q["id"] not in {f["id"] for f in einsatz}: einsatz.append(q)
+    belegt_sid = {q.get("sid") for q in einsatz if q.get("sid")}
+    for q in einsatz:
+        if q.get("umfrage"):
+            u = next((x for x in um if x["id"] == q["umfrage"]), None)
+            for o in (u or {}).get("optionen", []):
+                s_ = finde(q["k"], o.get("nachname") or "")
+                if s_: belegt_sid.add(s_["id"])
+    for q in einsatz: q["typ"] = "einsatz"
+    extra = mix_fragen(t, alle, af or {}, fotos, ein, belegt_sid)
+    fragen = (einsatz + extra)[:5]
     anst = {p["id"]: p["anstoss"] for p in t["partien"]}
     fragen.sort(key=lambda q: anst.get(q["partie"], ""))
     for q in fragen: q.pop("_g", None)
@@ -150,7 +173,130 @@ def runde(sp, spn, um, fotos, jetzt, anlass_m=None):
             "hinweis": "Fragen festgeschrieben von tools/spielt_sie.py, ändern sich bis zur Wertung nicht.", "fragen": fragen}, "neu"
 
 
-def loesung(sp, spn, um, runde_):
+KURZ_N = {"FCB": "Bayern", "WOB": "Wolfsburg", "SGE": "Frankfurt", "B04": "Leverkusen", "KOE": "Köln", "RBL": "Leipzig", "SVW": "Werder",
+          "SCF": "Freiburg", "FCU": "Union", "VFB": "Stuttgart", "TSG": "Hoffenheim", "HSV": "den HSV", "FCN": "Nürnberg", "M05": "Mainz"}
+ORT = {"FCB": "München", "WOB": "Wolfsburg", "SGE": "Frankfurt", "B04": "Leverkusen", "KOE": "Köln", "RBL": "Leipzig", "SVW": "Bremen",
+       "SCF": "Freiburg", "FCU": "Berlin", "VFB": "Stuttgart", "TSG": "Hoffenheim", "HSV": "Hamburg", "FCN": "Nürnberg", "M05": "Mainz"}
+NOM = lambda k: "der HSV" if k == "HSV" else KURZ_N.get(k, k)
+kom = lambda x, d=1: f"{x:.{d}f}".replace(".", ",")
+
+
+def mix_fragen(t, alle, af, fotos, ein, belegt):
+    """Neue Fragetypen (Finn 04.11.2026). Jede Auswahl folgt einer festen Regel, jede Frage nennt ihren Anlass."""
+    md = t["nr"]
+    sp_alle = [p for p in t["partien"]]
+    def gegner(k):
+        for p in sp_alle:
+            if p["heim_k"] == k: return p, p["gast_k"], True
+            if p["gast_k"] == k: return p, p["heim_k"], False
+        return None, None, None
+    def ort(k):
+        p, o, heim = gegner(k)
+        return f"gegen {KURZ_N.get(o, o)}" if heim else f"in {ORT.get(o, o)}"
+    def prog(s):
+        p, o, heim = gegner(s["k"])
+        if not p: return None
+        a = p.get(("heim" if heim else "gast") + "_aufstellung") or {}
+        for x in (a.get("startelf") or []) + (a.get("bank") or []):
+            if norm(x["n"]) == norm(nach(s["n"])) or norm(x.get("voll") or "") == norm(s["n"]):
+                return x.get("st")
+        return (s.get("prognose") or {}).get("st")
+    def foto(s):
+        f = fotos.get(s["n"]) or {}
+        return bool(f.get("portrait") or f.get("datei"))
+    spielt = lambda s: prog(s) in ("sicher", "erwartet") and foto(s) and s["id"] not in belegt
+    liga = lambda s: [e for e in (s.get("spiele") or []) if e.get("md", 0) < md]
+    def opt(s, info):
+        return {"id": s["id"], "n": nach(s["n"]), "sid": s["id"], "k": s["k"], "info": info}
+    def frage(typ, art, ids, frage_, warum, prognose, optionen):
+        p, o, heim = gegner(ids[0]["k"])
+        return {"id": f"{typ}-md{md}", "typ": typ, "art": art, "partie": p["id"], "k": ids[0]["k"], "multi": len({x["k"] for x in ids}) > 1,
+                "einsehbar": all((gegner(x["k"])[0] or {}).get("id") in ein for x in ids), "frage": frage_, "warum": warum, "prognose": prognose, "optionen": optionen}
+    def gt(k):
+        return TEAM.get(k, {"gf": 0, "ga": 0, "g": 0})
+    out = {}
+    # Serie: trifft in mindestens 60 % ihrer Ligaspiele (mind. 5 Einsätze, mind. 4 mit Tor)
+    sc = []
+    for s in alle:
+        L = [e for e in liga(s) if e.get("art") in ("S", "E")]
+        k = sum(1 for e in L if e.get("tore"))
+        if len(L) >= 5 and k >= 4 and k / len(L) >= .6 and spielt(s):
+            sc.append((k / len(L), sum(len(e.get("tore") or []) for e in L), s, k, len(L)))
+    sc.sort(key=lambda x: (-x[0], -x[1]))
+    if sc:
+        r_, tore, s, k, n = sc[0]; o = gegner(s["k"])[1]; G = gt(o)
+        out["serie"] = frage("serie", "SERIE", [s], f"Trifft {nach(s['n'])} zum {k + 1}. Mal?",
+            f"Getroffen in {k} von {n} Ligaspielen, {tore} Tore. {NOM(o)[0].upper() + NOM(o)[1:]} hat {G['ga']} Gegentore in {G['g']} Spielen.",
+            f"{'Eher ja' if r_ >= .6 else 'Offen'}: sie trifft in {round(r_ * 100)} % ihrer Spiele.",
+            [{"id": "ja", "n": "Ja", "info": f"{nach(s['n'])} trifft"}, {"id": "nein", "n": "Nein", "info": "Serie reißt"}])
+        out["serie"]["sid"] = s["id"]; belegt.add(s["id"])
+    # Torflaute: Stürmerinnen, mind. 5 Starts, die letzten 3 Ligaspiele in der Startelf und ohne Tor
+    fl = []
+    for s in alle:
+        L = liga(s); st = [e for e in L if e.get("art") == "S"]
+        if s.get("pos") != "ST" or len(st) < 5 or len(L) < 3 or not spielt(s): continue
+        l3 = L[-3:]
+        if not all(e.get("art") == "S" and not e.get("tore") for e in l3): continue
+        tore = sum(len(e.get("tore") or []) for e in L); letzt = max([e["md"] for e in L if e.get("tore")], default=0)
+        fl.append((tore, len(st), s, letzt))
+    fl.sort(key=lambda x: (-x[0], -x[1]))
+    fl2 = []
+    for x in fl:
+        if all(y[2]["k"] != x[2]["k"] for y in fl2): fl2.append(x)
+        if len(fl2) == 2: break
+    if len(fl2) == 2:
+        os_ = [opt(s, f"{tore} Tore, zuletzt am {letzt}. Spieltag" if tore else f"{st} Starts, noch ohne Saisontor") for tore, st, s, letzt in fl2]
+        schwach = max(fl2, key=lambda x: gt(gegner(x[2]["k"])[1])["ga"] / max(1, gt(gegner(x[2]["k"])[1])["g"]))
+        o = gegner(schwach[2]["k"])[1]; G = gt(o)
+        out["flaute"] = frage("flaute", "TORFLAUTE", [x[2] for x in fl2], "Wer beendet ihre Torflaute?",
+            "Beide stehen fast immer in der Startelf, haben aber in den letzten 3 Ligaspielen nicht getroffen. Tore bringen bei Kickbase die meisten Punkte.",
+            f"{nach(schwach[2]['n'])}: {NOM(o)[0].upper() + NOM(o)[1:]} kassiert {kom(G['ga'] / max(1, G['g']))} Tore pro Spiel.",
+            os_ + [{"id": "beide", "n": "Beide"}, {"id": "keine", "n": "Keine"}])
+        for x in fl2: belegt.add(x[2]["id"])
+    # Weiße Weste: erwartete Torhüterinnen, Wert = Tore des Gegners + eigene Gegentore pro Spiel (kleiner = besser), je Spiel höchstens eine
+    ww = []
+    for p in sp_alle:
+        for seite, k, o in (("heim", p["heim_k"], p["gast_k"]), ("gast", p["gast_k"], p["heim_k"])):
+            a = p.get(seite + "_aufstellung") or {}
+            x = next((x for x in (a.get("startelf") or []) if x.get("p") == "TW" and x.get("st") in ("sicher", "erwartet")), None)
+            if not x: continue
+            s = next((y for y in alle if y["k"] == k and (norm(nach(y["n"])) == norm(x["n"]) or norm(y["n"]) == norm(x["n"]))), None)
+            if not s or not foto(s) or s["id"] in belegt: continue
+            Go, Gk = gt(o), gt(k)
+            ww.append((Go["gf"] / max(1, Go["g"]) + Gk["ga"] / max(1, Gk["g"]), p["id"], s, o))
+    ww.sort(key=lambda x: x[0]); ww3 = []
+    for x in ww:
+        if all(y[1] != x[1] for y in ww3): ww3.append(x)
+        if len(ww3) == 3: break
+    if len(ww3) == 3:
+        w = " · ".join(f"{nach(s['n'])}: {NOM(o)} trifft {kom(gt(o)['gf'] / max(1, gt(o)['g']))}-mal pro Spiel" for _, _, s, o in ww3)
+        b = ww3[0][2]; Gb = gt(b["k"])
+        out["weste"] = frage("weste", "WEISSE WESTE", [x[2] for x in ww3], "Welche Torhüterin bleibt ohne Gegentor?",
+            w + ". Spiele ohne Gegentor bringen Torhüterin und Abwehr Kickbase-Punkte.",
+            f"{nach(b['n'])}: {NOM(b['k'])[0].upper() + NOM(b['k'])[1:]} hat {Gb['ga']} Gegentore in {Gb['g']} Spielen.",
+            [opt(s, ort(s["k"])) for _, _, s, o in ww3] + [{"id": "keine", "n": "Keine", "info": "Alle kassieren"}])
+        for x in ww3: belegt.add(x[2]["id"])
+    # MVP: die 4 besten Notenschnitte* (mind. 4 Noten), höchstens eine je Verein, nur wer laut Prognose spielt
+    # gleicher Schnitt wie die Statistik im Ticker (apifootball.json sp.avg, mind. 4 Spiele mit 60+ Minuten)
+    mv = []
+    for s in alle:
+        e = (af.get("sp") or {}).get(s["id"]) or {}
+        if e.get("avg") and len([n for n in e.get("no", []) if n[2] >= 60]) >= 4 and spielt(s) and gegner(s["k"])[0]: mv.append((e["avg"], s))
+    mv.sort(key=lambda x: -x[0]); mv4 = []
+    for x in mv:
+        if all(y[1]["k"] != x[1]["k"] for y in mv4): mv4.append(x)
+        if len(mv4) == 4: break
+    if len(mv4) == 4:
+        a0, s0 = mv4[0]; o = gegner(s0["k"])[1]; G = gt(o)
+        out["mvp"] = frage("mvp", "MVP", [x[1] for x in mv4], f"Wer wird MVP des {md}. Spieltags?",
+            "Die vier besten Notenschnitte* der Saison unter allen, die laut Prognose spielen, höchstens eine je Verein. MVP ist, wer am Spieltag die beste Note* holt. *Note von API-Football, keine Kickbase-Punkte.",
+            f"{nach(s0['n'])}: bester Schnitt der vier ({kom(a0)}*), {NOM(o)[0].upper() + NOM(o)[1:]} hat {G['ga']} Gegentore in {G['g']} Spielen.",
+            [opt(s, f"Ø {kom(a)}* · {ort(s['k'])}") for a, s in mv4])
+    reihe = [out.get("mvp"), out.get("weste")] + [out.get(k) for k in ("serie", "flaute")]
+    return [q for q in reihe if q]
+
+
+def loesung(sp, spn, um, runde_, af=None):
     """tipp_loesung.json für die Datenbank (supabase/tippspiel.sql): {"md": 9, "loesung": {frage-id: antwort-id}}.
     Startelf-Fragen und Startelf-Umfragen, sobald die offizielle Aufstellung da ist (wie umfrageAufloesung im Ticker)."""
     if not runde_ or not runde_.get("fragen"): return None
@@ -163,6 +309,10 @@ def loesung(sp, spn, um, runde_):
     for q in runde_["fragen"]:
         p = next((x for x in t["partien"] if x["id"] == q["partie"]), None)
         if not p: continue
+        if q.get("typ") in ("mvp", "weste", "flaute", "serie"):
+            r_ = loesung_mix(q, t, af or {})
+            if r_: L[q["id"]] = r_
+            continue
         seite = "heim" if p["heim_k"] == q["k"] else "gast" if p["gast_k"] == q["k"] else None
         a = p.get(f"{seite}_aufstellung") if seite else None
         if not a or a.get("typ") != "offiziell": continue
@@ -172,6 +322,10 @@ def loesung(sp, spn, um, runde_):
             if not s: continue
             drin = any(norm(x.get("voll") or "") == norm(s["n"]) or norm(x.get("n")) == norm(nach(s["n"])) for x in elf)
             L[q["id"]] = "ja" if drin else "nein"
+        elif q.get("typ") in ("mvp", "weste", "flaute", "serie"):
+            r_ = loesung_mix(q, t, af or {})
+            if r_: L[q["id"]] = r_
+            continue
         elif q.get("umfrage") and q["umfrage"] in umid:
             u = umid[q["umfrage"]]; O = u.get("optionen", [])
             sx = [x for x in elf if not u.get("position") or x.get("p") == u["position"]]
@@ -184,6 +338,33 @@ def loesung(sp, spn, um, runde_):
     return {"md": md, "stand": datetime.now(BERLIN).strftime("%Y-%m-%dT%H:%M"), "loesung": L}
 
 
+def loesung_mix(q, t, af):
+    """Auflösung MVP, Weiße Weste, Torflaute, Serie, sobald alle beteiligten Spiele beendet sind. Mehrere richtige Antworten mit Komma."""
+    def partie(k):
+        return next((p for p in t["partien"] if k in (p["heim_k"], p["gast_k"])), None)
+    sids = [o for o in q["optionen"] if o.get("sid")] or ([{"sid": q.get("sid"), "k": q["k"], "n": q["frage"].split()[1]}] if q.get("sid") else [])
+    ps = [partie(o["k"]) for o in sids]
+    if not ps or any(not p or p.get("status") != "beendet" or not p.get("ergebnis") for p in ps): return None
+    def tore(o, p):
+        seite = "heim" if p["heim_k"] == o["k"] else "gast"
+        return sum(1 for x in p.get("tore") or [] if x.get("seite") == seite and not x.get("et") and norm(x.get("n")) == norm(o["n"]))
+    if q["typ"] == "mvp":
+        w = {o["id"]: ((af.get("spiele") or {}).get(p["id"]) or {}).get("no", {}).get(o["sid"]) for o, p in zip(sids, ps)}
+        w = {k: v for k, v in w.items() if v is not None}
+        if len(w) < len(sids): return None   # Noten noch nicht da
+        m = max(w.values()); return ",".join(k for k, v in w.items() if v == m)
+    if q["typ"] == "weste":
+        rt = [o["id"] for o, p in zip(sids, ps) if int(p["ergebnis"][1 if p["heim_k"] == o["k"] else 0]) == 0]
+        return ",".join(rt) if rt else "keine"
+    if q["typ"] == "flaute":
+        rt = [o["id"] for o, p in zip(sids, ps) if tore(o, p)]
+        return "beide" if len(rt) == 2 else rt[0] if rt else "keine"
+    if q["typ"] == "serie":
+        o = next(o for o in q["optionen"] if o["id"] == "ja")
+        s = {"k": q["k"], "n": q["frage"].split()[1]}
+        return "ja" if tore(s, ps[0]) else "nein"
+
+
 def main():
     a = argparse.ArgumentParser(); a.add_argument("--repo", default="."); a.add_argument("--neu", action="store_true"); a = a.parse_args()
     R = Path(a.repo)
@@ -194,7 +375,7 @@ def main():
     alt = lade("spielt_sie.json", {}) or {}
     jetzt = datetime.now(BERLIN).replace(tzinfo=None, second=0, microsecond=0)
     # Auflösung für die Datenbank (tipp_loesung.json), auch für die zuletzt festgeschriebene Runde
-    lo = loesung(sp, spn, um, alt)
+    lo = loesung(sp, spn, um, alt, lade("apifootball.json", {}))
     if lo is not None:
         vorher = lade("tipp_loesung.json", {}) or {}
         if vorher.get("md") != lo["md"] or vorher.get("loesung") != lo["loesung"]:
@@ -203,7 +384,7 @@ def main():
     if not a.neu and alt.get("md") == sp.get("aktuell") and alt.get("fragen"):
         print(f"Runde {alt['md']} steht schon ({len(alt['fragen'])} Fragen), bleibt unverändert"); return
     anlass_m = {m["id"]: m.get("headline", "") for m in (lade("news.json", {}) or {}).get("meldungen", [])}
-    r, grund = runde(sp, spn, um, fotos, jetzt, anlass_m)
+    r, grund = runde(sp, spn, um, fotos, jetzt, anlass_m, lade("apifootball.json", {}))
     if not r:
         print("keine neue Runde:", grund); return
     if not r["fragen"]:

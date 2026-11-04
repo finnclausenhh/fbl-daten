@@ -1,6 +1,6 @@
 {
  "md": 9,
- "erstellt": "2026-11-04T22:28",
+ "erstellt": "2026-11-04T23:09",
  "erst": "2026-11-06T18:30",
  "schluss": "2026-11-06T17:00",
  "hinweis": "Fragen festgeschrieben von tools/spielt_sie.py, ändern sich bis zur Wertung nicht.",
@@ -28,7 +28,8 @@
      "id": "andere",
      "n": "Andere"
     }
-   ]
+   ],
+   "typ": "einsatz"
   },
   {
    "id": "u-wob-sturm-md9",
@@ -57,70 +58,115 @@
      "id": "keine",
      "n": "Keine von beiden"
     }
-   ]
+   ],
+   "typ": "einsatz"
   },
   {
-   "id": "s-00023",
-   "art": "STARTELF",
+   "id": "mvp-md9",
+   "typ": "mvp",
+   "art": "MVP",
    "partie": "12306283",
    "k": "FCB",
-   "sid": "00023",
+   "multi": true,
+   "einsehbar": false,
+   "frage": "Wer wird MVP des 9. Spieltags?",
+   "warum": "Die vier besten Notenschnitte* der Saison unter allen, die laut Prognose spielen, höchstens eine je Verein. MVP ist, wer am Spieltag die beste Note* holt. *Note von API-Football, keine Kickbase-Punkte.",
+   "prognose": "Tanikawa: bester Schnitt der vier (7,7*), Werder hat 11 Gegentore in 8 Spielen.",
+   "optionen": [
+    {
+     "id": "00021",
+     "n": "Tanikawa",
+     "sid": "00021",
+     "k": "FCB",
+     "info": "Ø 7,7* · gegen Werder"
+    },
+    {
+     "id": "00077",
+     "n": "Freigang",
+     "sid": "00077",
+     "k": "SGE",
+     "info": "Ø 7,7* · gegen Wolfsburg"
+    },
+    {
+     "id": "00396",
+     "n": "Küver",
+     "sid": "00396",
+     "k": "WOB",
+     "info": "Ø 7,6* · in Frankfurt"
+    },
+    {
+     "id": "00260",
+     "n": "Kramer",
+     "sid": "00260",
+     "k": "B04",
+     "info": "Ø 7,2* · gegen den HSV"
+    }
+   ]
+  },
+  {
+   "id": "weste-md9",
+   "typ": "weste",
+   "art": "WEISSE WESTE",
+   "partie": "12306271",
+   "k": "WOB",
+   "multi": true,
+   "einsehbar": false,
+   "frage": "Welche Torhüterin bleibt ohne Gegentor?",
+   "warum": "Johannes: Frankfurt trifft 1,9-mal pro Spiel · Giuliani: Mainz trifft 0,5-mal pro Spiel · Borggräfe: der HSV trifft 1,8-mal pro Spiel. Spiele ohne Gegentor bringen Torhüterin und Abwehr Kickbase-Punkte.",
+   "prognose": "Johannes: Wolfsburg hat 8 Gegentore in 8 Spielen.",
+   "optionen": [
+    {
+     "id": "00389",
+     "n": "Johannes",
+     "sid": "00389",
+     "k": "WOB",
+     "info": "in Frankfurt"
+    },
+    {
+     "id": "00329",
+     "n": "Giuliani",
+     "sid": "00329",
+     "k": "VFB",
+     "info": "in Mainz"
+    },
+    {
+     "id": "00238",
+     "n": "Borggräfe",
+     "sid": "00238",
+     "k": "B04",
+     "info": "gegen den HSV"
+    },
+    {
+     "id": "keine",
+     "n": "Keine",
+     "info": "Alle kassieren"
+    }
+   ]
+  },
+  {
+   "id": "serie-md9",
+   "typ": "serie",
+   "art": "SERIE",
+   "partie": "12306271",
+   "k": "WOB",
+   "multi": false,
    "einsehbar": true,
-   "frage": "Steht Bühl in der Startelf?",
-   "warum": "Zuletzt im DFB-Pokal gegen Bayer Leverkusen nur auf der Bank. Diese Saison 6 Tore, 5 Vorlagen.",
-   "prognose": "Unsicher. 4 von 5 zuletzt in der Startelf, Einsatzwert 87 %.",
+   "frage": "Trifft Peddemors zum 7. Mal?",
+   "warum": "Getroffen in 6 von 8 Ligaspielen, 9 Tore. Frankfurt hat 7 Gegentore in 8 Spielen.",
+   "prognose": "Eher ja: sie trifft in 75 % ihrer Spiele.",
    "optionen": [
     {
      "id": "ja",
-     "n": "Ja"
+     "n": "Ja",
+     "info": "Peddemors trifft"
     },
     {
      "id": "nein",
-     "n": "Nein"
+     "n": "Nein",
+     "info": "Serie reißt"
     }
-   ]
-  },
-  {
-   "id": "s-00317",
-   "art": "STARTELF",
-   "partie": "12306274",
-   "k": "FCN",
-   "sid": "00317",
-   "einsehbar": false,
-   "frage": "Steht Proniez in der Startelf?",
-   "warum": "In den letzten 3 Ligaspielen 1-mal in der Startelf. Diese Saison 4 Tore, 0 Vorlagen.",
-   "prognose": "Erwartet. 2 von 5 zuletzt in der Startelf, Einsatzwert 65 %.",
-   "optionen": [
-    {
-     "id": "ja",
-     "n": "Ja"
-    },
-    {
-     "id": "nein",
-     "n": "Nein"
-    }
-   ]
-  },
-  {
-   "id": "s-00266",
-   "art": "STARTELF",
-   "partie": "12306280",
-   "k": "B04",
-   "sid": "00266",
-   "einsehbar": false,
-   "frage": "Steht Tomasiak in der Startelf?",
-   "warum": "Fraglich seit 22.10.: muskuläre Probleme nach Länderspielreise. In den letzten 3 Ligaspielen 1-mal in der Startelf. Diese Saison 3 Tore, 2 Vorlagen.",
-   "prognose": "Unsicher. 3 von 5 zuletzt in der Startelf, Einsatzwert 44 %.",
-   "optionen": [
-    {
-     "id": "ja",
-     "n": "Ja"
-    },
-    {
-     "id": "nein",
-     "n": "Nein"
-    }
-   ]
+   ],
+   "sid": "00405"
   }
  ]
 }
