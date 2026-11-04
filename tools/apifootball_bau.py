@@ -273,6 +273,7 @@ for s in WIR:
     e = profil.get(s["id"]) or {}
     voll = [n for n in e.get("no", []) if n[2] >= 60]
     if len(voll) < 4 or s.get("pos") == "TW" or (s.get("prognose") or {}).get("st") not in ("sicher", "erwartet"): continue
+    if s["id"] in {x["id"] for x in tief + hoch + stabil}: continue   # nur eine Gruppe je Spielerin (Finn 04.11.2026)
     l3 = sum(n[1] for n in voll[-3:]) / 3
     pg = programm(s["k"])
     if l3 >= 7.4 and pg.get("ns") == "leicht":
