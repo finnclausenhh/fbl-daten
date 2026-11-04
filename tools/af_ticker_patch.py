@@ -541,6 +541,8 @@ import os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from af_r5 import r5
 h = r5(h)
+from af_r6 import r6
+h = r6(h)
 
 if LIVE:
     h = h.replace('<div class="af-test">TESTVERSION · neue Daten aus API-Football · nicht öffentlich</div>', "")

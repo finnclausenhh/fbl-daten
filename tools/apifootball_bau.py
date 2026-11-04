@@ -211,10 +211,13 @@ def form_liste():
         k = {"id": s["id"], "n": s["n"], "k": s["k"], "pos": s.get("pos"), "l3": round(l3, 2), "vorher": round(basis, 2), "diff": diff,
              "noten": [n[1] for n in voll[-5:]], "min3": [x.get("min", 0) for x in letzte],
              "prog": (s.get("prognose") or {}).get("st")}
+        # Stabil (Finn 04.11.): die ganze Saison hoch und zuletzt immer von Anfang an. Wer schon vorher sehr gut war, ist nicht "im Aufwind".
+        l5 = s["spiele"][-5:]; avg = sum(n[1] for n in voll) / len(voll); k["avg"] = round(avg, 2)
+        stamm = sum(1 for x in l5 if x.get("art") == "S") >= 4 and all(x.get("art") == "S" and (x.get("min") or 0) >= 60 for x in letzte)
         if diff <= -0.6: tief.append(k)
+        elif stamm and avg >= 7.2 and l3 >= 7.0 and (abs(diff) < 0.5 or (diff > 0 and basis >= 7.6)): stabil.append(k)
         elif diff >= 0.6: hoch.append(k)
-        elif abs(diff) < 0.3 and l3 >= 7.0: stabil.append(k)
-    tief.sort(key=lambda x: x["diff"]); hoch.sort(key=lambda x: -x["diff"]); stabil.sort(key=lambda x: -x["l3"])
+    tief.sort(key=lambda x: x["diff"]); hoch.sort(key=lambda x: -x["diff"]); stabil.sort(key=lambda x: -x["avg"])
     return tief[:10], hoch[:10]
 
 tief, hoch = form_liste()
