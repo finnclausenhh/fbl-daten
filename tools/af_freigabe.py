@@ -33,7 +33,7 @@ letzte = max((z for z in zeiten if z <= jetzt), default=None)
 if letzte and jetzt - letzte < LUECKE:
     print(f"letzte Meldung {letzte:%d.%m. %H:%M}, noch keine Lücke"); sys.exit(0)
 
-warte = [n for n in af.get("news", []) if not n.get("zeit")]
+warte = [n for n in af.get("news", []) if not n.get("zeit") and not n.get("halten")]
 if not warte:
     print("Warteschlange leer"); sys.exit(0)
 warte[0]["zeit"] = jetzt.strftime("%Y-%m-%dT%H:%M")

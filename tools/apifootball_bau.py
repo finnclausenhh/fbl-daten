@@ -621,6 +621,11 @@ RANGF = {"JOKER": 0, "ELFMETER": 1, "xG-CHECK": 2, "FORMTIEF": 3, "FORMHOCH": 4,
 news.sort(key=lambda n: (0 if n.get("fix") else 1, RANGF.get(n["tags"][0], 9)))
 for n in news:
     if not n.get("fix"): n["zeit"] = alt.get(n["id"])
+# Zurückgehaltene Meldungen (Finn 04.11.2026): halten = true bleibt stehen, af_freigabe.py überspringt sie.
+# Der Standard-Check bleibt gesperrt, bis Finn die neue Kopfball-Zählung freigibt (HALTEN in diesem Skript).
+HALTEN = {"af-standards-"}
+for n in news:
+    if any(n["id"].startswith(h) for h in HALTEN): n["halten"] = True; n["zeit"] = None
 
 # ---------------------------------------------------------------- schreiben
 out = {"stand": JETZT_B().strftime("%Y-%m-%dT%H:%M"), "saison": SAISON, "md": max((s["md"] for s in spiele.values()), default=0),
