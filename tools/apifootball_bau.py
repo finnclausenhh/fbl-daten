@@ -671,7 +671,7 @@ for n in news:
     if not n.get("fix"): n["zeit"] = alt.get(n["id"])
 # Zurückgehaltene Meldungen (Finn 04.11.2026): halten = true bleibt stehen, af_freigabe.py überspringt sie.
 # Der Standard-Check bleibt gesperrt, bis Finn die neue Kopfball-Zählung freigibt (HALTEN in diesem Skript).
-HALTEN = set()   # z. B. {"af-standards-"}; Standard-Check freigegeben 04.11.2026 nach neuer Zählung
+HALTEN = {"af-standards-"}   # Finn 04.11.2026 22:40: on hold, Kopfball-Daten zu dünn (Ticker beschreibt nur ca. 1,3 Kopfbälle nach Standards pro Spiel)
 for n in news:
     if any(n["id"].startswith(h) for h in HALTEN): n["halten"] = True; n["zeit"] = None
 
