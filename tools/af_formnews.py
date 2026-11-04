@@ -71,6 +71,48 @@ def _team_satz(k):
     L = _bilanz(k); pk = sum(x["pkt"] for x in L); tf = sum(x["t"] for x in L); ga = sum(x["g"] for x in L)
     return f"{KNK_N(k)} {'wartet' if pk == 0 else 'steht'} nach {len(L)} Spieltagen {'noch auf den ersten Punkt' if pk == 0 else f'bei {pk} Punkten'}, das Torverhältnis ist {tf}:{ga}."
 
+
+# Lichtblick (Formtief) bzw. Beleg (Formhoch) aus dem letzten Einsatz (Finn 04.11.2026):
+# Werte, in denen sie im Team vorne lag, aus den API-Football-Spieldetails. Nur Mitspielerinnen ab 45 Minuten zählen.
+LB = [("abgefangene Bälle", lambda st: (st.get("tackles") or {}).get("interceptions"), 4),
+      ("gewonnene Zweikämpfe", lambda st: (st.get("duels") or {}).get("won"), 8),
+      ("Torschussvorlagen", lambda st: (st.get("passes") or {}).get("key"), 2),
+      ("Schüsse aufs Tor", lambda st: (st.get("shots") or {}).get("on"), 2),
+      ("Tacklings", lambda st: (st.get("tackles") or {}).get("total"), 4),
+      ("Pässe", lambda st: (st.get("passes") or {}).get("total"), 40)]
+
+def _letztes_spiel_werte(f):
+    s = WIRBYID[f["id"]]; L = [x for x in s.get("spiele", []) if x.get("art") in ("S", "E")]
+    if not L: return None, None, None
+    last = L[-1]
+    for g in DET:
+        if md_aus(g["league"]["round"]) != last["md"]: continue
+        if f["k"] not in (TEAM.get(g["teams"]["home"]["id"]), TEAM.get(g["teams"]["away"]["id"])): continue
+        W = {}
+        for blk in g.get("players") or []:
+            if TEAM.get(blk["team"]["id"]) != f["k"]: continue
+            for pl in blk["players"]:
+                wid = ID.get(pl["player"]["id"]); st = pl["statistics"][0]
+                if wid and (st["games"].get("minutes") or 0) >= 45: W[wid] = st
+        return last, W, W.get(f["id"])
+    return None, None, None
+
+def lichtblick(f, tief_):
+    last, W, mine = _letztes_spiel_werte(f)
+    if not mine or (mine["games"].get("position") == "G"): return ""
+    teile = []
+    for name, get, mindest in LB:
+        v = get(mine) or 0
+        if v < mindest: continue
+        rest = sorted(((get(st) or 0, wid) for wid, st in W.items() if wid != f["id"]), reverse=True)
+        erst = rest[0] if rest else (0, None)
+        if v > erst[0]: teile.append(f"{v} {name}, so viele wie keine Mitspielerin")
+        elif len(rest) > 1 and v > rest[1][0] and v < erst[0]: teile.append(f"{v} {name}, nur {WIRBYID[erst[1]]['n'].split()[-1]} kam auf mehr")
+        if len(teile) == 2: break
+    if not teile: return ""
+    geg = KNK_N(last.get("gk"))
+    return (f"Gegen {geg} gab es erste Lichtblicke: " if tief_ else f"Zuletzt gegen {geg}: ") + ", und ".join(teile) + "."
+
 def formmeldung(f, tief_):
     nach = f["n"].split()[-1]; pr = PSW.get(f["prog"] or "", "offen")
     teil, grp = _gruppe(f)
@@ -98,7 +140,7 @@ def formmeldung(f, tief_):
         if fak: t3 += " " + ". ".join(fak) + "."
     t4 = "Die Form lesen wir aus den Noten von API-Football (Einsätze ab 60 Minuten). Sie zeigen eine Tendenz, Kickbase rechnet seine Punkte anders."
     head = f"Kommt {nach} aus dem Formtief?" if tief_ else f"Hält {nach} ihr Formhoch?"
-    m = meld(f["id"], ["FORMTIEF" if tief_ else "FORMHOCH", "INSIDER"], head, head, [t1, t2, t3, t4],
+    m = meld(f["id"], ["FORMTIEF" if tief_ else "FORMHOCH", "INSIDER"], head, head, [t1, t2, lichtblick(f, tief_), t3, t4],
              f"Minuten der letzten 3 Ligaspiele: {' · '.join(str(x) + chr(39) for x in f['min3'])}. Prognose fürs nächste Spiel: {pr}.", "formtief" if tief_ else "formhoch")
     if len(grp) >= 2:
         m["grafik"] = {"typ": "formvergleich", "titel": f"{tw} von {KNK_N(f['k'])}", "unter": "vorher und in den letzten 3 Spielen",
