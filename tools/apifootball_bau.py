@@ -472,22 +472,15 @@ def meld(sid, tags, head, kurz, text, kb, typ):
     return {"id": f"af-{typ}-{sid}-{MDL}", "pid": sid, "zeit": STAND, "spielerin": s["n"], "verein": s["verein"], "nr": s.get("nr"), "pos": s.get("pos"),
             "tags": tags, "headline": head, "kurz": kurz, "text": text, "kickbase": kb, "quellen": QAF, "af": True}
 news = []
-for f in tief[:2] + [x for x in tief[2:] if x.get("ns") == "schwer"][:1]:
-    nach = f["n"].split()[-1]; pr = PSW.get(f["prog"] or "", "offen")
-    schwer = f.get("ns") == "schwer"
-    geg = ", ".join(VN(k) for k in f.get("geg") or [])
-    news.append(meld(f["id"], ["FORMTIEF", "INSIDER"], f"{nach} im Formtief, {'jetzt warten schwere Gegner' if schwer else 'Noten zuletzt deutlich schwächer'}", f"{nach} im Formtief: Ø {dz(f['l3'])} statt {dz(f['vorher'])}",
-        [f"{f['n']} ({VN(f['k'])}) kommt in den letzten drei Spielen ab 60 Minuten auf eine Durchschnittsnote von {dz(f['l3'])}, davor waren es {dz(f['vorher'])}. Die Noten berechnet API-Football aus den Spielwerten, es sind keine Kickbase-Punkte.",
-         prog_satz(f),
-         f"Die Gegner zuletzt: {geg} (im Schnitt Tabellenplatz {round(f['gr'])}, {'eher stark' if f.get('gs') == 'stark' else 'eher schwach' if f.get('gs') == 'schwach' else 'gemischt'}). {f.get('last', 0)} Einsätze in 14 Tagen inklusive Pokal und Europapokal." if geg else ""],
-        f"Minuten der letzten 3 Ligaspiele: {' · '.join(str(m) + chr(39) for m in f['min3'])}. Prognose fürs nächste Spiel: {pr}.", "formtief"))
-for f in hoch[:2]:
-    nach = f["n"].split()[-1]; pr = PSW.get(f["prog"] or "", "offen"); leicht = f.get("ns") == "leicht"
-    news.append(meld(f["id"], ["FORMHOCH", "INSIDER"], f"{nach} im Formhoch{', dazu ein leichtes Programm' if leicht else ': Noten zuletzt deutlich besser'}", f"{nach} im Formhoch: Ø {dz(f['l3'])} statt {dz(f['vorher'])}",
-        [f"{f['n']} ({VN(f['k'])}) steigert sich: Durchschnittsnote {dz(f['l3'])} in den letzten drei Spielen ab 60 Minuten, davor {dz(f['vorher'])}.",
-         prog_satz(f),
-         f"Dabei kamen {f.get('tv', 0)} Scorerpunkte heraus. Die Gegner standen im Schnitt auf Platz {round(f['gr'])}." if f.get("gr") else ""],
-        f"Minuten der letzten 3 Ligaspiele: {' · '.join(str(m) + chr(39) for m in f['min3'])}. Prognose fürs nächste Spiel: {pr}.", "formhoch"))
+# Formtief/Formhoch als Frage mit Einordnung und Formvergleich (Finn 04.11.2026), Logik in tools/af_formnews.py
+exec(open(os.path.join(ROOT, "tools", "af_formnews.py"), encoding="utf-8").read())
+for liste, tief_ in ((tief, True), (hoch, False)):
+    n_ok = 0
+    for f in liste:
+        if n_ok >= 2: break
+        m = formmeldung(f, tief_)
+        if m: news.append(m); n_ok += 1
+        else: print("keine Einzelmeldung (Team genauso):", f["n"])
 for f in [x for x in lauf if x["id"] not in {h["id"] for h in hoch[:2]}][:2]:
     nach = f["n"].split()[-1]; pr = PSW.get(f["prog"] or "", "offen")
     news.append(meld(f["id"], ["AUFWIND", "INSIDER"], f"{nach} in starker Form, die nächsten Gegner stehen unten", f"{nach}: Form gut, Gegner leicht",
@@ -602,6 +595,12 @@ if stdt:
             "kickbase": "Abwehrspielerinnen mit vielen Kopfbällen nach Standards sammeln Torchancen, die im Kader oft unterschätzt werden.",
             "quellen": [{"name": "Sportschau-Liveticker", "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/"}], "af": True})
 news = [n for n in news if n]
+# Von Hand überarbeitete Meldungen (tools/af_text.json: ID -> Felder), z. B. tiefere Analyse mit eigener Grafik
+try: OVR = lade(os.path.join(ROOT, "tools", "af_text.json"))
+except FileNotFoundError: OVR = {}
+for n in news:
+    o = OVR.get(n["id"])
+    if o: n.update({k: v for k, v in o.items() if not k.startswith("_")})
 for n in news: n["text"] = [t for t in n.get("text", []) if t]
 
 # Ereignis-Meldungen nur, solange der Spieltag frisch ist (bis 3 Tage nach dem letzten Spiel)

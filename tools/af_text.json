@@ -1,0 +1,20 @@
+{
+ "_hinweis": "Von Hand überarbeitete AF-Meldungen (ID -> Felder). apifootball_bau.py übernimmt die Felder nach dem Bau. Felder mit _ werden ignoriert.",
+ "af-formtief-00278-8": {
+  "_stand": "04.11.2026, überarbeitet nach Finns Feedback (Frage statt Behauptung, Team-Kontext, keine Noten im Text)",
+  "headline": "Kommt Bathmann aus dem Formtief?",
+  "kurz": "Kommt Bathmann aus dem Formtief?",
+  "text": [
+   "Mainz wartet nach acht Spieltagen noch auf den ersten Punkt, das Torverhältnis ist 4:27. Die letzten drei Spiele gegen Leipzig (0:5), Wolfsburg (0:5) und Hoffenheim (1:3) gingen deutlich verloren.",
+   "Im Mittelfeld ließen dabei auch Fetaj und Berg nach, Jackson, Imai und Takizawa hielten ungefähr ihr Niveau. Bei Kara Bathmann ist der Knick am deutlichsten: In ihren ersten Spielen lag sie über dem Mainzer Schnitt, in den letzten drei darunter.",
+   "Gegen Hoffenheim gab es erste Lichtblicke: 7 abgefangene Bälle, so viele wie keine andere Mainzerin, und 54 Pässe, nur Georgieva spielte mehr.",
+   "Jetzt wird das Programm leichter: zu Hause gegen Stuttgart (11.), auswärts beim HSV (12.) und zu Hause gegen Nürnberg (13.). Stuttgart traf in den letzten vier Ligaspielen nur einmal, Nürnberg kassierte 23 Gegentore, mehr hat nur Mainz selbst.",
+   "Die Form lesen wir aus den Noten von API-Football (Einsätze ab 60 Minuten). Sie zeigen eine Tendenz, Kickbase rechnet seine Punkte anders. Ein leichtes Programm ist für Mainz aber keine Garantie: Auch gegen Werder (1:2) und Frankfurt (2:3) gab es keine Punkte."
+  ],
+  "kickbase": "Gesetzt: Sie stand in allen fünf letzten Ligaspielen in der Startelf, zuletzt 90' · 81' · 90'.",
+  "quellen": [
+   {"name": "API-Football (Noten, Pässe, abgefangene Bälle)", "url": "https://www.api-football.com"},
+   {"name": "Sportschau (Minuten, Ergebnisse)", "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/"}
+  ]
+ }
+}
