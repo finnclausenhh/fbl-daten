@@ -69,7 +69,7 @@
   "nr": "32",
   "position": "MF",
   "ersetzt": "fotos/lina-hausicke.jpg",
-  "cx": 0.574
+  "cx": 0.5
  },
  "Vanessa Fischer": {
   "datei": "fotos/svw-vanessa-fischer.webp",
@@ -837,7 +837,7 @@
   "nr": "11",
   "position": "ST",
   "ersetzt": "fotos/dina-orschmann.jpg",
-  "cx": 0.513
+  "cx": 0.5
  },
  "Sophie Weidauer": {
   "datei": "fotos/fcu-sophie-weidauer.webp",
@@ -855,7 +855,7 @@
   "nr": "9",
   "position": "ST",
   "ersetzt": "fotos/sophie-weidauer.jpg",
-  "cx": 0.501
+  "cx": 0.5
  },
  "Lou-Ann Joly": {
   "datei": "fotos/rbl-lou-ann-joly.webp",
@@ -1244,7 +1244,7 @@
   "nr": "26",
   "position": "ABW",
   "ersetzt": "fotos/amber-tysiak.jpg",
-  "cx": 0.604
+  "cx": 0.5
  },
  "Isabella Jaron": {
   "datei": "fotos/svw-isabella-jaron.webp",
@@ -1655,7 +1655,7 @@
   "nr": "17",
   "position": "ABW",
   "ersetzt": "fotos/judith-steinert.jpg",
-  "cx": 0.495
+  "cx": 0.5
  },
  "Pia-Sophie Wolter": {
   "datei": "fotos/sge-pia-sophie-wolter.webp",
@@ -1691,7 +1691,7 @@
   "nr": "31",
   "position": "MF",
   "ersetzt": "fotos/tanja-pawollek.jpg",
-  "cx": 0.505
+  "cx": 0.5
  },
  "Stina Johannes": {
   "datei": "fotos/wob-stina-johannes.webp",
@@ -1758,7 +1758,7 @@
   "nr": "1",
   "position": "TW",
   "ersetzt": "fotos/cara-bosl.jpg",
-  "cx": 0.503
+  "cx": 0.5
  },
  "Elvira Herzog": {
   "datei": "fotos/rbl-elvira-herzog.webp",
@@ -2056,7 +2056,7 @@
   "nr": "7",
   "position": "MF",
   "ersetzt": "fotos/lisa-heiseler.jpg",
-  "cx": 0.526
+  "cx": 0.5
  },
  "Nadine Böhi": {
   "datei": "fotos/fcu-nadine-bohi.webp",
@@ -2074,7 +2074,7 @@
   "nr": "28",
   "position": "TW",
   "ersetzt": "fotos/nadine-bohi.jpg",
-  "cx": 0.529
+  "cx": 0.5
  },
  "Julia Magerl": {
   "datei": "fotos/svw-julia-magerl.webp",
@@ -2145,7 +2145,7 @@
   "nr": "6",
   "position": "MF",
   "ersetzt": "fotos/lisanne-grawe.jpg",
-  "cx": 0.51
+  "cx": 0.5
  },
  "Vanessa Diehm": {
   "datei": "fotos/tsg-vanessa-diehm.webp",
@@ -2237,7 +2237,7 @@
   "nr": "10",
   "position": "ST",
   "ersetzt": "fotos/eileen-campbell.jpg",
-  "cx": 0.528
+  "cx": 0.5
  },
  "Jill Janssens": {
   "datei": "fotos/fcu-jill-janssens.webp",
@@ -2255,7 +2255,7 @@
   "nr": "77",
   "position": "ABW",
   "ersetzt": "fotos/jill-janssens.jpg",
-  "cx": 0.529
+  "cx": 0.5
  },
  "Jamilla Rankin": {
   "datei": "fotos/sge-jamilla-rankin.webp",
@@ -2401,7 +2401,7 @@
   "nr": "21",
   "position": "ABW",
   "ersetzt": "fotos/anna-weiss.jpg",
-  "cx": 0.48
+  "cx": 0.5
  },
  "Carolin Simon": {
   "datei": "fotos/b04-carolin-simon.webp",
@@ -4953,7 +4953,7 @@
   "verein": "1. FC Union Berlin",
   "nr": "4",
   "position": "ABW",
-  "cx": 0.464
+  "cx": 0.5
  },
  "Hannah Eurlings": {
   "datei": "fotos/fcu-hannah-eurlings.webp",
@@ -4970,7 +4970,7 @@
   "verein": "1. FC Union Berlin",
   "nr": "14",
   "position": "ST",
-  "cx": 0.532
+  "cx": 0.5
  },
  "Ida Heikkinen": {
   "datei": "fotos/fcu-ida-heikkinen.webp",
@@ -4987,7 +4987,7 @@
   "verein": "1. FC Union Berlin",
   "nr": "25",
   "position": "ABW",
-  "cx": 0.52
+  "cx": 0.5
  },
  "Jella Veit": {
   "datei": "fotos/fcu-jella-veit.webp",
@@ -5004,7 +5004,7 @@
   "verein": "1. FC Union Berlin",
   "nr": "30",
   "position": "ABW",
-  "cx": 0.52
+  "cx": 0.5
  },
  "Judit Pujols": {
   "datei": "fotos/fcu-judit-pujols.webp",
@@ -5021,7 +5021,7 @@
   "verein": "1. FC Union Berlin",
   "nr": "5",
   "position": "ABW",
-  "cx": 0.558
+  "cx": 0.5
  },
  "Korina Janež": {
   "datei": "fotos/fcu-korina-janez.webp",
@@ -5038,7 +5038,7 @@
   "verein": "1. FC Union Berlin",
   "nr": "8",
   "position": "MF",
-  "cx": 0.502
+  "cx": 0.5
  },
  "Leela Egli": {
   "datei": "fotos/fcu-leela-egli.webp",
@@ -5055,7 +5055,7 @@
   "verein": "1. FC Union Berlin",
   "nr": "27",
   "position": "ST",
-  "cx": 0.525
+  "cx": 0.5
  },
  "Leona Seifert": {
   "datei": "fotos/fcu-leona-seifert.webp",
@@ -5072,7 +5072,7 @@
   "verein": "1. FC Union Berlin",
   "nr": "18",
   "position": "MF",
-  "cx": 0.503
+  "cx": 0.5
  },
  "Lia Kamber": {
   "datei": "fotos/fcu-lia-kamber.webp",
@@ -5089,7 +5089,7 @@
   "verein": "1. FC Union Berlin",
   "nr": "41",
   "position": "MF",
-  "cx": 0.551
+  "cx": 0.5
  },
  "Mariann Noack": {
   "datei": "fotos/fcu-mariann-noack.webp",
@@ -5106,7 +5106,7 @@
   "verein": "1. FC Union Berlin",
   "nr": "22",
   "position": "ABW",
-  "cx": 0.539
+  "cx": 0.5
  },
  "Naika Reissner": {
   "datei": "fotos/fcu-naika-reissner.webp",
@@ -5123,7 +5123,7 @@
   "verein": "1. FC Union Berlin",
   "nr": "42",
   "position": "ST",
-  "cx": 0.516
+  "cx": 0.5
  },
  "Nele Bauereisen": {
   "datei": "fotos/fcu-nele-bauereisen.webp",
@@ -5140,7 +5140,7 @@
   "verein": "1. FC Union Berlin",
   "nr": "23",
   "position": "ST",
-  "cx": 0.559
+  "cx": 0.5
  },
  "Nelly Smolarczyk": {
   "datei": "fotos/fcu-nelly-smolarczyk.webp",
@@ -5157,7 +5157,7 @@
   "verein": "1. FC Union Berlin",
   "nr": "12",
   "position": "TW",
-  "cx": 0.523
+  "cx": 0.5
  },
  "Samantha Steuerwald": {
   "datei": "fotos/fcu-samantha-steuerwald.webp",
@@ -5174,7 +5174,7 @@
   "verein": "1. FC Union Berlin",
   "nr": "19",
   "position": "ABW",
-  "cx": 0.504
+  "cx": 0.5
  },
  "Sherly Schulz": {
   "datei": "fotos/fcu-sherly-schulz.webp",
@@ -5208,7 +5208,7 @@
   "verein": "1. FC Union Berlin",
   "nr": "2",
   "position": "ABW",
-  "cx": 0.533
+  "cx": 0.5
  },
  "Alisa Vetterlein": {
   "datei": "fotos/fcu-stab-alisa-vetterlein.webp",
