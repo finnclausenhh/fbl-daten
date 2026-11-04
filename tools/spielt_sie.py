@@ -142,6 +142,40 @@ def runde(sp, spn, um, fotos, jetzt):
             "hinweis": "Fragen festgeschrieben von tools/spielt_sie.py, ändern sich bis zur Wertung nicht.", "fragen": fragen}, "neu"
 
 
+def loesung(sp, spn, um, runde_):
+    """tipp_loesung.json für die Datenbank (supabase/tippspiel.sql): {"md": 9, "loesung": {frage-id: antwort-id}}.
+    Startelf-Fragen und Startelf-Umfragen, sobald die offizielle Aufstellung da ist (wie umfrageAufloesung im Ticker)."""
+    if not runde_ or not runde_.get("fragen"): return None
+    md = runde_["md"]
+    t = next((x for x in sp.get("spieltage", []) if x.get("nr") == md), None)
+    if not t: return None
+    spid = {x["id"]: x for x in spn.get("spielerinnen", [])}
+    umid = {u["id"]: u for u in um}
+    L = {}
+    for q in runde_["fragen"]:
+        p = next((x for x in t["partien"] if x["id"] == q["partie"]), None)
+        if not p: continue
+        seite = "heim" if p["heim_k"] == q["k"] else "gast" if p["gast_k"] == q["k"] else None
+        a = p.get(f"{seite}_aufstellung") if seite else None
+        if not a or a.get("typ") != "offiziell": continue
+        elf = a.get("startelf") or []
+        if q.get("sid"):
+            s = spid.get(q["sid"])
+            if not s: continue
+            drin = any(norm(x.get("voll") or "") == norm(s["n"]) or norm(x.get("n")) == norm(nach(s["n"])) for x in elf)
+            L[q["id"]] = "ja" if drin else "nein"
+        elif q.get("umfrage") and q["umfrage"] in umid:
+            u = umid[q["umfrage"]]; O = u.get("optionen", [])
+            sx = [x for x in elf if not u.get("position") or x.get("p") == u["position"]]
+            tr = [o for o in O if o.get("nachname") and any(o["nachname"] in str(x.get("voll") or x.get("n")) for x in sx)]
+            if len(tr) > 1 and any(o["id"] == "beide" for o in O): L[q["id"]] = "beide"
+            elif tr: L[q["id"]] = tr[0]["id"]
+            else:
+                o = next((o for o in O if o["id"] == "keine"), None) or next((o for o in O if not o.get("nachname")), None)
+                if o: L[q["id"]] = o["id"]
+    return {"md": md, "stand": datetime.now(BERLIN).strftime("%Y-%m-%dT%H:%M"), "loesung": L}
+
+
 def main():
     a = argparse.ArgumentParser(); a.add_argument("--repo", default="."); a.add_argument("--neu", action="store_true"); a = a.parse_args()
     R = Path(a.repo)
@@ -151,6 +185,13 @@ def main():
     fotos = lade("fotos.json", {})
     alt = lade("spielt_sie.json", {}) or {}
     jetzt = datetime.now(BERLIN).replace(tzinfo=None, second=0, microsecond=0)
+    # Auflösung für die Datenbank (tipp_loesung.json), auch für die zuletzt festgeschriebene Runde
+    lo = loesung(sp, spn, um, alt)
+    if lo is not None:
+        vorher = lade("tipp_loesung.json", {}) or {}
+        if vorher.get("md") != lo["md"] or vorher.get("loesung") != lo["loesung"]:
+            json.dump(lo, open(R / "tipp_loesung.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+            print(f"Auflösung Runde {lo['md']}: {len(lo['loesung'])} von {len(alt['fragen'])} Fragen")
     if not a.neu and alt.get("md") == sp.get("aktuell") and alt.get("fragen"):
         print(f"Runde {alt['md']} steht schon ({len(alt['fragen'])} Fragen), bleibt unverändert"); return
     r, grund = runde(sp, spn, um, fotos, jetzt)
