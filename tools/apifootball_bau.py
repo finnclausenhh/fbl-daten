@@ -607,7 +607,9 @@ if stdt:
                     [f"{x['n']} ({VN(x['k'])}): {x['kopf']} {'Kopfball' if x['kopf'] == 1 else 'Kopfbälle'} nach Standard, {x['tore'] or 'kein'} {'Tor' if x['tore'] <= 1 else 'Tore'}{', ' + str(x['cm']) + ' cm' if x['cm'] else ''}." for x in liste] +
                     ["Gezählt nach den Texten im Sportschau-Liveticker, also nur Szenen, die dort beschrieben sind. Größen: soccerdonna und Vereine."],
             "grafik": {"typ": "messlatte", "titel": titel, "sp": sp, "liste": liste, "liste_titel": "Alle mit mindestens 3 Kopfbällen oder einem Tor nach Standard"},
-            "kickbase": "Abwehrspielerinnen mit vielen Kopfbällen nach Standards sammeln Torchancen, die im Kader oft unterschätzt werden.",
+            "kickbase": (f"{top['n']} kommt nach Ecken und Freistößen am häufigsten zum Kopfball"
+                         + (f", {top['tore']} {'davon war ein Tor' if top['tore'] == 1 else 'davon waren Tore'}." if top["tore"] else ".")
+                         + " Wer bei Standards vorne steht, sammelt Torchancen, die im Kader oft unterschätzt werden."),
             "quellen": [{"name": "Sportschau-Liveticker", "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/"}], "af": True})
 try:
     for w in (lade(P("inside.json")).get("swaps") or []):
