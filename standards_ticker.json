@@ -1,0 +1,1095 @@
+{
+"spiele": 56,
+"teams": {
+"FCU": [
+{
+"k": "FCU",
+"n": "Eileen Campbell",
+"kopf": 2,
+"std_kopf": 1,
+"std_tore": 1,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "FCU",
+"n": "Sophie Weidauer",
+"kopf": 3,
+"std_kopf": 2,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "FCU",
+"n": "Amber Tysiak",
+"kopf": 1,
+"std_kopf": 1,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "FCU",
+"n": "Nele Bauereisen",
+"kopf": 4,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "FCU",
+"n": "Dina Orschmann",
+"kopf": 2,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "FCU",
+"n": "Naika Reissner",
+"kopf": 1,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "FCU",
+"n": "Samantha Steuerwald",
+"kopf": 1,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "FCU",
+"n": "Lina Hausicke",
+"kopf": 1,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "FCU",
+"n": "Lia Kamber",
+"kopf": 1,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "FCU",
+"n": "Judit Pujols",
+"kopf": 1,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "FCU",
+"n": "Lisa Heiseler",
+"kopf": 0,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 2
+}
+],
+"FCB": [
+{
+"k": "FCB",
+"n": "Momoko Tanikawa",
+"kopf": 0,
+"std_kopf": 0,
+"std_tore": 1,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "FCB",
+"n": "Vanessa Gilles",
+"kopf": 2,
+"std_kopf": 2,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "FCB",
+"n": "Pernille Harder",
+"kopf": 1,
+"std_kopf": 1,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "FCB",
+"n": "Magdalena Eriksson",
+"kopf": 1,
+"std_kopf": 1,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "FCB",
+"n": "Linda Dallmann",
+"kopf": 1,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "FCB",
+"n": "Edna Imade",
+"kopf": 1,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "FCB",
+"n": "Alara",
+"kopf": 1,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "FCB",
+"n": "Klara Bühl",
+"kopf": 0,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 2,
+"fs_tritt": 6
+}
+],
+"KOE": [
+{
+"k": "KOE",
+"n": "Sophie Nachtigall",
+"kopf": 2,
+"std_kopf": 1,
+"std_tore": 0,
+"ecke_tritt": 1,
+"fs_tritt": 0
+},
+{
+"k": "KOE",
+"n": "Vanessa Leimenstoll",
+"kopf": 1,
+"std_kopf": 1,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "KOE",
+"n": "Sandra Jessen",
+"kopf": 1,
+"std_kopf": 1,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "KOE",
+"n": "Marina Hegering",
+"kopf": 1,
+"std_kopf": 1,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "KOE",
+"n": "Amelie Bohnen",
+"kopf": 1,
+"std_kopf": 1,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "KOE",
+"n": "Beke Sterner",
+"kopf": 1,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "KOE",
+"n": "Carlotta Imping",
+"kopf": 1,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "KOE",
+"n": "Laura Vogt",
+"kopf": 0,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 1
+},
+{
+"k": "KOE",
+"n": "Laura Feiersinger",
+"kopf": 0,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 1,
+"fs_tritt": 0
+},
+{
+"k": "KOE",
+"n": "Anna Gerhardt",
+"kopf": 0,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 1,
+"fs_tritt": 0
+},
+{
+"k": "KOE",
+"n": "Carolin Elsen",
+"kopf": 0,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 1,
+"fs_tritt": 0
+}
+],
+"SGE": [
+{
+"k": "SGE",
+"n": "Marthine Østenstad",
+"kopf": 1,
+"std_kopf": 1,
+"std_tore": 1,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "SGE",
+"n": "Laura Freigang",
+"kopf": 6,
+"std_kopf": 3,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "SGE",
+"n": "Rebecka Blomqvist",
+"kopf": 3,
+"std_kopf": 1,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "SGE",
+"n": "Erëleta Memeti",
+"kopf": 2,
+"std_kopf": 1,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 2
+},
+{
+"k": "SGE",
+"n": "Amanda Ilestedt",
+"kopf": 1,
+"std_kopf": 1,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "SGE",
+"n": "Larissa Mühlhaus",
+"kopf": 2,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "SGE",
+"n": "Sara Doorsoun",
+"kopf": 1,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+}
+],
+"WOB": [
+{
+"k": "WOB",
+"n": "Mara Alber",
+"kopf": 2,
+"std_kopf": 1,
+"std_tore": 1,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "WOB",
+"n": "Svenja Huth",
+"kopf": 4,
+"std_kopf": 2,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "WOB",
+"n": "Ella Peddemors",
+"kopf": 3,
+"std_kopf": 1,
+"std_tore": 0,
+"ecke_tritt": 2,
+"fs_tritt": 0
+},
+{
+"k": "WOB",
+"n": "Cora Zicai",
+"kopf": 2,
+"std_kopf": 1,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "WOB",
+"n": "Camilla Küver",
+"kopf": 2,
+"std_kopf": 1,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "WOB",
+"n": "Lara Prašnikar",
+"kopf": 2,
+"std_kopf": 1,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "WOB",
+"n": "Janina Minge",
+"kopf": 1,
+"std_kopf": 1,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "WOB",
+"n": "Smilla Vallotto",
+"kopf": 1,
+"std_kopf": 1,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "WOB",
+"n": "Lieske Carleer",
+"kopf": 1,
+"std_kopf": 1,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "WOB",
+"n": "Kessya Bussy",
+"kopf": 1,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "WOB",
+"n": "Lena Lattwein",
+"kopf": 1,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+}
+],
+"FCN": [
+{
+"k": "FCN",
+"n": "Lara Meroni",
+"kopf": 0,
+"std_kopf": 0,
+"std_tore": 1,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "FCN",
+"n": "Nastassja Lein",
+"kopf": 1,
+"std_kopf": 1,
+"std_tore": 0,
+"ecke_tritt": 2,
+"fs_tritt": 0
+},
+{
+"k": "FCN",
+"n": "Louna Lapassouse",
+"kopf": 1,
+"std_kopf": 1,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "FCN",
+"n": "Leia Varley",
+"kopf": 1,
+"std_kopf": 1,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "FCN",
+"n": "Alexsandra Lobanova",
+"kopf": 1,
+"std_kopf": 1,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "FCN",
+"n": "Sanja Homann",
+"kopf": 1,
+"std_kopf": 1,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "FCN",
+"n": "Fany Proniez",
+"kopf": 1,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+}
+],
+"VFB": [
+{
+"k": "VFB",
+"n": "Maximiliane Rall",
+"kopf": 2,
+"std_kopf": 2,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "VFB",
+"n": "Janina Hechler",
+"kopf": 1,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "VFB",
+"n": "Chantal Hagel",
+"kopf": 0,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 1,
+"fs_tritt": 0
+}
+],
+"TSG": [
+{
+"k": "TSG",
+"n": "Svenja Fölmli",
+"kopf": 2,
+"std_kopf": 1,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "TSG",
+"n": "Vanessa Diehm",
+"kopf": 1,
+"std_kopf": 1,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "TSG",
+"n": "Marie Steiner",
+"kopf": 1,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 1
+},
+{
+"k": "TSG",
+"n": "Svenja Vöhringer",
+"kopf": 1,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "TSG",
+"n": "Valesca Ampoorter",
+"kopf": 0,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 1
+}
+],
+"B04": [
+{
+"k": "B04",
+"n": "Lilla Turányi",
+"kopf": 4,
+"std_kopf": 4,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "B04",
+"n": "Loreen Bender",
+"kopf": 2,
+"std_kopf": 2,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "B04",
+"n": "Carolin Simon",
+"kopf": 1,
+"std_kopf": 1,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "B04",
+"n": "Estrella Merino",
+"kopf": 1,
+"std_kopf": 1,
+"std_tore": 0,
+"ecke_tritt": 1,
+"fs_tritt": 0
+},
+{
+"k": "B04",
+"n": "Paulina Platner",
+"kopf": 1,
+"std_kopf": 1,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "B04",
+"n": "Valentina Mädl",
+"kopf": 1,
+"std_kopf": 1,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "B04",
+"n": "Marlene Müller",
+"kopf": 1,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "B04",
+"n": "Sofie Zdebel",
+"kopf": 1,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "B04",
+"n": "Lobke Loonen",
+"kopf": 1,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "B04",
+"n": "Paulina Tomasiak",
+"kopf": 1,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "B04",
+"n": "Cornelia Kramer",
+"kopf": 1,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+}
+],
+"RBL": [
+{
+"k": "RBL",
+"n": "Delice Boboy",
+"kopf": 5,
+"std_kopf": 1,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "RBL",
+"n": "Alieke Tuin",
+"kopf": 1,
+"std_kopf": 1,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "RBL",
+"n": "Therese Simonsson",
+"kopf": 1,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "RBL",
+"n": "Nikée van Dijk",
+"kopf": 1,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "RBL",
+"n": "Andrea Norheim",
+"kopf": 1,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "RBL",
+"n": "Jasmien Mathys",
+"kopf": 1,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "RBL",
+"n": "Sára Pusztai",
+"kopf": 1,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "RBL",
+"n": "Annabel Schasching",
+"kopf": 0,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 2,
+"fs_tritt": 0
+}
+],
+"SCF": [
+{
+"k": "SCF",
+"n": "Lisa Karl",
+"kopf": 3,
+"std_kopf": 3,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "SCF",
+"n": "Carina Brunold",
+"kopf": 2,
+"std_kopf": 2,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "SCF",
+"n": "Luca-Emily Birkholz",
+"kopf": 2,
+"std_kopf": 1,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "SCF",
+"n": "Alena Bienz",
+"kopf": 1,
+"std_kopf": 1,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "SCF",
+"n": "Julia Stierli",
+"kopf": 1,
+"std_kopf": 1,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "SCF",
+"n": "Alina Axtmann",
+"kopf": 2,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "SCF",
+"n": "Selina Vobian",
+"kopf": 1,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "SCF",
+"n": "Nicole Ojukwu",
+"kopf": 0,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 1,
+"fs_tritt": 2
+},
+{
+"k": "SCF",
+"n": "Ilayda Acikgöz",
+"kopf": 0,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 2,
+"fs_tritt": 1
+}
+],
+"HSV": [
+{
+"k": "HSV",
+"n": "Nikola Karczewska",
+"kopf": 2,
+"std_kopf": 2,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "HSV",
+"n": "Camilla Linberg",
+"kopf": 2,
+"std_kopf": 2,
+"std_tore": 0,
+"ecke_tritt": 2,
+"fs_tritt": 0
+},
+{
+"k": "HSV",
+"n": "Melanie Brunnthaler",
+"kopf": 3,
+"std_kopf": 1,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "HSV",
+"n": "Annaleen Böhler",
+"kopf": 1,
+"std_kopf": 1,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "HSV",
+"n": "Leïla Peneau",
+"kopf": 1,
+"std_kopf": 1,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "HSV",
+"n": "Nigar Mirzaliyeva",
+"kopf": 1,
+"std_kopf": 1,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "HSV",
+"n": "Magou Doucouré",
+"kopf": 2,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "HSV",
+"n": "Melina Krüger",
+"kopf": 1,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+}
+],
+"M05": [
+{
+"k": "M05",
+"n": "Saskia Matheis",
+"kopf": 1,
+"std_kopf": 1,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "M05",
+"n": "Sabina Jackson",
+"kopf": 1,
+"std_kopf": 1,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "M05",
+"n": "Gentiana Fetaj",
+"kopf": 1,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "M05",
+"n": "Kara Bathmann",
+"kopf": 1,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "M05",
+"n": "Yurina Imai",
+"kopf": 1,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "M05",
+"n": "Vital Kats",
+"kopf": 0,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 1
+},
+{
+"k": "M05",
+"n": "Paula Flach",
+"kopf": 0,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 1,
+"fs_tritt": 0
+},
+{
+"k": "M05",
+"n": "Emma Junold",
+"kopf": 0,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 1
+}
+],
+"SVW": [
+{
+"k": "SVW",
+"n": "Luna Vanzeir",
+"kopf": 4,
+"std_kopf": 3,
+"std_tore": 0,
+"ecke_tritt": 2,
+"fs_tritt": 2
+},
+{
+"k": "SVW",
+"n": "Elena Dhont",
+"kopf": 3,
+"std_kopf": 3,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "SVW",
+"n": "Michelle Ulbrich",
+"kopf": 3,
+"std_kopf": 3,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "SVW",
+"n": "Julia Magerl",
+"kopf": 2,
+"std_kopf": 2,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "SVW",
+"n": "Jenny Hipp",
+"kopf": 1,
+"std_kopf": 1,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "SVW",
+"n": "Tuana Mahmoud",
+"kopf": 1,
+"std_kopf": 1,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "SVW",
+"n": "Sarah Gutmann",
+"kopf": 1,
+"std_kopf": 1,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "SVW",
+"n": "Medina Dešić",
+"kopf": 1,
+"std_kopf": 1,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "SVW",
+"n": "Mei Shimada",
+"kopf": 3,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "SVW",
+"n": "Isabella Jaron",
+"kopf": 1,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+},
+{
+"k": "SVW",
+"n": "Juliane Wirtz",
+"kopf": 1,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0
+}
+]
+}
+}

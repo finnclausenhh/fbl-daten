@@ -40,13 +40,16 @@ jobs:
             git -c user.name="WOSOINSIDER" -c user.email="finnclausenhh@users.noreply.github.com" commit -qm "API-Football: Saison 2026 aktualisiert"
             for i in 1 2 3; do git fetch -q origin apifootball-test && git rebase -q origin/apifootball-test && git push -q origin HEAD:apifootball-test && break; sleep 10; done
           fi
+      - name: Standards aus dem Liveticker
+        continue-on-error: true
+        run: python3 tools/standards_ticker.py --aus standards_ticker.json
       - name: apifootball.json bauen
         run: |
           [ -d /tmp/aft/apifootball ] || git worktree add -q /tmp/aft origin/apifootball-test
           AFDIR=/tmp/aft/apifootball python3 tools/apifootball_bau.py --aus apifootball.json
       - name: Sichern
         run: |
-          git add apifootball.json
+          git add apifootball.json standards_ticker.json
           if git diff --cached --quiet; then echo "keine Änderung"; exit 0; fi
           git -c user.name="WOSOINSIDER" -c user.email="finnclausenhh@users.noreply.github.com" commit -qm "API-Football: apifootball.json"
           for i in 1 2 3; do git fetch -q origin main && git rebase -q origin/main && git push -q origin HEAD:main && exit 0; sleep 10; done

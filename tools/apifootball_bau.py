@@ -442,6 +442,18 @@ def karte(p):
 naechster = SPP.get("aktuell")
 vorschau = [karte(p) for (m, h, g), p in sorted(PARTIE.items()) if m == naechster and p.get("status") != "beendet"]
 
+# ---------------------------------------------------------------- Standards aus dem Sportschau-Liveticker (tools/standards_ticker.py)
+stdt = {}
+try:
+    T = lade(P("standards_ticker.json"))["teams"]
+    for k, L in T.items():
+        def gr(n):
+            f = finde(k, n, None); return (profil.get(f["id"]) or {}).get("gr") if f else None
+        stdt[k] = {"kopf": [[x["n"], x["std_kopf"], x["std_tore"], gr(x["n"])] for x in L if x["std_kopf"] or x["std_tore"]][:3],
+                   "ecke": [[x["n"], x["ecke_tritt"]] for x in sorted(L, key=lambda x: -x["ecke_tritt"]) if x["ecke_tritt"]][:2],
+                   "fs": [[x["n"], x["fs_tritt"]] for x in sorted(L, key=lambda x: -x["fs_tritt"]) if x["fs_tritt"]][:2]}
+except FileNotFoundError: pass
+
 # ---------------------------------------------------------------- News-Kandidaten (Testkopie; später in die News-Läufe)
 MDL = max((v["md"] for v in spiele.values()), default=0)
 jetzt = JETZT_B()
@@ -558,6 +570,16 @@ if xgcheck:
             "kurz": f"xG-Check: {VN(r['k'])} {r['t']} Tore bei {dz(r['xg'])} xG", "text": [f"{VN(r['k'])} erzielte gegen {VN(r['gg'])} {r['t']} Tore bei {dz(r['xg'])} erwarteten Toren (xG)."] +
             [f"{VN(z['k'])}: {z['t']} Tore bei {dz(z['xg'])} xG." for z in x[1:4]],
             "kickbase": "Hohe Effizienz gleicht sich meist aus, ungenutzte Chancen sprechen eher für mehr Tore im nächsten Spiel.", "quellen": QAF, "af": True})
+if stdt:
+    gef = sorted(((k, x) for k, v in stdt.items() for x in v["kopf"]), key=lambda q: -(q[1][1] + 2 * q[1][2]))[:6]
+    if gef:
+        news.append({"id": f"af-standards-md{MDL}", "zeit": None, "verein": VN(gef[0][0]), "tags": ["STANDARD", "INSIDER"], "headline": "Standard-Check: Wer nach Ecken und Freistößen gefährlich wird",
+            "kurz": "Standard-Check: die Kopfball-Abnehmerinnen der Liga",
+            "text": ["Wir haben die Liveticker aller Ligaspiele ausgewertet: Wer kommt nach Ecken und Freistößen zum Kopfball, wer trifft nach Standards?"] +
+                    [f"{x[0]} ({VN(k)}): {x[1]}x Kopfball nach Standard{', ' + str(x[2]) + (' Tor' if x[2] == 1 else ' Tore') + ' nach Standard' if x[2] else ''}{', ' + f'{x[3] / 100:.2f}'.replace('.', ',') + ' m' if x[3] else ''}." for k, x in gef] +
+                    ["Gezählt nach den Texten im Sportschau-Liveticker, also nur Szenen, die dort beschrieben sind."],
+            "kickbase": "Abwehrspielerinnen mit vielen Kopfbällen nach Standards sammeln Torchancen, die im Kader oft unterschätzt werden.",
+            "quellen": [{"name": "Sportschau-Liveticker", "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/"}], "af": True})
 news = [n for n in news if n]
 for n in news: n["text"] = [t for t in n.get("text", []) if t]
 
@@ -582,7 +604,7 @@ for n in news:
 # ---------------------------------------------------------------- schreiben
 out = {"stand": JETZT_B().strftime("%Y-%m-%dT%H:%M"), "saison": SAISON, "md": max((s["md"] for s in spiele.values()), default=0),
        "hinweis": "Noten und Teamwerte: API-Football. Minuten, Startelf, Tore, Vorlagen: Sportschau und eigene Auswertung.",
-       "sp": profil, "spiele": spiele, "form": {"tief": tief, "hoch": hoch, "stabil": stabil, "trifft": trifft[:6], "leer": leer[:6], "lauf": lauf[:6]}, "team": teamform, "news": news, "gelb_pruefen": gelb_pruefen, "sperren_dfb": SPERREN, "xg": xgcheck[:8], "xgmd": xgmds,
+       "sp": profil, "spiele": spiele, "form": {"tief": tief, "hoch": hoch, "stabil": stabil, "trifft": trifft[:6], "leer": leer[:6], "lauf": lauf[:6]}, "team": teamform, "stdt": stdt, "news": news, "gelb_pruefen": gelb_pruefen, "sperren_dfb": SPERREN, "xg": xgcheck[:8], "xgmd": xgmds,
        "ecken": ecken, "elf": elfer, "best": best, "vorschau": vorschau, "ungeklaert": sorted(ungeklaert)}
 os.makedirs(os.path.dirname(os.path.abspath(AUS)), exist_ok=True)
 json.dump(out, open(AUS, "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
