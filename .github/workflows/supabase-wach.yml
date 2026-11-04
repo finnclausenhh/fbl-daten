@@ -11,8 +11,7 @@ jobs:
       - name: Datenbank abfragen
         run: |
           code=$(curl -s -o antwort.json -w '%{http_code}' \
-            -X POST "https://tyhlxkgyfykxjwnqgnoj.supabase.co/rest/v1/rpc/tipp_stand" \
-            -H "apikey: sb_publishable_8OOLyVhf2kPU7h_NfKAypg_FAC8P7h3" \
-            -H "Content-Type: application/json" -d '{}')
+            "https://tyhlxkgyfykxjwnqgnoj.supabase.co/rest/v1/tipp_runde?select=md&limit=1" \
+            -H "apikey: sb_publishable_8OOLyVhf2kPU7h_NfKAypg_FAC8P7h3")
           echo "HTTP $code"; head -c 300 antwort.json; echo
           test "$code" = "200"
