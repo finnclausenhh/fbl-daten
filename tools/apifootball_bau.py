@@ -570,14 +570,35 @@ if xgcheck:
             "kurz": f"xG-Check: {VN(r['k'])} {r['t']} Tore bei {dz(r['xg'])} xG", "text": [f"{VN(r['k'])} erzielte gegen {VN(r['gg'])} {r['t']} Tore bei {dz(r['xg'])} erwarteten Toren (xG)."] +
             [f"{VN(z['k'])}: {z['t']} Tore bei {dz(z['xg'])} xG." for z in x[1:4]],
             "kickbase": "Hohe Effizienz gleicht sich meist aus, ungenutzte Chancen sprechen eher für mehr Tore im nächsten Spiel.", "quellen": QAF, "af": True})
+def nachname(n): return n.split(" ")[-1]
 if stdt:
-    gef = sorted(((k, x) for k, v in stdt.items() for x in v["kopf"]), key=lambda q: -(q[1][1] + 2 * q[1][2]))[:6]
-    if gef:
-        news.append({"id": f"af-standards-md{MDL}", "zeit": None, "verein": VN(gef[0][0]), "tags": ["STANDARD", "INSIDER"], "headline": "Standard-Check: Wer nach Ecken und Freistößen gefährlich wird",
-            "kurz": "Standard-Check: die Kopfball-Abnehmerinnen der Liga",
-            "text": ["Wir haben die Liveticker aller Ligaspiele ausgewertet: Wer kommt nach Ecken und Freistößen zum Kopfball, wer trifft nach Standards?"] +
-                    [f"{x[0]} ({VN(k)}): {x[1]}x Kopfball nach Standard{', ' + str(x[2]) + (' Tor' if x[2] == 1 else ' Tore') + ' nach Standard' if x[2] else ''}{', ' + f'{x[3] / 100:.2f}'.replace('.', ',') + ' m' if x[3] else ''}." for k, x in gef] +
-                    ["Gezählt nach den Texten im Sportschau-Liveticker, also nur Szenen, die dort beschrieben sind."],
+    # Standard-Check mit Messlatte (Finn 04.11.2026). Liste: alle mit mindestens 3 Kopfbällen nach Standard oder einem
+    # Kopfballtor danach. Grafik: höchstens 6, alle Torschützinnen plus die meisten Kopfbälle (Gleichstand: mehr Kopfbälle
+    # insgesamt, dann Größe). Größen aus API-Football, sonst aus groessen.json (Name -> cm, Stammdaten soccerdonna/Vereine).
+    try: GRS = lade(P("groessen.json"))
+    except FileNotFoundError: GRS = {}
+    POSW = {"TW": "Tor", "ABW": "Abwehr", "MF": "Mittelfeld", "ST": "Sturm"}
+    alle = []
+    for k, L in T.items():
+        for x in L:
+            if not (x["std_kopf"] or x["std_tore"]): continue
+            f = finde(k, x["n"], None); pr = (profil.get(f["id"]) or {}) if f else {}
+            alle.append({"n": x["n"], "k": k, "kopf": x["std_kopf"], "tore": x["std_tore"], "_k": x["kopf"],
+                         "cm": pr.get("gr") or GRS.get(x["n"]), "pos": POSW.get((f or {}).get("pos", ""), "")})
+    liste = sorted([x for x in alle if x["kopf"] >= 3 or (x["tore"] and x["kopf"])], key=lambda q: (-q["kopf"], -q["tore"], -q["_k"], -(q["cm"] or 0)))
+    torj = [x for x in liste if x["tore"]][:6]
+    sp = sorted([x for x in liste if not x["tore"]][:6 - len(torj)] + torj, key=lambda q: (-q["kopf"], -q["tore"], -q["_k"]))
+    for x in liste: x.pop("_k", None)
+    if sp:
+        top = sp[0]; ohne = [x for x in torj]
+        titel = (f"{nachname(top['n'])} köpft am häufigsten, die Tore machen andere" if not top["tore"] and torj
+                 else f"{nachname(top['n'])} ist nach Standards am gefährlichsten")
+        news.append({"id": f"af-standards-md{MDL}", "zeit": None, "verein": VN(top["k"]), "tags": ["STANDARD", "INSIDER"], "headline": "Standard-Check: Wer nach Ecken und Freistößen gefährlich wird",
+            "kurz": titel,
+            "text": ["Wir haben die Liveticker aller Ligaspiele ausgewertet: Wer kommt nach Ecken und Freistößen zum Kopfball, wer trifft so?"] +
+                    [f"{x['n']} ({VN(x['k'])}): {x['kopf']} {'Kopfball' if x['kopf'] == 1 else 'Kopfbälle'} nach Standard, {x['tore'] or 'kein'} {'Tor' if x['tore'] <= 1 else 'Tore'}{', ' + str(x['cm']) + ' cm' if x['cm'] else ''}." for x in liste] +
+                    ["Gezählt nach den Texten im Sportschau-Liveticker, also nur Szenen, die dort beschrieben sind. Größen: soccerdonna und Vereine."],
+            "grafik": {"typ": "messlatte", "titel": titel, "sp": sp, "liste": liste, "liste_titel": "Alle mit mindestens 3 Kopfbällen oder einem Tor nach Standard"},
             "kickbase": "Abwehrspielerinnen mit vielen Kopfbällen nach Standards sammeln Torchancen, die im Kader oft unterschätzt werden.",
             "quellen": [{"name": "Sportschau-Liveticker", "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/"}], "af": True})
 news = [n for n in news if n]
