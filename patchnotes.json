@@ -1,6 +1,26 @@
 {
- "stand": "2026-11-04T12:10",
+ "stand": "2026-11-04",
  "eintraege": [
+  {
+   "version": "0.23",
+   "datum": "2026-11-04",
+   "titel": "Tippspiel und Standard-Check",
+   "aenderungen": [
+    "Feed: Neues Tippspiel „Spielt sie?“ mit fünf Fragen zum Spieltag, tippen bis kurz vor dem ersten Anpfiff, Tipps lassen sich bis dahin ändern",
+    "Tippschein: Zu jeder Frage stehen der Grund und unsere Prognose, nach den offiziellen Aufstellungen gibt es 10 Punkte je richtige Antwort",
+    "Tipps bleiben vorerst nur auf dem Gerät, eine Rangliste folgt später",
+    "Spielplan: Ein grünes Auge markiert Spiele, deren Aufstellung vor dem Kickbase-Schluss bekannt wird, im Profil steht es an den nächsten Spielen",
+    "Inside: Neue Prognose-Bilanz zeigt, wie oft unsere Aufstellungen richtig lagen",
+    "Feed: „Gefragt diese Woche“ zeigt zwei Spielerinnen, die gerade viele lesen, täglich wechselnd",
+    "Umfragen stehen immer direkt im Feed und zeigen die Prozente ab der ersten Stimme",
+    "Standard-Check: Neuer Artikel mit Messlatte, wer nach Ecken und Freistößen zum Kopfball kommt und wer trifft, mit Körpergröße und Liste aller Spielerinnen",
+    "Spiele: Vor dem Anpfiff schaltet der Umschalter nur noch mit den Vereinsnamen um, das Wappen steht einmal im Spielkopf",
+    "Spiele: Wer eine Spielerin in der Prognose antippt, sieht eine kleine Analyse mit letzten Spielen, Form, Toren, Standards und Status sowie den Weg zum Profil",
+    "Inside: Formkarten zeigen Nummer und Position, Zahl und Text stehen nebeneinander, die Reihenfolge folgt der Notenveränderung",
+    "Inside: Unter den Ecken pro Spiel stehen die Eckenschützin und die Kopfballspielerinnen nach Standards",
+    "Inside: Steht die Analyse schon in den News, zeigt Inside nur noch einen Hinweis mit Sprung zum Artikel"
+   ]
+  },
   {
    "version": "0.22",
    "datum": "2026-11-04",
