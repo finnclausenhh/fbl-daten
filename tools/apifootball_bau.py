@@ -641,7 +641,9 @@ try:
         news.append({"id": "af-swap-" + w["k"] + "-" + "".join(norm((w.get("art") or "") + " " + (w.get("neu") or ""))), "zeit": None, "verein": VN(w["k"]),
             "tags": ["STANDARD"], "headline": f"Standard-Wechsel bei {VN(w['k'])}: {w['neu']} übernimmt {w.get('art') or 'die Standards'}",
             "kurz": f"{w['neu']} übernimmt {w.get('art') or 'Standards'}", "text": [t for t in [w.get("text"), w.get("check")] if t],
-            "kickbase": w.get("kb") or "", "quellen": [{"name": "WOSOINSIDER Inside", "url": "https://wosoinsider.de/ticker/#inside"}], "af": True})
+            "kickbase": w.get("kb") or "", "quellen": [{"name": "WOSOINSIDER Inside", "url": "https://wosoinsider.de/ticker/#inside"}], "af": True,
+            # Spielfeld-Grafik (Finn 04.11.2026, Route B): die geänderte Position ist markiert, der Feed zeigt die neue Schützin
+            "spielerin": w["neu"], "grafik": {"typ": "stdfeld", "k": w["k"], "art": w.get("art") or "", "alt": w.get("alt") or "", "neu": w["neu"]}})
 except FileNotFoundError: pass
 news = [n for n in news if n]
 # Von Hand überarbeitete Meldungen (tools/af_text.json: ID -> Felder), z. B. tiefere Analyse mit eigener Grafik
