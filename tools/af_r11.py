@@ -12,52 +12,40 @@ LR_NEU = ("const pl = 1 + vals.filter(v => v > w + 1e-9).length, mn = Math.min(.
 WW_NEU = r'''const M = x => (x.spiele || []).reduce((a, e) => a + (e.min || 0), 0), Sx = x => x.stat || {};
       const P = PLURAL[s.pos] || "Spielerinnen", d1 = v => dez(v, 1), pc = v => Math.round(v * 100) + " %";
       // [Wert, Titel, Unterzeile, Rang, Kurzname fürs Netz, Format der Skala, Einheit der Skala]
-      if (st.sch && s.pos !== "TW") ww.push([st.sch, "Torschüsse", `${dez(st.sch / nSp)} pro Spiel`, ligaRang(s, x => Sx(x).sch != null && M(x) ? Sx(x).sch / M(x) * 90 : null), "Schüsse", d1, "pro 90 Min.", dez(st.sch / nSp) + " pro Spiel"]);
-      if (af.kp != null && s.pos !== "TW") ww.push([af.kp, "Schlüsselpässe", `${dez(af.kp90)} pro 90 Minuten`, ligaRang(s, x => (afSp(x.id) || {}).kp90 ?? null), "Schlüsselp.", d1, "pro 90 Min.", dez(af.kp90) + " pro 90"]);
-      if (st.zk_ges) ww.push([`${st.zk_w}/${st.zk_ges}`, "Zweikämpfe gewonnen", `${Math.round(st.zk_w / st.zk_ges * 100)} % · ${dez(st.zk_ges / nSp)} pro Spiel`, ligaRang(s, x => Sx(x).zk_ges >= 10 ? Sx(x).zk_w / Sx(x).zk_ges : null), "Zweikämpfe", pc, "gewonnen", Math.round(st.zk_w / st.zk_ges * 100) + " % gew."]);
-      if (st.p_ges) ww.push([`${st.p_ok}/${st.p_ges}`, "Pässe angekommen", `${Math.round(st.p_ok / st.p_ges * 100)} % · ${dez(st.p_ges / nSp, 0)} pro Spiel`, ligaRang(s, x => Sx(x).p_ges >= 50 ? Sx(x).p_ok / Sx(x).p_ges : null), "Passquote", pc, "angekommen", Math.round(st.p_ok / st.p_ges * 100) + " %"]);
+      if (st.sch && s.pos !== "TW") ww.push([st.sch, "Torschüsse", `${dez(st.sch / nSp)} pro Spiel`, ligaRang(s, x => Sx(x).sch != null && M(x) ? Sx(x).sch / M(x) * 90 : null), "Torschüsse", d1, "pro 90 Min.", dez(st.sch / nSp) + " pro Spiel"]);
+      if (af.kp != null && s.pos !== "TW") ww.push([af.kp, "Schlüsselpässe", `${dez(af.kp90)} pro 90 Minuten`, ligaRang(s, x => (afSp(x.id) || {}).kp90 ?? null), "Schlüsselpässe", d1, "pro 90 Min.", dez(af.kp90) + " pro 90 Min."]);
+      if (st.zk_ges) ww.push([`${st.zk_w}/${st.zk_ges}`, "Zweikämpfe gewonnen", `${st.zk_w} von ${st.zk_ges} · ${Math.round(st.zk_w / st.zk_ges * 100)} %`, ligaRang(s, x => Sx(x).zk_ges >= 10 ? Sx(x).zk_w / Sx(x).zk_ges : null), "Zweikämpfe", pc, "gewonnen", `${st.zk_w} von ${st.zk_ges} · ${Math.round(st.zk_w / st.zk_ges * 100)} %`]);
+      if (st.p_ges) ww.push([`${st.p_ok}/${st.p_ges}`, "Pässe angekommen", `${st.p_ok} von ${st.p_ges} · ${Math.round(st.p_ok / st.p_ges * 100)} %`, ligaRang(s, x => Sx(x).p_ges >= 50 ? Sx(x).p_ok / Sx(x).p_ges : null), "Passquote", pc, "angekommen", `${st.p_ok} von ${st.p_ges} · ${Math.round(st.p_ok / st.p_ges * 100)} %`]);
       if (st.bk) ww.push([dez(st.bk / nSp, 0), "Ballkontakte pro Spiel", `${st.bk} gesamt`, ligaRang(s, x => Sx(x).bk && M(x) ? Sx(x).bk / M(x) * 90 : null), "Ballkontakte", v => dez(v, 0), "pro 90 Min.", dez(st.bk / nSp, 0) + " pro Spiel"]);
-      if (af.drib) ww.push([`${af.drib[0]}/${af.drib[1]}`, "Dribblings erfolgreich", `${Math.round(af.drib[0] / af.drib[1] * 100)} %`, af.drib[1] >= 5 ? ligaRang(s, x => { const d = (afSp(x.id) || {}).drib; return d && d[1] >= 5 ? d[0] / d[1] : null; }) : null, "Dribblings", pc, "erfolgreich", Math.round(af.drib[0] / af.drib[1] * 100) + " % erfolgr."]);
+      if (af.drib) ww.push([`${af.drib[0]}/${af.drib[1]}`, "Dribblings erfolgreich", `${af.drib[0]} von ${af.drib[1]} · ${Math.round(af.drib[0] / af.drib[1] * 100)} %`, af.drib[1] >= 5 ? ligaRang(s, x => { const d = (afSp(x.id) || {}).drib; return d && d[1] >= 5 ? d[0] / d[1] : null; }) : null, "Dribblings", pc, "erfolgreich", `${af.drib[0]} von ${af.drib[1]} · ${Math.round(af.drib[0] / af.drib[1] * 100)} %`]);
       if (af.parsp) ww.push([dez(af.par / af.parsp, 1), "Paraden pro Spiel", `${af.par} in ${af.parsp} Spielen`, ligaRang(s, x => (afSp(x.id) || {}).parsp >= 3 ? afSp(x.id).par / afSp(x.id).parsp : null), "Paraden", d1, "pro Spiel", dez(af.par / af.parsp, 1) + " pro Spiel"]);
-      const gelb = sp.filter(e => e.gelb && !e.gr).length; if (gelb || st.fouls) ww.push([gelb + (gelb >= 4 ? " ⚠" : ""), "Gelbe Karten", gelb >= 4 ? "bei der 5. ein Spiel Sperre" : st.fouls ? st.fouls + (st.fouls === 1 ? " Foul" : " Fouls") + `, ${st.gef || 0}x gefoult worden` : "", null]);
-      const pfarbe = p => p >= 75 ? "#4ADE80" : p >= 40 ? "#8FB0FF" : "#F5C26B";
-      const satz = r => r.p >= 100 ? "Bestwert aller " + P : r.p <= 0 ? "niedrigster Wert aller " + P : r.p >= 50 ? "besser als " + r.p + " % der " + P : "schlechter als " + (100 - r.p) + " % der " + P;
-      const mitR = ww.filter(w => w[3]);
+      const gelb = sp.filter(e => e.gelb && !e.gr).length; if (gelb || st.fouls != null) { const fr = ligaRang(s, x => Sx(x).fouls != null && M(x) ? -Sx(x).fouls / M(x) * 90 : null);
+        ww.push([gelb + (gelb >= 4 ? " ⚠" : ""), gelb === 1 ? "Gelbe Karte" : "Gelbe Karten", gelb >= 4 ? "bei der 5. ein Spiel Sperre" : `${st.fouls || 0} ${st.fouls === 1 ? "Foul" : "Fouls"} · ${st.gef || 0}-mal gefoult`, fr ? Object.assign({}, fr, {fair: 1}) : null]); }
+      const pfarbe = p => p >= 67 ? "#4ADE80" : p >= 34 ? "#F5C26B" : "#FF6B6B";
+      const satz = r => r.fair ? (r.p >= 50 ? "foult seltener als " + r.p + " % der " + P : "foult häufiger als " + (100 - r.p) + " % der " + P) : r.p >= 100 ? "Bestwert aller " + P : r.p <= 0 ? "niedrigster Wert aller " + P : r.p >= 50 ? "besser als " + r.p + " % der " + P : "schlechter als " + (100 - r.p) + " % der " + P;
+      const mitR = ww.filter(w => w[3] && !w[3].fair);
       if (ww.length) {
         // Netz: Perzentile gegen die eigene Position, gestrichelter Ring = Durchschnitt
         let netz = "";
         const nz = mitR.slice(0, 6);
         if (nz.length >= 3) {
-          const C = 150, R = 70, n = nz.length, pt = (i, f) => { const a = -Math.PI / 2 + i * 2 * Math.PI / n; return [C + Math.cos(a) * R * f, 112 + Math.sin(a) * R * f]; };
+          const C = 150, R = 62, n = nz.length, pt = (i, f) => { const a = -Math.PI / 2 + i * 2 * Math.PI / n; return [C + Math.cos(a) * R * f, 112 + Math.sin(a) * R * f]; };
           const ring = f => nz.map((_, i) => pt(i, f).map(v => v.toFixed(1)).join(",")).join(" ");
           const sie = nz.map((w, i) => pt(i, Math.max(.06, w[3].p / 100)).map(v => v.toFixed(1)).join(",")).join(" ");
           const lab = nz.map((w, i) => { const [x, y] = pt(i, 1.22), an = x < C - 8 ? "end" : x > C + 8 ? "start" : "middle";
-            const yy = y - 10;
+            const yy = y - 10 + (y > 150 ? 8 : y < 70 ? -10 : 0);
             return `<text x="${x.toFixed(0)}" y="${yy.toFixed(0)}" text-anchor="${an}" class="nl">${esc(w[4])}</text><text x="${x.toFixed(0)}" y="${(yy + 12).toFixed(0)}" text-anchor="${an}" class="nw">${esc(w[7])}</text><text x="${x.toFixed(0)}" y="${(yy + 24).toFixed(0)}" text-anchor="${an}" class="nv" fill="${pfarbe(w[3].p)}">${w[3].p >= 50 ? "besser als " + w[3].p : "schlechter als " + (100 - w[3].p)} %</text>`; }).join("");
-          netz = `<svg class="ww-netz" viewBox="-10 -14 320 260" role="img" aria-label="Spielerprofil im Vergleich zu allen ${esc(P)}">
+          netz = `<svg class="ww-netz" viewBox="-10 2 320 222" role="img" aria-label="Spielerprofil im Vergleich zu allen ${esc(P)}">
             ${[.25, .75, 1].map(f => `<polygon points="${ring(f)}" fill="none" stroke="rgba(255,255,255,.08)"/>`).join("")}
             <polygon points="${ring(.5)}" fill="none" stroke="rgba(255,255,255,.35)" stroke-dasharray="3 3"/>
             ${nz.map((_, i) => { const [x, y] = pt(i, 1); return `<line x1="${C}" y1="112" x2="${x.toFixed(1)}" y2="${y.toFixed(1)}" stroke="rgba(255,255,255,.06)"/>`; }).join("")}
             <polygon points="${sie}" fill="rgba(143,176,255,.28)" stroke="#8FB0FF" stroke-width="2"/>
             ${lab}</svg><p class="ww-nl"><i class="sie"></i>sie <i class="mw"></i>Ø aller ${esc(P)}</p>`;
         }
-        // Variante A: Liga-Skala mit Spanne, Positions-Schnitt und ihr Punkt
-        const skala = ww.map(w => { const r = w[3];
-          const kopf = `<div class="sk-k"><span>${esc(w[1])}</span><b>${w[0]}${w[2] ? `<em>${esc(w[2])}</em>` : ""}</b></div>`;
-          if (!r) return `<div class="sk">${kopf}</div>`;
-          const sp = r.max - r.min || 1, x = v => Math.max(0, Math.min(100, (v - r.min) / sp * 100));
-          return `<div class="sk">${kopf}<div class="sk-l"><i class="mw" style="left:${x(r.mw)}%"></i><i class="ich" style="left:${x(r.w)}%;background:${pfarbe(r.p)}"></i></div><div class="sk-u"><span>${esc(w[5](r.min))}${w[6] === "pro 90 Min." ? "/90" : ""}</span><small style="color:${pfarbe(r.p)}">${esc(satz(r))}</small><span>${esc(w[5](r.max))}${w[6] === "pro 90 Min." ? "/90" : ""}</span></div></div>`; }).join("");
-        // Variante B: Perzentil-Leisten
-        const leisten = ww.map(w => { const r = w[3];
-          return `<div class="pl"><div class="sk-k"><span>${esc(w[1])}</span><b>${w[0]}${w[2] ? `<em>${esc(w[2])}</em>` : ""}</b></div>${r ? `<div class="pl-l"><i style="left:${r.p}%"></i></div><small style="color:${pfarbe(r.p)}">${esc(satz(r))}</small>` : ""}</div>`; }).join("");
-        // Variante C: Kacheln mit Rang
-        const kacheln = `<div class="af-ww">${ww.map(w => { const r = w[3];
-          return `<div><b>${w[0]}</b><span>${esc(w[1])}</span>${w[2] ? `<span class="su">${esc(w[2])}</span>` : ""}${r ? `<span class="rg" style="color:${pfarbe(r.p)}">Platz ${r.platz} von ${r.n}</span>` : ""}</div>`; }).join("")}</div>`;
-        const knopf = (v, t) => `<button type="button" data-v="${v}" onclick="this.closest('section').dataset.v=this.dataset.v">${t}</button>`;
-        h += `<section class="pf-box ww" data-v="a">${kap("Weitere Werte")}${netz}<div class="ww-sw" role="group" aria-label="Darstellung">${knopf("a", "Liga-Skala")}${knopf("b", "Leisten")}${knopf("c", "Kacheln")}</div>
-          <div class="wv wa">${skala}<p class="af-st">Strich: Ø aller ${esc(P)}, Punkt: sie. Außen der niedrigste und höchste Wert der Liga, /90 = pro 90 Minuten.</p></div>
-          <div class="wv wb">${leisten}</div><div class="wv wc">${kacheln}<p class="af-st">Platz unter allen ${esc(P)} der Liga ab 270 Minuten.</p></div>
-          <p class="af-st">Vergleich mit allen ${esc(P)} der Liga ab 270 Minuten. Schlüsselpässe, Dribblings und Paraden: API-Football, übrige Werte: Spielstatistik der Sportschau.</p></section>`;
+        const kurz = r => r.fair ? (r.p >= 50 ? "foult seltener als " + r.p + " %" : "foult häufiger als " + (100 - r.p) + " %") : r.p >= 100 ? "Bestwert" : r.p <= 0 ? "niedrigster Wert" : r.p >= 50 ? "besser als " + r.p + " %" : "schlechter als " + (100 - r.p) + " %";
+        const kacheln = `<div class="af-ww kw">${ww.map(w => { const r = w[3];
+          return `<div><b>${w[0]}</b><span class="lb">${esc(w[1])}</span>${w[2] ? `<span class="su">${esc(w[2])}</span>` : ""}${r ? `<span class="pl-l"><i style="left:${Math.max(3, Math.min(97, r.p))}%"></i></span><span class="rg" style="color:${pfarbe(r.p)}">Platz ${r.platz} von ${r.n}</span><span class="ps">${esc(kurz(r))}</span>` : ""}</div>`; }).join("")}</div>`;
+        h += `<section class="pf-box">${kap("Weitere Werte")}${netz}${kacheln}<p class="af-st">Platz und Prozent: Vergleich mit allen ${esc(P)} der Liga ab 270 Minuten. Rot, gelb, grün zeigt, wo sie in der Liga steht. Schlüsselpässe, Dribblings und Paraden: API-Football, übrige Werte: Spielstatistik der Sportschau.</p></section>`;
       }
       const alleAF = Object.values((AF && AF.sp) || {}), grL = alleAF.map(x => x.gr).filter(Boolean), alL = alleAF.map(x => x.alter).filter(Boolean);
       const grP = ((SPN && SPN.spielerinnen) || []).filter(x => x.pos === s.pos).map(x => (afSp(x.id) || {}).gr).filter(Boolean);
@@ -65,11 +53,12 @@ WW_NEU = r'''const M = x => (x.spiele || []).reduce((a, e) => a + (e.min || 0), 
       const grPct = af.gr && grL.length ? Math.round(grL.filter(g => g < af.gr).length / grL.length * 100) : null;
       const fu = af.fuss, fl = flagge(s.nation), fuL = alleAF.map(x => x.fuss).filter(Boolean);
       const fuAnt = fu && fuL.length >= 20 ? Math.round(fuL.filter(x => x === fu).length / fuL.length * 100) : null;
-      const FUW = {rechts: "Rechtsfuß", links: "Linksfuß", "beidfüßig": "Beidfüßig"};
-      const seite = (b, an) => `<i class="${an ? "an" : ""}">${an ? '<svg width="11" height="11" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#0B1220"/><path d="M12 6l4 3-1.5 5h-5L8 9z" fill="#8FB0FF"/></svg>' : ""}${b}</i>`;
-      const t1 = `<div class="sb-fu"><span class="lr" aria-hidden="true">${seite("L", fu === "links" || fu === "beidfüßig")}${seite("R", fu === "rechts" || fu === "beidfüßig")}</span><b>${fu ? FUW[fu] || esc(fu) : "–"}</b><span>${fuAnt != null ? (fuAnt >= 50 ? `wie ${fuAnt} % der Liga` : `nur ${fuAnt} % der Liga`) : "Starker Fuß"}</span></div>`;
-      const t2 = `<div><b>${af.alter ? af.alter + " J." : "–"}</b><span>${alL.length ? "Liga-Ø " + Math.round(mw(alL)) : "Alter"}</span></div>`;
-      const t4 = `<div class="na">${fl ? `<span class="fl">${fl}</span>` : ""}<b>${esc(s.nation || "–")}</b><span>Nation</span></div>`;
+      const FUW = {rechts: "Rechts", links: "Links", "beidfüßig": "Beidfüßig"};
+      const fuV = ["rechts", "links", "beidfüßig"].map(f => [f, fuL.length ? fuL.filter(x => x === f).length / fuL.length * 100 : 0]);
+      const fuF = {rechts: "#8FB0FF", links: "#C9A7FF", "beidfüßig": "#4ADE80"};
+      const t1 = `<div class="sb-fu"><span class="kl">Starker Fuß</span><b>${fu ? FUW[fu] || esc(fu) : "unbekannt"}</b>${fuL.length >= 20 ? `<span class="fu-v" aria-hidden="true">${fuV.map(([f, q]) => `<i style="flex:${q.toFixed(1)};background:${f === fu ? fuF[f] : "rgba(255,255,255,.12)"}"></i>`).join("")}</span>` : ""}<span>${fuAnt != null ? `${fuAnt} % der Liga sind ${fu === "beidfüßig" ? "beidfüßig" : fu === "links" ? "Linksfüßerinnen" : "Rechtsfüßerinnen"}` : ""}</span></div>`;
+      const t2 = `<div><span class="kl">Alter</span><b>${af.alter ? af.alter + " Jahre" : "–"}</b><span>${alL.length ? "Liga-Durchschnitt " + Math.round(mw(alL)) + " Jahre" : ""}</span></div>`;
+      const t4 = `<div class="na"><span class="kl">Nationalität</span><b>${fl ? `<span class="fl">${fl}</span>` : ""}${esc(s.nation || "–")}</b></div>`;
       // Größe: Messlatte 1,40 bis 1,90 m, zwei Silhouetten im gleichen Maßstab, Hilfslinien zur Latte
       let t3 = "";
       if (af.gr && grLm) {
@@ -97,7 +86,7 @@ CSS_NEU = r'''
 .ww-netz .nl{font:600 10.5px var(--f-body,inherit);fill:var(--ink,#E8EEFF)}
 .ww-netz .nw{font:700 11px var(--f-body,inherit);fill:var(--ink)}
 .ww-netz .nv{font:600 9.5px var(--f-body,inherit)}
-.ww-nl{font-size:10.5px;color:var(--muted);text-align:center;margin:-2px 0 2px}
+.ww-nl{font-size:10.5px;color:var(--muted);text-align:center;margin:0 0 4px}
 .ww-nl i{display:inline-block;width:10px;height:10px;border-radius:3px;vertical-align:-1px;margin:0 4px 0 8px}
 .ww-nl i.sie{background:rgba(143,176,255,.5);border:1.5px solid #8FB0FF;box-sizing:border-box}
 .ww-nl i.mw{border:1.5px dashed rgba(255,255,255,.5);box-sizing:border-box}
@@ -121,9 +110,9 @@ CSS_NEU = r'''
 .pl-l i{position:absolute;top:-4px;width:4px;height:16px;border-radius:2px;background:#fff;transform:translateX(-50%);box-shadow:0 0 0 2px var(--soft)}
 .pl small{font-size:11px;font-weight:600}
 .af-ww .rg{font:700 10.5px var(--f-mono);margin-top:3px}
-.sb3{display:grid;grid-template-columns:1.2fr .8fr 1.15fr;gap:6px}
+.sb3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}
 .sb3 > div{background:var(--soft);border-radius:10px;padding:9px 8px;display:grid;gap:2px;align-content:start;min-width:0}
-.sb3 b{font-size:15px;font-weight:700;line-height:1.2;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.sb3 b{font-size:15px;font-weight:700;line-height:1.2}
 .sb3 .na b{font-size:13.5px;white-space:normal;overflow-wrap:anywhere;hyphens:auto}
 .sb3 .na .fl{font-size:18px;line-height:20px;margin:0 0 2px}
 .sb3 span{font-size:10.5px;color:var(--muted);line-height:1.3}
@@ -149,6 +138,21 @@ CSS_NEU = r'''
 .kd-b i{display:block;height:100%;border-radius:3px}
 .kd-e small{font:600 9.5px var(--f-mono);color:var(--muted);white-space:nowrap}
 .kd-e .pf-st{font-size:9px;padding:1px 4px}
+
+.kw > div{gap:2px;align-content:start}
+.kw .lb{font-size:11.5px;color:var(--ink);font-weight:600}
+.kw .su{font-size:11px;color:var(--muted)}
+.kw .pl-l{display:block;margin:7px 2px 3px;height:6px}
+.kw .pl-l i{top:-4px;height:14px;width:4px}
+.kw .rg{font:700 10.5px var(--f-mono)}
+.kw .ps{font-size:10.5px;color:var(--muted)}
+.pl-l{background:linear-gradient(90deg,#FF6B6B,#F5C26B 50%,#4ADE80)!important}
+.sb3 > div{gap:3px}
+.sb3 .kl{font:700 9.5px var(--f-mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.sb3 .fu-v{display:flex;gap:2px;height:6px;border-radius:3px;overflow:hidden;margin:3px 0 2px}
+.sb3 .fu-v i{display:block;height:100%}
+.sb3 .na b{display:grid;gap:2px;hyphens:none;overflow-wrap:normal;font-size:14px}
+.sb3 .na .fl{font-size:20px;line-height:22px;margin:0}
 '''
 
 KD_ALT = 'const zeile = s => { const st = stArt(s.status); return `<button class="pf-tr" data-profil="${esc(s.id)}">${pfFoto(s, 44, 44, 8)}<span class="pf-tx"><b>${esc(s.n)}</b><small>${s.nr ? "Nr. " + esc(s.nr) : ""}</small></span>${st !== "fit" ? `<i class="pf-st" style="color:${STFARBE[st]};border-color:${STFARBE[st]}">${STWORT[st] || esc(st)}</i>` : ""}</button>`; };'
