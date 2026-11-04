@@ -1,6 +1,6 @@
 {
  "modus": "live",
- "stand": "2026-11-03T07:38",
+ "stand": "2026-11-04T19:50",
  "hinweis": "Letzte veröffentlichte Prognose vor Anpfiff gegen offizielle Startelf. Quelle: Git-Historie von spielplan.json.",
  "gesamt": {
   "teams": 2,
@@ -24,6 +24,96 @@
     "n": 9,
     "begonnen": 2,
     "quote": 0.222
+   },
+   "unwahrscheinlich": {
+    "n": 9,
+    "begonnen": 0,
+    "quote": 0.0
+   },
+   "ausgeschlossen": {
+    "n": 7,
+    "begonnen": 0,
+    "quote": 0.0
+   }
+  },
+  "kalibrierung": [
+   {
+    "ab_einsatzwert": 1.0,
+    "n": 10,
+    "begonnen": 10,
+    "quote": 1.0
+   },
+   {
+    "ab_einsatzwert": 0.95,
+    "n": 12,
+    "begonnen": 12,
+    "quote": 1.0
+   },
+   {
+    "ab_einsatzwert": 0.9,
+    "n": 13,
+    "begonnen": 12,
+    "quote": 0.923
+   },
+   {
+    "ab_einsatzwert": 0.85,
+    "n": 14,
+    "begonnen": 13,
+    "quote": 0.929
+   },
+   {
+    "ab_einsatzwert": 0.8,
+    "n": 16,
+    "begonnen": 15,
+    "quote": 0.938
+   },
+   {
+    "ab_einsatzwert": 0.7,
+    "n": 20,
+    "begonnen": 17,
+    "quote": 0.85
+   },
+   {
+    "ab_einsatzwert": 0.55,
+    "n": 25,
+    "begonnen": 21,
+    "quote": 0.84
+   },
+   {
+    "ab_einsatzwert": 0.3,
+    "n": 31,
+    "begonnen": 22,
+    "quote": 0.71
+   }
+  ],
+  "sicher_daneben_grund": {
+   "bank": 0,
+   "nicht im Kader": 0
+  },
+  "sicher_aber_nicht_begonnen": []
+ },
+ "gesamt_24h": {
+  "teams": 2,
+  "elf_treffer_schnitt": 10.0,
+  "elf_quote": 0.909,
+  "elf_verteilung": {
+   "10": 2
+  },
+  "je_stufe": {
+   "sicher": {
+    "n": 6,
+    "begonnen": 6,
+    "quote": 1.0
+   },
+   "erwartet": {
+    "n": 19,
+    "begonnen": 15,
+    "quote": 0.789
+   },
+   "unsicher": {
+    "n": 6,
+    "begonnen": 1,
+    "quote": 0.167
    },
    "unwahrscheinlich": {
     "n": 9,
