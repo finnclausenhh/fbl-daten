@@ -33,7 +33,7 @@ def _formwerte(sid):
     if len(voll) < 4: return None
     l3 = voll[-3:]; vor = voll[:-3]
     if len(vor) < 1: return None
-    return round(sum(n[1] for n in vor) / len(vor), 2), round(sum(n[1] for n in l3) / 3, 2)
+    return round(sum(n[1] for n in vor) / len(vor), 2), round(sum(n[1] for n in l3) / 3, 2), max(n[1] for n in voll), min(n[1] for n in voll)
 
 def _gruppe(f):
     teil = TEIL.get(f.get("pos"))
@@ -43,7 +43,7 @@ def _gruppe(f):
         if s["k"] != f["k"] or TEIL.get(s.get("pos")) != teil: continue
         w = _formwerte(s["id"])
         if not w: continue
-        L.append({"id": s["id"], "n": s["n"], "k": s["k"], "pos": s.get("pos"), "vorher": w[0], "l3": w[1], "d": round(w[1] - w[0], 2), "hervor": s["id"] == f["id"]})
+        L.append({"id": s["id"], "n": s["n"], "k": s["k"], "pos": s.get("pos"), "vorher": w[0], "l3": w[1], "top": w[2], "flop": w[3], "d": round(w[1] - w[0], 2), "hervor": s["id"] == f["id"]})
     L.sort(key=lambda x: (not x["hervor"], x["d"] if f["diff"] < 0 else -x["d"]))
     return teil, L
 
@@ -102,6 +102,6 @@ def formmeldung(f, tief_):
              f"Minuten der letzten 3 Ligaspiele: {' · '.join(str(x) + chr(39) for x in f['min3'])}. Prognose fürs nächste Spiel: {pr}.", "formtief" if tief_ else "formhoch")
     if len(grp) >= 2:
         m["grafik"] = {"typ": "formvergleich", "titel": f"{tw} von {KNK_N(f['k'])}", "unter": "vorher und in den letzten 3 Spielen",
-                       "sp": [{k: x[k] for k in ("n", "k", "pos", "vorher", "l3", "hervor")} for x in grp][:6],
-                       "hinweis": "Tendenz aus den Noten von API-Football, Einsätze ab 60 Minuten. Keine Kickbase-Punkte."}
+                       "sp": [{k: x[k] for k in ("n", "k", "pos", "vorher", "l3", "top", "flop", "hervor")} for x in grp][:6],
+                       "hinweis": "Tendenz aus den Noten von API-Football, Einsätze ab 60 Minuten. Rechts beste und schwächste Saisonnote. Keine Kickbase-Punkte."}
     return m
