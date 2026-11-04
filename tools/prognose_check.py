@@ -19,7 +19,7 @@ Zwei Modi:
 Die letzte Ausgabezeile ist immer eine JSON-Zusammenfassung.
 """
 import argparse, json, re, subprocess, sys, unicodedata
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -143,28 +143,34 @@ def live(a):
             off = p.get(f"{seite}_aufstellung") or {}
             if off.get("typ") != "offiziell":
                 continue
-            prog, prog_zeit, ew = None, None, False
-            for h, t in commits:  # neueste zuerst: erste passende Version vor Anpfiff
-                if t >= anstoss:
-                    continue
-                v = version(h)
-                if not v:
-                    continue
-                alt = next((x for x in partien(v) if x.get("id") == p["id"]), None)
-                kand = (alt or {}).get(f"{seite}_aufstellung") or {}
-                if kand.get("typ") == "prognose" and not kand.get("datenluecke"):
-                    prog, prog_zeit = kand, t
-                    ew = seite in ((alt or {}).get("belastung") or {})
-                    break
+            def suche(grenze):
+                for h, t in commits:  # neueste zuerst: erste passende Version vor der Grenze
+                    if t >= grenze:
+                        continue
+                    v = version(h)
+                    if not v:
+                        continue
+                    alt = next((x for x in partien(v) if x.get("id") == p["id"]), None)
+                    kand = (alt or {}).get(f"{seite}_aufstellung") or {}
+                    if kand.get("typ") == "prognose" and not kand.get("datenluecke"):
+                        return kand, t, seite in ((alt or {}).get("belastung") or {})
+                return None, None, False
+            prog, prog_zeit, ew = suche(anstoss)
             if not prog:
                 fehlend.append({"md": p["md"], "verein": p[seite]})
                 continue
+            # Zweite Quote (Finn 04.11.2026): Stand 24 Stunden vor Anpfiff, damit späte Korrekturen die Quote nicht schönen.
+            # Zählt nur, wenn es schon damals eine gespiegelte Prognose gab.
+            p24, z24, _ = suche(anstoss - timedelta(hours=24)) if anstoss - timedelta(hours=24) > beginn else (None, None, False)
             ergebnisse.append({"md": p["md"], "verein": p[seite], "gegner": p[gegner], "anstoss": p["anstoss"],
                                "prognose_stand": prog_zeit.isoformat(), "englische_woche": ew,
-                               "vergleich": vergleiche(prog, off["startelf"], off.get("bank", []))})
+                               "vergleich": vergleiche(prog, off["startelf"], off.get("bank", [])),
+                               "stand_24h": z24.isoformat() if z24 else None,
+                               "vergleich_24h": vergleiche(p24, off["startelf"], off.get("bank", [])) if p24 else None})
     out = {"modus": "live", "stand": datetime.now().astimezone().strftime("%Y-%m-%dT%H:%M"),
            "hinweis": "Letzte veröffentlichte Prognose vor Anpfiff gegen offizielle Startelf. Quelle: Git-Historie von spielplan.json.",
            "gesamt": zusammenfassen(ergebnisse),
+           "gesamt_24h": zusammenfassen([{**e, "vergleich": e["vergleich_24h"]} for e in ergebnisse if e.get("vergleich_24h")]),
            "englische_woche": zusammenfassen([e for e in ergebnisse if e["englische_woche"]]),
            "normale_woche": zusammenfassen([e for e in ergebnisse if not e["englische_woche"]]),
            "je_spieltag": {str(md): zusammenfassen([e for e in ergebnisse if e["md"] == md])

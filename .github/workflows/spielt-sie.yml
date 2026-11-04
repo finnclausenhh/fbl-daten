@@ -1,0 +1,34 @@
+name: Tippspiel Fragen
+
+# Alle 2 Stunden: legt die Fragen von "Spielt sie?" für den aktuellen Spieltag einmal fest (tools/spielt_sie.py).
+# Steht die Runde schon, ändert sich nichts. Kein Claude-Lauf, keine Kosten.
+on:
+  schedule:
+    - cron: "17 */2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daten-schreiben
+  cancel-in-progress: false
+
+jobs:
+  festschreiben:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Fragen festschreiben
+        run: python3 tools/spielt_sie.py --repo .
+      - name: Speichern
+        run: |
+          git add spielt_sie.json 2>/dev/null || true
+          if git diff --cached --quiet; then echo "keine Änderung"; exit 0; fi
+          git -c user.name="WOSOINSIDER" -c user.email="finnclausenhh@users.noreply.github.com" commit -qm "Tippspiel: Fragen festgeschrieben"
+          for i in 1 2 3; do git pull -q --rebase origin main && git push -q origin HEAD:main && exit 0; sleep 10; done
+          exit 1
