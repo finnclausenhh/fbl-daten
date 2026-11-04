@@ -1,8 +1,8 @@
 {
  "Jovana Damnjanović": {
   "datei": "fotos/fcb-jovana-damnjanovic.webp",
-  "autor": "FC Bayern",
-  "lizenz": "mit Genehmigung: FC Bayern München",
+  "autor": "WOSOINSIDER",
+  "lizenz": "Platzhalter (kein Vereinsfoto)",
   "lizenz_url": null,
   "quelle": "https://fcbayern.com/frauen/de/teams/1.-mannschaft",
   "breite": 400,
@@ -15,7 +15,8 @@
   "nr": "9",
   "position": "ST",
   "ersetzt": "fotos/jovana-damnjanovic.jpg",
-  "cx": 0.543
+  "cx": 0.5,
+  "platzhalter": true
  },
  "Thea Bjelde": {
   "datei": "fotos/wob-thea-bjelde.webp",
@@ -89,8 +90,8 @@
  },
  "Franziska Kett": {
   "datei": "fotos/fcb-franziska-kett.webp",
-  "autor": "FC Bayern",
-  "lizenz": "mit Genehmigung: FC Bayern München",
+  "autor": "WOSOINSIDER",
+  "lizenz": "Platzhalter (kein Vereinsfoto)",
   "lizenz_url": null,
   "quelle": "https://fcbayern.com/frauen/de/teams/1.-mannschaft",
   "breite": 400,
@@ -103,7 +104,8 @@
   "nr": "20",
   "position": "ABW",
   "ersetzt": "fotos/franziska-kett.jpg",
-  "cx": 0.503
+  "cx": 0.5,
+  "platzhalter": true
  },
  "Magou Doucouré": {
   "datei": "fotos/hsv-02-doucoure.webp",
@@ -210,8 +212,8 @@
  },
  "Linda Dallmann": {
   "datei": "fotos/fcb-linda-dallmann.webp",
-  "autor": "FC Bayern",
-  "lizenz": "mit Genehmigung: FC Bayern München",
+  "autor": "WOSOINSIDER",
+  "lizenz": "Platzhalter (kein Vereinsfoto)",
   "lizenz_url": null,
   "quelle": "https://fcbayern.com/frauen/de/teams/1.-mannschaft",
   "breite": 400,
@@ -224,7 +226,8 @@
   "nr": "10",
   "position": "MF",
   "ersetzt": "fotos/linda-dallmann.jpg",
-  "cx": 0.492
+  "cx": 0.5,
+  "platzhalter": true
  },
  "Reena Wichmann": {
   "datei": "fotos/vfb-reena-wichmann.webp",
@@ -349,8 +352,8 @@
  },
  "Giulia Gwinn": {
   "datei": "fotos/fcb-giulia-gwinn.webp",
-  "autor": "FC Bayern",
-  "lizenz": "mit Genehmigung: FC Bayern München",
+  "autor": "WOSOINSIDER",
+  "lizenz": "Platzhalter (kein Vereinsfoto)",
   "lizenz_url": null,
   "quelle": "https://fcbayern.com/frauen/de/teams/1.-mannschaft",
   "breite": 400,
@@ -363,12 +366,13 @@
   "nr": "7",
   "position": "ABW",
   "ersetzt": "fotos/giulia-gwinn.jpg",
-  "cx": 0.522
+  "cx": 0.5,
+  "platzhalter": true
  },
  "Klara Bühl": {
   "datei": "fotos/fcb-klara-buhl.webp",
-  "autor": "FC Bayern",
-  "lizenz": "mit Genehmigung: FC Bayern München",
+  "autor": "WOSOINSIDER",
+  "lizenz": "Platzhalter (kein Vereinsfoto)",
   "lizenz_url": null,
   "quelle": "https://fcbayern.com/frauen/de/teams/1.-mannschaft",
   "breite": 400,
@@ -381,7 +385,8 @@
   "nr": "17",
   "position": "ST",
   "ersetzt": "fotos/klara-buhl.jpg",
-  "cx": 0.486
+  "cx": 0.5,
+  "platzhalter": true
  },
  "Laura Giuliani": {
   "datei": "fotos/vfb-laura-giuliani.webp",
@@ -598,8 +603,8 @@
  },
  "Sarah Zadrazil": {
   "datei": "fotos/fcb-sarah-zadrazil.webp",
-  "autor": "FC Bayern",
-  "lizenz": "mit Genehmigung: FC Bayern München",
+  "autor": "WOSOINSIDER",
+  "lizenz": "Platzhalter (kein Vereinsfoto)",
   "lizenz_url": null,
   "quelle": "https://fcbayern.com/frauen/de/teams/1.-mannschaft",
   "breite": 400,
@@ -612,7 +617,8 @@
   "nr": "25",
   "position": "MF",
   "ersetzt": "fotos/sarah-zadrazil.jpg",
-  "cx": 0.459
+  "cx": 0.5,
+  "platzhalter": true
  },
  "Marina Georgieva": {
   "datei": "fotos/m05-marina-georgieva.webp",
@@ -652,8 +658,8 @@
  },
  "Sophie Proost": {
   "datei": "fotos/fcb-sophie-proost.webp",
-  "autor": "FC Bayern",
-  "lizenz": "mit Genehmigung: FC Bayern München",
+  "autor": "WOSOINSIDER",
+  "lizenz": "Platzhalter (kein Vereinsfoto)",
   "lizenz_url": null,
   "quelle": "https://fcbayern.com/frauen/de/teams/1.-mannschaft",
   "breite": 400,
@@ -666,7 +672,8 @@
   "nr": "23",
   "position": "MF",
   "ersetzt": "fotos/sophie-proost.jpg",
-  "cx": 0.499
+  "cx": 0.5,
+  "platzhalter": true
  },
  "Sophia Kleinherne": {
   "datei": "fotos/wob-sophia-kleinherne.webp",
@@ -688,8 +695,8 @@
  },
  "Lena Oberdorf": {
   "datei": "fotos/fcb-lena-oberdorf.webp",
-  "autor": "FC Bayern",
-  "lizenz": "mit Genehmigung: FC Bayern München",
+  "autor": "WOSOINSIDER",
+  "lizenz": "Platzhalter (kein Vereinsfoto)",
   "lizenz_url": null,
   "quelle": "https://fcbayern.com/frauen/de/teams/1.-mannschaft",
   "breite": 400,
@@ -702,7 +709,8 @@
   "nr": "8",
   "position": "MF",
   "ersetzt": "fotos/lena-oberdorf.jpg",
-  "cx": 0.508
+  "cx": 0.5,
+  "platzhalter": true
  },
  "Juliane Wirtz": {
   "datei": "fotos/svw-juliane-wirtz.webp",
@@ -759,8 +767,8 @@
  },
  "Pernille Harder": {
   "datei": "fotos/fcb-pernille-harder.webp",
-  "autor": "FC Bayern",
-  "lizenz": "mit Genehmigung: FC Bayern München",
+  "autor": "WOSOINSIDER",
+  "lizenz": "Platzhalter (kein Vereinsfoto)",
   "lizenz_url": null,
   "quelle": "https://fcbayern.com/frauen/de/teams/1.-mannschaft",
   "breite": 400,
@@ -773,7 +781,8 @@
   "nr": "21",
   "position": "ST",
   "ersetzt": "fotos/pernille-harder.jpg",
-  "cx": 0.501
+  "cx": 0.5,
+  "platzhalter": true
  },
  "Caroline Siems": {
   "datei": "fotos/svw-caroline-siems.webp",
@@ -937,8 +946,8 @@
  },
  "Anna Klink": {
   "datei": "fotos/fcb-anna-klink.webp",
-  "autor": "FC Bayern",
-  "lizenz": "mit Genehmigung: FC Bayern München",
+  "autor": "WOSOINSIDER",
+  "lizenz": "Platzhalter (kein Vereinsfoto)",
   "lizenz_url": null,
   "quelle": "https://fcbayern.com/frauen/de/teams/1.-mannschaft",
   "breite": 400,
@@ -951,7 +960,8 @@
   "nr": "38",
   "position": "TW",
   "ersetzt": "fotos/anna-klink.jpg",
-  "cx": 0.516
+  "cx": 0.5,
+  "platzhalter": true
  },
  "Sandra Starke": {
   "datei": "fotos/rbl-sandra-starke.webp",
@@ -1024,8 +1034,8 @@
  },
  "Magdalena Eriksson": {
   "datei": "fotos/fcb-magdalena-eriksson.webp",
-  "autor": "FC Bayern",
-  "lizenz": "mit Genehmigung: FC Bayern München",
+  "autor": "WOSOINSIDER",
+  "lizenz": "Platzhalter (kein Vereinsfoto)",
   "lizenz_url": null,
   "quelle": "https://fcbayern.com/frauen/de/teams/1.-mannschaft",
   "breite": 400,
@@ -1038,7 +1048,8 @@
   "nr": "5",
   "position": "ABW",
   "ersetzt": "fotos/magdalena-eriksson.jpg",
-  "cx": 0.502
+  "cx": 0.5,
+  "platzhalter": true
  },
  "Hayley Raso": {
   "datei": "fotos/sge-hayley-raso.webp",
@@ -1060,8 +1071,8 @@
  },
  "Barbara Dunst": {
   "datei": "fotos/fcb-barbara-dunst.webp",
-  "autor": "FC Bayern",
-  "lizenz": "mit Genehmigung: FC Bayern München",
+  "autor": "WOSOINSIDER",
+  "lizenz": "Platzhalter (kein Vereinsfoto)",
   "lizenz_url": null,
   "quelle": "https://fcbayern.com/frauen/de/teams/1.-mannschaft",
   "breite": 400,
@@ -1074,7 +1085,8 @@
   "nr": "28",
   "position": "MF",
   "ersetzt": "fotos/barbara-dunst.jpg",
-  "cx": 0.507
+  "cx": 0.5,
+  "platzhalter": true
  },
  "Annabel Schasching": {
   "datei": "fotos/rbl-annabel-schasching.webp",
@@ -1096,8 +1108,8 @@
  },
  "Vanessa Gilles": {
   "datei": "fotos/fcb-vanessa-gilles.webp",
-  "autor": "FC Bayern",
-  "lizenz": "mit Genehmigung: FC Bayern München",
+  "autor": "WOSOINSIDER",
+  "lizenz": "Platzhalter (kein Vereinsfoto)",
   "lizenz_url": null,
   "quelle": "https://fcbayern.com/frauen/de/teams/1.-mannschaft",
   "breite": 400,
@@ -1110,7 +1122,8 @@
   "nr": "2",
   "position": "ABW",
   "ersetzt": "fotos/vanessa-gilles.jpg",
-  "cx": 0.494
+  "cx": 0.5,
+  "platzhalter": true
  },
  "Lisa Karl": {
   "datei": "fotos/scf-lisa-karl.webp",
@@ -1429,8 +1442,8 @@
  },
  "Regina van Eijk": {
   "datei": "fotos/fcb-regina-van-eijk.webp",
-  "autor": "FC Bayern",
-  "lizenz": "mit Genehmigung: FC Bayern München",
+  "autor": "WOSOINSIDER",
+  "lizenz": "Platzhalter (kein Vereinsfoto)",
   "lizenz_url": null,
   "quelle": "https://fcbayern.com/frauen/de/teams/1.-mannschaft",
   "breite": 400,
@@ -1443,7 +1456,8 @@
   "nr": "22",
   "position": "TW",
   "ersetzt": "fotos/regina-van-eijk.jpg",
-  "cx": 0.476
+  "cx": 0.5,
+  "platzhalter": true
  },
  "Lisa Doorn": {
   "datei": "fotos/tsg-lisa-doorn.webp",
@@ -1465,8 +1479,8 @@
  },
  "Katharina Naschenweng": {
   "datei": "fotos/fcb-katharina-naschenweng.webp",
-  "autor": "FC Bayern",
-  "lizenz": "mit Genehmigung: FC Bayern München",
+  "autor": "WOSOINSIDER",
+  "lizenz": "Platzhalter (kein Vereinsfoto)",
   "lizenz_url": null,
   "quelle": "https://fcbayern.com/frauen/de/teams/1.-mannschaft",
   "breite": 400,
@@ -1479,7 +1493,8 @@
   "nr": "19",
   "position": "ABW",
   "ersetzt": "fotos/katharina-naschenweng.jpg",
-  "cx": 0.481
+  "cx": 0.5,
+  "platzhalter": true
  },
  "Lieske Carleer": {
   "datei": "fotos/wob-lieske-carleer.webp",
@@ -2396,8 +2411,8 @@
  },
  "Ena Mahmutovic": {
   "datei": "fotos/fcb-ena-mahmutovic.webp",
-  "autor": "FC Bayern",
-  "lizenz": "mit Genehmigung: FC Bayern München",
+  "autor": "WOSOINSIDER",
+  "lizenz": "Platzhalter (kein Vereinsfoto)",
   "lizenz_url": null,
   "quelle": "https://fcbayern.com/frauen/de/teams/1.-mannschaft",
   "breite": 400,
@@ -2410,7 +2425,8 @@
   "nr": "1",
   "position": "TW",
   "ersetzt": "fotos/ena-mahmutovic.jpg",
-  "cx": 0.506
+  "cx": 0.5,
+  "platzhalter": true
  },
  "Lena Lattwein": {
   "datei": "fotos/wob-lena-lattwein.webp",
@@ -3995,8 +4011,8 @@
  },
  "Alara": {
   "datei": "fotos/fcb-alara-sehitler.webp",
-  "autor": "FC Bayern",
-  "lizenz": "mit Genehmigung: FC Bayern München",
+  "autor": "WOSOINSIDER",
+  "lizenz": "Platzhalter (kein Vereinsfoto)",
   "lizenz_url": null,
   "quelle": "https://fcbayern.com/frauen/de/teams/1.-mannschaft",
   "breite": 400,
@@ -4008,12 +4024,13 @@
   "verein": "FC Bayern München",
   "nr": "14",
   "position": "MF",
-  "cx": 0.501
+  "cx": 0.5,
+  "platzhalter": true
  },
  "Bernadette Amani": {
   "datei": "fotos/fcb-bernadette-amani.webp",
-  "autor": "FC Bayern",
-  "lizenz": "mit Genehmigung: FC Bayern München",
+  "autor": "WOSOINSIDER",
+  "lizenz": "Platzhalter (kein Vereinsfoto)",
   "lizenz_url": null,
   "quelle": "https://fcbayern.com/frauen/de/teams/1.-mannschaft",
   "breite": 400,
@@ -4025,12 +4042,13 @@
   "verein": "FC Bayern München",
   "nr": "15",
   "position": "MF",
-  "cx": 0.508
+  "cx": 0.5,
+  "platzhalter": true
  },
  "Edna Imade": {
   "datei": "fotos/fcb-edna-imade.webp",
-  "autor": "FC Bayern",
-  "lizenz": "mit Genehmigung: FC Bayern München",
+  "autor": "WOSOINSIDER",
+  "lizenz": "Platzhalter (kein Vereinsfoto)",
   "lizenz_url": null,
   "quelle": "https://fcbayern.com/frauen/de/teams/1.-mannschaft",
   "breite": 400,
@@ -4042,12 +4060,13 @@
   "verein": "FC Bayern München",
   "nr": "29",
   "position": "ST",
-  "cx": 0.498
+  "cx": 0.5,
+  "platzhalter": true
  },
  "Glódís Viggósdóttir": {
   "datei": "fotos/fcb-glodis-perla-viggosdottir.webp",
-  "autor": "FC Bayern",
-  "lizenz": "mit Genehmigung: FC Bayern München",
+  "autor": "WOSOINSIDER",
+  "lizenz": "Platzhalter (kein Vereinsfoto)",
   "lizenz_url": null,
   "quelle": "https://fcbayern.com/frauen/de/teams/1.-mannschaft",
   "breite": 400,
@@ -4059,12 +4078,13 @@
   "verein": "FC Bayern München",
   "nr": "4",
   "position": "ABW",
-  "cx": 0.497
+  "cx": 0.5,
+  "platzhalter": true
  },
  "Kassandra Potsi": {
   "datei": "fotos/fcb-kassandra-potsi.webp",
-  "autor": "FC Bayern",
-  "lizenz": "mit Genehmigung: FC Bayern München",
+  "autor": "WOSOINSIDER",
+  "lizenz": "Platzhalter (kein Vereinsfoto)",
   "lizenz_url": null,
   "quelle": "https://fcbayern.com/frauen/de/teams/1.-mannschaft",
   "breite": 400,
@@ -4076,12 +4096,13 @@
   "verein": "FC Bayern München",
   "nr": "6",
   "position": "ST",
-  "cx": 0.475
+  "cx": 0.5,
+  "platzhalter": true
  },
  "Momoko Tanikawa": {
   "datei": "fotos/fcb-momoko-tanikawa.webp",
-  "autor": "FC Bayern",
-  "lizenz": "mit Genehmigung: FC Bayern München",
+  "autor": "WOSOINSIDER",
+  "lizenz": "Platzhalter (kein Vereinsfoto)",
   "lizenz_url": null,
   "quelle": "https://fcbayern.com/frauen/de/teams/1.-mannschaft",
   "breite": 400,
@@ -4093,12 +4114,13 @@
   "verein": "FC Bayern München",
   "nr": "18",
   "position": "MF",
-  "cx": 0.496
+  "cx": 0.5,
+  "platzhalter": true
  },
  "Sarah Mattner-Trembleau": {
   "datei": "fotos/fcb-sarah-mattner.webp",
-  "autor": "FC Bayern",
-  "lizenz": "mit Genehmigung: FC Bayern München",
+  "autor": "WOSOINSIDER",
+  "lizenz": "Platzhalter (kein Vereinsfoto)",
   "lizenz_url": null,
   "quelle": "https://fcbayern.com/frauen/de/teams/1.-mannschaft",
   "breite": 400,
@@ -4110,12 +4132,13 @@
   "verein": "FC Bayern München",
   "nr": "11",
   "position": "ST",
-  "cx": 0.491
+  "cx": 0.5,
+  "platzhalter": true
  },
  "Stine Ballisager": {
   "datei": "fotos/fcb-stine-ballisager.webp",
-  "autor": "FC Bayern",
-  "lizenz": "mit Genehmigung: FC Bayern München",
+  "autor": "WOSOINSIDER",
+  "lizenz": "Platzhalter (kein Vereinsfoto)",
   "lizenz_url": null,
   "quelle": "https://fcbayern.com/frauen/de/teams/1.-mannschaft",
   "breite": 400,
@@ -4127,12 +4150,13 @@
   "verein": "FC Bayern München",
   "nr": "3",
   "position": "ABW",
-  "cx": 0.501
+  "cx": 0.5,
+  "platzhalter": true
  },
  "Adrian Negro": {
   "datei": "fotos/fcb-stab-adrian-negro.webp",
-  "autor": "FC Bayern",
-  "lizenz": "mit Genehmigung: FC Bayern München",
+  "autor": "WOSOINSIDER",
+  "lizenz": "Platzhalter (kein Vereinsfoto)",
   "lizenz_url": null,
   "quelle": "https://fcbayern.com/frauen/de/teams/1.-mannschaft",
   "breite": 400,
@@ -4144,12 +4168,13 @@
   "verein": "FC Bayern München",
   "funktion": "Co-Trainer",
   "stab": true,
-  "cx": 0.51
+  "cx": 0.5,
+  "platzhalter": true
  },
  "Bianca Rech": {
   "datei": "fotos/fcb-stab-bianca-rech.webp",
-  "autor": "FC Bayern",
-  "lizenz": "mit Genehmigung: FC Bayern München",
+  "autor": "WOSOINSIDER",
+  "lizenz": "Platzhalter (kein Vereinsfoto)",
   "lizenz_url": null,
   "quelle": "https://fcbayern.com/frauen/de/teams/1.-mannschaft",
   "breite": 400,
@@ -4161,12 +4186,13 @@
   "verein": "FC Bayern München",
   "funktion": "Direktorin Frauenfußball",
   "stab": true,
-  "cx": 0.473
+  "cx": 0.5,
+  "platzhalter": true
  },
  "Clara Schöne": {
   "datei": "fotos/fcb-stab-clara-schone.webp",
-  "autor": "FC Bayern",
-  "lizenz": "mit Genehmigung: FC Bayern München",
+  "autor": "WOSOINSIDER",
+  "lizenz": "Platzhalter (kein Vereinsfoto)",
   "lizenz_url": null,
   "quelle": "https://fcbayern.com/frauen/de/teams/1.-mannschaft",
   "breite": 400,
@@ -4178,12 +4204,13 @@
   "verein": "FC Bayern München",
   "funktion": "Co-Trainerin",
   "stab": true,
-  "cx": 0.498
+  "cx": 0.5,
+  "platzhalter": true
  },
  "Hamid Masoum Beygi": {
   "datei": "fotos/fcb-stab-hamid-masoum-beygi.webp",
-  "autor": "FC Bayern",
-  "lizenz": "mit Genehmigung: FC Bayern München",
+  "autor": "WOSOINSIDER",
+  "lizenz": "Platzhalter (kein Vereinsfoto)",
   "lizenz_url": null,
   "quelle": "https://fcbayern.com/frauen/de/teams/1.-mannschaft",
   "breite": 400,
@@ -4195,12 +4222,13 @@
   "verein": "FC Bayern München",
   "funktion": "Athletiktrainer",
   "stab": true,
-  "cx": 0.498
+  "cx": 0.5,
+  "platzhalter": true
  },
  "José Barcala": {
   "datei": "fotos/fcb-stab-jose-barcala.webp",
-  "autor": "FC Bayern",
-  "lizenz": "mit Genehmigung: FC Bayern München",
+  "autor": "WOSOINSIDER",
+  "lizenz": "Platzhalter (kein Vereinsfoto)",
   "lizenz_url": null,
   "quelle": "https://fcbayern.com/frauen/de/teams/1.-mannschaft",
   "breite": 400,
@@ -4212,12 +4240,13 @@
   "verein": "FC Bayern München",
   "funktion": "Cheftrainer",
   "stab": true,
-  "cx": 0.525
+  "cx": 0.5,
+  "platzhalter": true
  },
  "Michael Netolitzky": {
   "datei": "fotos/fcb-stab-michael-netolitzky.webp",
-  "autor": "FC Bayern",
-  "lizenz": "mit Genehmigung: FC Bayern München",
+  "autor": "WOSOINSIDER",
+  "lizenz": "Platzhalter (kein Vereinsfoto)",
   "lizenz_url": null,
   "quelle": "https://fcbayern.com/frauen/de/teams/1.-mannschaft",
   "breite": 400,
@@ -4229,12 +4258,13 @@
   "verein": "FC Bayern München",
   "funktion": "Torwarttrainer",
   "stab": true,
-  "cx": 0.5
+  "cx": 0.5,
+  "platzhalter": true
  },
  "Mohsen Behzadpour": {
   "datei": "fotos/fcb-stab-mohsen-behzadpour.webp",
-  "autor": "FC Bayern",
-  "lizenz": "mit Genehmigung: FC Bayern München",
+  "autor": "WOSOINSIDER",
+  "lizenz": "Platzhalter (kein Vereinsfoto)",
   "lizenz_url": null,
   "quelle": "https://fcbayern.com/frauen/de/teams/1.-mannschaft",
   "breite": 400,
@@ -4246,7 +4276,8 @@
   "verein": "FC Bayern München",
   "funktion": "Funktionsteam",
   "stab": true,
-  "cx": 0.498
+  "cx": 0.5,
+  "platzhalter": true
  },
  "Alexsandra Lobanova": {
   "datei": "fotos/fcn-alexsandra-lobanova.webp",
@@ -8360,5 +8391,81 @@
   "nr": "9",
   "position": "ST",
   "cx": 0.491
+ },
+ "Sophie Klein": {
+  "datei": "fotos/fcb-sophie-klein.webp",
+  "autor": "WOSOINSIDER",
+  "lizenz": "Platzhalter (kein Vereinsfoto)",
+  "lizenz_url": null,
+  "quelle": "https://fcbayern.com/frauen/de/teams/1.-mannschaft",
+  "breite": 400,
+  "hoehe": 400,
+  "jahr": 2026,
+  "trikot_alt": false,
+  "gross": false,
+  "portrait": "fotos/fcb-sophie-klein.webp",
+  "verein": "FC Bayern München",
+  "nr": "41",
+  "position": "TW",
+  "ersetzt": null,
+  "cx": 0.5,
+  "platzhalter": true
+ },
+ "Laura Dafinger": {
+  "datei": "fotos/fcb-laura-dafinger.webp",
+  "autor": "WOSOINSIDER",
+  "lizenz": "Platzhalter (kein Vereinsfoto)",
+  "lizenz_url": null,
+  "quelle": "https://fcbayern.com/frauen/de/teams/1.-mannschaft",
+  "breite": 400,
+  "hoehe": 400,
+  "jahr": 2026,
+  "trikot_alt": false,
+  "gross": false,
+  "portrait": "fotos/fcb-laura-dafinger.webp",
+  "verein": "FC Bayern München",
+  "nr": "36",
+  "position": "ABW",
+  "ersetzt": null,
+  "cx": 0.5,
+  "platzhalter": true
+ },
+ "Hanna Wegscheider": {
+  "datei": "fotos/fcb-hanna-wegscheider.webp",
+  "autor": "WOSOINSIDER",
+  "lizenz": "Platzhalter (kein Vereinsfoto)",
+  "lizenz_url": null,
+  "quelle": "https://fcbayern.com/frauen/de/teams/1.-mannschaft",
+  "breite": 400,
+  "hoehe": 400,
+  "jahr": 2026,
+  "trikot_alt": false,
+  "gross": false,
+  "portrait": "fotos/fcb-hanna-wegscheider.webp",
+  "verein": "FC Bayern München",
+  "nr": "40",
+  "position": "ABW",
+  "ersetzt": null,
+  "cx": 0.5,
+  "platzhalter": true
+ },
+ "Ella Rauscha": {
+  "datei": "fotos/fcb-ella-rauscha.webp",
+  "autor": "WOSOINSIDER",
+  "lizenz": "Platzhalter (kein Vereinsfoto)",
+  "lizenz_url": null,
+  "quelle": "https://fcbayern.com/frauen/de/teams/1.-mannschaft",
+  "breite": 400,
+  "hoehe": 400,
+  "jahr": 2026,
+  "trikot_alt": false,
+  "gross": false,
+  "portrait": "fotos/fcb-ella-rauscha.webp",
+  "verein": "FC Bayern München",
+  "nr": "33",
+  "position": "ST",
+  "ersetzt": null,
+  "cx": 0.5,
+  "platzhalter": true
  }
 }
