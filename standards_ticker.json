@@ -10,7 +10,9 @@
 "std_tore": 1,
 "ecke_tritt": 0,
 "fs_tritt": 0,
-"std_kopftore": 0
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0
 },
 {
 "k": "FCB",
@@ -20,7 +22,9 @@
 "std_tore": 0,
 "ecke_tritt": 0,
 "fs_tritt": 0,
-"std_kopftore": 0
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0
 },
 {
 "k": "FCB",
@@ -30,7 +34,9 @@
 "std_tore": 0,
 "ecke_tritt": 0,
 "fs_tritt": 0,
-"std_kopftore": 2
+"std_kopftore": 2,
+"ecke_l": 0,
+"ecke_r": 0
 },
 {
 "k": "FCB",
@@ -40,7 +46,9 @@
 "std_tore": 0,
 "ecke_tritt": 0,
 "fs_tritt": 0,
-"std_kopftore": 0
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0
 },
 {
 "k": "FCB",
@@ -50,7 +58,9 @@
 "std_tore": 0,
 "ecke_tritt": 0,
 "fs_tritt": 0,
-"std_kopftore": 0
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0
 },
 {
 "k": "FCB",
@@ -60,7 +70,9 @@
 "std_tore": 0,
 "ecke_tritt": 0,
 "fs_tritt": 0,
-"std_kopftore": 0
+"std_kopftore": 0,
+"ecke_l": 1,
+"ecke_r": 0
 },
 {
 "k": "FCB",
@@ -70,7 +82,9 @@
 "std_tore": 0,
 "ecke_tritt": 0,
 "fs_tritt": 0,
-"std_kopftore": 0
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0
 },
 {
 "k": "FCB",
@@ -80,7 +94,9 @@
 "std_tore": 0,
 "ecke_tritt": 0,
 "fs_tritt": 0,
-"std_kopftore": 0
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0
 },
 {
 "k": "FCB",
@@ -90,7 +106,9 @@
 "std_tore": 0,
 "ecke_tritt": 2,
 "fs_tritt": 6,
-"std_kopftore": 0
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 1
 }
 ],
 "FCU": [
@@ -102,7 +120,9 @@
 "std_tore": 1,
 "ecke_tritt": 0,
 "fs_tritt": 0,
-"std_kopftore": 1
+"std_kopftore": 1,
+"ecke_l": 0,
+"ecke_r": 0
 },
 {
 "k": "FCU",
@@ -112,7 +132,9 @@
 "std_tore": 0,
 "ecke_tritt": 0,
 "fs_tritt": 0,
-"std_kopftore": 0
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0
 },
 {
 "k": "FCU",
@@ -122,7 +144,9 @@
 "std_tore": 0,
 "ecke_tritt": 0,
 "fs_tritt": 0,
-"std_kopftore": 0
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0
 },
 {
 "k": "FCU",
@@ -132,7 +156,9 @@
 "std_tore": 0,
 "ecke_tritt": 0,
 "fs_tritt": 0,
-"std_kopftore": 0
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0
 },
 {
 "k": "FCU",
@@ -142,7 +168,9 @@
 "std_tore": 0,
 "ecke_tritt": 0,
 "fs_tritt": 0,
-"std_kopftore": 0
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0
 },
 {
 "k": "FCU",
@@ -152,7 +180,9 @@
 "std_tore": 0,
 "ecke_tritt": 0,
 "fs_tritt": 0,
-"std_kopftore": 0
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0
 },
 {
 "k": "FCU",
@@ -162,7 +192,33 @@
 "std_tore": 0,
 "ecke_tritt": 0,
 "fs_tritt": 2,
-"std_kopftore": 0
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0
+},
+{
+"k": "FCU",
+"n": "Leela Egli",
+"kopf": 0,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0,
+"std_kopftore": 0,
+"ecke_l": 1,
+"ecke_r": 1
+},
+{
+"k": "FCU",
+"n": "Tomke Schneider",
+"kopf": 0,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0,
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 1
 }
 ],
 "KOE": [
@@ -170,11 +226,13 @@
 "k": "KOE",
 "n": "Sophie Nachtigall",
 "kopf": 2,
-"std_kopf": 2,
+"std_kopf": 1,
 "std_tore": 0,
 "ecke_tritt": 1,
 "fs_tritt": 0,
-"std_kopftore": 0
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0
 },
 {
 "k": "KOE",
@@ -184,7 +242,9 @@
 "std_tore": 0,
 "ecke_tritt": 0,
 "fs_tritt": 0,
-"std_kopftore": 1
+"std_kopftore": 1,
+"ecke_l": 0,
+"ecke_r": 0
 },
 {
 "k": "KOE",
@@ -194,7 +254,9 @@
 "std_tore": 0,
 "ecke_tritt": 0,
 "fs_tritt": 0,
-"std_kopftore": 0
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0
 },
 {
 "k": "KOE",
@@ -204,7 +266,9 @@
 "std_tore": 0,
 "ecke_tritt": 0,
 "fs_tritt": 0,
-"std_kopftore": 0
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0
 },
 {
 "k": "KOE",
@@ -214,7 +278,9 @@
 "std_tore": 0,
 "ecke_tritt": 0,
 "fs_tritt": 0,
-"std_kopftore": 0
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0
 },
 {
 "k": "KOE",
@@ -224,7 +290,9 @@
 "std_tore": 0,
 "ecke_tritt": 0,
 "fs_tritt": 0,
-"std_kopftore": 0
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0
 },
 {
 "k": "KOE",
@@ -234,7 +302,9 @@
 "std_tore": 0,
 "ecke_tritt": 0,
 "fs_tritt": 0,
-"std_kopftore": 0
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0
 },
 {
 "k": "KOE",
@@ -244,7 +314,9 @@
 "std_tore": 0,
 "ecke_tritt": 0,
 "fs_tritt": 1,
-"std_kopftore": 0
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0
 },
 {
 "k": "KOE",
@@ -254,7 +326,9 @@
 "std_tore": 0,
 "ecke_tritt": 1,
 "fs_tritt": 0,
-"std_kopftore": 0
+"std_kopftore": 0,
+"ecke_l": 1,
+"ecke_r": 0
 },
 {
 "k": "KOE",
@@ -264,7 +338,21 @@
 "std_tore": 0,
 "ecke_tritt": 1,
 "fs_tritt": 0,
-"std_kopftore": 0
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0
+},
+{
+"k": "KOE",
+"n": "Sandra Jessen",
+"kopf": 0,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0,
+"std_kopftore": 0,
+"ecke_l": 1,
+"ecke_r": 0
 },
 {
 "k": "KOE",
@@ -274,7 +362,9 @@
 "std_tore": 0,
 "ecke_tritt": 2,
 "fs_tritt": 0,
-"std_kopftore": 0
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 2
 }
 ],
 "SGE": [
@@ -286,7 +376,9 @@
 "std_tore": 1,
 "ecke_tritt": 0,
 "fs_tritt": 0,
-"std_kopftore": 1
+"std_kopftore": 1,
+"ecke_l": 0,
+"ecke_r": 0
 },
 {
 "k": "SGE",
@@ -296,7 +388,9 @@
 "std_tore": 0,
 "ecke_tritt": 0,
 "fs_tritt": 0,
-"std_kopftore": 2
+"std_kopftore": 2,
+"ecke_l": 1,
+"ecke_r": 0
 },
 {
 "k": "SGE",
@@ -306,7 +400,9 @@
 "std_tore": 0,
 "ecke_tritt": 0,
 "fs_tritt": 0,
-"std_kopftore": 0
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0
 },
 {
 "k": "SGE",
@@ -316,7 +412,9 @@
 "std_tore": 0,
 "ecke_tritt": 0,
 "fs_tritt": 0,
-"std_kopftore": 0
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0
 },
 {
 "k": "SGE",
@@ -326,7 +424,9 @@
 "std_tore": 0,
 "ecke_tritt": 0,
 "fs_tritt": 0,
-"std_kopftore": 0
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0
 },
 {
 "k": "SGE",
@@ -336,7 +436,9 @@
 "std_tore": 0,
 "ecke_tritt": 0,
 "fs_tritt": 0,
-"std_kopftore": 0
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0
 },
 {
 "k": "SGE",
@@ -346,7 +448,9 @@
 "std_tore": 0,
 "ecke_tritt": 0,
 "fs_tritt": 2,
-"std_kopftore": 0
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 1
 }
 ],
 "WOB": [
@@ -358,7 +462,9 @@
 "std_tore": 1,
 "ecke_tritt": 0,
 "fs_tritt": 0,
-"std_kopftore": 1
+"std_kopftore": 1,
+"ecke_l": 0,
+"ecke_r": 0
 },
 {
 "k": "WOB",
@@ -368,7 +474,9 @@
 "std_tore": 0,
 "ecke_tritt": 0,
 "fs_tritt": 0,
-"std_kopftore": 0
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 1
 },
 {
 "k": "WOB",
@@ -378,7 +486,9 @@
 "std_tore": 0,
 "ecke_tritt": 0,
 "fs_tritt": 0,
-"std_kopftore": 0
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0
 },
 {
 "k": "WOB",
@@ -388,7 +498,9 @@
 "std_tore": 0,
 "ecke_tritt": 0,
 "fs_tritt": 0,
-"std_kopftore": 0
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0
 },
 {
 "k": "WOB",
@@ -398,7 +510,9 @@
 "std_tore": 0,
 "ecke_tritt": 0,
 "fs_tritt": 0,
-"std_kopftore": 0
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0
 },
 {
 "k": "WOB",
@@ -408,7 +522,9 @@
 "std_tore": 0,
 "ecke_tritt": 0,
 "fs_tritt": 0,
-"std_kopftore": 0
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0
 },
 {
 "k": "WOB",
@@ -418,7 +534,9 @@
 "std_tore": 0,
 "ecke_tritt": 0,
 "fs_tritt": 0,
-"std_kopftore": 0
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0
 },
 {
 "k": "WOB",
@@ -428,7 +546,9 @@
 "std_tore": 0,
 "ecke_tritt": 2,
 "fs_tritt": 0,
-"std_kopftore": 0
+"std_kopftore": 0,
+"ecke_l": 1,
+"ecke_r": 0
 },
 {
 "k": "WOB",
@@ -438,7 +558,9 @@
 "std_tore": 0,
 "ecke_tritt": 1,
 "fs_tritt": 0,
-"std_kopftore": 0
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 1
 }
 ],
 "FCN": [
@@ -450,7 +572,9 @@
 "std_tore": 1,
 "ecke_tritt": 0,
 "fs_tritt": 0,
-"std_kopftore": 0
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0
 },
 {
 "k": "FCN",
@@ -460,7 +584,9 @@
 "std_tore": 0,
 "ecke_tritt": 0,
 "fs_tritt": 0,
-"std_kopftore": 0
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0
 },
 {
 "k": "FCN",
@@ -470,7 +596,9 @@
 "std_tore": 0,
 "ecke_tritt": 0,
 "fs_tritt": 0,
-"std_kopftore": 0
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0
 },
 {
 "k": "FCN",
@@ -480,7 +608,9 @@
 "std_tore": 0,
 "ecke_tritt": 0,
 "fs_tritt": 0,
-"std_kopftore": 0
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 1
 },
 {
 "k": "FCN",
@@ -490,7 +620,9 @@
 "std_tore": 0,
 "ecke_tritt": 0,
 "fs_tritt": 0,
-"std_kopftore": 0
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0
 },
 {
 "k": "FCN",
@@ -500,511 +632,21 @@
 "std_tore": 0,
 "ecke_tritt": 2,
 "fs_tritt": 0,
-"std_kopftore": 0
-}
-],
-"VFB": [
-{
-"k": "VFB",
-"n": "Maximiliane Rall",
-"kopf": 2,
-"std_kopf": 2,
-"std_tore": 0,
-"ecke_tritt": 0,
-"fs_tritt": 0,
-"std_kopftore": 0
+"std_kopftore": 0,
+"ecke_l": 3,
+"ecke_r": 2
 },
 {
-"k": "VFB",
-"n": "Nicole Billa",
-"kopf": 1,
-"std_kopf": 1,
-"std_tore": 0,
-"ecke_tritt": 0,
-"fs_tritt": 0,
-"std_kopftore": 0
-},
-{
-"k": "VFB",
-"n": "Dafina Redzepi",
-"kopf": 0,
-"std_kopf": 0,
-"std_tore": 0,
-"ecke_tritt": 1,
-"fs_tritt": 0,
-"std_kopftore": 0
-},
-{
-"k": "VFB",
-"n": "Chantal Hagel",
-"kopf": 0,
-"std_kopf": 0,
-"std_tore": 0,
-"ecke_tritt": 1,
-"fs_tritt": 0,
-"std_kopftore": 0
-}
-],
-"B04": [
-{
-"k": "B04",
-"n": "Loreen Bender",
-"kopf": 3,
-"std_kopf": 2,
-"std_tore": 0,
-"ecke_tritt": 0,
-"fs_tritt": 0,
-"std_kopftore": 0
-},
-{
-"k": "B04",
-"n": "Lilla Turányi",
-"kopf": 2,
-"std_kopf": 2,
-"std_tore": 0,
-"ecke_tritt": 0,
-"fs_tritt": 0,
-"std_kopftore": 0
-},
-{
-"k": "B04",
-"n": "Valentina Mädl",
-"kopf": 1,
-"std_kopf": 1,
-"std_tore": 0,
-"ecke_tritt": 0,
-"fs_tritt": 0,
-"std_kopftore": 0
-},
-{
-"k": "B04",
-"n": "Paulina Platner",
-"kopf": 1,
-"std_kopf": 1,
-"std_tore": 0,
-"ecke_tritt": 0,
-"fs_tritt": 0,
-"std_kopftore": 0
-},
-{
-"k": "B04",
-"n": "Justine Brandau",
-"kopf": 2,
-"std_kopf": 0,
-"std_tore": 0,
-"ecke_tritt": 0,
-"fs_tritt": 0,
-"std_kopftore": 0
-},
-{
-"k": "B04",
-"n": "Lobke Loonen",
-"kopf": 2,
-"std_kopf": 0,
-"std_tore": 0,
-"ecke_tritt": 0,
-"fs_tritt": 0,
-"std_kopftore": 0
-},
-{
-"k": "B04",
-"n": "Paulina Tomasiak",
-"kopf": 1,
-"std_kopf": 0,
-"std_tore": 0,
-"ecke_tritt": 0,
-"fs_tritt": 0,
-"std_kopftore": 0
-},
-{
-"k": "B04",
-"n": "Cornelia Kramer",
-"kopf": 1,
-"std_kopf": 0,
-"std_tore": 0,
-"ecke_tritt": 0,
-"fs_tritt": 0,
-"std_kopftore": 0
-},
-{
-"k": "B04",
-"n": "Marlene Müller",
-"kopf": 1,
-"std_kopf": 0,
-"std_tore": 0,
-"ecke_tritt": 0,
-"fs_tritt": 0,
-"std_kopftore": 0
-},
-{
-"k": "B04",
-"n": "Estrella Merino",
-"kopf": 0,
-"std_kopf": 0,
-"std_tore": 0,
-"ecke_tritt": 1,
-"fs_tritt": 0,
-"std_kopftore": 0
-},
-{
-"k": "B04",
-"n": "Carolin Simon",
+"k": "FCN",
+"n": "Jonna Brengel",
 "kopf": 0,
 "std_kopf": 0,
 "std_tore": 0,
 "ecke_tritt": 0,
-"fs_tritt": 1,
-"std_kopftore": 0
-}
-],
-"RBL": [
-{
-"k": "RBL",
-"n": "Delice Boboy",
-"kopf": 7,
-"std_kopf": 2,
-"std_tore": 0,
-"ecke_tritt": 0,
 "fs_tritt": 0,
-"std_kopftore": 0
-},
-{
-"k": "RBL",
-"n": "Andrea Norheim",
-"kopf": 1,
-"std_kopf": 0,
-"std_tore": 0,
-"ecke_tritt": 0,
-"fs_tritt": 0,
-"std_kopftore": 0
-},
-{
-"k": "RBL",
-"n": "Therese Simonsson",
-"kopf": 1,
-"std_kopf": 0,
-"std_tore": 0,
-"ecke_tritt": 0,
-"fs_tritt": 0,
-"std_kopftore": 0
-},
-{
-"k": "RBL",
-"n": "Nikée van Dijk",
-"kopf": 1,
-"std_kopf": 0,
-"std_tore": 0,
-"ecke_tritt": 0,
-"fs_tritt": 0,
-"std_kopftore": 0
-},
-{
-"k": "RBL",
-"n": "Annabel Schasching",
-"kopf": 0,
-"std_kopf": 0,
-"std_tore": 0,
-"ecke_tritt": 3,
-"fs_tritt": 0,
-"std_kopftore": 0
-},
-{
-"k": "RBL",
-"n": "Alieke Tuin",
-"kopf": 0,
-"std_kopf": 0,
-"std_tore": 0,
-"ecke_tritt": 1,
-"fs_tritt": 0,
-"std_kopftore": 0
-}
-],
-"HSV": [
-{
-"k": "HSV",
-"n": "Nikola Karczewska",
-"kopf": 3,
-"std_kopf": 2,
-"std_tore": 0,
-"ecke_tritt": 0,
-"fs_tritt": 0,
-"std_kopftore": 0
-},
-{
-"k": "HSV",
-"n": "Melanie Brunnthaler",
-"kopf": 3,
-"std_kopf": 1,
-"std_tore": 0,
-"ecke_tritt": 0,
-"fs_tritt": 0,
-"std_kopftore": 0
-},
-{
-"k": "HSV",
-"n": "Camilla Linberg",
-"kopf": 1,
-"std_kopf": 1,
-"std_tore": 0,
-"ecke_tritt": 2,
-"fs_tritt": 0,
-"std_kopftore": 0
-},
-{
-"k": "HSV",
-"n": "Annaleen Böhler",
-"kopf": 1,
-"std_kopf": 1,
-"std_tore": 0,
-"ecke_tritt": 0,
-"fs_tritt": 0,
-"std_kopftore": 0
-},
-{
-"k": "HSV",
-"n": "Nigar Mirzaliyeva",
-"kopf": 1,
-"std_kopf": 1,
-"std_tore": 0,
-"ecke_tritt": 0,
-"fs_tritt": 0,
-"std_kopftore": 0
-}
-],
-"SCF": [
-{
-"k": "SCF",
-"n": "Lisa Karl",
-"kopf": 2,
-"std_kopf": 2,
-"std_tore": 0,
-"ecke_tritt": 0,
-"fs_tritt": 0,
-"std_kopftore": 0
-},
-{
-"k": "SCF",
-"n": "Carina Brunold",
-"kopf": 2,
-"std_kopf": 2,
-"std_tore": 0,
-"ecke_tritt": 0,
-"fs_tritt": 0,
-"std_kopftore": 0
-},
-{
-"k": "SCF",
-"n": "Luca-Emily Birkholz",
-"kopf": 2,
-"std_kopf": 1,
-"std_tore": 0,
-"ecke_tritt": 0,
-"fs_tritt": 0,
-"std_kopftore": 0
-},
-{
-"k": "SCF",
-"n": "Julia Stierli",
-"kopf": 1,
-"std_kopf": 1,
-"std_tore": 0,
-"ecke_tritt": 0,
-"fs_tritt": 0,
-"std_kopftore": 0
-},
-{
-"k": "SCF",
-"n": "Alina Axtmann",
-"kopf": 2,
-"std_kopf": 0,
-"std_tore": 0,
-"ecke_tritt": 0,
-"fs_tritt": 0,
-"std_kopftore": 0
-},
-{
-"k": "SCF",
-"n": "Sabah Seghir",
-"kopf": 1,
-"std_kopf": 0,
-"std_tore": 0,
-"ecke_tritt": 0,
-"fs_tritt": 0,
-"std_kopftore": 0
-},
-{
-"k": "SCF",
-"n": "Selina Vobian",
-"kopf": 1,
-"std_kopf": 0,
-"std_tore": 0,
-"ecke_tritt": 0,
-"fs_tritt": 0,
-"std_kopftore": 0
-},
-{
-"k": "SCF",
-"n": "Nicole Ojukwu",
-"kopf": 0,
-"std_kopf": 0,
-"std_tore": 0,
-"ecke_tritt": 2,
-"fs_tritt": 2,
-"std_kopftore": 0
-},
-{
-"k": "SCF",
-"n": "Ilayda Acikgöz",
-"kopf": 0,
-"std_kopf": 0,
-"std_tore": 0,
-"ecke_tritt": 3,
-"fs_tritt": 1,
-"std_kopftore": 0
-}
-],
-"M05": [
-{
-"k": "M05",
-"n": "Sabina Jackson",
-"kopf": 1,
-"std_kopf": 1,
-"std_tore": 0,
-"ecke_tritt": 0,
-"fs_tritt": 0,
-"std_kopftore": 1
-},
-{
-"k": "M05",
-"n": "Kara Bathmann",
-"kopf": 1,
-"std_kopf": 0,
-"std_tore": 0,
-"ecke_tritt": 0,
-"fs_tritt": 0,
-"std_kopftore": 0
-},
-{
-"k": "M05",
-"n": "Gentiana Fetaj",
-"kopf": 1,
-"std_kopf": 0,
-"std_tore": 0,
-"ecke_tritt": 0,
-"fs_tritt": 0,
-"std_kopftore": 0
-},
-{
-"k": "M05",
-"n": "Vital Kats",
-"kopf": 0,
-"std_kopf": 0,
-"std_tore": 0,
-"ecke_tritt": 0,
-"fs_tritt": 1,
-"std_kopftore": 0
-},
-{
-"k": "M05",
-"n": "Paula Flach",
-"kopf": 0,
-"std_kopf": 0,
-"std_tore": 0,
-"ecke_tritt": 1,
-"fs_tritt": 0,
-"std_kopftore": 0
-},
-{
-"k": "M05",
-"n": "Emma Junold",
-"kopf": 0,
-"std_kopf": 0,
-"std_tore": 0,
-"ecke_tritt": 0,
-"fs_tritt": 1,
-"std_kopftore": 0
-}
-],
-"SVW": [
-{
-"k": "SVW",
-"n": "Elena Dhont",
-"kopf": 3,
-"std_kopf": 3,
-"std_tore": 0,
-"ecke_tritt": 0,
-"fs_tritt": 0,
-"std_kopftore": 1
-},
-{
-"k": "SVW",
-"n": "Michelle Ulbrich",
-"kopf": 3,
-"std_kopf": 3,
-"std_tore": 0,
-"ecke_tritt": 0,
-"fs_tritt": 0,
-"std_kopftore": 0
-},
-{
-"k": "SVW",
-"n": "Julia Magerl",
-"kopf": 2,
-"std_kopf": 2,
-"std_tore": 0,
-"ecke_tritt": 0,
-"fs_tritt": 0,
-"std_kopftore": 1
-},
-{
-"k": "SVW",
-"n": "Mei Shimada",
-"kopf": 2,
-"std_kopf": 1,
-"std_tore": 0,
-"ecke_tritt": 0,
-"fs_tritt": 0,
-"std_kopftore": 1
-},
-{
-"k": "SVW",
-"n": "Luna Vanzeir",
-"kopf": 2,
-"std_kopf": 1,
-"std_tore": 0,
-"ecke_tritt": 3,
-"fs_tritt": 2,
-"std_kopftore": 0
-},
-{
-"k": "SVW",
-"n": "Isabella Jaron",
-"kopf": 2,
-"std_kopf": 1,
-"std_tore": 0,
-"ecke_tritt": 0,
-"fs_tritt": 0,
-"std_kopftore": 0
-},
-{
-"k": "SVW",
-"n": "Sarah Gutmann",
-"kopf": 1,
-"std_kopf": 1,
-"std_tore": 0,
-"ecke_tritt": 0,
-"fs_tritt": 0,
-"std_kopftore": 1
-},
-{
-"k": "SVW",
-"n": "Medina Dešić",
-"kopf": 1,
-"std_kopf": 1,
-"std_tore": 0,
-"ecke_tritt": 0,
-"fs_tritt": 0,
-"std_kopftore": 0
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 2
 }
 ],
 "TSG": [
@@ -1016,7 +658,9 @@
 "std_tore": 0,
 "ecke_tritt": 0,
 "fs_tritt": 0,
-"std_kopftore": 1
+"std_kopftore": 1,
+"ecke_l": 0,
+"ecke_r": 0
 },
 {
 "k": "TSG",
@@ -1026,7 +670,9 @@
 "std_tore": 0,
 "ecke_tritt": 0,
 "fs_tritt": 0,
-"std_kopftore": 0
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0
 },
 {
 "k": "TSG",
@@ -1036,7 +682,9 @@
 "std_tore": 0,
 "ecke_tritt": 0,
 "fs_tritt": 1,
-"std_kopftore": 0
+"std_kopftore": 0,
+"ecke_l": 1,
+"ecke_r": 2
 },
 {
 "k": "TSG",
@@ -1046,7 +694,9 @@
 "std_tore": 0,
 "ecke_tritt": 0,
 "fs_tritt": 0,
-"std_kopftore": 0
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0
 },
 {
 "k": "TSG",
@@ -1056,7 +706,9 @@
 "std_tore": 0,
 "ecke_tritt": 0,
 "fs_tritt": 1,
-"std_kopftore": 0
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0
 },
 {
 "k": "TSG",
@@ -1066,7 +718,647 @@
 "std_tore": 0,
 "ecke_tritt": 0,
 "fs_tritt": 1,
-"std_kopftore": 0
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0
+}
+],
+"VFB": [
+{
+"k": "VFB",
+"n": "Maximiliane Rall",
+"kopf": 2,
+"std_kopf": 2,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0,
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0
+},
+{
+"k": "VFB",
+"n": "Nicole Billa",
+"kopf": 1,
+"std_kopf": 1,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0,
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0
+},
+{
+"k": "VFB",
+"n": "Dafina Redzepi",
+"kopf": 0,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 1,
+"fs_tritt": 0,
+"std_kopftore": 0,
+"ecke_l": 2,
+"ecke_r": 0
+},
+{
+"k": "VFB",
+"n": "Chantal Hagel",
+"kopf": 0,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 1,
+"fs_tritt": 0,
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 1
+}
+],
+"B04": [
+{
+"k": "B04",
+"n": "Loreen Bender",
+"kopf": 3,
+"std_kopf": 2,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0,
+"std_kopftore": 0,
+"ecke_l": 1,
+"ecke_r": 0
+},
+{
+"k": "B04",
+"n": "Lilla Turányi",
+"kopf": 2,
+"std_kopf": 2,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0,
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0
+},
+{
+"k": "B04",
+"n": "Valentina Mädl",
+"kopf": 1,
+"std_kopf": 1,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0,
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0
+},
+{
+"k": "B04",
+"n": "Paulina Platner",
+"kopf": 1,
+"std_kopf": 1,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0,
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0
+},
+{
+"k": "B04",
+"n": "Justine Brandau",
+"kopf": 2,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0,
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0
+},
+{
+"k": "B04",
+"n": "Lobke Loonen",
+"kopf": 2,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0,
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0
+},
+{
+"k": "B04",
+"n": "Paulina Tomasiak",
+"kopf": 1,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0,
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0
+},
+{
+"k": "B04",
+"n": "Cornelia Kramer",
+"kopf": 1,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0,
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0
+},
+{
+"k": "B04",
+"n": "Marlene Müller",
+"kopf": 1,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0,
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0
+},
+{
+"k": "B04",
+"n": "Carolin Simon",
+"kopf": 0,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 1,
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 2
+},
+{
+"k": "B04",
+"n": "Estrella Merino",
+"kopf": 0,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 1,
+"fs_tritt": 0,
+"std_kopftore": 0,
+"ecke_l": 2,
+"ecke_r": 0
+},
+{
+"k": "B04",
+"n": "Vanessa Fudalla",
+"kopf": 0,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0,
+"std_kopftore": 0,
+"ecke_l": 1,
+"ecke_r": 1
+}
+],
+"RBL": [
+{
+"k": "RBL",
+"n": "Delice Boboy",
+"kopf": 7,
+"std_kopf": 2,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0,
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0
+},
+{
+"k": "RBL",
+"n": "Andrea Norheim",
+"kopf": 1,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0,
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0
+},
+{
+"k": "RBL",
+"n": "Therese Simonsson",
+"kopf": 1,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0,
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0
+},
+{
+"k": "RBL",
+"n": "Nikée van Dijk",
+"kopf": 1,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0,
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0
+},
+{
+"k": "RBL",
+"n": "Annabel Schasching",
+"kopf": 0,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 3,
+"fs_tritt": 0,
+"std_kopftore": 0,
+"ecke_l": 1,
+"ecke_r": 2
+},
+{
+"k": "RBL",
+"n": "Alieke Tuin",
+"kopf": 0,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 1,
+"fs_tritt": 0,
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 2
+}
+],
+"HSV": [
+{
+"k": "HSV",
+"n": "Nikola Karczewska",
+"kopf": 3,
+"std_kopf": 2,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0,
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0
+},
+{
+"k": "HSV",
+"n": "Melanie Brunnthaler",
+"kopf": 3,
+"std_kopf": 1,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0,
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0
+},
+{
+"k": "HSV",
+"n": "Camilla Linberg",
+"kopf": 1,
+"std_kopf": 1,
+"std_tore": 0,
+"ecke_tritt": 2,
+"fs_tritt": 0,
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0
+},
+{
+"k": "HSV",
+"n": "Annaleen Böhler",
+"kopf": 1,
+"std_kopf": 1,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0,
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0
+},
+{
+"k": "HSV",
+"n": "Nigar Mirzaliyeva",
+"kopf": 1,
+"std_kopf": 1,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0,
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0
+}
+],
+"SCF": [
+{
+"k": "SCF",
+"n": "Lisa Karl",
+"kopf": 2,
+"std_kopf": 2,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0,
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0
+},
+{
+"k": "SCF",
+"n": "Carina Brunold",
+"kopf": 2,
+"std_kopf": 2,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0,
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0
+},
+{
+"k": "SCF",
+"n": "Luca-Emily Birkholz",
+"kopf": 2,
+"std_kopf": 1,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0,
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0
+},
+{
+"k": "SCF",
+"n": "Julia Stierli",
+"kopf": 1,
+"std_kopf": 1,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0,
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0
+},
+{
+"k": "SCF",
+"n": "Alina Axtmann",
+"kopf": 2,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0,
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0
+},
+{
+"k": "SCF",
+"n": "Sabah Seghir",
+"kopf": 1,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0,
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0
+},
+{
+"k": "SCF",
+"n": "Selina Vobian",
+"kopf": 1,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0,
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0
+},
+{
+"k": "SCF",
+"n": "Nicole Ojukwu",
+"kopf": 0,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 2,
+"fs_tritt": 2,
+"std_kopftore": 0,
+"ecke_l": 5,
+"ecke_r": 1
+},
+{
+"k": "SCF",
+"n": "Ilayda Acikgöz",
+"kopf": 0,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 3,
+"fs_tritt": 1,
+"std_kopftore": 0,
+"ecke_l": 2,
+"ecke_r": 0
+}
+],
+"M05": [
+{
+"k": "M05",
+"n": "Sabina Jackson",
+"kopf": 1,
+"std_kopf": 1,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0,
+"std_kopftore": 1,
+"ecke_l": 0,
+"ecke_r": 0
+},
+{
+"k": "M05",
+"n": "Kara Bathmann",
+"kopf": 1,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0,
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0
+},
+{
+"k": "M05",
+"n": "Gentiana Fetaj",
+"kopf": 1,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0,
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 1
+},
+{
+"k": "M05",
+"n": "Vital Kats",
+"kopf": 0,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 1,
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0
+},
+{
+"k": "M05",
+"n": "Paula Flach",
+"kopf": 0,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 1,
+"fs_tritt": 0,
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 1
+},
+{
+"k": "M05",
+"n": "Emma Junold",
+"kopf": 0,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 1,
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0
+}
+],
+"SVW": [
+{
+"k": "SVW",
+"n": "Elena Dhont",
+"kopf": 3,
+"std_kopf": 3,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0,
+"std_kopftore": 1,
+"ecke_l": 0,
+"ecke_r": 0
+},
+{
+"k": "SVW",
+"n": "Michelle Ulbrich",
+"kopf": 3,
+"std_kopf": 3,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0,
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0
+},
+{
+"k": "SVW",
+"n": "Julia Magerl",
+"kopf": 2,
+"std_kopf": 2,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0,
+"std_kopftore": 1,
+"ecke_l": 0,
+"ecke_r": 0
+},
+{
+"k": "SVW",
+"n": "Mei Shimada",
+"kopf": 2,
+"std_kopf": 1,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0,
+"std_kopftore": 1,
+"ecke_l": 0,
+"ecke_r": 0
+},
+{
+"k": "SVW",
+"n": "Luna Vanzeir",
+"kopf": 2,
+"std_kopf": 1,
+"std_tore": 0,
+"ecke_tritt": 3,
+"fs_tritt": 2,
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 2
+},
+{
+"k": "SVW",
+"n": "Isabella Jaron",
+"kopf": 2,
+"std_kopf": 1,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0,
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0
+},
+{
+"k": "SVW",
+"n": "Sarah Gutmann",
+"kopf": 1,
+"std_kopf": 1,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0,
+"std_kopftore": 1,
+"ecke_l": 0,
+"ecke_r": 0
+},
+{
+"k": "SVW",
+"n": "Medina Dešić",
+"kopf": 1,
+"std_kopf": 1,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0,
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0
+},
+{
+"k": "SVW",
+"n": "Lilli Purtscheller",
+"kopf": 0,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0,
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 1
+},
+{
+"k": "SVW",
+"n": "Jenny Hipp",
+"kopf": 0,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0,
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 1
 }
 ]
 },

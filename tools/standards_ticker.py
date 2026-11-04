@@ -55,7 +55,8 @@ def ist_schuetzin(n, satz):
                 or re.search(r"(?<![\w-])" + q + r" (?:bringt|schlägt|tritt|zirkelt|flankt|chippt|hebt|bedient|serviert|legt)\b", satz)
                 or re.search(r"\b(?:bringt|schlägt|tritt|zirkelt|flankt|chippt|hebt|serviert) (?:[\wÄÖÜäöüß]+ ){0,1}" + q + r"(?![\w-])", satz))
 
-zaehl = collections.defaultdict(lambda: {"k": None, "n": None, "kopf": 0, "std_kopf": 0, "std_tore": 0, "ecke_tritt": 0, "fs_tritt": 0, "std_kopftore": 0})
+SEITE = re.compile(r"von (?:der )?(links|rechts|linken|rechten)\b", re.I)
+zaehl = collections.defaultdict(lambda: {"k": None, "n": None, "kopf": 0, "std_kopf": 0, "std_tore": 0, "ecke_tritt": 0, "fs_tritt": 0, "std_kopftore": 0, "ecke_l": 0, "ecke_r": 0})
 spiele = 0
 OHNE = []   # Kopfbälle nach Standard ohne erkannte Spielerin (zum Nachschärfen der Regeln)
 for t in SP["spieltage"]:
@@ -122,10 +123,24 @@ for t in SP["spieltage"]:
                 if std and torszene and offen.get(n, 0) > 0:
                     offen[n] -= 1; d["std_kopftore"] += 1
                 if DEBUG and std: print("KOPF", p["id"], namen[n][1], "|", x[:220].replace("\n", " "))
+            # Ecken nach Seite (Finn 04.11.2026): wer schlägt Ecken von links, wer von rechts
+            if re.search(r"Ecke|Eckball", x) and not re.search(r"Freisto", x):
+                seite_x = SEITE.search(x) if len(re.findall(r"Ecke|Eckball", x)) == 1 else None
+                getreten = set()
+                for satz in saetze:
+                    if not re.search(r"Ecke|Eckball|(?:flankt|bringt|schlägt|tritt) (?:den Ball|das Leder|die Kugel|den Standard)", satz): continue
+                    for n in such:
+                        if n in getreten or not re.search(r"(?<![\w-])" + re.escape(n) + r"(?![\w-])", satz): continue
+                        if ist_schuetzin(n, satz) or any(m.group(1) == n for r in TRITT for m in [r.search(satz)] if m):
+                            sm = SEITE.search(satz) or seite_x
+                            if sm:
+                                getreten.add(n); key = namen[n][0] + "|" + n; d = zaehl[key]; d["k"], d["n"] = namen[n]
+                                d["ecke_l" if sm.group(1).lower().startswith("link") else "ecke_r"] += 1
+                                if DEBUG: print("SEITE", p["id"], namen[n][1], sm.group(1), "|", satz[:140])
 
 teams = collections.defaultdict(list)
 for key, d in zaehl.items():
-    if d["kopf"] or d["std_tore"] or d["ecke_tritt"] or d["fs_tritt"]: teams[d["k"]].append(d)
+    if d["kopf"] or d["std_tore"] or d["ecke_tritt"] or d["fs_tritt"] or d.get("ecke_l") or d.get("ecke_r"): teams[d["k"]].append(d)
 for k in teams: teams[k].sort(key=lambda d: (-d["std_tore"], -d["std_kopf"], -d["kopf"]))
 json.dump({"spiele": spiele, "teams": teams, "ohne_zuordnung": OHNE[-60:]}, open(AUS, "w", encoding="utf-8"), ensure_ascii=False, indent=0)
 print(f"{AUS}: {spiele} Spiele, {sum(len(v) for v in teams.values())} Spielerinnen")

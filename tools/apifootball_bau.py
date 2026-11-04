@@ -467,7 +467,10 @@ try:
             f = finde(k, n, None); return (profil.get(f["id"]) or {}).get("gr") if f else None
         stdt[k] = {"kopf": [[x["n"], x["std_kopf"], max(x["std_tore"], x.get("std_kopftore", 0)), gr(x["n"])] for x in sorted(L, key=lambda q: (-q["std_kopf"], -max(q["std_tore"], q.get("std_kopftore", 0)))) if x["std_kopf"] or x["std_tore"]][:3],
                    "ecke": [[x["n"], x["ecke_tritt"]] for x in sorted(L, key=lambda x: -x["ecke_tritt"]) if x["ecke_tritt"]][:2],
-                   "fs": [[x["n"], x["fs_tritt"]] for x in sorted(L, key=lambda x: -x["fs_tritt"]) if x["fs_tritt"]][:2]}
+                   "fs": [[x["n"], x["fs_tritt"]] for x in sorted(L, key=lambda x: -x["fs_tritt"]) if x["fs_tritt"]][:2],
+                   # Ecken nach Seite: nur mit mindestens 2 Belegen (Finn 04.11.2026)
+                   "seiten": {s: [max(((x["n"], x.get("ecke_" + s, 0)) for x in L), key=lambda q: q[1])[0], max(x.get("ecke_" + s, 0) for x in L)]
+                              for s in ("l", "r") if L and max(x.get("ecke_" + s, 0) for x in L) >= 2}}
 except FileNotFoundError: pass
 
 # ---------------------------------------------------------------- News-Kandidaten (Testkopie; später in die News-Läufe)
