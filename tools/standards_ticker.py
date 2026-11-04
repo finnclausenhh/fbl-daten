@@ -56,7 +56,8 @@ def ist_schuetzin(n, satz):
                 or re.search(r"\b(?:bringt|schlägt|tritt|zirkelt|flankt|chippt|hebt|serviert) (?:[\wÄÖÜäöüß]+ ){0,1}" + q + r"(?![\w-])", satz))
 
 SEITE = re.compile(r"von (?:der )?(links|rechts|linken|rechten)\b", re.I)
-zaehl = collections.defaultdict(lambda: {"k": None, "n": None, "kopf": 0, "std_kopf": 0, "std_tore": 0, "ecke_tritt": 0, "fs_tritt": 0, "std_kopftore": 0, "ecke_l": 0, "ecke_r": 0})
+FS_SEITE = re.compile(r"(von links|von rechts|linken|rechten|halblinke[rn]?|halbrechte[rn]?)\b", re.I)
+zaehl = collections.defaultdict(lambda: {"k": None, "n": None, "kopf": 0, "std_kopf": 0, "std_tore": 0, "ecke_tritt": 0, "fs_tritt": 0, "std_kopftore": 0, "ecke_l": 0, "ecke_r": 0, "fs_l": 0, "fs_r": 0, "fs_direkt": 0, "fs_flanke": 0})
 spiele = 0
 OHNE = []   # Kopfbälle nach Standard ohne erkannte Spielerin (zum Nachschärfen der Regeln)
 for t in SP["spieltage"]:
@@ -123,6 +124,24 @@ for t in SP["spieltage"]:
                 if std and torszene and offen.get(n, 0) > 0:
                     offen[n] -= 1; d["std_kopftore"] += 1
                 if DEBUG and std: print("KOPF", p["id"], namen[n][1], "|", x[:220].replace("\n", " "))
+            # Freistöße (Finn 04.11.2026): Schützin mit Seite und Art (direkt aufs Tor oder Flanke), Entfernung wenn genannt
+            if re.search(r"Freisto", x) and not re.search(r"\(\d+\.\)", x):
+                getreten = set()
+                for i, satz in enumerate(saetze):
+                    if not (re.search(r"Freisto", satz) or (i and re.search(r"Freisto", saetze[i - 1]))): continue
+                    for n in such:
+                        if n in getreten or not re.search(r"(?<![\w-])" + re.escape(n) + r"(?![\w-])", satz): continue
+                        if not (ist_schuetzin(n, satz) or any(m.group(1) == n for r in TRITT for m in [r.search(satz)] if m)
+                                or re.search(re.escape(n) + r"\w* (?:probiert es|versucht es|zieht ab|schießt|zirkelt|tritt|bringt|schlägt)", satz)): continue
+                        getreten.add(n); key = namen[n][0] + "|" + n; d = zaehl[key]; d["k"], d["n"] = namen[n]
+                        sm = FS_SEITE.search(satz)
+                        if sm: d["fs_l" if "link" in sm.group(1).lower() else "fs_r"] += 1
+                        flanke = re.search(r"Flanke|flankt|Hereingabe|Pass\b|in den (Sechzehner|Strafraum|Fünfer)|in die (Mitte|Box)|an den (Fünfer|Elfmeterpunkt|langen|kurzen|ersten|zweiten)|vors Tor|vor das Tor|vor den (Fünfer|Kasten)|lang und hoch|hoch rein", satz)
+                        direkt = bool(re.search(r"direkt|aufs Tor|auf das Tor|über die Mauer|in die Mauer|zirkelt|probiert es|zieht ab|schießt", satz)) and not flanke
+                        d["fs_direkt" if direkt else "fs_flanke"] += 1
+                        mm = re.search(r"(\d{2}) Metern", satz)
+                        if mm: d.setdefault("fs_meter", []).append(int(mm.group(1)))
+                        if DEBUG: print("FS", p["id"], namen[n][1], "direkt" if direkt else "flanke", sm.group(1) if sm else "-", mm.group(1) if mm else "-", "|", satz[:140])
             # Ecken nach Seite (Finn 04.11.2026): wer schlägt Ecken von links, wer von rechts
             if re.search(r"Ecke|Eckball", x) and not re.search(r"Freisto", x):
                 seite_x = SEITE.search(x) if len(re.findall(r"Ecke|Eckball", x)) == 1 else None
@@ -140,7 +159,7 @@ for t in SP["spieltage"]:
 
 teams = collections.defaultdict(list)
 for key, d in zaehl.items():
-    if d["kopf"] or d["std_tore"] or d["ecke_tritt"] or d["fs_tritt"] or d.get("ecke_l") or d.get("ecke_r"): teams[d["k"]].append(d)
+    if d["kopf"] or d["std_tore"] or d["ecke_tritt"] or d["fs_tritt"] or d.get("ecke_l") or d.get("ecke_r") or d.get("fs_direkt") or d.get("fs_flanke"): teams[d["k"]].append(d)
 for k in teams: teams[k].sort(key=lambda d: (-d["std_tore"], -d["std_kopf"], -d["kopf"]))
 json.dump({"spiele": spiele, "teams": teams, "ohne_zuordnung": OHNE[-60:]}, open(AUS, "w", encoding="utf-8"), ensure_ascii=False, indent=0)
 print(f"{AUS}: {spiele} Spiele, {sum(len(v) for v in teams.values())} Spielerinnen")

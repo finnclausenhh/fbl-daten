@@ -329,6 +329,23 @@ for k, L in teamsp.items():
         v = [x[f] for x in L if x.get(f) is not None]; return (round(sum(v) / len(v), nk), len(v)) if v else (None, 0)
     sch, n = avg("sch"); schg, _ = avg("schg"); tor, _ = avg("tor"); torg, _ = avg("torg"); xg, nx = avg("xg", 2); xgg, _ = avg("xgg", 2)
     if n: schuesse[k] = {"f": sch, "g": schg, "tf": tor, "tg": torg, "xf": xg, "xgg": xgg, "n": n, "nx": nx}
+# Elfmeter der Vorsaison (Finn 04.11.2026): wer im aktuellen Kader letzte Saison für denselben Verein geschossen hat
+elf_vorsaison = {}
+try:
+    for g in lade(PA(f"saison{SAISON - 1}", "spiele_details.json")):
+        for ev in g.get("events") or []:
+            if ev["type"] != "Goal" or ev["detail"] not in ("Penalty", "Missed Penalty"): continue
+            k = TEAM.get(ev["team"]["id"]); nm = (ev.get("player") or {}).get("name"); f = finde(k, nm, None) if k else None
+            von = None
+            if not f:
+                # gewechselt: eindeutiger Nachname in einem anderen Kader (z. B. Mühlhaus, letzte Saison Werder)
+                tr = [x for kk in PRO_K for x in [finde(kk, nm, None)] if x]
+                if len(tr) != 1: continue
+                f, von = tr[0], ev["team"]["name"].replace(" W", "").strip()
+            e = elf_vorsaison.setdefault(f["k"], {}).setdefault(f["n"], [0, 0, von]); e[0 if ev["detail"] == "Penalty" else 1] += 1
+    elf_vorsaison = {k: sorted(([n, t, v] + ([w] if w else []) for n, (t, v, w) in d.items()), key=lambda x: -(x[1] + x[2])) for k, d in elf_vorsaison.items()}
+except Exception as e:
+    print("Vorsaison-Elfmeter:", e)
 # Freistöße pro Spiel: Fouls des Gegners (API-Football zählt Freistöße nicht getrennt)
 freist = {}
 for k, L in teamsp.items():
@@ -468,6 +485,10 @@ try:
         stdt[k] = {"kopf": [[x["n"], x["std_kopf"], max(x["std_tore"], x.get("std_kopftore", 0)), gr(x["n"])] for x in sorted(L, key=lambda q: (-q["std_kopf"], -max(q["std_tore"], q.get("std_kopftore", 0)))) if x["std_kopf"] or x["std_tore"]][:3],
                    "ecke": [[x["n"], x["ecke_tritt"]] for x in sorted(L, key=lambda x: -x["ecke_tritt"]) if x["ecke_tritt"]][:2],
                    "fs": [[x["n"], x["fs_tritt"]] for x in sorted(L, key=lambda x: -x["fs_tritt"]) if x["fs_tritt"]][:2],
+                   # Freistöße: direkt aufs Tor (ab 1 Beleg) und Seite (ab 2 Belegen)
+                   "fs_direkt": [[x["n"], x.get("fs_direkt", 0)] for x in sorted(L, key=lambda x: -x.get("fs_direkt", 0)) if x.get("fs_direkt")][:2],
+                   "fs_seiten": {s: [max(L, key=lambda q: q.get("fs_" + s, 0))["n"], max(x.get("fs_" + s, 0) for x in L)]
+                                 for s in ("l", "r") if L and max(x.get("fs_" + s, 0) for x in L) >= 2},
                    # Ecken nach Seite: nur mit mindestens 2 Belegen (Finn 04.11.2026)
                    "seiten": {s: [max(((x["n"], x.get("ecke_" + s, 0)) for x in L), key=lambda q: q[1])[0], max(x.get("ecke_" + s, 0) for x in L)]
                               for s in ("l", "r") if L and max(x.get("ecke_" + s, 0) for x in L) >= 2}}
@@ -663,7 +684,7 @@ news = [n for n in news if not any(n["id"].startswith(x) for x in AUSBL)]
 out = {"stand": JETZT_B().strftime("%Y-%m-%dT%H:%M"), "saison": SAISON, "md": max((s["md"] for s in spiele.values()), default=0),
        "hinweis": "Noten und Teamwerte: API-Football. Minuten, Startelf, Tore, Vorlagen: Sportschau und eigene Auswertung.",
        "sp": profil, "spiele": spiele, "form": {"tief": tief, "hoch": hoch, "stabil": stabil, "trifft": trifft[:6], "leer": leer[:6], "lauf": lauf[:6]}, "team": teamform, "stdt": stdt, "news": news, "gelb_pruefen": gelb_pruefen, "sperren_dfb": SPERREN, "xg": xgcheck[:8], "xgmd": xgmds,
-       "ecken": ecken, "freist": freist, "schuesse": schuesse, "elf": elfer, "best": best, "vorschau": vorschau, "ungeklaert": sorted(ungeklaert)}
+       "ecken": ecken, "freist": freist, "schuesse": schuesse, "elf_vorsaison": elf_vorsaison, "elf": elfer, "best": best, "vorschau": vorschau, "ungeklaert": sorted(ungeklaert)}
 os.makedirs(os.path.dirname(os.path.abspath(AUS)), exist_ok=True)
 json.dump(out, open(AUS, "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
 print(f"{AUS}: {len(profil)} Profile, {len(spiele)} Spiele, zugeordnet {len(ID)}, ungeklärt {len(ungeklaert)}, Vorschau {len(vorschau)}")

@@ -12,7 +12,11 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "FCB",
@@ -24,7 +28,11 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "FCB",
@@ -36,7 +44,11 @@
 "fs_tritt": 0,
 "std_kopftore": 2,
 "ecke_l": 0,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "FCB",
@@ -48,7 +60,11 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "FCB",
@@ -60,7 +76,11 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "FCB",
@@ -72,7 +92,11 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 1,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "FCB",
@@ -84,7 +108,11 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "FCB",
@@ -96,7 +124,11 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "FCB",
@@ -108,7 +140,11 @@
 "fs_tritt": 6,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 1
+"ecke_r": 1,
+"fs_l": 3,
+"fs_r": 1,
+"fs_direkt": 1,
+"fs_flanke": 4
 }
 ],
 "FCU": [
@@ -122,7 +158,11 @@
 "fs_tritt": 0,
 "std_kopftore": 1,
 "ecke_l": 0,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "FCU",
@@ -134,7 +174,11 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "FCU",
@@ -146,7 +190,11 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "FCU",
@@ -158,7 +206,11 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "FCU",
@@ -170,7 +222,11 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "FCU",
@@ -182,7 +238,11 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "FCU",
@@ -194,7 +254,11 @@
 "fs_tritt": 2,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 1,
+"fs_r": 1,
+"fs_direkt": 0,
+"fs_flanke": 2
 },
 {
 "k": "FCU",
@@ -206,7 +270,27 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 1,
-"ecke_r": 1
+"ecke_r": 1,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
+},
+{
+"k": "FCU",
+"n": "Lisanne Gräwe",
+"kopf": 0,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0,
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 1,
+"fs_flanke": 0
 },
 {
 "k": "FCU",
@@ -218,7 +302,27 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 1
+"ecke_r": 1,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
+},
+{
+"k": "FCU",
+"n": "Judit Pujols",
+"kopf": 0,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0,
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0,
+"fs_l": 1,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 1
 }
 ],
 "KOE": [
@@ -232,7 +336,11 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "KOE",
@@ -244,7 +352,11 @@
 "fs_tritt": 0,
 "std_kopftore": 1,
 "ecke_l": 0,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "KOE",
@@ -256,7 +368,11 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "KOE",
@@ -268,7 +384,11 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "KOE",
@@ -280,7 +400,11 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "KOE",
@@ -292,7 +416,11 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "KOE",
@@ -304,7 +432,11 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "KOE",
@@ -316,7 +448,11 @@
 "fs_tritt": 1,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 1,
+"fs_direkt": 0,
+"fs_flanke": 1
 },
 {
 "k": "KOE",
@@ -328,7 +464,11 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 1,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "KOE",
@@ -340,7 +480,11 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "KOE",
@@ -352,7 +496,11 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 1,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "KOE",
@@ -364,7 +512,11 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 2
+"ecke_r": 2,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 }
 ],
 "SGE": [
@@ -378,7 +530,11 @@
 "fs_tritt": 0,
 "std_kopftore": 1,
 "ecke_l": 0,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "SGE",
@@ -390,7 +546,11 @@
 "fs_tritt": 0,
 "std_kopftore": 2,
 "ecke_l": 1,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "SGE",
@@ -402,7 +562,11 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "SGE",
@@ -414,7 +578,11 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "SGE",
@@ -426,7 +594,11 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "SGE",
@@ -438,7 +610,11 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "SGE",
@@ -450,7 +626,11 @@
 "fs_tritt": 2,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 1
+"ecke_r": 1,
+"fs_l": 1,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 2
 }
 ],
 "WOB": [
@@ -464,7 +644,11 @@
 "fs_tritt": 0,
 "std_kopftore": 1,
 "ecke_l": 0,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "WOB",
@@ -476,7 +660,11 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 1
+"ecke_r": 1,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "WOB",
@@ -488,7 +676,11 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "WOB",
@@ -500,7 +692,11 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "WOB",
@@ -512,7 +708,11 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "WOB",
@@ -524,7 +724,11 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "WOB",
@@ -536,7 +740,11 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "WOB",
@@ -548,7 +756,11 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 1,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 1,
+"fs_direkt": 0,
+"fs_flanke": 2
 },
 {
 "k": "WOB",
@@ -560,7 +772,11 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 1
+"ecke_r": 1,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 }
 ],
 "FCN": [
@@ -574,7 +790,11 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "FCN",
@@ -586,7 +806,11 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "FCN",
@@ -598,7 +822,11 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "FCN",
@@ -610,7 +838,11 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 1
+"ecke_r": 1,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "FCN",
@@ -622,7 +854,11 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "FCN",
@@ -634,7 +870,11 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 3,
-"ecke_r": 2
+"ecke_r": 2,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "FCN",
@@ -646,7 +886,11 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 2
+"ecke_r": 2,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 1
 }
 ],
 "TSG": [
@@ -660,7 +904,11 @@
 "fs_tritt": 0,
 "std_kopftore": 1,
 "ecke_l": 0,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "TSG",
@@ -672,7 +920,11 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "TSG",
@@ -684,7 +936,11 @@
 "fs_tritt": 1,
 "std_kopftore": 0,
 "ecke_l": 1,
-"ecke_r": 2
+"ecke_r": 2,
+"fs_l": 1,
+"fs_r": 1,
+"fs_direkt": 0,
+"fs_flanke": 2
 },
 {
 "k": "TSG",
@@ -696,19 +952,11 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 0
-},
-{
-"k": "TSG",
-"n": "Valesca Ampoorter",
-"kopf": 0,
-"std_kopf": 0,
-"std_tore": 0,
-"ecke_tritt": 0,
-"fs_tritt": 1,
-"std_kopftore": 0,
-"ecke_l": 0,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "TSG",
@@ -720,7 +968,30 @@
 "fs_tritt": 1,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 2,
+"fs_r": 0,
+"fs_direkt": 1,
+"fs_flanke": 2,
+"fs_meter": [
+30
+]
+},
+{
+"k": "TSG",
+"n": "Valesca Ampoorter",
+"kopf": 0,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 1,
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 1,
+"fs_direkt": 1,
+"fs_flanke": 1
 }
 ],
 "VFB": [
@@ -734,7 +1005,11 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "VFB",
@@ -746,7 +1021,11 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 1
 },
 {
 "k": "VFB",
@@ -758,7 +1037,11 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 2,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 2
 },
 {
 "k": "VFB",
@@ -770,7 +1053,11 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 1
+"ecke_r": 1,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 }
 ],
 "B04": [
@@ -784,7 +1071,11 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 1,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "B04",
@@ -796,7 +1087,11 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "B04",
@@ -808,7 +1103,11 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "B04",
@@ -820,7 +1119,11 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "B04",
@@ -832,7 +1135,11 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "B04",
@@ -844,7 +1151,11 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "B04",
@@ -856,7 +1167,14 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 1,
+"fs_direkt": 0,
+"fs_flanke": 1,
+"fs_meter": [
+20
+]
 },
 {
 "k": "B04",
@@ -868,7 +1186,11 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 1
 },
 {
 "k": "B04",
@@ -880,7 +1202,11 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "B04",
@@ -892,7 +1218,11 @@
 "fs_tritt": 1,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 2
+"ecke_r": 2,
+"fs_l": 1,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 1
 },
 {
 "k": "B04",
@@ -904,7 +1234,11 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 2,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "B04",
@@ -916,7 +1250,11 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 1,
-"ecke_r": 1
+"ecke_r": 1,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 }
 ],
 "RBL": [
@@ -930,7 +1268,11 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "RBL",
@@ -942,7 +1284,11 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "RBL",
@@ -954,7 +1300,11 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "RBL",
@@ -966,7 +1316,11 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "RBL",
@@ -978,7 +1332,11 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 1,
-"ecke_r": 2
+"ecke_r": 2,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "RBL",
@@ -990,69 +1348,14 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 2
-}
-],
-"HSV": [
-{
-"k": "HSV",
-"n": "Nikola Karczewska",
-"kopf": 3,
-"std_kopf": 2,
-"std_tore": 0,
-"ecke_tritt": 0,
-"fs_tritt": 0,
-"std_kopftore": 0,
-"ecke_l": 0,
-"ecke_r": 0
-},
-{
-"k": "HSV",
-"n": "Melanie Brunnthaler",
-"kopf": 3,
-"std_kopf": 1,
-"std_tore": 0,
-"ecke_tritt": 0,
-"fs_tritt": 0,
-"std_kopftore": 0,
-"ecke_l": 0,
-"ecke_r": 0
-},
-{
-"k": "HSV",
-"n": "Camilla Linberg",
-"kopf": 1,
-"std_kopf": 1,
-"std_tore": 0,
-"ecke_tritt": 2,
-"fs_tritt": 0,
-"std_kopftore": 0,
-"ecke_l": 0,
-"ecke_r": 0
-},
-{
-"k": "HSV",
-"n": "Annaleen Böhler",
-"kopf": 1,
-"std_kopf": 1,
-"std_tore": 0,
-"ecke_tritt": 0,
-"fs_tritt": 0,
-"std_kopftore": 0,
-"ecke_l": 0,
-"ecke_r": 0
-},
-{
-"k": "HSV",
-"n": "Nigar Mirzaliyeva",
-"kopf": 1,
-"std_kopf": 1,
-"std_tore": 0,
-"ecke_tritt": 0,
-"fs_tritt": 0,
-"std_kopftore": 0,
-"ecke_l": 0,
-"ecke_r": 0
+"ecke_r": 2,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 1,
+"fs_flanke": 0,
+"fs_meter": [
+35
+]
 }
 ],
 "SCF": [
@@ -1066,7 +1369,11 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "SCF",
@@ -1078,7 +1385,11 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "SCF",
@@ -1090,7 +1401,11 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "SCF",
@@ -1102,7 +1417,11 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "SCF",
@@ -1114,7 +1433,11 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "SCF",
@@ -1126,7 +1449,11 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "SCF",
@@ -1138,7 +1465,11 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "SCF",
@@ -1150,7 +1481,15 @@
 "fs_tritt": 2,
 "std_kopftore": 0,
 "ecke_l": 5,
-"ecke_r": 1
+"ecke_r": 1,
+"fs_l": 1,
+"fs_r": 1,
+"fs_direkt": 1,
+"fs_flanke": 4,
+"fs_meter": [
+30,
+18
+]
 },
 {
 "k": "SCF",
@@ -1162,7 +1501,117 @@
 "fs_tritt": 1,
 "std_kopftore": 0,
 "ecke_l": 2,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 1,
+"fs_r": 2,
+"fs_direkt": 0,
+"fs_flanke": 3,
+"fs_meter": [
+19,
+28,
+28
+]
+}
+],
+"HSV": [
+{
+"k": "HSV",
+"n": "Nikola Karczewska",
+"kopf": 3,
+"std_kopf": 2,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0,
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
+},
+{
+"k": "HSV",
+"n": "Melanie Brunnthaler",
+"kopf": 3,
+"std_kopf": 1,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0,
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
+},
+{
+"k": "HSV",
+"n": "Camilla Linberg",
+"kopf": 1,
+"std_kopf": 1,
+"std_tore": 0,
+"ecke_tritt": 2,
+"fs_tritt": 0,
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
+},
+{
+"k": "HSV",
+"n": "Annaleen Böhler",
+"kopf": 1,
+"std_kopf": 1,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0,
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
+},
+{
+"k": "HSV",
+"n": "Nigar Mirzaliyeva",
+"kopf": 1,
+"std_kopf": 1,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0,
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
+},
+{
+"k": "HSV",
+"n": "Svea Stoldt",
+"kopf": 0,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0,
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 1,
+"fs_flanke": 0,
+"fs_meter": [
+30
+]
 }
 ],
 "M05": [
@@ -1176,7 +1625,11 @@
 "fs_tritt": 0,
 "std_kopftore": 1,
 "ecke_l": 0,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "M05",
@@ -1188,7 +1641,11 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "M05",
@@ -1200,7 +1657,11 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 1
+"ecke_r": 1,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "M05",
@@ -1212,7 +1673,14 @@
 "fs_tritt": 1,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 2,
+"fs_flanke": 0,
+"fs_meter": [
+18
+]
 },
 {
 "k": "M05",
@@ -1224,7 +1692,11 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 1
+"ecke_r": 1,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "M05",
@@ -1236,7 +1708,11 @@
 "fs_tritt": 1,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 1,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 1
 }
 ],
 "SVW": [
@@ -1250,7 +1726,11 @@
 "fs_tritt": 0,
 "std_kopftore": 1,
 "ecke_l": 0,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "SVW",
@@ -1262,7 +1742,11 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "SVW",
@@ -1274,7 +1758,11 @@
 "fs_tritt": 0,
 "std_kopftore": 1,
 "ecke_l": 0,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "SVW",
@@ -1286,7 +1774,11 @@
 "fs_tritt": 0,
 "std_kopftore": 1,
 "ecke_l": 0,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "SVW",
@@ -1298,7 +1790,11 @@
 "fs_tritt": 2,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 2
+"ecke_r": 2,
+"fs_l": 0,
+"fs_r": 1,
+"fs_direkt": 0,
+"fs_flanke": 3
 },
 {
 "k": "SVW",
@@ -1310,7 +1806,11 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "SVW",
@@ -1322,7 +1822,11 @@
 "fs_tritt": 0,
 "std_kopftore": 1,
 "ecke_l": 0,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "SVW",
@@ -1334,7 +1838,11 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 0
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "SVW",
@@ -1346,7 +1854,11 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 1
+"ecke_r": 1,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "SVW",
@@ -1358,7 +1870,11 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 1
+"ecke_r": 1,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 }
 ]
 },
