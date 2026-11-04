@@ -456,7 +456,7 @@ try:
     for k, L in T.items():
         def gr(n):
             f = finde(k, n, None); return (profil.get(f["id"]) or {}).get("gr") if f else None
-        stdt[k] = {"kopf": [[x["n"], x["std_kopf"], x["std_tore"], gr(x["n"])] for x in L if x["std_kopf"] or x["std_tore"]][:3],
+        stdt[k] = {"kopf": [[x["n"], x["std_kopf"], max(x["std_tore"], x.get("std_kopftore", 0)), gr(x["n"])] for x in sorted(L, key=lambda q: (-q["std_kopf"], -max(q["std_tore"], q.get("std_kopftore", 0)))) if x["std_kopf"] or x["std_tore"]][:3],
                    "ecke": [[x["n"], x["ecke_tritt"]] for x in sorted(L, key=lambda x: -x["ecke_tritt"]) if x["ecke_tritt"]][:2],
                    "fs": [[x["n"], x["fs_tritt"]] for x in sorted(L, key=lambda x: -x["fs_tritt"]) if x["fs_tritt"]][:2]}
 except FileNotFoundError: pass
@@ -573,8 +573,7 @@ if xgcheck:
 def nachname(n): return n.split(" ")[-1]
 if stdt:
     # Standard-Check mit Messlatte (Finn 04.11.2026). Liste: alle mit mindestens 3 Kopfbällen nach Standard oder einem
-    # Kopfballtor danach. Grafik: höchstens 6, alle Torschützinnen plus die meisten Kopfbälle (Gleichstand: mehr Kopfbälle
-    # insgesamt, dann Größe). Größen aus API-Football, sonst aus groessen.json (Name -> cm, Stammdaten soccerdonna/Vereine).
+    # Kopfballtor danach. Grafik: die ersten 6 dieser Liste. Größen aus API-Football, sonst aus groessen.json (Name -> cm, Stammdaten soccerdonna/Vereine).
     try: GRS = lade(P("groessen.json"))
     except FileNotFoundError: GRS = {}
     POSW = {"TW": "Tor", "ABW": "Abwehr", "MF": "Mittelfeld", "ST": "Sturm"}
@@ -583,17 +582,17 @@ if stdt:
         for x in L:
             if not (x["std_kopf"] or x["std_tore"]): continue
             f = finde(k, x["n"], None); pr = (profil.get(f["id"]) or {}) if f else {}
-            alle.append({"n": x["n"], "k": k, "kopf": x["std_kopf"], "tore": x["std_tore"], "_k": x["kopf"],
+            alle.append({"n": x["n"], "k": k, "kopf": x["std_kopf"], "tore": x.get("std_kopftore", 0), "_k": x["kopf"],
                          "cm": pr.get("gr") or GRS.get(x["n"]), "pos": POSW.get((f or {}).get("pos", ""), "")})
     liste = sorted([x for x in alle if x["kopf"] >= 3 or (x["tore"] and x["kopf"])], key=lambda q: (-q["kopf"], -q["tore"], -q["_k"], -(q["cm"] or 0)))
-    torj = [x for x in liste if x["tore"]][:6]
-    sp = sorted([x for x in liste if not x["tore"]][:6 - len(torj)] + torj, key=lambda q: (-q["kopf"], -q["tore"], -q["_k"]))
+    torj = [x for x in liste if x["tore"]]
+    sp = liste[:6]   # Grafik: die 6 mit den meisten Kopfbällen nach Standard (Gleichstand: Tore, Kopfbälle insgesamt, Größe)
     for x in liste: x.pop("_k", None)
     if sp:
         top = sp[0]; ohne = [x for x in torj]
         titel = (f"{nachname(top['n'])} köpft am häufigsten, die Tore machen andere" if not top["tore"] and torj
-                 else f"{nachname(top['n'])} ist nach Standards am gefährlichsten")
-        news.append({"id": f"af-standards-md{MDL}", "zeit": None, "verein": VN(top["k"]), "tags": ["STANDARD", "INSIDER"], "headline": "Standard-Check: Wer nach Ecken und Freistößen gefährlich wird",
+                 else f"{nachname(top['n'])} köpft am häufigsten und trifft auch")
+        news.append({"id": f"af-standards-md{MDL}", "zeit": None, "verein": VN(top["k"]), "spielerin": top["n"], "tags": ["STANDARD", "INSIDER"], "headline": "Standard-Check: Wer nach Ecken und Freistößen gefährlich wird",
             "kurz": titel,
             "text": ["Wir haben die Liveticker aller Ligaspiele ausgewertet: Wer kommt nach Ecken und Freistößen zum Kopfball, wer trifft so?"] +
                     [f"{x['n']} ({VN(x['k'])}): {x['kopf']} {'Kopfball' if x['kopf'] == 1 else 'Kopfbälle'} nach Standard, {x['tore'] or 'kein'} {'Tor' if x['tore'] <= 1 else 'Tore'}{', ' + str(x['cm']) + ' cm' if x['cm'] else ''}." for x in liste] +
@@ -637,7 +636,7 @@ for n in news:
     if not n.get("fix"): n["zeit"] = alt.get(n["id"])
 # Zurückgehaltene Meldungen (Finn 04.11.2026): halten = true bleibt stehen, af_freigabe.py überspringt sie.
 # Der Standard-Check bleibt gesperrt, bis Finn die neue Kopfball-Zählung freigibt (HALTEN in diesem Skript).
-HALTEN = {"af-standards-"}
+HALTEN = set()   # z. B. {"af-standards-"}; Standard-Check freigegeben 04.11.2026 nach neuer Zählung
 for n in news:
     if any(n["id"].startswith(h) for h in HALTEN): n["halten"] = True; n["zeit"] = None
 

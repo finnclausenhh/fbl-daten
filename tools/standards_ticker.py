@@ -5,6 +5,8 @@ Je Liga-Spiel werden die Tickertexte gelesen. Gezählt wird pro Spielerin:
 - kopf: Ticker-Einträge, in denen sie zum Kopfball kommt (Tor oder Chance)
 - std_kopf: davon nach Ecke oder Freistoß
 - std_tore: Tore nach Ecke oder Freistoß (Eintrag erwähnt Ecke/Freistoß und ein Tor)
+- std_kopftore: davon per Kopf (Kopfball-Szene nach Standard, die ein Tor beschreibt, Torschützin laut Spielplan)
+Abwehrköpfe (Klärungen) zählen nicht. Je Ticker-Eintrag zählt eine Spielerin höchstens einmal (Stand 04.11.2026).
 - ecke_tritt: als Schützin einer Ecke genannt ("Ecke von X", "X bringt die Ecke")
 Zuordnung über die Nachnamen aus den offiziellen Aufstellungen im spielplan.json.
 
@@ -14,6 +16,7 @@ Zwischenspeicher: .cache/ticker/<spiel-id>.txt (nicht im Repo)
 import json, os, re, sys, html, time, urllib.request, collections, unicodedata
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DEBUG = "--debug" in sys.argv
 AUS = sys.argv[sys.argv.index("--aus") + 1] if "--aus" in sys.argv else os.path.join(ROOT, "standards_ticker.json")
 CACHE = os.path.join(ROOT, ".cache", "ticker"); os.makedirs(CACHE, exist_ok=True)
 SP = json.load(open(os.path.join(ROOT, "spielplan.json"), encoding="utf-8"))
@@ -33,13 +36,24 @@ def text(p):
 
 STD = re.compile(r"\bEcke|Eckball|Freisto[ßs]|Standard", re.I)
 KOPF = re.compile(r"Kopf(ball|stoß|ballt)|köpft|nickt|per Kopf", re.I)
-TOR = re.compile(r"\bTor\b|Führung|trifft|Treffer|zum \d:\d|erhöht|gleicht aus|Ausgleich|verkürzt|einköpf|ins Netz|ins Tor", re.I)
+TOR = re.compile(r"\bTor\b|Führung|trifft|Treffer|zum \d:\d|erhöht|gleicht aus|Ausgleich|verkürzt|einköpf|ins Netz|ins Tor|Winkel|versenkt|netzt|köpft (?:\w+ ){0,3}ein\b|nickt (?:\w+ ){0,3}ein\b|Entscheidung|Tooor|\d:\d", re.I)
 NICHT_TOR = re.compile(r"knapp (vorbei|neben|über)|verfehlt|Latte|Pfosten|pariert|hält|zupackt|vorbei|daneben|drüber|abgewehrt|klärt", re.I)
-TRITT = [re.compile(r"(?:Ecke|Eckball|Freistoß) von (?:\w+ )?(\w[\w-]+)"), re.compile(r"(\w[\w-]+) (?:bringt|schlägt|tritt|zirkelt|bringt) (?:die|den|eine|einen) (?:Ecke|Eckball|Freistoß)"),
+TRITT = [re.compile(r"(?:Ecke|Eckball|Freistoß) von (?:\w+ )?(\w[\w-]+)"), re.compile(r"(\w[\w-]+) (?:bringt|schlägt|tritt|zirkelt|flankt|chippt|bringt) (?:die|den|eine|einen) (?:Ecke|Eckball|Freistoß)"),
          re.compile(r"(?:schlägt|bringt|tritt|zirkelt) (?:\w+ )?(\w[\w-]+) (?:einen|eine|den|die) (?:Ecke|Eckball|Freistoß)"),
          re.compile(r"(\w+)-(?:Ecke|Freistoß)"), re.compile(r"(?:schlägt|bringt) (\w[\w-]+) die Hereingabe")]
 
-zaehl = collections.defaultdict(lambda: {"k": None, "n": None, "kopf": 0, "std_kopf": 0, "std_tore": 0, "ecke_tritt": 0, "fs_tritt": 0})
+# Abwehrköpfe zählen nicht (Klärung nach gegnerischer Ecke)
+ABWEHR = re.compile(r"weggeköpft|wegköpf|klärt|klären|befrei|aus dem (Sechzehner|Strafraum|Fünfer)|aus der Gefahrenzone|zur Ecke köpft|ins Aus köpft", re.I)
+STANDARDWORT = r"(?:Ecke|Eckball|Freistoß|Standard|Hereingabe|Flanke)"
+def ist_schuetzin(n, satz):
+    q = re.escape(n)
+    return bool(re.search(STANDARDWORT + r"\w* (?:von|durch) (?:[\wÄÖÜäöüß-]+ ){0,1}" + q + r"(?![\w-])", satz)
+                or re.search(r"(?<![\w-])" + q + r"s? " + STANDARDWORT, satz)
+                or re.search(r"(?<![\w-])" + q + r"-" + STANDARDWORT, satz)
+                or re.search(r"(?<![\w-])" + q + r" (?:bringt|schlägt|tritt|zirkelt|flankt|chippt|hebt|bedient|serviert|legt)\b", satz)
+                or re.search(r"\b(?:bringt|schlägt|tritt|zirkelt|flankt|chippt|hebt|serviert) (?:[\wÄÖÜäöüß]+ ){0,1}" + q + r"(?![\w-])", satz))
+
+zaehl = collections.defaultdict(lambda: {"k": None, "n": None, "kopf": 0, "std_kopf": 0, "std_tore": 0, "ecke_tritt": 0, "fs_tritt": 0, "std_kopftore": 0})
 spiele = 0
 for t in SP["spieltage"]:
     for p in t["partien"]:
@@ -54,6 +68,7 @@ for t in SP["spieltage"]:
         except Exception as e: print("Ticker nicht lesbar:", p["id"], e); continue
         spiele += 1
         such = sorted(namen, key=len, reverse=True)
+        offen = collections.Counter(g["n"] for g in (p.get("tore") or []) if not g.get("et") and g.get("art") != "Elfmeter")
         # Tore nach Standard: Ticker-Eintrag nennt die Torschützin, ein Tor und Ecke/Freistoß
         for g in p.get("tore") or []:
             if g.get("et") or g.get("art") == "Elfmeter" or g.get("n") not in namen: continue
@@ -63,20 +78,46 @@ for t in SP["spieltage"]:
                     key = namen[n][0] + "|" + n; d = zaehl[key]; d["k"], d["n"] = namen[n]; d["std_tore"] += 1; break
         for x in z:
             if not (STD.search(x) or KOPF.search(x)): continue
-            # Sätze einzeln prüfen, damit Name und Ereignis zusammengehören
-            for satz in re.split(r"(?<=[.!?])\s+", x):
+            # Zusammenfassungen und Kopfzeilen (Torliste, Fazit) zählen nicht, sonst doppelt
+            if re.match(r"\s*(\d+\.\s*(\+\d+\s*)?)?(\d\d:\d\d\s*)?(Halbzeit)?[Ff]azit|\s*Zur Pause|\s*Nach \d+ Minuten", x) or "Element anwählen" in x: continue
+            saetze = re.split(r"(?<=[.!?])\s+", x)
+            std = bool(STD.search(x))
+            koepfe = set()      # je Ticker-Eintrag zählt eine Spielerin höchstens einmal
+            zuletzt = None      # zuletzt genannte Spielerin, die nicht Schützin ist (für "Der Kopfball der Berlinerin ...")
+            # Torszene: "Tooor für ..., 3:2 durch Eileen Campbell" -> der Kopfball gehört der Torschützin
+            tm = re.search(r"Tooor für .*?durch ([^.!?]+?)(?=\s+[A-ZÄÖÜ][a-zäöü]+[ ,!]|[.!?]|$)", x)
+            torsch = next((n for n in such if tm and re.search(r"(?<![\w-])" + re.escape(n) + r"(?![\w-])", tm.group(1))), None)
+            for satz in saetze:
                 treffer = [n for n in such if re.search(r"(?<![\w-])" + re.escape(n) + r"(?![\w-])", satz)]
-                if not treffer: continue
-                std = bool(STD.search(x)); kopf = bool(KOPF.search(satz))
-                schuetz = {m.group(1) for r in TRITT for m in [r.search(satz)] if m}
-                for n in treffer:
-                    key = namen[n][0] + "|" + n; d = zaehl[key]; d["k"], d["n"] = namen[n]
-                    if kopf and n not in schuetz: d["kopf"] += 1; d["std_kopf"] += 1 if std else 0
+                # Teilnamen nicht doppelt (z. B. "J. Wrede" und "Wrede")
+                treffer = [n for n in treffer if not any(n != m and n in m for m in treffer)]
+                schuetz = {m.group(1) for r in TRITT for m in [r.search(satz)] if m} | {n for n in treffer if ist_schuetzin(n, satz)}
+                # Gegenspielerin in der Szene ("entwischt dann Vallotto", "gegen Hegering") köpft nicht
+                schuetz |= {n for n in treffer if re.search(r"(?:entwischt|enteilt|gegen|vor|an|hinter) (?:dann |der |ihrer )?(?:[\wÄÖÜäöüß-]+ ){0,1}" + re.escape(n) + r"(?![\w-])", satz)}
+                pos = {n: max(m.start() for m in re.finditer(r"(?<![\w-])" + re.escape(n) + r"(?![\w-])", satz)) for n in treffer}
+                km = KOPF.search(satz)
+                if km and not ABWEHR.search(satz):
+                    if torsch and TOR.search(x) and not NICHT_TOR.search(satz): koepfe.add(torsch)
+                    else:
+                        # ein Kopfball = eine Spielerin: die Genannte, die dem Wort Kopfball am nächsten steht (nicht die Schützin)
+                        wer = sorted([n for n in treffer if n not in schuetz], key=lambda n: abs(pos[n] - km.start()))
+                        if wer: koepfe.add(wer[0])
+                        elif zuletzt: koepfe.add(zuletzt)
+                spaeter = [n for n in sorted(treffer, key=lambda n: pos[n]) if n not in schuetz]
+                if spaeter: zuletzt = spaeter[-1]
                 for r in TRITT:
                     m = r.search(satz)
                     if m and m.group(1) in namen:
                         key = namen[m.group(1)][0] + "|" + m.group(1); d = zaehl[key]; d["k"], d["n"] = namen[m.group(1)]
                         d["ecke_tritt" if re.search(r"Ecke|Eckball", x) and not re.search(r"Freisto", satz) else "fs_tritt"] += 1
+            torszene = bool(TOR.search(x)) and not NICHT_TOR.search(x)
+            for n in koepfe:
+                key = namen[n][0] + "|" + n; d = zaehl[key]; d["k"], d["n"] = namen[n]
+                d["kopf"] += 1; d["std_kopf"] += 1 if std else 0
+                # Kopfballtor nach Standard: Szene beschreibt ein Tor und sie hat in diesem Spiel getroffen (höchstens so oft wie Tore)
+                if std and torszene and offen.get(n, 0) > 0:
+                    offen[n] -= 1; d["std_kopftore"] += 1
+                if DEBUG and std: print("KOPF", p["id"], namen[n][1], "|", x[:220].replace("\n", " "))
 
 teams = collections.defaultdict(list)
 for key, d in zaehl.items():
