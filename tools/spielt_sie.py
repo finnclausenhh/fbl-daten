@@ -20,7 +20,7 @@ Regeln Einsatzfragen (wie zuvor im Browser, claude/wosoinsider-gamification.md):
 
 Aufruf: python3 tools/spielt_sie.py [--repo .] [--neu]   (--neu erzwingt eine neue Runde, nur von Hand)
 """
-import argparse, json, re, unicodedata
+import argparse, collections, json, re, unicodedata
 from datetime import datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -166,7 +166,10 @@ def runde(sp, spn, um, fotos, jetzt, anlass_m=None, af=None):
                 s_ = finde(q["k"], o.get("nachname") or "")
                 if s_: belegt_sid.add(s_["id"])
     for q in einsatz: q["typ"] = "einsatz"
-    extra = mix_fragen(t, alle, af or {}, fotos, ein, belegt_sid)
+    # Vereins-Mix (Finn 05.11.2026): jeder Verein in höchstens 2 Fragen (zählt Frageverein und Vereine der Antworten)
+    vk = collections.Counter()
+    for q in einsatz: vk.update({q["k"]})
+    extra = mix_fragen(t, alle, af or {}, fotos, ein, belegt_sid, vk)
     fragen = (einsatz + extra)[:5]
     anst = {p["id"]: p["anstoss"] for p in t["partien"]}
     fragen.sort(key=lambda q: anst.get(q["partie"], ""))
@@ -183,7 +186,7 @@ NOM = lambda k: "der HSV" if k == "HSV" else KURZ_N.get(k, k)
 kom = lambda x, d=1: f"{x:.{d}f}".replace(".", ",")
 
 
-def mix_fragen(t, alle, af, fotos, ein, belegt):
+def mix_fragen(t, alle, af, fotos, ein, belegt, vk=None):
     """Neue Fragetypen (Finn 04.11.2026). Jede Auswahl folgt einer festen Regel, jede Frage nennt ihren Anlass."""
     md = t["nr"]
     sp_alle = [p for p in t["partien"]]
@@ -217,6 +220,9 @@ def mix_fragen(t, alle, af, fotos, ein, belegt):
     def gt(k):
         return TEAM.get(k, {"gf": 0, "ga": 0, "g": 0})
     out = {}
+    vk = vk if vk is not None else collections.Counter()
+    voll = lambda k: vk[k] >= 2
+    zaehle = lambda ks: vk.update(set(ks))
     # Serie: trifft in mindestens 60 % ihrer Ligaspiele (mind. 5 Einsätze, mind. 4 mit Tor)
     sc = []
     for s in alle:
@@ -225,8 +231,9 @@ def mix_fragen(t, alle, af, fotos, ein, belegt):
         if len(L) >= 5 and k >= 4 and k / len(L) >= .6 and spielt(s):
             sc.append((k / len(L), sum(len(e.get("tore") or []) for e in L), s, k, len(L)))
     sc.sort(key=lambda x: (-x[0], -x[1]))
+    sc = [x for x in sc if not voll(x[2]["k"])]
     if sc:
-        r_, tore, s, k, n = sc[0]; o = gegner(s["k"])[1]; G = gt(o)
+        r_, tore, s, k, n = sc[0]; zaehle([s["k"]]); o = gegner(s["k"])[1]; G = gt(o)
         out["serie"] = frage("serie", "SERIE", [s], f"Trifft {nach(s['n'])} zum {k + 1}. Mal?",
             f"Getroffen in {k} von {n} Ligaspielen, {tore} Tore. {NOM(o)[0].upper() + NOM(o)[1:]} hat {G['ga']} Gegentore in {G['g']} Spielen.",
             f"{'Eher ja' if r_ >= .6 else 'Offen'}: sie trifft in {round(r_ * 100)} % ihrer Spiele.",
@@ -236,7 +243,7 @@ def mix_fragen(t, alle, af, fotos, ein, belegt):
     fl = []
     for s in alle:
         L = liga(s); st = [e for e in L if e.get("art") == "S"]
-        if s.get("pos") != "ST" or len(st) < 5 or len(L) < 3 or not spielt(s): continue
+        if voll(s["k"]) or s.get("pos") != "ST" or len(st) < 5 or len(L) < 3 or not spielt(s): continue
         l3 = L[-3:]
         if not all(e.get("art") == "S" and not e.get("tore") for e in l3): continue
         tore = sum(len(e.get("tore") or []) for e in L); letzt = max([e["md"] for e in L if e.get("tore")], default=0)
@@ -256,6 +263,7 @@ def mix_fragen(t, alle, af, fotos, ein, belegt):
             os_ + [{"id": "beide", "n": "Beide"}, {"id": "keine", "n": "Keine"}])
         out["flaute"]["daten"] = schwach[2]["id"]
         for x in fl2: belegt.add(x[2]["id"])
+        zaehle([x[2]["k"] for x in fl2])
     # Weiße Weste: erwartete Torhüterinnen, Wert = Tore des Gegners + eigene Gegentore pro Spiel (kleiner = besser), je Spiel höchstens eine
     ww = []
     for p in sp_alle:
@@ -264,7 +272,7 @@ def mix_fragen(t, alle, af, fotos, ein, belegt):
             x = next((x for x in (a.get("startelf") or []) if x.get("p") == "TW" and x.get("st") in ("sicher", "erwartet")), None)
             if not x: continue
             s = next((y for y in alle if y["k"] == k and (norm(nach(y["n"])) == norm(x["n"]) or norm(y["n"]) == norm(x["n"]))), None)
-            if not s or not foto(s) or s["id"] in belegt: continue
+            if not s or not foto(s) or s["id"] in belegt or voll(k): continue
             Go, Gk = gt(o), gt(k)
             ww.append((Go["gf"] / max(1, Go["g"]) + Gk["ga"] / max(1, Gk["g"]), p["id"], s, o))
     ww.sort(key=lambda x: x[0]); ww3 = []
@@ -280,12 +288,13 @@ def mix_fragen(t, alle, af, fotos, ein, belegt):
             [opt(s, ort(s["k"])) for _, _, s, o in ww3] + [{"id": "keine", "n": "Keine", "info": "Alle kassieren"}])
         out["weste"]["daten"] = ww3[0][2]["id"]
         for x in ww3: belegt.add(x[2]["id"])
+        zaehle([x[2]["k"] for x in ww3])
     # MVP: die 4 besten Notenschnitte* (mind. 4 Noten), höchstens eine je Verein, nur wer laut Prognose spielt
     # gleicher Schnitt wie die Statistik im Ticker (apifootball.json sp.avg, mind. 4 Spiele mit 60+ Minuten)
     mv = []
     for s in alle:
         e = (af.get("sp") or {}).get(s["id"]) or {}
-        if e.get("avg") and len([n for n in e.get("no", []) if n[2] >= 60]) >= 4 and spielt(s) and gegner(s["k"])[0]: mv.append((e["avg"], s))
+        if e.get("avg") and len([n for n in e.get("no", []) if n[2] >= 60]) >= 4 and spielt(s) and gegner(s["k"])[0] and not voll(s["k"]): mv.append((e["avg"], s))
     mv.sort(key=lambda x: -x[0]); mv4 = []
     for x in mv:
         if all(y[1]["k"] != x[1]["k"] for y in mv4): mv4.append(x)

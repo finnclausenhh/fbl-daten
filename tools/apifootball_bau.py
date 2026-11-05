@@ -98,7 +98,7 @@ PEN = []
 GELB_AF = collections.Counter()
 ungeklaert = set()
 spiele = {}             # unsere Partie-ID -> Teamwerte, Noten
-sp = collections.defaultdict(lambda: {"no": [], "kp": 0, "kpmin": 0, "par": 0, "parsp": 0, "elf": [0, 0], "drib": [0, 0]})
+sp = collections.defaultdict(lambda: {"no": [], "kp": 0, "kpmin": 0, "par": 0, "parsp": 0, "elf": [0, 0], "drib": [0, 0], "abw": [0, 0, 0, 0]})
 teamsp = collections.defaultdict(list)   # K -> Liste je Spiel (für Ecken, xG)
 ST = {"Total Shots": "sch", "Shots on Goal": "tor", "Ball Possession": "bes", "Corner Kicks": "eck",
       "Fouls": "fou", "Goalkeeper Saves": "par", "Total passes": "pas", "Passes %": "pq", "expected_goals": "xg"}
@@ -134,6 +134,10 @@ for g in DET:
             if kp is not None: d["kp"] += kp; d["kpmin"] += gm["minutes"]
             sv = (st.get("goals") or {}).get("saves")
             if gm.get("position") == "G" and sv is not None: d["par"] += sv; d["parsp"] += 1
+            # Abwehrarbeit (Finn 05.11.2026): Tacklings, abgefangene Bälle, Blocks und Minuten, nur Feldspielerinnen
+            tk = st.get("tackles") or {}
+            if gm.get("position") != "G" and any(tk.get(x) is not None for x in ("total", "interceptions", "blocks")):
+                d["abw"][0] += tk.get("total") or 0; d["abw"][1] += tk.get("interceptions") or 0; d["abw"][2] += tk.get("blocks") or 0; d["abw"][3] += gm["minutes"]
             dr = st.get("dribbles") or {}
             if dr.get("attempts"): d["drib"][0] += dr.get("success") or 0; d["drib"][1] += dr["attempts"]
     # Elfmeter aus den Ereignissen
@@ -209,6 +213,7 @@ for s in WIR:
         if d["parsp"]: eintrag["par"] = d["par"]; eintrag["parsp"] = d["parsp"]
         if any(d["elf"]): eintrag["elf"] = d["elf"]
         if d["drib"][1] >= 5: eintrag["drib"] = d["drib"]
+        if d["abw"][3] >= 90: eintrag["abw"] = d["abw"]
     # Größe und Fuß aus den Stammdaten der Vereine und soccerdonna (Finn 05.11.2026), wenn API-Football nichts hat
     st_ = STAMM.get(s["id"])
     if st_:
