@@ -1,6 +1,133 @@
 {
- "stand": "2026-11-05T14:52",
+ "stand": "2026-11-05T15:44",
  "meldungen": [
+  {
+   "id": "gwinn-0511",
+   "pid": "00009",
+   "zeit": "2026-11-05T14:52",
+   "spielerin": "Giulia Gwinn",
+   "verein": "FC Bayern",
+   "nr": "",
+   "pos": "ABW",
+   "tags": [
+    "UPDATE",
+    "RÜCKKEHR"
+   ],
+   "status": "fit",
+   "headline": "Gwinn kehrt gegen Bremen in den Kader zurück",
+   "text": [
+    "Giulia Gwinn steht dem FC Bayern nach ihrem Außenbandriss im linken Sprunggelenk vom Anfang Oktober wieder zur Verfügung. Trainer José Barcala sagte vor dem Spiel am Freitag gegen Werder Bremen, sie sei zurück im Kader.",
+    "Sie soll ein paar Minuten spielen, so ist es laut Barcala geplant."
+   ],
+   "kickbase": "Für die Startelf nicht fest einplanen, ein Kurzeinsatz von der Bank ist das Ziel. Wer sie holen will, rechnet eher mit den kommenden Wochen.",
+   "quellen": [
+    {
+     "name": "SPORT1",
+     "url": "https://www.sport1.de/news/fussball/frauen-bundesliga/2026/11/fc-bayern-gwinn-vor-comeback-gegen-bremen"
+    }
+   ],
+   "foto": "fotos/fcb-giulia-gwinn.webp",
+   "foto_credit": {
+    "autor": "Steffen Prößdorf",
+    "lizenz": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:2022-06-24_Fussball,_Frauen,_L%C3%A4nderspiel,_Deutschland_-_Schweiz_1DX_0722_by_Stepro.jpg"
+   }
+  },
+  {
+   "id": "zadrazil-0511",
+   "zeit": "2026-11-05T14:52",
+   "spielerin": "Sarah Zadrazil",
+   "verein": "FC Bayern",
+   "nr": "",
+   "pos": "MF",
+   "tags": [
+    "UPDATE",
+    "RÜCKKEHR"
+   ],
+   "status": "fit",
+   "headline": "Zadrazil ist gegen Bremen wieder einsatzfähig",
+   "text": [
+    "Sarah Zadrazil hat ihre muskulären Probleme überstanden und ist laut SPORT1 beim FC Bayern wieder einsatzfähig. Zuletzt hatte sie vor dem Pokalspiel gegen Leverkusen gefehlt."
+   ],
+   "kickbase": "Ein Platz im Kader gegen Bremen ist wahrscheinlich, ob sie startet, ist offen.",
+   "quellen": [
+    {
+     "name": "SPORT1",
+     "url": "https://www.sport1.de/news/fussball/frauen-bundesliga/2026/11/fc-bayern-gwinn-vor-comeback-gegen-bremen"
+    }
+   ],
+   "foto": "fotos/fcb-sarah-zadrazil.webp",
+   "foto_credit": {
+    "autor": "Ailura",
+    "lizenz": "CC BY-SA 3.0 at",
+    "url": "https://commons.wikimedia.org/wiki/File:20170803_WEURO_DEN_AUT_0371.jpg"
+   },
+   "pid": "00022"
+  },
+  {
+   "id": "viggosdottir-0511",
+   "pid": "00013",
+   "zeit": "2026-11-05T14:52",
+   "spielerin": "Glódís Viggósdóttir",
+   "verein": "FC Bayern",
+   "nr": "",
+   "pos": "ABW",
+   "tags": [
+    "TOP",
+    "VERLETZUNG"
+   ],
+   "status": "verletzt",
+   "headline": "Viggósdóttir fällt mit Knieproblemen weiter aus",
+   "kurz": "Viggósdóttir fehlt gegen Bremen (Knie)",
+   "text": [
+    "Kapitänin Glódís Viggósdóttir fehlt dem FC Bayern laut SPORT1 weiter, der Grund sind Knieprobleme. Sie stand zuletzt schon im Pokal gegen Leverkusen nicht im Kader.",
+    "Eine Rückkehr ist nicht terminiert. Im Tor ersetzt Regina van Eijk die gesperrte Ena Mahmutović."
+   ],
+   "kickbase": "Für Freitag nicht einplanen. Ein Rückkehrtermin ist nicht genannt.",
+   "quellen": [
+    {
+     "name": "SPORT1",
+     "url": "https://www.sport1.de/news/fussball/frauen-bundesliga/2026/11/fc-bayern-gwinn-vor-comeback-gegen-bremen"
+    }
+   ],
+   "foto": "fotos/fcb-glodis-perla-viggosdottir.webp",
+   "foto_credit": {
+    "autor": "MichaelEmilio",
+    "lizenz": "CC BY 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Valerenga-Bayern_WUCL_21-11-2024_19_(cropped_2).jpg"
+   }
+  },
+  {
+   "id": "buehl-0511",
+   "pid": "00023",
+   "zeit": "2026-11-05T14:52",
+   "spielerin": "Klara Bühl",
+   "verein": "FC Bayern",
+   "nr": "",
+   "pos": "ST",
+   "tags": [
+    "ROTATION"
+   ],
+   "headline": "Bühl fehlt gegen Bremen wegen Belastungssteuerung",
+   "kurz": "Bühl fällt wegen Belastungssteuerung aus",
+   "text": [
+    "Klara Bühl fällt gegen Werder Bremen laut SPORT1 wegen Belastungssteuerung aus. Eine Verletzung wird nicht genannt.",
+    "Sie hatte schon im Pokal gegen Leverkusen nur auf der Bank gesessen."
+   ],
+   "kickbase": "Für Freitag nicht einplanen. Danach bleibt die Belastung ein Thema, das Bayern offenbar im Blick behält.",
+   "quellen": [
+    {
+     "name": "SPORT1",
+     "url": "https://www.sport1.de/news/fussball/frauen-bundesliga/2026/11/fc-bayern-gwinn-vor-comeback-gegen-bremen"
+    }
+   ],
+   "foto": "fotos/fcb-klara-buhl.webp",
+   "foto_credit": {
+    "autor": "Steffen Prößdorf",
+    "lizenz": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:2023-07-03_Fussball,_Frauen,_Deutsche_Nationalmannschaft,_Media_Day_1DX_6563_by_Stepro-2.jpg"
+   }
+  },
   {
    "id": "altenburg-0511",
    "pid": "00056",
@@ -1907,12 +2034,12 @@
     "POKAL"
    ],
    "status": "fraglich",
-   "headline": "Reimann nicht im Kader gegen FC Carl Zeiss Jena",
+   "headline": "Reimann und Ihme nicht im Kader gegen FC Carl Zeiss Jena",
    "text": [
-    "Anna Reimann steht im DFB-Pokal gegen FC Carl Zeiss Jena weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
+    "Im DFB-Pokal gegen FC Carl Zeiss Jena stehen weder in der Startelf noch auf der Bank: Anna Reimann (5 von 5 Ligaspielen in der Startelf), Pauline Ihme (0 von 5 Ligaspielen in der Startelf).",
     "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
    ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
+   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie alle als fraglich und stufen sie in der Prognose herunter.",
    "quellen": [
     {
      "name": "DFB-Datencenter",
@@ -1920,7 +2047,7 @@
     }
    ],
    "quelle_live": true,
-   "kurz": "Reimann nicht im Kader"
+   "kurz": "Reimann und Ihme nicht im Kader"
   },
   {
    "id": "fehlt-viggosdottir-fcb-0111",
@@ -1970,19 +2097,20 @@
     "POKAL"
    ],
    "status": "fraglich",
-   "headline": "Bender nicht im Kader gegen FC Bayern",
+   "headline": "Bender und Remien nicht im Kader gegen FC Bayern",
    "text": [
-    "Loreen Bender steht im DFB-Pokal gegen FC Bayern weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 4-mal.",
+    "Im DFB-Pokal gegen FC Bayern stehen weder in der Startelf noch auf der Bank: Loreen Bender (4 von 5 Ligaspielen in der Startelf), Louisa Remien (0 von 5 Ligaspielen in der Startelf).",
     "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
    ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
+   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie alle als fraglich und stufen sie in der Prognose herunter.",
    "quellen": [
     {
      "name": "Sportschau",
      "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165391/bayern-muenchen_bayer-leverkusen/aufstellung"
     }
    ],
-   "quelle_live": true
+   "quelle_live": true,
+   "kurz": "Bender und Remien nicht im Kader"
   },
   {
    "id": "fehlt-altenburg-sge-0111",
@@ -1997,19 +2125,20 @@
     "POKAL"
    ],
    "status": "fraglich",
-   "headline": "Altenburg nicht im Kader gegen 1. FC Nürnberg",
+   "headline": "Altenburg und Doorsoun nicht im Kader gegen 1. FC Nürnberg",
    "text": [
-    "Lina Altenburg steht im DFB-Pokal gegen 1. FC Nürnberg weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
+    "Im DFB-Pokal gegen 1. FC Nürnberg stehen weder in der Startelf noch auf der Bank: Lina Altenburg (5 von 5 Ligaspielen in der Startelf), Sara Doorsoun (2 von 5 Ligaspielen in der Startelf).",
     "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
    ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
+   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie alle als fraglich und stufen sie in der Prognose herunter.",
    "quellen": [
     {
      "name": "DFB-Datencenter",
      "url": "https://datencenter.dfb.de/matches/1-fc-nuernberg-eintracht-frankfurt-2431335"
     }
    ],
-   "quelle_live": true
+   "quelle_live": true,
+   "kurz": "Altenburg und Doorsoun nicht im Kader"
   },
   {
    "id": "aufstellung-pokal-scf-0111",
