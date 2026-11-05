@@ -168,6 +168,19 @@ for pid, s in spiele.items():
 def heute():
     return datetime.date.today()
 
+# Stammdaten (tools/stammdaten_gr_fuss.csv): Vereinskürzel-Nummer;Nachname;cm;Fuß. Zuordnung über Nachname im Verein, sonst Rückennummer.
+STAMM = {}
+try:
+    with open(os.path.join(ROOT, "tools", "stammdaten_gr_fuss.csv"), encoding="utf-8") as fh:
+        for z in list(fh)[1:]:
+            t = z.rstrip("\n").split(";")
+            if len(t) < 4: continue
+            k, nr = t[0].split("-")[0], t[0].split("-")[1].lstrip("0")
+            kand = [x for x in PRO_K.get(k, []) if norm(t[1]) and norm(x["n"])[-len(norm(t[1])):] == norm(t[1])]
+            if len(kand) != 1: kand = [x for x in PRO_K.get(k, []) if str(x.get("nr") or "") == nr]
+            if len(kand) != 1: continue
+            STAMM[kand[0]["id"]] = (int(t[2]) if t[2].isdigit() else None, {"r": "rechts", "l": "links", "b": "beidfüßig"}.get(t[3]))
+except FileNotFoundError: pass
 # ---------------------------------------------------------------- Profilwerte
 profil = {}
 for s in WIR:
@@ -196,6 +209,11 @@ for s in WIR:
         if d["parsp"]: eintrag["par"] = d["par"]; eintrag["parsp"] = d["parsp"]
         if any(d["elf"]): eintrag["elf"] = d["elf"]
         if d["drib"][1] >= 5: eintrag["drib"] = d["drib"]
+    # Größe und Fuß aus den Stammdaten der Vereine und soccerdonna (Finn 05.11.2026), wenn API-Football nichts hat
+    st_ = STAMM.get(s["id"])
+    if st_:
+        if "gr" not in eintrag and st_[0]: eintrag["gr"] = st_[0]
+        if "fuss" not in eintrag and st_[1]: eintrag["fuss"] = st_[1]
     if eintrag: profil[s["id"]] = eintrag
 
 # ---------------------------------------------------------------- Formtief / Formhoch (Inside)
