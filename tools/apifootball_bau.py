@@ -548,9 +548,13 @@ def karte(p):
         heim = [x for x in L if x["ha"] == "H"]; aus = [x for x in L if x["ha"] == "A"]
         if len(heim) >= 3 and len(aus) >= 3:
             ph = schnitt(heim, lambda x: 3 if x["t"] > x["g"] else 1 if x["t"] == x["g"] else 0); pa = schnitt(aus, lambda x: 3 if x["t"] > x["g"] else 1 if x["t"] == x["g"] else 0)
-            if abs(ph - pa) >= 1.2: gef.append(f"{name(k)} {'zu Hause' if ph > pa else 'auswärts'}")
+            # Finn 05.11.2026: aus Sicht dieses Spiels formulieren (Gastteam: auswärts weniger/mehr)
+            z = lambda v: f"{v:.1f}".replace(".", ",")
+            if abs(ph - pa) >= 1.2:
+                if k == h: gef.append(f"{name(k)} holt zu Hause {z(ph)} Punkte pro Spiel, auswärts {z(pa)}")
+                else: gef.append(f"{name(k)} holt auswärts {z(pa)} Punkte pro Spiel, zu Hause {z(ph)}")
     if gef:
-        satz.append(f"Dass {' und '.join(gef)} deutlich mehr Punkte {'holen' if len(gef) > 1 else 'holt'}, ist nach so wenigen Spielen eher Zufall: Ein Heim-Auswärts-Gefälle nach 4 Spielen hat im Archiv nichts über den Rest der Saison gesagt.")
+        satz.append(f"{'. '.join(gef)}. Nach so wenigen Spielen sagt das nichts über den Rest der Saison.")
     # Kantersieg zuletzt: nicht fortschreiben
     for k, L in ((h, H), (g, G)):
         if L and L[-1]["t"] - L[-1]["g"] >= 5:
