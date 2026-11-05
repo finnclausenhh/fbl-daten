@@ -370,10 +370,10 @@ try:
 except Exception as e:
     print("Vorsaison-Elfmeter:", e)
 # Elfmeter der letzten 3 Saisons je Schützin im aktuellen Kader (Finn 05.11.2026: "Ersatz unklar" ersetzen durch "wer zuletzt geschossen hat")
-# Zählt alle Ligaelfmeter seit SAISON - 2, egal für welchen Verein. elf3[k] = [[Name, verwandelt, verschossen, letztes Datum], ...]
+# Zählt alle Ligaelfmeter seit SAISON - 3 (Saison 2023/24, Finn: Freigang 3 von 5), egal für welchen Verein. elf3[k] = [[Name, verwandelt, verschossen, letztes Datum], ...]
 elf3 = {}
 try:
-    for y in range(SAISON - 2, SAISON + 1):
+    for y in range(SAISON - 3, SAISON + 1):
         try: dets = lade(PA(f"saison{y}", "spiele_details.json"))
         except FileNotFoundError: continue
         for g in dets:
@@ -779,7 +779,7 @@ news = [n for n in news if not any(n["id"].startswith(x) for x in AUSBL)]
 out = {"stand": JETZT_B().strftime("%Y-%m-%dT%H:%M"), "saison": SAISON, "md": max((s["md"] for s in spiele.values()), default=0),
        "hinweis": "Noten und Teamwerte: API-Football. Minuten, Startelf, Tore, Vorlagen: Sportschau und eigene Auswertung.",
        "sp": profil, "spiele": spiele, "form": {"tief": tief, "hoch": hoch, "stabil": stabil, "trifft": trifft[:6], "leer": leer[:6], "lauf": lauf[:6]}, "team": teamform, "stdt": stdt, "news": news, "gelb_pruefen": gelb_pruefen, "sperren_dfb": SPERREN, "xg": xgcheck[:8], "xgmd": xgmds,
-       "ecken": ecken, "freist": freist, "schuesse": schuesse, "elf_vorsaison": elf_vorsaison, "elf": elfer, "elf_tw": elf_tw, "elf3": elf3, "elf3_seit": SAISON - 2, "elf_tw_info": {"saisons": [SAISON - 2, SAISON], "liga": elf_liga}, "best": best, "vorschau": vorschau, "ungeklaert": sorted(ungeklaert)}
+       "ecken": ecken, "freist": freist, "schuesse": schuesse, "elf_vorsaison": elf_vorsaison, "elf": elfer, "elf_tw": elf_tw, "elf3": elf3, "elf3_seit": f"{SAISON - 3}/{str(SAISON - 2)[2:]}", "elf_tw_info": {"saisons": [SAISON - 2, SAISON], "liga": elf_liga}, "best": best, "vorschau": vorschau, "ungeklaert": sorted(ungeklaert)}
 os.makedirs(os.path.dirname(os.path.abspath(AUS)), exist_ok=True)
 json.dump(out, open(AUS, "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
 print(f"{AUS}: {len(profil)} Profile, {len(spiele)} Spiele, zugeordnet {len(ID)}, ungeklärt {len(ungeklaert)}, Vorschau {len(vorschau)}")
