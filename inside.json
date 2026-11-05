@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-03T07:50",
+ "stand": "2026-11-05T20:02",
  "ausgabe": {
   "kicker": "Inside · KW 45 · nach Spieltag 8",
   "titel": "Wolfsburgs offene Plätze vor zwei Topspielen",
@@ -1515,47 +1515,47 @@
   "hinweis": "Reise = Luftlinie hin und zurück zu allen Auswärtsspielen. FC Bayern reist mit rund 3.120 km am weitesten (Paris, Wolfsburg, Wien). Wolfsburg kommt auf rund 1.790 km, Werder auf 1.690 km."
  },
  "analyse": {
-  "id": "analyse-wolfsburg-kw45",
-  "verein": "WOB",
-  "tag": "INSIDER",
-  "titel": "Wolfsburg: sechs feste Plätze, fünf offene",
-  "teaser": "Wer bei Wolfsburg gesetzt ist, wer zuletzt rausrotiert wurde und was das für Frankfurt und FC Bayern heißt.",
+  "id": "spieltag-md9",
+  "verein": "FCB",
+  "tag": "AUSFALL",
+  "titel": "FC Bayern ohne die beiden einzigen Gesetzten",
+  "teaser": "Viggósdóttir und Mahmutovic begannen alle acht Ligaspiele, gegen Werder fehlen beide. Dazu fehlt Bühl, vier Tage später wartet Paris.",
   "stats": [
    [
+    "16 von 16",
+    "Startelf-Einsätze von Viggósdóttir und Mahmutovic, beide fehlen gegen Werder"
+   ],
+   [
+    "5,0",
+    "neue Spielerinnen pro Startelf an den Spieltagen 6 bis 8"
+   ],
+   [
     "6",
-    "Spielerinnen begannen alle vier letzten Ligaspiele"
-   ],
-   [
-    "11",
-    "verschiedene Spielerinnen teilten sich seit Spieltag 5 die übrigen Plätze"
-   ],
-   [
-    "10 von 11",
-    "Startplätzen im Pokal wie am 8. Spieltag"
+    "Ligatore von Bühl, sie fehlt wegen Belastungssteuerung"
    ]
   ],
   "spalten": [
-   "Nürnberg",
-   "Leverkusen",
-   "Werder",
-   "Stuttgart",
-   "Hoffenheim",
-   "HSV",
+   "Union",
    "Mainz",
-   "Köln"
+   "Freiburg",
+   "Leverkusen",
+   "Köln",
+   "Frankfurt",
+   "Stuttgart",
+   "Leipzig"
   ],
   "cl_ab": 6,
   "matrix": {
-   "Peddemors": {
+   "Viggósdóttir": {
     "1": [
      "S",
      90,
-     2
+     1
     ],
     "2": [
      "S",
      90,
-     1
+     0
     ],
     "3": [
      "S",
@@ -1565,7 +1565,7 @@
     "4": [
      "S",
      90,
-     1
+     0
     ],
     "5": [
      "S",
@@ -1575,20 +1575,20 @@
     "6": [
      "S",
      90,
-     1
+     0
     ],
     "7": [
      "S",
      90,
-     2
+     0
     ],
     "8": [
      "S",
      90,
-     2
+     0
     ]
    },
-   "Huth": {
+   "Mahmutovic": {
     "1": [
      "S",
      90,
@@ -1622,20 +1622,20 @@
     "7": [
      "S",
      90,
-     1
+     0
     ],
     "8": [
      "S",
-     80,
+     75,
      0,
-     "Ecke zum 3:0"
+     "Rote Karte"
     ]
    },
-   "Minge": {
+   "Bühl": {
     "1": [
      "S",
-     83,
-     2
+     74,
+     1
     ],
     "2": [
      "S",
@@ -1645,14 +1645,9 @@
     "3": [
      "S",
      90,
-     0
+     1
     ],
     "4": [
-     "S",
-     90,
-     0
-    ],
-    "5": [
      "S",
      90,
      0
@@ -1660,20 +1655,20 @@
     "6": [
      "S",
      90,
-     0
+     1
     ],
     "7": [
      "S",
-     54,
-     0
+     73,
+     1
     ],
     "8": [
      "S",
-     67,
-     0
+     90,
+     2
     ]
    },
-   "Küver": {
+   "Harder": {
     "1": [
      "S",
      90,
@@ -1685,251 +1680,55 @@
      0
     ],
     "3": [
-     "E",
-     25,
-     2
-    ],
-    "4": [
      "S",
-     90,
-     0
-    ],
-    "5": [
-     "S",
-     90,
-     0
-    ],
-    "6": [
-     "S",
-     90,
-     0
-    ],
-    "7": [
-     "S",
-     66,
-     0
-    ],
-    "8": [
-     "S",
-     90,
-     1,
-     "Kopfball nach Huth-Ecke"
-    ]
-   },
-   "Linder": {
-    "1": [
-     "S",
-     76,
-     0
-    ],
-    "2": [
-     "S",
-     77,
-     0
-    ],
-    "3": [
-     "E",
-     35,
+     65,
      0
     ],
     "4": [
-     "S",
-     90,
-     0
-    ],
-    "5": [
-     "S",
-     90,
-     0
-    ],
-    "6": [
-     "S",
-     90,
-     0
-    ],
-    "7": [
-     "S",
-     78,
-     0
-    ],
-    "8": [
-     "S",
-     90,
-     0
-    ]
-   },
-   "Zicai": {
-    "1": [
-     "S",
-     90,
-     2
-    ],
-    "2": [
      "S",
      85,
-     1
-    ],
-    "3": [
-     "S",
-     56,
      0
     ],
-    "4": [
-     "E",
-     29,
-     1
-    ],
     "5": [
-     "S",
-     68,
+     "E",
+     26,
      0
     ],
     "6": [
      "S",
-     61,
+     90,
      0
     ],
     "7": [
      "S",
-     66,
-     0
+     90,
+     2
     ],
     "8": [
-     "E",
-     24,
-     0
-    ]
-   },
-   "Prašnikar": {
-    "1": [
-     "S",
-     90,
-     0
-    ],
-    "2": [
-     "E",
-     31,
-     0
-    ],
-    "3": [
-     "S",
-     90,
-     0
-    ],
-    "4": [
-     "S",
-     90,
-     0
-    ],
-    "5": [
-     "S",
-     59,
-     0
-    ],
-    "6": [
-     "S",
-     74,
-     0
-    ],
-    "8": [
-     "S",
-     74,
-     0
-    ]
-   },
-   "Bjelde": {
-    "1": [
-     "S",
-     46,
-     0
-    ],
-    "2": [
-     "S",
-     90,
-     0
-    ],
-    "3": [
-     "E",
-     12,
-     0
-    ],
-    "4": [
      "S",
      73,
      0
-    ],
-    "5": [
-     "S",
-     90,
-     0
-    ],
-    "6": [
-     "E",
-     18,
-     0
-    ],
-    "7": [
-     "S",
-     90,
-     0
-    ],
-    "8": [
-     "S",
-     74,
-     0
     ]
    },
-   "Kleinherne": {
+   "Tanikawa": {
     "1": [
      "S",
-     61,
+     90,
      0
     ],
     "2": [
      "S",
-     60,
+     90,
      0
     ],
     "3": [
      "S",
      90,
-     0
+     2
     ],
     "4": [
-     "E",
-     41,
-     0
-    ],
-    "5": [
-     "S",
-     59,
-     0
-    ],
-    "6": [
-     "E",
-     5,
-     0
-    ],
-    "7": [
      "S",
      90,
-     0
-    ]
-   },
-   "Vallotto": {
-    "1": [
-     "S",
-     61,
-     0
-    ],
-    "3": [
-     "S",
-     66,
-     0
-    ],
-    "4": [
-     "S",
-     61,
      0
     ],
     "5": [
@@ -1937,32 +1736,42 @@
      46,
      0
     ],
-    "7": [
-     "S",
-     54,
-     0
-    ]
-   },
-   "Carleer": {
-    "1": [
+    "6": [
      "E",
      30,
      0
     ],
-    "2": [
-     "E",
-     31,
+    "7": [
+     "S",
+     90,
      0
     ],
-    "3": [
+    "8": [
      "S",
-     66,
+     72,
+     1
+    ]
+   },
+   "Alara": {
+    "1": [
+     "E",
+     29,
+     0
+    ],
+    "2": [
+     "E",
+     20,
      0
     ],
     "4": [
+     "E",
+     18,
+     1
+    ],
+    "5": [
      "S",
-     46,
-     0
+     90,
+     1
     ],
     "6": [
      "S",
@@ -1971,7 +1780,7 @@
     ],
     "7": [
      "E",
-     25,
+     28,
      0
     ],
     "8": [
@@ -1980,38 +1789,237 @@
      0
     ]
    },
-   "Lattwein": {
+   "Kett": {
+    "4": [
+     "S",
+     66,
+     0
+    ],
     "5": [
      "E",
      45,
      0
     ],
     "6": [
-     "E",
-     30,
+     "S",
+     90,
      0
     ],
     "7": [
-     "E",
-     37,
+     "S",
+     64,
      0
     ],
     "8": [
      "S",
      90,
-     0,
-     "erste Startelf der Saison"
+     0
     ]
    },
-   "Bussy": {
+   "Eriksson": {
+    "1": [
+     "S",
+     90,
+     0
+    ],
+    "2": [
+     "S",
+     64,
+     0
+    ],
+    "7": [
+     "E",
+     28,
+     0
+    ],
+    "8": [
+     "S",
+     62,
+     0
+    ]
+   },
+   "Gilles": {
     "2": [
      "E",
-     6,
+     27,
+     1
+    ],
+    "3": [
+     "S",
+     90,
+     1
+    ],
+    "4": [
+     "S",
+     90,
+     1
+    ],
+    "5": [
+     "S",
+     46,
+     0
+    ],
+    "8": [
+     "E",
+     29,
+     0,
+     "nach Rot rund 15 Min. im Tor"
+    ]
+   },
+   "Gwinn": {
+    "2": [
+     "S",
+     64,
+     1
+    ],
+    "3": [
+     "S",
+     90,
      0
     ],
     "4": [
      "S",
+     90,
+     0
+    ],
+    "6": [
+     "S",
+     86,
+     0
+    ],
+    "7": [
+     "V",
+     0,
+     0,
+     "verletzt"
+    ],
+    "8": [
+     "V",
+     0,
+     0,
+     "verletzt"
+    ]
+   },
+   "Zadrazil": {
+    "3": [
+     "E",
+     9,
+     0
+    ],
+    "4": [
+     "E",
+     6,
+     0
+    ],
+    "5": [
+     "E",
+     26,
+     1
+    ],
+    "6": [
+     "E",
+     22,
+     0
+    ],
+    "7": [
+     "S",
+     63,
+     0
+    ]
+   },
+   "Imade": {
+    "2": [
+     "E",
+     12,
+     0
+    ],
+    "3": [
+     "E",
+     27,
+     0
+    ],
+    "4": [
+     "E",
+     25,
+     1
+    ],
+    "5": [
+     "S",
+     71,
+     2
+    ],
+    "6": [
+     "S",
+     61,
+     0
+    ],
+    "7": [
+     "S",
+     90,
+     1
+    ],
+    "8": [
+     "E",
+     19,
+     1
+    ]
+   },
+   "Naschenweng": {
+    "1": [
+     "S",
+     90,
+     0
+    ],
+    "2": [
+     "S",
+     90,
+     0
+    ],
+    "3": [
+     "S",
+     46,
+     0
+    ],
+    "4": [
+     "E",
+     25,
+     0
+    ],
+    "5": [
+     "S",
+     90,
+     0
+    ],
+    "8": [
+     "S",
      62,
+     0
+    ]
+   },
+   "Dallmann": {
+    "1": [
+     "S",
+     74,
+     0
+    ],
+    "2": [
+     "S",
+     71,
+     0
+    ],
+    "3": [
+     "S",
+     80,
+     0
+    ],
+    "4": [
+     "S",
+     66,
+     0
+    ],
+    "5": [
+     "S",
+     65,
      0
     ],
     "6": [
@@ -2020,96 +2028,82 @@
      0
     ],
     "7": [
-     "E",
-     25,
+     "S",
+     73,
      1
     ],
     "8": [
-     "S",
-     67,
-     0
-    ]
-   },
-   "Kerim-Lindland": {
-    "2": [
-     "S",
-     60,
-     0
-    ],
-    "5": [
      "E",
-     32,
-     1
-    ],
-    "6": [
-     "E",
-     17,
-     1
-    ],
-    "7": [
-     "S",
-     90,
-     1
+     18,
+     0
     ]
    }
   },
   "vorschau": [
-   "Peddemors",
-   "Huth",
-   "Zicai",
-   "Kleinherne",
-   "Lattwein"
+   "Viggósdóttir",
+   "Mahmutovic",
+   "Bühl",
+   "Gilles",
+   "Gwinn"
   ],
-  "text": [
-   "Wolfsburg wechselte im Schnitt 3,4 Startelfplätze pro Ligaspiel, am 7. und 8. Spieltag jeweils vier. Gesetzt waren in den letzten vier Spielen nur Johannes, Peddemors, Huth, Minge, Küver und Linder. Peddemors, Huth, Minge und Johannes begannen sogar alle acht Ligaspiele.",
-   "Um die übrigen fünf Plätze konkurrierten seit Spieltag 5 elf Spielerinnen. Kleinherne und Vallotto begannen an den Spieltagen 5 und 7, an 6 und 8 nicht. Gegen Köln und im Pokal saßen beide zu Beginn auf der Bank. Zicai stand in den ersten sieben Spielen sechsmal in der Startelf, gegen Köln kam sie erst nach 66 Minuten.",
-   "Am 8. Spieltag gegen Köln begann Lattwein erstmals in dieser Saison, vorher kam sie dreimal von der Bank. Im Pokal gegen Hoffenheim (8:0) stand fast dieselbe Elf: zehn von elf Spielerinnen wie gegen Köln, nur Zicai für Bussy. Lattwein und Zicai trafen dort je zweimal."
-  ],
-  "einschaetzung": [
-   "<b>Spieltag 9 in Frankfurt (6.11.):</b> Frankfurt kassierte erst 7 Gegentore. Für das Topspiel erwarten wir die Elf aus Liga und Pokal, also mit Lattwein, Carleer, Bjelde und Prašnikar. Offen ist der Platz von Bussy oder Zicai. Kleinherne und Vallotto saßen gegen Köln und im Pokal zu Beginn auf der Bank.",
-   "<b>Spieltag 10 gegen FC Bayern (14.11.):</b> Vier Tage vorher spielt Wolfsburg in Rotterdam, das Hinspiel endete 7:0. Wir erwarten dort Rotation und gegen Bayern wieder die stärkste verfügbare Elf. Dahinter folgt am 22.11. das Auswärtsspiel in Leipzig."
-  ],
-  "kb": "Bei Wolfsburg sind sechs Spielerinnen in der Liga fest gesetzt. Für die übrigen fünf Plätze zeigen Liga und Pokal vom 24.10. und 2.11. die aktuelle Rangfolge: Lattwein, Carleer, Bjelde und Prašnikar begannen beide Spiele, offen ist der Platz von Bussy oder Zicai. In den Topspielen gegen Frankfurt und FC Bayern erwarten wir diese Elf.",
-  "quelle": "Daten: Sportschau-Aufstellungen und Liveticker Spieltag 1 bis 8. Pokal: DFB-Datencenter (2.11.).",
-  "news_zeit": "2026-11-03T12:00",
   "kurz": [
-   "Nur sechs Spielerinnen begannen alle vier letzten Ligaspiele, die anderen fünf Plätze wechselten.",
-   "Gegen Köln und im Pokal stand zehnmal dieselbe Elf, mit Lattwein, Carleer, Bjelde und Prašnikar.",
-   "Kleinherne und Vallotto begannen an den Spieltagen 5 und 7, an 6 und 8 nicht."
+   "Viggósdóttir und Mahmutovic begannen alle 8 Ligaspiele. Gegen Werder fehlen beide.",
+   "Bühl (6 Tore) fehlt wegen Belastungssteuerung, sie trat alle 3 im Ticker erfassten Bayern-Ecken.",
+   "An den Spieltagen 6 bis 8 wechselte Bayern im Schnitt 5 Startelfplätze, am Dienstag folgt Paris."
   ],
   "ausblick": [
    {
     "md": 9,
     "datum": "2026-11-06",
-    "gk": "SGE",
-    "ha": "A",
-    "satz": "Topspiel nach dem Pokal: Wir erwarten die Elf vom 8. Spieltag, offen ist der Platz von Bussy oder Zicai.",
+    "gk": "SVW",
+    "ha": "H",
+    "satz": "Neue Achse: van Eijk im Tor, die Innenverteidigung neben Eriksson ist offen, Gwinn nur für Minuten.",
     "namen": [
-     "Lattwein",
-     "Carleer",
-     "Bussy",
-     "Zicai",
-     "Kleinherne"
+     "van Eijk",
+     "Eriksson",
+     "Gilles",
+     "Gwinn",
+     "Zadrazil"
     ],
-    "kb": "Stammelf",
-    "kbart": "gut"
+    "fehlt": [
+     "Mahmutovic gesperrt",
+     "Viggósdóttir verletzt"
+    ],
+    "kb": "Einsatz offen",
+    "kbart": "warn"
    },
    {
     "md": 10,
     "datum": "2026-11-14",
-    "gk": "FCB",
-    "ha": "H",
-    "satz": "Nach dem 7:0 im Hinspiel eher Rotation in Rotterdam, gegen FC Bayern die stärkste verfügbare Elf.",
+    "gk": "WOB",
+    "ha": "A",
+    "satz": "Mahmutovic ist wieder spielberechtigt. Vier Tage nach Paris erwarten wir im Topspiel die stärkste verfügbare Elf.",
+    "namen": [
+     "Mahmutovic",
+     "Bühl"
+    ],
     "kb": "Stammelf",
     "kbart": "gut"
    }
-  ]
+  ],
+  "text": [
+   "In der Liga gab es beim FC Bayern bisher nur zwei feste Größen: Viggósdóttir und Mahmutovic begannen alle acht Spiele, Viggósdóttir spielte jedes Mal 90 Minuten. Laut Rotationsauswertung waren sie die einzigen beiden, die in allen vier letzten Ligaspielen in der Startelf standen. Gegen Werder fehlen beide: Mahmutovic ist nach ihrer Roten Karte in Leipzig für ein Ligaspiel gesperrt, Viggósdóttir fällt laut SPORT1 mit Knieproblemen aus, ein Rückkehrtermin ist nicht genannt.",
+   "Dazu fehlt Bühl laut SPORT1 wegen Belastungssteuerung, eine Verletzung wird nicht genannt. Sie begann sieben Ligaspiele und erzielte sechs Tore, so viele wie keine andere Bayern-Spielerin. In den Tickertexten ist sie bei allen drei Ecken mit genannter Schützin und bei fünf von neun Freistößen die Schützin. Danach folgen bei Freistößen Alara mit zwei Belegen sowie Gilles und Tanikawa mit je einem.",
+   "Rotation ist bei Bayern ohnehin üblich: Über die Saison kamen im Schnitt 3,6 neue Spielerinnen pro Startelf, an den Spieltagen 6 bis 8 waren es 6, 4 und 5. Im Pokal gegen Leverkusen (1:0, Tor Harder) standen Bühl, Naschenweng und Viggósdóttir nicht in der Startelf. Gwinn kehrt nach ihrem Außenbandriss von Anfang Oktober in den Kader zurück und soll laut Trainer Barcala ein paar Minuten spielen. Zadrazil ist nach Muskelproblemen wieder einsatzfähig."
+  ],
+  "einschaetzung": [
+   "<b>Spieltag 9 gegen Werder (6.11.):</b> Im Tor steht laut SPORT1 van Eijk, sie hat in dieser Ligasaison noch keine Minute gespielt. In der Innenverteidigung fehlt die einzige Spielerin mit 720 Minuten. Eriksson begann in Leipzig, Gilles spielte an den Spieltagen 3 und 4 jeweils 90 Minuten. Gwinn erwarten wir eher von der Bank. Werder erzielte bisher 2,12 Tore pro Spiel.",
+   "<b>Danach:</b> Am Dienstag spielt Bayern in Paris (689 km), am Samstag darauf in Wolfsburg. Mahmutovic ist dann wieder spielberechtigt, bei Bühl nennt die Meldung keine Verletzung, deshalb rechnen wir in Wolfsburg wieder mit ihr. Für Viggósdóttir gibt es keinen Termin."
+  ],
+  "kb": "Unsere Einschätzung: Am 9. Spieltag fehlen beim FC Bayern drei Spielerinnen, die sonst fest eingeplant sind. Van Eijk ist für einen Spieltag die wahrscheinliche Torhüterin, danach kehrt Mahmutovic zurück. Bei Gwinn und Zadrazil ist ein Kurzeinsatz realistischer als die Startelf. Wer Bühl hat, verliert nur diesen Spieltag, sofern keine neue Meldung kommt. Viggósdóttir bleibt ohne Rückkehrtermin das größte Fragezeichen.",
+  "quelle": "Daten: Sportschau-Aufstellungen und Liveticker Spieltag 1 bis 8. Meldungen: SPORT1, DFB Sperren, Sportschau (Pokal 1.11.).",
+  "news_zeit": "2026-11-05T20:02"
  },
  "analyse_archiv": [
   {
    "id": "analyse-wolfsburg-kw45",
    "verein": "WOB",
-   "tag": "ROTATION",
+   "tag": "INSIDER",
    "titel": "Wolfsburg: sechs feste Plätze, fünf offene",
    "teaser": "Wer bei Wolfsburg gesetzt ist, wer zuletzt rausrotiert wurde und was das für Frankfurt und FC Bayern heißt.",
    "stats": [
@@ -2177,8 +2171,7 @@
      "8": [
       "S",
       90,
-      2,
-      "ein Tor per Freistoß"
+      2
      ]
     },
     "Huth": {
@@ -2655,20 +2648,20 @@
    ],
    "text": [
     "Wolfsburg wechselte im Schnitt 3,4 Startelfplätze pro Ligaspiel, am 7. und 8. Spieltag jeweils vier. Gesetzt waren in den letzten vier Spielen nur Johannes, Peddemors, Huth, Minge, Küver und Linder. Peddemors, Huth, Minge und Johannes begannen sogar alle acht Ligaspiele.",
-    "Um die übrigen fünf Plätze konkurrierten seit Spieltag 5 elf Spielerinnen. Kleinherne und Vallotto begannen an den Spieltagen 5 und 7 und saßen an 6 und 8 draußen. Zicai stand in den ersten sieben Spielen sechsmal in der Startelf, gegen Köln kam sie erst nach 66 Minuten.",
-    "Am 8. Spieltag gegen Köln begann Lattwein erstmals in dieser Saison, vorher kam sie viermal von der Bank. Im Pokal gegen Hoffenheim (8:0) stand fast dieselbe Elf: zehn von elf Spielerinnen wie gegen Köln, nur Zicai für Bussy. Lattwein und Zicai trafen dort je zweimal."
+    "Um die übrigen fünf Plätze konkurrierten seit Spieltag 5 elf Spielerinnen. Kleinherne und Vallotto begannen an den Spieltagen 5 und 7, an 6 und 8 nicht. Gegen Köln und im Pokal saßen beide zu Beginn auf der Bank. Zicai stand in den ersten sieben Spielen sechsmal in der Startelf, gegen Köln kam sie erst nach 66 Minuten.",
+    "Am 8. Spieltag gegen Köln begann Lattwein erstmals in dieser Saison, vorher kam sie dreimal von der Bank. Im Pokal gegen Hoffenheim (8:0) stand fast dieselbe Elf: zehn von elf Spielerinnen wie gegen Köln, nur Zicai für Bussy. Lattwein und Zicai trafen dort je zweimal."
    ],
    "einschaetzung": [
-    "<b>Spieltag 9 in Frankfurt (6.11.):</b> Frankfurt kassierte erst 7 Gegentore. Für das Topspiel erwarten wir die Elf aus Liga und Pokal, also mit Lattwein, Carleer, Bjelde und Prašnikar. Offen ist der Platz von Bussy oder Zicai. Kleinherne und Vallotto saßen zweimal in Folge draußen.",
+    "<b>Spieltag 9 in Frankfurt (6.11.):</b> Frankfurt kassierte erst 7 Gegentore. Für das Topspiel erwarten wir die Elf aus Liga und Pokal, also mit Lattwein, Carleer, Bjelde und Prašnikar. Offen ist der Platz von Bussy oder Zicai. Kleinherne und Vallotto saßen gegen Köln und im Pokal zu Beginn auf der Bank.",
     "<b>Spieltag 10 gegen FC Bayern (14.11.):</b> Vier Tage vorher spielt Wolfsburg in Rotterdam, das Hinspiel endete 7:0. Wir erwarten dort Rotation und gegen Bayern wieder die stärkste verfügbare Elf. Dahinter folgt am 22.11. das Auswärtsspiel in Leipzig."
    ],
-   "kb": "Bei Wolfsburg sind sechs Spielerinnen in der Liga sicher gesetzt. Für die übrigen fünf Plätze zeigt die Elf aus Liga und Pokal vom 24.10. und 2.11. die aktuelle Rangfolge, in den Topspielen gegen Frankfurt und FC Bayern erwarten wir genau diese Elf.",
+   "kb": "Bei Wolfsburg sind sechs Spielerinnen in der Liga fest gesetzt. Für die übrigen fünf Plätze zeigen Liga und Pokal vom 24.10. und 2.11. die aktuelle Rangfolge: Lattwein, Carleer, Bjelde und Prašnikar begannen beide Spiele, offen ist der Platz von Bussy oder Zicai. In den Topspielen gegen Frankfurt und FC Bayern erwarten wir diese Elf.",
    "quelle": "Daten: Sportschau-Aufstellungen und Liveticker Spieltag 1 bis 8. Pokal: DFB-Datencenter (2.11.).",
    "news_zeit": "2026-11-03T12:00",
    "kurz": [
     "Nur sechs Spielerinnen begannen alle vier letzten Ligaspiele, die anderen fünf Plätze wechselten.",
     "Gegen Köln und im Pokal stand zehnmal dieselbe Elf, mit Lattwein, Carleer, Bjelde und Prašnikar.",
-    "Kleinherne und Vallotto begannen an den Spieltagen 5 und 7, an 6 und 8 saßen sie draußen."
+    "Kleinherne und Vallotto begannen an den Spieltagen 5 und 7, an 6 und 8 nicht."
    ],
    "ausblick": [
     {
