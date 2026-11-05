@@ -192,7 +192,7 @@ for s in WIR:
     for aid, wid in ID.items():
         if wid == s["id"]: a = APIP_BY.get(aid); break
     noten = sorted(d["no"]) if d else []
-    voll = [n for n in noten if n[2] >= 60]
+    voll = [n for n in noten if n[2] >= 46]
     alter = (a or {}).get("age")
     geb = ((a or {}).get("birth") or {}).get("date")
     if geb:
@@ -227,7 +227,7 @@ def form_liste():
     tief, hoch = [], []
     for s in WIR:
         e = profil.get(s["id"]) or {}
-        voll = [n for n in e.get("no", []) if n[2] >= 60]
+        voll = [n for n in e.get("no", []) if n[2] >= 46]
         starts = sum(1 for x in s["spiele"] if x.get("art") == "S")
         if len(voll) < 5 or starts < 5 or s.get("pos") == "TW": continue
         l3 = sum(n[1] for n in voll[-3:]) / 3
@@ -284,7 +284,7 @@ for k in tief + hoch + stabil: k.update(einordnung(WIRBYID[k["id"]])); k.update(
 trifft, leer = [], []
 for s in WIR:
     e = profil.get(s["id"]) or {}
-    voll = [n for n in e.get("no", []) if n[2] >= 60]
+    voll = [n for n in e.get("no", []) if n[2] >= 46]
     starts = sum(1 for x in s["spiele"] if x.get("art") == "S")
     if len(voll) < 5 or starts < 5 or s.get("pos") == "TW": continue
     l3 = sum(n[1] for n in voll[-3:]) / 3; avg = sum(n[1] for n in voll) / len(voll)
@@ -297,7 +297,7 @@ trifft.sort(key=lambda x: -x["tv"]); leer.sort(key=lambda x: -x["l3"])
 lauf = []
 for s in WIR:
     e = profil.get(s["id"]) or {}
-    voll = [n for n in e.get("no", []) if n[2] >= 60]
+    voll = [n for n in e.get("no", []) if n[2] >= 46]
     if len(voll) < 4 or s.get("pos") == "TW" or (s.get("prognose") or {}).get("st") not in ("sicher", "erwartet"): continue
     if s["id"] in {x["id"] for x in tief + hoch + stabil}: continue   # nur eine Gruppe je Spielerin (Finn 04.11.2026)
     l3 = sum(n[1] for n in voll[-3:]) / 3
@@ -313,7 +313,7 @@ for k in SPN["vereine"]:
     for (m, h, g), p in sorted(PARTIE.items()):
         if p.get("status") != "beendet" or k not in (h, g): continue
         si = 0 if k == h else 1; a = spiele.get(p["id"]) or {}
-        no = [n for i, n in (a.get("no") or {}).items() if WIRBYID[i]["k"] == k and next((x.get("min", 0) for x in WIRBYID[i]["spiele"] if x["md"] == m), 0) >= 60]
+        no = [n for i, n in (a.get("no") or {}).items() if WIRBYID[i]["k"] == k and next((x.get("min", 0) for x in WIRBYID[i]["spiele"] if x["md"] == m), 0) >= 46]
         xg = (a.get("w") or {}).get("xg") or [None, None]
         t, gg = int(p["ergebnis"][si]), int(p["ergebnis"][1 - si])
         L.append({"md": m, "pkt": 3 if t > gg else 1 if t == gg else 0, "t": t, "g": gg, "no": sum(no) / len(no) if no else None, "xg": xg[si], "xgg": xg[1 - si], "gk": g if si == 0 else h})
@@ -450,8 +450,8 @@ elfer = sorted([{"id": i, "n": WIRBYID[i]["n"], "k": WIRBYID[i]["k"], "t": e["el
 # Bestenlisten (Statistik)
 def bl(werte, n=10): return sorted(werte, key=lambda x: -x["w"])[:n]
 best = {}
-best["note"] = bl([{"id": i, "w": e["avg"], "z": f"{len([n for n in e['no'] if n[2] >= 60])} Spiele"} for i, e in profil.items()
-                   if len([n for n in e.get("no", []) if n[2] >= 60]) >= 4])
+best["note"] = bl([{"id": i, "w": e["avg"], "z": f"{len([n for n in e['no'] if n[2] >= 46])} Spiele"} for i, e in profil.items()
+                   if len([n for n in e.get("no", []) if n[2] >= 46]) >= 4])
 best["kp90"] = bl([{"id": i, "w": e["kp90"], "z": f"{e['kp']} gesamt"} for i, e in profil.items()
                    if e.get("kp90") and sp[i]["kpmin"] >= 300])
 best["par"] = bl([{"id": i, "w": round(e["par"] / e["parsp"], 1), "z": f"{e['par']} in {e['parsp']} Spielen"} for i, e in profil.items()

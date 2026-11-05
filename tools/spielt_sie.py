@@ -294,7 +294,7 @@ def mix_fragen(t, alle, af, fotos, ein, belegt, vk=None):
     mv = []
     for s in alle:
         e = (af.get("sp") or {}).get(s["id"]) or {}
-        if e.get("avg") and len([n for n in e.get("no", []) if n[2] >= 60]) >= 4 and spielt(s) and gegner(s["k"])[0] and not voll(s["k"]): mv.append((e["avg"], s))
+        if e.get("avg") and len([n for n in e.get("no", []) if n[2] >= 46]) >= 4 and spielt(s) and gegner(s["k"])[0] and not voll(s["k"]): mv.append((e["avg"], s))
     mv.sort(key=lambda x: -x[0]); mv4 = []
     for x in mv:
         if all(y[1]["k"] != x[1]["k"] for y in mv4): mv4.append(x)

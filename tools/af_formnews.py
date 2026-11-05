@@ -29,7 +29,7 @@ _GAR = sorted(_GA, key=lambda k: -_GA[k])     # meiste Gegentore zuerst
 _GFR = sorted(_GF, key=lambda k: _GF[k])      # wenigste Tore zuerst
 
 def _formwerte(sid):
-    voll = [n for n in (profil.get(sid) or {}).get("no", []) if n[2] >= 60]
+    voll = [n for n in (profil.get(sid) or {}).get("no", []) if n[2] >= 46]
     if len(voll) < 4: return None
     l3 = voll[-3:]; vor = voll[:-3]
     if len(vor) < 1: return None
