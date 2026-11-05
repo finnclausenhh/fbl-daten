@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """Gibt die nächste datenbasierte Meldung aus apifootball.json frei (Regel Finn 04.11.2026).
 
-Zwischen 7 und 22 Uhr (deutsche Zeit): Kam im Ticker seit 4 Stunden keine neue Meldung
+Zwischen 7 und 22 Uhr (deutsche Zeit): Kam im Ticker seit 6 Stunden keine neue Meldung
 (news.json oder bereits freigegebene Meldung aus apifootball.json), bekommt die erste Meldung
-der Warteschlange die aktuelle Uhrzeit und erscheint damit im Ticker. Pro Lauf höchstens eine.
+der Warteschlange die aktuelle Uhrzeit und erscheint damit im Ticker. Pro Lauf höchstens eine, pro Tag höchstens zwei (Finn 05.11.2026).
 
 Abwechslung (Finn 04.11.2026): nie zwei gleiche Arten hintereinander (z. B. zweimal Formtief),
 und jede Art höchstens einmal pro Tag. Formtief, Formhoch und Aufwind zählen als eine Art (Form).
@@ -16,7 +16,8 @@ from zoneinfo import ZoneInfo
 
 AF = sys.argv[1] if len(sys.argv) > 1 else "apifootball.json"
 NEWS = sys.argv[2] if len(sys.argv) > 2 else "news.json"
-LUECKE = datetime.timedelta(hours=4)
+LUECKE = datetime.timedelta(hours=6)
+PRO_TAG = 2   # Finn 05.11.2026: höchstens 2 eigene Meldungen pro Tag, echte News haben Vorrang
 
 jetzt = datetime.datetime.now(ZoneInfo("Europe/Berlin")).replace(tzinfo=None, second=0, microsecond=0)
 if not 7 <= jetzt.hour < 22:
@@ -53,6 +54,9 @@ for n in af.get("news", []):
 erschienen.sort()
 zuletzt_art = erschienen[-1][1] if erschienen else None
 heute = {a for z, a in erschienen if z.date() == jetzt.date()}
+eigene_heute = sum(1 for n in af.get("news", []) if n.get("zeit") and datetime.datetime.fromisoformat(n["zeit"]).date() == jetzt.date() and datetime.datetime.fromisoformat(n["zeit"]) <= jetzt)
+if eigene_heute >= PRO_TAG:
+    print(f"heute schon {eigene_heute} eigene Meldungen, Limit {PRO_TAG}"); sys.exit(0)
 warte = [n for n in af.get("news", []) if not n.get("zeit") and not n.get("halten")]
 if not warte:
     print("Warteschlange leer"); sys.exit(0)
