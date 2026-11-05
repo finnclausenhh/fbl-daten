@@ -1,13 +1,13 @@
 {
  "Jovana Damnjanović": {
   "datei": "fotos/fcb-jovana-damnjanovic.webp",
-  "autor": "WOSOINSIDER",
-  "lizenz": "Platzhalter (kein Vereinsfoto)",
-  "lizenz_url": null,
-  "quelle": "https://fcbayern.com/frauen/de/teams/1.-mannschaft",
+  "autor": "El_Loko",
+  "lizenz": "CC BY 4.0",
+  "lizenz_url": "https://creativecommons.org/licenses/by/4.0",
+  "quelle": "https://commons.wikimedia.org/wiki/File:Jovana_Damnjanovic_20181109_01.jpg",
   "breite": 400,
   "hoehe": 400,
-  "jahr": 2026,
+  "jahr": 2018,
   "trikot_alt": false,
   "gross": false,
   "portrait": "fotos/fcb-jovana-damnjanovic.webp",
@@ -16,7 +16,7 @@
   "position": "ST",
   "ersetzt": "fotos/jovana-damnjanovic.jpg",
   "cx": 0.5,
-  "platzhalter": true
+  "platzhalter": false
  },
  "Thea Bjelde": {
   "datei": "fotos/wob-thea-bjelde.webp",
@@ -90,13 +90,13 @@
  },
  "Franziska Kett": {
   "datei": "fotos/fcb-franziska-kett.webp",
-  "autor": "WOSOINSIDER",
-  "lizenz": "Platzhalter (kein Vereinsfoto)",
-  "lizenz_url": null,
-  "quelle": "https://fcbayern.com/frauen/de/teams/1.-mannschaft",
+  "autor": "Katie Chan",
+  "lizenz": "CC BY-SA 4.0",
+  "lizenz_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "quelle": "https://commons.wikimedia.org/wiki/File:20230329-Franziska_Kett_(cropped).jpg",
   "breite": 400,
   "hoehe": 400,
-  "jahr": 2026,
+  "jahr": 2023,
   "trikot_alt": false,
   "gross": false,
   "portrait": "fotos/fcb-franziska-kett.webp",
@@ -105,7 +105,7 @@
   "position": "ABW",
   "ersetzt": "fotos/franziska-kett.jpg",
   "cx": 0.5,
-  "platzhalter": true
+  "platzhalter": false
  },
  "Magou Doucouré": {
   "datei": "fotos/hsv-02-doucoure.webp",
@@ -1036,10 +1036,10 @@
  },
  "Magdalena Eriksson": {
   "datei": "fotos/fcb-magdalena-eriksson.webp",
-  "autor": "WOSOINSIDER",
-  "lizenz": "Platzhalter (kein Vereinsfoto)",
-  "lizenz_url": null,
-  "quelle": "https://fcbayern.com/frauen/de/teams/1.-mannschaft",
+  "autor": "Mikael Hervestad",
+  "lizenz": "CC BY-SA 4.0",
+  "lizenz_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "quelle": "https://commons.wikimedia.org/wiki/File:Sweden_-_Serbia_06_(cropped).jpg",
   "breite": 400,
   "hoehe": 400,
   "jahr": 2026,
@@ -1051,7 +1051,7 @@
   "position": "ABW",
   "ersetzt": "fotos/magdalena-eriksson.jpg",
   "cx": 0.5,
-  "platzhalter": true
+  "platzhalter": false
  },
  "Hayley Raso": {
   "datei": "fotos/sge-hayley-raso.webp",
