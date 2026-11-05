@@ -369,6 +369,27 @@ try:
     elf_vorsaison = {k: sorted(([n, t, v] + ([w] if w else []) for n, (t, v, w) in d.items()), key=lambda x: -(x[1] + x[2])) for k, d in elf_vorsaison.items()}
 except Exception as e:
     print("Vorsaison-Elfmeter:", e)
+# Elfmeter der letzten 3 Saisons je Schützin im aktuellen Kader (Finn 05.11.2026: "Ersatz unklar" ersetzen durch "wer zuletzt geschossen hat")
+# Zählt alle Ligaelfmeter seit SAISON - 2, egal für welchen Verein. elf3[k] = [[Name, verwandelt, verschossen, letztes Datum], ...]
+elf3 = {}
+try:
+    for y in range(SAISON - 2, SAISON + 1):
+        try: dets = lade(PA(f"saison{y}", "spiele_details.json"))
+        except FileNotFoundError: continue
+        for g in dets:
+            dat = ((g.get("fixture") or {}).get("date") or "")[:10]
+            for ev in g.get("events") or []:
+                if ev.get("type") != "Goal" or ev.get("detail") not in ("Penalty", "Missed Penalty"): continue
+                nm = (ev.get("player") or {}).get("name"); k = TEAM.get(ev["team"]["id"])
+                f = WIRBYID.get(ID.get((ev.get("player") or {}).get("id"))) or (finde(k, nm, None) if k else None)
+                if not f:
+                    tr = [x for kk in PRO_K for x in [finde(kk, nm, None)] if x]
+                    if len(tr) != 1: continue
+                    f = tr[0]
+                e = elf3.setdefault(f["k"], {}).setdefault(f["n"], [0, 0, ""]); e[0 if ev["detail"] == "Penalty" else 1] += 1; e[2] = max(e[2], dat)
+    elf3 = {k: sorted(([n, t, v, d] for n, (t, v, d) in dd.items()), key=lambda x: (-(x[1] + x[2]), x[3])) for k, dd in elf3.items()}
+except Exception as e:
+    print("Elfmeter 3 Saisons:", e)
 # Elfmeter gegen Torhüterinnen (Finn 05.11.2026): letzte 3 Saisons, wer stand im Tor (Aufstellung und Wechsel).
 # API-Football: Tore und verschossene Elfmeter aus den Ereignissen, gehaltene aus den Spielerwerten (nicht jede Saison gefüllt).
 elf_tw, elf_liga = {}, [0, 0]
@@ -758,7 +779,7 @@ news = [n for n in news if not any(n["id"].startswith(x) for x in AUSBL)]
 out = {"stand": JETZT_B().strftime("%Y-%m-%dT%H:%M"), "saison": SAISON, "md": max((s["md"] for s in spiele.values()), default=0),
        "hinweis": "Noten und Teamwerte: API-Football. Minuten, Startelf, Tore, Vorlagen: Sportschau und eigene Auswertung.",
        "sp": profil, "spiele": spiele, "form": {"tief": tief, "hoch": hoch, "stabil": stabil, "trifft": trifft[:6], "leer": leer[:6], "lauf": lauf[:6]}, "team": teamform, "stdt": stdt, "news": news, "gelb_pruefen": gelb_pruefen, "sperren_dfb": SPERREN, "xg": xgcheck[:8], "xgmd": xgmds,
-       "ecken": ecken, "freist": freist, "schuesse": schuesse, "elf_vorsaison": elf_vorsaison, "elf": elfer, "elf_tw": elf_tw, "elf_tw_info": {"saisons": [SAISON - 2, SAISON], "liga": elf_liga}, "best": best, "vorschau": vorschau, "ungeklaert": sorted(ungeklaert)}
+       "ecken": ecken, "freist": freist, "schuesse": schuesse, "elf_vorsaison": elf_vorsaison, "elf": elfer, "elf_tw": elf_tw, "elf3": elf3, "elf3_seit": SAISON - 2, "elf_tw_info": {"saisons": [SAISON - 2, SAISON], "liga": elf_liga}, "best": best, "vorschau": vorschau, "ungeklaert": sorted(ungeklaert)}
 os.makedirs(os.path.dirname(os.path.abspath(AUS)), exist_ok=True)
 json.dump(out, open(AUS, "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
 print(f"{AUS}: {len(profil)} Profile, {len(spiele)} Spiele, zugeordnet {len(ID)}, ungeklärt {len(ungeklaert)}, Vorschau {len(vorschau)}")
