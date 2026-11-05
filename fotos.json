@@ -212,13 +212,13 @@
  },
  "Linda Dallmann": {
   "datei": "fotos/fcb-linda-dallmann.webp",
-  "autor": "WOSOINSIDER",
-  "lizenz": "Platzhalter (kein Vereinsfoto)",
-  "lizenz_url": null,
-  "quelle": "https://fcbayern.com/frauen/de/teams/1.-mannschaft",
+  "autor": "Steffen Prößdorf",
+  "lizenz": "CC BY-SA 4.0",
+  "lizenz_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "quelle": "https://commons.wikimedia.org/wiki/File:2021-09-21_Fussball,_Frauen,_L%C3%A4nderspiel,_Deutschland_-_Serbien_1DX_5008_by_Stepro_(cropped).jpg",
   "breite": 400,
   "hoehe": 400,
-  "jahr": 2026,
+  "jahr": 2021,
   "trikot_alt": false,
   "gross": false,
   "portrait": "fotos/fcb-linda-dallmann.webp",
@@ -227,7 +227,7 @@
   "position": "MF",
   "ersetzt": "fotos/linda-dallmann.jpg",
   "cx": 0.5,
-  "platzhalter": true
+  "platzhalter": false
  },
  "Reena Wichmann": {
   "datei": "fotos/vfb-reena-wichmann.webp",
@@ -371,13 +371,13 @@
  },
  "Klara Bühl": {
   "datei": "fotos/fcb-klara-buhl.webp",
-  "autor": "WOSOINSIDER",
-  "lizenz": "Platzhalter (kein Vereinsfoto)",
-  "lizenz_url": null,
-  "quelle": "https://fcbayern.com/frauen/de/teams/1.-mannschaft",
+  "autor": "Steffen Prößdorf",
+  "lizenz": "CC BY-SA 4.0",
+  "lizenz_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "quelle": "https://commons.wikimedia.org/wiki/File:2023-07-03_Fussball,_Frauen,_Deutsche_Nationalmannschaft,_Media_Day_1DX_6563_by_Stepro-2.jpg",
   "breite": 400,
   "hoehe": 400,
-  "jahr": 2026,
+  "jahr": 2023,
   "trikot_alt": false,
   "gross": false,
   "portrait": "fotos/fcb-klara-buhl.webp",
@@ -386,7 +386,7 @@
   "position": "ST",
   "ersetzt": "fotos/klara-buhl.jpg",
   "cx": 0.5,
-  "platzhalter": true
+  "platzhalter": false
  },
  "Laura Giuliani": {
   "datei": "fotos/vfb-laura-giuliani.webp",
@@ -605,13 +605,13 @@
  },
  "Sarah Zadrazil": {
   "datei": "fotos/fcb-sarah-zadrazil.webp",
-  "autor": "WOSOINSIDER",
-  "lizenz": "Platzhalter (kein Vereinsfoto)",
-  "lizenz_url": null,
-  "quelle": "https://fcbayern.com/frauen/de/teams/1.-mannschaft",
+  "autor": "Ailura",
+  "lizenz": "CC BY-SA 3.0 at",
+  "lizenz_url": "https://creativecommons.org/licenses/by-sa/3.0/at/deed.en",
+  "quelle": "https://commons.wikimedia.org/wiki/File:20170803_WEURO_DEN_AUT_0371.jpg",
   "breite": 400,
   "hoehe": 400,
-  "jahr": 2026,
+  "jahr": 2017,
   "trikot_alt": false,
   "gross": false,
   "portrait": "fotos/fcb-sarah-zadrazil.webp",
@@ -620,7 +620,7 @@
   "position": "MF",
   "ersetzt": "fotos/sarah-zadrazil.jpg",
   "cx": 0.5,
-  "platzhalter": true
+  "platzhalter": false
  },
  "Marina Georgieva": {
   "datei": "fotos/m05-marina-georgieva.webp",
@@ -697,13 +697,13 @@
  },
  "Lena Oberdorf": {
   "datei": "fotos/fcb-lena-oberdorf.webp",
-  "autor": "WOSOINSIDER",
-  "lizenz": "Platzhalter (kein Vereinsfoto)",
-  "lizenz_url": null,
-  "quelle": "https://fcbayern.com/frauen/de/teams/1.-mannschaft",
+  "autor": "Steffen Prößdorf",
+  "lizenz": "CC BY-SA 4.0",
+  "lizenz_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "quelle": "https://commons.wikimedia.org/wiki/File:2023-07-03_Fussball,_Frauen,_Deutsche_Nationalmannschaft,_Media_Day_1DX_6658_by_Stepro-2.jpg",
   "breite": 400,
   "hoehe": 400,
-  "jahr": 2026,
+  "jahr": 2023,
   "trikot_alt": false,
   "gross": false,
   "portrait": "fotos/fcb-lena-oberdorf.webp",
@@ -712,7 +712,7 @@
   "position": "MF",
   "ersetzt": "fotos/lena-oberdorf.jpg",
   "cx": 0.5,
-  "platzhalter": true
+  "platzhalter": false
  },
  "Juliane Wirtz": {
   "datei": "fotos/svw-juliane-wirtz.webp",
@@ -948,13 +948,13 @@
  },
  "Anna Klink": {
   "datei": "fotos/fcb-anna-klink.webp",
-  "autor": "WOSOINSIDER",
-  "lizenz": "Platzhalter (kein Vereinsfoto)",
-  "lizenz_url": null,
-  "quelle": "https://fcbayern.com/frauen/de/teams/1.-mannschaft",
+  "autor": "EL Loko Foto",
+  "lizenz": "CC BY 4.0",
+  "lizenz_url": "https://creativecommons.org/licenses/by/4.0",
+  "quelle": "https://commons.wikimedia.org/wiki/File:Anna_Klink_20201206.jpg",
   "breite": 400,
   "hoehe": 400,
-  "jahr": 2026,
+  "jahr": 2020,
   "trikot_alt": false,
   "gross": false,
   "portrait": "fotos/fcb-anna-klink.webp",
@@ -963,7 +963,7 @@
   "position": "TW",
   "ersetzt": "fotos/anna-klink.jpg",
   "cx": 0.5,
-  "platzhalter": true
+  "platzhalter": false
  },
  "Sandra Starke": {
   "datei": "fotos/rbl-sandra-starke.webp",
@@ -2423,13 +2423,13 @@
  },
  "Ena Mahmutovic": {
   "datei": "fotos/fcb-ena-mahmutovic.webp",
-  "autor": "WOSOINSIDER",
-  "lizenz": "Platzhalter (kein Vereinsfoto)",
-  "lizenz_url": null,
-  "quelle": "https://fcbayern.com/frauen/de/teams/1.-mannschaft",
+  "autor": "Steffen Prößdorf",
+  "lizenz": "CC BY-SA 4.0",
+  "lizenz_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "quelle": "https://commons.wikimedia.org/wiki/File:2023-07-03_Fussball,_Frauen,_Deutsche_Nationalmannschaft,_Media_Day_1DX_6641_by_Stepro-2.jpg",
   "breite": 400,
   "hoehe": 400,
-  "jahr": 2026,
+  "jahr": 2023,
   "trikot_alt": false,
   "gross": false,
   "portrait": "fotos/fcb-ena-mahmutovic.webp",
@@ -2438,7 +2438,7 @@
   "position": "TW",
   "ersetzt": "fotos/ena-mahmutovic.jpg",
   "cx": 0.5,
-  "platzhalter": true
+  "platzhalter": false
  },
  "Lena Lattwein": {
   "datei": "fotos/wob-lena-lattwein.webp",
@@ -4024,13 +4024,13 @@
  },
  "Alara": {
   "datei": "fotos/fcb-alara-sehitler.webp",
-  "autor": "WOSOINSIDER",
-  "lizenz": "Platzhalter (kein Vereinsfoto)",
-  "lizenz_url": null,
-  "quelle": "https://fcbayern.com/frauen/de/teams/1.-mannschaft",
+  "autor": "MichaelEmilio",
+  "lizenz": "CC BY 4.0",
+  "lizenz_url": "https://creativecommons.org/licenses/by/4.0",
+  "quelle": "https://commons.wikimedia.org/wiki/File:V%C3%A5lerenga_Fotball_Damer_v_FC_Bayern_M%C3%BCnchen_Frauen,_21_November_2024_08_(cropped).jpg",
   "breite": 400,
   "hoehe": 400,
-  "jahr": 2026,
+  "jahr": 2024,
   "trikot_alt": false,
   "gross": false,
   "portrait": "fotos/fcb-alara-sehitler.webp",
@@ -4038,7 +4038,7 @@
   "nr": "14",
   "position": "MF",
   "cx": 0.5,
-  "platzhalter": true
+  "platzhalter": false
  },
  "Bernadette Amani": {
   "datei": "fotos/fcb-bernadette-amani.webp",
@@ -4060,10 +4060,10 @@
  },
  "Edna Imade": {
   "datei": "fotos/fcb-edna-imade.webp",
-  "autor": "WOSOINSIDER",
-  "lizenz": "Platzhalter (kein Vereinsfoto)",
-  "lizenz_url": null,
-  "quelle": "https://fcbayern.com/frauen/de/teams/1.-mannschaft",
+  "autor": "Rh723",
+  "lizenz": "CC BY 4.0",
+  "lizenz_url": "https://creativecommons.org/licenses/by/4.0",
+  "quelle": "https://commons.wikimedia.org/wiki/File:Edna_Imade_2026_(cropped).jpg",
   "breite": 400,
   "hoehe": 400,
   "jahr": 2026,
@@ -4074,17 +4074,17 @@
   "nr": "29",
   "position": "ST",
   "cx": 0.5,
-  "platzhalter": true
+  "platzhalter": false
  },
  "Glódís Viggósdóttir": {
   "datei": "fotos/fcb-glodis-perla-viggosdottir.webp",
-  "autor": "WOSOINSIDER",
-  "lizenz": "Platzhalter (kein Vereinsfoto)",
-  "lizenz_url": null,
-  "quelle": "https://fcbayern.com/frauen/de/teams/1.-mannschaft",
+  "autor": "MichaelEmilio",
+  "lizenz": "CC BY 4.0",
+  "lizenz_url": "https://creativecommons.org/licenses/by/4.0",
+  "quelle": "https://commons.wikimedia.org/wiki/File:Valerenga-Bayern_WUCL_21-11-2024_19_(cropped_2).jpg",
   "breite": 400,
   "hoehe": 400,
-  "jahr": 2026,
+  "jahr": 2024,
   "trikot_alt": false,
   "gross": false,
   "portrait": "fotos/fcb-glodis-perla-viggosdottir.webp",
@@ -4092,7 +4092,7 @@
   "nr": "4",
   "position": "ABW",
   "cx": 0.5,
-  "platzhalter": true
+  "platzhalter": false
  },
  "Kassandra Potsi": {
   "datei": "fotos/fcb-kassandra-potsi.webp",
