@@ -1,6 +1,39 @@
 {
- "stand": "2026-11-05T10:51",
+ "stand": "2026-11-05T11:44",
  "meldungen": [
+  {
+   "id": "altenburg-0511",
+   "pid": "00056",
+   "zeit": "2026-11-03T15:53",
+   "spielerin": "Lina Altenburg",
+   "verein": "Eintracht Frankfurt",
+   "nr": "",
+   "pos": "TW",
+   "tags": [
+    "UPDATE",
+    "ROTATION"
+   ],
+   "status": "fit",
+   "headline": "Altenburg fehlte im Pokal aus Belastungsgründen",
+   "kurz": "Altenburg im Pokal geschont, Winkler hielt",
+   "text": [
+    "Eintracht-Trainer Niko Arnautis ließ Torhüterin Lina Altenburg im DFB-Pokal beim 1. FC Nürnberg laut hessenschau aus Belastungsgründen zu Hause. Damit ist der Grund für ihr Fehlen im Pokalkader bekannt, eine Verletzung wird nicht genannt.",
+    "Für sie stand Sophia Winkler im Tor, die erst ihr zweites Profispiel für die SGE bestritt. Sie parierte im Elfmeterschießen den Versuch von Julia Pollak, Frankfurt gewann 4:2. Ob Winkler bald auch in der Liga zum Zug kommt, ist offen, Altenburg gilt bisher als Nummer eins."
+   ],
+   "kickbase": "Für die Liga spricht nichts gegen Altenburg im Tor, der Bericht nennt kein Problem. Winkler bleibt nur eine Option, falls Arnautis erneut wechselt.",
+   "quellen": [
+    {
+     "name": "hessenschau / Sportschau",
+     "url": "https://www.sportschau.de/regional/hr/hr-dfb-pokal-eintracht-torhueterin-sophia-winkler-nutzt-ihre-chance-100.html"
+    }
+   ],
+   "foto": "fotos/sge-lina-altenburg.webp",
+   "foto_credit": {
+    "autor": "Eintracht Frankfurt",
+    "lizenz": "mit Genehmigung: Eintracht Frankfurt",
+    "url": "https://frauen.eintracht.de/kader/"
+   }
+  },
   {
    "id": "baum-0311",
    "pid": "00146",
@@ -1874,12 +1907,12 @@
     "POKAL"
    ],
    "status": "fraglich",
-   "headline": "Reimann nicht im Kader gegen FC Carl Zeiss Jena",
+   "headline": "Reimann und Ihme nicht im Kader gegen FC Carl Zeiss Jena",
    "text": [
-    "Anna Reimann steht im DFB-Pokal gegen FC Carl Zeiss Jena weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
+    "Im DFB-Pokal gegen FC Carl Zeiss Jena stehen weder in der Startelf noch auf der Bank: Anna Reimann (5 von 5 Ligaspielen in der Startelf), Pauline Ihme (0 von 5 Ligaspielen in der Startelf).",
     "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
    ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
+   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie alle als fraglich und stufen sie in der Prognose herunter.",
    "quellen": [
     {
      "name": "DFB-Datencenter",
@@ -1887,7 +1920,7 @@
     }
    ],
    "quelle_live": true,
-   "kurz": "Reimann nicht im Kader"
+   "kurz": "Reimann und Ihme nicht im Kader"
   },
   {
    "id": "fehlt-viggosdottir-fcb-0111",
@@ -1937,19 +1970,20 @@
     "POKAL"
    ],
    "status": "fraglich",
-   "headline": "Bender nicht im Kader gegen FC Bayern",
+   "headline": "Bender und Remien nicht im Kader gegen FC Bayern",
    "text": [
-    "Loreen Bender steht im DFB-Pokal gegen FC Bayern weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 4-mal.",
+    "Im DFB-Pokal gegen FC Bayern stehen weder in der Startelf noch auf der Bank: Loreen Bender (4 von 5 Ligaspielen in der Startelf), Louisa Remien (0 von 5 Ligaspielen in der Startelf).",
     "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
    ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
+   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie alle als fraglich und stufen sie in der Prognose herunter.",
    "quellen": [
     {
      "name": "Sportschau",
      "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165391/bayern-muenchen_bayer-leverkusen/aufstellung"
     }
    ],
-   "quelle_live": true
+   "quelle_live": true,
+   "kurz": "Bender und Remien nicht im Kader"
   },
   {
    "id": "fehlt-altenburg-sge-0111",
@@ -1964,19 +1998,20 @@
     "POKAL"
    ],
    "status": "fraglich",
-   "headline": "Altenburg nicht im Kader gegen 1. FC Nürnberg",
+   "headline": "Altenburg und Doorsoun nicht im Kader gegen 1. FC Nürnberg",
    "text": [
-    "Lina Altenburg steht im DFB-Pokal gegen 1. FC Nürnberg weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
+    "Im DFB-Pokal gegen 1. FC Nürnberg stehen weder in der Startelf noch auf der Bank: Lina Altenburg (5 von 5 Ligaspielen in der Startelf), Sara Doorsoun (2 von 5 Ligaspielen in der Startelf).",
     "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
    ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
+   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie alle als fraglich und stufen sie in der Prognose herunter.",
    "quellen": [
     {
      "name": "DFB-Datencenter",
      "url": "https://datencenter.dfb.de/matches/1-fc-nuernberg-eintracht-frankfurt-2431335"
     }
    ],
-   "quelle_live": true
+   "quelle_live": true,
+   "kurz": "Altenburg und Doorsoun nicht im Kader"
   },
   {
    "id": "aufstellung-pokal-scf-0111",
@@ -6833,118 +6868,6 @@
    "pid": "00023",
    "instagram": "https://www.instagram.com/buehlklara/",
    "kurz": "Barcala will Bühl halten, Vertrag läuft aus"
-  },
-  {
-   "id": "peddemors-2210",
-   "zeit": "2026-10-22",
-   "spielerin": "Ella Peddemors",
-   "verein": "VfL Wolfsburg",
-   "nr": "10",
-   "pos": "MF",
-   "tags": [
-    "VORBERICHT"
-   ],
-   "headline": "Peddemors erwartet gegen Köln ein Kampfspiel",
-   "text": [
-    "Wolfsburgs Torjägerin Ella Peddemors rechnet am Samstag mit einem intensiven Spiel. Köln sei gut in Form und werde viele Zweikämpfe suchen.",
-    "Die Niederländerin führt mit sieben Toren die Torjägerinnenliste an. Sie spielt in dieser Saison deutlich offensiver als früher und kommt dazu auf zwei Vorlagen."
-   ],
-   "kickbase": "Peddemors ist bei Kickbase als Mittelfeldspielerin geführt und gehört zu den punktstärksten Spielerinnen der Liga. Anstoß gegen Köln ist Samstag um 12 Uhr.",
-   "quellen": [
-    {
-     "name": "VfL Wolfsburg",
-     "url": "https://www.vfl-wolfsburg.de/newsdetails/news-detail/detail/news/wir-haben-ein-richtig-cooles-team"
-    }
-   ],
-   "pid": "00405"
-  },
-  {
-   "id": "werder-krank-2110",
-   "zeit": "2026-10-21T20:20",
-   "spielerin": "Friederike Kromp",
-   "verein": "Werder Bremen",
-   "nr": "",
-   "pos": "Trainerin",
-   "tags": [
-    "VORBERICHT"
-   ],
-   "headline": "Werder trainiert nach Krankheitswelle mit angezogener Handbremse",
-   "text": [
-    "Am Montag standen Trainerin Friederike Kromp nur sieben gesunde Spielerinnen zur Verfügung. Bis Mittwoch hat sich die Lage gebessert, rund 20 Spielerinnen trainieren wieder, teils aber mit reduzierter Belastung oder in der Halle.",
-    "Die Belastung wird mit den Ärzten für jede Spielerin einzeln abgestimmt, damit niemand einen Rückfall erleidet. Im Training halfen noch Spielerinnen der zweiten Mannschaft aus.",
-    "Kromp kündigte an, dass gegen Freiburg auch Spielerinnen aus der Reserve Einsatzzeit bekommen könnten."
-   ],
-   "kickbase": "Bei Werder-Spielerinnen bis zur offiziellen Aufstellung am Sonntag vorsichtig sein. Die Startelf ist so unsicher wie bei keinem anderen Team.",
-   "quellen": [
-    {
-     "name": "buten un binnen",
-     "url": "https://www.butenunbinnen.de/sport/frauenfussball-werder-erkrankungen-bundesliga-100.html"
-    }
-   ],
-   "kurz": "Werder nach Krankheitswelle gebremst"
-  },
-  {
-   "id": "nachhol-2110",
-   "zeit": "2026-10-21T15:06",
-   "spielerin": "Werder Bremen gegen TSG Hoffenheim",
-   "verein": "TSG Hoffenheim",
-   "nr": "",
-   "pos": "Spielansetzung",
-   "tags": [
-    "VORBERICHT"
-   ],
-   "headline": "Nachholspiel Bremen gegen Hoffenheim am 29. Oktober",
-   "text": [
-    "Das am Sonntag kurzfristig abgesagte Spiel wird am Donnerstag, 29. Oktober, um 18 Uhr auf Platz 11 am Weserstadion nachgeholt.",
-    "Für beide Teams wird es eine englische Woche: Hoffenheim spielt am Sonntag gegen Mainz, dann in Bremen und am 2. November im Pokal in Wolfsburg. Werder empfängt am Sonntag Freiburg und muss am 1. November im Pokal nach Mainz."
-   ],
-   "kickbase": "Zwei Ligaspiele in fünf Tagen. Wie Kickbase die Punkte des Nachholspiels zuordnet, bitte in der App prüfen.",
-   "quellen": [
-    {
-     "name": "DFB",
-     "url": "https://www.dfb.de/news/nach-spielabsage-bremen-gegen-hoffenheim-neu-terminiert"
-    },
-    {
-     "name": "buten un binnen",
-     "url": "https://butenunbinnen.de/sport/frauenfussball-werder-hoffenheim-nachholspiel-termin-100.html"
-    }
-   ],
-   "kurz": "Nachholspiel Werder gegen Hoffenheim am 29.10."
-  },
-  {
-   "id": "joly-2110",
-   "zeit": "2026-10-21",
-   "spielerin": "Lou-Ann Joly",
-   "verein": "RB Leipzig",
-   "nr": "",
-   "pos": "MF",
-   "tags": [
-    "TOP"
-   ],
-   "headline": "Keine Entwarnung für Joly und Schasching vor dem Bayern-Spiel",
-   "text": [
-    "Leipzigs Vorschau auf das Freitagsspiel gegen Bayern enthält keine Personalangaben. Damit bleibt offen, ob Lou-Ann Joly und Annabel Schasching zurückkehren.",
-    "Joly war gegen Mainz nach einer Behandlungspause früh ausgewechselt worden und stand in Freiburg nicht im Kader. Schasching, die gegen Mainz zweimal getroffen hatte, fehlte in Freiburg ebenfalls ohne genannten Grund."
-   ],
-   "kickbase": "Beide als Fragezeichen behandeln. Nikée van Dijk drängt nach ihrem Doppelpack als Jokerin in die Startelf.",
-   "quellen": [
-    {
-     "name": "RB Leipzig",
-     "url": "https://rbleipzig.com/de/news/vorschau-rb-leipzig-frauen-bundesliga-gegen-bayern-muenchen"
-    },
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306232/sc-freiburg_rb-leipzig/taktische-aufstellung"
-    }
-   ],
-   "foto": "fotos/lou-ann-joly.jpg",
-   "foto_credit": {
-    "autor": "Gérald Garitan",
-    "lizenz": "CC BY-SA 4.0",
-    "url": "https://commons.wikimedia.org/wiki/File:Stade_de_reims_1515326_(lou-ann).jpg"
-   },
-   "pid": "00223",
-   "kurz": "Joly und Schasching vor Bayern-Spiel fraglich"
   },
   {
    "id": "aufstellung-rbl-2310",
