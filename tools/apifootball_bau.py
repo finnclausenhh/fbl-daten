@@ -346,6 +346,55 @@ try:
     elf_vorsaison = {k: sorted(([n, t, v] + ([w] if w else []) for n, (t, v, w) in d.items()), key=lambda x: -(x[1] + x[2])) for k, d in elf_vorsaison.items()}
 except Exception as e:
     print("Vorsaison-Elfmeter:", e)
+# Elfmeter gegen Torhüterinnen (Finn 05.11.2026): letzte 3 Saisons, wer stand im Tor (Aufstellung und Wechsel).
+# API-Football: Tore und verschossene Elfmeter aus den Ereignissen, gehaltene aus den Spielerwerten (nicht jede Saison gefüllt).
+elf_tw, elf_liga = {}, [0, 0]
+try:
+    TWS = [x for x in WIR if x.get("pos") == "TW"]
+    def tw_finde(nm, nr, k):
+        f = finde(k, nm, nr) if k else None
+        if f and f.get("pos") == "TW": return f
+        tr = [x for kk in PRO_K for x in [finde(kk, nm, None)] if x and x.get("pos") == "TW"]
+        return tr[0] if len(tr) == 1 else None
+    TEAM_ALT = {}
+    for y in range(SAISON - 2, SAISON + 1):
+        try: dets = lade(PA(f"saison{y}", "spiele_details.json")); sps = lade(PA(f"saison{y}", "spielerinnen.json"))
+        except FileNotFoundError: continue
+        neu = collections.Counter(); seen = collections.Counter()
+        for g in dets:
+            tw = {}
+            for lu in g.get("lineups") or []:
+                for pl in lu.get("startXI") or []:
+                    if (pl.get("player") or {}).get("pos") == "G": tw[lu["team"]["id"]] = [(0, pl["player"]["name"], pl["player"].get("number"), lu["team"]["id"])]
+            for ev in g.get("events") or []:
+                if ev.get("type") == "subst" and ev["team"]["id"] in tw:
+                    cur = tw[ev["team"]["id"]][-1]; a, b = ev.get("player") or {}, ev.get("assist") or {}
+                    if cur[1] in (a.get("name"), b.get("name")):
+                        o = b if cur[1] == a.get("name") else a
+                        tw[ev["team"]["id"]].append(((ev.get("time") or {}).get("elapsed") or 0, o.get("name"), None, ev["team"]["id"]))
+            for ev in g.get("events") or []:
+                if ev.get("type") != "Goal" or ev.get("detail") not in ("Penalty", "Missed Penalty"): continue
+                opp = [t for t in tw if t != ev["team"]["id"]]
+                if not opp: continue
+                minute = (ev.get("time") or {}).get("elapsed") or 0
+                cur = [x for x in tw[opp[0]] if x[0] <= minute][-1]
+                f = tw_finde(cur[1], cur[2], TEAM.get(opp[0]))
+                tor = ev["detail"] == "Penalty"
+                elf_liga[0] += 1; elf_liga[1] += 0 if tor else 1
+                if not f: continue
+                e = elf_tw.setdefault(f["id"], {"g": 0, "n": 0, "h": 0}); e["g"] += 1; e["n"] += 0 if tor else 1; seen[f["id"]] += 0 if tor else 1
+        # gehaltene laut Spielerwerten, nur zählen, was die Ereignisse nicht schon als verschossen haben
+        for a in sps:
+            for st in a.get("statistics") or []:
+                sv = (st.get("penalty") or {}).get("saved") or 0
+                if not sv or (st.get("games") or {}).get("position") != "Goalkeeper": continue
+                k = TEAM.get(st["team"]["id"]); f = tw_finde(a["player"]["name"], None, k)
+                if not f: continue
+                e = elf_tw.setdefault(f["id"], {"g": 0, "n": 0, "h": 0}); e["h"] += sv
+                zu = max(0, sv - seen[f["id"]]); e["g"] += zu; e["n"] += zu; elf_liga[0] += zu; elf_liga[1] += zu; seen[f["id"]] += zu
+    elf_tw = {k: [v["g"], v["n"], v["h"]] for k, v in elf_tw.items()}
+except Exception as e:
+    print("Elfmeter Torhüterinnen:", e)
 # Freistöße pro Spiel: Fouls des Gegners (API-Football zählt Freistöße nicht getrennt)
 freist = {}
 for k, L in teamsp.items():
@@ -686,7 +735,7 @@ news = [n for n in news if not any(n["id"].startswith(x) for x in AUSBL)]
 out = {"stand": JETZT_B().strftime("%Y-%m-%dT%H:%M"), "saison": SAISON, "md": max((s["md"] for s in spiele.values()), default=0),
        "hinweis": "Noten und Teamwerte: API-Football. Minuten, Startelf, Tore, Vorlagen: Sportschau und eigene Auswertung.",
        "sp": profil, "spiele": spiele, "form": {"tief": tief, "hoch": hoch, "stabil": stabil, "trifft": trifft[:6], "leer": leer[:6], "lauf": lauf[:6]}, "team": teamform, "stdt": stdt, "news": news, "gelb_pruefen": gelb_pruefen, "sperren_dfb": SPERREN, "xg": xgcheck[:8], "xgmd": xgmds,
-       "ecken": ecken, "freist": freist, "schuesse": schuesse, "elf_vorsaison": elf_vorsaison, "elf": elfer, "best": best, "vorschau": vorschau, "ungeklaert": sorted(ungeklaert)}
+       "ecken": ecken, "freist": freist, "schuesse": schuesse, "elf_vorsaison": elf_vorsaison, "elf": elfer, "elf_tw": elf_tw, "elf_tw_info": {"saisons": [SAISON - 2, SAISON], "liga": elf_liga}, "best": best, "vorschau": vorschau, "ungeklaert": sorted(ungeklaert)}
 os.makedirs(os.path.dirname(os.path.abspath(AUS)), exist_ok=True)
 json.dump(out, open(AUS, "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
 print(f"{AUS}: {len(profil)} Profile, {len(spiele)} Spiele, zugeordnet {len(ID)}, ungeklärt {len(ungeklaert)}, Vorschau {len(vorschau)}")
