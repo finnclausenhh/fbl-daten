@@ -873,7 +873,7 @@
   "nr": "6",
   "position": "MF",
   "ersetzt": "fotos/lou-ann-joly.jpg",
-  "cx": 0.511
+  "cx": 0.5
  },
  "Lumbardha Misini": {
   "datei": "fotos/b04-lumbardha-misini.webp",
@@ -944,7 +944,7 @@
   "nr": "27",
   "position": "ST",
   "ersetzt": "fotos/therese-simonsson.jpg",
-  "cx": 0.507
+  "cx": 0.5
  },
  "Anna Klink": {
   "datei": "fotos/fcb-anna-klink.webp",
@@ -981,7 +981,7 @@
   "nr": "13",
   "position": "ST",
   "ersetzt": "fotos/sandra-starke.jpg",
-  "cx": 0.531
+  "cx": 0.5
  },
  "Fabienne Dongus": {
   "datei": "fotos/vfb-fabienne-dongus.webp",
@@ -1106,7 +1106,7 @@
   "nr": "16",
   "position": "MF",
   "ersetzt": "fotos/annabel-schasching.jpg",
-  "cx": 0.516
+  "cx": 0.5
  },
  "Vanessa Gilles": {
   "datei": "fotos/fcb-vanessa-gilles.webp",
@@ -1350,7 +1350,7 @@
   "nr": "3",
   "position": "MF",
   "ersetzt": "fotos/andrea-norheim.jpg",
-  "cx": 0.505
+  "cx": 0.5
  },
  "Alieke Tuin": {
   "datei": "fotos/rbl-alieke-tuin.webp",
@@ -1368,7 +1368,7 @@
   "nr": "22",
   "position": "ABW",
   "ersetzt": "fotos/alieke-tuin.jpg",
-  "cx": 0.508
+  "cx": 0.5
  },
  "Charlotte Hulst": {
   "datei": "fotos/rbl-charlotte-hulst.webp",
@@ -1386,7 +1386,7 @@
   "nr": "77",
   "position": "ST",
   "ersetzt": "fotos/charlotte-hulst.jpg",
-  "cx": 0.514
+  "cx": 0.5
  },
  "Hanna Bennison": {
   "datei": "fotos/sge-hanna-bennison.webp",
@@ -1534,7 +1534,7 @@
   "nr": "7",
   "position": "ST",
   "ersetzt": "fotos/nikee-van-dijk.jpg",
-  "cx": 0.521
+  "cx": 0.5
  },
  "Erëleta Memeti": {
   "datei": "fotos/sge-ereleta-memeti.webp",
@@ -1776,7 +1776,7 @@
   "nr": "1",
   "position": "TW",
   "ersetzt": "fotos/elvira-herzog.jpg",
-  "cx": 0.494
+  "cx": 0.5
  },
  "Lara Marti": {
   "datei": "fotos/rbl-lara-marti.webp",
@@ -1794,7 +1794,7 @@
   "nr": "30",
   "position": "ABW",
   "ersetzt": "fotos/lara-marti.jpg",
-  "cx": 0.508
+  "cx": 0.5
  },
  "Julia Stierli": {
   "datei": "fotos/scf-julia-stierli.webp",
@@ -1848,7 +1848,7 @@
   "nr": "18",
   "position": "MF",
   "ersetzt": "fotos/sara-pusztai.jpg",
-  "cx": 0.513
+  "cx": 0.5
  },
  "Nigar Mirzaliyeva": {
   "datei": "fotos/hsv-04-mirzaliyeva.webp",
@@ -6466,7 +6466,7 @@
   "verein": "RB Leipzig",
   "nr": "71",
   "position": "TW",
-  "cx": 0.504
+  "cx": 0.5
  },
  "Delice Boboy": {
   "datei": "fotos/rbl-delice-boboy.webp",
@@ -6483,7 +6483,7 @@
   "verein": "RB Leipzig",
   "nr": "17",
   "position": "ST",
-  "cx": 0.522
+  "cx": 0.5
  },
  "Diána Németh": {
   "datei": "fotos/rbl-diana-nemeth.webp",
@@ -6500,7 +6500,7 @@
   "verein": "RB Leipzig",
   "nr": "15",
   "position": "ABW",
-  "cx": 0.508
+  "cx": 0.5
  },
  "Emanuela Pfister": {
   "datei": "fotos/rbl-emanuela-pfister.webp",
@@ -6517,7 +6517,7 @@
   "verein": "RB Leipzig",
   "nr": "20",
   "position": "ST",
-  "cx": 0.497
+  "cx": 0.5
  },
  "Emilía Ásgeirsdóttir": {
   "datei": "fotos/rbl-emilia-ki-r-asgeirsdottir.webp",
@@ -6534,7 +6534,7 @@
   "verein": "RB Leipzig",
   "nr": "8",
   "position": "ST",
-  "cx": 0.512
+  "cx": 0.5
  },
  "Jasmien Mathys": {
   "datei": "fotos/rbl-jasmien-mathys.webp",
@@ -6551,7 +6551,7 @@
   "verein": "RB Leipzig",
   "nr": "12",
   "position": "ABW",
-  "cx": 0.487
+  "cx": 0.5
  },
  "Linde Veefkind": {
   "datei": "fotos/rbl-linde-veefkind.webp",
@@ -6568,7 +6568,7 @@
   "verein": "RB Leipzig",
   "nr": "25",
   "position": "ABW",
-  "cx": 0.505
+  "cx": 0.5
  },
  "Marie Kleemann": {
   "datei": "fotos/rbl-marie-kleemann.webp",
@@ -6585,7 +6585,7 @@
   "verein": "RB Leipzig",
   "nr": "19",
   "position": "ST",
-  "cx": 0.51
+  "cx": 0.5
  },
  "Marleen Schimmer": {
   "datei": "fotos/rbl-marleen-schimmer.webp",
@@ -6602,7 +6602,7 @@
   "verein": "RB Leipzig",
   "nr": "14",
   "position": "ST",
-  "cx": 0.504
+  "cx": 0.5
  },
  "Mirja Kropp": {
   "datei": "fotos/rbl-mirja-kropp.webp",
@@ -6636,7 +6636,7 @@
   "verein": "RB Leipzig",
   "nr": "24",
   "position": "ABW",
-  "cx": 0.51
+  "cx": 0.5
  },
  "Sophie Lindner": {
   "datei": "fotos/rbl-sophie-lindner.webp",
@@ -6653,7 +6653,7 @@
   "verein": "RB Leipzig",
   "nr": "23",
   "position": "TW",
-  "cx": 0.501
+  "cx": 0.5
  },
  "Zenia Mertens": {
   "datei": "fotos/rbl-zenia-mertens.webp",
@@ -6670,7 +6670,7 @@
   "verein": "RB Leipzig",
   "nr": "4",
   "position": "MF",
-  "cx": 0.518
+  "cx": 0.5
  },
  "Jonas Stephan": {
   "datei": "fotos/rbl-stab-jonas-stephan.webp",
@@ -6687,7 +6687,7 @@
   "verein": "RB Leipzig",
   "funktion": "Cheftrainer",
   "stab": true,
-  "cx": 0.514
+  "cx": 0.5
  },
  "Marius Nowoisky": {
   "datei": "fotos/rbl-stab-marius-nowoisky.webp",
