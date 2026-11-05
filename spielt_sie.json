@@ -1,6 +1,6 @@
 {
  "md": 9,
- "erstellt": "2026-11-04T23:22",
+ "erstellt": "2026-11-05T14:45",
  "erst": "2026-11-06T18:30",
  "schluss": "2026-11-06T17:00",
  "hinweis": "Fragen festgeschrieben von tools/spielt_sie.py, ändern sich bis zur Wertung nicht.",
@@ -90,62 +90,21 @@
      "info": "Ø 7,7* · gegen Wolfsburg"
     },
     {
-     "id": "00396",
-     "n": "Küver",
-     "sid": "00396",
-     "k": "WOB",
-     "info": "Ø 7,6* · in Frankfurt"
-    },
-    {
      "id": "00260",
      "n": "Kramer",
      "sid": "00260",
      "k": "B04",
      "info": "Ø 7,2* · gegen den HSV"
+    },
+    {
+     "id": "00106",
+     "n": "Ojukwu",
+     "sid": "00106",
+     "k": "SCF",
+     "info": "Ø 7,1* · gegen Nürnberg"
     }
    ],
    "daten": "00021"
-  },
-  {
-   "id": "weste-md9",
-   "typ": "weste",
-   "art": "WEISSE WESTE",
-   "partie": "12306271",
-   "k": "WOB",
-   "multi": true,
-   "einsehbar": false,
-   "frage": "Welche Torhüterin bleibt ohne Gegentor?",
-   "warum": "Johannes: Frankfurt trifft 1,9-mal pro Spiel · Giuliani: Mainz trifft 0,5-mal pro Spiel · Borggräfe: der HSV trifft 1,8-mal pro Spiel. Spiele ohne Gegentor bringen Torhüterin und Abwehr Kickbase-Punkte.",
-   "prognose": "Johannes: Wolfsburg hat 8 Gegentore in 8 Spielen.",
-   "optionen": [
-    {
-     "id": "00389",
-     "n": "Johannes",
-     "sid": "00389",
-     "k": "WOB",
-     "info": "in Frankfurt"
-    },
-    {
-     "id": "00329",
-     "n": "Giuliani",
-     "sid": "00329",
-     "k": "VFB",
-     "info": "in Mainz"
-    },
-    {
-     "id": "00238",
-     "n": "Borggräfe",
-     "sid": "00238",
-     "k": "B04",
-     "info": "gegen den HSV"
-    },
-    {
-     "id": "keine",
-     "n": "Keine",
-     "info": "Alle kassieren"
-    }
-   ],
-   "daten": "00389"
   },
   {
    "id": "serie-md9",
@@ -172,6 +131,47 @@
    ],
    "sid": "00405",
    "daten": "ja"
+  },
+  {
+   "id": "weste-md9",
+   "typ": "weste",
+   "art": "WEISSE WESTE",
+   "partie": "12306268",
+   "k": "VFB",
+   "multi": true,
+   "einsehbar": false,
+   "frage": "Welche Torhüterin bleibt ohne Gegentor?",
+   "warum": "Giuliani: Mainz trifft 0,5-mal pro Spiel · Borggräfe: der HSV trifft 1,8-mal pro Spiel · Schmitz: Leipzig trifft 1,8-mal pro Spiel. Spiele ohne Gegentor bringen Torhüterin und Abwehr Kickbase-Punkte.",
+   "prognose": "Giuliani: Stuttgart hat 20 Gegentore in 8 Spielen.",
+   "optionen": [
+    {
+     "id": "00329",
+     "n": "Giuliani",
+     "sid": "00329",
+     "k": "VFB",
+     "info": "in Mainz"
+    },
+    {
+     "id": "00238",
+     "n": "Borggräfe",
+     "sid": "00238",
+     "k": "B04",
+     "info": "gegen den HSV"
+    },
+    {
+     "id": "00181",
+     "n": "Schmitz",
+     "sid": "00181",
+     "k": "KOE",
+     "info": "gegen Leipzig"
+    },
+    {
+     "id": "keine",
+     "n": "Keine",
+     "info": "Alle kassieren"
+    }
+   ],
+   "daten": "00329"
   }
  ]
 }
