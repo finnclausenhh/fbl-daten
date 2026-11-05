@@ -17,7 +17,7 @@
    {
     "art": "watch",
     "label": "Beobachten",
-    "text": "Am 9. Spieltag fehlen gesperrt Mahmutovic bei FC Bayern gegen Werder und Redzepi bei Stuttgart in Mainz. Gwinn trainiert seit dem 29.10. mit Ball, ein Comeback im November ist laut BILD möglich."
+    "text": "Am 9. Spieltag fehlen gesperrt Mahmutovic bei FC Bayern gegen Werder und Redzepi bei Stuttgart in Mainz. Gwinn steht laut Trainer Barcala gegen Werder wieder im Kader und soll ein paar Minuten spielen."
    }
   ]
  },
@@ -531,7 +531,7 @@
      ]
     ],
     "text": "6 Tore in 7 Einsätzen. Bayerns erste Wahl bei Ecken und Freistößen.",
-    "kb": "Werder kassiert 1,38 Tore pro Spiel. Aber Bühl saß am 01.11. im Pokal zunächst auf der Bank und am 10.11. wartet Paris.",
+    "kb": "Werder kassiert 1,38 Tore pro Spiel. Aber Bühl fehlt am Freitag laut SPORT1 wegen Belastungssteuerung, am 10.11. wartet Paris.",
     "next": {
      "k": "SVW",
      "ort": "H",
@@ -607,7 +607,7 @@
      3
     ]
    ],
-   "hinweis": "Bühl saß am 01.11. im Pokal zunächst auf der Bank"
+   "hinweis": "Bühl fehlt gegen Werder wegen Belastungssteuerung"
   },
   {
    "k": "WOB",
@@ -942,7 +942,7 @@
        "Für Werder ist es das <b>3. Pflichtspiel in 9 Tagen</b> (29.10., 1.11., 6.11.).",
        "Werder holte auswärts <b>3 Punkte</b> aus 3 Spielen und traf in allen <b>8</b> Ligaspielen."
       ],
-      "kb": "Gute Ausgangslage für Bayerns Offensive, aber Bühl saß im Pokal zunächst auf der Bank, Viggósdóttir stand nicht im Kader und am 10.11. wartet Paris."
+      "kb": "Gute Ausgangslage für Bayerns Offensive, aber Bühl fehlt laut SPORT1 wegen Belastungssteuerung, Viggósdóttir fällt mit Knieproblemen aus und am 10.11. wartet Paris."
      },
      {
       "heim": "SCF",
@@ -3528,5 +3528,5 @@
   }
  ],
  "punkt_hinweis": null,
- "geprueft": "2026-11-02T22:48"
+ "geprueft": "2026-11-05T22:45"
 }
