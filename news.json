@@ -1,6 +1,98 @@
 {
- "stand": "2026-11-06T11:51",
+ "stand": "2026-11-05T19:49",
  "meldungen": [
+  {
+   "typ": "punkt",
+   "id": "punkt-md9",
+   "md": 9,
+   "zeit": "2026-11-06T12:31",
+   "pin_bis": "2026-11-06T18:30",
+   "headline": "Spieltag 9 auf den Punkt",
+   "sicher": [
+    {
+     "n": "Ella Peddemors",
+     "k": "WOB",
+     "warum": "Alle 720 Ligaminuten gespielt, 9 Tore und dazu Ecken und Freistöße."
+    },
+    {
+     "n": "Svea Stoldt",
+     "k": "HSV",
+     "warum": "Spielt jede Minute, 4 Tore in den letzten 3 Spielen und verwandelte gegen Union beide Elfmeter."
+    },
+    {
+     "n": "Nele Bauereisen",
+     "k": "FCU",
+     "warum": "Seit drei Ligaspielen in der Startelf mit 2 Toren, Gegner Hoffenheim kassiert 1,88 Tore pro Spiel."
+    },
+    {
+     "n": "Pauline Bremer",
+     "k": "KOE",
+     "warum": "Kölns einzige echte Stürmerin, 3 Tore in den letzten 3 Spielen, Köln holte zu Hause 9 von 12 Punkten."
+    }
+   ],
+   "finger_weg": [
+    {
+     "n": "Klara Bühl",
+     "k": "FCB",
+     "warum": "Fehlt gegen Werder laut SPORT1 wegen Belastungssteuerung, am 10.11. wartet Paris."
+    },
+    {
+     "n": "Glódís Viggósdóttir",
+     "k": "FCB",
+     "warum": "Fällt mit Knieproblemen weiter aus, ein Rückkehrtermin ist nicht genannt."
+    },
+    {
+     "n": "Ena Mahmutovic",
+     "k": "FCB",
+     "warum": "Nach Rot gegen Leipzig für ein Ligaspiel gesperrt."
+    },
+    {
+     "n": "Dafina Redzepi",
+     "k": "VFB",
+     "warum": "Nach Roter Karte gegen Frankfurt für das Spiel in Mainz gesperrt."
+    }
+   ],
+   "tipp": [
+    {
+     "n": "Chantal Hagel",
+     "k": "VFB",
+     "warum": "Tritt die Ecken von rechts und dürfte ohne Redzepi beide Seiten übernehmen."
+    },
+    {
+     "n": "Alieke Tuin",
+     "k": "RBL",
+     "warum": "Übernahm ohne Schasching die Ecken und traf zuletzt selbst zweimal."
+    },
+    {
+     "n": "Sarah Gutmann",
+     "k": "SVW",
+     "warum": "Seit Spieltag 6 dreimal in Folge 90 Minuten, 2 Ligatore nach Standards und im Pokal erneut doppelt."
+    }
+   ],
+   "achtung": [
+    {
+     "n": "Annabel Schasching",
+     "k": "RBL",
+     "warum": "Zweimal in der Liga und im Pokal nicht im Kader, Leipzig nannte keinen Grund."
+    },
+    {
+     "n": "Loreen Bender",
+     "k": "B04",
+     "warum": "Im Pokal gegen den FC Bayern nicht im Kader, der Grund ist offen."
+    },
+    {
+     "n": "Anna Reimann",
+     "k": "SCF",
+     "warum": "Im Pokal gegen Jena nicht im Kader, ein Grund ist nicht bekannt."
+    },
+    {
+     "n": "Giulia Gwinn",
+     "k": "FCB",
+     "warum": "Gegen Werder zurück im Kader, ob sie beginnt oder nur kurz von der Bank kommt, ist offen."
+    }
+   ],
+   "analyse_link": true
+  },
   {
    "id": "harsch-0511",
    "pid": "00134",
@@ -2067,12 +2159,12 @@
     "POKAL"
    ],
    "status": "fraglich",
-   "headline": "Reimann nicht im Kader gegen FC Carl Zeiss Jena",
+   "headline": "Reimann und Ihme nicht im Kader gegen FC Carl Zeiss Jena",
    "text": [
-    "Anna Reimann steht im DFB-Pokal gegen FC Carl Zeiss Jena weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
+    "Im DFB-Pokal gegen FC Carl Zeiss Jena stehen weder in der Startelf noch auf der Bank: Anna Reimann (5 von 5 Ligaspielen in der Startelf), Pauline Ihme (0 von 5 Ligaspielen in der Startelf).",
     "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
    ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
+   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie alle als fraglich und stufen sie in der Prognose herunter.",
    "quellen": [
     {
      "name": "DFB-Datencenter",
@@ -2080,7 +2172,7 @@
     }
    ],
    "quelle_live": true,
-   "kurz": "Reimann nicht im Kader"
+   "kurz": "Reimann und Ihme nicht im Kader"
   },
   {
    "id": "fehlt-viggosdottir-fcb-0111",
@@ -2130,19 +2222,20 @@
     "POKAL"
    ],
    "status": "fraglich",
-   "headline": "Bender nicht im Kader gegen FC Bayern",
+   "headline": "Bender und Remien nicht im Kader gegen FC Bayern",
    "text": [
-    "Loreen Bender steht im DFB-Pokal gegen FC Bayern weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 4-mal.",
+    "Im DFB-Pokal gegen FC Bayern stehen weder in der Startelf noch auf der Bank: Loreen Bender (4 von 5 Ligaspielen in der Startelf), Louisa Remien (0 von 5 Ligaspielen in der Startelf).",
     "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
    ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
+   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie alle als fraglich und stufen sie in der Prognose herunter.",
    "quellen": [
     {
      "name": "Sportschau",
      "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165391/bayern-muenchen_bayer-leverkusen/aufstellung"
     }
    ],
-   "quelle_live": true
+   "quelle_live": true,
+   "kurz": "Bender und Remien nicht im Kader"
   },
   {
    "id": "fehlt-altenburg-sge-0111",
@@ -2157,19 +2250,20 @@
     "POKAL"
    ],
    "status": "fraglich",
-   "headline": "Altenburg nicht im Kader gegen 1. FC Nürnberg",
+   "headline": "Altenburg und Doorsoun nicht im Kader gegen 1. FC Nürnberg",
    "text": [
-    "Lina Altenburg steht im DFB-Pokal gegen 1. FC Nürnberg weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
+    "Im DFB-Pokal gegen 1. FC Nürnberg stehen weder in der Startelf noch auf der Bank: Lina Altenburg (5 von 5 Ligaspielen in der Startelf), Sara Doorsoun (2 von 5 Ligaspielen in der Startelf).",
     "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
    ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
+   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie alle als fraglich und stufen sie in der Prognose herunter.",
    "quellen": [
     {
      "name": "DFB-Datencenter",
      "url": "https://datencenter.dfb.de/matches/1-fc-nuernberg-eintracht-frankfurt-2431335"
     }
    ],
-   "quelle_live": true
+   "quelle_live": true,
+   "kurz": "Altenburg und Doorsoun nicht im Kader"
   },
   {
    "id": "aufstellung-pokal-scf-0111",
