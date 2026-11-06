@@ -1,6 +1,33 @@
 {
  "meldungen": [
   {
+   "id": "fehlt-buhl-fcb-0611",
+   "pid": "00023",
+   "zeit": "2026-11-06T18:30",
+   "spielerin": "Klara Bühl",
+   "verein": "FC Bayern",
+   "nr": "",
+   "pos": "ST",
+   "tags": [
+    "AUFSTELLUNG"
+   ],
+   "status": "fraglich",
+   "headline": "Bühl und Proost nicht im Kader gegen Werder Bremen",
+   "text": [
+    "In der Liga gegen Werder Bremen stehen weder in der Startelf noch auf der Bank: Klara Bühl (4 von 5 Ligaspielen in der Startelf), Sophie Proost (3 von 5 Ligaspielen in der Startelf).",
+    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
+   ],
+   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie alle als fraglich und stufen sie in der Prognose herunter.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306283/bayern-muenchen_werder-bremen/aufstellung"
+    }
+   ],
+   "quelle_live": true,
+   "kurz": "Bühl und Proost nicht im Kader"
+  },
+  {
    "id": "aufstellung-fcb-0611",
    "zeit": "2026-11-06T17:25",
    "spielerin": "Spielansetzung",
