@@ -39,7 +39,7 @@ def af_live():
     if not key:
         return {}
     try:
-        req = urllib.request.Request(f"https://v3.football.api-sports.io/fixtures?live={AF_LIGA}",
+        req = urllib.request.Request("https://v3.football.api-sports.io/fixtures?live=all",
                                      headers={"x-apisports-key": key, "User-Agent": "WOSOINSIDER-Live/1.0"})
         with urllib.request.urlopen(req, timeout=15) as r:
             d = json.loads(r.read().decode("utf-8"))
@@ -50,6 +50,8 @@ def af_live():
         print(f"WARN API-Football: {d['errors']}", file=sys.stderr)
     out = {}
     for f in d.get("response", []):
+        if (f.get("league") or {}).get("id") != AF_LIGA:  # live=82 lehnt die API ab (nur "all" oder "id-id"), daher filtern
+            continue
         hk, gk = AF_TEAM.get(f["teams"]["home"]["id"]), AF_TEAM.get(f["teams"]["away"]["id"])
         if not hk or not gk:
             continue
