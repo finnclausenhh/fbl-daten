@@ -1,6 +1,361 @@
 {
- "stand": "2026-11-06T17:10",
+ "stand": "2026-11-06T17:21",
  "meldungen": [
+  {
+   "id": "aufstellung-sge-0611",
+   "zeit": "2026-11-06T17:21",
+   "spielerin": "Spielansetzung",
+   "verein": "Eintracht Frankfurt",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "TOP"
+   ],
+   "headline": "Offizielle Aufstellung: Eintracht Frankfurt gegen VfL Wolfsburg",
+   "text": [],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306271/eintracht-frankfurt_vfl-wolfsburg/aufstellung"
+    }
+   ],
+   "aufstellung": {
+    "gegner": "VfL Wolfsburg",
+    "formation": "4-1-2-1-2",
+    "startelf": [
+     {
+      "n": "Altenburg",
+      "p": "TW",
+      "pid": "00056"
+     },
+     {
+      "n": "Krumbiegel",
+      "p": "ABW",
+      "pid": "00072",
+      "kp": "MF",
+      "f": "neu"
+     },
+     {
+      "n": "Ilestedt",
+      "p": "ABW",
+      "pid": "00062"
+     },
+     {
+      "n": "Østenstad",
+      "p": "ABW",
+      "pid": "00066"
+     },
+     {
+      "n": "Lührßen",
+      "p": "ABW",
+      "pid": "00064"
+     },
+     {
+      "n": "Ivelj",
+      "p": "DM",
+      "pid": "00063",
+      "kp": "ABW",
+      "f": "neu"
+     },
+     {
+      "n": "Memeti",
+      "p": "MF",
+      "pid": "00079",
+      "kp": "ST"
+     },
+     {
+      "n": "Bennison",
+      "p": "MF",
+      "pid": "00069"
+     },
+     {
+      "n": "Mühlhaus",
+      "p": "OM",
+      "pid": "00080",
+      "kp": "ST"
+     },
+     {
+      "n": "Freigang",
+      "p": "ST",
+      "pid": "00077"
+     },
+     {
+      "n": "Raso",
+      "p": "ST",
+      "pid": "00081",
+      "f": "neu"
+     }
+    ],
+    "bank": [
+     {
+      "n": "Krumme",
+      "p": "TW",
+      "pid": "00058"
+     },
+     {
+      "n": "Doorsoun",
+      "p": "ABW",
+      "pid": "00061"
+     },
+     {
+      "n": "Rankin",
+      "p": "ABW",
+      "pid": "00067"
+     },
+     {
+      "n": "Acikgöz",
+      "p": "ABW",
+      "pid": "00060",
+      "f": "raus"
+     },
+     {
+      "n": "Wolter",
+      "p": "MF",
+      "pid": "00075",
+      "f": "raus"
+     },
+     {
+      "n": "Blomqvist",
+      "p": "MF",
+      "pid": "00070",
+      "f": "raus"
+     },
+     {
+      "n": "Ainhoa Alguacil",
+      "p": "MF",
+      "pid": "00068"
+     },
+     {
+      "n": "Teulings",
+      "p": "MF",
+      "pid": "00074"
+     },
+     {
+      "n": "Tolhoek",
+      "p": "ST",
+      "pid": "00082"
+     }
+    ],
+    "fehlt": [
+     {
+      "n": "Jeppe",
+      "p": "TW"
+     },
+     {
+      "n": "Winkler",
+      "p": "TW"
+     },
+     {
+      "n": "Matijević",
+      "p": "ABW"
+     },
+     {
+      "n": "Demirbas",
+      "p": "MF"
+     },
+     {
+      "n": "Lundgaard",
+      "p": "MF"
+     },
+     {
+      "n": "Zimmermann",
+      "p": "MF"
+     },
+     {
+      "n": "Lia",
+      "p": "ST"
+     }
+    ]
+   },
+   "quelle_live": true
+  },
+  {
+   "id": "aufstellung-wob-0611",
+   "zeit": "2026-11-06T17:21",
+   "spielerin": "Spielansetzung",
+   "verein": "VfL Wolfsburg",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "TOP"
+   ],
+   "headline": "Offizielle Aufstellung: VfL Wolfsburg gegen Eintracht Frankfurt",
+   "text": [
+    "Nicht im Spieltagskader, obwohl im letzten Ligaspiel dabei: Lattwein. Einen Grund nennt bisher keine Quelle."
+   ],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306271/eintracht-frankfurt_vfl-wolfsburg/aufstellung"
+    }
+   ],
+   "aufstellung": {
+    "gegner": "Eintracht Frankfurt",
+    "formation": "4-1-2-2-1",
+    "startelf": [
+     {
+      "n": "Johannes",
+      "p": "TW",
+      "pid": "00389"
+     },
+     {
+      "n": "Bjelde",
+      "p": "ABW",
+      "pid": "00392"
+     },
+     {
+      "n": "Carleer",
+      "p": "ABW",
+      "pid": "00394"
+     },
+     {
+      "n": "Küver",
+      "p": "ABW",
+      "pid": "00396"
+     },
+     {
+      "n": "Linder",
+      "p": "ABW",
+      "pid": "00398"
+     },
+     {
+      "n": "Minge",
+      "p": "DM",
+      "pid": "00404",
+      "kp": "MF"
+     },
+     {
+      "n": "Vallotto",
+      "p": "MF",
+      "pid": "00407",
+      "f": "neu"
+     },
+     {
+      "n": "Peddemors",
+      "p": "MF",
+      "pid": "00405"
+     },
+     {
+      "n": "Huth",
+      "p": "OM",
+      "pid": "00402",
+      "kp": "MF"
+     },
+     {
+      "n": "Zicai",
+      "p": "OM",
+      "pid": "00414",
+      "kp": "ST",
+      "f": "neu"
+     },
+     {
+      "n": "Prašnikar",
+      "p": "ST",
+      "pid": "00412"
+     }
+    ],
+    "bank": [
+     {
+      "n": "Tufeković",
+      "p": "TW",
+      "pid": "00391"
+     },
+     {
+      "n": "Kleinherne",
+      "p": "ABW",
+      "pid": "00395"
+     },
+     {
+      "n": "Landenberger",
+      "p": "ABW",
+      "pid": "00397",
+      "f": "neu"
+     },
+     {
+      "n": "Wedemeyer",
+      "p": "ABW",
+      "pid": "00399"
+     },
+     {
+      "n": "Piljic",
+      "p": "MF",
+      "pid": "00406"
+     },
+     {
+      "n": "Alber",
+      "p": "MF",
+      "pid": "00400"
+     },
+     {
+      "n": "Bussy",
+      "p": "ST",
+      "pid": "00408",
+      "f": "raus"
+     },
+     {
+      "n": "Kerim-Lindland",
+      "p": "ST",
+      "pid": "00411",
+      "f": "neu"
+     },
+     {
+      "n": "Fløe",
+      "p": "ST",
+      "pid": "00409"
+     }
+    ],
+    "fehlt": [
+     {
+      "n": "Bogaert",
+      "p": "ABW",
+      "f": "raus"
+     },
+     {
+      "n": "Lattwein",
+      "p": "MF",
+      "f": "raus"
+     },
+     {
+      "n": "Eisenbeiß",
+      "p": "TW"
+     },
+     {
+      "n": "Schönwetter",
+      "p": "TW"
+     },
+     {
+      "n": "Araśniewicz",
+      "p": "MF"
+     },
+     {
+      "n": "Hoffmann",
+      "p": "ST"
+     },
+     {
+      "n": "Sælen",
+      "p": "ST"
+     }
+    ]
+   },
+   "quelle_live": true,
+   "ableitungen": [
+    {
+     "verein": "VfL Wolfsburg",
+     "n": "Lattwein",
+     "spielerin": "Lena Lattwein",
+     "war": "Startelf",
+     "zeit": "2026-11-06T18:30",
+     "gegner": "Eintracht Frankfurt",
+     "wettbewerb": "Liga",
+     "quelle": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306271/eintracht-frankfurt_vfl-wolfsburg/aufstellung",
+     "delta": -1,
+     "bis": "2026-11-16",
+     "grund": "stand am 06.11. gegen Eintracht Frankfurt nicht im Spieltagskader, obwohl im letzten Ligaspiel in der Startelf; Grund nicht bekannt"
+    }
+   ]
+  },
   {
    "id": "aufstellung-folgt-ma12306283",
    "zeit": "2026-11-06T17:10",
@@ -27,33 +382,6 @@
    "platzhalter": true,
    "anstoss": "2026-11-06T18:30",
    "partie_id": "12306283"
-  },
-  {
-   "id": "aufstellung-folgt-ma12306271",
-   "zeit": "2026-11-06T17:10",
-   "spielerin": "Spielansetzung",
-   "verein": "Eintracht Frankfurt",
-   "nr": "",
-   "pos": "Spielansetzung",
-   "tags": [
-    "AUFSTELLUNG"
-   ],
-   "headline": "Aufstellung Eintracht Frankfurt gegen VfL Wolfsburg folgt",
-   "kurz": "Aufstellung folgt, Anpfiff 18:30",
-   "text": [
-    "Anpfiff in der Liga ist um 18:30 Uhr. Die offizielle Aufstellung kommt meist rund 60 Minuten vorher, wir ergänzen sie hier automatisch, sobald sie veröffentlicht ist.",
-    "Bis dahin steht unsere Prognose im Spielplan bei der Partie."
-   ],
-   "kickbase": "",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306271/eintracht-frankfurt_vfl-wolfsburg/aufstellung"
-    }
-   ],
-   "platzhalter": true,
-   "anstoss": "2026-11-06T18:30",
-   "partie_id": "12306271"
   },
   {
    "id": "bender-0611",
