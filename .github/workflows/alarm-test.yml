@@ -16,4 +16,5 @@ jobs:
       - name: Testnachricht
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
-        run: python3 tools/alarm.py "WOSOINSIDER Wächter" "Testalarm: So kommen Warnungen während der Spiele an."
+        run: |
+          python3 tools/alarm.py "WOSOINSIDER Wächter" "Testalarm: So kommen Warnungen während der Spiele an."
