@@ -992,8 +992,8 @@
    "id": "punkt-md9",
    "md": 9,
    "zeit": "2026-11-06T12:31",
-   "pin_bis": "2026-11-06T18:30",
-   "headline": "Spieltag 9 auf den Punkt",
+   "pin_bis": "2026-11-09T18:00",
+   "headline": "Spieltag 9 auf den Punkt · Update 18:30",
    "sicher": [
     {
      "n": "Ella Peddemors",
@@ -1059,7 +1059,11 @@
     {
      "n": "Loreen Bender",
      "k": "B04",
-     "warum": "Im Pokal gegen den FC Bayern nicht im Kader, der Grund ist offen."
+     "warum": "Im Pokal gegen den FC Bayern nicht im Kader, der Grund ist offen.",
+     "update": {
+      "zeit": "2026-11-06T13:45",
+      "text": "Bender und Fudalla sind zurück im Kader"
+     }
     },
     {
      "n": "Anna Reimann",
@@ -1077,7 +1081,110 @@
      "warum": "Angeschlagen, eine Diagnose fehlt bisher, Einsatz gegen Stuttgart offen."
     }
    ],
-   "analyse_link": true
+   "analyse_link": true,
+   "titel_basis": "Spieltag 9 auf den Punkt",
+   "updates": [
+    {
+     "zeit": "2026-11-06T18:30",
+     "k": "WOB",
+     "text": "Lattwein nicht im Kader",
+     "art": "meldung",
+     "id": "fehlt-lattwein-wob-0611"
+    },
+    {
+     "zeit": "2026-11-06T18:30",
+     "k": "FCB",
+     "text": "Proost nicht im Kader gegen Werder Bremen",
+     "art": "meldung",
+     "id": "fehlt-proost-fcb-0611"
+    },
+    {
+     "zeit": "2026-11-06T17:25",
+     "k": "SGE",
+     "text": "Offizielle Aufstellung: Frankfurt gegen Wolfsburg",
+     "art": "aufstellung",
+     "partie": "12306271"
+    },
+    {
+     "zeit": "2026-11-06T17:25",
+     "k": "FCB",
+     "text": "Offizielle Aufstellung: Bayern gegen Werder",
+     "art": "aufstellung",
+     "partie": "12306283"
+    },
+    {
+     "zeit": "2026-11-06T14:46",
+     "k": "RBL",
+     "text": "Schimmer startet statt Ásgeirsdóttir (Ásgeirsdóttir fehlt mit Oberschenkelverletzung)",
+     "art": "prognose"
+    },
+    {
+     "zeit": "2026-11-06T13:45",
+     "k": "B04",
+     "text": "Bender und Fudalla sind zurück im Kader",
+     "art": "meldung",
+     "id": "bender-0611"
+    }
+   ],
+   "wackel": [
+    {
+     "k": "SCF",
+     "p": "TW",
+     "a": "Reimann",
+     "b": "Barth",
+     "anstoss": "2026-11-07T12:00"
+    },
+    {
+     "k": "B04",
+     "p": "OM",
+     "a": "Bender",
+     "b": "Platner",
+     "anstoss": "2026-11-07T14:00"
+    },
+    {
+     "k": "B04",
+     "p": "OM",
+     "a": "Fudalla",
+     "b": "Zdebel",
+     "anstoss": "2026-11-07T14:00"
+    },
+    {
+     "k": "HSV",
+     "p": "ST",
+     "a": "Eggert",
+     "b": "Karczewska",
+     "anstoss": "2026-11-07T14:00"
+    },
+    {
+     "k": "M05",
+     "p": "ABW",
+     "a": "Georgieva",
+     "b": "Flach",
+     "anstoss": "2026-11-08T16:00"
+    },
+    {
+     "k": "M05",
+     "p": "ST",
+     "a": "Anstatt",
+     "b": "Bouziane",
+     "anstoss": "2026-11-08T16:00"
+    },
+    {
+     "k": "VFB",
+     "p": "OM",
+     "a": "Schetter",
+     "b": "Hirano",
+     "anstoss": "2026-11-08T16:00"
+    },
+    {
+     "k": "RBL",
+     "p": "OM",
+     "a": "Schimmer",
+     "b": "Joly",
+     "anstoss": "2026-11-09T18:00"
+    }
+   ],
+   "aktualisiert": "2026-11-06T18:30"
   },
   {
    "id": "asgeirsdottir-0611",
