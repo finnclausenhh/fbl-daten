@@ -1,0 +1,19 @@
+name: Alarm-Test
+
+# Schickt eine Testnachricht an die ntfy-App (zum Einrichten auf dem Handy).
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - name: Testnachricht
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: python3 tools/alarm.py "WOSOINSIDER Wächter" "Testalarm: So kommen Warnungen während der Spiele an."

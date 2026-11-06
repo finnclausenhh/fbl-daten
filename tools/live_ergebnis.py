@@ -114,6 +114,9 @@ def mischen(p, r, af):
             if fehlt > 0:
                 tore += [t for t in af["tore"] if t["seite"] == seite][-fehlt:]
         r = dict(r, ergebnis=af["erg"], tore=tore)
+    if af.get("kurz") in ("FT", "AET", "PEN") and not any(w in r["text"].lower() for w in ("ende", "beendet", "abpfiff", "abgeschlossen")):
+        print(f"WARN {p.get('heim_k')}-{p.get('gast_k')}: API-Football meldet Abpfiff, Sportschau noch '{r['text']}'", file=sys.stderr)
+        r = dict(r, text="beendet", ergebnis=af["erg"])
     m = af_minute(af)
     if m and "halbzeit" in r["text"].lower() and r["text"].lower() not in ("pause", "halbzeitpause", "halbzeit"):
         r = dict(r, minute=m)
@@ -133,8 +136,22 @@ def im_fenster(p, jetzt):
     return an - timedelta(minutes=2) <= jetzt <= an + timedelta(minutes=FENSTER)
 
 
+def minute_aus(b, klasse):
+    """Minute aus <div class="liveticker-minute"> bzw. "match_event-minute", inklusive Nachspielzeit
+    (<span class="extra-minute">+5</span>). Vorher wurde aus 90.+5 nur 90 (Parser-Test 06.11.2026)."""
+    m = re.search(r'class="' + klasse + r'">(.*?)</div>', b, re.S)
+    if not m:
+        return ""
+    t = re.sub(r"<[^>]+>", "", m.group(1))
+    return re.sub(r"\s+", "", t).rstrip(".").replace(".+", "+").replace(".", "")
+
+
 def lesen(url):
-    s = F.get(url)
+    return lesen_text(F.get(url))
+
+
+def lesen_text(s):
+    """Liveticker-HTML lesen (getrennt von lesen(), damit tools/parser_test.py gespeicherte Seiten prüfen kann)."""
     if not s:
         return None
     st = re.search(r'class="match-status[^"]*">([^<]*)<', s)
@@ -142,11 +159,9 @@ def lesen(url):
     if not st or not er:
         return None
     status = st.group(1).strip()
-    mins = [m.strip() for m in re.findall(r'class="liveticker-minute">([^<]+)<', s) if m.strip()]
-    minute = None
-    if mins:
-        minute = mins[0].replace(" ", "").rstrip(".").replace(".+", "+").replace(".", "")
-    return {"text": status, "ergebnis": [er.group(1), er.group(2)], "minute": minute, "tore": tore_lesen(s), "karten": karten_lesen(s), "wechsel": wechsel_lesen(s), "uhr": uhr_lesen(s)}
+    minute = minute_aus(s, "liveticker-minute") or None
+    return {"text": status, "ergebnis": [er.group(1), er.group(2)], "minute": minute, "tore": tore_lesen(s), "karten": karten_lesen(s), "wechsel": wechsel_lesen(s), "uhr": uhr_lesen(s),
+            "verschossen": verschossen_lesen(s)}
 
 
 def uhr_lesen(s):
@@ -169,7 +184,7 @@ def wechsel_lesen(s):
         b = li.group(2)
         name = re.sub(r"<[^>]+>", "", (re.search(r'class="person-name[^"]*">(.*?)</div>', b, re.S) or [None, ""])[1]).strip()
         te = (re.search(r'/verein/te(\d+)/', b) or [None, ""])[1]
-        mi = (re.search(r'class="liveticker-minute">([^<]*)<', b) or [None, ""])[1].strip().rstrip(".").replace(".+", "+").replace(".", "")
+        mi = minute_aus(b, "liveticker-minute")
         if name and te:
             folge.append((li.group(1), name.split()[-1], te, mi))
     out, x = [], 0
@@ -193,9 +208,22 @@ def karten_lesen(s):
         if not name or not te:
             continue
         art = "gelbrot" if "yellow" in kind and "red" in kind else "rot" if "red" in kind else "gelb"
-        mi = (re.search(r'class="liveticker-minute">([^<]*)<', b) or [None, ""])[1].strip().rstrip(".").replace(".+", "+").replace(".", "")
+        mi = minute_aus(b, "liveticker-minute")
         out.append({"seite": "heim" if te == heim else "gast", "n": name.split()[-1], "min": mi, "art": art})
     return sorted(out, key=lambda k: int(re.sub(r"\D.*", "", k["min"]) or 0))
+
+
+def verschossen_lesen(s):
+    """Verschossene Elfmeter (data-event_action="special" data-event_kind="missed-penalty"), Kickbase-relevant."""
+    heim = (re.search(r'team_home="(\d+)"', s) or [None, ""])[1]
+    out = []
+    for li in re.finditer(r'<li class="liveticker"[^>]*data-event_kind="missed-penalty"[^>]*>(.*?)</li>', s, re.S):
+        b = li.group(1)
+        name = re.sub(r"<[^>]+>", "", (re.search(r'class="person-name[^"]*">(.*?)</div>', b, re.S) or [None, ""])[1]).strip()
+        te = (re.search(r'/verein/te(\d+)/', b) or [None, ""])[1]
+        if name:
+            out.append({"seite": "heim" if te == heim else "gast", "n": name.split()[-1], "min": minute_aus(b, "liveticker-minute")})
+    return out[::-1]
 
 
 def tore_lesen(s):
@@ -209,7 +237,7 @@ def tore_lesen(s):
         b = li.group(2)
         g = lambda c: (re.search(r'class="' + c + r'[^"]*">([^<]*)<', b) or [None, ""])[1].strip()
         t = {"seite": "heim" if "home" in kl else "gast", "n": g("person-surname") or g("person-name"),
-             "min": g("match_event-minute").rstrip(".").replace(".+", "+").replace(".", "")}
+             "min": minute_aus(b, "match_event-minute")}
         v = re.sub(r"^[A-ZÄÖÜ]\. ", "", g("person-shortname person-shortname- person-additional"))
         art = " ".join(kl).lower()
         if "own" in art:
@@ -236,7 +264,7 @@ def anwenden(p, r):
     """Gibt True zurück, wenn sich die Partie geändert hat."""
     t = r["text"].lower()
     alt = (p.get("status"), p.get("ergebnis"), p.get("minute"), p.get("tore"), p.get("karten"), p.get("wechsel"))
-    uhr_alt = p.get("uhr")
+    uhr_alt, vs_alt = p.get("uhr"), p.get("verschossen")
     if r.get("tore") or p.get("status") == "live":
         p["tore"] = r.get("tore") or []
     if r.get("karten") or p.get("status") == "live":
@@ -245,6 +273,8 @@ def anwenden(p, r):
         p["wechsel"] = r.get("wechsel") or []
     if r.get("uhr"):
         p["uhr"] = r["uhr"]
+    if r.get("verschossen"):
+        p["verschossen"] = r["verschossen"]
     if any(w in t for w in ("ende", "beendet", "abpfiff", "abgeschlossen")):
         p["status"] = "beendet"
         p["ergebnis"] = r["ergebnis"]
@@ -261,13 +291,14 @@ def anwenden(p, r):
         return False  # noch nicht angepfiffen oder unbekannter Text
     if p["status"] not in ("live", "beendet"):
         return False
-    return alt != (p.get("status"), p.get("ergebnis"), p.get("minute"), p.get("tore"), p.get("karten"), p.get("wechsel")) or uhr_alt != p.get("uhr")
+    return alt != (p.get("status"), p.get("ergebnis"), p.get("minute"), p.get("tore"), p.get("karten"), p.get("wechsel")) or uhr_alt != p.get("uhr") \
+        or vs_alt != p.get("verschossen")
 
 
 def live_json(a, sp):
     """Kleine live.json für den Web-Ticker, der sie direkt von raw.githubusercontent.com liest (GitHub Pages braucht zu lange)."""
     heute = datetime.now(TZ).strftime("%Y-%m-%d")
-    sp_ = {p["id"]: {k: p.get(k) for k in ("status", "ergebnis", "minute", "tore", "karten", "wechsel", "uhr") if p.get(k) is not None}
+    sp_ = {p["id"]: {k: p.get(k) for k in ("status", "ergebnis", "minute", "tore", "karten", "wechsel", "uhr", "verschossen") if p.get(k) is not None}
            for p in partien(sp) if p.get("anstoss", "").startswith(heute) and p.get("ergebnis")}
     open(os.path.join(a.repo, "live.json"), "w", encoding="utf-8").write(
         json.dumps({"stand": datetime.now(TZ).strftime("%Y-%m-%dT%H:%M:%S"), "spiele": sp_}, ensure_ascii=False))
@@ -282,7 +313,7 @@ def comeback(a):
         kader = list(csv.DictReader(open(os.path.join(a.repo, "tools/kader.csv"), encoding="utf-8")))
         ids = CB.anwenden(news, live, sp, af, kader)
         try:
-            ids += ES.anwenden(news, live, sp)  # Endstand-Meldung direkt mit dem Abpfiff
+            ids += ES.anwenden(news, live, sp, kader=kader)  # Endstand-Meldung direkt mit dem Abpfiff
         except Exception as e:
             print(f"WARN endstand: {e}", file=sys.stderr)
         if ids:
@@ -313,10 +344,10 @@ def runde(a):
     AF = af_live() if any(p.get("heim_k") in AF_TEAM.values() for p in offen) else {}
     for p in offen:
         r = mischen(p, lesen(p["url"]), AF.get((p.get("heim_k"), p.get("gast_k"))))
-        vorher = (p.get("status"), p.get("ergebnis"), p.get("tore"), p.get("karten"), p.get("wechsel"), p.get("uhr"), p.get("minute") == "HZ")
+        vorher = (p.get("status"), p.get("ergebnis"), p.get("tore"), p.get("karten"), p.get("wechsel"), p.get("uhr"), p.get("verschossen"), p.get("minute") == "HZ")
         if r and anwenden(p, r):
-            wichtig = wichtig or vorher != (p.get("status"), p.get("ergebnis"), p.get("tore"), p.get("karten"), p.get("wechsel"), p.get("uhr"), p.get("minute") == "HZ")
-            neu[p["id"]] = {k: p.get(k) for k in ("status", "ergebnis", "minute", "tore", "karten", "wechsel", "uhr")}
+            wichtig = wichtig or vorher != (p.get("status"), p.get("ergebnis"), p.get("tore"), p.get("karten"), p.get("wechsel"), p.get("uhr"), p.get("verschossen"), p.get("minute") == "HZ")
+            neu[p["id"]] = {k: p.get(k) for k in ("status", "ergebnis", "minute", "tore", "karten", "wechsel", "uhr", "verschossen")}
             print(f"{jetzt:%H:%M} {p['heim_k']}-{p['gast_k']} {':'.join(p['ergebnis'])} {p.get('minute') or p['status']}")
     if neu and not wichtig and time.time() - LETZTER[0] < MINUTE_TAKT:
         return True, {}  # nur die Minute: beim nächsten Takt mitnehmen

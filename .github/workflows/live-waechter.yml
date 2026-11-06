@@ -1,0 +1,34 @@
+name: Live-Wächter
+
+# Prüft während der Spiele jede Minute unseren Stand gegen die Sportschau (tools/live_waechter.py) und schickt bei
+# Problemen einen Push über ntfy.sh (Thema in tools/alarm.py bzw. Secret NTFY_TOPIC). Stößt hängende oder fehlende
+# Live- und Aufstellungs-Actions selbst neu an. Endet sofort, wenn kein Spiel im Fenster ist.
+on:
+  schedule:
+    - cron: "2,22,42 9-21 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: write
+
+concurrency:
+  group: live-waechter
+  cancel-in-progress: false
+
+jobs:
+  waechter:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Live-Wächter
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: python3 -u tools/live_waechter.py --laufzeit 170

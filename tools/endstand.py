@@ -8,6 +8,7 @@ Id endstand-<heim>-<TTMM>, steht auch in tools/aufstellungen_live.json (Schutz v
 Als Modul: anwenden(news, live, spielplan) -> Liste neuer oder geänderter Ids.
 """
 import re
+import unicodedata
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
@@ -18,6 +19,18 @@ def partien(sp):
     for t in sp.get("spieltage", []):
         for p in t.get("partien", []) + t.get("nachholspiele", []):
             yield p
+
+
+def nk(n):
+    n = unicodedata.normalize("NFKD", str(n or "")).encode("ascii", "ignore").decode().lower()
+    return re.sub(r"[^a-z]", "", n.split()[-1]) if n.split() else ""
+
+
+SPIELERINNEN = set()  # Nachnamen aus kader.csv: Karten für andere Namen gehen an Trainerinnen und Staff (Arnautis, Parser-Test 06.11.)
+
+
+def wer(c):
+    return c["n"] if not SPIELERINNEN or nk(c["n"]) in SPIELERINNEN else f"{c['n']} (Trainerbank)"
 
 
 def meldung(p, jetzt):
@@ -39,10 +52,13 @@ def meldung(p, jetzt):
     if tore:
         text.append("Tore: " + ", ".join(tore) + ".")
     k = p.get("karten") or []
-    rot = [f"{c['n']} ({'Gelb-Rot' if c['art'] == 'gelbrot' else 'Rot'}, {c['min']}.)" for c in k if c.get("art") in ("rot", "gelbrot")]
+    for v in p.get("verschossen") or []:
+        text.append(f"Elfmeter verschossen: {v['n']} ({v['min']}.).")
+    rot = [f"{wer(c)} ({'Gelb-Rot' if c['art'] == 'gelbrot' else 'Rot'}, {c['min']}.)" for c in k if c.get("art") in ("rot", "gelbrot")]
     if rot:
-        text.append("Platzverweis: " + ", ".join(rot) + ". Eine Sperre für das nächste Spiel ist wahrscheinlich.")
-    gelb = [c["n"] for c in k if c.get("art") == "gelb"]
+        text.append("Platzverweis: " + ", ".join(rot) + "." + (" Eine Sperre für das nächste Spiel ist wahrscheinlich."
+                                                             if any(nk(c["n"]) in SPIELERINNEN or not SPIELERINNEN for c in k if c.get("art") in ("rot", "gelbrot")) else ""))
+    gelb = [wer(c) for c in k if c.get("art") == "gelb"]
     if gelb:
         text.append("Gelb: " + ", ".join(gelb) + ".")
     text.append("Noten und der ausführliche Bericht folgen.")
@@ -54,8 +70,10 @@ def meldung(p, jetzt):
             "quellen": [{"name": "Sportschau", "url": p.get("url", "")}], "quelle_live": True, "partie_id": p["id"]}
 
 
-def anwenden(news, live, sp, jetzt=None):
+def anwenden(news, live, sp, jetzt=None, kader=None):
     jetzt = jetzt or datetime.now(TZ)
+    if kader:
+        SPIELERINNEN.update(nk(r["name"]) for r in kader if r.get("name"))
     weg = set(live.get("entfernt", []))
     grenze = (jetzt - timedelta(minutes=150)).strftime("%Y-%m-%dT%H:%M")  # nur direkt nach dem Spiel (Live-Fenster)
     out = []

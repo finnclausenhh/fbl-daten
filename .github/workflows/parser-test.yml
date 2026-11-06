@@ -1,0 +1,34 @@
+name: Parser-Test
+
+# Regressionstest der Live-Leselogik gegen alle gespielten Partien (tools/parser_test.py): gespeicherte Sportschau-Seiten
+# in tests/sportschau, neue Partien werden frisch geladen. Läuft bei jeder Änderung an der Live-Logik und täglich vor den
+# Spielen. Schlägt er fehl, kommt ein Push (ntfy) und eine Mail von GitHub.
+on:
+  push:
+    branches: [main]
+    paths: [tools/live_ergebnis.py, tools/endstand.py, tools/comeback.py, tools/parser_test.py, tools/fbl_fetch.py]
+  schedule:
+    - cron: "41 7 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Leselogik gegen alle Partien
+        run: python3 -u tools/parser_test.py --repo . --cache tests/sportschau
+      - name: Alarm
+        if: failure()
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: python3 tools/alarm.py "Parser-Test fehlgeschlagen" "Die Live-Leselogik liest gespielte Partien falsch. Details in der Action Parser-Test."
