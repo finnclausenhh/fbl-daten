@@ -1,0 +1,76 @@
+{
+ "start": "20:30:07",
+ "schluessel": true,
+ "spiele": {
+  "12306271": {
+   "spiel": "SGE-WOB",
+   "stand_zuerst": {
+    "1:3": {
+     "sportschau": "20:30:08"
+    }
+   }
+  },
+  "12306283": {
+   "spiel": "FCB-SVW",
+   "stand_zuerst": {
+    "3:1": {
+     "sportschau": "20:30:08"
+    }
+   }
+  }
+ },
+ "proben": [
+  {
+   "zeit": "20:30:08",
+   "spiel": "SGE-WOB",
+   "ss": {
+    "text": "Beendet",
+    "erg": [
+     "1",
+     "3"
+    ],
+    "min": "90"
+   },
+   "af": null
+  },
+  {
+   "zeit": "20:30:08",
+   "spiel": "FCB-SVW",
+   "ss": {
+    "text": "Beendet",
+    "erg": [
+     "3",
+     "1"
+    ],
+    "min": "90"
+   },
+   "af": null
+  },
+  {
+   "zeit": "20:30:41",
+   "spiel": "SGE-WOB",
+   "ss": {
+    "text": "Beendet",
+    "erg": [
+     "1",
+     "3"
+    ],
+    "min": "90"
+   },
+   "af": null
+  },
+  {
+   "zeit": "20:30:41",
+   "spiel": "FCB-SVW",
+   "ss": {
+    "text": "Beendet",
+    "erg": [
+     "3",
+     "1"
+    ],
+    "min": "90"
+   },
+   "af": null
+  }
+ ]
+}
