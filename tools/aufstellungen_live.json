@@ -1,6 +1,32 @@
 {
  "meldungen": [
   {
+   "id": "fehlt-proost-fcb-0611",
+   "pid": "00020",
+   "zeit": "2026-11-06T18:30",
+   "spielerin": "Sophie Proost",
+   "verein": "FC Bayern",
+   "nr": "",
+   "pos": "MF",
+   "tags": [
+    "AUFSTELLUNG"
+   ],
+   "status": "fraglich",
+   "headline": "Proost nicht im Kader gegen Werder Bremen",
+   "text": [
+    "Sophie Proost steht in der Liga gegen Werder Bremen weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 3-mal.",
+    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
+   ],
+   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306283/bayern-muenchen_werder-bremen/aufstellung"
+    }
+   ],
+   "quelle_live": true
+  },
+  {
    "id": "aufstellung-fcb-0611",
    "zeit": "2026-11-06T17:25",
    "spielerin": "Spielansetzung",
