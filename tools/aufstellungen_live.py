@@ -354,6 +354,35 @@ def fehlt_meldung_gruppe(gruppe, spielplan):
     return m
 
 
+def weiterhin(m, news, spielplan):
+    """Bekannte Ausfälle als Schlusssatz der fehlt-Meldung (Finn 06.11.2026, Bühl bei Proost): Stammspielerinnen, die im letzten
+    Ligaspiel dabei waren und schon mit Status (verletzt, gesperrt, fraglich) gemeldet sind. Keine eigene Meldung, nur dieser Satz."""
+    tt = m["id"].rsplit("-", 1)[-1]
+    auf = next((y.get("aufstellung") for y in news["meldungen"]
+                if y["id"] == f"aufstellung-{AB.KURZ[m['verein']].lower()}-{tt}" and y.get("aufstellung")), None)
+    if not auf:
+        return None
+    namen = []
+    for f in auf.get("fehlt", []):
+        if f.get("f") != "raus" or not f.get("i"):
+            continue
+        x = {"verein": m["verein"], "n": f["n"], "zeit": m["zeit"]}
+        if not relevant(spielplan, x)[0]:
+            continue
+        grund = None
+        for y in sorted(news["meldungen"], key=lambda y: y["zeit"], reverse=True):
+            if y.get("verein") == m["verein"] and nk(y.get("spielerin", "")).endswith(nk(f["n"])) and " wegen " in y.get("headline", ""):
+                grund = y["headline"].split(" wegen ", 1)[1].strip(" .")
+                break
+        grund = grund or {"verletzt": "verletzt", "gesperrt": "gesperrt", "fraglich": "angeschlagen oder geschont"}.get(f["i"], f["i"])
+        namen.append(f"{f['n']} ({grund})")
+    if not namen:
+        return None
+    if len(namen) == 1:
+        return f"Wie angekündigt fehlt außerdem {namen[0]}."
+    return f"Wie angekündigt fehlen außerdem {', '.join(namen[:-1])} und {namen[-1]}."
+
+
 def fehlt_meldungen(a, pn, pl, news, live, spielplan):
     """Eine Meldung je Verein und Spiel, Aufmacher nur mit Stammspielerin; Ergänzungsspielerinnen stehen im Text."""
     ids = {m["id"] for m in news["meldungen"]} | set(live.get("entfernt", []))
@@ -366,6 +395,9 @@ def fehlt_meldungen(a, pn, pl, news, live, spielplan):
         m = fehlt_meldung_gruppe(gr, spielplan)
         if not m:
             continue
+        w = weiterhin(m, news, spielplan)
+        if w:
+            m["text"].append(w)
         alt = next((y for y in news["meldungen"] if y["id"] == m["id"]), None)
         if alt is None and m["id"] not in ids:
             neu.append(m); ids.add(m["id"])
