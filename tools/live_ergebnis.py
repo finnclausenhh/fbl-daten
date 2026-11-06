@@ -6,6 +6,7 @@ die Liveticker-Seite der Sportschau (Feld "url") und schreibt in spielplan.json:
   status "live" mit "ergebnis" [heim, gast] und "minute" ("12", "45+2" oder "HZ"),
   bei Abpfiff status "beendet" mit Endstand (Torschützinnen ergänzt später der Spieltage-Lauf).
 App und Web zeigen "live" schon an (Ergebnis mit Minute statt Uhrzeit).
+Tore und Status sofort, reine Minuten höchstens alle 5 Minuten (Pages-Deploy).
 Schleife: alle WARTE Sekunden, bis kein Spiel mehr läuft oder LAUFZEIT Minuten vorbei sind.
 
 Aufruf: python3 tools/live_ergebnis.py --repo . [--push] [--laufzeit 170] [--einmal]
@@ -20,6 +21,8 @@ import fbl_fetch as F  # noqa: E402
 TZ = ZoneInfo("Europe/Berlin")
 FENSTER = 150  # Minuten nach Anstoß
 WARTE = 90
+MINUTE_TAKT = 300  # nur Minute geändert: höchstens alle 5 Minuten pushen, sonst bricht GitHub Pages jeden Deploy ab (Bau dauert ca. 2 Min.)
+LETZTER = [0.0]
 
 
 def partien(sp):
@@ -79,13 +82,18 @@ def runde(a):
     offen = [p for p in partien(sp) if im_fenster(p, jetzt)]
     if not offen:
         return False, {}
-    neu = {}
+    neu, wichtig = {}, False
     for p in offen:
         r = lesen(p["url"])
+        vorher = (p.get("status"), p.get("ergebnis"))
         if r and anwenden(p, r):
+            wichtig = wichtig or vorher != (p.get("status"), p.get("ergebnis"))
             neu[p["id"]] = {k: p.get(k) for k in ("status", "ergebnis", "minute")}
             print(f"{jetzt:%H:%M} {p['heim_k']}-{p['gast_k']} {':'.join(p['ergebnis'])} {p.get('minute') or p['status']}")
+    if neu and not wichtig and time.time() - LETZTER[0] < MINUTE_TAKT:
+        return True, {}  # nur die Minute: beim nächsten Takt mitnehmen
     if neu:
+        LETZTER[0] = time.time()
         open(pfad, "w", encoding="utf-8").write(json.dumps(sp, ensure_ascii=False, separators=(",", ":")))
         if a.push:
             pushen(a, neu)
