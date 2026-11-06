@@ -403,7 +403,10 @@ def fehlt_meldungen(a, pn, pl, news, live, spielplan):
         alt = next((y for y in news["meldungen"] if y["id"] == m["id"]), None)
         if alt is None and m["id"] not in ids:
             neu.append(m); ids.add(m["id"])
-        elif alt is not None and alt.get("quelle_live") and not alt.get("zusammen") and (alt["headline"] != m["headline"] or alt["text"] != m["text"]):
+        elif alt is not None and alt.get("quelle_live") and not alt.get("zusammen") and (alt["headline"] != m["headline"] or alt["text"] != m["text"]) \
+                and alt["zeit"][:10] >= (datetime.now(TZ) - timedelta(days=1)).strftime("%Y-%m-%d"):
+            # nur frische Meldungen nachziehen: ältere stehen nicht mehr in aufstellungen_live.json, der Spiegel setzt sie
+            # zurück, das gab stündlich ein Hin und Her (06.11.2026: fehlt-reimann/bender/altenburg vom 01.11.)
             ersetzt.append(m)
     for m in ersetzt:
         news["meldungen"] = [m if y["id"] == m["id"] else y for y in news["meldungen"]]
