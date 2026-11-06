@@ -1,0 +1,30 @@
+name: Live-Ergebnis
+
+# Schreibt während der Spiele Spielstand und Minute in spielplan.json (status "live"), bei Abpfiff den Endstand.
+# Ohne Claude. Läuft in einer Schleife, solange ein Spiel im Fenster ist (Anstoß bis 150 Minuten danach), sonst endet sie sofort.
+# Start: alle 30 Minuten per Zeitplan (GitHub startet oft verspätet) und von Hand.
+on:
+  schedule:
+    - cron: "10,40 10-21 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: live-ergebnis
+  cancel-in-progress: false
+
+jobs:
+  live:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Live-Ergebnis
+        run: python3 tools/live_ergebnis.py --repo . --push --laufzeit 170
