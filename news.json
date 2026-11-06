@@ -2,6 +2,139 @@
  "stand": "2026-11-06T22:45",
  "meldungen": [
   {
+   "id": "maedl-0611",
+   "pid": "00263",
+   "zeit": "2026-11-06T23:10",
+   "spielerin": "Valentina Mädl",
+   "verein": "Bayer Leverkusen",
+   "nr": "17",
+   "pos": "ST",
+   "tags": [
+    "ABWESEND"
+   ],
+   "status": "abwesend",
+   "headline": "Mädl fehlt gegen den HSV laut Kickbase wegen Belastungssteuerung",
+   "kurz": "Mädl laut Kickbase abwesend",
+   "text": [
+    "Valentina Mädl fehlt Bayer Leverkusen im Heimspiel gegen den Hamburger SV am Samstag um 14 Uhr laut Kickbase wegen Belastungssteuerung. Der Verein nennt sie im Vorbericht nicht, bestätigt ist der Ausfall damit noch nicht.",
+    "Soccerdonna führt bei der Stürmerin muskuläre Probleme ohne Rückkehrtermin. Im Pokal beim FC Bayern stand sie am 1. November noch 75 Minuten auf dem Platz."
+   ],
+   "kickbase": "Für Samstag eher nicht einplanen. Klarheit bringt die offizielle Aufstellung gegen 12:50.",
+   "quellen": [
+    {
+     "name": "Kickbase (App, unbestätigt)",
+     "url": "https://www.kickbase.com"
+    },
+    {
+     "name": "Soccerdonna",
+     "url": "https://www.soccerdonna.de/de/bayer-04-leverkusen/startseite/verein_56.html"
+    }
+   ],
+   "foto": "fotos/b04-valentina-madl.webp",
+   "foto_credit": {
+    "autor": "Bayer 04",
+    "lizenz": "mit Genehmigung: Bayer 04 Leverkusen",
+    "url": "https://www.bayer04.de/de-de/team/frauen/frauen"
+   }
+  },
+  {
+   "id": "coskun-0611",
+   "pid": "00242",
+   "zeit": "2026-11-06T23:10",
+   "spielerin": "Sana Coşkun",
+   "verein": "Bayer Leverkusen",
+   "nr": "42",
+   "pos": "ABW",
+   "tags": [
+    "VERLETZUNG"
+   ],
+   "status": "verletzt",
+   "headline": "Coşkun fehlt weiter mit Muskel-Sehnen-Verletzung",
+   "kurz": "Coşkun fehlt weiter verletzt",
+   "text": [
+    "Sana Coşkun steht Bayer Leverkusen auch gegen den Hamburger SV am Samstag nicht zur Verfügung. Laut Vorbericht des Vereins fällt sie mit einer Muskel-Sehnen-Verletzung weiter aus.",
+    "Einen Rückkehrtermin nennt Bayer 04 nicht."
+   ],
+   "kickbase": "Nicht einplanen, bis der Verein eine Rückkehr meldet.",
+   "quellen": [
+    {
+     "name": "Bayer 04",
+     "url": "https://www.bayer04.de/de-de/news/frauen/ziele-nicht-aus-den-augen-verlieren-frauen-peilen-heimsieg-gegen-den-hsv-an"
+    }
+   ],
+   "foto": "fotos/b04-sana-coskun.webp",
+   "foto_credit": {
+    "autor": "Bayer 04",
+    "lizenz": "mit Genehmigung: Bayer 04 Leverkusen",
+    "url": "https://www.bayer04.de/de-de/team/frauen/frauen"
+   }
+  },
+  {
+   "id": "friedrich-0611",
+   "pid": "00244",
+   "zeit": "2026-11-06T23:10",
+   "spielerin": "Melissa Friedrich",
+   "verein": "Bayer Leverkusen",
+   "nr": "3",
+   "pos": "ABW",
+   "tags": [
+    "VERLETZUNG",
+    "UPDATE"
+   ],
+   "status": "verletzt",
+   "headline": "Friedrich nach Rückschlag im Aufbautraining weiter raus",
+   "kurz": "Friedrich fehlt nach Rückschlag",
+   "text": [
+    "Melissa Friedrich fällt bei Bayer Leverkusen gegen den Hamburger SV weiter aus. Laut Vorbericht des Vereins hat sie im Aufbautraining einen krankheitsbedingten Rückschlag erlitten.",
+    "Wann sie wieder ins Mannschaftstraining einsteigt, nennt Bayer 04 nicht."
+   ],
+   "kickbase": "Nicht einplanen. Nach dem Rückschlag dauert die Rückkehr eher länger.",
+   "quellen": [
+    {
+     "name": "Bayer 04",
+     "url": "https://www.bayer04.de/de-de/news/frauen/ziele-nicht-aus-den-augen-verlieren-frauen-peilen-heimsieg-gegen-den-hsv-an"
+    }
+   ],
+   "foto": "fotos/b04-melissa-friedrich.webp",
+   "foto_credit": {
+    "autor": "Bayer 04",
+    "lizenz": "mit Genehmigung: Bayer 04 Leverkusen",
+    "url": "https://www.bayer04.de/de-de/team/frauen/frauen"
+   }
+  },
+  {
+   "id": "wrigge-0611",
+   "pid": "00255",
+   "zeit": "2026-11-06T23:10",
+   "spielerin": "Amy Wrigge",
+   "verein": "Bayer Leverkusen",
+   "nr": "41",
+   "pos": "MF",
+   "tags": [
+    "VERLETZUNG"
+   ],
+   "status": "verletzt",
+   "headline": "Wrigge fehlt weiter mit Kreuzbandriss",
+   "kurz": "Wrigge fehlt mit Kreuzbandriss",
+   "text": [
+    "Amy Wrigge fällt bei Bayer Leverkusen weiter mit einem Kreuzbandriss aus, auch gegen den Hamburger SV am Samstag. Das bestätigt der Vorbericht des Vereins.",
+    "Ein Kreuzbandriss bedeutet in der Regel mehrere Monate Pause."
+   ],
+   "kickbase": "Langfristig nicht einplanen.",
+   "quellen": [
+    {
+     "name": "Bayer 04",
+     "url": "https://www.bayer04.de/de-de/news/frauen/ziele-nicht-aus-den-augen-verlieren-frauen-peilen-heimsieg-gegen-den-hsv-an"
+    }
+   ],
+   "foto": "fotos/b04-amy-wrigge.webp",
+   "foto_credit": {
+    "autor": "Bayer 04",
+    "lizenz": "mit Genehmigung: Bayer 04 Leverkusen",
+    "url": "https://www.bayer04.de/de-de/team/frauen/frauen"
+   }
+  },
+  {
    "id": "tomasiak-0611",
    "pid": "00266",
    "zeit": "2026-11-06T22:50",
