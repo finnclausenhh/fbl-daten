@@ -2,6 +2,69 @@
  "stand": "2026-11-06T19:52",
  "meldungen": [
   {
+   "id": "comeback-zadrazil-fcb-0611",
+   "pid": "00022",
+   "zeit": "2026-11-06T20:49",
+   "spielerin": "Sarah Zadrazil",
+   "verein": "FC Bayern",
+   "nr": "",
+   "pos": "MF",
+   "tags": [
+    "RÜCKKEHR"
+   ],
+   "status": "fit",
+   "headline": "Zadrazil nach Muskelproblemen zurück im Kader, aber ohne Einsatz",
+   "text": [
+    "Sarah Zadrazil ist nach Muskelproblemen zurück im Spieltagskader des FC Bayern.",
+    "Gegen Werder Bremen saß sie die gesamte Spielzeit auf der Bank."
+   ],
+   "kickbase": "Zurück im Kader, aber noch ohne Spielpraxis. Ein Einsatz am nächsten Spieltag ist offen, die Startelf eher nicht.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306283/bayern-muenchen_werder-bremen/liveticker"
+    }
+   ],
+   "quelle_live": true,
+   "partie_id": "12306283",
+   "comeback": {
+    "art": "comeback",
+    "stufe": "ohne"
+   },
+   "kurz": "Zadrazil zurück im Kader"
+  },
+  {
+   "id": "comeback-gwinn-fcb-0611",
+   "pid": "00009",
+   "zeit": "2026-11-06T20:49",
+   "spielerin": "Giulia Gwinn",
+   "verein": "FC Bayern",
+   "nr": "",
+   "pos": "ABW",
+   "tags": [
+    "RÜCKKEHR"
+   ],
+   "status": "fit",
+   "headline": "Gwinn feiert Comeback nach Außenbandriss",
+   "text": [
+    "Giulia Gwinn ist nach Außenbandriss zurück im Spieltagskader des FC Bayern.",
+    "Gegen Werder Bremen kam sie in der 63. Minute für Mattner-Trembleau ins Spiel. Insgesamt spielte sie rund 27 Minuten."
+   ],
+   "kickbase": "Wieder einsatzbereit. Nach der Pause am nächsten Spieltag eher mit begrenzter Spielzeit rechnen, die Startelf ist noch offen.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306283/bayern-muenchen_werder-bremen/liveticker"
+    }
+   ],
+   "quelle_live": true,
+   "partie_id": "12306283",
+   "comeback": {
+    "art": "comeback",
+    "stufe": "einsatz"
+   }
+  },
+  {
    "id": "fehlt-lattwein-wob-0611",
    "pid": "00403",
    "zeit": "2026-11-06T18:30",

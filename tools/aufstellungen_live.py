@@ -18,6 +18,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import fbl_fetch as F  # noqa: E402
 import aufstellung_bau as AB  # noqa: E402
 import dfb_quelle as D  # noqa: E402
+import comeback as CB  # noqa: E402
 
 TZ = ZoneInfo("Europe/Berlin")
 BASIS = "https://www.sportschau.de/live-und-ergebnisse/fussball/"
@@ -516,6 +517,16 @@ def main():
 
     fehlt_meldungen(a, pn, pl, news, live, spielplan)
 
+    # Comeback- und Erstmals-Meldungen (Finn 06.11.2026), auch für die Note von API-Football am Folgetag
+    try:
+        pa = os.path.join(a.repo, "apifootball.json")
+        cb = CB.anwenden(news, live, spielplan, json.load(open(pa, encoding="utf-8")) if os.path.exists(pa) else {}, kader)
+    except Exception as e:
+        print(f"WARN comeback: {e}", file=sys.stderr)
+        cb = []
+    if cb:
+        speichern(a, pn, pl, news, live, "Aufstellungen live: Comeback " + ", ".join(cb))
+
     # Platzhalter ohne Aufstellung 15 Minuten nach Anpfiff entfernen
     jetzt_s = (datetime.now(TZ) - timedelta(minutes=15)).strftime("%Y-%m-%dT%H:%M")
     alt_ph = [m["id"] for m in news["meldungen"] if m.get("platzhalter") and m.get("anstoss", "9") < jetzt_s]
@@ -570,6 +581,14 @@ def main():
                 geaendert = True
                 print(f"neu: {[m['headline'] for m in neu]}")
                 speichern(a, pn, pl, news, live, "Aufstellungen live: " + ", ".join(m["id"] for m in neu))
+                try:
+                    pa = os.path.join(a.repo, "apifootball.json")
+                    cb = CB.anwenden(news, live, spielplan, json.load(open(pa, encoding="utf-8")) if os.path.exists(pa) else {}, kader)
+                except Exception as e:
+                    print(f"WARN comeback: {e}", file=sys.stderr)
+                    cb = []
+                if cb:
+                    speichern(a, pn, pl, news, live, "Aufstellungen live: Comeback " + ", ".join(cb))
         fehlt_meldungen(a, pn, pl, news, live, spielplan)
         if (not offen and not SPAETER) or time.time() + 60 > ende:
             break

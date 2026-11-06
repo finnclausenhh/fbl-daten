@@ -11,12 +11,13 @@ Schleife: alle WARTE Sekunden, bis kein Spiel mehr läuft oder LAUFZEIT Minuten 
 
 Aufruf: python3 tools/live_ergebnis.py --repo . [--push] [--laufzeit 170] [--einmal]
 """
-import argparse, json, os, re, subprocess, sys, time, urllib.request
+import argparse, csv, json, os, re, subprocess, sys, time, urllib.request
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import fbl_fetch as F  # noqa: E402
+import comeback as CB  # noqa: E402
 
 TZ = ZoneInfo("Europe/Berlin")
 FENSTER = 150  # Minuten nach Anstoß
@@ -269,6 +270,23 @@ def live_json(a, sp):
         json.dumps({"stand": datetime.now(TZ).strftime("%Y-%m-%dT%H:%M:%S"), "spiele": sp_}, ensure_ascii=False))
 
 
+def comeback(a):
+    """Comeback- und Erstmals-Meldungen (tools/comeback.py) aus dem aktuellen spielplan.json in news.json schreiben."""
+    try:
+        lade = lambda f, d=None: json.load(open(os.path.join(a.repo, f), encoding="utf-8")) if os.path.exists(os.path.join(a.repo, f)) else d
+        news, sp, af = lade("news.json"), lade("spielplan.json"), lade("apifootball.json", {})
+        live = lade("tools/aufstellungen_live.json", {"meldungen": []})
+        kader = list(csv.DictReader(open(os.path.join(a.repo, "tools/kader.csv"), encoding="utf-8")))
+        ids = CB.anwenden(news, live, sp, af, kader)
+        if ids:
+            json.dump(news, open(os.path.join(a.repo, "news.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+            json.dump(live, open(os.path.join(a.repo, "tools/aufstellungen_live.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+        return ids
+    except Exception as e:  # nie den Live-Stand blockieren
+        print(f"WARN comeback: {e}", file=sys.stderr)
+        return []
+
+
 def git(a, *args, check=True):
     return subprocess.run(["git", "-C", a.repo, *args], check=check)
 
@@ -295,6 +313,7 @@ def runde(a):
         LETZTER[0] = time.time()
         open(pfad, "w", encoding="utf-8").write(json.dumps(sp, ensure_ascii=False, separators=(",", ":")))
         live_json(a, sp)
+        comeback(a)
         if MESS:
             open(os.path.join(a.repo, "live_messung.json"), "w", encoding="utf-8").write(
                 json.dumps({"datum": datetime.now(TZ).strftime("%Y-%m-%d"), "spiele": MESS}, ensure_ascii=False, indent=1))
@@ -306,7 +325,7 @@ def runde(a):
 def pushen(a, neu):
     nachricht = "Live-Ergebnis: " + ", ".join(f"{i} {':'.join(v['ergebnis'])} {v.get('minute') or v['status']}" for i, v in neu.items())
     for _ in range(4):
-        git(a, "add", "spielplan.json", "live.json", *(["live_messung.json"] if os.path.exists(os.path.join(a.repo, "live_messung.json")) else []))
+        git(a, "add", "spielplan.json", "live.json", "news.json", "tools/aufstellungen_live.json", *(["live_messung.json"] if os.path.exists(os.path.join(a.repo, "live_messung.json")) else []))
         if subprocess.run(["git", "-C", a.repo, "diff", "--cached", "--quiet"]).returncode == 0:
             return
         git(a, "-c", "user.name=WOSOINSIDER", "-c", "user.email=finnclausenhh@users.noreply.github.com", "commit", "-qm", nachricht)
@@ -325,6 +344,7 @@ def pushen(a, neu):
                     p.pop("minute", None)
         open(pfad, "w", encoding="utf-8").write(json.dumps(sp, ensure_ascii=False, separators=(",", ":")))
         live_json(a, sp)
+        comeback(a)
         time.sleep(3)
     print("WARN push fehlgeschlagen", file=sys.stderr)
 
