@@ -54,6 +54,14 @@ def lesen(url):
     return {"text": status, "ergebnis": [er.group(1), er.group(2)], "minute": minute}
 
 
+def schaetzung(p, t):
+    """Minute ohne Liveticker-Eintrag: in der 1. Halbzeit aus dem Anstoß, sonst nur die Phase."""
+    if t.startswith("1"):
+        m = int((datetime.now(TZ) - datetime.fromisoformat(p["anstoss"]).replace(tzinfo=TZ)).total_seconds() // 60) + 1
+        return str(max(m, 1)) if m <= 45 else "45+"
+    return "2. HZ" if t.startswith("2") else "LIVE"
+
+
 def anwenden(p, r):
     """Gibt True zurück, wenn sich die Partie geändert hat."""
     t = r["text"].lower()
@@ -65,10 +73,19 @@ def anwenden(p, r):
     elif "halbzeit" in t or "verlängerung" in t or "elfmeterschießen" in t:
         p["status"] = "live"
         p["ergebnis"] = r["ergebnis"]
-        p["minute"] = "HZ" if t == "halbzeit" else (r["minute"] or r["text"])
+        p["minute"] = "HZ" if t == "halbzeit" else (r["minute"] or schaetzung(p, t))
     else:
         return False  # noch nicht angepfiffen oder unbekannter Text
     return alt != (p.get("status"), p.get("ergebnis"), p.get("minute"))
+
+
+def live_json(a, sp):
+    """Kleine live.json für den Web-Ticker, der sie direkt von raw.githubusercontent.com liest (GitHub Pages braucht zu lange)."""
+    heute = datetime.now(TZ).strftime("%Y-%m-%d")
+    sp_ = {p["id"]: {k: p.get(k) for k in ("status", "ergebnis", "minute") if p.get(k) is not None}
+           for p in partien(sp) if p.get("anstoss", "").startswith(heute) and p.get("ergebnis")}
+    open(os.path.join(a.repo, "live.json"), "w", encoding="utf-8").write(
+        json.dumps({"stand": datetime.now(TZ).strftime("%Y-%m-%dT%H:%M:%S"), "spiele": sp_}, ensure_ascii=False))
 
 
 def git(a, *args, check=True):
@@ -95,6 +112,7 @@ def runde(a):
     if neu:
         LETZTER[0] = time.time()
         open(pfad, "w", encoding="utf-8").write(json.dumps(sp, ensure_ascii=False, separators=(",", ":")))
+        live_json(a, sp)
         if a.push:
             pushen(a, neu)
     return True, neu
@@ -103,7 +121,7 @@ def runde(a):
 def pushen(a, neu):
     nachricht = "Live-Ergebnis: " + ", ".join(f"{i} {':'.join(v['ergebnis'])} {v.get('minute') or v['status']}" for i, v in neu.items())
     for _ in range(4):
-        git(a, "add", "spielplan.json")
+        git(a, "add", "spielplan.json", "live.json")
         if subprocess.run(["git", "-C", a.repo, "diff", "--cached", "--quiet"]).returncode == 0:
             return
         git(a, "-c", "user.name=WOSOINSIDER", "-c", "user.email=finnclausenhh@users.noreply.github.com", "commit", "-qm", nachricht)
@@ -120,6 +138,7 @@ def pushen(a, neu):
                 if neu[p["id"]]["status"] == "beendet":
                     p.pop("minute", None)
         open(pfad, "w", encoding="utf-8").write(json.dumps(sp, ensure_ascii=False, separators=(",", ":")))
+        live_json(a, sp)
         time.sleep(3)
     print("WARN push fehlgeschlagen", file=sys.stderr)
 
