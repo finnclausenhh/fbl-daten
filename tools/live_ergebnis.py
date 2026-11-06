@@ -51,7 +51,23 @@ def lesen(url):
     minute = None
     if mins:
         minute = mins[0].replace(" ", "").rstrip(".").replace(".+", "+").replace(".", "")
-    return {"text": status, "ergebnis": [er.group(1), er.group(2)], "minute": minute, "tore": tore_lesen(s)}
+    return {"text": status, "ergebnis": [er.group(1), er.group(2)], "minute": minute, "tore": tore_lesen(s), "karten": karten_lesen(s)}
+
+
+def karten_lesen(s):
+    """Karten aus dem Liveticker (data-event_action="card"): seite, n (Nachname), min, art gelb|gelbrot|rot."""
+    heim = (re.search(r'team_home="(\d+)"', s) or [None, ""])[1]
+    out = []
+    for li in re.finditer(r'<li class="liveticker"[^>]*data-event_action="card" data-event_kind="([^"]*)"[^>]*>(.*?)</li>', s, re.S):
+        kind, b = li.group(1).lower(), li.group(2)
+        name = re.sub(r"<[^>]+>", "", (re.search(r'class="person-name[^"]*">(.*?)</div>', b, re.S) or [None, ""])[1]).strip()
+        te = (re.search(r'/verein/te(\d+)/', b) or [None, ""])[1]
+        if not name or not te:
+            continue
+        art = "gelbrot" if "yellow" in kind and "red" in kind else "rot" if "red" in kind else "gelb"
+        mi = (re.search(r'class="liveticker-minute">([^<]*)<', b) or [None, ""])[1].strip().rstrip(".").replace(".+", "+").replace(".", "")
+        out.append({"seite": "heim" if te == heim else "gast", "n": name.split()[-1], "min": mi, "art": art})
+    return sorted(out, key=lambda k: int(re.sub(r"\D.*", "", k["min"]) or 0))
 
 
 def tore_lesen(s):
@@ -89,9 +105,11 @@ def schaetzung(p, t):
 def anwenden(p, r):
     """Gibt True zurück, wenn sich die Partie geändert hat."""
     t = r["text"].lower()
-    alt = (p.get("status"), p.get("ergebnis"), p.get("minute"), p.get("tore"))
+    alt = (p.get("status"), p.get("ergebnis"), p.get("minute"), p.get("tore"), p.get("karten"))
     if r.get("tore") or p.get("status") == "live":
         p["tore"] = r.get("tore") or []
+    if r.get("karten") or p.get("status") == "live":
+        p["karten"] = r.get("karten") or []
     if any(w in t for w in ("ende", "beendet", "abpfiff", "abgeschlossen")):
         p["status"] = "beendet"
         p["ergebnis"] = r["ergebnis"]
@@ -104,13 +122,13 @@ def anwenden(p, r):
         return False  # noch nicht angepfiffen oder unbekannter Text
     if p["status"] not in ("live", "beendet"):
         return False
-    return alt != (p.get("status"), p.get("ergebnis"), p.get("minute"), p.get("tore"))
+    return alt != (p.get("status"), p.get("ergebnis"), p.get("minute"), p.get("tore"), p.get("karten"))
 
 
 def live_json(a, sp):
     """Kleine live.json für den Web-Ticker, der sie direkt von raw.githubusercontent.com liest (GitHub Pages braucht zu lange)."""
     heute = datetime.now(TZ).strftime("%Y-%m-%d")
-    sp_ = {p["id"]: {k: p.get(k) for k in ("status", "ergebnis", "minute", "tore") if p.get(k) is not None}
+    sp_ = {p["id"]: {k: p.get(k) for k in ("status", "ergebnis", "minute", "tore", "karten") if p.get(k) is not None}
            for p in partien(sp) if p.get("anstoss", "").startswith(heute) and p.get("ergebnis")}
     open(os.path.join(a.repo, "live.json"), "w", encoding="utf-8").write(
         json.dumps({"stand": datetime.now(TZ).strftime("%Y-%m-%dT%H:%M:%S"), "spiele": sp_}, ensure_ascii=False))
@@ -130,10 +148,10 @@ def runde(a):
     neu, wichtig = {}, False
     for p in offen:
         r = lesen(p["url"])
-        vorher = (p.get("status"), p.get("ergebnis"), p.get("tore"))
+        vorher = (p.get("status"), p.get("ergebnis"), p.get("tore"), p.get("karten"))
         if r and anwenden(p, r):
-            wichtig = wichtig or vorher != (p.get("status"), p.get("ergebnis"), p.get("tore"))
-            neu[p["id"]] = {k: p.get(k) for k in ("status", "ergebnis", "minute", "tore")}
+            wichtig = wichtig or vorher != (p.get("status"), p.get("ergebnis"), p.get("tore"), p.get("karten"))
+            neu[p["id"]] = {k: p.get(k) for k in ("status", "ergebnis", "minute", "tore", "karten")}
             print(f"{jetzt:%H:%M} {p['heim_k']}-{p['gast_k']} {':'.join(p['ergebnis'])} {p.get('minute') or p['status']}")
     if neu and not wichtig and time.time() - LETZTER[0] < MINUTE_TAKT:
         return True, {}  # nur die Minute: beim nächsten Takt mitnehmen
