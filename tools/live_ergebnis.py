@@ -18,6 +18,7 @@ from zoneinfo import ZoneInfo
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import fbl_fetch as F  # noqa: E402
 import comeback as CB  # noqa: E402
+import endstand as ES  # noqa: E402
 
 TZ = ZoneInfo("Europe/Berlin")
 FENSTER = 150  # Minuten nach Anstoß
@@ -280,6 +281,10 @@ def comeback(a):
         live = lade("tools/aufstellungen_live.json", {"meldungen": []})
         kader = list(csv.DictReader(open(os.path.join(a.repo, "tools/kader.csv"), encoding="utf-8")))
         ids = CB.anwenden(news, live, sp, af, kader)
+        try:
+            ids += ES.anwenden(news, live, sp)  # Endstand-Meldung direkt mit dem Abpfiff
+        except Exception as e:
+            print(f"WARN endstand: {e}", file=sys.stderr)
         if ids:
             json.dump(news, open(os.path.join(a.repo, "news.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
             json.dump(live, open(os.path.join(a.repo, "tools/aufstellungen_live.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
