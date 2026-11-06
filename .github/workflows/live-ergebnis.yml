@@ -5,7 +5,7 @@ name: Live-Ergebnis
 # Start: alle 30 Minuten per Zeitplan (GitHub startet oft verspätet) und von Hand.
 on:
   schedule:
-    - cron: "10,40 10-21 * * *"
+    - cron: "5,25,45 10-21 * * *"
   workflow_dispatch:
 
 permissions:

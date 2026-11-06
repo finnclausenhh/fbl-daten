@@ -299,7 +299,11 @@ def runde(a):
     sp = json.load(open(pfad, encoding="utf-8"))
     offen = [p for p in partien(sp) if im_fenster(p, jetzt)]
     if not offen:
-        return False, {}
+        # Anpfiff in den nächsten 40 Minuten: weiter warten statt beenden, sonst startet der nächste Zeitplan-Lauf
+        # erst nach Anpfiff (06.11.2026: Live-Stand kam erst in der 8. Minute; GitHub startet geplante Läufe oft spät)
+        bald = any(p.get("status") not in ("beendet", "abgesagt") and p.get("url") and "T00:00" not in p.get("anstoss", "T00:00")
+                   and jetzt < datetime.fromisoformat(p["anstoss"]).replace(tzinfo=TZ) <= jetzt + timedelta(minutes=40) for p in partien(sp))
+        return bald, {}
     neu, wichtig = {}, False
     AF = af_live() if any(p.get("heim_k") in AF_TEAM.values() for p in offen) else {}
     for p in offen:
