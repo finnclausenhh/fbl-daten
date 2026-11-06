@@ -1,0 +1,24 @@
+{
+ "12306271": {
+  "spiel": "SGE-WOB",
+  "anstoss": "2026-11-06T18:30",
+  "fixture": 1593165,
+  "af_status": "FT",
+  "erste_pruefung": "2026-11-06T21:08",
+  "noten_zuletzt": 40,
+  "letzte_pruefung": "2026-11-06T21:08",
+  "noten_da": "2026-11-06T21:08",
+  "bau_gestartet": "2026-11-06T21:08"
+ },
+ "12306283": {
+  "spiel": "FCB-SVW",
+  "anstoss": "2026-11-06T18:30",
+  "fixture": 1593164,
+  "af_status": "FT",
+  "erste_pruefung": "2026-11-06T21:08",
+  "noten_zuletzt": 39,
+  "letzte_pruefung": "2026-11-06T21:08",
+  "noten_da": "2026-11-06T21:08",
+  "bau_gestartet": "2026-11-06T21:08"
+ }
+}
