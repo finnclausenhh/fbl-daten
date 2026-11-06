@@ -1,6 +1,39 @@
 {
- "stand": "2026-11-06T12:51",
+ "stand": "2026-11-06T13:47",
  "meldungen": [
+  {
+   "id": "bender-0611",
+   "pid": "00257",
+   "zeit": "2026-11-06T13:45",
+   "spielerin": "Loreen Bender",
+   "verein": "Bayer Leverkusen",
+   "nr": "19",
+   "pos": "ST",
+   "tags": [
+    "RÜCKKEHR",
+    "UPDATE"
+   ],
+   "status": "fit",
+   "headline": "Bender und Fudalla vor dem HSV-Spiel zurück",
+   "kurz": "Bender und Fudalla sind zurück im Kader",
+   "text": [
+    "Bayer Leverkusen kann im Heimspiel gegen den Hamburger SV am Samstag um 14 Uhr voraussichtlich wieder auf Loreen Bender, Vanessa Fudalla und Natasha Kowalski zurückgreifen. Fudalla war zuletzt krank, Kowalski hatte einen Trainingsrückstand. Bender hatte im Pokal beim FC Bayern gefehlt.",
+    "Weiter nicht dabei sind Paulina Tomasiak (Trainingsrückstand), Sana Coskun (Muskel-Sehnen-Verletzung), Melissa Friedrich (Rückschlag im Aufbautraining nach einer Krankheit) und Amy Wrigge (Kreuzbandriss). Die Startelf ist noch nicht bekannt."
+   ],
+   "kickbase": "Bender und Fudalla sind wieder Optionen für den Kader, ein Startelfplatz ist damit nicht gesichert. Vor einem Kauf lohnt der Blick auf die offizielle Aufstellung.",
+   "quellen": [
+    {
+     "name": "Bayer 04",
+     "url": "https://www.bayer04.de/de-de/news/frauen/ziele-nicht-aus-den-augen-verlieren-frauen-peilen-heimsieg-gegen-den-hsv-an"
+    }
+   ],
+   "foto": "fotos/b04-loreen-bender.webp",
+   "foto_credit": {
+    "autor": "Bayer 04",
+    "lizenz": "mit Genehmigung: Bayer 04 Leverkusen",
+    "url": "https://www.bayer04.de/de-de/team/frauen/frauen"
+   }
+  },
   {
    "typ": "punkt",
    "id": "punkt-md9",
@@ -2159,12 +2192,12 @@
     "POKAL"
    ],
    "status": "fraglich",
-   "headline": "Reimann nicht im Kader gegen FC Carl Zeiss Jena",
+   "headline": "Reimann und Ihme nicht im Kader gegen FC Carl Zeiss Jena",
    "text": [
-    "Anna Reimann steht im DFB-Pokal gegen FC Carl Zeiss Jena weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
+    "Im DFB-Pokal gegen FC Carl Zeiss Jena stehen weder in der Startelf noch auf der Bank: Anna Reimann (5 von 5 Ligaspielen in der Startelf), Pauline Ihme (0 von 5 Ligaspielen in der Startelf).",
     "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
    ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
+   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie alle als fraglich und stufen sie in der Prognose herunter.",
    "quellen": [
     {
      "name": "DFB-Datencenter",
@@ -2172,7 +2205,7 @@
     }
    ],
    "quelle_live": true,
-   "kurz": "Reimann nicht im Kader"
+   "kurz": "Reimann und Ihme nicht im Kader"
   },
   {
    "id": "fehlt-viggosdottir-fcb-0111",
@@ -2222,19 +2255,20 @@
     "POKAL"
    ],
    "status": "fraglich",
-   "headline": "Bender nicht im Kader gegen FC Bayern",
+   "headline": "Bender und Remien nicht im Kader gegen FC Bayern",
    "text": [
-    "Loreen Bender steht im DFB-Pokal gegen FC Bayern weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 4-mal.",
+    "Im DFB-Pokal gegen FC Bayern stehen weder in der Startelf noch auf der Bank: Loreen Bender (4 von 5 Ligaspielen in der Startelf), Louisa Remien (0 von 5 Ligaspielen in der Startelf).",
     "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
    ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
+   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie alle als fraglich und stufen sie in der Prognose herunter.",
    "quellen": [
     {
      "name": "Sportschau",
      "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165391/bayern-muenchen_bayer-leverkusen/aufstellung"
     }
    ],
-   "quelle_live": true
+   "quelle_live": true,
+   "kurz": "Bender und Remien nicht im Kader"
   },
   {
    "id": "fehlt-altenburg-sge-0111",
@@ -2249,19 +2283,20 @@
     "POKAL"
    ],
    "status": "fraglich",
-   "headline": "Altenburg nicht im Kader gegen 1. FC Nürnberg",
+   "headline": "Altenburg und Doorsoun nicht im Kader gegen 1. FC Nürnberg",
    "text": [
-    "Lina Altenburg steht im DFB-Pokal gegen 1. FC Nürnberg weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
+    "Im DFB-Pokal gegen 1. FC Nürnberg stehen weder in der Startelf noch auf der Bank: Lina Altenburg (5 von 5 Ligaspielen in der Startelf), Sara Doorsoun (2 von 5 Ligaspielen in der Startelf).",
     "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
    ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
+   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie alle als fraglich und stufen sie in der Prognose herunter.",
    "quellen": [
     {
      "name": "DFB-Datencenter",
      "url": "https://datencenter.dfb.de/matches/1-fc-nuernberg-eintracht-frankfurt-2431335"
     }
    ],
-   "quelle_live": true
+   "quelle_live": true,
+   "kurz": "Altenburg und Doorsoun nicht im Kader"
   },
   {
    "id": "aufstellung-pokal-scf-0111",
@@ -7062,62 +7097,6 @@
      "url": "https://www.fupa.net/news/frauen-des-vfb-gegen-frankfurt-wollen-ein-anderes-gesicht-zeigen-3194849"
     }
    ]
-  },
-  {
-   "id": "union-2210",
-   "zeit": "2026-10-22T16:00",
-   "spielerin": "Marie-Louise Eta",
-   "verein": "Union Berlin",
-   "nr": "",
-   "pos": "Trainerin",
-   "tags": [
-    "VORBERICHT"
-   ],
-   "headline": "Union reist mit acht Ausfällen und Siegesserie nach Hamburg",
-   "text": [
-    "Union Berlin tritt am Sonntag um 17 Uhr beim Hamburger SV an, nach vier Pflichtspielsiegen in Folge und zuletzt einem 2:1 gegen Nürnberg. Mit neun Punkten haben die Berlinerinnen den Anschluss ans Mittelfeld hergestellt.",
-    "Laut Verein fehlen Anna Aehling, Cara Bösl, Hannah Eurlings, Lisa Heiseler, Korina Janež, Ida Heikkinen, Mariann Noack und Nelly Smolarczyk. Gründe nennt der Verein nicht. Trainerin Eta fordert von ihrem Team Intensität und Energie von der ersten Minute an."
-   ],
-   "kickbase": "Acht Ausfälle ohne genannten Grund: Union-Spielerinnen bis zur Aufstellung am Sonntag mit Vorsicht behandeln. Der HSV steht nach dem 1:3 in Köln bei fünf Punkten und muss Doucouré ersetzen.",
-   "quellen": [
-    {
-     "name": "1. FC Union Berlin",
-     "url": "https://www.fc-union-berlin.de/de/meldungen/unionerinnen-reisen-mit-aufwind-ins-volksparkstadion-ARsCPA"
-    }
-   ],
-   "kurz": "Union mit acht Ausfällen nach Hamburg"
-  },
-  {
-   "id": "buehl-2210",
-   "zeit": "2026-10-22T13:03",
-   "spielerin": "Klara Bühl",
-   "verein": "FC Bayern",
-   "nr": "17",
-   "pos": "ST",
-   "tags": [
-    "TRANSFER"
-   ],
-   "headline": "Barcala will Bühl halten, Vertrag läuft im Sommer aus",
-   "text": [
-    "Bayern-Trainer José Barcala hat sich klar für einen Verbleib von Klara Bühl ausgesprochen. Er zählt sie zu den besten Flügelspielerinnen der Welt und wünscht sich, dass sie in München zur Legende wird.",
-    "Bühls Vertrag endet im kommenden Sommer. Sie wird immer wieder mit dem FC Barcelona in Verbindung gebracht und hält sich ihre Zukunft nach eigener Aussage offen."
-   ],
-   "kickbase": "Für die laufende Saison ohne Einfluss: Bühl ist mit vier Toren und fünf Vorlagen gesetzt. Die Wechselfrage betrifft erst den Sommer.",
-   "quellen": [
-    {
-     "name": "SPORT1 (SID)",
-     "url": "https://www.sport1.de/news/fussball/frauen-bundesliga/2026/10/fc-bayern-barcala-sieht-buehl-als-kuenftige-bayern-legende"
-    }
-   ],
-   "foto": "fotos/klara-buhl.jpg",
-   "foto_credit": {
-    "autor": "Steffen Prößdorf",
-    "lizenz": "CC BY-SA 4.0",
-    "url": "https://commons.wikimedia.org/wiki/File:2023-06-26_Fussball,_Frauen,_Deutsche_Nationalmannschaft,_Media_Day_1DX_6335_by_Stepro.jpg"
-   },
-   "pid": "00023",
-   "instagram": "https://www.instagram.com/buehlklara/",
-   "kurz": "Barcala will Bühl halten, Vertrag läuft aus"
   },
   {
    "id": "aufstellung-rbl-2310",
