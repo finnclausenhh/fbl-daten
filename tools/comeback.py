@@ -140,7 +140,30 @@ def bilanz(p, seite, name):
     return s.strip()
 
 
-def meldung(art, p, seite, s, voll, bez, af, kader, jetzt, alt):
+def zeitpunkt(stufe, p, seite, start, ein, news, jetzt):
+    """Zeit der Meldung = Zeit des Ereignisses, nicht des Laufs (Finn 06.11.2026): "zurück im Kader" direkt bei den
+    Aufstellungen (gleiche Zeit wie die fehlt-Meldung des Vereins, sonst die Aufstellung), "feiert Comeback" zur Einwechslung
+    (Startelf: Anpfiff). "ohne Einsatz" ist nur der Nachtrag zur Kader-Meldung und behält deren Zeit. Nie später als jetzt."""
+    an = datetime.strptime(p["anstoss"], "%Y-%m-%dT%H:%M").replace(tzinfo=TZ)
+    uhr = p.get("uhr") or {}
+    utc = lambda k: datetime.fromisoformat(uhr[k].replace("Z", "+00:00")).astimezone(TZ) if uhr.get(k) else None
+    k = (p.get(seite + "_k") or AB.KURZ.get(p[seite], "")).lower()
+    tt = p["anstoss"][8:10] + p["anstoss"][5:7]
+    if stufe in ("kader", "ohne") or (stufe == "einsatz" and start):
+        z = [m["zeit"] for m in news["meldungen"] if m["id"].startswith("fehlt-") and m["id"].endswith(f"-{k}-{tt}")] \
+            or [m["zeit"] for m in news["meldungen"] if m["id"] == f"aufstellung-{k}-{tt}"]
+        t = datetime.strptime(max(z), "%Y-%m-%dT%H:%M").replace(tzinfo=TZ) if z else an
+        if stufe == "einsatz":
+            t = utc("a1") or an
+    else:
+        if ein is not None and ein > 45:
+            t = (utc("a2") or an + timedelta(minutes=60)) + timedelta(minutes=ein - 45)
+        else:
+            t = (utc("a1") or an) + timedelta(minutes=ein or 0)
+    return min(t, jetzt).strftime("%Y-%m-%dT%H:%M")
+
+
+def meldung(art, p, seite, s, voll, bez, af, kader, jetzt, alt, news=None):
     verein, gegner = p[seite], p["gast" if seite == "heim" else "heim"]
     k = (p.get(seite + "_k") or AB.KURZ.get(verein, "")).lower()
     tt = p["anstoss"][8:10] + p["anstoss"][5:7]
@@ -196,7 +219,7 @@ def meldung(art, p, seite, s, voll, bez, af, kader, jetzt, alt):
     if alt and alt.get("comeback", {}).get("stufe") not in (None, stufe):
         tags.append("UPDATE")
     m = {"id": f"{art if art == 'erstmals' else 'comeback'}-{re.sub(r'[^a-z0-9]+', '-', F.norm(nach))}-{k}-{tt}", "pid": pid,
-         "zeit": (alt or {}).get("zeit") if alt and alt.get("comeback", {}).get("stufe") == stufe else jetzt.strftime("%Y-%m-%dT%H:%M"),
+         "zeit": zeitpunkt(stufe, p, seite, start, ein, news or {"meldungen": []}, jetzt),
          "spielerin": voll, "verein": verein, "nr": s.get("nr", ""), "pos": AB.pos_von(voll or s["n"], verein, kader) or s.get("p", ""),
          "tags": tags, "status": "fit", "headline": head, "text": text, "kickbase": kb,
          "quellen": [{"name": "Sportschau", "url": p.get("url", "")}] + ([{"name": "API-Football (Note)", "url": "https://www.api-football.com"}] if note is not None else []),
@@ -265,7 +288,7 @@ def anwenden(news, live, sp, af, kader, jetzt=None):
         if mid in weg:
             continue
         alt = next((m for m in news["meldungen"] if m["id"] == mid), None)
-        m = meldung(art, p, seite, s, voll, bez, af, kader, jetzt, alt)
+        m = meldung(art, p, seite, s, voll, bez, af, kader, jetzt, alt, news)
         if alt is None and art == "comeback" and m["comeback"]["stufe"] == "kader" and presse_rueckkehr(news, p[seite], voll, jetzt):
             continue  # Rückkehr schon aus der Presse gemeldet: erst bei Einsatz oder Abpfiff
         vergl = lambda x: {kk: v for kk, v in (x or {}).items() if kk != "zeit"}

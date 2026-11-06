@@ -150,10 +150,10 @@ def lesen(url):
 
 
 def uhr_lesen(s):
-    """Echte Anpfiffzeiten (UTC) aus dem Liveticker: a1 = Anpfiff, a2 = Anpfiff 2. Halbzeit. Damit können Web und App die Minute
+    """Echte Anpfiffzeiten (UTC) aus dem Liveticker: a1 = Anpfiff, a2 = Anpfiff 2. Halbzeit, e = Abpfiff. Damit können Web und App die Minute
     selbst hochzählen, ohne für jede Minute zu pushen (06.11.2026)."""
     u = {}
-    for kind, k in (("game-start", "a1"), ("second-half-start", "a2")):
+    for kind, k in (("game-start", "a1"), ("second-half-start", "a2"), ("game-end", "e")):
         m = re.search(r'data-event_kind="' + kind + r'"[^>]*?data-event_created="([^"]*)"', s)
         if m:
             u[k] = m.group(1)
