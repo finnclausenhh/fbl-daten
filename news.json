@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-06T20:48",
+ "stand": "2026-11-06T21:51",
  "meldungen": [
   {
    "id": "comeback-zadrazil-fcb-0611",
@@ -48,13 +48,18 @@
    "headline": "Gwinn feiert Comeback nach Außenbandriss",
    "text": [
     "Giulia Gwinn ist nach Außenbandriss zurück im Spieltagskader des FC Bayern.",
-    "Gegen Werder Bremen kam sie in der 63. Minute für Mattner-Trembleau ins Spiel. Insgesamt spielte sie rund 27 Minuten."
+    "Gegen Werder Bremen kam sie in der 63. Minute ins Spiel. Insgesamt spielte sie rund 27 Minuten.",
+    "API-Football bewertet ihren Auftritt mit der Note 6,2 (durchwachsen)."
    ],
    "kickbase": "Wieder einsatzbereit. Nach der Pause am nächsten Spieltag eher mit begrenzter Spielzeit rechnen, die Startelf ist noch offen.",
    "quellen": [
     {
      "name": "Sportschau",
      "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306283/bayern-muenchen_werder-bremen/liveticker"
+    },
+    {
+     "name": "API-Football (Note)",
+     "url": "https://www.api-football.com"
     }
    ],
    "quelle_live": true,
@@ -988,7 +993,7 @@
    "md": 9,
    "zeit": "2026-11-06T12:31",
    "pin_bis": "2026-11-06T18:30",
-   "headline": "Spieltag 9 auf den Punkt",
+   "headline": "Spieltag 9 auf den Punkt · Update 18:30",
    "sicher": [
     {
      "n": "Ella Peddemors",
@@ -1054,7 +1059,11 @@
     {
      "n": "Loreen Bender",
      "k": "B04",
-     "warum": "Im Pokal gegen den FC Bayern nicht im Kader, der Grund ist offen."
+     "warum": "Im Pokal gegen den FC Bayern nicht im Kader, der Grund ist offen.",
+     "update": {
+      "zeit": "2026-11-06T13:45",
+      "text": "Bender und Fudalla sind zurück im Kader"
+     }
     },
     {
      "n": "Anna Reimann",
@@ -1072,7 +1081,111 @@
      "warum": "Angeschlagen, eine Diagnose fehlt bisher, Einsatz gegen Stuttgart offen."
     }
    ],
-   "analyse_link": true
+   "analyse_link": true,
+   "titel_basis": "Spieltag 9 auf den Punkt",
+   "updates": [
+    {
+     "zeit": "2026-11-06T18:30",
+     "k": "WOB",
+     "text": "Lattwein nicht im Kader",
+     "art": "meldung",
+     "id": "fehlt-lattwein-wob-0611"
+    },
+    {
+     "zeit": "2026-11-06T18:30",
+     "k": "FCB",
+     "text": "Proost nicht im Kader gegen Werder Bremen",
+     "art": "meldung",
+     "id": "fehlt-proost-fcb-0611"
+    },
+    {
+     "zeit": "2026-11-06T17:25",
+     "k": "SGE",
+     "text": "Offizielle Aufstellung: Frankfurt gegen Wolfsburg",
+     "art": "aufstellung",
+     "partie": "12306271"
+    },
+    {
+     "zeit": "2026-11-06T17:25",
+     "k": "FCB",
+     "text": "Offizielle Aufstellung: Bayern gegen Werder",
+     "art": "aufstellung",
+     "partie": "12306283"
+    },
+    {
+     "zeit": "2026-11-06T14:46",
+     "k": "RBL",
+     "text": "Schimmer startet statt Ásgeirsdóttir (Ásgeirsdóttir fehlt mit Oberschenkelverletzung)",
+     "art": "prognose"
+    },
+    {
+     "zeit": "2026-11-06T13:45",
+     "k": "B04",
+     "text": "Bender und Fudalla sind zurück im Kader",
+     "art": "meldung",
+     "id": "bender-0611"
+    }
+   ],
+   "wackel": [
+    {
+     "k": "SCF",
+     "p": "TW",
+     "a": "Reimann",
+     "b": "Barth",
+     "anstoss": "2026-11-07T12:00"
+    },
+    {
+     "k": "B04",
+     "p": "OM",
+     "a": "Bender",
+     "b": "Platner",
+     "anstoss": "2026-11-07T14:00"
+    },
+    {
+     "k": "B04",
+     "p": "OM",
+     "a": "Fudalla",
+     "b": "Zdebel",
+     "anstoss": "2026-11-07T14:00"
+    },
+    {
+     "k": "HSV",
+     "p": "ST",
+     "a": "Eggert",
+     "b": "Karczewska",
+     "anstoss": "2026-11-07T14:00"
+    },
+    {
+     "k": "M05",
+     "p": "ABW",
+     "a": "Georgieva",
+     "b": "Flach",
+     "anstoss": "2026-11-08T16:00"
+    },
+    {
+     "k": "M05",
+     "p": "ST",
+     "a": "Anstatt",
+     "b": "Bouziane",
+     "anstoss": "2026-11-08T16:00"
+    },
+    {
+     "k": "VFB",
+     "p": "OM",
+     "a": "Schetter",
+     "b": "Hirano",
+     "anstoss": "2026-11-08T16:00"
+    },
+    {
+     "k": "RBL",
+     "p": "OM",
+     "a": "Schimmer",
+     "b": "Joly",
+     "anstoss": "2026-11-09T18:00"
+    }
+   ],
+   "aktualisiert": "2026-11-06T18:30",
+   "fertig": true
   },
   {
    "id": "asgeirsdottir-0611",
