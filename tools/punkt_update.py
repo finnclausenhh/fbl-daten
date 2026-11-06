@@ -5,13 +5,14 @@ Die Meldung (typ "punkt", geschrieben vom Lauf nach engine/punkt_auftrag.md) bek
 - "updates": Liste [{zeit, k, text}] (neueste zuerst):
   * Prognose-Änderungen gegen den Stand bei Erscheinen ("Bender startet statt Tomasiak"), mit Anlass aus einer neuen
     Meldung zu einer der beiden Spielerinnen, falls vorhanden (dann zählt deren Uhrzeit);
-  * neue Meldungen mit Personalbezug (Verletzung, Rückkehr, Sperre, nicht im Kader, TOP) zu Teams des Spieltags,
-    solange ihr Spiel noch nicht angepfiffen war;
+  * neue Meldungen mit Personalbezug (Verletzung, Rückkehr, Sperre, nicht im Kader, TOP) zu Teams des Spieltags;
   * "Offizielle Aufstellung da" je Partie.
 - Hinweis "update" an Einträgen in Sicher/Finger weg/Tipp/Achtung, wenn es zu der Spielerin später eine Meldung gab.
 - "wackel": Wackelkandidaten aus der aktuellen Prognose (Feld alternativ: "Bender oder Platner") für Spiele ohne
   offizielle Aufstellung; verletzte oder gesperrte Spielerinnen fallen raus.
-- headline "Spieltag N auf den Punkt · Update HH:MM" (Uhrzeit des neuesten Updates), pin_bis = letzter Anpfiff.
+- headline "Spieltag N auf den Punkt · Update HH:MM" (Uhrzeit des neuesten Updates), pin_bis = erster Anpfiff.
+Kickbase sperrt mit dem ersten Anpfiff (Finn 06.11.2026): nur Updates bis dahin; danach wird die Meldung einmal
+abgeschlossen ("fertig": true), nicht mehr angeheftet und rutscht im Feed nach unten.
 Stand der Prognose bei Erscheinen und erste Sichtung je Änderung: tools/punkt_stand.json.
 Die Meldung steht auch in tools/aufstellungen_live.json, damit "Aufstellungen schützen" sie nach einem Spiegel einsetzt.
 
@@ -59,10 +60,15 @@ def anwenden(news, live, sp, repo, jetzt=None):
         ps = partien(sp, md)
         if not ps:
             continue
-        letzter = max(p["anstoss"] for p in ps)
-        if letzter < (jetzt.replace(hour=0, minute=0)).strftime("%Y-%m-%dT%H:%M")[:10]:
+        # Kickbase sperrt mit dem ersten Anpfiff des Spieltags (Finn 06.11.2026): bis dahin aktualisieren, danach abschließen,
+        # nicht mehr anheften und nicht mehr anfassen.
+        erster = min(p["anstoss"] for p in ps)
+        if m.get("fertig"):
             continue
         st = stand.setdefault(m["id"], {"basis": {}, "gesehen": {}})
+        nach_anpfiff = js > erster
+        if nach_anpfiff:
+            js = erster
         # Stand bei Erscheinen festhalten (einmal, nur für Spiele ohne offizielle Aufstellung)
         if not st["basis"]:
             for p in ps:
@@ -94,6 +100,8 @@ def anwenden(news, live, sp, repo, jetzt=None):
             for i in range(max(len(rein), len(raus))):
                 r, a = (rein[i] if i < len(rein) else None), (raus[i] if i < len(raus) else None)
                 gk = f"{key}|{nk(r or '')}|{nk(a or '')}"
+                if nach_anpfiff and gk not in st["gesehen"]:
+                    continue  # erst nach dem ersten Anpfiff gesehen: für Kickbase zu spät
                 anlass = next((x for x in reversed(vorher_m) if nk(x.get("spielerin", "")) in {nk(r or "-"), nk(a or "-")} and x.get("verein") == p[seite]), None)
                 zeit = st["gesehen"].setdefault(gk, max(anlass["zeit"], ab) if anlass else js)
                 nach = lambda n: n.split()[-1]
@@ -114,9 +122,14 @@ def anwenden(news, live, sp, repo, jetzt=None):
             if all((p.get(s + "_aufstellung") or {}).get("typ") == "offiziell" for s in ("heim", "gast")):
                 am = next((x for x in news["meldungen"] if x["id"].startswith(f"aufstellung-{(p.get('heim_k') or '').lower()}-")
                            and x["zeit"][:10] == p["anstoss"][:10]), None)
+                if nach_anpfiff and f"auf|{p['id']}" not in st["gesehen"] and not am:
+                    continue
                 zeit = st["gesehen"].setdefault(f"auf|{p['id']}", am["zeit"] if am else js)
+                if zeit > erster:
+                    continue
                 ups.append({"zeit": zeit, "k": p.get("heim_k"), "text": f"Offizielle Aufstellung: {KNAME.get(p['heim'], p['heim'])} gegen {KNAME.get(p['gast'], p['gast'])}",
                             "art": "aufstellung", "partie": p["id"]})
+        ups = [u for u in ups if u["zeit"] <= erster]
         ups.sort(key=lambda u: u["zeit"], reverse=True)
         # 4. Hinweise an den Einträgen
         sektionen = {}
@@ -151,7 +164,9 @@ def anwenden(news, live, sp, repo, jetzt=None):
                     wackel.append({"k": p.get(seite + "_k"), "p": alt.get("p", ""), "a": x, "b": y, "anstoss": p["anstoss"]})
         titel = re.sub(r"\s*·\s*Update \d\d:\d\d$", "", m.get("titel_basis") or m["headline"])
         head = titel + (f" · Update {ups[0]['zeit'][11:16]}" if ups else "")
-        neu = dict(m, titel_basis=titel, headline=head, updates=ups, wackel=wackel, pin_bis=letzter, **sektionen)
+        neu = dict(m, titel_basis=titel, headline=head, updates=ups, wackel=wackel, pin_bis=erster, **sektionen)
+        if nach_anpfiff:
+            neu["fertig"] = True  # Stand zum ersten Anpfiff, danach keine Änderungen mehr
         if ups:
             neu["aktualisiert"] = ups[0]["zeit"]
         if neu != m:
