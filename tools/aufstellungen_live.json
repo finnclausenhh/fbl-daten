@@ -1,6 +1,42 @@
 {
  "meldungen": [
   {
+   "id": "comeback-gwinn-fcb-0611",
+   "pid": "00009",
+   "zeit": "2026-11-06T19:48",
+   "spielerin": "Giulia Gwinn",
+   "verein": "FC Bayern",
+   "nr": "",
+   "pos": "ABW",
+   "tags": [
+    "RÜCKKEHR"
+   ],
+   "status": "fit",
+   "headline": "Gwinn feiert Comeback nach Außenbandriss",
+   "text": [
+    "Giulia Gwinn ist nach Außenbandriss zurück im Spieltagskader des FC Bayern.",
+    "Gegen Werder Bremen kam sie in der 63. Minute ins Spiel. Insgesamt spielte sie rund 27 Minuten.",
+    "API-Football bewertet ihren Auftritt mit der Note 6,2 (durchwachsen)."
+   ],
+   "kickbase": "Wieder einsatzbereit. Nach der Pause am nächsten Spieltag eher mit begrenzter Spielzeit rechnen, die Startelf ist noch offen.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306283/bayern-muenchen_werder-bremen/liveticker"
+    },
+    {
+     "name": "API-Football (Note)",
+     "url": "https://www.api-football.com"
+    }
+   ],
+   "quelle_live": true,
+   "partie_id": "12306283",
+   "comeback": {
+    "art": "comeback",
+    "stufe": "einsatz"
+   }
+  },
+  {
    "typ": "punkt",
    "id": "punkt-md9",
    "md": 9,
@@ -199,42 +235,6 @@
    ],
    "aktualisiert": "2026-11-06T18:30",
    "fertig": true
-  },
-  {
-   "id": "comeback-gwinn-fcb-0611",
-   "pid": "00009",
-   "zeit": "2026-11-06T19:48",
-   "spielerin": "Giulia Gwinn",
-   "verein": "FC Bayern",
-   "nr": "",
-   "pos": "ABW",
-   "tags": [
-    "RÜCKKEHR"
-   ],
-   "status": "fit",
-   "headline": "Gwinn feiert Comeback nach Außenbandriss",
-   "text": [
-    "Giulia Gwinn ist nach Außenbandriss zurück im Spieltagskader des FC Bayern.",
-    "Gegen Werder Bremen kam sie in der 63. Minute für Mattner-Trembleau ins Spiel. Insgesamt spielte sie rund 27 Minuten.",
-    "API-Football bewertet ihren Auftritt mit der Note 6,2 (durchwachsen)."
-   ],
-   "kickbase": "Wieder einsatzbereit. Nach der Pause am nächsten Spieltag eher mit begrenzter Spielzeit rechnen, die Startelf ist noch offen.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306283/bayern-muenchen_werder-bremen/liveticker"
-    },
-    {
-     "name": "API-Football (Note)",
-     "url": "https://www.api-football.com"
-    }
-   ],
-   "quelle_live": true,
-   "partie_id": "12306283",
-   "comeback": {
-    "art": "comeback",
-    "stufe": "einsatz"
-   }
   },
   {
    "id": "comeback-zadrazil-fcb-0611",
