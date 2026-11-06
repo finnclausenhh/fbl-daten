@@ -1,0 +1,25 @@
+{
+ "datum": "2026-11-06",
+ "spiele": [
+  1593164,
+  1593165
+ ],
+ "erstmals": {
+  "1593164": {
+   "spiel": "Bayern Munich W - Werder Bremen W",
+   "anstoss": "2026-11-06T17:30:00+00:00",
+   "aufstellung_gesehen": "2026-11-06T17:01+00:00",
+   "minuten_vor_anpfiff": 29,
+   "mit_bank": true
+  },
+  "1593165": {
+   "spiel": "Eintracht Frankfurt W - VfL Wolfsburg W",
+   "anstoss": "2026-11-06T17:30:00+00:00",
+   "aufstellung_gesehen": "2026-11-06T17:01+00:00",
+   "minuten_vor_anpfiff": 29,
+   "mit_bank": true
+  }
+ },
+ "ohne_aufstellung_bis_anpfiff": [],
+ "abfragen": 6
+}
