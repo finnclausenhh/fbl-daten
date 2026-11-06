@@ -51,7 +51,18 @@ def lesen(url):
     minute = None
     if mins:
         minute = mins[0].replace(" ", "").rstrip(".").replace(".+", "+").replace(".", "")
-    return {"text": status, "ergebnis": [er.group(1), er.group(2)], "minute": minute, "tore": tore_lesen(s), "karten": karten_lesen(s), "wechsel": wechsel_lesen(s)}
+    return {"text": status, "ergebnis": [er.group(1), er.group(2)], "minute": minute, "tore": tore_lesen(s), "karten": karten_lesen(s), "wechsel": wechsel_lesen(s), "uhr": uhr_lesen(s)}
+
+
+def uhr_lesen(s):
+    """Echte Anpfiffzeiten (UTC) aus dem Liveticker: a1 = Anpfiff, a2 = Anpfiff 2. Halbzeit. Damit können Web und App die Minute
+    selbst hochzählen, ohne für jede Minute zu pushen (06.11.2026)."""
+    u = {}
+    for kind, k in (("game-start", "a1"), ("second-half-start", "a2")):
+        m = re.search(r'data-event_kind="' + kind + r'"[^>]*?data-event_created="([^"]*)"', s)
+        if m:
+            u[k] = m.group(1)
+    return u
 
 
 def wechsel_lesen(s):
@@ -134,6 +145,8 @@ def anwenden(p, r):
         p["karten"] = r.get("karten") or []
     if r.get("wechsel") or p.get("status") == "live":
         p["wechsel"] = r.get("wechsel") or []
+    if r.get("uhr"):
+        p["uhr"] = r["uhr"]
     if any(w in t for w in ("ende", "beendet", "abpfiff", "abgeschlossen")):
         p["status"] = "beendet"
         p["ergebnis"] = r["ergebnis"]
@@ -156,7 +169,7 @@ def anwenden(p, r):
 def live_json(a, sp):
     """Kleine live.json für den Web-Ticker, der sie direkt von raw.githubusercontent.com liest (GitHub Pages braucht zu lange)."""
     heute = datetime.now(TZ).strftime("%Y-%m-%d")
-    sp_ = {p["id"]: {k: p.get(k) for k in ("status", "ergebnis", "minute", "tore", "karten", "wechsel") if p.get(k) is not None}
+    sp_ = {p["id"]: {k: p.get(k) for k in ("status", "ergebnis", "minute", "tore", "karten", "wechsel", "uhr") if p.get(k) is not None}
            for p in partien(sp) if p.get("anstoss", "").startswith(heute) and p.get("ergebnis")}
     open(os.path.join(a.repo, "live.json"), "w", encoding="utf-8").write(
         json.dumps({"stand": datetime.now(TZ).strftime("%Y-%m-%dT%H:%M:%S"), "spiele": sp_}, ensure_ascii=False))
@@ -179,7 +192,7 @@ def runde(a):
         vorher = (p.get("status"), p.get("ergebnis"), p.get("tore"), p.get("karten"), p.get("wechsel"))
         if r and anwenden(p, r):
             wichtig = wichtig or vorher != (p.get("status"), p.get("ergebnis"), p.get("tore"), p.get("karten"), p.get("wechsel"))
-            neu[p["id"]] = {k: p.get(k) for k in ("status", "ergebnis", "minute", "tore", "karten", "wechsel")}
+            neu[p["id"]] = {k: p.get(k) for k in ("status", "ergebnis", "minute", "tore", "karten", "wechsel", "uhr")}
             print(f"{jetzt:%H:%M} {p['heim_k']}-{p['gast_k']} {':'.join(p['ergebnis'])} {p.get('minute') or p['status']}")
     if neu and not wichtig and time.time() - LETZTER[0] < MINUTE_TAKT:
         return True, {}  # nur die Minute: beim nächsten Takt mitnehmen
