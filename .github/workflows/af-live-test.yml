@@ -1,0 +1,33 @@
+name: API-Football Live-Test
+
+# Einmaliger Vergleich API-Football gegen Sportschau während laufender Spiele (06.11.2026). Nur von Hand.
+on:
+  workflow_dispatch:
+    inputs:
+      minuten:
+        description: "Höchstdauer in Minuten"
+        default: "20"
+
+permissions:
+  contents: write
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Vergleich
+        env:
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+        run: python3 -u tools/af_live_test.py --repo . --minuten ${{ inputs.minuten }}
+      - name: Ergebnis sichern
+        run: |
+          git add live_test.json
+          git -c user.name=WOSOINSIDER -c user.email=finnclausenhh@users.noreply.github.com commit -qm "API-Football Live-Test: Ergebnis"
+          for i in 1 2 3 4; do git fetch -q origin main && git rebase -q origin/main && git push -q origin HEAD:main && break; sleep 5; done
