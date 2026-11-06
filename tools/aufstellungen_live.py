@@ -19,6 +19,7 @@ import fbl_fetch as F  # noqa: E402
 import aufstellung_bau as AB  # noqa: E402
 import dfb_quelle as D  # noqa: E402
 import comeback as CB  # noqa: E402
+import punkt_update as PU  # noqa: E402
 
 TZ = ZoneInfo("Europe/Berlin")
 BASIS = "https://www.sportschau.de/live-und-ergebnisse/fussball/"
@@ -234,7 +235,7 @@ def ohne_doppel(news):
     news["meldungen"] = [m for m in news["meldungen"] if not (m["id"] in gesehen or gesehen.add(m["id"]))]
 
 
-def speichern(a, pn, pl, news, live, nachricht):
+def speichern(a, pn, pl, news, live, nachricht, extra=()):
     ohne_doppel(news)
     news["stand"] = datetime.now(TZ).strftime("%Y-%m-%dT%H:%M")
     json.dump(news, open(pn, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
@@ -244,7 +245,7 @@ def speichern(a, pn, pl, news, live, nachricht):
     g = ["git", "-C", a.repo]
     st = {"letzter_lauf": datetime.now(TZ).strftime("%Y-%m-%dT%H:%M"), "lauf": "Aufstellungen live", "news_neu": 1, "spielplan_geaendert": False}
     json.dump(st, open(os.path.join(a.repo, "status.json"), "w", encoding="utf-8"), ensure_ascii=False)
-    subprocess.run(g + ["add", "news.json", "tools/aufstellungen_live.json", "status.json"], check=True)
+    subprocess.run(g + ["add", "news.json", "tools/aufstellungen_live.json", "status.json", *extra], check=True)
     if subprocess.run(g + ["diff", "--cached", "--quiet", "--", "news.json", "tools/aufstellungen_live.json"]).returncode == 0:
         subprocess.run(g + ["reset", "-q"], check=False)
         return
@@ -414,6 +415,15 @@ def fehlt_meldungen(a, pn, pl, news, live, spielplan):
         speichern(a, pn, pl, news, live, "Aufstellungen live: nicht im Kader " + ", ".join(m["id"] for m in neu + ersetzt))
 
 
+def punkt(a, pn, pl, news, live, spielplan):
+    """Auf den Punkt aktualisieren (tools/punkt_update.py): Updates, Wackelkandidaten, Uhrzeit im Titel."""
+    try:
+        if PU.anwenden(news, live, spielplan, a.repo):
+            speichern(a, pn, pl, news, live, "Aufstellungen live: Auf den Punkt aktualisiert", extra=["tools/punkt_stand.json"])
+    except Exception as e:
+        print(f"WARN punkt: {e}", file=sys.stderr)
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--repo", default=".")
@@ -432,7 +442,8 @@ def main():
     # Selbstheilung
     jetzt = datetime.now(TZ)
     grenze = (jetzt - timedelta(days=1)).strftime("%Y-%m-%d")
-    live["meldungen"] = [m for m in live["meldungen"] if m["zeit"][:10] >= grenze]
+    live["meldungen"] = [m for m in live["meldungen"] if m["zeit"][:10] >= grenze
+                         or (m.get("typ") == "punkt" and m.get("pin_bis", "") >= jetzt.strftime("%Y-%m-%dT%H:%M"))]  # Auf den Punkt lebt bis zum letzten Anpfiff
     entfernt = set(live.setdefault("entfernt", []))
     vorher = len(news["meldungen"])
     news["meldungen"] = [m for m in news["meldungen"] if m["id"] not in entfernt]
@@ -526,6 +537,7 @@ def main():
         cb = []
     if cb:
         speichern(a, pn, pl, news, live, "Aufstellungen live: Comeback " + ", ".join(cb))
+    punkt(a, pn, pl, news, live, spielplan)
 
     # Platzhalter ohne Aufstellung 15 Minuten nach Anpfiff entfernen
     jetzt_s = (datetime.now(TZ) - timedelta(minutes=15)).strftime("%Y-%m-%dT%H:%M")
@@ -589,6 +601,7 @@ def main():
                     cb = []
                 if cb:
                     speichern(a, pn, pl, news, live, "Aufstellungen live: Comeback " + ", ".join(cb))
+                punkt(a, pn, pl, news, live, spielplan)
         fehlt_meldungen(a, pn, pl, news, live, spielplan)
         if (not offen and not SPAETER) or time.time() + 60 > ende:
             break
