@@ -1,6 +1,33 @@
 {
- "stand": "2026-11-06T16:51",
+ "stand": "2026-11-06T17:10",
  "meldungen": [
+  {
+   "id": "aufstellung-folgt-ma12306271",
+   "zeit": "2026-11-06T17:10",
+   "spielerin": "Spielansetzung",
+   "verein": "Eintracht Frankfurt",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "AUFSTELLUNG"
+   ],
+   "headline": "Aufstellung Eintracht Frankfurt gegen VfL Wolfsburg folgt",
+   "kurz": "Aufstellung folgt, Anpfiff 18:30",
+   "text": [
+    "Anpfiff in der Liga ist um 18:30 Uhr. Die offizielle Aufstellung kommt meist rund 60 Minuten vorher, wir ergänzen sie hier automatisch, sobald sie veröffentlicht ist.",
+    "Bis dahin steht unsere Prognose im Spielplan bei der Partie."
+   ],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306271/eintracht-frankfurt_vfl-wolfsburg/aufstellung"
+    }
+   ],
+   "platzhalter": true,
+   "anstoss": "2026-11-06T18:30",
+   "partie_id": "12306271"
+  },
   {
    "id": "bender-0611",
    "pid": "00257",
