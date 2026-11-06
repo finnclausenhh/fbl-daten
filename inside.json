@@ -7,7 +7,7 @@
    {
     "art": "risk",
     "label": "Risiko",
-    "text": "Wolfsburg wechselte im Schnitt 3,4 Startelfplätze pro Ligaspiel. Nur sechs Spielerinnen begannen in allen vier letzten Ligaspielen, dazu kommen Frankfurt (6.11.), Rotterdam (10.11.) und FC Bayern (14.11.)."
+    "text": "Wolfsburg wechselte im Schnitt 3,4 Startelfplätze pro Ligaspiel. Nur sechs Spielerinnen begannen in allen vier letzten Ligaspielen, dazu kamen das 3:1 in Frankfurt am 6.11., es folgen Rotterdam (10.11.) und FC Bayern (14.11.)."
    },
    {
     "art": "chance",
@@ -17,7 +17,7 @@
    {
     "art": "watch",
     "label": "Beobachten",
-    "text": "Am 9. Spieltag fehlen gesperrt Mahmutovic bei FC Bayern gegen Werder und Redzepi bei Stuttgart in Mainz. Gwinn steht laut Trainer Barcala gegen Werder wieder im Kader und soll ein paar Minuten spielen."
+    "text": "Am 8.11. fehlt Redzepi gesperrt bei Stuttgart in Mainz. Mahmutovic fehlte gesperrt beim 3:1 des FC Bayern gegen Werder, Gwinn feierte dort ihr Comeback und kam in der 63. Minute ins Spiel."
    }
   ]
  },
@@ -197,11 +197,11 @@
      ]
     ],
     "text": "Seit Spieltag 6 dreimal in Folge 90 Minuten, vorher nur ein Startelfeinsatz. Gegen Freiburg traf sie zweimal nach Standards, im Pokal in Mainz erneut doppelt.",
-    "kb": "Erst beim FC Bayern (0,88 Gegentore pro Spiel), dann zu Hause gegen Union (2).",
+    "kb": "Beim FC Bayern verlor Werder am 6.11. mit 1:3. Als Nächstes kommt Union (2 Gegentore pro Spiel) nach Bremen.",
     "next": {
-     "k": "FCB",
-     "ort": "A",
-     "datum": "Fr 06.11."
+     "k": "FCU",
+     "ort": "H",
+     "datum": "Sa 14.11."
     }
    },
    {
@@ -370,69 +370,14 @@
      "ort": "A",
      "datum": "So 08.11."
     }
-   },
-   {
-    "n": "Noemi Ivelj",
-    "k": "SGE",
-    "big": "24",
-    "big_txt": "Minuten in den letzten 3 Spielen",
-    "s": [
-     [
-      30,
-      0,
-      0
-     ],
-     [
-      90,
-      1,
-      0
-     ],
-     [
-      90,
-      1,
-      0
-     ],
-     [
-      18,
-      0,
-      0
-     ],
-     [
-      90,
-      1,
-      0
-     ],
-     [
-      0,
-      0,
-      0
-     ],
-     [
-      8,
-      0,
-      0
-     ],
-     [
-      16,
-      0,
-      0
-     ]
-    ],
-    "text": "Seit Frankfurt seine Elf gefunden hat, nur noch Kurzeinsätze.",
-    "kb": "Kein Startelfplatz in Sicht, nächster Gegner Wolfsburg kassiert 1 Tore pro Spiel.",
-    "next": {
-     "k": "WOB",
-     "ort": "H",
-     "datum": "Fr 06.11."
-    }
    }
   ],
   "hold": [
    {
     "n": "Ella Peddemors",
     "k": "WOB",
-    "big": "9",
-    "big_txt": "Tore, alle 720 Minuten gespielt",
+    "big": "11",
+    "big_txt": "Tore in 9 Ligaspielen",
     "s": [
      [
       90,
@@ -475,19 +420,19 @@
       2
      ]
     ],
-    "text": "4,2 Schüsse pro 90 Minuten, dazu Ecken und Freistöße. In den letzten 3 Spielen 5 Tore.",
-    "kb": "Frankfurt kassiert nur 0,88 Tore pro Spiel, das schwerste Spiel des Monats. Wolfsburg holte auswärts trotzdem 12 von 15 Punkten.",
+    "text": "4,2 Schüsse pro 90 Minuten, dazu Ecken und Freistöße. Am 6.11. traf sie in Frankfurt zweimal beim 3:1.",
+    "kb": "Nächster Ligagegner ist der FC Bayern (0,88 Gegentore pro Spiel), davor wartet Rotterdam. Wolfsburg holte auswärts trotzdem 12 von 15 Punkten.",
     "next": {
-     "k": "SGE",
-     "ort": "A",
-     "datum": "Fr 06.11."
+     "k": "FCB",
+     "ort": "H",
+     "datum": "Sa 14.11."
     }
    },
    {
     "n": "Klara Bühl",
     "k": "FCB",
-    "big": "4",
-    "big_txt": "Tore in den letzten 3 Spielen",
+    "big": "6",
+    "big_txt": "Tore in 7 Einsätzen",
     "s": [
      [
       74,
@@ -530,12 +475,12 @@
       2
      ]
     ],
-    "text": "6 Tore in 7 Einsätzen. Bayerns erste Wahl bei Ecken und Freistößen.",
-    "kb": "Werder kassiert 1,38 Tore pro Spiel. Aber Bühl fehlt am Freitag laut SPORT1 wegen Belastungssteuerung, am 10.11. wartet Paris.",
+    "text": "Bayerns erste Wahl bei Ecken und Freistößen. Am 6.11. fehlte sie gegen Werder wegen Belastungssteuerung.",
+    "kb": "Am 10.11. wartet Paris, am 14.11. geht es nach Wolfsburg (1 Gegentor pro Spiel).",
     "next": {
-     "k": "SVW",
-     "ort": "H",
-     "datum": "Fr 06.11."
+     "k": "WOB",
+     "ort": "A",
+     "datum": "Sa 14.11."
     }
    }
   ]
@@ -607,7 +552,7 @@
      3
     ]
    ],
-   "hinweis": "Bühl fehlt gegen Werder wegen Belastungssteuerung"
+   "hinweis": "Bühl fehlte am 6.11. gegen Werder wegen Belastungssteuerung"
   },
   {
    "k": "WOB",
@@ -709,7 +654,7 @@
      3
     ]
    ],
-   "hinweis": "Tomasiak fraglich, Bender fehlte am 01.11. im Pokal ohne genannten Grund"
+   "hinweis": "Tomasiak fehlt gegen den HSV wegen Trainingsrückstand, Bender ist zurück"
   },
   {
    "k": "KOE",
@@ -920,30 +865,6 @@
    {
     "md": 9,
     "partien": [
-     {
-      "heim": "SGE",
-      "gast": "WOB",
-      "datum": "Fr 06.11.",
-      "zeit": "18:30",
-      "fakten": [
-       "Wolfsburg holte <b>12 von 15</b> Auswärtspunkten bei <b>18:5</b> Toren.",
-       "Frankfurt kassierte erst <b>7</b> Gegentore, Bestwert gemeinsam mit Bayern.",
-       "Wolfsburg hat nach dem 8:0 im Pokal am Montag nur <b>3 Tage</b> Pause, Frankfurt einen Tag mehr."
-      ],
-      "kb": "Peddemors bleibt gesetzt. Bei Wolfsburgs Rotationskandidatinnen ist Vorsicht angebracht."
-     },
-     {
-      "heim": "FCB",
-      "gast": "SVW",
-      "datum": "Fr 06.11.",
-      "zeit": "18:30",
-      "fakten": [
-       "Bayern gewann alle <b>4</b> Heimspiele, <b>16:3</b> Tore.",
-       "Für Werder ist es das <b>3. Pflichtspiel in 9 Tagen</b> (29.10., 1.11., 6.11.).",
-       "Werder holte auswärts <b>3 Punkte</b> aus 3 Spielen und traf in allen <b>8</b> Ligaspielen."
-      ],
-      "kb": "Gute Ausgangslage für Bayerns Offensive, aber Bühl fehlt laut SPORT1 wegen Belastungssteuerung, Viggósdóttir fällt mit Knieproblemen aus und am 10.11. wartet Paris."
-     },
      {
       "heim": "SCF",
       "gast": "FCN",
@@ -3531,5 +3452,5 @@
   "id": "punkt-md9",
   "text": "Spieltag 9 in 60 Sekunden"
  },
- "geprueft": "2026-11-05T22:45"
+ "geprueft": "2026-11-06T22:55"
 }
