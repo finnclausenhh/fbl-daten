@@ -49,6 +49,7 @@ jobs:
           AFDIR=/tmp/aft/apifootball python3 tools/apifootball_bau.py --aus apifootball.json
       - name: Sichern
         run: |
+          git config user.name "WOSOINSIDER"; git config user.email "finnclausenhh@users.noreply.github.com"  # rebase braucht eine Identität (06.11.2026)
           git add apifootball.json standards_ticker.json
           if git diff --cached --quiet; then echo "keine Änderung"; exit 0; fi
           git -c user.name="WOSOINSIDER" -c user.email="finnclausenhh@users.noreply.github.com" commit -qm "API-Football: apifootball.json"
