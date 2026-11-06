@@ -1,5 +1,5 @@
 {
-"spiele": 56,
+"spiele": 58,
 "teams": {
 "FCB": [
 {
@@ -53,7 +53,7 @@
 {
 "k": "FCB",
 "n": "Edna Imade",
-"kopf": 3,
+"kopf": 4,
 "std_kopf": 1,
 "std_tore": 0,
 "ecke_tritt": 0,
@@ -128,7 +128,7 @@
 "fs_l": 0,
 "fs_r": 0,
 "fs_direkt": 0,
-"fs_flanke": 0
+"fs_flanke": 1
 },
 {
 "k": "FCB",
@@ -555,12 +555,12 @@
 {
 "k": "SGE",
 "n": "Amanda Ilestedt",
-"kopf": 2,
-"std_kopf": 2,
+"kopf": 4,
+"std_kopf": 4,
 "std_tore": 0,
 "ecke_tritt": 0,
 "fs_tritt": 0,
-"std_kopftore": 0,
+"std_kopftore": 1,
 "ecke_l": 0,
 "ecke_r": 0,
 "fs_l": 0,
@@ -631,6 +631,22 @@
 "fs_r": 0,
 "fs_direkt": 0,
 "fs_flanke": 2
+},
+{
+"k": "SGE",
+"n": "Nina Lührßen",
+"kopf": 0,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 1,
+"fs_tritt": 0,
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 1,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 }
 ],
 "WOB": [
