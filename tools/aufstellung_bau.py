@@ -96,7 +96,7 @@ def infos(verein, kader, news):
     """Status-Hinweise je Spielerin aus news.json (verletzt/gesperrt, optional Ausfallzeit im Feld 'ausfall')."""
     out = {}
     for m in sorted(news, key=lambda m: m["zeit"]):  # neueste gewinnt
-        if m.get("verein") == verein and m.get("status") in ("verletzt", "gesperrt", "fraglich"):
+        if m.get("verein") == verein and m.get("status") in ("verletzt", "abwesend", "gesperrt", "fraglich"):
             out[norm(m["spielerin"]).split()[-1]] = m.get("ausfall") or m["status"]
         elif m.get("verein") == verein and m.get("status") == "fit":
             out.pop(norm(m["spielerin"]).split()[-1], None)

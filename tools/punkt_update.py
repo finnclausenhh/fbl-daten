@@ -158,8 +158,8 @@ def anwenden(news, live, sp, repo, jetzt=None):
                     x, y = alt.get("statt"), alt.get("fuer")
                     if (p.get(seite + "_k"), nk(x)) in weg or (p.get(seite + "_k"), nk(y)) in weg:
                         continue
-                    if not x or not y or (p[seite], nk(x)) in inf and inf[(p[seite], nk(x))] in ("verletzt", "gesperrt") \
-                            or (p[seite], nk(y)) in inf and inf[(p[seite], nk(y))] in ("verletzt", "gesperrt"):
+                    if not x or not y or (p[seite], nk(x)) in inf and inf[(p[seite], nk(x))] in ("verletzt", "abwesend", "gesperrt") \
+                            or (p[seite], nk(y)) in inf and inf[(p[seite], nk(y))] in ("verletzt", "abwesend", "gesperrt"):
                         continue
                     wackel.append({"k": p.get(seite + "_k"), "p": alt.get("p", ""), "a": x, "b": y, "anstoss": p["anstoss"]})
         titel = re.sub(r"\s*·\s*Update \d\d:\d\d$", "", m.get("titel_basis") or m["headline"])

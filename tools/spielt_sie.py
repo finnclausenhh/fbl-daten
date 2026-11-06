@@ -141,7 +141,7 @@ def runde(sp, spn, um, fotos, jetzt, anlass_m=None, af=None):
                 else:
                     continue
                 st = s.get("status") or {}
-                if st.get("s") in ("fraglich", "verletzt", "gesperrt", "aufbau"):
+                if st.get("s") in ("fraglich", "verletzt", "abwesend", "gesperrt", "aufbau"):
                     # Status immer nennen (Finn 04.11.2026: Tomasiak ohne Hinweis auf ihre Probleme)
                     seit = st.get("stand", "")
                     anlass = f"{st['s'].capitalize()}{' seit ' + seit[8:10] + '.' + seit[5:7] + '.' if len(seit) >= 10 else ''}: {st.get('grund') or 'Grund offen'}. " + anlass

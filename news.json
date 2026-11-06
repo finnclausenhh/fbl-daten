@@ -2,6 +2,38 @@
  "stand": "2026-11-06T22:24",
  "meldungen": [
   {
+   "id": "tomasiak-0611",
+   "pid": "00266",
+   "zeit": "2026-11-06T22:50",
+   "spielerin": "Paulina Tomasiak",
+   "verein": "Bayer Leverkusen",
+   "nr": "28",
+   "pos": "ST",
+   "tags": [
+    "ABWESEND"
+   ],
+   "status": "abwesend",
+   "headline": "Tomasiak fehlt gegen den HSV wegen Trainingsrückstand",
+   "kurz": "Tomasiak fehlt mit Trainingsrückstand",
+   "text": [
+    "Paulina Tomasiak steht Bayer Leverkusen im Heimspiel gegen den Hamburger SV am Samstag um 14 Uhr nicht zur Verfügung. Laut Vorbericht des Vereins fällt die Stürmerin wegen eines Trainingsrückstands weiter aus, eine Verletzung nennt Bayer 04 nicht.",
+    "Tomasiak stand in drei der letzten fünf Ligaspiele in der Startelf und hat drei Ligatore erzielt. Ebenfalls weiter nicht dabei sind Sana Coşkun, Melissa Friedrich und Amy Wrigge."
+   ],
+   "kickbase": "Für Samstag nicht einplanen. Wann sie zurückkehrt, nennt der Verein nicht. Ein Trainingsrückstand ist in der Regel kürzer als eine Verletzungspause.",
+   "quellen": [
+    {
+     "name": "Bayer 04",
+     "url": "https://www.bayer04.de/de-de/news/frauen/ziele-nicht-aus-den-augen-verlieren-frauen-peilen-heimsieg-gegen-den-hsv-an"
+    }
+   ],
+   "foto": "fotos/b04-paulina-tomasiak.webp",
+   "foto_credit": {
+    "autor": "Bayer 04",
+    "lizenz": "mit Genehmigung: Bayer 04 Leverkusen",
+    "url": "https://www.bayer04.de/de-de/team/frauen/frauen"
+   }
+  },
+  {
    "id": "comeback-zadrazil-fcb-0611",
    "pid": "00022",
    "zeit": "2026-11-06T18:30",
