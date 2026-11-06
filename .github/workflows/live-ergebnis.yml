@@ -27,4 +27,6 @@ jobs:
         with:
           python-version: "3.12"
       - name: Live-Ergebnis
+        env:
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
         run: python3 -u tools/live_ergebnis.py --repo . --push --laufzeit 170

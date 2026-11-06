@@ -11,7 +11,7 @@ Schleife: alle WARTE Sekunden, bis kein Spiel mehr läuft oder LAUFZEIT Minuten 
 
 Aufruf: python3 tools/live_ergebnis.py --repo . [--push] [--laufzeit 170] [--einmal]
 """
-import argparse, json, os, re, subprocess, sys, time
+import argparse, json, os, re, subprocess, sys, time, urllib.request
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
@@ -20,9 +20,98 @@ import fbl_fetch as F  # noqa: E402
 
 TZ = ZoneInfo("Europe/Berlin")
 FENSTER = 150  # Minuten nach Anstoß
-WARTE = 90
+WARTE = 45  # 06.11.2026: 90 -> 45 s, Sportschau-Seite ist klein genug
 MINUTE_TAKT = 300  # nur Minute geändert: höchstens alle 5 Minuten pushen, sonst bricht GitHub Pages jeden Deploy ab (Bau dauert ca. 2 Min.)
 LETZTER = [0.0]
+
+# API-Football (Pro) als zweite Quelle (06.11.2026): ein Abruf je Runde für alle laufenden Spiele der Liga 82.
+# Genutzt für: Tore, die dort früher stehen (Ergebnis sofort, Name nachgezogen, sobald die Sportschau sie hat), die laufende
+# Minute und als Ersatz, wenn die Sportschau-Seite nicht lesbar ist. Wechsel und Karten nur aus der Sportschau.
+# live_messung.json hält fest, welche Quelle ein Tor zuerst hatte (Vergleich für Finn).
+AF_LIGA = 82
+AF_TEAM = {1858: "TSG", 1859: "B04", 1860: "FCB", 1863: "WOB", 1867: "SCF", 1870: "SVW", 1871: "KOE",
+           14014: "SGE", 20487: "FCN", 20498: "HSV", 20501: "RBL", 21564: "M05", 24130: "VFB", 24133: "FCU"}
+MESS = {}
+
+
+def af_live():
+    key = os.environ.get("API_FOOTBALL_KEY")
+    if not key:
+        return {}
+    try:
+        req = urllib.request.Request(f"https://v3.football.api-sports.io/fixtures?live={AF_LIGA}",
+                                     headers={"x-apisports-key": key, "User-Agent": "WOSOINSIDER-Live/1.0"})
+        with urllib.request.urlopen(req, timeout=15) as r:
+            d = json.loads(r.read().decode("utf-8"))
+    except Exception as e:
+        print(f"WARN API-Football: {e}", file=sys.stderr)
+        return {}
+    out = {}
+    for f in d.get("response", []):
+        hk, gk = AF_TEAM.get(f["teams"]["home"]["id"]), AF_TEAM.get(f["teams"]["away"]["id"])
+        if not hk or not gk:
+            continue
+        hid = f["teams"]["home"]["id"]
+        tore = []
+        for e in f.get("events") or []:
+            if e.get("type") == "Goal" and "missed" not in (e.get("detail") or "").lower():
+                t = {"seite": "heim" if e["team"]["id"] == hid else "gast", "n": (((e.get("player") or {}).get("name") or "").split() or [""])[-1],
+                     "min": str(e["time"]["elapsed"]) + (f"+{e['time']['extra']}" if e["time"].get("extra") else ""), "quelle": "af"}
+                if "own" in (e.get("detail") or "").lower():
+                    t["art"] = "Eigentor"
+                elif "penalty" in (e.get("detail") or "").lower():
+                    t["art"] = "Elfmeter"
+                tore.append(t)
+        st = f["fixture"]["status"]
+        out[(hk, gk)] = {"kurz": st.get("short"), "el": st.get("elapsed"), "ex": st.get("extra"),
+                         "erg": [str(f["goals"]["home"] or 0), str(f["goals"]["away"] or 0)], "tore": tore}
+    return out
+
+
+def af_als_r(af):
+    """Ersatz, wenn die Sportschau nichts liefert."""
+    text = {"1H": "1. Halbzeit", "HT": "pause", "2H": "2. Halbzeit", "ET": "verlängerung", "BT": "pause", "P": "elfmeterschießen",
+            "FT": "beendet", "AET": "beendet", "PEN": "beendet"}.get(af["kurz"])
+    if not text:
+        return None
+    return {"text": text, "ergebnis": af["erg"], "minute": af_minute(af), "tore": af["tore"], "karten": [], "wechsel": [], "uhr": {}}
+
+
+def af_minute(af):
+    if af.get("kurz") not in ("1H", "2H", "ET") or not af.get("el"):
+        return None
+    return str(af["el"]) + (f"+{af['ex']}" if af.get("ex") else "")
+
+
+def messen(p, quelle, erg):
+    if not erg:
+        return
+    m = MESS.setdefault(p["id"], {"spiel": f"{p['heim_k']}-{p['gast_k']}"})
+    m.setdefault(":".join(erg), {}).setdefault(quelle, datetime.now(TZ).strftime("%H:%M:%S"))
+
+
+def mischen(p, r, af):
+    """Sportschau (r) und API-Football (af) zusammenführen."""
+    if r:
+        messen(p, "sportschau", r["ergebnis"])
+    if af:
+        messen(p, "apifootball", af["erg"])
+    if not af:
+        return r
+    if not r:
+        return af_als_r(af)
+    if sum(map(int, af["erg"])) > sum(map(int, r["ergebnis"])):
+        # Tor zuerst bei API-Football: Ergebnis sofort, fehlende Tore je Seite aus API-Football anhängen
+        tore = list(r.get("tore") or [])
+        for seite, i in (("heim", 0), ("gast", 1)):
+            fehlt = int(af["erg"][i]) - sum(1 for t in tore if t["seite"] == seite)
+            if fehlt > 0:
+                tore += [t for t in af["tore"] if t["seite"] == seite][-fehlt:]
+        r = dict(r, ergebnis=af["erg"], tore=tore)
+    m = af_minute(af)
+    if m and "halbzeit" in r["text"].lower() and r["text"].lower() not in ("pause", "halbzeitpause", "halbzeit"):
+        r = dict(r, minute=m)
+    return r
 
 
 def partien(sp):
@@ -139,6 +228,7 @@ def anwenden(p, r):
     """Gibt True zurück, wenn sich die Partie geändert hat."""
     t = r["text"].lower()
     alt = (p.get("status"), p.get("ergebnis"), p.get("minute"), p.get("tore"), p.get("karten"), p.get("wechsel"))
+    uhr_alt = p.get("uhr")
     if r.get("tore") or p.get("status") == "live":
         p["tore"] = r.get("tore") or []
     if r.get("karten") or p.get("status") == "live":
@@ -163,7 +253,7 @@ def anwenden(p, r):
         return False  # noch nicht angepfiffen oder unbekannter Text
     if p["status"] not in ("live", "beendet"):
         return False
-    return alt != (p.get("status"), p.get("ergebnis"), p.get("minute"), p.get("tore"), p.get("karten"), p.get("wechsel"))
+    return alt != (p.get("status"), p.get("ergebnis"), p.get("minute"), p.get("tore"), p.get("karten"), p.get("wechsel")) or uhr_alt != p.get("uhr")
 
 
 def live_json(a, sp):
@@ -187,11 +277,12 @@ def runde(a):
     if not offen:
         return False, {}
     neu, wichtig = {}, False
+    AF = af_live() if any(p.get("heim_k") in AF_TEAM.values() for p in offen) else {}
     for p in offen:
-        r = lesen(p["url"])
-        vorher = (p.get("status"), p.get("ergebnis"), p.get("tore"), p.get("karten"), p.get("wechsel"))
+        r = mischen(p, lesen(p["url"]), AF.get((p.get("heim_k"), p.get("gast_k"))))
+        vorher = (p.get("status"), p.get("ergebnis"), p.get("tore"), p.get("karten"), p.get("wechsel"), p.get("uhr"), p.get("minute") == "HZ")
         if r and anwenden(p, r):
-            wichtig = wichtig or vorher != (p.get("status"), p.get("ergebnis"), p.get("tore"), p.get("karten"), p.get("wechsel"))
+            wichtig = wichtig or vorher != (p.get("status"), p.get("ergebnis"), p.get("tore"), p.get("karten"), p.get("wechsel"), p.get("uhr"), p.get("minute") == "HZ")
             neu[p["id"]] = {k: p.get(k) for k in ("status", "ergebnis", "minute", "tore", "karten", "wechsel", "uhr")}
             print(f"{jetzt:%H:%M} {p['heim_k']}-{p['gast_k']} {':'.join(p['ergebnis'])} {p.get('minute') or p['status']}")
     if neu and not wichtig and time.time() - LETZTER[0] < MINUTE_TAKT:
@@ -200,6 +291,9 @@ def runde(a):
         LETZTER[0] = time.time()
         open(pfad, "w", encoding="utf-8").write(json.dumps(sp, ensure_ascii=False, separators=(",", ":")))
         live_json(a, sp)
+        if MESS:
+            open(os.path.join(a.repo, "live_messung.json"), "w", encoding="utf-8").write(
+                json.dumps({"datum": datetime.now(TZ).strftime("%Y-%m-%d"), "spiele": MESS}, ensure_ascii=False, indent=1))
         if a.push:
             pushen(a, neu)
     return True, neu
@@ -208,7 +302,7 @@ def runde(a):
 def pushen(a, neu):
     nachricht = "Live-Ergebnis: " + ", ".join(f"{i} {':'.join(v['ergebnis'])} {v.get('minute') or v['status']}" for i, v in neu.items())
     for _ in range(4):
-        git(a, "add", "spielplan.json", "live.json")
+        git(a, "add", "spielplan.json", "live.json", *(["live_messung.json"] if os.path.exists(os.path.join(a.repo, "live_messung.json")) else []))
         if subprocess.run(["git", "-C", a.repo, "diff", "--cached", "--quiet"]).returncode == 0:
             return
         git(a, "-c", "user.name=WOSOINSIDER", "-c", "user.email=finnclausenhh@users.noreply.github.com", "commit", "-qm", nachricht)
