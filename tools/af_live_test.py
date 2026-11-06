@@ -13,6 +13,20 @@ sp = json.load(open(os.path.join(a.repo, "spielplan.json"), encoding="utf-8"))
 heute = datetime.now(L.TZ).strftime("%Y-%m-%d")
 spiele = [p for p in L.partien(sp) if p.get("anstoss", "").startswith(heute) and p.get("url")]
 out = {"start": datetime.now(L.TZ).strftime("%H:%M:%S"), "schluessel": bool(os.environ.get("API_FOOTBALL_KEY")), "spiele": {}, "proben": []}
+# Tagesübersicht: Status und Ergebnis laut API-Football für heute (zeigt, ob die Liga live gepflegt wird)
+try:
+    import urllib.request
+    req = urllib.request.Request(f"https://v3.football.api-sports.io/fixtures?league={L.AF_LIGA}&season=2026&date={heute}",
+                                 headers={"x-apisports-key": os.environ.get("API_FOOTBALL_KEY", ""), "User-Agent": "WOSOINSIDER-Live/1.0"})
+    d = json.loads(urllib.request.urlopen(req, timeout=15).read().decode())
+    print("TAG errors", d.get("errors"), "anzahl", d.get("results"))
+    for f in d.get("response", []):
+        print("TAG", f["teams"]["home"]["name"], f["goals"], f["fixture"]["status"], len(f.get("events") or []), "events")
+    req = urllib.request.Request("https://v3.football.api-sports.io/fixtures?live=all", headers=req.headers)
+    d = json.loads(urllib.request.urlopen(req, timeout=15).read().decode())
+    print("LIVEALL errors", d.get("errors"), "anzahl", d.get("results"), sorted({f["league"]["id"] for f in d.get("response", [])})[:60])
+except Exception as e:
+    print("TAG Fehler", e)
 ende = time.time() + a.minuten * 60
 while time.time() < ende:
     t = datetime.now(L.TZ).strftime("%H:%M:%S")

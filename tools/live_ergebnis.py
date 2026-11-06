@@ -46,6 +46,8 @@ def af_live():
     except Exception as e:
         print(f"WARN API-Football: {e}", file=sys.stderr)
         return {}
+    if d.get("errors"):
+        print(f"WARN API-Football: {d['errors']}", file=sys.stderr)
     out = {}
     for f in d.get("response", []):
         hk, gk = AF_TEAM.get(f["teams"]["home"]["id"]), AF_TEAM.get(f["teams"]["away"]["id"])
