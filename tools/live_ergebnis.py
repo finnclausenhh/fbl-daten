@@ -215,6 +215,8 @@ def tore_lesen(s):
             t["art"] = "Eigentor"
         elif "penalty" in art:
             t["art"] = "Elfmeter"
+        elif "free-kick" in art:  # direkter Freistoß (Sportschau: event goal direct-free-kick), Vorlage gibt es dann nicht
+            t["art"] = "Freistoß"
         elif v:
             t["vorlage"] = v
         out.append(t)
