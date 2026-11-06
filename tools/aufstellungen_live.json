@@ -1,6 +1,33 @@
 {
  "meldungen": [
   {
+   "id": "fehlt-lattwein-wob-0611",
+   "pid": "00403",
+   "zeit": "2026-11-06T18:30",
+   "spielerin": "Lena Lattwein",
+   "verein": "VfL Wolfsburg",
+   "nr": "",
+   "pos": "MF",
+   "tags": [
+    "AUFSTELLUNG"
+   ],
+   "status": "fraglich",
+   "headline": "Lattwein nicht im Kader gegen Eintracht Frankfurt",
+   "text": [
+    "Lena Lattwein steht in der Liga gegen Eintracht Frankfurt weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 1-mal.",
+    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
+   ],
+   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306271/eintracht-frankfurt_vfl-wolfsburg/aufstellung"
+    }
+   ],
+   "quelle_live": true,
+   "kurz": "Lattwein nicht im Kader"
+  },
+  {
    "id": "fehlt-proost-fcb-0611",
    "pid": "00020",
    "zeit": "2026-11-06T18:30",
