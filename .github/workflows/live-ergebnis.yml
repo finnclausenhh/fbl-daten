@@ -27,4 +27,4 @@ jobs:
         with:
           python-version: "3.12"
       - name: Live-Ergebnis
-        run: python3 tools/live_ergebnis.py --repo . --push --laufzeit 170
+        run: python3 -u tools/live_ergebnis.py --repo . --push --laufzeit 170

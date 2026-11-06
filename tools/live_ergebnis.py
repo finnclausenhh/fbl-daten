@@ -126,6 +126,7 @@ def pushen(a, neu):
             return
         git(a, "-c", "user.name=WOSOINSIDER", "-c", "user.email=finnclausenhh@users.noreply.github.com", "commit", "-qm", nachricht)
         if git(a, "push", "-q", "origin", "HEAD:main", check=False).returncode == 0:
+            print("gepusht", flush=True)
             return
         # Konflikt: neu holen und nur unsere Felder erneut setzen
         git(a, "fetch", "-q", "origin", "main")
@@ -153,7 +154,8 @@ def main():
     ende = time.time() + a.laufzeit * 60
     while True:
         if a.push:
-            git(a, "pull", "-q", "--rebase", "origin", "main", check=False)
+            git(a, "fetch", "-q", "--depth=1", "origin", "main", check=False)
+            git(a, "reset", "-q", "--hard", "origin/main", check=False)
         laeuft, _ = runde(a)
         if a.einmal or not laeuft or time.time() + WARTE > ende:
             print("kein Spiel im Fenster" if not laeuft else "Ende der Laufzeit")
