@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-06T19:52",
+ "stand": "2026-11-06T20:48",
  "meldungen": [
   {
    "id": "comeback-zadrazil-fcb-0611",
@@ -62,6 +62,78 @@
    "comeback": {
     "art": "comeback",
     "stufe": "einsatz"
+   }
+  },
+  {
+   "id": "peddemors-0611b",
+   "pid": "00405",
+   "zeit": "2026-11-06T20:31",
+   "spielerin": "Ella Peddemors",
+   "verein": "VfL Wolfsburg",
+   "nr": "5",
+   "pos": "MF",
+   "tags": [
+    "SPIELBERICHT"
+   ],
+   "status": "fit",
+   "headline": "Peddemors schießt Wolfsburg in Frankfurt zum 3:1",
+   "kurz": "Peddemors trifft doppelt beim 3:1 in Frankfurt",
+   "text": [
+    "Der VfL Wolfsburg hat das Topspiel bei Eintracht Frankfurt mit 3:1 gewonnen. Ella Peddemors traf in der 13. und 70. Minute und bereitete das 2:1 von Smilla Vallotto (50.) vor. Amanda Ilestedt hatte per Kopf zum 1:1 ausgeglichen (27.).",
+    "Für Peddemors sind es die Saisontore zehn und elf in neun Ligaspielen, dazu kommen drei Vorlagen. Wolfsburg liegt damit drei Punkte hinter dem FC Bayern und sieben vor Frankfurt."
+   ],
+   "kickbase": "Peddemors bleibt die sicherste Wahl im Wolfsburger Mittelfeld und führt die Torjägerliste an. Am 14. November geht es zum Gipfeltreffen gegen den FC Bayern.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/regional/ndr/VfL-Wolfsburg-Frauen,vfl-wolfsburg-360.html"
+    },
+    {
+     "name": "hessenschau",
+     "url": "https://www.hessenschau.de/sport/fussball/eintracht-frankfurt-frauen/eintracht-frankfurt-frauen-eintracht-gehen-im-topspiel-gegen-wolfsburg-leer-aus-v1,eintracht-frauen-wolfsburg-112.html"
+    }
+   ],
+   "foto": "fotos/wob-ella-peddemors.webp",
+   "foto_credit": {
+    "autor": "VfL Wolfsburg",
+    "lizenz": "mit Genehmigung: VfL Wolfsburg",
+    "url": "https://www.vfl-wolfsburg.de/teams/frauen/kader-2026/2027"
+   }
+  },
+  {
+   "id": "imade-0611",
+   "pid": "00026",
+   "zeit": "2026-11-06T20:30",
+   "spielerin": "Edna Imade",
+   "verein": "FC Bayern",
+   "nr": "29",
+   "pos": "ST",
+   "tags": [
+    "SPIELBERICHT"
+   ],
+   "status": "fit",
+   "headline": "FC Bayern schlägt Bremen spät mit 3:1",
+   "kurz": "FC Bayern gewinnt spät 3:1 gegen Bremen",
+   "text": [
+    "Der FC Bayern hat Werder Bremen mit 3:1 geschlagen und bleibt im neunten Ligaspiel makellos. Edna Imade traf zum 1:0 (21.), Elena Dhont glich für Bremen aus (50.). Linda Dallmann (84.) und Jovana Damnjanović (87.) entschieden die Partie spät.",
+    "Giulia Gwinn kam rund einen Monat nach ihrem Außenbandriss zu ihrem Comeback. Bayern führt mit drei Punkten vor Wolfsburg, dort treten die Münchnerinnen am 14. November an."
+   ],
+   "kickbase": "Imade bleibt in der Startelf gesetzt, Damnjanović traf als Joker. Vor dem Gipfel in Wolfsburg lohnt der Blick auf die Aufstellung, auch wegen der Champions League am Dienstag.",
+   "quellen": [
+    {
+     "name": "SPORT1",
+     "url": "https://www.sport1.de/news/fussball/frauen-bundesliga/2026/11/bei-gwinn-comeback-fc-bayern-haelt-wolfsburg-auf-abstand"
+    },
+    {
+     "name": "FC Bayern",
+     "url": "https://fcbayern.com/frauen/de/news/spielberichte/2026/11/spielbericht-fc-bayern-frauen---sv-werder-bremen"
+    }
+   ],
+   "foto": "fotos/fcb-edna-imade.webp",
+   "foto_credit": {
+    "autor": "Rh723",
+    "lizenz": "CC BY 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Edna_Imade_2026_(cropped).jpg"
    }
   },
   {
@@ -3101,12 +3173,12 @@
     "POKAL"
    ],
    "status": "fraglich",
-   "headline": "Reimann nicht im Kader gegen FC Carl Zeiss Jena",
+   "headline": "Reimann und Ihme nicht im Kader gegen FC Carl Zeiss Jena",
    "text": [
-    "Anna Reimann steht im DFB-Pokal gegen FC Carl Zeiss Jena weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
+    "Im DFB-Pokal gegen FC Carl Zeiss Jena stehen weder in der Startelf noch auf der Bank: Anna Reimann (5 von 5 Ligaspielen in der Startelf), Pauline Ihme (0 von 5 Ligaspielen in der Startelf).",
     "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
    ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
+   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie alle als fraglich und stufen sie in der Prognose herunter.",
    "quellen": [
     {
      "name": "DFB-Datencenter",
@@ -3114,7 +3186,7 @@
     }
    ],
    "quelle_live": true,
-   "kurz": "Reimann nicht im Kader"
+   "kurz": "Reimann und Ihme nicht im Kader"
   },
   {
    "id": "fehlt-viggosdottir-fcb-0111",
@@ -3164,19 +3236,20 @@
     "POKAL"
    ],
    "status": "fraglich",
-   "headline": "Bender nicht im Kader gegen FC Bayern",
+   "headline": "Bender und Remien nicht im Kader gegen FC Bayern",
    "text": [
-    "Loreen Bender steht im DFB-Pokal gegen FC Bayern weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 4-mal.",
+    "Im DFB-Pokal gegen FC Bayern stehen weder in der Startelf noch auf der Bank: Loreen Bender (4 von 5 Ligaspielen in der Startelf), Louisa Remien (0 von 5 Ligaspielen in der Startelf).",
     "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
    ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
+   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie alle als fraglich und stufen sie in der Prognose herunter.",
    "quellen": [
     {
      "name": "Sportschau",
      "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165391/bayern-muenchen_bayer-leverkusen/aufstellung"
     }
    ],
-   "quelle_live": true
+   "quelle_live": true,
+   "kurz": "Bender und Remien nicht im Kader"
   },
   {
    "id": "fehlt-altenburg-sge-0111",
@@ -3191,19 +3264,20 @@
     "POKAL"
    ],
    "status": "fraglich",
-   "headline": "Altenburg nicht im Kader gegen 1. FC Nürnberg",
+   "headline": "Altenburg und Doorsoun nicht im Kader gegen 1. FC Nürnberg",
    "text": [
-    "Lina Altenburg steht im DFB-Pokal gegen 1. FC Nürnberg weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
+    "Im DFB-Pokal gegen 1. FC Nürnberg stehen weder in der Startelf noch auf der Bank: Lina Altenburg (5 von 5 Ligaspielen in der Startelf), Sara Doorsoun (2 von 5 Ligaspielen in der Startelf).",
     "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
    ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
+   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie alle als fraglich und stufen sie in der Prognose herunter.",
    "quellen": [
     {
      "name": "DFB-Datencenter",
      "url": "https://datencenter.dfb.de/matches/1-fc-nuernberg-eintracht-frankfurt-2431335"
     }
    ],
-   "quelle_live": true
+   "quelle_live": true,
+   "kurz": "Altenburg und Doorsoun nicht im Kader"
   },
   {
    "id": "aufstellung-pokal-scf-0111",
