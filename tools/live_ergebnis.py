@@ -55,27 +55,26 @@ def lesen(url):
 
 
 def wechsel_lesen(s):
-    """Wechsel aus dem Liveticker (data-event_action enthält "sub" oder "change"): seite, ein, aus (Nachnamen), min.
-    Format der Sportschau beim ersten echten Wechsel geprüft? Noch nicht (Stand 06.11.2026, 19:30), daher großzügig."""
+    """Wechsel aus dem Liveticker: je Wechsel zwei direkt aufeinanderfolgende Einträge data-event_action="playing" mit
+    data-event_kind "substitute-in" und "substitute-out" (Format geprüft am 06.11.2026, Ticker neueste zuerst)."""
     heim = (re.search(r'team_home="(\d+)"', s) or [None, ""])[1]
-    out = []
-    for li in re.finditer(r'<li class="liveticker"[^>]*data-event_action="([^"]*)"[^>]*>(.*?)</li>', s, re.S):
-        if not re.search(r"sub|change|wechsel", li.group(1), re.I):
-            continue
+    folge = []
+    for li in re.finditer(r'<li class="liveticker"[^>]*data-event_kind="substitute-(in|out)"[^>]*>(.*?)</li>', s, re.S):
         b = li.group(2)
+        name = re.sub(r"<[^>]+>", "", (re.search(r'class="person-name[^"]*">(.*?)</div>', b, re.S) or [None, ""])[1]).strip()
         te = (re.search(r'/verein/te(\d+)/', b) or [None, ""])[1]
-        namen = [re.sub(r"<[^>]+>", "", x).strip() for x in re.findall(r'class="person-name[^"]*">(.*?)</div>', b, re.S)]
-        txt = re.sub(r"<[^>]+>", " ", (re.search(r"<b>(.*?)</b>", b, re.S) or [None, ""])[1])
-        m = re.search(r"([A-ZÄÖÜ][^,:()]*?)\s+(?:kommt\s+)?für\s+([A-ZÄÖÜ][^,:().]*)", txt)
-        ein, aus = (m.group(1), m.group(2)) if m else (namen[0] if namen else "", namen[1] if len(namen) > 1 else "")
-        add = re.sub(r"<[^>]+>", "", (re.search(r'class="person-shortname[^"]*person-additional[^"]*">(.*?)</div>', b, re.S) or [None, ""])[1]).strip()
-        if not aus and add:
-            aus = re.sub(r"^[A-ZÄÖÜ]\. ", "", add)
         mi = (re.search(r'class="liveticker-minute">([^<]*)<', b) or [None, ""])[1].strip().rstrip(".").replace(".+", "+").replace(".", "")
-        if ein:
-            out.append({"seite": "heim" if te == heim else "gast", "ein": ein.split()[-1], "aus": aus.split()[-1] if aus else "", "min": mi})
-    return sorted(out, key=lambda k: int(re.sub(r"\D.*", "", k["min"]) or 0))
-
+        if name and te:
+            folge.append((li.group(1), name.split()[-1], te, mi))
+    out, x = [], 0
+    while x < len(folge):
+        art, n, te, mi = folge[x]
+        w = {"seite": "heim" if te == heim else "gast", "ein": "", "aus": "", "min": mi}
+        w["ein" if art == "in" else "aus"] = n
+        if x + 1 < len(folge) and folge[x + 1][0] != art and folge[x + 1][2:] == (te, mi):
+            w["aus" if art == "in" else "ein"] = folge[x + 1][1]; x += 1
+        out.append(w); x += 1
+    return out[::-1]
 
 def karten_lesen(s):
     """Karten aus dem Liveticker (data-event_action="card"): seite, n (Nachname), min, art gelb|gelbrot|rot."""
