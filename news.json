@@ -2,6 +2,33 @@
  "stand": "2026-11-06T17:10",
  "meldungen": [
   {
+   "id": "aufstellung-folgt-ma12306283",
+   "zeit": "2026-11-06T17:10",
+   "spielerin": "Spielansetzung",
+   "verein": "FC Bayern",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "AUFSTELLUNG"
+   ],
+   "headline": "Aufstellung FC Bayern gegen Werder Bremen folgt",
+   "kurz": "Aufstellung folgt, Anpfiff 18:30",
+   "text": [
+    "Anpfiff in der Liga ist um 18:30 Uhr. Die offizielle Aufstellung kommt meist rund 60 Minuten vorher, wir ergänzen sie hier automatisch, sobald sie veröffentlicht ist.",
+    "Bis dahin steht unsere Prognose im Spielplan bei der Partie."
+   ],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306283/bayern-muenchen_werder-bremen/aufstellung"
+    }
+   ],
+   "platzhalter": true,
+   "anstoss": "2026-11-06T18:30",
+   "partie_id": "12306283"
+  },
+  {
    "id": "aufstellung-folgt-ma12306271",
    "zeit": "2026-11-06T17:10",
    "spielerin": "Spielansetzung",
