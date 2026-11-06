@@ -226,7 +226,15 @@ def baue(wb, basis, ma, an, a, kader, news, spielplan, zeit):
     return out
 
 
+def ohne_doppel(news):
+    """Jede id nur einmal (Finn 06.11.2026: Bühl-/Proost-Meldung und Aufstellungen standen doppelt,
+    weil Live-Lauf und Heilen-Lauf gleichzeitig gepusht haben). Die erste, also neueste Fassung bleibt."""
+    gesehen = set()
+    news["meldungen"] = [m for m in news["meldungen"] if not (m["id"] in gesehen or gesehen.add(m["id"]))]
+
+
 def speichern(a, pn, pl, news, live, nachricht):
+    ohne_doppel(news)
     news["stand"] = datetime.now(TZ).strftime("%Y-%m-%dT%H:%M")
     json.dump(news, open(pn, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     json.dump(live, open(pl, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
@@ -254,6 +262,7 @@ def speichern(a, pn, pl, news, live, nachricht):
         lv = {m["id"]: m for m in live["meldungen"]}
         n2["meldungen"] = [m for m in live["meldungen"] if m["id"] not in ids] + [lv.get(m["id"], m) for m in n2["meldungen"] if m["id"] not in weg]
         news.clear(); news.update(n2)
+        ohne_doppel(news)
         news["stand"] = datetime.now(TZ).strftime("%Y-%m-%dT%H:%M")
         json.dump(news, open(pn, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
         json.dump(live, open(pl, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
