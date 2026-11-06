@@ -51,7 +51,31 @@ def lesen(url):
     minute = None
     if mins:
         minute = mins[0].replace(" ", "").rstrip(".").replace(".+", "+").replace(".", "")
-    return {"text": status, "ergebnis": [er.group(1), er.group(2)], "minute": minute}
+    return {"text": status, "ergebnis": [er.group(1), er.group(2)], "minute": minute, "tore": tore_lesen(s)}
+
+
+def tore_lesen(s):
+    """Tore aus dem Ereignis-Modul der Sportschau, Format wie in spielplan.json: seite, n (Nachname), min, vorlage, art."""
+    m = re.search(r'<div class="module-events">(.*?)</ul>', s, re.S)
+    out = []
+    for li in re.finditer(r'<li class="event ([^"]*)">(.*?)</li>', m.group(1) if m else "", re.S):
+        kl = li.group(1).split()
+        if "goal" not in kl and not any("goal" in k.lower() for k in kl):
+            continue
+        b = li.group(2)
+        g = lambda c: (re.search(r'class="' + c + r'[^"]*">([^<]*)<', b) or [None, ""])[1].strip()
+        t = {"seite": "heim" if "home" in kl else "gast", "n": g("person-surname") or g("person-name"),
+             "min": g("match_event-minute").rstrip(".").replace(".+", "+").replace(".", "")}
+        v = re.sub(r"^[A-ZÄÖÜ]\. ", "", g("person-shortname person-shortname- person-additional"))
+        art = " ".join(kl).lower()
+        if "own" in art:
+            t["art"] = "Eigentor"
+        elif "penalty" in art:
+            t["art"] = "Elfmeter"
+        elif v:
+            t["vorlage"] = v
+        out.append(t)
+    return out
 
 
 def schaetzung(p, t):
@@ -65,7 +89,9 @@ def schaetzung(p, t):
 def anwenden(p, r):
     """Gibt True zurück, wenn sich die Partie geändert hat."""
     t = r["text"].lower()
-    alt = (p.get("status"), p.get("ergebnis"), p.get("minute"))
+    alt = (p.get("status"), p.get("ergebnis"), p.get("minute"), p.get("tore"))
+    if r.get("tore") or p.get("status") == "live":
+        p["tore"] = r.get("tore") or []
     if any(w in t for w in ("ende", "beendet", "abpfiff", "abgeschlossen")):
         p["status"] = "beendet"
         p["ergebnis"] = r["ergebnis"]
@@ -76,13 +102,15 @@ def anwenden(p, r):
         p["minute"] = "HZ" if t == "halbzeit" else (r["minute"] or schaetzung(p, t))
     else:
         return False  # noch nicht angepfiffen oder unbekannter Text
-    return alt != (p.get("status"), p.get("ergebnis"), p.get("minute"))
+    if p["status"] not in ("live", "beendet"):
+        return False
+    return alt != (p.get("status"), p.get("ergebnis"), p.get("minute"), p.get("tore"))
 
 
 def live_json(a, sp):
     """Kleine live.json für den Web-Ticker, der sie direkt von raw.githubusercontent.com liest (GitHub Pages braucht zu lange)."""
     heute = datetime.now(TZ).strftime("%Y-%m-%d")
-    sp_ = {p["id"]: {k: p.get(k) for k in ("status", "ergebnis", "minute") if p.get(k) is not None}
+    sp_ = {p["id"]: {k: p.get(k) for k in ("status", "ergebnis", "minute", "tore") if p.get(k) is not None}
            for p in partien(sp) if p.get("anstoss", "").startswith(heute) and p.get("ergebnis")}
     open(os.path.join(a.repo, "live.json"), "w", encoding="utf-8").write(
         json.dumps({"stand": datetime.now(TZ).strftime("%Y-%m-%dT%H:%M:%S"), "spiele": sp_}, ensure_ascii=False))
@@ -102,10 +130,10 @@ def runde(a):
     neu, wichtig = {}, False
     for p in offen:
         r = lesen(p["url"])
-        vorher = (p.get("status"), p.get("ergebnis"))
+        vorher = (p.get("status"), p.get("ergebnis"), p.get("tore"))
         if r and anwenden(p, r):
-            wichtig = wichtig or vorher != (p.get("status"), p.get("ergebnis"))
-            neu[p["id"]] = {k: p.get(k) for k in ("status", "ergebnis", "minute")}
+            wichtig = wichtig or vorher != (p.get("status"), p.get("ergebnis"), p.get("tore"))
+            neu[p["id"]] = {k: p.get(k) for k in ("status", "ergebnis", "minute", "tore")}
             print(f"{jetzt:%H:%M} {p['heim_k']}-{p['gast_k']} {':'.join(p['ergebnis'])} {p.get('minute') or p['status']}")
     if neu and not wichtig and time.time() - LETZTER[0] < MINUTE_TAKT:
         return True, {}  # nur die Minute: beim nächsten Takt mitnehmen
