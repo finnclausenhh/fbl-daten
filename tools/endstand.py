@@ -33,13 +33,26 @@ def wer(c):
     return c["n"] if not SPIELERINNEN or nk(c["n"]) in SPIELERINNEN else f"{c['n']} (Trainerbank)"
 
 
+def _art(n):
+    t = n.replace(".", " ").split()
+    return "m" if any(x in t for x in ("FC", "SC", "VfL", "VfB", "SV")) else "f" if "TSG" in t else ""
+
+
+def bei(n):
+    return {"m": "beim ", "f": "bei der "}.get(_art(n), "bei ") + n
+
+
+def gegen(n):
+    return {"m": "gegen den ", "f": "gegen die "}.get(_art(n), "gegen ") + n
+
+
 def meldung(p, jetzt):
     h, g = p["heim"], p["gast"]
     a, b = (int(x) for x in p["ergebnis"])
     if a > b:
-        satz = f"{h} gewinnt gegen {g} mit {a}:{b}."
+        satz = f"{h} gewinnt {gegen(g)} mit {a}:{b}."
     elif a < b:
-        satz = f"{g} gewinnt bei {h} mit {b}:{a}."
+        satz = f"{g} gewinnt {bei(h)} mit {b}:{a}."
     else:
         satz = f"{h} und {g} trennen sich {a}:{b}."
     text = [satz]
@@ -155,9 +168,9 @@ def bericht(p, af_spiel, spl, jetzt):
     if a == b:
         kopf = f"{h} und {g} {a}:{b}"
     elif a > b:
-        kopf = f"{h} gewinnt {a}:{b} gegen {g}"
+        kopf = f"{h} gewinnt {a}:{b} {gegen(g)}"
     else:
-        kopf = f"{g} gewinnt {b}:{a} bei {h}"
+        kopf = f"{g} gewinnt {b}:{a} {bei(h)}"
     headline = f"{kopf}, {best[1]} mit Note {_de(best[0])} die Beste"
     # Text
     alt = meldung(p, jetzt)["text"]
