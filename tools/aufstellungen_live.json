@@ -1,63 +1,6 @@
 {
  "meldungen": [
   {
-   "id": "fehlt-fudalla-b04-0711",
-   "pid": "00258",
-   "zeit": "2026-11-07T14:00",
-   "spielerin": "Vanessa Fudalla",
-   "verein": "Bayer Leverkusen",
-   "nr": "",
-   "pos": "ST",
-   "tags": [
-    "AUFSTELLUNG"
-   ],
-   "status": "fraglich",
-   "headline": "Fudalla nicht im Kader gegen Hamburger SV",
-   "text": [
-    "Vanessa Fudalla steht in der Liga gegen Hamburger SV weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 2-mal.",
-    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
-   ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306280/bayer-leverkusen_hamburger-sv/aufstellung"
-    }
-   ],
-   "quelle_live": true
-  },
-  {
-   "id": "erstmals-sieger-hsv-0711",
-   "pid": "00150",
-   "zeit": "2026-11-07T12:50",
-   "spielerin": "Laura Sieger",
-   "verein": "Hamburger SV",
-   "nr": "",
-   "pos": "TW",
-   "tags": [
-    "AUFSTELLUNG"
-   ],
-   "status": "fit",
-   "headline": "Sieger erstmals im Kader",
-   "text": [
-    "Laura Sieger steht gegen Bayer Leverkusen zum ersten Mal in dieser Saison im Spieltagskader des Hamburger SV.",
-    "Gegen Bayer Leverkusen sitzt sie zunächst auf der Bank."
-   ],
-   "kickbase": "Neu im Spieltagskader. Für Kickbase vorerst nur eine Ergänzung.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306280/bayer-leverkusen_hamburger-sv/liveticker"
-    }
-   ],
-   "quelle_live": true,
-   "partie_id": "12306280",
-   "comeback": {
-    "art": "erstmals",
-    "stufe": "kader"
-   }
-  },
-  {
    "id": "aufstellung-b04-0711",
    "zeit": "2026-11-07T12:50",
    "spielerin": "Spielansetzung",
