@@ -2,7 +2,7 @@
  "meldungen": [
   {
    "id": "endstand-scf-0711",
-   "zeit": "2026-11-07T13:52",
+   "zeit": "2026-11-07T15:42",
    "spielerin": "SC Freiburg gegen 1. FC Nürnberg",
    "verein": "SC Freiburg",
    "nr": "",
@@ -10,23 +10,30 @@
    "tags": [
     "SPIELBERICHT"
    ],
-   "headline": "Endstand: SC Freiburg 0:4 1. FC Nürnberg",
-   "kurz": "Endstand SCF 0:4 FCN",
+   "headline": "1. FC Nürnberg gewinnt 4:0 beim SC Freiburg, Lapassouse mit Note 8,3 die Beste",
+   "kurz": "SCF 0:4 FCN: Lapassouse 8,3",
    "text": [
-    "1. FC Nürnberg gewinnt bei SC Freiburg mit 4:0.",
+    "1. FC Nürnberg gewinnt beim SC Freiburg mit 4:0.",
     "Tore: 0:1 Lapassouse (2.), 0:2 Proniez (44., Vorlage Lapassouse), 0:3 Pápai (50., Elfmeter), 0:4 Homann (90+3., Vorlage Lein).",
-    "Gelb: Ojukwu, Proniez, Barboz.",
-    "Noten und der ausführliche Bericht folgen."
+    "Statistik (SC Freiburg zuerst): Torschüsse 15:18 (aufs Tor 5:8), Ballbesitz 54:46 %, Expected Goals 1,02:2,31, Ecken 3:3.",
+    "Beste Noten SC Freiburg: Vobian 6,6, Birkholz 6,5, Acikgöz 6,3.",
+    "Beste Noten 1. FC Nürnberg: Lapassouse 8,3, Proniez 8,1, Romero 7,8.",
+    "Schwächste Note in der Startelf: Kolb (5,1)."
    ],
-   "kickbase": "",
+   "kickbase": "Herausragend: Lapassouse (8,3), Proniez (8,1), Romero (7,8). Bei SC Freiburg kam niemand über 6,6.",
    "quellen": [
     {
      "name": "Sportschau",
      "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306274/sc-freiburg_1-fc-nuernberg/liveticker"
+    },
+    {
+     "name": "API-Football (Noten, Statistik)",
+     "url": "https://www.api-football.com"
     }
    ],
    "quelle_live": true,
-   "partie_id": "12306274"
+   "partie_id": "12306274",
+   "noten": true
   },
   {
    "id": "fehlt-fudalla-b04-0711",
