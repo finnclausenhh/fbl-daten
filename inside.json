@@ -87,11 +87,11 @@
      ]
     ],
     "text": "Nach sechs Ligaspielen ohne Tor traf sie in Köln einmal und gegen Union dreifach, zwei davon per Elfmeter.",
-    "kb": "Spielt jede Minute und schießt die Elfer. Erst in Leverkusen (1,5 Gegentore pro Spiel), dann zu Hause gegen Mainz (3,38).",
+    "kb": "Spielte in Leverkusen (0:2) alle 90 Minuten und schießt die Elfer. Als Nächstes kommt Mainz (3,38 Gegentore pro Spiel) am 13.11. nach Hamburg.",
     "next": {
-     "k": "B04",
-     "ort": "A",
-     "datum": "Sa 07.11."
+     "k": "M05",
+     "ort": "H",
+     "datum": "Fr 13.11."
     }
    },
    {
@@ -654,7 +654,7 @@
      3
     ]
    ],
-   "hinweis": "Tomasiak fehlt gegen den HSV wegen Trainingsrückstand, Bender ist zurück"
+   "hinweis": "Tomasiak fehlte gegen den HSV wegen Trainingsrückstand, Bender war zurück"
   },
   {
    "k": "KOE",
@@ -866,28 +866,6 @@
     "md": 9,
     "partien": [
      {
-      "heim": "SCF",
-      "gast": "FCN",
-      "fakten": [
-       "Nürnberg traf in <b>jedem</b> Saisonspiel, holte auswärts aber erst <b>1 Punkt</b> bei 4:10 Toren.",
-       "Freiburg zu Hause: <b>6 Punkte</b>, <b>5:5</b> Tore."
-      ],
-      "kb": "Proniez (4 Tore) und Elferschützin Pápai sind Nürnbergs Abschlussspielerinnen.",
-      "datum": "Sa 07.11.",
-      "zeit": "12:00"
-     },
-     {
-      "heim": "B04",
-      "gast": "HSV",
-      "datum": "Sa 07.11.",
-      "zeit": "14:00",
-      "fakten": [
-       "Der HSV holte auswärts <b>0 Punkte</b> aus 4 Spielen.",
-       "Leverkusen ist daheim schwächer als auswärts: <b>4</b> Punkte zu Hause, <b>9</b> in der Fremde."
-      ],
-      "kb": "Kramer ist mit 21 Schüssen Leverkusens Abschlussspielerin. Der HSV kassierte auswärts 8 Tore in 4 Spielen."
-     },
-     {
       "heim": "FCU",
       "gast": "TSG",
       "fakten": [
@@ -1018,7 +996,7 @@
       "zeit": "18:30",
       "fakten": [
        "Leverkusen spielt <b>4 Tage</b> nach dem Montagsspiel in Stuttgart.",
-       "Leverkusen holte auswärts <b>9 Punkte</b>, zu Hause nur 4.",
+       "Leverkusen holte auswärts <b>9 Punkte</b>, zu Hause 7.",
        "Union blieb in <b>3</b> von 8 Spielen ohne Tor."
       ],
       "kb": "Unions stabile Elf gegen Leverkusens kurze Pause. Bei Leverkusens Randspielerinnen ist Vorsicht angebracht."
@@ -1029,7 +1007,7 @@
       "datum": "Sa 21.11.",
       "zeit": "12:00",
       "fakten": [
-       "Der HSV holte auswärts <b>0 Punkte</b> bei <b>3:8</b> Toren.",
+       "Der HSV holte auswärts <b>0 Punkte</b> bei <b>3:10</b> Toren.",
        "Frankfurt kassierte in 8 Spielen nur <b>7</b> Gegentore.",
        "Für Frankfurt ist es das <b>3. Pflichtspiel in 11 Tagen</b> (11.11., 15.11., 21.11.)."
       ],
@@ -1054,7 +1032,7 @@
       "zeit": "14:00",
       "fakten": [
        "Stuttgart blieb in <b>4</b> von 8 Spielen ohne Tor, zuletzt dreimal in Folge (<b>0:12</b>).",
-       "Freiburg zu Hause: <b>6 Punkte</b>, <b>5:5</b> Tore.",
+       "Freiburg zu Hause: <b>6 Punkte</b>, <b>5:9</b> Tore.",
        "Freiburg spielte <b>3-mal</b> zu null."
       ],
       "kb": "Eher Freiburgs Abwehr als die Offensive beider Teams."
@@ -1079,7 +1057,7 @@
       "fakten": [
        "Mainz holte zu Hause <b>0 Punkte</b> bei <b>3:14</b> Toren.",
        "Nürnberg traf in <b>jedem</b> Saisonspiel.",
-       "Nürnberg holte auswärts erst <b>1 Punkt</b>."
+       "Nürnberg holte auswärts <b>4 Punkte</b>, zuletzt gewann es <b>4:0</b> in Freiburg."
       ],
       "kb": "Beste Ausgangslage der Saison für Nürnbergs Offensive."
      },
@@ -3452,5 +3430,5 @@
   "id": "punkt-md9",
   "text": "Spieltag 9 in 60 Sekunden"
  },
- "geprueft": "2026-11-06T22:55"
+ "geprueft": "2026-11-07T22:50"
 }
