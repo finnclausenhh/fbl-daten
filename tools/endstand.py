@@ -145,6 +145,54 @@ def minuten(p):
     return out
 
 
+# Finn 07.11.2026: Die Note ist keine Meldung. Schlagzeile und Feed-Titel erzählen das Spiel (Ergebnis, wer traf),
+# Noten stehen im Text, in der Kickbase-Zeile und in der Aufstellung.
+KURZN = {"FCB": "FC Bayern", "WOB": "Wolfsburg", "SGE": "Frankfurt", "SVW": "Werder", "B04": "Leverkusen", "KOE": "Köln", "RBL": "Leipzig",
+         "FCU": "Union", "SCF": "Freiburg", "TSG": "Hoffenheim", "FCN": "Nürnberg", "HSV": "HSV", "VFB": "Stuttgart", "M05": "Mainz"}
+ZAHL = {2: "doppelt", 3: "dreifach", 4: "vierfach"}
+WORT = {2: "zwei", 3: "drei", 4: "vier", 5: "fünf", 6: "sechs"}
+
+
+def torsatz(p, seite=None):
+    """'Kramer und Loonen treffen', 'Pápai trifft doppelt', 'vier verschiedene Torschützinnen'."""
+    c = {}
+    for t in p.get("tore") or []:
+        if t.get("et") or t.get("art") == "Eigentor":
+            continue
+        if seite and t.get("seite") != seite:
+            continue
+        c[t["n"]] = c.get(t["n"], 0) + 1
+    if not c:
+        return ""
+    if len(c) == 1:
+        n, z = next(iter(c.items()))
+        return f"{n} trifft" + (f" {ZAHL.get(z, str(z) + '-mal')}" if z > 1 else "")
+    if len(c) >= 4:
+        return f"{WORT.get(len(c), len(c))} verschiedene Torschützinnen"
+    l = sorted(c, key=lambda n: -c[n])
+    if c[l[0]] > 1 and all(c[n] == 1 for n in l[1:]):
+        rest = l[1:]
+        return f"{l[0]} trifft {ZAHL.get(c[l[0]], str(c[l[0]]) + '-mal')}, dazu " + (rest[0] if len(rest) == 1 else ", ".join(rest[:-1]) + " und " + rest[-1])
+    namen = [n + (f" ({c[n]})" if c[n] > 1 else "") for n in l]
+    return ", ".join(namen[:-1]) + " und " + namen[-1] + " treffen"
+
+
+def titel(p):
+    h, g, hk, gk = p["heim"], p["gast"], p.get("heim_k"), p.get("gast_k")
+    a, b = (int(x) for x in p["ergebnis"])
+    kh, kg = KURZN.get(hk, h), KURZN.get(gk, g)
+    den = lambda k, n: ("den " + n) if k == "HSV" else n
+    if a == b:
+        kopf, kurz, ts = f"{h} und {g} {a}:{b}", f"{kh} und {kg} {a}:{b}" if a else f"{kh} und {kg} torlos", torsatz(p)
+    elif a > b:
+        kopf, kurz, ts = f"{h} gewinnt {a}:{b} {gegen(g)}", f"{kh} schlägt {den(gk, kg)} {a}:{b}", torsatz(p, "heim")
+    else:
+        kopf, kurz, ts = f"{g} gewinnt {b}:{a} {bei(h)}", f"{kg} siegt {b}:{a} in {kh}" if hk != "HSV" else f"{kg} siegt {b}:{a} beim HSV", torsatz(p, "gast")
+    if ts.endswith("Torschützinnen"):
+        return f"{kopf} mit {ts.replace('verschiedene', 'verschiedenen')}", kurz
+    return (f"{kopf}, {ts}" if ts else kopf), kurz
+
+
 def bericht(p, af_spiel, spl, jetzt):
     h, g, hk, gk = p["heim"], p["gast"], p.get("heim_k"), p.get("gast_k")
     a, b = (int(x) for x in p["ergebnis"])
@@ -164,14 +212,7 @@ def bericht(p, af_spiel, spl, jetzt):
     if len(alle) < 10:
         return None
     best = alle[0]
-    # Schlagzeile
-    if a == b:
-        kopf = f"{h} und {g} {a}:{b}"
-    elif a > b:
-        kopf = f"{h} gewinnt {a}:{b} {gegen(g)}"
-    else:
-        kopf = f"{g} gewinnt {b}:{a} {bei(h)}"
-    headline = f"{kopf}, {best[1]} mit Note {_de(best[0])} die Beste"
+    headline, kurz = titel(p)
     # Text
     alt = meldung(p, jetzt)["text"]
     text = [t for t in alt if not t.startswith("Noten und")]
@@ -185,6 +226,7 @@ def bericht(p, af_spiel, spl, jetzt):
         st.append(f"Expected Goals {_de(w['xg'][0], 2)}:{_de(w['xg'][1], 2)}")
     if w.get("eck"):
         st.append(f"Ecken {int(w['eck'][0])}:{int(w['eck'][1])}")
+    text.append(f"Beste Note im Spiel: {best[1]} ({_de(best[0])}).")
     if st:
         text.append("Statistik (" + h + " zuerst): " + ", ".join(st) + ".")
     for seite, name in (("heim", h), ("gast", g)):
@@ -206,10 +248,25 @@ def bericht(p, af_spiel, spl, jetzt):
     tt = p["anstoss"][8:10] + p["anstoss"][5:7]
     return {"id": f"endstand-{(hk or '').lower()}-{tt}", "zeit": jetzt.strftime("%Y-%m-%dT%H:%M"),
             "spielerin": f"{h} gegen {g}", "verein": h, "nr": "", "pos": "Spielansetzung", "tags": ["SPIELBERICHT"],
-            "headline": headline, "kurz": f"{hk} {a}:{b} {gk}: {best[1]} {_de(best[0])}",
+            "headline": headline, "kurz": kurz,
             "text": text, "kickbase": kb.strip(),
             "quellen": [{"name": "Sportschau", "url": p.get("url", "")}, {"name": "API-Football (Noten, Statistik)", "url": "https://www.api-football.com"}],
             "quelle_live": True, "partie_id": p["id"], "noten": True}
+
+
+def doppelt(x, p):
+    """Ein Spielbericht je Partie (Finn 07.11.2026): Bericht des Laufs zur selben Ligapartie (Tag SPIELBERICHT, ohne partie_id,
+    kein Pokal, Verein Heim oder Gast, geschrieben zwischen Anpfiff und 8 Stunden danach) fällt weg, der Bericht mit Noten bleibt."""
+    if x.get("partie_id") or "SPIELBERICHT" not in (x.get("tags") or []) or "POKAL" in (x.get("tags") or []) or "EUROPAPOKAL" in (x.get("tags") or []):
+        return False
+    if x.get("verein") not in (p["heim"], p["gast"]):
+        return False
+    z, a = x.get("zeit", ""), p.get("anstoss", "")[:16]
+    try:
+        ende = (datetime.fromisoformat(a) + timedelta(hours=8)).strftime("%Y-%m-%dT%H:%M")
+    except ValueError:
+        return False
+    return a <= z <= ende
 
 
 def mit_noten(news, live, sp, af, spl, jetzt=None):
@@ -229,7 +286,7 @@ def mit_noten(news, live, sp, af, spl, jetzt=None):
         m = bericht(p, asp, spl, jetzt)
         if not m:
             continue
-        news["meldungen"] = [m] + [x for x in news["meldungen"] if x["id"] != mid]
+        news["meldungen"] = [m] + [x for x in news["meldungen"] if x["id"] != mid and not doppelt(x, p)]
         live["meldungen"] = [m] + [x for x in live.get("meldungen", []) if x["id"] != mid]
         out.append(mid)
         print(f"Spielbericht mit Noten: {m['headline']}")
