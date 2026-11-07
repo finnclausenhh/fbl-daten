@@ -1,6 +1,32 @@
 {
- "stand": "2026-11-07T12:40",
+ "stand": "2026-11-07T12:45",
  "meldungen": [
+  {
+   "id": "tanikawa-0711",
+   "pid": "00021",
+   "zeit": "2026-11-07T11:51",
+   "spielerin": "Momoko Tanikawa",
+   "verein": "FC Bayern",
+   "nr": "18",
+   "pos": "MF",
+   "tags": [
+    "SPIELBERICHT"
+   ],
+   "status": "fit",
+   "headline": "Tanikawa startet erstmals auf der Bank, trifft vor",
+   "kurz": "Tanikawa legt als Joker das 3:1 auf",
+   "text": [
+    "Momoko Tanikawa saß beim 3:1 des FC Bayern gegen Werder Bremen erstmals in dieser Saison auf der Bank. Sie kam in der 64. Minute ins Spiel, die Japanerin Mei Shimada wurde bei Bremen in der 71. Minute eingewechselt.",
+    "In der 87. Minute zog Tanikawa nach einer Drehung aus dem Mittelfeld los und legte mit einem Pass in die Mitte das 3:1 auf. Japanische Medien führen die Bankrolle auf das Champions-League-Spiel in der kommenden Woche zurück; eine Bestätigung des Vereins liegt nicht vor."
+   ],
+   "kickbase": "Tanikawa ist trotz der Bankrolle nicht aus dem Blick. Ob sie gegen Wolfsburg wieder beginnt, hängt vom Plan für die Champions League ab; die Startelf sagen wir erst mit der offiziellen Aufstellung voraus.",
+   "quellen": [
+    {
+     "name": "ABEMA TIMES / Yahoo Japan (Original japanisch, 「パワフルすぎるぞ」)",
+     "url": "https://news.yahoo.co.jp/articles/d1aff79a1d0f73aa4f8bc802b86a536163ff16d0"
+    }
+   ]
+  },
   {
    "id": "aufstellung-folgt-ma12306280",
    "zeit": "2026-11-07T12:40",
