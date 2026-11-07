@@ -407,10 +407,16 @@ def fehlt_meldungen(a, pn, pl, news, live, spielplan):
         w = weiterhin(m, news, spielplan)
         if w:
             m["text"].append(w)
+        # Zeit = Veröffentlichung der Aufstellung, nicht der Anstoß (Finn 07.11.2026, Fudalla stand um 14:00 statt 12:50)
+        tt = m["id"].rsplit("-", 1)[-1]
+        au = next((y for y in news["meldungen"] if y.get("verein") == m["verein"] and y["id"].startswith("aufstellung-")
+                   and y["id"].endswith("-" + tt) and not y.get("platzhalter") and y.get("aufstellung")), None)
+        if au and au["zeit"] < m["zeit"]:
+            m["zeit"] = au["zeit"]
         alt = next((y for y in news["meldungen"] if y["id"] == m["id"]), None)
         if alt is None and m["id"] not in ids:
             neu.append(m); ids.add(m["id"])
-        elif alt is not None and alt.get("quelle_live") and not alt.get("zusammen") and (alt["headline"] != m["headline"] or alt["text"] != m["text"]) \
+        elif alt is not None and alt.get("quelle_live") and not alt.get("zusammen") and (alt["headline"] != m["headline"] or alt["text"] != m["text"] or alt["zeit"] != m["zeit"]) \
                 and alt["zeit"][:10] >= (datetime.now(TZ) - timedelta(days=1)).strftime("%Y-%m-%d"):
             # nur frische Meldungen nachziehen: ältere stehen nicht mehr in aufstellungen_live.json, der Spiegel setzt sie
             # zurück, das gab stündlich ein Hin und Her (06.11.2026: fehlt-reimann/bender/altenburg vom 01.11.)

@@ -2,6 +2,39 @@
  "stand": "2026-11-07T12:51",
  "meldungen": [
   {
+   "id": "maedl-update-0711",
+   "pid": "00263",
+   "zeit": "2026-11-07T12:50",
+   "spielerin": "Valentina Mädl",
+   "verein": "Bayer Leverkusen",
+   "nr": "17",
+   "pos": "ST",
+   "tags": [
+    "UPDATE",
+    "AUFSTELLUNG"
+   ],
+   "status": "fit",
+   "headline": "Mädl steht gegen den HSV doch in der Startelf",
+   "kurz": "Mädl doch in der Startelf",
+   "text": [
+    "Valentina Mädl beginnt für Bayer Leverkusen gegen den Hamburger SV. Kickbase hatte sie am Freitag wegen Belastungssteuerung als abwesend geführt, der Verein hatte das nie bestätigt.",
+    "Unsere Meldung vom Freitag beruhte nur auf dem Kickbase-Status. Neu in der Startelf sind Mädl und Zdebel, Bender sitzt auf der Bank und Fudalla steht nicht im Kader."
+   ],
+   "kickbase": "Mädl ist einsatzfähig. Der Kickbase-Status war in diesem Fall falsch, das ist ein Grund mehr, auf die offizielle Aufstellung zu warten.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306280/bayer-leverkusen_hamburger-sv/aufstellung"
+    }
+   ],
+   "foto": "fotos/b04-valentina-madl.webp",
+   "foto_credit": {
+    "autor": "Bayer 04",
+    "lizenz": "mit Genehmigung: Bayer 04 Leverkusen",
+    "url": "https://www.bayer04.de/de-de/team/frauen/frauen"
+   }
+  },
+  {
    "id": "erstmals-sieger-hsv-0711",
    "pid": "00150",
    "zeit": "2026-11-07T12:50",
@@ -35,7 +68,7 @@
   {
    "id": "fehlt-fudalla-b04-0711",
    "pid": "00258",
-   "zeit": "2026-11-07T14:00",
+   "zeit": "2026-11-07T12:50",
    "spielerin": "Vanessa Fudalla",
    "verein": "Bayer Leverkusen",
    "nr": "",
