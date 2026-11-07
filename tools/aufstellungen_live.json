@@ -1,20 +1,18 @@
 {
  "meldungen": [
   {
-   "id": "aufstellung-folgt-ma12306280",
-   "zeit": "2026-11-07T12:40",
+   "id": "aufstellung-b04-0711",
+   "zeit": "2026-11-07T12:50",
    "spielerin": "Spielansetzung",
    "verein": "Bayer Leverkusen",
    "nr": "",
    "pos": "Spielansetzung",
    "tags": [
-    "AUFSTELLUNG"
+    "TOP"
    ],
-   "headline": "Aufstellung Bayer Leverkusen gegen Hamburger SV folgt",
-   "kurz": "Aufstellung folgt, Anpfiff 14:00",
+   "headline": "Offizielle Aufstellung: Bayer Leverkusen gegen Hamburger SV",
    "text": [
-    "Anpfiff in der Liga ist um 14:00 Uhr. Die offizielle Aufstellung kommt meist rund 60 Minuten vorher, wir ergänzen sie hier automatisch, sobald sie veröffentlicht ist.",
-    "Bis dahin steht unsere Prognose im Spielplan bei der Partie."
+    "Nicht im Spieltagskader, obwohl im letzten Ligaspiel dabei: Fudalla. Einen Grund nennt bisher keine Quelle."
    ],
    "kickbase": "",
    "quellen": [
@@ -23,9 +21,374 @@
      "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306280/bayer-leverkusen_hamburger-sv/aufstellung"
     }
    ],
-   "platzhalter": true,
-   "anstoss": "2026-11-07T14:00",
-   "partie_id": "12306280"
+   "aufstellung": {
+    "gegner": "Hamburger SV",
+    "formation": "4-2-2-2",
+    "startelf": [
+     {
+      "n": "Borggräfe",
+      "p": "TW",
+      "pid": "00238"
+     },
+     {
+      "n": "Merino",
+      "p": "ABW",
+      "pid": "00245"
+     },
+     {
+      "n": "Turányi",
+      "p": "ABW",
+      "pid": "00248"
+     },
+     {
+      "n": "Ostermeier",
+      "p": "ABW",
+      "pid": "00246"
+     },
+     {
+      "n": "Simon",
+      "p": "ABW",
+      "pid": "00247"
+     },
+     {
+      "n": "Wenger",
+      "p": "DM",
+      "pid": "00250",
+      "kp": "MF"
+     },
+     {
+      "n": "Zdebel",
+      "p": "DM",
+      "pid": "00256",
+      "kp": "MF",
+      "f": "neu"
+     },
+     {
+      "n": "Müller",
+      "p": "OM",
+      "pid": "00253",
+      "kp": "MF"
+     },
+     {
+      "n": "Mädl",
+      "p": "OM",
+      "pid": "00263",
+      "kp": "ST",
+      "f": "neu"
+     },
+     {
+      "n": "Kramer",
+      "p": "ST",
+      "pid": "00260"
+     },
+     {
+      "n": "Sternad",
+      "p": "ST",
+      "pid": "00265"
+     }
+    ],
+    "bank": [
+     {
+      "n": "Voll",
+      "p": "TW",
+      "pid": "00240",
+      "f": "neu"
+     },
+     {
+      "n": "Wallrabenstein",
+      "p": "ABW",
+      "pid": "00249"
+     },
+     {
+      "n": "Brandau",
+      "p": "ABW",
+      "pid": "00241"
+     },
+     {
+      "n": "Kowalski",
+      "p": "MF",
+      "pid": "00251",
+      "f": "neu"
+     },
+     {
+      "n": "Platner",
+      "p": "MF",
+      "pid": "00254"
+     },
+     {
+      "n": "Misini",
+      "p": "MF",
+      "pid": "00252"
+     },
+     {
+      "n": "Bender",
+      "p": "ST",
+      "pid": "00257",
+      "f": "raus"
+     },
+     {
+      "n": "Kehrer",
+      "p": "ST",
+      "pid": "00259"
+     },
+     {
+      "n": "Loonen",
+      "p": "ST",
+      "pid": "00262"
+     }
+    ],
+    "fehlt": [
+     {
+      "n": "Fudalla",
+      "p": "ST",
+      "f": "raus",
+      "war": "Startelf"
+     },
+     {
+      "n": "Remien",
+      "p": "TW",
+      "f": "raus",
+      "war": "Bank"
+     },
+     {
+      "n": "Coşkun",
+      "p": "ABW"
+     },
+     {
+      "n": "Eltgen",
+      "p": "ABW"
+     },
+     {
+      "n": "Friedrich",
+      "p": "ABW"
+     },
+     {
+      "n": "Wrigge",
+      "p": "MF"
+     },
+     {
+      "n": "Lindner",
+      "p": "ST"
+     },
+     {
+      "n": "Sinani",
+      "p": "ST"
+     },
+     {
+      "n": "Tomasiak",
+      "p": "ST",
+      "i": "abwesend"
+     }
+    ]
+   },
+   "quelle_live": true,
+   "ableitungen": [
+    {
+     "verein": "Bayer Leverkusen",
+     "n": "Fudalla",
+     "spielerin": "Vanessa Fudalla",
+     "war": "Startelf",
+     "zeit": "2026-11-07T14:00",
+     "gegner": "Hamburger SV",
+     "wettbewerb": "Liga",
+     "quelle": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306280/bayer-leverkusen_hamburger-sv/aufstellung",
+     "delta": -1,
+     "bis": "2026-11-17",
+     "grund": "stand am 07.11. gegen Hamburger SV nicht im Spieltagskader, obwohl im letzten Ligaspiel in der Startelf; Grund nicht bekannt"
+    }
+   ]
+  },
+  {
+   "id": "aufstellung-hsv-0711",
+   "zeit": "2026-11-07T12:50",
+   "spielerin": "Spielansetzung",
+   "verein": "Hamburger SV",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "TOP"
+   ],
+   "headline": "Offizielle Aufstellung: Hamburger SV gegen Bayer Leverkusen",
+   "text": [],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306280/bayer-leverkusen_hamburger-sv/aufstellung"
+    }
+   ],
+   "aufstellung": {
+    "gegner": "Bayer Leverkusen",
+    "formation": "4-2-2-2",
+    "startelf": [
+     {
+      "n": "Szemik",
+      "p": "TW",
+      "pid": "00151"
+     },
+     {
+      "n": "Eggert",
+      "p": "ABW",
+      "pid": "00162",
+      "kp": "MF"
+     },
+     {
+      "n": "Mirzaliyeva",
+      "p": "ABW",
+      "pid": "00157"
+     },
+     {
+      "n": "Böhler",
+      "p": "ABW",
+      "pid": "00152"
+     },
+     {
+      "n": "Doucouré",
+      "p": "ABW",
+      "pid": "00154",
+      "f": "neu"
+     },
+     {
+      "n": "Machtens",
+      "p": "DM",
+      "pid": "00163",
+      "kp": "MF"
+     },
+     {
+      "n": "Stoldt",
+      "p": "DM",
+      "pid": "00167",
+      "kp": "ABW"
+     },
+     {
+      "n": "Linberg",
+      "p": "OM",
+      "pid": "00173",
+      "kp": "ST"
+     },
+     {
+      "n": "Morich",
+      "p": "OM",
+      "pid": "00164",
+      "kp": "MF"
+     },
+     {
+      "n": "Brunnthaler",
+      "p": "ST",
+      "pid": "00169"
+     },
+     {
+      "n": "Bartz",
+      "p": "ST",
+      "pid": "00160",
+      "kp": "MF"
+     }
+    ],
+    "bank": [
+     {
+      "n": "Sieger",
+      "p": "TW",
+      "pid": "00150",
+      "f": "neu"
+     },
+     {
+      "n": "Martens",
+      "p": "ABW",
+      "pid": "00155",
+      "f": "neu"
+     },
+     {
+      "n": "Matysik",
+      "p": "ABW",
+      "pid": "00156"
+     },
+     {
+      "n": "Räcke",
+      "p": "ABW",
+      "pid": "00159"
+     },
+     {
+      "n": "Dönges",
+      "p": "ABW",
+      "pid": "00153",
+      "f": "raus"
+     },
+     {
+      "n": "Wrede",
+      "p": "ABW",
+      "pid": ""
+     },
+     {
+      "n": "Peneau",
+      "p": "MF",
+      "pid": "00165",
+      "f": "neu"
+     },
+     {
+      "n": "Schwalm",
+      "p": "ST",
+      "pid": "00174"
+     },
+     {
+      "n": "Karczewska",
+      "p": "ST",
+      "pid": "00171",
+      "f": "neu"
+     }
+    ],
+    "fehlt": [
+     {
+      "n": "Baum",
+      "p": "TW",
+      "f": "raus",
+      "i": "verletzt",
+      "war": "Bank"
+     },
+     {
+      "n": "Klinck",
+      "p": "MF",
+      "f": "raus",
+      "war": "Bank"
+     },
+     {
+      "n": "Engel",
+      "p": "TW"
+     },
+     {
+      "n": "Haidner",
+      "p": "TW"
+     },
+     {
+      "n": "Paulick",
+      "p": "TW"
+     },
+     {
+      "n": "Obispo",
+      "p": "ABW"
+     },
+     {
+      "n": "Burmann",
+      "p": "MF"
+     },
+     {
+      "n": "Schulz",
+      "p": "MF"
+     },
+     {
+      "n": "Hillebrand",
+      "p": "ST"
+     },
+     {
+      "n": "Krüger",
+      "p": "ST"
+     },
+     {
+      "n": "Švíbková",
+      "p": "ST"
+     }
+    ]
+   },
+   "quelle_live": true
   },
   {
    "id": "aufstellung-scf-0711",
@@ -1483,7 +1846,8 @@
   "aufstellung-folgt-ma12306271",
   "aufstellung-folgt-ma12306283",
   "fehlt-buhl-fcb-0611",
-  "aufstellung-folgt-ma12306274"
+  "aufstellung-folgt-ma12306274",
+  "aufstellung-folgt-ma12306280"
  ],
  "ableitungen": [
   {
@@ -1563,6 +1927,19 @@
    "delta": -1,
    "bis": "2026-11-16",
    "grund": "stand am 06.11. gegen Werder Bremen nicht im Spieltagskader, obwohl im letzten Ligaspiel in der Startelf; Grund nicht bekannt"
+  },
+  {
+   "verein": "Bayer Leverkusen",
+   "n": "Fudalla",
+   "spielerin": "Vanessa Fudalla",
+   "war": "Startelf",
+   "zeit": "2026-11-07T14:00",
+   "gegner": "Hamburger SV",
+   "wettbewerb": "Liga",
+   "quelle": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306280/bayer-leverkusen_hamburger-sv/aufstellung",
+   "delta": -1,
+   "bis": "2026-11-17",
+   "grund": "stand am 07.11. gegen Hamburger SV nicht im Spieltagskader, obwohl im letzten Ligaspiel in der Startelf; Grund nicht bekannt"
   }
  ]
 }
