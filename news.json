@@ -2,6 +2,38 @@
  "stand": "2026-11-07T13:09",
  "meldungen": [
   {
+   "id": "comeback-zadrazil-fcb-0611",
+   "pid": "00022",
+   "zeit": "2026-11-06T17:25",
+   "spielerin": "Sarah Zadrazil",
+   "verein": "FC Bayern",
+   "nr": "",
+   "pos": "MF",
+   "tags": [
+    "RÜCKKEHR"
+   ],
+   "status": "fit",
+   "headline": "Zadrazil nach Muskelproblemen zurück im Kader, aber ohne Einsatz",
+   "text": [
+    "Sarah Zadrazil ist nach Muskelproblemen zurück im Spieltagskader des FC Bayern.",
+    "Gegen Werder Bremen saß sie die gesamte Spielzeit auf der Bank."
+   ],
+   "kickbase": "Zurück im Kader, aber noch ohne Spielpraxis. Ein Einsatz am nächsten Spieltag ist offen, die Startelf eher nicht.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306283/bayern-muenchen_werder-bremen/liveticker"
+    }
+   ],
+   "quelle_live": true,
+   "partie_id": "12306283",
+   "comeback": {
+    "art": "comeback",
+    "stufe": "ohne"
+   },
+   "kurz": "Zadrazil zurück im Kader"
+  },
+  {
    "id": "maedl-update-0711",
    "pid": "00263",
    "zeit": "2026-11-07T12:50",
@@ -1031,38 +1063,6 @@
     "lizenz": "mit Genehmigung: Bayer 04 Leverkusen",
     "url": "https://www.bayer04.de/de-de/team/frauen/frauen"
    }
-  },
-  {
-   "id": "comeback-zadrazil-fcb-0611",
-   "pid": "00022",
-   "zeit": "2026-11-06T18:30",
-   "spielerin": "Sarah Zadrazil",
-   "verein": "FC Bayern",
-   "nr": "",
-   "pos": "MF",
-   "tags": [
-    "RÜCKKEHR"
-   ],
-   "status": "fit",
-   "headline": "Zadrazil nach Muskelproblemen zurück im Kader, aber ohne Einsatz",
-   "text": [
-    "Sarah Zadrazil ist nach Muskelproblemen zurück im Spieltagskader des FC Bayern.",
-    "Gegen Werder Bremen saß sie die gesamte Spielzeit auf der Bank."
-   ],
-   "kickbase": "Zurück im Kader, aber noch ohne Spielpraxis. Ein Einsatz am nächsten Spieltag ist offen, die Startelf eher nicht.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306283/bayern-muenchen_werder-bremen/liveticker"
-    }
-   ],
-   "quelle_live": true,
-   "partie_id": "12306283",
-   "comeback": {
-    "art": "comeback",
-    "stufe": "ohne"
-   },
-   "kurz": "Zadrazil zurück im Kader"
   },
   {
    "id": "comeback-gwinn-fcb-0611",
