@@ -1,22 +1,18 @@
 {
- "stand": "2026-11-07T10:44",
+ "stand": "2026-11-07T11:03",
  "meldungen": [
   {
-   "id": "aufstellung-folgt-ma12306274",
-   "zeit": "2026-11-07T10:40",
+   "id": "aufstellung-scf-0711",
+   "zeit": "2026-11-07T11:03",
    "spielerin": "Spielansetzung",
    "verein": "SC Freiburg",
    "nr": "",
    "pos": "Spielansetzung",
    "tags": [
-    "AUFSTELLUNG"
+    "TOP"
    ],
-   "headline": "Aufstellung SC Freiburg gegen 1. FC Nürnberg folgt",
-   "kurz": "Aufstellung folgt, Anpfiff 12:00",
-   "text": [
-    "Anpfiff in der Liga ist um 12:00 Uhr. Die offizielle Aufstellung kommt meist rund 60 Minuten vorher, wir ergänzen sie hier automatisch, sobald sie veröffentlicht ist.",
-    "Bis dahin steht unsere Prognose im Spielplan bei der Partie."
-   ],
+   "headline": "Offizielle Aufstellung: SC Freiburg gegen 1. FC Nürnberg",
+   "text": [],
    "kickbase": "",
    "quellen": [
     {
@@ -24,9 +20,362 @@
      "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306274/sc-freiburg_1-fc-nuernberg/aufstellung"
     }
    ],
-   "platzhalter": true,
-   "anstoss": "2026-11-07T12:00",
-   "partie_id": "12306274"
+   "aufstellung": {
+    "gegner": "1. FC Nürnberg",
+    "formation": "4-1-2-2-1",
+    "startelf": [
+     {
+      "n": "Barth",
+      "p": "TW",
+      "pid": "00083",
+      "f": "neu"
+     },
+     {
+      "n": "Kolb",
+      "p": "ABW",
+      "pid": "00113",
+      "kp": "ST"
+     },
+     {
+      "n": "Maas",
+      "p": "ABW",
+      "pid": "00092"
+     },
+     {
+      "n": "Karl",
+      "p": "ABW",
+      "pid": "00091"
+     },
+     {
+      "n": "Seghir",
+      "p": "ABW",
+      "pid": "00109",
+      "kp": "MF",
+      "f": "neu"
+     },
+     {
+      "n": "Ojukwu",
+      "p": "DM",
+      "pid": "00106",
+      "kp": "MF"
+     },
+     {
+      "n": "Schneider",
+      "p": "MF",
+      "pid": "00108"
+     },
+     {
+      "n": "Acikgöz",
+      "p": "MF",
+      "pid": "00098"
+     },
+     {
+      "n": "Vobian",
+      "p": "OM",
+      "pid": "00111",
+      "kp": "MF",
+      "f": "neu"
+     },
+     {
+      "n": "Brunold",
+      "p": "OM",
+      "pid": "00112",
+      "kp": "ST"
+     },
+     {
+      "n": "Birkholz",
+      "p": "ST",
+      "pid": "00101"
+     }
+    ],
+    "bank": [],
+    "fehlt": [
+     {
+      "n": "Arfaoui",
+      "p": "MF",
+      "f": "raus"
+     },
+     {
+      "n": "Bienz",
+      "p": "MF",
+      "f": "raus"
+     },
+     {
+      "n": "Ihme",
+      "p": "ABW",
+      "f": "raus"
+     },
+     {
+      "n": "Jansen",
+      "p": "ABW",
+      "f": "raus"
+     },
+     {
+      "n": "Reimann",
+      "p": "TW",
+      "f": "raus",
+      "i": "fraglich"
+     },
+     {
+      "n": "Scherer",
+      "p": "ST",
+      "f": "raus"
+     },
+     {
+      "n": "Simmen",
+      "p": "MF",
+      "f": "raus"
+     },
+     {
+      "n": "Vincze",
+      "p": "ST",
+      "f": "raus"
+     },
+     {
+      "n": "Benkarth",
+      "p": "TW"
+     },
+     {
+      "n": "Schrader",
+      "p": "TW"
+     },
+     {
+      "n": "Axtmann",
+      "p": "ABW"
+     },
+     {
+      "n": "Ernst",
+      "p": "ABW"
+     },
+     {
+      "n": "Memminger",
+      "p": "ABW"
+     },
+     {
+      "n": "Sigurðardóttir",
+      "p": "ABW"
+     },
+     {
+      "n": "Stierli",
+      "p": "ABW"
+     },
+     {
+      "n": "Szenk",
+      "p": "ABW"
+     },
+     {
+      "n": "Vojteková",
+      "p": "ABW"
+     },
+     {
+      "n": "Blumenberg",
+      "p": "MF"
+     },
+     {
+      "n": "Felde",
+      "p": "MF"
+     },
+     {
+      "n": "Grund",
+      "p": "MF"
+     },
+     {
+      "n": "Hebben",
+      "p": "MF"
+     },
+     {
+      "n": "Schick",
+      "p": "MF"
+     },
+     {
+      "n": "Putzer",
+      "p": "ST"
+     },
+     {
+      "n": "Schmitz",
+      "p": "ST"
+     }
+    ]
+   },
+   "quelle_live": true
+  },
+  {
+   "id": "aufstellung-fcn-0711",
+   "zeit": "2026-11-07T11:03",
+   "spielerin": "Spielansetzung",
+   "verein": "1. FC Nürnberg",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "TOP"
+   ],
+   "headline": "Offizielle Aufstellung: 1. FC Nürnberg gegen SC Freiburg",
+   "text": [],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306274/sc-freiburg_1-fc-nuernberg/aufstellung"
+    }
+   ],
+   "aufstellung": {
+    "gegner": "SC Freiburg",
+    "formation": "4-2-2-2",
+    "startelf": [
+     {
+      "n": "Romero",
+      "p": "TW",
+      "pid": "00298"
+     },
+     {
+      "n": "Bleil",
+      "p": "ABW",
+      "pid": "00321"
+     },
+     {
+      "n": "Lobanova",
+      "p": "ABW",
+      "pid": "00304"
+     },
+     {
+      "n": "Varley",
+      "p": "ABW",
+      "pid": "00307"
+     },
+     {
+      "n": "Homann",
+      "p": "ABW",
+      "pid": "00313"
+     },
+     {
+      "n": "Pápai",
+      "p": "DM",
+      "pid": "00325",
+      "kp": "ST"
+     },
+     {
+      "n": "Miller",
+      "p": "DM",
+      "pid": "00316",
+      "kp": "MF"
+     },
+     {
+      "n": "Proniez",
+      "p": "OM",
+      "pid": "00317",
+      "kp": "MF"
+     },
+     {
+      "n": "Meroni",
+      "p": "OM",
+      "pid": "00324",
+      "kp": "ST"
+     },
+     {
+      "n": "Lein",
+      "p": "ST",
+      "pid": "00323"
+     },
+     {
+      "n": "Lapassouse",
+      "p": "ST",
+      "pid": "00322"
+     }
+    ],
+    "bank": [],
+    "fehlt": [
+     {
+      "n": "Adamczyk",
+      "p": "TW",
+      "f": "raus"
+     },
+     {
+      "n": "Barboz",
+      "p": "ABW",
+      "f": "raus"
+     },
+     {
+      "n": "Bednorz",
+      "p": "ABW",
+      "f": "raus"
+     },
+     {
+      "n": "Brengel",
+      "p": "MF",
+      "f": "raus"
+     },
+     {
+      "n": "Coutel",
+      "p": "MF",
+      "f": "raus"
+     },
+     {
+      "n": "Fröhlich",
+      "p": "ABW",
+      "f": "raus"
+     },
+     {
+      "n": "Ličina",
+      "p": "MF",
+      "f": "raus"
+     },
+     {
+      "n": "Mai",
+      "p": "MF",
+      "f": "raus"
+     },
+     {
+      "n": "Pollak",
+      "p": "ABW",
+      "f": "raus"
+     },
+     {
+      "n": "Richter",
+      "p": "TW"
+     },
+     {
+      "n": "Tölzel",
+      "p": "TW"
+     },
+     {
+      "n": "Lindner",
+      "p": "ABW"
+     },
+     {
+      "n": "Thöle",
+      "p": "ABW"
+     },
+     {
+      "n": "Büttner",
+      "p": "MF"
+     },
+     {
+      "n": "Deuber",
+      "p": "MF"
+     },
+     {
+      "n": "Grzywińska",
+      "p": "MF"
+     },
+     {
+      "n": "Seguin",
+      "p": "MF"
+     },
+     {
+      "n": "Wedler",
+      "p": "MF"
+     },
+     {
+      "n": "Baumgärtel",
+      "p": "ST"
+     },
+     {
+      "n": "Turi",
+      "p": "ST"
+     }
+    ]
+   },
+   "quelle_live": true
   },
   {
    "id": "maedl-0611",
