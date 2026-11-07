@@ -3,7 +3,7 @@
  "meldungen": [
   {
    "id": "endstand-b04-0711",
-   "zeit": "2026-11-07T15:57",
+   "zeit": "2026-11-07T16:02",
    "spielerin": "Bayer Leverkusen gegen Hamburger SV",
    "verein": "Bayer Leverkusen",
    "nr": "",
@@ -11,23 +11,31 @@
    "tags": [
     "SPIELBERICHT"
    ],
-   "headline": "Endstand: Bayer Leverkusen 2:0 Hamburger SV",
-   "kurz": "Endstand B04 2:0 HSV",
+   "headline": "Bayer Leverkusen gewinnt 2:0 gegen den Hamburger SV, Borggräfe mit Note 8,4 die Beste",
+   "kurz": "B04 2:0 HSV: Borggräfe 8,4",
    "text": [
-    "Bayer Leverkusen gewinnt gegen Hamburger SV mit 2:0.",
+    "Bayer Leverkusen gewinnt gegen den Hamburger SV mit 2:0.",
     "Tore: 1:0 Kramer (58., Vorlage Kehrer), 2:0 Loonen (90+6., Vorlage Borggräfe).",
     "Gelb: Ostermeier, Bartz.",
-    "Noten und der ausführliche Bericht folgen."
+    "Statistik (Bayer Leverkusen zuerst): Torschüsse 15:13 (aufs Tor 5:5), Ballbesitz 56:44 %, Expected Goals 2,99:1,25, Ecken 3:6.",
+    "Beste Noten Bayer Leverkusen: Borggräfe 8,4, Simon 7,8, Kramer 7,7.",
+    "Beste Noten Hamburger SV: Stoldt 6,6, Machtens 6,6, Szemik 6,5.",
+    "Schwächste Note in der Startelf: Eggert (5,5)."
    ],
-   "kickbase": "",
+   "kickbase": "Herausragend: Borggräfe (8,4), Simon (7,8), Kramer (7,7). Bei Hamburger SV kam niemand über 6,6.",
    "quellen": [
     {
      "name": "Sportschau",
      "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306280/bayer-leverkusen_hamburger-sv/liveticker"
+    },
+    {
+     "name": "API-Football (Noten, Statistik)",
+     "url": "https://www.api-football.com"
     }
    ],
    "quelle_live": true,
-   "partie_id": "12306280"
+   "partie_id": "12306280",
+   "noten": true
   },
   {
    "id": "endstand-scf-0711",
