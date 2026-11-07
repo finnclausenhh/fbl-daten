@@ -1,6 +1,33 @@
 {
  "meldungen": [
   {
+   "id": "aufstellung-folgt-ma12306274",
+   "zeit": "2026-11-07T10:40",
+   "spielerin": "Spielansetzung",
+   "verein": "SC Freiburg",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "AUFSTELLUNG"
+   ],
+   "headline": "Aufstellung SC Freiburg gegen 1. FC Nürnberg folgt",
+   "kurz": "Aufstellung folgt, Anpfiff 12:00",
+   "text": [
+    "Anpfiff in der Liga ist um 12:00 Uhr. Die offizielle Aufstellung kommt meist rund 60 Minuten vorher, wir ergänzen sie hier automatisch, sobald sie veröffentlicht ist.",
+    "Bis dahin steht unsere Prognose im Spielplan bei der Partie."
+   ],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306274/sc-freiburg_1-fc-nuernberg/aufstellung"
+    }
+   ],
+   "platzhalter": true,
+   "anstoss": "2026-11-07T12:00",
+   "partie_id": "12306274"
+  },
+  {
    "id": "comeback-gwinn-fcb-0611",
    "pid": "00009",
    "zeit": "2026-11-06T19:48",
