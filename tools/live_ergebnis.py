@@ -34,6 +34,51 @@ AF_LIGA = 82
 AF_TEAM = {1858: "TSG", 1859: "B04", 1860: "FCB", 1863: "WOB", 1867: "SCF", 1870: "SVW", 1871: "KOE",
            14014: "SGE", 20487: "FCN", 20498: "HSV", 20501: "RBL", 21564: "M05", 24130: "VFB", 24133: "FCU"}
 MESS = {}
+# Live-Statistik (Finn 07.11.2026): Torschüsse, aufs Tor, Ballbesitz, Ecken, Fouls, Paraden, Passquote, xG je Team aus
+# fixtures/statistics, höchstens alle STAT_TAKT Sekunden je Spiel (ein Abruf je Spiel). Gleiche Schlüssel wie apifootball.json "w".
+STAT_TAKT = 120
+STAT_ZEIT, STAT_WERT = {}, {}
+ST = {"Total Shots": "sch", "Shots on Goal": "tor", "Ball Possession": "bes", "Corner Kicks": "eck",
+      "Fouls": "fou", "Goalkeeper Saves": "par", "Passes %": "pq", "expected_goals": "xg"}
+
+
+def _zahl(v):
+    if v is None:
+        return None
+    try:
+        return float(str(v).replace("%", "").strip())
+    except ValueError:
+        return None
+
+
+def af_stats(fid, hid):
+    """Teamwerte eines laufenden Spiels, gecacht. Gibt {schluessel: [heim, gast]} oder None."""
+    key = os.environ.get("API_FOOTBALL_KEY")
+    if not key or not fid:
+        return None
+    if time.time() - STAT_ZEIT.get(fid, 0) < STAT_TAKT:
+        return STAT_WERT.get(fid)
+    STAT_ZEIT[fid] = time.time()
+    try:
+        req = urllib.request.Request(f"https://v3.football.api-sports.io/fixtures/statistics?fixture={fid}",
+                                     headers={"x-apisports-key": key, "User-Agent": "WOSOINSIDER-Live/1.0"})
+        with urllib.request.urlopen(req, timeout=15) as r:
+            d = json.loads(r.read().decode("utf-8"))
+    except Exception as e:
+        print(f"WARN API-Football Statistik: {e}", file=sys.stderr)
+        return STAT_WERT.get(fid)
+    w = {}
+    for blk in d.get("response") or []:
+        i = 0 if (blk.get("team") or {}).get("id") == hid else 1
+        for e in blk.get("statistics") or []:
+            if e.get("type") in ST:
+                w.setdefault(ST[e["type"]], [None, None])[i] = _zahl(e.get("value"))
+    w = {k: v for k, v in w.items() if v[0] is not None and v[1] is not None}
+    # Nur Werte, die etwas sagen: ohne Schüsse und Ballbesitz keine Anzeige (Coverage fehlt oder Spiel gerade erst begonnen)
+    if "sch" not in w and "bes" not in w:
+        w = {}
+    STAT_WERT[fid] = w or STAT_WERT.get(fid)
+    return STAT_WERT.get(fid)
 
 
 def af_live():
@@ -70,7 +115,8 @@ def af_live():
                 tore.append(t)
         st = f["fixture"]["status"]
         out[(hk, gk)] = {"kurz": st.get("short"), "el": st.get("elapsed"), "ex": st.get("extra"),
-                         "erg": [str(f["goals"]["home"] or 0), str(f["goals"]["away"] or 0)], "tore": tore}
+                         "erg": [str(f["goals"]["home"] or 0), str(f["goals"]["away"] or 0)], "tore": tore,
+                         "stats": af_stats(f["fixture"]["id"], hid)}
     return out
 
 
@@ -105,7 +151,10 @@ def mischen(p, r, af):
     if not af:
         return r
     if not r:
-        return af_als_r(af)
+        r = af_als_r(af)
+        return dict(r, stats=af["stats"]) if r and af.get("stats") else r
+    if af.get("stats"):
+        r = dict(r, stats=af["stats"])
     if sum(map(int, af["erg"])) > sum(map(int, r["ergebnis"])):
         # Tor zuerst bei API-Football: Ergebnis sofort, fehlende Tore je Seite aus API-Football anhängen
         tore = list(r.get("tore") or [])
@@ -264,7 +313,9 @@ def anwenden(p, r):
     """Gibt True zurück, wenn sich die Partie geändert hat."""
     t = r["text"].lower()
     alt = (p.get("status"), p.get("ergebnis"), p.get("minute"), p.get("tore"), p.get("karten"), p.get("wechsel"))
-    uhr_alt, vs_alt = p.get("uhr"), p.get("verschossen")
+    uhr_alt, vs_alt, st_alt = p.get("uhr"), p.get("verschossen"), p.get("stats")
+    if r.get("stats"):
+        p["stats"] = r["stats"]
     if r.get("tore") or p.get("status") == "live":
         p["tore"] = r.get("tore") or []
     if r.get("karten") or p.get("status") == "live":
@@ -292,13 +343,13 @@ def anwenden(p, r):
     if p["status"] not in ("live", "beendet"):
         return False
     return alt != (p.get("status"), p.get("ergebnis"), p.get("minute"), p.get("tore"), p.get("karten"), p.get("wechsel")) or uhr_alt != p.get("uhr") \
-        or vs_alt != p.get("verschossen")
+        or vs_alt != p.get("verschossen") or st_alt != p.get("stats")
 
 
 def live_json(a, sp):
     """Kleine live.json für den Web-Ticker, der sie direkt von raw.githubusercontent.com liest (GitHub Pages braucht zu lange)."""
     heute = datetime.now(TZ).strftime("%Y-%m-%d")
-    sp_ = {p["id"]: {k: p.get(k) for k in ("status", "ergebnis", "minute", "tore", "karten", "wechsel", "uhr", "verschossen") if p.get(k) is not None}
+    sp_ = {p["id"]: {k: p.get(k) for k in ("status", "ergebnis", "minute", "tore", "karten", "wechsel", "uhr", "verschossen", "stats") if p.get(k) is not None}
            for p in partien(sp) if p.get("anstoss", "").startswith(heute) and p.get("ergebnis")}
     open(os.path.join(a.repo, "live.json"), "w", encoding="utf-8").write(
         json.dumps({"stand": datetime.now(TZ).strftime("%Y-%m-%dT%H:%M:%S"), "spiele": sp_}, ensure_ascii=False))
@@ -347,7 +398,9 @@ def runde(a):
         vorher = (p.get("status"), p.get("ergebnis"), p.get("tore"), p.get("karten"), p.get("wechsel"), p.get("uhr"), p.get("verschossen"), p.get("minute") == "HZ")
         if r and anwenden(p, r):
             wichtig = wichtig or vorher != (p.get("status"), p.get("ergebnis"), p.get("tore"), p.get("karten"), p.get("wechsel"), p.get("uhr"), p.get("verschossen"), p.get("minute") == "HZ")
-            neu[p["id"]] = {k: p.get(k) for k in ("status", "ergebnis", "minute", "tore", "karten", "wechsel", "uhr", "verschossen")}
+            neu[p["id"]] = {k: p.get(k) for k in ("status", "ergebnis", "minute", "tore", "karten", "wechsel", "uhr", "verschossen", "stats")}
+            if p["status"] == "beendet" and vorher[0] != "beendet":
+                ABPFIFF.append(p["id"])
             print(f"{jetzt:%H:%M} {p['heim_k']}-{p['gast_k']} {':'.join(p['ergebnis'])} {p.get('minute') or p['status']}")
     if neu and not wichtig and time.time() - LETZTER[0] < MINUTE_TAKT:
         return True, {}  # nur die Minute: beim nächsten Takt mitnehmen
@@ -361,7 +414,20 @@ def runde(a):
                 json.dumps({"datum": datetime.now(TZ).strftime("%Y-%m-%d"), "spiele": MESS}, ensure_ascii=False, indent=1))
         if a.push:
             pushen(a, neu)
+            noten_waechter_starten()
     return True, neu
+
+
+ABPFIFF = []
+
+
+def noten_waechter_starten():
+    """Abpfiff: Noten-Wächter sofort starten statt auf den Zeitplan zu warten (geplante Läufe kamen am 07.11. gar nicht)."""
+    if not ABPFIFF or not os.environ.get("GH_TOKEN"):
+        return
+    r = subprocess.run(["gh", "workflow", "run", "af-noten.yml", "--ref", "main", "-f", "laufzeit=75"], check=False)
+    print("Noten-Wächter gestartet" if r.returncode == 0 else "WARN Noten-Wächter nicht gestartet", flush=True)
+    ABPFIFF.clear()
 
 
 def pushen(a, neu):

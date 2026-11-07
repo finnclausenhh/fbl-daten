@@ -55,3 +55,16 @@ jobs:
           git -c user.name="WOSOINSIDER" -c user.email="finnclausenhh@users.noreply.github.com" commit -qm "API-Football: apifootball.json"
           for i in 1 2 3; do git fetch -q origin main && git rebase -q origin/main && git push -q origin HEAD:main && exit 0; sleep 10; done
           exit 1
+      - name: Spielbericht mit Noten
+        # Endstand-Meldung wird zur News mit Noten und Statistik, sobald apifootball.json Noten hat (Finn 07.11.2026)
+        continue-on-error: true
+        run: |
+          for i in 1 2 3 4; do
+            git fetch -q origin main && git reset -q --hard origin/main
+            python3 tools/endstand.py --noten --repo .
+            git add news.json tools/aufstellungen_live.json
+            if git diff --cached --quiet; then exit 0; fi
+            git -c user.name="WOSOINSIDER" -c user.email="finnclausenhh@users.noreply.github.com" commit -qm "Spielbericht mit Noten"
+            git push -q origin HEAD:main && exit 0
+            sleep 8
+          done

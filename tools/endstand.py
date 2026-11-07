@@ -91,3 +91,151 @@ def anwenden(news, live, sp, jetzt=None, kader=None):
         out.append(m["id"])
         print(f"Endstand: {m['headline']}")
     return out
+
+
+# ---------------------------------------------------------------------------------------------------------------
+# Spielbericht mit Noten (Finn 07.11.2026): Sobald apifootball.json Noten für eine Partie hat, wird die Endstand-Meldung
+# zur richtigen News: Schlagzeile mit der besten Note, Statistik (Schüsse, Ballbesitz, xG), beste Noten je Team,
+# schwächste Startelf-Note. Neue Zeit = Zeitpunkt der Noten, damit sie im Feed nach oben rückt. Nur einmal je Partie.
+# Noten zählen erst ab 46 Minuten (wie überall im Ticker). Aufruf nach dem Bau von apifootball.json:
+#   python3 tools/endstand.py --noten --repo .
+
+def _de(x, d=1):
+    return f"{x:.{d}f}".replace(".", ",")
+
+
+def _min(v):
+    try:
+        return int(re.sub(r"\D.*", "", str(v)) or 0) + (int(str(v).split("+")[1]) if "+" in str(v) else 0)
+    except (ValueError, IndexError):
+        return 0
+
+
+def minuten(p):
+    """Nachname (normalisiert) -> (Minuten, Seite) aus der offiziellen Aufstellung samt Live-Wechseln."""
+    out = {}
+    ende = 90
+    for seite in ("heim", "gast"):
+        a = p.get(f"{seite}_aufstellung") or {}
+        if a.get("typ") != "offiziell":
+            continue
+        w = [x for x in (p.get("wechsel") or []) if x.get("seite") == seite]
+        aus = {nk(x["aus"]): _min(x["min"]) for x in w if x.get("aus")}
+        ein = {nk(x["ein"]): _min(x["min"]) for x in w if x.get("ein")}
+        for s in a.get("startelf") or []:
+            m = _min(s["aus"]) if s.get("aus") else aus.get(nk(s["n"]), ende)
+            out[nk(s["n"])] = (m, seite, "S")
+        for s in a.get("bank") or []:
+            e = _min(s["ein_min"]) if s.get("ein") and s.get("ein_min") else ein.get(nk(s["n"]))
+            if e is not None:
+                out[nk(s["n"])] = (max(ende - e, 0), seite, "E")
+    return out
+
+
+def bericht(p, af_spiel, spl, jetzt):
+    h, g, hk, gk = p["heim"], p["gast"], p.get("heim_k"), p.get("gast_k")
+    a, b = (int(x) for x in p["ergebnis"])
+    mins = minuten(p)
+    noten = {"heim": [], "gast": []}
+    for sid, n in (af_spiel.get("no") or {}).items():
+        s = spl.get(sid)
+        if not s:
+            continue
+        m = mins.get(nk(s["n"]))
+        if not m or m[0] < 46:
+            continue
+        noten[m[1]].append((n, s["n"].split()[-1] if s["n"].split() else s["n"], m[2]))
+    for l in noten.values():
+        l.sort(key=lambda x: -x[0])
+    alle = sorted(noten["heim"] + noten["gast"], key=lambda x: -x[0])
+    if len(alle) < 10:
+        return None
+    best = alle[0]
+    # Schlagzeile
+    if a == b:
+        kopf = f"{h} und {g} {a}:{b}"
+    elif a > b:
+        kopf = f"{h} gewinnt {a}:{b} gegen {g}"
+    else:
+        kopf = f"{g} gewinnt {b}:{a} bei {h}"
+    headline = f"{kopf}, {best[1]} mit Note {_de(best[0])} die Beste"
+    # Text
+    alt = meldung(p, jetzt)["text"]
+    text = [t for t in alt if not t.startswith("Noten und")]
+    w = af_spiel.get("w") or {}
+    st = []
+    if w.get("sch"):
+        st.append(f"Torschüsse {int(w['sch'][0])}:{int(w['sch'][1])}" + (f" (aufs Tor {int(w['tor'][0])}:{int(w['tor'][1])})" if w.get("tor") else ""))
+    if w.get("bes"):
+        st.append(f"Ballbesitz {int(w['bes'][0])}:{int(w['bes'][1])} %")
+    if w.get("xg"):
+        st.append(f"Expected Goals {_de(w['xg'][0], 2)}:{_de(w['xg'][1], 2)}")
+    if w.get("eck"):
+        st.append(f"Ecken {int(w['eck'][0])}:{int(w['eck'][1])}")
+    if st:
+        text.append("Statistik (" + h + " zuerst): " + ", ".join(st) + ".")
+    for seite, name in (("heim", h), ("gast", g)):
+        l = noten[seite]
+        if l:
+            text.append(f"Beste Noten {name}: " + ", ".join(f"{x[1]} {_de(x[0])}" for x in l[:3]) + ".")
+    schwach = [x for x in alle if x[2] == "S"]
+    if schwach and schwach[-1][0] < 6.0:
+        text.append(f"Schwächste Note in der Startelf: {schwach[-1][1]} ({_de(schwach[-1][0])}).")
+    # Kickbase: wer ragte heraus, wer enttäuschte (keine Kauf- oder Verkaufsempfehlung)
+    top = [x for x in alle if x[0] >= 7.5][:3]
+    kb = ""
+    if top:
+        kb = ("Herausragend: " + ", ".join(f"{x[1]} ({_de(x[0])})" for x in top) + ". ")
+    for seite, name in (("heim", h), ("gast", g)):
+        l = noten[seite]
+        if l and l[0][0] < 6.8:
+            kb += f"Bei {name} kam niemand über {_de(l[0][0])}. "
+    tt = p["anstoss"][8:10] + p["anstoss"][5:7]
+    return {"id": f"endstand-{(hk or '').lower()}-{tt}", "zeit": jetzt.strftime("%Y-%m-%dT%H:%M"),
+            "spielerin": f"{h} gegen {g}", "verein": h, "nr": "", "pos": "Spielansetzung", "tags": ["SPIELBERICHT"],
+            "headline": headline, "kurz": f"{hk} {a}:{b} {gk}: {best[1]} {_de(best[0])}",
+            "text": text, "kickbase": kb.strip(),
+            "quellen": [{"name": "Sportschau", "url": p.get("url", "")}, {"name": "API-Football (Noten, Statistik)", "url": "https://www.api-football.com"}],
+            "quelle_live": True, "partie_id": p["id"], "noten": True}
+
+
+def mit_noten(news, live, sp, af, spl, jetzt=None):
+    jetzt = jetzt or datetime.now(TZ)
+    weg = set(live.get("entfernt", []))
+    grenze = (jetzt - timedelta(days=2)).strftime("%Y-%m-%dT%H:%M")
+    out = []
+    for p in partien(sp):
+        asp = (af.get("spiele") or {}).get(p["id"])
+        if p.get("status") != "beendet" or not asp or not asp.get("no") or p.get("anstoss", "") < grenze or len(p.get("ergebnis") or []) != 2:
+            continue
+        tt = p["anstoss"][8:10] + p["anstoss"][5:7]
+        mid = f"endstand-{(p.get('heim_k') or '').lower()}-{tt}"
+        alt = next((x for x in news["meldungen"] if x["id"] == mid), None)
+        if mid in weg or not alt or alt.get("noten"):  # nur aus einer Live-Endstand-Meldung, genau einmal
+            continue
+        m = bericht(p, asp, spl, jetzt)
+        if not m:
+            continue
+        news["meldungen"] = [m] + [x for x in news["meldungen"] if x["id"] != mid]
+        live["meldungen"] = [m] + [x for x in live.get("meldungen", []) if x["id"] != mid]
+        out.append(mid)
+        print(f"Spielbericht mit Noten: {m['headline']}")
+    return out
+
+
+if __name__ == "__main__":
+    import argparse, json, os
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--repo", default=".")
+    ap.add_argument("--noten", action="store_true")
+    ap.add_argument("--trocken", action="store_true")
+    x = ap.parse_args()
+    lade = lambda f, d=None: json.load(open(os.path.join(x.repo, f), encoding="utf-8")) if os.path.exists(os.path.join(x.repo, f)) else d
+    news, sp, af = lade("news.json"), lade("spielplan.json"), lade("apifootball.json", {})
+    live = lade("tools/aufstellungen_live.json", {"meldungen": []})
+    spl = {s["id"]: s for s in (lade("spielerinnen.json", {}) or {}).get("spielerinnen", [])}
+    ids = mit_noten(news, live, sp, af, spl) if x.noten else []
+    if ids and not x.trocken:
+        json.dump(news, open(os.path.join(x.repo, "news.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+        json.dump(live, open(os.path.join(x.repo, "tools/aufstellungen_live.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    print(ids)

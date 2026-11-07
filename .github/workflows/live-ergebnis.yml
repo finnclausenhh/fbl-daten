@@ -10,6 +10,7 @@ on:
 
 permissions:
   contents: write
+  actions: write   # startet bei Abpfiff den Noten-Wächter (07.11.2026)
 
 concurrency:
   group: live-ergebnis
@@ -29,4 +30,5 @@ jobs:
       - name: Live-Ergebnis
         env:
           API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+          GH_TOKEN: ${{ github.token }}
         run: python3 -u tools/live_ergebnis.py --repo . --push --laufzeit 170

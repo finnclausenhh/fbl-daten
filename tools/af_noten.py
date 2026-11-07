@@ -22,7 +22,7 @@ try:
     AF_TEAM = L.AF_TEAM
 except Exception:
     pass
-WARTE = 180
+WARTE = 120  # 07.11.2026: 180 -> 120 s, genauer messen
 MIN_NOTEN = 20
 
 
