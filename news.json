@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-07T11:03",
+ "stand": "2026-11-07T11:13",
  "meldungen": [
   {
    "id": "aufstellung-scf-0711",
@@ -88,67 +88,85 @@
       "pid": "00101"
      }
     ],
-    "bank": [],
-    "fehlt": [
+    "bank": [
      {
-      "n": "Arfaoui",
-      "p": "MF",
-      "f": "raus"
+      "n": "von Schrader",
+      "p": "TW",
+      "pid": "00086",
+      "f": "neu"
+     },
+     {
+      "n": "Axtmann",
+      "p": "ABW",
+      "pid": "00087",
+      "f": "neu"
+     },
+     {
+      "n": "Memminger",
+      "p": "ABW",
+      "pid": "00093",
+      "f": "neu"
      },
      {
       "n": "Bienz",
       "p": "MF",
+      "pid": "00100",
       "f": "raus"
      },
      {
+      "n": "Arfaoui",
+      "p": "MF",
+      "pid": "00099",
+      "f": "raus"
+     },
+     {
+      "n": "Hebben",
+      "p": "MF",
+      "pid": "00105",
+      "f": "neu"
+     },
+     {
+      "n": "Simmen",
+      "p": "MF",
+      "pid": "00110"
+     },
+     {
+      "n": "Vincze",
+      "p": "ST",
+      "pid": "00117"
+     },
+     {
+      "n": "Scherer",
+      "p": "ST",
+      "pid": "00115"
+     }
+    ],
+    "fehlt": [
+     {
       "n": "Ihme",
       "p": "ABW",
-      "f": "raus"
+      "f": "raus",
+      "war": "Bank"
      },
      {
       "n": "Jansen",
       "p": "ABW",
-      "f": "raus"
+      "f": "raus",
+      "war": "Bank"
      },
      {
       "n": "Reimann",
       "p": "TW",
       "f": "raus",
-      "i": "fraglich"
-     },
-     {
-      "n": "Scherer",
-      "p": "ST",
-      "f": "raus"
-     },
-     {
-      "n": "Simmen",
-      "p": "MF",
-      "f": "raus"
-     },
-     {
-      "n": "Vincze",
-      "p": "ST",
-      "f": "raus"
+      "i": "fraglich",
+      "war": "Startelf"
      },
      {
       "n": "Benkarth",
       "p": "TW"
      },
      {
-      "n": "Schrader",
-      "p": "TW"
-     },
-     {
-      "n": "Axtmann",
-      "p": "ABW"
-     },
-     {
       "n": "Ernst",
-      "p": "ABW"
-     },
-     {
-      "n": "Memminger",
       "p": "ABW"
      },
      {
@@ -177,10 +195,6 @@
      },
      {
       "n": "Grund",
-      "p": "MF"
-     },
-     {
-      "n": "Hebben",
       "p": "MF"
      },
      {
@@ -282,52 +296,55 @@
       "pid": "00322"
      }
     ],
-    "bank": [],
-    "fehlt": [
+    "bank": [
      {
       "n": "Adamczyk",
       "p": "TW",
-      "f": "raus"
-     },
-     {
-      "n": "Barboz",
-      "p": "ABW",
-      "f": "raus"
-     },
-     {
-      "n": "Bednorz",
-      "p": "ABW",
-      "f": "raus"
-     },
-     {
-      "n": "Brengel",
-      "p": "MF",
-      "f": "raus"
-     },
-     {
-      "n": "Coutel",
-      "p": "MF",
-      "f": "raus"
-     },
-     {
-      "n": "Fröhlich",
-      "p": "ABW",
-      "f": "raus"
-     },
-     {
-      "n": "Ličina",
-      "p": "MF",
-      "f": "raus"
-     },
-     {
-      "n": "Mai",
-      "p": "MF",
-      "f": "raus"
+      "pid": "00296"
      },
      {
       "n": "Pollak",
       "p": "ABW",
-      "f": "raus"
+      "pid": "00305"
+     },
+     {
+      "n": "Fröhlich",
+      "p": "ABW",
+      "pid": "00302"
+     },
+     {
+      "n": "Barboz",
+      "p": "ABW",
+      "pid": "00300"
+     },
+     {
+      "n": "Brengel",
+      "p": "MF",
+      "pid": "00308"
+     },
+     {
+      "n": "Ličina",
+      "p": "MF",
+      "pid": "00314"
+     },
+     {
+      "n": "Mai",
+      "p": "MF",
+      "pid": "00315"
+     }
+    ],
+    "fehlt": [
+     {
+      "n": "Bednorz",
+      "p": "ABW",
+      "f": "raus",
+      "war": "Bank"
+     },
+     {
+      "n": "Coutel",
+      "p": "MF",
+      "f": "raus",
+      "war": "Bank"
      },
      {
       "n": "Richter",

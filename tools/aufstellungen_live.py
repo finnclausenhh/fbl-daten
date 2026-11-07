@@ -199,8 +199,15 @@ def baue(wb, basis, ma, an, a, kader, news, spielplan, zeit):
         t = AB.team(slug, gs, a[st], a[bk], vgl, kader, news, gr.get(sd), AB.lernen(spielplan, verein))
         if wb:
             t["wettbewerb"] = wb
+        # RAUS nur für die letzte Startelf; wer zuletzt auf der Bank saß, ist kein Startelf-Wechsel (Finn 07.11.2026)
+        alt_s = {nk(x) for x in (alt or {}).get("start", [])}
+        for f in t.get("fehlt", []):
+            if f.get("f") == "raus":
+                f["war"] = "Startelf" if nk(f["n"]) in alt_s else "Bank"
+        if True:
             if not a[bk]:
-                # Sportschau zeigt im Pokal vor Anpfiff keine Bank: niemand als "fehlt" führen, nur im Text nennen
+                # Bank noch nicht veröffentlicht (Pokal vor Anpfiff, auch Liga, wenn Sportschau und DFB nur die Startelf haben,
+                # Freiburg/Nürnberg 07.11.2026): niemand als "fehlt" führen, nur im Text nennen; die Bank wird nachgetragen
                 t["bank"] = []
                 t["fehlt"] = []
                 t["bank_offen"] = True
@@ -468,7 +475,13 @@ def main():
         print(f"wieder eingefügt: {[m['id'] for m in fehlend]}")
         speichern(a, pn, pl, news, live, "Aufstellungen live: wieder eingefügt")
 
-    # Pokal: Bank nach Abpfiff nachtragen (Meldungen mit bank_offen von heute und gestern)
+    bank_nachtragen(a, pn, pl, news, live, spielplan, kader, grenze)
+    fehlt_meldungen(a, pn, pl, news, live, spielplan)
+    weiter_main(a, pn, pl, news, live, spielplan, kader, geaendert)
+
+
+def bank_nachtragen(a, pn, pl, news, live, spielplan, kader, grenze):
+    """Bank nachtragen (Meldungen mit bank_offen von heute und gestern): Pokal nach Abpfiff, Liga sobald Sportschau oder DFB sie zeigen."""
     for m in news["meldungen"]:
         au = m.get("aufstellung") or {}
         if not au.get("bank_offen") or m["zeit"][:10] < grenze:
@@ -513,6 +526,8 @@ def main():
         au.pop("bank_offen")
         au.pop("nicht_startelf", None)
         m["text"] = [x.replace(" Die Bank zeigt die Sportschau im Pokal erst nach Abpfiff.", "") for x in m["text"] if "erst nach Abpfiff" not in x or "Nicht mehr in der Startelf" in x]
+        m["text"] = [y for y in (x.replace(" Die Bank folgt, sobald sie veröffentlicht ist.", "").replace("Die Bank folgt, sobald sie veröffentlicht ist.", "").strip()
+                                 for x in m["text"]) if y]
         abl = ableiten(verein, auf[f"startelf_{seite}"], bank, m["zeit"], au.get("gegner", ""), au.get("wettbewerb"), news["meldungen"], spielplan,
                        next((q["url"] for q in m["quellen"] if q["name"] == quelle_name), url))
         if abl:
@@ -529,7 +544,8 @@ def main():
         print(f"Bank nachgetragen: {m['id']}")
         speichern(a, pn, pl, news, live, "Aufstellungen live: Bank nachgetragen " + m["id"])
 
-    fehlt_meldungen(a, pn, pl, news, live, spielplan)
+
+def weiter_main(a, pn, pl, news, live, spielplan, kader, geaendert):
 
     # Comeback- und Erstmals-Meldungen (Finn 06.11.2026), auch für die Note von API-Football am Folgetag
     try:
@@ -605,6 +621,7 @@ def main():
                 if cb:
                     speichern(a, pn, pl, news, live, "Aufstellungen live: Comeback " + ", ".join(cb))
                 punkt(a, pn, pl, news, live, spielplan)
+        bank_nachtragen(a, pn, pl, news, live, spielplan, kader, (jetzt - timedelta(days=1)).strftime("%Y-%m-%d"))
         fehlt_meldungen(a, pn, pl, news, live, spielplan)
         if (not offen and not SPAETER) or time.time() + 60 > ende:
             break
