@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-07T12:51",
+ "stand": "2026-11-07T13:09",
  "meldungen": [
   {
    "id": "maedl-update-0711",
@@ -1175,7 +1175,7 @@
   {
    "id": "fehlt-lattwein-wob-0611",
    "pid": "00403",
-   "zeit": "2026-11-06T18:30",
+   "zeit": "2026-11-06T17:25",
    "spielerin": "Lena Lattwein",
    "verein": "VfL Wolfsburg",
    "nr": "",
@@ -1234,7 +1234,7 @@
   {
    "id": "fehlt-proost-fcb-0611",
    "pid": "00020",
-   "zeit": "2026-11-06T18:30",
+   "zeit": "2026-11-06T17:25",
    "spielerin": "Sophie Proost",
    "verein": "FC Bayern",
    "nr": "",
