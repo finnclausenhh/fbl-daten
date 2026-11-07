@@ -1,34 +1,11 @@
 {
  "datum": "2026-11-07",
  "spiele": {
-  "12306274": {
-   "spiel": "SCF-FCN",
-   "0:0": {
-    "sportschau": "12:00:44",
-    "apifootball": "12:01:31"
-   },
-   "0:1": {
-    "sportschau": "12:03:07",
-    "apifootball": "12:03:07"
-   },
-   "0:2": {
-    "apifootball": "12:44:29",
-    "sportschau": "12:46:03"
-   },
-   "0:3": {
-    "apifootball": "13:07:10",
-    "sportschau": "13:07:58"
-   },
-   "0:4": {
-    "apifootball": "13:50:20",
-    "sportschau": "13:51:56"
-   }
-  },
   "12306280": {
    "spiel": "B04-HSV",
    "0:0": {
-    "sportschau": "14:01:14",
-    "apifootball": "14:02:49"
+    "sportschau": "14:31:12",
+    "apifootball": "14:31:12"
    }
   }
  }
