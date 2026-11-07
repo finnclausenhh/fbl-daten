@@ -397,7 +397,7 @@
   {
    "id": "maedl-0611",
    "pid": "00263",
-   "zeit": "2026-11-06T23:10",
+   "zeit": "2026-11-06T12:30",
    "spielerin": "Valentina Mädl",
    "verein": "Bayer Leverkusen",
    "nr": "17",
@@ -431,106 +431,9 @@
    }
   },
   {
-   "id": "coskun-0611",
-   "pid": "00242",
-   "zeit": "2026-11-06T23:10",
-   "spielerin": "Sana Coşkun",
-   "verein": "Bayer Leverkusen",
-   "nr": "42",
-   "pos": "ABW",
-   "tags": [
-    "VERLETZUNG"
-   ],
-   "status": "verletzt",
-   "headline": "Coşkun fehlt weiter mit Muskel-Sehnen-Verletzung",
-   "kurz": "Coşkun fehlt weiter verletzt",
-   "text": [
-    "Sana Coşkun steht Bayer Leverkusen auch gegen den Hamburger SV am Samstag nicht zur Verfügung. Laut Vorbericht des Vereins fällt sie mit einer Muskel-Sehnen-Verletzung weiter aus.",
-    "Einen Rückkehrtermin nennt Bayer 04 nicht."
-   ],
-   "kickbase": "Nicht einplanen, bis der Verein eine Rückkehr meldet.",
-   "quellen": [
-    {
-     "name": "Bayer 04",
-     "url": "https://www.bayer04.de/de-de/news/frauen/ziele-nicht-aus-den-augen-verlieren-frauen-peilen-heimsieg-gegen-den-hsv-an"
-    }
-   ],
-   "foto": "fotos/b04-sana-coskun.webp",
-   "foto_credit": {
-    "autor": "Bayer 04",
-    "lizenz": "mit Genehmigung: Bayer 04 Leverkusen",
-    "url": "https://www.bayer04.de/de-de/team/frauen/frauen"
-   }
-  },
-  {
-   "id": "friedrich-0611",
-   "pid": "00244",
-   "zeit": "2026-11-06T23:10",
-   "spielerin": "Melissa Friedrich",
-   "verein": "Bayer Leverkusen",
-   "nr": "3",
-   "pos": "ABW",
-   "tags": [
-    "VERLETZUNG",
-    "UPDATE"
-   ],
-   "status": "verletzt",
-   "headline": "Friedrich nach Rückschlag im Aufbautraining weiter raus",
-   "kurz": "Friedrich fehlt nach Rückschlag",
-   "text": [
-    "Melissa Friedrich fällt bei Bayer Leverkusen gegen den Hamburger SV weiter aus. Laut Vorbericht des Vereins hat sie im Aufbautraining einen krankheitsbedingten Rückschlag erlitten.",
-    "Wann sie wieder ins Mannschaftstraining einsteigt, nennt Bayer 04 nicht."
-   ],
-   "kickbase": "Nicht einplanen. Nach dem Rückschlag dauert die Rückkehr eher länger.",
-   "quellen": [
-    {
-     "name": "Bayer 04",
-     "url": "https://www.bayer04.de/de-de/news/frauen/ziele-nicht-aus-den-augen-verlieren-frauen-peilen-heimsieg-gegen-den-hsv-an"
-    }
-   ],
-   "foto": "fotos/b04-melissa-friedrich.webp",
-   "foto_credit": {
-    "autor": "Bayer 04",
-    "lizenz": "mit Genehmigung: Bayer 04 Leverkusen",
-    "url": "https://www.bayer04.de/de-de/team/frauen/frauen"
-   }
-  },
-  {
-   "id": "wrigge-0611",
-   "pid": "00255",
-   "zeit": "2026-11-06T23:10",
-   "spielerin": "Amy Wrigge",
-   "verein": "Bayer Leverkusen",
-   "nr": "41",
-   "pos": "MF",
-   "tags": [
-    "VERLETZUNG"
-   ],
-   "status": "verletzt",
-   "headline": "Wrigge fehlt weiter mit Kreuzbandriss",
-   "kurz": "Wrigge fehlt mit Kreuzbandriss",
-   "text": [
-    "Amy Wrigge fällt bei Bayer Leverkusen weiter mit einem Kreuzbandriss aus, auch gegen den Hamburger SV am Samstag. Das bestätigt der Vorbericht des Vereins.",
-    "Ein Kreuzbandriss bedeutet in der Regel mehrere Monate Pause."
-   ],
-   "kickbase": "Langfristig nicht einplanen.",
-   "quellen": [
-    {
-     "name": "Bayer 04",
-     "url": "https://www.bayer04.de/de-de/news/frauen/ziele-nicht-aus-den-augen-verlieren-frauen-peilen-heimsieg-gegen-den-hsv-an"
-    }
-   ],
-   "foto": "fotos/b04-amy-wrigge.webp",
-   "foto_credit": {
-    "autor": "Bayer 04",
-    "lizenz": "mit Genehmigung: Bayer 04 Leverkusen",
-    "url": "https://www.bayer04.de/de-de/team/frauen/frauen"
-   }
-  },
-  {
    "id": "tomasiak-0611",
    "pid": "00266",
-   "zeit": "2026-11-06T22:50",
+   "zeit": "2026-11-06T13:00",
    "spielerin": "Paulina Tomasiak",
    "verein": "Bayer Leverkusen",
    "nr": "28",
@@ -539,13 +442,13 @@
     "ABWESEND"
    ],
    "status": "abwesend",
-   "headline": "Tomasiak fehlt gegen den HSV wegen Trainingsrückstand",
-   "kurz": "Tomasiak fehlt mit Trainingsrückstand",
+   "headline": "Tomasiak und Friedrich fehlen gegen den HSV",
+   "kurz": "Tomasiak und Friedrich fehlen gegen HSV",
    "text": [
-    "Paulina Tomasiak steht Bayer Leverkusen im Heimspiel gegen den Hamburger SV am Samstag um 14 Uhr nicht zur Verfügung. Laut Vorbericht des Vereins fällt die Stürmerin wegen eines Trainingsrückstands weiter aus, eine Verletzung nennt Bayer 04 nicht.",
-    "Tomasiak stand in drei der letzten fünf Ligaspiele in der Startelf und hat drei Ligatore erzielt. Ebenfalls weiter nicht dabei sind Sana Coşkun, Melissa Friedrich und Amy Wrigge."
+    "Paulina Tomasiak steht Bayer Leverkusen im Heimspiel gegen den Hamburger SV am Samstag um 14 Uhr nicht zur Verfügung. Laut Vorbericht des Vereins fehlt die Stürmerin wegen eines Trainingsrückstands, eine Verletzung nennt Bayer 04 nicht. Melissa Friedrich fällt ebenfalls aus, sie hat im Aufbautraining nach einer Krankheit einen Rückschlag erlitten.",
+    "Tomasiak stand in drei der letzten fünf Ligaspiele in der Startelf und hat drei Ligatore erzielt. Weiter verletzt fehlen Sana Coşkun (Muskel-Sehnen-Verletzung) und Amy Wrigge (Kreuzbandriss)."
    ],
-   "kickbase": "Für Samstag nicht einplanen. Wann sie zurückkehrt, nennt der Verein nicht. Ein Trainingsrückstand ist in der Regel kürzer als eine Verletzungspause.",
+   "kickbase": "Tomasiak für Samstag nicht einplanen, ein Trainingsrückstand ist in der Regel kürzer als eine Verletzungspause. Bei Friedrich nennt der Verein keinen Termin für die Rückkehr ins Mannschaftstraining.",
    "quellen": [
     {
      "name": "Bayer 04",
@@ -1515,7 +1418,7 @@
   {
    "id": "bender-0611",
    "pid": "00257",
-   "zeit": "2026-11-06T13:45",
+   "zeit": "2026-11-06T13:00",
    "spielerin": "Loreen Bender",
    "verein": "Bayer Leverkusen",
    "nr": "19",
