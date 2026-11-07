@@ -1,6 +1,66 @@
 {
  "meldungen": [
   {
+   "id": "endstand-b04-0711",
+   "zeit": "2026-11-07T15:57",
+   "spielerin": "Bayer Leverkusen gegen Hamburger SV",
+   "verein": "Bayer Leverkusen",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "SPIELBERICHT"
+   ],
+   "headline": "Endstand: Bayer Leverkusen 2:0 Hamburger SV",
+   "kurz": "Endstand B04 2:0 HSV",
+   "text": [
+    "Bayer Leverkusen gewinnt gegen Hamburger SV mit 2:0.",
+    "Tore: 1:0 Kramer (58., Vorlage Kehrer), 2:0 Loonen (90+6., Vorlage Borggräfe).",
+    "Gelb: Ostermeier, Bartz.",
+    "Noten und der ausführliche Bericht folgen."
+   ],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306280/bayer-leverkusen_hamburger-sv/liveticker"
+    }
+   ],
+   "quelle_live": true,
+   "partie_id": "12306280"
+  },
+  {
+   "id": "erstmals-sieger-hsv-0711",
+   "pid": "00150",
+   "zeit": "2026-11-07T12:50",
+   "spielerin": "Laura Sieger",
+   "verein": "Hamburger SV",
+   "nr": "",
+   "pos": "TW",
+   "tags": [
+    "AUFSTELLUNG",
+    "UPDATE"
+   ],
+   "status": "fit",
+   "headline": "Sieger erstmals im Kader, aber ohne Einsatz",
+   "text": [
+    "Laura Sieger steht gegen Bayer Leverkusen zum ersten Mal in dieser Saison im Spieltagskader des Hamburger SV.",
+    "Gegen Bayer Leverkusen saß sie die gesamte Spielzeit auf der Bank."
+   ],
+   "kickbase": "Neu im Spieltagskader. Für Kickbase vorerst nur eine Ergänzung.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306280/bayer-leverkusen_hamburger-sv/liveticker"
+    }
+   ],
+   "quelle_live": true,
+   "partie_id": "12306280",
+   "comeback": {
+    "art": "erstmals",
+    "stufe": "ohne"
+   }
+  },
+  {
    "id": "endstand-scf-0711",
    "zeit": "2026-11-07T15:42",
    "spielerin": "SC Freiburg gegen 1. FC Nürnberg",
@@ -92,37 +152,6 @@
     "stufe": "ohne"
    },
    "kurz": "Zadrazil zurück im Kader"
-  },
-  {
-   "id": "erstmals-sieger-hsv-0711",
-   "pid": "00150",
-   "zeit": "2026-11-07T12:50",
-   "spielerin": "Laura Sieger",
-   "verein": "Hamburger SV",
-   "nr": "",
-   "pos": "TW",
-   "tags": [
-    "AUFSTELLUNG"
-   ],
-   "status": "fit",
-   "headline": "Sieger erstmals im Kader",
-   "text": [
-    "Laura Sieger steht gegen Bayer Leverkusen zum ersten Mal in dieser Saison im Spieltagskader des Hamburger SV.",
-    "Gegen Bayer Leverkusen sitzt sie zunächst auf der Bank."
-   ],
-   "kickbase": "Neu im Spieltagskader. Für Kickbase vorerst nur eine Ergänzung.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306280/bayer-leverkusen_hamburger-sv/liveticker"
-    }
-   ],
-   "quelle_live": true,
-   "partie_id": "12306280",
-   "comeback": {
-    "art": "erstmals",
-    "stufe": "kader"
-   }
   },
   {
    "id": "aufstellung-b04-0711",
