@@ -33,5 +33,18 @@
   "noten_da": "2026-11-07T14:36",
   "minuten_nach_abpfiff": 47,
   "bau_gestartet": "2026-11-07T14:36"
+ },
+ "12306280": {
+  "spiel": "B04-HSV",
+  "anstoss": "2026-11-07T14:00",
+  "abpfiff_ca": "2026-11-07T15:52",
+  "fixture": 1593163,
+  "af_status": "FT",
+  "erste_pruefung": "2026-11-07T15:58",
+  "noten_zuletzt": 40,
+  "letzte_pruefung": "2026-11-07T15:58",
+  "noten_da": "2026-11-07T15:58",
+  "minuten_nach_abpfiff": 7,
+  "bau_gestartet": "2026-11-07T15:58"
  }
 }
