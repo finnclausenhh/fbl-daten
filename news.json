@@ -1,126 +1,222 @@
 {
- "stand": "2026-11-07T13:09",
+ "stand": "2026-11-07T13:50",
  "meldungen": [
   {
-   "id": "comeback-zadrazil-fcb-0611",
-   "pid": "00022",
-   "zeit": "2026-11-06T17:25",
-   "spielerin": "Sarah Zadrazil",
-   "verein": "FC Bayern",
-   "nr": "",
-   "pos": "MF",
-   "tags": [
-    "RÜCKKEHR"
-   ],
-   "status": "fit",
-   "headline": "Zadrazil nach Muskelproblemen zurück im Kader, aber ohne Einsatz",
-   "text": [
-    "Sarah Zadrazil ist nach Muskelproblemen zurück im Spieltagskader des FC Bayern.",
-    "Gegen Werder Bremen saß sie die gesamte Spielzeit auf der Bank."
-   ],
-   "kickbase": "Zurück im Kader, aber noch ohne Spielpraxis. Ein Einsatz am nächsten Spieltag ist offen, die Startelf eher nicht.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306283/bayern-muenchen_werder-bremen/liveticker"
-    }
-   ],
-   "quelle_live": true,
-   "partie_id": "12306283",
-   "comeback": {
-    "art": "comeback",
-    "stufe": "ohne"
-   },
-   "kurz": "Zadrazil zurück im Kader"
-  },
-  {
-   "id": "maedl-update-0711",
-   "pid": "00263",
+   "id": "bender-standards-0711",
+   "pid": "00257",
    "zeit": "2026-11-07T12:50",
-   "spielerin": "Valentina Mädl",
+   "spielerin": "Loreen Bender",
    "verein": "Bayer Leverkusen",
-   "nr": "17",
+   "nr": "",
    "pos": "ST",
    "tags": [
-    "UPDATE",
+    "STANDARD",
     "AUFSTELLUNG"
    ],
-   "status": "fit",
-   "headline": "Mädl steht gegen den HSV doch in der Startelf",
-   "kurz": "Mädl doch in der Startelf",
+   "headline": "Bender nur auf der Bank: Leverkusen mit neuen Eckballschützinnen",
+   "kurz": "Bender auf der Bank: Leverkusens Ecken neu verteilt",
    "text": [
-    "Valentina Mädl beginnt für Bayer Leverkusen gegen den Hamburger SV. Kickbase hatte sie am Freitag wegen Belastungssteuerung als abwesend geführt, der Verein hatte das nie bestätigt.",
-    "Unsere Meldung vom Freitag beruhte nur auf dem Kickbase-Status. Neu in der Startelf sind Mädl und Zdebel, Bender sitzt auf der Bank und Fudalla steht nicht im Kader."
+    "Loreen Bender sitzt gegen den Hamburger SV zunächst auf der Bank. Sie ist bei Bayer Leverkusen die erste Wahl bei Ecken, Estrella Merino steht in der Startelf und übernimmt in der Hierarchie.",
+    "Bei Freistößen fehlt Paulina Tomasiak im Kader, die Vereinsquelle nennt Trainingsrückstand. Carolin Simon steht in der Startelf und ist die nächste Schützin. Elfmeter bleiben bei Kramer, auch sie spielt von Beginn an."
    ],
-   "kickbase": "Mädl ist einsatzfähig. Der Kickbase-Status war in diesem Fall falsch, das ist ein Grund mehr, auf die offizielle Aufstellung zu warten.",
+   "kickbase": "Merino und Simon sind die wahrscheinlichen Standardschützinnen. Bei Bender zählen mögliche Standardpunkte erst, wenn sie eingewechselt wird.",
    "quellen": [
     {
-     "name": "Sportschau",
+     "name": "Sportschau (offizielle Aufstellung)",
      "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306280/bayer-leverkusen_hamburger-sv/aufstellung"
     }
-   ],
-   "foto": "fotos/b04-valentina-madl.webp",
-   "foto_credit": {
-    "autor": "Bayer 04",
-    "lizenz": "mit Genehmigung: Bayer 04 Leverkusen",
-    "url": "https://www.bayer04.de/de-de/team/frauen/frauen"
-   }
+   ]
   },
   {
-   "id": "erstmals-sieger-hsv-0711",
-   "pid": "00150",
+   "id": "aufstellung-hsv-0711",
    "zeit": "2026-11-07T12:50",
-   "spielerin": "Laura Sieger",
+   "spielerin": "Spielansetzung",
    "verein": "Hamburger SV",
    "nr": "",
-   "pos": "TW",
+   "pos": "Spielansetzung",
    "tags": [
-    "AUFSTELLUNG"
+    "TOP"
    ],
-   "status": "fit",
-   "headline": "Sieger erstmals im Kader",
-   "text": [
-    "Laura Sieger steht gegen Bayer Leverkusen zum ersten Mal in dieser Saison im Spieltagskader des Hamburger SV.",
-    "Gegen Bayer Leverkusen sitzt sie zunächst auf der Bank."
-   ],
-   "kickbase": "Neu im Spieltagskader. Für Kickbase vorerst nur eine Ergänzung.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306280/bayer-leverkusen_hamburger-sv/liveticker"
-    }
-   ],
-   "quelle_live": true,
-   "partie_id": "12306280",
-   "comeback": {
-    "art": "erstmals",
-    "stufe": "kader"
-   }
-  },
-  {
-   "id": "fehlt-fudalla-b04-0711",
-   "pid": "00258",
-   "zeit": "2026-11-07T12:50",
-   "spielerin": "Vanessa Fudalla",
-   "verein": "Bayer Leverkusen",
-   "nr": "",
-   "pos": "ST",
-   "tags": [
-    "AUFSTELLUNG"
-   ],
-   "status": "fraglich",
-   "headline": "Fudalla nicht im Kader gegen Hamburger SV",
-   "text": [
-    "Vanessa Fudalla steht in der Liga gegen Hamburger SV weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 2-mal.",
-    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
-   ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
+   "headline": "Offizielle Aufstellung: Hamburger SV gegen Bayer Leverkusen",
+   "text": [],
+   "kickbase": "",
    "quellen": [
     {
      "name": "Sportschau",
      "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306280/bayer-leverkusen_hamburger-sv/aufstellung"
     }
    ],
+   "aufstellung": {
+    "gegner": "Bayer Leverkusen",
+    "formation": "4-2-2-2",
+    "startelf": [
+     {
+      "n": "Szemik",
+      "p": "TW",
+      "pid": "00151"
+     },
+     {
+      "n": "Eggert",
+      "p": "ABW",
+      "pid": "00162",
+      "kp": "MF"
+     },
+     {
+      "n": "Mirzaliyeva",
+      "p": "ABW",
+      "pid": "00157"
+     },
+     {
+      "n": "Böhler",
+      "p": "ABW",
+      "pid": "00152"
+     },
+     {
+      "n": "Doucouré",
+      "p": "ABW",
+      "pid": "00154",
+      "f": "neu"
+     },
+     {
+      "n": "Machtens",
+      "p": "DM",
+      "pid": "00163",
+      "kp": "MF"
+     },
+     {
+      "n": "Stoldt",
+      "p": "DM",
+      "pid": "00167",
+      "kp": "ABW"
+     },
+     {
+      "n": "Linberg",
+      "p": "OM",
+      "pid": "00173",
+      "kp": "ST"
+     },
+     {
+      "n": "Morich",
+      "p": "OM",
+      "pid": "00164",
+      "kp": "MF"
+     },
+     {
+      "n": "Brunnthaler",
+      "p": "ST",
+      "pid": "00169"
+     },
+     {
+      "n": "Bartz",
+      "p": "ST",
+      "pid": "00160",
+      "kp": "MF"
+     }
+    ],
+    "bank": [
+     {
+      "n": "Sieger",
+      "p": "TW",
+      "pid": "00150",
+      "f": "neu"
+     },
+     {
+      "n": "Martens",
+      "p": "ABW",
+      "pid": "00155",
+      "f": "neu"
+     },
+     {
+      "n": "Matysik",
+      "p": "ABW",
+      "pid": "00156"
+     },
+     {
+      "n": "Räcke",
+      "p": "ABW",
+      "pid": "00159"
+     },
+     {
+      "n": "Dönges",
+      "p": "ABW",
+      "pid": "00153",
+      "f": "raus"
+     },
+     {
+      "n": "Wrede",
+      "p": "ABW",
+      "pid": ""
+     },
+     {
+      "n": "Peneau",
+      "p": "MF",
+      "pid": "00165",
+      "f": "neu"
+     },
+     {
+      "n": "Schwalm",
+      "p": "ST",
+      "pid": "00174"
+     },
+     {
+      "n": "Karczewska",
+      "p": "ST",
+      "pid": "00171",
+      "f": "neu"
+     }
+    ],
+    "fehlt": [
+     {
+      "n": "Baum",
+      "p": "TW",
+      "f": "raus",
+      "i": "verletzt",
+      "war": "Bank"
+     },
+     {
+      "n": "Klinck",
+      "p": "MF",
+      "f": "raus",
+      "war": "Bank"
+     },
+     {
+      "n": "Engel",
+      "p": "TW"
+     },
+     {
+      "n": "Haidner",
+      "p": "TW"
+     },
+     {
+      "n": "Paulick",
+      "p": "TW"
+     },
+     {
+      "n": "Obispo",
+      "p": "ABW"
+     },
+     {
+      "n": "Burmann",
+      "p": "MF"
+     },
+     {
+      "n": "Schulz",
+      "p": "MF"
+     },
+     {
+      "n": "Hillebrand",
+      "p": "ST"
+     },
+     {
+      "n": "Krüger",
+      "p": "ST"
+     },
+     {
+      "n": "Švíbková",
+      "p": "ST"
+     }
+    ]
+   },
    "quelle_live": true
   },
   {
@@ -322,222 +418,35 @@
    ]
   },
   {
-   "id": "aufstellung-hsv-0711",
+   "id": "erstmals-sieger-hsv-0711",
+   "pid": "00150",
    "zeit": "2026-11-07T12:50",
-   "spielerin": "Spielansetzung",
+   "spielerin": "Laura Sieger",
    "verein": "Hamburger SV",
    "nr": "",
-   "pos": "Spielansetzung",
+   "pos": "TW",
    "tags": [
-    "TOP"
+    "AUFSTELLUNG"
    ],
-   "headline": "Offizielle Aufstellung: Hamburger SV gegen Bayer Leverkusen",
-   "text": [],
-   "kickbase": "",
+   "status": "fit",
+   "headline": "Sieger erstmals im Kader",
+   "text": [
+    "Laura Sieger steht gegen Bayer Leverkusen zum ersten Mal in dieser Saison im Spieltagskader des Hamburger SV.",
+    "Gegen Bayer Leverkusen sitzt sie zunächst auf der Bank."
+   ],
+   "kickbase": "Neu im Spieltagskader. Für Kickbase vorerst nur eine Ergänzung.",
    "quellen": [
     {
      "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306280/bayer-leverkusen_hamburger-sv/aufstellung"
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306280/bayer-leverkusen_hamburger-sv/liveticker"
     }
    ],
-   "aufstellung": {
-    "gegner": "Bayer Leverkusen",
-    "formation": "4-2-2-2",
-    "startelf": [
-     {
-      "n": "Szemik",
-      "p": "TW",
-      "pid": "00151"
-     },
-     {
-      "n": "Eggert",
-      "p": "ABW",
-      "pid": "00162",
-      "kp": "MF"
-     },
-     {
-      "n": "Mirzaliyeva",
-      "p": "ABW",
-      "pid": "00157"
-     },
-     {
-      "n": "Böhler",
-      "p": "ABW",
-      "pid": "00152"
-     },
-     {
-      "n": "Doucouré",
-      "p": "ABW",
-      "pid": "00154",
-      "f": "neu"
-     },
-     {
-      "n": "Machtens",
-      "p": "DM",
-      "pid": "00163",
-      "kp": "MF"
-     },
-     {
-      "n": "Stoldt",
-      "p": "DM",
-      "pid": "00167",
-      "kp": "ABW"
-     },
-     {
-      "n": "Linberg",
-      "p": "OM",
-      "pid": "00173",
-      "kp": "ST"
-     },
-     {
-      "n": "Morich",
-      "p": "OM",
-      "pid": "00164",
-      "kp": "MF"
-     },
-     {
-      "n": "Brunnthaler",
-      "p": "ST",
-      "pid": "00169"
-     },
-     {
-      "n": "Bartz",
-      "p": "ST",
-      "pid": "00160",
-      "kp": "MF"
-     }
-    ],
-    "bank": [
-     {
-      "n": "Sieger",
-      "p": "TW",
-      "pid": "00150",
-      "f": "neu"
-     },
-     {
-      "n": "Martens",
-      "p": "ABW",
-      "pid": "00155",
-      "f": "neu"
-     },
-     {
-      "n": "Matysik",
-      "p": "ABW",
-      "pid": "00156"
-     },
-     {
-      "n": "Räcke",
-      "p": "ABW",
-      "pid": "00159"
-     },
-     {
-      "n": "Dönges",
-      "p": "ABW",
-      "pid": "00153",
-      "f": "raus"
-     },
-     {
-      "n": "Wrede",
-      "p": "ABW",
-      "pid": ""
-     },
-     {
-      "n": "Peneau",
-      "p": "MF",
-      "pid": "00165",
-      "f": "neu"
-     },
-     {
-      "n": "Schwalm",
-      "p": "ST",
-      "pid": "00174"
-     },
-     {
-      "n": "Karczewska",
-      "p": "ST",
-      "pid": "00171",
-      "f": "neu"
-     }
-    ],
-    "fehlt": [
-     {
-      "n": "Baum",
-      "p": "TW",
-      "f": "raus",
-      "i": "verletzt",
-      "war": "Bank"
-     },
-     {
-      "n": "Klinck",
-      "p": "MF",
-      "f": "raus",
-      "war": "Bank"
-     },
-     {
-      "n": "Engel",
-      "p": "TW"
-     },
-     {
-      "n": "Haidner",
-      "p": "TW"
-     },
-     {
-      "n": "Paulick",
-      "p": "TW"
-     },
-     {
-      "n": "Obispo",
-      "p": "ABW"
-     },
-     {
-      "n": "Burmann",
-      "p": "MF"
-     },
-     {
-      "n": "Schulz",
-      "p": "MF"
-     },
-     {
-      "n": "Hillebrand",
-      "p": "ST"
-     },
-     {
-      "n": "Krüger",
-      "p": "ST"
-     },
-     {
-      "n": "Švíbková",
-      "p": "ST"
-     }
-    ]
-   },
-   "quelle_live": true
-  },
-  {
-   "id": "brengel-standards-0711",
-   "pid": "00308",
-   "zeit": "2026-11-07T11:03",
-   "spielerin": "Jonna Brengel",
-   "verein": "1. FC Nürnberg",
-   "nr": "",
-   "pos": "MF",
-   "tags": [
-    "STANDARD",
-    "AUFSTELLUNG"
-   ],
-   "headline": "Brengel nur auf der Bank: Freistöße beim FCN offen",
-   "kurz": "Brengel auf der Bank: Freistöße beim FCN offen",
-   "text": [
-    "Jonna Brengel sitzt beim Spiel in Freiburg zunächst auf der Bank. Sie ist beim 1. FC Nürnberg die erste Wahl bei Freistößen.",
-    "Eine Nachfolgerin ist in der Hierarchie nicht hinterlegt, es ist offen, wer in der Startelf die Freistöße schießt. Ecken (Lein) und Elfmeter (Pápai) bleiben bei den bisherigen Schützinnen, beide stehen in der Startelf."
-   ],
-   "kickbase": "Wer in Freiburg Freistöße tritt, ist offen. Bei Brengel zählen mögliche Standardpunkte erst, wenn sie eingewechselt wird.",
-   "quellen": [
-    {
-     "name": "Sportschau (offizielle Aufstellung)",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306274/sc-freiburg_1-fc-nuernberg/aufstellung"
-    }
-   ]
+   "quelle_live": true,
+   "partie_id": "12306280",
+   "comeback": {
+    "art": "erstmals",
+    "stufe": "kader"
+   }
   },
   {
    "id": "aufstellung-scf-0711",
@@ -933,6 +842,32 @@
    "quelle_live": true
   },
   {
+   "id": "brengel-standards-0711",
+   "pid": "00308",
+   "zeit": "2026-11-07T11:03",
+   "spielerin": "Jonna Brengel",
+   "verein": "1. FC Nürnberg",
+   "nr": "",
+   "pos": "MF",
+   "tags": [
+    "STANDARD",
+    "AUFSTELLUNG"
+   ],
+   "headline": "Brengel nur auf der Bank: Freistöße beim FCN offen",
+   "kurz": "Brengel auf der Bank: Freistöße beim FCN offen",
+   "text": [
+    "Jonna Brengel sitzt beim Spiel in Freiburg zunächst auf der Bank. Sie ist beim 1. FC Nürnberg die erste Wahl bei Freistößen.",
+    "Eine Nachfolgerin ist in der Hierarchie nicht hinterlegt, es ist offen, wer in der Startelf die Freistöße schießt. Ecken (Lein) und Elfmeter (Pápai) bleiben bei den bisherigen Schützinnen, beide stehen in der Startelf."
+   ],
+   "kickbase": "Wer in Freiburg Freistöße tritt, ist offen. Bei Brengel zählen mögliche Standardpunkte erst, wenn sie eingewechselt wird.",
+   "quellen": [
+    {
+     "name": "Sportschau (offizielle Aufstellung)",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306274/sc-freiburg_1-fc-nuernberg/aufstellung"
+    }
+   ]
+  },
+  {
    "id": "reimann-0711",
    "pid": "00085",
    "zeit": "2026-11-07T11:03",
@@ -997,74 +932,6 @@
    }
   },
   {
-   "id": "maedl-0611",
-   "pid": "00263",
-   "zeit": "2026-11-06T12:30",
-   "spielerin": "Valentina Mädl",
-   "verein": "Bayer Leverkusen",
-   "nr": "17",
-   "pos": "ST",
-   "tags": [
-    "ABWESEND"
-   ],
-   "status": "abwesend",
-   "headline": "Mädl fehlt gegen den HSV laut Kickbase wegen Belastungssteuerung",
-   "kurz": "Mädl laut Kickbase abwesend",
-   "text": [
-    "Valentina Mädl fehlt Bayer Leverkusen im Heimspiel gegen den Hamburger SV am Samstag um 14 Uhr laut Kickbase wegen Belastungssteuerung. Der Verein nennt sie im Vorbericht nicht, bestätigt ist der Ausfall damit noch nicht.",
-    "Soccerdonna führt bei der Stürmerin muskuläre Probleme ohne Rückkehrtermin. Im Pokal beim FC Bayern stand sie am 1. November noch 75 Minuten auf dem Platz."
-   ],
-   "kickbase": "Für Samstag eher nicht einplanen. Klarheit bringt die offizielle Aufstellung gegen 12:50.",
-   "quellen": [
-    {
-     "name": "Kickbase (App, unbestätigt)",
-     "url": "https://www.kickbase.com"
-    },
-    {
-     "name": "Soccerdonna",
-     "url": "https://www.soccerdonna.de/de/bayer-04-leverkusen/startseite/verein_56.html"
-    }
-   ],
-   "foto": "fotos/b04-valentina-madl.webp",
-   "foto_credit": {
-    "autor": "Bayer 04",
-    "lizenz": "mit Genehmigung: Bayer 04 Leverkusen",
-    "url": "https://www.bayer04.de/de-de/team/frauen/frauen"
-   }
-  },
-  {
-   "id": "tomasiak-0611",
-   "pid": "00266",
-   "zeit": "2026-11-06T13:00",
-   "spielerin": "Paulina Tomasiak",
-   "verein": "Bayer Leverkusen",
-   "nr": "28",
-   "pos": "ST",
-   "tags": [
-    "ABWESEND"
-   ],
-   "status": "abwesend",
-   "headline": "Tomasiak und Friedrich fehlen gegen den HSV",
-   "kurz": "Tomasiak und Friedrich fehlen gegen HSV",
-   "text": [
-    "Paulina Tomasiak steht Bayer Leverkusen im Heimspiel gegen den Hamburger SV am Samstag um 14 Uhr nicht zur Verfügung. Laut Vorbericht des Vereins fehlt die Stürmerin wegen eines Trainingsrückstands, eine Verletzung nennt Bayer 04 nicht. Melissa Friedrich fällt ebenfalls aus, sie hat im Aufbautraining nach einer Krankheit einen Rückschlag erlitten.",
-    "Tomasiak stand in drei der letzten fünf Ligaspiele in der Startelf und hat drei Ligatore erzielt. Weiter verletzt fehlen Sana Coşkun (Muskel-Sehnen-Verletzung) und Amy Wrigge (Kreuzbandriss)."
-   ],
-   "kickbase": "Tomasiak für Samstag nicht einplanen, ein Trainingsrückstand ist in der Regel kürzer als eine Verletzungspause. Bei Friedrich nennt der Verein keinen Termin für die Rückkehr ins Mannschaftstraining.",
-   "quellen": [
-    {
-     "name": "Bayer 04",
-     "url": "https://www.bayer04.de/de-de/news/frauen/ziele-nicht-aus-den-augen-verlieren-frauen-peilen-heimsieg-gegen-den-hsv-an"
-    }
-   ],
-   "foto": "fotos/b04-paulina-tomasiak.webp",
-   "foto_credit": {
-    "autor": "Bayer 04",
-    "lizenz": "mit Genehmigung: Bayer 04 Leverkusen",
-    "url": "https://www.bayer04.de/de-de/team/frauen/frauen"
-   }
-  },
-  {
    "id": "comeback-gwinn-fcb-0611",
    "pid": "00009",
    "zeit": "2026-11-06T19:48",
@@ -1101,6 +968,97 @@
    }
   },
   {
+   "id": "tomasiak-0611",
+   "pid": "00266",
+   "zeit": "2026-11-06T13:00",
+   "spielerin": "Paulina Tomasiak",
+   "verein": "Bayer Leverkusen",
+   "nr": "28",
+   "pos": "ST",
+   "tags": [
+    "ABWESEND"
+   ],
+   "status": "abwesend",
+   "headline": "Tomasiak und Friedrich fehlen gegen den HSV",
+   "kurz": "Tomasiak und Friedrich fehlen gegen HSV",
+   "text": [
+    "Paulina Tomasiak steht Bayer Leverkusen im Heimspiel gegen den Hamburger SV am Samstag um 14 Uhr nicht zur Verfügung. Laut Vorbericht des Vereins fehlt die Stürmerin wegen eines Trainingsrückstands, eine Verletzung nennt Bayer 04 nicht. Melissa Friedrich fällt ebenfalls aus, sie hat im Aufbautraining nach einer Krankheit einen Rückschlag erlitten.",
+    "Tomasiak stand in drei der letzten fünf Ligaspiele in der Startelf und hat drei Ligatore erzielt. Weiter verletzt fehlen Sana Coşkun (Muskel-Sehnen-Verletzung) und Amy Wrigge (Kreuzbandriss)."
+   ],
+   "kickbase": "Tomasiak für Samstag nicht einplanen, ein Trainingsrückstand ist in der Regel kürzer als eine Verletzungspause. Bei Friedrich nennt der Verein keinen Termin für die Rückkehr ins Mannschaftstraining.",
+   "quellen": [
+    {
+     "name": "Bayer 04",
+     "url": "https://www.bayer04.de/de-de/news/frauen/ziele-nicht-aus-den-augen-verlieren-frauen-peilen-heimsieg-gegen-den-hsv-an"
+    }
+   ],
+   "foto": "fotos/b04-paulina-tomasiak.webp",
+   "foto_credit": {
+    "autor": "Bayer 04",
+    "lizenz": "mit Genehmigung: Bayer 04 Leverkusen",
+    "url": "https://www.bayer04.de/de-de/team/frauen/frauen"
+   }
+  },
+  {
+   "id": "comeback-zadrazil-fcb-0611",
+   "pid": "00022",
+   "zeit": "2026-11-06T17:25",
+   "spielerin": "Sarah Zadrazil",
+   "verein": "FC Bayern",
+   "nr": "",
+   "pos": "MF",
+   "tags": [
+    "RÜCKKEHR"
+   ],
+   "status": "fit",
+   "headline": "Zadrazil nach Muskelproblemen zurück im Kader, aber ohne Einsatz",
+   "text": [
+    "Sarah Zadrazil ist nach Muskelproblemen zurück im Spieltagskader des FC Bayern.",
+    "Gegen Werder Bremen saß sie die gesamte Spielzeit auf der Bank."
+   ],
+   "kickbase": "Zurück im Kader, aber noch ohne Spielpraxis. Ein Einsatz am nächsten Spieltag ist offen, die Startelf eher nicht.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306283/bayern-muenchen_werder-bremen/liveticker"
+    }
+   ],
+   "quelle_live": true,
+   "partie_id": "12306283",
+   "comeback": {
+    "art": "comeback",
+    "stufe": "ohne"
+   },
+   "kurz": "Zadrazil zurück im Kader"
+  },
+  {
+   "id": "fehlt-lattwein-wob-0611",
+   "pid": "00403",
+   "zeit": "2026-11-06T17:25",
+   "spielerin": "Lena Lattwein",
+   "verein": "VfL Wolfsburg",
+   "nr": "",
+   "pos": "MF",
+   "tags": [
+    "AUFSTELLUNG"
+   ],
+   "status": "fraglich",
+   "headline": "Lattwein nicht im Kader gegen Eintracht Frankfurt",
+   "text": [
+    "Lena Lattwein steht in der Liga gegen Eintracht Frankfurt weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 1-mal.",
+    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
+   ],
+   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306271/eintracht-frankfurt_vfl-wolfsburg/aufstellung"
+    }
+   ],
+   "quelle_live": true,
+   "kurz": "Lattwein nicht im Kader"
+  },
+  {
    "id": "peddemors-0611b",
    "pid": "00405",
    "zeit": "2026-11-06T20:31",
@@ -1134,101 +1092,6 @@
     "autor": "VfL Wolfsburg",
     "lizenz": "mit Genehmigung: VfL Wolfsburg",
     "url": "https://www.vfl-wolfsburg.de/teams/frauen/kader-2026/2027"
-   }
-  },
-  {
-   "id": "imade-0611",
-   "pid": "00026",
-   "zeit": "2026-11-06T20:30",
-   "spielerin": "Edna Imade",
-   "verein": "FC Bayern",
-   "nr": "29",
-   "pos": "ST",
-   "tags": [
-    "SPIELBERICHT"
-   ],
-   "status": "fit",
-   "headline": "FC Bayern schlägt Bremen spät mit 3:1",
-   "kurz": "FC Bayern gewinnt spät 3:1 gegen Bremen",
-   "text": [
-    "Der FC Bayern hat Werder Bremen mit 3:1 geschlagen und bleibt im neunten Ligaspiel makellos. Edna Imade traf zum 1:0 (21.), Elena Dhont glich für Bremen aus (50.). Linda Dallmann (84.) und Jovana Damnjanović (87.) entschieden die Partie spät.",
-    "Giulia Gwinn kam rund einen Monat nach ihrem Außenbandriss zu ihrem Comeback. Bayern führt mit drei Punkten vor Wolfsburg, dort treten die Münchnerinnen am 14. November an."
-   ],
-   "kickbase": "Imade bleibt in der Startelf gesetzt, Damnjanović traf als Joker. Vor dem Gipfel in Wolfsburg lohnt der Blick auf die Aufstellung, auch wegen der Champions League am Dienstag.",
-   "quellen": [
-    {
-     "name": "SPORT1",
-     "url": "https://www.sport1.de/news/fussball/frauen-bundesliga/2026/11/bei-gwinn-comeback-fc-bayern-haelt-wolfsburg-auf-abstand"
-    },
-    {
-     "name": "FC Bayern",
-     "url": "https://fcbayern.com/frauen/de/news/spielberichte/2026/11/spielbericht-fc-bayern-frauen---sv-werder-bremen"
-    }
-   ],
-   "foto": "fotos/fcb-edna-imade.webp",
-   "foto_credit": {
-    "autor": "Rh723",
-    "lizenz": "CC BY 4.0",
-    "url": "https://commons.wikimedia.org/wiki/File:Edna_Imade_2026_(cropped).jpg"
-   }
-  },
-  {
-   "id": "fehlt-lattwein-wob-0611",
-   "pid": "00403",
-   "zeit": "2026-11-06T17:25",
-   "spielerin": "Lena Lattwein",
-   "verein": "VfL Wolfsburg",
-   "nr": "",
-   "pos": "MF",
-   "tags": [
-    "AUFSTELLUNG"
-   ],
-   "status": "fraglich",
-   "headline": "Lattwein nicht im Kader gegen Eintracht Frankfurt",
-   "text": [
-    "Lena Lattwein steht in der Liga gegen Eintracht Frankfurt weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 1-mal.",
-    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
-   ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306271/eintracht-frankfurt_vfl-wolfsburg/aufstellung"
-    }
-   ],
-   "quelle_live": true,
-   "kurz": "Lattwein nicht im Kader"
-  },
-  {
-   "id": "buehl-standards-0611",
-   "pid": "00023",
-   "zeit": "2026-11-06T17:25",
-   "spielerin": "Klara Bühl",
-   "verein": "FC Bayern",
-   "nr": "",
-   "pos": "ST",
-   "tags": [
-    "STANDARD"
-   ],
-   "status": "fraglich",
-   "headline": "Bühl fehlt: Ecken und Freistöße beim FCB offen",
-   "kurz": "Bühl fehlt: Standards beim FCB offen",
-   "text": [
-    "Klara Bühl steht gegen Werder Bremen nicht im Kader, ebenso Sophie Proost. Bühl führt beim FC Bayern die Ecken an und schießt auch Freistöße.",
-    "Bei den Freistößen steht Alara als Nächste in der Hierarchie in der Startelf. Wer die Ecken schlägt, ist offen, da keine weitere Schützin aus unserer Liste beginnt."
-   ],
-   "kickbase": "Für Standardpunkte ändert sich beim FCB etwas: Freistöße dürften an Alara gehen, bei Ecken ist die Lage unklar.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306283/bayern-muenchen_werder-bremen/aufstellung"
-    }
-   ],
-   "foto": "fotos/fcb-klara-buhl.webp",
-   "foto_credit": {
-    "autor": "Steffen Prößdorf",
-    "lizenz": "CC BY-SA 4.0",
-    "url": "https://commons.wikimedia.org/wiki/File:2023-07-03_Fussball,_Frauen,_Deutsche_Nationalmannschaft,_Media_Day_1DX_6563_by_Stepro-2.jpg"
    }
   },
   {
@@ -1986,39 +1849,6 @@
    ]
   },
   {
-   "id": "bender-0611",
-   "pid": "00257",
-   "zeit": "2026-11-06T13:00",
-   "spielerin": "Loreen Bender",
-   "verein": "Bayer Leverkusen",
-   "nr": "19",
-   "pos": "ST",
-   "tags": [
-    "RÜCKKEHR",
-    "UPDATE"
-   ],
-   "status": "fit",
-   "headline": "Bender und Fudalla vor dem HSV-Spiel zurück",
-   "kurz": "Bender und Fudalla sind zurück im Kader",
-   "text": [
-    "Bayer Leverkusen kann im Heimspiel gegen den Hamburger SV am Samstag um 14 Uhr voraussichtlich wieder auf Loreen Bender, Vanessa Fudalla und Natasha Kowalski zurückgreifen. Fudalla war zuletzt krank, Kowalski hatte einen Trainingsrückstand. Bender hatte im Pokal beim FC Bayern gefehlt.",
-    "Weiter nicht dabei sind Paulina Tomasiak (Trainingsrückstand), Sana Coskun (Muskel-Sehnen-Verletzung), Melissa Friedrich (Rückschlag im Aufbautraining nach einer Krankheit) und Amy Wrigge (Kreuzbandriss). Die Startelf ist noch nicht bekannt."
-   ],
-   "kickbase": "Bender und Fudalla sind wieder Optionen für den Kader, ein Startelfplatz ist damit nicht gesichert. Vor einem Kauf lohnt der Blick auf die offizielle Aufstellung.",
-   "quellen": [
-    {
-     "name": "Bayer 04",
-     "url": "https://www.bayer04.de/de-de/news/frauen/ziele-nicht-aus-den-augen-verlieren-frauen-peilen-heimsieg-gegen-den-hsv-an"
-    }
-   ],
-   "foto": "fotos/b04-loreen-bender.webp",
-   "foto_credit": {
-    "autor": "Bayer 04",
-    "lizenz": "mit Genehmigung: Bayer 04 Leverkusen",
-    "url": "https://www.bayer04.de/de-de/team/frauen/frauen"
-   }
-  },
-  {
    "typ": "punkt",
    "id": "punkt-md9",
    "md": 9,
@@ -2217,6 +2047,39 @@
    ],
    "aktualisiert": "2026-11-06T18:30",
    "fertig": true
+  },
+  {
+   "id": "bender-0611",
+   "pid": "00257",
+   "zeit": "2026-11-06T13:00",
+   "spielerin": "Loreen Bender",
+   "verein": "Bayer Leverkusen",
+   "nr": "19",
+   "pos": "ST",
+   "tags": [
+    "RÜCKKEHR",
+    "UPDATE"
+   ],
+   "status": "fit",
+   "headline": "Bender und Fudalla vor dem HSV-Spiel zurück",
+   "kurz": "Bender und Fudalla sind zurück im Kader",
+   "text": [
+    "Bayer Leverkusen kann im Heimspiel gegen den Hamburger SV am Samstag um 14 Uhr voraussichtlich wieder auf Loreen Bender, Vanessa Fudalla und Natasha Kowalski zurückgreifen. Fudalla war zuletzt krank, Kowalski hatte einen Trainingsrückstand. Bender hatte im Pokal beim FC Bayern gefehlt.",
+    "Weiter nicht dabei sind Paulina Tomasiak (Trainingsrückstand), Sana Coskun (Muskel-Sehnen-Verletzung), Melissa Friedrich (Rückschlag im Aufbautraining nach einer Krankheit) und Amy Wrigge (Kreuzbandriss). Die Startelf ist noch nicht bekannt."
+   ],
+   "kickbase": "Bender und Fudalla sind wieder Optionen für den Kader, ein Startelfplatz ist damit nicht gesichert. Vor einem Kauf lohnt der Blick auf die offizielle Aufstellung.",
+   "quellen": [
+    {
+     "name": "Bayer 04",
+     "url": "https://www.bayer04.de/de-de/news/frauen/ziele-nicht-aus-den-augen-verlieren-frauen-peilen-heimsieg-gegen-den-hsv-an"
+    }
+   ],
+   "foto": "fotos/b04-loreen-bender.webp",
+   "foto_credit": {
+    "autor": "Bayer 04",
+    "lizenz": "mit Genehmigung: Bayer 04 Leverkusen",
+    "url": "https://www.bayer04.de/de-de/team/frauen/frauen"
+   }
   },
   {
    "id": "asgeirsdottir-0611",
