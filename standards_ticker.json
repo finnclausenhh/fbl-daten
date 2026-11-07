@@ -1,5 +1,5 @@
 {
-"spiele": 59,
+"spiele": 60,
 "teams": {
 "FCB": [
 {
@@ -1178,6 +1178,22 @@
 },
 {
 "k": "B04",
+"n": "Maja Sternad",
+"kopf": 2,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0,
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
+},
+{
+"k": "B04",
 "n": "Paulina Tomasiak",
 "kopf": 1,
 "std_kopf": 0,
@@ -1632,6 +1648,22 @@
 "fs_meter": [
 30
 ]
+},
+{
+"k": "HSV",
+"n": "Carla Morich",
+"kopf": 0,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 1,
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 1
 }
 ],
 "M05": [
