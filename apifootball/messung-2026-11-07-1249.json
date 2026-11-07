@@ -1,0 +1,17 @@
+{
+ "datum": "2026-11-07",
+ "spiele": [
+  1593163
+ ],
+ "erstmals": {
+  "1593163": {
+   "spiel": "Bayer Leverkusen W - Hamburger SV W",
+   "anstoss": "2026-11-07T13:00:00+00:00",
+   "aufstellung_gesehen": "2026-11-07T12:49+00:00",
+   "minuten_vor_anpfiff": 10,
+   "mit_bank": true
+  }
+ },
+ "ohne_aufstellung_bis_anpfiff": [],
+ "abfragen": 3
+}
