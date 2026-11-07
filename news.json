@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-07T13:51",
+ "stand": "2026-11-07T13:45",
  "meldungen": [
   {
    "id": "endstand-scf-0711",
@@ -30,6 +30,68 @@
    "partie_id": "12306274"
   },
   {
+   "id": "papai-0711",
+   "pid": "00325",
+   "zeit": "2026-11-07T14:10",
+   "spielerin": "Emőke Pápai",
+   "verein": "1. FC Nürnberg",
+   "nr": "",
+   "pos": "ST",
+   "tags": [
+    "SPIELBERICHT"
+   ],
+   "headline": "Nürnberg gewinnt 4:0 in Freiburg, Pápai trifft per Elfmeter",
+   "kurz": "Nürnberg siegt 4:0 in Freiburg",
+   "text": [
+    "Der 1. FC Nürnberg hat am 9. Spieltag beim SC Freiburg 4:0 gewonnen. Louna Lapassouse traf in der 2. Minute, Fany Proniez in der 44. Minute, Emőke Pápai in der 50. Minute per Handelfmeter und Sanja Homann in der Nachspielzeit.",
+    "Nürnberg steht mit acht Punkten vorerst auf Rang elf, Freiburg bleibt mit zehn Punkten Neunter und hat nach zuletzt zwei Niederlagen auch dieses Spiel verloren."
+   ],
+   "kickbase": "Pápai ist laut Standard-Hierarchie die Elfmeterschützin des FCN und hat das bestätigt. Lapassouse, Proniez und Homann haben ebenfalls Punkte gesammelt.",
+   "quellen": [
+    {
+     "name": "Sportschau (SWR)",
+     "url": "https://www.sportschau.de/regional/swr/swr-deutliche-pleite-sc-freiburg-leistet-sich-gegen-den-1-fc-nuernberg-zu-viele-patzer-100.html"
+    }
+   ],
+   "foto": "fotos/fcn-emoke-papai.webp",
+   "foto_credit": {
+    "autor": "1. FC Nürnberg",
+    "lizenz": "mit Genehmigung: 1. FC Nürnberg",
+    "url": "https://www.fcn.de/clubfrauen/spielerinnen/"
+   }
+  },
+  {
+   "id": "peddemors-0611",
+   "pid": "00405",
+   "zeit": "2026-11-06T20:43",
+   "spielerin": "Ella Peddemors",
+   "verein": "VfL Wolfsburg",
+   "nr": "",
+   "pos": "MF",
+   "tags": [
+    "SPIELBERICHT"
+   ],
+   "headline": "Peddemors trifft doppelt beim 3:1 in Frankfurt",
+   "kurz": "Peddemors trifft doppelt in Frankfurt",
+   "text": [
+    "Der VfL Wolfsburg hat das Topspiel bei Eintracht Frankfurt 3:1 gewonnen. Ella Peddemors traf in der 13. und 70. Minute, Smilla Vallotto in der 50. Minute. Amanda Ilestedt hatte zwischenzeitlich per Kopf zum 1:1 ausgeglichen.",
+    "Bei Frankfurt stand Lina Altenburg im Tor statt Sophia Winkler, außerdem begannen Hayley Raso und Noemi Ivelj für Dilara Acikgöz und Rebecka Blomqvist, die zunächst auf der Bank saßen."
+   ],
+   "kickbase": "Peddemors ist bei Wolfsburg erste Eckenschützin und trifft weiter. Bei Frankfurt wechselte Trainer Arnautis auf drei Positionen.",
+   "quellen": [
+    {
+     "name": "Sportschau (hr)",
+     "url": "https://www.sportschau.de/regional/hr/hr-eintracht-frankfurt-frauen-eintracht-gehen-im-topspiel-gegen-wolfsburg-leer-aus-100.html"
+    }
+   ],
+   "foto": "fotos/wob-ella-peddemors.webp",
+   "foto_credit": {
+    "autor": "VfL Wolfsburg",
+    "lizenz": "mit Genehmigung: VfL Wolfsburg",
+    "url": "https://www.vfl-wolfsburg.de/teams/frauen/kader-2026/2027"
+   }
+  },
+  {
    "id": "fehlt-fudalla-b04-0711",
    "pid": "00258",
    "zeit": "2026-11-07T12:50",
@@ -54,32 +116,6 @@
     }
    ],
    "quelle_live": true
-  },
-  {
-   "id": "bender-standards-0711",
-   "pid": "00257",
-   "zeit": "2026-11-07T12:50",
-   "spielerin": "Loreen Bender",
-   "verein": "Bayer Leverkusen",
-   "nr": "",
-   "pos": "ST",
-   "tags": [
-    "STANDARD",
-    "AUFSTELLUNG"
-   ],
-   "headline": "Bender nur auf der Bank: Leverkusen mit neuen Eckballschützinnen",
-   "kurz": "Bender auf der Bank: Leverkusens Ecken neu verteilt",
-   "text": [
-    "Loreen Bender sitzt gegen den Hamburger SV zunächst auf der Bank. Sie ist bei Bayer Leverkusen die erste Wahl bei Ecken, Estrella Merino steht in der Startelf und übernimmt in der Hierarchie.",
-    "Bei Freistößen fehlt Paulina Tomasiak im Kader, die Vereinsquelle nennt Trainingsrückstand. Carolin Simon steht in der Startelf und ist die nächste Schützin. Elfmeter bleiben bei Kramer, auch sie spielt von Beginn an."
-   ],
-   "kickbase": "Merino und Simon sind die wahrscheinlichen Standardschützinnen. Bei Bender zählen mögliche Standardpunkte erst, wenn sie eingewechselt wird.",
-   "quellen": [
-    {
-     "name": "Sportschau (offizielle Aufstellung)",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306280/bayer-leverkusen_hamburger-sv/aufstellung"
-    }
-   ]
   },
   {
    "id": "aufstellung-hsv-0711",
@@ -922,70 +958,6 @@
    ]
   },
   {
-   "id": "reimann-0711",
-   "pid": "00085",
-   "zeit": "2026-11-07T11:03",
-   "spielerin": "Anna Reimann",
-   "verein": "SC Freiburg",
-   "nr": "38",
-   "pos": "TW",
-   "tags": [
-    "AUFSTELLUNG"
-   ],
-   "status": "fraglich",
-   "headline": "Reimann fehlt erneut, Barth steht im Freiburger Tor",
-   "kurz": "Reimann fehlt erneut, Barth im Tor",
-   "text": [
-    "Anna Reimann steht beim SC Freiburg gegen den 1. FC Nürnberg nicht im Spieltagskader. Die 17-Jährige hat alle acht Ligaspiele dieser Saison im Tor begonnen, fehlte aber schon im DFB-Pokal gegen Jena am 1. November. Einen Grund hat der Verein bis heute nicht genannt.",
-    "Wie im Pokal beginnt Lorena Barth, auf der Bank sitzt Lina von Schrader. Außerdem neu in der Startelf sind Seghir und Vobian, Arfaoui und Bienz sitzen auf der Bank."
-   ],
-   "kickbase": "Barth ist die erste Option im Freiburger Tor, solange Reimann fehlt. Reimann bleibt fraglich, bis der Verein einen Grund nennt; nach zwei Spielen ohne Erklärung ist auch eine längere Pause möglich.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306274/sc-freiburg_1-fc-nuernberg/aufstellung"
-    }
-   ],
-   "foto": "fotos/scf-anna-reimann.webp",
-   "foto_credit": {
-    "autor": "SC Freiburg",
-    "lizenz": "mit Genehmigung: SC Freiburg",
-    "url": "https://www.scfreiburg.com/teams/frauen/spielerinnen/"
-   }
-  },
-  {
-   "id": "axtmann-0711",
-   "pid": "00087",
-   "zeit": "2026-11-07T11:03",
-   "spielerin": "Alina Axtmann",
-   "verein": "SC Freiburg",
-   "nr": "3",
-   "pos": "ABW",
-   "tags": [
-    "RÜCKKEHR"
-   ],
-   "status": "fit",
-   "headline": "Axtmann und Hebben zurück im Freiburger Kader",
-   "kurz": "Axtmann und Hebben zurück im Kader",
-   "text": [
-    "Alina Axtmann steht gegen den 1. FC Nürnberg wieder im Kader des SC Freiburg, zunächst auf der Bank. Sie hatte die ersten sieben Ligaspiele alle in der Startelf begonnen, fehlte dann aber in Bremen und im Pokal gegen Jena. Einen Grund für die Pause hatte der Verein nicht genannt.",
-    "Auch Johanna Hebben ist nach der U17-WM in Marokko zurück und sitzt auf der Bank. Laura Ernst, die ebenfalls bei der WM war, steht noch nicht im Kader."
-   ],
-   "kickbase": "Axtmann ist wieder eine Option für die Abwehr. Heute beginnt sie noch nicht, ob sie ihren Stammplatz zurückbekommt, zeigen die nächsten Spiele.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306274/sc-freiburg_1-fc-nuernberg/aufstellung"
-    }
-   ],
-   "foto": "fotos/scf-alina-axtmann.webp",
-   "foto_credit": {
-    "autor": "SC Freiburg",
-    "lizenz": "mit Genehmigung: SC Freiburg",
-    "url": "https://www.scfreiburg.com/teams/frauen/spielerinnen/"
-   }
-  },
-  {
    "id": "comeback-gwinn-fcb-0611",
    "pid": "00009",
    "zeit": "2026-11-06T19:48",
@@ -1022,35 +994,35 @@
    }
   },
   {
-   "id": "tomasiak-0611",
-   "pid": "00266",
-   "zeit": "2026-11-06T13:00",
-   "spielerin": "Paulina Tomasiak",
-   "verein": "Bayer Leverkusen",
-   "nr": "28",
-   "pos": "ST",
+   "id": "axtmann-0711",
+   "pid": "00087",
+   "zeit": "2026-11-07T11:03",
+   "spielerin": "Alina Axtmann",
+   "verein": "SC Freiburg",
+   "nr": "3",
+   "pos": "ABW",
    "tags": [
-    "ABWESEND"
+    "RÜCKKEHR"
    ],
-   "status": "abwesend",
-   "headline": "Tomasiak und Friedrich fehlen gegen den HSV",
-   "kurz": "Tomasiak und Friedrich fehlen gegen HSV",
+   "status": "fit",
+   "headline": "Axtmann und Hebben zurück im Freiburger Kader",
+   "kurz": "Axtmann und Hebben zurück im Kader",
    "text": [
-    "Paulina Tomasiak steht Bayer Leverkusen im Heimspiel gegen den Hamburger SV am Samstag um 14 Uhr nicht zur Verfügung. Laut Vorbericht des Vereins fehlt die Stürmerin wegen eines Trainingsrückstands, eine Verletzung nennt Bayer 04 nicht. Melissa Friedrich fällt ebenfalls aus, sie hat im Aufbautraining nach einer Krankheit einen Rückschlag erlitten.",
-    "Tomasiak stand in drei der letzten fünf Ligaspiele in der Startelf und hat drei Ligatore erzielt. Weiter verletzt fehlen Sana Coşkun (Muskel-Sehnen-Verletzung) und Amy Wrigge (Kreuzbandriss)."
+    "Alina Axtmann steht gegen den 1. FC Nürnberg wieder im Kader des SC Freiburg, zunächst auf der Bank. Sie hatte die ersten sieben Ligaspiele alle in der Startelf begonnen, fehlte dann aber in Bremen und im Pokal gegen Jena. Einen Grund für die Pause hatte der Verein nicht genannt.",
+    "Auch Johanna Hebben ist nach der U17-WM in Marokko zurück und sitzt auf der Bank. Laura Ernst, die ebenfalls bei der WM war, steht noch nicht im Kader."
    ],
-   "kickbase": "Tomasiak für Samstag nicht einplanen, ein Trainingsrückstand ist in der Regel kürzer als eine Verletzungspause. Bei Friedrich nennt der Verein keinen Termin für die Rückkehr ins Mannschaftstraining.",
+   "kickbase": "Axtmann ist wieder eine Option für die Abwehr. Heute beginnt sie noch nicht, ob sie ihren Stammplatz zurückbekommt, zeigen die nächsten Spiele.",
    "quellen": [
     {
-     "name": "Bayer 04",
-     "url": "https://www.bayer04.de/de-de/news/frauen/ziele-nicht-aus-den-augen-verlieren-frauen-peilen-heimsieg-gegen-den-hsv-an"
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306274/sc-freiburg_1-fc-nuernberg/aufstellung"
     }
    ],
-   "foto": "fotos/b04-paulina-tomasiak.webp",
+   "foto": "fotos/scf-alina-axtmann.webp",
    "foto_credit": {
-    "autor": "Bayer 04",
-    "lizenz": "mit Genehmigung: Bayer 04 Leverkusen",
-    "url": "https://www.bayer04.de/de-de/team/frauen/frauen"
+    "autor": "SC Freiburg",
+    "lizenz": "mit Genehmigung: SC Freiburg",
+    "url": "https://www.scfreiburg.com/teams/frauen/spielerinnen/"
    }
   },
   {
@@ -1111,42 +1083,6 @@
    ],
    "quelle_live": true,
    "kurz": "Lattwein nicht im Kader"
-  },
-  {
-   "id": "peddemors-0611b",
-   "pid": "00405",
-   "zeit": "2026-11-06T20:31",
-   "spielerin": "Ella Peddemors",
-   "verein": "VfL Wolfsburg",
-   "nr": "5",
-   "pos": "MF",
-   "tags": [
-    "SPIELBERICHT"
-   ],
-   "status": "fit",
-   "headline": "Peddemors schießt Wolfsburg in Frankfurt zum 3:1",
-   "kurz": "Peddemors trifft doppelt beim 3:1 in Frankfurt",
-   "text": [
-    "Der VfL Wolfsburg hat das Topspiel bei Eintracht Frankfurt mit 3:1 gewonnen. Ella Peddemors traf in der 13. und 70. Minute und bereitete das 2:1 von Smilla Vallotto (50.) vor. Amanda Ilestedt hatte per Kopf zum 1:1 ausgeglichen (27.).",
-    "Für Peddemors sind es die Saisontore zehn und elf in neun Ligaspielen, dazu kommen drei Vorlagen. Wolfsburg liegt damit drei Punkte hinter dem FC Bayern und sieben vor Frankfurt."
-   ],
-   "kickbase": "Peddemors bleibt die sicherste Wahl im Wolfsburger Mittelfeld und führt die Torjägerliste an. Am 14. November geht es zum Gipfeltreffen gegen den FC Bayern.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/regional/ndr/VfL-Wolfsburg-Frauen,vfl-wolfsburg-360.html"
-    },
-    {
-     "name": "hessenschau",
-     "url": "https://www.hessenschau.de/sport/fussball/eintracht-frankfurt-frauen/eintracht-frankfurt-frauen-eintracht-gehen-im-topspiel-gegen-wolfsburg-leer-aus-v1,eintracht-frauen-wolfsburg-112.html"
-    }
-   ],
-   "foto": "fotos/wob-ella-peddemors.webp",
-   "foto_credit": {
-    "autor": "VfL Wolfsburg",
-    "lizenz": "mit Genehmigung: VfL Wolfsburg",
-    "url": "https://www.vfl-wolfsburg.de/teams/frauen/kader-2026/2027"
-   }
   },
   {
    "id": "fehlt-proost-fcb-0611",
