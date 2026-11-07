@@ -1,69 +1,31 @@
 {
- "stand": "2026-11-07T11:13",
+ "stand": "2026-11-07T11:45",
  "meldungen": [
   {
-   "id": "reimann-0711",
-   "pid": "00085",
+   "id": "brengel-standards-0711",
+   "pid": "00308",
    "zeit": "2026-11-07T11:03",
-   "spielerin": "Anna Reimann",
-   "verein": "SC Freiburg",
-   "nr": "38",
-   "pos": "TW",
+   "spielerin": "Jonna Brengel",
+   "verein": "1. FC Nürnberg",
+   "nr": "",
+   "pos": "MF",
    "tags": [
+    "STANDARD",
     "AUFSTELLUNG"
    ],
-   "status": "fraglich",
-   "headline": "Reimann fehlt erneut, Barth steht im Freiburger Tor",
-   "kurz": "Reimann fehlt erneut, Barth im Tor",
+   "headline": "Brengel nur auf der Bank: Freistöße beim FCN offen",
+   "kurz": "Brengel auf der Bank: Freistöße beim FCN offen",
    "text": [
-    "Anna Reimann steht beim SC Freiburg gegen den 1. FC Nürnberg nicht im Spieltagskader. Die 17-Jährige hat alle acht Ligaspiele dieser Saison im Tor begonnen, fehlte aber schon im DFB-Pokal gegen Jena am 1. November. Einen Grund hat der Verein bis heute nicht genannt.",
-    "Wie im Pokal beginnt Lorena Barth, auf der Bank sitzt Lina von Schrader. Außerdem neu in der Startelf sind Seghir und Vobian, Arfaoui und Bienz sitzen auf der Bank."
+    "Jonna Brengel sitzt beim Spiel in Freiburg zunächst auf der Bank. Sie ist beim 1. FC Nürnberg die erste Wahl bei Freistößen.",
+    "Eine Nachfolgerin ist in der Hierarchie nicht hinterlegt, es ist offen, wer in der Startelf die Freistöße schießt. Ecken (Lein) und Elfmeter (Pápai) bleiben bei den bisherigen Schützinnen, beide stehen in der Startelf."
    ],
-   "kickbase": "Barth ist die erste Option im Freiburger Tor, solange Reimann fehlt. Reimann bleibt fraglich, bis der Verein einen Grund nennt; nach zwei Spielen ohne Erklärung ist auch eine längere Pause möglich.",
+   "kickbase": "Wer in Freiburg Freistöße tritt, ist offen. Bei Brengel zählen mögliche Standardpunkte erst, wenn sie eingewechselt wird.",
    "quellen": [
     {
-     "name": "Sportschau",
+     "name": "Sportschau (offizielle Aufstellung)",
      "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306274/sc-freiburg_1-fc-nuernberg/aufstellung"
     }
-   ],
-   "foto": "fotos/scf-anna-reimann.webp",
-   "foto_credit": {
-    "autor": "SC Freiburg",
-    "lizenz": "mit Genehmigung: SC Freiburg",
-    "url": "https://www.scfreiburg.com/teams/frauen/spielerinnen/"
-   }
-  },
-  {
-   "id": "axtmann-0711",
-   "pid": "00087",
-   "zeit": "2026-11-07T11:03",
-   "spielerin": "Alina Axtmann",
-   "verein": "SC Freiburg",
-   "nr": "3",
-   "pos": "ABW",
-   "tags": [
-    "RÜCKKEHR"
-   ],
-   "status": "fit",
-   "headline": "Axtmann und Hebben zurück im Freiburger Kader",
-   "kurz": "Axtmann und Hebben zurück im Kader",
-   "text": [
-    "Alina Axtmann steht gegen den 1. FC Nürnberg wieder im Kader des SC Freiburg, zunächst auf der Bank. Sie hatte die ersten sieben Ligaspiele alle in der Startelf begonnen, fehlte dann aber in Bremen und im Pokal gegen Jena. Einen Grund für die Pause hatte der Verein nicht genannt.",
-    "Auch Johanna Hebben ist nach der U17-WM in Marokko zurück und sitzt auf der Bank. Laura Ernst, die ebenfalls bei der WM war, steht noch nicht im Kader."
-   ],
-   "kickbase": "Axtmann ist wieder eine Option für die Abwehr. Heute beginnt sie noch nicht, ob sie ihren Stammplatz zurückbekommt, zeigen die nächsten Spiele.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306274/sc-freiburg_1-fc-nuernberg/aufstellung"
-    }
-   ],
-   "foto": "fotos/scf-alina-axtmann.webp",
-   "foto_credit": {
-    "autor": "SC Freiburg",
-    "lizenz": "mit Genehmigung: SC Freiburg",
-    "url": "https://www.scfreiburg.com/teams/frauen/spielerinnen/"
-   }
+   ]
   },
   {
    "id": "aufstellung-scf-0711",
@@ -457,6 +419,70 @@
     ]
    },
    "quelle_live": true
+  },
+  {
+   "id": "reimann-0711",
+   "pid": "00085",
+   "zeit": "2026-11-07T11:03",
+   "spielerin": "Anna Reimann",
+   "verein": "SC Freiburg",
+   "nr": "38",
+   "pos": "TW",
+   "tags": [
+    "AUFSTELLUNG"
+   ],
+   "status": "fraglich",
+   "headline": "Reimann fehlt erneut, Barth steht im Freiburger Tor",
+   "kurz": "Reimann fehlt erneut, Barth im Tor",
+   "text": [
+    "Anna Reimann steht beim SC Freiburg gegen den 1. FC Nürnberg nicht im Spieltagskader. Die 17-Jährige hat alle acht Ligaspiele dieser Saison im Tor begonnen, fehlte aber schon im DFB-Pokal gegen Jena am 1. November. Einen Grund hat der Verein bis heute nicht genannt.",
+    "Wie im Pokal beginnt Lorena Barth, auf der Bank sitzt Lina von Schrader. Außerdem neu in der Startelf sind Seghir und Vobian, Arfaoui und Bienz sitzen auf der Bank."
+   ],
+   "kickbase": "Barth ist die erste Option im Freiburger Tor, solange Reimann fehlt. Reimann bleibt fraglich, bis der Verein einen Grund nennt; nach zwei Spielen ohne Erklärung ist auch eine längere Pause möglich.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306274/sc-freiburg_1-fc-nuernberg/aufstellung"
+    }
+   ],
+   "foto": "fotos/scf-anna-reimann.webp",
+   "foto_credit": {
+    "autor": "SC Freiburg",
+    "lizenz": "mit Genehmigung: SC Freiburg",
+    "url": "https://www.scfreiburg.com/teams/frauen/spielerinnen/"
+   }
+  },
+  {
+   "id": "axtmann-0711",
+   "pid": "00087",
+   "zeit": "2026-11-07T11:03",
+   "spielerin": "Alina Axtmann",
+   "verein": "SC Freiburg",
+   "nr": "3",
+   "pos": "ABW",
+   "tags": [
+    "RÜCKKEHR"
+   ],
+   "status": "fit",
+   "headline": "Axtmann und Hebben zurück im Freiburger Kader",
+   "kurz": "Axtmann und Hebben zurück im Kader",
+   "text": [
+    "Alina Axtmann steht gegen den 1. FC Nürnberg wieder im Kader des SC Freiburg, zunächst auf der Bank. Sie hatte die ersten sieben Ligaspiele alle in der Startelf begonnen, fehlte dann aber in Bremen und im Pokal gegen Jena. Einen Grund für die Pause hatte der Verein nicht genannt.",
+    "Auch Johanna Hebben ist nach der U17-WM in Marokko zurück und sitzt auf der Bank. Laura Ernst, die ebenfalls bei der WM war, steht noch nicht im Kader."
+   ],
+   "kickbase": "Axtmann ist wieder eine Option für die Abwehr. Heute beginnt sie noch nicht, ob sie ihren Stammplatz zurückbekommt, zeigen die nächsten Spiele.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306274/sc-freiburg_1-fc-nuernberg/aufstellung"
+    }
+   ],
+   "foto": "fotos/scf-alina-axtmann.webp",
+   "foto_credit": {
+    "autor": "SC Freiburg",
+    "lizenz": "mit Genehmigung: SC Freiburg",
+    "url": "https://www.scfreiburg.com/teams/frauen/spielerinnen/"
+   }
   },
   {
    "id": "maedl-0611",
