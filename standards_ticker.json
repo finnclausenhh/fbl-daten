@@ -1,5 +1,5 @@
 {
-"spiele": 58,
+"spiele": 59,
 "teams": {
 "FCB": [
 {
@@ -887,10 +887,13 @@
 "std_kopftore": 0,
 "ecke_l": 3,
 "ecke_r": 2,
-"fs_l": 0,
+"fs_l": 2,
 "fs_r": 0,
 "fs_direkt": 0,
-"fs_flanke": 0
+"fs_flanke": 2,
+"fs_meter": [
+23
+]
 },
 {
 "k": "FCN",
@@ -1410,7 +1413,7 @@
 {
 "k": "SCF",
 "n": "Luca-Emily Birkholz",
-"kopf": 2,
+"kopf": 3,
 "std_kopf": 1,
 "std_tore": 0,
 "ecke_tritt": 0,
@@ -1499,12 +1502,13 @@
 "ecke_l": 5,
 "ecke_r": 1,
 "fs_l": 1,
-"fs_r": 1,
+"fs_r": 2,
 "fs_direkt": 1,
-"fs_flanke": 4,
+"fs_flanke": 5,
 "fs_meter": [
 30,
-18
+18,
+21
 ]
 },
 {
@@ -1518,10 +1522,10 @@
 "std_kopftore": 0,
 "ecke_l": 2,
 "ecke_r": 0,
-"fs_l": 1,
+"fs_l": 2,
 "fs_r": 2,
 "fs_direkt": 0,
-"fs_flanke": 3,
+"fs_flanke": 4,
 "fs_meter": [
 19,
 28,
