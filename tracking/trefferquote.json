@@ -1,37 +1,39 @@
 {
  "modus": "live",
- "stand": "2026-11-04T19:50",
+ "stand": "2026-11-07T11:16",
  "hinweis": "Letzte veröffentlichte Prognose vor Anpfiff gegen offizielle Startelf. Quelle: Git-Historie von spielplan.json.",
  "gesamt": {
-  "teams": 2,
-  "elf_treffer_schnitt": 10.0,
-  "elf_quote": 0.909,
+  "teams": 6,
+  "elf_treffer_schnitt": 9.17,
+  "elf_quote": 0.833,
   "elf_verteilung": {
-   "10": 2
+   "10": 3,
+   "9": 2,
+   "7": 1
   },
   "je_stufe": {
    "sicher": {
-    "n": 6,
-    "begonnen": 6,
-    "quote": 1.0
+    "n": 21,
+    "begonnen": 20,
+    "quote": 0.952
    },
    "erwartet": {
-    "n": 16,
-    "begonnen": 14,
-    "quote": 0.875
+    "n": 41,
+    "begonnen": 32,
+    "quote": 0.78
    },
    "unsicher": {
-    "n": 9,
-    "begonnen": 2,
-    "quote": 0.222
+    "n": 39,
+    "begonnen": 14,
+    "quote": 0.359
    },
    "unwahrscheinlich": {
-    "n": 9,
+    "n": 19,
     "begonnen": 0,
     "quote": 0.0
    },
    "ausgeschlossen": {
-    "n": 7,
+    "n": 16,
     "begonnen": 0,
     "quote": 0.0
    }
@@ -39,89 +41,99 @@
   "kalibrierung": [
    {
     "ab_einsatzwert": 1.0,
-    "n": 10,
-    "begonnen": 10,
-    "quote": 1.0
+    "n": 25,
+    "begonnen": 24,
+    "quote": 0.96
    },
    {
     "ab_einsatzwert": 0.95,
-    "n": 12,
-    "begonnen": 12,
-    "quote": 1.0
+    "n": 28,
+    "begonnen": 27,
+    "quote": 0.964
    },
    {
     "ab_einsatzwert": 0.9,
-    "n": 13,
-    "begonnen": 12,
-    "quote": 0.923
+    "n": 33,
+    "begonnen": 29,
+    "quote": 0.879
    },
    {
     "ab_einsatzwert": 0.85,
-    "n": 14,
-    "begonnen": 13,
-    "quote": 0.929
+    "n": 39,
+    "begonnen": 33,
+    "quote": 0.846
    },
    {
     "ab_einsatzwert": 0.8,
-    "n": 16,
-    "begonnen": 15,
-    "quote": 0.938
+    "n": 43,
+    "begonnen": 37,
+    "quote": 0.86
    },
    {
     "ab_einsatzwert": 0.7,
-    "n": 20,
-    "begonnen": 17,
-    "quote": 0.85
+    "n": 56,
+    "begonnen": 47,
+    "quote": 0.839
    },
    {
     "ab_einsatzwert": 0.55,
-    "n": 25,
-    "begonnen": 21,
-    "quote": 0.84
+    "n": 69,
+    "begonnen": 56,
+    "quote": 0.812
    },
    {
     "ab_einsatzwert": 0.3,
-    "n": 31,
-    "begonnen": 22,
-    "quote": 0.71
+    "n": 96,
+    "begonnen": 65,
+    "quote": 0.677
    }
   ],
   "sicher_daneben_grund": {
-   "bank": 0,
+   "bank": 1,
    "nicht im Kader": 0
   },
-  "sicher_aber_nicht_begonnen": []
+  "sicher_aber_nicht_begonnen": [
+   {
+    "md": 9,
+    "verein": "Eintracht Frankfurt",
+    "n": "Blomqvist",
+    "stufe": "sicher",
+    "kader": "bank"
+   }
+  ]
  },
  "gesamt_24h": {
-  "teams": 2,
-  "elf_treffer_schnitt": 10.0,
-  "elf_quote": 0.909,
+  "teams": 6,
+  "elf_treffer_schnitt": 9.0,
+  "elf_quote": 0.818,
   "elf_verteilung": {
-   "10": 2
+   "10": 3,
+   "9": 2,
+   "6": 1
   },
   "je_stufe": {
    "sicher": {
-    "n": 6,
-    "begonnen": 6,
-    "quote": 1.0
+    "n": 21,
+    "begonnen": 20,
+    "quote": 0.952
    },
    "erwartet": {
-    "n": 19,
-    "begonnen": 15,
-    "quote": 0.789
+    "n": 46,
+    "begonnen": 34,
+    "quote": 0.739
    },
    "unsicher": {
-    "n": 6,
-    "begonnen": 1,
-    "quote": 0.167
+    "n": 35,
+    "begonnen": 12,
+    "quote": 0.343
    },
    "unwahrscheinlich": {
-    "n": 9,
+    "n": 18,
     "begonnen": 0,
     "quote": 0.0
    },
    "ausgeschlossen": {
-    "n": 7,
+    "n": 15,
     "begonnen": 0,
     "quote": 0.0
    }
@@ -129,58 +141,66 @@
   "kalibrierung": [
    {
     "ab_einsatzwert": 1.0,
-    "n": 10,
-    "begonnen": 10,
-    "quote": 1.0
-   },
-   {
-    "ab_einsatzwert": 0.95,
-    "n": 12,
-    "begonnen": 12,
-    "quote": 1.0
-   },
-   {
-    "ab_einsatzwert": 0.9,
-    "n": 13,
-    "begonnen": 12,
+    "n": 26,
+    "begonnen": 24,
     "quote": 0.923
    },
    {
+    "ab_einsatzwert": 0.95,
+    "n": 29,
+    "begonnen": 27,
+    "quote": 0.931
+   },
+   {
+    "ab_einsatzwert": 0.9,
+    "n": 34,
+    "begonnen": 29,
+    "quote": 0.853
+   },
+   {
     "ab_einsatzwert": 0.85,
-    "n": 14,
-    "begonnen": 13,
-    "quote": 0.929
+    "n": 40,
+    "begonnen": 33,
+    "quote": 0.825
    },
    {
     "ab_einsatzwert": 0.8,
-    "n": 16,
-    "begonnen": 15,
-    "quote": 0.938
+    "n": 44,
+    "begonnen": 37,
+    "quote": 0.841
    },
    {
     "ab_einsatzwert": 0.7,
-    "n": 20,
-    "begonnen": 17,
-    "quote": 0.85
+    "n": 57,
+    "begonnen": 47,
+    "quote": 0.825
    },
    {
     "ab_einsatzwert": 0.55,
-    "n": 25,
-    "begonnen": 21,
-    "quote": 0.84
+    "n": 70,
+    "begonnen": 56,
+    "quote": 0.8
    },
    {
     "ab_einsatzwert": 0.3,
-    "n": 31,
-    "begonnen": 22,
-    "quote": 0.71
+    "n": 97,
+    "begonnen": 65,
+    "quote": 0.67
    }
   ],
   "sicher_daneben_grund": {
-   "bank": 0,
+   "bank": 1,
    "nicht im Kader": 0
   },
-  "sicher_aber_nicht_begonnen": []
+  "sicher_aber_nicht_begonnen": [
+   {
+    "md": 9,
+    "verein": "Eintracht Frankfurt",
+    "n": "Blomqvist",
+    "stufe": "sicher",
+    "kader": "bank"
+   }
+  ]
  },
  "englische_woche": {
   "teams": 1,
@@ -273,35 +293,37 @@
   "sicher_aber_nicht_begonnen": []
  },
  "normale_woche": {
-  "teams": 1,
-  "elf_treffer_schnitt": 10.0,
-  "elf_quote": 0.909,
+  "teams": 5,
+  "elf_treffer_schnitt": 9.0,
+  "elf_quote": 0.818,
   "elf_verteilung": {
-   "10": 1
+   "10": 2,
+   "9": 2,
+   "7": 1
   },
   "je_stufe": {
    "sicher": {
-    "n": 6,
-    "begonnen": 6,
-    "quote": 1.0
+    "n": 21,
+    "begonnen": 20,
+    "quote": 0.952
    },
    "erwartet": {
-    "n": 5,
-    "begonnen": 4,
-    "quote": 0.8
+    "n": 30,
+    "begonnen": 22,
+    "quote": 0.733
    },
    "unsicher": {
-    "n": 4,
-    "begonnen": 1,
-    "quote": 0.25
+    "n": 34,
+    "begonnen": 13,
+    "quote": 0.382
    },
    "unwahrscheinlich": {
-    "n": 5,
+    "n": 15,
     "begonnen": 0,
     "quote": 0.0
    },
    "ausgeschlossen": {
-    "n": 2,
+    "n": 11,
     "begonnen": 0,
     "quote": 0.0
    }
@@ -309,58 +331,66 @@
   "kalibrierung": [
    {
     "ab_einsatzwert": 1.0,
-    "n": 5,
-    "begonnen": 5,
-    "quote": 1.0
+    "n": 20,
+    "begonnen": 19,
+    "quote": 0.95
    },
    {
     "ab_einsatzwert": 0.95,
-    "n": 6,
-    "begonnen": 6,
-    "quote": 1.0
+    "n": 22,
+    "begonnen": 21,
+    "quote": 0.955
    },
    {
     "ab_einsatzwert": 0.9,
-    "n": 7,
-    "begonnen": 6,
-    "quote": 0.857
+    "n": 27,
+    "begonnen": 23,
+    "quote": 0.852
    },
    {
     "ab_einsatzwert": 0.85,
-    "n": 8,
-    "begonnen": 7,
-    "quote": 0.875
+    "n": 33,
+    "begonnen": 27,
+    "quote": 0.818
    },
    {
     "ab_einsatzwert": 0.8,
-    "n": 10,
-    "begonnen": 9,
-    "quote": 0.9
+    "n": 37,
+    "begonnen": 31,
+    "quote": 0.838
    },
    {
     "ab_einsatzwert": 0.7,
-    "n": 11,
-    "begonnen": 10,
-    "quote": 0.909
+    "n": 47,
+    "begonnen": 40,
+    "quote": 0.851
    },
    {
     "ab_einsatzwert": 0.55,
-    "n": 11,
-    "begonnen": 10,
-    "quote": 0.909
+    "n": 55,
+    "begonnen": 45,
+    "quote": 0.818
    },
    {
     "ab_einsatzwert": 0.3,
-    "n": 15,
-    "begonnen": 11,
-    "quote": 0.733
+    "n": 80,
+    "begonnen": 54,
+    "quote": 0.675
    }
   ],
   "sicher_daneben_grund": {
-   "bank": 0,
+   "bank": 1,
    "nicht im Kader": 0
   },
-  "sicher_aber_nicht_begonnen": []
+  "sicher_aber_nicht_begonnen": [
+   {
+    "md": 9,
+    "verein": "Eintracht Frankfurt",
+    "n": "Blomqvist",
+    "stufe": "sicher",
+    "kader": "bank"
+   }
+  ]
  },
  "je_spieltag": {
   "7": {
@@ -452,6 +482,106 @@
     "nicht im Kader": 0
    },
    "sicher_aber_nicht_begonnen": []
+  },
+  "9": {
+   "teams": 4,
+   "elf_treffer_schnitt": 8.75,
+   "elf_quote": 0.795,
+   "elf_verteilung": {
+    "10": 1,
+    "9": 2,
+    "7": 1
+   },
+   "je_stufe": {
+    "sicher": {
+     "n": 15,
+     "begonnen": 14,
+     "quote": 0.933
+    },
+    "erwartet": {
+     "n": 25,
+     "begonnen": 18,
+     "quote": 0.72
+    },
+    "unsicher": {
+     "n": 30,
+     "begonnen": 12,
+     "quote": 0.4
+    },
+    "unwahrscheinlich": {
+     "n": 10,
+     "begonnen": 0,
+     "quote": 0.0
+    },
+    "ausgeschlossen": {
+     "n": 9,
+     "begonnen": 0,
+     "quote": 0.0
+    }
+   },
+   "kalibrierung": [
+    {
+     "ab_einsatzwert": 1.0,
+     "n": 15,
+     "begonnen": 14,
+     "quote": 0.933
+    },
+    {
+     "ab_einsatzwert": 0.95,
+     "n": 16,
+     "begonnen": 15,
+     "quote": 0.938
+    },
+    {
+     "ab_einsatzwert": 0.9,
+     "n": 20,
+     "begonnen": 17,
+     "quote": 0.85
+    },
+    {
+     "ab_einsatzwert": 0.85,
+     "n": 25,
+     "begonnen": 20,
+     "quote": 0.8
+    },
+    {
+     "ab_einsatzwert": 0.8,
+     "n": 27,
+     "begonnen": 22,
+     "quote": 0.815
+    },
+    {
+     "ab_einsatzwert": 0.7,
+     "n": 36,
+     "begonnen": 30,
+     "quote": 0.833
+    },
+    {
+     "ab_einsatzwert": 0.55,
+     "n": 44,
+     "begonnen": 35,
+     "quote": 0.795
+    },
+    {
+     "ab_einsatzwert": 0.3,
+     "n": 65,
+     "begonnen": 43,
+     "quote": 0.662
+    }
+   ],
+   "sicher_daneben_grund": {
+    "bank": 1,
+    "nicht im Kader": 0
+   },
+   "sicher_aber_nicht_begonnen": [
+    {
+     "md": 9,
+     "verein": "Eintracht Frankfurt",
+     "n": "Blomqvist",
+     "stufe": "sicher",
+     "kader": "bank"
+    }
+   ]
   }
  },
  "ohne_prognose": []

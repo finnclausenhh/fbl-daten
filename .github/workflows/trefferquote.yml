@@ -1,10 +1,10 @@
 name: Trefferquote Aufstellungen
 
-# Dienstags 6:23 UTC (nach dem Spieltag) und von Hand: wertet die Git-Historie von spielplan.json aus
+# Täglich 6:23 UTC (Finn 07.11.2026: täglich, bis genug Spiele geprüft sind; vorher dienstags) und von Hand: wertet die Git-Historie von spielplan.json aus
 # und schreibt tracking/trefferquote.json. Kein Claude-Lauf, keine Kosten.
 on:
   schedule:
-    - cron: "23 6 * * 2"
+    - cron: "23 6 * * *"
   workflow_dispatch:
 
 permissions:
