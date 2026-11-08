@@ -1,6 +1,34 @@
 {
  "meldungen": [
   {
+   "id": "endstand-m05-0811",
+   "zeit": "2026-11-08T17:53",
+   "spielerin": "Mainz 05 gegen VfB Stuttgart",
+   "verein": "Mainz 05",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "SPIELBERICHT"
+   ],
+   "headline": "Endstand: Mainz 05 1:3 VfB Stuttgart",
+   "kurz": "Endstand M05 1:3 VFB",
+   "text": [
+    "VfB Stuttgart gewinnt bei Mainz 05 mit 3:1.",
+    "Tore: 0:1 Hirano (17.), 1:1 Anstatt (75., Vorlage Bouziane), 1:2 Wieder (76., Vorlage Billa), 1:3 Wieder (82., Vorlage Rall).",
+    "Gelb: Berg.",
+    "Noten und der ausführliche Bericht folgen."
+   ],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306268/1-fsv-mainz-05_vfb-stuttgart/liveticker"
+    }
+   ],
+   "quelle_live": true,
+   "partie_id": "12306268"
+  },
+  {
    "id": "comeback-georgieva-m05-0811",
    "pid": "00274",
    "zeit": "2026-11-08T17:20",
@@ -15,7 +43,7 @@
    "headline": "Georgieva feiert Comeback nach Verletzungspause",
    "text": [
     "Marina Georgieva ist nach Verletzungspause zurück im Spieltagskader von Mainz 05.",
-    "Gegen VfB Stuttgart kam sie in der 63. Minute für Junold ins Spiel."
+    "Gegen VfB Stuttgart kam sie in der 63. Minute für Junold ins Spiel. Insgesamt spielte sie rund 27 Minuten."
    ],
    "kickbase": "Wieder einsatzbereit. Nach der Pause am nächsten Spieltag eher mit begrenzter Spielzeit rechnen, die Startelf ist noch offen.",
    "quellen": [
