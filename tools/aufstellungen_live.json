@@ -12,7 +12,7 @@
    ],
    "headline": "Offizielle Aufstellung: Union Berlin gegen TSG Hoffenheim",
    "text": [
-    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Weidauer. Die Bank folgt, sobald sie veröffentlicht ist."
+    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Weidauer."
    ],
    "kickbase": "",
    "quellen": [
@@ -87,14 +87,68 @@
       "pid": "00381"
      }
     ],
-    "bank": [],
-    "fehlt": [],
-    "bank_offen": true,
-    "nicht_startelf": [
+    "bank": [
+     {
+      "n": "Bösl",
+      "p": "TW",
+      "pid": "00358"
+     },
+     {
+      "n": "Veit",
+      "p": "ABW",
+      "pid": "00370"
+     },
+     {
+      "n": "Steinert",
+      "p": "ABW",
+      "pid": "00367"
+     },
+     {
+      "n": "Weiß",
+      "p": "ABW",
+      "pid": "00371"
+     },
+     {
+      "n": "Heiseler",
+      "p": "ST",
+      "pid": "00374"
+     },
      {
       "n": "Weidauer",
       "p": "ST",
-      "pid": "00387"
+      "pid": "00387",
+      "f": "raus"
+     },
+     {
+      "n": "Egli",
+      "p": "ST",
+      "pid": "00383"
+     },
+     {
+      "n": "Campbell",
+      "p": "ST",
+      "pid": "00382"
+     },
+     {
+      "n": "Orschmann",
+      "p": "ST",
+      "pid": "00385"
+     }
+    ],
+    "fehlt": [
+     {
+      "n": "Schulz",
+      "p": "TW",
+      "pid": "00359",
+      "f": "raus",
+      "war": "Bank"
+     },
+     {
+      "n": "Pawollek",
+      "p": "MF",
+      "pid": "00378",
+      "f": "raus",
+      "war": "Bank"
      }
     ]
    },
