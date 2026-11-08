@@ -1,20 +1,18 @@
 {
  "meldungen": [
   {
-   "id": "aufstellung-folgt-ma12306286",
-   "zeit": "2026-11-08T12:40",
+   "id": "aufstellung-fcu-0811",
+   "zeit": "2026-11-08T13:01",
    "spielerin": "Spielansetzung",
    "verein": "Union Berlin",
    "nr": "",
    "pos": "Spielansetzung",
    "tags": [
-    "AUFSTELLUNG"
+    "TOP"
    ],
-   "headline": "Aufstellung Union Berlin gegen TSG Hoffenheim folgt",
-   "kurz": "Aufstellung folgt, Anpfiff 14:00",
+   "headline": "Offizielle Aufstellung: Union Berlin gegen TSG Hoffenheim",
    "text": [
-    "Anpfiff in der Liga ist um 14:00 Uhr. Die offizielle Aufstellung kommt meist rund 60 Minuten vorher, wir ergänzen sie hier automatisch, sobald sie veröffentlicht ist.",
-    "Bis dahin steht unsere Prognose im Spielplan bei der Partie."
+    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Weidauer. Die Bank folgt, sobald sie veröffentlicht ist."
    ],
    "kickbase": "",
    "quellen": [
@@ -23,9 +21,189 @@
      "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306286/1-fc-union-berlin_tsg-hoffenheim/aufstellung"
     }
    ],
-   "platzhalter": true,
-   "anstoss": "2026-11-08T14:00",
-   "partie_id": "12306286"
+   "aufstellung": {
+    "gegner": "TSG Hoffenheim",
+    "formation": "4-2-3-1",
+    "startelf": [
+     {
+      "n": "Böhi",
+      "p": "TW",
+      "pid": "00357"
+     },
+     {
+      "n": "Schneider",
+      "p": "ABW",
+      "pid": "00366"
+     },
+     {
+      "n": "Tysiak",
+      "p": "ABW",
+      "pid": "00369"
+     },
+     {
+      "n": "Steuerwald",
+      "p": "ABW",
+      "pid": "00368"
+     },
+     {
+      "n": "Judit Pujols",
+      "p": "ABW",
+      "pid": "00364"
+     },
+     {
+      "n": "Gräwe",
+      "p": "DM",
+      "pid": "00372",
+      "kp": "MF",
+      "f": "neu"
+     },
+     {
+      "n": "Hausicke",
+      "p": "DM",
+      "pid": "00373",
+      "kp": "MF"
+     },
+     {
+      "n": "Janssens",
+      "p": "OM",
+      "pid": "00363",
+      "kp": "ABW"
+     },
+     {
+      "n": "Kamber",
+      "p": "OM",
+      "pid": "00376",
+      "kp": "MF"
+     },
+     {
+      "n": "Reissner",
+      "p": "OM",
+      "pid": "00386",
+      "kp": "ST"
+     },
+     {
+      "n": "Bauereisen",
+      "p": "ST",
+      "pid": "00381"
+     }
+    ],
+    "bank": [],
+    "fehlt": [],
+    "bank_offen": true,
+    "nicht_startelf": [
+     {
+      "n": "Weidauer",
+      "p": "ST",
+      "pid": "00387"
+     }
+    ]
+   },
+   "quelle_live": true
+  },
+  {
+   "id": "aufstellung-tsg-0811",
+   "zeit": "2026-11-08T13:01",
+   "spielerin": "Spielansetzung",
+   "verein": "TSG Hoffenheim",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "TOP"
+   ],
+   "headline": "Offizielle Aufstellung: TSG Hoffenheim gegen Union Berlin",
+   "text": [
+    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Laia Martret, Vöhringer. Die Bank folgt, sobald sie veröffentlicht ist."
+   ],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306286/1-fc-union-berlin_tsg-hoffenheim/aufstellung"
+    }
+   ],
+   "aufstellung": {
+    "gegner": "Union Berlin",
+    "formation": "4-1-2-3",
+    "startelf": [
+     {
+      "n": "Dick",
+      "p": "TW",
+      "pid": "00119"
+     },
+     {
+      "n": "Gloning",
+      "p": "ABW",
+      "pid": "00131"
+     },
+     {
+      "n": "van de Velde",
+      "p": "ABW",
+      "pid": "00127"
+     },
+     {
+      "n": "Doorn",
+      "p": "ABW",
+      "pid": "00123"
+     },
+     {
+      "n": "Kaut",
+      "p": "ABW",
+      "pid": "00125",
+      "f": "neu"
+     },
+     {
+      "n": "Diehm",
+      "p": "DM",
+      "pid": "00122",
+      "kp": "MF"
+     },
+     {
+      "n": "Grimm",
+      "p": "OM",
+      "pid": "00132",
+      "kp": "MF"
+     },
+     {
+      "n": "Steiner",
+      "p": "OM",
+      "pid": "00145",
+      "kp": "MF"
+     },
+     {
+      "n": "Natter",
+      "p": "ST",
+      "pid": "00144",
+      "f": "neu"
+     },
+     {
+      "n": "Fölmli",
+      "p": "ST",
+      "pid": "00141"
+     },
+     {
+      "n": "Hahn",
+      "p": "ST",
+      "pid": "00133",
+      "kp": "MF"
+     }
+    ],
+    "bank": [],
+    "fehlt": [],
+    "bank_offen": true,
+    "nicht_startelf": [
+     {
+      "n": "Laia Martret",
+      "p": "ST",
+      "pid": "00142"
+     },
+     {
+      "n": "Vöhringer",
+      "p": "ABW",
+      "pid": "00139"
+     }
+    ]
+   },
+   "quelle_live": true
   },
   {
    "id": "erstmals-sieger-hsv-0711",
@@ -955,7 +1133,8 @@
   "aufstellung-folgt-ma12306283",
   "fehlt-buhl-fcb-0611",
   "aufstellung-folgt-ma12306274",
-  "aufstellung-folgt-ma12306280"
+  "aufstellung-folgt-ma12306280",
+  "aufstellung-folgt-ma12306286"
  ],
  "ableitungen": [
   {
