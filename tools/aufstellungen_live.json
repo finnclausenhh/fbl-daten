@@ -2,7 +2,7 @@
  "meldungen": [
   {
    "id": "endstand-fcu-0811",
-   "zeit": "2026-11-08T15:55",
+   "zeit": "2026-11-08T16:00",
    "spielerin": "Union Berlin gegen TSG Hoffenheim",
    "verein": "Union Berlin",
    "nr": "",
@@ -10,23 +10,32 @@
    "tags": [
     "SPIELBERICHT"
    ],
-   "headline": "Endstand: Union Berlin 1:1 TSG Hoffenheim",
-   "kurz": "Endstand FCU 1:1 TSG",
+   "headline": "Union Berlin und TSG Hoffenheim 1:1, Natter und Hausicke treffen",
+   "kurz": "Union und Hoffenheim 1:1",
    "text": [
     "Union Berlin und TSG Hoffenheim trennen sich 1:1.",
     "Tore: 0:1 Natter (11., Vorlage Steiner), 1:1 Hausicke (43., Vorlage Judit Pujols).",
     "Gelb: Kamber, Hahn, Velde, Fenger.",
-    "Noten und der ausführliche Bericht folgen."
+    "Beste Note im Spiel: Natter (8,1).",
+    "Statistik (Union Berlin zuerst): Torschüsse 9:17 (aufs Tor 4:6), Ballbesitz 47:53 %, Expected Goals 1,55:1,90, Ecken 5:8.",
+    "Beste Noten Union Berlin: Böhi 7,9, Hausicke 7,0, Tysiak 6,8.",
+    "Beste Noten TSG Hoffenheim: Natter 8,1, Velde 6,9, Doorn 6,9.",
+    "Schwächste Note in der Startelf: Reissner (5,7)."
    ],
-   "kickbase": "",
+   "kickbase": "Herausragend: Natter (8,1), Böhi (7,9).",
    "quellen": [
     {
      "name": "Sportschau",
      "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306286/1-fc-union-berlin_tsg-hoffenheim/liveticker"
+    },
+    {
+     "name": "API-Football (Noten, Statistik)",
+     "url": "https://www.api-football.com"
     }
    ],
    "quelle_live": true,
-   "partie_id": "12306286"
+   "partie_id": "12306286",
+   "noten": true
   },
   {
    "id": "comeback-georgieva-m05-0811",
