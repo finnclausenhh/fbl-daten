@@ -1,0 +1,17 @@
+{
+ "datum": "2026-11-08",
+ "spiele": [
+  1593168
+ ],
+ "erstmals": {
+  "1593168": {
+   "spiel": "Mainz 05 W - Stuttgart W",
+   "anstoss": "2026-11-08T15:00:00+00:00",
+   "aufstellung_gesehen": "2026-11-08T14:40+00:00",
+   "minuten_vor_anpfiff": 20,
+   "mit_bank": true
+  }
+ },
+ "ohne_aufstellung_bis_anpfiff": [],
+ "abfragen": 3
+}
