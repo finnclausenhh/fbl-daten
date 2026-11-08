@@ -1,30 +1,11 @@
 {
  "datum": "2026-11-08",
  "spiele": {
-  "12306286": {
-   "spiel": "FCU-TSG",
-   "0:0": {
-    "sportschau": "14:00:59",
-    "apifootball": "14:00:59"
-   },
-   "0:1": {
-    "apifootball": "14:11:15",
-    "sportschau": "14:12:03"
-   },
-   "1:1": {
-    "sportschau": "14:44:22",
-    "apifootball": "14:44:22"
-   }
-  },
   "12306268": {
    "spiel": "M05-VFB",
-   "0:0": {
-    "sportschau": "16:01:14",
-    "apifootball": "16:02:01"
-   },
    "0:1": {
-    "sportschau": "16:18:37",
-    "apifootball": "16:18:37"
+    "sportschau": "16:37:56",
+    "apifootball": "16:37:56"
    }
   }
  }
