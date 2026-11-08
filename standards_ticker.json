@@ -1,5 +1,5 @@
 {
-"spiele": 61,
+"spiele": 62,
 "teams": {
 "FCB": [
 {
@@ -1033,8 +1033,8 @@
 {
 "k": "VFB",
 "n": "Maximiliane Rall",
-"kopf": 2,
-"std_kopf": 2,
+"kopf": 3,
+"std_kopf": 3,
 "std_tore": 0,
 "ecke_tritt": 0,
 "fs_tritt": 0,
@@ -1061,6 +1061,22 @@
 "fs_r": 0,
 "fs_direkt": 0,
 "fs_flanke": 1
+},
+{
+"k": "VFB",
+"n": "Rosa Rückert",
+"kopf": 1,
+"std_kopf": 1,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0,
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "VFB",
