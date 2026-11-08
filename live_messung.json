@@ -1,19 +1,11 @@
 {
- "datum": "2026-11-07",
+ "datum": "2026-11-08",
  "spiele": {
-  "12306280": {
-   "spiel": "B04-HSV",
+  "12306286": {
+   "spiel": "FCU-TSG",
    "0:0": {
-    "sportschau": "14:31:12",
-    "apifootball": "14:31:12"
-   },
-   "1:0": {
-    "apifootball": "15:17:24",
-    "sportschau": "15:18:12"
-   },
-   "2:0": {
-    "apifootball": "15:55:06",
-    "sportschau": "15:56:42"
+    "sportschau": "14:00:59",
+    "apifootball": "14:00:59"
    }
   }
  }
