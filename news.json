@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-08T15:46",
+ "stand": "2026-11-08T16:45",
  "meldungen": [
   {
    "id": "endstand-fcu-0811",
@@ -55,7 +55,7 @@
     "Laut BILD gab es keine außergerichtliche Einigung zur drohenden Sperre von Laura Freigang wegen dreimaligen Fehlens bei Dopingkontrollen. Es drohen weiterhin bis zu zwei Jahre Sperre, ein Urteil wird in dem Bericht nicht genannt.",
     "Beim 1:3 gegen Wolfsburg kamen ihr bei der Auswechslung die Tränen. Trainer Niko Arnautis sagte laut BILD, man kenne ihre Situation und sie gehe gut damit um."
    ],
-   "kickbase": "Bislang steht Freigang auf dem Platz, eine Sperre ist nicht verhängt. Das Risiko eines längeren Ausfalls bleibt aber offen; der Stand stammt nur aus einer Quelle (BILD).",
+   "kickbase": "Bis zum Urteil normal einplanen: Eine Sperre ist nicht verhängt, wann und ob sie kommt, ist offen. Das Risiko eines längeren Ausfalls bleibt, der Stand stammt nur aus einer Quelle (BILD).",
    "quellen": [
     {
      "name": "BILD",
@@ -67,7 +67,8 @@
     "autor": "Eintracht Frankfurt",
     "lizenz": "mit Genehmigung: Eintracht Frankfurt",
     "url": "https://frauen.eintracht.de/kader/"
-   }
+   },
+   "status": "fit"
   },
   {
    "id": "redzepi-standards-0811",
