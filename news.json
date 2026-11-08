@@ -2,39 +2,6 @@
  "stand": "2026-11-08T13:50",
  "meldungen": [
   {
-   "id": "martret-standards-0811",
-   "pid": "00142",
-   "zeit": "2026-11-08T13:01",
-   "spielerin": "Laia Martret",
-   "verein": "TSG Hoffenheim",
-   "nr": "",
-   "pos": "ST",
-   "tags": [
-    "STANDARD",
-    "AUFSTELLUNG"
-   ],
-   "status": "fraglich",
-   "headline": "Martret fehlt: Ecken bei Hoffenheim offen",
-   "kurz": "Martret fehlt: Ecken bei Hoffenheim offen",
-   "text": [
-    "Laia Martret steht gegen Union Berlin nicht im Kader. Sie ist bei der TSG Hoffenheim die erste Wahl bei Ecken.",
-    "Eine Nachfolgerin ist in der Hierarchie nicht hinterlegt, es ist offen, wer die Ecken schießt. Freistöße (Steiner) bleiben bei der bisherigen Schützin, sie steht in der Startelf."
-   ],
-   "kickbase": "Wer in Berlin Ecken tritt, ist offen. Bis ein Grund für Martrets Fehlen bekannt ist, bleibt sie fraglich.",
-   "quellen": [
-    {
-     "name": "Sportschau (offizielle Aufstellung)",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306286/1-fc-union-berlin_tsg-hoffenheim/aufstellung"
-    }
-   ],
-   "foto": "fotos/tsg-laia-martret.webp",
-   "foto_credit": {
-    "autor": "WOSOINSIDER",
-    "lizenz": "Platzhalter (kein Vereinsfoto)",
-    "url": "https://www.tsg-hoffenheim.de/teams/frauen"
-   }
-  },
-  {
    "id": "weidauer-standards-0811",
    "pid": "00387",
    "zeit": "2026-11-08T13:01",
@@ -75,22 +42,31 @@
    "nr": "",
    "pos": "ST",
    "tags": [
+    "STANDARD",
     "AUFSTELLUNG"
    ],
    "status": "fraglich",
-   "headline": "Martret nicht im Kader gegen Union Berlin",
+   "headline": "Martret nicht im Kader gegen Union Berlin: Ecken bei Hoffenheim offen",
    "text": [
     "Laia Martret steht in der Liga gegen Union Berlin weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
-    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
+    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen.",
+    "Eine Nachfolgerin ist in der Hierarchie nicht hinterlegt, es ist offen, wer die Ecken schießt. Freistöße (Steiner) bleiben bei der bisherigen Schützin, sie steht in der Startelf."
    ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
+   "kickbase": "Wer in Berlin Ecken tritt, ist offen. Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
    "quellen": [
     {
      "name": "Sportschau",
      "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306286/1-fc-union-berlin_tsg-hoffenheim/aufstellung"
     }
    ],
-   "quelle_live": true
+   "quelle_live": true,
+   "foto": "fotos/tsg-laia-martret.webp",
+   "foto_credit": {
+    "autor": "WOSOINSIDER",
+    "lizenz": "Platzhalter (kein Vereinsfoto)",
+    "url": "https://www.tsg-hoffenheim.de/teams/frauen"
+   },
+   "zusammen": true
   },
   {
    "id": "aufstellung-fcu-0811",

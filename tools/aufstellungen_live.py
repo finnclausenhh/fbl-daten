@@ -242,7 +242,43 @@ def ohne_doppel(news):
     news["meldungen"] = [m for m in news["meldungen"] if not (m["id"] in gesehen or gesehen.add(m["id"]))]
 
 
+def std_zusammen(news, live):
+    """Finn 08.11.2026 (Martret doppelt): Gibt es zu einer Standardschützin am selben Tag schon die fehlt-Meldung ihres Vereins,
+    wandert die STANDARD-Meldung (meist vom Lauf) in diese Meldung: Tag STANDARD, Standards-Sätze, Kickbase-Satz, Foto.
+    Die STANDARD-Meldung kommt nach "entfernt", damit Spiegel und Heilen sie nicht zurückholen. zusammen=True schützt vor Überschreiben."""
+    L = news["meldungen"]
+    weg = []
+    for s in L:
+        if "STANDARD" not in (s.get("tags") or []) or s["id"].startswith("fehlt-") or not s.get("spielerin"):
+            continue
+        tag, nach_ = (s.get("zeit") or "")[:10], s["spielerin"].split()[-1]
+        f = next((m for m in L if m["id"].startswith("fehlt-") and m.get("verein") == s.get("verein") and (m.get("zeit") or "")[:10] == tag
+                  and (m.get("spielerin") == s["spielerin"] or nach_ in m.get("headline", ""))), None)
+        if not f:
+            continue
+        if "STANDARD" not in f.get("tags", []):
+            f["tags"] = ["STANDARD"] + f.get("tags", [])
+        f["text"] = f["text"] + [t for t in (s.get("text") or [])[1:] if t not in f["text"]]
+        kb = re.split(r"(?<=[.!?])\s+", s.get("kickbase") or "")[0]   # nur der erste Satz, der Rest wiederholt meist den Status
+        if kb and kb not in f.get("kickbase", ""):
+            f["kickbase"] = (kb + " " + f.get("kickbase", "")).strip()
+        if not f.get("foto") and s.get("foto"):
+            f["foto"], f["foto_credit"] = s["foto"], s.get("foto_credit")
+        if ": " in s.get("headline", "") and ": " not in f["headline"]:
+            f["headline"] = f["headline"] + ": " + s["headline"].split(": ", 1)[1]
+        f["zusammen"] = True
+        weg.append(s["id"])
+        live["meldungen"] = [f if y["id"] == f["id"] else y for y in live.get("meldungen", [])]
+    if weg:
+        news["meldungen"] = [m for m in L if m["id"] not in weg]
+        live["meldungen"] = [m for m in live.get("meldungen", []) if m["id"] not in weg]
+        live["entfernt"] = list(dict.fromkeys(live.get("entfernt", []) + weg))
+        print(f"Standards in fehlt-Meldung zusammengeführt: {weg}")
+    return weg
+
+
 def speichern(a, pn, pl, news, live, nachricht, extra=()):
+    std_zusammen(news, live)
     ohne_doppel(news)
     news["stand"] = datetime.now(TZ).strftime("%Y-%m-%dT%H:%M")
     json.dump(news, open(pn, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
@@ -481,6 +517,8 @@ def main():
         print(f"wieder eingefügt: {[m['id'] for m in fehlend]}")
         speichern(a, pn, pl, news, live, "Aufstellungen live: wieder eingefügt")
 
+    if std_zusammen(news, live):
+        speichern(a, pn, pl, news, live, "Aufstellungen live: Standards in fehlt-Meldung zusammengeführt")
     bank_nachtragen(a, pn, pl, news, live, spielplan, kader, grenze)
     fehlt_meldungen(a, pn, pl, news, live, spielplan)
     weiter_main(a, pn, pl, news, live, spielplan, kader, geaendert)
