@@ -1,6 +1,34 @@
 {
  "meldungen": [
   {
+   "id": "endstand-fcu-0811",
+   "zeit": "2026-11-08T15:55",
+   "spielerin": "Union Berlin gegen TSG Hoffenheim",
+   "verein": "Union Berlin",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "SPIELBERICHT"
+   ],
+   "headline": "Endstand: Union Berlin 1:1 TSG Hoffenheim",
+   "kurz": "Endstand FCU 1:1 TSG",
+   "text": [
+    "Union Berlin und TSG Hoffenheim trennen sich 1:1.",
+    "Tore: 0:1 Natter (11., Vorlage Steiner), 1:1 Hausicke (43., Vorlage Judit Pujols).",
+    "Gelb: Kamber, Hahn, Velde, Fenger.",
+    "Noten und der ausführliche Bericht folgen."
+   ],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306286/1-fc-union-berlin_tsg-hoffenheim/liveticker"
+    }
+   ],
+   "quelle_live": true,
+   "partie_id": "12306286"
+  },
+  {
    "id": "comeback-georgieva-m05-0811",
    "pid": "00274",
    "zeit": "2026-11-08T14:54",
