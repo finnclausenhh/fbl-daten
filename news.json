@@ -2,6 +2,38 @@
  "stand": "2026-11-08T13:03",
  "meldungen": [
   {
+   "id": "herzog-0611",
+   "pid": "00213",
+   "zeit": "2026-11-06",
+   "spielerin": "Elvira Herzog",
+   "verein": "RB Leipzig",
+   "nr": "",
+   "pos": "TW",
+   "tags": [
+    "UPDATE"
+   ],
+   "status": "fraglich",
+   "headline": "Herzog wegen Erkältung fraglich für das Spiel in Köln",
+   "kurz": "Herzog fraglich für Köln, Erkältung",
+   "text": [
+    "Elvira Herzog ist erkältet und steht für das Ligaspiel beim 1. FC Köln am Montag um 18 Uhr auf der Kippe. Das zeigt die Kickbase-App seit Freitag an. Der Verein hat sich dazu bisher nicht geäußert.",
+    "Herzog stand in allen acht Ligaspielen und im Pokal gegen Köln über 90 Minuten im Tor. Auf der Bank saß zuletzt Mirja Kropp."
+   ],
+   "kickbase": "Herzog ist die klare Nummer eins. Fällt sie aus, ist Kropp die naheliegende Vertretung. Bis der Verein etwas sagt, führen wir Herzog gegen Köln nur noch als unsicher.",
+   "quellen": [
+    {
+     "name": "Kickbase (App, unbestätigt)",
+     "url": "https://www.kickbase.com"
+    }
+   ],
+   "foto": "fotos/rbl-elvira-herzog.webp",
+   "foto_credit": {
+    "autor": "RB Leipzig",
+    "lizenz": "mit Genehmigung: RB Leipzig",
+    "url": "https://rbleipzig.com/de/teams-frauen"
+   }
+  },
+  {
    "id": "fehlt-martret-tsg-0811",
    "pid": "00142",
    "zeit": "2026-11-08T13:01",
