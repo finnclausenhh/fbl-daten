@@ -1,5 +1,5 @@
 {
-"spiele": 60,
+"spiele": 61,
 "teams": {
 "FCB": [
 {
@@ -166,6 +166,22 @@
 },
 {
 "k": "FCU",
+"n": "Lina Hausicke",
+"kopf": 2,
+"std_kopf": 1,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0,
+"std_kopftore": 1,
+"ecke_l": 0,
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
+},
+{
+"k": "FCU",
 "n": "Naika Reissner",
 "kopf": 1,
 "std_kopf": 1,
@@ -199,22 +215,6 @@
 {
 "k": "FCU",
 "n": "Samantha Steuerwald",
-"kopf": 1,
-"std_kopf": 0,
-"std_tore": 0,
-"ecke_tritt": 0,
-"fs_tritt": 0,
-"std_kopftore": 0,
-"ecke_l": 0,
-"ecke_r": 0,
-"fs_l": 0,
-"fs_r": 0,
-"fs_direkt": 0,
-"fs_flanke": 0
-},
-{
-"k": "FCU",
-"n": "Lina Hausicke",
 "kopf": 1,
 "std_kopf": 0,
 "std_tore": 0,
@@ -963,24 +963,8 @@
 },
 {
 "k": "TSG",
-"n": "Svenja Vöhringer",
-"kopf": 1,
-"std_kopf": 0,
-"std_tore": 0,
-"ecke_tritt": 0,
-"fs_tritt": 0,
-"std_kopftore": 0,
-"ecke_l": 0,
-"ecke_r": 0,
-"fs_l": 0,
-"fs_r": 0,
-"fs_direkt": 0,
-"fs_flanke": 0
-},
-{
-"k": "TSG",
 "n": "Janna Grimm",
-"kopf": 0,
+"kopf": 1,
 "std_kopf": 0,
 "std_tore": 0,
 "ecke_tritt": 0,
@@ -998,6 +982,22 @@
 },
 {
 "k": "TSG",
+"n": "Svenja Vöhringer",
+"kopf": 1,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0,
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
+},
+{
+"k": "TSG",
 "n": "Valesca Ampoorter",
 "kopf": 0,
 "std_kopf": 0,
@@ -1011,6 +1011,22 @@
 "fs_r": 1,
 "fs_direkt": 1,
 "fs_flanke": 1
+},
+{
+"k": "TSG",
+"n": "Lisann Kaut",
+"kopf": 0,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 1,
+"fs_tritt": 0,
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 1,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 }
 ],
 "VFB": [
