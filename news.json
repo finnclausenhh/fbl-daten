@@ -1,22 +1,18 @@
 {
- "stand": "2026-11-08T14:45",
+ "stand": "2026-11-08T14:55",
  "meldungen": [
   {
-   "id": "aufstellung-folgt-ma12306268",
-   "zeit": "2026-11-08T14:40",
+   "id": "aufstellung-m05-0811",
+   "zeit": "2026-11-08T14:54",
    "spielerin": "Spielansetzung",
    "verein": "Mainz 05",
    "nr": "",
    "pos": "Spielansetzung",
    "tags": [
-    "AUFSTELLUNG"
+    "TOP"
    ],
-   "headline": "Aufstellung Mainz 05 gegen VfB Stuttgart folgt",
-   "kurz": "Aufstellung folgt, Anpfiff 16:00",
-   "text": [
-    "Anpfiff in der Liga ist um 16:00 Uhr. Die offizielle Aufstellung kommt meist rund 60 Minuten vorher, wir ergänzen sie hier automatisch, sobald sie veröffentlicht ist.",
-    "Bis dahin steht unsere Prognose im Spielplan bei der Partie."
-   ],
+   "headline": "Offizielle Aufstellung: Mainz 05 gegen VfB Stuttgart",
+   "text": [],
    "kickbase": "",
    "quellen": [
     {
@@ -24,9 +20,360 @@
      "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306268/1-fsv-mainz-05_vfb-stuttgart/aufstellung"
     }
    ],
-   "platzhalter": true,
-   "anstoss": "2026-11-08T16:00",
-   "partie_id": "12306268"
+   "aufstellung": {
+    "gegner": "VfB Stuttgart",
+    "formation": "4-2-3-1",
+    "startelf": [
+     {
+      "n": "Schön",
+      "p": "TW",
+      "pid": "00270"
+     },
+     {
+      "n": "Bathmann",
+      "p": "ABW",
+      "pid": "00278"
+     },
+     {
+      "n": "Hashitani",
+      "p": "ABW",
+      "pid": "00275",
+      "f": "neu"
+     },
+     {
+      "n": "Berg",
+      "p": "ABW",
+      "pid": "00279"
+     },
+     {
+      "n": "Pageler",
+      "p": "ABW",
+      "pid": "00293"
+     },
+     {
+      "n": "Martin",
+      "p": "DM",
+      "pid": "00286",
+      "kp": "MF",
+      "f": "neu"
+     },
+     {
+      "n": "Imai",
+      "p": "DM",
+      "pid": "00282",
+      "kp": "MF"
+     },
+     {
+      "n": "Kats",
+      "p": "OM",
+      "pid": "00292",
+      "kp": "ST"
+     },
+     {
+      "n": "Fetaj",
+      "p": "OM",
+      "pid": "00281",
+      "kp": "MF"
+     },
+     {
+      "n": "Junold",
+      "p": "OM",
+      "pid": "00284",
+      "kp": "MF",
+      "f": "neu"
+     },
+     {
+      "n": "Anstatt",
+      "p": "ST",
+      "pid": "00291"
+     }
+    ],
+    "bank": [
+     {
+      "n": "Pawlowski",
+      "p": "TW",
+      "pid": "00269"
+     },
+     {
+      "n": "Georgieva",
+      "p": "ABW",
+      "pid": "00274",
+      "f": "raus"
+     },
+     {
+      "n": "Flach",
+      "p": "ABW",
+      "pid": "00273"
+     },
+     {
+      "n": "Bouziane",
+      "p": "ST",
+      "pid": "00280"
+     },
+     {
+      "n": "Takizawa",
+      "p": "MF",
+      "pid": "00289"
+     },
+     {
+      "n": "Kurishima",
+      "p": "MF",
+      "pid": "00285",
+      "f": "raus"
+     },
+     {
+      "n": "Jackson",
+      "p": "ABW",
+      "pid": "00283",
+      "f": "neu"
+     },
+     {
+      "n": "Stöhr",
+      "p": "ST",
+      "pid": "00294",
+      "f": "raus"
+     },
+     {
+      "n": "Strickler",
+      "p": "ST",
+      "pid": "00295"
+     }
+    ],
+    "fehlt": [
+     {
+      "n": "Gonzalez",
+      "p": "TW"
+     },
+     {
+      "n": "Matsumoto",
+      "p": "TW"
+     },
+     {
+      "n": "Bukowski",
+      "p": "ABW"
+     },
+     {
+      "n": "Donner",
+      "p": "ABW"
+     },
+     {
+      "n": "Hauk",
+      "p": "ABW"
+     },
+     {
+      "n": "Kilian",
+      "p": "ABW"
+     },
+     {
+      "n": "Matheis",
+      "p": "ABW"
+     },
+     {
+      "n": "Slipčević",
+      "p": "MF"
+     },
+     {
+      "n": "Voth",
+      "p": "MF"
+     }
+    ]
+   },
+   "quelle_live": true
+  },
+  {
+   "id": "aufstellung-vfb-0811",
+   "zeit": "2026-11-08T14:54",
+   "spielerin": "Spielansetzung",
+   "verein": "VfB Stuttgart",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "TOP"
+   ],
+   "headline": "Offizielle Aufstellung: VfB Stuttgart gegen Mainz 05",
+   "text": [],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306268/1-fsv-mainz-05_vfb-stuttgart/aufstellung"
+    }
+   ],
+   "aufstellung": {
+    "gegner": "Mainz 05",
+    "formation": "3-3-2-2",
+    "startelf": [
+     {
+      "n": "Giuliani",
+      "p": "TW",
+      "pid": "00329"
+     },
+     {
+      "n": "Stegemann",
+      "p": "ABW",
+      "pid": "00339"
+     },
+     {
+      "n": "Zähringer",
+      "p": "ABW",
+      "pid": "00340"
+     },
+     {
+      "n": "Hechler",
+      "p": "ABW",
+      "pid": "00333"
+     },
+     {
+      "n": "Rall",
+      "p": "DM",
+      "pid": "00337",
+      "kp": "MF",
+      "f": "neu"
+     },
+     {
+      "n": "Achcińska",
+      "p": "DM",
+      "pid": "00341",
+      "kp": "MF"
+     },
+     {
+      "n": "Norman",
+      "p": "DM",
+      "pid": "00336",
+      "kp": "ABW",
+      "f": "neu"
+     },
+     {
+      "n": "Hirano",
+      "p": "OM",
+      "pid": "00345",
+      "kp": "MF",
+      "f": "neu"
+     },
+     {
+      "n": "Wieder",
+      "p": "OM",
+      "pid": "00356",
+      "kp": "ST"
+     },
+     {
+      "n": "Billa",
+      "p": "ST",
+      "pid": "00351"
+     },
+     {
+      "n": "Rückert",
+      "p": "ST",
+      "pid": "00354",
+      "f": "neu"
+     }
+    ],
+    "bank": [
+     {
+      "n": "Beck",
+      "p": "TW",
+      "pid": "00327"
+     },
+     {
+      "n": "Dürr",
+      "p": "ABW",
+      "pid": "00332",
+      "f": "neu"
+     },
+     {
+      "n": "F. Dongus",
+      "p": "ABW",
+      "pid": ""
+     },
+     {
+      "n": "Hagel",
+      "p": "MF",
+      "pid": "00343",
+      "f": "raus"
+     },
+     {
+      "n": "Müller",
+      "p": "MF",
+      "pid": "00346",
+      "f": "raus"
+     },
+     {
+      "n": "Schetter",
+      "p": "ST",
+      "pid": "00355",
+      "f": "raus"
+     },
+     {
+      "n": "Beuschlein",
+      "p": "ST",
+      "pid": "00350"
+     },
+     {
+      "n": "Arouna",
+      "p": "ST",
+      "pid": "00349",
+      "f": "neu"
+     }
+    ],
+    "fehlt": [
+     {
+      "n": "Hecke",
+      "p": "MF",
+      "f": "raus",
+      "war": "Bank"
+     },
+     {
+      "n": "Osawa",
+      "p": "ST",
+      "f": "raus",
+      "war": "Bank"
+     },
+     {
+      "n": "Redzepi",
+      "p": "MF",
+      "f": "raus",
+      "i": "gesperrt",
+      "war": "Startelf"
+     },
+     {
+      "n": "T. Dongus",
+      "p": "ABW",
+      "f": "raus",
+      "war": "Bank"
+     },
+     {
+      "n": "Böttcher",
+      "p": "TW"
+     },
+     {
+      "n": "Carollo",
+      "p": "ABW"
+     },
+     {
+      "n": "Hofmann",
+      "p": "ABW"
+     },
+     {
+      "n": "Mickenhagen",
+      "p": "ABW",
+      "i": "verletzt"
+     },
+     {
+      "n": "Schäfer",
+      "p": "ABW"
+     },
+     {
+      "n": "Wichmann",
+      "p": "MF",
+      "i": "mehrere Monate"
+     },
+     {
+      "n": "Glaser",
+      "p": "ST"
+     }
+    ]
+   },
+   "quelle_live": true
   },
   {
    "id": "weidauer-standards-0811",
