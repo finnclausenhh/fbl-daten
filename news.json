@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-08T17:51",
+ "stand": "2026-11-08T18:09",
  "meldungen": [
   {
    "id": "endstand-m05-0811",
@@ -53,13 +53,18 @@
    "headline": "Georgieva feiert Comeback nach Verletzungspause",
    "text": [
     "Marina Georgieva ist nach Verletzungspause zurück im Spieltagskader von Mainz 05.",
-    "Gegen VfB Stuttgart kam sie in der 63. Minute für Junold ins Spiel. Insgesamt spielte sie rund 27 Minuten."
+    "Gegen VfB Stuttgart kam sie in der 63. Minute für Junold ins Spiel. Insgesamt spielte sie rund 27 Minuten.",
+    "API-Football bewertet ihren Auftritt mit der Note 6,3 (durchwachsen)."
    ],
    "kickbase": "Wieder einsatzbereit. Nach der Pause am nächsten Spieltag eher mit begrenzter Spielzeit rechnen, die Startelf ist noch offen.",
    "quellen": [
     {
      "name": "Sportschau",
      "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306268/1-fsv-mainz-05_vfb-stuttgart/liveticker"
+    },
+    {
+     "name": "API-Football (Note)",
+     "url": "https://www.api-football.com"
     }
    ],
    "quelle_live": true,
