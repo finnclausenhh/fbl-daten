@@ -59,5 +59,18 @@
   "noten_da": "2026-11-08T15:55",
   "minuten_nach_abpfiff": 3,
   "bau_gestartet": "2026-11-08T15:55"
+ },
+ "12306268": {
+  "spiel": "M05-VFB",
+  "anstoss": "2026-11-08T16:00",
+  "abpfiff_ca": "2026-11-08T17:50",
+  "fixture": 1593168,
+  "af_status": "FT",
+  "erste_pruefung": "2026-11-08T17:53",
+  "noten_zuletzt": 40,
+  "letzte_pruefung": "2026-11-08T17:53",
+  "noten_da": "2026-11-08T17:53",
+  "minuten_nach_abpfiff": 3,
+  "bau_gestartet": "2026-11-08T17:53"
  }
 }
