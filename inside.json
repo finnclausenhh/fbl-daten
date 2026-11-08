@@ -12,12 +12,12 @@
    {
     "art": "chance",
     "label": "Chance",
-    "text": "Mainz kassierte 27 Tore in 8 Spielen (3,38 pro Spiel) und traf nur viermal. Als Nächstes gegen Mainz: Stuttgart (8.11.), HSV (13.11.), Nürnberg (22.11.)."
+    "text": "Mainz kassierte bis zum 8. Spieltag 27 Tore (3,38 pro Spiel) und traf nur viermal. Am 8.11. verlor Mainz 1:3 gegen Stuttgart. Als Nächstes gegen Mainz: HSV (13.11.), Nürnberg (22.11.)."
    },
    {
     "art": "watch",
     "label": "Beobachten",
-    "text": "Am 8.11. fehlt Redzepi gesperrt bei Stuttgart in Mainz. Mahmutovic fehlte gesperrt beim 3:1 des FC Bayern gegen Werder, Gwinn feierte dort ihr Comeback und kam in der 63. Minute ins Spiel."
+    "text": "Am 8.11. fehlte Redzepi gesperrt beim 3:1 von Stuttgart in Mainz. Mahmutovic fehlte gesperrt beim 3:1 des FC Bayern gegen Werder, Gwinn feierte dort ihr Comeback und kam in der 63. Minute ins Spiel."
    }
   ]
  },
@@ -142,11 +142,11 @@
      ]
     ],
     "text": "2 Tore und 7 Schüsse in den drei Ligaspielen, seit sie beginnt. Im Pokal beim HSV traf sie doppelt, auch zum 4:3 in der Verlängerung.",
-    "kb": "Union wechselt am wenigsten Startelfplätze (0,7 pro Spiel zuletzt). Hoffenheim kassiert 1,88 Tore pro Spiel und kommt mit dem dritten Auswärtsspiel in elf Tagen.",
+    "kb": "Union wechselt am wenigsten Startelfplätze (0,7 pro Spiel zuletzt). Am 8.11. spielte Union 1:1 gegen Hoffenheim. Nächster Gegner ist Werder, das zu Hause 13 von 15 Punkten holte.",
     "next": {
-     "k": "TSG",
-     "ort": "H",
-     "datum": "So 08.11."
+     "k": "SVW",
+     "ort": "A",
+     "datum": "Sa 14.11."
     }
    },
    {
@@ -319,8 +319,8 @@
    {
     "n": "Maximiliane Rall",
     "k": "VFB",
-    "big": "25",
-    "big_txt": "Minuten in den letzten 2 Spielen",
+    "big": "2×",
+    "big_txt": "Startelf nach Oberschenkelproblemen",
     "s": [
      [
       90,
@@ -363,12 +363,12 @@
       0
      ]
     ],
-    "text": "Nach Oberschenkelproblemen wieder dabei: in der Liga eingewechselt, im Pokal am 30.10. in der Startelf. Ihre Kopfballtore nach Redzepi-Ecken fallen in Mainz trotzdem weg, Redzepi ist gesperrt.",
-    "kb": "In Mainz (3,38 Gegentore pro Spiel) wartet das leichteste Spiel. Interessant erst, wenn sie auch in der Liga wieder beginnt.",
+    "text": "Nach Oberschenkelproblemen wieder dabei: im Pokal am 30.10. und am 8.11. in Mainz in der Startelf, dort mit der Vorlage zum 1:3.",
+    "kb": "Stuttgart gewann in Mainz 3:1. Als Nächstes kommt Leverkusen (16.11., 9 Auswärtspunkte, viertbestes Auswärtsteam).",
     "next": {
-     "k": "M05",
-     "ort": "A",
-     "datum": "So 08.11."
+     "k": "B04",
+     "ort": "H",
+     "datum": "Mo 16.11."
     }
    }
   ],
@@ -512,9 +512,9 @@
    "art": "Ecken",
    "alt": "Dafina Redzepi",
    "neu": "Chantal Hagel",
-   "text": "Redzepi sah gegen Frankfurt Rot und ist am 9. Spieltag gesperrt. Ihre Ecken von links führten zu zwei Rall-Toren.",
+   "text": "Redzepi sah gegen Frankfurt Rot und war am 9. Spieltag in Mainz gesperrt. Ihre Ecken von links führten zu zwei Rall-Toren.",
    "check": "Hagel tritt schon jetzt die Ecken von rechts, auch wenn Redzepi spielt. Fehlt Redzepi, dürfte sie beide Seiten übernehmen.",
-   "kb": "Hagel gewinnt Standards dazu, solange Redzepi gesperrt ist."
+   "kb": "Hagel gewinnt Standards dazu, wenn Redzepi fehlt."
   },
   {
    "k": "KOE",
@@ -784,7 +784,7 @@
      3
     ]
    ],
-   "hinweis": "Redzepi am 9. Spieltag gesperrt"
+   "hinweis": "Redzepi fehlte am 9. Spieltag in Mainz gesperrt"
   },
   {
    "k": "HSV",
@@ -865,29 +865,6 @@
    {
     "md": 9,
     "partien": [
-     {
-      "heim": "FCU",
-      "gast": "TSG",
-      "fakten": [
-       "Union holte aus den letzten 4 Spielen <b>10 Punkte</b> bei 13:7 Toren.",
-       "Union wechselte zuletzt im Schnitt <b>0,7</b> Startelfplätze pro Spiel, so wenig wie kein anderer Verein.",
-       "Für Hoffenheim ist es das <b>3. Auswärtsspiel in 11 Tagen</b>."
-      ],
-      "kb": "Unions Startelf ist die stabilste der Liga, Bauereisen beginnt seit drei Spielen.",
-      "datum": "So 08.11.",
-      "zeit": "14:00"
-     },
-     {
-      "heim": "M05",
-      "gast": "VFB",
-      "datum": "So 08.11.",
-      "zeit": "16:00",
-      "fakten": [
-       "Mainz erzielte in 8 Spielen nur <b>4 Tore</b> und blieb <b>5-mal</b> ohne Treffer.",
-       "Stuttgart traf in den letzten 3 Spielen nicht (<b>0:12</b> Tore)."
-      ],
-      "kb": "Eher Stuttgarts Abwehr als der Sturm: Für Giuliani ist eine weiße Weste realistisch."
-     },
      {
       "heim": "KOE",
       "gast": "RBL",
@@ -3430,5 +3407,5 @@
   "id": "punkt-md9",
   "text": "Spieltag 9 in 60 Sekunden"
  },
- "geprueft": "2026-11-07T22:50"
+ "geprueft": "2026-11-08T22:46"
 }
