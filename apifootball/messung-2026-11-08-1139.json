@@ -1,0 +1,17 @@
+{
+ "datum": "2026-11-08",
+ "spiele": [
+  1593169
+ ],
+ "erstmals": {
+  "1593169": {
+   "spiel": "Union Berlin W - 1899 Hoffenheim W",
+   "anstoss": "2026-11-08T13:00:00+00:00",
+   "aufstellung_gesehen": "2026-11-08T12:30+00:00",
+   "minuten_vor_anpfiff": 29,
+   "mit_bank": true
+  }
+ },
+ "ohne_aufstellung_bis_anpfiff": [],
+ "abfragen": 20
+}
