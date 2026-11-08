@@ -1,6 +1,33 @@
 {
  "meldungen": [
   {
+   "id": "aufstellung-folgt-ma12306268",
+   "zeit": "2026-11-08T14:40",
+   "spielerin": "Spielansetzung",
+   "verein": "Mainz 05",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "AUFSTELLUNG"
+   ],
+   "headline": "Aufstellung Mainz 05 gegen VfB Stuttgart folgt",
+   "kurz": "Aufstellung folgt, Anpfiff 16:00",
+   "text": [
+    "Anpfiff in der Liga ist um 16:00 Uhr. Die offizielle Aufstellung kommt meist rund 60 Minuten vorher, wir ergänzen sie hier automatisch, sobald sie veröffentlicht ist.",
+    "Bis dahin steht unsere Prognose im Spielplan bei der Partie."
+   ],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306268/1-fsv-mainz-05_vfb-stuttgart/aufstellung"
+    }
+   ],
+   "platzhalter": true,
+   "anstoss": "2026-11-08T16:00",
+   "partie_id": "12306268"
+  },
+  {
    "id": "fehlt-martret-tsg-0811",
    "pid": "00142",
    "zeit": "2026-11-08T13:01",
