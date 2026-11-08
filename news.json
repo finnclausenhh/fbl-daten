@@ -1,36 +1,69 @@
 {
- "stand": "2026-11-08T13:03",
+ "stand": "2026-11-08T13:50",
  "meldungen": [
   {
-   "id": "herzog-0611",
-   "pid": "00213",
-   "zeit": "2026-11-06",
-   "spielerin": "Elvira Herzog",
-   "verein": "RB Leipzig",
+   "id": "martret-standards-0811",
+   "pid": "00142",
+   "zeit": "2026-11-08T13:01",
+   "spielerin": "Laia Martret",
+   "verein": "TSG Hoffenheim",
    "nr": "",
-   "pos": "TW",
+   "pos": "ST",
    "tags": [
-    "UPDATE"
+    "STANDARD",
+    "AUFSTELLUNG"
    ],
    "status": "fraglich",
-   "headline": "Herzog wegen Erkältung fraglich für das Spiel in Köln",
-   "kurz": "Herzog fraglich für Köln, Erkältung",
+   "headline": "Martret fehlt: Ecken bei Hoffenheim offen",
+   "kurz": "Martret fehlt: Ecken bei Hoffenheim offen",
    "text": [
-    "Elvira Herzog ist erkältet und steht für das Ligaspiel beim 1. FC Köln am Montag um 18 Uhr auf der Kippe. Das zeigt die Kickbase-App seit Freitag an. Der Verein hat sich dazu bisher nicht geäußert.",
-    "Herzog stand in allen acht Ligaspielen und im Pokal gegen Köln über 90 Minuten im Tor. Auf der Bank saß zuletzt Mirja Kropp."
+    "Laia Martret steht gegen Union Berlin nicht im Kader. Sie ist bei der TSG Hoffenheim die erste Wahl bei Ecken.",
+    "Eine Nachfolgerin ist in der Hierarchie nicht hinterlegt, es ist offen, wer die Ecken schießt. Freistöße (Steiner) bleiben bei der bisherigen Schützin, sie steht in der Startelf."
    ],
-   "kickbase": "Herzog ist die klare Nummer eins. Fällt sie aus, ist Kropp die naheliegende Vertretung. Bis der Verein etwas sagt, führen wir Herzog gegen Köln nur noch als unsicher.",
+   "kickbase": "Wer in Berlin Ecken tritt, ist offen. Bis ein Grund für Martrets Fehlen bekannt ist, bleibt sie fraglich.",
    "quellen": [
     {
-     "name": "Kickbase (App, unbestätigt)",
-     "url": "https://www.kickbase.com"
+     "name": "Sportschau (offizielle Aufstellung)",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306286/1-fc-union-berlin_tsg-hoffenheim/aufstellung"
     }
    ],
-   "foto": "fotos/rbl-elvira-herzog.webp",
+   "foto": "fotos/tsg-laia-martret.webp",
    "foto_credit": {
-    "autor": "RB Leipzig",
-    "lizenz": "mit Genehmigung: RB Leipzig",
-    "url": "https://rbleipzig.com/de/teams-frauen"
+    "autor": "WOSOINSIDER",
+    "lizenz": "Platzhalter (kein Vereinsfoto)",
+    "url": "https://www.tsg-hoffenheim.de/teams/frauen"
+   }
+  },
+  {
+   "id": "weidauer-standards-0811",
+   "pid": "00387",
+   "zeit": "2026-11-08T13:01",
+   "spielerin": "Sophie Weidauer",
+   "verein": "Union Berlin",
+   "nr": "",
+   "pos": "ST",
+   "tags": [
+    "STANDARD",
+    "AUFSTELLUNG"
+   ],
+   "headline": "Weidauer und Heiseler auf der Bank: Standards bei Union",
+   "kurz": "Weidauer, Heiseler auf der Bank: Standards offen",
+   "text": [
+    "Sophie Weidauer sitzt gegen die TSG Hoffenheim zunächst auf der Bank. Sie ist bei Union Berlin die erste Wahl bei Ecken, auch Lisa Heiseler (erste Wahl bei Freistößen) beginnt nicht.",
+    "Bei Freistößen übernimmt laut Hierarchie Judit Pujols, die in der Startelf steht. Wer die Ecken tritt, ist offen, weil mit Egli ebenfalls nur eine Bankspielerin hinterlegt ist."
+   ],
+   "kickbase": "Standardpunkte für Union laufen in der Startelf eher über Pujols, bei Ecken ist die Lage offen. Weidauer und Heiseler zählen erst, wenn sie eingewechselt werden.",
+   "quellen": [
+    {
+     "name": "Sportschau (offizielle Aufstellung)",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306286/1-fc-union-berlin_tsg-hoffenheim/aufstellung"
+    }
+   ],
+   "foto": "fotos/fcu-sophie-weidauer.webp",
+   "foto_credit": {
+    "autor": "Union Berlin",
+    "lizenz": "mit Genehmigung: 1. FC Union Berlin",
+    "url": "https://www.fc-union-berlin.de/de/fussball/profis-frauen-nJqf"
    }
   },
   {
@@ -369,6 +402,38 @@
     ]
    },
    "quelle_live": true
+  },
+  {
+   "id": "herzog-0611",
+   "pid": "00213",
+   "zeit": "2026-11-06",
+   "spielerin": "Elvira Herzog",
+   "verein": "RB Leipzig",
+   "nr": "",
+   "pos": "TW",
+   "tags": [
+    "UPDATE"
+   ],
+   "status": "fraglich",
+   "headline": "Herzog wegen Erkältung fraglich für das Spiel in Köln",
+   "kurz": "Herzog fraglich für Köln, Erkältung",
+   "text": [
+    "Elvira Herzog ist erkältet und steht für das Ligaspiel beim 1. FC Köln am Montag um 18 Uhr auf der Kippe. Das zeigt die Kickbase-App seit Freitag an. Der Verein hat sich dazu bisher nicht geäußert.",
+    "Herzog stand in allen acht Ligaspielen und im Pokal gegen Köln über 90 Minuten im Tor. Auf der Bank saß zuletzt Mirja Kropp."
+   ],
+   "kickbase": "Herzog ist die klare Nummer eins. Fällt sie aus, ist Kropp die naheliegende Vertretung. Bis der Verein etwas sagt, führen wir Herzog gegen Köln nur noch als unsicher.",
+   "quellen": [
+    {
+     "name": "Kickbase (App, unbestätigt)",
+     "url": "https://www.kickbase.com"
+    }
+   ],
+   "foto": "fotos/rbl-elvira-herzog.webp",
+   "foto_credit": {
+    "autor": "RB Leipzig",
+    "lizenz": "mit Genehmigung: RB Leipzig",
+    "url": "https://rbleipzig.com/de/teams-frauen"
+   }
   },
   {
    "id": "endstand-b04-0711",
