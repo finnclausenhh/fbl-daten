@@ -2,7 +2,7 @@
  "meldungen": [
   {
    "id": "endstand-m05-0811",
-   "zeit": "2026-11-08T17:53",
+   "zeit": "2026-11-08T17:58",
    "spielerin": "Mainz 05 gegen VfB Stuttgart",
    "verein": "Mainz 05",
    "nr": "",
@@ -10,23 +10,32 @@
    "tags": [
     "SPIELBERICHT"
    ],
-   "headline": "Endstand: Mainz 05 1:3 VfB Stuttgart",
-   "kurz": "Endstand M05 1:3 VFB",
+   "headline": "VfB Stuttgart gewinnt 3:1 bei Mainz 05, Wieder trifft doppelt, dazu Hirano",
+   "kurz": "Stuttgart siegt 3:1 in Mainz",
    "text": [
     "VfB Stuttgart gewinnt bei Mainz 05 mit 3:1.",
     "Tore: 0:1 Hirano (17.), 1:1 Anstatt (75., Vorlage Bouziane), 1:2 Wieder (76., Vorlage Billa), 1:3 Wieder (82., Vorlage Rall).",
     "Gelb: Berg.",
-    "Noten und der ausführliche Bericht folgen."
+    "Beste Note im Spiel: Wieder (8,4).",
+    "Statistik (Mainz 05 zuerst): Torschüsse 11:10 (aufs Tor 3:4), Ballbesitz 49:51 %, Expected Goals 1,08:1,44, Ecken 4:8.",
+    "Beste Noten Mainz 05: Anstatt 7,5, Fetaj 6,4, Imai 6,2.",
+    "Beste Noten VfB Stuttgart: Wieder 8,4, Hirano 7,9, Billa 7,3.",
+    "Schwächste Note in der Startelf: Pageler (5,3)."
    ],
-   "kickbase": "",
+   "kickbase": "Herausragend: Wieder (8,4), Hirano (7,9), Anstatt (7,5).",
    "quellen": [
     {
      "name": "Sportschau",
      "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306268/1-fsv-mainz-05_vfb-stuttgart/liveticker"
+    },
+    {
+     "name": "API-Football (Noten, Statistik)",
+     "url": "https://www.api-football.com"
     }
    ],
    "quelle_live": true,
-   "partie_id": "12306268"
+   "partie_id": "12306268",
+   "noten": true
   },
   {
    "id": "comeback-georgieva-m05-0811",
