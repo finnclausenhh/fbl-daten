@@ -1,6 +1,74 @@
 {
- "stand": "2026-11-08T14:55",
+ "stand": "2026-11-08T15:46",
  "meldungen": [
+  {
+   "id": "freigang-sperre-0811",
+   "pid": "00077",
+   "zeit": "2026-11-08T15:24",
+   "spielerin": "Laura Freigang",
+   "verein": "Eintracht Frankfurt",
+   "nr": "",
+   "pos": "ST",
+   "tags": [
+    "SPERRE"
+   ],
+   "headline": "Freigang: keine Einigung, bis zu zwei Jahre Sperre drohen",
+   "kurz": "Freigang: Sperre von bis zu zwei Jahren droht",
+   "text": [
+    "Laut BILD gab es keine außergerichtliche Einigung zur drohenden Sperre von Laura Freigang wegen dreimaligen Fehlens bei Dopingkontrollen. Es drohen weiterhin bis zu zwei Jahre Sperre, ein Urteil wird in dem Bericht nicht genannt.",
+    "Beim 1:3 gegen Wolfsburg kamen ihr bei der Auswechslung die Tränen. Trainer Niko Arnautis sagte laut BILD, man kenne ihre Situation und sie gehe gut damit um."
+   ],
+   "kickbase": "Bislang steht Freigang auf dem Platz, eine Sperre ist nicht verhängt. Das Risiko eines längeren Ausfalls bleibt aber offen; der Stand stammt nur aus einer Quelle (BILD).",
+   "quellen": [
+    {
+     "name": "BILD",
+     "url": "https://www.bild.de/sport/fussball/frauenfussball-wieder-traenen-bei-frankfurt-star-freigang-6af082f7d487d5232edf0ee9"
+    }
+   ],
+   "foto": "fotos/sge-laura-freigang.webp",
+   "foto_credit": {
+    "autor": "Eintracht Frankfurt",
+    "lizenz": "mit Genehmigung: Eintracht Frankfurt",
+    "url": "https://frauen.eintracht.de/kader/"
+   }
+  },
+  {
+   "id": "redzepi-standards-0811",
+   "pid": "00347",
+   "zeit": "2026-11-08T14:54",
+   "spielerin": "Dafina Redzepi",
+   "verein": "VfB Stuttgart",
+   "nr": "",
+   "pos": "MF",
+   "tags": [
+    "STANDARD",
+    "SPERRE"
+   ],
+   "status": "gesperrt",
+   "headline": "Redzepi gesperrt: Ecken beim VfB offen",
+   "kurz": "Redzepi gesperrt, Ecken beim VfB offen",
+   "text": [
+    "Dafina Redzepi steht gegen Mainz 05 nicht im Kader. Sie wurde nach ihrer Roten Karte gegen Frankfurt vom DFB für ein Ligaspiel gesperrt und ist bei Stuttgart die erste Wahl bei Ecken.",
+    "Die nächste Option aus der Hierarchie, Hagel, sitzt nur auf der Bank. Wer die Ecken tritt, ist damit offen."
+   ],
+   "kickbase": "Bei Stuttgarter Ecken ist die Lage ohne Redzepi unklar. Mit der Rückkehr zum 10. Spieltag gegen Leverkusen ist sie wieder eine Option.",
+   "quellen": [
+    {
+     "name": "Sportschau (offizielle Aufstellung)",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306268/1-fsv-mainz-05_vfb-stuttgart/aufstellung"
+    },
+    {
+     "name": "DFB",
+     "url": "https://www.dfb.de/news/ein-spiel-sperre-fuer-stuttgarts-redzepi"
+    }
+   ],
+   "foto": "fotos/vfb-dafina-redzepi.webp",
+   "foto_credit": {
+    "autor": "VfB Stuttgart",
+    "lizenz": "mit Genehmigung: VfB Stuttgart",
+    "url": "https://www.vfb.de/de/1893/frauen/frauen/kader/saisonen/2026-2027/kader/?data=&mobile="
+   }
+  },
   {
    "id": "comeback-georgieva-m05-0811",
    "pid": "00274",
