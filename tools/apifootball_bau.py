@@ -230,10 +230,17 @@ def form_liste():
         voll = [n for n in e.get("no", []) if n[2] >= 46]
         starts = sum(1 for x in s["spiele"] if x.get("art") == "S")
         if len(voll) < 5 or starts < 5 or s.get("pos") == "TW": continue
-        l3 = sum(n[1] for n in voll[-3:]) / 3
-        vor = voll[:-3]; basis = sum(n[1] for n in vor) / len(vor)
-        diff = round(l3 - basis, 2)
         letzte = s["spiele"][-3:]
+        # Finn 08.11.2026 (Campbell 90/0/17 Min. stand im Aufwind): Form nur aus den letzten 3 Ligaspielen selbst.
+        # Pflicht: im letzten Spiel mindestens 46 Min. und in mindestens 2 der letzten 3; nicht ausgeschlossen/unwahrscheinlich.
+        md3 = {x.get("md") for x in letzte}
+        if (letzte[-1].get("min") or 0) < 46 or sum(1 for x in letzte if (x.get("min") or 0) >= 46) < 2: continue
+        if (s.get("prognose") or {}).get("st") in ("ausgeschlossen", "unwahrscheinlich"): continue
+        jetzt = [n for n in voll if n[0] in md3]; vor = [n for n in voll if n[0] not in md3 and n[0] < min(md3)]
+        if len(jetzt) < 2 or len(vor) < 2: continue
+        l3 = sum(n[1] for n in jetzt) / len(jetzt)
+        basis = sum(n[1] for n in vor) / len(vor)
+        diff = round(l3 - basis, 2)
         k = {"id": s["id"], "n": s["n"], "k": s["k"], "pos": s.get("pos"), "l3": round(l3, 2), "vorher": round(basis, 2), "diff": diff,
              "noten": [n[1] for n in voll[-5:]], "min3": [x.get("min", 0) for x in letzte],
              "prog": (s.get("prognose") or {}).get("st")}
