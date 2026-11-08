@@ -1,6 +1,33 @@
 {
- "stand": "2026-11-07T16:50",
+ "stand": "2026-11-08T12:40",
  "meldungen": [
+  {
+   "id": "aufstellung-folgt-ma12306286",
+   "zeit": "2026-11-08T12:40",
+   "spielerin": "Spielansetzung",
+   "verein": "Union Berlin",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "AUFSTELLUNG"
+   ],
+   "headline": "Aufstellung Union Berlin gegen TSG Hoffenheim folgt",
+   "kurz": "Aufstellung folgt, Anpfiff 14:00",
+   "text": [
+    "Anpfiff in der Liga ist um 14:00 Uhr. Die offizielle Aufstellung kommt meist rund 60 Minuten vorher, wir ergänzen sie hier automatisch, sobald sie veröffentlicht ist.",
+    "Bis dahin steht unsere Prognose im Spielplan bei der Partie."
+   ],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306286/1-fc-union-berlin_tsg-hoffenheim/aufstellung"
+    }
+   ],
+   "platzhalter": true,
+   "anstoss": "2026-11-08T14:00",
+   "partie_id": "12306286"
+  },
   {
    "id": "endstand-b04-0711",
    "zeit": "2026-11-07T16:02",
