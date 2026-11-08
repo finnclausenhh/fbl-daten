@@ -46,5 +46,18 @@
   "noten_da": "2026-11-07T15:58",
   "minuten_nach_abpfiff": 7,
   "bau_gestartet": "2026-11-07T15:58"
+ },
+ "12306286": {
+  "spiel": "FCU-TSG",
+  "anstoss": "2026-11-08T14:00",
+  "abpfiff_ca": "2026-11-08T15:53",
+  "fixture": 1593169,
+  "af_status": "FT",
+  "erste_pruefung": "2026-11-08T15:55",
+  "noten_zuletzt": 39,
+  "letzte_pruefung": "2026-11-08T15:55",
+  "noten_da": "2026-11-08T15:55",
+  "minuten_nach_abpfiff": 3,
+  "bau_gestartet": "2026-11-08T15:55"
  }
 }
