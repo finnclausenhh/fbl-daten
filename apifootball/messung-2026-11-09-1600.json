@@ -1,0 +1,17 @@
+{
+ "datum": "2026-11-09",
+ "spiele": [
+  1593167
+ ],
+ "erstmals": {
+  "1593167": {
+   "spiel": "FC Koln W - RB Leipzig W",
+   "anstoss": "2026-11-09T17:00:00+00:00",
+   "aufstellung_gesehen": "2026-11-09T16:36+00:00",
+   "minuten_vor_anpfiff": 23,
+   "mit_bank": true
+  }
+ },
+ "ohne_aufstellung_bis_anpfiff": [],
+ "abfragen": 15
+}
