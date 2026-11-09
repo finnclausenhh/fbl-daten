@@ -1,21 +1,17 @@
 {
  "meldungen": [
   {
-   "id": "aufstellung-folgt-ma12306277",
-   "zeit": "2026-11-09T16:40",
+   "id": "aufstellung-koe-0911",
+   "zeit": "2026-11-09T17:20",
    "spielerin": "Spielansetzung",
    "verein": "1. FC Köln",
    "nr": "",
    "pos": "Spielansetzung",
    "tags": [
-    "AUFSTELLUNG"
+    "TOP"
    ],
-   "headline": "Aufstellung 1. FC Köln gegen RB Leipzig folgt",
-   "kurz": "Aufstellung folgt, Anpfiff 18:00",
-   "text": [
-    "Anpfiff in der Liga ist um 18:00 Uhr. Die offizielle Aufstellung kommt meist rund 60 Minuten vorher, wir ergänzen sie hier automatisch, sobald sie veröffentlicht ist.",
-    "Bis dahin steht unsere Prognose im Spielplan bei der Partie."
-   ],
+   "headline": "Offizielle Aufstellung: 1. FC Köln gegen RB Leipzig",
+   "text": [],
    "kickbase": "",
    "quellen": [
     {
@@ -23,9 +19,360 @@
      "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306277/1-fc-koeln_rb-leipzig/aufstellung"
     }
    ],
-   "platzhalter": true,
-   "anstoss": "2026-11-09T18:00",
-   "partie_id": "12306277"
+   "aufstellung": {
+    "gegner": "RB Leipzig",
+    "formation": "3-3-2-2",
+    "startelf": [
+     {
+      "n": "Schmitz",
+      "p": "TW",
+      "pid": "00181"
+     },
+     {
+      "n": "Degen",
+      "p": "ABW",
+      "pid": "00185"
+     },
+     {
+      "n": "Bohnen",
+      "p": "ABW",
+      "pid": "00184"
+     },
+     {
+      "n": "Hegering",
+      "p": "ABW",
+      "pid": "00188"
+     },
+     {
+      "n": "Imping",
+      "p": "DM",
+      "pid": "00191",
+      "kp": "ABW"
+     },
+     {
+      "n": "Vogt",
+      "p": "DM",
+      "pid": "00203",
+      "kp": "MF"
+     },
+     {
+      "n": "Leimenstoll",
+      "p": "DM",
+      "pid": "00209",
+      "kp": "MF"
+     },
+     {
+      "n": "Feiersinger",
+      "p": "OM",
+      "pid": "00196",
+      "kp": "MF"
+     },
+     {
+      "n": "Elsen",
+      "p": "OM",
+      "pid": "00208",
+      "kp": "MF"
+     },
+     {
+      "n": "Bremer",
+      "p": "ST",
+      "pid": "00206"
+     },
+     {
+      "n": "Andrade",
+      "p": "ST",
+      "pid": "00205"
+     }
+    ],
+    "bank": [
+     {
+      "n": "Fuchs",
+      "p": "TW",
+      "pid": "00178",
+      "f": "neu"
+     },
+     {
+      "n": "Hendrich",
+      "p": "ABW",
+      "pid": "00189"
+     },
+     {
+      "n": "Donhauser",
+      "p": "ABW",
+      "pid": "00186"
+     },
+     {
+      "n": "Weber",
+      "p": "ABW",
+      "pid": "00195"
+     },
+     {
+      "n": "Schiffarth",
+      "p": "MF",
+      "pid": "00202"
+     },
+     {
+      "n": "Heiðarsdóttir",
+      "p": "MF",
+      "pid": "00197",
+      "f": "neu"
+     },
+     {
+      "n": "Kerschbaumer",
+      "p": "MF",
+      "pid": "00199",
+      "f": "neu"
+     },
+     {
+      "n": "Zeller",
+      "p": "ST",
+      "pid": "00212",
+      "f": "neu"
+     }
+    ],
+    "fehlt": [
+     {
+      "n": "Nelles",
+      "p": "TW",
+      "f": "raus",
+      "war": "Bank"
+     },
+     {
+      "n": "Schäfer",
+      "p": "MF",
+      "f": "raus",
+      "war": "Bank"
+     },
+     {
+      "n": "Zawistowska",
+      "p": "ST",
+      "f": "raus",
+      "war": "Bank"
+     },
+     {
+      "n": "Dübel",
+      "p": "TW"
+     },
+     {
+      "n": "Hoppe",
+      "p": "TW"
+     },
+     {
+      "n": "Schuldt",
+      "p": "TW"
+     },
+     {
+      "n": "Treede",
+      "p": "TW"
+     },
+     {
+      "n": "Gerhardt",
+      "p": "ABW"
+     },
+     {
+      "n": "Hokamp",
+      "p": "ABW"
+     },
+     {
+      "n": "Stenevik",
+      "p": "ABW"
+     },
+     {
+      "n": "Sterner",
+      "p": "MF"
+     },
+     {
+      "n": "Szaraz",
+      "p": "ABW"
+     },
+     {
+      "n": "Jessen",
+      "p": "MF"
+     },
+     {
+      "n": "Nachtigall",
+      "p": "MF"
+     },
+     {
+      "n": "Ziemer",
+      "p": "ST"
+     },
+     {
+      "n": "Elmazi",
+      "p": "ST"
+     },
+     {
+      "n": "Stolze",
+      "p": "ST"
+     }
+    ]
+   },
+   "quelle_live": true
+  },
+  {
+   "id": "aufstellung-rbl-0911",
+   "zeit": "2026-11-09T17:20",
+   "spielerin": "Spielansetzung",
+   "verein": "RB Leipzig",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "TOP"
+   ],
+   "headline": "Offizielle Aufstellung: RB Leipzig gegen 1. FC Köln",
+   "text": [],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306277/1-fc-koeln_rb-leipzig/aufstellung"
+    }
+   ],
+   "aufstellung": {
+    "gegner": "1. FC Köln",
+    "formation": "4-2-2-2",
+    "startelf": [
+     {
+      "n": "Waldbillig",
+      "p": "TW",
+      "pid": "00216",
+      "f": "neu"
+     },
+     {
+      "n": "Mathys",
+      "p": "ABW",
+      "pid": "00219"
+     },
+     {
+      "n": "Dudek",
+      "p": "ABW",
+      "pid": "00217"
+     },
+     {
+      "n": "Norheim",
+      "p": "ABW",
+      "pid": "00226",
+      "f": "neu"
+     },
+     {
+      "n": "Tuin",
+      "p": "ABW",
+      "pid": "00221"
+     },
+     {
+      "n": "Starke",
+      "p": "DM",
+      "pid": "00236",
+      "kp": "ST"
+     },
+     {
+      "n": "Pusztai",
+      "p": "DM",
+      "pid": "00227",
+      "kp": "MF"
+     },
+     {
+      "n": "van Dijk",
+      "p": "OM",
+      "pid": "00237",
+      "kp": "ST",
+      "f": "neu"
+     },
+     {
+      "n": "Schimmer",
+      "p": "OM",
+      "pid": "00234",
+      "kp": "ST",
+      "f": "neu"
+     },
+     {
+      "n": "Simonsson",
+      "p": "ST",
+      "pid": "00235"
+     },
+     {
+      "n": "Boboy",
+      "p": "ST",
+      "pid": "00230"
+     }
+    ],
+    "bank": [
+     {
+      "n": "Herzog",
+      "p": "TW",
+      "pid": "00213",
+      "f": "raus"
+     },
+     {
+      "n": "Veefkind",
+      "p": "ABW",
+      "pid": "00222"
+     },
+     {
+      "n": "Mertens",
+      "p": "ABW",
+      "pid": "00225",
+      "f": "raus"
+     },
+     {
+      "n": "Hulst",
+      "p": "ST",
+      "pid": "00231",
+      "f": "raus"
+     },
+     {
+      "n": "Pfister",
+      "p": "ST",
+      "pid": "00233"
+     },
+     {
+      "n": "Kleemann",
+      "p": "ST",
+      "pid": "00232",
+      "f": "neu"
+     }
+    ],
+    "fehlt": [
+     {
+      "n": "Lindner",
+      "p": "TW",
+      "f": "raus",
+      "war": "Bank"
+     },
+     {
+      "n": "Ásgeirsdóttir",
+      "p": "ST",
+      "f": "raus",
+      "i": "verletzt",
+      "war": "Startelf"
+     },
+     {
+      "n": "Kropp",
+      "p": "TW"
+     },
+     {
+      "n": "Marti",
+      "p": "ABW"
+     },
+     {
+      "n": "Németh",
+      "p": "ABW"
+     },
+     {
+      "n": "Joly",
+      "p": "MF"
+     },
+     {
+      "n": "Kramer",
+      "p": "MF"
+     },
+     {
+      "n": "Schasching",
+      "p": "MF"
+     }
+    ]
+   },
+   "quelle_live": true
   },
   {
    "id": "comeback-georgieva-m05-0811",
@@ -876,7 +1223,8 @@
   "aufstellung-folgt-ma12306280",
   "aufstellung-folgt-ma12306286",
   "martret-standards-0811",
-  "aufstellung-folgt-ma12306268"
+  "aufstellung-folgt-ma12306268",
+  "aufstellung-folgt-ma12306277"
  ],
  "ableitungen": [
   {
