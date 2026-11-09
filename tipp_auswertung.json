@@ -1,0 +1,70 @@
+{
+ "md": 9,
+ "news": [
+  {
+   "id": "tipp-fans-md9",
+   "zeit": "2026-11-09T20:05",
+   "tags": [
+    "SPIELT SIE?"
+   ],
+   "typ": "auswertung",
+   "headline": "Fans und Daten gleichauf: je 3 von 5 richtig",
+   "kurz": "Fans und Daten gleichauf: je 3 von 5 richtig",
+   "spielerin": "9. Spieltag",
+   "text": [
+    "Beim Tippspiel „Spielt sie?“ zum 9. Spieltag lagen die Fans bei 3 von 5 Fragen richtig, unsere Prognose bei 3.",
+    "Als Fan-Tipp zählt die Antwort mit den meisten Stimmen. 3 Fans haben mitgetippt."
+   ],
+   "grafik": {
+    "typ": "fansdaten",
+    "md": 9,
+    "fans": 3,
+    "daten": 3,
+    "n": 5,
+    "tipps": 3,
+    "zeilen": [
+     {
+      "frage": "Wer steht für Mahmutovic im Tor?",
+      "richtig": "van Eijk",
+      "fans": true,
+      "daten": true,
+      "fans_n": "van Eijk",
+      "fans_p": 100
+     },
+     {
+      "frage": "Zicai oder Bussy: Wer stürmt in Frankfurt?",
+      "richtig": "Zicai",
+      "fans": true,
+      "daten": true,
+      "fans_n": "Zicai",
+      "fans_p": 67
+     },
+     {
+      "frage": "Wer wird MVP des 9. Spieltags?",
+      "richtig": "Kramer",
+      "fans": true,
+      "daten": false,
+      "fans_n": "Kramer",
+      "fans_p": 100
+     },
+     {
+      "frage": "Trifft Peddemors zum 7. Mal?",
+      "richtig": "Ja",
+      "fans": false,
+      "daten": true,
+      "fans_n": "Nein",
+      "fans_p": 100
+     },
+     {
+      "frage": "Welche Torhüterin bleibt ohne Gegentor?",
+      "richtig": "Borggräfe",
+      "fans": null,
+      "daten": false,
+      "fans_n": null,
+      "fans_p": null
+     }
+    ]
+   }
+  }
+ ]
+}
