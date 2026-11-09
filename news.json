@@ -72,32 +72,30 @@
    }
   },
   {
-   "id": "gilles-potsi-0911",
-   "pid": "00008",
+   "id": "potsi-0911",
+   "pid": "00028",
    "zeit": "2026-11-09T18:03",
-   "spielerin": "Vanessa Gilles",
+   "spielerin": "Kassandra Potsi",
    "verein": "FC Bayern",
    "nr": "",
-   "pos": "ABW",
+   "pos": "ST",
    "tags": [
-    "UPDATE",
     "VERLETZUNG"
    ],
    "status": "verletzt",
-   "headline": "Gilles fehlt mit Muskelverletzung, auch Potsi fällt aus",
-   "kurz": "Gilles und Potsi fallen aus",
+   "headline": "Potsi fällt nach Schlag aufs Knie aus",
    "text": [
-    "Zur Verletzung von Vanessa Gilles gibt es neue Angaben: Laut SPORT1 handelt es sich um eine Muskelverletzung, sie fällt mehrere Wochen aus. Zusätzlich fällt Kassandra Potsi nach einem Schlag aufs Knie aus.",
-    "Sophie Proost fehlt weiterhin wegen einer Erkrankung."
+    "Kassandra Potsi fällt beim FC Bayern laut SPORT1 nach einem Schlag aufs Knie aus. Wie lange, ist noch offen.",
+    "Weiterhin fehlen Vanessa Gilles mit einer Muskelverletzung und Sophie Proost wegen einer Erkrankung."
    ],
-   "kickbase": "Gilles und Potsi sind kurzfristig nicht einzuplanen, bei Proost bleibt es beim bekannten Ausfall. Für Potsi ist die Ausfallzeit noch offen.",
+   "kickbase": "Potsi ist vorerst nicht einzuplanen, die Ausfallzeit ist offen.",
    "quellen": [
     {
      "name": "SPORT1",
      "url": "https://www.sport1.de/news/fussball/frauen-champions-league/2026/11/fc-bayern-schluesselspielerin-buehl-fit-fuer-psg-kracher"
     }
    ],
-   "foto": "fotos/fcb-vanessa-gilles.webp",
+   "foto": "fotos/fcb-kassandra-potsi.webp",
    "foto_credit": {
     "autor": "WOSOINSIDER",
     "lizenz": "Platzhalter (kein Vereinsfoto)",
@@ -117,17 +115,22 @@
     "VERLETZUNG"
    ],
    "status": "verletzt",
-   "headline": "Gilles fällt beim FC Bayern mehrere Wochen aus",
+   "headline": "Gilles fällt mit Muskelverletzung mehrere Wochen aus",
    "kurz": "Gilles fällt mehrere Wochen aus",
    "text": [
-    "Der FC Bayern muss laut Kicker mehrere Wochen auf Innenverteidigerin Vanessa Gilles verzichten. Art der Verletzung und genaue Ausfallzeit stehen in der Schlagzeile nicht, ein Vereinsstatement liegt noch nicht vor.",
-    "Gilles stand zuletzt am 6. November gegen Werder Bremen in der Startelf."
+    "Der FC Bayern muss laut Kicker mehrere Wochen auf Innenverteidigerin Vanessa Gilles verzichten. Ein Vereinsstatement liegt noch nicht vor.",
+    "Gilles stand zuletzt am 6. November gegen Werder Bremen in der Startelf.",
+    "Update 18:03: Auch SPORT1 berichtet über den Ausfall und nennt als Grund eine Muskelverletzung."
    ],
-   "kickbase": "Gilles ist in den nächsten Wochen nicht einzuplanen, in der Innenverteidigung des FC Bayern ist damit ein Platz offen. Die Ausfallzeit ist noch unbestätigt.",
+   "kickbase": "Gilles ist in den nächsten Wochen nicht einzuplanen, in der Innenverteidigung des FC Bayern ist damit ein Platz offen. Eine genaue Ausfallzeit nennt noch keine Quelle.",
    "quellen": [
     {
      "name": "Kicker",
      "url": "https://www.kicker.de/bayern-muss-mehrere-wochen-auf-gilles-verzichten-1270186/artikel"
+    },
+    {
+     "name": "SPORT1",
+     "url": "https://www.sport1.de/news/fussball/frauen-champions-league/2026/11/fc-bayern-schluesselspielerin-buehl-fit-fuer-psg-kracher"
     }
    ],
    "foto": "fotos/fcb-vanessa-gilles.webp",
