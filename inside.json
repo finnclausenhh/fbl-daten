@@ -252,7 +252,7 @@
      ]
     ],
     "text": "Mit Jessen nach Meniskus-OP lange raus ist sie Kölns einzige echte Stürmerin, 16 Schüsse in 8 Spielen.",
-    "kb": "Ihr Tor entschied am 31.10. das Pokalspiel gegen Leipzig (1:0). Am 9.11. kommt Leipzig (1,75 Gegentore pro Spiel) in der Liga nach Köln, wo Köln 9 von 12 Punkten holte.",
+    "kb": "Ihr Tor entschied am 31.10. das Pokalspiel gegen Leipzig (1:0). Am 9.11. legte sie beim 3:1 gegen Leipzig das 1:1 vor. Nächster Gegner ist Nürnberg am 15.11., Köln holte zu Hause 12 von 15 Punkten.",
     "next": {
      "k": "RBL",
      "ort": "H",
@@ -308,8 +308,8 @@
       0
      ]
     ],
-    "text": "Sechsmal 90 Minuten, dann zweimal in der Liga und im Pokal gegen Köln nicht im Kader. Einen Grund nannte Leipzig nicht.",
-    "kb": "Ecken übernimmt ohne sie Tuin, der Elfmeter ist offen. Nächster Gegner Köln kassiert 1,5 Tore pro Spiel.",
+    "text": "Sechsmal 90 Minuten, dann zweimal in der Liga und im Pokal gegen Köln nicht im Kader. Auch am 9.11. beim 1:3 in Köln stand sie nicht im Kader. Einen Grund nannte Leipzig nicht.",
+    "kb": "Ecken übernimmt ohne sie Tuin, der Elfmeter ist offen. Nächster Gegner Frankfurt (15.11.) kassierte in 8 Spielen erst 7 Tore.",
     "next": {
      "k": "KOE",
      "ort": "A",
@@ -863,23 +863,6 @@
  "spiele": {
   "spieltage": [
    {
-    "md": 9,
-    "partien": [
-     {
-      "heim": "KOE",
-      "gast": "RBL",
-      "fakten": [
-       "Köln zu Hause: <b>9 Punkte</b>, <b>7:2</b> Tore.",
-       "Leipzig verlor zuletzt <b>1:5</b> gegen Bayern.",
-       "Im Pokal gewann Köln am 31.10. gegen Leipzig <b>1:0</b>."
-      ],
-      "kb": "Bremer (4 Tore) ist Kölns Abschlussspielerin. Bei Leipzig hängt viel an der Rückkehr von Schasching.",
-      "datum": "Mo 09.11.",
-      "zeit": "18:00"
-     }
-    ]
-   },
-   {
     "md": 10,
     "partien": [
      {
@@ -934,7 +917,7 @@
       "zeit": "16:00",
       "fakten": [
        "Köln holte auswärts <b>3 Punkte</b> und kassierte <b>10</b> Tore in 4 Spielen.",
-       "Zu Hause steht Köln bei <b>9 Punkten</b> und 7:2 Toren."
+       "Zu Hause steht Köln bei <b>12 Punkten</b> und 10:3 Toren."
       ],
       "kb": "Köln punktet vor allem zu Hause, auswärts wackelt die Abwehr."
      },
@@ -996,7 +979,7 @@
       "datum": "Sa 21.11.",
       "zeit": "14:00",
       "fakten": [
-       "Köln zu Hause: <b>9 Punkte</b>, <b>7:2</b> Tore.",
+       "Köln zu Hause: <b>12 Punkte</b>, <b>10:3</b> Tore.",
        "Werder traf in allen <b>8</b> Ligaspielen.",
        "Werder holte auswärts <b>3 Punkte</b> aus 3 Spielen, zu Hause 13."
       ],
@@ -3407,5 +3390,5 @@
   "id": "punkt-md9",
   "text": "Spieltag 9 in 60 Sekunden"
  },
- "geprueft": "2026-11-08T22:46"
+ "geprueft": "2026-11-09T22:46"
 }
