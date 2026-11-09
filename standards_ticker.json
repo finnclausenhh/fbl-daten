@@ -1,5 +1,5 @@
 {
-"spiele": 62,
+"spiele": 63,
 "teams": {
 "FCB": [
 {
@@ -425,6 +425,22 @@
 {
 "k": "KOE",
 "n": "Carlotta Imping",
+"kopf": 1,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0,
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
+},
+{
+"k": "KOE",
+"n": "Pauline Bremer",
 "kopf": 1,
 "std_kopf": 0,
 "std_tore": 0,
@@ -1343,6 +1359,22 @@
 },
 {
 "k": "RBL",
+"n": "Nikée van Dijk",
+"kopf": 2,
+"std_kopf": 1,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0,
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
+},
+{
+"k": "RBL",
 "n": "Andrea Norheim",
 "kopf": 1,
 "std_kopf": 0,
@@ -1360,22 +1392,6 @@
 {
 "k": "RBL",
 "n": "Therese Simonsson",
-"kopf": 1,
-"std_kopf": 0,
-"std_tore": 0,
-"ecke_tritt": 0,
-"fs_tritt": 0,
-"std_kopftore": 0,
-"ecke_l": 0,
-"ecke_r": 0,
-"fs_l": 0,
-"fs_r": 0,
-"fs_direkt": 0,
-"fs_flanke": 0
-},
-{
-"k": "RBL",
-"n": "Nikée van Dijk",
 "kopf": 1,
 "std_kopf": 0,
 "std_tore": 0,
