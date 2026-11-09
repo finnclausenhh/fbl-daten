@@ -1,6 +1,39 @@
 {
- "stand": "2026-11-04",
+ "stand": "2026-11-10",
  "eintraege": [
+  {
+   "version": "0.24",
+   "datum": "2026-11-10",
+   "titel": "Live-Ergebnisse und neue Spielansicht",
+   "aenderungen": [
+    "Live: Während der Spiele zeigt die App Stand und Minute, im Feed ganz oben eine Live-Leiste mit allen laufenden Spielen, im Spielplan die Torschützinnen mit Vorlage",
+    "Live: In der Spielansicht stehen Tore, Vorlagen, Karten und Wechsel direkt auf dem Spielfeld, dazu die Statistik mit Torschüssen, Ballbesitz und erwarteten Toren",
+    "Spiele: Tore stehen einzeln mit Vorlage, Eigentor, Elfmeter und Freistoß, der Umschalter Heim und Gast bleibt auch nach Abpfiff, darunter Aufstellung mit Noten, Wechsel und Statistik",
+    "Spiele: Tor und Vorlage sitzen als kleine Kreise mit Leuchtring am Foto, die Reihen stehen weiter auseinander, lange Namen stehen zweizeilig statt kleiner",
+    "Spiele: Vor dem Anpfiff zeigt ein Ring, wie sicher wir uns bei der Aufstellung sind, darunter drei Kacheln mit den Schützinnen für Ecken, Freistöße und Elfmeter",
+    "Spiele: Wer eine Spielerin in der Prognose antippt, sieht eine kurze Zeile mit Stufe und Grund und kommt von dort ins Profil",
+    "Spiele: Direkte Duelle stehen als große Zahlen mit Toren und letztem Duell, der Fan-Tipp aus dem Tippspiel steht bis zur offiziellen Aufstellung dabei",
+    "Spielplan: Unter den Partien steht, ob die Aufstellungen schon da sind, am Spieltag ab wann sie kommen",
+    "Spielberichte: Die Meldung zum Endstand zeigt beide Aufstellungen mit Noten und Statistik und führt zum Spiel",
+    "Feed: Fällt eine Topspielerin aus, bekommt die Meldung automatisch das Schild TOP, Spielerinnen mit Status Abwesend haben ein eigenes Symbol",
+    "Feed: Eigene Meldungen und Module halten Abstand zu den echten News, das Tippspiel steht an drei Tagen je Runde ganz oben, am ersten Tag als Banner mit Fotos",
+    "Tippspiel: Alle Fragen kommen fest vom Server, Tipps werden gespeichert und zeigen den Fan-Anteil, neue Fragetypen wie MVP im Duell-Stil, die Frage steht auch im passenden Artikel",
+    "Tippspiel: Nach dem Spieltag zeigt eine Meldung Fans gegen Daten, wer öfter richtig lag",
+    "Meldungen: Bei Ausfällen steht der Kasten Für Kickbase mit Ampel, Wichtigkeit, wer für sie spielt und wie belastet die Konkurrenz ist, bei Rückkehr ein Fahrplan für die nächsten Spiele",
+    "Meldungen: Verletzungs-Meldungen zeigen den Status-Verlauf mit unserer Einschätzung, bei Kreuzbandriss als Monate mit Reha-Etappen",
+    "Meldungen: Standard-Meldungen zeigen das Standards-Spielfeld des Vereins",
+    "Auf den Punkt: Letzte Änderungen und Wackelkandidaten stehen in der Karte, nach dem Anpfiff steht Stand zum Anpfiff",
+    "Profil: Weitere Werte als Netz und Kacheln mit Platz in der Liga, verglichen mit Spielerinnen derselben Position, dazu Spielertyp, Spielstile, Abwehraktionen, Torbeteiligungen und bei Torhüterinnen Spiele zu null und gehaltene Elfmeter",
+    "Profil: Steckbrief mit Fußverteilung und Größe auf der Messlatte, Formkurve mit Gegnerwappen, Formurteil nur bei Spielzeit in den letzten drei Spielen",
+    "Profil: Leiste Mehr aus dem Kader mit vorheriger und nächster Spielerin, News ganz unten, Hinweise und Quellen zum Aufklappen",
+    "Vereinsseite: Kader mit Rollen Stammelf, Rotation, Joker und Ergänzung, Talente bis 19, Spielstile zum Antippen, Einsatzbalken und unten die Standards als Spielfeld",
+    "Statistik: Neuer Bereich Die Besten mit Reitern Tor, Abwehr, Mittelfeld und Sturm, Gesamtwert aus Statistik, Note und Spielzeit, dazu die Elfmeterliste der Liga",
+    "Statistik: Noten zählen überall erst ab 46 Minuten, neue Ranglisten für Torschüsse pro Spiel, Zweikampfquote, Passquote, Dribblings und Ballkontakte",
+    "Tabelle: Meister, Pokalsieger und Aufsteiger sind markiert",
+    "Inside: Wer schießt die Standards steht am Ende und führt zur Vereinsseite, die Elfmeter stehen jetzt in der Statistik",
+    "Inside: Die Prognose-Bilanz zeigt zusätzlich den Vergleich 24 Stunden vor Anpfiff"
+   ]
+  },
   {
    "version": "0.23",
    "datum": "2026-11-04",
