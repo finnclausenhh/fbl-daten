@@ -1,97 +1,98 @@
 {
  "modus": "live",
- "stand": "2026-11-08T07:26",
+ "stand": "2026-11-09T07:48",
  "hinweis": "Letzte veröffentlichte Prognose vor Anpfiff gegen offizielle Startelf. Quelle: Git-Historie von spielplan.json.",
  "gesamt": {
-  "teams": 10,
-  "elf_treffer_schnitt": 9.2,
-  "elf_quote": 0.836,
+  "teams": 14,
+  "elf_treffer_schnitt": 9.14,
+  "elf_quote": 0.831,
   "elf_verteilung": {
    "11": 1,
-   "10": 4,
+   "10": 6,
    "9": 3,
+   "8": 2,
    "7": 2
   },
   "je_stufe": {
    "sicher": {
-    "n": 40,
-    "begonnen": 39,
-    "quote": 0.975
+    "n": 63,
+    "begonnen": 60,
+    "quote": 0.952
    },
    "erwartet": {
-    "n": 62,
-    "begonnen": 49,
-    "quote": 0.79
+    "n": 80,
+    "begonnen": 63,
+    "quote": 0.787
    },
    "unsicher": {
-    "n": 59,
-    "begonnen": 20,
-    "quote": 0.339
+    "n": 84,
+    "begonnen": 26,
+    "quote": 0.31
    },
    "unwahrscheinlich": {
-    "n": 39,
-    "begonnen": 1,
-    "quote": 0.026
+    "n": 53,
+    "begonnen": 3,
+    "quote": 0.057
    },
    "ausgeschlossen": {
-    "n": 38,
+    "n": 51,
     "begonnen": 1,
-    "quote": 0.026
+    "quote": 0.02
    }
   },
   "kalibrierung": [
    {
     "ab_einsatzwert": 1.0,
-    "n": 42,
-    "begonnen": 40,
+    "n": 62,
+    "begonnen": 59,
     "quote": 0.952
    },
    {
     "ab_einsatzwert": 0.95,
-    "n": 48,
-    "begonnen": 46,
-    "quote": 0.958
+    "n": 71,
+    "begonnen": 67,
+    "quote": 0.944
    },
    {
     "ab_einsatzwert": 0.9,
-    "n": 57,
-    "begonnen": 51,
-    "quote": 0.895
+    "n": 82,
+    "begonnen": 74,
+    "quote": 0.902
    },
    {
     "ab_einsatzwert": 0.85,
-    "n": 69,
-    "begonnen": 59,
-    "quote": 0.855
+    "n": 101,
+    "begonnen": 89,
+    "quote": 0.881
    },
    {
     "ab_einsatzwert": 0.8,
-    "n": 77,
-    "begonnen": 67,
-    "quote": 0.87
+    "n": 113,
+    "begonnen": 98,
+    "quote": 0.867
    },
    {
     "ab_einsatzwert": 0.7,
-    "n": 96,
-    "begonnen": 81,
-    "quote": 0.844
+    "n": 138,
+    "begonnen": 115,
+    "quote": 0.833
    },
    {
     "ab_einsatzwert": 0.55,
-    "n": 117,
-    "begonnen": 94,
-    "quote": 0.803
+    "n": 163,
+    "begonnen": 129,
+    "quote": 0.791
    },
    {
     "ab_einsatzwert": 0.3,
-    "n": 156,
-    "begonnen": 107,
-    "quote": 0.686
+    "n": 215,
+    "begonnen": 146,
+    "quote": 0.679
    }
   ],
   "sicher_daneben_grund": {
-   "bank": 1,
-   "nicht im Kader": 0
+   "bank": 2,
+   "nicht im Kader": 1
   },
   "sicher_aber_nicht_begonnen": [
    {
@@ -100,43 +101,58 @@
     "n": "Blomqvist",
     "stufe": "sicher",
     "kader": "bank"
+   },
+   {
+    "md": 9,
+    "verein": "TSG Hoffenheim",
+    "n": "Laia Martret",
+    "stufe": "sicher",
+    "kader": "nicht im Kader"
+   },
+   {
+    "md": 9,
+    "verein": "VfB Stuttgart",
+    "n": "Hagel",
+    "stufe": "sicher",
+    "kader": "bank"
    }
   ]
  },
  "gesamt_24h": {
-  "teams": 10,
-  "elf_treffer_schnitt": 9.1,
-  "elf_quote": 0.827,
+  "teams": 14,
+  "elf_treffer_schnitt": 9.07,
+  "elf_quote": 0.825,
   "elf_verteilung": {
    "11": 1,
-   "10": 4,
+   "10": 6,
    "9": 3,
+   "8": 2,
    "7": 1,
    "6": 1
   },
   "je_stufe": {
    "sicher": {
-    "n": 40,
-    "begonnen": 39,
-    "quote": 0.975
+    "n": 63,
+    "begonnen": 60,
+    "quote": 0.952
    },
    "erwartet": {
-    "n": 67,
-    "begonnen": 51,
-    "quote": 0.761
+    "n": 85,
+    "begonnen": 65,
+    "quote": 0.765
    },
    "unsicher": {
-    "n": 56,
-    "begonnen": 19,
-    "quote": 0.339
+    "n": 81,
+    "begonnen": 25,
+    "quote": 0.309
    },
    "unwahrscheinlich": {
-    "n": 37,
-    "begonnen": 1,
-    "quote": 0.027
+    "n": 51,
+    "begonnen": 3,
+    "quote": 0.059
    },
    "ausgeschlossen": {
-    "n": 37,
+    "n": 50,
     "begonnen": 0,
     "quote": 0.0
    }
@@ -144,62 +160,76 @@
   "kalibrierung": [
    {
     "ab_einsatzwert": 1.0,
-    "n": 43,
-    "begonnen": 40,
-    "quote": 0.93
+    "n": 63,
+    "begonnen": 59,
+    "quote": 0.937
    },
    {
     "ab_einsatzwert": 0.95,
-    "n": 49,
-    "begonnen": 46,
-    "quote": 0.939
+    "n": 72,
+    "begonnen": 67,
+    "quote": 0.931
    },
    {
     "ab_einsatzwert": 0.9,
-    "n": 58,
-    "begonnen": 51,
-    "quote": 0.879
+    "n": 83,
+    "begonnen": 74,
+    "quote": 0.892
    },
    {
     "ab_einsatzwert": 0.85,
-    "n": 70,
-    "begonnen": 59,
-    "quote": 0.843
+    "n": 102,
+    "begonnen": 89,
+    "quote": 0.873
    },
    {
     "ab_einsatzwert": 0.8,
-    "n": 78,
-    "begonnen": 67,
-    "quote": 0.859
+    "n": 114,
+    "begonnen": 98,
+    "quote": 0.86
    },
    {
     "ab_einsatzwert": 0.7,
-    "n": 97,
-    "begonnen": 81,
-    "quote": 0.835
+    "n": 139,
+    "begonnen": 115,
+    "quote": 0.827
    },
    {
     "ab_einsatzwert": 0.55,
-    "n": 118,
-    "begonnen": 94,
-    "quote": 0.797
+    "n": 164,
+    "begonnen": 129,
+    "quote": 0.787
    },
    {
     "ab_einsatzwert": 0.3,
-    "n": 157,
-    "begonnen": 107,
-    "quote": 0.682
+    "n": 216,
+    "begonnen": 146,
+    "quote": 0.676
    }
   ],
   "sicher_daneben_grund": {
-   "bank": 1,
-   "nicht im Kader": 0
+   "bank": 2,
+   "nicht im Kader": 1
   },
   "sicher_aber_nicht_begonnen": [
    {
     "md": 9,
     "verein": "Eintracht Frankfurt",
     "n": "Blomqvist",
+    "stufe": "sicher",
+    "kader": "bank"
+   },
+   {
+    "md": 9,
+    "verein": "TSG Hoffenheim",
+    "n": "Laia Martret",
+    "stufe": "sicher",
+    "kader": "nicht im Kader"
+   },
+   {
+    "md": 9,
+    "verein": "VfB Stuttgart",
+    "n": "Hagel",
     "stufe": "sicher",
     "kader": "bank"
    }
@@ -296,101 +326,116 @@
   "sicher_aber_nicht_begonnen": []
  },
  "normale_woche": {
-  "teams": 9,
-  "elf_treffer_schnitt": 9.11,
-  "elf_quote": 0.828,
+  "teams": 13,
+  "elf_treffer_schnitt": 9.08,
+  "elf_quote": 0.825,
   "elf_verteilung": {
    "11": 1,
-   "10": 3,
+   "10": 5,
    "9": 3,
+   "8": 2,
    "7": 2
   },
   "je_stufe": {
    "sicher": {
-    "n": 40,
-    "begonnen": 39,
-    "quote": 0.975
+    "n": 63,
+    "begonnen": 60,
+    "quote": 0.952
    },
    "erwartet": {
-    "n": 51,
-    "begonnen": 39,
-    "quote": 0.765
+    "n": 69,
+    "begonnen": 53,
+    "quote": 0.768
    },
    "unsicher": {
-    "n": 54,
-    "begonnen": 19,
-    "quote": 0.352
+    "n": 79,
+    "begonnen": 25,
+    "quote": 0.316
    },
    "unwahrscheinlich": {
-    "n": 35,
-    "begonnen": 1,
-    "quote": 0.029
+    "n": 49,
+    "begonnen": 3,
+    "quote": 0.061
    },
    "ausgeschlossen": {
-    "n": 33,
+    "n": 46,
     "begonnen": 1,
-    "quote": 0.03
+    "quote": 0.022
    }
   },
   "kalibrierung": [
    {
     "ab_einsatzwert": 1.0,
-    "n": 37,
-    "begonnen": 35,
-    "quote": 0.946
+    "n": 57,
+    "begonnen": 54,
+    "quote": 0.947
    },
    {
     "ab_einsatzwert": 0.95,
-    "n": 42,
-    "begonnen": 40,
-    "quote": 0.952
+    "n": 65,
+    "begonnen": 61,
+    "quote": 0.938
    },
    {
     "ab_einsatzwert": 0.9,
-    "n": 51,
-    "begonnen": 45,
-    "quote": 0.882
+    "n": 76,
+    "begonnen": 68,
+    "quote": 0.895
    },
    {
     "ab_einsatzwert": 0.85,
-    "n": 63,
-    "begonnen": 53,
-    "quote": 0.841
+    "n": 95,
+    "begonnen": 83,
+    "quote": 0.874
    },
    {
     "ab_einsatzwert": 0.8,
-    "n": 71,
-    "begonnen": 61,
-    "quote": 0.859
+    "n": 107,
+    "begonnen": 92,
+    "quote": 0.86
    },
    {
     "ab_einsatzwert": 0.7,
-    "n": 87,
-    "begonnen": 74,
-    "quote": 0.851
+    "n": 129,
+    "begonnen": 108,
+    "quote": 0.837
    },
    {
     "ab_einsatzwert": 0.55,
-    "n": 103,
-    "begonnen": 83,
-    "quote": 0.806
+    "n": 149,
+    "begonnen": 118,
+    "quote": 0.792
    },
    {
     "ab_einsatzwert": 0.3,
-    "n": 140,
-    "begonnen": 96,
-    "quote": 0.686
+    "n": 199,
+    "begonnen": 135,
+    "quote": 0.678
    }
   ],
   "sicher_daneben_grund": {
-   "bank": 1,
-   "nicht im Kader": 0
+   "bank": 2,
+   "nicht im Kader": 1
   },
   "sicher_aber_nicht_begonnen": [
    {
     "md": 9,
     "verein": "Eintracht Frankfurt",
     "n": "Blomqvist",
+    "stufe": "sicher",
+    "kader": "bank"
+   },
+   {
+    "md": 9,
+    "verein": "TSG Hoffenheim",
+    "n": "Laia Martret",
+    "stufe": "sicher",
+    "kader": "nicht im Kader"
+   },
+   {
+    "md": 9,
+    "verein": "VfB Stuttgart",
+    "n": "Hagel",
     "stufe": "sicher",
     "kader": "bank"
    }
@@ -488,101 +533,116 @@
    "sicher_aber_nicht_begonnen": []
   },
   "9": {
-   "teams": 8,
+   "teams": 12,
    "elf_treffer_schnitt": 9.0,
    "elf_quote": 0.818,
    "elf_verteilung": {
     "11": 1,
-    "10": 2,
+    "10": 4,
     "9": 3,
+    "8": 2,
     "7": 2
    },
    "je_stufe": {
     "sicher": {
-     "n": 34,
-     "begonnen": 33,
-     "quote": 0.971
+     "n": 57,
+     "begonnen": 54,
+     "quote": 0.947
     },
     "erwartet": {
-     "n": 46,
-     "begonnen": 35,
-     "quote": 0.761
+     "n": 64,
+     "begonnen": 49,
+     "quote": 0.766
     },
     "unsicher": {
-     "n": 50,
-     "begonnen": 18,
-     "quote": 0.36
+     "n": 75,
+     "begonnen": 24,
+     "quote": 0.32
     },
     "unwahrscheinlich": {
-     "n": 30,
-     "begonnen": 1,
-     "quote": 0.033
+     "n": 44,
+     "begonnen": 3,
+     "quote": 0.068
     },
     "ausgeschlossen": {
-     "n": 31,
+     "n": 44,
      "begonnen": 1,
-     "quote": 0.032
+     "quote": 0.023
     }
    },
    "kalibrierung": [
     {
      "ab_einsatzwert": 1.0,
-     "n": 32,
-     "begonnen": 30,
-     "quote": 0.938
+     "n": 52,
+     "begonnen": 49,
+     "quote": 0.942
     },
     {
      "ab_einsatzwert": 0.95,
-     "n": 36,
-     "begonnen": 34,
-     "quote": 0.944
+     "n": 59,
+     "begonnen": 55,
+     "quote": 0.932
     },
     {
      "ab_einsatzwert": 0.9,
-     "n": 44,
-     "begonnen": 39,
-     "quote": 0.886
+     "n": 69,
+     "begonnen": 62,
+     "quote": 0.899
     },
     {
      "ab_einsatzwert": 0.85,
-     "n": 55,
-     "begonnen": 46,
-     "quote": 0.836
+     "n": 87,
+     "begonnen": 76,
+     "quote": 0.874
     },
     {
      "ab_einsatzwert": 0.8,
-     "n": 61,
-     "begonnen": 52,
-     "quote": 0.852
+     "n": 97,
+     "begonnen": 83,
+     "quote": 0.856
     },
     {
      "ab_einsatzwert": 0.7,
-     "n": 76,
-     "begonnen": 64,
-     "quote": 0.842
+     "n": 118,
+     "begonnen": 98,
+     "quote": 0.831
     },
     {
      "ab_einsatzwert": 0.55,
-     "n": 92,
-     "begonnen": 73,
-     "quote": 0.793
+     "n": 138,
+     "begonnen": 108,
+     "quote": 0.783
     },
     {
      "ab_einsatzwert": 0.3,
-     "n": 125,
-     "begonnen": 85,
-     "quote": 0.68
+     "n": 184,
+     "begonnen": 124,
+     "quote": 0.674
     }
    ],
    "sicher_daneben_grund": {
-    "bank": 1,
-    "nicht im Kader": 0
+    "bank": 2,
+    "nicht im Kader": 1
    },
    "sicher_aber_nicht_begonnen": [
     {
      "md": 9,
      "verein": "Eintracht Frankfurt",
      "n": "Blomqvist",
+     "stufe": "sicher",
+     "kader": "bank"
+    },
+    {
+     "md": 9,
+     "verein": "TSG Hoffenheim",
+     "n": "Laia Martret",
+     "stufe": "sicher",
+     "kader": "nicht im Kader"
+    },
+    {
+     "md": 9,
+     "verein": "VfB Stuttgart",
+     "n": "Hagel",
      "stufe": "sicher",
      "kader": "bank"
     }
