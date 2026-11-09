@@ -1,6 +1,72 @@
 {
- "stand": "2026-11-09T16:51",
+ "stand": "2026-11-09T18:48",
  "meldungen": [
+  {
+   "id": "buehl-viggosdottir-0911",
+   "pid": "00023",
+   "zeit": "2026-11-09T18:03",
+   "spielerin": "Klara Bühl",
+   "verein": "FC Bayern",
+   "nr": "",
+   "pos": "ST",
+   "tags": [
+    "TOP",
+    "RÜCKKEHR"
+   ],
+   "status": "fit",
+   "headline": "Bühl und Viggósdóttir stehen gegen PSG bereit",
+   "kurz": "Bühl und Viggósdóttir wieder fit",
+   "text": [
+    "Beim FC Bayern sind Klara Bühl und Kapitänin Glódís Viggósdóttir vor dem Champions-League-Spiel bei Paris Saint-Germain am Dienstag um 21 Uhr zurück. Bühl stand nach zwei Spielen Pause wegen Belastungssteuerung wieder zur Verfügung, Viggósdóttir ist nach Knieproblemen laut SPORT1 wieder fit.",
+    "Beide fehlten zuletzt im Liga-Spiel gegen Werder Bremen. Ob sie in Paris in der Startelf stehen, ist offen."
+   ],
+   "kickbase": "Beide sind für den nächsten Spieltag wieder einzuplanen. Die Startelf gegen PSG ist noch nicht bekannt, für die Liga zählt der Kader zum nächsten Spieltag.",
+   "quellen": [
+    {
+     "name": "SPORT1",
+     "url": "https://www.sport1.de/news/fussball/frauen-champions-league/2026/11/fc-bayern-schluesselspielerin-buehl-fit-fuer-psg-kracher"
+    }
+   ],
+   "foto": "fotos/fcb-klara-buhl.webp",
+   "foto_credit": {
+    "autor": "Steffen Prößdorf",
+    "lizenz": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:2023-07-03_Fussball,_Frauen,_Deutsche_Nationalmannschaft,_Media_Day_1DX_6563_by_Stepro-2.jpg"
+   }
+  },
+  {
+   "id": "gilles-potsi-0911",
+   "pid": "00008",
+   "zeit": "2026-11-09T18:03",
+   "spielerin": "Vanessa Gilles",
+   "verein": "FC Bayern",
+   "nr": "",
+   "pos": "ABW",
+   "tags": [
+    "UPDATE",
+    "VERLETZUNG"
+   ],
+   "status": "verletzt",
+   "headline": "Gilles fehlt mit Muskelverletzung, auch Potsi fällt aus",
+   "kurz": "Gilles und Potsi fallen aus",
+   "text": [
+    "Zur Verletzung von Vanessa Gilles gibt es neue Angaben: Laut SPORT1 handelt es sich um eine Muskelverletzung, sie fällt mehrere Wochen aus. Zusätzlich fällt Kassandra Potsi nach einem Schlag aufs Knie aus.",
+    "Sophie Proost fehlt weiterhin wegen einer Erkrankung."
+   ],
+   "kickbase": "Gilles und Potsi sind kurzfristig nicht einzuplanen, bei Proost bleibt es beim bekannten Ausfall. Für Potsi ist die Ausfallzeit noch offen.",
+   "quellen": [
+    {
+     "name": "SPORT1",
+     "url": "https://www.sport1.de/news/fussball/frauen-champions-league/2026/11/fc-bayern-schluesselspielerin-buehl-fit-fuer-psg-kracher"
+    }
+   ],
+   "foto": "fotos/fcb-vanessa-gilles.webp",
+   "foto_credit": {
+    "autor": "WOSOINSIDER",
+    "lizenz": "Platzhalter (kein Vereinsfoto)",
+    "url": "https://fcbayern.com/frauen/de/teams/1.-mannschaft"
+   }
+  },
   {
    "id": "gilles-0911",
    "pid": "00008",
