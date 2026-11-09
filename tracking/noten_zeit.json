@@ -72,5 +72,18 @@
   "noten_da": "2026-11-08T17:53",
   "minuten_nach_abpfiff": 3,
   "bau_gestartet": "2026-11-08T17:53"
+ },
+ "12306277": {
+  "spiel": "KOE-RBL",
+  "anstoss": "2026-11-09T18:00",
+  "abpfiff_ca": "2026-11-09T19:53",
+  "fixture": 1593167,
+  "af_status": "FT",
+  "erste_pruefung": "2026-11-09T19:54",
+  "noten_zuletzt": 36,
+  "letzte_pruefung": "2026-11-09T19:54",
+  "noten_da": "2026-11-09T19:54",
+  "minuten_nach_abpfiff": 2,
+  "bau_gestartet": "2026-11-09T19:54"
  }
 }
