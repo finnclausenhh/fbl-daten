@@ -3,7 +3,7 @@
  "meldungen": [
   {
    "id": "endstand-koe-0911",
-   "zeit": "2026-11-09T19:54",
+   "zeit": "2026-11-09T19:59",
    "spielerin": "1. FC Köln gegen RB Leipzig",
    "verein": "1. FC Köln",
    "nr": "",
@@ -11,23 +11,32 @@
    "tags": [
     "SPIELBERICHT"
    ],
-   "headline": "Endstand: 1. FC Köln 3:1 RB Leipzig",
-   "kurz": "Endstand KOE 3:1 RBL",
+   "headline": "1. FC Köln gewinnt 3:1 gegen RB Leipzig, Andrade trifft doppelt, dazu Leimenstoll",
+   "kurz": "Köln schlägt Leipzig 3:1",
    "text": [
     "1. FC Köln gewinnt gegen RB Leipzig mit 3:1.",
     "Tore: 0:1 Schmitz (20., Eigentor), 1:1 Andrade (38., Vorlage Bremer), 2:1 Leimenstoll (40., Vorlage Imping), 3:1 Andrade (57., Vorlage Degen).",
     "Gelb: Schimmer, Degen.",
-    "Noten und der ausführliche Bericht folgen."
+    "Beste Note im Spiel: Andrade (8,9).",
+    "Statistik (1. FC Köln zuerst): Torschüsse 22:8 (aufs Tor 5:5), Ballbesitz 53:47 %, Expected Goals 2,29:0,52, Ecken 10:6.",
+    "Beste Noten 1. FC Köln: Andrade 8,9, Leimenstoll 7,2, Bremer 7,1.",
+    "Beste Noten RB Leipzig: Simonsson 6,6, Schimmer 6,3, Boboy 6,3.",
+    "Schwächste Note in der Startelf: Mathys (5,5)."
    ],
-   "kickbase": "",
+   "kickbase": "Herausragend: Andrade (8,9). Bei RB Leipzig kam niemand über 6,6.",
    "quellen": [
     {
      "name": "Sportschau",
      "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306277/1-fc-koeln_rb-leipzig/liveticker"
+    },
+    {
+     "name": "API-Football (Noten, Statistik)",
+     "url": "https://www.api-football.com"
     }
    ],
    "quelle_live": true,
-   "partie_id": "12306277"
+   "partie_id": "12306277",
+   "noten": true
   },
   {
    "id": "buehl-viggosdottir-0911",
