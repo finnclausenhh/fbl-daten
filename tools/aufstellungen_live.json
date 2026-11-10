@@ -1,21 +1,18 @@
 {
  "meldungen": [
   {
-   "id": "aufstellung-folgt-ma12537195",
-   "zeit": "2026-11-10T19:40",
+   "id": "aufstellung-cl-fcb-1011",
+   "zeit": "2026-11-10T19:58",
    "spielerin": "Spielansetzung",
    "verein": "FC Bayern",
    "nr": "",
    "pos": "Spielansetzung",
    "tags": [
-    "AUFSTELLUNG",
     "EUROPAPOKAL"
    ],
-   "headline": "Aufstellung Paris Saint Germain gegen FC Bayern folgt",
-   "kurz": "Aufstellung folgt, Anpfiff 21:00",
+   "headline": "Offizielle Aufstellung: FC Bayern gegen Paris Saint Germain",
    "text": [
-    "Anpfiff in der Champions League ist um 21:00 Uhr. Die offizielle Aufstellung kommt meist rund 60 Minuten vorher, wir ergänzen sie hier automatisch, sobald sie veröffentlicht ist.",
-    "Für Pokal- und Europapokalspiele gibt es keine Prognose, die Aufstellung kommt hier automatisch."
+    "Nicht im Spieltagskader, obwohl im letzten Ligaspiel dabei: van Eijk, Mattner-Trembleau, Naschenweng, Alara, Imade. Einen Grund nennt bisher keine Quelle."
    ],
    "kickbase": "",
    "quellen": [
@@ -24,8 +21,284 @@
      "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/uefa-champions-league-frauen/ma12537195/paris-saint-germain_bayern-muenchen/aufstellung"
     }
    ],
-   "platzhalter": true,
-   "anstoss": "2026-11-10T21:00"
+   "aufstellung": {
+    "gegner": "Paris Saint Germain",
+    "formation": "4-2-3-1",
+    "startelf": [
+     {
+      "n": "Mahmutovic",
+      "p": "TW",
+      "pid": "00003",
+      "f": "neu"
+     },
+     {
+      "n": "Gwinn",
+      "p": "ABW",
+      "pid": "00009",
+      "f": "neu"
+     },
+     {
+      "n": "Ballisager",
+      "p": "ABW",
+      "pid": "00005"
+     },
+     {
+      "n": "Eriksson",
+      "p": "ABW",
+      "pid": "00007",
+      "f": "neu"
+     },
+     {
+      "n": "Kett",
+      "p": "ABW",
+      "pid": "00011",
+      "f": "neu"
+     },
+     {
+      "n": "Tanikawa",
+      "p": "DM",
+      "pid": "00021",
+      "kp": "MF",
+      "f": "neu"
+     },
+     {
+      "n": "Amani",
+      "p": "DM",
+      "pid": "00016",
+      "kp": "MF"
+     },
+     {
+      "n": "Dallmann",
+      "p": "OM",
+      "pid": "00017",
+      "kp": "MF"
+     },
+     {
+      "n": "Harder",
+      "p": "OM",
+      "pid": "00025",
+      "kp": "MF"
+     },
+     {
+      "n": "Bühl",
+      "p": "OM",
+      "pid": "00023",
+      "kp": "ST",
+      "f": "neu"
+     },
+     {
+      "n": "Damnjanović",
+      "p": "ST",
+      "pid": "00024",
+      "f": "neu"
+     }
+    ],
+    "bank": [
+     {
+      "n": "Charlier",
+      "p": "MF",
+      "pid": "",
+      "f": "neu"
+     },
+     {
+      "n": "Vitória Yaya",
+      "p": "MF",
+      "pid": "",
+      "f": "neu"
+     },
+     {
+      "n": "Imarazene",
+      "p": "MF",
+      "pid": "",
+      "f": "neu"
+     },
+     {
+      "n": "Jourde",
+      "p": "MF",
+      "pid": "",
+      "f": "neu"
+     },
+     {
+      "n": "Le Roux",
+      "p": "MF",
+      "pid": "",
+      "f": "neu"
+     },
+     {
+      "n": "Morissaint",
+      "p": "MF",
+      "pid": "",
+      "f": "neu"
+     }
+    ],
+    "fehlt": [
+     {
+      "n": "Alara",
+      "p": "MF",
+      "f": "raus",
+      "war": "Startelf"
+     },
+     {
+      "n": "Dunst",
+      "p": "MF",
+      "f": "raus",
+      "war": "Bank"
+     },
+     {
+      "n": "Gilles",
+      "p": "ABW",
+      "f": "raus",
+      "i": "verletzt",
+      "war": "Startelf"
+     },
+     {
+      "n": "Imade",
+      "p": "ST",
+      "f": "raus",
+      "war": "Startelf"
+     },
+     {
+      "n": "Klink",
+      "p": "TW",
+      "f": "raus",
+      "war": "Bank"
+     },
+     {
+      "n": "Mattner-Trembleau",
+      "p": "ABW",
+      "f": "raus",
+      "war": "Startelf"
+     },
+     {
+      "n": "Naschenweng",
+      "p": "ABW",
+      "f": "raus",
+      "war": "Startelf"
+     },
+     {
+      "n": "Potsi",
+      "p": "ST",
+      "f": "raus",
+      "i": "verletzt",
+      "war": "Startelf"
+     },
+     {
+      "n": "Zadrazil",
+      "p": "MF",
+      "f": "raus",
+      "war": "Bank"
+     },
+     {
+      "n": "van Eijk",
+      "p": "TW",
+      "f": "raus",
+      "war": "Startelf"
+     },
+     {
+      "n": "Klein",
+      "p": "TW"
+     },
+     {
+      "n": "Dafinger",
+      "p": "ABW"
+     },
+     {
+      "n": "Kappes",
+      "p": "ABW"
+     },
+     {
+      "n": "Viggósdóttir",
+      "p": "ABW",
+      "i": "verletzt"
+     },
+     {
+      "n": "Wegscheider",
+      "p": "ABW"
+     },
+     {
+      "n": "Oberdorf",
+      "p": "MF"
+     },
+     {
+      "n": "Proost",
+      "p": "MF",
+      "i": "fraglich"
+     },
+     {
+      "n": "Rauscha",
+      "p": "ST"
+     }
+    ],
+    "wettbewerb": "Champions League"
+   },
+   "quelle_live": true,
+   "ableitungen": [
+    {
+     "verein": "FC Bayern",
+     "n": "van Eijk",
+     "spielerin": "Regina van Eijk",
+     "war": "Startelf",
+     "zeit": "2026-11-10T21:00",
+     "gegner": "Paris Saint Germain",
+     "wettbewerb": "Champions League",
+     "quelle": "https://www.sportschau.de/live-und-ergebnisse/fussball/uefa-champions-league-frauen/ma12537195/paris-saint-germain_bayern-muenchen/aufstellung",
+     "delta": -1,
+     "bis": "2026-11-20",
+     "grund": "stand am 10.11. gegen Paris Saint Germain nicht im Spieltagskader, obwohl im letzten Ligaspiel in der Startelf; Grund nicht bekannt"
+    },
+    {
+     "verein": "FC Bayern",
+     "n": "Mattner-Trembleau",
+     "spielerin": "Sarah Mattner-Trembleau",
+     "war": "Startelf",
+     "zeit": "2026-11-10T21:00",
+     "gegner": "Paris Saint Germain",
+     "wettbewerb": "Champions League",
+     "quelle": "https://www.sportschau.de/live-und-ergebnisse/fussball/uefa-champions-league-frauen/ma12537195/paris-saint-germain_bayern-muenchen/aufstellung",
+     "delta": -1,
+     "bis": "2026-11-20",
+     "grund": "stand am 10.11. gegen Paris Saint Germain nicht im Spieltagskader, obwohl im letzten Ligaspiel in der Startelf; Grund nicht bekannt"
+    },
+    {
+     "verein": "FC Bayern",
+     "n": "Naschenweng",
+     "spielerin": "Katharina Naschenweng",
+     "war": "Startelf",
+     "zeit": "2026-11-10T21:00",
+     "gegner": "Paris Saint Germain",
+     "wettbewerb": "Champions League",
+     "quelle": "https://www.sportschau.de/live-und-ergebnisse/fussball/uefa-champions-league-frauen/ma12537195/paris-saint-germain_bayern-muenchen/aufstellung",
+     "delta": -1,
+     "bis": "2026-11-20",
+     "grund": "stand am 10.11. gegen Paris Saint Germain nicht im Spieltagskader, obwohl im letzten Ligaspiel in der Startelf; Grund nicht bekannt"
+    },
+    {
+     "verein": "FC Bayern",
+     "n": "Alara",
+     "spielerin": "Alara",
+     "war": "Startelf",
+     "zeit": "2026-11-10T21:00",
+     "gegner": "Paris Saint Germain",
+     "wettbewerb": "Champions League",
+     "quelle": "https://www.sportschau.de/live-und-ergebnisse/fussball/uefa-champions-league-frauen/ma12537195/paris-saint-germain_bayern-muenchen/aufstellung",
+     "delta": -1,
+     "bis": "2026-11-20",
+     "grund": "stand am 10.11. gegen Paris Saint Germain nicht im Spieltagskader, obwohl im letzten Ligaspiel in der Startelf; Grund nicht bekannt"
+    },
+    {
+     "verein": "FC Bayern",
+     "n": "Imade",
+     "spielerin": "Edna Imade",
+     "war": "Startelf",
+     "zeit": "2026-11-10T21:00",
+     "gegner": "Paris Saint Germain",
+     "wettbewerb": "Champions League",
+     "quelle": "https://www.sportschau.de/live-und-ergebnisse/fussball/uefa-champions-league-frauen/ma12537195/paris-saint-germain_bayern-muenchen/aufstellung",
+     "delta": -1,
+     "bis": "2026-11-20",
+     "grund": "stand am 10.11. gegen Paris Saint Germain nicht im Spieltagskader, obwohl im letzten Ligaspiel in der Startelf; Grund nicht bekannt"
+    }
+   ]
   },
   {
    "id": "endstand-koe-0911",
@@ -457,7 +730,8 @@
   "aufstellung-folgt-ma12306286",
   "martret-standards-0811",
   "aufstellung-folgt-ma12306268",
-  "aufstellung-folgt-ma12306277"
+  "aufstellung-folgt-ma12306277",
+  "aufstellung-folgt-ma12537195"
  ],
  "ableitungen": [
   {
@@ -563,6 +837,71 @@
    "delta": -1,
    "bis": "2026-11-18",
    "grund": "stand am 08.11. gegen Union Berlin nicht im Spieltagskader, obwohl im letzten Ligaspiel in der Startelf; Grund nicht bekannt"
+  },
+  {
+   "verein": "FC Bayern",
+   "n": "van Eijk",
+   "spielerin": "Regina van Eijk",
+   "war": "Startelf",
+   "zeit": "2026-11-10T21:00",
+   "gegner": "Paris Saint Germain",
+   "wettbewerb": "Champions League",
+   "quelle": "https://www.sportschau.de/live-und-ergebnisse/fussball/uefa-champions-league-frauen/ma12537195/paris-saint-germain_bayern-muenchen/aufstellung",
+   "delta": -1,
+   "bis": "2026-11-20",
+   "grund": "stand am 10.11. gegen Paris Saint Germain nicht im Spieltagskader, obwohl im letzten Ligaspiel in der Startelf; Grund nicht bekannt"
+  },
+  {
+   "verein": "FC Bayern",
+   "n": "Mattner-Trembleau",
+   "spielerin": "Sarah Mattner-Trembleau",
+   "war": "Startelf",
+   "zeit": "2026-11-10T21:00",
+   "gegner": "Paris Saint Germain",
+   "wettbewerb": "Champions League",
+   "quelle": "https://www.sportschau.de/live-und-ergebnisse/fussball/uefa-champions-league-frauen/ma12537195/paris-saint-germain_bayern-muenchen/aufstellung",
+   "delta": -1,
+   "bis": "2026-11-20",
+   "grund": "stand am 10.11. gegen Paris Saint Germain nicht im Spieltagskader, obwohl im letzten Ligaspiel in der Startelf; Grund nicht bekannt"
+  },
+  {
+   "verein": "FC Bayern",
+   "n": "Naschenweng",
+   "spielerin": "Katharina Naschenweng",
+   "war": "Startelf",
+   "zeit": "2026-11-10T21:00",
+   "gegner": "Paris Saint Germain",
+   "wettbewerb": "Champions League",
+   "quelle": "https://www.sportschau.de/live-und-ergebnisse/fussball/uefa-champions-league-frauen/ma12537195/paris-saint-germain_bayern-muenchen/aufstellung",
+   "delta": -1,
+   "bis": "2026-11-20",
+   "grund": "stand am 10.11. gegen Paris Saint Germain nicht im Spieltagskader, obwohl im letzten Ligaspiel in der Startelf; Grund nicht bekannt"
+  },
+  {
+   "verein": "FC Bayern",
+   "n": "Alara",
+   "spielerin": "Alara",
+   "war": "Startelf",
+   "zeit": "2026-11-10T21:00",
+   "gegner": "Paris Saint Germain",
+   "wettbewerb": "Champions League",
+   "quelle": "https://www.sportschau.de/live-und-ergebnisse/fussball/uefa-champions-league-frauen/ma12537195/paris-saint-germain_bayern-muenchen/aufstellung",
+   "delta": -1,
+   "bis": "2026-11-20",
+   "grund": "stand am 10.11. gegen Paris Saint Germain nicht im Spieltagskader, obwohl im letzten Ligaspiel in der Startelf; Grund nicht bekannt"
+  },
+  {
+   "verein": "FC Bayern",
+   "n": "Imade",
+   "spielerin": "Edna Imade",
+   "war": "Startelf",
+   "zeit": "2026-11-10T21:00",
+   "gegner": "Paris Saint Germain",
+   "wettbewerb": "Champions League",
+   "quelle": "https://www.sportschau.de/live-und-ergebnisse/fussball/uefa-champions-league-frauen/ma12537195/paris-saint-germain_bayern-muenchen/aufstellung",
+   "delta": -1,
+   "bis": "2026-11-20",
+   "grund": "stand am 10.11. gegen Paris Saint Germain nicht im Spieltagskader, obwohl im letzten Ligaspiel in der Startelf; Grund nicht bekannt"
   }
  ]
 }
