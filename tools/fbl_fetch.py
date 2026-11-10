@@ -259,8 +259,19 @@ def lies_aufstellung(ma, basis=None):
     bank = tok[tok.index("Reservebank") + 1: tok.index("Trainer")] if "Reservebank" in tok and "Trainer" in tok else []
     heim, gast = ma.split("/")[1].split("_")
     # Bank der Heimelf steht vor der Bank der Gäste. Trennstelle: erste Bankspielerin aus dem Gästekader.
+    # Ist nur ein Kader bekannt (Champions League: nur der Bundesliga-Verein), trennt der bekannte Kader.
+    # Fehlt eine Bank noch ganz (Sportschau 10.11.2026: nur PSG-Bank, Bayern-Bank kam später), bleibt diese Seite leer
+    # statt die Liste in der Mitte zu teilen (sonst bekam Bayern die halbe PSG-Bank).
+    def im(n, kader):
+        return norm(n.split()[-1]).strip() in kader
     gast_namen = KADER_NACH_SLUG.get(gast, set())
-    halb = next((j for j, n in enumerate(bank) if norm(n.split()[-1]).strip() in gast_namen), (len(bank) + 1) // 2)
+    heim_namen = KADER_NACH_SLUG.get(heim, set())
+    if gast_namen:
+        halb = next((j for j, n in enumerate(bank) if im(n, gast_namen)), len(bank))
+    elif heim_namen:
+        halb = next((j for j, n in enumerate(bank) if not im(n, heim_namen)), len(bank))
+    else:
+        halb = (len(bank) + 1) // 2
     return {"heim": heim, "gast": gast, "beendet": beendet,
             "startelf_heim": namen[:11], "startelf_gast": namen[11:22],
             "bank_heim": bank[:halb], "bank_gast": bank[halb:]}
