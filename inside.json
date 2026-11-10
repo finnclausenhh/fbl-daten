@@ -7,7 +7,7 @@
    {
     "art": "risk",
     "label": "Risiko",
-    "text": "Der FC Bayern spielt am Dienstag in Paris und vier Tage später in Wolfsburg. Gilles (Muskelverletzung) und Potsi (Knie) fallen aus, beide begannen gegen Werder. Viggósdóttir, Bühl und Mahmutovic sind zurück."
+    "text": "Der FC Bayern gewann am Dienstag 2:1 in Paris und spielt vier Tage später in Wolfsburg. Gilles (Muskelverletzung) und Potsi (Knie) fallen aus, beide begannen gegen Werder. Viggósdóttir, Bühl und Mahmutovic sind zurück."
    },
    {
     "art": "chance",
@@ -92,7 +92,7 @@
      ]
     ],
     "text": "Elf Tore in neun Ligaspielen, an den Spieltagen 7 bis 9 traf sie jeweils zweimal. Sie spielte jedes Ligaspiel über 90 Minuten.",
-    "kb": "Nächster Gegner ist der FC Bayern (0,89 Gegentore pro Spiel, bester Wert der Liga), davor spielt Wolfsburg in Rotterdam.",
+    "kb": "Nächster Gegner ist der FC Bayern (0,89 Gegentore pro Spiel, bester Wert der Liga). Wolfsburg spielte am Dienstag in Rotterdam.",
     "next": {
      "k": "FCB",
      "ort": "H",
@@ -1044,7 +1044,7 @@
       "fakten": [
        "Wolfsburg holte zu Hause <b>9 Punkte</b> aus 3 Spielen (8:3 Tore).",
        "FC Bayern holte auswärts <b>12 Punkte</b> aus 4 Spielen (13:4 Tore).",
-       "Beide spielen am Dienstag Europapokal: Wolfsburg in Rotterdam, FC Bayern in Paris (<b>689 km</b>)."
+       "Beide spielten am Dienstag Europapokal: Wolfsburg in Rotterdam, FC Bayern gewann <b>2:1</b> in Paris (689 km)."
       ],
       "kb": "Topspiel nach englischer Woche. Im Topspiel erwarten wir eher die A-Elf, bei Bayern fehlen Gilles und Potsi verletzt."
      },
@@ -4175,5 +4175,5 @@
   }
  ],
  "punkt_hinweis": null,
- "geprueft": "2026-11-09T22:46"
+ "geprueft": "2026-11-10T23:47"
 }

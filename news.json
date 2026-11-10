@@ -1,6 +1,198 @@
 {
- "stand": "2026-11-10T22:50",
+ "stand": "2026-11-10T23:46",
  "meldungen": [
+  {
+   "id": "buehl-psg-1011",
+   "pid": "00023",
+   "zeit": "2026-11-10T23:05",
+   "spielerin": "Klara Bühl",
+   "verein": "FC Bayern",
+   "nr": "",
+   "pos": "ST",
+   "tags": [
+    "EUROPAPOKAL",
+    "SPIELBERICHT"
+   ],
+   "status": "fit",
+   "headline": "Bühl trifft beim 2:1 des FC Bayern in Paris",
+   "kurz": "Bühl trifft beim 2:1 in Paris",
+   "text": [
+    "Der FC Bayern hat in der Champions League bei Paris Saint-Germain 2:1 gewonnen. Nach einem Eigentor von PSG-Torhüterin Katarzyna Kiedrzynek in der 29. Minute erhöhte Klara Bühl in der 40. Minute nach Vorlage von Pernille Harder auf 2:0.",
+    "Paulina Dudek verkürzte in der 65. Minute per Elfmeter, nachdem Linda Dallmann ein Handspiel unterlaufen war. Ein Tor von Dallmann in der 81. Minute zählte wegen Abseits nicht. Giulia Gwinn stand erstmals seit ihrem Außenbandriss wieder in der Startelf, Sarah Zadrazil kam in der 71. Minute ins Spiel."
+   ],
+   "kickbase": "Bühl und Harder waren an beiden Toren beteiligt, Gwinn ist zurück in der ersten Elf. Champions-League-Punkte zählen in Kickbase nicht.",
+   "quellen": [
+    {
+     "name": "FCBinside",
+     "url": "https://fcbinside.de/2026/11/10/bayern-frauen-feiern-wichtigen-sieg-bei-psg-gwinn-glaenzt-beim-comeback/"
+    },
+    {
+     "name": "Sky Sport Austria",
+     "url": "https://www.skysportaustria.at/fc-bayern-gewinnt-mit-zadrazil-und-naschenweng-bei-psg/"
+    },
+    {
+     "name": "Sportschau (BR)",
+     "url": "https://www.sportschau.de/regional/br/br-sieg-in-paris-fc-bayern-frauen-dringen-in-cl-spitzengruppe-vor-100.html"
+    }
+   ],
+   "foto": "fotos/fcb-klara-buhl.webp",
+   "foto_credit": {
+    "autor": "Steffen Prößdorf",
+    "lizenz": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:2023-07-03_Fussball,_Frauen,_Deutsche_Nationalmannschaft,_Media_Day_1DX_6563_by_Stepro-2.jpg"
+   },
+   "spiel_aufstellung": [
+    {
+     "verein": "FC Bayern",
+     "k": "FCB",
+     "gegner": "Paris Saint-Germain",
+     "wettbewerb": "Champions League",
+     "ergebnis": "1:2",
+     "tore": [
+      {
+       "min": "29",
+       "n": "Kiedrzynek",
+       "eigen": false,
+       "art": "Eigentor"
+      },
+      {
+       "min": "40",
+       "n": "Bühl",
+       "eigen": true,
+       "vorlage": "Harder"
+      },
+      {
+       "min": "65",
+       "n": "Dudek",
+       "eigen": false,
+       "art": "Elfmeter"
+      }
+     ],
+     "vergleich": "9. Spieltag",
+     "startelf": [
+      {
+       "n": "Mahmutovic",
+       "p": "TW",
+       "f": "neu"
+      },
+      {
+       "n": "Kett",
+       "p": "ABW",
+       "f": "neu",
+       "gelb": true,
+       "gelb_min": "88"
+      },
+      {
+       "n": "Eriksson",
+       "p": "ABW",
+       "f": "neu"
+      },
+      {
+       "n": "Ballisager",
+       "p": "ABW"
+      },
+      {
+       "n": "Gwinn",
+       "p": "ABW",
+       "f": "neu"
+      },
+      {
+       "n": "Amani",
+       "p": "DM",
+       "gelb": true,
+       "gelb_min": "90"
+      },
+      {
+       "n": "Tanikawa",
+       "p": "MF",
+       "f": "neu"
+      },
+      {
+       "n": "Harder",
+       "p": "OM",
+       "vorl": 1
+      },
+      {
+       "n": "Dallmann",
+       "p": "OM",
+       "gelb": true,
+       "gelb_min": "35"
+      },
+      {
+       "n": "Bühl",
+       "p": "ST",
+       "f": "neu",
+       "aus": "90",
+       "tore": 1
+      },
+      {
+       "n": "Damnjanović",
+       "p": "ST",
+       "f": "neu",
+       "aus": "71"
+      }
+     ],
+     "eingewechselt": [
+      {
+       "n": "Zadrazil",
+       "p": "MF",
+       "ein_min": "71"
+      },
+      {
+       "n": "Naschenweng",
+       "p": "ABW",
+       "ein_min": "90"
+      }
+     ],
+     "raus": [
+      {
+       "n": "van Eijk",
+       "p": "TW",
+       "wo": "Bank"
+      },
+      {
+       "n": "Mattner-Trembleau",
+       "p": "ABW",
+       "wo": "Bank"
+      },
+      {
+       "n": "Gilles",
+       "p": "ABW",
+       "wo": "nicht im Kader"
+      },
+      {
+       "n": "Naschenweng",
+       "p": "ABW",
+       "wo": "Bank"
+      },
+      {
+       "n": "Alara",
+       "p": "DM",
+       "wo": "Bank"
+      },
+      {
+       "n": "Potsi",
+       "p": "OM",
+       "wo": "nicht im Kader"
+      },
+      {
+       "n": "Imade",
+       "p": "ST",
+       "wo": "Bank"
+      }
+     ],
+     "ohne_einsatz": [
+      "Klink",
+      "van Eijk",
+      "Viggósdóttir",
+      "Dunst",
+      "Alara",
+      "Imade",
+      "Mattner-Trembleau"
+     ]
+    }
+   ]
+  },
   {
    "id": "gwinn-startelf-1011",
    "pid": "00009",
