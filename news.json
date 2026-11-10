@@ -1,6 +1,39 @@
 {
- "stand": "2026-11-10T09:45",
+ "stand": "2026-11-10T16:45",
  "meldungen": [
+  {
+   "id": "scherer-1011",
+   "pid": "00115",
+   "zeit": "2026-11-10T01:00",
+   "spielerin": "Nora Scherer",
+   "verein": "SC Freiburg",
+   "nr": "31",
+   "pos": "ST",
+   "tags": [
+    "VERLETZUNG"
+   ],
+   "status": "verletzt",
+   "ausfall": "Saisonaus",
+   "headline": "Scherer reißt sich das Kreuzband, Saisonaus",
+   "kurz": "Scherer fällt mit Kreuzbandriss aus",
+   "text": [
+    "Nora Scherer hat sich im Regionalliga-Spiel der U20 des SC Freiburg gegen den SV Weinberg einen Kreuzbandriss zugezogen. Sie wurde nach rund 30 Minuten nach einem Zweikampf ausgewechselt, die Diagnose steht laut Verein fest.",
+    "Der SC Freiburg teilt mit, dass die Flügelspielerin dem Team bis auf Weiteres nicht mehr zur Verfügung steht. Die Quelle nennt ein Saisonaus."
+   ],
+   "kickbase": "Scherer fällt für den Rest der Saison aus und ist für Aufstellungen nicht mehr einzuplanen.",
+   "quellen": [
+    {
+     "name": "SC Freiburg",
+     "url": "https://www.scfreiburg.com/aktuell/nachrichten/frauen-maedchen/2026/27/news/gute-besserung-nora/"
+    }
+   ],
+   "foto": "fotos/scf-nora-scherer.webp",
+   "foto_credit": {
+    "autor": "SC Freiburg",
+    "lizenz": "mit Genehmigung: SC Freiburg",
+    "url": "https://www.scfreiburg.com/teams/frauen/spielerinnen/"
+   }
+  },
   {
    "id": "endstand-koe-0911",
    "zeit": "2026-11-09T19:59",
