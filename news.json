@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-10T19:40",
+ "stand": "2026-11-10T19:45",
  "meldungen": [
   {
    "id": "aufstellung-folgt-ma12537195",
@@ -8581,37 +8581,6 @@
    ],
    "status": "fraglich",
    "kurz": "Mainz ohne Matsumoto, Matheis und Jackson"
-  },
-  {
-   "id": "mahmutovic-2710",
-   "pid": "00003",
-   "zeit": "2026-10-27T13:59",
-   "spielerin": "Ena Mahmutovic",
-   "verein": "FC Bayern",
-   "nr": "1",
-   "pos": "TW",
-   "tags": [
-    "SPERRE"
-   ],
-   "status": "gesperrt",
-   "headline": "Mahmutovic nach Rot für ein Ligaspiel gesperrt",
-   "text": [
-    "Das DFB-Sportgericht hat Torhüterin Ena Mahmutovic vom FC Bayern nach ihrer Roten Karte in Leipzig für ein Meisterschaftsspiel gesperrt.",
-    "Die Sperre gilt damit für das nächste Spiel in der Frauen-Bundesliga. Im Tor dürfte stattdessen eine der Ersatztorhüterinnen stehen."
-   ],
-   "kickbase": "Wer im Bayern-Tor steht, ist offen, auf die Aufstellung warten lohnt sich vor einem Kauf der Vertreterin.",
-   "quellen": [
-    {
-     "name": "DFB Sperren",
-     "url": "https://www.dfb.de/ueber-uns/verbandsrecht/sperren"
-    }
-   ],
-   "foto": "fotos/ena-mahmutovic.jpg",
-   "foto_credit": {
-    "autor": "Steffen Prößdorf",
-    "lizenz": "CC BY-SA 4.0",
-    "url": "https://commons.wikimedia.org/wiki/File:2023-07-03_Fussball,_Frauen,_Deutsche_Nationalmannschaft,_Media_Day_1DX_6641_by_Stepro-2.jpg"
-   }
   }
  ]
 }
