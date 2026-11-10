@@ -1,122 +1,108 @@
 {
- "md": 9,
- "erstellt": "2026-11-05T14:45",
- "erst": "2026-11-06T18:30",
- "schluss": "2026-11-06T17:00",
+ "md": 10,
+ "erstellt": "2026-11-10T08:25",
+ "erst": "2026-11-13T18:30",
+ "schluss": "2026-11-13T17:00",
  "hinweis": "Fragen festgeschrieben von tools/spielt_sie.py, ändern sich bis zur Wertung nicht.",
  "fragen": [
   {
-   "id": "u-fcb-tor-md9",
-   "art": "TOR",
-   "partie": "12306283",
-   "k": "FCB",
-   "umfrage": "fcb-tor-md9",
-   "einsehbar": true,
-   "frage": "Wer steht für Mahmutovic im Tor?",
-   "warum": "Mahmutovic ist nach Rot in Leipzig für ein Ligaspiel gesperrt. Torhüterinnen punkten bei Kickbase stark.",
-   "prognose": "Erwartet: van Eijk. Sie saß in 3 der letzten 5 Spiele als Nummer 2 auf der Bank, zuletzt zweimal als einzige Ersatztorhüterin.",
+   "id": "weste-md10",
+   "typ": "weste",
+   "art": "WEISSE WESTE",
+   "partie": "12306295",
+   "k": "HSV",
+   "multi": true,
+   "einsehbar": false,
+   "frage": "Welche Torhüterin bleibt ohne Gegentor?",
+   "warum": "Szemik: Mainz trifft 0,6-mal pro Spiel · Borggräfe: Stuttgart trifft 1,2-mal pro Spiel · Altenburg: Leipzig trifft 1,7-mal pro Spiel. Spiele ohne Gegentor bringen Torhüterin und Abwehr Kickbase-Punkte.",
+   "prognose": "Szemik: Der HSV hat 17 Gegentore in 9 Spielen.",
    "optionen": [
     {
-     "id": "van-eijk",
-     "n": "van Eijk"
+     "id": "00151",
+     "n": "Szemik",
+     "sid": "00151",
+     "k": "HSV",
+     "info": "gegen Mainz"
     },
     {
-     "id": "klink",
-     "n": "Klink"
+     "id": "00238",
+     "n": "Borggräfe",
+     "sid": "00238",
+     "k": "B04",
+     "info": "in Stuttgart"
     },
     {
-     "id": "andere",
-     "n": "Andere"
-    }
-   ],
-   "daten": "van-eijk",
-   "typ": "einsatz"
-  },
-  {
-   "id": "u-wob-sturm-md9",
-   "art": "WER STARTET",
-   "partie": "12306271",
-   "k": "WOB",
-   "umfrage": "wob-sturm-md9",
-   "einsehbar": true,
-   "frage": "Zicai oder Bussy: Wer stürmt in Frankfurt?",
-   "warum": "Zicai hat seit dem 5. Spieltag nicht getroffen, Bussy stand gegen Köln in der Startelf. Wer startet, sammelt bei Kickbase die Punkte.",
-   "prognose": "Erwartet: Zicai. Sie stand in 6 von 8 Spielen in der Startelf. Bussy sehen wir knapp dahinter auf der Bank.",
-   "optionen": [
-    {
-     "id": "zicai",
-     "n": "Zicai"
-    },
-    {
-     "id": "bussy",
-     "n": "Bussy"
-    },
-    {
-     "id": "beide",
-     "n": "Beide"
+     "id": "00056",
+     "n": "Altenburg",
+     "sid": "00056",
+     "k": "SGE",
+     "info": "in Leipzig"
     },
     {
      "id": "keine",
-     "n": "Keine von beiden"
+     "n": "Keine",
+     "info": "Alle kassieren"
     }
    ],
-   "daten": "zicai",
+   "daten": "00151"
+  },
+  {
+   "id": "s-00023",
+   "art": "STARTELF",
+   "partie": "12306313",
+   "k": "FCB",
+   "sid": "00023",
+   "einsehbar": false,
+   "frage": "Steht Bühl in der Startelf?",
+   "warum": "In den letzten 3 Ligaspielen 2-mal in der Startelf. Diese Saison 6 Tore, 5 Vorlagen.",
+   "prognose": "Erwartet. 3 von 5 zuletzt in der Startelf, Einsatzwert 59 %.",
+   "optionen": [
+    {
+     "id": "ja",
+     "n": "Ja"
+    },
+    {
+     "id": "nein",
+     "n": "Nein"
+    }
+   ],
+   "daten": "ja",
    "typ": "einsatz"
   },
   {
-   "id": "mvp-md9",
-   "typ": "mvp",
-   "art": "MVP",
-   "partie": "12306283",
+   "id": "s-00026",
+   "art": "STARTELF",
+   "partie": "12306313",
    "k": "FCB",
-   "multi": true,
+   "sid": "00026",
    "einsehbar": false,
-   "frage": "Wer wird MVP des 9. Spieltags?",
-   "warum": "Die vier besten Notenschnitte* der Saison unter allen, die laut Prognose spielen, höchstens eine je Verein. MVP ist, wer am Spieltag die beste Note* holt. *Note von API-Football, keine Kickbase-Punkte.",
-   "prognose": "Tanikawa: bester Schnitt der vier (7,7*), Werder hat 11 Gegentore in 8 Spielen.",
+   "frage": "Steht Imade in der Startelf?",
+   "warum": "In den letzten 3 Ligaspielen 2-mal in der Startelf. Diese Saison 6 Tore, 1 Vorlage.",
+   "prognose": "Erwartet. 4 von 5 zuletzt in der Startelf, Einsatzwert 85 %.",
    "optionen": [
     {
-     "id": "00021",
-     "n": "Tanikawa",
-     "sid": "00021",
-     "k": "FCB",
-     "info": "Ø 7,7* · gegen Werder"
+     "id": "ja",
+     "n": "Ja"
     },
     {
-     "id": "00077",
-     "n": "Freigang",
-     "sid": "00077",
-     "k": "SGE",
-     "info": "Ø 7,7* · gegen Wolfsburg"
-    },
-    {
-     "id": "00260",
-     "n": "Kramer",
-     "sid": "00260",
-     "k": "B04",
-     "info": "Ø 7,2* · gegen den HSV"
-    },
-    {
-     "id": "00106",
-     "n": "Ojukwu",
-     "sid": "00106",
-     "k": "SCF",
-     "info": "Ø 7,1* · gegen Nürnberg"
+     "id": "nein",
+     "n": "Nein"
     }
    ],
-   "daten": "00021"
+   "daten": "ja",
+   "typ": "einsatz"
   },
   {
-   "id": "serie-md9",
+   "id": "serie-md10",
    "typ": "serie",
    "art": "SERIE",
-   "partie": "12306271",
+   "partie": "12306313",
    "k": "WOB",
    "multi": false,
-   "einsehbar": true,
-   "frage": "Trifft Peddemors zum 7. Mal?",
-   "warum": "Getroffen in 6 von 8 Ligaspielen, 9 Tore. Frankfurt hat 7 Gegentore in 8 Spielen.",
-   "prognose": "Eher ja: sie trifft in 75 % ihrer Spiele.",
+   "einsehbar": false,
+   "frage": "Trifft Peddemors zum 8. Mal?",
+   "warum": "Getroffen in 7 von 9 Ligaspielen, 11 Tore. Bayern hat 8 Gegentore in 9 Spielen.",
+   "prognose": "Eher ja: sie trifft in 78 % ihrer Spiele.",
    "optionen": [
     {
      "id": "ja",
@@ -133,45 +119,47 @@
    "daten": "ja"
   },
   {
-   "id": "weste-md9",
-   "typ": "weste",
-   "art": "WEISSE WESTE",
-   "partie": "12306268",
-   "k": "VFB",
+   "id": "mvp-md10",
+   "typ": "mvp",
+   "art": "MVP",
+   "partie": "12306310",
+   "k": "SGE",
    "multi": true,
    "einsehbar": false,
-   "frage": "Welche Torhüterin bleibt ohne Gegentor?",
-   "warum": "Giuliani: Mainz trifft 0,5-mal pro Spiel · Borggräfe: der HSV trifft 1,8-mal pro Spiel · Schmitz: Leipzig trifft 1,8-mal pro Spiel. Spiele ohne Gegentor bringen Torhüterin und Abwehr Kickbase-Punkte.",
-   "prognose": "Giuliani: Stuttgart hat 20 Gegentore in 8 Spielen.",
+   "frage": "Wer wird MVP des 10. Spieltags?",
+   "warum": "Die vier besten Notenschnitte* der Saison unter allen, die laut Prognose spielen, höchstens eine je Verein. MVP ist, wer am Spieltag die beste Note* holt. *Note von API-Football, keine Kickbase-Punkte.",
+   "prognose": "Freigang: bester Schnitt der vier (7,5*), Leipzig hat 17 Gegentore in 9 Spielen.",
    "optionen": [
     {
-     "id": "00329",
-     "n": "Giuliani",
-     "sid": "00329",
-     "k": "VFB",
-     "info": "in Mainz"
+     "id": "00077",
+     "n": "Freigang",
+     "sid": "00077",
+     "k": "SGE",
+     "info": "Ø 7,5* · in Leipzig"
     },
     {
-     "id": "00238",
-     "n": "Borggräfe",
-     "sid": "00238",
+     "id": "00396",
+     "n": "Küver",
+     "sid": "00396",
+     "k": "WOB",
+     "info": "Ø 7,5* · gegen Bayern"
+    },
+    {
+     "id": "00381",
+     "n": "Bauereisen",
+     "sid": "00381",
+     "k": "FCU",
+     "info": "Ø 7,3* · in Bremen"
+    },
+    {
+     "id": "00260",
+     "n": "Kramer",
+     "sid": "00260",
      "k": "B04",
-     "info": "gegen den HSV"
-    },
-    {
-     "id": "00181",
-     "n": "Schmitz",
-     "sid": "00181",
-     "k": "KOE",
-     "info": "gegen Leipzig"
-    },
-    {
-     "id": "keine",
-     "n": "Keine",
-     "info": "Alle kassieren"
+     "info": "Ø 7,2* · in Stuttgart"
     }
    ],
-   "daten": "00329"
+   "daten": "00077"
   }
  ]
 }
