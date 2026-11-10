@@ -1,6 +1,33 @@
 {
- "stand": "2026-11-10T16:45",
+ "stand": "2026-11-10T19:40",
  "meldungen": [
+  {
+   "id": "aufstellung-folgt-ma12537195",
+   "zeit": "2026-11-10T19:40",
+   "spielerin": "Spielansetzung",
+   "verein": "FC Bayern",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "AUFSTELLUNG",
+    "EUROPAPOKAL"
+   ],
+   "headline": "Aufstellung Paris Saint Germain gegen FC Bayern folgt",
+   "kurz": "Aufstellung folgt, Anpfiff 21:00",
+   "text": [
+    "Anpfiff in der Champions League ist um 21:00 Uhr. Die offizielle Aufstellung kommt meist rund 60 Minuten vorher, wir ergänzen sie hier automatisch, sobald sie veröffentlicht ist.",
+    "Für Pokal- und Europapokalspiele gibt es keine Prognose, die Aufstellung kommt hier automatisch."
+   ],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/uefa-champions-league-frauen/ma12537195/paris-saint-germain_bayern-muenchen/aufstellung"
+    }
+   ],
+   "platzhalter": true,
+   "anstoss": "2026-11-10T21:00"
+  },
   {
    "id": "scherer-1011",
    "pid": "00115",
