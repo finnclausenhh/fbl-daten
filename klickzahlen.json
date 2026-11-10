@@ -1,186 +1,243 @@
 {
- "stand": "2026-11-03T06:54",
+ "stand": "2026-11-10T06:53",
  "zeitraum_tage": 28,
  "quelle": "GoatCounter (nur Webversion, die App zählt nicht)",
  "belastbar": false,
- "hinweis": "Noch zu wenig Daten (37 von 150 geöffneten Meldungen). Themenwahl ohne Klickzahlen, Top-Teams bevorzugen.",
+ "hinweis": "Noch zu wenig Daten (140 von 150 geöffneten Meldungen). Themenwahl ohne Klickzahlen, Top-Teams bevorzugen.",
  "summen": {
-  "besuche_seiten": 51,
-  "meldungen_geoeffnet": 37,
-  "meldungen_veroeffentlicht": 98,
-  "analyse_geoeffnet": 0,
-  "spiele_geoeffnet": 9
+  "besuche_seiten": 163,
+  "meldungen_geoeffnet": 140,
+  "meldungen_veroeffentlicht": 188,
+  "analyse_geoeffnet": 3,
+  "spiele_geoeffnet": 47
  },
  "reiter": {
-  "spielplan": 14,
-  "meldungen": 11,
-  "inside": 11
+  "spielplan": 58,
+  "inside": 48,
+  "meldungen": 30,
+  "analyse": 1
  },
  "vereine": [
   {
    "k": "FCB",
    "name": "FC Bayern",
    "top_team": true,
-   "meldungen": 22,
-   "oeffnungen": 10,
-   "oeffnungen_7t": 10,
-   "pro_meldung": 0.45,
+   "meldungen": 39,
+   "oeffnungen": 22,
+   "oeffnungen_7t": 12,
+   "pro_meldung": 0.56,
    "interesse": null
   },
   {
    "k": "WOB",
    "name": "VfL Wolfsburg",
    "top_team": true,
-   "meldungen": 10,
-   "oeffnungen": 6,
-   "oeffnungen_7t": 6,
-   "pro_meldung": 0.6,
-   "interesse": null
-  },
-  {
-   "k": "VFB",
-   "name": "VfB Stuttgart",
-   "top_team": false,
-   "meldungen": 8,
-   "oeffnungen": 4,
-   "oeffnungen_7t": 4,
-   "pro_meldung": 0.5,
-   "interesse": null
-  },
-  {
-   "k": "SVW",
-   "name": "Werder Bremen",
-   "top_team": false,
-   "meldungen": 10,
-   "oeffnungen": 2,
-   "oeffnungen_7t": 2,
-   "pro_meldung": 0.2,
-   "interesse": null
-  },
-  {
-   "k": "TSG",
-   "name": "TSG Hoffenheim",
-   "top_team": false,
-   "meldungen": 6,
-   "oeffnungen": 2,
-   "oeffnungen_7t": 2,
-   "pro_meldung": 0.33,
-   "interesse": null
-  },
-  {
-   "k": "FCU",
-   "name": "Union Berlin",
-   "top_team": false,
-   "meldungen": 4,
-   "oeffnungen": 2,
-   "oeffnungen_7t": 2,
-   "pro_meldung": 0.5,
-   "interesse": null
-  },
-  {
-   "k": "FCN",
-   "name": "1. FC Nürnberg",
-   "top_team": false,
-   "meldungen": 4,
-   "oeffnungen": 2,
-   "oeffnungen_7t": 2,
-   "pro_meldung": 0.5,
+   "meldungen": 14,
+   "oeffnungen": 13,
+   "oeffnungen_7t": 7,
+   "pro_meldung": 0.93,
    "interesse": null
   },
   {
    "k": "SGE",
    "name": "Eintracht Frankfurt",
    "top_team": true,
+   "meldungen": 11,
+   "oeffnungen": 9,
+   "oeffnungen_7t": 8,
+   "pro_meldung": 0.82,
+   "interesse": null
+  },
+  {
+   "k": "SVW",
+   "name": "Werder Bremen",
+   "top_team": false,
+   "meldungen": 11,
+   "oeffnungen": 7,
+   "oeffnungen_7t": 5,
+   "pro_meldung": 0.64,
+   "interesse": null
+  },
+  {
+   "k": "FCU",
+   "name": "Union Berlin",
+   "top_team": false,
+   "meldungen": 8,
+   "oeffnungen": 6,
+   "oeffnungen_7t": 4,
+   "pro_meldung": 0.75,
+   "interesse": null
+  },
+  {
+   "k": "FCN",
+   "name": "1. FC Nürnberg",
+   "top_team": false,
    "meldungen": 7,
-   "oeffnungen": 1,
-   "oeffnungen_7t": 1,
-   "pro_meldung": 0.14,
-   "interesse": null
-  },
-  {
-   "k": "KOE",
-   "name": "1. FC Köln",
-   "top_team": false,
-   "meldungen": 5,
-   "oeffnungen": 1,
-   "oeffnungen_7t": 1,
-   "pro_meldung": 0.2,
-   "interesse": null
-  },
-  {
-   "k": "HSV",
-   "name": "Hamburger SV",
-   "top_team": false,
-   "meldungen": 3,
-   "oeffnungen": 1,
-   "oeffnungen_7t": 1,
-   "pro_meldung": 0.33,
-   "interesse": null
-  },
-  {
-   "k": "M05",
-   "name": "Mainz 05",
-   "top_team": false,
-   "meldungen": 3,
-   "oeffnungen": 1,
-   "oeffnungen_7t": 1,
-   "pro_meldung": 0.33,
+   "oeffnungen": 6,
+   "oeffnungen_7t": 4,
+   "pro_meldung": 0.86,
    "interesse": null
   },
   {
    "k": "SCF",
    "name": "SC Freiburg",
    "top_team": false,
-   "meldungen": 8,
-   "oeffnungen": 0,
+   "meldungen": 13,
+   "oeffnungen": 4,
+   "oeffnungen_7t": 4,
+   "pro_meldung": 0.31,
+   "interesse": null
+  },
+  {
+   "k": "VFB",
+   "name": "VfB Stuttgart",
+   "top_team": false,
+   "meldungen": 11,
+   "oeffnungen": 4,
    "oeffnungen_7t": 0,
-   "pro_meldung": 0.0,
+   "pro_meldung": 0.36,
+   "interesse": null
+  },
+  {
+   "k": "M05",
+   "name": "Mainz 05",
+   "top_team": false,
+   "meldungen": 7,
+   "oeffnungen": 4,
+   "oeffnungen_7t": 3,
+   "pro_meldung": 0.57,
+   "interesse": null
+  },
+  {
+   "k": "TSG",
+   "name": "TSG Hoffenheim",
+   "top_team": false,
+   "meldungen": 10,
+   "oeffnungen": 3,
+   "oeffnungen_7t": 1,
+   "pro_meldung": 0.3,
    "interesse": null
   },
   {
    "k": "B04",
    "name": "Bayer Leverkusen",
    "top_team": true,
-   "meldungen": 5,
-   "oeffnungen": 0,
+   "meldungen": 17,
+   "oeffnungen": 2,
+   "oeffnungen_7t": 2,
+   "pro_meldung": 0.12,
+   "interesse": null
+  },
+  {
+   "k": "KOE",
+   "name": "1. FC Köln",
+   "top_team": false,
+   "meldungen": 8,
+   "oeffnungen": 2,
+   "oeffnungen_7t": 1,
+   "pro_meldung": 0.25,
+   "interesse": null
+  },
+  {
+   "k": "HSV",
+   "name": "Hamburger SV",
+   "top_team": false,
+   "meldungen": 6,
+   "oeffnungen": 1,
    "oeffnungen_7t": 0,
-   "pro_meldung": 0.0,
+   "pro_meldung": 0.17,
    "interesse": null
   },
   {
    "k": "RBL",
    "name": "RB Leipzig",
    "top_team": false,
-   "meldungen": 2,
-   "oeffnungen": 0,
-   "oeffnungen_7t": 0,
-   "pro_meldung": 0.0,
+   "meldungen": 5,
+   "oeffnungen": 1,
+   "oeffnungen_7t": 1,
+   "pro_meldung": 0.2,
    "interesse": null
   }
  ],
  "spielerinnen": [
   {
-   "n": "Dafina Redzepi",
-   "k": "VFB",
-   "meldungen": 2,
-   "oeffnungen": 4,
-   "oeffnungen_7t": 4,
-   "pro_meldung": 2.0
-  },
-  {
    "n": "Giulia Gwinn",
    "k": "FCB",
+   "meldungen": 5,
+   "oeffnungen": 7,
+   "oeffnungen_7t": 4,
+   "pro_meldung": 1.4
+  },
+  {
+   "n": "Dafina Redzepi",
+   "k": "VFB",
    "meldungen": 3,
+   "oeffnungen": 4,
+   "oeffnungen_7t": 0,
+   "pro_meldung": 1.33
+  },
+  {
+   "n": "Laura Freigang",
+   "k": "SGE",
+   "meldungen": 1,
    "oeffnungen": 3,
    "oeffnungen_7t": 3,
-   "pro_meldung": 1.0
+   "pro_meldung": 3.0
+  },
+  {
+   "n": "Sophie Weidauer",
+   "k": "FCU",
+   "meldungen": 1,
+   "oeffnungen": 3,
+   "oeffnungen_7t": 3,
+   "pro_meldung": 3.0
+  },
+  {
+   "n": "Lena Lattwein",
+   "k": "WOB",
+   "meldungen": 1,
+   "oeffnungen": 3,
+   "oeffnungen_7t": 3,
+   "pro_meldung": 3.0
+  },
+  {
+   "n": "Marina Georgieva",
+   "k": "M05",
+   "meldungen": 2,
+   "oeffnungen": 3,
+   "oeffnungen_7t": 2,
+   "pro_meldung": 1.5
+  },
+  {
+   "n": "Sarah Gutmann",
+   "k": "SVW",
+   "meldungen": 2,
+   "oeffnungen": 3,
+   "oeffnungen_7t": 3,
+   "pro_meldung": 1.5
+  },
+  {
+   "n": "Sarah Zadrazil",
+   "k": "FCB",
+   "meldungen": 4,
+   "oeffnungen": 3,
+   "oeffnungen_7t": 2,
+   "pro_meldung": 0.75
+  },
+  {
+   "n": "Klara Bühl",
+   "k": "FCB",
+   "meldungen": 8,
+   "oeffnungen": 3,
+   "oeffnungen_7t": 2,
+   "pro_meldung": 0.38
   },
   {
    "n": "Linda Dallmann",
    "k": "FCB",
    "meldungen": 1,
    "oeffnungen": 2,
-   "oeffnungen_7t": 2,
+   "oeffnungen_7t": 0,
    "pro_meldung": 2.0
   },
   {
@@ -188,15 +245,39 @@
    "k": "FCN",
    "meldungen": 1,
    "oeffnungen": 2,
-   "oeffnungen_7t": 2,
+   "oeffnungen_7t": 0,
    "pro_meldung": 2.0
+  },
+  {
+   "n": "Jonna Brengel",
+   "k": "FCN",
+   "meldungen": 2,
+   "oeffnungen": 2,
+   "oeffnungen_7t": 2,
+   "pro_meldung": 1.0
+  },
+  {
+   "n": "Lina Altenburg",
+   "k": "SGE",
+   "meldungen": 2,
+   "oeffnungen": 2,
+   "oeffnungen_7t": 2,
+   "pro_meldung": 1.0
   },
   {
    "n": "Cora Zicai",
    "k": "WOB",
    "meldungen": 2,
    "oeffnungen": 2,
-   "oeffnungen_7t": 2,
+   "oeffnungen_7t": 0,
+   "pro_meldung": 1.0
+  },
+  {
+   "n": "Edna Imade",
+   "k": "FCB",
+   "meldungen": 2,
+   "oeffnungen": 2,
+   "oeffnungen_7t": 1,
    "pro_meldung": 1.0
   },
   {
@@ -204,83 +285,79 @@
    "k": "FCB",
    "meldungen": 2,
    "oeffnungen": 2,
+   "oeffnungen_7t": 0,
+   "pro_meldung": 1.0
+  },
+  {
+   "n": "Anna Reimann",
+   "k": "SCF",
+   "meldungen": 3,
+   "oeffnungen": 2,
    "oeffnungen_7t": 2,
-   "pro_meldung": 1.0
+   "pro_meldung": 0.67
   },
   {
-   "n": "Vivien Thomann",
-   "k": "TSG",
-   "meldungen": 1,
-   "oeffnungen": 1,
-   "oeffnungen_7t": 1,
-   "pro_meldung": 1.0
-  },
-  {
-   "n": "Nele Bauereisen",
-   "k": "FCU",
-   "meldungen": 1,
-   "oeffnungen": 1,
-   "oeffnungen_7t": 1,
-   "pro_meldung": 1.0
-  },
-  {
-   "n": "Pauline Bremer",
-   "k": "KOE",
-   "meldungen": 1,
-   "oeffnungen": 1,
-   "oeffnungen_7t": 1,
-   "pro_meldung": 1.0
-  },
-  {
-   "n": "Hayley Raso",
-   "k": "SGE",
-   "meldungen": 1,
-   "oeffnungen": 1,
-   "oeffnungen_7t": 1,
-   "pro_meldung": 1.0
-  },
-  {
-   "n": "Edna Imade",
-   "k": "FCB",
-   "meldungen": 1,
-   "oeffnungen": 1,
-   "oeffnungen_7t": 1,
-   "pro_meldung": 1.0
-  },
-  {
-   "n": "Marina Georgieva",
-   "k": "M05",
-   "meldungen": 1,
-   "oeffnungen": 1,
-   "oeffnungen_7t": 1,
-   "pro_meldung": 1.0
-  },
-  {
-   "n": "Svea Stoldt",
-   "k": "HSV",
-   "meldungen": 1,
-   "oeffnungen": 1,
-   "oeffnungen_7t": 1,
-   "pro_meldung": 1.0
-  },
-  {
-   "n": "Sarah Zadrazil",
-   "k": "FCB",
-   "meldungen": 2,
-   "oeffnungen": 1,
-   "oeffnungen_7t": 1,
+   "n": "Ella Peddemors",
+   "k": "WOB",
+   "meldungen": 4,
+   "oeffnungen": 2,
+   "oeffnungen_7t": 2,
    "pro_meldung": 0.5
   },
   {
-   "n": "Klara Bühl",
-   "k": "FCB",
-   "meldungen": 4,
+   "n": "Vanessa Fudalla",
+   "k": "B04",
+   "meldungen": 1,
    "oeffnungen": 1,
    "oeffnungen_7t": 1,
-   "pro_meldung": 0.25
+   "pro_meldung": 1.0
+  },
+  {
+   "n": "Sophie Proost",
+   "k": "FCB",
+   "meldungen": 1,
+   "oeffnungen": 1,
+   "oeffnungen_7t": 1,
+   "pro_meldung": 1.0
   }
  ],
  "meldungen_top": [
+  {
+   "id": "punkt-md9",
+   "headline": "Spieltag 9 auf den Punkt",
+   "verein": "",
+   "tags": [],
+   "oeffnungen": 7
+  },
+  {
+   "id": "gwinn-0211",
+   "headline": "Gwinn lässt Zukunft beim FC Bayern offen",
+   "verein": "FCB",
+   "tags": [
+    "TRANSFER"
+   ],
+   "oeffnungen": 6
+  },
+  {
+   "id": "wolfsburg-pokal-0211",
+   "headline": "Wolfsburg schlägt Hoffenheim 8:0 im Pokal",
+   "verein": "WOB",
+   "tags": [
+    "POKAL",
+    "SPIELBERICHT"
+   ],
+   "oeffnungen": 5
+  },
+  {
+   "id": "weidauer-standards-0811",
+   "headline": "Weidauer und Heiseler auf der Bank: Standards bei Union",
+   "verein": "FCU",
+   "tags": [
+    "STANDARD",
+    "AUFSTELLUNG"
+   ],
+   "oeffnungen": 4
+  },
   {
    "id": "redzepi-2810",
    "headline": "Redzepi nach Roter Karte für ein Ligaspiel gesperrt",
@@ -291,188 +368,154 @@
    "oeffnungen": 4
   },
   {
-   "id": "gwinn-0211",
-   "headline": "Gwinn lässt Zukunft beim FC Bayern offen",
-   "verein": "FCB",
+   "id": "spielerin/00405",
+   "headline": "",
+   "verein": "",
+   "tags": [],
+   "oeffnungen": 3
+  },
+  {
+   "id": "freigang-sperre-0811",
+   "headline": "Freigang: keine Einigung, bis zu zwei Jahre Sperre drohen",
+   "verein": "SGE",
    "tags": [
-    "TRANSFER"
+    "SPERRE"
    ],
    "oeffnungen": 3
   },
   {
-   "id": "wolfsburg-pokal-0211",
-   "headline": "Wolfsburg schlägt Hoffenheim 8:0 im Pokal",
+   "id": "fehlt-lattwein-wob-0611",
+   "headline": "Lattwein nicht im Kader gegen Eintracht Frankfurt",
    "verein": "WOB",
+   "tags": [
+    "AUFSTELLUNG"
+   ],
+   "oeffnungen": 3
+  },
+  {
+   "id": "aufstellung-folgt-ma12306283",
+   "headline": "Aufstellung FC Bayern gegen Werder Bremen folgt",
+   "verein": "FCB",
+   "tags": [
+    "AUFSTELLUNG"
+   ],
+   "oeffnungen": 3
+  },
+  {
+   "id": "tipp-runde-md9",
+   "headline": "",
+   "verein": "",
+   "tags": [],
+   "oeffnungen": 3
+  },
+  {
+   "id": "gutmann-0111",
+   "headline": "Gutmann trifft zweimal, Werder im Pokal-Viertelfinale",
+   "verein": "SVW",
    "tags": [
     "POKAL",
     "SPIELBERICHT"
    ],
-   "oeffnungen": 2
-  },
-  {
-   "id": "aufstellung-pokal-wob-0211",
-   "headline": "Offizielle Aufstellung: VfL Wolfsburg gegen TSG Hoffenheim",
-   "verein": "WOB",
-   "tags": [
-    "POKAL"
-   ],
-   "oeffnungen": 2
+   "oeffnungen": 3
   },
   {
    "id": "statistik",
    "headline": "",
    "verein": "",
    "tags": [],
+   "oeffnungen": 3
+  },
+  {
+   "id": "spielerin/00017",
+   "headline": "",
+   "verein": "",
+   "tags": [],
    "oeffnungen": 2
   },
   {
-   "id": "dallmann-2910",
-   "headline": "Dallmann trägt Platzwunde an der Oberlippe davon",
-   "verein": "FCB",
+   "id": "comeback-georgieva-m05-0811",
+   "headline": "Georgieva feiert Comeback nach Verletzungspause",
+   "verein": "M05",
    "tags": [
-    "VERLETZUNG"
+    "RÜCKKEHR"
    ],
    "oeffnungen": 2
   },
   {
-   "id": "aufstellung-svw-2910",
-   "headline": "Offizielle Aufstellung: Werder Bremen gegen TSG Hoffenheim",
-   "verein": "SVW",
-   "tags": [
-    "TOP"
-   ],
-   "oeffnungen": 2
-  },
-  {
-   "id": "zicai-2810",
-   "headline": "Zicai trifft dreifach beim 7:0 gegen Feyenoord",
-   "verein": "WOB",
-   "tags": [
-    "SPIELBERICHT"
-   ],
-   "oeffnungen": 2
-  },
-  {
-   "id": "proniez-2510",
-   "headline": "Proniez trifft doppelt, Nürnberg schlägt Leverkusen 2:0",
+   "id": "brengel-standards-0711",
+   "headline": "Brengel nur auf der Bank: Freistöße beim FCN offen",
    "verein": "FCN",
    "tags": [
-    "SPIELBERICHT"
+    "STANDARD",
+    "AUFSTELLUNG"
    ],
    "oeffnungen": 2
-  },
-  {
-   "id": "mahmutovic-2710",
-   "headline": "Mahmutovic nach Rot für ein Ligaspiel gesperrt",
-   "verein": "FCB",
-   "tags": [
-    "SPERRE"
-   ],
-   "oeffnungen": 2
-  },
-  {
-   "id": "fehlt-martret-tsg-0211",
-   "headline": "Thomann nicht im Kader gegen VfL Wolfsburg",
-   "verein": "TSG",
-   "tags": [
-    "AUFSTELLUNG",
-    "POKAL"
-   ],
-   "oeffnungen": 1
-  },
-  {
-   "id": "zadrazil-3010",
-   "headline": "Zadrazil fällt vor Pokalspiel mit Muskelproblemen aus",
-   "verein": "FCB",
-   "tags": [
-    "UPDATE",
-    "VERLETZUNG"
-   ],
-   "oeffnungen": 1
-  },
-  {
-   "id": "bayern-pokal-0111",
-   "headline": "Bayern schlägt Leverkusen 1:0 und steht im Viertelfinale",
-   "verein": "FCB",
-   "tags": [
-    "POKAL",
-    "SPIELBERICHT"
-   ],
-   "oeffnungen": 1
-  },
-  {
-   "id": "aufstellung-pokal-fcb-0111",
-   "headline": "Offizielle Aufstellung: FC Bayern gegen Bayer Leverkusen",
-   "verein": "FCB",
-   "tags": [
-    "POKAL"
-   ],
-   "oeffnungen": 1
-  },
-  {
-   "id": "aufstellung-pokal-tsg-0211",
-   "headline": "Offizielle Aufstellung: TSG Hoffenheim gegen VfL Wolfsburg",
-   "verein": "TSG",
-   "tags": [
-    "POKAL"
-   ],
-   "oeffnungen": 1
   }
  ],
  "tags": {
-  "OHNE": {
-   "oeffnungen": 2,
-   "meldungen": 1,
+  "TRANSFER": {
+   "oeffnungen": 6,
+   "meldungen": 3,
    "pro_meldung": 2.0
   },
+  "OHNE": {
+   "oeffnungen": 35,
+   "meldungen": 21,
+   "pro_meldung": 1.67
+  },
   "SPERRE": {
-   "oeffnungen": 6,
-   "meldungen": 5,
-   "pro_meldung": 1.2
-  },
-  "TRANSFER": {
-   "oeffnungen": 3,
-   "meldungen": 3,
-   "pro_meldung": 1.0
-  },
-  "SPIELBERICHT": {
-   "oeffnungen": 12,
-   "meldungen": 23,
-   "pro_meldung": 0.52
-  },
-  "VERLETZUNG": {
-   "oeffnungen": 4,
-   "meldungen": 10,
-   "pro_meldung": 0.4
-  },
-  "UPDATE": {
-   "oeffnungen": 1,
-   "meldungen": 3,
-   "pro_meldung": 0.33
-  },
-  "POKAL": {
-   "oeffnungen": 8,
-   "meldungen": 28,
-   "pro_meldung": 0.29
-  },
-  "TOP": {
-   "oeffnungen": 6,
-   "meldungen": 26,
-   "pro_meldung": 0.23
+   "oeffnungen": 9,
+   "meldungen": 7,
+   "pro_meldung": 1.29
   },
   "AUFSTELLUNG": {
-   "oeffnungen": 1,
-   "meldungen": 8,
-   "pro_meldung": 0.12
+   "oeffnungen": 24,
+   "meldungen": 27,
+   "pro_meldung": 0.89
+  },
+  "POKAL": {
+   "oeffnungen": 24,
+   "meldungen": 28,
+   "pro_meldung": 0.86
+  },
+  "SPIELBERICHT": {
+   "oeffnungen": 28,
+   "meldungen": 33,
+   "pro_meldung": 0.85
   },
   "STANDARD": {
-   "oeffnungen": 0,
-   "meldungen": 4,
-   "pro_meldung": 0.0
+   "oeffnungen": 9,
+   "meldungen": 11,
+   "pro_meldung": 0.82
+  },
+  "TOP": {
+   "oeffnungen": 19,
+   "meldungen": 44,
+   "pro_meldung": 0.43
+  },
+  "VERLETZUNG": {
+   "oeffnungen": 8,
+   "meldungen": 20,
+   "pro_meldung": 0.4
   },
   "RÜCKKEHR": {
+   "oeffnungen": 6,
+   "meldungen": 16,
+   "pro_meldung": 0.38
+  },
+  "UPDATE": {
+   "oeffnungen": 2,
+   "meldungen": 13,
+   "pro_meldung": 0.15
+  },
+  "ROTATION": {
    "oeffnungen": 0,
-   "meldungen": 7,
+   "meldungen": 6,
+   "pro_meldung": 0.0
+  },
+  "ABWESEND": {
+   "oeffnungen": 0,
+   "meldungen": 2,
    "pro_meldung": 0.0
   },
   "VORBERICHT": {
@@ -484,15 +527,10 @@
    "oeffnungen": 0,
    "meldungen": 1,
    "pro_meldung": 0.0
-  },
-  "ROTATION": {
-   "oeffnungen": 0,
-   "meldungen": 4,
-   "pro_meldung": 0.0
   }
  },
  "_technik": {
-  "pfade": 66,
-  "news_staende": 75
+  "pfade": 155,
+  "news_staende": 341
  }
 }
