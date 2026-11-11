@@ -1,6 +1,189 @@
 {
- "stand": "2026-11-11T21:57",
+ "stand": "2026-11-11T22:50",
  "meldungen": [
+  {
+   "id": "buehl-psg-1011",
+   "pid": "00023",
+   "zeit": "2026-11-11T09:14",
+   "spielerin": "Klara Bühl",
+   "verein": "FC Bayern",
+   "nr": "17",
+   "pos": "ST",
+   "tags": [
+    "SPIELBERICHT",
+    "EUROPAPOKAL"
+   ],
+   "status": "fit",
+   "headline": "Bühl trifft beim 2:1 des FC Bayern bei PSG",
+   "text": [
+    "Der FC Bayern gewinnt in der Champions League bei Paris Saint-Germain mit 2:1. Klara Bühl erzielte kurz vor der Pause das 0:2, nachdem Pernille Harder aufgelegt hatte. Zuvor hatte ein Eigentor von PSG nach Harders Vorlage auf Linda Dallmann die Führung gebracht.",
+    "PSG verkürzte in der 65. Minute per Elfmeter nach einem Handspiel von Dallmann. Sarah Zadrazil kam von der Bank. Der Verein nennt keine Verletzungen."
+   ],
+   "kickbase": "Bühl bleibt Dauerbrennerin im Angriff des FC Bayern, Harder liefert Vorlagen. Am Wochenende geht es zum Spitzenspiel nach Wolfsburg.",
+   "quellen": [
+    {
+     "name": "FC Bayern München",
+     "url": "https://fcbayern.com/frauen/de/news/2026/11/analyse-champions-league-paris-saint-germain---fc-bayern-frauen"
+    }
+   ],
+   "foto": "fotos/fcb-klara-buhl.webp",
+   "foto_credit": {
+    "autor": "Steffen Prößdorf",
+    "lizenz": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:2023-07-03_Fussball,_Frauen,_Deutsche_Nationalmannschaft,_Media_Day_1DX_6563_by_Stepro-2.jpg"
+   },
+   "spiel_aufstellung": [
+    {
+     "verein": "FC Bayern",
+     "k": "FCB",
+     "gegner": "Paris Saint-Germain",
+     "wettbewerb": "Champions League",
+     "ergebnis": "1:2",
+     "tore": [
+      {
+       "min": "29",
+       "n": "Kiedrzynek",
+       "eigen": false,
+       "art": "Eigentor"
+      },
+      {
+       "min": "40",
+       "n": "Bühl",
+       "eigen": true,
+       "vorlage": "Harder"
+      },
+      {
+       "min": "65",
+       "n": "Dudek",
+       "eigen": false,
+       "art": "Elfmeter"
+      }
+     ],
+     "vergleich": "9. Spieltag",
+     "startelf": [
+      {
+       "n": "Mahmutovic",
+       "p": "TW",
+       "f": "neu"
+      },
+      {
+       "n": "Kett",
+       "p": "ABW",
+       "f": "neu",
+       "gelb": true,
+       "gelb_min": "88"
+      },
+      {
+       "n": "Eriksson",
+       "p": "ABW",
+       "f": "neu"
+      },
+      {
+       "n": "Ballisager",
+       "p": "ABW"
+      },
+      {
+       "n": "Gwinn",
+       "p": "ABW",
+       "f": "neu"
+      },
+      {
+       "n": "Amani",
+       "p": "DM",
+       "gelb": true,
+       "gelb_min": "90"
+      },
+      {
+       "n": "Tanikawa",
+       "p": "MF",
+       "f": "neu"
+      },
+      {
+       "n": "Harder",
+       "p": "OM",
+       "vorl": 1
+      },
+      {
+       "n": "Dallmann",
+       "p": "OM",
+       "gelb": true,
+       "gelb_min": "35"
+      },
+      {
+       "n": "Bühl",
+       "p": "ST",
+       "f": "neu",
+       "aus": "90",
+       "tore": 1
+      },
+      {
+       "n": "Damnjanović",
+       "p": "ST",
+       "f": "neu",
+       "aus": "71"
+      }
+     ],
+     "eingewechselt": [
+      {
+       "n": "Zadrazil",
+       "p": "MF",
+       "ein_min": "71"
+      },
+      {
+       "n": "Naschenweng",
+       "p": "ABW",
+       "ein_min": "90"
+      }
+     ],
+     "raus": [
+      {
+       "n": "van Eijk",
+       "p": "TW",
+       "wo": "Bank"
+      },
+      {
+       "n": "Mattner-Trembleau",
+       "p": "ABW",
+       "wo": "Bank"
+      },
+      {
+       "n": "Gilles",
+       "p": "ABW",
+       "wo": "nicht im Kader"
+      },
+      {
+       "n": "Naschenweng",
+       "p": "ABW",
+       "wo": "Bank"
+      },
+      {
+       "n": "Alara",
+       "p": "DM",
+       "wo": "Bank"
+      },
+      {
+       "n": "Potsi",
+       "p": "OM",
+       "wo": "nicht im Kader"
+      },
+      {
+       "n": "Imade",
+       "p": "ST",
+       "wo": "Bank"
+      }
+     ],
+     "ohne_einsatz": [
+      "Klink",
+      "van Eijk",
+      "Viggósdóttir",
+      "Dunst",
+      "Alara",
+      "Imade",
+      "Mattner-Trembleau"
+     ]
+    }
+   ]
+  },
   {
    "id": "endstand-ec-sge-1111",
    "zeit": "2026-11-11T20:30",
