@@ -1,0 +1,639 @@
+{
+ "ligen": [
+  [
+   8,
+   "World Cup - Women",
+   "World",
+   [
+    2019,
+    2023
+   ]
+  ],
+  [
+   146,
+   "Super League Women",
+   "Belgium",
+   [
+    2025,
+    2026
+   ]
+  ],
+  [
+   74,
+   "Brasileiro Women",
+   "Brazil",
+   [
+    2025,
+    2026
+   ]
+  ],
+  [
+   139,
+   "Serie A Women",
+   "Italy",
+   [
+    2025,
+    2026
+   ]
+  ],
+  [
+   91,
+   "Eredivisie Women",
+   "Netherlands",
+   [
+    2025,
+    2026
+   ]
+  ],
+  [
+   190,
+   "A-League Women",
+   "Australia",
+   [
+    2025,
+    2026
+   ]
+  ],
+  [
+   524,
+   "Olympics Women",
+   "World",
+   [
+    2020,
+    2024
+   ]
+  ],
+  [
+   254,
+   "NWSL Women",
+   "USA",
+   [
+    2025,
+    2026
+   ]
+  ],
+  [
+   525,
+   "UEFA Champions League Women",
+   "World",
+   [
+    2025,
+    2026
+   ]
+  ],
+  [
+   698,
+   "FA Women's Cup",
+   "England",
+   [
+    2025,
+    2026
+   ]
+  ],
+  [
+   641,
+   "NWSL Women - Challenge Cup",
+   "USA",
+   [
+    2025,
+    2026
+   ]
+  ],
+  [
+   649,
+   "Supreme Division Women",
+   "Russia",
+   [
+    2025,
+    2026
+   ]
+  ],
+  [
+   666,
+   "Friendlies Women",
+   "World",
+   [
+    2025,
+    2026
+   ]
+  ],
+  [
+   669,
+   "1. Liga Women",
+   "Czech-Republic",
+   [
+    2025,
+    2026
+   ]
+  ],
+  [
+   670,
+   "Community Shield Women",
+   "England",
+   [
+    2020
+   ]
+  ],
+  [
+   671,
+   "Úrvalsdeild Women",
+   "Iceland",
+   [
+    2025,
+    2026
+   ]
+  ],
+  [
+   699,
+   "Women's Championship",
+   "England",
+   [
+    2025,
+    2026
+   ]
+  ],
+  [
+   733,
+   "I Liga - Women",
+   "Slovakia",
+   [
+    2025,
+    2026
+   ]
+  ],
+  [
+   737,
+   "Svenska Cupen - Women",
+   "Sweden",
+   [
+    2025,
+    2026
+   ]
+  ],
+  [
+   739,
+   "AXA Women’s Super League",
+   "Switzerland",
+   [
+    2025,
+    2026
+   ]
+  ],
+  [
+   882,
+   "Olympics Women - Qualification Asia",
+   "World",
+   [
+    2020,
+    2024
+   ]
+  ],
+  [
+   743,
+   "UEFA Championship - Women",
+   "World",
+   [
+    2021,
+    2025
+   ]
+  ],
+  [
+   894,
+   "Asian Cup Women - Qualification",
+   "World",
+   [
+    2022,
+    2026
+   ]
+  ],
+  [
+   897,
+   "Asian Cup Women",
+   "World",
+   [
+    2022,
+    2026
+   ]
+  ],
+  [
+   912,
+   "CONCACAF Women U17",
+   "World",
+   [
+    2025,
+    2026
+   ]
+  ],
+  [
+   915,
+   "1. Division Women",
+   "Norway",
+   [
+    2025,
+    2026
+   ]
+  ],
+  [
+   918,
+   "UEFA U19 Championship - Women",
+   "World",
+   [
+    2025,
+    2026
+   ]
+  ],
+  [
+   920,
+   "World Cup - U20 - Women",
+   "World",
+   [
+    2024,
+    2026
+   ]
+  ],
+  [
+   922,
+   "Africa Cup of Nations - Women",
+   "World",
+   [
+    2024,
+    2025
+   ]
+  ],
+  [
+   927,
+   "World Cup - Women - Qualification Concacaf",
+   "World",
+   [
+    2022,
+    2026
+   ]
+  ],
+  [
+   945,
+   "International Champions Cup - Women",
+   "World",
+   [
+    2022
+   ]
+  ],
+  [
+   947,
+   "DFB Pokal - Women",
+   "Germany",
+   [
+    2025,
+    2026
+   ]
+  ],
+  [
+   948,
+   "1a Divisão - Women",
+   "Portugal",
+   [
+    2025,
+    2026
+   ]
+  ],
+  [
+   950,
+   "World Cup - U17 - Women",
+   "World",
+   [
+    2025,
+    2026
+   ]
+  ],
+  [
+   880,
+   "World Cup - Women - Qualification Europe",
+   "World",
+   [
+    2023,
+    2027
+   ]
+  ],
+  [
+   1013,
+   "All-Island Cup - Women",
+   "World",
+   [
+    2025,
+    2026
+   ]
+  ],
+  [
+   1033,
+   "Ekstraliga Women",
+   "Poland",
+   [
+    2025,
+    2026
+   ]
+  ],
+  [
+   1040,
+   "UEFA Nations League - Women",
+   "World",
+   [
+    2025,
+    2027
+   ]
+  ],
+  [
+   1001,
+   "CONCACAF Women U20",
+   "World",
+   [
+    2024,
+    2025
+   ]
+  ],
+  [
+   1046,
+   "CONCACAF Gold Cup - Qualification - Women",
+   "World",
+   [
+    2024
+   ]
+  ],
+  [
+   1047,
+   "Olympics Women - Qualification CAF",
+   "World",
+   [
+    2024,
+    2028
+   ]
+  ],
+  [
+   1057,
+   "CONCACAF Gold Cup - Women",
+   "World",
+   [
+    2024
+   ]
+  ],
+  [
+   1070,
+   "AFC U20 Asian Cup - Women",
+   "World",
+   [
+    2024,
+    2025
+   ]
+  ],
+  [
+   1101,
+   "AFC U17 Asian Cup - Women",
+   "World",
+   [
+    2024,
+    2025
+   ]
+  ],
+  [
+   1102,
+   "UEFA U17 Championship - Women",
+   "World",
+   [
+    2025,
+    2026
+   ]
+  ],
+  [
+   1103,
+   "Premiership Women",
+   "Northern-Ireland",
+   [
+    2025,
+    2026
+   ]
+  ],
+  [
+   1140,
+   "AFC Women's Champions League",
+   "World",
+   [
+    2025,
+    2026
+   ]
+  ],
+  [
+   1164,
+   "CAF Women's Champions League",
+   "World",
+   [
+    2025,
+    2026
+   ]
+  ],
+  [
+   1171,
+   "Coppa Italia Women",
+   "Italy",
+   [
+    2024,
+    2025
+   ]
+  ],
+  [
+   1190,
+   "Super Cup Women",
+   "Netherlands",
+   [
+    2024,
+    2025
+   ]
+  ],
+  [
+   1083,
+   "UEFA Championship - Women - Qualification",
+   "World",
+   [
+    2025
+   ]
+  ],
+  [
+   1175,
+   "Women's President's Cup",
+   "Ireland",
+   [
+    2025,
+    2026
+   ]
+  ],
+  [
+   1188,
+   "EAFF E-1 Football Championship - Women",
+   "World",
+   [
+    2025
+   ]
+  ],
+  [
+   1189,
+   "Asean Championship Women",
+   "World",
+   [
+    2025,
+    2026
+   ]
+  ],
+  [
+   1191,
+   "UEFA Europa Cup - Women",
+   "World",
+   [
+    2025,
+    2026
+   ]
+  ],
+  [
+   1198,
+   "Serie A Cup Women",
+   "Italy",
+   [
+    2025,
+    2026
+   ]
+  ],
+  [
+   1206,
+   "CONMEBOL Nations League Women",
+   "World",
+   [
+    2025
+   ]
+  ],
+  [
+   1217,
+   "FIFA Women Champions Cup",
+   "World",
+   [
+    2026,
+    2027
+   ]
+  ],
+  [
+   1227,
+   "Premier League Women",
+   "Saudi-Arabia",
+   [
+    2026,
+    2027
+   ]
+  ],
+  [
+   1229,
+   "Liga Women",
+   "Peru",
+   [
+    2026
+   ]
+  ],
+  [
+   1233,
+   "Super Cup Women",
+   "Russia",
+   [
+    2026
+   ]
+  ],
+  [
+   1243,
+   "Super League Women",
+   "South-Africa",
+   [
+    2026
+   ]
+  ],
+  [
+   1244,
+   "B-Liga Women",
+   "Denmark",
+   [
+    2026
+   ]
+  ],
+  [
+   1245,
+   "Asian Games Women",
+   "World",
+   [
+    2026
+   ]
+  ],
+  [
+   1191,
+   "UEFA Europa Cup - Women",
+   "World",
+   [
+    2025,
+    2026
+   ]
+  ]
+ ],
+ "spiele": [
+  [
+   "2026-11-10",
+   1638332,
+   525,
+   "UEFA Champions League Women",
+   15224,
+   "Real Madrid W",
+   1676,
+   "Paris FC W",
+   "FT",
+   "noten",
+   0,
+   "lineups",
+   2
+  ],
+  [
+   "2026-11-10",
+   1644161,
+   1191,
+   "UEFA Europa Cup - Women",
+   16853,
+   "Feyenoord W",
+   1863,
+   "VfL Wolfsburg W",
+   "FT",
+   "noten",
+   0,
+   "lineups",
+   2
+  ],
+  [
+   "2026-11-10",
+   1638328,
+   525,
+   "UEFA Champions League Women",
+   1667,
+   "Paris Saint Germain W",
+   1860,
+   "Bayern Munich W",
+   "FT",
+   "noten",
+   0,
+   "lineups",
+   2
+  ],
+  [
+   "2026-11-11",
+   1644159,
+   1191,
+   "UEFA Europa Cup - Women",
+   14014,
+   "Eintracht Frankfurt W",
+   1895,
+   "PSV/Eindhoven W",
+   "FT",
+   "noten",
+   0,
+   "lineups",
+   2
+  ]
+ ]
+}
