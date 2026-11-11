@@ -186,8 +186,17 @@ def europa_berichte(a, pn, pl, news, live, spielplan, kader, jetzt=None):
         p = {"id": "dfb" + e["id"], "heim": e["heim"], "gast": e["gast"], "ergebnis": v["ergebnis"], "tore": fix(v["tore"]),
              "karten": fix(v["karten"]), "anstoss": e["anstoss"], "heim_k": k if heim_ist else gk, "gast_k": gk if heim_ist else k,
              "url": e["url"]}
+        p["heim_k"], p["gast_k"] = p["heim_k"].upper(), p["gast_k"].upper()
         m = ES.meldung(p, jetzt)
         m["id"], m["verein"] = mid, verein
+        # Schlagzeile wie bei den Ligaberichten (erzählt das Spiel), Kurzform mit ausgeschriebenen Namen statt Kürzeln
+        m["headline"], _ = ES.titel(p)
+        a_, b_ = int(v["ergebnis"][0]), int(v["ergebnis"][1])
+        wir_n = ES.KURZN.get(AB.KURZ[verein].upper(), verein)
+        sie_n = (e["gast"] if heim_ist else e["heim"]).split()[0]
+        wir, sie = (a_, b_) if heim_ist else (b_, a_)
+        m["kurz"] = (f"{wir_n} schlägt {sie_n} {wir}:{sie}" if wir > sie else f"{sie_n} schlägt {wir_n} {sie}:{wir}" if sie > wir
+                     else f"{wir_n} und {sie_n} {wir}:{sie}")
         m["tags"] = ["SPIELBERICHT", "EUROPAPOKAL"]
         m["quellen"] = [{"name": "DFB-Datencenter", "url": e["url"]}]
         m["wettbewerb"] = "Europa Cup"
