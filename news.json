@@ -2,33 +2,6 @@
  "stand": "2026-11-11T18:51",
  "meldungen": [
   {
-   "id": "aufstellung-folgt-dfb2431431",
-   "zeit": "2026-11-11T17:10",
-   "spielerin": "Spielansetzung",
-   "verein": "Eintracht Frankfurt",
-   "nr": "",
-   "pos": "Spielansetzung",
-   "tags": [
-    "AUFSTELLUNG",
-    "EUROPAPOKAL"
-   ],
-   "headline": "Aufstellung Eintracht Frankfurt gegen Psv Vrouwen Eindhoven folgt",
-   "kurz": "Aufstellung folgt, Anpfiff 18:30",
-   "text": [
-    "Anpfiff im Europa Cup ist um 18:30 Uhr. Die offizielle Aufstellung kommt meist rund 60 Minuten vorher, wir ergänzen sie hier automatisch, sobald sie veröffentlicht ist.",
-    "Für Pokal- und Europapokalspiele gibt es keine Prognose, die Aufstellung kommt hier automatisch."
-   ],
-   "kickbase": "",
-   "quellen": [
-    {
-     "name": "DFB-Datencenter",
-     "url": "https://datencenter.dfb.de/matches/eintracht-frankfurt-psv-vrouwen-eindhoven-2431431"
-    }
-   ],
-   "platzhalter": true,
-   "anstoss": "2026-11-11T18:30"
-  },
-  {
    "id": "endstand-ec-wob-1011",
    "zeit": "2026-11-11T11:09",
    "spielerin": "Feyenoord Rotterdam gegen VfL Wolfsburg",
