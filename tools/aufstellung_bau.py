@@ -36,6 +36,8 @@ def pos_von(name, verein, kader):
 
 
 POS = ["TW", "ABW", "DM", "MF", "OM", "ST"]
+# Nur diese Systeme zeigen wir auf dem Spielfeld (Finn 01.11.2026: nie Exoten wie 5-2-1-1-1)
+STANDARD = {"4-4-2", "4-3-3", "4-2-3-1", "4-1-4-1", "4-4-1-1", "4-3-1-2", "3-5-2", "3-4-3", "5-3-2", "5-4-1"}
 LINIEN = {3: ["TW", "ABW", "MF"], 4: ["TW", "ABW", "MF", "ST"], 5: ["TW", "ABW", "DM", "OM", "ST"],
           6: ["TW", "ABW", "DM", "MF", "OM", "ST"]}
 
@@ -103,7 +105,7 @@ def infos(verein, kader, news):
     return out
 
 
-def team(slug, gegner_slug, start, bank, vgl, kader, news=(), g=None, lern=None):
+def team(slug, gegner_slug, start, bank, vgl, kader, news=(), g=None, lern=None, formation=None):
     verein = SLUG[slug]
     bank = list(dict.fromkeys(bank))
     neu_s = set((vgl or {}).get("neu_in_startelf", []))
@@ -114,7 +116,7 @@ def team(slug, gegner_slug, start, bank, vgl, kader, news=(), g=None, lern=None)
     I = lambda n: pid_von(n, verein, kader)
     abgeleitet = None
     if not g and lern and len(start) == 11:
-        form, pos, hinweis = ableiten_pos(start, verein, kader, lern)
+        form, pos, hinweis = ableiten_pos(start, verein, kader, lern, formation)
         g = {"formation": form, "pos": {k: v for k, v in pos.items()}}
         abgeleitet = hinweis or "Positionen aus den bisherigen Liga-Einsätzen abgeleitet"
     ordnung = {p: i for i, p in enumerate(POS)}
@@ -192,8 +194,9 @@ def _plausibel(abw, st, formationen):
     return not ruecken or abw in ruecken
 
 
-def ableiten_pos(start, verein, kader, lern):
-    """Formation und Linien einer Startelf ohne Grafik, aus den bisherigen Liga-Einsätzen. Gibt (formation, {kz: (linie, frac)}, hinweis)."""
+def ableiten_pos(start, verein, kader, lern, vorgabe=None):
+    """Formation und Linien einer Startelf ohne Grafik, aus den bisherigen Liga-Einsätzen. Gibt (formation, {kz: (linie, frac)}, hinweis).
+    vorgabe: bekannte Formation (z. B. DFB-Datencenter im Europa Cup, 11.11.2026); gilt nur, wenn sie ein Standardsystem ist."""
     h = lern["spielerinnen"]
     tw = next((n for n in start if pos_von(n, verein, kader) == "TW"), None)
     feld = [n for n in start if n != tw]
@@ -210,15 +213,21 @@ def ableiten_pos(start, verein, kader, lern):
             info[n] = dict(lin={"ABW": "ABW", "ST": "ST"}.get(kp, "MF"), tief=KB_TIEF.get({"ABW": "ABW", "ST": "ST"}.get(kp, "MF")), frac=0.5, n=0, kb=True)
     zaehl = Counter(i["lin"] for i in info.values())
     hinweis = ""
-    if _plausibel(zaehl["ABW"], zaehl["ST"], lern["formationen"]) and len(feld) == 10:
+    vorgabe = vorgabe if vorgabe in STANDARD else None
+    if not vorgabe and _plausibel(zaehl["ABW"], zaehl["ST"], lern["formationen"]) and len(feld) == 10:
         reihen = [[n for n in feld if info[n]["lin"] == l] for l in ("ABW", "DM", "MF", "OM", "ST")]
         reihen = [sorted(r, key=lambda n: info[n]["frac"]) for r in reihen if r]
         marker = [l for l in ("ABW", "DM", "MF", "OM", "ST") if zaehl[l]]
         zeilen = list(zip(marker, reihen))
         if any(info[n]["kb"] for n in feld):
             hinweis = "Ohne Einsatzdaten: " + ", ".join(n for n in feld if info[n]["kb"])
+        if "-".join(str(len(r)) for r in reihen) not in STANDARD:  # kein Standardsystem: wie unten auf das übliche System legen
+            zeilen = None
     else:
-        ziel = (lern["formationen"].most_common(1)[0][0] if lern["formationen"] else "4-2-3-1")
+        zeilen = None
+    if zeilen is None:
+        ueblich = [f for f, _ in lern["formationen"].most_common() if f in STANDARD]
+        ziel = vorgabe or (ueblich[0] if ueblich else "4-2-3-1")
         zahlen = [int(x) for x in ziel.split("-")]
         sortiert = sorted(feld, key=lambda n: (info[n]["tief"], info[n]["frac"]))
         reihen, k = [], 0
@@ -227,7 +236,8 @@ def ableiten_pos(start, verein, kader, lern):
             k += z
         namen = LINIEN.get(len(zahlen) + 1, ["TW", "ABW", "MF", "ST"])[1:]
         zeilen = list(zip(namen, reihen))
-        hinweis = f"Formation geschätzt ({ziel}, übliches System des Vereins), weil die Daten kein plausibles System ergaben"
+        hinweis = (f"Formation laut DFB-Datencenter ({ziel}), Positionen aus den bisherigen Liga-Einsätzen abgeleitet" if vorgabe else
+                   f"Formation geschätzt ({ziel}, übliches System des Vereins), weil die Daten kein plausibles System ergaben")
     form = "-".join(str(len(r)) for _, r in zeilen)
     pos = {}
     for lab, r in zeilen:

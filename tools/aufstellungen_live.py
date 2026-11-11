@@ -29,6 +29,7 @@ WETTBEWERBE = [("deutschland-bundesliga-frauen", None), ("deutschland-dfb-pokal-
 VORLAUF = 80
 LAUFZEIT = 13
 PRE = {"DFB-Pokal": "pokal-", "Champions League": "cl-", "Europa Cup": "ec-"}  # Id-Teil je Wettbewerb (Liga ohne)
+EC_NACHLAUF = 150  # Europa Cup: DFB-Datencenter zeigt die Aufstellung teils erst nach Anpfiff (Frankfurt/PSV 11.11.2026), so lange weiter prüfen
 EUROPA_URL = {}  # ma -> DFB-Spielseite (Europa Cup kommt nur vom DFB-Datencenter, nicht von der Sportschau)
 
 
@@ -63,7 +64,7 @@ def spiele_heute(jetzt):
         ma = f"dfb{e['id']}/{h}_{g}"
         EUROPA_URL[ma] = e["url"]
         an = datetime.fromisoformat(e["anstoss"]).replace(tzinfo=TZ)
-        if an - timedelta(minutes=VORLAUF) <= jetzt <= an + timedelta(minutes=15):
+        if an - timedelta(minutes=VORLAUF) <= jetzt <= an + timedelta(minutes=EC_NACHLAUF):
             out.append(("Europa Cup", None, ma, an))
         elif an.date() == jetzt.date() and an > jetzt:
             SPAETER.append(an)
@@ -150,8 +151,12 @@ def europa_auf(ma, h, g):
     d = D.aufstellung_url(EUROPA_URL.get(ma))
     if not d or len(d["startelf_heim"]) < 11 or len(d["startelf_gast"]) < 11:
         return None
+    for sl, nm in ((h, d.get("heim_name")), (g, d.get("gast_name"))):  # Gegnername wie im DFB-Datencenter (nicht "Psv Vrouwen ...")
+        if nm and sl not in AB.SLUG:
+            AB.SLUG[sl] = nm
     return {"heim": h, "gast": g, "beendet": False, "startelf_heim": d["startelf_heim"], "startelf_gast": d["startelf_gast"],
-            "bank_heim": d["bank_heim"], "bank_gast": d["bank_gast"], "dfb_url": d["url"], "nur_dfb": True}
+            "bank_heim": d["bank_heim"], "bank_gast": d["bank_gast"], "dfb_url": d["url"], "nur_dfb": True,
+            "formation_heim": d.get("formation_heim", ""), "formation_gast": d.get("formation_gast", "")}
 
 
 def europa_berichte(a, pn, pl, news, live, spielplan, kader, jetzt=None):
@@ -200,6 +205,9 @@ def europa_berichte(a, pn, pl, news, live, spielplan, kader, jetzt=None):
         m["tags"] = ["SPIELBERICHT", "EUROPAPOKAL"]
         m["quellen"] = [{"name": "DFB-Datencenter", "url": e["url"]}]
         m["wettbewerb"] = "Europa Cup"
+        # Keine Noten im Europa Cup: API-Football führt das Turnier (Liga 1191), aber ohne Spielerinnen-Noten (geprüft 11.11.2026)
+        m["text"] = [t for t in m["text"] if not t.startswith("Noten und der ausführliche Bericht")]
+        m["text"].append("Für den Europa Cup gibt es keine Noten, unsere Datenquelle bewertet nur Ligaspiele. Für Kickbase zählt das Spiel nicht.")
         # Hin- und Rückspiel: Gesamtergebnis (gleiche beiden Mannschaften, anderes Spiel)
         hin = next((x for x in spiele if x["id"] != e["id"] and {x["heim_slug"], x["gast_slug"]} == {e["heim_slug"], e["gast_slug"]}
                     and x["ergebnis"] and x["anstoss"] < e["anstoss"]), None)
@@ -271,7 +279,7 @@ def platzhalter(pid_, wb, basis, ma, an, h, g, jetzt, spielplan):
                      "Bis dahin steht unsere Prognose im Spielplan bei der Partie." if partie else
                      "Für Pokal- und Europapokalspiele gibt es keine Prognose, die Aufstellung kommt hier automatisch."],
             "kickbase": "", "quellen": [{"name": qname, "url": qurl}],
-            "platzhalter": True, "anstoss": an.strftime("%Y-%m-%dT%H:%M"), **({"partie_id": partie} if partie else {})}
+            "platzhalter": True, "anstoss": an.strftime("%Y-%m-%dT%H:%M"), **({"wettbewerb": wb} if wb else {}), **({"partie_id": partie} if partie else {})}
 
 
 def baue(wb, basis, ma, an, a, kader, news, spielplan, zeit):
@@ -289,7 +297,8 @@ def baue(wb, basis, ma, an, a, kader, news, spielplan, zeit):
         alt = letzte_liga(spielplan, verein, an.strftime("%Y-%m-%dT%H:%M"))
         a[st], a[bk] = vereinheitliche(a[st], verein, alt), vereinheitliche(a[bk], verein, alt)
         vgl = F.vergleich(alt, a[st], a[bk])
-        t = AB.team(slug, gs, a[st], a[bk], vgl, kader, news, gr.get(sd), AB.lernen(spielplan, verein))
+        t = AB.team(slug, gs, a[st], a[bk], vgl, kader, news, gr.get(sd), AB.lernen(spielplan, verein),
+                    a.get("formation_" + ("heim" if sd == "home" else "gast")) or None)
         if wb:
             t["wettbewerb"] = wb
         # RAUS nur für die letzte Startelf; wer zuletzt auf der Bank saß, ist kein Startelf-Wechsel (Finn 07.11.2026)
@@ -709,7 +718,9 @@ def weiter_main(a, pn, pl, news, live, spielplan, kader, geaendert):
 
     # Platzhalter ohne Aufstellung 15 Minuten nach Anpfiff entfernen
     jetzt_s = (datetime.now(TZ) - timedelta(minutes=15)).strftime("%Y-%m-%dT%H:%M")
-    alt_ph = [m["id"] for m in news["meldungen"] if m.get("platzhalter") and m.get("anstoss", "9") < jetzt_s]
+    jetzt_ec = (datetime.now(TZ) - timedelta(minutes=EC_NACHLAUF)).strftime("%Y-%m-%dT%H:%M")
+    alt_ph = [m["id"] for m in news["meldungen"] if m.get("platzhalter")
+              and m.get("anstoss", "9") < (jetzt_ec if m.get("wettbewerb") == "Europa Cup" else jetzt_s)]
     if alt_ph:
         news["meldungen"] = [m for m in news["meldungen"] if m["id"] not in alt_ph]
         live["meldungen"] = [m for m in live["meldungen"] if m["id"] not in alt_ph]

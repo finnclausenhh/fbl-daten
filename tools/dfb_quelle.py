@@ -96,7 +96,8 @@ def aufstellung_url(url):
         return None
     nach = lambda l: [n.split()[-1] if n.split() else n for n in l]
     ti = re.search(r"<title>\s*(.*?)\s*-\s*(.*?),\s", roh)
-    return {"startelf_heim_voll": sh, "startelf_gast_voll": sg,
+    fo = dict(re.findall(r'lineup-person--(home|away)">\s*(\d(?:-\d){2,4})\s*<', roh))  # Formation (Fußzeile der Aufstellung)
+    return {"formation_heim": fo.get("home", ""), "formation_gast": fo.get("away", ""),"startelf_heim_voll": sh, "startelf_gast_voll": sg,
             "startelf_heim": nach(sh), "startelf_gast": nach(sg),
             "bank_heim": nach(_namen(bank[0], "home")) if bank else [], "bank_gast": nach(_namen(bank[0], "away")) if bank else [],
             "heim_name": html.unescape(ti.group(1)) if ti else "", "gast_name": html.unescape(ti.group(2)) if ti else "",

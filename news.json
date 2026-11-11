@@ -1,6 +1,183 @@
 {
- "stand": "2026-11-11T22:50",
+ "stand": "2026-11-11T23:04",
  "meldungen": [
+  {
+   "id": "aufstellung-ec-sge-1111",
+   "zeit": "2026-11-11T17:55",
+   "spielerin": "Spielansetzung",
+   "verein": "Eintracht Frankfurt",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "EUROPAPOKAL"
+   ],
+   "headline": "Offizielle Aufstellung: Eintracht Frankfurt gegen PSV Vrouwen Eindhoven",
+   "text": [],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "DFB-Datencenter",
+     "url": "https://datencenter.dfb.de/matches/eintracht-frankfurt-psv-vrouwen-eindhoven-2431431"
+    }
+   ],
+   "aufstellung": {
+    "gegner": "PSV Vrouwen Eindhoven",
+    "formation": "4-4-2",
+    "geschaetzt": true,
+    "hinweis": "Formation laut DFB-Datencenter (4-4-2), Positionen aus den bisherigen Liga-Einsätzen abgeleitet",
+    "startelf": [
+     {
+      "n": "Winkler",
+      "p": "TW",
+      "pid": "00059",
+      "f": "neu"
+     },
+     {
+      "n": "Wolter",
+      "p": "ABW",
+      "pid": "00075",
+      "f": "neu"
+     },
+     {
+      "n": "Doorsoun",
+      "p": "ABW",
+      "pid": "00061",
+      "f": "neu"
+     },
+     {
+      "n": "Ilestedt",
+      "p": "ABW",
+      "pid": "00062"
+     },
+     {
+      "n": "Lührßen",
+      "p": "ABW",
+      "pid": "00064"
+     },
+     {
+      "n": "Bennison",
+      "p": "MF",
+      "pid": "00069"
+     },
+     {
+      "n": "Acikgöz",
+      "p": "MF",
+      "pid": "00060",
+      "f": "neu"
+     },
+     {
+      "n": "Memeti",
+      "p": "MF",
+      "pid": "00079"
+     },
+     {
+      "n": "Mühlhaus",
+      "p": "MF",
+      "pid": "00080"
+     },
+     {
+      "n": "Freigang",
+      "p": "ST",
+      "pid": "00077"
+     },
+     {
+      "n": "Blomqvist",
+      "p": "ST",
+      "pid": "00070",
+      "f": "neu"
+     }
+    ],
+    "bank": [
+     {
+      "n": "Altenburg",
+      "p": "TW",
+      "pid": "00056",
+      "f": "raus"
+     },
+     {
+      "n": "Krumme",
+      "p": "TW",
+      "pid": "00058"
+     },
+     {
+      "n": "Østenstad",
+      "p": "ABW",
+      "pid": "00066",
+      "f": "raus"
+     },
+     {
+      "n": "Rankin",
+      "p": "ABW",
+      "pid": "00067"
+     },
+     {
+      "n": "Krumbiegel",
+      "p": "ABW",
+      "pid": "00072",
+      "f": "raus"
+     },
+     {
+      "n": "Ivelj",
+      "p": "MF",
+      "pid": "00063",
+      "f": "raus"
+     },
+     {
+      "n": "Lundgaard",
+      "p": "MF",
+      "pid": "00073",
+      "f": "neu"
+     },
+     {
+      "n": "Teulings",
+      "p": "MF",
+      "pid": "00074"
+     },
+     {
+      "n": "Ainhoa Alguacil",
+      "p": "MF",
+      "pid": "00068"
+     },
+     {
+      "n": "Raso",
+      "p": "ST",
+      "pid": "00081",
+      "f": "raus"
+     },
+     {
+      "n": "Tolhoek",
+      "p": "ST",
+      "pid": "00082"
+     },
+     {
+      "n": "Lia",
+      "p": "ST",
+      "pid": "00078",
+      "f": "neu"
+     }
+    ],
+    "fehlt": [
+     {
+      "n": "Jeppe",
+      "p": "TW"
+     },
+     {
+      "n": "Matijević",
+      "p": "ABW"
+     },
+     {
+      "n": "Demirbas",
+      "p": "MF"
+     },
+     {
+      "n": "Zimmermann",
+      "p": "MF"
+     }
+    ],
+    "wettbewerb": "Europa Cup"
+   },
+   "quelle_live": true
+  },
   {
    "id": "buehl-psg-1011",
    "pid": "00023",
@@ -200,7 +377,7 @@
    "text": [
     "Eintracht Frankfurt gewinnt gegen PSV Vrouwen Eindhoven mit 2:1.",
     "Europa Cup, Achtelfinale: Das Hinspiel endete PSV Vrouwen Eindhoven 0:2 Eintracht Frankfurt, insgesamt steht es 4:1 für Eintracht Frankfurt. Eintracht Frankfurt kommt weiter.",
-    "Noten und der ausführliche Bericht folgen."
+    "Für den Europa Cup gibt es keine Noten, unsere Datenquelle bewertet nur Ligaspiele. Für Kickbase zählt das Spiel nicht."
    ],
    "kickbase": "",
    "quellen": [
@@ -231,7 +408,7 @@
     "Europa Cup, Achtelfinale: Das Hinspiel endete VfL Wolfsburg 7:0 Feyenoord Rotterdam, insgesamt steht es 10:0 für VfL Wolfsburg. VfL Wolfsburg kommt weiter.",
     "Tore: 0:1 Piljic (72.), 0:2 Kerim-Lindland (83.), 0:3 Bussy (87.).",
     "Gelb: DellaPeruta, Haverhoek, Paus.",
-    "Noten und der ausführliche Bericht folgen."
+    "Für den Europa Cup gibt es keine Noten, unsere Datenquelle bewertet nur Ligaspiele. Für Kickbase zählt das Spiel nicht."
    ],
    "kickbase": "",
    "quellen": [
@@ -265,9 +442,9 @@
    ],
    "aufstellung": {
     "gegner": "Feyenoord Rotterdam",
-    "formation": "4-2-2-1-1",
+    "formation": "4-2-3-1",
     "geschaetzt": true,
-    "hinweis": "Ohne Einsatzdaten: Alber, Fløe",
+    "hinweis": "Formation geschätzt (4-2-3-1, übliches System des Vereins), weil die Daten kein plausibles System ergaben",
     "startelf": [
      {
       "n": "Tufeković",
@@ -312,13 +489,15 @@
      },
      {
       "n": "Vallotto",
-      "p": "MF",
-      "pid": "00407"
+      "p": "OM",
+      "pid": "00407",
+      "kp": "MF"
      },
      {
       "n": "Alber",
-      "p": "MF",
+      "p": "OM",
       "pid": "00400",
+      "kp": "MF",
       "f": "neu"
      },
      {
