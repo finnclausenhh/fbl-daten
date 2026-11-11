@@ -20,6 +20,7 @@ import aufstellung_bau as AB  # noqa: E402
 import dfb_quelle as D  # noqa: E402
 import comeback as CB  # noqa: E402
 import punkt_update as PU  # noqa: E402
+import endstand as ES  # noqa: E402
 
 TZ = ZoneInfo("Europe/Berlin")
 BASIS = "https://www.sportschau.de/live-und-ergebnisse/fussball/"
@@ -27,6 +28,8 @@ WETTBEWERBE = [("deutschland-bundesliga-frauen", None), ("deutschland-dfb-pokal-
                ("uefa-champions-league-frauen", "Champions League")]
 VORLAUF = 80
 LAUFZEIT = 13
+PRE = {"DFB-Pokal": "pokal-", "Champions League": "cl-", "Europa Cup": "ec-"}  # Id-Teil je Wettbewerb (Liga ohne)
+EUROPA_URL = {}  # ma -> DFB-Spielseite (Europa Cup kommt nur vom DFB-Datencenter, nicht von der Sportschau)
 
 
 def spiele_heute(jetzt):
@@ -53,6 +56,17 @@ def spiele_heute(jetzt):
                 out.append((wb, basis, ma, an))
             elif an.date() == jetzt.date() and an > jetzt:
                 SPAETER.append(an)
+    for e in D.europa_spiele():  # Europa Cup (Finn 11.11.2026): DFB-Datencenter, nur Bundesliga-Vereine
+        h, g = e["heim_slug"], e["gast_slug"]
+        h = next((k for k in AB.SLUG if D.KENN.get(k, k) in h), h)
+        g = next((k for k in AB.SLUG if D.KENN.get(k, k) in g), g)
+        ma = f"dfb{e['id']}/{h}_{g}"
+        EUROPA_URL[ma] = e["url"]
+        an = datetime.fromisoformat(e["anstoss"]).replace(tzinfo=TZ)
+        if an - timedelta(minutes=VORLAUF) <= jetzt <= an + timedelta(minutes=15):
+            out.append(("Europa Cup", None, ma, an))
+        elif an.date() == jetzt.date() and an > jetzt:
+            SPAETER.append(an)
     return out
 
 
@@ -131,6 +145,75 @@ def ergaenze_dfb(auf, h, g, wb):
     return auf
 
 
+def europa_auf(ma, h, g):
+    """Europa Cup: Aufstellung aus dem DFB-Datencenter (liefert die Bank schon vor Anpfiff). None, solange nichts veröffentlicht ist."""
+    d = D.aufstellung_url(EUROPA_URL.get(ma))
+    if not d or len(d["startelf_heim"]) < 11 or len(d["startelf_gast"]) < 11:
+        return None
+    return {"heim": h, "gast": g, "beendet": False, "startelf_heim": d["startelf_heim"], "startelf_gast": d["startelf_gast"],
+            "bank_heim": d["bank_heim"], "bank_gast": d["bank_gast"], "dfb_url": d["url"], "nur_dfb": True}
+
+
+def europa_berichte(a, pn, pl, news, live, spielplan, kader, jetzt=None):
+    """Spielbericht (Endstand) für Europa-Cup-Spiele mit Bundesliga-Verein, Finn 11.11.2026 (Wolfsburg bei Feyenoord 0:3 blieb ohne
+    Bericht, weil der Europa Cup nicht bei der Sportschau steht). Quelle DFB-Datencenter: Ergebnis, Tore mit Minute, Karten.
+    Frühestens 105 Minuten nach Anpfiff, nur Spiele der letzten 3 Tage. Id endstand-ec-<verein>-<TTMM>. Gibt die Anstoßzeiten
+    laufender, noch nicht berichteter Spiele zurück (die Action bleibt dann in der Kette)."""
+    jetzt = jetzt or datetime.now(TZ)
+    spiele = D.europa_spiele()
+    ids = {m["id"] for m in news["meldungen"]} | set(live.get("entfernt", []))
+    laufend, neu = [], []
+    for e in spiele:
+        club = next((k for k in AB.SLUG if D.KENN.get(k, k) in e["heim_slug"] or D.KENN.get(k, k) in e["gast_slug"]), None)
+        if club not in AB.SLUG or AB.SLUG[club] not in AB.KURZ:
+            continue
+        verein = AB.SLUG[club]
+        an = datetime.fromisoformat(e["anstoss"]).replace(tzinfo=TZ)
+        tt = an.strftime("%d%m")
+        mid = f"endstand-ec-{AB.KURZ[verein]}-{tt}"
+        if mid in ids or jetzt < an or jetzt - an > timedelta(days=3):
+            continue
+        if jetzt < an + timedelta(minutes=105):
+            laufend.append(an)
+            continue
+        v = D.spielverlauf(e["url"])
+        if not v or not v["ergebnis"]:
+            continue
+        heim_ist = D.KENN.get(club, club) in e["heim_slug"]
+        fix = lambda l: [dict(x, n=ALIAS.get((verein, x["n"]), x["n"]) if (x["seite"] == "heim") == heim_ist else x["n"]) for x in l]
+        k = AB.KURZ[verein]
+        gk = e["gast_slug"][:3] if heim_ist else e["heim_slug"][:3]
+        p = {"id": "dfb" + e["id"], "heim": e["heim"], "gast": e["gast"], "ergebnis": v["ergebnis"], "tore": fix(v["tore"]),
+             "karten": fix(v["karten"]), "anstoss": e["anstoss"], "heim_k": k if heim_ist else gk, "gast_k": gk if heim_ist else k,
+             "url": e["url"]}
+        m = ES.meldung(p, jetzt)
+        m["id"], m["verein"] = mid, verein
+        m["tags"] = ["SPIELBERICHT", "EUROPAPOKAL"]
+        m["quellen"] = [{"name": "DFB-Datencenter", "url": e["url"]}]
+        m["wettbewerb"] = "Europa Cup"
+        # Hin- und Rückspiel: Gesamtergebnis (gleiche beiden Mannschaften, anderes Spiel)
+        hin = next((x for x in spiele if x["id"] != e["id"] and {x["heim_slug"], x["gast_slug"]} == {e["heim_slug"], e["gast_slug"]}
+                    and x["ergebnis"] and x["anstoss"] < e["anstoss"]), None)
+        if hin and hin["ergebnis"]:
+            h_ = int(v["ergebnis"][0]) + int(hin["ergebnis"][1 if hin["heim_slug"] == e["gast_slug"] else 0])
+            g_ = int(v["ergebnis"][1]) + int(hin["ergebnis"][0 if hin["heim_slug"] == e["gast_slug"] else 1])
+            wir, sie = (h_, g_) if heim_ist else (g_, h_)
+            gegner_n = e["gast"] if heim_ist else e["heim"]
+            urteil = (f"{verein} kommt weiter" if wir > sie else f"{gegner_n} kommt weiter" if wir < sie else "Es steht insgesamt unentschieden")
+            m["text"].insert(1, f"Europa Cup, {v.get('runde') or 'Rückspiel'}: Das Hinspiel endete {hin['heim']} {hin['ergebnis'][0]}:{hin['ergebnis'][1]} {hin['gast']}, "
+                                f"insgesamt steht es {wir}:{sie} für {verein}. {urteil}." if wir != sie else
+                                f"Europa Cup, {v.get('runde') or 'Rückspiel'}: Das Hinspiel endete {hin['heim']} {hin['ergebnis'][0]}:{hin['ergebnis'][1]} {hin['gast']}, "
+                                f"insgesamt steht es {wir}:{sie}.")
+        neu.append(m)
+        ids.add(mid)
+    if neu:
+        news["meldungen"] = neu + news["meldungen"]
+        live["meldungen"] = neu + [x for x in live.get("meldungen", []) if x["id"] not in {y["id"] for y in neu}]
+        print(f"Europa-Cup-Bericht: {[m['headline'] for m in neu]}")
+        speichern(a, pn, pl, news, live, "Aufstellungen live: " + ", ".join(m["id"] for m in neu))
+    return laufend
+
+
 def ableiten(verein, start, bank, zeit, gegner, wb, news, spielplan, quelle):
     """Fehlt ohne bekannten Grund (Finn 01.11.2026): stand im letzten Ligaspiel im Kader, jetzt weder Startelf noch Bank.
     Nur Stammspielerinnen (Finn 03.11.2026): zuletzt in der Startelf oder in mindestens der Hälfte der letzten Ligaspiele, sonst übergangen.
@@ -168,7 +251,8 @@ def platzhalter(pid_, wb, basis, ma, an, h, g, jetzt, spielplan):
         for p in t.get("partien", []) + t.get("nachholspiele", []):
             if ma.split("/")[0] in p.get("url", ""):
                 partie = p.get("id")
-    wtext = {"DFB-Pokal": "im DFB-Pokal", "Champions League": "in der Champions League"}.get(wb, "in der Liga")
+    wtext = {"DFB-Pokal": "im DFB-Pokal", "Champions League": "in der Champions League", "Europa Cup": "im Europa Cup"}.get(wb, "in der Liga")
+    qurl, qname = (basis + ma + "/aufstellung", "Sportschau") if basis else (EUROPA_URL.get(ma, ""), "DFB-Datencenter")
     return {"id": pid_, "zeit": jetzt.strftime("%Y-%m-%dT%H:%M"), "spielerin": "Spielansetzung", "verein": verein, "nr": "",
             "pos": "Spielansetzung", "tags": ["AUFSTELLUNG"] + (["POKAL"] if wb == "DFB-Pokal" else ["EUROPAPOKAL"] if wb else []),
             "headline": f"Aufstellung {name(h)} gegen {name(g)} folgt", "kurz": f"Aufstellung folgt, Anpfiff {an.strftime('%H:%M')}",
@@ -177,13 +261,13 @@ def platzhalter(pid_, wb, basis, ma, an, h, g, jetzt, spielplan):
                      + ", wir ergänzen sie hier automatisch, sobald sie veröffentlicht ist.",
                      "Bis dahin steht unsere Prognose im Spielplan bei der Partie." if partie else
                      "Für Pokal- und Europapokalspiele gibt es keine Prognose, die Aufstellung kommt hier automatisch."],
-            "kickbase": "", "quellen": [{"name": "Sportschau", "url": basis + ma + "/aufstellung"}],
+            "kickbase": "", "quellen": [{"name": qname, "url": qurl}],
             "platzhalter": True, "anstoss": an.strftime("%Y-%m-%dT%H:%M"), **({"partie_id": partie} if partie else {})}
 
 
 def baue(wb, basis, ma, an, a, kader, news, spielplan, zeit):
-    url = basis + ma + "/aufstellung"
-    gr = AB.grafik(url)  # auch bei nur_dfb versuchen, die Sportschau-Grafik kann später kommen
+    url = basis + ma + "/aufstellung" if basis else a.get("dfb_url", "")
+    gr = AB.grafik(url) if basis else {}  # auch bei nur_dfb versuchen, die Sportschau-Grafik kann später kommen (Europa Cup: keine Sportschau)
     tt = an.strftime("%d%m")
     out = []
     for slug, gs, st, bk, sd in ((a["heim"], a["gast"], "startelf_heim", "bank_heim", "home"),
@@ -213,7 +297,7 @@ def baue(wb, basis, ma, an, a, kader, news, spielplan, zeit):
                 t["bank_offen"] = True
                 t["nicht_startelf"] = [dict(n=n, p=AB.pos_von(n, verein, kader), pid=AB.pid_von(n, verein, kader))
                                        for n in (vgl or {}).get("nicht_mehr_in_startelf", [])]
-        pre = "pokal-" if wb == "DFB-Pokal" else "cl-" if wb else ""
+        pre = PRE.get(wb, "")
         text = []
         if t.get("bank_offen"):
             raus = (vgl or {}).get("nicht_mehr_in_startelf", [])
@@ -371,7 +455,7 @@ def fehlt_meldung_gruppe(gruppe, spielplan):
     kv = AB.KADER_VEREIN.get(x0["verein"], x0["verein"])
     r = next((r for r in KADER if r["verein"] == kv and r["name"] == x0["spielerin"]), {})
     pokal = x0["wettbewerb"] == "DFB-Pokal"
-    wo = "im DFB-Pokal" if pokal else "in der Champions League" if x0["wettbewerb"] == "Champions League" else "in der Liga"
+    wo = "im DFB-Pokal" if pokal else {"Champions League": "in der Champions League", "Europa Cup": "im Europa Cup"}.get(x0["wettbewerb"], "in der Liga")
     quelle = "DFB-Datencenter" if "dfb.de" in x0["quelle"] else "Sportschau"
     def satz(b):
         rel_, st, n, x = b
@@ -530,29 +614,41 @@ def bank_nachtragen(a, pn, pl, news, live, spielplan, kader, grenze):
         au = m.get("aufstellung") or {}
         if not au.get("bank_offen") or m["zeit"][:10] < grenze:
             continue
-        url = next((q["url"] for q in m["quellen"] if "sportschau" in q["url"]), m["quellen"][0]["url"])
-        mm = re.search(r"(https://[^ ]+/)(ma\d+/([a-z0-9\-]+)_([a-z0-9\-]+))/aufstellung", url)
-        if not mm:
-            continue
-        try:
-            auf = F.lies_aufstellung(mm.group(2), mm.group(1))
-        except Exception:
-            auf = None
-        quelle_name = "Sportschau"
-        if not auf or not (auf["bank_heim"] or auf["bank_gast"]):
-            d = None
-            try:
-                d = D.aufstellung(mm.group(3), mm.group(4), au.get("wettbewerb"))
-            except Exception:
-                pass
-            if d and (d["bank_heim"] or d["bank_gast"]):
-                auf = {"heim": mm.group(3), "gast": mm.group(4), "beendet": False, "startelf_heim": d["startelf_heim"],
-                       "startelf_gast": d["startelf_gast"], "bank_heim": d["bank_heim"], "bank_gast": d["bank_gast"]}
-                quelle_name = "DFB-Datencenter"
-                if not any(q["url"] == d["url"] for q in m["quellen"]):
-                    m["quellen"].append({"name": "DFB-Datencenter", "url": d["url"]})
-            else:
+        slug = next((k for k, v in AB.SLUG.items() if v == m["verein"]), None)
+        if au.get("wettbewerb") == "Europa Cup":
+            url = next((q["url"] for q in m["quellen"] if "dfb.de" in q["url"]), "")
+            d = D.aufstellung_url(url)
+            if not d or not (d["bank_heim"] or d["bank_gast"]):
                 continue
+            quelle_name = "DFB-Datencenter"
+            heim_ist = D.KENN.get(slug, slug) in D.slugify(d["heim_name"])
+            auf = {"heim": slug if heim_ist else "gegner", "gast": "gegner" if heim_ist else slug, "beendet": False,
+                   "startelf_heim": d["startelf_heim"], "startelf_gast": d["startelf_gast"],
+                   "bank_heim": d["bank_heim"], "bank_gast": d["bank_gast"]}
+        else:
+            url = next((q["url"] for q in m["quellen"] if "sportschau" in q["url"]), m["quellen"][0]["url"])
+            mm = re.search(r"(https://[^ ]+/)(ma\d+/([a-z0-9\-]+)_([a-z0-9\-]+))/aufstellung", url)
+            if not mm:
+                continue
+            try:
+                auf = F.lies_aufstellung(mm.group(2), mm.group(1))
+            except Exception:
+                auf = None
+            quelle_name = "Sportschau"
+            if not auf or not (auf["bank_heim"] or auf["bank_gast"]):
+                d = None
+                try:
+                    d = D.aufstellung(mm.group(3), mm.group(4), au.get("wettbewerb"))
+                except Exception:
+                    pass
+                if d and (d["bank_heim"] or d["bank_gast"]):
+                    auf = {"heim": mm.group(3), "gast": mm.group(4), "beendet": False, "startelf_heim": d["startelf_heim"],
+                           "startelf_gast": d["startelf_gast"], "bank_heim": d["bank_heim"], "bank_gast": d["bank_gast"]}
+                    quelle_name = "DFB-Datencenter"
+                    if not any(q["url"] == d["url"] for q in m["quellen"]):
+                        m["quellen"].append({"name": "DFB-Datencenter", "url": d["url"]})
+                else:
+                    continue
         slug = next((k for k, v in AB.SLUG.items() if v == m["verein"]), None)
         seite = "heim" if slug == auf["heim"] else "gast"
         verein = m["verein"]
@@ -618,18 +714,21 @@ def weiter_main(a, pn, pl, news, live, spielplan, kader, geaendert):
         offen = 0
         SPAETER.clear()
         for wb, basis, ma, an in spiele_heute(jetzt):
-            pre = "pokal-" if wb == "DFB-Pokal" else "cl-" if wb else ""
+            pre = PRE.get(wb, "")
             h, g = ma.split("/")[1].split("_")
             soll = [f"aufstellung-{pre}{AB.KURZ[AB.SLUG[s]]}-{an.strftime('%d%m')}" for s in (h, g) if s in AB.SLUG and AB.SLUG[s] in AB.KURZ]
             if all(i in ids for i in soll):
                 continue
-            try:
-                auf = F.lies_aufstellung(ma, basis)
-            except Exception as e:
-                print(f"WARN {ma}: {e}", file=sys.stderr)
-                auf = None
-            if not auf or not (auf["bank_heim"] and auf["bank_gast"]):
-                auf = ergaenze_dfb(auf, h, g, wb)
+            if wb == "Europa Cup":
+                auf = europa_auf(ma, h, g)
+            else:
+                try:
+                    auf = F.lies_aufstellung(ma, basis)
+                except Exception as e:
+                    print(f"WARN {ma}: {e}", file=sys.stderr)
+                    auf = None
+                if not auf or not (auf["bank_heim"] and auf["bank_gast"]):
+                    auf = ergaenze_dfb(auf, h, g, wb)
             if not auf or auf["beendet"]:
                 offen += 1
                 pid_ = "aufstellung-folgt-" + ma.split("/")[0]
@@ -667,6 +766,10 @@ def weiter_main(a, pn, pl, news, live, spielplan, kader, geaendert):
                 punkt(a, pn, pl, news, live, spielplan)
         bank_nachtragen(a, pn, pl, news, live, spielplan, kader, (jetzt - timedelta(days=1)).strftime("%Y-%m-%d"))
         fehlt_meldungen(a, pn, pl, news, live, spielplan)
+        try:
+            SPAETER.extend(europa_berichte(a, pn, pl, news, live, spielplan, kader))
+        except Exception as e:
+            print(f"WARN Europa-Bericht: {e}", file=sys.stderr)
         if (not offen and not SPAETER) or time.time() + 60 > ende:
             break
         time.sleep(60)

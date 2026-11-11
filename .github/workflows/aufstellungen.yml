@@ -1,6 +1,6 @@
 name: Aufstellungen live
 
-# Holt offizielle Aufstellungen (Liga, DFB-Pokal, Champions League) von der Sportschau, sobald sie da sind,
+# Holt offizielle Aufstellungen (Liga, DFB-Pokal, Champions League von der Sportschau, Europa Cup vom DFB-Datencenter), sobald sie da sind,
 # und schreibt sie sofort in news.json. Ohne Claude.
 # Start: stündlich per Zeitplan (GitHub startet geplante Läufe oft verspätet) und von Hand.
 # Kette: Steht heute noch ein Spiel mit Bundesliga-Verein an, startet sich die Action am Ende selbst neu

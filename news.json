@@ -1,6 +1,221 @@
 {
- "stand": "2026-11-10T23:46",
+ "stand": "2026-11-11T11:05",
  "meldungen": [
+  {
+   "id": "endstand-ec-wob-1011",
+   "zeit": "2026-11-11T11:05",
+   "spielerin": "Feyenoord Rotterdam gegen VfL Wolfsburg",
+   "verein": "VfL Wolfsburg",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "SPIELBERICHT",
+    "EUROPAPOKAL"
+   ],
+   "headline": "Endstand: Feyenoord Rotterdam 0:3 VfL Wolfsburg",
+   "kurz": "Endstand fey 0:3 wob",
+   "text": [
+    "VfL Wolfsburg gewinnt bei Feyenoord Rotterdam mit 3:0.",
+    "Europa Cup, Achtelfinale: Das Hinspiel endete VfL Wolfsburg 7:0 Feyenoord Rotterdam, insgesamt steht es 10:0 für VfL Wolfsburg. VfL Wolfsburg kommt weiter.",
+    "Tore: 0:1 Piljic (72.), 0:2 Kerim-Lindland (83.), 0:3 Bussy (87.).",
+    "Gelb: DellaPeruta, Haverhoek, Paus.",
+    "Noten und der ausführliche Bericht folgen."
+   ],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "DFB-Datencenter",
+     "url": "https://datencenter.dfb.de/matches/feyenoord-rotterdam-vfl-wolfsburg-2431432"
+    }
+   ],
+   "quelle_live": true,
+   "partie_id": "dfb2431432",
+   "wettbewerb": "Europa Cup"
+  },
+  {
+   "id": "aufstellung-ec-wob-1011",
+   "zeit": "2026-11-10T17:55",
+   "spielerin": "Spielansetzung",
+   "verein": "VfL Wolfsburg",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "EUROPAPOKAL"
+   ],
+   "headline": "Offizielle Aufstellung: VfL Wolfsburg gegen Feyenoord Rotterdam",
+   "text": [],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "DFB-Datencenter",
+     "url": "https://datencenter.dfb.de/matches/feyenoord-rotterdam-vfl-wolfsburg-2431432"
+    }
+   ],
+   "aufstellung": {
+    "gegner": "Feyenoord Rotterdam",
+    "formation": "4-2-2-1-1",
+    "geschaetzt": true,
+    "hinweis": "Ohne Einsatzdaten: Alber, Fløe",
+    "startelf": [
+     {
+      "n": "Tufeković",
+      "p": "TW",
+      "pid": "00391",
+      "f": "neu"
+     },
+     {
+      "n": "Wedemeyer",
+      "p": "ABW",
+      "pid": "00399",
+      "f": "neu"
+     },
+     {
+      "n": "Kleinherne",
+      "p": "ABW",
+      "pid": "00395",
+      "f": "neu"
+     },
+     {
+      "n": "Küver",
+      "p": "ABW",
+      "pid": "00396"
+     },
+     {
+      "n": "Linder",
+      "p": "ABW",
+      "pid": "00398"
+     },
+     {
+      "n": "Piljic",
+      "p": "DM",
+      "pid": "00406",
+      "kp": "MF",
+      "f": "neu"
+     },
+     {
+      "n": "Minge",
+      "p": "DM",
+      "pid": "00404",
+      "kp": "MF"
+     },
+     {
+      "n": "Vallotto",
+      "p": "MF",
+      "pid": "00407"
+     },
+     {
+      "n": "Alber",
+      "p": "MF",
+      "pid": "00400",
+      "f": "neu"
+     },
+     {
+      "n": "Bussy",
+      "p": "OM",
+      "pid": "00408",
+      "kp": "ST",
+      "f": "neu"
+     },
+     {
+      "n": "Fløe",
+      "p": "ST",
+      "pid": "00409",
+      "f": "neu"
+     }
+    ],
+    "bank": [
+     {
+      "n": "Johannes",
+      "p": "TW",
+      "pid": "00389",
+      "f": "raus"
+     },
+     {
+      "n": "Schönwetter",
+      "p": "TW",
+      "pid": "00390",
+      "f": "neu"
+     },
+     {
+      "n": "Carleer",
+      "p": "ABW",
+      "pid": "00394",
+      "f": "raus"
+     },
+     {
+      "n": "Bjelde",
+      "p": "ABW",
+      "pid": "00392",
+      "f": "raus"
+     },
+     {
+      "n": "Peddemors",
+      "p": "MF",
+      "pid": "00405",
+      "f": "raus"
+     },
+     {
+      "n": "Lattwein",
+      "p": "MF",
+      "pid": "00403",
+      "f": "neu"
+     },
+     {
+      "n": "Huth",
+      "p": "MF",
+      "pid": "00402",
+      "f": "raus"
+     },
+     {
+      "n": "Prašnikar",
+      "p": "ST",
+      "pid": "00412",
+      "f": "raus"
+     },
+     {
+      "n": "Zicai",
+      "p": "ST",
+      "pid": "00414",
+      "f": "raus"
+     },
+     {
+      "n": "Kerim-Lindland",
+      "p": "ST",
+      "pid": "00411"
+     }
+    ],
+    "fehlt": [
+     {
+      "n": "Landenberger",
+      "p": "ABW",
+      "f": "raus",
+      "war": "Bank"
+     },
+     {
+      "n": "Eisenbeiß",
+      "p": "TW"
+     },
+     {
+      "n": "Bogaert",
+      "p": "ABW"
+     },
+     {
+      "n": "Araśniewicz",
+      "p": "MF"
+     },
+     {
+      "n": "Hoffmann",
+      "p": "ST"
+     },
+     {
+      "n": "Sælen",
+      "p": "ST"
+     }
+    ],
+    "wettbewerb": "Europa Cup"
+   },
+   "quelle_live": true
+  },
   {
    "id": "buehl-psg-1011",
    "pid": "00023",
