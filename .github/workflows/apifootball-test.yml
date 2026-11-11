@@ -6,7 +6,7 @@ name: API-Football Prüflauf (Test)
 on:
   push:
     branches: [apifootball-test]
-    paths: ["tools/apifootball_test.py", "tools/af_europa_probe.py", ".github/workflows/apifootball-test.yml"]
+    paths: ["tools/apifootball_test.py", ".github/workflows/apifootball-test.yml"]
   workflow_dispatch:
     inputs:
       modus:
@@ -39,9 +39,7 @@ jobs:
         env:
           API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
         run: |
-          if [ -f tools/af_europa_probe.py ] && [ "${{ github.event_name }}" = "push" ]; then
-            python3 tools/af_europa_probe.py
-          elif [ "${{ github.event_name }}" = "schedule" ] || [ "${{ inputs.modus }}" = "messen" ]; then
+          if [ "${{ github.event_name }}" = "schedule" ] || [ "${{ inputs.modus }}" = "messen" ]; then
             python3 tools/apifootball_test.py --messen
           elif [ "${{ github.event_name }}" = "push" ] || [ "${{ inputs.modus }}" = "saison" ]; then
             # Archiv: Vorsaisons einmalig mitziehen (Statistiken bei API-Football ab 2023/24)
