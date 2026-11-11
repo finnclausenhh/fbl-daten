@@ -394,7 +394,7 @@
      ]
     ],
     "text": "Sechs Ligaspiele in Folge in der Startelf, gegen Wolfsburg nur eingewechselt. Krumbiegel und Ivelj begannen, beide standen am 8. Spieltag nicht in der Startelf.",
-    "kb": "Frankfurt spielt am Mittwoch gegen Eindhoven, am Sonntag in Leipzig (1,89 Gegentore pro Spiel). Rotation nach dem Europapokal ist möglich.",
+    "kb": "Frankfurt gewann am Mittwoch 2:1 gegen Eindhoven und spielt am Sonntag in Leipzig (1,89 Gegentore pro Spiel). Rotation nach dem Europapokal ist möglich.",
     "next": {
      "k": "RBL",
      "ort": "A",
@@ -576,7 +576,7 @@
      ]
     ],
     "text": "Neunmal in der Startelf, 12 Schüsse in den letzten drei Spielen. Gegen Wolfsburg blieb sie nach 76 Minuten ohne Tor.",
-    "kb": "Leipzig kassiert 1,89 Tore pro Spiel. Frankfurt spielt drei Tage vorher gegen Eindhoven.",
+    "kb": "Leipzig kassiert 1,89 Tore pro Spiel. Frankfurt gewann am Mittwoch 2:1 gegen Eindhoven, vier Tage vor dem Spiel.",
     "next": {
      "k": "RBL",
      "ort": "A",
@@ -1068,7 +1068,7 @@
       "fakten": [
        "Leipzig holte zu Hause <b>6 Punkte</b> aus 4 Spielen (8:8 Tore).",
        "Frankfurt holte auswärts <b>10 Punkte</b> aus 4 Spielen (8:3 Tore).",
-       "Frankfurt spielt am Mittwoch gegen Eindhoven, <b>4 Tage</b> vor dem Spiel in Leipzig."
+       "Frankfurt gewann am Mittwoch 2:1 gegen Eindhoven, <b>4 Tage</b> vor dem Spiel in Leipzig."
       ],
       "kb": "Leipzig kassiert 1,89 Tore pro Spiel, Frankfurt 1,11. Das spricht eher für die Offensive von Frankfurt."
      },
@@ -4175,5 +4175,5 @@
   }
  ],
  "punkt_hinweis": null,
- "geprueft": "2026-11-10T23:47"
+ "geprueft": "2026-11-11T22:58"
 }
