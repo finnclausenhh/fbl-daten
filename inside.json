@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-10T07:50",
+ "stand": "2026-11-12T20:04",
  "ausgabe": {
   "kicker": "Inside · KW 46 · nach Spieltag 9",
   "titel": "Werders neue Startelf, Bayerns Doppelbelastung",
@@ -1512,369 +1512,124 @@
   "hinweis": "Reise = Luftlinie hin und zurück zu allen Auswärtsspielen. FC Bayern reist mit rund 3.120 km am weitesten (Paris, Wolfsburg, Wien). Leverkusen kommt auf rund 1.550 km, Wolfsburg auf 1.190 km."
  },
  "analyse": {
-  "id": "analyse-werder-kw46",
-  "verein": "SVW",
-  "tag": "ROLLE",
-  "titel": "Werder stellt um: Shimada nur noch von der Bank",
-  "teaser": "Mei Shimada begann die ersten sechs Ligaspiele und traf dreimal. Seit dem 7. Spieltag kommt sie nur noch von der Bank, Purtscheller und Hipp beginnen.",
+  "id": "spieltag-md10",
+  "verein": "FCB",
+  "tag": "ROTATION",
+  "titel": "FC Bayern in Wolfsburg: die Elf aus Paris oder die aus der Liga?",
+  "teaser": "Nur Harder begann die letzten vier Ligaspiele. In Paris standen sieben andere Spielerinnen in der Startelf als gegen Werder, vier Tage später wartet Wolfsburg.",
   "stats": [
    [
-    "79",
-    "Ligaminuten von Shimada an den Spieltagen 7 bis 9, davor sechsmal Startelf"
+    "1",
+    "Spielerin begann alle letzten vier Ligaspiele: Pernille Harder"
    ],
    [
-    "5 von 8",
-    "Werder-Toren an den Spieltagen 7 bis 9 von Hipp, Dešić, Gutmann und Purtscheller"
+    "7",
+    "Spielerinnen standen in Paris in der Startelf, die gegen Werder nicht begonnen hatten"
    ],
    [
-    "13",
-    "Heimpunkte aus 5 Spielen, nur der FC Bayern holte zu Hause mehr"
+    "720",
+    "Ligaminuten von Viggósdóttir bis Spieltag 8, seitdem drei Pflichtspiele ohne Einsatz"
    ]
   ],
   "spalten": [
+   "Union",
    "Mainz",
-   "Leipzig",
-   "Wolfsburg",
-   "HSV",
-   "Stuttgart",
-   "Leverkusen",
-   "Hoffenheim",
    "Freiburg",
-   "FC Bayern"
+   "Leverkusen",
+   "Köln",
+   "Frankfurt",
+   "Stuttgart",
+   "Leipzig",
+   "Werder"
   ],
-  "cl_ab": null,
+  "cl_ab": 6,
   "matrix": {
-   "Shimada": {
+   "Harder": {
     "1": [
      "S",
-     83,
+     90,
      1
     ],
     "2": [
-     "S",
-     76,
-     1
-    ],
-    "3": [
-     "S",
-     81,
-     0
-    ],
-    "4": [
-     "S",
-     86,
-     0
-    ],
-    "5": [
-     "S",
-     75,
-     1
-    ],
-    "6": [
-     "S",
-     59,
-     0
-    ],
-    "7": [
-     "E",
-     45,
-     0,
-     "zur Pause gekommen, Vorlage zum 2:0"
-    ],
-    "8": [
-     "E",
-     14,
-     0
-    ],
-    "9": [
-     "E",
-     20,
-     0
-    ]
-   },
-   "Jaron": {
-    "1": [
-     "S",
-     58,
-     1
-    ],
-    "2": [
-     "S",
-     67,
-     0
-    ],
-    "3": [
-     "S",
-     58,
-     0
-    ],
-    "4": [
-     "S",
-     77,
-     1
-    ],
-    "5": [
      "S",
      90,
      0
     ],
+    "3": [
+     "S",
+     65,
+     0
+    ],
+    "4": [
+     "S",
+     85,
+     0
+    ],
+    "5": [
+     "E",
+     26,
+     0
+    ],
     "6": [
      "S",
-     68,
+     90,
      0
     ],
     "7": [
      "S",
-     46,
-     0
+     90,
+     2
     ],
     "8": [
      "S",
-     67,
-     1
+     73,
+     0
     ],
     "9": [
-     "E",
-     20,
+     "S",
+     90,
      0
     ]
    },
-   "Dhont": {
+   "Bühl": {
     "1": [
      "S",
      74,
-     0
+     1
     ],
     "2": [
      "S",
-     82,
+     90,
      0
     ],
     "3": [
-     "E",
-     33,
+     "S",
+     90,
      1
     ],
     "4": [
      "S",
-     86,
-     0
-    ],
-    "5": [
-     "S",
-     63,
+     90,
      0
     ],
     "6": [
      "S",
-     84,
-     0
-    ],
-    "7": [
-     "E",
-     45,
-     0
-    ],
-    "8": [
-     "E",
-     14,
-     0
-    ],
-    "9": [
-     "S",
-     71,
-     1,
-     "Tor zum 1:1"
-    ]
-   },
-   "Purtscheller": {
-    "1": [
-     "E",
-     33,
-     0
-    ],
-    "2": [
-     "E",
-     24,
-     0
-    ],
-    "3": [
-     "S",
-     58,
-     0
-    ],
-    "4": [
-     "E",
-     14,
-     0
-    ],
-    "5": [
-     "E",
-     28,
-     0
-    ],
-    "6": [
-     "E",
-     32,
-     0
-    ],
-    "7": [
-     "S",
-     80,
-     0
-    ],
-    "8": [
-     "S",
-     77,
+     90,
      1
     ],
-    "9": [
-     "S",
-     88,
-     0
-    ]
-   },
-   "Hipp": {
-    "5": [
-     "E",
-     28,
-     0
-    ],
-    "6": [
-     "S",
-     68,
-     0
-    ],
     "7": [
      "S",
-     66,
-     1,
-     "Nachholspiel am 29.10."
-    ],
-    "8": [
-     "S",
-     90,
-     0
-    ],
-    "9": [
-     "S",
-     90,
-     0
-    ]
-   },
-   "Dešić": {
-    "1": [
-     "E",
-     8,
-     0
-    ],
-    "2": [
-     "E",
-     15,
-     0
-    ],
-    "3": [
-     "E",
-     33,
-     0
-    ],
-    "4": [
-     "E",
-     5,
-     0
-    ],
-    "5": [
-     "E",
-     7,
-     0
-    ],
-    "6": [
-     "E",
-     23,
-     0
-    ],
-    "7": [
-     "S",
-     46,
+     73,
      1
-    ],
-    "8": [
-     "S",
-     90,
-     0
-    ]
-   },
-   "Gutmann": {
-    "1": [
-     "S",
-     83,
-     0
-    ],
-    "3": [
-     "E",
-     21,
-     0
-    ],
-    "5": [
-     "E",
-     28,
-     0
-    ],
-    "6": [
-     "S",
-     90,
-     0
-    ],
-    "7": [
-     "S",
-     90,
-     0
     ],
     "8": [
      "S",
      90,
      2,
-     "ein Tor nach Ecke von Mahmoud"
-    ],
-    "9": [
-     "S",
-     90,
-     0
+     "zwei Tore in Leipzig"
     ]
    },
-   "Mahmoud": {
-    "4": [
-     "E",
-     1,
-     0
-    ],
-    "5": [
-     "E",
-     16,
-     0
-    ],
-    "6": [
-     "E",
-     7,
-     0
-    ],
-    "7": [
-     "E",
-     19,
-     0
-    ],
-    "8": [
-     "E",
-     24,
-     0
-    ],
-    "9": [
-     "S",
-     60,
-     0
-    ]
-   },
-   "Vanzeir": {
+   "Mahmutovic": {
     "1": [
      "S",
      90,
@@ -1882,13 +1637,13 @@
     ],
     "2": [
      "S",
-     76,
+     90,
      0
     ],
     "3": [
      "S",
-     70,
-     1
+     90,
+     0
     ],
     "4": [
      "S",
@@ -1897,271 +1652,1172 @@
     ],
     "5": [
      "S",
-     84,
+     90,
      0
     ],
     "6": [
      "S",
-     84,
-     1
+     90,
+     0
     ],
     "7": [
+     "S",
+     90,
+     0
+    ],
+    "8": [
+     "S",
+     75,
+     0,
+     "Rote Karte"
+    ],
+    "9": [
+     "V",
+     0,
+     0,
+     "Rotsperre"
+    ]
+   },
+   "Viggósdóttir": {
+    "1": [
+     "S",
+     90,
+     1
+    ],
+    "2": [
+     "S",
+     90,
+     0
+    ],
+    "3": [
+     "S",
+     90,
+     0
+    ],
+    "4": [
+     "S",
+     90,
+     0
+    ],
+    "5": [
+     "S",
+     90,
+     0
+    ],
+    "6": [
+     "S",
+     90,
+     0
+    ],
+    "7": [
+     "S",
+     90,
+     0
+    ],
+    "8": [
+     "S",
+     90,
+     0
+    ],
+    "9": [
+     "V",
+     0,
+     0,
+     "Knieprobleme"
+    ]
+   },
+   "Gwinn": {
+    "2": [
+     "S",
+     64,
+     1
+    ],
+    "3": [
+     "S",
+     90,
+     0
+    ],
+    "4": [
+     "S",
+     90,
+     0
+    ],
+    "6": [
+     "S",
+     86,
+     0,
+     "verletzte sich dabei (Außenbandriss)"
+    ],
+    "7": [
+     "V",
+     0,
+     0,
+     "Außenbandriss"
+    ],
+    "8": [
+     "V",
+     0,
+     0,
+     "Außenbandriss"
+    ],
+    "9": [
+     "E",
+     28,
+     0,
+     "Comeback"
+    ]
+   },
+   "Kett": {
+    "4": [
+     "S",
+     66,
+     0
+    ],
+    "5": [
+     "E",
+     45,
+     0
+    ],
+    "6": [
+     "S",
+     90,
+     0
+    ],
+    "7": [
+     "S",
+     64,
+     0
+    ],
+    "8": [
+     "S",
+     90,
+     0
+    ],
+    "9": [
+     "E",
+     22,
+     0
+    ]
+   },
+   "Eriksson": {
+    "1": [
+     "S",
+     90,
+     0
+    ],
+    "2": [
+     "S",
+     64,
+     0
+    ],
+    "7": [
+     "E",
+     28,
+     0
+    ],
+    "8": [
+     "S",
+     62,
+     0
+    ],
+    "9": [
+     "E",
+     28,
+     0
+    ]
+   },
+   "Ballisager": {
+    "1": [
+     "S",
+     62,
+     0
+    ],
+    "6": [
+     "S",
+     69,
+     0
+    ],
+    "7": [
+     "S",
+     63,
+     0
+    ],
+    "9": [
+     "S",
+     90,
+     0
+    ]
+   },
+   "Mattner-Trembleau": {
+    "2": [
+     "E",
+     27,
+     0
+    ],
+    "3": [
+     "E",
+     45,
+     0
+    ],
+    "5": [
+     "S",
+     90,
+     0
+    ],
+    "6": [
+     "E",
+     5,
+     0
+    ],
+    "7": [
+     "S",
+     90,
+     0
+    ],
+    "8": [
+     "E",
+     29,
+     0
+    ],
+    "9": [
+     "S",
+     63,
+     0
+    ]
+   },
+   "Gilles": {
+    "2": [
+     "E",
+     27,
+     1
+    ],
+    "3": [
+     "S",
+     90,
+     1
+    ],
+    "4": [
+     "S",
+     90,
+     1
+    ],
+    "5": [
+     "S",
+     46,
+     0
+    ],
+    "6": [
+     "V",
+     0,
+     0,
+     "muskuläre Probleme"
+    ],
+    "7": [
+     "V",
+     0,
+     0,
+     "muskuläre Probleme"
+    ],
+    "8": [
+     "E",
+     29,
+     0,
+     "nach Rot rund 15 Min. im Tor"
+    ],
+    "9": [
+     "S",
+     63,
+     0
+    ]
+   },
+   "Tanikawa": {
+    "1": [
+     "S",
+     90,
+     0
+    ],
+    "2": [
+     "S",
+     90,
+     0
+    ],
+    "3": [
+     "S",
+     90,
+     2
+    ],
+    "4": [
+     "S",
+     90,
+     0
+    ],
+    "5": [
+     "S",
+     46,
+     0
+    ],
+    "6": [
+     "E",
+     30,
+     0
+    ],
+    "7": [
+     "S",
+     90,
+     0
+    ],
+    "8": [
      "S",
      72,
-     0
-    ],
-    "8": [
-     "S",
-     77,
-     0
-    ],
-    "9": [
-     "S",
-     60,
-     0
-    ]
-   },
-   "Zieniewicz": {
-    "1": [
-     "E",
-     8,
-     0
-    ],
-    "2": [
-     "E",
-     24,
-     0
-    ],
-    "3": [
-     "S",
-     90,
-     0
-    ],
-    "4": [
-     "S",
-     90,
-     0
-    ],
-    "5": [
-     "S",
-     90,
-     0
-    ],
-    "6": [
-     "S",
-     90,
-     0
-    ],
-    "7": [
-     "S",
-     90,
-     0
-    ],
-    "8": [
-     "S",
-     90,
-     0
-    ],
-    "9": [
-     "S",
-     90,
-     0
-    ]
-   },
-   "Gmeineder": {
-    "1": [
-     "E",
-     17,
-     0
-    ],
-    "2": [
-     "E",
-     15,
-     0
-    ],
-    "3": [
-     "S",
-     90,
-     0
-    ],
-    "4": [
-     "S",
-     90,
-     0
-    ],
-    "5": [
-     "S",
-     63,
-     0
-    ],
-    "6": [
-     "E",
-     23,
-     0
-    ],
-    "7": [
-     "E",
-     25,
-     0
-    ],
-    "9": [
-     "E",
-     31,
-     0
-    ]
-   },
-   "Wirtz": {
-    "1": [
-     "S",
-     90,
-     0
-    ],
-    "2": [
-     "S",
-     90,
-     0
-    ],
-    "3": [
-     "S",
-     90,
-     0
-    ],
-    "4": [
-     "S",
-     90,
-     0
-    ],
-    "5": [
-     "S",
-     90,
-     0
-    ],
-    "6": [
-     "S",
-     90,
-     0
-    ],
-    "7": [
-     "S",
-     90,
-     0
-    ],
-    "8": [
-     "S",
-     85,
-     0
-    ],
-    "9": [
-     "S",
-     71,
-     0
-    ]
-   },
-   "Magerl": {
-    "1": [
-     "E",
-     8,
-     0
-    ],
-    "2": [
-     "S",
-     67,
      1
     ],
-    "3": [
-     "S",
-     70,
+    "9": [
+     "E",
+     28,
+     0
+    ]
+   },
+   "Alara": {
+    "1": [
+     "E",
+     29,
+     0
+    ],
+    "2": [
+     "E",
+     20,
      0
     ],
     "4": [
+     "E",
+     18,
+     1
+    ],
+    "5": [
+     "S",
+     90,
+     1
+    ],
+    "6": [
+     "S",
+     86,
+     0
+    ],
+    "7": [
+     "E",
+     28,
+     0
+    ],
+    "8": [
      "S",
      90,
      0
     ],
-    "5": [
+    "9": [
      "S",
      63,
      0
+    ]
+   },
+   "Imade": {
+    "2": [
+     "E",
+     12,
+     0
+    ],
+    "3": [
+     "E",
+     27,
+     0
+    ],
+    "4": [
+     "E",
+     25,
+     1
+    ],
+    "5": [
+     "S",
+     71,
+     2
+    ],
+    "6": [
+     "S",
+     61,
+     0
+    ],
+    "7": [
+     "S",
+     90,
+     1
+    ],
+    "8": [
+     "E",
+     19,
+     1
+    ],
+    "9": [
+     "S",
+     72,
+     1
+    ]
+   },
+   "Damnjanović": {
+    "1": [
+     "S",
+     62,
+     0
+    ],
+    "2": [
+     "S",
+     79,
+     0
+    ],
+    "4": [
+     "S",
+     66,
+     0
+    ],
+    "5": [
+     "S",
+     65,
+     1
+    ],
+    "6": [
+     "V",
+     0,
+     0,
+     "Muskelverletzung"
     ],
     "7": [
      "V",
      0,
      0,
-     "Knieverletzung"
+     "Muskelverletzung"
     ],
     "8": [
      "V",
      0,
      0,
-     "Knieverletzung"
+     "Muskelverletzung"
     ],
     "9": [
-     "V",
-     0,
-     0,
-     "Knieverletzung"
+     "E",
+     19,
+     1
     ]
    }
   },
   "vorschau": [
-   "Shimada",
-   "Purtscheller",
-   "Hipp",
-   "Gutmann",
-   "Jaron"
+   "Viggósdóttir",
+   "Gwinn",
+   "Eriksson",
+   "Tanikawa",
+   "Damnjanović"
   ],
   "kurz": [
-   "Shimada begann die ersten 6 Ligaspiele (3 Tore), seit Spieltag 7 nur Einwechslungen: 79 Minuten.",
-   "Purtscheller und Hipp begannen die letzten 3 Ligaspiele, Gutmann spielt seit Spieltag 6 immer 90 Minuten.",
-   "Ein Platz vorne wechselt: Jaron begann an den Spieltagen 7 und 8, Dhont am 9. Spieltag."
+   "Nur Harder begann die letzten 4 Ligaspiele. In Paris begannen 7 Spielerinnen, die gegen Werder draußen waren.",
+   "Gilles fällt mehrere Wochen aus. In Paris spielten Ballisager und Eriksson innen, Gwinn rechts.",
+   "Viggósdóttir (720 Ligaminuten bis Spieltag 8) ist zurück, kam in Paris aber nicht zum Einsatz."
   ],
   "ausblick": [
    {
     "md": 10,
     "datum": "2026-11-14",
-    "gk": "FCU",
-    "ha": "H",
-    "satz": "Union kassiert 1,89 Tore pro Spiel. Wir erwarten die Elf der letzten Wochen, Shimada eher als Einwechselspielerin.",
+    "gk": "WOB",
+    "ha": "A",
+    "satz": "Vier Tage nach Paris im Topspiel. Wir erwarten eher die Elf aus Paris als die vom Werder-Spiel.",
     "namen": [
-     "Purtscheller",
-     "Hipp",
-     "Gutmann",
-     "Shimada"
+     "Gwinn",
+     "Eriksson",
+     "Tanikawa",
+     "Damnjanović",
+     "Viggósdóttir"
     ],
     "fehlt": [
-     "Magerl verletzt",
-     "El Sherif verletzt"
+     "Gilles verletzt",
+     "Potsi verletzt"
     ],
-    "kb": "Stammelf",
-    "kbart": "gut"
+    "kb": "Einsatz offen"
    },
    {
     "md": 11,
-    "datum": "2026-11-21",
-    "gk": "KOE",
-    "ha": "A",
-    "satz": "Köln kassierte zu Hause 3 Tore in 5 Spielen. Ob Jaron oder Dhont beginnt, ist offen.",
+    "datum": "2026-11-23",
+    "gk": "TSG",
+    "ha": "H",
+    "satz": "Vier Tage nach Wien. Gegen Werder, zwischen Pokal und Paris, begannen 7 neue Spielerinnen.",
     "namen": [
-     "Jaron",
-     "Dhont"
+     "Alara",
+     "Imade",
+     "Mattner-Trembleau"
     ],
-    "kb": "Einsatz offen"
+    "kb": "Rotation",
+    "kbart": "warn"
    }
   ],
   "text": [
-   "In den ersten sechs Ligaspielen gehörte Mei Shimada fest zur Werder-Startelf: sechs Starts mit 59 bis 86 Minuten und drei Tore. Mit Jaron ist sie die beste Werder-Torschützin. Seit dem 7. Spieltag kam sie nur noch von der Bank: 45 Minuten gegen Hoffenheim, 14 gegen Freiburg und 20 in München, zusammen 79 Minuten.",
-   "In derselben Zeit begannen Lilli Purtscheller und Jenny Hipp alle drei Ligaspiele, Sarah Gutmann spielt seit dem 6. Spieltag jedes Mal 90 Minuten. Von den acht Werder-Toren an den Spieltagen 7 bis 9 erzielten Hipp, Dešić, Gutmann und Purtscheller fünf. Gutmann traf gegen Freiburg zweimal, einmal nach einer Ecke von Mahmoud. Das Spiel gegen Hoffenheim (7. Spieltag) wurde am 29.10. nachgeholt.",
-   "Eine Verletzung meldet für Shimada keine Quelle. Im Pokal in Mainz (1.11.) begann sie für Dešić, in der Liga danach in München wieder nur als Einwechselspielerin. Ein Platz vorne wechselt von Spiel zu Spiel: Jaron begann an den Spieltagen 7 und 8, Dhont am 9. Spieltag, sie traf in München zum 1:1."
+   "Beim FC Bayern ist in der Liga kaum ein Platz fest vergeben. Nur Pernille Harder begann alle letzten vier Ligaspiele, bei keinem anderen Verein der Liga ist das nur eine Spielerin. Viggósdóttir und Mahmutovic, die bis Spieltag 8 immer begonnen hatten, fehlten gegen Werder: Mahmutovic war nach ihrer Roten Karte in Leipzig gesperrt, Viggósdóttir hatte laut SPORT1 Knieprobleme. Gegen Werder (3:1) begannen unter anderem van Eijk, Gilles, Mattner-Trembleau, Imade und Potsi.",
+   "Vier Tage später in Paris (2:1) sah die Startelf anders aus. Neu dabei waren Mahmutovic, Kett, Eriksson, Gwinn, Tanikawa, Bühl und Damnjanović, also sieben Spielerinnen. Gwinn begann zum ersten Mal seit ihrem Außenbandriss, als Rechtsverteidigerin neben Ballisager, Eriksson und Kett. Bühl traf zum 0:2 nach Vorlage von Harder. Alara, Imade, Mattner-Trembleau und Viggósdóttir blieben ohne Einsatz.",
+   "Gilles fällt laut Kicker und SPORT1 mit einer Muskelverletzung mehrere Wochen aus, Potsi nach einem Schlag aufs Knie, die Dauer ist offen. Viggósdóttir ist laut SPORT1 wieder fit, stand aber seit dem 8. Spieltag in keinem Pflichtspiel auf dem Platz: im Pokal nicht im Kader, gegen Werder verletzt, in Paris auf der Bank. Bis Spieltag 8 hatte sie alle 720 Ligaminuten gespielt."
   ],
   "einschaetzung": [
-   "<b>Spieltag 10 gegen Union (Sa 14.11.):</b> Werder holte zu Hause 13 Punkte aus 5 Spielen bei 11:4 Toren. Union holte auswärts 4 Punkte aus 4 Spielen und kassiert insgesamt 1,89 Tore pro Spiel. Wir rechnen wieder mit Purtscheller, Hipp und Gutmann in der Startelf, Shimada sehen wir eher als Einwechselspielerin.",
-   "<b>Spieltag 11 in Köln (Sa 21.11.):</b> Köln kassierte zu Hause nur 3 Tore in 5 Spielen. Werder holte auswärts 3 Punkte aus 4 Spielen. Zwischen Jaron und Dhont entscheidet sich ein Platz offenbar kurzfristig."
+   "<b>Spieltag 10 in Wolfsburg (Sa 14.11., 17:55):</b> Wolfsburg holte zu Hause 9 Punkte aus 3 Spielen bei 8:3 Toren und schonte am Dienstag in Rotterdam sieben Spielerinnen aus der Startelf gegen Frankfurt, darunter Peddemors und Huth. Bayern holte auswärts 12 Punkte aus 4 Spielen. Im Topspiel in Frankfurt (6. Spieltag) stand die stärkste verfügbare Elf, deshalb rechnen wir eher mit der Elf aus Paris. Offen sind vor allem drei Plätze: rechts Gwinn oder Mattner-Trembleau, innen Viggósdóttir oder Eriksson neben Ballisager, vorne Damnjanović oder Imade.",
+   "<b>Danach:</b> Am Donnerstag spielt Bayern in Wien (400 km), am Montag 23.11. kommt Hoffenheim. Gegen Werder, zwischen Pokal und Paris, begannen sieben Spielerinnen, die in Leipzig nicht in der Startelf standen, zwei davon wegen Sperre und Verletzung von Stammkräften. Gegen Hoffenheim rechnen wir deshalb wieder mit mehr Einsätzen für Alara, Imade und Mattner-Trembleau."
   ],
-  "kb": "Unsere Einschätzung: Bei Werder ist die Startelf der letzten drei Ligaspiele die Referenz, nicht die der ersten sechs. Purtscheller, Hipp und Gutmann haben aktuell die sicheren Minuten, Shimada bekommt eher Kurzeinsätze. Zwischen Jaron und Dhont ist ein Platz offen. Ligaweit holte zu Hause nur der FC Bayern mehr Punkte als Werder, gegen Union ist das Umfeld für Werders Startelf gut.",
-  "quelle": "Sportschau Liveticker und Aufstellungen, Spieltag 1 bis 9. Pokal und Nachholspiel: Meldungen vom 29.10. und 1.11.",
-  "news_zeit": "2026-11-10T12:00"
+  "kb": "Unsere Einschätzung: Für das Topspiel ist die Elf aus Paris die bessere Referenz als die vom Werder-Spiel. Harder, Bühl, Mahmutovic, Amani und Dallmann sehen wir in der Startelf. Bei Gwinn, Eriksson, Viggósdóttir, Damnjanović und Imade entscheidet sich der Platz wohl erst mit der Aufstellung, Viggósdóttir ist nach drei Pflichtspielen ohne Einsatz das größte Fragezeichen. Kein Verein der Liga hat weniger feste Startplätze als der FC Bayern, fünf Tage vor dem Spiel in Wien gilt das besonders.",
+  "quelle": "Daten: Sportschau-Aufstellungen und Liveticker Spieltag 1 bis 9, Champions League in Paris (10.11.). Meldungen: SPORT1, Kicker, DFB-Datencenter (Europa Cup 10.11.).",
+  "news_zeit": "2026-11-12T20:04"
  },
  "analyse_archiv": [
+  {
+   "id": "analyse-werder-kw46",
+   "verein": "SVW",
+   "tag": "ROLLE",
+   "titel": "Werder stellt um: Shimada nur noch von der Bank",
+   "teaser": "Mei Shimada begann die ersten sechs Ligaspiele und traf dreimal. Seit dem 7. Spieltag kommt sie nur noch von der Bank, Purtscheller und Hipp beginnen.",
+   "stats": [
+    [
+     "79",
+     "Ligaminuten von Shimada an den Spieltagen 7 bis 9, davor sechsmal Startelf"
+    ],
+    [
+     "5 von 8",
+     "Werder-Toren an den Spieltagen 7 bis 9 von Hipp, Dešić, Gutmann und Purtscheller"
+    ],
+    [
+     "13",
+     "Heimpunkte aus 5 Spielen, nur der FC Bayern holte zu Hause mehr"
+    ]
+   ],
+   "spalten": [
+    "Mainz",
+    "Leipzig",
+    "Wolfsburg",
+    "HSV",
+    "Stuttgart",
+    "Leverkusen",
+    "Hoffenheim",
+    "Freiburg",
+    "FC Bayern"
+   ],
+   "cl_ab": null,
+   "matrix": {
+    "Shimada": {
+     "1": [
+      "S",
+      83,
+      1
+     ],
+     "2": [
+      "S",
+      76,
+      1
+     ],
+     "3": [
+      "S",
+      81,
+      0
+     ],
+     "4": [
+      "S",
+      86,
+      0
+     ],
+     "5": [
+      "S",
+      75,
+      1
+     ],
+     "6": [
+      "S",
+      59,
+      0
+     ],
+     "7": [
+      "E",
+      45,
+      0,
+      "zur Pause gekommen, Vorlage zum 2:0"
+     ],
+     "8": [
+      "E",
+      14,
+      0
+     ],
+     "9": [
+      "E",
+      20,
+      0
+     ]
+    },
+    "Jaron": {
+     "1": [
+      "S",
+      58,
+      1
+     ],
+     "2": [
+      "S",
+      67,
+      0
+     ],
+     "3": [
+      "S",
+      58,
+      0
+     ],
+     "4": [
+      "S",
+      77,
+      1
+     ],
+     "5": [
+      "S",
+      90,
+      0
+     ],
+     "6": [
+      "S",
+      68,
+      0
+     ],
+     "7": [
+      "S",
+      46,
+      0
+     ],
+     "8": [
+      "S",
+      67,
+      1
+     ],
+     "9": [
+      "E",
+      20,
+      0
+     ]
+    },
+    "Dhont": {
+     "1": [
+      "S",
+      74,
+      0
+     ],
+     "2": [
+      "S",
+      82,
+      0
+     ],
+     "3": [
+      "E",
+      33,
+      1
+     ],
+     "4": [
+      "S",
+      86,
+      0
+     ],
+     "5": [
+      "S",
+      63,
+      0
+     ],
+     "6": [
+      "S",
+      84,
+      0
+     ],
+     "7": [
+      "E",
+      45,
+      0
+     ],
+     "8": [
+      "E",
+      14,
+      0
+     ],
+     "9": [
+      "S",
+      71,
+      1,
+      "Tor zum 1:1"
+     ]
+    },
+    "Purtscheller": {
+     "1": [
+      "E",
+      33,
+      0
+     ],
+     "2": [
+      "E",
+      24,
+      0
+     ],
+     "3": [
+      "S",
+      58,
+      0
+     ],
+     "4": [
+      "E",
+      14,
+      0
+     ],
+     "5": [
+      "E",
+      28,
+      0
+     ],
+     "6": [
+      "E",
+      32,
+      0
+     ],
+     "7": [
+      "S",
+      80,
+      0
+     ],
+     "8": [
+      "S",
+      77,
+      1
+     ],
+     "9": [
+      "S",
+      88,
+      0
+     ]
+    },
+    "Hipp": {
+     "5": [
+      "E",
+      28,
+      0
+     ],
+     "6": [
+      "S",
+      68,
+      0
+     ],
+     "7": [
+      "S",
+      66,
+      1,
+      "Nachholspiel am 29.10."
+     ],
+     "8": [
+      "S",
+      90,
+      0
+     ],
+     "9": [
+      "S",
+      90,
+      0
+     ]
+    },
+    "Dešić": {
+     "1": [
+      "E",
+      8,
+      0
+     ],
+     "2": [
+      "E",
+      15,
+      0
+     ],
+     "3": [
+      "E",
+      33,
+      0
+     ],
+     "4": [
+      "E",
+      5,
+      0
+     ],
+     "5": [
+      "E",
+      7,
+      0
+     ],
+     "6": [
+      "E",
+      23,
+      0
+     ],
+     "7": [
+      "S",
+      46,
+      1
+     ],
+     "8": [
+      "S",
+      90,
+      0
+     ]
+    },
+    "Gutmann": {
+     "1": [
+      "S",
+      83,
+      0
+     ],
+     "3": [
+      "E",
+      21,
+      0
+     ],
+     "5": [
+      "E",
+      28,
+      0
+     ],
+     "6": [
+      "S",
+      90,
+      0
+     ],
+     "7": [
+      "S",
+      90,
+      0
+     ],
+     "8": [
+      "S",
+      90,
+      2,
+      "ein Tor nach Ecke von Mahmoud"
+     ],
+     "9": [
+      "S",
+      90,
+      0
+     ]
+    },
+    "Mahmoud": {
+     "4": [
+      "E",
+      1,
+      0
+     ],
+     "5": [
+      "E",
+      16,
+      0
+     ],
+     "6": [
+      "E",
+      7,
+      0
+     ],
+     "7": [
+      "E",
+      19,
+      0
+     ],
+     "8": [
+      "E",
+      24,
+      0
+     ],
+     "9": [
+      "S",
+      60,
+      0
+     ]
+    },
+    "Vanzeir": {
+     "1": [
+      "S",
+      90,
+      0
+     ],
+     "2": [
+      "S",
+      76,
+      0
+     ],
+     "3": [
+      "S",
+      70,
+      1
+     ],
+     "4": [
+      "S",
+      90,
+      0
+     ],
+     "5": [
+      "S",
+      84,
+      0
+     ],
+     "6": [
+      "S",
+      84,
+      1
+     ],
+     "7": [
+      "S",
+      72,
+      0
+     ],
+     "8": [
+      "S",
+      77,
+      0
+     ],
+     "9": [
+      "S",
+      60,
+      0
+     ]
+    },
+    "Zieniewicz": {
+     "1": [
+      "E",
+      8,
+      0
+     ],
+     "2": [
+      "E",
+      24,
+      0
+     ],
+     "3": [
+      "S",
+      90,
+      0
+     ],
+     "4": [
+      "S",
+      90,
+      0
+     ],
+     "5": [
+      "S",
+      90,
+      0
+     ],
+     "6": [
+      "S",
+      90,
+      0
+     ],
+     "7": [
+      "S",
+      90,
+      0
+     ],
+     "8": [
+      "S",
+      90,
+      0
+     ],
+     "9": [
+      "S",
+      90,
+      0
+     ]
+    },
+    "Gmeineder": {
+     "1": [
+      "E",
+      17,
+      0
+     ],
+     "2": [
+      "E",
+      15,
+      0
+     ],
+     "3": [
+      "S",
+      90,
+      0
+     ],
+     "4": [
+      "S",
+      90,
+      0
+     ],
+     "5": [
+      "S",
+      63,
+      0
+     ],
+     "6": [
+      "E",
+      23,
+      0
+     ],
+     "7": [
+      "E",
+      25,
+      0
+     ],
+     "9": [
+      "E",
+      31,
+      0
+     ]
+    },
+    "Wirtz": {
+     "1": [
+      "S",
+      90,
+      0
+     ],
+     "2": [
+      "S",
+      90,
+      0
+     ],
+     "3": [
+      "S",
+      90,
+      0
+     ],
+     "4": [
+      "S",
+      90,
+      0
+     ],
+     "5": [
+      "S",
+      90,
+      0
+     ],
+     "6": [
+      "S",
+      90,
+      0
+     ],
+     "7": [
+      "S",
+      90,
+      0
+     ],
+     "8": [
+      "S",
+      85,
+      0
+     ],
+     "9": [
+      "S",
+      71,
+      0
+     ]
+    },
+    "Magerl": {
+     "1": [
+      "E",
+      8,
+      0
+     ],
+     "2": [
+      "S",
+      67,
+      1
+     ],
+     "3": [
+      "S",
+      70,
+      0
+     ],
+     "4": [
+      "S",
+      90,
+      0
+     ],
+     "5": [
+      "S",
+      63,
+      0
+     ],
+     "7": [
+      "V",
+      0,
+      0,
+      "Knieverletzung"
+     ],
+     "8": [
+      "V",
+      0,
+      0,
+      "Knieverletzung"
+     ],
+     "9": [
+      "V",
+      0,
+      0,
+      "Knieverletzung"
+     ]
+    }
+   },
+   "vorschau": [
+    "Shimada",
+    "Purtscheller",
+    "Hipp",
+    "Gutmann",
+    "Jaron"
+   ],
+   "kurz": [
+    "Shimada begann die ersten 6 Ligaspiele (3 Tore), seit Spieltag 7 nur Einwechslungen: 79 Minuten.",
+    "Purtscheller und Hipp begannen die letzten 3 Ligaspiele, Gutmann spielt seit Spieltag 6 immer 90 Minuten.",
+    "Ein Platz vorne wechselt: Jaron begann an den Spieltagen 7 und 8, Dhont am 9. Spieltag."
+   ],
+   "ausblick": [
+    {
+     "md": 10,
+     "datum": "2026-11-14",
+     "gk": "FCU",
+     "ha": "H",
+     "satz": "Union kassiert 1,89 Tore pro Spiel. Wir erwarten die Elf der letzten Wochen, Shimada eher als Einwechselspielerin.",
+     "namen": [
+      "Purtscheller",
+      "Hipp",
+      "Gutmann",
+      "Shimada"
+     ],
+     "fehlt": [
+      "Magerl verletzt",
+      "El Sherif verletzt"
+     ],
+     "kb": "Stammelf",
+     "kbart": "gut"
+    },
+    {
+     "md": 11,
+     "datum": "2026-11-21",
+     "gk": "KOE",
+     "ha": "A",
+     "satz": "Köln kassierte zu Hause 3 Tore in 5 Spielen. Ob Jaron oder Dhont beginnt, ist offen.",
+     "namen": [
+      "Jaron",
+      "Dhont"
+     ],
+     "kb": "Einsatz offen"
+    }
+   ],
+   "text": [
+    "In den ersten sechs Ligaspielen gehörte Mei Shimada fest zur Werder-Startelf: sechs Starts mit 59 bis 86 Minuten und drei Tore. Mit Jaron ist sie die beste Werder-Torschützin. Seit dem 7. Spieltag kam sie nur noch von der Bank: 45 Minuten gegen Hoffenheim, 14 gegen Freiburg und 20 in München, zusammen 79 Minuten.",
+    "In derselben Zeit begannen Lilli Purtscheller und Jenny Hipp alle drei Ligaspiele, Sarah Gutmann spielt seit dem 6. Spieltag jedes Mal 90 Minuten. Von den acht Werder-Toren an den Spieltagen 7 bis 9 erzielten Hipp, Dešić, Gutmann und Purtscheller fünf. Gutmann traf gegen Freiburg zweimal, einmal nach einer Ecke von Mahmoud. Das Spiel gegen Hoffenheim (7. Spieltag) wurde am 29.10. nachgeholt.",
+    "Eine Verletzung meldet für Shimada keine Quelle. Im Pokal in Mainz (1.11.) begann sie für Dešić, in der Liga danach in München wieder nur als Einwechselspielerin. Ein Platz vorne wechselt von Spiel zu Spiel: Jaron begann an den Spieltagen 7 und 8, Dhont am 9. Spieltag, sie traf in München zum 1:1."
+   ],
+   "einschaetzung": [
+    "<b>Spieltag 10 gegen Union (Sa 14.11.):</b> Werder holte zu Hause 13 Punkte aus 5 Spielen bei 11:4 Toren. Union holte auswärts 4 Punkte aus 4 Spielen und kassiert insgesamt 1,89 Tore pro Spiel. Wir rechnen wieder mit Purtscheller, Hipp und Gutmann in der Startelf, Shimada sehen wir eher als Einwechselspielerin.",
+    "<b>Spieltag 11 in Köln (Sa 21.11.):</b> Köln kassierte zu Hause nur 3 Tore in 5 Spielen. Werder holte auswärts 3 Punkte aus 4 Spielen. Zwischen Jaron und Dhont entscheidet sich ein Platz offenbar kurzfristig."
+   ],
+   "kb": "Unsere Einschätzung: Bei Werder ist die Startelf der letzten drei Ligaspiele die Referenz, nicht die der ersten sechs. Purtscheller, Hipp und Gutmann haben aktuell die sicheren Minuten, Shimada bekommt eher Kurzeinsätze. Zwischen Jaron und Dhont ist ein Platz offen. Ligaweit holte zu Hause nur der FC Bayern mehr Punkte als Werder, gegen Union ist das Umfeld für Werders Startelf gut.",
+   "quelle": "Sportschau Liveticker und Aufstellungen, Spieltag 1 bis 9. Pokal und Nachholspiel: Meldungen vom 29.10. und 1.11.",
+   "news_zeit": "2026-11-10T12:00"
+  },
   {
    "id": "spieltag-md9",
    "verein": "FCB",
