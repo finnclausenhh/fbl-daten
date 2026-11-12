@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-12T13:45",
+ "stand": "2026-11-12T19:50",
  "meldungen": [
   {
    "typ": "punkt",
@@ -91,7 +91,46 @@
      "warum": "Fehlte gegen Union ohne genannten Grund im Kader, sie tritt bei Hoffenheim die Ecken."
     }
    ],
-   "analyse_link": true
+   "analyse_link": true,
+   "titel_basis": "Spieltag 10 auf den Punkt",
+   "updates": [],
+   "wackel": [
+    {
+     "k": "M05",
+     "p": "ABW",
+     "a": "Georgieva",
+     "b": "Hashitani",
+     "anstoss": "2026-11-13T18:30"
+    },
+    {
+     "k": "SCF",
+     "p": "ABW",
+     "a": "Axtmann",
+     "b": "Seghir",
+     "anstoss": "2026-11-14T12:00"
+    },
+    {
+     "k": "FCU",
+     "p": "DM",
+     "a": "Gräwe",
+     "b": "Heiseler",
+     "anstoss": "2026-11-14T14:00"
+    },
+    {
+     "k": "RBL",
+     "p": "ST",
+     "a": "van Dijk",
+     "b": "Pfister",
+     "anstoss": "2026-11-15T16:00"
+    },
+    {
+     "k": "VFB",
+     "p": "ST",
+     "a": "Rückert",
+     "b": "Arouna",
+     "anstoss": "2026-11-16T18:00"
+    }
+   ]
   },
   {
    "id": "aufstellung-ec-sge-1111",

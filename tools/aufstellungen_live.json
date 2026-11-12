@@ -1,6 +1,137 @@
 {
  "meldungen": [
   {
+   "typ": "punkt",
+   "id": "punkt-md10",
+   "md": 10,
+   "zeit": "2026-11-12T19:01",
+   "pin_bis": "2026-11-13T18:30",
+   "headline": "Spieltag 10 auf den Punkt",
+   "sicher": [
+    {
+     "n": "Svea Stoldt",
+     "k": "HSV",
+     "warum": "Alle neun Ligaspiele über 90 Minuten, vier Tore in den letzten drei Spielen, und Gegner Mainz kassiert 3,33 Tore pro Spiel."
+    },
+    {
+     "n": "Ella Peddemors",
+     "k": "WOB",
+     "warum": "Elf Tore in neun Ligaspielen, jedes Spiel über 90 Minuten und dazu Ecken und Freistöße, allerdings gegen die beste Abwehr der Liga (FC Bayern, 0,89 Gegentore)."
+    },
+    {
+     "n": "Laura Freigang",
+     "k": "SGE",
+     "warum": "Neunmal in der Startelf, 12 Schüsse in den letzten drei Spielen, Leipzig kassiert 1,89 Tore pro Spiel."
+    },
+    {
+     "n": "Pernille Harder",
+     "k": "FCB",
+     "warum": "Die einzige Bayern-Spielerin, die die letzten vier Ligaspiele alle begann, in Paris legte sie das 2:0 von Bühl auf."
+    }
+   ],
+   "finger_weg": [
+    {
+     "n": "Vanessa Gilles",
+     "k": "FCB",
+     "warum": "Fällt laut Kicker und SPORT1 mit einer Muskelverletzung mehrere Wochen aus."
+    },
+    {
+     "n": "Kassandra Potsi",
+     "k": "FCB",
+     "warum": "Fällt laut SPORT1 nach einem Schlag aufs Knie aus, die Ausfallzeit ist offen."
+    },
+    {
+     "n": "Emilía Ásgeirsdóttir",
+     "k": "RBL",
+     "warum": "Muskuläre Verletzung im Oberschenkel, Leipzig nennt keinen Rückkehrtermin."
+    },
+    {
+     "n": "Nora Scherer",
+     "k": "SCF",
+     "warum": "Kreuzbandriss im U20-Spiel, Saisonaus."
+    }
+   ],
+   "tipp": [
+    {
+     "n": "Carlotta Imping",
+     "k": "KOE",
+     "warum": "Bis Spieltag 6 nur 4 Ligaminuten, seitdem 32, 81 und 90 Minuten, Nürnberg kassiert 2,56 Tore pro Spiel."
+    },
+    {
+     "n": "Verena Wieder",
+     "k": "VFB",
+     "warum": "Dreimal in Folge in der Startelf, in Mainz zwei Tore, eines per Kopf nach einer Ecke."
+    },
+    {
+     "n": "Fany Proniez",
+     "k": "FCN",
+     "warum": "Begann die letzten beiden Ligaspiele und traf dabei dreimal, Nürnberg spielt zu Hause gegen Köln."
+    }
+   ],
+   "achtung": [
+    {
+     "n": "Elvira Herzog",
+     "k": "RBL",
+     "warum": "Saß nach ihrer Erkältung in Köln nur auf der Bank, Waldbillig stand im Tor, wer gegen Frankfurt beginnt, ist offen."
+    },
+    {
+     "n": "Giulia Gwinn",
+     "k": "FCB",
+     "warum": "Stand in Paris erstmals nach dem Außenbandriss in der Startelf, ob sie auch in Wolfsburg beginnt, ist offen."
+    },
+    {
+     "n": "Glódís Viggósdóttir",
+     "k": "FCB",
+     "warum": "Nach Knieproblemen wieder fit, saß in Paris aber auf der Bank, ohne Gilles ist in der Innenverteidigung ein Platz frei."
+    },
+    {
+     "n": "Laia Martret",
+     "k": "TSG",
+     "warum": "Fehlte gegen Union ohne genannten Grund im Kader, sie tritt bei Hoffenheim die Ecken."
+    }
+   ],
+   "analyse_link": true,
+   "titel_basis": "Spieltag 10 auf den Punkt",
+   "updates": [],
+   "wackel": [
+    {
+     "k": "M05",
+     "p": "ABW",
+     "a": "Georgieva",
+     "b": "Hashitani",
+     "anstoss": "2026-11-13T18:30"
+    },
+    {
+     "k": "SCF",
+     "p": "ABW",
+     "a": "Axtmann",
+     "b": "Seghir",
+     "anstoss": "2026-11-14T12:00"
+    },
+    {
+     "k": "FCU",
+     "p": "DM",
+     "a": "Gräwe",
+     "b": "Heiseler",
+     "anstoss": "2026-11-14T14:00"
+    },
+    {
+     "k": "RBL",
+     "p": "ST",
+     "a": "van Dijk",
+     "b": "Pfister",
+     "anstoss": "2026-11-15T16:00"
+    },
+    {
+     "k": "VFB",
+     "p": "ST",
+     "a": "Rückert",
+     "b": "Arouna",
+     "anstoss": "2026-11-16T18:00"
+    }
+   ]
+  },
+  {
    "id": "aufstellung-ec-sge-1111",
    "zeit": "2026-11-11T17:55",
    "spielerin": "Spielansetzung",
@@ -236,385 +367,6 @@
    "quelle_live": true,
    "partie_id": "dfb2431432",
    "wettbewerb": "Europa Cup"
-  },
-  {
-   "id": "aufstellung-ec-wob-1011",
-   "zeit": "2026-11-10T17:55",
-   "spielerin": "Spielansetzung",
-   "verein": "VfL Wolfsburg",
-   "nr": "",
-   "pos": "Spielansetzung",
-   "tags": [
-    "EUROPAPOKAL"
-   ],
-   "headline": "Offizielle Aufstellung: VfL Wolfsburg gegen Feyenoord Rotterdam",
-   "text": [],
-   "kickbase": "",
-   "quellen": [
-    {
-     "name": "DFB-Datencenter",
-     "url": "https://datencenter.dfb.de/matches/feyenoord-rotterdam-vfl-wolfsburg-2431432"
-    }
-   ],
-   "aufstellung": {
-    "gegner": "Feyenoord Rotterdam",
-    "formation": "4-2-3-1",
-    "geschaetzt": true,
-    "hinweis": "Formation geschätzt (4-2-3-1, übliches System des Vereins), weil die Daten kein plausibles System ergaben",
-    "startelf": [
-     {
-      "n": "Tufeković",
-      "p": "TW",
-      "pid": "00391",
-      "f": "neu"
-     },
-     {
-      "n": "Wedemeyer",
-      "p": "ABW",
-      "pid": "00399",
-      "f": "neu"
-     },
-     {
-      "n": "Kleinherne",
-      "p": "ABW",
-      "pid": "00395",
-      "f": "neu"
-     },
-     {
-      "n": "Küver",
-      "p": "ABW",
-      "pid": "00396"
-     },
-     {
-      "n": "Linder",
-      "p": "ABW",
-      "pid": "00398"
-     },
-     {
-      "n": "Piljic",
-      "p": "DM",
-      "pid": "00406",
-      "kp": "MF",
-      "f": "neu"
-     },
-     {
-      "n": "Minge",
-      "p": "DM",
-      "pid": "00404",
-      "kp": "MF"
-     },
-     {
-      "n": "Vallotto",
-      "p": "OM",
-      "pid": "00407",
-      "kp": "MF"
-     },
-     {
-      "n": "Alber",
-      "p": "OM",
-      "pid": "00400",
-      "kp": "MF",
-      "f": "neu"
-     },
-     {
-      "n": "Bussy",
-      "p": "OM",
-      "pid": "00408",
-      "kp": "ST",
-      "f": "neu"
-     },
-     {
-      "n": "Fløe",
-      "p": "ST",
-      "pid": "00409",
-      "f": "neu"
-     }
-    ],
-    "bank": [
-     {
-      "n": "Johannes",
-      "p": "TW",
-      "pid": "00389",
-      "f": "raus"
-     },
-     {
-      "n": "Schönwetter",
-      "p": "TW",
-      "pid": "00390",
-      "f": "neu"
-     },
-     {
-      "n": "Carleer",
-      "p": "ABW",
-      "pid": "00394",
-      "f": "raus"
-     },
-     {
-      "n": "Bjelde",
-      "p": "ABW",
-      "pid": "00392",
-      "f": "raus"
-     },
-     {
-      "n": "Peddemors",
-      "p": "MF",
-      "pid": "00405",
-      "f": "raus"
-     },
-     {
-      "n": "Lattwein",
-      "p": "MF",
-      "pid": "00403",
-      "f": "neu"
-     },
-     {
-      "n": "Huth",
-      "p": "MF",
-      "pid": "00402",
-      "f": "raus"
-     },
-     {
-      "n": "Prašnikar",
-      "p": "ST",
-      "pid": "00412",
-      "f": "raus"
-     },
-     {
-      "n": "Zicai",
-      "p": "ST",
-      "pid": "00414",
-      "f": "raus"
-     },
-     {
-      "n": "Kerim-Lindland",
-      "p": "ST",
-      "pid": "00411"
-     }
-    ],
-    "fehlt": [
-     {
-      "n": "Landenberger",
-      "p": "ABW",
-      "f": "raus",
-      "war": "Bank"
-     },
-     {
-      "n": "Eisenbeiß",
-      "p": "TW"
-     },
-     {
-      "n": "Bogaert",
-      "p": "ABW"
-     },
-     {
-      "n": "Araśniewicz",
-      "p": "MF"
-     },
-     {
-      "n": "Hoffmann",
-      "p": "ST"
-     },
-     {
-      "n": "Sælen",
-      "p": "ST"
-     }
-    ],
-    "wettbewerb": "Europa Cup"
-   },
-   "quelle_live": true
-  },
-  {
-   "id": "gwinn-startelf-1011",
-   "pid": "00009",
-   "zeit": "2026-11-10T19:58",
-   "spielerin": "Giulia Gwinn",
-   "verein": "FC Bayern",
-   "nr": "",
-   "pos": "ABW",
-   "tags": [
-    "AUFSTELLUNG",
-    "RÜCKKEHR"
-   ],
-   "status": "fit",
-   "headline": "Gwinn steht gegen Paris Saint Germain in der Startelf",
-   "text": [
-    "Giulia Gwinn steht in der Champions League gegen Paris Saint Germain in der Startelf des FC Bayern, als Rechtsverteidigerin in der Viererkette mit Ballisager, Eriksson und Kett.",
-    "Es ist ihr erster Startelfeinsatz seit der Rückkehr aus dem Außenbandriss. Gegen Werder Bremen war sie am 6. November nach rund 27 Minuten Einsatzzeit ins Spiel gekommen."
-   ],
-   "kickbase": "Gwinn ist nach dem Außenbandriss wieder in der ersten Elf angekommen. Ob sie am nächsten Ligaspieltag ebenfalls beginnt, ist offen.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/uefa-champions-league-frauen/ma12537195/paris-saint-germain_bayern-muenchen/aufstellung"
-    }
-   ],
-   "quelle_live": true,
-   "kurz": "Gwinn steht in der Startelf"
-  },
-  {
-   "id": "aufstellung-cl-fcb-1011",
-   "zeit": "2026-11-10T19:58",
-   "spielerin": "Spielansetzung",
-   "verein": "FC Bayern",
-   "nr": "",
-   "pos": "Spielansetzung",
-   "tags": [
-    "EUROPAPOKAL"
-   ],
-   "headline": "Offizielle Aufstellung: FC Bayern gegen Paris Saint Germain",
-   "text": [],
-   "kickbase": "",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/uefa-champions-league-frauen/ma12537195/paris-saint-germain_bayern-muenchen/aufstellung"
-    }
-   ],
-   "aufstellung": {
-    "gegner": "Paris Saint Germain",
-    "formation": "4-2-3-1",
-    "startelf": [
-     {
-      "n": "Mahmutovic",
-      "p": "TW",
-      "pid": "00003",
-      "f": "neu"
-     },
-     {
-      "n": "Gwinn",
-      "p": "ABW",
-      "pid": "00009",
-      "f": "neu"
-     },
-     {
-      "n": "Ballisager",
-      "p": "ABW",
-      "pid": "00005"
-     },
-     {
-      "n": "Eriksson",
-      "p": "ABW",
-      "pid": "00007",
-      "f": "neu"
-     },
-     {
-      "n": "Kett",
-      "p": "ABW",
-      "pid": "00011",
-      "f": "neu"
-     },
-     {
-      "n": "Tanikawa",
-      "p": "DM",
-      "pid": "00021",
-      "kp": "MF",
-      "f": "neu"
-     },
-     {
-      "n": "Amani",
-      "p": "DM",
-      "pid": "00016",
-      "kp": "MF"
-     },
-     {
-      "n": "Dallmann",
-      "p": "OM",
-      "pid": "00017",
-      "kp": "MF"
-     },
-     {
-      "n": "Harder",
-      "p": "OM",
-      "pid": "00025",
-      "kp": "MF"
-     },
-     {
-      "n": "Bühl",
-      "p": "OM",
-      "pid": "00023",
-      "kp": "ST",
-      "f": "neu"
-     },
-     {
-      "n": "Damnjanović",
-      "p": "ST",
-      "pid": "00024",
-      "f": "neu"
-     }
-    ],
-    "bank": [
-     {
-      "n": "Klink",
-      "p": "TW",
-      "pid": "00002"
-     },
-     {
-      "n": "van Eijk",
-      "p": "TW",
-      "pid": "00004",
-      "f": "raus"
-     },
-     {
-      "n": "Naschenweng",
-      "p": "ABW",
-      "pid": "00012",
-      "f": "raus"
-     },
-     {
-      "n": "Viggósdóttir",
-      "p": "ABW",
-      "pid": "00013"
-     },
-     {
-      "n": "Dunst",
-      "p": "MF",
-      "pid": "00018"
-     },
-     {
-      "n": "Zadrazil",
-      "p": "MF",
-      "pid": "00022"
-     },
-     {
-      "n": "Alara",
-      "p": "MF",
-      "pid": "00015",
-      "f": "raus"
-     },
-     {
-      "n": "Imade",
-      "p": "ST",
-      "pid": "00026",
-      "f": "raus"
-     },
-     {
-      "n": "Mattner-Trembleau",
-      "p": "ABW",
-      "pid": "00027",
-      "f": "raus"
-     }
-    ],
-    "fehlt": [
-     {
-      "n": "Gilles",
-      "p": "ABW",
-      "pid": "00008",
-      "f": "raus",
-      "war": "Startelf",
-      "i": "verletzt"
-     },
-     {
-      "n": "Potsi",
-      "p": "ST",
-      "pid": "00028",
-      "f": "raus",
-      "war": "Startelf",
-      "i": "verletzt"
-     }
-    ],
-    "wettbewerb": "Champions League"
-   },
-   "quelle_live": true
   }
  ],
  "entfernt": [
