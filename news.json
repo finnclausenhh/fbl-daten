@@ -2,6 +2,98 @@
  "stand": "2026-11-12T13:45",
  "meldungen": [
   {
+   "typ": "punkt",
+   "id": "punkt-md10",
+   "md": 10,
+   "zeit": "2026-11-12T19:01",
+   "pin_bis": "2026-11-13T18:30",
+   "headline": "Spieltag 10 auf den Punkt",
+   "sicher": [
+    {
+     "n": "Svea Stoldt",
+     "k": "HSV",
+     "warum": "Alle neun Ligaspiele über 90 Minuten, vier Tore in den letzten drei Spielen, und Gegner Mainz kassiert 3,33 Tore pro Spiel."
+    },
+    {
+     "n": "Ella Peddemors",
+     "k": "WOB",
+     "warum": "Elf Tore in neun Ligaspielen, jedes Spiel über 90 Minuten und dazu Ecken und Freistöße, allerdings gegen die beste Abwehr der Liga (FC Bayern, 0,89 Gegentore)."
+    },
+    {
+     "n": "Laura Freigang",
+     "k": "SGE",
+     "warum": "Neunmal in der Startelf, 12 Schüsse in den letzten drei Spielen, Leipzig kassiert 1,89 Tore pro Spiel."
+    },
+    {
+     "n": "Pernille Harder",
+     "k": "FCB",
+     "warum": "Die einzige Bayern-Spielerin, die die letzten vier Ligaspiele alle begann, in Paris legte sie das 2:0 von Bühl auf."
+    }
+   ],
+   "finger_weg": [
+    {
+     "n": "Vanessa Gilles",
+     "k": "FCB",
+     "warum": "Fällt laut Kicker und SPORT1 mit einer Muskelverletzung mehrere Wochen aus."
+    },
+    {
+     "n": "Kassandra Potsi",
+     "k": "FCB",
+     "warum": "Fällt laut SPORT1 nach einem Schlag aufs Knie aus, die Ausfallzeit ist offen."
+    },
+    {
+     "n": "Emilía Ásgeirsdóttir",
+     "k": "RBL",
+     "warum": "Muskuläre Verletzung im Oberschenkel, Leipzig nennt keinen Rückkehrtermin."
+    },
+    {
+     "n": "Nora Scherer",
+     "k": "SCF",
+     "warum": "Kreuzbandriss im U20-Spiel, Saisonaus."
+    }
+   ],
+   "tipp": [
+    {
+     "n": "Carlotta Imping",
+     "k": "KOE",
+     "warum": "Bis Spieltag 6 nur 4 Ligaminuten, seitdem 32, 81 und 90 Minuten, Nürnberg kassiert 2,56 Tore pro Spiel."
+    },
+    {
+     "n": "Verena Wieder",
+     "k": "VFB",
+     "warum": "Dreimal in Folge in der Startelf, in Mainz zwei Tore, eines per Kopf nach einer Ecke."
+    },
+    {
+     "n": "Fany Proniez",
+     "k": "FCN",
+     "warum": "Begann die letzten beiden Ligaspiele und traf dabei dreimal, Nürnberg spielt zu Hause gegen Köln."
+    }
+   ],
+   "achtung": [
+    {
+     "n": "Elvira Herzog",
+     "k": "RBL",
+     "warum": "Saß nach ihrer Erkältung in Köln nur auf der Bank, Waldbillig stand im Tor, wer gegen Frankfurt beginnt, ist offen."
+    },
+    {
+     "n": "Giulia Gwinn",
+     "k": "FCB",
+     "warum": "Stand in Paris erstmals nach dem Außenbandriss in der Startelf, ob sie auch in Wolfsburg beginnt, ist offen."
+    },
+    {
+     "n": "Glódís Viggósdóttir",
+     "k": "FCB",
+     "warum": "Nach Knieproblemen wieder fit, saß in Paris aber auf der Bank, ohne Gilles ist in der Innenverteidigung ein Platz frei."
+    },
+    {
+     "n": "Laia Martret",
+     "k": "TSG",
+     "warum": "Fehlte gegen Union ohne genannten Grund im Kader, sie tritt bei Hoffenheim die Ecken."
+    }
+   ],
+   "analyse_link": true
+  },
+  {
    "id": "aufstellung-ec-sge-1111",
    "zeit": "2026-11-11T17:55",
    "spielerin": "Spielansetzung",
