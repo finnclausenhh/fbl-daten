@@ -38,7 +38,6 @@
    "id": "punkt-md10",
    "md": 10,
    "zeit": "2026-11-12T19:01",
-   "pin_bis": "2026-11-13T18:30",
    "headline": "Spieltag 10 auf den Punkt",
    "sicher": [
     {
@@ -162,7 +161,8 @@
      "b": "Arouna",
      "anstoss": "2026-11-16T18:00"
     }
-   ]
+   ],
+   "lebt_bis": "2026-11-13T18:30"
   },
   {
    "id": "martret-1211",
