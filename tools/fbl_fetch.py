@@ -514,6 +514,8 @@ def main():
         arts = sorted(g["artikel"], key=lambda x: (rang(x), -(x["zeit"] or jetzt).timestamp()))[:3]
         haupt = arts[0]
         url = haupt.get("url") or google_aufloesen(haupt["glink"])
+        if "news.google.com" in url:  # Finn 13.11.2026: Vereinsquellen über Google News kamen nur als Google-Link ohne Text an
+            url = google_aufloesen(url)
         return {
             "spielerinnen": g["spielerinnen"],
             "spielerinnen_ids": [IDS.get(x, "") for x in g["spielerinnen"]],
