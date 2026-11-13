@@ -163,7 +163,7 @@
    ],
    "headline": "Offizielle Aufstellung: Mainz 05 gegen Hamburger SV",
    "text": [
-    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Kats, Martin. Die Bank folgt, sobald sie veröffentlicht ist."
+    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Kats, Martin."
    ],
    "kickbase": "",
    "quellen": [
@@ -239,19 +239,62 @@
       "pid": "00291"
      }
     ],
-    "bank": [],
-    "fehlt": [],
-    "bank_offen": true,
-    "nicht_startelf": [
+    "bank": [
      {
-      "n": "Kats",
-      "p": "ST",
-      "pid": "00292"
+      "n": "Pawlowski",
+      "p": "TW",
+      "pid": "00269"
+     },
+     {
+      "n": "Flach",
+      "p": "ABW",
+      "pid": "00273"
+     },
+     {
+      "n": "Bukowski",
+      "p": "ABW",
+      "pid": "00271"
+     },
+     {
+      "n": "Takizawa",
+      "p": "MF",
+      "pid": "00289"
+     },
+     {
+      "n": "Kurishima",
+      "p": "MF",
+      "pid": "00285"
      },
      {
       "n": "Martin",
       "p": "MF",
-      "pid": "00286"
+      "pid": "00286",
+      "f": "raus"
+     },
+     {
+      "n": "Jackson",
+      "p": "ABW",
+      "pid": "00283"
+     },
+     {
+      "n": "Stöhr",
+      "p": "ST",
+      "pid": "00294"
+     },
+     {
+      "n": "Kats",
+      "p": "ST",
+      "pid": "00292",
+      "f": "raus"
+     }
+    ],
+    "fehlt": [
+     {
+      "n": "Bouziane",
+      "p": "ST",
+      "pid": "00280",
+      "f": "raus",
+      "war": "Bank"
      }
     ]
    },
