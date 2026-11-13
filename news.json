@@ -165,6 +165,62 @@
    ]
   },
   {
+   "id": "reimann-1211",
+   "pid": "00085",
+   "zeit": "2026-11-12",
+   "spielerin": "Anna Reimann",
+   "verein": "SC Freiburg",
+   "nr": "",
+   "pos": "TW",
+   "tags": [
+    "RÜCKKEHR",
+    "VORBERICHT"
+   ],
+   "status": "fit",
+   "headline": "Reimann zurück, Stierli nach Rotsperre wieder dabei",
+   "kurz": "Reimann und Stierli zurück für Hoffenheim",
+   "text": [
+    "Torhüterin Anna Reimann steht nach muskulären Beschwerden wieder auf dem Platz, sie hatte im Pokal gegen Jena und gegen Nürnberg gefehlt. Julia Stierli ist nach ihrer Rotsperre in der Liga wieder spielberechtigt. Emma Memminger und Alina Axtmann sind voll ins Teamtraining integriert.",
+    "Weiterhin fehlen Nia Szenk (Adduktoren), Jana Vojteková (muskulär), Zoe Schick (Kreuzbandriss), Tessa Blumenberg (Reha), Nora Scherer (Kreuzbandriss) sowie Laura Benkarth, Ingibjörg Sigurðardóttir und Meret Felde (Baby- bzw. Schwangerschaftspause). Freiburg spielt am Samstag um 12 Uhr in Hoffenheim."
+   ],
+   "kickbase": "Reimann ist wieder eine Option für das Tor, vor ihrem Ausfall stand sie dreimal in Folge in der Startelf. Ob sie nach der Pause direkt beginnt, sagt der Verein nicht. Stierli kann in Hoffenheim wieder in der Abwehr starten.",
+   "quellen": [
+    {
+     "name": "SC Freiburg",
+     "url": "https://www.scfreiburg.com/aktuell/nachrichten/frauen-maedchen/2026/27/vorberichte/in-hoffenheim-kaltschnaeuziger-und-klarer-auftreten/"
+    }
+   ]
+  },
+  {
+   "id": "endstand-ec-sge-1111",
+   "zeit": "2026-11-11T20:30",
+   "spielerin": "Eintracht Frankfurt gegen PSV Vrouwen Eindhoven",
+   "verein": "Eintracht Frankfurt",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "SPIELBERICHT",
+    "EUROPAPOKAL"
+   ],
+   "headline": "Eintracht Frankfurt gewinnt 2:1 gegen PSV Vrouwen Eindhoven",
+   "kurz": "Frankfurt schlägt PSV 2:1",
+   "text": [
+    "Eintracht Frankfurt gewinnt gegen PSV Vrouwen Eindhoven mit 2:1.",
+    "Europa Cup, Achtelfinale: Das Hinspiel endete PSV Vrouwen Eindhoven 0:2 Eintracht Frankfurt, insgesamt steht es 4:1 für Eintracht Frankfurt. Eintracht Frankfurt kommt weiter.",
+    "Für den Europa Cup gibt es keine Noten, unsere Datenquelle bewertet nur Ligaspiele. Für Kickbase zählt das Spiel nicht."
+   ],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "DFB-Datencenter",
+     "url": "https://datencenter.dfb.de/matches/eintracht-frankfurt-psv-vrouwen-eindhoven-2431431"
+    }
+   ],
+   "quelle_live": true,
+   "partie_id": "dfb2431431",
+   "wettbewerb": "Europa Cup"
+  },
+  {
    "id": "aufstellung-ec-sge-1111",
    "zeit": "2026-11-11T17:55",
    "spielerin": "Spielansetzung",
@@ -340,6 +396,37 @@
     "wettbewerb": "Europa Cup"
    },
    "quelle_live": true
+  },
+  {
+   "id": "endstand-ec-wob-1011",
+   "zeit": "2026-11-11T11:09",
+   "spielerin": "Feyenoord Rotterdam gegen VfL Wolfsburg",
+   "verein": "VfL Wolfsburg",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "SPIELBERICHT",
+    "EUROPAPOKAL"
+   ],
+   "headline": "VfL Wolfsburg gewinnt 3:0 bei Feyenoord Rotterdam, Piljic, Kerim-Lindland und Bussy treffen",
+   "kurz": "Wolfsburg schlägt Feyenoord 3:0",
+   "text": [
+    "VfL Wolfsburg gewinnt bei Feyenoord Rotterdam mit 3:0.",
+    "Europa Cup, Achtelfinale: Das Hinspiel endete VfL Wolfsburg 7:0 Feyenoord Rotterdam, insgesamt steht es 10:0 für VfL Wolfsburg. VfL Wolfsburg kommt weiter.",
+    "Tore: 0:1 Piljic (72.), 0:2 Kerim-Lindland (83.), 0:3 Bussy (87.).",
+    "Gelb: DellaPeruta, Haverhoek, Paus.",
+    "Für den Europa Cup gibt es keine Noten, unsere Datenquelle bewertet nur Ligaspiele. Für Kickbase zählt das Spiel nicht."
+   ],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "DFB-Datencenter",
+     "url": "https://datencenter.dfb.de/matches/feyenoord-rotterdam-vfl-wolfsburg-2431432"
+    }
+   ],
+   "quelle_live": true,
+   "partie_id": "dfb2431432",
+   "wettbewerb": "Europa Cup"
   },
   {
    "id": "buehl-psg-1011",
@@ -523,252 +610,6 @@
      ]
     }
    ]
-  },
-  {
-   "id": "endstand-ec-sge-1111",
-   "zeit": "2026-11-11T20:30",
-   "spielerin": "Eintracht Frankfurt gegen PSV Vrouwen Eindhoven",
-   "verein": "Eintracht Frankfurt",
-   "nr": "",
-   "pos": "Spielansetzung",
-   "tags": [
-    "SPIELBERICHT",
-    "EUROPAPOKAL"
-   ],
-   "headline": "Eintracht Frankfurt gewinnt 2:1 gegen PSV Vrouwen Eindhoven",
-   "kurz": "Frankfurt schlägt PSV 2:1",
-   "text": [
-    "Eintracht Frankfurt gewinnt gegen PSV Vrouwen Eindhoven mit 2:1.",
-    "Europa Cup, Achtelfinale: Das Hinspiel endete PSV Vrouwen Eindhoven 0:2 Eintracht Frankfurt, insgesamt steht es 4:1 für Eintracht Frankfurt. Eintracht Frankfurt kommt weiter.",
-    "Für den Europa Cup gibt es keine Noten, unsere Datenquelle bewertet nur Ligaspiele. Für Kickbase zählt das Spiel nicht."
-   ],
-   "kickbase": "",
-   "quellen": [
-    {
-     "name": "DFB-Datencenter",
-     "url": "https://datencenter.dfb.de/matches/eintracht-frankfurt-psv-vrouwen-eindhoven-2431431"
-    }
-   ],
-   "quelle_live": true,
-   "partie_id": "dfb2431431",
-   "wettbewerb": "Europa Cup"
-  },
-  {
-   "id": "endstand-ec-wob-1011",
-   "zeit": "2026-11-11T11:09",
-   "spielerin": "Feyenoord Rotterdam gegen VfL Wolfsburg",
-   "verein": "VfL Wolfsburg",
-   "nr": "",
-   "pos": "Spielansetzung",
-   "tags": [
-    "SPIELBERICHT",
-    "EUROPAPOKAL"
-   ],
-   "headline": "VfL Wolfsburg gewinnt 3:0 bei Feyenoord Rotterdam, Piljic, Kerim-Lindland und Bussy treffen",
-   "kurz": "Wolfsburg schlägt Feyenoord 3:0",
-   "text": [
-    "VfL Wolfsburg gewinnt bei Feyenoord Rotterdam mit 3:0.",
-    "Europa Cup, Achtelfinale: Das Hinspiel endete VfL Wolfsburg 7:0 Feyenoord Rotterdam, insgesamt steht es 10:0 für VfL Wolfsburg. VfL Wolfsburg kommt weiter.",
-    "Tore: 0:1 Piljic (72.), 0:2 Kerim-Lindland (83.), 0:3 Bussy (87.).",
-    "Gelb: DellaPeruta, Haverhoek, Paus.",
-    "Für den Europa Cup gibt es keine Noten, unsere Datenquelle bewertet nur Ligaspiele. Für Kickbase zählt das Spiel nicht."
-   ],
-   "kickbase": "",
-   "quellen": [
-    {
-     "name": "DFB-Datencenter",
-     "url": "https://datencenter.dfb.de/matches/feyenoord-rotterdam-vfl-wolfsburg-2431432"
-    }
-   ],
-   "quelle_live": true,
-   "partie_id": "dfb2431432",
-   "wettbewerb": "Europa Cup"
-  },
-  {
-   "id": "aufstellung-ec-wob-1011",
-   "zeit": "2026-11-10T17:55",
-   "spielerin": "Spielansetzung",
-   "verein": "VfL Wolfsburg",
-   "nr": "",
-   "pos": "Spielansetzung",
-   "tags": [
-    "EUROPAPOKAL"
-   ],
-   "headline": "Offizielle Aufstellung: VfL Wolfsburg gegen Feyenoord Rotterdam",
-   "text": [],
-   "kickbase": "",
-   "quellen": [
-    {
-     "name": "DFB-Datencenter",
-     "url": "https://datencenter.dfb.de/matches/feyenoord-rotterdam-vfl-wolfsburg-2431432"
-    }
-   ],
-   "aufstellung": {
-    "gegner": "Feyenoord Rotterdam",
-    "formation": "4-2-3-1",
-    "geschaetzt": true,
-    "hinweis": "Formation geschätzt (4-2-3-1, übliches System des Vereins), weil die Daten kein plausibles System ergaben",
-    "startelf": [
-     {
-      "n": "Tufeković",
-      "p": "TW",
-      "pid": "00391",
-      "f": "neu"
-     },
-     {
-      "n": "Wedemeyer",
-      "p": "ABW",
-      "pid": "00399",
-      "f": "neu"
-     },
-     {
-      "n": "Kleinherne",
-      "p": "ABW",
-      "pid": "00395",
-      "f": "neu"
-     },
-     {
-      "n": "Küver",
-      "p": "ABW",
-      "pid": "00396"
-     },
-     {
-      "n": "Linder",
-      "p": "ABW",
-      "pid": "00398"
-     },
-     {
-      "n": "Piljic",
-      "p": "DM",
-      "pid": "00406",
-      "kp": "MF",
-      "f": "neu"
-     },
-     {
-      "n": "Minge",
-      "p": "DM",
-      "pid": "00404",
-      "kp": "MF"
-     },
-     {
-      "n": "Vallotto",
-      "p": "OM",
-      "pid": "00407",
-      "kp": "MF"
-     },
-     {
-      "n": "Alber",
-      "p": "OM",
-      "pid": "00400",
-      "kp": "MF",
-      "f": "neu"
-     },
-     {
-      "n": "Bussy",
-      "p": "OM",
-      "pid": "00408",
-      "kp": "ST",
-      "f": "neu"
-     },
-     {
-      "n": "Fløe",
-      "p": "ST",
-      "pid": "00409",
-      "f": "neu"
-     }
-    ],
-    "bank": [
-     {
-      "n": "Johannes",
-      "p": "TW",
-      "pid": "00389",
-      "f": "raus"
-     },
-     {
-      "n": "Schönwetter",
-      "p": "TW",
-      "pid": "00390",
-      "f": "neu"
-     },
-     {
-      "n": "Carleer",
-      "p": "ABW",
-      "pid": "00394",
-      "f": "raus"
-     },
-     {
-      "n": "Bjelde",
-      "p": "ABW",
-      "pid": "00392",
-      "f": "raus"
-     },
-     {
-      "n": "Peddemors",
-      "p": "MF",
-      "pid": "00405",
-      "f": "raus"
-     },
-     {
-      "n": "Lattwein",
-      "p": "MF",
-      "pid": "00403",
-      "f": "neu"
-     },
-     {
-      "n": "Huth",
-      "p": "MF",
-      "pid": "00402",
-      "f": "raus"
-     },
-     {
-      "n": "Prašnikar",
-      "p": "ST",
-      "pid": "00412",
-      "f": "raus"
-     },
-     {
-      "n": "Zicai",
-      "p": "ST",
-      "pid": "00414",
-      "f": "raus"
-     },
-     {
-      "n": "Kerim-Lindland",
-      "p": "ST",
-      "pid": "00411"
-     }
-    ],
-    "fehlt": [
-     {
-      "n": "Landenberger",
-      "p": "ABW",
-      "f": "raus",
-      "war": "Bank"
-     },
-     {
-      "n": "Eisenbeiß",
-      "p": "TW"
-     },
-     {
-      "n": "Bogaert",
-      "p": "ABW"
-     },
-     {
-      "n": "Araśniewicz",
-      "p": "MF"
-     },
-     {
-      "n": "Hoffmann",
-      "p": "ST"
-     },
-     {
-      "n": "Sælen",
-      "p": "ST"
-     }
-    ],
-    "wettbewerb": "Europa Cup"
-   },
-   "quelle_live": true
   },
   {
    "id": "gwinn-startelf-1011",
@@ -964,6 +805,192 @@
    "quelle_live": true
   },
   {
+   "id": "aufstellung-ec-wob-1011",
+   "zeit": "2026-11-10T17:55",
+   "spielerin": "Spielansetzung",
+   "verein": "VfL Wolfsburg",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "EUROPAPOKAL"
+   ],
+   "headline": "Offizielle Aufstellung: VfL Wolfsburg gegen Feyenoord Rotterdam",
+   "text": [],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "DFB-Datencenter",
+     "url": "https://datencenter.dfb.de/matches/feyenoord-rotterdam-vfl-wolfsburg-2431432"
+    }
+   ],
+   "aufstellung": {
+    "gegner": "Feyenoord Rotterdam",
+    "formation": "4-2-3-1",
+    "geschaetzt": true,
+    "hinweis": "Formation geschätzt (4-2-3-1, übliches System des Vereins), weil die Daten kein plausibles System ergaben",
+    "startelf": [
+     {
+      "n": "Tufeković",
+      "p": "TW",
+      "pid": "00391",
+      "f": "neu"
+     },
+     {
+      "n": "Wedemeyer",
+      "p": "ABW",
+      "pid": "00399",
+      "f": "neu"
+     },
+     {
+      "n": "Kleinherne",
+      "p": "ABW",
+      "pid": "00395",
+      "f": "neu"
+     },
+     {
+      "n": "Küver",
+      "p": "ABW",
+      "pid": "00396"
+     },
+     {
+      "n": "Linder",
+      "p": "ABW",
+      "pid": "00398"
+     },
+     {
+      "n": "Piljic",
+      "p": "DM",
+      "pid": "00406",
+      "kp": "MF",
+      "f": "neu"
+     },
+     {
+      "n": "Minge",
+      "p": "DM",
+      "pid": "00404",
+      "kp": "MF"
+     },
+     {
+      "n": "Vallotto",
+      "p": "OM",
+      "pid": "00407",
+      "kp": "MF"
+     },
+     {
+      "n": "Alber",
+      "p": "OM",
+      "pid": "00400",
+      "kp": "MF",
+      "f": "neu"
+     },
+     {
+      "n": "Bussy",
+      "p": "OM",
+      "pid": "00408",
+      "kp": "ST",
+      "f": "neu"
+     },
+     {
+      "n": "Fløe",
+      "p": "ST",
+      "pid": "00409",
+      "f": "neu"
+     }
+    ],
+    "bank": [
+     {
+      "n": "Johannes",
+      "p": "TW",
+      "pid": "00389",
+      "f": "raus"
+     },
+     {
+      "n": "Schönwetter",
+      "p": "TW",
+      "pid": "00390",
+      "f": "neu"
+     },
+     {
+      "n": "Carleer",
+      "p": "ABW",
+      "pid": "00394",
+      "f": "raus"
+     },
+     {
+      "n": "Bjelde",
+      "p": "ABW",
+      "pid": "00392",
+      "f": "raus"
+     },
+     {
+      "n": "Peddemors",
+      "p": "MF",
+      "pid": "00405",
+      "f": "raus"
+     },
+     {
+      "n": "Lattwein",
+      "p": "MF",
+      "pid": "00403",
+      "f": "neu"
+     },
+     {
+      "n": "Huth",
+      "p": "MF",
+      "pid": "00402",
+      "f": "raus"
+     },
+     {
+      "n": "Prašnikar",
+      "p": "ST",
+      "pid": "00412",
+      "f": "raus"
+     },
+     {
+      "n": "Zicai",
+      "p": "ST",
+      "pid": "00414",
+      "f": "raus"
+     },
+     {
+      "n": "Kerim-Lindland",
+      "p": "ST",
+      "pid": "00411"
+     }
+    ],
+    "fehlt": [
+     {
+      "n": "Landenberger",
+      "p": "ABW",
+      "f": "raus",
+      "war": "Bank"
+     },
+     {
+      "n": "Eisenbeiß",
+      "p": "TW"
+     },
+     {
+      "n": "Bogaert",
+      "p": "ABW"
+     },
+     {
+      "n": "Araśniewicz",
+      "p": "MF"
+     },
+     {
+      "n": "Hoffmann",
+      "p": "ST"
+     },
+     {
+      "n": "Sælen",
+      "p": "ST"
+     }
+    ],
+    "wettbewerb": "Europa Cup"
+   },
+   "quelle_live": true
+  },
+  {
    "id": "scherer-1011",
    "pid": "00115",
    "zeit": "2026-11-10T01:00",
@@ -1091,44 +1118,6 @@
     }
    ],
    "foto": "fotos/fcb-kassandra-potsi.webp",
-   "foto_credit": {
-    "autor": "WOSOINSIDER",
-    "lizenz": "Platzhalter (kein Vereinsfoto)",
-    "url": "https://fcbayern.com/frauen/de/teams/1.-mannschaft"
-   }
-  },
-  {
-   "id": "gilles-0911",
-   "pid": "00008",
-   "zeit": "2026-11-09T16:05",
-   "spielerin": "Vanessa Gilles",
-   "verein": "FC Bayern",
-   "nr": "",
-   "pos": "ABW",
-   "tags": [
-    "TOP",
-    "VERLETZUNG"
-   ],
-   "status": "verletzt",
-   "headline": "Gilles fällt mit Muskelverletzung mehrere Wochen aus",
-   "kurz": "Gilles fällt mehrere Wochen aus",
-   "text": [
-    "Der FC Bayern muss laut Kicker mehrere Wochen auf Innenverteidigerin Vanessa Gilles verzichten. Ein Vereinsstatement liegt noch nicht vor.",
-    "Gilles stand zuletzt am 6. November gegen Werder Bremen in der Startelf.",
-    "Update 18:03: Auch SPORT1 berichtet über den Ausfall und nennt als Grund eine Muskelverletzung."
-   ],
-   "kickbase": "Gilles ist in den nächsten Wochen nicht einzuplanen, in der Innenverteidigung des FC Bayern ist damit ein Platz offen. Eine genaue Ausfallzeit nennt noch keine Quelle.",
-   "quellen": [
-    {
-     "name": "Kicker",
-     "url": "https://www.kicker.de/bayern-muss-mehrere-wochen-auf-gilles-verzichten-1270186/artikel"
-    },
-    {
-     "name": "SPORT1",
-     "url": "https://www.sport1.de/news/fussball/frauen-champions-league/2026/11/fc-bayern-schluesselspielerin-buehl-fit-fuer-psg-kracher"
-    }
-   ],
-   "foto": "fotos/fcb-vanessa-gilles.webp",
    "foto_credit": {
     "autor": "WOSOINSIDER",
     "lizenz": "Platzhalter (kein Vereinsfoto)",
@@ -1510,6 +1499,44 @@
    "quelle_live": true
   },
   {
+   "id": "gilles-0911",
+   "pid": "00008",
+   "zeit": "2026-11-09T16:05",
+   "spielerin": "Vanessa Gilles",
+   "verein": "FC Bayern",
+   "nr": "",
+   "pos": "ABW",
+   "tags": [
+    "TOP",
+    "VERLETZUNG"
+   ],
+   "status": "verletzt",
+   "headline": "Gilles fällt mit Muskelverletzung mehrere Wochen aus",
+   "kurz": "Gilles fällt mehrere Wochen aus",
+   "text": [
+    "Der FC Bayern muss laut Kicker mehrere Wochen auf Innenverteidigerin Vanessa Gilles verzichten. Ein Vereinsstatement liegt noch nicht vor.",
+    "Gilles stand zuletzt am 6. November gegen Werder Bremen in der Startelf.",
+    "Update 18:03: Auch SPORT1 berichtet über den Ausfall und nennt als Grund eine Muskelverletzung."
+   ],
+   "kickbase": "Gilles ist in den nächsten Wochen nicht einzuplanen, in der Innenverteidigung des FC Bayern ist damit ein Platz offen. Eine genaue Ausfallzeit nennt noch keine Quelle.",
+   "quellen": [
+    {
+     "name": "Kicker",
+     "url": "https://www.kicker.de/bayern-muss-mehrere-wochen-auf-gilles-verzichten-1270186/artikel"
+    },
+    {
+     "name": "SPORT1",
+     "url": "https://www.sport1.de/news/fussball/frauen-champions-league/2026/11/fc-bayern-schluesselspielerin-buehl-fit-fuer-psg-kracher"
+    }
+   ],
+   "foto": "fotos/fcb-vanessa-gilles.webp",
+   "foto_credit": {
+    "autor": "WOSOINSIDER",
+    "lizenz": "Platzhalter (kein Vereinsfoto)",
+    "url": "https://fcbayern.com/frauen/de/teams/1.-mannschaft"
+   }
+  },
+  {
    "id": "endstand-m05-0811",
    "zeit": "2026-11-08T17:58",
    "spielerin": "Mainz 05 gegen VfB Stuttgart",
@@ -1545,6 +1572,43 @@
    "quelle_live": true,
    "partie_id": "12306268",
    "noten": true
+  },
+  {
+   "id": "comeback-georgieva-m05-0811",
+   "pid": "00274",
+   "zeit": "2026-11-08T17:18",
+   "spielerin": "Marina Georgieva",
+   "verein": "Mainz 05",
+   "nr": "",
+   "pos": "ABW",
+   "tags": [
+    "RÜCKKEHR"
+   ],
+   "status": "fit",
+   "headline": "Georgieva feiert Comeback nach Verletzungspause",
+   "text": [
+    "Marina Georgieva ist nach Verletzungspause zurück im Spieltagskader von Mainz 05.",
+    "Gegen VfB Stuttgart kam sie in der 63. Minute ins Spiel. Insgesamt spielte sie rund 27 Minuten.",
+    "API-Football bewertet ihren Auftritt mit der Note 6,2 (durchwachsen)."
+   ],
+   "kickbase": "Wieder einsatzbereit. Nach der Pause am nächsten Spieltag eher mit begrenzter Spielzeit rechnen, die Startelf ist noch offen.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306268/1-fsv-mainz-05_vfb-stuttgart/liveticker"
+    },
+    {
+     "name": "API-Football (Note)",
+     "url": "https://www.api-football.com"
+    }
+   ],
+   "quelle_live": true,
+   "partie_id": "12306268",
+   "comeback": {
+    "art": "comeback",
+    "stufe": "einsatz"
+   },
+   "kurz": "Georgieva feiert Comeback"
   },
   {
    "id": "endstand-fcu-0811",
@@ -1614,43 +1678,6 @@
     "url": "https://frauen.eintracht.de/kader/"
    },
    "status": "fit"
-  },
-  {
-   "id": "comeback-georgieva-m05-0811",
-   "pid": "00274",
-   "zeit": "2026-11-08T17:18",
-   "spielerin": "Marina Georgieva",
-   "verein": "Mainz 05",
-   "nr": "",
-   "pos": "ABW",
-   "tags": [
-    "RÜCKKEHR"
-   ],
-   "status": "fit",
-   "headline": "Georgieva feiert Comeback nach Verletzungspause",
-   "text": [
-    "Marina Georgieva ist nach Verletzungspause zurück im Spieltagskader von Mainz 05.",
-    "Gegen VfB Stuttgart kam sie in der 63. Minute ins Spiel. Insgesamt spielte sie rund 27 Minuten.",
-    "API-Football bewertet ihren Auftritt mit der Note 6,2 (durchwachsen)."
-   ],
-   "kickbase": "Wieder einsatzbereit. Nach der Pause am nächsten Spieltag eher mit begrenzter Spielzeit rechnen, die Startelf ist noch offen.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306268/1-fsv-mainz-05_vfb-stuttgart/liveticker"
-    },
-    {
-     "name": "API-Football (Note)",
-     "url": "https://www.api-football.com"
-    }
-   ],
-   "quelle_live": true,
-   "partie_id": "12306268",
-   "comeback": {
-    "art": "comeback",
-    "stufe": "einsatz"
-   },
-   "kurz": "Georgieva feiert Comeback"
   },
   {
    "id": "aufstellung-m05-0811",
@@ -2405,38 +2432,6 @@
    "quelle_live": true
   },
   {
-   "id": "herzog-0611",
-   "pid": "00213",
-   "zeit": "2026-11-06",
-   "spielerin": "Elvira Herzog",
-   "verein": "RB Leipzig",
-   "nr": "",
-   "pos": "TW",
-   "tags": [
-    "UPDATE"
-   ],
-   "status": "fraglich",
-   "headline": "Herzog wegen Erkältung fraglich für das Spiel in Köln",
-   "kurz": "Herzog fraglich für Köln, Erkältung",
-   "text": [
-    "Elvira Herzog ist erkältet und steht für das Ligaspiel beim 1. FC Köln am Montag um 18 Uhr auf der Kippe. Das zeigt die Kickbase-App seit Freitag an. Der Verein hat sich dazu bisher nicht geäußert.",
-    "Herzog stand in allen acht Ligaspielen und im Pokal gegen Köln über 90 Minuten im Tor. Auf der Bank saß zuletzt Mirja Kropp."
-   ],
-   "kickbase": "Herzog ist die klare Nummer eins. Fällt sie aus, ist Kropp die naheliegende Vertretung. Bis der Verein etwas sagt, führen wir Herzog gegen Köln nur noch als unsicher.",
-   "quellen": [
-    {
-     "name": "Kickbase (App, unbestätigt)",
-     "url": "https://www.kickbase.com"
-    }
-   ],
-   "foto": "fotos/rbl-elvira-herzog.webp",
-   "foto_credit": {
-    "autor": "RB Leipzig",
-    "lizenz": "mit Genehmigung: RB Leipzig",
-    "url": "https://rbleipzig.com/de/teams-frauen"
-   }
-  },
-  {
    "id": "endstand-b04-0711",
    "zeit": "2026-11-07T16:02",
    "spielerin": "Bayer Leverkusen gegen Hamburger SV",
@@ -2508,37 +2503,6 @@
    "quelle_live": true,
    "partie_id": "12306274",
    "noten": true
-  },
-  {
-   "id": "peddemors-0611",
-   "pid": "00405",
-   "zeit": "2026-11-06T20:43",
-   "spielerin": "Ella Peddemors",
-   "verein": "VfL Wolfsburg",
-   "nr": "",
-   "pos": "MF",
-   "tags": [
-    "SPIELBERICHT"
-   ],
-   "headline": "Peddemors trifft doppelt beim 3:1 in Frankfurt",
-   "kurz": "Peddemors trifft doppelt in Frankfurt",
-   "text": [
-    "Der VfL Wolfsburg hat das Topspiel bei Eintracht Frankfurt 3:1 gewonnen. Ella Peddemors traf in der 13. und 70. Minute, Smilla Vallotto in der 50. Minute. Amanda Ilestedt hatte zwischenzeitlich per Kopf zum 1:1 ausgeglichen.",
-    "Bei Frankfurt stand Lina Altenburg im Tor statt Sophia Winkler, außerdem begannen Hayley Raso und Noemi Ivelj für Dilara Acikgöz und Rebecka Blomqvist, die zunächst auf der Bank saßen."
-   ],
-   "kickbase": "Peddemors ist bei Wolfsburg erste Eckenschützin und trifft weiter. Bei Frankfurt wechselte Trainer Arnautis auf drei Positionen.",
-   "quellen": [
-    {
-     "name": "Sportschau (hr)",
-     "url": "https://www.sportschau.de/regional/hr/hr-eintracht-frankfurt-frauen-eintracht-gehen-im-topspiel-gegen-wolfsburg-leer-aus-100.html"
-    }
-   ],
-   "foto": "fotos/wob-ella-peddemors.webp",
-   "foto_credit": {
-    "autor": "VfL Wolfsburg",
-    "lizenz": "mit Genehmigung: VfL Wolfsburg",
-    "url": "https://www.vfl-wolfsburg.de/teams/frauen/kader-2026/2027"
-   }
   },
   {
    "id": "fehlt-fudalla-b04-0711",
@@ -3407,6 +3371,96 @@
    ]
   },
   {
+   "id": "axtmann-0711",
+   "pid": "00087",
+   "zeit": "2026-11-07T11:03",
+   "spielerin": "Alina Axtmann",
+   "verein": "SC Freiburg",
+   "nr": "3",
+   "pos": "ABW",
+   "tags": [
+    "RÜCKKEHR"
+   ],
+   "status": "fit",
+   "headline": "Axtmann und Hebben zurück im Freiburger Kader",
+   "kurz": "Axtmann und Hebben zurück im Kader",
+   "text": [
+    "Alina Axtmann steht gegen den 1. FC Nürnberg wieder im Kader des SC Freiburg, zunächst auf der Bank. Sie hatte die ersten sieben Ligaspiele alle in der Startelf begonnen, fehlte dann aber in Bremen und im Pokal gegen Jena. Einen Grund für die Pause hatte der Verein nicht genannt.",
+    "Auch Johanna Hebben ist nach der U17-WM in Marokko zurück und sitzt auf der Bank. Laura Ernst, die ebenfalls bei der WM war, steht noch nicht im Kader."
+   ],
+   "kickbase": "Axtmann ist wieder eine Option für die Abwehr. Heute beginnt sie noch nicht, ob sie ihren Stammplatz zurückbekommt, zeigen die nächsten Spiele.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306274/sc-freiburg_1-fc-nuernberg/aufstellung"
+    }
+   ],
+   "foto": "fotos/scf-alina-axtmann.webp",
+   "foto_credit": {
+    "autor": "SC Freiburg",
+    "lizenz": "mit Genehmigung: SC Freiburg",
+    "url": "https://www.scfreiburg.com/teams/frauen/spielerinnen/"
+   }
+  },
+  {
+   "id": "barth-0711",
+   "pid": "00083",
+   "zeit": "2026-11-07",
+   "spielerin": "Lorena Barth",
+   "verein": "SC Freiburg",
+   "nr": "",
+   "pos": "TW",
+   "tags": [
+    "ROTATION",
+    "SPIELBERICHT"
+   ],
+   "status": "fit",
+   "headline": "Barth ersetzt angeschlagene Reimann im Freiburger Tor",
+   "kurz": "Barth im Tor für angeschlagene Reimann",
+   "text": [
+    "Lorena Barth stand gegen Nürnberg für die angeschlagene Anna Reimann im Tor und gab ihr Bundesliga-Debüt. Reimann fehlte mit muskulären Beschwerden, wie schon im Pokal gegen Jena.",
+    "Sabah Seghir rückte für die weiter gesperrte Julia Stierli in die Startelf. Ebenfalls fehlten Jana Vojteková (muskulär), Nia Szenk (Adduktoren), Zoe Schick (Kreuzbandriss) und Tessa Blumenberg (Reha)."
+   ],
+   "kickbase": "Solange Reimann fehlt, ist Barth die Nummer eins. Kehrt Reimann zurück, ist sie wieder die erste Wahl.",
+   "quellen": [
+    {
+     "name": "SC Freiburg",
+     "url": "https://www.scfreiburg.com/aktuell/nachrichten/frauen-maedchen/2026/27/nachberichte/klare-heimniederlage-gegen-nuernberg/"
+    }
+   ]
+  },
+  {
+   "id": "peddemors-0611",
+   "pid": "00405",
+   "zeit": "2026-11-06T20:43",
+   "spielerin": "Ella Peddemors",
+   "verein": "VfL Wolfsburg",
+   "nr": "",
+   "pos": "MF",
+   "tags": [
+    "SPIELBERICHT"
+   ],
+   "headline": "Peddemors trifft doppelt beim 3:1 in Frankfurt",
+   "kurz": "Peddemors trifft doppelt in Frankfurt",
+   "text": [
+    "Der VfL Wolfsburg hat das Topspiel bei Eintracht Frankfurt 3:1 gewonnen. Ella Peddemors traf in der 13. und 70. Minute, Smilla Vallotto in der 50. Minute. Amanda Ilestedt hatte zwischenzeitlich per Kopf zum 1:1 ausgeglichen.",
+    "Bei Frankfurt stand Lina Altenburg im Tor statt Sophia Winkler, außerdem begannen Hayley Raso und Noemi Ivelj für Dilara Acikgöz und Rebecka Blomqvist, die zunächst auf der Bank saßen."
+   ],
+   "kickbase": "Peddemors ist bei Wolfsburg erste Eckenschützin und trifft weiter. Bei Frankfurt wechselte Trainer Arnautis auf drei Positionen.",
+   "quellen": [
+    {
+     "name": "Sportschau (hr)",
+     "url": "https://www.sportschau.de/regional/hr/hr-eintracht-frankfurt-frauen-eintracht-gehen-im-topspiel-gegen-wolfsburg-leer-aus-100.html"
+    }
+   ],
+   "foto": "fotos/wob-ella-peddemors.webp",
+   "foto_credit": {
+    "autor": "VfL Wolfsburg",
+    "lizenz": "mit Genehmigung: VfL Wolfsburg",
+    "url": "https://www.vfl-wolfsburg.de/teams/frauen/kader-2026/2027"
+   }
+  },
+  {
    "id": "comeback-gwinn-fcb-0611",
    "pid": "00009",
    "zeit": "2026-11-06T19:48",
@@ -3440,38 +3494,6 @@
    "comeback": {
     "art": "comeback",
     "stufe": "einsatz"
-   }
-  },
-  {
-   "id": "axtmann-0711",
-   "pid": "00087",
-   "zeit": "2026-11-07T11:03",
-   "spielerin": "Alina Axtmann",
-   "verein": "SC Freiburg",
-   "nr": "3",
-   "pos": "ABW",
-   "tags": [
-    "RÜCKKEHR"
-   ],
-   "status": "fit",
-   "headline": "Axtmann und Hebben zurück im Freiburger Kader",
-   "kurz": "Axtmann und Hebben zurück im Kader",
-   "text": [
-    "Alina Axtmann steht gegen den 1. FC Nürnberg wieder im Kader des SC Freiburg, zunächst auf der Bank. Sie hatte die ersten sieben Ligaspiele alle in der Startelf begonnen, fehlte dann aber in Bremen und im Pokal gegen Jena. Einen Grund für die Pause hatte der Verein nicht genannt.",
-    "Auch Johanna Hebben ist nach der U17-WM in Marokko zurück und sitzt auf der Bank. Laura Ernst, die ebenfalls bei der WM war, steht noch nicht im Kader."
-   ],
-   "kickbase": "Axtmann ist wieder eine Option für die Abwehr. Heute beginnt sie noch nicht, ob sie ihren Stammplatz zurückbekommt, zeigen die nächsten Spiele.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306274/sc-freiburg_1-fc-nuernberg/aufstellung"
-    }
-   ],
-   "foto": "fotos/scf-alina-axtmann.webp",
-   "foto_credit": {
-    "autor": "SC Freiburg",
-    "lizenz": "mit Genehmigung: SC Freiburg",
-    "url": "https://www.scfreiburg.com/teams/frauen/spielerinnen/"
    }
   },
   {
@@ -4288,6 +4310,39 @@
    ]
   },
   {
+   "id": "bender-0611",
+   "pid": "00257",
+   "zeit": "2026-11-06T13:00",
+   "spielerin": "Loreen Bender",
+   "verein": "Bayer Leverkusen",
+   "nr": "19",
+   "pos": "ST",
+   "tags": [
+    "RÜCKKEHR",
+    "UPDATE"
+   ],
+   "status": "fit",
+   "headline": "Bender und Fudalla vor dem HSV-Spiel zurück",
+   "kurz": "Bender und Fudalla sind zurück im Kader",
+   "text": [
+    "Bayer Leverkusen kann im Heimspiel gegen den Hamburger SV am Samstag um 14 Uhr voraussichtlich wieder auf Loreen Bender, Vanessa Fudalla und Natasha Kowalski zurückgreifen. Fudalla war zuletzt krank, Kowalski hatte einen Trainingsrückstand. Bender hatte im Pokal beim FC Bayern gefehlt.",
+    "Weiter nicht dabei sind Paulina Tomasiak (Trainingsrückstand), Sana Coskun (Muskel-Sehnen-Verletzung), Melissa Friedrich (Rückschlag im Aufbautraining nach einer Krankheit) und Amy Wrigge (Kreuzbandriss). Die Startelf ist noch nicht bekannt."
+   ],
+   "kickbase": "Bender und Fudalla sind wieder Optionen für den Kader, ein Startelfplatz ist damit nicht gesichert. Vor einem Kauf lohnt der Blick auf die offizielle Aufstellung.",
+   "quellen": [
+    {
+     "name": "Bayer 04",
+     "url": "https://www.bayer04.de/de-de/news/frauen/ziele-nicht-aus-den-augen-verlieren-frauen-peilen-heimsieg-gegen-den-hsv-an"
+    }
+   ],
+   "foto": "fotos/b04-loreen-bender.webp",
+   "foto_credit": {
+    "autor": "Bayer 04",
+    "lizenz": "mit Genehmigung: Bayer 04 Leverkusen",
+    "url": "https://www.bayer04.de/de-de/team/frauen/frauen"
+   }
+  },
+  {
    "typ": "punkt",
    "id": "punkt-md9",
    "md": 9,
@@ -4488,39 +4543,6 @@
    "fertig": true
   },
   {
-   "id": "bender-0611",
-   "pid": "00257",
-   "zeit": "2026-11-06T13:00",
-   "spielerin": "Loreen Bender",
-   "verein": "Bayer Leverkusen",
-   "nr": "19",
-   "pos": "ST",
-   "tags": [
-    "RÜCKKEHR",
-    "UPDATE"
-   ],
-   "status": "fit",
-   "headline": "Bender und Fudalla vor dem HSV-Spiel zurück",
-   "kurz": "Bender und Fudalla sind zurück im Kader",
-   "text": [
-    "Bayer Leverkusen kann im Heimspiel gegen den Hamburger SV am Samstag um 14 Uhr voraussichtlich wieder auf Loreen Bender, Vanessa Fudalla und Natasha Kowalski zurückgreifen. Fudalla war zuletzt krank, Kowalski hatte einen Trainingsrückstand. Bender hatte im Pokal beim FC Bayern gefehlt.",
-    "Weiter nicht dabei sind Paulina Tomasiak (Trainingsrückstand), Sana Coskun (Muskel-Sehnen-Verletzung), Melissa Friedrich (Rückschlag im Aufbautraining nach einer Krankheit) und Amy Wrigge (Kreuzbandriss). Die Startelf ist noch nicht bekannt."
-   ],
-   "kickbase": "Bender und Fudalla sind wieder Optionen für den Kader, ein Startelfplatz ist damit nicht gesichert. Vor einem Kauf lohnt der Blick auf die offizielle Aufstellung.",
-   "quellen": [
-    {
-     "name": "Bayer 04",
-     "url": "https://www.bayer04.de/de-de/news/frauen/ziele-nicht-aus-den-augen-verlieren-frauen-peilen-heimsieg-gegen-den-hsv-an"
-    }
-   ],
-   "foto": "fotos/b04-loreen-bender.webp",
-   "foto_credit": {
-    "autor": "Bayer 04",
-    "lizenz": "mit Genehmigung: Bayer 04 Leverkusen",
-    "url": "https://www.bayer04.de/de-de/team/frauen/frauen"
-   }
-  },
-  {
    "id": "asgeirsdottir-0611",
    "pid": "00229",
    "zeit": "2026-11-06T10:10",
@@ -4552,6 +4574,65 @@
     "lizenz": "mit Genehmigung: RB Leipzig",
     "url": "https://rbleipzig.com/de/teams-frauen"
    }
+  },
+  {
+   "id": "herzog-0611",
+   "pid": "00213",
+   "zeit": "2026-11-06",
+   "spielerin": "Elvira Herzog",
+   "verein": "RB Leipzig",
+   "nr": "",
+   "pos": "TW",
+   "tags": [
+    "UPDATE"
+   ],
+   "status": "fraglich",
+   "headline": "Herzog wegen Erkältung fraglich für das Spiel in Köln",
+   "kurz": "Herzog fraglich für Köln, Erkältung",
+   "text": [
+    "Elvira Herzog ist erkältet und steht für das Ligaspiel beim 1. FC Köln am Montag um 18 Uhr auf der Kippe. Das zeigt die Kickbase-App seit Freitag an. Der Verein hat sich dazu bisher nicht geäußert.",
+    "Herzog stand in allen acht Ligaspielen und im Pokal gegen Köln über 90 Minuten im Tor. Auf der Bank saß zuletzt Mirja Kropp."
+   ],
+   "kickbase": "Herzog ist die klare Nummer eins. Fällt sie aus, ist Kropp die naheliegende Vertretung. Bis der Verein etwas sagt, führen wir Herzog gegen Köln nur noch als unsicher.",
+   "quellen": [
+    {
+     "name": "Kickbase (App, unbestätigt)",
+     "url": "https://www.kickbase.com"
+    }
+   ],
+   "foto": "fotos/rbl-elvira-herzog.webp",
+   "foto_credit": {
+    "autor": "RB Leipzig",
+    "lizenz": "mit Genehmigung: RB Leipzig",
+    "url": "https://rbleipzig.com/de/teams-frauen"
+   }
+  },
+  {
+   "id": "bednorz-0611",
+   "pid": "00301",
+   "zeit": "2026-11-06",
+   "spielerin": "Keira Bednorz",
+   "verein": "1. FC Nürnberg",
+   "nr": "",
+   "pos": "ABW",
+   "tags": [
+    "VERLETZUNG",
+    "VORBERICHT"
+   ],
+   "status": "fraglich",
+   "headline": "Bednorz fehlt in Freiburg mit Rückenbeschwerden",
+   "kurz": "Bednorz fehlt mit Rückenbeschwerden",
+   "text": [
+    "Keira Bednorz fiel für das Spiel in Freiburg mit Rückenbeschwerden aus, das hatte der Club im Vorbericht gemeldet. Sie kam zuvor dreimal in Folge als Einwechselspielerin.",
+    "Jacqueline Baumgärtel trainierte wieder teilweise mit der Mannschaft. Weiterhin fehlen die Langzeitverletzten Marlene Lindner und Amélie Thöle."
+   ],
+   "kickbase": "Bednorz war zuletzt Jokerin und keine Startelf-Option. Ob sie gegen Köln wieder im Kader steht, hat der Club noch nicht gesagt.",
+   "quellen": [
+    {
+     "name": "1. FC Nürnberg",
+     "url": "https://www.fcn.de/news/artikel/vorbericht-an-den-ersten-sieg-anknuepfen/"
+    }
+   ]
   },
   {
    "id": "harsch-0511",
@@ -4714,6 +4795,38 @@
    }
   },
   {
+   "id": "baum-0311",
+   "pid": "00146",
+   "zeit": "2026-11-03T18:07",
+   "spielerin": "Jule Baum",
+   "verein": "Hamburger SV",
+   "nr": "36",
+   "pos": "TW",
+   "tags": [
+    "VERLETZUNG"
+   ],
+   "status": "verletzt",
+   "headline": "HSV-Torhüterin Baum fällt mit Kreuzbandriss monatelang aus",
+   "kurz": "Baum fällt mit Kreuzbandriss monatelang aus",
+   "text": [
+    "Jule Baum vom Hamburger SV hat sich im Pokalspiel gegen Union Berlin das hintere Kreuzband im rechten Knie gerissen. Die Torhüterin hatte sich die Verletzung während der Partie zugezogen und stand trotzdem bis zum Ende der Verlängerung im Tor, der HSV schied mit 3:4 aus.",
+    "Nach der Untersuchung im Athleticum am Volkspark steht fest, dass Baum monatelang ausfällt. Im Ligabetrieb stand in dieser Saison meist Kinga Szemik im Tor, Baum kam in einem von zehn Spielen zum Einsatz."
+   ],
+   "kickbase": "Für die Kickbase-Aufstellung ändert sich wenig, weil Szemik die klare Nummer eins im Ligaspiel ist. Baum fällt als Torwart-Alternative für die kommenden Monate aus.",
+   "quellen": [
+    {
+     "name": "HSV24",
+     "url": "https://hsv24.mopo.de/2026/11/03/bitter-hsv-torhueterin-zieht-sich-kreuzbandriss-zu.html"
+    }
+   ],
+   "foto": "fotos/hsv-36-baum.webp",
+   "foto_credit": {
+    "autor": "HSV",
+    "lizenz": "mit Genehmigung des Hamburger SV",
+    "url": "Pressepaket Hamburger SV, Freigabe per Mail 10/2026"
+   }
+  },
+  {
    "id": "altenburg-0511",
    "pid": "00056",
    "zeit": "2026-11-03T15:53",
@@ -4744,38 +4857,6 @@
     "autor": "Eintracht Frankfurt",
     "lizenz": "mit Genehmigung: Eintracht Frankfurt",
     "url": "https://frauen.eintracht.de/kader/"
-   }
-  },
-  {
-   "id": "baum-0311",
-   "pid": "00146",
-   "zeit": "2026-11-03T18:07",
-   "spielerin": "Jule Baum",
-   "verein": "Hamburger SV",
-   "nr": "36",
-   "pos": "TW",
-   "tags": [
-    "VERLETZUNG"
-   ],
-   "status": "verletzt",
-   "headline": "HSV-Torhüterin Baum fällt mit Kreuzbandriss monatelang aus",
-   "kurz": "Baum fällt mit Kreuzbandriss monatelang aus",
-   "text": [
-    "Jule Baum vom Hamburger SV hat sich im Pokalspiel gegen Union Berlin das hintere Kreuzband im rechten Knie gerissen. Die Torhüterin hatte sich die Verletzung während der Partie zugezogen und stand trotzdem bis zum Ende der Verlängerung im Tor, der HSV schied mit 3:4 aus.",
-    "Nach der Untersuchung im Athleticum am Volkspark steht fest, dass Baum monatelang ausfällt. Im Ligabetrieb stand in dieser Saison meist Kinga Szemik im Tor, Baum kam in einem von zehn Spielen zum Einsatz."
-   ],
-   "kickbase": "Für die Kickbase-Aufstellung ändert sich wenig, weil Szemik die klare Nummer eins im Ligaspiel ist. Baum fällt als Torwart-Alternative für die kommenden Monate aus.",
-   "quellen": [
-    {
-     "name": "HSV24",
-     "url": "https://hsv24.mopo.de/2026/11/03/bitter-hsv-torhueterin-zieht-sich-kreuzbandriss-zu.html"
-    }
-   ],
-   "foto": "fotos/hsv-36-baum.webp",
-   "foto_credit": {
-    "autor": "HSV",
-    "lizenz": "mit Genehmigung des Hamburger SV",
-    "url": "Pressepaket Hamburger SV, Freigabe per Mail 10/2026"
    }
   },
   {
@@ -5159,42 +5240,6 @@
      ]
     }
    ]
-  },
-  {
-   "id": "gwinn-0211",
-   "pid": "00009",
-   "zeit": "2026-11-02T15:43",
-   "spielerin": "Giulia Gwinn",
-   "verein": "FC Bayern",
-   "nr": "7",
-   "pos": "ABW",
-   "tags": [
-    "TRANSFER"
-   ],
-   "headline": "Gwinn lässt Zukunft beim FC Bayern offen",
-   "kurz": "Gwinn lässt Zukunft bei Bayern offen",
-   "text": [
-    "Giulia Gwinns Vertrag beim FC Bayern läuft bis zum 30. Juni 2027. Am Rande des Pokalspiels gegen Bayer Leverkusen sagte die Kapitänin der Nationalmannschaft laut Merkur: \"Ich halte mir alles offen. Ich fühle mich sehr wohl bei Bayern.\"",
-    "Das Gesamtpaket müsse passen, dann werde man sehen. Zugleich wolle sie die Frage nicht unnötig in die Länge ziehen. Eine Einigung oder ein Abschied ist bisher nicht bekannt. Gwinn fällt aktuell noch wegen eines Außenbandrisses aus.",
-    "Update 15:59: Auch SPORT1 berichtet darüber. Laut dem MagentaSport-Format \"Lupfen und Labern\" macht Gwinn ihre Entscheidung vor allem von der sportlichen Perspektive abhängig und will das Gefühl haben, dass beim Team noch Ambitionen da sind. Ihre Verbundenheit zu Bayern und zur Bundesliga betont sie. SPORT1 nennt auch Klara Bühl und Franziska Kett als Spielerinnen mit auslaufendem Vertrag, eine Bestätigung des Vereins dazu liegt nicht vor."
-   ],
-   "kickbase": "Für die Aufstellung ändert die Vertragsfrage nichts. Wichtig bleibt ihre Rückkehr aus der Verletzung, die im November möglich ist.",
-   "quellen": [
-    {
-     "name": "Merkur",
-     "url": "https://www.merkur.de/sport/fc-bayern/gwinn-heizt-spekulationen-um-ihre-bayern-zukunft-weiter-an-94570344.html"
-    },
-    {
-     "name": "SPORT1",
-     "url": "https://www.sport1.de/news/fussball/frauen-bundesliga/2026/11/bayern-vertrag-laeuft-aus-gwinn-spricht-ueber-zukunft"
-    }
-   ],
-   "foto": "fotos/fcb-giulia-gwinn.webp",
-   "foto_credit": {
-    "autor": "FC Bayern",
-    "lizenz": "mit Genehmigung: FC Bayern München",
-    "url": "https://fcbayern.com/frauen/de/teams/1.-mannschaft"
-   }
   },
   {
    "id": "aufstellung-pokal-wob-0211",
@@ -5581,6 +5626,42 @@
      "grund": "stand am 02.11. gegen VfL Wolfsburg nicht im Spieltagskader, obwohl im letzten Ligaspiel auf der Bank; Grund nicht bekannt"
     }
    ]
+  },
+  {
+   "id": "gwinn-0211",
+   "pid": "00009",
+   "zeit": "2026-11-02T15:43",
+   "spielerin": "Giulia Gwinn",
+   "verein": "FC Bayern",
+   "nr": "7",
+   "pos": "ABW",
+   "tags": [
+    "TRANSFER"
+   ],
+   "headline": "Gwinn lässt Zukunft beim FC Bayern offen",
+   "kurz": "Gwinn lässt Zukunft bei Bayern offen",
+   "text": [
+    "Giulia Gwinns Vertrag beim FC Bayern läuft bis zum 30. Juni 2027. Am Rande des Pokalspiels gegen Bayer Leverkusen sagte die Kapitänin der Nationalmannschaft laut Merkur: \"Ich halte mir alles offen. Ich fühle mich sehr wohl bei Bayern.\"",
+    "Das Gesamtpaket müsse passen, dann werde man sehen. Zugleich wolle sie die Frage nicht unnötig in die Länge ziehen. Eine Einigung oder ein Abschied ist bisher nicht bekannt. Gwinn fällt aktuell noch wegen eines Außenbandrisses aus.",
+    "Update 15:59: Auch SPORT1 berichtet darüber. Laut dem MagentaSport-Format \"Lupfen und Labern\" macht Gwinn ihre Entscheidung vor allem von der sportlichen Perspektive abhängig und will das Gefühl haben, dass beim Team noch Ambitionen da sind. Ihre Verbundenheit zu Bayern und zur Bundesliga betont sie. SPORT1 nennt auch Klara Bühl und Franziska Kett als Spielerinnen mit auslaufendem Vertrag, eine Bestätigung des Vereins dazu liegt nicht vor."
+   ],
+   "kickbase": "Für die Aufstellung ändert die Vertragsfrage nichts. Wichtig bleibt ihre Rückkehr aus der Verletzung, die im November möglich ist.",
+   "quellen": [
+    {
+     "name": "Merkur",
+     "url": "https://www.merkur.de/sport/fc-bayern/gwinn-heizt-spekulationen-um-ihre-bayern-zukunft-weiter-an-94570344.html"
+    },
+    {
+     "name": "SPORT1",
+     "url": "https://www.sport1.de/news/fussball/frauen-bundesliga/2026/11/bayern-vertrag-laeuft-aus-gwinn-spricht-ueber-zukunft"
+    }
+   ],
+   "foto": "fotos/fcb-giulia-gwinn.webp",
+   "foto_credit": {
+    "autor": "FC Bayern",
+    "lizenz": "mit Genehmigung: FC Bayern München",
+    "url": "https://fcbayern.com/frauen/de/teams/1.-mannschaft"
+   }
   },
   {
    "id": "bayern-pokal-0111",
@@ -5997,6 +6078,289 @@
    ]
   },
   {
+   "id": "gutmann-0111",
+   "pid": "00035",
+   "zeit": "2026-11-01T16:36",
+   "spielerin": "Sarah Gutmann",
+   "verein": "Werder Bremen",
+   "nr": "",
+   "pos": "ABW",
+   "tags": [
+    "POKAL",
+    "SPIELBERICHT"
+   ],
+   "status": "fit",
+   "headline": "Gutmann trifft zweimal, Werder im Pokal-Viertelfinale",
+   "kurz": "Gutmann köpft Werder ins Pokal-Viertelfinale",
+   "text": [
+    "Werder Bremen gewinnt das DFB-Pokal-Achtelfinale bei Mainz 05 mit 2:0 nach Verlängerung. Nach 90 torlosen Minuten trifft Abwehrspielerin Sarah Gutmann in der 102. und in der 116. Minute.",
+    "Trainerin Fritzy Kromp änderte die Startelf auf zwei Positionen: Mei Shimada begann für Medina Dešić, Elena Dhont für Lilli Purtscheller. Dešić und Purtscheller kamen in der 69. Minute ins Spiel. Bei Mainz sah Kats in der 68. Minute Gelb-Rot."
+   ],
+   "kickbase": "Gutmann hat damit in kurzer Zeit vier Tore erzielt (Doppelpack gegen Freiburg am 25.10.). Pokaltore zählen in Kickbase nicht, die Form spricht aber für sie vor dem nächsten Ligaspiel.",
+   "quellen": [
+    {
+     "name": "Weser Kurier",
+     "url": "https://www.weser-kurier.de/werder/frauen/werder-bremen-frauen-ziehen-in-mainz-ins-dfb-pokal-viertelfinale-ein-doc88a7wo8087s1e4kpee09"
+    }
+   ],
+   "foto": "fotos/svw-sarah-gutmann.webp",
+   "foto_credit": {
+    "autor": "Werder Bremen",
+    "lizenz": "mit Genehmigung: Werder Bremen",
+    "url": "https://www.werder.de/teams/frauen/spielerinnen/"
+   },
+   "spiel_aufstellung": [
+    {
+     "verein": "Mainz 05",
+     "k": "M05",
+     "gegner": "Werder Bremen",
+     "wettbewerb": "DFB-Pokal",
+     "ergebnis": "0:2",
+     "tore": [
+      {
+       "min": "101",
+       "n": "Gutmann",
+       "eigen": false
+      },
+      {
+       "min": "116",
+       "n": "Gutmann",
+       "eigen": false
+      }
+     ],
+     "vergleich": "8. Spieltag",
+     "startelf": [
+      {
+       "n": "Schön",
+       "p": "TW"
+      },
+      {
+       "n": "Bathmann",
+       "p": "ABW",
+       "aus": "106",
+       "gelb": true
+      },
+      {
+       "n": "Berg",
+       "p": "ABW"
+      },
+      {
+       "n": "Pageler",
+       "p": "ABW",
+       "aus": "83"
+      },
+      {
+       "n": "Flach",
+       "p": "ABW",
+       "f": "neu",
+       "aus": "70"
+      },
+      {
+       "n": "Hashitani",
+       "p": "ABW",
+       "f": "neu"
+      },
+      {
+       "n": "Kurishima",
+       "p": "DM",
+       "aus": "90"
+      },
+      {
+       "n": "Imai",
+       "p": "DM"
+      },
+      {
+       "n": "Bouziane",
+       "p": "MF",
+       "f": "neu",
+       "aus": "70",
+       "gelb": true
+      },
+      {
+       "n": "Kats",
+       "p": "OM",
+       "rot": true
+      },
+      {
+       "n": "Anstatt",
+       "p": "ST"
+      }
+     ],
+     "eingewechselt": [
+      {
+       "n": "Strickler",
+       "p": "ST",
+       "ein_min": "70"
+      },
+      {
+       "n": "Stöhr",
+       "p": "OM",
+       "ein_min": "70"
+      },
+      {
+       "n": "Martin",
+       "p": "MF",
+       "ein_min": "83"
+      },
+      {
+       "n": "Junold",
+       "p": "MF",
+       "ein_min": "90"
+      },
+      {
+       "n": "Fetaj",
+       "p": "OM",
+       "ein_min": "106"
+      }
+     ],
+     "raus": [
+      {
+       "n": "Georgieva",
+       "p": "ABW",
+       "wo": "nicht im Kader"
+      },
+      {
+       "n": "Fetaj",
+       "p": "OM",
+       "wo": "Bank"
+      },
+      {
+       "n": "Stöhr",
+       "p": "OM",
+       "wo": "Bank"
+      }
+     ],
+     "ohne_einsatz": [
+      "Pawlowski",
+      "Hauk",
+      "Donner",
+      "Takizawa"
+     ]
+    },
+    {
+     "verein": "Werder Bremen",
+     "k": "SVW",
+     "gegner": "Mainz 05",
+     "wettbewerb": "DFB-Pokal",
+     "ergebnis": "2:0",
+     "tore": [
+      {
+       "min": "101",
+       "n": "Gutmann",
+       "eigen": true
+      },
+      {
+       "min": "116",
+       "n": "Gutmann",
+       "eigen": true
+      }
+     ],
+     "vergleich": "7. Spieltag",
+     "startelf": [
+      {
+       "n": "Fischer",
+       "p": "TW"
+      },
+      {
+       "n": "Weiß",
+       "p": "ABW"
+      },
+      {
+       "n": "Ulbrich",
+       "p": "ABW"
+      },
+      {
+       "n": "Gutmann",
+       "p": "ABW",
+       "tore": 2
+      },
+      {
+       "n": "Zieniewicz",
+       "p": "ABW",
+       "aus": "91"
+      },
+      {
+       "n": "Wirtz",
+       "p": "DM",
+       "gelb": true
+      },
+      {
+       "n": "Hipp",
+       "p": "DM",
+       "aus": "112",
+       "gelb": true
+      },
+      {
+       "n": "Jaron",
+       "p": "OM",
+       "aus": "69"
+      },
+      {
+       "n": "Dhont",
+       "p": "ST",
+       "f": "neu",
+       "aus": "83"
+      },
+      {
+       "n": "Shimada",
+       "p": "ST",
+       "f": "neu",
+       "aus": "69"
+      },
+      {
+       "n": "Vanzeir",
+       "p": "ST"
+      }
+     ],
+     "eingewechselt": [
+      {
+       "n": "Purtscheller",
+       "p": "OM",
+       "ein_min": "69"
+      },
+      {
+       "n": "Dešić",
+       "p": "ST",
+       "ein_min": "69"
+      },
+      {
+       "n": "Mahmoud",
+       "p": "ST",
+       "ein_min": "83"
+      },
+      {
+       "n": "Sträßer",
+       "p": "ABW",
+       "ein_min": "91"
+      },
+      {
+       "n": "Gmeineder",
+       "p": "MF",
+       "ein_min": "112"
+      }
+     ],
+     "raus": [
+      {
+       "n": "Purtscheller",
+       "p": "OM",
+       "wo": "Bank"
+      },
+      {
+       "n": "Dešić",
+       "p": "ST",
+       "wo": "Bank"
+      }
+     ],
+     "ohne_einsatz": [
+      "Farwick",
+      "Penner",
+      "Mühlemann",
+      "Ernst"
+     ]
+    }
+   ]
+  },
+  {
    "id": "frankfurt-pokal-0111",
    "zeit": "2026-11-01T15:55",
    "spielerin": "Spielansetzung",
@@ -6329,289 +6693,6 @@
    ]
   },
   {
-   "id": "gutmann-0111",
-   "pid": "00035",
-   "zeit": "2026-11-01T16:36",
-   "spielerin": "Sarah Gutmann",
-   "verein": "Werder Bremen",
-   "nr": "",
-   "pos": "ABW",
-   "tags": [
-    "POKAL",
-    "SPIELBERICHT"
-   ],
-   "status": "fit",
-   "headline": "Gutmann trifft zweimal, Werder im Pokal-Viertelfinale",
-   "kurz": "Gutmann köpft Werder ins Pokal-Viertelfinale",
-   "text": [
-    "Werder Bremen gewinnt das DFB-Pokal-Achtelfinale bei Mainz 05 mit 2:0 nach Verlängerung. Nach 90 torlosen Minuten trifft Abwehrspielerin Sarah Gutmann in der 102. und in der 116. Minute.",
-    "Trainerin Fritzy Kromp änderte die Startelf auf zwei Positionen: Mei Shimada begann für Medina Dešić, Elena Dhont für Lilli Purtscheller. Dešić und Purtscheller kamen in der 69. Minute ins Spiel. Bei Mainz sah Kats in der 68. Minute Gelb-Rot."
-   ],
-   "kickbase": "Gutmann hat damit in kurzer Zeit vier Tore erzielt (Doppelpack gegen Freiburg am 25.10.). Pokaltore zählen in Kickbase nicht, die Form spricht aber für sie vor dem nächsten Ligaspiel.",
-   "quellen": [
-    {
-     "name": "Weser Kurier",
-     "url": "https://www.weser-kurier.de/werder/frauen/werder-bremen-frauen-ziehen-in-mainz-ins-dfb-pokal-viertelfinale-ein-doc88a7wo8087s1e4kpee09"
-    }
-   ],
-   "foto": "fotos/svw-sarah-gutmann.webp",
-   "foto_credit": {
-    "autor": "Werder Bremen",
-    "lizenz": "mit Genehmigung: Werder Bremen",
-    "url": "https://www.werder.de/teams/frauen/spielerinnen/"
-   },
-   "spiel_aufstellung": [
-    {
-     "verein": "Mainz 05",
-     "k": "M05",
-     "gegner": "Werder Bremen",
-     "wettbewerb": "DFB-Pokal",
-     "ergebnis": "0:2",
-     "tore": [
-      {
-       "min": "101",
-       "n": "Gutmann",
-       "eigen": false
-      },
-      {
-       "min": "116",
-       "n": "Gutmann",
-       "eigen": false
-      }
-     ],
-     "vergleich": "8. Spieltag",
-     "startelf": [
-      {
-       "n": "Schön",
-       "p": "TW"
-      },
-      {
-       "n": "Bathmann",
-       "p": "ABW",
-       "aus": "106",
-       "gelb": true
-      },
-      {
-       "n": "Berg",
-       "p": "ABW"
-      },
-      {
-       "n": "Pageler",
-       "p": "ABW",
-       "aus": "83"
-      },
-      {
-       "n": "Flach",
-       "p": "ABW",
-       "f": "neu",
-       "aus": "70"
-      },
-      {
-       "n": "Hashitani",
-       "p": "ABW",
-       "f": "neu"
-      },
-      {
-       "n": "Kurishima",
-       "p": "DM",
-       "aus": "90"
-      },
-      {
-       "n": "Imai",
-       "p": "DM"
-      },
-      {
-       "n": "Bouziane",
-       "p": "MF",
-       "f": "neu",
-       "aus": "70",
-       "gelb": true
-      },
-      {
-       "n": "Kats",
-       "p": "OM",
-       "rot": true
-      },
-      {
-       "n": "Anstatt",
-       "p": "ST"
-      }
-     ],
-     "eingewechselt": [
-      {
-       "n": "Strickler",
-       "p": "ST",
-       "ein_min": "70"
-      },
-      {
-       "n": "Stöhr",
-       "p": "OM",
-       "ein_min": "70"
-      },
-      {
-       "n": "Martin",
-       "p": "MF",
-       "ein_min": "83"
-      },
-      {
-       "n": "Junold",
-       "p": "MF",
-       "ein_min": "90"
-      },
-      {
-       "n": "Fetaj",
-       "p": "OM",
-       "ein_min": "106"
-      }
-     ],
-     "raus": [
-      {
-       "n": "Georgieva",
-       "p": "ABW",
-       "wo": "nicht im Kader"
-      },
-      {
-       "n": "Fetaj",
-       "p": "OM",
-       "wo": "Bank"
-      },
-      {
-       "n": "Stöhr",
-       "p": "OM",
-       "wo": "Bank"
-      }
-     ],
-     "ohne_einsatz": [
-      "Pawlowski",
-      "Hauk",
-      "Donner",
-      "Takizawa"
-     ]
-    },
-    {
-     "verein": "Werder Bremen",
-     "k": "SVW",
-     "gegner": "Mainz 05",
-     "wettbewerb": "DFB-Pokal",
-     "ergebnis": "2:0",
-     "tore": [
-      {
-       "min": "101",
-       "n": "Gutmann",
-       "eigen": true
-      },
-      {
-       "min": "116",
-       "n": "Gutmann",
-       "eigen": true
-      }
-     ],
-     "vergleich": "7. Spieltag",
-     "startelf": [
-      {
-       "n": "Fischer",
-       "p": "TW"
-      },
-      {
-       "n": "Weiß",
-       "p": "ABW"
-      },
-      {
-       "n": "Ulbrich",
-       "p": "ABW"
-      },
-      {
-       "n": "Gutmann",
-       "p": "ABW",
-       "tore": 2
-      },
-      {
-       "n": "Zieniewicz",
-       "p": "ABW",
-       "aus": "91"
-      },
-      {
-       "n": "Wirtz",
-       "p": "DM",
-       "gelb": true
-      },
-      {
-       "n": "Hipp",
-       "p": "DM",
-       "aus": "112",
-       "gelb": true
-      },
-      {
-       "n": "Jaron",
-       "p": "OM",
-       "aus": "69"
-      },
-      {
-       "n": "Dhont",
-       "p": "ST",
-       "f": "neu",
-       "aus": "83"
-      },
-      {
-       "n": "Shimada",
-       "p": "ST",
-       "f": "neu",
-       "aus": "69"
-      },
-      {
-       "n": "Vanzeir",
-       "p": "ST"
-      }
-     ],
-     "eingewechselt": [
-      {
-       "n": "Purtscheller",
-       "p": "OM",
-       "ein_min": "69"
-      },
-      {
-       "n": "Dešić",
-       "p": "ST",
-       "ein_min": "69"
-      },
-      {
-       "n": "Mahmoud",
-       "p": "ST",
-       "ein_min": "83"
-      },
-      {
-       "n": "Sträßer",
-       "p": "ABW",
-       "ein_min": "91"
-      },
-      {
-       "n": "Gmeineder",
-       "p": "MF",
-       "ein_min": "112"
-      }
-     ],
-     "raus": [
-      {
-       "n": "Purtscheller",
-       "p": "OM",
-       "wo": "Bank"
-      },
-      {
-       "n": "Dešić",
-       "p": "ST",
-       "wo": "Bank"
-      }
-     ],
-     "ohne_einsatz": [
-      "Farwick",
-      "Penner",
-      "Mühlemann",
-      "Ernst"
-     ]
-    }
-   ]
-  },
-  {
    "id": "fehlt-reimann-scf-0111",
    "pid": "00085",
    "zeit": "2026-11-01T14:08",
@@ -6638,97 +6719,6 @@
    ],
    "quelle_live": true,
    "kurz": "Reimann und Ihme nicht im Kader"
-  },
-  {
-   "id": "fehlt-viggosdottir-fcb-0111",
-   "pid": "00013",
-   "zeit": "2026-11-01T13:53",
-   "spielerin": "Glódís Viggósdóttir",
-   "verein": "FC Bayern",
-   "nr": "",
-   "pos": "ABW",
-   "tags": [
-    "AUFSTELLUNG",
-    "STANDARD"
-   ],
-   "status": "fraglich",
-   "headline": "Viggósdóttir fehlt im Pokal, Bühl nur auf der Bank",
-   "text": [
-    "Glódís Viggósdóttir steht im DFB-Pokal gegen Bayer Leverkusen weder in der Startelf noch auf der Bank, im letzten Ligaspiel stand sie in der Startelf und begann in den letzten 5 Ligaspielen 5-mal. Einen Grund nennt bisher keine Quelle, möglich sind Verletzung, Krankheit oder Schonung.",
-    "Klara Bühl sitzt auf der Bank. Sie ist die erste Schützin bei Ecken und Freistößen: Freistöße übernimmt Alara aus der Startelf, wer die Ecken tritt, ist offen."
-   ],
-   "kickbase": "Viggósdóttir führen wir bis zu einer Auskunft als fraglich und stufen sie in der Prognose herunter. Bei Standards ist Alara bei Freistößen und Elfmetern die erste Wahl, bei Ecken fehlt eine klare Schützin.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165391/bayern-muenchen_bayer-leverkusen/aufstellung"
-    }
-   ],
-   "quelle_live": true,
-   "kurz": "Viggósdóttir fehlt, Bühl nur auf der Bank",
-   "zusammen": true,
-   "foto": "fotos/fcb-glodis-perla-viggosdottir.webp",
-   "foto_credit": {
-    "autor": "FC Bayern",
-    "lizenz": "mit Genehmigung: FC Bayern München",
-    "url": "https://fcbayern.com/frauen/de/teams/1.-mannschaft"
-   }
-  },
-  {
-   "id": "fehlt-bender-b04-0111",
-   "pid": "00257",
-   "zeit": "2026-11-01T13:53",
-   "spielerin": "Loreen Bender",
-   "verein": "Bayer Leverkusen",
-   "nr": "",
-   "pos": "ST",
-   "tags": [
-    "AUFSTELLUNG",
-    "POKAL"
-   ],
-   "status": "fraglich",
-   "headline": "Bender und Remien nicht im Kader gegen FC Bayern",
-   "text": [
-    "Im DFB-Pokal gegen FC Bayern stehen weder in der Startelf noch auf der Bank: Loreen Bender (4 von 5 Ligaspielen in der Startelf), Louisa Remien (0 von 5 Ligaspielen in der Startelf).",
-    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
-   ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie alle als fraglich und stufen sie in der Prognose herunter.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165391/bayern-muenchen_bayer-leverkusen/aufstellung"
-    }
-   ],
-   "quelle_live": true,
-   "kurz": "Bender und Remien nicht im Kader"
-  },
-  {
-   "id": "fehlt-altenburg-sge-0111",
-   "pid": "00056",
-   "zeit": "2026-11-01T13:12",
-   "spielerin": "Lina Altenburg",
-   "verein": "Eintracht Frankfurt",
-   "nr": "",
-   "pos": "TW",
-   "tags": [
-    "AUFSTELLUNG",
-    "POKAL"
-   ],
-   "status": "fraglich",
-   "headline": "Altenburg und Doorsoun nicht im Kader gegen 1. FC Nürnberg",
-   "text": [
-    "Im DFB-Pokal gegen 1. FC Nürnberg stehen weder in der Startelf noch auf der Bank: Lina Altenburg (5 von 5 Ligaspielen in der Startelf), Sara Doorsoun (2 von 5 Ligaspielen in der Startelf).",
-    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
-   ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie alle als fraglich und stufen sie in der Prognose herunter.",
-   "quellen": [
-    {
-     "name": "DFB-Datencenter",
-     "url": "https://datencenter.dfb.de/matches/1-fc-nuernberg-eintracht-frankfurt-2431335"
-    }
-   ],
-   "quelle_live": true,
-   "kurz": "Altenburg und Doorsoun nicht im Kader"
   },
   {
    "id": "aufstellung-pokal-scf-0111",
@@ -6896,6 +6886,69 @@
     "formation": "4-3-1-2"
    },
    "quelle_live": true
+  },
+  {
+   "id": "fehlt-viggosdottir-fcb-0111",
+   "pid": "00013",
+   "zeit": "2026-11-01T13:53",
+   "spielerin": "Glódís Viggósdóttir",
+   "verein": "FC Bayern",
+   "nr": "",
+   "pos": "ABW",
+   "tags": [
+    "AUFSTELLUNG",
+    "STANDARD"
+   ],
+   "status": "fraglich",
+   "headline": "Viggósdóttir fehlt im Pokal, Bühl nur auf der Bank",
+   "text": [
+    "Glódís Viggósdóttir steht im DFB-Pokal gegen Bayer Leverkusen weder in der Startelf noch auf der Bank, im letzten Ligaspiel stand sie in der Startelf und begann in den letzten 5 Ligaspielen 5-mal. Einen Grund nennt bisher keine Quelle, möglich sind Verletzung, Krankheit oder Schonung.",
+    "Klara Bühl sitzt auf der Bank. Sie ist die erste Schützin bei Ecken und Freistößen: Freistöße übernimmt Alara aus der Startelf, wer die Ecken tritt, ist offen."
+   ],
+   "kickbase": "Viggósdóttir führen wir bis zu einer Auskunft als fraglich und stufen sie in der Prognose herunter. Bei Standards ist Alara bei Freistößen und Elfmetern die erste Wahl, bei Ecken fehlt eine klare Schützin.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165391/bayern-muenchen_bayer-leverkusen/aufstellung"
+    }
+   ],
+   "quelle_live": true,
+   "kurz": "Viggósdóttir fehlt, Bühl nur auf der Bank",
+   "zusammen": true,
+   "foto": "fotos/fcb-glodis-perla-viggosdottir.webp",
+   "foto_credit": {
+    "autor": "FC Bayern",
+    "lizenz": "mit Genehmigung: FC Bayern München",
+    "url": "https://fcbayern.com/frauen/de/teams/1.-mannschaft"
+   }
+  },
+  {
+   "id": "fehlt-bender-b04-0111",
+   "pid": "00257",
+   "zeit": "2026-11-01T13:53",
+   "spielerin": "Loreen Bender",
+   "verein": "Bayer Leverkusen",
+   "nr": "",
+   "pos": "ST",
+   "tags": [
+    "AUFSTELLUNG",
+    "POKAL"
+   ],
+   "status": "fraglich",
+   "headline": "Bender und Remien nicht im Kader gegen FC Bayern",
+   "text": [
+    "Im DFB-Pokal gegen FC Bayern stehen weder in der Startelf noch auf der Bank: Loreen Bender (4 von 5 Ligaspielen in der Startelf), Louisa Remien (0 von 5 Ligaspielen in der Startelf).",
+    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
+   ],
+   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie alle als fraglich und stufen sie in der Prognose herunter.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165391/bayern-muenchen_bayer-leverkusen/aufstellung"
+    }
+   ],
+   "quelle_live": true,
+   "kurz": "Bender und Remien nicht im Kader"
   },
   {
    "id": "aufstellung-pokal-fcb-0111",
@@ -7205,6 +7258,34 @@
     "formation": "4-2-2-2"
    },
    "quelle_live": true
+  },
+  {
+   "id": "fehlt-altenburg-sge-0111",
+   "pid": "00056",
+   "zeit": "2026-11-01T13:12",
+   "spielerin": "Lina Altenburg",
+   "verein": "Eintracht Frankfurt",
+   "nr": "",
+   "pos": "TW",
+   "tags": [
+    "AUFSTELLUNG",
+    "POKAL"
+   ],
+   "status": "fraglich",
+   "headline": "Altenburg und Doorsoun nicht im Kader gegen 1. FC Nürnberg",
+   "text": [
+    "Im DFB-Pokal gegen 1. FC Nürnberg stehen weder in der Startelf noch auf der Bank: Lina Altenburg (5 von 5 Ligaspielen in der Startelf), Sara Doorsoun (2 von 5 Ligaspielen in der Startelf).",
+    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
+   ],
+   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie alle als fraglich und stufen sie in der Prognose herunter.",
+   "quellen": [
+    {
+     "name": "DFB-Datencenter",
+     "url": "https://datencenter.dfb.de/matches/1-fc-nuernberg-eintracht-frankfurt-2431335"
+    }
+   ],
+   "quelle_live": true,
+   "kurz": "Altenburg und Doorsoun nicht im Kader"
   },
   {
    "id": "aufstellung-pokal-m05-0111",
