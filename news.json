@@ -2,6 +2,305 @@
  "stand": "2026-11-13T17:53",
  "meldungen": [
   {
+   "id": "aufstellung-hsv-1311",
+   "zeit": "2026-11-13T17:28",
+   "spielerin": "Spielansetzung",
+   "verein": "Hamburger SV",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "TOP"
+   ],
+   "headline": "Offizielle Aufstellung: Hamburger SV gegen Mainz 05",
+   "text": [
+    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Brunnthaler, Eggert, Mirzaliyeva."
+   ],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306295/hamburger-sv_1-fsv-mainz-05/aufstellung"
+    }
+   ],
+   "aufstellung": {
+    "gegner": "Mainz 05",
+    "formation": "4-1-2-2-1",
+    "startelf": [
+     {
+      "n": "Szemik",
+      "p": "TW",
+      "pid": "00151"
+     },
+     {
+      "n": "Doucouré",
+      "p": "ABW",
+      "pid": "00154"
+     },
+     {
+      "n": "Peneau",
+      "p": "ABW",
+      "pid": "00165",
+      "kp": "MF",
+      "f": "neu"
+     },
+     {
+      "n": "Böhler",
+      "p": "ABW",
+      "pid": "00152"
+     },
+     {
+      "n": "Wrede",
+      "p": "ABW",
+      "pid": "",
+      "f": "neu"
+     },
+     {
+      "n": "Stoldt",
+      "p": "DM",
+      "pid": "00167",
+      "kp": "ABW"
+     },
+     {
+      "n": "Bartz",
+      "p": "MF",
+      "pid": "00160"
+     },
+     {
+      "n": "Machtens",
+      "p": "MF",
+      "pid": "00163"
+     },
+     {
+      "n": "Linberg",
+      "p": "OM",
+      "pid": "00173",
+      "kp": "ST"
+     },
+     {
+      "n": "Morich",
+      "p": "OM",
+      "pid": "00164",
+      "kp": "MF"
+     },
+     {
+      "n": "Karczewska",
+      "p": "ST",
+      "pid": "00171",
+      "f": "neu"
+     }
+    ],
+    "bank": [
+     {
+      "n": "Sieger",
+      "p": "TW",
+      "pid": "00150"
+     },
+     {
+      "n": "Martens",
+      "p": "ABW",
+      "pid": "00155"
+     },
+     {
+      "n": "Matysik",
+      "p": "ABW",
+      "pid": "00156"
+     },
+     {
+      "n": "Dönges",
+      "p": "ABW",
+      "pid": "00153"
+     },
+     {
+      "n": "Mirzaliyeva",
+      "p": "ABW",
+      "pid": "00157",
+      "f": "raus"
+     },
+     {
+      "n": "Obispo",
+      "p": "ABW",
+      "pid": "00158"
+     },
+     {
+      "n": "Eggert",
+      "p": "MF",
+      "pid": "00162",
+      "f": "raus"
+     },
+     {
+      "n": "Schwalm",
+      "p": "ST",
+      "pid": "00174"
+     },
+     {
+      "n": "Brunnthaler",
+      "p": "ST",
+      "pid": "00169",
+      "f": "raus"
+     }
+    ],
+    "fehlt": [
+     {
+      "n": "Räcke",
+      "p": "ABW",
+      "pid": "00159",
+      "f": "raus",
+      "war": "Bank"
+     }
+    ]
+   },
+   "quelle_live": true
+  },
+  {
+   "id": "aufstellung-m05-1311",
+   "zeit": "2026-11-13T17:28",
+   "spielerin": "Spielansetzung",
+   "verein": "Mainz 05",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "TOP"
+   ],
+   "headline": "Offizielle Aufstellung: Mainz 05 gegen Hamburger SV",
+   "text": [
+    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Kats, Martin."
+   ],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306295/hamburger-sv_1-fsv-mainz-05/aufstellung"
+    }
+   ],
+   "aufstellung": {
+    "gegner": "Hamburger SV",
+    "formation": "4-2-3-1",
+    "startelf": [
+     {
+      "n": "Schön",
+      "p": "TW",
+      "pid": "00270"
+     },
+     {
+      "n": "Bathmann",
+      "p": "ABW",
+      "pid": "00278"
+     },
+     {
+      "n": "Hashitani",
+      "p": "ABW",
+      "pid": "00275"
+     },
+     {
+      "n": "Berg",
+      "p": "ABW",
+      "pid": "00279"
+     },
+     {
+      "n": "Pageler",
+      "p": "ABW",
+      "pid": "00293"
+     },
+     {
+      "n": "Junold",
+      "p": "DM",
+      "pid": "00284",
+      "kp": "MF"
+     },
+     {
+      "n": "Imai",
+      "p": "DM",
+      "pid": "00282",
+      "kp": "MF"
+     },
+     {
+      "n": "Georgieva",
+      "p": "OM",
+      "pid": "00274",
+      "kp": "ABW",
+      "f": "neu"
+     },
+     {
+      "n": "Strickler",
+      "p": "OM",
+      "pid": "00295",
+      "kp": "ST",
+      "f": "neu"
+     },
+     {
+      "n": "Fetaj",
+      "p": "OM",
+      "pid": "00281",
+      "kp": "MF"
+     },
+     {
+      "n": "Anstatt",
+      "p": "ST",
+      "pid": "00291"
+     }
+    ],
+    "bank": [
+     {
+      "n": "Pawlowski",
+      "p": "TW",
+      "pid": "00269"
+     },
+     {
+      "n": "Flach",
+      "p": "ABW",
+      "pid": "00273"
+     },
+     {
+      "n": "Bukowski",
+      "p": "ABW",
+      "pid": "00271"
+     },
+     {
+      "n": "Takizawa",
+      "p": "MF",
+      "pid": "00289"
+     },
+     {
+      "n": "Kurishima",
+      "p": "MF",
+      "pid": "00285"
+     },
+     {
+      "n": "Martin",
+      "p": "MF",
+      "pid": "00286",
+      "f": "raus"
+     },
+     {
+      "n": "Jackson",
+      "p": "ABW",
+      "pid": "00283"
+     },
+     {
+      "n": "Stöhr",
+      "p": "ST",
+      "pid": "00294"
+     },
+     {
+      "n": "Kats",
+      "p": "ST",
+      "pid": "00292",
+      "f": "raus"
+     }
+    ],
+    "fehlt": [
+     {
+      "n": "Bouziane",
+      "p": "ST",
+      "pid": "00280",
+      "f": "raus",
+      "war": "Bank"
+     }
+    ]
+   },
+   "quelle_live": true
+  },
+  {
    "id": "pk-md10",
    "zeit": "2026-11-13T11:45",
    "spielerin": "Pressekonferenzen",
