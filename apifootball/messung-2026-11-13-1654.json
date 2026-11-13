@@ -1,0 +1,17 @@
+{
+ "datum": "2026-11-13",
+ "spiele": [
+  1593171
+ ],
+ "erstmals": {
+  "1593171": {
+   "spiel": "Hamburger SV W - Mainz 05 W",
+   "anstoss": "2026-11-13T17:30:00+00:00",
+   "aufstellung_gesehen": "2026-11-13T17:00+00:00",
+   "minuten_vor_anpfiff": 29,
+   "mit_bank": true
+  }
+ },
+ "ohne_aufstellung_bis_anpfiff": [],
+ "abfragen": 5
+}
