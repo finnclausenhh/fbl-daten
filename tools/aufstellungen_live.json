@@ -12,7 +12,7 @@
    ],
    "headline": "Offizielle Aufstellung: Hamburger SV gegen Mainz 05",
    "text": [
-    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Brunnthaler, Eggert, Mirzaliyeva. Die Bank folgt, sobald sie veröffentlicht ist."
+    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Brunnthaler, Eggert, Mirzaliyeva."
    ],
    "kickbase": "",
    "quellen": [
@@ -88,24 +88,63 @@
       "f": "neu"
      }
     ],
-    "bank": [],
-    "fehlt": [],
-    "bank_offen": true,
-    "nicht_startelf": [
+    "bank": [
      {
-      "n": "Brunnthaler",
-      "p": "ST",
-      "pid": "00169"
+      "n": "Sieger",
+      "p": "TW",
+      "pid": "00150"
      },
      {
-      "n": "Eggert",
-      "p": "MF",
-      "pid": "00162"
+      "n": "Martens",
+      "p": "ABW",
+      "pid": "00155"
+     },
+     {
+      "n": "Matysik",
+      "p": "ABW",
+      "pid": "00156"
+     },
+     {
+      "n": "Dönges",
+      "p": "ABW",
+      "pid": "00153"
      },
      {
       "n": "Mirzaliyeva",
       "p": "ABW",
-      "pid": "00157"
+      "pid": "00157",
+      "f": "raus"
+     },
+     {
+      "n": "Obispo",
+      "p": "ABW",
+      "pid": "00158"
+     },
+     {
+      "n": "Eggert",
+      "p": "MF",
+      "pid": "00162",
+      "f": "raus"
+     },
+     {
+      "n": "Schwalm",
+      "p": "ST",
+      "pid": "00174"
+     },
+     {
+      "n": "Brunnthaler",
+      "p": "ST",
+      "pid": "00169",
+      "f": "raus"
+     }
+    ],
+    "fehlt": [
+     {
+      "n": "Räcke",
+      "p": "ABW",
+      "pid": "00159",
+      "f": "raus",
+      "war": "Bank"
      }
     ]
    },
