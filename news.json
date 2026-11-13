@@ -1,33 +1,6 @@
 {
- "stand": "2026-11-13T17:19",
+ "stand": "2026-11-13T17:53",
  "meldungen": [
-  {
-   "id": "aufstellung-folgt-ma12306295",
-   "zeit": "2026-11-13T17:10",
-   "spielerin": "Spielansetzung",
-   "verein": "Hamburger SV",
-   "nr": "",
-   "pos": "Spielansetzung",
-   "tags": [
-    "AUFSTELLUNG"
-   ],
-   "headline": "Aufstellung Hamburger SV gegen Mainz 05 folgt",
-   "kurz": "Aufstellung folgt, Anpfiff 18:30",
-   "text": [
-    "Anpfiff in der Liga ist um 18:30 Uhr. Die offizielle Aufstellung kommt meist rund 60 Minuten vorher, wir ergänzen sie hier automatisch, sobald sie veröffentlicht ist.",
-    "Bis dahin steht unsere Prognose im Spielplan bei der Partie."
-   ],
-   "kickbase": "",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306295/hamburger-sv_1-fsv-mainz-05/aufstellung"
-    }
-   ],
-   "platzhalter": true,
-   "anstoss": "2026-11-13T18:30",
-   "partie_id": "12306295"
-  },
   {
    "id": "pk-md10",
    "zeit": "2026-11-13T11:45",
