@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-13T17:57",
+ "stand": "2026-11-13T18:46",
  "meldungen": [
   {
    "id": "kats-standards-1311",
@@ -544,7 +544,8 @@
     }
    ],
    "lebt_bis": "2026-11-13T18:30",
-   "aktualisiert": "2026-11-13T17:28"
+   "aktualisiert": "2026-11-13T17:28",
+   "fertig": true
   },
   {
    "id": "martret-1211",
