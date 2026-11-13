@@ -165,6 +165,33 @@
    ]
   },
   {
+   "id": "martret-1211",
+   "pid": "00142",
+   "zeit": "2026-11-12T17:14",
+   "spielerin": "Laia Martret",
+   "verein": "TSG Hoffenheim",
+   "nr": "",
+   "pos": "ST",
+   "tags": [
+    "VERLETZUNG",
+    "VORBERICHT"
+   ],
+   "status": "fraglich",
+   "headline": "Martret ist gegen Freiburg fraglich",
+   "kurz": "Martret gegen Freiburg fraglich",
+   "text": [
+    "Laia Martret könnte Hoffenheim auch gegen den SC Freiburg fehlen, ob sie im Kader steht, entscheidet sich kurzfristig. Gegen Union Berlin war sie nicht im Kader, davor stand sie fünfmal in Folge in der Startelf.",
+    "Weiterhin fehlen Féli Delacauw und Naomi Luyet."
+   ],
+   "kickbase": "Martret ist Stammspielerin, aber für Samstag offen. Erst die offizielle Aufstellung bringt Klarheit.",
+   "quellen": [
+    {
+     "name": "TSG Hoffenheim",
+     "url": "https://www.tsg-hoffenheim.de/aktuelles/news/2026/11/virsinger-vor-tsgscf-muessen-grosschancen-verwandeln"
+    }
+   ]
+  },
+  {
    "id": "reimann-1211",
    "pid": "00085",
    "zeit": "2026-11-12",
@@ -4666,6 +4693,33 @@
     "lizenz": "Platzhalter (kein Vereinsfoto)",
     "url": "https://www.tsg-hoffenheim.de/teams/frauen"
    }
+  },
+  {
+   "id": "elsherif-0511",
+   "pid": "00030",
+   "zeit": "2026-11-05T16:05",
+   "spielerin": "Mariella El Sherif",
+   "verein": "Werder Bremen",
+   "nr": "",
+   "pos": "TW",
+   "tags": [
+    "VERLETZUNG",
+    "VORBERICHT"
+   ],
+   "status": "verletzt",
+   "headline": "El Sherif fehlt weiter, Fischer bleibt im Werder-Tor",
+   "kurz": "El Sherif fehlt weiter, Fischer im Tor",
+   "text": [
+    "Stammtorhüterin Mariella El Sherif fehlt Werder weiter mit ihrer Handverletzung, auch in München. Vanessa Fischer vertritt sie und stand zuletzt viermal in Folge in der Startelf.",
+    "Ebenfalls weiter nicht dabei sind Chiara D'Angelo (Fußverletzung), Julia Magerl (Knieverletzung) sowie Caroline Siems und Lena Petermann (beide Aufbautraining)."
+   ],
+   "kickbase": "Fischer ist im Werder-Tor gesetzt, solange El Sherif fehlt. Einen Termin für El Sherifs Rückkehr nennt der Verein nicht.",
+   "quellen": [
+    {
+     "name": "SV Werder Bremen",
+     "url": "https://www.werder.de/news/frauen/2026-2027/vorbericht-bayern-werderfrauen-05112026"
+    }
+   ]
   },
   {
    "id": "gwinn-0511",
