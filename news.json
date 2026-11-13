@@ -1,6 +1,38 @@
 {
- "stand": "2026-11-13T17:53",
+ "stand": "2026-11-13T16:56",
  "meldungen": [
+  {
+   "id": "kats-standards-1311",
+   "pid": "00292",
+   "zeit": "2026-11-13T17:28",
+   "spielerin": "Vital Kats",
+   "verein": "Mainz 05",
+   "nr": "30",
+   "pos": "ST",
+   "tags": [
+    "STANDARD"
+   ],
+   "headline": "Kats sitzt gegen den HSV auf der Bank",
+   "kurz": "Kats nur Bank, Fetaj bei Ecken vorn",
+   "status": "fit",
+   "text": [
+    "Vital Kats steht beim Spiel gegen den Hamburger SV nicht in der Startelf, sie sitzt laut offizieller Aufstellung auf der Bank. Beim 1. FSV Mainz 05 führt sie die Liste bei Ecken und Freistößen an.",
+    "Bei Ecken dürfte Gentiana Fetaj übernehmen, die in der Startelf steht. Wer die Freistöße schießt, ist offen."
+   ],
+   "kickbase": "Wer auf Standards setzt, sollte Fetaj im Blick haben. Kats ist bei Einwechslung wieder erste Wahl für ruhende Bälle.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306295/hamburger-sv_1-fsv-mainz-05/aufstellung"
+    }
+   ],
+   "foto": "fotos/m05-vital-kats.webp",
+   "foto_credit": {
+    "autor": "Mainz 05",
+    "lizenz": "mit Genehmigung: 1. FSV Mainz 05",
+    "url": "https://www.mainz05.de/Tab/Kader-Frauen"
+   }
+  },
   {
    "id": "aufstellung-hsv-1311",
    "zeit": "2026-11-13T17:28",
