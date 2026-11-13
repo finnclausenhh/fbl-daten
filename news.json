@@ -2,6 +2,34 @@
  "stand": "2026-11-13T18:58",
  "meldungen": [
   {
+   "id": "endstand-hsv-1311",
+   "zeit": "2026-11-13T20:24",
+   "spielerin": "Hamburger SV gegen Mainz 05",
+   "verein": "Hamburger SV",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "SPIELBERICHT"
+   ],
+   "headline": "Endstand: Hamburger SV 6:1 Mainz 05",
+   "kurz": "Endstand HSV 6:1 M05",
+   "text": [
+    "Hamburger SV gewinnt gegen Mainz 05 mit 6:1.",
+    "Tore: 1:0 Linberg (3., Vorlage Stoldt), 2:0 Peneau (15., Vorlage Bartz), 3:0 Linberg (19.), 4:0 Doucouré (24., Vorlage Karczewska), 4:1 Anstatt (41.), 5:1 Karczewska (87., Vorlage Bartz), 6:1 Stoldt (90., direkter Freistoß).",
+    "Gelb: Anstatt, Bathmann, Berg, Martin, Karczewska.",
+    "Noten und der ausführliche Bericht folgen."
+   ],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306295/hamburger-sv_1-fsv-mainz-05/liveticker"
+    }
+   ],
+   "quelle_live": true,
+   "partie_id": "12306295"
+  },
+  {
    "id": "kats-standards-1311",
    "pid": "00292",
    "zeit": "2026-11-13T17:28",
