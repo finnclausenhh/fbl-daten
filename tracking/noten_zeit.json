@@ -85,5 +85,18 @@
   "noten_da": "2026-11-09T19:54",
   "minuten_nach_abpfiff": 2,
   "bau_gestartet": "2026-11-09T19:54"
+ },
+ "12306295": {
+  "spiel": "HSV-M05",
+  "anstoss": "2026-11-13T18:30",
+  "abpfiff_ca": "2026-11-13T20:23",
+  "fixture": 1593171,
+  "af_status": "FT",
+  "erste_pruefung": "2026-11-13T20:24",
+  "noten_zuletzt": 40,
+  "letzte_pruefung": "2026-11-13T20:24",
+  "noten_da": "2026-11-13T20:24",
+  "minuten_nach_abpfiff": 2,
+  "bau_gestartet": "2026-11-13T20:24"
  }
 }
