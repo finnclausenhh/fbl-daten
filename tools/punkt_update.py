@@ -10,7 +10,7 @@ Die Meldung (typ "punkt", geschrieben vom Lauf nach engine/punkt_auftrag.md) bek
 - Hinweis "update" an Einträgen in Sicher/Finger weg/Tipp/Achtung, wenn es zu der Spielerin später eine Meldung gab.
 - "wackel": Wackelkandidaten aus der aktuellen Prognose (Feld alternativ: "Bender oder Platner") für Spiele ohne
   offizielle Aufstellung; verletzte oder gesperrte Spielerinnen fallen raus.
-- headline "Spieltag N auf den Punkt · Update HH:MM" (Uhrzeit des neuesten Updates), pin_bis = erster Anpfiff.
+- headline "Spieltag N auf den Punkt · Update HH:MM" (Uhrzeit des neuesten Updates), lebt_bis = erster Anpfiff (Finn 13.11.2026: nicht mehr angeheftet, steht chronologisch im Feed).
 Kickbase sperrt mit dem ersten Anpfiff (Finn 06.11.2026): nur Updates bis dahin; danach wird die Meldung einmal
 abgeschlossen ("fertig": true), nicht mehr angeheftet und rutscht im Feed nach unten.
 Stand der Prognose bei Erscheinen und erste Sichtung je Änderung: tools/punkt_stand.json.
@@ -164,7 +164,9 @@ def anwenden(news, live, sp, repo, jetzt=None):
                     wackel.append({"k": p.get(seite + "_k"), "p": alt.get("p", ""), "a": x, "b": y, "anstoss": p["anstoss"]})
         titel = re.sub(r"\s*·\s*Update \d\d:\d\d$", "", m.get("titel_basis") or m["headline"])
         head = titel + (f" · Update {ups[0]['zeit'][11:16]}" if ups else "")
-        neu = dict(m, titel_basis=titel, headline=head, updates=ups, wackel=wackel, pin_bis=erster, **sektionen)
+        neu = dict(m, titel_basis=titel, headline=head, updates=ups, wackel=wackel, **sektionen)
+        neu.pop("pin_bis", None)  # Finn 13.11.2026: nicht mehr oben anheften, steht chronologisch im Feed
+        neu["lebt_bis"] = erster  # Updates laufen weiter bis zum ersten Anpfiff
         if nach_anpfiff:
             neu["fertig"] = True  # Stand zum ersten Anpfiff, danach keine Änderungen mehr
         if ups:
@@ -188,7 +190,7 @@ def main():
     news, sp, live = lade("news.json"), lade("spielplan.json"), lade("tools/aufstellungen_live.json", {"meldungen": []})
     if anwenden(news, live, sp, a.repo):
         m = next(x for x in news["meldungen"] if x.get("typ") == "punkt" and x.get("updates") is not None)
-        print(json.dumps({k: m[k] for k in ("headline", "updates", "wackel", "pin_bis")}, ensure_ascii=False, indent=1))
+        print(json.dumps({k: m[k] for k in ("headline", "updates", "wackel", "lebt_bis")}, ensure_ascii=False, indent=1))
         print(json.dumps([(e["n"], e.get("update")) for s in ("sicher", "finger_weg", "tipp", "achtung") for e in m[s] if e.get("update")], ensure_ascii=False))
         if a.schreiben:
             json.dump(news, open(os.path.join(a.repo, "news.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)

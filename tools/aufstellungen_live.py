@@ -597,7 +597,7 @@ def main():
     jetzt = datetime.now(TZ)
     grenze = (jetzt - timedelta(days=1)).strftime("%Y-%m-%d")
     live["meldungen"] = [m for m in live["meldungen"] if m["zeit"][:10] >= grenze
-                         or (m.get("typ") == "punkt" and m.get("pin_bis", "") >= jetzt.strftime("%Y-%m-%dT%H:%M"))]  # Auf den Punkt lebt bis zum letzten Anpfiff
+                         or (m.get("typ") == "punkt" and (m.get("lebt_bis") or m.get("pin_bis", "")) >= jetzt.strftime("%Y-%m-%dT%H:%M"))]  # Auf den Punkt lebt bis zum letzten Anpfiff
     entfernt = set(live.setdefault("entfernt", []))
     vorher = len(news["meldungen"])
     news["meldungen"] = [m for m in news["meldungen"] if m["id"] not in entfernt]
