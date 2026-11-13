@@ -376,7 +376,10 @@
     "Maja Sternad"
    ]
   },
-  "gesehen": {},
+  "gesehen": {
+   "12306301|gast|reimann|barth": "2026-11-12T19:01",
+   "12306301|gast|stierli|axtmann": "2026-11-13T14:51"
+  },
   "basis_zeit": "2026-11-12T19:50"
  }
 }

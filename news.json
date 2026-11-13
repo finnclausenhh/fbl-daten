@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-13T14:50",
+ "stand": "2026-11-13T14:51",
  "meldungen": [
   {
    "id": "pk-md10",
@@ -82,7 +82,7 @@
    "id": "punkt-md10",
    "md": 10,
    "zeit": "2026-11-12T19:01",
-   "headline": "Spieltag 10 auf den Punkt",
+   "headline": "Spieltag 10 auf den Punkt · Update 14:51",
    "sicher": [
     {
      "n": "Svea Stoldt",
@@ -168,7 +168,20 @@
    ],
    "analyse_link": true,
    "titel_basis": "Spieltag 10 auf den Punkt",
-   "updates": [],
+   "updates": [
+    {
+     "zeit": "2026-11-13T14:51",
+     "k": "SCF",
+     "text": "Stierli startet statt Axtmann",
+     "art": "prognose"
+    },
+    {
+     "zeit": "2026-11-12T19:01",
+     "k": "SCF",
+     "text": "Reimann startet statt Barth (Reimann und Stierli zurück für Hoffenheim)",
+     "art": "prognose"
+    }
+   ],
    "wackel": [
     {
      "k": "M05",
@@ -179,9 +192,16 @@
     },
     {
      "k": "SCF",
+     "p": "TW",
+     "a": "Reimann",
+     "b": "Barth",
+     "anstoss": "2026-11-14T12:00"
+    },
+    {
+     "k": "SCF",
      "p": "ABW",
-     "a": "Axtmann",
-     "b": "Seghir",
+     "a": "Stierli",
+     "b": "Axtmann",
      "anstoss": "2026-11-14T12:00"
     },
     {
@@ -206,7 +226,8 @@
      "anstoss": "2026-11-16T18:00"
     }
    ],
-   "lebt_bis": "2026-11-13T18:30"
+   "lebt_bis": "2026-11-13T18:30",
+   "aktualisiert": "2026-11-13T14:51"
   },
   {
    "id": "martret-1211",
