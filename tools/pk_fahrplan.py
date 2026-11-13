@@ -142,7 +142,7 @@ def bauen(repo, jetzt, neu=False):
         if q["url"] not in seen:
             seen.add(q["url"])
             qn.append(q)
-    m = {"id": mid, "zeit": jetzt.strftime("%Y-%m-%dT%H:%M"), "spielerin": "Spieltag", "verein": "", "nr": "", "pos": "Spieltag",
+    m = {"id": mid, "zeit": jetzt.strftime("%Y-%m-%dT%H:%M"), "spielerin": "Pressekonferenzen", "verein": "", "nr": "", "pos": f"{md}. Spieltag", "symbol": "pk",
          "tags": ["UPDATE"], "headline": f"Vor dem {md}. Spieltag: Pressekonferenzen und späte Updates",
          "kurz": f"{md}. Spieltag: wer vorher spricht, wann Updates kommen", "text": text, "kickbase": kick,
          "quellen": qn or [{"name": "DFB-Datencenter", "url": "https://datencenter.dfb.de/"}]}

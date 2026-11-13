@@ -4,10 +4,10 @@
   {
    "id": "pk-md10",
    "zeit": "2026-11-13T11:45",
-   "spielerin": "Spieltag",
+   "spielerin": "Pressekonferenzen",
    "verein": "",
    "nr": "",
-   "pos": "Spieltag",
+   "pos": "10. Spieltag",
    "tags": [
     "UPDATE"
    ],
@@ -30,7 +30,8 @@
      "name": "fussballnationalmannschaft.net",
      "url": "https://www.fussballnationalmannschaft.net/fc-bayern-frauen-pressekonferenz-heute-barcala-wolfsburg-123332949.html"
     }
-   ]
+   ],
+   "symbol": "pk"
   },
   {
    "typ": "punkt",
