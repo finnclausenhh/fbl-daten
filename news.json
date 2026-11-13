@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-13T16:56",
+ "stand": "2026-11-13T18:51",
  "meldungen": [
   {
    "id": "kats-standards-1311",
@@ -413,7 +413,7 @@
    "id": "punkt-md10",
    "md": 10,
    "zeit": "2026-11-12T19:01",
-   "headline": "Spieltag 10 auf den Punkt · Update 14:51",
+   "headline": "Spieltag 10 auf den Punkt · Update 17:28",
    "sicher": [
     {
      "n": "Svea Stoldt",
@@ -501,6 +501,13 @@
    "titel_basis": "Spieltag 10 auf den Punkt",
    "updates": [
     {
+     "zeit": "2026-11-13T17:28",
+     "k": "HSV",
+     "text": "Offizielle Aufstellung: HSV gegen Mainz",
+     "art": "aufstellung",
+     "partie": "12306295"
+    },
+    {
      "zeit": "2026-11-13T14:51",
      "k": "SCF",
      "text": "Stierli startet statt Axtmann",
@@ -514,13 +521,6 @@
     }
    ],
    "wackel": [
-    {
-     "k": "M05",
-     "p": "ABW",
-     "a": "Georgieva",
-     "b": "Hashitani",
-     "anstoss": "2026-11-13T18:30"
-    },
     {
      "k": "FCU",
      "p": "DM",
@@ -544,7 +544,8 @@
     }
    ],
    "lebt_bis": "2026-11-13T18:30",
-   "aktualisiert": "2026-11-13T14:51"
+   "aktualisiert": "2026-11-13T17:28",
+   "fertig": true
   },
   {
    "id": "martret-1211",
