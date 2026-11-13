@@ -522,7 +522,9 @@ def main():
             "titel": haupt["titel"],
             "zeit": haupt["zeit"].strftime("%Y-%m-%dT%H:%M") if haupt["zeit"] else "",
             "quelle": haupt["quelle"], "url": url,
-            "auszug": auszug(url),
+            "auszug": (ausz := auszug(url, 8000 if (haupt.get("vereinsquelle") or re.search(r"vorbericht|nachbericht|spielbericht|vorschau|pressekonferenz|personal", url + " " + haupt["titel"], re.I)) else 1200)),
+            # Namen aus dem ganzen Auszug (Vorberichte nennen das Personal erst unten, nicht im Titel)
+            "spielerinnen_im_text": sorted(set(finde_spielerinnen(ausz, kader)) - set(g["spielerinnen"])),
             "weitere": [{"titel": x["titel"], "quelle": x["quelle"]} for x in arts[1:]],
         }
 
