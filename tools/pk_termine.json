@@ -1,0 +1,7 @@
+{
+ "_hinweis": "Bestätigte PK-Termine je Spieltag für tools/pk_fahrplan.py. Nur eintragen, was ein Verein oder eine Redaktion nennt. Felder: wann, wer, wo, quelle {name, url}.",
+ "10": {
+  "FCB": {"wann": "heute, Freitag 13.11., die Uhrzeit gibt der Verein kurzfristig bekannt", "wer": "Trainer José Barcala", "wo": "FC Bayern TV, Aussagen meist auch auf fcbayern.com",
+          "quelle": {"name": "fussballnationalmannschaft.net", "url": "https://www.fussballnationalmannschaft.net/fc-bayern-frauen-pressekonferenz-heute-barcala-wolfsburg-123332949.html"}}
+ }
+}

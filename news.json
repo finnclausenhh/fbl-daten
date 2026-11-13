@@ -1,6 +1,37 @@
 {
- "stand": "2026-11-13T08:48",
+ "stand": "2026-11-13T11:45",
  "meldungen": [
+  {
+   "id": "pk-md10",
+   "zeit": "2026-11-13T11:45",
+   "spielerin": "Spieltag",
+   "verein": "",
+   "nr": "",
+   "pos": "Spieltag",
+   "tags": [
+    "UPDATE"
+   ],
+   "headline": "Vor dem 10. Spieltag: Pressekonferenzen und späte Updates",
+   "kurz": "10. Spieltag: wer vorher spricht, wann Updates kommen",
+   "text": [
+    "Vor dem 10. Spieltag geben nur wenige Vereine eine Pressekonferenz. Was dort zum Personal gesagt wird, ist oft die letzte Info vor der offiziellen Aufstellung.",
+    "VfL Wolfsburg (gegen FC Bayern, Sa 14.11., 17:55 Uhr): Vor solchen Spielen gibt es üblicherweise eine Pressekonferenz mit Trainer Stephan Lerch, meist am Vortag (Fr 13.11.). Einen Termin hat der Verein noch nicht genannt, danach Zusammenfassung auf vfl-wolfsburg.de.",
+    "FC Bayern (gegen VfL Wolfsburg, Sa 14.11., 17:55 Uhr): Pressekonferenz heute, Freitag 13.11., die Uhrzeit gibt der Verein kurzfristig bekannt, mit Trainer José Barcala, FC Bayern TV, Aussagen meist auch auf fcbayern.com.",
+    "Keine Pressekonferenz vor dem Spiel bekannt: Hamburger SV, Mainz 05, TSG Hoffenheim, SC Freiburg, Werder Bremen, Union Berlin, 1. FC Nürnberg, 1. FC Köln, RB Leipzig, Eintracht Frankfurt, VfB Stuttgart, Bayer Leverkusen. Dort steht das Personal meist im Vorbericht des Vereins am Vortag oder am Spieltag.",
+    "Die offiziellen Aufstellungen kommen etwa eine Stunde vor Anpfiff, wir melden sie automatisch. Bis dahin sind Last-Minute-Änderungen möglich, gerade bei Vereinen, die unter der Woche im Europapokal gespielt haben."
+   ],
+   "kickbase": "Aufstellung erst nach den Pressekonferenzen festzurren (VfL Wolfsburg, FC Bayern). Bei allen anderen ist die offizielle Aufstellung vor Anpfiff die erste sichere Info.",
+   "quellen": [
+    {
+     "name": "VfL Wolfsburg",
+     "url": "https://www.vfl-wolfsburg.de/"
+    },
+    {
+     "name": "fussballnationalmannschaft.net",
+     "url": "https://www.fussballnationalmannschaft.net/fc-bayern-frauen-pressekonferenz-heute-barcala-wolfsburg-123332949.html"
+    }
+   ]
+  },
   {
    "typ": "punkt",
    "id": "punkt-md10",
