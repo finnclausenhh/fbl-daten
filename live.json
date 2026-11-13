@@ -1,1 +1,1 @@
-{"stand": "2026-11-13T18:33:13", "spiele": {"12306295": {"status": "live", "ergebnis": ["0", "0"], "minute": "3", "tore": [], "karten": [], "wechsel": [], "uhr": {"a1": "2026-11-13T17:30:11Z"}}}}
+{"stand": "2026-11-13T18:34:02", "spiele": {"12306295": {"status": "live", "ergebnis": ["1", "0"], "minute": "4", "tore": [{"seite": "heim", "n": "Linberg", "min": "3", "vorlage": "Stoldt"}], "karten": [], "wechsel": [], "uhr": {"a1": "2026-11-13T17:30:11Z"}, "stats": {"tor": [0.0, 0.0], "bes": [81.0, 19.0], "xg": [0.0, 0.0]}}}}
