@@ -551,7 +551,119 @@
    ],
    "quelle_live": true,
    "partie_id": "dfb2431431",
-   "wettbewerb": "Europa Cup"
+   "wettbewerb": "Europa Cup",
+   "spiel_aufstellung": [
+    {
+     "verein": "Eintracht Frankfurt",
+     "k": "SGE",
+     "gegner": "PSV Vrouwen Eindhoven",
+     "wettbewerb": "Europa Cup",
+     "ergebnis": "2:1",
+     "vergleich": "9. Spieltag",
+     "startelf": [
+      {
+       "n": "Winkler",
+       "p": "TW",
+       "f": "neu"
+      },
+      {
+       "n": "Wolter",
+       "p": "ABW",
+       "f": "neu"
+      },
+      {
+       "n": "Doorsoun",
+       "p": "ABW",
+       "f": "neu",
+       "gelb": true,
+       "gelb_min": "90"
+      },
+      {
+       "n": "Ilestedt",
+       "p": "ABW"
+      },
+      {
+       "n": "Lührßen",
+       "p": "ABW",
+       "aus": "62"
+      },
+      {
+       "n": "Memeti",
+       "p": "MF",
+       "aus": "46",
+       "gelb": true,
+       "gelb_min": "39"
+      },
+      {
+       "n": "Bennison",
+       "p": "MF",
+       "aus": "75"
+      },
+      {
+       "n": "Acikgöz",
+       "p": "MF",
+       "f": "neu"
+      },
+      {
+       "n": "Mühlhaus",
+       "p": "MF",
+       "aus": "46"
+      },
+      {
+       "n": "Freigang",
+       "p": "ST",
+       "aus": "63"
+      },
+      {
+       "n": "Blomqvist",
+       "p": "ST",
+       "f": "neu",
+       "tore": 1
+      }
+     ],
+     "eingewechselt": [
+      {
+       "n": "Teulings",
+       "p": "MF",
+       "ein_min": "46"
+      },
+      {
+       "n": "Tolhoek",
+       "p": "ST",
+       "ein_min": "46"
+      },
+      {
+       "n": "Rankin",
+       "p": "ABW",
+       "ein_min": "62"
+      },
+      {
+       "n": "Alguacil",
+       "p": "MF",
+       "ein_min": "63"
+      },
+      {
+       "n": "Lundgaard",
+       "p": "MF",
+       "ein_min": "75"
+      }
+     ],
+     "raus": [],
+     "ohne_einsatz": [],
+     "tore": [
+      {
+       "min": "26",
+       "n": "Rijsbergen",
+       "eigen": true
+      },
+      {
+       "min": "59",
+       "n": "Blomqvist",
+       "eigen": false
+      }
+     ]
+    }
+   ]
   },
   {
    "id": "endstand-ec-wob-1011",
@@ -582,7 +694,124 @@
    ],
    "quelle_live": true,
    "partie_id": "dfb2431432",
-   "wettbewerb": "Europa Cup"
+   "wettbewerb": "Europa Cup",
+   "spiel_aufstellung": [
+    {
+     "verein": "VfL Wolfsburg",
+     "k": "WOB",
+     "gegner": "Feyenoord Rotterdam",
+     "wettbewerb": "Europa Cup",
+     "ergebnis": "3:0",
+     "vergleich": "9. Spieltag",
+     "startelf": [
+      {
+       "n": "Tufekovic",
+       "p": "TW",
+       "f": "neu"
+      },
+      {
+       "n": "Wedemeyer",
+       "p": "ABW",
+       "f": "neu"
+      },
+      {
+       "n": "Kleinherne",
+       "p": "ABW",
+       "f": "neu"
+      },
+      {
+       "n": "Küver",
+       "p": "ABW",
+       "aus": "46"
+      },
+      {
+       "n": "Linder",
+       "p": "ABW",
+       "aus": "61"
+      },
+      {
+       "n": "Piljic",
+       "p": "MF",
+       "f": "neu",
+       "tore": 1
+      },
+      {
+       "n": "Minge",
+       "p": "MF",
+       "aus": "73"
+      },
+      {
+       "n": "Alber",
+       "p": "MF",
+       "f": "neu"
+      },
+      {
+       "n": "Vallotto",
+       "p": "MF",
+       "aus": "61"
+      },
+      {
+       "n": "Fløe",
+       "p": "ST",
+       "f": "neu",
+       "aus": "61"
+      },
+      {
+       "n": "Bussy",
+       "p": "ST",
+       "f": "neu",
+       "tore": 1
+      }
+     ],
+     "eingewechselt": [
+      {
+       "n": "Carleer",
+       "p": "ABW",
+       "ein_min": "46"
+      },
+      {
+       "n": "Kerim-Lindland",
+       "p": "ST",
+       "ein_min": "61",
+       "tore": 1
+      },
+      {
+       "n": "Lattwein",
+       "p": "MF",
+       "ein_min": "61"
+      },
+      {
+       "n": "Bjelde",
+       "p": "ABW",
+       "ein_min": "61"
+      },
+      {
+       "n": "Prašnikar",
+       "p": "ST",
+       "ein_min": "73"
+      }
+     ],
+     "raus": [],
+     "ohne_einsatz": [],
+     "tore": [
+      {
+       "min": "72",
+       "n": "Piljic",
+       "eigen": false
+      },
+      {
+       "min": "83",
+       "n": "Kerim-Lindland",
+       "eigen": false
+      },
+      {
+       "min": "87",
+       "n": "Bussy",
+       "eigen": false
+      }
+     ]
+    }
+   ]
   },
   {
    "id": "aufstellung-ec-wob-1011",
