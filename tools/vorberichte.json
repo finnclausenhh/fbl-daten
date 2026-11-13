@@ -1,0 +1,154 @@
+{
+ "_hinweis": "Vorberichte der Vereine je Spieltag (tools/vorberichte.py findet sie, tools/pk_fahrplan.py zeigt sie). zeit = Erscheinen (Ortszeit), null = Datum unbekannt. verlauf = wie viele Tage vor Anstoß und um wie viel Uhr der Verein seinen Vorbericht bringt; daraus entsteht die Gewohnheit.",
+ "spieltage": {
+  "10": {
+   "SCF": {
+    "zeit": "2026-11-12T00:00",
+    "titel": "„Kaltschnäuziger und klarer“ auftreten",
+    "url": "https://www.scfreiburg.com/aktuell/nachrichten/frauen-maedchen/2026/27/vorberichte/in-hoffenheim-kaltschnaeuziger-und-klarer-auftreten/"
+   },
+   "TSG": {
+    "zeit": "2026-11-12T17:14",
+    "titel": "Virsinger vor #TSGSCF: Müssen Großchancen verwandeln",
+    "url": "https://www.tsg-hoffenheim.de/aktuelles/news/2026/11/virsinger-vor-tsgscf-muessen-grosschancen-verwandeln"
+   },
+   "M05": {
+    "zeit": "2026-11-12T13:00",
+    "titel": "05-Frauen vor Hamburg: „Müssen mithalten und dürfen uns nicht verstecken“",
+    "url": "https://www.mainz05.de/news/vorbericht-hamburg-frauen-2627"
+   },
+   "HSV": {
+    "zeit": null,
+    "titel": "Flutlicht-Freitag: HSV-Frauen empfangen Mainz 05 im Volkspark",
+    "url": "https://www.hsv.de/news/flutlicht-freitag-hsv-frauen-empfangen-mainz-05-im-volkspark"
+   },
+   "FCU": {
+    "zeit": "2026-11-13T09:00",
+    "titel": "Unionerinnen mit Rückenwind an die Weser",
+    "url": "https://www.fc-union-berlin.de/de/meldungen/unionerinnen-mit-rueckenwind-an-die-weser-CvS4Jm"
+   },
+   "FCB": {
+    "zeit": "2026-11-13T09:45",
+    "titel": "Faktenlage: VfL Wolfsburg – FC Bayern Frauen",
+    "url": "https://fcbayern.com/frauen/de/news/2026/11/faktenlage-vfl-wolfsburg---fc-bayern-frauen"
+   },
+   "KOE": {
+    "zeit": "2026-11-13T12:00",
+    "titel": "FC-Frauen: Spannendes Duell in Nürnberg",
+    "url": "https://fc.de/aktuelles/news/fc-frauen-spannendes-duell-in-nuernberg"
+   },
+   "VFB": {
+    "zeit": "2026-11-13T13:22",
+    "titel": "Matchfacts: VfB-Frauen – Bayer 04 Leverkusen",
+    "url": "https://www.vfb.de/de/vfb/aktuell/neues/vfb-frauen/26-27/matchfacts--vfb-frauen-----bayer-04-leverkusen/"
+   },
+   "SGE": {
+    "zeit": "2026-11-13T16:00",
+    "titel": "Punktejagd in Leipzig",
+    "url": "https://frauen.eintracht.de/news/punktejagd-in-leipzig-180392"
+   }
+  }
+ },
+ "verlauf": {
+  "FCB": [
+   {
+    "md": 9,
+    "tage_vorher": 1,
+    "uhr": "17:15"
+   },
+   {
+    "md": 10,
+    "tage_vorher": 1,
+    "uhr": "09:45"
+   }
+  ],
+  "SVW": [
+   {
+    "md": 9,
+    "tage_vorher": 1,
+    "uhr": "16:05"
+   }
+  ],
+  "RBL": [
+   {
+    "md": 9,
+    "tage_vorher": 3,
+    "uhr": "15:23"
+   }
+  ],
+  "FCN": [
+   {
+    "md": 9,
+    "tage_vorher": 1,
+    "uhr": null
+   }
+  ],
+  "B04": [
+   {
+    "md": 9,
+    "tage_vorher": 1,
+    "uhr": null
+   }
+  ],
+  "M05": [
+   {
+    "md": 9,
+    "tage_vorher": 2,
+    "uhr": null
+   },
+   {
+    "md": 10,
+    "tage_vorher": 1,
+    "uhr": "13:00"
+   }
+  ],
+  "VFB": [
+   {
+    "md": 9,
+    "tage_vorher": 2,
+    "uhr": "14:31"
+   },
+   {
+    "md": 10,
+    "tage_vorher": 3,
+    "uhr": "13:22"
+   }
+  ],
+  "SCF": [
+   {
+    "md": 10,
+    "tage_vorher": 2,
+    "uhr": null
+   }
+  ],
+  "TSG": [
+   {
+    "md": 10,
+    "tage_vorher": 2,
+    "uhr": "17:14"
+   }
+  ],
+  "FCU": [
+   {
+    "md": 10,
+    "tage_vorher": 1,
+    "uhr": "09:00"
+   }
+  ],
+  "KOE": [
+   {
+    "md": 10,
+    "tage_vorher": 2,
+    "uhr": "12:00"
+   }
+  ],
+  "SGE": [
+   {
+    "md": 10,
+    "tage_vorher": 2,
+    "uhr": "16:00"
+   }
+  ]
+ },
+ "stand": "2026-11-13T14:49"
+}

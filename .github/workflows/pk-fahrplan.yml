@@ -2,10 +2,12 @@ name: PK-Fahrplan
 
 # Freitags vor dem Spieltag (Finn 13.11.2026): News "Vor dem x. Spieltag: Pressekonferenzen und späte Updates" (tools/pk_fahrplan.py).
 # Bestätigte Termine stehen in tools/pk_termine.json, sonst nur die Gewohnheit der Vereine. Kein Claude-Lauf, keine Kosten.
+# Seit 13.11.2026 auch die Vorberichte: tools/vorberichte.py sucht sie auf den Vereinsseiten, die News wird Freitag bis
+# Montag alle 3 Stunden aufgefrischt (Zeit bleibt, nicht angeheftet), der Verlauf in tools/vorberichte.json lernt die Gewohnheit.
 on:
   schedule:
-    - cron: "5 7 * * 5"     # Freitag 08:05 (MEZ)
-    - cron: "5 7 * * 6"     # Samstag als Rückfall, falls der Spieltag erst Samstag beginnt
+    - cron: "5 7 * * 5"          # Freitag 08:05 (MEZ): News anlegen
+    - cron: "35 5-20/3 * * 5,6,0,1"  # Fr bis Mo alle 3 Stunden: neue Vorberichte nachtragen
   workflow_dispatch:
 
 permissions:
@@ -18,17 +20,20 @@ concurrency:
 jobs:
   fahrplan:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: News bauen
-        run: python3 tools/pk_fahrplan.py --repo .
+      - name: Vorberichte suchen
+        continue-on-error: true
+        run: python3 tools/vorberichte.py --repo .
+      - name: News bauen oder auffrischen
+        run: python3 tools/pk_fahrplan.py --repo . --auffrischen
       - name: Speichern
         run: |
-          git add news.json
+          git add news.json tools/vorberichte.json
           if git diff --cached --quiet; then echo "keine Änderung"; exit 0; fi
           git -c user.name="WOSOINSIDER" -c user.email="finnclausenhh@users.noreply.github.com" commit -qm "PK-Fahrplan vor dem Spieltag"
           for i in 1 2 3; do git pull -q --rebase origin main && git push -q origin HEAD:main && exit 0; sleep 10; done

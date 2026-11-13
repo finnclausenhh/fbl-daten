@@ -1,0 +1,234 @@
+[
+ {
+  "verein": "FC Bayern München",
+  "typ": "googlenews",
+  "url": "https://news.google.com/rss/search?q=site:fcbayern.com+Frauen+when:14d&hl=de&gl=DE&ceid=DE:de",
+  "filter": "Frauen|FCB-Frauen|Spielerin",
+  "link_regex": "",
+  "datum": "RSS <pubDate>",
+  "getestet": "22.10.2026: 9 Treffer (21 Tage, nach Filter), z. B. 'FC Bayern Frauen und adidas präsentieren exklusive MCM-Sonderedition', 'FCB-Frauen II holen Punkt gegen Kassel'",
+  "hinweis": "fcbayern.com blockt alles (403 auf Startseite, robots.txt, Sitemap, /frauen/de/news). Links sind news.google.com-Weiterleitungen; Titel enden auf ' - FC Bayern'. Ergebnisse enthalten auch FCB-Frauen II/Juniorinnen."
+ },
+ {
+  "verein": "VfL Wolfsburg",
+  "typ": "html",
+  "url": "https://www.vfl-wolfsburg.de/aktuelles/frauen",
+  "filter": "",
+  "link_regex": "news-cards-item-info-category\">\\s*Frauen\\s*</span><time>(?=[^<]*</time>(?:(?!news-cards-item-info-category).)*?href=\"(/newsdetails/news-detail/detail/news/[^\"]+)\"><h2 class=\"news-cards-item-headline\">([^<]+)</h2>)([0-9.]+)",
+  "datum": "Gruppe 3 der link_regex: <time>TT.MM.JJJJ</time> der News-Karte",
+  "getestet": "22.10.2026: 5 Frauen-News, z. B. 'Remis gegen den HSV', 'Wölfinnen werden Favoritenrolle gerecht', 'Mit Rückenwind an den Rhein'",
+  "hinweis": "TYPO3, kein RSS. Liste zeigt nur ca. 6 Karten (davon ab und zu 'Inside'), Regex nimmt nur Kategorie 'Frauen'. Ergänzend: https://www.vfl-wolfsburg.de/sitemap.xml hat <lastmod> für alle News, aber Frauen-Slugs sind nicht eindeutig erkennbar. Relative Links auf https://www.vfl-wolfsburg.de auflösen."
+ },
+ {
+  "verein": "Eintracht Frankfurt",
+  "typ": "rss",
+  "url": "https://frauen.eintracht.de/rss/feed.xml",
+  "filter": "",
+  "link_regex": "",
+  "datum": "RSS <pubDate>",
+  "getestet": "22.10.2026: 20 Items, z. B. 'Auswärts in Stuttgart', 'Zu Gast beim Aufsteiger', 'Traumkombination bringt Punkt'",
+  "hinweis": "Eigene Subdomain für das Frauenteam. www.eintracht.de/rss/feed.xml ist leer. Feed enthält auch U20/Juniorinnen; wer nur das Bundesliga-Team will, Titel mit '^U\\d' oder 'Juniorinnen' verwerfen."
+ },
+ {
+  "verein": "Bayer 04 Leverkusen",
+  "typ": "html",
+  "url": "https://www.bayer04.de/de-de/team/frauen/frauen",
+  "filter": "",
+  "link_regex": "href=\"(/de-de/news/frauen/[^\"]+)\"(?=(?:(?!</h3>).)*?<h3[^>]*>([^<]+)</h3>)(?:(?!</h3>).)*?class=\"text-uppercase\">\\s*Frauen\\s*</span>\\s*-\\s*(?:<!---->)?\\s*([0-9.]+)",
+  "datum": "Gruppe 3 der link_regex: 'Frauen - TT.MM.JJJJ' über dem Titel",
+  "getestet": "22.10.2026: 10 Frauen-News auf der Seite, 4 in 21 Tagen (Länderspielpause), z. B. 'Remis im Topspiel: Bayer 04-Frauen erkämpfen sich Punkt gegen Frankfurt'",
+  "hinweis": "Angular-SSR, Inhalt steht im HTML. Kein RSS. Sitemap https://www.bayer04.de/sitemap/sitemap.xml (4,5 MB, ohne lastmod) enthält /de-de/news/frauen/... als Ersatz. Video-News (werkself-tv) zu Frauen werden von der Regex bewusst ausgelassen."
+ },
+ {
+  "verein": "1. FC Köln",
+  "typ": "json",
+  "url": "https://fc.de/aktuelles/news",
+  "filter": "",
+  "link_regex": "",
+  "parser": "fcde_turbostream",
+  "datum": "ISO-Zeitstempel im eingebetteten Datensatz (erster String nach dem Kategorie-Array)",
+  "getestet": "22.10.2026: 20 Frauen-News in 21 Tagen (32 insgesamt eingebettet), z. B. 'FC-Frauen: Topspiel in Wolfsburg', 'Carlson: „Die Zielstrebigkeit hat mich gefreut“'",
+  "hinweis": "React-Router/Remix: die Seite bettet alle News als turbo-stream ein (window.__reactRouterContext.streamController.enqueue(\"...\")). Erster enqueue-String ist JSON-Array; Muster: Titel, '/aktuelles/news/...', [Kategorie-Index], ..., ISO-Datum. Kategorie 'Frauen' per String-Index ermitteln. Enthält auch U20-Frauen. Robust gegen HTML-Änderungen nur bedingt; Fallback: Google News site:fc.de FC-Frauen."
+ },
+ {
+  "verein": "RB Leipzig",
+  "typ": "sitemap",
+  "url": "https://rbleipzig.com/de/sitemap",
+  "filter": "/de/news/.*(frauen|rbl-frauen)",
+  "link_regex": "",
+  "datum": "Sitemap <lastmod> (Änderungsdatum, nicht zwingend Erstveröffentlichung)",
+  "getestet": "22.10.2026: 68 URLs mit lastmod in den letzten 21 Tagen (aufgebläht durch Massen-Update 04.10.), echte neue z. B. 'vorschau-rb-leipzig-frauen-bundesliga-gegen-bayern-muenchen', 'liveticker-spielbericht-rb-leipzig-frauen-sc-freiburg'",
+  "hinweis": "Sitemap (2,4 MB) liefert keinen Titel, Titel wird aus dem Slug gebaut; echten Titel bei Bedarf aus og:title der Artikelseite holen. Nach lastmod sortieren, alte Artikel bekommen gelegentlich neues lastmod (Massen-Update am 04.10.2026). Frauen-Seiten ohne News-Liste im HTML (Next.js-Client-Rendering)."
+ },
+ {
+  "verein": "SV Werder Bremen",
+  "typ": "googlenews",
+  "url": "https://news.google.com/rss/search?q=site:werder.de+Frauen+when:14d&hl=de&gl=DE&ceid=DE:de",
+  "filter": "Frauen|WERDERFRAUEN|Spielerin",
+  "link_regex": "",
+  "datum": "RSS <pubDate>",
+  "getestet": "22.10.2026: 7 Treffer (21 Tage), z. B. 'Nachholtermin steht: WERDERFRAUEN empfangen Hoffenheim am 29. Oktober', 'Bundesliga-Spiel der WERDERFRAUEN gegen Hoffenheim abgesagt.'",
+  "hinweis": "werder.de liefert 429 mit 'Vercel Security Checkpoint' (JS-Challenge) auf jede Anfrage, auch robots.txt. Treffer enthalten auch 'Zweite Frauen'."
+ },
+ {
+  "verein": "SC Freiburg",
+  "typ": "html",
+  "url": "https://www.scfreiburg.com/aktuell/nachrichten/frauen-maedchen/",
+  "filter": "",
+  "link_regex": "c-news-strip__date \\]\">(?=\\s*[0-9.]+\\s*</div>\\s*</div>\\s*<a href=\"(/aktuell/nachrichten/frauen-maedchen/[^\"]+)\">\\s*<h3[^>]*>([^<]+)</h3>)\\s*([0-9.]+)",
+  "datum": "Gruppe 3 der link_regex: c-news-strip__date TT.MM.JJJJ",
+  "getestet": "22.10.2026: 9 News, z. B. 'U17 vorzeitig im WM-Achtelfinale', '\"Es ist cool, Vertrauen zu schenken\"', 'Heimniederlage nach langer Unterzahl'",
+  "hinweis": "Der Vereins-RSS https://www.scfreiburg.com/api/feed/news/rss_feed funktioniert, hat aber nur 20 Items über alle Teams (meist 0-1 Frauen-News), daher Listenseite. Liste enthält auch Mädchen/U17/U15."
+ },
+ {
+  "verein": "1. FC Union Berlin",
+  "typ": "json",
+  "url": "https://www.fc-union-berlin.de/api/v1/de/news/search?categoryIds=f3473899-108c-4761-9cac-e79e426444ac",
+  "filter": "",
+  "link_regex": "",
+  "parser": "union_api",
+  "datum": "JSON data.news[].sortDate (ISO, UTC)",
+  "getestet": "22.10.2026: 11 in 21 Tagen (20 pro Abruf, 1440 gesamt), z. B. 'Catalina Pérez unterstützt im Union-Training', 'Union feiert 2:1 Heimsieg gegen Nürnberg'",
+  "hinweis": "Interne API der Remix-Seite (Route routes/api/v1/$lang.news.search). Kategorie-ID 'Profis Frauen' = f3473899-108c-4761-9cac-e79e426444ac. Felder: headline, subHeadline, teaserText, detailLink (relativ, auf https://www.fc-union-berlin.de auflösen), tags."
+ },
+ {
+  "verein": "VfB Stuttgart",
+  "typ": "googlenews",
+  "url": "https://news.google.com/rss/search?q=site:vfb.de+intitle:Frauen+when:21d&hl=de&gl=DE&ceid=DE:de",
+  "filter": "",
+  "link_regex": "",
+  "datum": "RSS <pubDate>",
+  "getestet": "22.10.2026: 9 Treffer (21 Tage), z. B. 'Nichts zu holen beim Spitzenreiter', 'Faninfo: FC Bayern München – VfB-Frauen'",
+  "hinweis": "vfb.de ist erreichbar, aber: RSS https://www.vfb.de/templates/generated/1/raw/de.xml (25 Items, alle Teams) hatte nur 1 Frauen-Item (URL enthält /vfb/frauen/), Sitemap ist seit 2021 nicht aktualisiert, Frauen-Seite listet nur Spielberichte ohne Titel. Ergänzend den RSS mit Filter '/vfb/frauen/|Frauen' mitlaufen lassen (liefert direkte vfb.de-Links)."
+ },
+ {
+  "verein": "TSG Hoffenheim",
+  "typ": "googlenews",
+  "url": "https://news.google.com/rss/search?q=site:tsg-hoffenheim.de+(intitle:Frauen+OR+%22TSG-Frauen%22+OR+Virsinger+OR+intitle:%23TSG)+when:21d&hl=de&gl=DE&ceid=DE:de",
+  "filter": "",
+  "link_regex": "",
+  "datum": "RSS <pubDate>",
+  "getestet": "22.10.2026: 10 Treffer (21 Tage), z. B. 'Sportliche Leitung der TSG-Frauen im Interview', '#SVWTSG: Neue Offensive, altbekannte Co-Trainerin'",
+  "hinweis": "Startseite liefert 200, aber RSS (/aktuelles/news/rss), Sitemap, robots.txt und News-Listen liefern 403 (Bot-Schutz). Query mit intitle:Frauen OR \"TSG-Frauen\" ist deutlich sauberer als nur 'Frauen' (das liefert fast nur Männer-News). Vereinzelt alte Seiten (2024) und U20 dabei, über Datum/Kaderabgleich aussortieren. 13.11.2026: Vorberichte heißen 'Virsinger vor #TSGXXX' ohne 'Frauen' im Titel und fehlten, deshalb Virsinger und #TSG in die Suche."
+ },
+ {
+  "verein": "Hamburger SV",
+  "typ": "sitemap",
+  "url": "https://www.hsv.de/sitemap.xml",
+  "filter": "hsv\\.de/news/.*frauen",
+  "link_regex": "",
+  "datum": "keins in der Sitemap (kein lastmod); Reihenfolge = neueste zuerst. Datum bei Bedarf aus article:published_time der Artikelseite",
+  "getestet": "22.10.2026: über 100 Frauen-URLs, neueste z. B. 'hsv-frauen-zu-gast-im-hamburger-rathaus', 'spielbericht-hsv-frauen-gegen-den-1-fc-koeln', 'hsv-frauen-gehen-in-koeln-auf-punktejagd'",
+  "hinweis": "Sitemap 2 MB, News stehen oben in Veröffentlichungsreihenfolge. Titel nur aus Slug (og:title der Artikelseite für den echten Titel). Kein RSS; /news bettet nur 6 News (Next.js) ein. Frauen-News ohne 'frauen' im Slug (z. B. '„Das Ergebnis spricht eine klare Sprache“') werden verpasst, Google News site:hsv.de Frauen als Ergänzung."
+ },
+ {
+  "verein": "1. FC Nürnberg",
+  "typ": "html",
+  "url": "https://www.fcn.de/clubfrauen/news/",
+  "filter": "",
+  "link_regex": "<div class=\"news-item\">(?=\\s*(?:<h4>[^<]*</h4>\\s*)?<div[^>]*>\\s*<a href=\"(news/artikel/[^\"]+)\" title=\"([^\"]+)\" class=\"teaser\")\\s*(?:<h4>([^<]+)</h4>)?",
+  "datum": "Gruppe 3 der link_regex (optional): '<h4>Wochentag, TT. Monat JJJJ</h4>' steht nur beim ersten Artikel eines Tages",
+  "getestet": "22.10.2026: 16 in 21 Tagen (30 auf Seite 1), z. B. 'Keine Punkte in Berlin', 'Zurück im Ligaalltag: ClubFrauen gastieren bei Union Berlin'",
+  "hinweis": "TYPO3 mit <base href=\"https://www.fcn.de/\">, Links relativ dazu auflösen. Vereins-RSS https://www.fcn.de/rss.xml (15 Items, alle Teams) hat kaum Frauen-News. Liste enthält auch Juniorinnen-Sammelberichte. Fehlendes Datum = Datum des vorherigen Artikels."
+ },
+ {
+  "verein": "1. FSV Mainz 05",
+  "typ": "html",
+  "url": "https://www.mainz05.de/news?MainCategory=Fu%C3%9Fball%20Frauen",
+  "filter": "",
+  "link_regex": "<a class=\"teaser teaser--news\" href=\"(/news/[^\"]+)\">(?=(?:(?!</a>).)*?teaser__title\">([^<]+)<)(?:(?!</a>).)*?teaser__date\">([^<]+)<",
+  "datum": "Gruppe 3 der link_regex: teaser__date TT.MM.JJJJ",
+  "getestet": "22.10.2026: 9 in 21 Tagen (15 auf der Seite), z. B. 'Mainzer Frauen gehen gegen Wolfsburg leer aus', 'VVK für Spiele in Hamburg und gegen Nürnberg gestartet'",
+  "hinweis": "Kategorie-Parameter ist 'Fußball Frauen' (news-page?MainCategory=Frauen leitet auf ungefilterte Liste). Titel sind HTML-escaped (&#xFC;), html.unescape anwenden. Kein RSS, Sitemap ohne News-Struktur."
+ },
+ {
+  "verein": "Geissblog.koeln (1. FC Köln Frauen)",
+  "typ": "googlenews",
+  "url": "https://news.google.com/rss/search?q=site:geissblog.koeln+%22FC-Frauen%22+when:30d&hl=de&gl=DE&ceid=DE:de",
+  "filter": "",
+  "link_regex": "",
+  "datum": "RSS <pubDate>",
+  "getestet": "22.10.2026: 5 Treffer (21 Tage), davon ca. 3 echte Frauen-Artikel, z. B. 'Dreierpack zum Jubiläum: FC-Frauen schlagen den HSV und greifen oben an'",
+  "hinweis": "geissblog.koeln hat Cloudflare: Startseite, Sitemaps und Such-Feed (?s=frauen&feed=rss2) liefern 403 'Just a moment...'. Haupt-Feed https://geissblog.koeln/feed/ kam durch (200, 10 Items), ist aber fast nur Männer. Google-Query '\"FC-Frauen\"' liefert Frauen-Artikel gemischt mit Männer-Artikeln, die 'FC-Frauen' nur im Seiten-Footer/Teaser erwähnen: Kaderabgleich (Spielerinnennamen) als Filter verwenden. Der Blog schreibt nur 1-2 Frauen-Artikel pro Woche."
+ },
+ {
+  "verein": "DFB (Frauen-Bundesliga)",
+  "typ": "html",
+  "url": "https://www.dfb.de/frauen/ligen-frauen",
+  "filter": "",
+  "link_regex": "<a class=\"dfb-Card m-CardNews-card\" href=\"(/news/[^\"]+)\"(?:(?!</a>).)*?news-main-category\">[^<]*Frauen-Bundesliga</div><h4[^>]*>([^<]+)</h4>",
+  "datum": "keins in der Liste; Datum per Abgleich mit https://www.dfb.de/sitemap-news-de.xml (<news:publication_date>, 5 MB)",
+  "getestet": "22.10.2026: 61 News (53 Google Pixel Frauen-Bundesliga, 8 2. Frauen-Bundesliga), z. B. 'Nach Spielabsage: Bremen gegen Hoffenheim neu terminiert', 'Fakten-Flash #7: Bremers Bestwert im 100. Bundesligaspiel'",
+  "hinweis": "Gatsby, Karten im HTML. Regex nimmt Kategorie '// Google Pixel Frauen-Bundesliga' und '// 2. Frauen-Bundesliga'; für nur 1. Liga 'Google Pixel Frauen-Bundesliga' in die Regex schreiben. Sperren separat unter /ueber-uns/verbandsrecht/sperren (bereits in fbl_fetch.py)."
+ },
+ {
+  "verein": "International (EN) 1",
+  "typ": "googlenews",
+  "url": "https://news.google.com/rss/search?q=%22Pernille+Harder%22+OR+%22Magdalena+Eriksson%22+OR+%22Vanessa+Gilles%22+OR+%22Gl%C3%B3d%C3%ADs+Perla+Vigg%C3%B3sd%C3%B3ttir%22+OR+%22Momoko+Tanikawa%22+OR+%22Hayley+Raso%22+OR+%22Amanda+Ilestedt%22+OR+%22Jamilla+Rankin%22+OR+%22Lara+Pra%C5%A1nikar%22+OR+%22Thea+Bjelde%22+when%3A3d&hl=en-US&gl=US&ceid=US%3Aen",
+  "filter": "",
+  "link_regex": "",
+  "datum": "RSS <pubDate>",
+  "getestet": "27.10.2026: Abruf ok, in ruhigen Wochen 0 bis 10 Treffer",
+  "hinweis": "Englischsprachige Medien zu ausländischen Top-Spielerinnen (Nationalteams, Verletzungen in Länderspielpausen, Wechsel). Treffer zählen nur, wenn ein Kadername im Titel steht. Quellen mit Namen 'International' oder 'Medien' gelten in fbl_fetch.py nicht als Vereinsquelle: ohne Kadernamen im Titel wird nichts übernommen. Fremdsprachige Auszüge werden in der Meldung auf Deutsch zusammengefasst."
+ },
+ {
+  "verein": "International (EN) 2",
+  "typ": "googlenews",
+  "url": "https://news.google.com/rss/search?q=%22Sofie+Lundgaard%22+OR+%22Rebecka+Blomqvist%22+OR+%22Hanna+Bennison%22+OR+%22Smilla+Vallotto%22+OR+%22Elvira+Herzog%22+OR+%22Lou-Ann+Joly%22+OR+%22Kessya+Bussy%22+OR+%22Ella+Peddemors%22+OR+%22Nikee+van+Dijk%22+OR+%22Lisa+Doorn%22+when%3A3d&hl=en-US&gl=US&ceid=US%3Aen",
+  "filter": "",
+  "link_regex": "",
+  "datum": "RSS <pubDate>",
+  "getestet": "27.10.2026: Abruf ok, in ruhigen Wochen 0 bis 10 Treffer",
+  "hinweis": "Wie International (EN) 1. Quellen mit Namen 'International' oder 'Medien' gelten in fbl_fetch.py nicht als Vereinsquelle: ohne Kadernamen im Titel wird nichts übernommen. Fremdsprachige Auszüge werden in der Meldung auf Deutsch zusammengefasst."
+ },
+ {
+  "verein": "International (SV)",
+  "typ": "googlenews",
+  "url": "https://news.google.com/rss/search?q=%22Magdalena+Eriksson%22+OR+%22Amanda+Ilestedt%22+OR+%22Rebecka+Blomqvist%22+OR+%22Hanna+Bennison%22+OR+%22Therese+Simonsson%22+when%3A3d&hl=sv&gl=SE&ceid=SE%3Asv",
+  "filter": "",
+  "link_regex": "",
+  "datum": "RSS <pubDate>",
+  "getestet": "27.10.2026: Abruf ok, in ruhigen Wochen 0 bis 10 Treffer",
+  "hinweis": "Schwedische Medien zu den Schwedinnen bei Bayern, Frankfurt und Leipzig. Quellen mit Namen 'International' oder 'Medien' gelten in fbl_fetch.py nicht als Vereinsquelle: ohne Kadernamen im Titel wird nichts übernommen. Fremdsprachige Auszüge werden in der Meldung auf Deutsch zusammengefasst."
+ },
+ {
+  "verein": "International (DA)",
+  "typ": "googlenews",
+  "url": "https://news.google.com/rss/search?q=%22Pernille+Harder%22+OR+%22Sofie+Lundgaard%22+OR+%22Cecilie+Fl%C3%B8e%22+OR+%22Stine+Ballisager%22+OR+%22Nikoline+Dudek%22+when%3A3d&hl=da&gl=DK&ceid=DK%3Ada",
+  "filter": "",
+  "link_regex": "",
+  "datum": "RSS <pubDate>",
+  "getestet": "27.10.2026: Abruf ok, in ruhigen Wochen 0 bis 10 Treffer",
+  "hinweis": "Dänische Medien zu den Däninnen bei Bayern, Frankfurt, Wolfsburg und Leipzig. Quellen mit Namen 'International' oder 'Medien' gelten in fbl_fetch.py nicht als Vereinsquelle: ohne Kadernamen im Titel wird nichts übernommen. Fremdsprachige Auszüge werden in der Meldung auf Deutsch zusammengefasst."
+ },
+ {
+  "verein": "International (NL)",
+  "typ": "googlenews",
+  "url": "https://news.google.com/rss/search?q=%22Ella+Peddemors%22+OR+%22Nikee+van+Dijk%22+OR+%22Lisa+Doorn%22+OR+%22Alieke+Tuin%22+OR+%22Lobke+Loonen%22+OR+%22Lieske+Carleer%22+OR+%22Jill+Janssens%22+OR+%22Jasmien+Mathys%22+OR+%22Luna+Vanzeir%22+OR+%22Elena+Dhont%22+when%3A3d&hl=nl&gl=NL&ceid=NL%3Anl",
+  "filter": "",
+  "link_regex": "",
+  "datum": "RSS <pubDate>",
+  "getestet": "27.10.2026: Abruf ok, in ruhigen Wochen 0 bis 10 Treffer",
+  "hinweis": "Niederländische und belgische Medien (z. B. Vrouwenvoetbalnieuws). Quellen mit Namen 'International' oder 'Medien' gelten in fbl_fetch.py nicht als Vereinsquelle: ohne Kadernamen im Titel wird nichts übernommen. Fremdsprachige Auszüge werden in der Meldung auf Deutsch zusammengefasst."
+ },
+ {
+  "verein": "International (FR)",
+  "typ": "googlenews",
+  "url": "https://news.google.com/rss/search?q=%22Kessya+Bussy%22+OR+%22Lou-Ann+Joly%22+OR+%22Fany+Proniez%22+OR+%22Ma%C3%ABlle+Seguin%22+OR+%22Louna+Lapassouse%22+OR+%22Charline+Coutel%22+when%3A3d&hl=fr&gl=FR&ceid=FR%3Afr",
+  "filter": "",
+  "link_regex": "",
+  "datum": "RSS <pubDate>",
+  "getestet": "27.10.2026: Abruf ok, in ruhigen Wochen 0 bis 10 Treffer",
+  "hinweis": "Französische Medien (z. B. Footeuses) zu den Französinnen bei Wolfsburg, Leipzig und Nürnberg. Quellen mit Namen 'International' oder 'Medien' gelten in fbl_fetch.py nicht als Vereinsquelle: ohne Kadernamen im Titel wird nichts übernommen. Fremdsprachige Auszüge werden in der Meldung auf Deutsch zusammengefasst."
+ },
+ {
+  "verein": "International (JA)",
+  "typ": "googlenews",
+  "url": "https://news.google.com/rss/search?q=%22%E8%B0%B7%E5%B7%9D%E8%90%8C%E3%80%85%E5%AD%90%22+OR+%22%E5%B3%B6%E7%94%B0%E8%8A%BD%E4%BE%9D%22+OR+%22%E6%9D%BE%E6%9C%AC%E7%9C%9F%E6%9C%AA%E5%AD%90%22+OR+%22%E6%A9%8B%E8%B0%B7%E5%84%AA%E9%87%8C%22+OR+%22%E4%BB%8A%E4%BA%95%E8%A3%95%E9%87%8C%E5%A5%88%22+OR+%22%E6%A0%97%E5%B3%B6%E6%9C%B1%E9%87%8C%22+OR+%22%E6%BB%9D%E6%BE%A4%E8%8E%89%E5%A4%AE%22+OR+%22%E5%B9%B3%E9%87%8E%E5%84%AA%E8%8A%B1%22+OR+%22%E5%A4%A7%E6%BE%A4%E6%98%A5%E8%8A%B1%22+when%3A3d&hl=ja&gl=JP&ceid=JP%3Aja",
+  "filter": "",
+  "link_regex": "",
+  "datum": "RSS <pubDate>",
+  "getestet": "27.10.2026: Tanikawa über 100 Treffer pro Jahr, Matsumoto-Verletzung (Innenband) war dort zuerst",
+  "hinweis": "Japanische Medien zu den neun Japanerinnen (Bayern, Mainz, VfB, Werder). Abgleich über die Spalte kanji in engine/kader.csv (Schreibweisen mit | getrennt). Viel Boulevard (roter Teppich, Outfits), das verwirft der Lauf. Keine Vereinsquelle: ohne Kadernamen im Titel wird nichts übernommen. Auszug japanisch, Meldung auf Deutsch."
+ }
+]
