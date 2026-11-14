@@ -1,5 +1,5 @@
 {
-"spiele": 64,
+"spiele": 65,
 "teams": {
 "FCB": [
 {
@@ -963,6 +963,38 @@
 },
 {
 "k": "TSG",
+"n": "Lisa Doorn",
+"kopf": 1,
+"std_kopf": 1,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0,
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
+},
+{
+"k": "TSG",
+"n": "Jonna van de Velde",
+"kopf": 1,
+"std_kopf": 1,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0,
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
+},
+{
+"k": "TSG",
 "n": "Marie Steiner",
 "kopf": 1,
 "std_kopf": 0,
@@ -975,7 +1007,7 @@
 "fs_l": 1,
 "fs_r": 1,
 "fs_direkt": 0,
-"fs_flanke": 2
+"fs_flanke": 4
 },
 {
 "k": "TSG",
@@ -1994,6 +2026,10 @@
 {
 "spiel": "12306211",
 "satz": "Zuvor hatte Carleer aufs Tor geköpft."
+},
+{
+"spiel": "12306301",
+"satz": "Den fälligen Freistoß bringt Steiner ans rechte Fünfereck, an dem van de Velde aber nicht genügend Druck hinter ihren Kopfball bekommt."
 }
 ]
 }
