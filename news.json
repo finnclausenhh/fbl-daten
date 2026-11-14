@@ -1,219 +1,69 @@
 {
- "stand": "2026-11-14T11:07",
+ "stand": "2026-11-14T14:00",
  "meldungen": [
   {
-   "id": "fehlt-kaut-tsg-1411",
-   "pid": "00125",
-   "zeit": "2026-11-14T11:07",
-   "spielerin": "Lisann Kaut",
-   "verein": "TSG Hoffenheim",
-   "nr": "",
-   "pos": "ABW",
+   "id": "tomasiak-1411",
+   "pid": "00266",
+   "zeit": "2026-11-14T01:00",
+   "spielerin": "Paulina Tomasiak",
+   "verein": "Bayer Leverkusen",
+   "nr": "28",
+   "pos": "ST",
    "tags": [
-    "AUFSTELLUNG"
+    "RÜCKKEHR"
    ],
-   "status": "fraglich",
-   "headline": "Kaut nicht im Kader gegen SC Freiburg",
+   "status": "fit",
+   "headline": "Tomasiak und Fudalla vor Rückkehr in Leverkusens Kader",
+   "kurz": "Tomasiak und Fudalla vor Kader-Rückkehr",
    "text": [
-    "Lisann Kaut steht in der Liga gegen SC Freiburg weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 4-mal.",
-    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
+    "Bayer Leverkusen kann vor dem Auswärtsspiel beim VfB Stuttgart am Montag (18 Uhr) wieder auf zwei Offensivspielerinnen zurückgreifen. Paulina Tomasiak steht nach ihrer muskulären Verletzung vor der Rückkehr in den Kader, Vanessa Fudalla nach einer Krankheit.",
+    "Trainer Roberto Pätzold sagt, das Team könne personell fast wieder aus dem Vollen schöpfen. Coşkun (Muskel-Sehnen-Verletzung), Friedrich (Aufbautraining) und Wrigge (Kreuzbandriss) fallen weiterhin aus."
    ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
+   "kickbase": "Beide sind für den Kader eingeplant, ob sie direkt in der Startelf stehen, ist offen. Die offizielle Aufstellung abwarten.",
    "quellen": [
     {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306301/tsg-hoffenheim_sc-freiburg/aufstellung"
+     "name": "Bayer 04 Leverkusen",
+     "url": "https://www.bayer04.de/de-de/news/frauen/frisch-in-die-woche-gehen-frauen-reisen-nach-stuttgart"
     }
    ],
-   "quelle_live": true
+   "foto": "fotos/b04-paulina-tomasiak.webp",
+   "foto_credit": {
+    "autor": "Bayer 04",
+    "lizenz": "mit Genehmigung: Bayer 04 Leverkusen",
+    "url": "https://www.bayer04.de/de-de/team/frauen/frauen"
+   }
   },
   {
-   "id": "aufstellung-tsg-1411",
-   "zeit": "2026-11-14T11:07",
-   "spielerin": "Spielansetzung",
-   "verein": "TSG Hoffenheim",
-   "nr": "",
-   "pos": "Spielansetzung",
+   "id": "loonen-1411",
+   "pid": "00262",
+   "zeit": "2026-11-14T01:00",
+   "spielerin": "Lobke Loonen",
+   "verein": "Bayer Leverkusen",
+   "nr": "18",
+   "pos": "ST",
    "tags": [
-    "TOP"
+    "VERLETZUNG"
    ],
-   "headline": "Offizielle Aufstellung: TSG Hoffenheim gegen SC Freiburg",
+   "status": "fraglich",
+   "headline": "Loonen verpasst Stuttgart angeschlagen",
+   "kurz": "Loonen fehlt gegen Stuttgart angeschlagen",
    "text": [
-    "Nicht im Spieltagskader, obwohl im letzten Ligaspiel dabei: Kaut. Einen Grund nennt bisher keine Quelle."
+    "Lobke Loonen wird laut Bayer 04 das Spiel beim VfB Stuttgart am Montag zumindest angeschlagen verpassen. Art und Dauer der Beschwerden nennt der Verein nicht.",
+    "Loonen traf zuletzt beim 2:0 gegen den Hamburger SV."
    ],
-   "kickbase": "",
+   "kickbase": "Für Montag nicht fest einplanen. Ob sie danach in Berlin wieder dabei ist, ist offen.",
    "quellen": [
     {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306301/tsg-hoffenheim_sc-freiburg/aufstellung"
+     "name": "Bayer 04 Leverkusen",
+     "url": "https://www.bayer04.de/de-de/news/frauen/frisch-in-die-woche-gehen-frauen-reisen-nach-stuttgart"
     }
    ],
-   "aufstellung": {
-    "gegner": "SC Freiburg",
-    "formation": "4-1-2-3",
-    "startelf": [
-     {
-      "n": "Dick",
-      "p": "TW",
-      "pid": "00119"
-     },
-     {
-      "n": "Gloning",
-      "p": "ABW",
-      "pid": "00131"
-     },
-     {
-      "n": "van de Velde",
-      "p": "ABW",
-      "pid": "00127"
-     },
-     {
-      "n": "Doorn",
-      "p": "ABW",
-      "pid": "00123"
-     },
-     {
-      "n": "Vöhringer",
-      "p": "ABW",
-      "pid": "00139",
-      "f": "neu"
-     },
-     {
-      "n": "Grimm",
-      "p": "DM",
-      "pid": "00132",
-      "kp": "MF"
-     },
-     {
-      "n": "Diehm",
-      "p": "OM",
-      "pid": "00122",
-      "kp": "MF"
-     },
-     {
-      "n": "Steiner",
-      "p": "OM",
-      "pid": "00145",
-      "kp": "MF"
-     },
-     {
-      "n": "Natter",
-      "p": "ST",
-      "pid": "00144"
-     },
-     {
-      "n": "Fölmli",
-      "p": "ST",
-      "pid": "00141"
-     },
-     {
-      "n": "Hahn",
-      "p": "ST",
-      "pid": "00133",
-      "kp": "MF"
-     }
-    ],
-    "bank": [
-     {
-      "n": "Lichtfus",
-      "p": "TW",
-      "pid": "00120"
-     },
-     {
-      "n": "Douma",
-      "p": "ABW",
-      "pid": "00124"
-     },
-     {
-      "n": "Ampoorter",
-      "p": "MF",
-      "pid": "00129"
-     },
-     {
-      "n": "Harsch",
-      "p": "MF",
-      "pid": "00134"
-     },
-     {
-      "n": "Fenger",
-      "p": "ST",
-      "pid": "00140"
-     }
-    ],
-    "fehlt": [
-     {
-      "n": "Bitzer",
-      "p": "ABW",
-      "f": "raus",
-      "war": "Bank"
-     },
-     {
-      "n": "Kaut",
-      "p": "ABW",
-      "f": "raus",
-      "war": "Startelf"
-     },
-     {
-      "n": "Lueger",
-      "p": "ST",
-      "f": "raus",
-      "war": "Bank"
-     },
-     {
-      "n": "Bräutigam",
-      "p": "TW"
-     },
-     {
-      "n": "Ritter",
-      "p": "ABW"
-     },
-     {
-      "n": "Wileschek",
-      "p": "ABW"
-     },
-     {
-      "n": "Delacauw",
-      "p": "MF"
-     },
-     {
-      "n": "Kemper",
-      "p": "MF"
-     },
-     {
-      "n": "Luyet",
-      "p": "MF"
-     },
-     {
-      "n": "Röder",
-      "p": "MF"
-     },
-     {
-      "n": "Thomann",
-      "p": "MF"
-     },
-     {
-      "n": "Martret",
-      "p": "ST",
-      "i": "fraglich"
-     }
-    ]
-   },
-   "quelle_live": true,
-   "ableitungen": [
-    {
-     "verein": "TSG Hoffenheim",
-     "n": "Kaut",
-     "spielerin": "Lisann Kaut",
-     "war": "Startelf",
-     "zeit": "2026-11-14T12:00",
-     "gegner": "SC Freiburg",
-     "wettbewerb": "Liga",
-     "quelle": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306301/tsg-hoffenheim_sc-freiburg/aufstellung",
-     "delta": -1,
-     "bis": "2026-11-24",
-     "grund": "stand am 14.11. gegen SC Freiburg nicht im Spieltagskader, obwohl im letzten Ligaspiel in der Startelf; Grund nicht bekannt"
-    }
-   ]
+   "foto": "fotos/b04-lobke-loonen.webp",
+   "foto_credit": {
+    "autor": "Bayer 04",
+    "lizenz": "mit Genehmigung: Bayer 04 Leverkusen",
+    "url": "https://www.bayer04.de/de-de/team/frauen/frauen"
+   }
   },
   {
    "id": "aufstellung-scf-1411",
@@ -424,6 +274,220 @@
      }
     ]
    },
+   "quelle_live": true
+  },
+  {
+   "id": "aufstellung-tsg-1411",
+   "zeit": "2026-11-14T11:07",
+   "spielerin": "Spielansetzung",
+   "verein": "TSG Hoffenheim",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "TOP"
+   ],
+   "headline": "Offizielle Aufstellung: TSG Hoffenheim gegen SC Freiburg",
+   "text": [
+    "Nicht im Spieltagskader, obwohl im letzten Ligaspiel dabei: Kaut. Einen Grund nennt bisher keine Quelle."
+   ],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306301/tsg-hoffenheim_sc-freiburg/aufstellung"
+    }
+   ],
+   "aufstellung": {
+    "gegner": "SC Freiburg",
+    "formation": "4-1-2-3",
+    "startelf": [
+     {
+      "n": "Dick",
+      "p": "TW",
+      "pid": "00119"
+     },
+     {
+      "n": "Gloning",
+      "p": "ABW",
+      "pid": "00131"
+     },
+     {
+      "n": "van de Velde",
+      "p": "ABW",
+      "pid": "00127"
+     },
+     {
+      "n": "Doorn",
+      "p": "ABW",
+      "pid": "00123"
+     },
+     {
+      "n": "Vöhringer",
+      "p": "ABW",
+      "pid": "00139",
+      "f": "neu"
+     },
+     {
+      "n": "Grimm",
+      "p": "DM",
+      "pid": "00132",
+      "kp": "MF"
+     },
+     {
+      "n": "Diehm",
+      "p": "OM",
+      "pid": "00122",
+      "kp": "MF"
+     },
+     {
+      "n": "Steiner",
+      "p": "OM",
+      "pid": "00145",
+      "kp": "MF"
+     },
+     {
+      "n": "Natter",
+      "p": "ST",
+      "pid": "00144"
+     },
+     {
+      "n": "Fölmli",
+      "p": "ST",
+      "pid": "00141"
+     },
+     {
+      "n": "Hahn",
+      "p": "ST",
+      "pid": "00133",
+      "kp": "MF"
+     }
+    ],
+    "bank": [
+     {
+      "n": "Lichtfus",
+      "p": "TW",
+      "pid": "00120"
+     },
+     {
+      "n": "Douma",
+      "p": "ABW",
+      "pid": "00124"
+     },
+     {
+      "n": "Ampoorter",
+      "p": "MF",
+      "pid": "00129"
+     },
+     {
+      "n": "Harsch",
+      "p": "MF",
+      "pid": "00134"
+     },
+     {
+      "n": "Fenger",
+      "p": "ST",
+      "pid": "00140"
+     }
+    ],
+    "fehlt": [
+     {
+      "n": "Bitzer",
+      "p": "ABW",
+      "f": "raus",
+      "war": "Bank"
+     },
+     {
+      "n": "Kaut",
+      "p": "ABW",
+      "f": "raus",
+      "war": "Startelf"
+     },
+     {
+      "n": "Lueger",
+      "p": "ST",
+      "f": "raus",
+      "war": "Bank"
+     },
+     {
+      "n": "Bräutigam",
+      "p": "TW"
+     },
+     {
+      "n": "Ritter",
+      "p": "ABW"
+     },
+     {
+      "n": "Wileschek",
+      "p": "ABW"
+     },
+     {
+      "n": "Delacauw",
+      "p": "MF"
+     },
+     {
+      "n": "Kemper",
+      "p": "MF"
+     },
+     {
+      "n": "Luyet",
+      "p": "MF"
+     },
+     {
+      "n": "Röder",
+      "p": "MF"
+     },
+     {
+      "n": "Thomann",
+      "p": "MF"
+     },
+     {
+      "n": "Martret",
+      "p": "ST",
+      "i": "fraglich"
+     }
+    ]
+   },
+   "quelle_live": true,
+   "ableitungen": [
+    {
+     "verein": "TSG Hoffenheim",
+     "n": "Kaut",
+     "spielerin": "Lisann Kaut",
+     "war": "Startelf",
+     "zeit": "2026-11-14T12:00",
+     "gegner": "SC Freiburg",
+     "wettbewerb": "Liga",
+     "quelle": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306301/tsg-hoffenheim_sc-freiburg/aufstellung",
+     "delta": -1,
+     "bis": "2026-11-24",
+     "grund": "stand am 14.11. gegen SC Freiburg nicht im Spieltagskader, obwohl im letzten Ligaspiel in der Startelf; Grund nicht bekannt"
+    }
+   ]
+  },
+  {
+   "id": "fehlt-kaut-tsg-1411",
+   "pid": "00125",
+   "zeit": "2026-11-14T11:07",
+   "spielerin": "Lisann Kaut",
+   "verein": "TSG Hoffenheim",
+   "nr": "",
+   "pos": "ABW",
+   "tags": [
+    "AUFSTELLUNG"
+   ],
+   "status": "fraglich",
+   "headline": "Kaut nicht im Kader gegen SC Freiburg",
+   "text": [
+    "Lisann Kaut steht in der Liga gegen SC Freiburg weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 4-mal.",
+    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
+   ],
+   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306301/tsg-hoffenheim_sc-freiburg/aufstellung"
+    }
+   ],
    "quelle_live": true
   },
   {
