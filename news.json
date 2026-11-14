@@ -1,202 +1,37 @@
 {
- "stand": "2026-11-14T13:13",
+ "stand": "2026-11-14T12:45",
  "meldungen": [
   {
-   "id": "comeback-sherif-svw-1411",
-   "pid": "00030",
-   "zeit": "2026-11-14T13:44",
-   "spielerin": "Mariella El Sherif",
-   "verein": "Werder Bremen",
-   "nr": "",
-   "pos": "TW",
-   "tags": [
-    "RÜCKKEHR"
-   ],
-   "status": "fit",
-   "headline": "Sherif feiert Comeback nach Handverletzung",
-   "text": [
-    "Mariella El Sherif ist nach Handverletzung zurück im Spieltagskader von Werder Bremen.",
-    "Gegen Union Berlin stand sie in der Startelf."
-   ],
-   "kickbase": "Wieder einsatzbereit. Nach der Pause am nächsten Spieltag eher mit begrenzter Spielzeit rechnen, die Startelf ist noch offen.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306292/werder-bremen_1-fc-union-berlin/liveticker"
-    }
-   ],
-   "quelle_live": true,
-   "partie_id": "12306292",
-   "comeback": {
-    "art": "comeback",
-    "stufe": "einsatz"
-   }
-  },
-  {
-   "id": "aufstellung-svw-1411",
+   "id": "weidauer-standards-1411",
+   "pid": "00387",
    "zeit": "2026-11-14T13:10",
-   "spielerin": "Spielansetzung",
-   "verein": "Werder Bremen",
+   "spielerin": "Sophie Weidauer",
+   "verein": "Union Berlin",
    "nr": "",
-   "pos": "Spielansetzung",
+   "pos": "ST",
    "tags": [
-    "TOP"
+    "STANDARD",
+    "AUFSTELLUNG"
    ],
-   "headline": "Offizielle Aufstellung: Werder Bremen gegen Union Berlin",
-   "text": [],
-   "kickbase": "",
+   "headline": "Weidauer und Heiseler wieder auf der Bank: Standards",
+   "kurz": "Weidauer, Heiseler auf der Bank: Standards offen",
+   "text": [
+    "Sophie Weidauer sitzt auch gegen Werder Bremen zunächst auf der Bank. Sie ist bei Union Berlin die erste Wahl bei Ecken, auch Lisa Heiseler (erste Wahl bei Freistößen) beginnt nicht.",
+    "Bei Freistößen übernimmt laut Hierarchie Judit Pujols, die in der Startelf steht. Wer die Ecken tritt, ist offen, weil mit Egli ebenfalls nur eine Bankspielerin hinterlegt ist."
+   ],
+   "kickbase": "Standardpunkte für Union laufen in der Startelf eher über Pujols, bei Ecken ist die Lage offen. Weidauer und Heiseler zählen erst, wenn sie eingewechselt werden.",
    "quellen": [
     {
      "name": "Sportschau",
      "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306292/werder-bremen_1-fc-union-berlin/aufstellung"
     }
    ],
-   "aufstellung": {
-    "gegner": "Union Berlin",
-    "formation": "4-2-3-1",
-    "startelf": [
-     {
-      "n": "El Sherif",
-      "p": "TW",
-      "pid": "00030",
-      "f": "neu"
-     },
-     {
-      "n": "Weiß",
-      "p": "ABW",
-      "pid": "00041"
-     },
-     {
-      "n": "Ulbrich",
-      "p": "ABW",
-      "pid": "00040"
-     },
-     {
-      "n": "Gutmann",
-      "p": "ABW",
-      "pid": "00035"
-     },
-     {
-      "n": "Zieniewicz",
-      "p": "ABW",
-      "pid": "00042"
-     },
-     {
-      "n": "Hipp",
-      "p": "DM",
-      "pid": "00045",
-      "kp": "MF"
-     },
-     {
-      "n": "Wirtz",
-      "p": "DM",
-      "pid": "00048",
-      "kp": "MF"
-     },
-     {
-      "n": "Purtscheller",
-      "p": "OM",
-      "pid": "00047",
-      "kp": "MF"
-     },
-     {
-      "n": "Vanzeir",
-      "p": "OM",
-      "pid": "00055",
-      "kp": "MF"
-     },
-     {
-      "n": "Jaron",
-      "p": "OM",
-      "pid": "00051",
-      "kp": "ST",
-      "f": "neu"
-     },
-     {
-      "n": "Mahmoud",
-      "p": "ST",
-      "pid": "00052"
-     }
-    ],
-    "bank": [
-     {
-      "n": "Fischer",
-      "p": "TW",
-      "pid": "00032",
-      "f": "raus"
-     },
-     {
-      "n": "Sträßer",
-      "p": "ABW",
-      "pid": "00039"
-     },
-     {
-      "n": "Penner",
-      "p": "ABW",
-      "pid": "00037"
-     },
-     {
-      "n": "Mühlemann",
-      "p": "MF",
-      "pid": "00046"
-     },
-     {
-      "n": "Gmeineder",
-      "p": "MF",
-      "pid": "00044"
-     },
-     {
-      "n": "Ernst",
-      "p": "MF",
-      "pid": "00043"
-     },
-     {
-      "n": "Dhont",
-      "p": "ST",
-      "pid": "00050",
-      "f": "raus"
-     },
-     {
-      "n": "Shimada",
-      "p": "ST",
-      "pid": "00054"
-     },
-     {
-      "n": "Dešić",
-      "p": "ST",
-      "pid": "00049"
-     }
-    ],
-    "fehlt": [
-     {
-      "n": "Farwick",
-      "p": "TW",
-      "f": "raus",
-      "war": "Bank"
-     },
-     {
-      "n": "Özdemir",
-      "p": "TW"
-     },
-     {
-      "n": "D'Angelo",
-      "p": "ABW"
-     },
-     {
-      "n": "Magerl",
-      "p": "ABW"
-     },
-     {
-      "n": "Siems",
-      "p": "ABW"
-     },
-     {
-      "n": "Petermann",
-      "p": "ST"
-     }
-    ]
-   },
-   "quelle_live": true
+   "foto": "fotos/fcu-sophie-weidauer.webp",
+   "foto_credit": {
+    "autor": "Union Berlin",
+    "lizenz": "mit Genehmigung: 1. FC Union Berlin",
+    "url": "https://www.fc-union-berlin.de/de/fussball/profis-frauen-nJqf"
+   }
   },
   {
    "id": "aufstellung-fcu-1411",
@@ -379,6 +214,203 @@
     ]
    },
    "quelle_live": true
+  },
+  {
+   "id": "aufstellung-svw-1411",
+   "zeit": "2026-11-14T13:10",
+   "spielerin": "Spielansetzung",
+   "verein": "Werder Bremen",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "TOP"
+   ],
+   "headline": "Offizielle Aufstellung: Werder Bremen gegen Union Berlin",
+   "text": [],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306292/werder-bremen_1-fc-union-berlin/aufstellung"
+    }
+   ],
+   "aufstellung": {
+    "gegner": "Union Berlin",
+    "formation": "4-2-3-1",
+    "startelf": [
+     {
+      "n": "El Sherif",
+      "p": "TW",
+      "pid": "00030",
+      "f": "neu"
+     },
+     {
+      "n": "Weiß",
+      "p": "ABW",
+      "pid": "00041"
+     },
+     {
+      "n": "Ulbrich",
+      "p": "ABW",
+      "pid": "00040"
+     },
+     {
+      "n": "Gutmann",
+      "p": "ABW",
+      "pid": "00035"
+     },
+     {
+      "n": "Zieniewicz",
+      "p": "ABW",
+      "pid": "00042"
+     },
+     {
+      "n": "Hipp",
+      "p": "DM",
+      "pid": "00045",
+      "kp": "MF"
+     },
+     {
+      "n": "Wirtz",
+      "p": "DM",
+      "pid": "00048",
+      "kp": "MF"
+     },
+     {
+      "n": "Purtscheller",
+      "p": "OM",
+      "pid": "00047",
+      "kp": "MF"
+     },
+     {
+      "n": "Vanzeir",
+      "p": "OM",
+      "pid": "00055",
+      "kp": "MF"
+     },
+     {
+      "n": "Jaron",
+      "p": "OM",
+      "pid": "00051",
+      "kp": "ST",
+      "f": "neu"
+     },
+     {
+      "n": "Mahmoud",
+      "p": "ST",
+      "pid": "00052"
+     }
+    ],
+    "bank": [
+     {
+      "n": "Fischer",
+      "p": "TW",
+      "pid": "00032",
+      "f": "raus"
+     },
+     {
+      "n": "Sträßer",
+      "p": "ABW",
+      "pid": "00039"
+     },
+     {
+      "n": "Penner",
+      "p": "ABW",
+      "pid": "00037"
+     },
+     {
+      "n": "Mühlemann",
+      "p": "MF",
+      "pid": "00046"
+     },
+     {
+      "n": "Gmeineder",
+      "p": "MF",
+      "pid": "00044"
+     },
+     {
+      "n": "Ernst",
+      "p": "MF",
+      "pid": "00043"
+     },
+     {
+      "n": "Dhont",
+      "p": "ST",
+      "pid": "00050",
+      "f": "raus"
+     },
+     {
+      "n": "Shimada",
+      "p": "ST",
+      "pid": "00054"
+     },
+     {
+      "n": "Dešić",
+      "p": "ST",
+      "pid": "00049"
+     }
+    ],
+    "fehlt": [
+     {
+      "n": "Farwick",
+      "p": "TW",
+      "f": "raus",
+      "war": "Bank"
+     },
+     {
+      "n": "Özdemir",
+      "p": "TW"
+     },
+     {
+      "n": "D'Angelo",
+      "p": "ABW"
+     },
+     {
+      "n": "Magerl",
+      "p": "ABW"
+     },
+     {
+      "n": "Siems",
+      "p": "ABW"
+     },
+     {
+      "n": "Petermann",
+      "p": "ST"
+     }
+    ]
+   },
+   "quelle_live": true
+  },
+  {
+   "id": "comeback-sherif-svw-1411",
+   "pid": "00030",
+   "zeit": "2026-11-14T13:42",
+   "spielerin": "Mariella El Sherif",
+   "verein": "Werder Bremen",
+   "nr": "",
+   "pos": "TW",
+   "tags": [
+    "RÜCKKEHR"
+   ],
+   "status": "fit",
+   "headline": "Sherif feiert Comeback nach Handverletzung",
+   "text": [
+    "Mariella El Sherif ist nach Handverletzung zurück im Spieltagskader von Werder Bremen.",
+    "Gegen Union Berlin stand sie in der Startelf."
+   ],
+   "kickbase": "Wieder einsatzbereit. Nach der Pause am nächsten Spieltag eher mit begrenzter Spielzeit rechnen, die Startelf ist noch offen.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306292/werder-bremen_1-fc-union-berlin/liveticker"
+    }
+   ],
+   "quelle_live": true,
+   "partie_id": "12306292",
+   "comeback": {
+    "art": "comeback",
+    "stufe": "einsatz"
+   }
   },
   {
    "id": "aufstellung-scf-1411",
@@ -806,102 +838,6 @@
    "quelle_live": true
   },
   {
-   "id": "redzepi-1411",
-   "pid": "00347",
-   "zeit": "2026-11-14T08:00",
-   "spielerin": "Dafina Redzepi",
-   "verein": "VfB Stuttgart",
-   "nr": "",
-   "pos": "MF",
-   "tags": [
-    "RÜCKKEHR"
-   ],
-   "status": "fit",
-   "headline": "Redzepi kehrt nach Sperre zurück",
-   "kurz": "Redzepi kehrt nach Sperre zurück",
-   "text": [
-    "Dafina Redzepi hat ihre Sperre nach der Roten Karte gegen Frankfurt abgesessen und steht dem VfB Stuttgart im Heimspiel am Montag gegen Bayer Leverkusen wieder zur Verfügung. Die Stuttgarter Nachrichten schreiben, der Trainer setze auf die Rückkehrerin.",
-    "Redzepi tritt beim VfB die Ecken. Ob sie in der Startelf steht, zeigt erst die offizielle Aufstellung."
-   ],
-   "kickbase": "Redzepi ist als Startelf-Kandidatin zurück auf dem Zettel. Die Aufstellung am Montag abwarten.",
-   "quellen": [
-    {
-     "name": "Stuttgarter Nachrichten",
-     "url": "https://www.stuttgarter-nachrichten.de/sport/vfb-stuttgart/vfb-stuttgart-frauen-serie-der-vfb-frauen-soll-halten-dafina-redzepi-kehrt-zurueck-79696780.html"
-    }
-   ],
-   "foto": "fotos/vfb-dafina-redzepi.webp",
-   "foto_credit": {
-    "autor": "VfB Stuttgart",
-    "lizenz": "mit Genehmigung: VfB Stuttgart",
-    "url": "https://www.vfb.de/de/1893/frauen/frauen/kader/saisonen/2026-2027/kader/?data=&mobile="
-   }
-  },
-  {
-   "id": "tomasiak-1411",
-   "pid": "00266",
-   "zeit": "2026-11-14T01:00",
-   "spielerin": "Paulina Tomasiak",
-   "verein": "Bayer Leverkusen",
-   "nr": "28",
-   "pos": "ST",
-   "tags": [
-    "RÜCKKEHR"
-   ],
-   "status": "fit",
-   "headline": "Tomasiak und Fudalla vor Rückkehr in Leverkusens Kader",
-   "kurz": "Tomasiak und Fudalla vor Kader-Rückkehr",
-   "text": [
-    "Bayer Leverkusen kann vor dem Auswärtsspiel beim VfB Stuttgart am Montag (18 Uhr) wieder auf zwei Offensivspielerinnen zurückgreifen. Paulina Tomasiak steht nach ihrer muskulären Verletzung vor der Rückkehr in den Kader, Vanessa Fudalla nach einer Krankheit.",
-    "Trainer Roberto Pätzold sagt, das Team könne personell fast wieder aus dem Vollen schöpfen. Coşkun (Muskel-Sehnen-Verletzung), Friedrich (Aufbautraining) und Wrigge (Kreuzbandriss) fallen weiterhin aus."
-   ],
-   "kickbase": "Beide sind für den Kader eingeplant, ob sie direkt in der Startelf stehen, ist offen. Die offizielle Aufstellung abwarten.",
-   "quellen": [
-    {
-     "name": "Bayer 04 Leverkusen",
-     "url": "https://www.bayer04.de/de-de/news/frauen/frisch-in-die-woche-gehen-frauen-reisen-nach-stuttgart"
-    }
-   ],
-   "foto": "fotos/b04-paulina-tomasiak.webp",
-   "foto_credit": {
-    "autor": "Bayer 04",
-    "lizenz": "mit Genehmigung: Bayer 04 Leverkusen",
-    "url": "https://www.bayer04.de/de-de/team/frauen/frauen"
-   }
-  },
-  {
-   "id": "loonen-1411",
-   "pid": "00262",
-   "zeit": "2026-11-14T01:00",
-   "spielerin": "Lobke Loonen",
-   "verein": "Bayer Leverkusen",
-   "nr": "18",
-   "pos": "ST",
-   "tags": [
-    "VERLETZUNG"
-   ],
-   "status": "fraglich",
-   "headline": "Loonen verpasst Stuttgart angeschlagen",
-   "kurz": "Loonen fehlt gegen Stuttgart angeschlagen",
-   "text": [
-    "Lobke Loonen wird laut Bayer 04 das Spiel beim VfB Stuttgart am Montag zumindest angeschlagen verpassen. Art und Dauer der Beschwerden nennt der Verein nicht.",
-    "Loonen traf zuletzt beim 2:0 gegen den Hamburger SV."
-   ],
-   "kickbase": "Für Montag nicht fest einplanen. Ob sie danach in Berlin wieder dabei ist, ist offen.",
-   "quellen": [
-    {
-     "name": "Bayer 04 Leverkusen",
-     "url": "https://www.bayer04.de/de-de/news/frauen/frisch-in-die-woche-gehen-frauen-reisen-nach-stuttgart"
-    }
-   ],
-   "foto": "fotos/b04-lobke-loonen.webp",
-   "foto_credit": {
-    "autor": "Bayer 04",
-    "lizenz": "mit Genehmigung: Bayer 04 Leverkusen",
-    "url": "https://www.bayer04.de/de-de/team/frauen/frauen"
-   }
-  },
-  {
    "id": "endstand-hsv-1311",
    "zeit": "2026-11-13T20:29",
    "spielerin": "Hamburger SV gegen Mainz 05",
@@ -937,38 +873,6 @@
    "quelle_live": true,
    "partie_id": "12306295",
    "noten": true
-  },
-  {
-   "id": "kats-standards-1311",
-   "pid": "00292",
-   "zeit": "2026-11-13T17:28",
-   "spielerin": "Vital Kats",
-   "verein": "Mainz 05",
-   "nr": "30",
-   "pos": "ST",
-   "tags": [
-    "STANDARD"
-   ],
-   "headline": "Kats sitzt gegen den HSV auf der Bank",
-   "kurz": "Kats nur Bank, Fetaj bei Ecken vorn",
-   "status": "fit",
-   "text": [
-    "Vital Kats steht beim Spiel gegen den Hamburger SV nicht in der Startelf, sie sitzt laut offizieller Aufstellung auf der Bank. Beim 1. FSV Mainz 05 führt sie die Liste bei Ecken und Freistößen an.",
-    "Bei Ecken dürfte Gentiana Fetaj übernehmen, die in der Startelf steht. Wer die Freistöße schießt, ist offen."
-   ],
-   "kickbase": "Wer auf Standards setzt, sollte Fetaj im Blick haben. Kats ist bei Einwechslung wieder erste Wahl für ruhende Bälle.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306295/hamburger-sv_1-fsv-mainz-05/aufstellung"
-    }
-   ],
-   "foto": "fotos/m05-vital-kats.webp",
-   "foto_credit": {
-    "autor": "Mainz 05",
-    "lizenz": "mit Genehmigung: 1. FSV Mainz 05",
-    "url": "https://www.mainz05.de/Tab/Kader-Frauen"
-   }
   },
   {
    "id": "aufstellung-hsv-1311",
@@ -1270,6 +1174,38 @@
    "quelle_live": true
   },
   {
+   "id": "kats-standards-1311",
+   "pid": "00292",
+   "zeit": "2026-11-13T17:28",
+   "spielerin": "Vital Kats",
+   "verein": "Mainz 05",
+   "nr": "30",
+   "pos": "ST",
+   "tags": [
+    "STANDARD"
+   ],
+   "headline": "Kats sitzt gegen den HSV auf der Bank",
+   "kurz": "Kats nur Bank, Fetaj bei Ecken vorn",
+   "status": "fit",
+   "text": [
+    "Vital Kats steht beim Spiel gegen den Hamburger SV nicht in der Startelf, sie sitzt laut offizieller Aufstellung auf der Bank. Beim 1. FSV Mainz 05 führt sie die Liste bei Ecken und Freistößen an.",
+    "Bei Ecken dürfte Gentiana Fetaj übernehmen, die in der Startelf steht. Wer die Freistöße schießt, ist offen."
+   ],
+   "kickbase": "Wer auf Standards setzt, sollte Fetaj im Blick haben. Kats ist bei Einwechslung wieder erste Wahl für ruhende Bälle.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306295/hamburger-sv_1-fsv-mainz-05/aufstellung"
+    }
+   ],
+   "foto": "fotos/m05-vital-kats.webp",
+   "foto_credit": {
+    "autor": "Mainz 05",
+    "lizenz": "mit Genehmigung: 1. FSV Mainz 05",
+    "url": "https://www.mainz05.de/Tab/Kader-Frauen"
+   }
+  },
+  {
    "id": "pk-md10",
    "zeit": "2026-11-13T11:45",
    "spielerin": "Pressekonferenzen",
@@ -1281,7 +1217,7 @@
     "UPDATE"
    ],
    "headline": "Vor dem 10. Spieltag: Pressekonferenzen, Vorberichte und späte Updates",
-   "kurz": "10. Spieltag: wer wann spricht, wer wann berichtet (12 von 14 Vorberichten da)",
+   "kurz": "10. Spieltag: wer wann spricht, wer wann berichtet (9 von 14 Vorberichten da)",
    "text": [
     "Vor dem 10. Spieltag geben nur wenige Vereine eine Pressekonferenz. Was dort zum Personal gesagt wird, ist oft die letzte Info vor der offiziellen Aufstellung.",
     "VfL Wolfsburg (gegen FC Bayern, Sa 14.11., 17:55 Uhr): Vor solchen Spielen gibt es üblicherweise eine Pressekonferenz mit Trainer Stephan Lerch, meist am Vortag (Fr 13.11.). Einen Termin hat der Verein noch nicht genannt, danach Zusammenfassung auf vfl-wolfsburg.de.",
@@ -1291,10 +1227,10 @@
     "Hamburger SV gegen Mainz 05 (Fr 13.11., 18:30 Uhr): Hamburger SV online: „Flutlicht-Freitag: HSV-Frauen empfangen Mainz 05 im Volkspark“; Mainz 05 seit Do 12.11., 13:00 Uhr: 05-Frauen vor Hamburg: „Müssen mithalten und dürfen uns nicht verstecken“.",
     "TSG Hoffenheim gegen SC Freiburg (Sa 14.11., 12:00 Uhr): TSG Hoffenheim seit Do 12.11., 17:14 Uhr: „Virsinger vor #TSGSCF: Müssen Großchancen verwandeln“; SC Freiburg seit Do 12.11.: „Kaltschnäuziger und klarer“ auftreten.",
     "Werder Bremen gegen Union Berlin (Sa 14.11., 14:00 Uhr): Werder Bremen noch nicht da, zuletzt am Vortag, gegen 16 Uhr; Union Berlin seit Fr 13.11., 09:00 Uhr: „Unionerinnen mit Rückenwind an die Weser“.",
-    "VfL Wolfsburg gegen FC Bayern (Sa 14.11., 17:55 Uhr): VfL Wolfsburg seit Fr 13.11.: „La Clasica: Wölfinnen empfangen den FC Bayern“; FC Bayern seit Fr 13.11., 09:45 Uhr: „Faktenlage: VfL Wolfsburg – FC Bayern Frauen“.",
+    "VfL Wolfsburg gegen FC Bayern (Sa 14.11., 17:55 Uhr): VfL Wolfsburg noch nicht da, noch kein fester Rhythmus bekannt; FC Bayern seit Fr 13.11., 09:45 Uhr: „Faktenlage: VfL Wolfsburg – FC Bayern Frauen“.",
     "1. FC Nürnberg gegen 1. FC Köln (So 15.11., 16:00 Uhr): 1. FC Nürnberg noch nicht da, zuletzt am Vortag; 1. FC Köln seit Fr 13.11., 12:00 Uhr: „FC-Frauen: Spannendes Duell in Nürnberg“.",
-    "RB Leipzig gegen Eintracht Frankfurt (So 15.11., 16:00 Uhr): RB Leipzig seit Fr 13.11., 16:25 Uhr: „Rb leipzig frauen spielvorschau eintracht frankfurt spannung red bull arena“; Eintracht Frankfurt seit Fr 13.11., 16:00 Uhr: „Punktejagd in Leipzig“.",
-    "VfB Stuttgart gegen Bayer Leverkusen (Mo 16.11., 18:00 Uhr): VfB Stuttgart seit Fr 13.11., 13:22 Uhr: „Matchfacts: VfB-Frauen – Bayer 04 Leverkusen“; Bayer Leverkusen seit Sa 14.11.: „Frisch in die Woche gehen“: Frauen reisen nach Stuttgart.",
+    "RB Leipzig gegen Eintracht Frankfurt (So 15.11., 16:00 Uhr): RB Leipzig noch nicht da, zuletzt drei Tage vorher, gegen 15 Uhr; Eintracht Frankfurt seit Fr 13.11., 16:00 Uhr: „Punktejagd in Leipzig“.",
+    "VfB Stuttgart gegen Bayer Leverkusen (Mo 16.11., 18:00 Uhr): VfB Stuttgart seit Fr 13.11., 13:22 Uhr: „Matchfacts: VfB-Frauen – Bayer 04 Leverkusen“; Bayer Leverkusen noch nicht da, zuletzt am Vortag.",
     "Die offiziellen Aufstellungen kommen etwa eine Stunde vor Anpfiff, wir melden sie automatisch. Bis dahin sind Last-Minute-Änderungen möglich, gerade bei Vereinen, die unter der Woche im Europapokal gespielt haben."
    ],
    "kickbase": "Aufstellung erst nach den Pressekonferenzen festzurren (VfL Wolfsburg, FC Bayern). Bei allen anderen ist die offizielle Aufstellung vor Anpfiff die erste sichere Info.",
@@ -1320,10 +1256,6 @@
      "url": "https://www.fc-union-berlin.de/de/meldungen/unionerinnen-mit-rueckenwind-an-die-weser-CvS4Jm"
     },
     {
-     "name": "Vorbericht VfL Wolfsburg",
-     "url": "https://www.vfl-wolfsburg.de/newsdetails/news-detail/detail/news/la-clasica-woelfinnen-empfangen-den-fc-bayern"
-    },
-    {
      "name": "Vorbericht FC Bayern",
      "url": "https://fcbayern.com/frauen/de/news/2026/11/faktenlage-vfl-wolfsburg---fc-bayern-frauen"
     },
@@ -1332,20 +1264,12 @@
      "url": "https://fc.de/aktuelles/news/fc-frauen-spannendes-duell-in-nuernberg"
     },
     {
-     "name": "Vorbericht RB Leipzig",
-     "url": "https://rbleipzig.com/de/news/rb-leipzig-frauen-spielvorschau-eintracht-frankfurt-spannung-red-bull-arena"
-    },
-    {
      "name": "Vorbericht Eintracht Frankfurt",
      "url": "https://frauen.eintracht.de/news/punktejagd-in-leipzig-180392"
     },
     {
      "name": "Vorbericht VfB Stuttgart",
      "url": "https://www.vfb.de/de/vfb/aktuell/neues/vfb-frauen/26-27/matchfacts--vfb-frauen-----bayer-04-leverkusen/"
-    },
-    {
-     "name": "Vorbericht Bayer Leverkusen",
-     "url": "https://www.bayer04.de/de-de/news/frauen/frisch-in-die-woche-gehen-frauen-reisen-nach-stuttgart"
     },
     {
      "name": "VfL Wolfsburg",
