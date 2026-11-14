@@ -1,0 +1,17 @@
+{
+ "datum": "2026-11-14",
+ "spiele": [
+  1593176
+ ],
+ "erstmals": {
+  "1593176": {
+   "spiel": "VfL Wolfsburg W - Bayern Munich W",
+   "anstoss": "2026-11-14T16:55:00+00:00",
+   "aufstellung_gesehen": "2026-11-14T16:41+00:00",
+   "minuten_vor_anpfiff": 14,
+   "mit_bank": true
+  }
+ },
+ "ohne_aufstellung_bis_anpfiff": [],
+ "abfragen": 3
+}
