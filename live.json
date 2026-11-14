@@ -1,1 +1,1 @@
-{"stand": "2026-11-14T12:02:34", "spiele": {"12306301": {"status": "live", "ergebnis": ["0", "0"], "minute": "2", "tore": [], "karten": [], "wechsel": [], "uhr": {"a1": "2026-11-14T11:00:31Z"}}}}
+{"stand": "2026-11-14T12:07:58", "spiele": {"12306301": {"status": "live", "ergebnis": ["0", "0"], "minute": "8", "tore": [], "karten": [], "wechsel": [], "uhr": {"a1": "2026-11-14T11:00:31Z"}, "stats": {"xg": [0.0, 0.0], "fou": [1.0, 1.0], "tor": [0.0, 0.0], "bes": [73.0, 27.0]}}}}
