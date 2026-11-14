@@ -3,7 +3,7 @@
  "meldungen": [
   {
    "id": "endstand-svw-1411",
-   "zeit": "2026-11-14T15:56",
+   "zeit": "2026-11-14T16:00",
    "spielerin": "Werder Bremen gegen Union Berlin",
    "verein": "Werder Bremen",
    "nr": "",
@@ -11,23 +11,32 @@
    "tags": [
     "SPIELBERICHT"
    ],
-   "headline": "Endstand: Werder Bremen 2:0 Union Berlin",
-   "kurz": "Endstand SVW 2:0 FCU",
+   "headline": "Werder Bremen gewinnt 2:0 gegen Union Berlin, Vanzeir und Hipp treffen",
+   "kurz": "Werder schlägt Union 2:0",
    "text": [
     "Werder Bremen gewinnt gegen Union Berlin mit 2:0.",
     "Tore: 1:0 Vanzeir (29., Vorlage Purtscheller), 2:0 Hipp (38., Vorlage Mahmoud).",
     "Gelb: Steuerwald, Bauereisen, Janssens, Dešić.",
-    "Noten und der ausführliche Bericht folgen."
+    "Beste Note im Spiel: Vanzeir (7,8).",
+    "Statistik (Werder Bremen zuerst): Torschüsse 6:7 (aufs Tor 3:2), Ballbesitz 46:54 %, Expected Goals 0,60:0,37, Ecken 4:8.",
+    "Beste Noten Werder Bremen: Vanzeir 7,8, Hipp 7,2, Mahmoud 7,2.",
+    "Beste Noten Union Berlin: Bauereisen 6,8, Gräwe 6,7, Tysiak 6,6.",
+    "Schwächste Note in der Startelf: Hausicke (5,0)."
    ],
-   "kickbase": "",
+   "kickbase": "Herausragend: Vanzeir (7,8).",
    "quellen": [
     {
      "name": "Sportschau",
      "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306292/werder-bremen_1-fc-union-berlin/liveticker"
+    },
+    {
+     "name": "API-Football (Noten, Statistik)",
+     "url": "https://www.api-football.com"
     }
    ],
    "quelle_live": true,
-   "partie_id": "12306292"
+   "partie_id": "12306292",
+   "noten": true
   },
   {
    "id": "endstand-tsg-1411",
