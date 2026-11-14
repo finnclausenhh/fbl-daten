@@ -1,0 +1,17 @@
+{
+ "datum": "2026-11-14",
+ "spiele": [
+  1593172
+ ],
+ "erstmals": {
+  "1593172": {
+   "spiel": "1899 Hoffenheim W - SC Freiburg W",
+   "anstoss": "2026-11-14T11:00:00+00:00",
+   "aufstellung_gesehen": "2026-11-14T10:32+00:00",
+   "minuten_vor_anpfiff": 28,
+   "mit_bank": true
+  }
+ },
+ "ohne_aufstellung_bis_anpfiff": [],
+ "abfragen": 18
+}
