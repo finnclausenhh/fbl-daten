@@ -1,39 +1,11 @@
 {
- "datum": "2026-11-13",
+ "datum": "2026-11-14",
  "spiele": {
-  "12306295": {
-   "spiel": "HSV-M05",
+  "12306301": {
+   "spiel": "TSG-SCF",
    "0:0": {
-    "sportschau": "18:30:44",
-    "apifootball": "18:31:31"
-   },
-   "1:0": {
-    "sportschau": "18:34:02",
-    "apifootball": "18:34:02"
-   },
-   "2:0": {
-    "apifootball": "18:45:51",
-    "sportschau": "18:46:39"
-   },
-   "3:0": {
-    "apifootball": "18:49:01",
-    "sportschau": "18:49:50"
-   },
-   "4:0": {
-    "apifootball": "18:54:37",
-    "sportschau": "18:55:25"
-   },
-   "4:1": {
-    "apifootball": "19:11:59",
-    "sportschau": "19:12:47"
-   },
-   "5:1": {
-    "apifootball": "20:17:22",
-    "sportschau": "20:18:10"
-   },
-   "6:1": {
-    "apifootball": "20:20:33",
-    "sportschau": "20:21:21"
+    "sportschau": "12:01:00",
+    "apifootball": "12:01:00"
    }
   }
  }
