@@ -1,0 +1,17 @@
+{
+ "datum": "2026-11-14",
+ "spiele": [
+  1593175
+ ],
+ "erstmals": {
+  "1593175": {
+   "spiel": "Werder Bremen W - Union Berlin W",
+   "anstoss": "2026-11-14T13:00:00+00:00",
+   "aufstellung_gesehen": "2026-11-14T12:30+00:00",
+   "minuten_vor_anpfiff": 29,
+   "mit_bank": true
+  }
+ },
+ "ohne_aufstellung_bis_anpfiff": [],
+ "abfragen": 20
+}
