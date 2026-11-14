@@ -1,6 +1,34 @@
 {
  "meldungen": [
   {
+   "id": "endstand-svw-1411",
+   "zeit": "2026-11-14T15:56",
+   "spielerin": "Werder Bremen gegen Union Berlin",
+   "verein": "Werder Bremen",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "SPIELBERICHT"
+   ],
+   "headline": "Endstand: Werder Bremen 2:0 Union Berlin",
+   "kurz": "Endstand SVW 2:0 FCU",
+   "text": [
+    "Werder Bremen gewinnt gegen Union Berlin mit 2:0.",
+    "Tore: 1:0 Vanzeir (29., Vorlage Purtscheller), 2:0 Hipp (38., Vorlage Mahmoud).",
+    "Gelb: Steuerwald, Bauereisen, Janssens, Dešić.",
+    "Noten und der ausführliche Bericht folgen."
+   ],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306292/werder-bremen_1-fc-union-berlin/liveticker"
+    }
+   ],
+   "quelle_live": true,
+   "partie_id": "12306292"
+  },
+  {
    "id": "comeback-sherif-svw-1411",
    "pid": "00030",
    "zeit": "2026-11-14T14:02",
@@ -15,7 +43,7 @@
    "headline": "Sherif feiert Comeback nach Handverletzung",
    "text": [
     "Mariella El Sherif ist nach Handverletzung zurück im Spieltagskader von Werder Bremen.",
-    "Gegen Union Berlin stand sie in der Startelf."
+    "Gegen Union Berlin stand sie in der Startelf und spielte durch. Insgesamt spielte sie 90 Minuten."
    ],
    "kickbase": "Wieder einsatzbereit. Nach der Pause am nächsten Spieltag eher mit begrenzter Spielzeit rechnen, die Startelf ist noch offen.",
    "quellen": [
