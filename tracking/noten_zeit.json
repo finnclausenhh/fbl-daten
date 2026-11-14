@@ -124,5 +124,18 @@
   "noten_da": "2026-11-14T15:56",
   "minuten_nach_abpfiff": 3,
   "bau_gestartet": "2026-11-14T15:56"
+ },
+ "12306313": {
+  "spiel": "WOB-FCB",
+  "anstoss": "2026-11-14T17:55",
+  "abpfiff_ca": "2026-11-14T19:46",
+  "fixture": 1593176,
+  "af_status": "FT",
+  "erste_pruefung": "2026-11-14T19:48",
+  "noten_zuletzt": 40,
+  "letzte_pruefung": "2026-11-14T19:48",
+  "noten_da": "2026-11-14T19:48",
+  "minuten_nach_abpfiff": 2,
+  "bau_gestartet": "2026-11-14T19:48"
  }
 }
