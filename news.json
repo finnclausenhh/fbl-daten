@@ -1,6 +1,188 @@
 {
- "stand": "2026-11-14T17:45",
+ "stand": "2026-11-14T17:51",
  "meldungen": [
+  {
+   "id": "aufstellung-fcu-1411",
+   "zeit": "2026-11-14T13:10",
+   "spielerin": "Spielansetzung",
+   "verein": "Union Berlin",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "TOP"
+   ],
+   "headline": "Offizielle Aufstellung: Union Berlin gegen Werder Bremen",
+   "text": [],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306292/werder-bremen_1-fc-union-berlin/aufstellung"
+    }
+   ],
+   "aufstellung": {
+    "gegner": "Werder Bremen",
+    "formation": "4-2-2-2",
+    "startelf": [
+     {
+      "n": "Böhi",
+      "p": "TW",
+      "pid": "00357"
+     },
+     {
+      "n": "Schneider",
+      "p": "ABW",
+      "pid": "00366"
+     },
+     {
+      "n": "Tysiak",
+      "p": "ABW",
+      "pid": "00369"
+     },
+     {
+      "n": "Steuerwald",
+      "p": "ABW",
+      "pid": "00368"
+     },
+     {
+      "n": "Veit",
+      "p": "ABW",
+      "pid": "00370",
+      "f": "neu"
+     },
+     {
+      "n": "Gräwe",
+      "p": "DM",
+      "pid": "00372",
+      "kp": "MF"
+     },
+     {
+      "n": "Hausicke",
+      "p": "DM",
+      "pid": "00373",
+      "kp": "MF"
+     },
+     {
+      "n": "Janssens",
+      "p": "OM",
+      "pid": "00363",
+      "kp": "ABW"
+     },
+     {
+      "n": "Judit Pujols",
+      "p": "OM",
+      "pid": "00364",
+      "kp": "ABW"
+     },
+     {
+      "n": "Bauereisen",
+      "p": "ST",
+      "pid": "00381"
+     },
+     {
+      "n": "Kamber",
+      "p": "ST",
+      "pid": "00376",
+      "kp": "MF"
+     }
+    ],
+    "bank": [
+     {
+      "n": "Bösl",
+      "p": "TW",
+      "pid": "00358"
+     },
+     {
+      "n": "Steinert",
+      "p": "ABW",
+      "pid": "00367"
+     },
+     {
+      "n": "Weiß",
+      "p": "ABW",
+      "pid": "00371"
+     },
+     {
+      "n": "Heiseler",
+      "p": "ST",
+      "pid": "00374"
+     },
+     {
+      "n": "Weidauer",
+      "p": "ST",
+      "pid": "00387"
+     },
+     {
+      "n": "Egli",
+      "p": "ST",
+      "pid": "00383"
+     },
+     {
+      "n": "Reissner",
+      "p": "ST",
+      "pid": "00386",
+      "f": "raus"
+     },
+     {
+      "n": "Campbell",
+      "p": "ST",
+      "pid": "00382"
+     },
+     {
+      "n": "Orschmann",
+      "p": "ST",
+      "pid": "00385"
+     }
+    ],
+    "fehlt": [
+     {
+      "n": "Schulz",
+      "p": "TW"
+     },
+     {
+      "n": "Smolarczyk",
+      "p": "TW"
+     },
+     {
+      "n": "Aehling",
+      "p": "ABW"
+     },
+     {
+      "n": "Heikkinen",
+      "p": "ABW"
+     },
+     {
+      "n": "Noack",
+      "p": "ABW"
+     },
+     {
+      "n": "Janež",
+      "p": "MF"
+     },
+     {
+      "n": "Laidler",
+      "p": "MF"
+     },
+     {
+      "n": "Pawollek",
+      "p": "MF"
+     },
+     {
+      "n": "Seifert",
+      "p": "MF"
+     },
+     {
+      "n": "Nkili",
+      "p": "ST"
+     },
+     {
+      "n": "Eurlings",
+      "p": "ST"
+     }
+    ]
+   },
+   "quelle_live": true
+  },
   {
    "id": "alara-standards-1411",
    "pid": "00015",
@@ -653,42 +835,6 @@
     ]
    },
    "quelle_live": true
-  },
-  {
-   "id": "comeback-sherif-svw-1411",
-   "pid": "00030",
-   "zeit": "2026-11-14T14:02",
-   "spielerin": "Mariella El Sherif",
-   "verein": "Werder Bremen",
-   "nr": "39",
-   "pos": "TW",
-   "tags": [
-    "RÜCKKEHR"
-   ],
-   "status": "fit",
-   "headline": "Sherif feiert Comeback nach Handverletzung",
-   "text": [
-    "Mariella El Sherif ist nach Handverletzung zurück im Spieltagskader von Werder Bremen.",
-    "Gegen Union Berlin stand sie in der Startelf und spielte durch. Insgesamt spielte sie 90 Minuten.",
-    "API-Football bewertet ihren Auftritt mit der Note 6,8 (ordentlich)."
-   ],
-   "kickbase": "Wieder einsatzbereit. Nach der Pause am nächsten Spieltag eher mit begrenzter Spielzeit rechnen, die Startelf ist noch offen.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306292/werder-bremen_1-fc-union-berlin/liveticker"
-    },
-    {
-     "name": "API-Football (Note)",
-     "url": "https://www.api-football.com"
-    }
-   ],
-   "quelle_live": true,
-   "partie_id": "12306292",
-   "comeback": {
-    "art": "comeback",
-    "stufe": "einsatz"
-   }
   },
   {
    "id": "aufstellung-scf-1411",
