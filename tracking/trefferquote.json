@@ -1,93 +1,93 @@
 {
  "modus": "live",
- "stand": "2026-11-13T07:40",
+ "stand": "2026-11-14T07:27",
  "hinweis": "Letzte veröffentlichte Prognose vor Anpfiff gegen offizielle Startelf. Quelle: Git-Historie von spielplan.json.",
  "gesamt": {
-  "teams": 16,
-  "elf_treffer_schnitt": 9.06,
-  "elf_quote": 0.824,
+  "teams": 18,
+  "elf_treffer_schnitt": 8.94,
+  "elf_quote": 0.813,
   "elf_verteilung": {
    "11": 1,
    "10": 7,
    "9": 3,
-   "8": 2,
+   "8": 4,
    "7": 3
   },
   "je_stufe": {
    "sicher": {
-    "n": 72,
-    "begonnen": 69,
-    "quote": 0.958
+    "n": 81,
+    "begonnen": 78,
+    "quote": 0.963
    },
    "erwartet": {
-    "n": 90,
-    "begonnen": 70,
-    "quote": 0.778
+    "n": 102,
+    "begonnen": 76,
+    "quote": 0.745
    },
    "unsicher": {
-    "n": 95,
-    "begonnen": 30,
-    "quote": 0.316
+    "n": 108,
+    "begonnen": 37,
+    "quote": 0.343
    },
    "unwahrscheinlich": {
-    "n": 63,
+    "n": 69,
     "begonnen": 5,
-    "quote": 0.079
+    "quote": 0.072
    },
    "ausgeschlossen": {
-    "n": 58,
+    "n": 64,
     "begonnen": 1,
-    "quote": 0.017
+    "quote": 0.016
    }
   },
   "kalibrierung": [
    {
     "ab_einsatzwert": 1.0,
-    "n": 72,
-    "begonnen": 68,
-    "quote": 0.944
+    "n": 81,
+    "begonnen": 77,
+    "quote": 0.951
    },
    {
     "ab_einsatzwert": 0.95,
-    "n": 81,
-    "begonnen": 76,
-    "quote": 0.938
+    "n": 90,
+    "begonnen": 85,
+    "quote": 0.944
    },
    {
     "ab_einsatzwert": 0.9,
-    "n": 93,
-    "begonnen": 84,
-    "quote": 0.903
+    "n": 105,
+    "begonnen": 95,
+    "quote": 0.905
    },
    {
     "ab_einsatzwert": 0.85,
-    "n": 113,
-    "begonnen": 100,
-    "quote": 0.885
+    "n": 127,
+    "begonnen": 113,
+    "quote": 0.89
    },
    {
     "ab_einsatzwert": 0.8,
-    "n": 128,
-    "begonnen": 111,
-    "quote": 0.867
+    "n": 142,
+    "begonnen": 124,
+    "quote": 0.873
    },
    {
     "ab_einsatzwert": 0.7,
-    "n": 156,
-    "begonnen": 131,
-    "quote": 0.84
+    "n": 176,
+    "begonnen": 146,
+    "quote": 0.83
    },
    {
     "ab_einsatzwert": 0.55,
-    "n": 184,
-    "begonnen": 146,
-    "quote": 0.793
+    "n": 211,
+    "begonnen": 164,
+    "quote": 0.777
    },
    {
     "ab_einsatzwert": 0.3,
-    "n": 243,
-    "begonnen": 166,
-    "quote": 0.683
+    "n": 275,
+    "begonnen": 188,
+    "quote": 0.684
    }
   ],
   "sicher_daneben_grund": {
@@ -119,40 +119,40 @@
   ]
  },
  "gesamt_24h": {
-  "teams": 16,
-  "elf_treffer_schnitt": 9.0,
-  "elf_quote": 0.818,
+  "teams": 18,
+  "elf_treffer_schnitt": 8.89,
+  "elf_quote": 0.808,
   "elf_verteilung": {
    "11": 1,
    "10": 7,
    "9": 3,
-   "8": 2,
+   "8": 4,
    "7": 2,
    "6": 1
   },
   "je_stufe": {
    "sicher": {
-    "n": 72,
-    "begonnen": 69,
-    "quote": 0.958
+    "n": 81,
+    "begonnen": 78,
+    "quote": 0.963
    },
    "erwartet": {
-    "n": 95,
-    "begonnen": 72,
-    "quote": 0.758
+    "n": 107,
+    "begonnen": 78,
+    "quote": 0.729
    },
    "unsicher": {
-    "n": 92,
-    "begonnen": 29,
-    "quote": 0.315
+    "n": 105,
+    "begonnen": 36,
+    "quote": 0.343
    },
    "unwahrscheinlich": {
-    "n": 61,
+    "n": 67,
     "begonnen": 5,
-    "quote": 0.082
+    "quote": 0.075
    },
    "ausgeschlossen": {
-    "n": 57,
+    "n": 63,
     "begonnen": 0,
     "quote": 0.0
    }
@@ -160,51 +160,51 @@
   "kalibrierung": [
    {
     "ab_einsatzwert": 1.0,
-    "n": 73,
-    "begonnen": 68,
-    "quote": 0.932
+    "n": 82,
+    "begonnen": 77,
+    "quote": 0.939
    },
    {
     "ab_einsatzwert": 0.95,
-    "n": 82,
-    "begonnen": 76,
-    "quote": 0.927
+    "n": 91,
+    "begonnen": 85,
+    "quote": 0.934
    },
    {
     "ab_einsatzwert": 0.9,
-    "n": 94,
-    "begonnen": 84,
-    "quote": 0.894
+    "n": 106,
+    "begonnen": 95,
+    "quote": 0.896
    },
    {
     "ab_einsatzwert": 0.85,
-    "n": 114,
-    "begonnen": 100,
-    "quote": 0.877
+    "n": 128,
+    "begonnen": 113,
+    "quote": 0.883
    },
    {
     "ab_einsatzwert": 0.8,
-    "n": 129,
-    "begonnen": 111,
-    "quote": 0.86
+    "n": 143,
+    "begonnen": 124,
+    "quote": 0.867
    },
    {
     "ab_einsatzwert": 0.7,
-    "n": 157,
-    "begonnen": 131,
-    "quote": 0.834
+    "n": 177,
+    "begonnen": 146,
+    "quote": 0.825
    },
    {
     "ab_einsatzwert": 0.55,
-    "n": 185,
-    "begonnen": 146,
-    "quote": 0.789
+    "n": 212,
+    "begonnen": 164,
+    "quote": 0.774
    },
    {
     "ab_einsatzwert": 0.3,
-    "n": 244,
-    "begonnen": 166,
-    "quote": 0.68
+    "n": 276,
+    "begonnen": 188,
+    "quote": 0.681
    }
   ],
   "sicher_daneben_grund": {
@@ -326,90 +326,90 @@
   "sicher_aber_nicht_begonnen": []
  },
  "normale_woche": {
-  "teams": 15,
-  "elf_treffer_schnitt": 9.0,
-  "elf_quote": 0.818,
+  "teams": 17,
+  "elf_treffer_schnitt": 8.88,
+  "elf_quote": 0.807,
   "elf_verteilung": {
    "11": 1,
    "10": 6,
    "9": 3,
-   "8": 2,
+   "8": 4,
    "7": 3
   },
   "je_stufe": {
    "sicher": {
-    "n": 72,
-    "begonnen": 69,
-    "quote": 0.958
+    "n": 81,
+    "begonnen": 78,
+    "quote": 0.963
    },
    "erwartet": {
-    "n": 79,
-    "begonnen": 60,
-    "quote": 0.759
+    "n": 91,
+    "begonnen": 66,
+    "quote": 0.725
    },
    "unsicher": {
-    "n": 90,
-    "begonnen": 29,
-    "quote": 0.322
+    "n": 103,
+    "begonnen": 36,
+    "quote": 0.35
    },
    "unwahrscheinlich": {
-    "n": 59,
+    "n": 65,
     "begonnen": 5,
-    "quote": 0.085
+    "quote": 0.077
    },
    "ausgeschlossen": {
-    "n": 53,
+    "n": 59,
     "begonnen": 1,
-    "quote": 0.019
+    "quote": 0.017
    }
   },
   "kalibrierung": [
    {
     "ab_einsatzwert": 1.0,
-    "n": 67,
-    "begonnen": 63,
-    "quote": 0.94
+    "n": 76,
+    "begonnen": 72,
+    "quote": 0.947
    },
    {
     "ab_einsatzwert": 0.95,
-    "n": 75,
-    "begonnen": 70,
-    "quote": 0.933
+    "n": 84,
+    "begonnen": 79,
+    "quote": 0.94
    },
    {
     "ab_einsatzwert": 0.9,
-    "n": 87,
-    "begonnen": 78,
-    "quote": 0.897
+    "n": 99,
+    "begonnen": 89,
+    "quote": 0.899
    },
    {
     "ab_einsatzwert": 0.85,
-    "n": 107,
-    "begonnen": 94,
-    "quote": 0.879
+    "n": 121,
+    "begonnen": 107,
+    "quote": 0.884
    },
    {
     "ab_einsatzwert": 0.8,
-    "n": 122,
-    "begonnen": 105,
-    "quote": 0.861
+    "n": 136,
+    "begonnen": 118,
+    "quote": 0.868
    },
    {
     "ab_einsatzwert": 0.7,
-    "n": 147,
-    "begonnen": 124,
-    "quote": 0.844
+    "n": 167,
+    "begonnen": 139,
+    "quote": 0.832
    },
    {
     "ab_einsatzwert": 0.55,
-    "n": 170,
-    "begonnen": 135,
-    "quote": 0.794
+    "n": 197,
+    "begonnen": 153,
+    "quote": 0.777
    },
    {
     "ab_einsatzwert": 0.3,
-    "n": 227,
-    "begonnen": 155,
+    "n": 259,
+    "begonnen": 177,
     "quote": 0.683
    }
   ],
@@ -647,6 +647,96 @@
      "kader": "bank"
     }
    ]
+  },
+  "10": {
+   "teams": 2,
+   "elf_treffer_schnitt": 8.0,
+   "elf_quote": 0.727,
+   "elf_verteilung": {
+    "8": 2
+   },
+   "je_stufe": {
+    "sicher": {
+     "n": 9,
+     "begonnen": 9,
+     "quote": 1.0
+    },
+    "erwartet": {
+     "n": 12,
+     "begonnen": 6,
+     "quote": 0.5
+    },
+    "unsicher": {
+     "n": 13,
+     "begonnen": 7,
+     "quote": 0.538
+    },
+    "unwahrscheinlich": {
+     "n": 6,
+     "begonnen": 0,
+     "quote": 0.0
+    },
+    "ausgeschlossen": {
+     "n": 6,
+     "begonnen": 0,
+     "quote": 0.0
+    }
+   },
+   "kalibrierung": [
+    {
+     "ab_einsatzwert": 1.0,
+     "n": 9,
+     "begonnen": 9,
+     "quote": 1.0
+    },
+    {
+     "ab_einsatzwert": 0.95,
+     "n": 9,
+     "begonnen": 9,
+     "quote": 1.0
+    },
+    {
+     "ab_einsatzwert": 0.9,
+     "n": 12,
+     "begonnen": 11,
+     "quote": 0.917
+    },
+    {
+     "ab_einsatzwert": 0.85,
+     "n": 14,
+     "begonnen": 13,
+     "quote": 0.929
+    },
+    {
+     "ab_einsatzwert": 0.8,
+     "n": 14,
+     "begonnen": 13,
+     "quote": 0.929
+    },
+    {
+     "ab_einsatzwert": 0.7,
+     "n": 20,
+     "begonnen": 15,
+     "quote": 0.75
+    },
+    {
+     "ab_einsatzwert": 0.55,
+     "n": 27,
+     "begonnen": 18,
+     "quote": 0.667
+    },
+    {
+     "ab_einsatzwert": 0.3,
+     "n": 32,
+     "begonnen": 22,
+     "quote": 0.688
+    }
+   ],
+   "sicher_daneben_grund": {
+    "bank": 0,
+    "nicht im Kader": 0
+   },
+   "sicher_aber_nicht_begonnen": []
   }
  },
  "ohne_prognose": []
