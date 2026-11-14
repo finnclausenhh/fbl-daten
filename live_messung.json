@@ -1,25 +1,13 @@
 {
  "datum": "2026-11-14",
  "spiele": {
-  "12306301": {
-   "spiel": "TSG-SCF",
-   "0:0": {
-    "sportschau": "12:01:00",
-    "apifootball": "12:01:00"
-   },
-   "1:0": {
-    "sportschau": "13:48:03",
-    "apifootball": "13:48:03"
-   }
-  },
   "12306292": {
    "spiel": "SVW-FCU",
    "0:0": {
-    "sportschau": "14:01:09",
-    "apifootball": "14:02:41"
+    "sportschau": "14:31:33"
    },
    "1:0": {
-    "apifootball": "14:31:22"
+    "apifootball": "14:31:33"
    }
   }
  }
