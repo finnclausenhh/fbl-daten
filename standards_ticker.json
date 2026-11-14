@@ -1,5 +1,5 @@
 {
-"spiele": 65,
+"spiele": 66,
 "teams": {
 "FCB": [
 {
@@ -202,7 +202,7 @@
 "kopf": 3,
 "std_kopf": 0,
 "std_tore": 0,
-"ecke_tritt": 0,
+"ecke_tritt": 1,
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 0,
@@ -1851,7 +1851,7 @@
 {
 "k": "SVW",
 "n": "Elena Dhont",
-"kopf": 3,
+"kopf": 4,
 "std_kopf": 3,
 "std_tore": 0,
 "ecke_tritt": 0,
@@ -1926,7 +1926,7 @@
 "fs_l": 0,
 "fs_r": 1,
 "fs_direkt": 0,
-"fs_flanke": 3
+"fs_flanke": 4
 },
 {
 "k": "SVW",
