@@ -2,6 +2,32 @@
  "stand": "2026-11-14T11:07",
  "meldungen": [
   {
+   "id": "fehlt-kaut-tsg-1411",
+   "pid": "00125",
+   "zeit": "2026-11-14T11:07",
+   "spielerin": "Lisann Kaut",
+   "verein": "TSG Hoffenheim",
+   "nr": "",
+   "pos": "ABW",
+   "tags": [
+    "AUFSTELLUNG"
+   ],
+   "status": "fraglich",
+   "headline": "Kaut nicht im Kader gegen SC Freiburg",
+   "text": [
+    "Lisann Kaut steht in der Liga gegen SC Freiburg weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 4-mal.",
+    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
+   ],
+   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306301/tsg-hoffenheim_sc-freiburg/aufstellung"
+    }
+   ],
+   "quelle_live": true
+  },
+  {
    "id": "aufstellung-tsg-1411",
    "zeit": "2026-11-14T11:07",
    "spielerin": "Spielansetzung",
