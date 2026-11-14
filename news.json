@@ -1,37 +1,6 @@
 {
- "stand": "2026-11-14T13:51",
+ "stand": "2026-11-14T14:50",
  "meldungen": [
-  {
-   "id": "comeback-sherif-svw-1411",
-   "pid": "00030",
-   "zeit": "2026-11-14T14:02",
-   "spielerin": "Mariella El Sherif",
-   "verein": "Werder Bremen",
-   "nr": "39",
-   "pos": "TW",
-   "tags": [
-    "RÜCKKEHR"
-   ],
-   "status": "fit",
-   "headline": "Sherif feiert Comeback nach Handverletzung",
-   "text": [
-    "Mariella El Sherif ist nach Handverletzung zurück im Spieltagskader von Werder Bremen.",
-    "Gegen Union Berlin stand sie in der Startelf."
-   ],
-   "kickbase": "Wieder einsatzbereit. Nach der Pause am nächsten Spieltag eher mit begrenzter Spielzeit rechnen, die Startelf ist noch offen.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306292/werder-bremen_1-fc-union-berlin/liveticker"
-    }
-   ],
-   "quelle_live": true,
-   "partie_id": "12306292",
-   "comeback": {
-    "art": "comeback",
-    "stufe": "einsatz"
-   }
-  },
   {
    "id": "endstand-tsg-1411",
    "zeit": "2026-11-14T13:55",
@@ -448,6 +417,37 @@
     ]
    },
    "quelle_live": true
+  },
+  {
+   "id": "comeback-sherif-svw-1411",
+   "pid": "00030",
+   "zeit": "2026-11-14T14:02",
+   "spielerin": "Mariella El Sherif",
+   "verein": "Werder Bremen",
+   "nr": "39",
+   "pos": "TW",
+   "tags": [
+    "RÜCKKEHR"
+   ],
+   "status": "fit",
+   "headline": "Sherif feiert Comeback nach Handverletzung",
+   "text": [
+    "Mariella El Sherif ist nach Handverletzung zurück im Spieltagskader von Werder Bremen.",
+    "Gegen Union Berlin stand sie in der Startelf."
+   ],
+   "kickbase": "Wieder einsatzbereit. Nach der Pause am nächsten Spieltag eher mit begrenzter Spielzeit rechnen, die Startelf ist noch offen.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306292/werder-bremen_1-fc-union-berlin/liveticker"
+    }
+   ],
+   "quelle_live": true,
+   "partie_id": "12306292",
+   "comeback": {
+    "art": "comeback",
+    "stufe": "einsatz"
+   }
   },
   {
    "id": "aufstellung-scf-1411",
@@ -9815,143 +9815,6 @@
      ]
     }
    ]
-  },
-  {
-   "id": "startelf-koe-3110",
-   "zeit": "2026-10-31T12:04",
-   "spielerin": "Spielansetzung",
-   "verein": "1. FC Köln",
-   "nr": "",
-   "pos": "Spielansetzung",
-   "tags": [
-    "POKAL"
-   ],
-   "headline": "Köln im Pokal gegen Leipzig ohne Ziemer und Zeller",
-   "text": [
-    "Der 1. FC Köln empfängt heute um 13 Uhr RB Leipzig zum DFB-Pokal-Achtelfinale. Trainerin Carlson schickt Schmitz, Imping, Degen, Bohnen, Hegering, Leimenstoll, Vogt, Feiersinger, Elsen, Bremer und Andrade in die Startelf.",
-    "Kathrin Hendrich sitzt auf der Bank, Taylor Ziemer und Dóra Zeller stehen weder in der Startelf noch im Spieltagskader der Vereinsmeldung. Einen Grund nennt der Verein nicht, beide galten zuletzt als fraglich."
-   ],
-   "kickbase": "Für den Ligaalltag taugt die Pokalelf nur bedingt als Hinweis, Rotation ist in Köln ohnehin Dauerzustand. Ziemer und Zeller sollten bis zu einer Klärung als unsicher gelten.",
-   "quellen": [
-    {
-     "name": "1. FC Köln",
-     "url": "https://fc.de/aktuelles/news/startelf-der-fc-frauen-im-pokal-heimspiel"
-    }
-   ],
-   "aufstellung": {
-    "gegner": "RB Leipzig",
-    "wettbewerb": "DFB-Pokal",
-    "startelf": [
-     {
-      "n": "Schmitz",
-      "p": "TW",
-      "pid": "00181"
-     },
-     {
-      "n": "Degen",
-      "p": "ABW",
-      "pid": "00185"
-     },
-     {
-      "n": "Bohnen",
-      "p": "ABW",
-      "pid": "00184"
-     },
-     {
-      "n": "Hegering",
-      "p": "ABW",
-      "pid": "00188"
-     },
-     {
-      "n": "Imping",
-      "p": "DM",
-      "pid": "00191"
-     },
-     {
-      "n": "Vogt",
-      "p": "DM",
-      "pid": "00203"
-     },
-     {
-      "n": "Leimenstoll",
-      "p": "DM",
-      "pid": "00209"
-     },
-     {
-      "n": "Feiersinger",
-      "p": "OM",
-      "pid": "00196"
-     },
-     {
-      "n": "Elsen",
-      "p": "OM",
-      "pid": "00208"
-     },
-     {
-      "n": "Bremer",
-      "p": "ST",
-      "pid": "00206"
-     },
-     {
-      "n": "Andrade",
-      "p": "ST",
-      "pid": "00205"
-     }
-    ],
-    "bank": [
-     {
-      "n": "Donhauser",
-      "p": "ABW",
-      "pid": "00186"
-     },
-     {
-      "n": "Hendrich",
-      "p": "ABW",
-      "pid": "00189"
-     },
-     {
-      "n": "Nelles",
-      "p": "TW",
-      "pid": "00180"
-     },
-     {
-      "n": "Dübel",
-      "p": "TW",
-      "pid": "00177"
-     },
-     {
-      "n": "Weber",
-      "p": "ABW",
-      "pid": "00195"
-     },
-     {
-      "n": "Kerschbaumer",
-      "p": "MF",
-      "pid": "00199"
-     },
-     {
-      "n": "Schiffarth",
-      "p": "MF",
-      "pid": "00202"
-     },
-     {
-      "n": "Paci",
-      "p": "MF"
-     }
-    ],
-    "fehlt": [
-     {
-      "n": "Ziemer",
-      "p": "MF",
-      "pid": "00204"
-     },
-     {
-      "n": "Zeller",
-      "p": "ST",
-      "pid": "00212"
-     }
-    ]
-   }
   }
  ]
 }
