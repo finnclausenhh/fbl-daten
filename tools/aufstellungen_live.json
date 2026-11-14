@@ -1,6 +1,34 @@
 {
  "meldungen": [
   {
+   "id": "endstand-wob-1411",
+   "zeit": "2026-11-14T19:48",
+   "spielerin": "VfL Wolfsburg gegen FC Bayern",
+   "verein": "VfL Wolfsburg",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "SPIELBERICHT"
+   ],
+   "headline": "Endstand: VfL Wolfsburg 1:4 FC Bayern",
+   "kurz": "Endstand WOB 1:4 FCB",
+   "text": [
+    "FC Bayern gewinnt beim VfL Wolfsburg mit 4:1.",
+    "Tore: 0:1 Amani (36., Vorlage Bühl), 0:2 Dallmann (45+2., Vorlage Damnjanović), 0:3 Minge (57., Eigentor), 0:4 Amani (81., Vorlage Bühl), 1:4 Fløe (90+2., Vorlage Peddemors).",
+    "Gelb: Amani, Naschenweng, Imade.",
+    "Noten und der ausführliche Bericht folgen."
+   ],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306313/vfl-wolfsburg_bayern-muenchen/liveticker"
+    }
+   ],
+   "quelle_live": true,
+   "partie_id": "12306313"
+  },
+  {
    "id": "comeback-sherif-svw-1411",
    "pid": "00030",
    "zeit": "2026-11-14T14:00",
