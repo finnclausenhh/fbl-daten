@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-14T14:50",
+ "stand": "2026-11-14T16:10",
  "meldungen": [
   {
    "id": "endstand-svw-1411",
@@ -470,13 +470,18 @@
    "headline": "Sherif feiert Comeback nach Handverletzung",
    "text": [
     "Mariella El Sherif ist nach Handverletzung zurück im Spieltagskader von Werder Bremen.",
-    "Gegen Union Berlin stand sie in der Startelf und spielte durch. Insgesamt spielte sie 90 Minuten."
+    "Gegen Union Berlin stand sie in der Startelf und spielte durch. Insgesamt spielte sie 90 Minuten.",
+    "API-Football bewertet ihren Auftritt mit der Note 6,8 (ordentlich)."
    ],
    "kickbase": "Wieder einsatzbereit. Nach der Pause am nächsten Spieltag eher mit begrenzter Spielzeit rechnen, die Startelf ist noch offen.",
    "quellen": [
     {
      "name": "Sportschau",
      "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306292/werder-bremen_1-fc-union-berlin/liveticker"
+    },
+    {
+     "name": "API-Football (Note)",
+     "url": "https://www.api-football.com"
     }
    ],
    "quelle_live": true,
