@@ -46,6 +46,11 @@
     "zeit": "2026-11-13T16:00",
     "titel": "Punktejagd in Leipzig",
     "url": "https://frauen.eintracht.de/news/punktejagd-in-leipzig-180392"
+   },
+   "RBL": {
+    "zeit": "2026-11-13T16:25",
+    "titel": "Rb leipzig frauen spielvorschau eintracht frankfurt spannung red bull arena",
+    "url": "https://rbleipzig.com/de/news/rb-leipzig-frauen-spielvorschau-eintracht-frankfurt-spannung-red-bull-arena"
    }
   }
  },
@@ -74,6 +79,11 @@
     "md": 9,
     "tage_vorher": 3,
     "uhr": "15:23"
+   },
+   {
+    "md": 10,
+    "tage_vorher": 2,
+    "uhr": "16:25"
    }
   ],
   "FCN": [
@@ -150,5 +160,5 @@
    }
   ]
  },
- "stand": "2026-11-13T22:24"
+ "stand": "2026-11-14T07:25"
 }
