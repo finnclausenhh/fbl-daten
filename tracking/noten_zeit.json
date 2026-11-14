@@ -98,5 +98,18 @@
   "noten_da": "2026-11-13T20:24",
   "minuten_nach_abpfiff": 2,
   "bau_gestartet": "2026-11-13T20:24"
+ },
+ "12306301": {
+  "spiel": "TSG-SCF",
+  "anstoss": "2026-11-14T12:00",
+  "abpfiff_ca": "2026-11-14T13:49",
+  "fixture": 1593172,
+  "af_status": "FT",
+  "erste_pruefung": "2026-11-14T13:50",
+  "noten_zuletzt": 36,
+  "letzte_pruefung": "2026-11-14T13:50",
+  "noten_da": "2026-11-14T13:50",
+  "minuten_nach_abpfiff": 2,
+  "bau_gestartet": "2026-11-14T13:50"
  }
 }
