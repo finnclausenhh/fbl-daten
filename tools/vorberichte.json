@@ -51,6 +51,11 @@
     "zeit": "2026-11-13T16:25",
     "titel": "Rb leipzig frauen spielvorschau eintracht frankfurt spannung red bull arena",
     "url": "https://rbleipzig.com/de/news/rb-leipzig-frauen-spielvorschau-eintracht-frankfurt-spannung-red-bull-arena"
+   },
+   "WOB": {
+    "zeit": "2026-11-13T00:00",
+    "titel": "La Clasica: Wölfinnen empfangen den FC Bayern",
+    "url": "https://www.vfl-wolfsburg.de/newsdetails/news-detail/detail/news/la-clasica-woelfinnen-empfangen-den-fc-bayern"
    }
   }
  },
@@ -158,7 +163,14 @@
     "tage_vorher": 2,
     "uhr": "16:00"
    }
+  ],
+  "WOB": [
+   {
+    "md": 10,
+    "tage_vorher": 1,
+    "uhr": null
+   }
   ]
  },
- "stand": "2026-11-14T07:25"
+ "stand": "2026-11-14T10:23"
 }
