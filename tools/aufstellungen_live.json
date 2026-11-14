@@ -11,9 +11,7 @@
     "TOP"
    ],
    "headline": "Offizielle Aufstellung: VfL Wolfsburg gegen FC Bayern",
-   "text": [
-    "Die Bank folgt, sobald sie veröffentlicht ist."
-   ],
+   "text": [],
    "kickbase": "",
    "quellen": [
     {
@@ -84,10 +82,69 @@
       "pid": "00412"
      }
     ],
-    "bank": [],
-    "fehlt": [],
-    "bank_offen": true,
-    "nicht_startelf": []
+    "bank": [
+     {
+      "n": "Tufeković",
+      "p": "TW",
+      "pid": "00391"
+     },
+     {
+      "n": "Kleinherne",
+      "p": "ABW",
+      "pid": "00395"
+     },
+     {
+      "n": "Wedemeyer",
+      "p": "ABW",
+      "pid": "00399"
+     },
+     {
+      "n": "Bogaert",
+      "p": "ABW",
+      "pid": "00393"
+     },
+     {
+      "n": "Lattwein",
+      "p": "MF",
+      "pid": "00403"
+     },
+     {
+      "n": "Piljic",
+      "p": "MF",
+      "pid": "00406"
+     },
+     {
+      "n": "Alber",
+      "p": "MF",
+      "pid": "00400"
+     },
+     {
+      "n": "Bussy",
+      "p": "ST",
+      "pid": "00408"
+     },
+     {
+      "n": "Fløe",
+      "p": "ST",
+      "pid": "00409"
+     }
+    ],
+    "fehlt": [
+     {
+      "n": "Landenberger",
+      "p": "ABW",
+      "pid": "00397",
+      "f": "raus",
+      "war": "Bank"
+     },
+     {
+      "n": "Kerim-Lindland",
+      "p": "ST",
+      "pid": "00411",
+      "f": "raus",
+      "war": "Bank"
+     }
+    ]
    },
    "quelle_live": true
   },
