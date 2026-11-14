@@ -111,5 +111,18 @@
   "noten_da": "2026-11-14T13:50",
   "minuten_nach_abpfiff": 2,
   "bau_gestartet": "2026-11-14T13:50"
+ },
+ "12306292": {
+  "spiel": "SVW-FCU",
+  "anstoss": "2026-11-14T14:00",
+  "abpfiff_ca": "2026-11-14T15:53",
+  "fixture": 1593175,
+  "af_status": "FT",
+  "erste_pruefung": "2026-11-14T15:56",
+  "noten_zuletzt": 40,
+  "letzte_pruefung": "2026-11-14T15:56",
+  "noten_da": "2026-11-14T15:56",
+  "minuten_nach_abpfiff": 3,
+  "bau_gestartet": "2026-11-14T15:56"
  }
 }
