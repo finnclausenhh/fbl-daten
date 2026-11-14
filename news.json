@@ -1,6 +1,33 @@
 {
- "stand": "2026-11-14T10:23",
+ "stand": "2026-11-14T10:40",
  "meldungen": [
+  {
+   "id": "aufstellung-folgt-ma12306301",
+   "zeit": "2026-11-14T10:40",
+   "spielerin": "Spielansetzung",
+   "verein": "TSG Hoffenheim",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "AUFSTELLUNG"
+   ],
+   "headline": "Aufstellung TSG Hoffenheim gegen SC Freiburg folgt",
+   "kurz": "Aufstellung folgt, Anpfiff 12:00",
+   "text": [
+    "Anpfiff in der Liga ist um 12:00 Uhr. Die offizielle Aufstellung kommt meist rund 60 Minuten vorher, wir ergänzen sie hier automatisch, sobald sie veröffentlicht ist.",
+    "Bis dahin steht unsere Prognose im Spielplan bei der Partie."
+   ],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306301/tsg-hoffenheim_sc-freiburg/aufstellung"
+    }
+   ],
+   "platzhalter": true,
+   "anstoss": "2026-11-14T12:00",
+   "partie_id": "12306301"
+  },
   {
    "id": "redzepi-1411",
    "pid": "00347",
