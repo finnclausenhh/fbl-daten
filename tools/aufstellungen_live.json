@@ -1,21 +1,17 @@
 {
  "meldungen": [
   {
-   "id": "aufstellung-folgt-ma12306292",
-   "zeit": "2026-11-14T12:40",
+   "id": "aufstellung-svw-1411",
+   "zeit": "2026-11-14T13:10",
    "spielerin": "Spielansetzung",
    "verein": "Werder Bremen",
    "nr": "",
    "pos": "Spielansetzung",
    "tags": [
-    "AUFSTELLUNG"
+    "TOP"
    ],
-   "headline": "Aufstellung Werder Bremen gegen Union Berlin folgt",
-   "kurz": "Aufstellung folgt, Anpfiff 14:00",
-   "text": [
-    "Anpfiff in der Liga ist um 14:00 Uhr. Die offizielle Aufstellung kommt meist rund 60 Minuten vorher, wir ergänzen sie hier automatisch, sobald sie veröffentlicht ist.",
-    "Bis dahin steht unsere Prognose im Spielplan bei der Partie."
-   ],
+   "headline": "Offizielle Aufstellung: Werder Bremen gegen Union Berlin",
+   "text": [],
    "kickbase": "",
    "quellen": [
     {
@@ -23,9 +19,334 @@
      "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306292/werder-bremen_1-fc-union-berlin/aufstellung"
     }
    ],
-   "platzhalter": true,
-   "anstoss": "2026-11-14T14:00",
-   "partie_id": "12306292"
+   "aufstellung": {
+    "gegner": "Union Berlin",
+    "formation": "4-2-3-1",
+    "startelf": [
+     {
+      "n": "El Sherif",
+      "p": "TW",
+      "pid": "00030",
+      "f": "neu"
+     },
+     {
+      "n": "Weiß",
+      "p": "ABW",
+      "pid": "00041"
+     },
+     {
+      "n": "Ulbrich",
+      "p": "ABW",
+      "pid": "00040"
+     },
+     {
+      "n": "Gutmann",
+      "p": "ABW",
+      "pid": "00035"
+     },
+     {
+      "n": "Zieniewicz",
+      "p": "ABW",
+      "pid": "00042"
+     },
+     {
+      "n": "Hipp",
+      "p": "DM",
+      "pid": "00045",
+      "kp": "MF"
+     },
+     {
+      "n": "Wirtz",
+      "p": "DM",
+      "pid": "00048",
+      "kp": "MF"
+     },
+     {
+      "n": "Purtscheller",
+      "p": "OM",
+      "pid": "00047",
+      "kp": "MF"
+     },
+     {
+      "n": "Vanzeir",
+      "p": "OM",
+      "pid": "00055",
+      "kp": "MF"
+     },
+     {
+      "n": "Jaron",
+      "p": "OM",
+      "pid": "00051",
+      "kp": "ST",
+      "f": "neu"
+     },
+     {
+      "n": "Mahmoud",
+      "p": "ST",
+      "pid": "00052"
+     }
+    ],
+    "bank": [
+     {
+      "n": "Fischer",
+      "p": "TW",
+      "pid": "00032",
+      "f": "raus"
+     },
+     {
+      "n": "Sträßer",
+      "p": "ABW",
+      "pid": "00039"
+     },
+     {
+      "n": "Penner",
+      "p": "ABW",
+      "pid": "00037"
+     },
+     {
+      "n": "Mühlemann",
+      "p": "MF",
+      "pid": "00046"
+     },
+     {
+      "n": "Gmeineder",
+      "p": "MF",
+      "pid": "00044"
+     },
+     {
+      "n": "Ernst",
+      "p": "MF",
+      "pid": "00043"
+     },
+     {
+      "n": "Dhont",
+      "p": "ST",
+      "pid": "00050",
+      "f": "raus"
+     },
+     {
+      "n": "Shimada",
+      "p": "ST",
+      "pid": "00054"
+     },
+     {
+      "n": "Dešić",
+      "p": "ST",
+      "pid": "00049"
+     }
+    ],
+    "fehlt": [
+     {
+      "n": "Farwick",
+      "p": "TW",
+      "f": "raus",
+      "war": "Bank"
+     },
+     {
+      "n": "Özdemir",
+      "p": "TW"
+     },
+     {
+      "n": "D'Angelo",
+      "p": "ABW"
+     },
+     {
+      "n": "Magerl",
+      "p": "ABW"
+     },
+     {
+      "n": "Siems",
+      "p": "ABW"
+     },
+     {
+      "n": "Petermann",
+      "p": "ST"
+     }
+    ]
+   },
+   "quelle_live": true
+  },
+  {
+   "id": "aufstellung-fcu-1411",
+   "zeit": "2026-11-14T13:10",
+   "spielerin": "Spielansetzung",
+   "verein": "Union Berlin",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "TOP"
+   ],
+   "headline": "Offizielle Aufstellung: Union Berlin gegen Werder Bremen",
+   "text": [],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306292/werder-bremen_1-fc-union-berlin/aufstellung"
+    }
+   ],
+   "aufstellung": {
+    "gegner": "Werder Bremen",
+    "formation": "4-2-2-2",
+    "startelf": [
+     {
+      "n": "Böhi",
+      "p": "TW",
+      "pid": "00357"
+     },
+     {
+      "n": "Schneider",
+      "p": "ABW",
+      "pid": "00366"
+     },
+     {
+      "n": "Tysiak",
+      "p": "ABW",
+      "pid": "00369"
+     },
+     {
+      "n": "Steuerwald",
+      "p": "ABW",
+      "pid": "00368"
+     },
+     {
+      "n": "Veit",
+      "p": "ABW",
+      "pid": "00370",
+      "f": "neu"
+     },
+     {
+      "n": "Gräwe",
+      "p": "DM",
+      "pid": "00372",
+      "kp": "MF"
+     },
+     {
+      "n": "Hausicke",
+      "p": "DM",
+      "pid": "00373",
+      "kp": "MF"
+     },
+     {
+      "n": "Janssens",
+      "p": "OM",
+      "pid": "00363",
+      "kp": "ABW"
+     },
+     {
+      "n": "Judit Pujols",
+      "p": "OM",
+      "pid": "00364",
+      "kp": "ABW"
+     },
+     {
+      "n": "Bauereisen",
+      "p": "ST",
+      "pid": "00381"
+     },
+     {
+      "n": "Kamber",
+      "p": "ST",
+      "pid": "00376",
+      "kp": "MF"
+     }
+    ],
+    "bank": [
+     {
+      "n": "Bösl",
+      "p": "TW",
+      "pid": "00358"
+     },
+     {
+      "n": "Steinert",
+      "p": "ABW",
+      "pid": "00367"
+     },
+     {
+      "n": "Weiß",
+      "p": "ABW",
+      "pid": "00371"
+     },
+     {
+      "n": "Heiseler",
+      "p": "ST",
+      "pid": "00374"
+     },
+     {
+      "n": "Weidauer",
+      "p": "ST",
+      "pid": "00387"
+     },
+     {
+      "n": "Egli",
+      "p": "ST",
+      "pid": "00383"
+     },
+     {
+      "n": "Reissner",
+      "p": "ST",
+      "pid": "00386",
+      "f": "raus"
+     },
+     {
+      "n": "Campbell",
+      "p": "ST",
+      "pid": "00382"
+     },
+     {
+      "n": "Orschmann",
+      "p": "ST",
+      "pid": "00385"
+     }
+    ],
+    "fehlt": [
+     {
+      "n": "Schulz",
+      "p": "TW"
+     },
+     {
+      "n": "Smolarczyk",
+      "p": "TW"
+     },
+     {
+      "n": "Aehling",
+      "p": "ABW"
+     },
+     {
+      "n": "Heikkinen",
+      "p": "ABW"
+     },
+     {
+      "n": "Noack",
+      "p": "ABW"
+     },
+     {
+      "n": "Janež",
+      "p": "MF"
+     },
+     {
+      "n": "Laidler",
+      "p": "MF"
+     },
+     {
+      "n": "Pawollek",
+      "p": "MF"
+     },
+     {
+      "n": "Seifert",
+      "p": "MF"
+     },
+     {
+      "n": "Nkili",
+      "p": "ST"
+     },
+     {
+      "n": "Eurlings",
+      "p": "ST"
+     }
+    ]
+   },
+   "quelle_live": true
   },
   {
    "id": "fehlt-kaut-tsg-1411",
@@ -812,7 +1133,8 @@
   "fehlt-alara-fcb-1011",
   "aufstellung-folgt-dfb2431431",
   "aufstellung-folgt-ma12306295",
-  "aufstellung-folgt-ma12306301"
+  "aufstellung-folgt-ma12306301",
+  "aufstellung-folgt-ma12306292"
  ],
  "ableitungen": [
   {
