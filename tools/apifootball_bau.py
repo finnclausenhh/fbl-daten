@@ -684,6 +684,7 @@ if gelb4 and anst:
     # Vorbericht: fester Artikel am Tag vor dem ersten Spiel, 10:15 (liegt das schon zurück: sofort)
     vor = (datetime.datetime.fromisoformat(anst[0]) - datetime.timedelta(days=1)).replace(hour=10, minute=15)
     news.append({"id": f"af-gelb-vor-md{NMD}", "zeit": (vor if vor > jetzt else jetzt).strftime("%Y-%m-%dT%H:%M"), "fix": True,
+        "spielerin": "Gelbsperren", "verein": "", "pos": f"{NMD}. Spieltag", "symbol": "gelb_droht",
         "tags": ["GELBSPERRE", "VORBERICHT"], "headline": f"Gelbsperre droht: {len(gelb4)} {'Spielerin steht' if len(gelb4) == 1 else 'Spielerinnen stehen'} vor dem {NMD}. Spieltag bei vier Gelben",
         "kurz": f"Gelbsperre droht: {', '.join(x['n'].split()[-1] for x in gelb4)}",
         "text": ["Mit der fünften Gelben Karte ist eine Spielerin in der Frauen-Bundesliga ein Spiel gesperrt. Vor dem Spieltag stehen bei vier Gelben:"] +
@@ -694,6 +695,7 @@ if gelb5 and letzt:
     # Nachbericht: fester Artikel am Tag nach dem letzten Spiel, 10:15
     nach = (datetime.datetime.fromisoformat(letzt) + datetime.timedelta(days=1)).replace(hour=10, minute=15)
     news.append({"id": f"af-gelb-nach-md{MDL}", "zeit": nach.strftime("%Y-%m-%dT%H:%M"), "fix": True, "tags": ["GELBSPERRE", "SPERRE"],
+        "spielerin": "Gelbsperren", "verein": "", "pos": f"{MDL}. Spieltag", "symbol": "gelbsperre",
         "headline": f"Neue Gelbsperren nach dem {MDL}. Spieltag", "kurz": f"Gelbgesperrt: {', '.join(x['n'].split()[-1] for x in gelb5)}",
         "text": ["Diese Spielerinnen haben am Spieltag ihre fünfte Gelbe Karte gesehen und stehen auf der Sperrenliste des DFB:"] +
                 [f"{x['n']} ({VN(x['k'])}) fehlt {naechster_gegner(x['k'])}." for x in gelb5],
