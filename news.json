@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-14T10:40",
+ "stand": "2026-11-14T10:49",
  "meldungen": [
   {
    "id": "aufstellung-folgt-ma12306301",
@@ -440,7 +440,7 @@
     "UPDATE"
    ],
    "headline": "Vor dem 10. Spieltag: Pressekonferenzen, Vorberichte und späte Updates",
-   "kurz": "10. Spieltag: wer wann spricht, wer wann berichtet (11 von 14 Vorberichten da)",
+   "kurz": "10. Spieltag: wer wann spricht, wer wann berichtet (9 von 14 Vorberichten da)",
    "text": [
     "Vor dem 10. Spieltag geben nur wenige Vereine eine Pressekonferenz. Was dort zum Personal gesagt wird, ist oft die letzte Info vor der offiziellen Aufstellung.",
     "VfL Wolfsburg (gegen FC Bayern, Sa 14.11., 17:55 Uhr): Vor solchen Spielen gibt es üblicherweise eine Pressekonferenz mit Trainer Stephan Lerch, meist am Vortag (Fr 13.11.). Einen Termin hat der Verein noch nicht genannt, danach Zusammenfassung auf vfl-wolfsburg.de.",
@@ -450,9 +450,9 @@
     "Hamburger SV gegen Mainz 05 (Fr 13.11., 18:30 Uhr): Hamburger SV online: „Flutlicht-Freitag: HSV-Frauen empfangen Mainz 05 im Volkspark“; Mainz 05 seit Do 12.11., 13:00 Uhr: 05-Frauen vor Hamburg: „Müssen mithalten und dürfen uns nicht verstecken“.",
     "TSG Hoffenheim gegen SC Freiburg (Sa 14.11., 12:00 Uhr): TSG Hoffenheim seit Do 12.11., 17:14 Uhr: „Virsinger vor #TSGSCF: Müssen Großchancen verwandeln“; SC Freiburg seit Do 12.11.: „Kaltschnäuziger und klarer“ auftreten.",
     "Werder Bremen gegen Union Berlin (Sa 14.11., 14:00 Uhr): Werder Bremen noch nicht da, zuletzt am Vortag, gegen 16 Uhr; Union Berlin seit Fr 13.11., 09:00 Uhr: „Unionerinnen mit Rückenwind an die Weser“.",
-    "VfL Wolfsburg gegen FC Bayern (Sa 14.11., 17:55 Uhr): VfL Wolfsburg seit Fr 13.11.: „La Clasica: Wölfinnen empfangen den FC Bayern“; FC Bayern seit Fr 13.11., 09:45 Uhr: „Faktenlage: VfL Wolfsburg – FC Bayern Frauen“.",
+    "VfL Wolfsburg gegen FC Bayern (Sa 14.11., 17:55 Uhr): VfL Wolfsburg noch nicht da, noch kein fester Rhythmus bekannt; FC Bayern seit Fr 13.11., 09:45 Uhr: „Faktenlage: VfL Wolfsburg – FC Bayern Frauen“.",
     "1. FC Nürnberg gegen 1. FC Köln (So 15.11., 16:00 Uhr): 1. FC Nürnberg noch nicht da, zuletzt am Vortag; 1. FC Köln seit Fr 13.11., 12:00 Uhr: „FC-Frauen: Spannendes Duell in Nürnberg“.",
-    "RB Leipzig gegen Eintracht Frankfurt (So 15.11., 16:00 Uhr): RB Leipzig seit Fr 13.11., 16:25 Uhr: „Rb leipzig frauen spielvorschau eintracht frankfurt spannung red bull arena“; Eintracht Frankfurt seit Fr 13.11., 16:00 Uhr: „Punktejagd in Leipzig“.",
+    "RB Leipzig gegen Eintracht Frankfurt (So 15.11., 16:00 Uhr): RB Leipzig noch nicht da, zuletzt drei Tage vorher, gegen 15 Uhr; Eintracht Frankfurt seit Fr 13.11., 16:00 Uhr: „Punktejagd in Leipzig“.",
     "VfB Stuttgart gegen Bayer Leverkusen (Mo 16.11., 18:00 Uhr): VfB Stuttgart seit Fr 13.11., 13:22 Uhr: „Matchfacts: VfB-Frauen – Bayer 04 Leverkusen“; Bayer Leverkusen noch nicht da, zuletzt am Vortag.",
     "Die offiziellen Aufstellungen kommen etwa eine Stunde vor Anpfiff, wir melden sie automatisch. Bis dahin sind Last-Minute-Änderungen möglich, gerade bei Vereinen, die unter der Woche im Europapokal gespielt haben."
    ],
@@ -479,20 +479,12 @@
      "url": "https://www.fc-union-berlin.de/de/meldungen/unionerinnen-mit-rueckenwind-an-die-weser-CvS4Jm"
     },
     {
-     "name": "Vorbericht VfL Wolfsburg",
-     "url": "https://www.vfl-wolfsburg.de/newsdetails/news-detail/detail/news/la-clasica-woelfinnen-empfangen-den-fc-bayern"
-    },
-    {
      "name": "Vorbericht FC Bayern",
      "url": "https://fcbayern.com/frauen/de/news/2026/11/faktenlage-vfl-wolfsburg---fc-bayern-frauen"
     },
     {
      "name": "Vorbericht 1. FC Köln",
      "url": "https://fc.de/aktuelles/news/fc-frauen-spannendes-duell-in-nuernberg"
-    },
-    {
-     "name": "Vorbericht RB Leipzig",
-     "url": "https://rbleipzig.com/de/news/rb-leipzig-frauen-spielvorschau-eintracht-frankfurt-spannung-red-bull-arena"
     },
     {
      "name": "Vorbericht Eintracht Frankfurt",
