@@ -56,6 +56,11 @@
     "zeit": "2026-11-13T00:00",
     "titel": "La Clasica: Wölfinnen empfangen den FC Bayern",
     "url": "https://www.vfl-wolfsburg.de/newsdetails/news-detail/detail/news/la-clasica-woelfinnen-empfangen-den-fc-bayern"
+   },
+   "B04": {
+    "zeit": "2026-11-14T00:00",
+    "titel": "„Frisch in die Woche gehen“: Frauen reisen nach Stuttgart",
+    "url": "https://www.bayer04.de/de-de/news/frauen/frisch-in-die-woche-gehen-frauen-reisen-nach-stuttgart"
    }
   }
  },
@@ -102,6 +107,11 @@
    {
     "md": 9,
     "tage_vorher": 1,
+    "uhr": null
+   },
+   {
+    "md": 10,
+    "tage_vorher": 2,
     "uhr": null
    }
   ],
@@ -172,5 +182,5 @@
    }
   ]
  },
- "stand": "2026-11-14T10:23"
+ "stand": "2026-11-14T13:12"
 }
