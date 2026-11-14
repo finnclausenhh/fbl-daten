@@ -1,20 +1,18 @@
 {
  "meldungen": [
   {
-   "id": "aufstellung-folgt-ma12306301",
-   "zeit": "2026-11-14T10:40",
+   "id": "aufstellung-tsg-1411",
+   "zeit": "2026-11-14T11:07",
    "spielerin": "Spielansetzung",
    "verein": "TSG Hoffenheim",
    "nr": "",
    "pos": "Spielansetzung",
    "tags": [
-    "AUFSTELLUNG"
+    "TOP"
    ],
-   "headline": "Aufstellung TSG Hoffenheim gegen SC Freiburg folgt",
-   "kurz": "Aufstellung folgt, Anpfiff 12:00",
+   "headline": "Offizielle Aufstellung: TSG Hoffenheim gegen SC Freiburg",
    "text": [
-    "Anpfiff in der Liga ist um 12:00 Uhr. Die offizielle Aufstellung kommt meist rund 60 Minuten vorher, wir ergänzen sie hier automatisch, sobald sie veröffentlicht ist.",
-    "Bis dahin steht unsere Prognose im Spielplan bei der Partie."
+    "Nicht im Spieltagskader, obwohl im letzten Ligaspiel dabei: Kaut. Einen Grund nennt bisher keine Quelle."
    ],
    "kickbase": "",
    "quellen": [
@@ -23,9 +21,383 @@
      "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306301/tsg-hoffenheim_sc-freiburg/aufstellung"
     }
    ],
-   "platzhalter": true,
-   "anstoss": "2026-11-14T12:00",
-   "partie_id": "12306301"
+   "aufstellung": {
+    "gegner": "SC Freiburg",
+    "formation": "4-1-2-3",
+    "startelf": [
+     {
+      "n": "Dick",
+      "p": "TW",
+      "pid": "00119"
+     },
+     {
+      "n": "Gloning",
+      "p": "ABW",
+      "pid": "00131"
+     },
+     {
+      "n": "van de Velde",
+      "p": "ABW",
+      "pid": "00127"
+     },
+     {
+      "n": "Doorn",
+      "p": "ABW",
+      "pid": "00123"
+     },
+     {
+      "n": "Vöhringer",
+      "p": "ABW",
+      "pid": "00139",
+      "f": "neu"
+     },
+     {
+      "n": "Grimm",
+      "p": "DM",
+      "pid": "00132",
+      "kp": "MF"
+     },
+     {
+      "n": "Diehm",
+      "p": "OM",
+      "pid": "00122",
+      "kp": "MF"
+     },
+     {
+      "n": "Steiner",
+      "p": "OM",
+      "pid": "00145",
+      "kp": "MF"
+     },
+     {
+      "n": "Natter",
+      "p": "ST",
+      "pid": "00144"
+     },
+     {
+      "n": "Fölmli",
+      "p": "ST",
+      "pid": "00141"
+     },
+     {
+      "n": "Hahn",
+      "p": "ST",
+      "pid": "00133",
+      "kp": "MF"
+     }
+    ],
+    "bank": [
+     {
+      "n": "Lichtfus",
+      "p": "TW",
+      "pid": "00120"
+     },
+     {
+      "n": "Douma",
+      "p": "ABW",
+      "pid": "00124"
+     },
+     {
+      "n": "Ampoorter",
+      "p": "MF",
+      "pid": "00129"
+     },
+     {
+      "n": "Harsch",
+      "p": "MF",
+      "pid": "00134"
+     },
+     {
+      "n": "Fenger",
+      "p": "ST",
+      "pid": "00140"
+     }
+    ],
+    "fehlt": [
+     {
+      "n": "Bitzer",
+      "p": "ABW",
+      "f": "raus",
+      "war": "Bank"
+     },
+     {
+      "n": "Kaut",
+      "p": "ABW",
+      "f": "raus",
+      "war": "Startelf"
+     },
+     {
+      "n": "Lueger",
+      "p": "ST",
+      "f": "raus",
+      "war": "Bank"
+     },
+     {
+      "n": "Bräutigam",
+      "p": "TW"
+     },
+     {
+      "n": "Ritter",
+      "p": "ABW"
+     },
+     {
+      "n": "Wileschek",
+      "p": "ABW"
+     },
+     {
+      "n": "Delacauw",
+      "p": "MF"
+     },
+     {
+      "n": "Kemper",
+      "p": "MF"
+     },
+     {
+      "n": "Luyet",
+      "p": "MF"
+     },
+     {
+      "n": "Röder",
+      "p": "MF"
+     },
+     {
+      "n": "Thomann",
+      "p": "MF"
+     },
+     {
+      "n": "Martret",
+      "p": "ST",
+      "i": "fraglich"
+     }
+    ]
+   },
+   "quelle_live": true,
+   "ableitungen": [
+    {
+     "verein": "TSG Hoffenheim",
+     "n": "Kaut",
+     "spielerin": "Lisann Kaut",
+     "war": "Startelf",
+     "zeit": "2026-11-14T12:00",
+     "gegner": "SC Freiburg",
+     "wettbewerb": "Liga",
+     "quelle": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306301/tsg-hoffenheim_sc-freiburg/aufstellung",
+     "delta": -1,
+     "bis": "2026-11-24",
+     "grund": "stand am 14.11. gegen SC Freiburg nicht im Spieltagskader, obwohl im letzten Ligaspiel in der Startelf; Grund nicht bekannt"
+    }
+   ]
+  },
+  {
+   "id": "aufstellung-scf-1411",
+   "zeit": "2026-11-14T11:07",
+   "spielerin": "Spielansetzung",
+   "verein": "SC Freiburg",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "TOP"
+   ],
+   "headline": "Offizielle Aufstellung: SC Freiburg gegen TSG Hoffenheim",
+   "text": [],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306301/tsg-hoffenheim_sc-freiburg/aufstellung"
+    }
+   ],
+   "aufstellung": {
+    "gegner": "TSG Hoffenheim",
+    "formation": "4-2-3-1",
+    "startelf": [
+     {
+      "n": "Reimann",
+      "p": "TW",
+      "pid": "00085",
+      "f": "neu"
+     },
+     {
+      "n": "Karl",
+      "p": "ABW",
+      "pid": "00091"
+     },
+     {
+      "n": "Maas",
+      "p": "ABW",
+      "pid": "00092"
+     },
+     {
+      "n": "Stierli",
+      "p": "ABW",
+      "pid": "00095",
+      "f": "neu"
+     },
+     {
+      "n": "Memminger",
+      "p": "ABW",
+      "pid": "00093",
+      "f": "neu"
+     },
+     {
+      "n": "Acikgöz",
+      "p": "DM",
+      "pid": "00098",
+      "kp": "MF"
+     },
+     {
+      "n": "Schneider",
+      "p": "DM",
+      "pid": "00108",
+      "kp": "MF"
+     },
+     {
+      "n": "Vobian",
+      "p": "OM",
+      "pid": "00111",
+      "kp": "MF"
+     },
+     {
+      "n": "Bienz",
+      "p": "OM",
+      "pid": "00100",
+      "kp": "MF",
+      "f": "neu"
+     },
+     {
+      "n": "Vincze",
+      "p": "OM",
+      "pid": "00117",
+      "kp": "ST",
+      "f": "neu"
+     },
+     {
+      "n": "Brunold",
+      "p": "ST",
+      "pid": "00112"
+     }
+    ],
+    "bank": [
+     {
+      "n": "von Schrader",
+      "p": "TW",
+      "pid": "00086"
+     },
+     {
+      "n": "Barth",
+      "p": "TW",
+      "pid": "00083",
+      "f": "raus"
+     },
+     {
+      "n": "Axtmann",
+      "p": "ABW",
+      "pid": "00087"
+     },
+     {
+      "n": "Ojukwu",
+      "p": "MF",
+      "pid": "00106",
+      "f": "raus"
+     },
+     {
+      "n": "Seghir",
+      "p": "MF",
+      "pid": "00109",
+      "f": "raus"
+     },
+     {
+      "n": "Arfaoui",
+      "p": "MF",
+      "pid": "00099"
+     },
+     {
+      "n": "Birkholz",
+      "p": "ST",
+      "pid": "00101",
+      "f": "raus"
+     },
+     {
+      "n": "Simmen",
+      "p": "MF",
+      "pid": "00110"
+     },
+     {
+      "n": "Kolb",
+      "p": "ST",
+      "pid": "00113",
+      "f": "raus"
+     }
+    ],
+    "fehlt": [
+     {
+      "n": "Hebben",
+      "p": "MF",
+      "f": "raus",
+      "war": "Bank"
+     },
+     {
+      "n": "Scherer",
+      "p": "ST",
+      "f": "raus",
+      "i": "Saisonaus",
+      "war": "Bank"
+     },
+     {
+      "n": "Benkarth",
+      "p": "TW"
+     },
+     {
+      "n": "Ernst",
+      "p": "ABW"
+     },
+     {
+      "n": "Ihme",
+      "p": "ABW"
+     },
+     {
+      "n": "Jansen",
+      "p": "ABW"
+     },
+     {
+      "n": "Sigurðardóttir",
+      "p": "ABW"
+     },
+     {
+      "n": "Szenk",
+      "p": "ABW"
+     },
+     {
+      "n": "Vojteková",
+      "p": "ABW"
+     },
+     {
+      "n": "Blumenberg",
+      "p": "MF"
+     },
+     {
+      "n": "Felde",
+      "p": "MF"
+     },
+     {
+      "n": "Grund",
+      "p": "MF"
+     },
+     {
+      "n": "Schick",
+      "p": "MF"
+     },
+     {
+      "n": "Putzer",
+      "p": "ST"
+     },
+     {
+      "n": "Schmitz",
+      "p": "ST"
+     }
+    ]
+   },
+   "quelle_live": true
   },
   {
    "id": "endstand-hsv-1311",
@@ -386,7 +758,8 @@
   "aufstellung-folgt-ma12537195",
   "fehlt-alara-fcb-1011",
   "aufstellung-folgt-dfb2431431",
-  "aufstellung-folgt-ma12306295"
+  "aufstellung-folgt-ma12306295",
+  "aufstellung-folgt-ma12306301"
  ],
  "ableitungen": [
   {
@@ -492,6 +865,19 @@
    "delta": -1,
    "bis": "2026-11-18",
    "grund": "stand am 08.11. gegen Union Berlin nicht im Spieltagskader, obwohl im letzten Ligaspiel in der Startelf; Grund nicht bekannt"
+  },
+  {
+   "verein": "TSG Hoffenheim",
+   "n": "Kaut",
+   "spielerin": "Lisann Kaut",
+   "war": "Startelf",
+   "zeit": "2026-11-14T12:00",
+   "gegner": "SC Freiburg",
+   "wettbewerb": "Liga",
+   "quelle": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306301/tsg-hoffenheim_sc-freiburg/aufstellung",
+   "delta": -1,
+   "bis": "2026-11-24",
+   "grund": "stand am 14.11. gegen SC Freiburg nicht im Spieltagskader, obwohl im letzten Ligaspiel in der Startelf; Grund nicht bekannt"
   }
  ]
 }
