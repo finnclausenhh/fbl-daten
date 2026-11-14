@@ -3,7 +3,7 @@
  "meldungen": [
   {
    "id": "endstand-wob-1411",
-   "zeit": "2026-11-14T19:48",
+   "zeit": "2026-11-14T23:26",
    "spielerin": "VfL Wolfsburg gegen FC Bayern",
    "verein": "VfL Wolfsburg",
    "nr": "",
@@ -11,23 +11,31 @@
    "tags": [
     "SPIELBERICHT"
    ],
-   "headline": "Endstand: VfL Wolfsburg 1:4 FC Bayern",
-   "kurz": "Endstand WOB 1:4 FCB",
+   "headline": "FC Bayern gewinnt 4:1 beim VfL Wolfsburg, Amani trifft doppelt, dazu Dallmann",
+   "kurz": "FC Bayern siegt 4:1 in Wolfsburg",
    "text": [
     "FC Bayern gewinnt beim VfL Wolfsburg mit 4:1.",
-    "Tore: 0:1 Amani (36., Vorlage Bühl), 0:2 Dallmann (45+2., Vorlage Damnjanović), 0:3 Minge (57., Eigentor), 0:4 Amani (81., Vorlage Bühl), 1:4 Fløe (90+2., Vorlage Peddemors).",
-    "Gelb: Amani, Naschenweng, Imade.",
-    "Noten und der ausführliche Bericht folgen."
+    "Tore: 0:1 Amani (36., Vorlage Bühl), 0:2 Dallmann (45+2., Vorlage Damnjanović), 1:2 Minge (57.), 1:3 Amani (81., Vorlage Bühl), 2:3 Fløe (90+2., Vorlage Peddemors).",
+    "Beste Note im Spiel: Amani (9,5).",
+    "Statistik (VfL Wolfsburg zuerst): Torschüsse 7:20 (aufs Tor 3:4), Ballbesitz 38:62 %, Expected Goals 0,72:1,48, Ecken 2:6.",
+    "Beste Noten VfL Wolfsburg: Prašnikar 6,7, Huth 6,6, Peddemors 6,4.",
+    "Beste Noten FC Bayern: Amani 9,5, Bühl 8,6, Dallmann 8,2.",
+    "Schwächste Note in der Startelf: Minge (5,1)."
    ],
-   "kickbase": "",
+   "kickbase": "Herausragend: Amani (9,5), Bühl (8,6), Dallmann (8,2). Bei VfL Wolfsburg kam niemand über 6,7.",
    "quellen": [
     {
      "name": "Sportschau",
      "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306313/vfl-wolfsburg_bayern-muenchen/liveticker"
+    },
+    {
+     "name": "API-Football (Noten, Statistik)",
+     "url": "https://www.api-football.com"
     }
    ],
    "quelle_live": true,
-   "partie_id": "12306313"
+   "partie_id": "12306313",
+   "noten": true
   },
   {
    "id": "aufstellung-fcu-1411",
