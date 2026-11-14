@@ -1,6 +1,38 @@
 {
- "stand": "2026-11-13T20:45",
+ "stand": "2026-11-14T07:50",
  "meldungen": [
+  {
+   "id": "redzepi-1411",
+   "pid": "00347",
+   "zeit": "2026-11-14T08:00",
+   "spielerin": "Dafina Redzepi",
+   "verein": "VfB Stuttgart",
+   "nr": "",
+   "pos": "MF",
+   "tags": [
+    "RÜCKKEHR"
+   ],
+   "status": "fit",
+   "headline": "Redzepi kehrt nach Sperre zurück",
+   "kurz": "Redzepi kehrt nach Sperre zurück",
+   "text": [
+    "Dafina Redzepi hat ihre Sperre nach der Roten Karte gegen Frankfurt abgesessen und steht dem VfB Stuttgart im Heimspiel am Montag gegen Bayer Leverkusen wieder zur Verfügung. Die Stuttgarter Nachrichten schreiben, der Trainer setze auf die Rückkehrerin.",
+    "Redzepi tritt beim VfB die Ecken. Ob sie in der Startelf steht, zeigt erst die offizielle Aufstellung."
+   ],
+   "kickbase": "Redzepi ist als Startelf-Kandidatin zurück auf dem Zettel. Die Aufstellung am Montag abwarten.",
+   "quellen": [
+    {
+     "name": "Stuttgarter Nachrichten",
+     "url": "https://www.stuttgarter-nachrichten.de/sport/vfb-stuttgart/vfb-stuttgart-frauen-serie-der-vfb-frauen-soll-halten-dafina-redzepi-kehrt-zurueck-79696780.html"
+    }
+   ],
+   "foto": "fotos/vfb-dafina-redzepi.webp",
+   "foto_credit": {
+    "autor": "VfB Stuttgart",
+    "lizenz": "mit Genehmigung: VfB Stuttgart",
+    "url": "https://www.vfb.de/de/1893/frauen/frauen/kader/saisonen/2026-2027/kader/?data=&mobile="
+   }
+  },
   {
    "id": "endstand-hsv-1311",
    "zeit": "2026-11-13T20:29",
@@ -9079,240 +9111,6 @@
      }
     ]
    }
-  },
-  {
-   "id": "vfb-pokal-3010",
-   "pid": "00354",
-   "zeit": "2026-10-30T20:15",
-   "spielerin": "Rosa Rückert",
-   "verein": "VfB Stuttgart",
-   "nr": "",
-   "pos": "ST",
-   "tags": [
-    "SPIELBERICHT"
-   ],
-   "status": "fit",
-   "headline": "Rückert trifft, VfB erstmals im Pokal-Viertelfinale",
-   "text": [
-    "Die VfB-Frauen haben das DFB-Pokal-Achtelfinale gegen die SGS Essen 3:0 gewonnen und stehen erstmals in der Vereinsgeschichte im Viertelfinale. Rosa Rückert traf in der 19. Minute zum 1:0, Verena Wieder erhöhte auf 2:0.",
-    "Greta Stegemann machte in der 68. Minute den 3:0-Endstand perfekt. Der Aufsteiger setzte sich damit gegen einen Zweitligisten durch, der mit sieben Siegen aus zehn Spielen angereist war."
-   ],
-   "kickbase": "Drei Stuttgarter Torschützinnen im Pokal sind ein Formhinweis für Rückert, Wieder und Stegemann. Kickbase-Punkte gibt es dafür nicht, für den Ligaalltag zählt der Auftritt aber als Selbstvertrauen.",
-   "quellen": [
-    {
-     "name": "Sportschau (SWR)",
-     "url": "https://www.sportschau.de/regional/swr/swr-vfb-frauen-ziehen-souveraen-ins-pokal-viertelfinale-ein-100.html"
-    }
-   ],
-   "foto": "fotos/vfb-rosa-ruckert.webp",
-   "foto_credit": {
-    "autor": "VfB Stuttgart",
-    "lizenz": "mit Genehmigung: VfB Stuttgart",
-    "url": "https://www.vfb.de/de/1893/frauen/frauen/kader/saisonen/2026-2027/kader/?data=&mobile="
-   },
-   "spiel_aufstellung": [
-    {
-     "verein": "VfB Stuttgart",
-     "k": "VFB",
-     "gegner": "SGS Essen",
-     "wettbewerb": "DFB-Pokal",
-     "ergebnis": "3:0",
-     "tore": [
-      {
-       "min": "19",
-       "n": "Rückert",
-       "eigen": true
-      },
-      {
-       "min": "42",
-       "n": "Wieder",
-       "eigen": true
-      },
-      {
-       "min": "68",
-       "n": "Stegemann",
-       "eigen": true
-      }
-     ],
-     "vergleich": "8. Spieltag",
-     "startelf": [
-      {
-       "n": "Giuliani",
-       "p": "TW"
-      },
-      {
-       "n": "Stegemann",
-       "p": "ABW",
-       "tore": 1,
-       "gelb": true
-      },
-      {
-       "n": "Rall",
-       "p": "ABW",
-       "f": "neu",
-       "aus": "46"
-      },
-      {
-       "n": "Hechler",
-       "p": "ABW"
-      },
-      {
-       "n": "Zähringer",
-       "p": "ABW",
-       "aus": "73",
-       "gelb": true
-      },
-      {
-       "n": "Achcińska",
-       "p": "DM"
-      },
-      {
-       "n": "Redzepi",
-       "p": "DM"
-      },
-      {
-       "n": "Hirano",
-       "p": "MF",
-       "f": "neu",
-       "aus": "73"
-      },
-      {
-       "n": "Wieder",
-       "p": "OM",
-       "aus": "60",
-       "tore": 1
-      },
-      {
-       "n": "Rückert",
-       "p": "ST",
-       "f": "neu",
-       "aus": "60",
-       "tore": 1
-      },
-      {
-       "n": "Billa",
-       "p": "ST",
-       "gelb": true
-      }
-     ],
-     "eingewechselt": [
-      {
-       "n": "Norman",
-       "p": "ABW",
-       "ein_min": "46"
-      },
-      {
-       "n": "Mickenhagen",
-       "p": "ABW",
-       "ein_min": "60"
-      },
-      {
-       "n": "Schetter",
-       "p": "OM",
-       "ein_min": "60"
-      },
-      {
-       "n": "Dongus",
-       "p": "ABW",
-       "ein_min": "73"
-      },
-      {
-       "n": "Beuschlein",
-       "p": "ST",
-       "ein_min": "73"
-      }
-     ],
-     "raus": [
-      {
-       "n": "Müller",
-       "p": "ABW",
-       "wo": "nicht im Kader"
-      },
-      {
-       "n": "Schetter",
-       "p": "OM",
-       "wo": "Bank"
-      },
-      {
-       "n": "Hagel",
-       "p": "OM",
-       "wo": "Bank"
-      }
-     ],
-     "ohne_einsatz": [
-      "Beck",
-      "Dongus",
-      "Hagel",
-      "Osawa"
-     ]
-    }
-   ],
-   "kurz": "Rückert trifft, VfB im Pokal-Viertelfinale"
-  },
-  {
-   "id": "zadrazil-3010",
-   "pid": "00022",
-   "zeit": "2026-10-30T15:15",
-   "spielerin": "Sarah Zadrazil",
-   "verein": "FC Bayern",
-   "nr": "",
-   "pos": "MF",
-   "tags": [
-    "UPDATE",
-    "VERLETZUNG"
-   ],
-   "status": "verletzt",
-   "headline": "Zadrazil fällt vor Pokalspiel mit Muskelproblemen aus",
-   "text": [
-    "Sarah Zadrazil fehlt dem FC Bayern im DFB-Pokalachtelfinale gegen Bayer Leverkusen wegen muskulärer Probleme. Das geht aus dem Vorbericht des Vereins hervor. Die Österreicherin war erst vor gut einer Woche nach ihrem Kreuzbandriss in die Startelf zurückgekehrt und hatte gegen Stuttgart 63 Minuten gespielt.",
-    "Neben ihr fehlen Lena Oberdorf mit einer Reaktion im Kniegelenk und Giulia Gwinn mit einem Außenbandriss. Eine Ausfallzeit für Zadrazil nennt der Verein nicht."
-   ],
-   "kickbase": "Zadrazil ist kurzfristig kein Startelfkandidat. Im Bayern-Mittelfeld fehlen damit gleich zwei Stammkräfte, was Einsatzzeiten für andere Spielerinnen erhöht.",
-   "quellen": [
-    {
-     "name": "FC Bayern",
-     "url": "https://fcbayern.com/frauen/de/news/vorberichte/2026/10/vorschau-dfb-pokal-fc-bayern-frauen---bayer-04-leverkusen"
-    }
-   ],
-   "foto": "fotos/fcb-sarah-zadrazil.webp",
-   "foto_credit": {
-    "autor": "FC Bayern",
-    "lizenz": "mit Genehmigung: FC Bayern München",
-    "url": "https://fcbayern.com/frauen/de/teams/1.-mannschaft"
-   },
-   "kurz": "Zadrazil fällt im Pokal aus"
-  },
-  {
-   "id": "shimada-3010",
-   "pid": "00054",
-   "zeit": "2026-10-30T13:21",
-   "spielerin": "Mei Shimada",
-   "verein": "Werder Bremen",
-   "nr": "8",
-   "pos": "ST",
-   "tags": [
-    "SPIELBERICHT"
-   ],
-   "status": "fit",
-   "headline": "Shimada startet auf der Bank und entscheidet Spiel mit",
-   "text": [
-    "Mei Shimada stand beim 3:0 von Werder Bremen gegen die TSG Hoffenheim nicht in der Startelf, obwohl sie zuvor in sechs von sieben Bundesliga-Spielen von Beginn an gespielt hatte. Zur Pause eingewechselt, bereitete sie das 2:0 durch Jenny Hipp vor.",
-    "Beim 3:0 in der 75. Minute setzte sie Hoffenheims Laura Gloning unter Druck, die den Ball ins eigene Tor lenkte. Die DeichStube wählte Shimada zur Werder-Spielerin des Spiels."
-   ],
-   "kickbase": "Shimada blieb trotz der Bankrolle an beiden Treffern der zweiten Halbzeit beteiligt. Ob sie gegen Mainz im Pokal wieder in die Startelf rückt, ist offen.",
-   "quellen": [
-    {
-     "name": "Fehmarn24 (DeichStube)",
-     "url": "https://www.fehmarn24.de/sport/fussball/werder-bremen-frauen-mei-shimada-ist-spielerin-des-spiels-gegen-tsg-hoffenheim-bundesliga-offensive-zr-94459124.html"
-    }
-   ],
-   "foto": "fotos/svw-mei-shimada.webp",
-   "foto_credit": {
-    "autor": "Werder Bremen",
-    "lizenz": "mit Genehmigung: Werder Bremen",
-    "url": "https://www.werder.de/teams/frauen/spielerinnen/"
-   },
-   "kurz": "Jokerin Shimada entscheidet das Spiel"
   }
  ]
 }
