@@ -61,6 +61,11 @@
     "zeit": "2026-11-14T00:00",
     "titel": "„Frisch in die Woche gehen“: Frauen reisen nach Stuttgart",
     "url": "https://www.bayer04.de/de-de/news/frauen/frisch-in-die-woche-gehen-frauen-reisen-nach-stuttgart"
+   },
+   "FCN": {
+    "zeit": "2026-11-13T00:00",
+    "titel": "Vorbericht: Mit Rückenwind gegen den Effzeh",
+    "url": "https://www.fcn.de/news/artikel/vorbericht-mit-rueckenwind-gegen-den-effzeh/"
    }
   }
  },
@@ -100,6 +105,11 @@
    {
     "md": 9,
     "tage_vorher": 1,
+    "uhr": null
+   },
+   {
+    "md": 10,
+    "tage_vorher": 2,
     "uhr": null
    }
   ],
@@ -182,5 +192,5 @@
    }
   ]
  },
- "stand": "2026-11-14T13:12"
+ "stand": "2026-11-14T16:16"
 }
