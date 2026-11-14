@@ -161,7 +161,7 @@
    ],
    "headline": "Offizielle Aufstellung: FC Bayern gegen VfL Wolfsburg",
    "text": [
-    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Alara, Gilles, Imade, Mattner-Trembleau, Potsi, van Eijk. Die Bank folgt, sobald sie veröffentlicht ist."
+    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Alara, Gilles, Imade, Mattner-Trembleau, Potsi, van Eijk."
    ],
    "kickbase": "",
    "quellen": [
@@ -241,39 +241,80 @@
       "f": "neu"
      }
     ],
-    "bank": [],
-    "fehlt": [],
-    "bank_offen": true,
-    "nicht_startelf": [
+    "bank": [
+     {
+      "n": "van Eijk",
+      "p": "TW",
+      "pid": "00004",
+      "f": "raus"
+     },
+     {
+      "n": "Viggósdóttir",
+      "p": "ABW",
+      "pid": "00013"
+     },
+     {
+      "n": "Kett",
+      "p": "ABW",
+      "pid": "00011"
+     },
      {
       "n": "Alara",
       "p": "MF",
-      "pid": "00015"
+      "pid": "00015",
+      "f": "raus"
      },
      {
-      "n": "Gilles",
-      "p": "ABW",
-      "pid": "00008"
+      "n": "Dunst",
+      "p": "MF",
+      "pid": "00018"
      },
      {
-      "n": "Imade",
-      "p": "ST",
-      "pid": "00026"
+      "n": "Zadrazil",
+      "p": "MF",
+      "pid": "00022"
+     },
+     {
+      "n": "Proost",
+      "p": "MF",
+      "pid": "00020"
      },
      {
       "n": "Mattner-Trembleau",
       "p": "ABW",
-      "pid": "00027"
+      "pid": "00027",
+      "f": "raus"
+     },
+     {
+      "n": "Imade",
+      "p": "ST",
+      "pid": "00026",
+      "f": "raus"
+     }
+    ],
+    "fehlt": [
+     {
+      "n": "Gilles",
+      "p": "ABW",
+      "pid": "00008",
+      "f": "raus",
+      "war": "Startelf",
+      "i": "verletzt"
      },
      {
       "n": "Potsi",
       "p": "ST",
-      "pid": "00028"
+      "pid": "00028",
+      "f": "raus",
+      "war": "Startelf",
+      "i": "verletzt"
      },
      {
-      "n": "van Eijk",
+      "n": "Klink",
       "p": "TW",
-      "pid": "00004"
+      "pid": "00002",
+      "f": "raus",
+      "war": "Bank"
      }
     ]
    },
