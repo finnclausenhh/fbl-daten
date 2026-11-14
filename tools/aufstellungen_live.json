@@ -1,6 +1,37 @@
 {
  "meldungen": [
   {
+   "id": "comeback-sherif-svw-1411",
+   "pid": "00030",
+   "zeit": "2026-11-14T14:02",
+   "spielerin": "Mariella El Sherif",
+   "verein": "Werder Bremen",
+   "nr": "39",
+   "pos": "TW",
+   "tags": [
+    "RÜCKKEHR"
+   ],
+   "status": "fit",
+   "headline": "Sherif feiert Comeback nach Handverletzung",
+   "text": [
+    "Mariella El Sherif ist nach Handverletzung zurück im Spieltagskader von Werder Bremen.",
+    "Gegen Union Berlin stand sie in der Startelf."
+   ],
+   "kickbase": "Wieder einsatzbereit. Nach der Pause am nächsten Spieltag eher mit begrenzter Spielzeit rechnen, die Startelf ist noch offen.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306292/werder-bremen_1-fc-union-berlin/liveticker"
+    }
+   ],
+   "quelle_live": true,
+   "partie_id": "12306292",
+   "comeback": {
+    "art": "comeback",
+    "stufe": "einsatz"
+   }
+  },
+  {
    "id": "endstand-tsg-1411",
    "zeit": "2026-11-14T13:55",
    "spielerin": "TSG Hoffenheim gegen SC Freiburg",
@@ -36,37 +67,6 @@
    "quelle_live": true,
    "partie_id": "12306301",
    "noten": true
-  },
-  {
-   "id": "comeback-sherif-svw-1411",
-   "pid": "00030",
-   "zeit": "2026-11-14T13:51",
-   "spielerin": "Mariella El Sherif",
-   "verein": "Werder Bremen",
-   "nr": "39",
-   "pos": "TW",
-   "tags": [
-    "RÜCKKEHR"
-   ],
-   "status": "fit",
-   "headline": "Sherif feiert Comeback nach Handverletzung",
-   "text": [
-    "Mariella El Sherif ist nach Handverletzung zurück im Spieltagskader von Werder Bremen.",
-    "Gegen Union Berlin stand sie in der Startelf."
-   ],
-   "kickbase": "Wieder einsatzbereit. Nach der Pause am nächsten Spieltag eher mit begrenzter Spielzeit rechnen, die Startelf ist noch offen.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306292/werder-bremen_1-fc-union-berlin/liveticker"
-    }
-   ],
-   "quelle_live": true,
-   "partie_id": "12306292",
-   "comeback": {
-    "art": "comeback",
-    "stufe": "einsatz"
-   }
   },
   {
    "id": "aufstellung-svw-1411",
