@@ -146,9 +146,7 @@
     "TOP"
    ],
    "headline": "Offizielle Aufstellung: 1. FC Köln gegen 1. FC Nürnberg",
-   "text": [
-    "Die Bank folgt, sobald sie veröffentlicht ist."
-   ],
+   "text": [],
    "kickbase": "",
    "quellen": [
     {
@@ -221,10 +219,69 @@
       "pid": "00205"
      }
     ],
-    "bank": [],
-    "fehlt": [],
-    "bank_offen": true,
-    "nicht_startelf": []
+    "bank": [
+     {
+      "n": "Fuchs",
+      "p": "TW",
+      "pid": "00178"
+     },
+     {
+      "n": "Hendrich",
+      "p": "ABW",
+      "pid": "00189"
+     },
+     {
+      "n": "Donhauser",
+      "p": "ABW",
+      "pid": "00186"
+     },
+     {
+      "n": "Stenevik",
+      "p": "ABW",
+      "pid": "00192"
+     },
+     {
+      "n": "Schiffarth",
+      "p": "MF",
+      "pid": "00202"
+     },
+     {
+      "n": "Heiðarsdóttir",
+      "p": "MF",
+      "pid": "00197"
+     },
+     {
+      "n": "Zawistowska",
+      "p": "ST",
+      "pid": "00211"
+     },
+     {
+      "n": "Zeller",
+      "p": "ST",
+      "pid": "00212"
+     },
+     {
+      "n": "Stolze",
+      "p": "ST",
+      "pid": "00210"
+     }
+    ],
+    "fehlt": [
+     {
+      "n": "Weber",
+      "p": "ABW",
+      "pid": "00195",
+      "f": "raus",
+      "war": "Bank"
+     },
+     {
+      "n": "Kerschbaumer",
+      "p": "MF",
+      "pid": "00199",
+      "f": "raus",
+      "war": "Bank"
+     }
+    ]
    },
    "quelle_live": true
   },
