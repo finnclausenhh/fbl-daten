@@ -356,7 +356,7 @@
   {
    "id": "erstmals-baumgartel-fcn-1511",
    "pid": "00320",
-   "zeit": "2026-11-15T17:36",
+   "zeit": "2026-11-15T17:38",
    "spielerin": "Jacqueline Baumgärtel",
    "verein": "1. FC Nürnberg",
    "nr": "",
@@ -368,7 +368,7 @@
    "headline": "Baumgärtel feiert Saisondebüt",
    "text": [
     "Jacqueline Baumgärtel steht gegen 1. FC Köln zum ersten Mal in dieser Saison im Spieltagskader des 1. FC Nürnberg.",
-    "Gegen 1. FC Köln kam sie in der 81. Minute ins Spiel. Insgesamt spielte sie rund 9 Minuten.",
+    "Gegen 1. FC Köln kam sie in der 81. Minute für Meroni ins Spiel. Insgesamt spielte sie rund 9 Minuten.",
     "API-Football bewertet ihren Auftritt mit der Note 6,3 (durchwachsen)."
    ],
    "kickbase": "Erste Einsatzminuten der Saison. Für Kickbase vorerst eine Ergänzung, keine feste Größe.",
@@ -418,6 +418,42 @@
    "comeback": {
     "art": "erstmals",
     "stufe": "ohne"
+   }
+  },
+  {
+   "id": "erstmals-baumgartel-fcn-1511",
+   "pid": "00320",
+   "zeit": "2026-11-15T17:36",
+   "spielerin": "Jacqueline Baumgärtel",
+   "verein": "1. FC Nürnberg",
+   "nr": "",
+   "pos": "ST",
+   "tags": [
+    "AUFSTELLUNG"
+   ],
+   "status": "fit",
+   "headline": "Baumgärtel feiert Saisondebüt",
+   "text": [
+    "Jacqueline Baumgärtel steht gegen 1. FC Köln zum ersten Mal in dieser Saison im Spieltagskader des 1. FC Nürnberg.",
+    "Gegen 1. FC Köln kam sie in der 81. Minute ins Spiel. Insgesamt spielte sie rund 9 Minuten.",
+    "API-Football bewertet ihren Auftritt mit der Note 6,3 (durchwachsen)."
+   ],
+   "kickbase": "Erste Einsatzminuten der Saison. Für Kickbase vorerst eine Ergänzung, keine feste Größe.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306307/1-fc-nuernberg_1-fc-koeln/liveticker"
+    },
+    {
+     "name": "API-Football (Note)",
+     "url": "https://www.api-football.com"
+    }
+   ],
+   "quelle_live": true,
+   "partie_id": "12306307",
+   "comeback": {
+    "art": "erstmals",
+    "stufe": "einsatz"
    }
   },
   {
