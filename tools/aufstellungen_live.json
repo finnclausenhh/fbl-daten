@@ -1,6 +1,43 @@
 {
  "meldungen": [
   {
+   "id": "endstand-rbl-1511",
+   "zeit": "2026-11-15T17:55",
+   "spielerin": "RB Leipzig gegen Eintracht Frankfurt",
+   "verein": "RB Leipzig",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "SPIELBERICHT"
+   ],
+   "headline": "Eintracht Frankfurt gewinnt 5:1 bei RB Leipzig mit fünf verschiedenen Torschützinnen",
+   "kurz": "Frankfurt siegt 5:1 in Leipzig",
+   "text": [
+    "Eintracht Frankfurt gewinnt bei RB Leipzig mit 5:1.",
+    "Tore: 0:1 Blomqvist (11., Vorlage Freigang), 0:2 Ilestedt (17.), 0:3 Lührßen (63., Vorlage Blomqvist), 0:4 Raso (74., Vorlage Altenburg), 0:5 Bennison (79.), 1:5 Tuin (90., Vorlage Pusztai).",
+    "Gelb: Krumbiegel, Bennison.",
+    "Beste Note im Spiel: Blomqvist (8,2).",
+    "Statistik (RB Leipzig zuerst): Torschüsse 12:16 (aufs Tor 4:10), Ballbesitz 46:54 %, Expected Goals 0,70:2,93, Ecken 2:3.",
+    "Beste Noten RB Leipzig: Pusztai 6,8, Boboy 6,7, Herzog 6,6.",
+    "Beste Noten Eintracht Frankfurt: Blomqvist 8,2, Freigang 7,7, Ilestedt 7,5.",
+    "Schwächste Note in der Startelf: Mathys (4,9)."
+   ],
+   "kickbase": "Herausragend: Blomqvist (8,2), Freigang (7,7), Ilestedt (7,5).",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306310/rb-leipzig_eintracht-frankfurt/liveticker"
+    },
+    {
+     "name": "API-Football (Noten, Statistik)",
+     "url": "https://www.api-football.com"
+    }
+   ],
+   "quelle_live": true,
+   "partie_id": "12306310",
+   "noten": true
+  },
+  {
    "id": "endstand-fcn-1511",
    "zeit": "2026-11-15T17:54",
    "spielerin": "1. FC Nürnberg gegen 1. FC Köln",
@@ -276,34 +313,6 @@
     }
    ],
    "quelle_live": true
-  },
-  {
-   "id": "endstand-rbl-1511",
-   "zeit": "2026-11-15T17:50",
-   "spielerin": "RB Leipzig gegen Eintracht Frankfurt",
-   "verein": "RB Leipzig",
-   "nr": "",
-   "pos": "Spielansetzung",
-   "tags": [
-    "SPIELBERICHT"
-   ],
-   "headline": "Endstand: RB Leipzig 1:5 Eintracht Frankfurt",
-   "kurz": "Endstand RBL 1:5 SGE",
-   "text": [
-    "Eintracht Frankfurt gewinnt bei RB Leipzig mit 5:1.",
-    "Tore: 0:1 Blomqvist (11., Vorlage Freigang), 0:2 Ilestedt (17.), 0:3 Lührßen (63., Vorlage Blomqvist), 0:4 Raso (74., Vorlage Altenburg), 0:5 Bennison (79.), 1:5 Tuin (90., Vorlage Pusztai).",
-    "Gelb: Krumbiegel, Bennison.",
-    "Noten und der ausführliche Bericht folgen."
-   ],
-   "kickbase": "",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306310/rb-leipzig_eintracht-frankfurt/liveticker"
-    }
-   ],
-   "quelle_live": true,
-   "partie_id": "12306310"
   },
   {
    "id": "aufstellung-rbl-1511",
