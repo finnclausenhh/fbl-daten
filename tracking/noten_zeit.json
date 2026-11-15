@@ -150,5 +150,18 @@
   "noten_da": "2026-11-15T17:51",
   "minuten_nach_abpfiff": 2,
   "bau_gestartet": "2026-11-15T17:51"
+ },
+ "12306307": {
+  "spiel": "FCN-KOE",
+  "anstoss": "2026-11-15T16:00",
+  "abpfiff_ca": "2026-11-15T17:50",
+  "fixture": 1593170,
+  "af_status": "FT",
+  "erste_pruefung": "2026-11-15T17:54",
+  "noten_zuletzt": 40,
+  "letzte_pruefung": "2026-11-15T17:54",
+  "noten_da": "2026-11-15T17:54",
+  "minuten_nach_abpfiff": 4,
+  "bau_gestartet": "2026-11-15T17:54"
  }
 }
