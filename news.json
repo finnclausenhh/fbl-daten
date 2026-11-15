@@ -1,6 +1,32 @@
 {
- "stand": "2026-11-15T15:07",
+ "stand": "2026-11-15T14:45",
  "meldungen": [
+  {
+   "id": "brengel-standards-1511",
+   "pid": "00308",
+   "zeit": "2026-11-15T14:58",
+   "spielerin": "Jonna Brengel",
+   "verein": "1. FC Nürnberg",
+   "nr": "",
+   "pos": "MF",
+   "tags": [
+    "STANDARD",
+    "AUFSTELLUNG"
+   ],
+   "headline": "Brengel gegen Köln wieder nur auf der Bank",
+   "kurz": "Brengel gegen Köln auf der Bank: Freistöße offen",
+   "text": [
+    "Jonna Brengel sitzt auch gegen den 1. FC Köln zunächst auf der Bank. Sie ist beim 1. FC Nürnberg die erste Wahl bei Freistößen.",
+    "Eine Nachfolgerin ist in der Hierarchie nicht hinterlegt, es ist offen, wer in der Startelf die Freistöße schießt. Ecken und Elfmeter bleiben laut Hierarchie bei den Schützinnen aus der Startelf."
+   ],
+   "kickbase": "Wer gegen Köln Freistöße tritt, ist offen. Bei Brengel zählen mögliche Standardpunkte erst, wenn sie eingewechselt wird.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306307/1-fc-nuernberg_1-fc-koeln/aufstellung"
+    }
+   ]
+  },
   {
    "id": "erstmals-marti-rbl-1511",
    "pid": "00218",
