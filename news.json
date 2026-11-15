@@ -1,175 +1,6 @@
 {
- "stand": "2026-11-15T17:50",
+ "stand": "2026-11-15T17:44",
  "meldungen": [
-  {
-   "id": "endstand-rbl-1511",
-   "zeit": "2026-11-15T17:50",
-   "spielerin": "RB Leipzig gegen Eintracht Frankfurt",
-   "verein": "RB Leipzig",
-   "nr": "",
-   "pos": "Spielansetzung",
-   "tags": [
-    "SPIELBERICHT"
-   ],
-   "headline": "Endstand: RB Leipzig 1:5 Eintracht Frankfurt",
-   "kurz": "Endstand RBL 1:5 SGE",
-   "text": [
-    "Eintracht Frankfurt gewinnt bei RB Leipzig mit 5:1.",
-    "Tore: 0:1 Blomqvist (11., Vorlage Freigang), 0:2 Ilestedt (17.), 0:3 Lührßen (63., Vorlage Blomqvist), 0:4 Raso (74., Vorlage Altenburg), 0:5 Bennison (79.), 1:5 Tuin (90., Vorlage Pusztai).",
-    "Gelb: Krumbiegel, Bennison.",
-    "Noten und der ausführliche Bericht folgen."
-   ],
-   "kickbase": "",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306310/rb-leipzig_eintracht-frankfurt/liveticker"
-    }
-   ],
-   "quelle_live": true,
-   "partie_id": "12306310"
-  },
-  {
-   "id": "erstmals-baumgartel-fcn-1511",
-   "pid": "00320",
-   "zeit": "2026-11-15T17:38",
-   "spielerin": "Jacqueline Baumgärtel",
-   "verein": "1. FC Nürnberg",
-   "nr": "",
-   "pos": "ST",
-   "tags": [
-    "AUFSTELLUNG"
-   ],
-   "status": "fit",
-   "headline": "Baumgärtel feiert Saisondebüt",
-   "text": [
-    "Jacqueline Baumgärtel steht gegen 1. FC Köln zum ersten Mal in dieser Saison im Spieltagskader des 1. FC Nürnberg.",
-    "Gegen 1. FC Köln kam sie in der 81. Minute für Meroni ins Spiel."
-   ],
-   "kickbase": "Erste Einsatzminuten der Saison. Für Kickbase vorerst eine Ergänzung, keine feste Größe.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306307/1-fc-nuernberg_1-fc-koeln/liveticker"
-    }
-   ],
-   "quelle_live": true,
-   "partie_id": "12306307",
-   "comeback": {
-    "art": "erstmals",
-    "stufe": "einsatz"
-   }
-  },
-  {
-   "id": "fehlt-reimann-scf-0111",
-   "pid": "00085",
-   "zeit": "2026-11-01T14:08",
-   "spielerin": "Anna Reimann",
-   "verein": "SC Freiburg",
-   "nr": "",
-   "pos": "TW",
-   "tags": [
-    "AUFSTELLUNG",
-    "POKAL"
-   ],
-   "status": "fraglich",
-   "headline": "Reimann nicht im Kader gegen FC Carl Zeiss Jena",
-   "text": [
-    "Anna Reimann steht im DFB-Pokal gegen FC Carl Zeiss Jena weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
-    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
-   ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
-   "quellen": [
-    {
-     "name": "DFB-Datencenter",
-     "url": "https://datencenter.dfb.de/matches/sc-freiburg-fc-carl-zeiss-jena-2431333"
-    }
-   ],
-   "quelle_live": true,
-   "kurz": "Reimann nicht im Kader"
-  },
-  {
-   "id": "fehlt-viggosdottir-fcb-0111",
-   "pid": "00013",
-   "zeit": "2026-11-01T13:53",
-   "spielerin": "Glódís Viggósdóttir",
-   "verein": "FC Bayern",
-   "nr": "",
-   "pos": "ABW",
-   "tags": [
-    "AUFSTELLUNG",
-    "POKAL"
-   ],
-   "status": "fraglich",
-   "headline": "Viggósdóttir nicht im Kader gegen Bayer Leverkusen",
-   "text": [
-    "Glódís Viggósdóttir steht im DFB-Pokal gegen Bayer Leverkusen weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
-    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
-   ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165391/bayern-muenchen_bayer-leverkusen/aufstellung"
-    }
-   ],
-   "quelle_live": true,
-   "kurz": "Viggósdóttir nicht im Kader"
-  },
-  {
-   "id": "fehlt-bender-b04-0111",
-   "pid": "00257",
-   "zeit": "2026-11-01T13:53",
-   "spielerin": "Loreen Bender",
-   "verein": "Bayer Leverkusen",
-   "nr": "",
-   "pos": "ST",
-   "tags": [
-    "AUFSTELLUNG",
-    "POKAL"
-   ],
-   "status": "fraglich",
-   "headline": "Bender nicht im Kader gegen FC Bayern",
-   "text": [
-    "Loreen Bender steht im DFB-Pokal gegen FC Bayern weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 4-mal.",
-    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
-   ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165391/bayern-muenchen_bayer-leverkusen/aufstellung"
-    }
-   ],
-   "quelle_live": true
-  },
-  {
-   "id": "fehlt-altenburg-sge-0111",
-   "pid": "00056",
-   "zeit": "2026-11-01T13:12",
-   "spielerin": "Lina Altenburg",
-   "verein": "Eintracht Frankfurt",
-   "nr": "",
-   "pos": "TW",
-   "tags": [
-    "AUFSTELLUNG",
-    "POKAL"
-   ],
-   "status": "fraglich",
-   "headline": "Altenburg nicht im Kader gegen 1. FC Nürnberg",
-   "text": [
-    "Lina Altenburg steht im DFB-Pokal gegen 1. FC Nürnberg weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
-    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
-   ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
-   "quellen": [
-    {
-     "name": "DFB-Datencenter",
-     "url": "https://datencenter.dfb.de/matches/1-fc-nuernberg-eintracht-frankfurt-2431335"
-    }
-   ],
-   "quelle_live": true
-  },
   {
    "id": "comeback-marti-rbl-1511",
    "pid": "00218",
@@ -179,16 +10,15 @@
    "nr": "",
    "pos": "ABW",
    "tags": [
-    "RÜCKKEHR",
-    "UPDATE"
+    "RÜCKKEHR"
    ],
    "status": "fit",
-   "headline": "Marti nach Kreuzbandriss zurück im Kader, aber ohne Einsatz",
+   "headline": "Marti nach Kreuzbandriss zurück im Kader",
    "text": [
     "Lara Marti steht gegen Eintracht Frankfurt erstmals seit ihrem Kreuzbandriss im Mai 2025 wieder im Spieltagskader von RB Leipzig.",
     "Die 27-jährige Schweizer Nationalspielerin kam im Januar 2024 aus Leverkusen nach Leipzig und spielte in der Saison 2024/25 als Außenverteidigerin 18 Ligaspiele für RB.",
     "Die komplette Saison 2025/26 verpasste sie, kurz vor der Heim-EM war das Kreuzband gerissen.",
-    "Gegen Eintracht Frankfurt saß sie die gesamte Spielzeit auf der Bank."
+    "Gegen Eintracht Frankfurt sitzt sie zunächst auf der Bank."
    ],
    "kickbase": "Zurück im Kader, aber noch ohne Spielpraxis. Ein Einsatz am nächsten Spieltag ist offen, die Startelf eher nicht.",
    "quellen": [
@@ -209,9 +39,8 @@
    "partie_id": "12306310",
    "comeback": {
     "art": "comeback",
-    "stufe": "ohne"
-   },
-   "kurz": "Marti zurück im Kader"
+    "stufe": "kader"
+   }
   },
   {
    "id": "starke-1511",
@@ -327,6 +156,37 @@
    "comeback": {
     "art": "erstmals",
     "stufe": "kader"
+   }
+  },
+  {
+   "id": "erstmals-baumgartel-fcn-1511",
+   "pid": "00320",
+   "zeit": "2026-11-15T17:38",
+   "spielerin": "Jacqueline Baumgärtel",
+   "verein": "1. FC Nürnberg",
+   "nr": "",
+   "pos": "ST",
+   "tags": [
+    "AUFSTELLUNG"
+   ],
+   "status": "fit",
+   "headline": "Baumgärtel feiert Saisondebüt",
+   "text": [
+    "Jacqueline Baumgärtel steht gegen 1. FC Köln zum ersten Mal in dieser Saison im Spieltagskader des 1. FC Nürnberg.",
+    "Gegen 1. FC Köln kam sie in der 81. Minute für Meroni ins Spiel."
+   ],
+   "kickbase": "Erste Einsatzminuten der Saison. Für Kickbase vorerst eine Ergänzung, keine feste Größe.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306307/1-fc-nuernberg_1-fc-koeln/liveticker"
+    }
+   ],
+   "quelle_live": true,
+   "partie_id": "12306307",
+   "comeback": {
+    "art": "erstmals",
+    "stufe": "einsatz"
    }
   },
   {
