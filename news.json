@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-15T17:51",
+ "stand": "2026-11-15T18:11",
  "meldungen": [
   {
    "id": "endstand-rbl-1511",
@@ -314,8 +314,7 @@
    "nr": "",
    "pos": "ST",
    "tags": [
-    "AUFSTELLUNG",
-    "UPDATE"
+    "AUFSTELLUNG"
    ],
    "status": "fit",
    "headline": "Stolze erstmals im Kader, aber ohne Einsatz",
@@ -346,8 +345,7 @@
    "nr": "",
    "pos": "ABW",
    "tags": [
-    "AUFSTELLUNG",
-    "UPDATE"
+    "AUFSTELLUNG"
    ],
    "status": "fit",
    "headline": "Stenevik erstmals im Kader, aber ohne Einsatz",
