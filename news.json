@@ -1,6 +1,33 @@
 {
- "stand": "2026-11-15T10:45",
+ "stand": "2026-11-15T14:40",
  "meldungen": [
+  {
+   "id": "aufstellung-folgt-ma12306307",
+   "zeit": "2026-11-15T14:40",
+   "spielerin": "Spielansetzung",
+   "verein": "1. FC Nürnberg",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "AUFSTELLUNG"
+   ],
+   "headline": "Aufstellung 1. FC Nürnberg gegen 1. FC Köln folgt",
+   "kurz": "Aufstellung folgt, Anpfiff 16:00",
+   "text": [
+    "Anpfiff in der Liga ist um 16:00 Uhr. Die offizielle Aufstellung kommt meist rund 60 Minuten vorher, wir ergänzen sie hier automatisch, sobald sie veröffentlicht ist.",
+    "Bis dahin steht unsere Prognose im Spielplan bei der Partie."
+   ],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306307/1-fc-nuernberg_1-fc-koeln/aufstellung"
+    }
+   ],
+   "platzhalter": true,
+   "anstoss": "2026-11-15T16:00",
+   "partie_id": "12306307"
+  },
   {
    "id": "endstand-wob-1411",
    "zeit": "2026-11-14T23:26",
