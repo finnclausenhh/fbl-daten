@@ -1,6 +1,34 @@
 {
- "stand": "2026-11-15T17:44",
+ "stand": "2026-11-15T17:51",
  "meldungen": [
+  {
+   "id": "endstand-rbl-1511",
+   "zeit": "2026-11-15T17:50",
+   "spielerin": "RB Leipzig gegen Eintracht Frankfurt",
+   "verein": "RB Leipzig",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "SPIELBERICHT"
+   ],
+   "headline": "Endstand: RB Leipzig 1:5 Eintracht Frankfurt",
+   "kurz": "Endstand RBL 1:5 SGE",
+   "text": [
+    "Eintracht Frankfurt gewinnt bei RB Leipzig mit 5:1.",
+    "Tore: 0:1 Blomqvist (11., Vorlage Freigang), 0:2 Ilestedt (17.), 0:3 Lührßen (63., Vorlage Blomqvist), 0:4 Raso (74., Vorlage Altenburg), 0:5 Bennison (79.), 1:5 Tuin (90., Vorlage Pusztai).",
+    "Gelb: Krumbiegel, Bennison.",
+    "Noten und der ausführliche Bericht folgen."
+   ],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306310/rb-leipzig_eintracht-frankfurt/liveticker"
+    }
+   ],
+   "quelle_live": true,
+   "partie_id": "12306310"
+  },
   {
    "id": "comeback-marti-rbl-1511",
    "pid": "00218",
@@ -10,15 +38,16 @@
    "nr": "",
    "pos": "ABW",
    "tags": [
-    "RÜCKKEHR"
+    "RÜCKKEHR",
+    "UPDATE"
    ],
    "status": "fit",
-   "headline": "Marti nach Kreuzbandriss zurück im Kader",
+   "headline": "Marti nach Kreuzbandriss zurück im Kader, aber ohne Einsatz",
    "text": [
     "Lara Marti steht gegen Eintracht Frankfurt erstmals seit ihrem Kreuzbandriss im Mai 2025 wieder im Spieltagskader von RB Leipzig.",
     "Die 27-jährige Schweizer Nationalspielerin kam im Januar 2024 aus Leverkusen nach Leipzig und spielte in der Saison 2024/25 als Außenverteidigerin 18 Ligaspiele für RB.",
     "Die komplette Saison 2025/26 verpasste sie, kurz vor der Heim-EM war das Kreuzband gerissen.",
-    "Gegen Eintracht Frankfurt sitzt sie zunächst auf der Bank."
+    "Gegen Eintracht Frankfurt saß sie die gesamte Spielzeit auf der Bank."
    ],
    "kickbase": "Zurück im Kader, aber noch ohne Spielpraxis. Ein Einsatz am nächsten Spieltag ist offen, die Startelf eher nicht.",
    "quellen": [
@@ -39,8 +68,9 @@
    "partie_id": "12306310",
    "comeback": {
     "art": "comeback",
-    "stufe": "kader"
-   }
+    "stufe": "ohne"
+   },
+   "kurz": "Marti zurück im Kader"
   },
   {
    "id": "starke-1511",
