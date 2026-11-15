@@ -1,97 +1,98 @@
 {
  "modus": "live",
- "stand": "2026-11-14T07:27",
+ "stand": "2026-11-15T07:28",
  "hinweis": "Letzte veröffentlichte Prognose vor Anpfiff gegen offizielle Startelf. Quelle: Git-Historie von spielplan.json.",
  "gesamt": {
-  "teams": 18,
-  "elf_treffer_schnitt": 8.94,
-  "elf_quote": 0.813,
+  "teams": 24,
+  "elf_treffer_schnitt": 9.0,
+  "elf_quote": 0.818,
   "elf_verteilung": {
-   "11": 1,
-   "10": 7,
+   "11": 2,
+   "10": 10,
    "9": 3,
-   "8": 4,
-   "7": 3
+   "8": 5,
+   "7": 3,
+   "6": 1
   },
   "je_stufe": {
    "sicher": {
-    "n": 81,
-    "begonnen": 78,
-    "quote": 0.963
+    "n": 110,
+    "begonnen": 106,
+    "quote": 0.964
    },
    "erwartet": {
-    "n": 102,
-    "begonnen": 76,
+    "n": 137,
+    "begonnen": 102,
     "quote": 0.745
    },
    "unsicher": {
-    "n": 108,
-    "begonnen": 37,
-    "quote": 0.343
+    "n": 151,
+    "begonnen": 48,
+    "quote": 0.318
    },
    "unwahrscheinlich": {
-    "n": 69,
+    "n": 82,
     "begonnen": 5,
-    "quote": 0.072
+    "quote": 0.061
    },
    "ausgeschlossen": {
-    "n": 64,
-    "begonnen": 1,
-    "quote": 0.016
+    "n": 86,
+    "begonnen": 2,
+    "quote": 0.023
    }
   },
   "kalibrierung": [
    {
     "ab_einsatzwert": 1.0,
-    "n": 81,
-    "begonnen": 77,
-    "quote": 0.951
+    "n": 108,
+    "begonnen": 103,
+    "quote": 0.954
    },
    {
     "ab_einsatzwert": 0.95,
-    "n": 90,
-    "begonnen": 85,
-    "quote": 0.944
+    "n": 119,
+    "begonnen": 113,
+    "quote": 0.95
    },
    {
     "ab_einsatzwert": 0.9,
-    "n": 105,
-    "begonnen": 95,
-    "quote": 0.905
+    "n": 142,
+    "begonnen": 129,
+    "quote": 0.908
    },
    {
     "ab_einsatzwert": 0.85,
-    "n": 127,
-    "begonnen": 113,
-    "quote": 0.89
+    "n": 172,
+    "begonnen": 152,
+    "quote": 0.884
    },
    {
     "ab_einsatzwert": 0.8,
-    "n": 142,
-    "begonnen": 124,
-    "quote": 0.873
+    "n": 190,
+    "begonnen": 164,
+    "quote": 0.863
    },
    {
     "ab_einsatzwert": 0.7,
-    "n": 176,
-    "begonnen": 146,
-    "quote": 0.83
+    "n": 234,
+    "begonnen": 193,
+    "quote": 0.825
    },
    {
     "ab_einsatzwert": 0.55,
-    "n": 211,
-    "begonnen": 164,
-    "quote": 0.777
+    "n": 284,
+    "begonnen": 220,
+    "quote": 0.775
    },
    {
     "ab_einsatzwert": 0.3,
-    "n": 275,
-    "begonnen": 188,
-    "quote": 0.684
+    "n": 373,
+    "begonnen": 250,
+    "quote": 0.67
    }
   ],
   "sicher_daneben_grund": {
-   "bank": 2,
+   "bank": 3,
    "nicht im Kader": 1
   },
   "sicher_aber_nicht_begonnen": [
@@ -113,102 +114,109 @@
     "md": 9,
     "verein": "VfB Stuttgart",
     "n": "Hagel",
+    "stufe": "sicher",
+    "kader": "bank"
+   },
+   {
+    "md": 10,
+    "verein": "Union Berlin",
+    "n": "Reissner",
     "stufe": "sicher",
     "kader": "bank"
    }
   ]
  },
  "gesamt_24h": {
-  "teams": 18,
-  "elf_treffer_schnitt": 8.89,
-  "elf_quote": 0.808,
+  "teams": 24,
+  "elf_treffer_schnitt": 8.88,
+  "elf_quote": 0.807,
   "elf_verteilung": {
-   "11": 1,
-   "10": 7,
+   "11": 2,
+   "10": 10,
    "9": 3,
    "8": 4,
    "7": 2,
-   "6": 1
+   "6": 3
   },
   "je_stufe": {
    "sicher": {
-    "n": 81,
-    "begonnen": 78,
-    "quote": 0.963
+    "n": 110,
+    "begonnen": 106,
+    "quote": 0.964
    },
    "erwartet": {
-    "n": 107,
-    "begonnen": 78,
-    "quote": 0.729
+    "n": 141,
+    "begonnen": 102,
+    "quote": 0.723
    },
    "unsicher": {
-    "n": 105,
-    "begonnen": 36,
-    "quote": 0.343
+    "n": 148,
+    "begonnen": 48,
+    "quote": 0.324
    },
    "unwahrscheinlich": {
-    "n": 67,
-    "begonnen": 5,
-    "quote": 0.075
+    "n": 81,
+    "begonnen": 6,
+    "quote": 0.074
    },
    "ausgeschlossen": {
-    "n": 63,
-    "begonnen": 0,
-    "quote": 0.0
+    "n": 85,
+    "begonnen": 1,
+    "quote": 0.012
    }
   },
   "kalibrierung": [
    {
     "ab_einsatzwert": 1.0,
-    "n": 82,
-    "begonnen": 77,
-    "quote": 0.939
+    "n": 109,
+    "begonnen": 103,
+    "quote": 0.945
    },
    {
     "ab_einsatzwert": 0.95,
-    "n": 91,
-    "begonnen": 85,
-    "quote": 0.934
+    "n": 120,
+    "begonnen": 113,
+    "quote": 0.942
    },
    {
     "ab_einsatzwert": 0.9,
-    "n": 106,
-    "begonnen": 95,
-    "quote": 0.896
+    "n": 143,
+    "begonnen": 129,
+    "quote": 0.902
    },
    {
     "ab_einsatzwert": 0.85,
-    "n": 128,
-    "begonnen": 113,
-    "quote": 0.883
+    "n": 173,
+    "begonnen": 152,
+    "quote": 0.879
    },
    {
     "ab_einsatzwert": 0.8,
-    "n": 143,
-    "begonnen": 124,
-    "quote": 0.867
+    "n": 191,
+    "begonnen": 164,
+    "quote": 0.859
    },
    {
     "ab_einsatzwert": 0.7,
-    "n": 177,
-    "begonnen": 146,
-    "quote": 0.825
+    "n": 235,
+    "begonnen": 193,
+    "quote": 0.821
    },
    {
     "ab_einsatzwert": 0.55,
-    "n": 212,
-    "begonnen": 164,
-    "quote": 0.774
+    "n": 285,
+    "begonnen": 220,
+    "quote": 0.772
    },
    {
     "ab_einsatzwert": 0.3,
-    "n": 276,
-    "begonnen": 188,
-    "quote": 0.681
+    "n": 374,
+    "begonnen": 250,
+    "quote": 0.668
    }
   ],
   "sicher_daneben_grund": {
-   "bank": 2,
+   "bank": 3,
    "nicht im Kader": 1
   },
   "sicher_aber_nicht_begonnen": [
@@ -230,6 +238,13 @@
     "md": 9,
     "verein": "VfB Stuttgart",
     "n": "Hagel",
+    "stufe": "sicher",
+    "kader": "bank"
+   },
+   {
+    "md": 10,
+    "verein": "Union Berlin",
+    "n": "Reissner",
     "stufe": "sicher",
     "kader": "bank"
    }
@@ -326,95 +341,96 @@
   "sicher_aber_nicht_begonnen": []
  },
  "normale_woche": {
-  "teams": 17,
-  "elf_treffer_schnitt": 8.88,
-  "elf_quote": 0.807,
+  "teams": 23,
+  "elf_treffer_schnitt": 8.96,
+  "elf_quote": 0.814,
   "elf_verteilung": {
-   "11": 1,
-   "10": 6,
+   "11": 2,
+   "10": 9,
    "9": 3,
-   "8": 4,
-   "7": 3
+   "8": 5,
+   "7": 3,
+   "6": 1
   },
   "je_stufe": {
    "sicher": {
-    "n": 81,
-    "begonnen": 78,
-    "quote": 0.963
+    "n": 110,
+    "begonnen": 106,
+    "quote": 0.964
    },
    "erwartet": {
-    "n": 91,
-    "begonnen": 66,
-    "quote": 0.725
+    "n": 126,
+    "begonnen": 92,
+    "quote": 0.73
    },
    "unsicher": {
-    "n": 103,
-    "begonnen": 36,
-    "quote": 0.35
+    "n": 146,
+    "begonnen": 47,
+    "quote": 0.322
    },
    "unwahrscheinlich": {
-    "n": 65,
+    "n": 78,
     "begonnen": 5,
-    "quote": 0.077
+    "quote": 0.064
    },
    "ausgeschlossen": {
-    "n": 59,
-    "begonnen": 1,
-    "quote": 0.017
+    "n": 81,
+    "begonnen": 2,
+    "quote": 0.025
    }
   },
   "kalibrierung": [
    {
     "ab_einsatzwert": 1.0,
-    "n": 76,
-    "begonnen": 72,
-    "quote": 0.947
+    "n": 103,
+    "begonnen": 98,
+    "quote": 0.951
    },
    {
     "ab_einsatzwert": 0.95,
-    "n": 84,
-    "begonnen": 79,
-    "quote": 0.94
+    "n": 113,
+    "begonnen": 107,
+    "quote": 0.947
    },
    {
     "ab_einsatzwert": 0.9,
-    "n": 99,
-    "begonnen": 89,
-    "quote": 0.899
+    "n": 136,
+    "begonnen": 123,
+    "quote": 0.904
    },
    {
     "ab_einsatzwert": 0.85,
-    "n": 121,
-    "begonnen": 107,
-    "quote": 0.884
+    "n": 166,
+    "begonnen": 146,
+    "quote": 0.88
    },
    {
     "ab_einsatzwert": 0.8,
-    "n": 136,
-    "begonnen": 118,
-    "quote": 0.868
+    "n": 184,
+    "begonnen": 158,
+    "quote": 0.859
    },
    {
     "ab_einsatzwert": 0.7,
-    "n": 167,
-    "begonnen": 139,
-    "quote": 0.832
+    "n": 225,
+    "begonnen": 186,
+    "quote": 0.827
    },
    {
     "ab_einsatzwert": 0.55,
-    "n": 197,
-    "begonnen": 153,
-    "quote": 0.777
+    "n": 270,
+    "begonnen": 209,
+    "quote": 0.774
    },
    {
     "ab_einsatzwert": 0.3,
-    "n": 259,
-    "begonnen": 177,
-    "quote": 0.683
+    "n": 357,
+    "begonnen": 239,
+    "quote": 0.669
    }
   ],
   "sicher_daneben_grund": {
-   "bank": 2,
+   "bank": 3,
    "nicht im Kader": 1
   },
   "sicher_aber_nicht_begonnen": [
@@ -436,6 +452,13 @@
     "md": 9,
     "verein": "VfB Stuttgart",
     "n": "Hagel",
+    "stufe": "sicher",
+    "kader": "bank"
+   },
+   {
+    "md": 10,
+    "verein": "Union Berlin",
+    "n": "Reissner",
     "stufe": "sicher",
     "kader": "bank"
    }
@@ -649,94 +672,105 @@
    ]
   },
   "10": {
-   "teams": 2,
-   "elf_treffer_schnitt": 8.0,
-   "elf_quote": 0.727,
+   "teams": 8,
+   "elf_treffer_schnitt": 8.88,
+   "elf_quote": 0.807,
    "elf_verteilung": {
-    "8": 2
+    "11": 1,
+    "10": 3,
+    "8": 3,
+    "6": 1
    },
    "je_stufe": {
     "sicher": {
-     "n": 9,
-     "begonnen": 9,
-     "quote": 1.0
+     "n": 38,
+     "begonnen": 37,
+     "quote": 0.974
     },
     "erwartet": {
-     "n": 12,
-     "begonnen": 6,
-     "quote": 0.5
+     "n": 47,
+     "begonnen": 32,
+     "quote": 0.681
     },
     "unsicher": {
-     "n": 13,
-     "begonnen": 7,
-     "quote": 0.538
+     "n": 56,
+     "begonnen": 18,
+     "quote": 0.321
     },
     "unwahrscheinlich": {
-     "n": 6,
+     "n": 19,
      "begonnen": 0,
      "quote": 0.0
     },
     "ausgeschlossen": {
-     "n": 6,
-     "begonnen": 0,
-     "quote": 0.0
+     "n": 28,
+     "begonnen": 1,
+     "quote": 0.036
     }
    },
    "kalibrierung": [
     {
      "ab_einsatzwert": 1.0,
-     "n": 9,
-     "begonnen": 9,
-     "quote": 1.0
+     "n": 36,
+     "begonnen": 35,
+     "quote": 0.972
     },
     {
      "ab_einsatzwert": 0.95,
-     "n": 9,
-     "begonnen": 9,
-     "quote": 1.0
+     "n": 38,
+     "begonnen": 37,
+     "quote": 0.974
     },
     {
      "ab_einsatzwert": 0.9,
-     "n": 12,
-     "begonnen": 11,
-     "quote": 0.917
+     "n": 49,
+     "begonnen": 45,
+     "quote": 0.918
     },
     {
      "ab_einsatzwert": 0.85,
-     "n": 14,
-     "begonnen": 13,
-     "quote": 0.929
+     "n": 59,
+     "begonnen": 52,
+     "quote": 0.881
     },
     {
      "ab_einsatzwert": 0.8,
-     "n": 14,
-     "begonnen": 13,
-     "quote": 0.929
+     "n": 62,
+     "begonnen": 53,
+     "quote": 0.855
     },
     {
      "ab_einsatzwert": 0.7,
-     "n": 20,
-     "begonnen": 15,
-     "quote": 0.75
+     "n": 78,
+     "begonnen": 62,
+     "quote": 0.795
     },
     {
      "ab_einsatzwert": 0.55,
-     "n": 27,
-     "begonnen": 18,
-     "quote": 0.667
+     "n": 100,
+     "begonnen": 74,
+     "quote": 0.74
     },
     {
      "ab_einsatzwert": 0.3,
-     "n": 32,
-     "begonnen": 22,
-     "quote": 0.688
+     "n": 130,
+     "begonnen": 84,
+     "quote": 0.646
     }
    ],
    "sicher_daneben_grund": {
-    "bank": 0,
+    "bank": 1,
     "nicht im Kader": 0
    },
-   "sicher_aber_nicht_begonnen": []
+   "sicher_aber_nicht_begonnen": [
+    {
+     "md": 10,
+     "verein": "Union Berlin",
+     "n": "Reissner",
+     "stufe": "sicher",
+     "kader": "bank"
+    }
+   ]
   }
  },
  "ohne_prognose": []
