@@ -2,6 +2,33 @@
  "stand": "2026-11-15T14:40",
  "meldungen": [
   {
+   "id": "aufstellung-folgt-ma12306310",
+   "zeit": "2026-11-15T14:40",
+   "spielerin": "Spielansetzung",
+   "verein": "RB Leipzig",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "AUFSTELLUNG"
+   ],
+   "headline": "Aufstellung RB Leipzig gegen Eintracht Frankfurt folgt",
+   "kurz": "Aufstellung folgt, Anpfiff 16:00",
+   "text": [
+    "Anpfiff in der Liga ist um 16:00 Uhr. Die offizielle Aufstellung kommt meist rund 60 Minuten vorher, wir ergänzen sie hier automatisch, sobald sie veröffentlicht ist.",
+    "Bis dahin steht unsere Prognose im Spielplan bei der Partie."
+   ],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306310/rb-leipzig_eintracht-frankfurt/aufstellung"
+    }
+   ],
+   "platzhalter": true,
+   "anstoss": "2026-11-15T16:00",
+   "partie_id": "12306310"
+  },
+  {
    "id": "aufstellung-folgt-ma12306307",
    "zeit": "2026-11-15T14:40",
    "spielerin": "Spielansetzung",
