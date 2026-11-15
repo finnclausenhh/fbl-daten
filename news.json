@@ -2,6 +2,34 @@
  "stand": "2026-11-15T14:45",
  "meldungen": [
   {
+   "id": "starke-1511",
+   "pid": "00236",
+   "zeit": "2026-11-15T15:49",
+   "spielerin": "Sandra Starke",
+   "verein": "RB Leipzig",
+   "nr": "13",
+   "pos": "MF",
+   "tags": [
+    "TOP",
+    "VERLETZUNG"
+   ],
+   "status": "verletzt",
+   "headline": "Starke verletzt sich beim Aufwärmen und fällt gegen Frankfurt aus",
+   "kurz": "Starke beim Aufwärmen verletzt",
+   "text": [
+    "Sandra Starke hat sich beim Aufwärmen vor dem Spiel gegen Eintracht Frankfurt verletzt und steht nicht mehr in der Startelf von RB Leipzig. In der offiziellen Aufstellung um 15:07 war sie noch im Mittelfeld eingeplant.",
+    "Wer für sie in die Startelf rückt und wie schwer die Verletzung ist, ist noch offen. Eine offizielle Bestätigung des Vereins steht aus."
+   ],
+   "kickbase": "Starke holt heute keine Punkte. Wer sie aufgestellt hat, sollte vor dem Anpfiff um 16 Uhr tauschen. Für den nächsten Spieltag erst die Diagnose abwarten.",
+   "quellen": [
+    {
+     "name": "WOSOINSIDE, Beobachtung beim Aufwärmen (noch nicht offiziell bestätigt)",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306310/rb-leipzig_eintracht-frankfurt/liveticker"
+    }
+   ],
+   "partie_id": "12306310"
+  },
+  {
    "id": "brengel-standards-1511",
    "pid": "00308",
    "zeit": "2026-11-15T14:58",
