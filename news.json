@@ -1,6 +1,191 @@
 {
- "stand": "2026-11-15T14:45",
+ "stand": "2026-11-15T14:58",
  "meldungen": [
+  {
+   "id": "aufstellung-fcn-1511",
+   "zeit": "2026-11-15T14:58",
+   "spielerin": "Spielansetzung",
+   "verein": "1. FC Nürnberg",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "TOP"
+   ],
+   "headline": "Offizielle Aufstellung: 1. FC Nürnberg gegen 1. FC Köln",
+   "text": [
+    "Die Bank folgt, sobald sie veröffentlicht ist."
+   ],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306307/1-fc-nuernberg_1-fc-koeln/aufstellung"
+    }
+   ],
+   "aufstellung": {
+    "gegner": "1. FC Köln",
+    "formation": "4-2-2-2",
+    "startelf": [
+     {
+      "n": "Romero",
+      "p": "TW",
+      "pid": "00298"
+     },
+     {
+      "n": "Bleil",
+      "p": "ABW",
+      "pid": "00321"
+     },
+     {
+      "n": "Lobanova",
+      "p": "ABW",
+      "pid": "00304"
+     },
+     {
+      "n": "Varley",
+      "p": "ABW",
+      "pid": "00307"
+     },
+     {
+      "n": "Homann",
+      "p": "ABW",
+      "pid": "00313"
+     },
+     {
+      "n": "Pápai",
+      "p": "DM",
+      "pid": "00325",
+      "kp": "ST"
+     },
+     {
+      "n": "Miller",
+      "p": "DM",
+      "pid": "00316",
+      "kp": "MF"
+     },
+     {
+      "n": "Proniez",
+      "p": "OM",
+      "pid": "00317",
+      "kp": "MF"
+     },
+     {
+      "n": "Meroni",
+      "p": "OM",
+      "pid": "00324",
+      "kp": "ST"
+     },
+     {
+      "n": "Lein",
+      "p": "ST",
+      "pid": "00323"
+     },
+     {
+      "n": "Lapassouse",
+      "p": "ST",
+      "pid": "00322"
+     }
+    ],
+    "bank": [],
+    "fehlt": [],
+    "bank_offen": true,
+    "nicht_startelf": []
+   },
+   "quelle_live": true
+  },
+  {
+   "id": "aufstellung-koe-1511",
+   "zeit": "2026-11-15T14:58",
+   "spielerin": "Spielansetzung",
+   "verein": "1. FC Köln",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "TOP"
+   ],
+   "headline": "Offizielle Aufstellung: 1. FC Köln gegen 1. FC Nürnberg",
+   "text": [
+    "Die Bank folgt, sobald sie veröffentlicht ist."
+   ],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306307/1-fc-nuernberg_1-fc-koeln/aufstellung"
+    }
+   ],
+   "aufstellung": {
+    "gegner": "1. FC Nürnberg",
+    "formation": "3-3-2-2",
+    "startelf": [
+     {
+      "n": "Schmitz",
+      "p": "TW",
+      "pid": "00181"
+     },
+     {
+      "n": "Degen",
+      "p": "ABW",
+      "pid": "00185"
+     },
+     {
+      "n": "Bohnen",
+      "p": "ABW",
+      "pid": "00184"
+     },
+     {
+      "n": "Hegering",
+      "p": "ABW",
+      "pid": "00188"
+     },
+     {
+      "n": "Imping",
+      "p": "DM",
+      "pid": "00191",
+      "kp": "ABW"
+     },
+     {
+      "n": "Vogt",
+      "p": "DM",
+      "pid": "00203",
+      "kp": "MF"
+     },
+     {
+      "n": "Leimenstoll",
+      "p": "DM",
+      "pid": "00209",
+      "kp": "MF"
+     },
+     {
+      "n": "Feiersinger",
+      "p": "OM",
+      "pid": "00196",
+      "kp": "MF"
+     },
+     {
+      "n": "Elsen",
+      "p": "OM",
+      "pid": "00208",
+      "kp": "MF"
+     },
+     {
+      "n": "Bremer",
+      "p": "ST",
+      "pid": "00206"
+     },
+     {
+      "n": "Andrade",
+      "p": "ST",
+      "pid": "00205"
+     }
+    ],
+    "bank": [],
+    "fehlt": [],
+    "bank_offen": true,
+    "nicht_startelf": []
+   },
+   "quelle_live": true
+  },
   {
    "id": "aufstellung-folgt-ma12306310",
    "zeit": "2026-11-15T14:40",
@@ -27,33 +212,6 @@
    "platzhalter": true,
    "anstoss": "2026-11-15T16:00",
    "partie_id": "12306310"
-  },
-  {
-   "id": "aufstellung-folgt-ma12306307",
-   "zeit": "2026-11-15T14:40",
-   "spielerin": "Spielansetzung",
-   "verein": "1. FC Nürnberg",
-   "nr": "",
-   "pos": "Spielansetzung",
-   "tags": [
-    "AUFSTELLUNG"
-   ],
-   "headline": "Aufstellung 1. FC Nürnberg gegen 1. FC Köln folgt",
-   "kurz": "Aufstellung folgt, Anpfiff 16:00",
-   "text": [
-    "Anpfiff in der Liga ist um 16:00 Uhr. Die offizielle Aufstellung kommt meist rund 60 Minuten vorher, wir ergänzen sie hier automatisch, sobald sie veröffentlicht ist.",
-    "Bis dahin steht unsere Prognose im Spielplan bei der Partie."
-   ],
-   "kickbase": "",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306307/1-fc-nuernberg_1-fc-koeln/aufstellung"
-    }
-   ],
-   "platzhalter": true,
-   "anstoss": "2026-11-15T16:00",
-   "partie_id": "12306307"
   },
   {
    "id": "endstand-wob-1411",
