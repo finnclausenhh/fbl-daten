@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-15T17:47",
+ "stand": "2026-11-15T18:51",
  "meldungen": [
   {
    "id": "starke-diagnose-1511",
@@ -246,7 +246,7 @@
   {
    "id": "erstmals-baumgartel-fcn-1511",
    "pid": "00320",
-   "zeit": "2026-11-15T17:38",
+   "zeit": "2026-11-15T17:36",
    "spielerin": "Jacqueline Baumgärtel",
    "verein": "1. FC Nürnberg",
    "nr": "",
@@ -258,7 +258,7 @@
    "headline": "Baumgärtel feiert Saisondebüt",
    "text": [
     "Jacqueline Baumgärtel steht gegen 1. FC Köln zum ersten Mal in dieser Saison im Spieltagskader des 1. FC Nürnberg.",
-    "Gegen 1. FC Köln kam sie in der 81. Minute für Meroni ins Spiel. Insgesamt spielte sie rund 9 Minuten.",
+    "Gegen 1. FC Köln kam sie in der 81. Minute ins Spiel. Insgesamt spielte sie rund 9 Minuten.",
     "API-Football bewertet ihren Auftritt mit der Note 6,3 (durchwachsen)."
    ],
    "kickbase": "Erste Einsatzminuten der Saison. Für Kickbase vorerst eine Ergänzung, keine feste Größe.",
@@ -291,10 +291,10 @@
     "AUFSTELLUNG"
    ],
    "status": "fit",
-   "headline": "Stenevik erstmals im Kader",
+   "headline": "Stenevik erstmals im Kader, aber ohne Einsatz",
    "text": [
     "Elise Stenevik steht gegen 1. FC Nürnberg zum ersten Mal in dieser Saison im Spieltagskader des 1. FC Köln.",
-    "Gegen 1. FC Nürnberg sitzt sie zunächst auf der Bank."
+    "Gegen 1. FC Nürnberg saß sie die gesamte Spielzeit auf der Bank."
    ],
    "kickbase": "Neu im Spieltagskader. Für Kickbase vorerst nur eine Ergänzung.",
    "quellen": [
@@ -307,38 +307,7 @@
    "partie_id": "12306307",
    "comeback": {
     "art": "erstmals",
-    "stufe": "kader"
-   }
-  },
-  {
-   "id": "erstmals-baumgartel-fcn-1511",
-   "pid": "00320",
-   "zeit": "2026-11-15T17:38",
-   "spielerin": "Jacqueline Baumgärtel",
-   "verein": "1. FC Nürnberg",
-   "nr": "",
-   "pos": "ST",
-   "tags": [
-    "AUFSTELLUNG"
-   ],
-   "status": "fit",
-   "headline": "Baumgärtel feiert Saisondebüt",
-   "text": [
-    "Jacqueline Baumgärtel steht gegen 1. FC Köln zum ersten Mal in dieser Saison im Spieltagskader des 1. FC Nürnberg.",
-    "Gegen 1. FC Köln kam sie in der 81. Minute für Meroni ins Spiel."
-   ],
-   "kickbase": "Erste Einsatzminuten der Saison. Für Kickbase vorerst eine Ergänzung, keine feste Größe.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306307/1-fc-nuernberg_1-fc-koeln/liveticker"
-    }
-   ],
-   "quelle_live": true,
-   "partie_id": "12306307",
-   "comeback": {
-    "art": "erstmals",
-    "stufe": "einsatz"
+    "stufe": "ohne"
    }
   },
   {
