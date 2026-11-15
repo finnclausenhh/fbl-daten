@@ -2,6 +2,47 @@
  "stand": "2026-11-15T14:45",
  "meldungen": [
   {
+   "id": "comeback-marti-rbl-1511",
+   "pid": "00218",
+   "zeit": "2026-11-15T15:07",
+   "spielerin": "Lara Marti",
+   "verein": "RB Leipzig",
+   "nr": "",
+   "pos": "ABW",
+   "tags": [
+    "RÜCKKEHR"
+   ],
+   "status": "fit",
+   "headline": "Marti nach Kreuzbandriss zurück im Kader",
+   "text": [
+    "Lara Marti steht gegen Eintracht Frankfurt erstmals seit ihrem Kreuzbandriss im Mai 2025 wieder im Spieltagskader von RB Leipzig.",
+    "Die 27-jährige Schweizer Nationalspielerin kam im Januar 2024 aus Leverkusen nach Leipzig und spielte in der Saison 2024/25 als Außenverteidigerin 18 Ligaspiele für RB.",
+    "Die komplette Saison 2025/26 verpasste sie, kurz vor der Heim-EM war das Kreuzband gerissen.",
+    "Gegen Eintracht Frankfurt sitzt sie zunächst auf der Bank."
+   ],
+   "kickbase": "Zurück im Kader, aber noch ohne Spielpraxis. Ein Einsatz am nächsten Spieltag ist offen, die Startelf eher nicht.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306310/rb-leipzig_eintracht-frankfurt/liveticker"
+    },
+    {
+     "name": "blue Sport",
+     "url": "https://www.bluewin.ch/en/sport/football/lara-marti-on-her-cruciate-ligament-rupture-missing-the-european-championships-at-home-and-her-comeback-li.3162849"
+    },
+    {
+     "name": "soccerdonna",
+     "url": "https://www.soccerdonna.de/en/lara-marti/leistungsdaten/spieler_27687.html"
+    }
+   ],
+   "quelle_live": true,
+   "partie_id": "12306310",
+   "comeback": {
+    "art": "comeback",
+    "stufe": "kader"
+   }
+  },
+  {
    "id": "starke-1511",
    "pid": "00236",
    "zeit": "2026-11-15T15:49",
@@ -54,37 +95,6 @@
      "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306307/1-fc-nuernberg_1-fc-koeln/aufstellung"
     }
    ]
-  },
-  {
-   "id": "erstmals-marti-rbl-1511",
-   "pid": "00218",
-   "zeit": "2026-11-15T15:07",
-   "spielerin": "Lara Marti",
-   "verein": "RB Leipzig",
-   "nr": "",
-   "pos": "ABW",
-   "tags": [
-    "AUFSTELLUNG"
-   ],
-   "status": "fit",
-   "headline": "Marti erstmals im Kader",
-   "text": [
-    "Lara Marti steht gegen Eintracht Frankfurt zum ersten Mal in dieser Saison im Spieltagskader von RB Leipzig.",
-    "Gegen Eintracht Frankfurt sitzt sie zunächst auf der Bank."
-   ],
-   "kickbase": "Neu im Spieltagskader. Für Kickbase vorerst nur eine Ergänzung.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306310/rb-leipzig_eintracht-frankfurt/liveticker"
-    }
-   ],
-   "quelle_live": true,
-   "partie_id": "12306310",
-   "comeback": {
-    "art": "erstmals",
-    "stufe": "kader"
-   }
   },
   {
    "id": "erstmals-stolze-koe-1511",

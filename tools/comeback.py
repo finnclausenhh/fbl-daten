@@ -186,11 +186,14 @@ def meldung(art, p, seite, s, voll, bez, af, kader, jetzt, alt, news=None):
         head = (f"{nach} steht {vorher} in der Startelf" if start else f"{nach} {vorher} zurück im Kader") if art == "comeback" \
             else (f"{nach} erstmals in der Startelf" if start else f"{nach} erstmals im Kader")
     head = re.sub(r"\s+", " ", head)
-    if art == "comeback":
+    kx = kontext(pid)
+    if art == "comeback" and kx.get("seit"):
+        t1 = f"{voll} steht gegen {gegner} erstmals seit ihrem {bez} im {kx['seit']} wieder im Spieltagskader {bei(verein)}."
+    elif art == "comeback":
         t1 = f"{voll} ist {vorher} zurück im Spieltagskader {bei(verein)}."
     else:
         t1 = f"{voll} steht gegen {gegner} zum ersten Mal in dieser Saison im Spieltagskader {bei(verein)}."
-    text = [t1]
+    text = [t1] + list(kx.get("saetze") or [])
     if start:
         e = f"Gegen {gegner} stand sie in der Startelf"
         e += (f" und wurde in der {aus}. Minute ausgewechselt" if aus else (" und spielte durch" if fertig else "")) + "."
@@ -222,7 +225,7 @@ def meldung(art, p, seite, s, voll, bez, af, kader, jetzt, alt, news=None):
          "zeit": zeitpunkt(stufe, p, seite, start, ein, news or {"meldungen": []}, jetzt),
          "spielerin": voll, "verein": verein, "nr": s.get("nr", ""), "pos": AB.pos_von(voll or s["n"], verein, kader) or s.get("p", ""),
          "tags": tags, "status": "fit", "headline": head, "text": text, "kickbase": kb,
-         "quellen": [{"name": "Sportschau", "url": p.get("url", "")}] + ([{"name": "API-Football (Note)", "url": "https://www.api-football.com"}] if note is not None else []),
+         "quellen": [{"name": "Sportschau", "url": p.get("url", "")}] + list(kx.get("quellen") or []) + ([{"name": "API-Football (Note)", "url": "https://www.api-football.com"}] if note is not None else []),
          "quelle_live": True, "partie_id": p["id"], "comeback": {"art": art, "stufe": stufe}}
     if len(head) > 46:
         m["kurz"] = (f"{nach} feiert {wort}" if spielt else f"{nach} zurück im Kader" if art == "comeback" else f"{nach} erstmals im Kader")
@@ -242,6 +245,16 @@ def live_aufstellung(news, p, seite):
 
 
 KADER = []
+KONTEXT_DATEI = os.path.join(os.path.dirname(os.path.abspath(__file__)), "comeback_kontext.json")
+
+
+def kontext(pid):
+    """Eintrag aus tools/comeback_kontext.json (Finn, 15.11.2026) oder {}."""
+    try:
+        d = json.load(open(KONTEXT_DATEI, encoding="utf-8"))
+    except Exception:
+        return {}
+    return d.get(str(pid or ""), {}) if pid else {}
 
 
 def kandidaten(news, sp, jetzt):
@@ -265,6 +278,12 @@ def kandidaten(news, sp, jetzt):
             for s in [dict(x, _start=True) for x in a["startelf"]] + a.get("bank", []):
                 voll = s.get("voll") or s["n"]
                 k = nk(voll)
+                kx = kontext(AB.pid_von(voll, verein, KADER))
+                if kx.get("art") == "comeback" and kx.get("bez"):
+                    in_saison = [n for z, n in frueher if z >= saison]
+                    if not any(k in n for n in in_saison):
+                        out.append(("comeback", p, seite, s, voll, kx["bez"]))
+                    continue
                 t_v, bez = verletzung(news, verein, voll)
                 if t_v and t_v >= (jetzt - timedelta(days=180)).strftime("%Y-%m-%d"):
                     seit = [n for z, n in frueher if z > t_v]

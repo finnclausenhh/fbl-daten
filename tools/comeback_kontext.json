@@ -1,0 +1,23 @@
+{
+ "_hinweis": "Kontext für Comeback-/Erstmals-Meldungen (Finn, 15.11.2026). Schlüssel = pid aus kader.csv. art comeback + bez + seit: gilt als Rückkehr auch nach mehr als 180 Tagen. saetze: Kontextsätze direkt nach dem ersten Satz (Alter, Position, Stand beim Verein bzw. Ex-Verein). Nur für die News, nicht fürs Profil. Vor dem Eintragen recherchieren und belegen (quellen).",
+ "00218": {
+  "spielerin": "Lara Marti",
+  "art": "comeback",
+  "bez": "Kreuzbandriss",
+  "seit": "Mai 2025",
+  "saetze": [
+   "Die 27-jährige Schweizer Nationalspielerin kam im Januar 2024 aus Leverkusen nach Leipzig und spielte in der Saison 2024/25 als Außenverteidigerin 18 Ligaspiele für RB.",
+   "Die komplette Saison 2025/26 verpasste sie, kurz vor der Heim-EM war das Kreuzband gerissen."
+  ],
+  "quellen": [
+   {
+    "name": "blue Sport",
+    "url": "https://www.bluewin.ch/en/sport/football/lara-marti-on-her-cruciate-ligament-rupture-missing-the-european-championships-at-home-and-her-comeback-li.3162849"
+   },
+   {
+    "name": "soccerdonna",
+    "url": "https://www.soccerdonna.de/en/lara-marti/leistungsdaten/spieler_27687.html"
+   }
+  ]
+ }
+}
