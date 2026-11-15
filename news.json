@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-15T14:58",
+ "stand": "2026-11-15T15:00",
  "meldungen": [
   {
    "id": "aufstellung-fcn-1511",
@@ -12,9 +12,7 @@
     "TOP"
    ],
    "headline": "Offizielle Aufstellung: 1. FC Nürnberg gegen 1. FC Köln",
-   "text": [
-    "Die Bank folgt, sobald sie veröffentlicht ist."
-   ],
+   "text": [],
    "kickbase": "",
    "quellen": [
     {
@@ -86,10 +84,54 @@
       "pid": "00322"
      }
     ],
-    "bank": [],
-    "fehlt": [],
-    "bank_offen": true,
-    "nicht_startelf": []
+    "bank": [
+     {
+      "n": "Adamczyk",
+      "p": "TW",
+      "pid": "00296"
+     },
+     {
+      "n": "Pollak",
+      "p": "ABW",
+      "pid": "00305"
+     },
+     {
+      "n": "Fröhlich",
+      "p": "ABW",
+      "pid": "00302"
+     },
+     {
+      "n": "Barboz",
+      "p": "ABW",
+      "pid": "00300"
+     },
+     {
+      "n": "Brengel",
+      "p": "MF",
+      "pid": "00308"
+     },
+     {
+      "n": "Coutel",
+      "p": "MF",
+      "pid": "00310"
+     },
+     {
+      "n": "Ličina",
+      "p": "MF",
+      "pid": "00314"
+     },
+     {
+      "n": "Mai",
+      "p": "MF",
+      "pid": "00315"
+     },
+     {
+      "n": "Baumgärtel",
+      "p": "ST",
+      "pid": "00320"
+     }
+    ],
+    "fehlt": []
    },
    "quelle_live": true
   },
