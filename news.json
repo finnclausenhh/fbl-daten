@@ -2,6 +2,45 @@
  "stand": "2026-11-15T18:11",
  "meldungen": [
   {
+   "id": "endstand-fcn-1511",
+   "zeit": "2026-11-15T18:26",
+   "spielerin": "1. FC Nürnberg gegen 1. FC Köln",
+   "verein": "1. FC Nürnberg",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "SPIELBERICHT"
+   ],
+   "headline": "1. FC Köln gewinnt 1:0 beim 1. FC Nürnberg, Elsen trifft",
+   "kurz": "Köln siegt 1:0 in Nürnberg",
+   "text": [
+    "1. FC Köln gewinnt beim 1. FC Nürnberg mit 1:0.",
+    "Tore: 0:1 Elsen (9.).",
+    "Elfmeter verschossen: Bremer (90+4.).",
+    "Platzverweis: Varley (Rot, 90+3.). Eine Sperre für das nächste Spiel ist wahrscheinlich.",
+    "Gelb: Meroni, Andrade, Leimenstoll, Elsen, Varley.",
+    "Beste Note im Spiel: Elsen (7,6).",
+    "Statistik (1. FC Nürnberg zuerst): Torschüsse 12:16 (aufs Tor 3:4), Ballbesitz 51:49 %, Expected Goals 0,82:1,94, Ecken 5:9.",
+    "Beste Noten 1. FC Nürnberg: Lobanova 7,1, Romero 7,0, Pápai 6,7.",
+    "Beste Noten 1. FC Köln: Elsen 7,6, Degen 7,0, Schmitz 6,9.",
+    "Schwächste Note in der Startelf: Varley (5,0)."
+   ],
+   "kickbase": "Herausragend: Elsen (7,6).",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306307/1-fc-nuernberg_1-fc-koeln/liveticker"
+    },
+    {
+     "name": "API-Football (Noten, Statistik)",
+     "url": "https://www.api-football.com"
+    }
+   ],
+   "quelle_live": true,
+   "partie_id": "12306307",
+   "noten": true
+  },
+  {
    "id": "endstand-rbl-1511",
    "zeit": "2026-11-15T17:55",
    "spielerin": "RB Leipzig gegen Eintracht Frankfurt",
@@ -37,36 +76,6 @@
    "quelle_live": true,
    "partie_id": "12306310",
    "noten": true
-  },
-  {
-   "id": "endstand-fcn-1511",
-   "zeit": "2026-11-15T17:54",
-   "spielerin": "1. FC Nürnberg gegen 1. FC Köln",
-   "verein": "1. FC Nürnberg",
-   "nr": "",
-   "pos": "Spielansetzung",
-   "tags": [
-    "SPIELBERICHT"
-   ],
-   "headline": "Endstand: 1. FC Nürnberg 0:1 1. FC Köln",
-   "kurz": "Endstand FCN 0:1 KOE",
-   "text": [
-    "1. FC Köln gewinnt beim 1. FC Nürnberg mit 1:0.",
-    "Tore: 0:1 Elsen (9.).",
-    "Elfmeter verschossen: Bremer (90+4.).",
-    "Platzverweis: Varley (Rot, 90+3.). Eine Sperre für das nächste Spiel ist wahrscheinlich.",
-    "Gelb: Meroni, Andrade, Leimenstoll, Elsen, Varley.",
-    "Noten und der ausführliche Bericht folgen."
-   ],
-   "kickbase": "",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306307/1-fc-nuernberg_1-fc-koeln/liveticker"
-    }
-   ],
-   "quelle_live": true,
-   "partie_id": "12306307"
   },
   {
    "id": "erstmals-baumgartel-fcn-1511",
