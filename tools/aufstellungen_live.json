@@ -1,6 +1,131 @@
 {
  "meldungen": [
   {
+   "id": "endstand-fcn-1511",
+   "zeit": "2026-11-15T17:54",
+   "spielerin": "1. FC Nürnberg gegen 1. FC Köln",
+   "verein": "1. FC Nürnberg",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "SPIELBERICHT"
+   ],
+   "headline": "Endstand: 1. FC Nürnberg 0:1 1. FC Köln",
+   "kurz": "Endstand FCN 0:1 KOE",
+   "text": [
+    "1. FC Köln gewinnt beim 1. FC Nürnberg mit 1:0.",
+    "Tore: 0:1 Elsen (9.).",
+    "Elfmeter verschossen: Bremer (90+4.).",
+    "Platzverweis: Varley (Rot, 90+3.). Eine Sperre für das nächste Spiel ist wahrscheinlich.",
+    "Gelb: Meroni, Andrade, Leimenstoll, Elsen, Varley.",
+    "Noten und der ausführliche Bericht folgen."
+   ],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306307/1-fc-nuernberg_1-fc-koeln/liveticker"
+    }
+   ],
+   "quelle_live": true,
+   "partie_id": "12306307"
+  },
+  {
+   "id": "erstmals-stolze-koe-1511",
+   "pid": "00210",
+   "zeit": "2026-11-15T14:58",
+   "spielerin": "Anna-Lena Stolze",
+   "verein": "1. FC Köln",
+   "nr": "",
+   "pos": "ST",
+   "tags": [
+    "AUFSTELLUNG",
+    "UPDATE"
+   ],
+   "status": "fit",
+   "headline": "Stolze erstmals im Kader, aber ohne Einsatz",
+   "text": [
+    "Anna-Lena Stolze steht gegen 1. FC Nürnberg zum ersten Mal in dieser Saison im Spieltagskader des 1. FC Köln.",
+    "Gegen 1. FC Nürnberg saß sie die gesamte Spielzeit auf der Bank."
+   ],
+   "kickbase": "Neu im Spieltagskader. Für Kickbase vorerst nur eine Ergänzung.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306307/1-fc-nuernberg_1-fc-koeln/liveticker"
+    }
+   ],
+   "quelle_live": true,
+   "partie_id": "12306307",
+   "comeback": {
+    "art": "erstmals",
+    "stufe": "ohne"
+   }
+  },
+  {
+   "id": "erstmals-stenevik-koe-1511",
+   "pid": "00192",
+   "zeit": "2026-11-15T14:58",
+   "spielerin": "Elise Stenevik",
+   "verein": "1. FC Köln",
+   "nr": "",
+   "pos": "ABW",
+   "tags": [
+    "AUFSTELLUNG",
+    "UPDATE"
+   ],
+   "status": "fit",
+   "headline": "Stenevik erstmals im Kader, aber ohne Einsatz",
+   "text": [
+    "Elise Stenevik steht gegen 1. FC Nürnberg zum ersten Mal in dieser Saison im Spieltagskader des 1. FC Köln.",
+    "Gegen 1. FC Nürnberg saß sie die gesamte Spielzeit auf der Bank."
+   ],
+   "kickbase": "Neu im Spieltagskader. Für Kickbase vorerst nur eine Ergänzung.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306307/1-fc-nuernberg_1-fc-koeln/liveticker"
+    }
+   ],
+   "quelle_live": true,
+   "partie_id": "12306307",
+   "comeback": {
+    "art": "erstmals",
+    "stufe": "ohne"
+   }
+  },
+  {
+   "id": "erstmals-baumgartel-fcn-1511",
+   "pid": "00320",
+   "zeit": "2026-11-15T17:38",
+   "spielerin": "Jacqueline Baumgärtel",
+   "verein": "1. FC Nürnberg",
+   "nr": "",
+   "pos": "ST",
+   "tags": [
+    "AUFSTELLUNG"
+   ],
+   "status": "fit",
+   "headline": "Baumgärtel feiert Saisondebüt",
+   "text": [
+    "Jacqueline Baumgärtel steht gegen 1. FC Köln zum ersten Mal in dieser Saison im Spieltagskader des 1. FC Nürnberg.",
+    "Gegen 1. FC Köln kam sie in der 81. Minute für Meroni ins Spiel. Insgesamt spielte sie rund 9 Minuten."
+   ],
+   "kickbase": "Erste Einsatzminuten der Saison. Für Kickbase vorerst eine Ergänzung, keine feste Größe.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306307/1-fc-nuernberg_1-fc-koeln/liveticker"
+    }
+   ],
+   "quelle_live": true,
+   "partie_id": "12306307",
+   "comeback": {
+    "art": "erstmals",
+    "stufe": "einsatz"
+   }
+  },
+  {
    "id": "comeback-marti-rbl-1511",
    "pid": "00218",
    "zeit": "2026-11-15T15:07",
@@ -41,37 +166,6 @@
     "stufe": "ohne"
    },
    "kurz": "Marti zurück im Kader"
-  },
-  {
-   "id": "erstmals-baumgartel-fcn-1511",
-   "pid": "00320",
-   "zeit": "2026-11-15T17:38",
-   "spielerin": "Jacqueline Baumgärtel",
-   "verein": "1. FC Nürnberg",
-   "nr": "",
-   "pos": "ST",
-   "tags": [
-    "AUFSTELLUNG"
-   ],
-   "status": "fit",
-   "headline": "Baumgärtel feiert Saisondebüt",
-   "text": [
-    "Jacqueline Baumgärtel steht gegen 1. FC Köln zum ersten Mal in dieser Saison im Spieltagskader des 1. FC Nürnberg.",
-    "Gegen 1. FC Köln kam sie in der 81. Minute für Meroni ins Spiel."
-   ],
-   "kickbase": "Erste Einsatzminuten der Saison. Für Kickbase vorerst eine Ergänzung, keine feste Größe.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306307/1-fc-nuernberg_1-fc-koeln/liveticker"
-    }
-   ],
-   "quelle_live": true,
-   "partie_id": "12306307",
-   "comeback": {
-    "art": "erstmals",
-    "stufe": "einsatz"
-   }
   },
   {
    "id": "fehlt-reimann-scf-0111",
@@ -210,68 +304,6 @@
    ],
    "quelle_live": true,
    "partie_id": "12306310"
-  },
-  {
-   "id": "erstmals-stolze-koe-1511",
-   "pid": "00210",
-   "zeit": "2026-11-15T14:58",
-   "spielerin": "Anna-Lena Stolze",
-   "verein": "1. FC Köln",
-   "nr": "",
-   "pos": "ST",
-   "tags": [
-    "AUFSTELLUNG"
-   ],
-   "status": "fit",
-   "headline": "Stolze erstmals im Kader",
-   "text": [
-    "Anna-Lena Stolze steht gegen 1. FC Nürnberg zum ersten Mal in dieser Saison im Spieltagskader des 1. FC Köln.",
-    "Gegen 1. FC Nürnberg sitzt sie zunächst auf der Bank."
-   ],
-   "kickbase": "Neu im Spieltagskader. Für Kickbase vorerst nur eine Ergänzung.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306307/1-fc-nuernberg_1-fc-koeln/liveticker"
-    }
-   ],
-   "quelle_live": true,
-   "partie_id": "12306307",
-   "comeback": {
-    "art": "erstmals",
-    "stufe": "kader"
-   }
-  },
-  {
-   "id": "erstmals-stenevik-koe-1511",
-   "pid": "00192",
-   "zeit": "2026-11-15T14:58",
-   "spielerin": "Elise Stenevik",
-   "verein": "1. FC Köln",
-   "nr": "",
-   "pos": "ABW",
-   "tags": [
-    "AUFSTELLUNG"
-   ],
-   "status": "fit",
-   "headline": "Stenevik erstmals im Kader",
-   "text": [
-    "Elise Stenevik steht gegen 1. FC Nürnberg zum ersten Mal in dieser Saison im Spieltagskader des 1. FC Köln.",
-    "Gegen 1. FC Nürnberg sitzt sie zunächst auf der Bank."
-   ],
-   "kickbase": "Neu im Spieltagskader. Für Kickbase vorerst nur eine Ergänzung.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306307/1-fc-nuernberg_1-fc-koeln/liveticker"
-    }
-   ],
-   "quelle_live": true,
-   "partie_id": "12306307",
-   "comeback": {
-    "art": "erstmals",
-    "stufe": "kader"
-   }
   },
   {
    "id": "aufstellung-rbl-1511",
