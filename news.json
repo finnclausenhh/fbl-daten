@@ -1,6 +1,338 @@
 {
- "stand": "2026-11-15T15:00",
+ "stand": "2026-11-15T15:07",
  "meldungen": [
+  {
+   "id": "aufstellung-rbl-1511",
+   "zeit": "2026-11-15T15:07",
+   "spielerin": "Spielansetzung",
+   "verein": "RB Leipzig",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "TOP"
+   ],
+   "headline": "Offizielle Aufstellung: RB Leipzig gegen Eintracht Frankfurt",
+   "text": [],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306310/rb-leipzig_eintracht-frankfurt/aufstellung"
+    }
+   ],
+   "aufstellung": {
+    "gegner": "Eintracht Frankfurt",
+    "formation": "4-1-2-2-1",
+    "startelf": [
+     {
+      "n": "Herzog",
+      "p": "TW",
+      "pid": "00213",
+      "f": "neu"
+     },
+     {
+      "n": "Mathys",
+      "p": "ABW",
+      "pid": "00219"
+     },
+     {
+      "n": "Veefkind",
+      "p": "ABW",
+      "pid": "00222",
+      "f": "neu"
+     },
+     {
+      "n": "Mertens",
+      "p": "ABW",
+      "pid": "00225",
+      "f": "neu"
+     },
+     {
+      "n": "Tuin",
+      "p": "ABW",
+      "pid": "00221"
+     },
+     {
+      "n": "Dudek",
+      "p": "DM",
+      "pid": "00217",
+      "kp": "ABW"
+     },
+     {
+      "n": "Starke",
+      "p": "MF",
+      "pid": "00236",
+      "kp": "ST"
+     },
+     {
+      "n": "Pusztai",
+      "p": "MF",
+      "pid": "00227"
+     },
+     {
+      "n": "van Dijk",
+      "p": "OM",
+      "pid": "00237",
+      "kp": "ST"
+     },
+     {
+      "n": "Schimmer",
+      "p": "OM",
+      "pid": "00234",
+      "kp": "ST"
+     },
+     {
+      "n": "Boboy",
+      "p": "ST",
+      "pid": "00230"
+     }
+    ],
+    "bank": [
+     {
+      "n": "Waldbillig",
+      "p": "TW",
+      "pid": "00216",
+      "f": "raus"
+     },
+     {
+      "n": "Marti",
+      "p": "ABW",
+      "pid": "00218",
+      "f": "neu"
+     },
+     {
+      "n": "Norheim",
+      "p": "ABW",
+      "pid": "00226",
+      "f": "raus"
+     },
+     {
+      "n": "Hulst",
+      "p": "ST",
+      "pid": "00231"
+     },
+     {
+      "n": "Pfister",
+      "p": "ST",
+      "pid": "00233"
+     },
+     {
+      "n": "Kleemann",
+      "p": "ST",
+      "pid": "00232"
+     },
+     {
+      "n": "Simonsson",
+      "p": "ST",
+      "pid": "00235",
+      "f": "raus"
+     }
+    ],
+    "fehlt": [
+     {
+      "n": "Kropp",
+      "p": "TW"
+     },
+     {
+      "n": "Lindner",
+      "p": "TW"
+     },
+     {
+      "n": "Németh",
+      "p": "ABW"
+     },
+     {
+      "n": "Joly",
+      "p": "MF"
+     },
+     {
+      "n": "Kramer",
+      "p": "MF"
+     },
+     {
+      "n": "Schasching",
+      "p": "MF"
+     },
+     {
+      "n": "Ásgeirsdóttir",
+      "p": "ST",
+      "i": "verletzt"
+     }
+    ]
+   },
+   "quelle_live": true
+  },
+  {
+   "id": "aufstellung-sge-1511",
+   "zeit": "2026-11-15T15:07",
+   "spielerin": "Spielansetzung",
+   "verein": "Eintracht Frankfurt",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "TOP"
+   ],
+   "headline": "Offizielle Aufstellung: Eintracht Frankfurt gegen RB Leipzig",
+   "text": [],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306310/rb-leipzig_eintracht-frankfurt/aufstellung"
+    }
+   ],
+   "aufstellung": {
+    "gegner": "RB Leipzig",
+    "formation": "4-1-2-1-2",
+    "startelf": [
+     {
+      "n": "Altenburg",
+      "p": "TW",
+      "pid": "00056"
+     },
+     {
+      "n": "Krumbiegel",
+      "p": "ABW",
+      "pid": "00072"
+     },
+     {
+      "n": "Ilestedt",
+      "p": "ABW",
+      "pid": "00062"
+     },
+     {
+      "n": "Østenstad",
+      "p": "ABW",
+      "pid": "00066"
+     },
+     {
+      "n": "Lührßen",
+      "p": "ABW",
+      "pid": "00064"
+     },
+     {
+      "n": "Bennison",
+      "p": "DM",
+      "pid": "00069",
+      "kp": "MF"
+     },
+     {
+      "n": "Memeti",
+      "p": "MF",
+      "pid": "00079"
+     },
+     {
+      "n": "Acikgöz",
+      "p": "MF",
+      "pid": "00060",
+      "f": "neu"
+     },
+     {
+      "n": "Mühlhaus",
+      "p": "OM",
+      "pid": "00080",
+      "kp": "MF"
+     },
+     {
+      "n": "Freigang",
+      "p": "ST",
+      "pid": "00077"
+     },
+     {
+      "n": "Blomqvist",
+      "p": "ST",
+      "pid": "00070",
+      "f": "neu"
+     }
+    ],
+    "bank": [
+     {
+      "n": "Winkler",
+      "p": "TW",
+      "pid": "00059",
+      "f": "neu"
+     },
+     {
+      "n": "Doorsoun",
+      "p": "ABW",
+      "pid": "00061"
+     },
+     {
+      "n": "Rankin",
+      "p": "ABW",
+      "pid": "00067"
+     },
+     {
+      "n": "Ivelj",
+      "p": "MF",
+      "pid": "00063",
+      "f": "raus"
+     },
+     {
+      "n": "Wolter",
+      "p": "ABW",
+      "pid": "00075"
+     },
+     {
+      "n": "Ainhoa Alguacil",
+      "p": "MF",
+      "pid": "00068"
+     },
+     {
+      "n": "Lundgaard",
+      "p": "MF",
+      "pid": "00073",
+      "f": "neu"
+     },
+     {
+      "n": "Raso",
+      "p": "ST",
+      "pid": "00081",
+      "f": "raus"
+     },
+     {
+      "n": "Tolhoek",
+      "p": "ST",
+      "pid": "00082"
+     }
+    ],
+    "fehlt": [
+     {
+      "n": "Krumme",
+      "p": "TW",
+      "f": "raus",
+      "war": "Bank"
+     },
+     {
+      "n": "Teulings",
+      "p": "MF",
+      "f": "raus",
+      "war": "Bank"
+     },
+     {
+      "n": "Jeppe",
+      "p": "TW"
+     },
+     {
+      "n": "Matijević",
+      "p": "ABW"
+     },
+     {
+      "n": "Demirbas",
+      "p": "MF"
+     },
+     {
+      "n": "Zimmermann",
+      "p": "MF"
+     },
+     {
+      "n": "Lia",
+      "p": "ST"
+     }
+    ]
+   },
+   "quelle_live": true
+  },
   {
    "id": "aufstellung-fcn-1511",
    "zeit": "2026-11-15T14:58",
@@ -284,33 +616,6 @@
     ]
    },
    "quelle_live": true
-  },
-  {
-   "id": "aufstellung-folgt-ma12306310",
-   "zeit": "2026-11-15T14:40",
-   "spielerin": "Spielansetzung",
-   "verein": "RB Leipzig",
-   "nr": "",
-   "pos": "Spielansetzung",
-   "tags": [
-    "AUFSTELLUNG"
-   ],
-   "headline": "Aufstellung RB Leipzig gegen Eintracht Frankfurt folgt",
-   "kurz": "Aufstellung folgt, Anpfiff 16:00",
-   "text": [
-    "Anpfiff in der Liga ist um 16:00 Uhr. Die offizielle Aufstellung kommt meist rund 60 Minuten vorher, wir ergänzen sie hier automatisch, sobald sie veröffentlicht ist.",
-    "Bis dahin steht unsere Prognose im Spielplan bei der Partie."
-   ],
-   "kickbase": "",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306310/rb-leipzig_eintracht-frankfurt/aufstellung"
-    }
-   ],
-   "platzhalter": true,
-   "anstoss": "2026-11-15T16:00",
-   "partie_id": "12306310"
   },
   {
    "id": "endstand-wob-1411",
