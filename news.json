@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-16T17:03",
+ "stand": "2026-11-16T17:21",
  "meldungen": [
   {
    "id": "aufstellung-vfb-1611",
@@ -13,7 +13,8 @@
    ],
    "headline": "Offizielle Aufstellung: VfB Stuttgart gegen Bayer Leverkusen",
    "text": [
-    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Rückert, Stegemann. Die Bank folgt, sobald sie veröffentlicht ist."
+    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Rückert, Stegemann.",
+    "Nicht im Spieltagskader (laut Sportschau), obwohl im letzten Ligaspiel dabei: Stegemann. Einen Grund nennt bisher keine Quelle."
    ],
    "kickbase": "",
    "quellen": [
@@ -90,19 +91,61 @@
       "pid": "00351"
      }
     ],
-    "bank": [],
-    "fehlt": [],
-    "bank_offen": true,
-    "nicht_startelf": [
+    "bank": [
+     {
+      "n": "Beck",
+      "p": "TW",
+      "pid": "00327"
+     },
+     {
+      "n": "Dürr",
+      "p": "ABW",
+      "pid": "00332"
+     },
+     {
+      "n": "F. Dongus",
+      "p": "ABW",
+      "pid": ""
+     },
+     {
+      "n": "F. Dongus",
+      "p": "ABW",
+      "pid": ""
+     },
+     {
+      "n": "Hagel",
+      "p": "MF",
+      "pid": "00343"
+     },
+     {
+      "n": "Schetter",
+      "p": "ST",
+      "pid": "00355"
+     },
+     {
+      "n": "Beuschlein",
+      "p": "ST",
+      "pid": "00350"
+     },
      {
       "n": "Rückert",
       "p": "ST",
-      "pid": "00354"
+      "pid": "00354",
+      "f": "raus"
      },
+     {
+      "n": "Arouna",
+      "p": "ST",
+      "pid": "00349"
+     }
+    ],
+    "fehlt": [
      {
       "n": "Stegemann",
       "p": "ABW",
-      "pid": "00339"
+      "pid": "00339",
+      "f": "raus",
+      "war": "Startelf"
      }
     ]
    },
