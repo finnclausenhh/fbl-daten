@@ -1,6 +1,60 @@
 {
- "stand": "2026-11-16T08:08",
+ "stand": "2026-11-16T07:45",
  "meldungen": [
+  {
+   "id": "fehlt-altenburg-sge-0111",
+   "pid": "00056",
+   "zeit": "2026-11-01T13:12",
+   "spielerin": "Lina Altenburg",
+   "verein": "Eintracht Frankfurt",
+   "nr": "",
+   "pos": "TW",
+   "tags": [
+    "AUFSTELLUNG",
+    "POKAL"
+   ],
+   "status": "fraglich",
+   "headline": "Altenburg nicht im Kader gegen 1. FC Nürnberg",
+   "text": [
+    "Lina Altenburg steht im DFB-Pokal gegen 1. FC Nürnberg weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
+    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
+   ],
+   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
+   "quellen": [
+    {
+     "name": "DFB-Datencenter",
+     "url": "https://datencenter.dfb.de/matches/1-fc-nuernberg-eintracht-frankfurt-2431335"
+    }
+   ],
+   "quelle_live": true
+  },
+  {
+   "id": "fehlt-bender-b04-0111",
+   "pid": "00257",
+   "zeit": "2026-11-01T13:53",
+   "spielerin": "Loreen Bender",
+   "verein": "Bayer Leverkusen",
+   "nr": "",
+   "pos": "ST",
+   "tags": [
+    "AUFSTELLUNG",
+    "POKAL"
+   ],
+   "status": "fraglich",
+   "headline": "Bender nicht im Kader gegen FC Bayern",
+   "text": [
+    "Loreen Bender steht im DFB-Pokal gegen FC Bayern weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 4-mal.",
+    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
+   ],
+   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165391/bayern-muenchen_bayer-leverkusen/aufstellung"
+    }
+   ],
+   "quelle_live": true
+  },
   {
    "id": "endstand-fcn-1511",
    "zeit": "2026-11-15T18:26",
@@ -78,74 +132,6 @@
    "noten": true
   },
   {
-   "id": "erstmals-baumgartel-fcn-1511",
-   "pid": "00320",
-   "zeit": "2026-11-15T17:36",
-   "spielerin": "Jacqueline Baumgärtel",
-   "verein": "1. FC Nürnberg",
-   "nr": "",
-   "pos": "ST",
-   "tags": [
-    "AUFSTELLUNG"
-   ],
-   "status": "fit",
-   "headline": "Baumgärtel feiert Saisondebüt",
-   "text": [
-    "Jacqueline Baumgärtel steht gegen 1. FC Köln zum ersten Mal in dieser Saison im Spieltagskader des 1. FC Nürnberg.",
-    "Gegen 1. FC Köln kam sie in der 81. Minute ins Spiel. Insgesamt spielte sie rund 9 Minuten.",
-    "API-Football bewertet ihren Auftritt mit der Note 6,3 (durchwachsen)."
-   ],
-   "kickbase": "Erste Einsatzminuten der Saison. Für Kickbase vorerst eine Ergänzung, keine feste Größe.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306307/1-fc-nuernberg_1-fc-koeln/liveticker"
-    },
-    {
-     "name": "API-Football (Note)",
-     "url": "https://www.api-football.com"
-    }
-   ],
-   "quelle_live": true,
-   "partie_id": "12306307",
-   "comeback": {
-    "art": "erstmals",
-    "stufe": "einsatz"
-   }
-  },
-  {
-   "id": "varley-rot-1511",
-   "pid": "00307",
-   "zeit": "2026-11-15T17:00",
-   "spielerin": "Leia Varley",
-   "verein": "1. FC Nürnberg",
-   "nr": "2",
-   "pos": "ABW",
-   "tags": [
-    "SPERRE"
-   ],
-   "status": "fit",
-   "headline": "Varley sieht Rot, Sperre wahrscheinlich",
-   "kurz": "Varley sieht Rot, Sperre wahrscheinlich",
-   "text": [
-    "Nürnbergs Verteidigerin Leia Varley hat beim 0:1 gegen den 1. FC Köln wegen einer Notbremse die Rote Karte gesehen (90.+3). Pauline Bremer scheiterte anschließend mit dem Foulelfmeter.",
-    "Nach den üblichen Regeln folgt auf eine Rote Karte eine Spielsperre. Wie lang sie ausfällt, ist offen, eine offizielle Mitteilung von Verein oder DFB steht aus."
-   ],
-   "kickbase": "Bis das Urteil feststeht, bleibt Varley im Plan. Gut möglich, dass sie am nächsten Spieltag fehlt.",
-   "quellen": [
-    {
-     "name": "DFB",
-     "url": "https://www.dfb.de/news/carolin-elsen-laesst-koeln-in-nuernberg-jubeln"
-    }
-   ],
-   "foto": "fotos/fcn-leia-varley.webp",
-   "foto_credit": {
-    "autor": "1. FC Nürnberg",
-    "lizenz": "mit Genehmigung: 1. FC Nürnberg",
-    "url": "https://www.fcn.de/clubfrauen/spielerinnen/"
-   }
-  },
-  {
    "id": "comeback-marti-rbl-1511",
    "pid": "00218",
    "zeit": "2026-11-15T15:07",
@@ -186,6 +172,136 @@
     "stufe": "ohne"
    },
    "kurz": "Marti zurück im Kader"
+  },
+  {
+   "id": "varley-rot-1511",
+   "pid": "00307",
+   "zeit": "2026-11-15T17:00",
+   "spielerin": "Leia Varley",
+   "verein": "1. FC Nürnberg",
+   "nr": "2",
+   "pos": "ABW",
+   "tags": [
+    "SPERRE"
+   ],
+   "status": "fit",
+   "headline": "Varley sieht Rot, Sperre wahrscheinlich",
+   "kurz": "Varley sieht Rot, Sperre wahrscheinlich",
+   "text": [
+    "Nürnbergs Verteidigerin Leia Varley hat beim 0:1 gegen den 1. FC Köln wegen einer Notbremse die Rote Karte gesehen (90.+3). Pauline Bremer scheiterte anschließend mit dem Foulelfmeter.",
+    "Nach den üblichen Regeln folgt auf eine Rote Karte eine Spielsperre. Wie lang sie ausfällt, ist offen, eine offizielle Mitteilung von Verein oder DFB steht aus."
+   ],
+   "kickbase": "Bis das Urteil feststeht, bleibt Varley im Plan. Gut möglich, dass sie am nächsten Spieltag fehlt.",
+   "quellen": [
+    {
+     "name": "DFB",
+     "url": "https://www.dfb.de/news/carolin-elsen-laesst-koeln-in-nuernberg-jubeln"
+    }
+   ],
+   "foto": "fotos/fcn-leia-varley.webp",
+   "foto_credit": {
+    "autor": "1. FC Nürnberg",
+    "lizenz": "mit Genehmigung: 1. FC Nürnberg",
+    "url": "https://www.fcn.de/clubfrauen/spielerinnen/"
+   }
+  },
+  {
+   "id": "erstmals-stolze-koe-1511",
+   "pid": "00210",
+   "zeit": "2026-11-15T14:58",
+   "spielerin": "Anna-Lena Stolze",
+   "verein": "1. FC Köln",
+   "nr": "",
+   "pos": "ST",
+   "tags": [
+    "AUFSTELLUNG"
+   ],
+   "status": "fit",
+   "headline": "Stolze erstmals im Kader, aber ohne Einsatz",
+   "text": [
+    "Anna-Lena Stolze steht gegen 1. FC Nürnberg zum ersten Mal in dieser Saison im Spieltagskader des 1. FC Köln.",
+    "Gegen 1. FC Nürnberg saß sie die gesamte Spielzeit auf der Bank."
+   ],
+   "kickbase": "Neu im Spieltagskader. Für Kickbase vorerst nur eine Ergänzung.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306307/1-fc-nuernberg_1-fc-koeln/liveticker"
+    }
+   ],
+   "quelle_live": true,
+   "partie_id": "12306307",
+   "comeback": {
+    "art": "erstmals",
+    "stufe": "ohne"
+   }
+  },
+  {
+   "id": "erstmals-stenevik-koe-1511",
+   "pid": "00192",
+   "zeit": "2026-11-15T14:58",
+   "spielerin": "Elise Stenevik",
+   "verein": "1. FC Köln",
+   "nr": "",
+   "pos": "ABW",
+   "tags": [
+    "AUFSTELLUNG"
+   ],
+   "status": "fit",
+   "headline": "Stenevik erstmals im Kader, aber ohne Einsatz",
+   "text": [
+    "Elise Stenevik steht gegen 1. FC Nürnberg zum ersten Mal in dieser Saison im Spieltagskader des 1. FC Köln.",
+    "Gegen 1. FC Nürnberg saß sie die gesamte Spielzeit auf der Bank."
+   ],
+   "kickbase": "Neu im Spieltagskader. Für Kickbase vorerst nur eine Ergänzung.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306307/1-fc-nuernberg_1-fc-koeln/liveticker"
+    }
+   ],
+   "quelle_live": true,
+   "partie_id": "12306307",
+   "comeback": {
+    "art": "erstmals",
+    "stufe": "ohne"
+   }
+  },
+  {
+   "id": "erstmals-baumgartel-fcn-1511",
+   "pid": "00320",
+   "zeit": "2026-11-15T17:36",
+   "spielerin": "Jacqueline Baumgärtel",
+   "verein": "1. FC Nürnberg",
+   "nr": "",
+   "pos": "ST",
+   "tags": [
+    "AUFSTELLUNG"
+   ],
+   "status": "fit",
+   "headline": "Baumgärtel feiert Saisondebüt",
+   "text": [
+    "Jacqueline Baumgärtel steht gegen 1. FC Köln zum ersten Mal in dieser Saison im Spieltagskader des 1. FC Nürnberg.",
+    "Gegen 1. FC Köln kam sie in der 81. Minute ins Spiel. Insgesamt spielte sie rund 9 Minuten.",
+    "API-Football bewertet ihren Auftritt mit der Note 6,3 (durchwachsen)."
+   ],
+   "kickbase": "Erste Einsatzminuten der Saison. Für Kickbase vorerst eine Ergänzung, keine feste Größe.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306307/1-fc-nuernberg_1-fc-koeln/liveticker"
+    },
+    {
+     "name": "API-Football (Note)",
+     "url": "https://www.api-football.com"
+    }
+   ],
+   "quelle_live": true,
+   "partie_id": "12306307",
+   "comeback": {
+    "art": "erstmals",
+    "stufe": "einsatz"
+   }
   },
   {
    "id": "aufstellung-rbl-1511",
@@ -520,68 +636,6 @@
    "quelle_live": true
   },
   {
-   "id": "erstmals-stolze-koe-1511",
-   "pid": "00210",
-   "zeit": "2026-11-15T14:58",
-   "spielerin": "Anna-Lena Stolze",
-   "verein": "1. FC Köln",
-   "nr": "",
-   "pos": "ST",
-   "tags": [
-    "AUFSTELLUNG"
-   ],
-   "status": "fit",
-   "headline": "Stolze erstmals im Kader, aber ohne Einsatz",
-   "text": [
-    "Anna-Lena Stolze steht gegen 1. FC Nürnberg zum ersten Mal in dieser Saison im Spieltagskader des 1. FC Köln.",
-    "Gegen 1. FC Nürnberg saß sie die gesamte Spielzeit auf der Bank."
-   ],
-   "kickbase": "Neu im Spieltagskader. Für Kickbase vorerst nur eine Ergänzung.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306307/1-fc-nuernberg_1-fc-koeln/liveticker"
-    }
-   ],
-   "quelle_live": true,
-   "partie_id": "12306307",
-   "comeback": {
-    "art": "erstmals",
-    "stufe": "ohne"
-   }
-  },
-  {
-   "id": "erstmals-stenevik-koe-1511",
-   "pid": "00192",
-   "zeit": "2026-11-15T14:58",
-   "spielerin": "Elise Stenevik",
-   "verein": "1. FC Köln",
-   "nr": "",
-   "pos": "ABW",
-   "tags": [
-    "AUFSTELLUNG"
-   ],
-   "status": "fit",
-   "headline": "Stenevik erstmals im Kader, aber ohne Einsatz",
-   "text": [
-    "Elise Stenevik steht gegen 1. FC Nürnberg zum ersten Mal in dieser Saison im Spieltagskader des 1. FC Köln.",
-    "Gegen 1. FC Nürnberg saß sie die gesamte Spielzeit auf der Bank."
-   ],
-   "kickbase": "Neu im Spieltagskader. Für Kickbase vorerst nur eine Ergänzung.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306307/1-fc-nuernberg_1-fc-koeln/liveticker"
-    }
-   ],
-   "quelle_live": true,
-   "partie_id": "12306307",
-   "comeback": {
-    "art": "erstmals",
-    "stufe": "ohne"
-   }
-  },
-  {
    "id": "aufstellung-fcn-1511",
    "zeit": "2026-11-15T14:58",
    "spielerin": "Spielansetzung",
@@ -900,6 +954,188 @@
    "quelle_live": true,
    "partie_id": "12306313",
    "noten": true
+  },
+  {
+   "id": "aufstellung-fcu-1411",
+   "zeit": "2026-11-14T13:10",
+   "spielerin": "Spielansetzung",
+   "verein": "Union Berlin",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "TOP"
+   ],
+   "headline": "Offizielle Aufstellung: Union Berlin gegen Werder Bremen",
+   "text": [],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306292/werder-bremen_1-fc-union-berlin/aufstellung"
+    }
+   ],
+   "aufstellung": {
+    "gegner": "Werder Bremen",
+    "formation": "4-2-2-2",
+    "startelf": [
+     {
+      "n": "Böhi",
+      "p": "TW",
+      "pid": "00357"
+     },
+     {
+      "n": "Schneider",
+      "p": "ABW",
+      "pid": "00366"
+     },
+     {
+      "n": "Tysiak",
+      "p": "ABW",
+      "pid": "00369"
+     },
+     {
+      "n": "Steuerwald",
+      "p": "ABW",
+      "pid": "00368"
+     },
+     {
+      "n": "Veit",
+      "p": "ABW",
+      "pid": "00370",
+      "f": "neu"
+     },
+     {
+      "n": "Gräwe",
+      "p": "DM",
+      "pid": "00372",
+      "kp": "MF"
+     },
+     {
+      "n": "Hausicke",
+      "p": "DM",
+      "pid": "00373",
+      "kp": "MF"
+     },
+     {
+      "n": "Janssens",
+      "p": "OM",
+      "pid": "00363",
+      "kp": "ABW"
+     },
+     {
+      "n": "Judit Pujols",
+      "p": "OM",
+      "pid": "00364",
+      "kp": "ABW"
+     },
+     {
+      "n": "Bauereisen",
+      "p": "ST",
+      "pid": "00381"
+     },
+     {
+      "n": "Kamber",
+      "p": "ST",
+      "pid": "00376",
+      "kp": "MF"
+     }
+    ],
+    "bank": [
+     {
+      "n": "Bösl",
+      "p": "TW",
+      "pid": "00358"
+     },
+     {
+      "n": "Steinert",
+      "p": "ABW",
+      "pid": "00367"
+     },
+     {
+      "n": "Weiß",
+      "p": "ABW",
+      "pid": "00371"
+     },
+     {
+      "n": "Heiseler",
+      "p": "ST",
+      "pid": "00374"
+     },
+     {
+      "n": "Weidauer",
+      "p": "ST",
+      "pid": "00387"
+     },
+     {
+      "n": "Egli",
+      "p": "ST",
+      "pid": "00383"
+     },
+     {
+      "n": "Reissner",
+      "p": "ST",
+      "pid": "00386",
+      "f": "raus"
+     },
+     {
+      "n": "Campbell",
+      "p": "ST",
+      "pid": "00382"
+     },
+     {
+      "n": "Orschmann",
+      "p": "ST",
+      "pid": "00385"
+     }
+    ],
+    "fehlt": [
+     {
+      "n": "Schulz",
+      "p": "TW"
+     },
+     {
+      "n": "Smolarczyk",
+      "p": "TW"
+     },
+     {
+      "n": "Aehling",
+      "p": "ABW"
+     },
+     {
+      "n": "Heikkinen",
+      "p": "ABW"
+     },
+     {
+      "n": "Noack",
+      "p": "ABW"
+     },
+     {
+      "n": "Janež",
+      "p": "MF"
+     },
+     {
+      "n": "Laidler",
+      "p": "MF"
+     },
+     {
+      "n": "Pawollek",
+      "p": "MF"
+     },
+     {
+      "n": "Seifert",
+      "p": "MF"
+     },
+     {
+      "n": "Nkili",
+      "p": "ST"
+     },
+     {
+      "n": "Eurlings",
+      "p": "ST"
+     }
+    ]
+   },
+   "quelle_live": true
   },
   {
    "id": "aufstellung-wob-1411",
@@ -1258,42 +1494,6 @@
    "noten": true
   },
   {
-   "id": "comeback-sherif-svw-1411",
-   "pid": "00030",
-   "zeit": "2026-11-14T14:00",
-   "spielerin": "Mariella El Sherif",
-   "verein": "Werder Bremen",
-   "nr": "39",
-   "pos": "TW",
-   "tags": [
-    "RÜCKKEHR"
-   ],
-   "status": "fit",
-   "headline": "Sherif feiert Comeback nach Handverletzung",
-   "text": [
-    "Mariella El Sherif ist nach Handverletzung zurück im Spieltagskader von Werder Bremen.",
-    "Gegen Union Berlin stand sie in der Startelf und spielte durch. Insgesamt spielte sie 90 Minuten.",
-    "API-Football bewertet ihren Auftritt mit der Note 6,8 (ordentlich)."
-   ],
-   "kickbase": "Wieder einsatzbereit. Nach der Pause am nächsten Spieltag eher mit begrenzter Spielzeit rechnen, die Startelf ist noch offen.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306292/werder-bremen_1-fc-union-berlin/liveticker"
-    },
-    {
-     "name": "API-Football (Note)",
-     "url": "https://www.api-football.com"
-    }
-   ],
-   "quelle_live": true,
-   "partie_id": "12306292",
-   "comeback": {
-    "art": "comeback",
-    "stufe": "einsatz"
-   }
-  },
-  {
    "id": "endstand-tsg-1411",
    "zeit": "2026-11-14T13:55",
    "spielerin": "TSG Hoffenheim gegen SC Freiburg",
@@ -1331,186 +1531,40 @@
    "noten": true
   },
   {
-   "id": "aufstellung-fcu-1411",
-   "zeit": "2026-11-14T13:10",
-   "spielerin": "Spielansetzung",
-   "verein": "Union Berlin",
-   "nr": "",
-   "pos": "Spielansetzung",
+   "id": "comeback-sherif-svw-1411",
+   "pid": "00030",
+   "zeit": "2026-11-14T14:00",
+   "spielerin": "Mariella El Sherif",
+   "verein": "Werder Bremen",
+   "nr": "39",
+   "pos": "TW",
    "tags": [
-    "TOP"
+    "RÜCKKEHR"
    ],
-   "headline": "Offizielle Aufstellung: Union Berlin gegen Werder Bremen",
-   "text": [],
-   "kickbase": "",
+   "status": "fit",
+   "headline": "Sherif feiert Comeback nach Handverletzung",
+   "text": [
+    "Mariella El Sherif ist nach Handverletzung zurück im Spieltagskader von Werder Bremen.",
+    "Gegen Union Berlin stand sie in der Startelf und spielte durch. Insgesamt spielte sie 90 Minuten.",
+    "API-Football bewertet ihren Auftritt mit der Note 6,8 (ordentlich)."
+   ],
+   "kickbase": "Wieder einsatzbereit. Nach der Pause am nächsten Spieltag eher mit begrenzter Spielzeit rechnen, die Startelf ist noch offen.",
    "quellen": [
     {
      "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306292/werder-bremen_1-fc-union-berlin/aufstellung"
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306292/werder-bremen_1-fc-union-berlin/liveticker"
+    },
+    {
+     "name": "API-Football (Note)",
+     "url": "https://www.api-football.com"
     }
    ],
-   "aufstellung": {
-    "gegner": "Werder Bremen",
-    "formation": "4-2-2-2",
-    "startelf": [
-     {
-      "n": "Böhi",
-      "p": "TW",
-      "pid": "00357"
-     },
-     {
-      "n": "Schneider",
-      "p": "ABW",
-      "pid": "00366"
-     },
-     {
-      "n": "Tysiak",
-      "p": "ABW",
-      "pid": "00369"
-     },
-     {
-      "n": "Steuerwald",
-      "p": "ABW",
-      "pid": "00368"
-     },
-     {
-      "n": "Veit",
-      "p": "ABW",
-      "pid": "00370",
-      "f": "neu"
-     },
-     {
-      "n": "Gräwe",
-      "p": "DM",
-      "pid": "00372",
-      "kp": "MF"
-     },
-     {
-      "n": "Hausicke",
-      "p": "DM",
-      "pid": "00373",
-      "kp": "MF"
-     },
-     {
-      "n": "Janssens",
-      "p": "OM",
-      "pid": "00363",
-      "kp": "ABW"
-     },
-     {
-      "n": "Judit Pujols",
-      "p": "OM",
-      "pid": "00364",
-      "kp": "ABW"
-     },
-     {
-      "n": "Bauereisen",
-      "p": "ST",
-      "pid": "00381"
-     },
-     {
-      "n": "Kamber",
-      "p": "ST",
-      "pid": "00376",
-      "kp": "MF"
-     }
-    ],
-    "bank": [
-     {
-      "n": "Bösl",
-      "p": "TW",
-      "pid": "00358"
-     },
-     {
-      "n": "Steinert",
-      "p": "ABW",
-      "pid": "00367"
-     },
-     {
-      "n": "Weiß",
-      "p": "ABW",
-      "pid": "00371"
-     },
-     {
-      "n": "Heiseler",
-      "p": "ST",
-      "pid": "00374"
-     },
-     {
-      "n": "Weidauer",
-      "p": "ST",
-      "pid": "00387"
-     },
-     {
-      "n": "Egli",
-      "p": "ST",
-      "pid": "00383"
-     },
-     {
-      "n": "Reissner",
-      "p": "ST",
-      "pid": "00386",
-      "f": "raus"
-     },
-     {
-      "n": "Campbell",
-      "p": "ST",
-      "pid": "00382"
-     },
-     {
-      "n": "Orschmann",
-      "p": "ST",
-      "pid": "00385"
-     }
-    ],
-    "fehlt": [
-     {
-      "n": "Schulz",
-      "p": "TW"
-     },
-     {
-      "n": "Smolarczyk",
-      "p": "TW"
-     },
-     {
-      "n": "Aehling",
-      "p": "ABW"
-     },
-     {
-      "n": "Heikkinen",
-      "p": "ABW"
-     },
-     {
-      "n": "Noack",
-      "p": "ABW"
-     },
-     {
-      "n": "Janež",
-      "p": "MF"
-     },
-     {
-      "n": "Laidler",
-      "p": "MF"
-     },
-     {
-      "n": "Pawollek",
-      "p": "MF"
-     },
-     {
-      "n": "Seifert",
-      "p": "MF"
-     },
-     {
-      "n": "Nkili",
-      "p": "ST"
-     },
-     {
-      "n": "Eurlings",
-      "p": "ST"
-     }
-    ]
-   },
-   "quelle_live": true
+   "quelle_live": true,
+   "partie_id": "12306292",
+   "comeback": {
+    "art": "comeback",
+    "stufe": "einsatz"
+   }
   },
   {
    "id": "aufstellung-svw-1411",
@@ -2483,7 +2537,7 @@
     "UPDATE"
    ],
    "headline": "Vor dem 10. Spieltag: Pressekonferenzen, Vorberichte und späte Updates",
-   "kurz": "10. Spieltag: wer wann spricht, wer wann berichtet (13 von 14 Vorberichten da)",
+   "kurz": "10. Spieltag: wer wann spricht, wer wann berichtet (9 von 14 Vorberichten da)",
    "text": [
     "Vor dem 10. Spieltag geben nur wenige Vereine eine Pressekonferenz. Was dort zum Personal gesagt wird, ist oft die letzte Info vor der offiziellen Aufstellung.",
     "VfL Wolfsburg (gegen FC Bayern, Sa 14.11., 17:55 Uhr): Vor solchen Spielen gibt es üblicherweise eine Pressekonferenz mit Trainer Stephan Lerch, meist am Vortag (Fr 13.11.). Einen Termin hat der Verein noch nicht genannt, danach Zusammenfassung auf vfl-wolfsburg.de.",
@@ -2492,11 +2546,11 @@
     "Wann die Vereine ihre Vorberichte bringen (die Links stehen unten bei den Quellen):",
     "Hamburger SV gegen Mainz 05 (Fr 13.11., 18:30 Uhr): Hamburger SV online: „Flutlicht-Freitag: HSV-Frauen empfangen Mainz 05 im Volkspark“; Mainz 05 seit Do 12.11., 13:00 Uhr: 05-Frauen vor Hamburg: „Müssen mithalten und dürfen uns nicht verstecken“.",
     "TSG Hoffenheim gegen SC Freiburg (Sa 14.11., 12:00 Uhr): TSG Hoffenheim seit Do 12.11., 17:14 Uhr: „Virsinger vor #TSGSCF: Müssen Großchancen verwandeln“; SC Freiburg seit Do 12.11.: „Kaltschnäuziger und klarer“ auftreten.",
-    "Werder Bremen gegen Union Berlin (Sa 14.11., 14:00 Uhr): Werder Bremen ohne Vorbericht; Union Berlin seit Fr 13.11., 09:00 Uhr: „Unionerinnen mit Rückenwind an die Weser“.",
-    "VfL Wolfsburg gegen FC Bayern (Sa 14.11., 17:55 Uhr): VfL Wolfsburg seit Fr 13.11.: „La Clasica: Wölfinnen empfangen den FC Bayern“; FC Bayern seit Fr 13.11., 09:45 Uhr: „Faktenlage: VfL Wolfsburg – FC Bayern Frauen“.",
-    "1. FC Nürnberg gegen 1. FC Köln (So 15.11., 16:00 Uhr): 1. FC Nürnberg seit Fr 13.11.: „Vorbericht: Mit Rückenwind gegen den Effzeh“; 1. FC Köln seit Fr 13.11., 12:00 Uhr: „FC-Frauen: Spannendes Duell in Nürnberg“.",
-    "RB Leipzig gegen Eintracht Frankfurt (So 15.11., 16:00 Uhr): RB Leipzig seit Fr 13.11., 16:25 Uhr: „Rb leipzig frauen spielvorschau eintracht frankfurt spannung red bull arena“; Eintracht Frankfurt seit Fr 13.11., 16:00 Uhr: „Punktejagd in Leipzig“.",
-    "VfB Stuttgart gegen Bayer Leverkusen (Mo 16.11., 18:00 Uhr): VfB Stuttgart seit Fr 13.11., 13:22 Uhr: „Matchfacts: VfB-Frauen – Bayer 04 Leverkusen“; Bayer Leverkusen seit Sa 14.11.: „Frisch in die Woche gehen“: Frauen reisen nach Stuttgart.",
+    "Werder Bremen gegen Union Berlin (Sa 14.11., 14:00 Uhr): Werder Bremen noch nicht da, zuletzt am Vortag, gegen 16 Uhr; Union Berlin seit Fr 13.11., 09:00 Uhr: „Unionerinnen mit Rückenwind an die Weser“.",
+    "VfL Wolfsburg gegen FC Bayern (Sa 14.11., 17:55 Uhr): VfL Wolfsburg noch nicht da, noch kein fester Rhythmus bekannt; FC Bayern seit Fr 13.11., 09:45 Uhr: „Faktenlage: VfL Wolfsburg – FC Bayern Frauen“.",
+    "1. FC Nürnberg gegen 1. FC Köln (So 15.11., 16:00 Uhr): 1. FC Nürnberg noch nicht da, zuletzt am Vortag; 1. FC Köln seit Fr 13.11., 12:00 Uhr: „FC-Frauen: Spannendes Duell in Nürnberg“.",
+    "RB Leipzig gegen Eintracht Frankfurt (So 15.11., 16:00 Uhr): RB Leipzig noch nicht da, zuletzt drei Tage vorher, gegen 15 Uhr; Eintracht Frankfurt seit Fr 13.11., 16:00 Uhr: „Punktejagd in Leipzig“.",
+    "VfB Stuttgart gegen Bayer Leverkusen (Mo 16.11., 18:00 Uhr): VfB Stuttgart seit Fr 13.11., 13:22 Uhr: „Matchfacts: VfB-Frauen – Bayer 04 Leverkusen“; Bayer Leverkusen noch nicht da, zuletzt am Vortag.",
     "Die offiziellen Aufstellungen kommen etwa eine Stunde vor Anpfiff, wir melden sie automatisch. Bis dahin sind Last-Minute-Änderungen möglich, gerade bei Vereinen, die unter der Woche im Europapokal gespielt haben."
    ],
    "kickbase": "Aufstellung erst nach den Pressekonferenzen festzurren (VfL Wolfsburg, FC Bayern). Bei allen anderen ist die offizielle Aufstellung vor Anpfiff die erste sichere Info.",
@@ -2522,24 +2576,12 @@
      "url": "https://www.fc-union-berlin.de/de/meldungen/unionerinnen-mit-rueckenwind-an-die-weser-CvS4Jm"
     },
     {
-     "name": "Vorbericht VfL Wolfsburg",
-     "url": "https://www.vfl-wolfsburg.de/newsdetails/news-detail/detail/news/la-clasica-woelfinnen-empfangen-den-fc-bayern"
-    },
-    {
      "name": "Vorbericht FC Bayern",
      "url": "https://fcbayern.com/frauen/de/news/2026/11/faktenlage-vfl-wolfsburg---fc-bayern-frauen"
     },
     {
-     "name": "Vorbericht 1. FC Nürnberg",
-     "url": "https://www.fcn.de/news/artikel/vorbericht-mit-rueckenwind-gegen-den-effzeh/"
-    },
-    {
      "name": "Vorbericht 1. FC Köln",
      "url": "https://fc.de/aktuelles/news/fc-frauen-spannendes-duell-in-nuernberg"
-    },
-    {
-     "name": "Vorbericht RB Leipzig",
-     "url": "https://rbleipzig.com/de/news/rb-leipzig-frauen-spielvorschau-eintracht-frankfurt-spannung-red-bull-arena"
     },
     {
      "name": "Vorbericht Eintracht Frankfurt",
@@ -2548,10 +2590,6 @@
     {
      "name": "Vorbericht VfB Stuttgart",
      "url": "https://www.vfb.de/de/vfb/aktuell/neues/vfb-frauen/26-27/matchfacts--vfb-frauen-----bayer-04-leverkusen/"
-    },
-    {
-     "name": "Vorbericht Bayer Leverkusen",
-     "url": "https://www.bayer04.de/de-de/news/frauen/frisch-in-die-woche-gehen-frauen-reisen-nach-stuttgart"
     },
     {
      "name": "VfL Wolfsburg",
@@ -8254,116 +8292,6 @@
     "lizenz": "mit Genehmigung: FC Bayern München",
     "url": "https://fcbayern.com/frauen/de/teams/1.-mannschaft"
    }
-  },
-  {
-   "id": "fehlt-reimann-scf-0111",
-   "pid": "00085",
-   "zeit": "2026-11-01T14:08",
-   "spielerin": "Anna Reimann",
-   "verein": "SC Freiburg",
-   "nr": "",
-   "pos": "TW",
-   "tags": [
-    "AUFSTELLUNG",
-    "POKAL"
-   ],
-   "status": "fraglich",
-   "headline": "Reimann nicht im Kader gegen FC Carl Zeiss Jena",
-   "text": [
-    "Anna Reimann steht im DFB-Pokal gegen FC Carl Zeiss Jena weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
-    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
-   ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
-   "quellen": [
-    {
-     "name": "DFB-Datencenter",
-     "url": "https://datencenter.dfb.de/matches/sc-freiburg-fc-carl-zeiss-jena-2431333"
-    }
-   ],
-   "quelle_live": true,
-   "kurz": "Reimann nicht im Kader"
-  },
-  {
-   "id": "fehlt-viggosdottir-fcb-0111",
-   "pid": "00013",
-   "zeit": "2026-11-01T13:53",
-   "spielerin": "Glódís Viggósdóttir",
-   "verein": "FC Bayern",
-   "nr": "",
-   "pos": "ABW",
-   "tags": [
-    "AUFSTELLUNG",
-    "POKAL"
-   ],
-   "status": "fraglich",
-   "headline": "Viggósdóttir nicht im Kader gegen Bayer Leverkusen",
-   "text": [
-    "Glódís Viggósdóttir steht im DFB-Pokal gegen Bayer Leverkusen weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
-    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
-   ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165391/bayern-muenchen_bayer-leverkusen/aufstellung"
-    }
-   ],
-   "quelle_live": true,
-   "kurz": "Viggósdóttir nicht im Kader"
-  },
-  {
-   "id": "fehlt-bender-b04-0111",
-   "pid": "00257",
-   "zeit": "2026-11-01T13:53",
-   "spielerin": "Loreen Bender",
-   "verein": "Bayer Leverkusen",
-   "nr": "",
-   "pos": "ST",
-   "tags": [
-    "AUFSTELLUNG",
-    "POKAL"
-   ],
-   "status": "fraglich",
-   "headline": "Bender nicht im Kader gegen FC Bayern",
-   "text": [
-    "Loreen Bender steht im DFB-Pokal gegen FC Bayern weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 4-mal.",
-    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
-   ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165391/bayern-muenchen_bayer-leverkusen/aufstellung"
-    }
-   ],
-   "quelle_live": true
-  },
-  {
-   "id": "fehlt-altenburg-sge-0111",
-   "pid": "00056",
-   "zeit": "2026-11-01T13:12",
-   "spielerin": "Lina Altenburg",
-   "verein": "Eintracht Frankfurt",
-   "nr": "",
-   "pos": "TW",
-   "tags": [
-    "AUFSTELLUNG",
-    "POKAL"
-   ],
-   "status": "fraglich",
-   "headline": "Altenburg nicht im Kader gegen 1. FC Nürnberg",
-   "text": [
-    "Lina Altenburg steht im DFB-Pokal gegen 1. FC Nürnberg weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
-    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
-   ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
-   "quellen": [
-    {
-     "name": "DFB-Datencenter",
-     "url": "https://datencenter.dfb.de/matches/1-fc-nuernberg-eintracht-frankfurt-2431335"
-    }
-   ],
-   "quelle_live": true
   }
  ]
 }
