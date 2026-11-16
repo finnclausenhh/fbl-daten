@@ -1,46 +1,11 @@
 {
- "datum": "2026-11-15",
+ "datum": "2026-11-16",
  "spiele": {
-  "12306307": {
-   "spiel": "FCN-KOE",
+  "12306304": {
+   "spiel": "VFB-B04",
    "0:0": {
-    "sportschau": "16:02:45",
-    "apifootball": "16:02:45"
-   },
-   "0:1": {
-    "apifootball": "16:09:13",
-    "sportschau": "16:10:03"
-   }
-  },
-  "12306310": {
-   "spiel": "RBL-SGE",
-   "0:0": {
-    "sportschau": "16:02:46",
-    "apifootball": "16:02:46"
-   },
-   "0:1": {
-    "apifootball": "16:10:53",
-    "sportschau": "16:12:32"
-   },
-   "0:2": {
-    "apifootball": "16:18:11",
-    "sportschau": "16:19:00"
-   },
-   "0:3": {
-    "apifootball": "17:21:21",
-    "sportschau": "17:22:10"
-   },
-   "0:4": {
-    "apifootball": "17:31:58",
-    "sportschau": "17:32:47"
-   },
-   "0:5": {
-    "apifootball": "17:36:51",
-    "sportschau": "17:37:41"
-   },
-   "1:5": {
-    "apifootball": "17:48:16",
-    "sportschau": "17:49:56"
+    "sportschau": "18:04:42",
+    "apifootball": "18:04:42"
    }
   }
  }
