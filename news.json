@@ -1,34 +1,6 @@
 {
- "stand": "2026-11-15T23:51",
+ "stand": "2026-11-16T07:45",
  "meldungen": [
-  {
-   "id": "fehlt-reimann-scf-0111",
-   "pid": "00085",
-   "zeit": "2026-11-01T14:08",
-   "spielerin": "Anna Reimann",
-   "verein": "SC Freiburg",
-   "nr": "",
-   "pos": "TW",
-   "tags": [
-    "AUFSTELLUNG",
-    "POKAL"
-   ],
-   "status": "fraglich",
-   "headline": "Reimann nicht im Kader gegen FC Carl Zeiss Jena",
-   "text": [
-    "Anna Reimann steht im DFB-Pokal gegen FC Carl Zeiss Jena weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
-    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
-   ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
-   "quellen": [
-    {
-     "name": "DFB-Datencenter",
-     "url": "https://datencenter.dfb.de/matches/sc-freiburg-fc-carl-zeiss-jena-2431333"
-    }
-   ],
-   "quelle_live": true,
-   "kurz": "Reimann nicht im Kader"
-  },
   {
    "id": "fehlt-viggosdottir-fcb-0111",
    "pid": "00013",
@@ -58,31 +30,32 @@
    "kurz": "Viggósdóttir nicht im Kader"
   },
   {
-   "id": "fehlt-bender-b04-0111",
-   "pid": "00257",
-   "zeit": "2026-11-01T13:53",
-   "spielerin": "Loreen Bender",
-   "verein": "Bayer Leverkusen",
+   "id": "fehlt-reimann-scf-0111",
+   "pid": "00085",
+   "zeit": "2026-11-01T14:08",
+   "spielerin": "Anna Reimann",
+   "verein": "SC Freiburg",
    "nr": "",
-   "pos": "ST",
+   "pos": "TW",
    "tags": [
     "AUFSTELLUNG",
     "POKAL"
    ],
    "status": "fraglich",
-   "headline": "Bender nicht im Kader gegen FC Bayern",
+   "headline": "Reimann nicht im Kader gegen FC Carl Zeiss Jena",
    "text": [
-    "Loreen Bender steht im DFB-Pokal gegen FC Bayern weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 4-mal.",
+    "Anna Reimann steht im DFB-Pokal gegen FC Carl Zeiss Jena weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
     "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
    ],
    "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
    "quellen": [
     {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165391/bayern-muenchen_bayer-leverkusen/aufstellung"
+     "name": "DFB-Datencenter",
+     "url": "https://datencenter.dfb.de/matches/sc-freiburg-fc-carl-zeiss-jena-2431333"
     }
    ],
-   "quelle_live": true
+   "quelle_live": true,
+   "kurz": "Reimann nicht im Kader"
   },
   {
    "id": "fehlt-altenburg-sge-0111",
@@ -112,69 +85,31 @@
    "quelle_live": true
   },
   {
-   "id": "starke-diagnose-1511",
-   "pid": "00236",
-   "zeit": "2026-11-15T18:25",
-   "spielerin": "Sandra Starke",
-   "verein": "RB Leipzig",
-   "nr": "13",
+   "id": "fehlt-bender-b04-0111",
+   "pid": "00257",
+   "zeit": "2026-11-01T13:53",
+   "spielerin": "Loreen Bender",
+   "verein": "Bayer Leverkusen",
+   "nr": "",
    "pos": "ST",
    "tags": [
-    "UPDATE",
-    "VERLETZUNG"
+    "AUFSTELLUNG",
+    "POKAL"
    ],
-   "status": "verletzt",
-   "headline": "Starke: Verdacht auf Achillessehnenriss",
-   "kurz": "Starke: Verdacht auf Achillessehnenriss",
+   "status": "fraglich",
+   "headline": "Bender nicht im Kader gegen FC Bayern",
    "text": [
-    "Laut BILD besteht bei Sandra Starke der Verdacht auf einen Achillessehnenriss am rechten Fuß. Die Kapitänin von RB Leipzig hatte sich beim Aufwärmen vor dem Spiel gegen Eintracht Frankfurt bei einer Passübung verletzt und war danach vom Platz gehumpelt.",
-    "Zur genauen Diagnose wurde sie nach BILD-Informationen direkt in die Leipziger Uniklinik gebracht. Eine Bestätigung des Vereins liegt noch nicht vor, der Verdacht ist deshalb unbestätigt."
+    "Loreen Bender steht im DFB-Pokal gegen FC Bayern weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 4-mal.",
+    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
    ],
-   "kickbase": "Bestätigt sich der Verdacht, fällt Starke sehr lange aus. Für die kommenden Spieltage besser nicht mit ihr planen, bis der Verein die Diagnose nennt.",
+   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
    "quellen": [
     {
-     "name": "BILD",
-     "url": "https://www.bild.de/sport/fussball/rb-leipzig-mit-krankenwagen-in-klinik-traenen-drama-um-deutsche-nationalspielerin-6af9cb769849eea0701e3b66"
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165391/bayern-muenchen_bayer-leverkusen/aufstellung"
     }
    ],
-   "foto": "fotos/rbl-sandra-starke.webp",
-   "foto_credit": {
-    "autor": "RB Leipzig",
-    "lizenz": "mit Genehmigung: RB Leipzig",
-    "url": "https://rbleipzig.com/de/teams-frauen"
-   }
-  },
-  {
-   "id": "varley-rot-1511",
-   "pid": "00307",
-   "zeit": "2026-11-15T17:00",
-   "spielerin": "Leia Varley",
-   "verein": "1. FC Nürnberg",
-   "nr": "2",
-   "pos": "ABW",
-   "tags": [
-    "SPERRE"
-   ],
-   "status": "fit",
-   "headline": "Varley sieht Rot, Sperre wahrscheinlich",
-   "kurz": "Varley sieht Rot, Sperre wahrscheinlich",
-   "text": [
-    "Nürnbergs Verteidigerin Leia Varley hat beim 0:1 gegen den 1. FC Köln wegen einer Notbremse die Rote Karte gesehen (90.+3). Pauline Bremer scheiterte anschließend mit dem Foulelfmeter.",
-    "Nach den üblichen Regeln folgt auf eine Rote Karte eine Spielsperre. Wie lang sie ausfällt, ist offen, eine offizielle Mitteilung von Verein oder DFB steht aus."
-   ],
-   "kickbase": "Bis das Urteil feststeht, bleibt Varley im Plan. Gut möglich, dass sie am nächsten Spieltag fehlt.",
-   "quellen": [
-    {
-     "name": "DFB",
-     "url": "https://www.dfb.de/news/carolin-elsen-laesst-koeln-in-nuernberg-jubeln"
-    }
-   ],
-   "foto": "fotos/fcn-leia-varley.webp",
-   "foto_credit": {
-    "autor": "1. FC Nürnberg",
-    "lizenz": "mit Genehmigung: 1. FC Nürnberg",
-    "url": "https://www.fcn.de/clubfrauen/spielerinnen/"
-   }
+   "quelle_live": true
   },
   {
    "id": "endstand-fcn-1511",
@@ -295,32 +230,36 @@
    "kurz": "Marti zurück im Kader"
   },
   {
-   "id": "starke-1511",
-   "pid": "00236",
-   "zeit": "2026-11-15T15:49",
-   "spielerin": "Sandra Starke",
-   "verein": "RB Leipzig",
-   "nr": "13",
-   "pos": "MF",
+   "id": "varley-rot-1511",
+   "pid": "00307",
+   "zeit": "2026-11-15T17:00",
+   "spielerin": "Leia Varley",
+   "verein": "1. FC Nürnberg",
+   "nr": "2",
+   "pos": "ABW",
    "tags": [
-    "TOP",
-    "VERLETZUNG"
+    "SPERRE"
    ],
-   "status": "verletzt",
-   "headline": "Starke verletzt sich beim Aufwärmen und fällt gegen Frankfurt aus",
-   "kurz": "Starke beim Aufwärmen verletzt",
+   "status": "fit",
+   "headline": "Varley sieht Rot, Sperre wahrscheinlich",
+   "kurz": "Varley sieht Rot, Sperre wahrscheinlich",
    "text": [
-    "Sandra Starke hat sich beim Aufwärmen vor dem Spiel gegen Eintracht Frankfurt verletzt und steht nicht mehr in der Startelf von RB Leipzig. In der offiziellen Aufstellung um 15:07 war sie noch im Mittelfeld eingeplant.",
-    "Wer für sie in die Startelf rückt und wie schwer die Verletzung ist, ist noch offen. Eine offizielle Bestätigung des Vereins steht aus."
+    "Nürnbergs Verteidigerin Leia Varley hat beim 0:1 gegen den 1. FC Köln wegen einer Notbremse die Rote Karte gesehen (90.+3). Pauline Bremer scheiterte anschließend mit dem Foulelfmeter.",
+    "Nach den üblichen Regeln folgt auf eine Rote Karte eine Spielsperre. Wie lang sie ausfällt, ist offen, eine offizielle Mitteilung von Verein oder DFB steht aus."
    ],
-   "kickbase": "Wer Starke aufgestellt hat, kann nicht mehr reagieren: Die Aufstellung ist seit dem ersten Spiel des Spieltags gesperrt. Für den nächsten Spieltag erst die Diagnose abwarten.",
+   "kickbase": "Bis das Urteil feststeht, bleibt Varley im Plan. Gut möglich, dass sie am nächsten Spieltag fehlt.",
    "quellen": [
     {
-     "name": "WOSOINSIDE, Beobachtung beim Aufwärmen (noch nicht offiziell bestätigt)",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306310/rb-leipzig_eintracht-frankfurt/liveticker"
+     "name": "DFB",
+     "url": "https://www.dfb.de/news/carolin-elsen-laesst-koeln-in-nuernberg-jubeln"
     }
    ],
-   "partie_id": "12306310"
+   "foto": "fotos/fcn-leia-varley.webp",
+   "foto_credit": {
+    "autor": "1. FC Nürnberg",
+    "lizenz": "mit Genehmigung: 1. FC Nürnberg",
+    "url": "https://www.fcn.de/clubfrauen/spielerinnen/"
+   }
   },
   {
    "id": "erstmals-stolze-koe-1511",
@@ -337,6 +276,37 @@
    "headline": "Stolze erstmals im Kader, aber ohne Einsatz",
    "text": [
     "Anna-Lena Stolze steht gegen 1. FC Nürnberg zum ersten Mal in dieser Saison im Spieltagskader des 1. FC Köln.",
+    "Gegen 1. FC Nürnberg saß sie die gesamte Spielzeit auf der Bank."
+   ],
+   "kickbase": "Neu im Spieltagskader. Für Kickbase vorerst nur eine Ergänzung.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306307/1-fc-nuernberg_1-fc-koeln/liveticker"
+    }
+   ],
+   "quelle_live": true,
+   "partie_id": "12306307",
+   "comeback": {
+    "art": "erstmals",
+    "stufe": "ohne"
+   }
+  },
+  {
+   "id": "erstmals-stenevik-koe-1511",
+   "pid": "00192",
+   "zeit": "2026-11-15T14:58",
+   "spielerin": "Elise Stenevik",
+   "verein": "1. FC Köln",
+   "nr": "",
+   "pos": "ABW",
+   "tags": [
+    "AUFSTELLUNG"
+   ],
+   "status": "fit",
+   "headline": "Stenevik erstmals im Kader, aber ohne Einsatz",
+   "text": [
+    "Elise Stenevik steht gegen 1. FC Nürnberg zum ersten Mal in dieser Saison im Spieltagskader des 1. FC Köln.",
     "Gegen 1. FC Nürnberg saß sie die gesamte Spielzeit auf der Bank."
    ],
    "kickbase": "Neu im Spieltagskader. Für Kickbase vorerst nur eine Ergänzung.",
@@ -387,37 +357,6 @@
    "comeback": {
     "art": "erstmals",
     "stufe": "einsatz"
-   }
-  },
-  {
-   "id": "erstmals-stenevik-koe-1511",
-   "pid": "00192",
-   "zeit": "2026-11-15T14:58",
-   "spielerin": "Elise Stenevik",
-   "verein": "1. FC Köln",
-   "nr": "",
-   "pos": "ABW",
-   "tags": [
-    "AUFSTELLUNG"
-   ],
-   "status": "fit",
-   "headline": "Stenevik erstmals im Kader, aber ohne Einsatz",
-   "text": [
-    "Elise Stenevik steht gegen 1. FC Nürnberg zum ersten Mal in dieser Saison im Spieltagskader des 1. FC Köln.",
-    "Gegen 1. FC Nürnberg saß sie die gesamte Spielzeit auf der Bank."
-   ],
-   "kickbase": "Neu im Spieltagskader. Für Kickbase vorerst nur eine Ergänzung.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306307/1-fc-nuernberg_1-fc-koeln/liveticker"
-    }
-   ],
-   "quelle_live": true,
-   "partie_id": "12306307",
-   "comeback": {
-    "art": "erstmals",
-    "stufe": "ohne"
    }
   },
   {
@@ -1255,32 +1194,6 @@
    "quelle_live": true
   },
   {
-   "id": "alara-standards-1411",
-   "pid": "00015",
-   "zeit": "2026-11-14T16:53",
-   "spielerin": "Alara",
-   "verein": "FC Bayern",
-   "nr": "",
-   "pos": "MF",
-   "tags": [
-    "STANDARD"
-   ],
-   "status": "fit",
-   "headline": "Alara sitzt gegen Wolfsburg auf der Bank",
-   "kurz": "Alara gegen Wolfsburg nur auf der Bank",
-   "text": [
-    "Alara steht beim FC Bayern gegen den VfL Wolfsburg nicht in der Startelf und sitzt auf der Bank. Laut der Hierarchie ist sie die Elfmeterschützin des Teams und die zweite Wahl bei Freistößen.",
-    "Wer in der Startelf Elfmeter schießt, ist offen; Bühl führt weiter die Ecken und Freistöße an."
-   ],
-   "kickbase": "Ein Elfmeter für Bayern ist damit eine offene Frage, Bühl bleibt die sichere Standardschützin.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306313/vfl-wolfsburg_bayern-muenchen/aufstellung"
-    }
-   ]
-  },
-  {
    "id": "aufstellung-wob-1411",
    "zeit": "2026-11-14T16:53",
    "spielerin": "Spielansetzung",
@@ -1672,38 +1585,6 @@
    "quelle_live": true,
    "partie_id": "12306301",
    "noten": true
-  },
-  {
-   "id": "weidauer-standards-1411",
-   "pid": "00387",
-   "zeit": "2026-11-14T13:10",
-   "spielerin": "Sophie Weidauer",
-   "verein": "Union Berlin",
-   "nr": "",
-   "pos": "ST",
-   "tags": [
-    "STANDARD",
-    "AUFSTELLUNG"
-   ],
-   "headline": "Weidauer und Heiseler wieder auf der Bank: Standards",
-   "kurz": "Weidauer, Heiseler auf der Bank: Standards offen",
-   "text": [
-    "Sophie Weidauer sitzt auch gegen Werder Bremen zunächst auf der Bank. Sie ist bei Union Berlin die erste Wahl bei Ecken, auch Lisa Heiseler (erste Wahl bei Freistößen) beginnt nicht.",
-    "Bei Freistößen übernimmt laut Hierarchie Judit Pujols, die in der Startelf steht. Wer die Ecken tritt, ist offen, weil mit Egli ebenfalls nur eine Bankspielerin hinterlegt ist."
-   ],
-   "kickbase": "Standardpunkte für Union laufen in der Startelf eher über Pujols, bei Ecken ist die Lage offen. Weidauer und Heiseler zählen erst, wenn sie eingewechselt werden.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306292/werder-bremen_1-fc-union-berlin/aufstellung"
-    }
-   ],
-   "foto": "fotos/fcu-sophie-weidauer.webp",
-   "foto_credit": {
-    "autor": "Union Berlin",
-    "lizenz": "mit Genehmigung: 1. FC Union Berlin",
-    "url": "https://www.fc-union-berlin.de/de/fussball/profis-frauen-nJqf"
-   }
   },
   {
    "id": "comeback-sherif-svw-1411",
