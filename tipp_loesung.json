@@ -1,9 +1,11 @@
 {
  "md": 10,
- "stand": "2026-11-14T21:11",
+ "stand": "2026-11-16T20:11",
  "loesung": {
+  "weste-md10": "keine",
   "s-00023": "ja",
   "s-00026": "nein",
-  "serie-md10": "nein"
+  "serie-md10": "nein",
+  "mvp-md10": "00077"
  }
 }
