@@ -1,6 +1,34 @@
 {
  "meldungen": [
   {
+   "id": "endstand-vfb-1611",
+   "zeit": "2026-11-16T19:52",
+   "spielerin": "VfB Stuttgart gegen Bayer Leverkusen",
+   "verein": "VfB Stuttgart",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "SPIELBERICHT"
+   ],
+   "headline": "Endstand: VfB Stuttgart 2:3 Bayer Leverkusen",
+   "kurz": "Endstand VFB 2:3 B04",
+   "text": [
+    "Bayer Leverkusen gewinnt beim VfB Stuttgart mit 3:2.",
+    "Tore: 0:1 Bender (20., Vorlage Kramer), 1:1 Redzepi (46.), 1:2 Sternad (59., Vorlage Mädl), 2:2 Arouna (87., Vorlage Redzepi), 2:3 Kehrer (90+2., Vorlage Mädl).",
+    "Gelb: Zähringer, Sternad.",
+    "Noten und der ausführliche Bericht folgen."
+   ],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306304/vfb-stuttgart_bayer-leverkusen/liveticker"
+    }
+   ],
+   "quelle_live": true,
+   "partie_id": "12306304"
+  },
+  {
    "id": "fehlt-reimann-scf-0111",
    "pid": "00085",
    "zeit": "2026-11-01T14:08",
