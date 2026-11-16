@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-16T14:52",
+ "stand": "2026-11-16T15:45",
  "meldungen": [
   {
    "id": "fehlt-reimann-scf-0111",
@@ -8349,42 +8349,6 @@
      "grund": "stand am 02.11. gegen VfL Wolfsburg nicht im Spieltagskader, obwohl im letzten Ligaspiel auf der Bank; Grund nicht bekannt"
     }
    ]
-  },
-  {
-   "id": "gwinn-0211",
-   "pid": "00009",
-   "zeit": "2026-11-02T15:43",
-   "spielerin": "Giulia Gwinn",
-   "verein": "FC Bayern",
-   "nr": "7",
-   "pos": "ABW",
-   "tags": [
-    "TRANSFER"
-   ],
-   "headline": "Gwinn lässt Zukunft beim FC Bayern offen",
-   "kurz": "Gwinn lässt Zukunft bei Bayern offen",
-   "text": [
-    "Giulia Gwinns Vertrag beim FC Bayern läuft bis zum 30. Juni 2027. Am Rande des Pokalspiels gegen Bayer Leverkusen sagte die Kapitänin der Nationalmannschaft laut Merkur: \"Ich halte mir alles offen. Ich fühle mich sehr wohl bei Bayern.\"",
-    "Das Gesamtpaket müsse passen, dann werde man sehen. Zugleich wolle sie die Frage nicht unnötig in die Länge ziehen. Eine Einigung oder ein Abschied ist bisher nicht bekannt. Gwinn fällt aktuell noch wegen eines Außenbandrisses aus.",
-    "Update 15:59: Auch SPORT1 berichtet darüber. Laut dem MagentaSport-Format \"Lupfen und Labern\" macht Gwinn ihre Entscheidung vor allem von der sportlichen Perspektive abhängig und will das Gefühl haben, dass beim Team noch Ambitionen da sind. Ihre Verbundenheit zu Bayern und zur Bundesliga betont sie. SPORT1 nennt auch Klara Bühl und Franziska Kett als Spielerinnen mit auslaufendem Vertrag, eine Bestätigung des Vereins dazu liegt nicht vor."
-   ],
-   "kickbase": "Für die Aufstellung ändert die Vertragsfrage nichts. Wichtig bleibt ihre Rückkehr aus der Verletzung, die im November möglich ist.",
-   "quellen": [
-    {
-     "name": "Merkur",
-     "url": "https://www.merkur.de/sport/fc-bayern/gwinn-heizt-spekulationen-um-ihre-bayern-zukunft-weiter-an-94570344.html"
-    },
-    {
-     "name": "SPORT1",
-     "url": "https://www.sport1.de/news/fussball/frauen-bundesliga/2026/11/bayern-vertrag-laeuft-aus-gwinn-spricht-ueber-zukunft"
-    }
-   ],
-   "foto": "fotos/fcb-giulia-gwinn.webp",
-   "foto_credit": {
-    "autor": "FC Bayern",
-    "lizenz": "mit Genehmigung: FC Bayern München",
-    "url": "https://fcbayern.com/frauen/de/teams/1.-mannschaft"
-   }
   }
  ]
 }
