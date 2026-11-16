@@ -163,5 +163,18 @@
   "noten_da": "2026-11-15T17:54",
   "minuten_nach_abpfiff": 4,
   "bau_gestartet": "2026-11-15T17:54"
+ },
+ "12306304": {
+  "spiel": "VFB-B04",
+  "anstoss": "2026-11-16T18:00",
+  "abpfiff_ca": "2026-11-16T19:48",
+  "fixture": 1593174,
+  "af_status": "FT",
+  "erste_pruefung": "2026-11-16T19:52",
+  "noten_zuletzt": 40,
+  "letzte_pruefung": "2026-11-16T19:52",
+  "noten_da": "2026-11-16T19:52",
+  "minuten_nach_abpfiff": 4,
+  "bau_gestartet": "2026-11-16T19:52"
  }
 }
