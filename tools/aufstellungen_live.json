@@ -1,6 +1,33 @@
 {
  "meldungen": [
   {
+   "id": "fehlt-stegemann-vfb-1611",
+   "pid": "00339",
+   "zeit": "2026-11-16T17:03",
+   "spielerin": "Greta Stegemann",
+   "verein": "VfB Stuttgart",
+   "nr": "",
+   "pos": "ABW",
+   "tags": [
+    "AUFSTELLUNG"
+   ],
+   "status": "fraglich",
+   "headline": "Stegemann nicht im Kader gegen Bayer Leverkusen",
+   "text": [
+    "Greta Stegemann steht in der Liga gegen Bayer Leverkusen weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
+    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
+   ],
+   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306304/vfb-stuttgart_bayer-leverkusen/aufstellung"
+    }
+   ],
+   "quelle_live": true,
+   "kurz": "Stegemann nicht im Kader"
+  },
+  {
    "id": "aufstellung-vfb-1611",
    "zeit": "2026-11-16T17:03",
    "spielerin": "Spielansetzung",
