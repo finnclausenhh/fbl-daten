@@ -1,6 +1,33 @@
 {
- "stand": "2026-11-16T15:51",
+ "stand": "2026-11-16T16:40",
  "meldungen": [
+  {
+   "id": "aufstellung-folgt-ma12306304",
+   "zeit": "2026-11-16T16:40",
+   "spielerin": "Spielansetzung",
+   "verein": "VfB Stuttgart",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "AUFSTELLUNG"
+   ],
+   "headline": "Aufstellung VfB Stuttgart gegen Bayer Leverkusen folgt",
+   "kurz": "Aufstellung folgt, Anpfiff 18:00",
+   "text": [
+    "Anpfiff in der Liga ist um 18:00 Uhr. Die offizielle Aufstellung kommt meist rund 60 Minuten vorher, wir ergänzen sie hier automatisch, sobald sie veröffentlicht ist.",
+    "Bis dahin steht unsere Prognose im Spielplan bei der Partie."
+   ],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306304/vfb-stuttgart_bayer-leverkusen/aufstellung"
+    }
+   ],
+   "platzhalter": true,
+   "anstoss": "2026-11-16T18:00",
+   "partie_id": "12306304"
+  },
   {
    "id": "fehlt-reimann-scf-0111",
    "pid": "00085",
