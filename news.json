@@ -1,38 +1,6 @@
 {
- "stand": "2026-11-16T17:51",
+ "stand": "2026-11-16T18:48",
  "meldungen": [
-  {
-   "id": "tomasiak-standards-1611",
-   "pid": "00266",
-   "zeit": "2026-11-16T17:03",
-   "spielerin": "Paulina Tomasiak",
-   "verein": "Bayer Leverkusen",
-   "nr": "28",
-   "pos": "ST",
-   "tags": [
-    "STANDARD"
-   ],
-   "status": "fit",
-   "headline": "Tomasiak sitzt gegen Stuttgart auf der Bank",
-   "kurz": "Tomasiak nur Bank, Simon bei Freistößen",
-   "text": [
-    "Paulina Tomasiak steht im Spiel gegen den VfB Stuttgart nicht in der Startelf, sie sitzt laut offizieller Aufstellung auf der Bank. Bei Bayer Leverkusen führt sie die Liste bei Freistößen an.",
-    "Carolin Simon steht in der Startelf und dürfte die Freistöße übernehmen."
-   ],
-   "kickbase": "Wer auf Standards setzt, sollte Simon im Blick haben. Tomasiak ist bei Einwechslung wieder erste Wahl für Freistöße.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306304/vfb-stuttgart_bayer-leverkusen/aufstellung"
-    }
-   ],
-   "foto": "fotos/b04-paulina-tomasiak.webp",
-   "foto_credit": {
-    "autor": "Bayer 04",
-    "lizenz": "mit Genehmigung: Bayer 04 Leverkusen",
-    "url": "https://www.bayer04.de/de-de/team/frauen/frauen"
-   }
-  },
   {
    "id": "fehlt-reimann-scf-0111",
    "pid": "00085",
@@ -142,6 +110,38 @@
     }
    ],
    "quelle_live": true
+  },
+  {
+   "id": "tomasiak-standards-1611",
+   "pid": "00266",
+   "zeit": "2026-11-16T17:03",
+   "spielerin": "Paulina Tomasiak",
+   "verein": "Bayer Leverkusen",
+   "nr": "28",
+   "pos": "ST",
+   "tags": [
+    "STANDARD"
+   ],
+   "status": "fit",
+   "headline": "Tomasiak sitzt gegen Stuttgart auf der Bank",
+   "kurz": "Tomasiak nur Bank, Simon bei Freistößen",
+   "text": [
+    "Paulina Tomasiak steht im Spiel gegen den VfB Stuttgart nicht in der Startelf, sie sitzt laut offizieller Aufstellung auf der Bank. Bei Bayer Leverkusen führt sie die Liste bei Freistößen an.",
+    "Carolin Simon steht in der Startelf und dürfte die Freistöße übernehmen."
+   ],
+   "kickbase": "Wer auf Standards setzt, sollte Simon im Blick haben. Tomasiak ist bei Einwechslung wieder erste Wahl für Freistöße.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306304/vfb-stuttgart_bayer-leverkusen/aufstellung"
+    }
+   ],
+   "foto": "fotos/b04-paulina-tomasiak.webp",
+   "foto_credit": {
+    "autor": "Bayer 04",
+    "lizenz": "mit Genehmigung: Bayer 04 Leverkusen",
+    "url": "https://www.bayer04.de/de-de/team/frauen/frauen"
+   }
   },
   {
    "id": "fehlt-stegemann-vfb-1611",
