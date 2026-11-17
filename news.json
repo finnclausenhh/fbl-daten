@@ -1,12 +1,12 @@
 {
- "stand": "2026-11-17T08:51",
+ "stand": "2026-11-17T09:45",
  "meldungen": [
   {
-   "id": "fehlt-reimann-scf-0111",
-   "pid": "00085",
-   "zeit": "2026-11-01T14:08",
-   "spielerin": "Anna Reimann",
-   "verein": "SC Freiburg",
+   "id": "fehlt-altenburg-sge-0111",
+   "pid": "00056",
+   "zeit": "2026-11-01T13:12",
+   "spielerin": "Lina Altenburg",
+   "verein": "Eintracht Frankfurt",
    "nr": "",
    "pos": "TW",
    "tags": [
@@ -14,20 +14,46 @@
     "POKAL"
    ],
    "status": "fraglich",
-   "headline": "Reimann nicht im Kader gegen FC Carl Zeiss Jena",
+   "headline": "Altenburg nicht im Kader gegen 1. FC Nürnberg",
    "text": [
-    "Anna Reimann steht im DFB-Pokal gegen FC Carl Zeiss Jena weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
+    "Lina Altenburg steht im DFB-Pokal gegen 1. FC Nürnberg weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
     "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
    ],
    "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
    "quellen": [
     {
      "name": "DFB-Datencenter",
-     "url": "https://datencenter.dfb.de/matches/sc-freiburg-fc-carl-zeiss-jena-2431333"
+     "url": "https://datencenter.dfb.de/matches/1-fc-nuernberg-eintracht-frankfurt-2431335"
     }
    ],
-   "quelle_live": true,
-   "kurz": "Reimann nicht im Kader"
+   "quelle_live": true
+  },
+  {
+   "id": "fehlt-bender-b04-0111",
+   "pid": "00257",
+   "zeit": "2026-11-01T13:53",
+   "spielerin": "Loreen Bender",
+   "verein": "Bayer Leverkusen",
+   "nr": "",
+   "pos": "ST",
+   "tags": [
+    "AUFSTELLUNG",
+    "POKAL"
+   ],
+   "status": "fraglich",
+   "headline": "Bender nicht im Kader gegen FC Bayern",
+   "text": [
+    "Loreen Bender steht im DFB-Pokal gegen FC Bayern weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 4-mal.",
+    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
+   ],
+   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165391/bayern-muenchen_bayer-leverkusen/aufstellung"
+    }
+   ],
+   "quelle_live": true
   },
   {
    "id": "fehlt-viggosdottir-fcb-0111",
@@ -58,38 +84,11 @@
    "kurz": "Viggósdóttir nicht im Kader"
   },
   {
-   "id": "fehlt-bender-b04-0111",
-   "pid": "00257",
-   "zeit": "2026-11-01T13:53",
-   "spielerin": "Loreen Bender",
-   "verein": "Bayer Leverkusen",
-   "nr": "",
-   "pos": "ST",
-   "tags": [
-    "AUFSTELLUNG",
-    "POKAL"
-   ],
-   "status": "fraglich",
-   "headline": "Bender nicht im Kader gegen FC Bayern",
-   "text": [
-    "Loreen Bender steht im DFB-Pokal gegen FC Bayern weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 4-mal.",
-    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
-   ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165391/bayern-muenchen_bayer-leverkusen/aufstellung"
-    }
-   ],
-   "quelle_live": true
-  },
-  {
-   "id": "fehlt-altenburg-sge-0111",
-   "pid": "00056",
-   "zeit": "2026-11-01T13:12",
-   "spielerin": "Lina Altenburg",
-   "verein": "Eintracht Frankfurt",
+   "id": "fehlt-reimann-scf-0111",
+   "pid": "00085",
+   "zeit": "2026-11-01T14:08",
+   "spielerin": "Anna Reimann",
+   "verein": "SC Freiburg",
    "nr": "",
    "pos": "TW",
    "tags": [
@@ -97,84 +96,20 @@
     "POKAL"
    ],
    "status": "fraglich",
-   "headline": "Altenburg nicht im Kader gegen 1. FC Nürnberg",
+   "headline": "Reimann nicht im Kader gegen FC Carl Zeiss Jena",
    "text": [
-    "Lina Altenburg steht im DFB-Pokal gegen 1. FC Nürnberg weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
+    "Anna Reimann steht im DFB-Pokal gegen FC Carl Zeiss Jena weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
     "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
    ],
    "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
    "quellen": [
     {
      "name": "DFB-Datencenter",
-     "url": "https://datencenter.dfb.de/matches/1-fc-nuernberg-eintracht-frankfurt-2431335"
+     "url": "https://datencenter.dfb.de/matches/sc-freiburg-fc-carl-zeiss-jena-2431333"
     }
    ],
-   "quelle_live": true
-  },
-  {
-   "id": "stegemann-1611",
-   "pid": "00339",
-   "zeit": "2026-11-16T20:55",
-   "spielerin": "Greta Stegemann",
-   "verein": "VfB Stuttgart",
-   "nr": "",
-   "pos": "ABW",
-   "tags": [
-    "UPDATE",
-    "VERLETZUNG"
-   ],
-   "status": "verletzt",
-   "headline": "Stegemann fehlt gegen Leverkusen verletzt",
-   "kurz": "Stegemann fehlt gegen Leverkusen verletzt",
-   "text": [
-    "Der VfB Stuttgart nennt im Spielbericht zum 2:3 gegen Bayer Leverkusen erstmals einen Grund für das Fehlen von Greta Stegemann: Sie sei verletzt. Für sie rückte Lenelotte Müller in die Startelf.",
-    "Art und Dauer der Verletzung nennt der Verein nicht. Am Sonntag, 22. November, spielt der VfB beim SC Freiburg, danach beginnt die Länderspielpause."
-   ],
-   "kickbase": "Stegemann gilt bis zu einer Rückmeldung des Vereins als verletzt. Für die Aufstellung am Sonntag in Freiburg planen wir ohne sie, die Aufstellung für diesen Spieltag lässt sich ohnehin nur bis zum Anpfiff des ersten Spiels ändern.",
-   "quellen": [
-    {
-     "name": "VfB Stuttgart",
-     "url": "https://www.vfb.de/de/vfb/frauen/vfb-frauen-i/frauen-bundesliga/2627/10-vfb-stuttgart-frauen-i---leverkusen-frauen/"
-    }
-   ],
-   "foto": "fotos/vfb-greta-stegemann.webp",
-   "foto_credit": {
-    "autor": "VfB Stuttgart",
-    "lizenz": "mit Genehmigung: VfB Stuttgart",
-    "url": "https://www.vfb.de/de/1893/frauen/frauen/kader/saisonen/2026-2027/kader/?data=&mobile="
-   }
-  },
-  {
-   "id": "buehl-zukunft-1611",
-   "pid": "00023",
-   "zeit": "2026-11-16T19:59",
-   "spielerin": "Klara Bühl",
-   "verein": "FC Bayern",
-   "nr": "17",
-   "pos": "ST",
-   "tags": [
-    "UPDATE"
-   ],
-   "headline": "Bühl lässt ihre Zukunft beim FC Bayern offen",
-   "kurz": "Bühl lässt Zukunft beim FC Bayern offen",
-   "text": [
-    "Der Vertrag von Klara Bühl beim FC Bayern läuft im Sommer 2027 aus. Laut Merkur lässt sie sich mit einer Entscheidung noch Zeit und kann sich vorstellen, auch einmal im Ausland zu spielen.",
-    "Frauenfußball-Direktorin Bianca Rech zeigte bei MagentaTV Verständnis dafür. Für Bühl sei das Gesamtpaket entscheidend. Bühl selbst sagt, ihr mache es extrem viel Spaß. Eine Entscheidung ist nicht gefallen, ein Wechsel nicht bestätigt."
-   ],
-   "status": "fit",
-   "kickbase": "Für die kommenden Spieltage ändert sich nichts, Bühl bleibt Stammkraft beim FC Bayern. Das Thema betrifft erst den Sommer 2027.",
-   "quellen": [
-    {
-     "name": "Merkur",
-     "url": "https://www.merkur.de/sport/fc-bayern/nach-gwinn-naechste-leistungstraegerin-laesst-bayern-zukunft-offen-94593511.html"
-    }
-   ],
-   "foto": "fotos/fcb-klara-buhl.webp",
-   "foto_credit": {
-    "autor": "Steffen Prößdorf",
-    "lizenz": "CC BY-SA 4.0",
-    "url": "https://commons.wikimedia.org/wiki/File:2023-07-03_Fussball,_Frauen,_Deutsche_Nationalmannschaft,_Media_Day_1DX_6563_by_Stepro-2.jpg"
-   }
+   "quelle_live": true,
+   "kurz": "Reimann nicht im Kader"
   },
   {
    "id": "endstand-vfb-1611",
@@ -212,38 +147,6 @@
    "quelle_live": true,
    "partie_id": "12306304",
    "noten": true
-  },
-  {
-   "id": "tomasiak-standards-1611",
-   "pid": "00266",
-   "zeit": "2026-11-16T17:03",
-   "spielerin": "Paulina Tomasiak",
-   "verein": "Bayer Leverkusen",
-   "nr": "28",
-   "pos": "ST",
-   "tags": [
-    "STANDARD"
-   ],
-   "status": "fit",
-   "headline": "Tomasiak sitzt gegen Stuttgart auf der Bank",
-   "kurz": "Tomasiak nur Bank, Simon bei Freistößen",
-   "text": [
-    "Paulina Tomasiak steht im Spiel gegen den VfB Stuttgart nicht in der Startelf, sie sitzt laut offizieller Aufstellung auf der Bank. Bei Bayer Leverkusen führt sie die Liste bei Freistößen an.",
-    "Carolin Simon steht in der Startelf und dürfte die Freistöße übernehmen."
-   ],
-   "kickbase": "Wer auf Standards setzt, sollte Simon im Blick haben. Tomasiak ist bei Einwechslung wieder erste Wahl für Freistöße.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306304/vfb-stuttgart_bayer-leverkusen/aufstellung"
-    }
-   ],
-   "foto": "fotos/b04-paulina-tomasiak.webp",
-   "foto_credit": {
-    "autor": "Bayer 04",
-    "lizenz": "mit Genehmigung: Bayer 04 Leverkusen",
-    "url": "https://www.bayer04.de/de-de/team/frauen/frauen"
-   }
   },
   {
    "id": "fehlt-stegemann-vfb-1611",
@@ -574,6 +477,38 @@
     ]
    },
    "quelle_live": true
+  },
+  {
+   "id": "tomasiak-standards-1611",
+   "pid": "00266",
+   "zeit": "2026-11-16T17:03",
+   "spielerin": "Paulina Tomasiak",
+   "verein": "Bayer Leverkusen",
+   "nr": "28",
+   "pos": "ST",
+   "tags": [
+    "STANDARD"
+   ],
+   "status": "fit",
+   "headline": "Tomasiak sitzt gegen Stuttgart auf der Bank",
+   "kurz": "Tomasiak nur Bank, Simon bei Freistößen",
+   "text": [
+    "Paulina Tomasiak steht im Spiel gegen den VfB Stuttgart nicht in der Startelf, sie sitzt laut offizieller Aufstellung auf der Bank. Bei Bayer Leverkusen führt sie die Liste bei Freistößen an.",
+    "Carolin Simon steht in der Startelf und dürfte die Freistöße übernehmen."
+   ],
+   "kickbase": "Wer auf Standards setzt, sollte Simon im Blick haben. Tomasiak ist bei Einwechslung wieder erste Wahl für Freistöße.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306304/vfb-stuttgart_bayer-leverkusen/aufstellung"
+    }
+   ],
+   "foto": "fotos/b04-paulina-tomasiak.webp",
+   "foto_credit": {
+    "autor": "Bayer 04",
+    "lizenz": "mit Genehmigung: Bayer 04 Leverkusen",
+    "url": "https://www.bayer04.de/de-de/team/frauen/frauen"
+   }
   },
   {
    "id": "starke-1511",
