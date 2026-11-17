@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-17T14:51",
+ "stand": "2026-11-17T14:46",
  "meldungen": [
   {
    "id": "fehlt-reimann-scf-0111",
@@ -110,6 +110,63 @@
     }
    ],
    "quelle_live": true
+  },
+  {
+   "id": "freigang-dfb-1711",
+   "pid": "00077",
+   "zeit": "2026-11-17T14:58",
+   "spielerin": "Laura Freigang",
+   "verein": "Eintracht Frankfurt",
+   "nr": "",
+   "pos": "ST",
+   "tags": [
+    "NATIONALTEAM",
+    "SPERRE"
+   ],
+   "status": "fit",
+   "headline": "Freigang im DFB-Kader trotz drohender Sperre",
+   "kurz": "Freigang trotz drohender Sperre nominiert",
+   "text": [
+    "Bundestrainer Christian Wück hat Laura Freigang für die Länderspiele gegen Argentinien und Peru nominiert. Gegen die Frankfurter Stürmerin läuft seit Monaten ein Verfahren der NADA, weil sie innerhalb von zwölf Monaten dreimal bei einer Dopingkontrolle nicht am angegebenen Ort gewesen sein soll.",
+    "Eine lange Sperre droht, der Fall liegt beim Deutschen Fußball-Bund. Ein Urteil ist nach den vorliegenden Angaben noch offen."
+   ],
+   "kickbase": "Eine Sperre ist nicht verhängt, bis zum Urteil kann Freigang normal eingeplant werden. Sie fehlt Frankfurt nur wegen der Länderspielreise, nicht wegen des Verfahrens.",
+   "quellen": [
+    {
+     "name": "ad-hoc-news.de",
+     "url": "https://www.ad-hoc-news.de/sport/fussball/dfb-frauen-wueck-nominiert-gwinn-und-berger-streicht-schueller/70527245"
+    }
+   ],
+   "foto": "fotos/sge-laura-freigang.webp",
+   "foto_credit": {
+    "autor": "Eintracht Frankfurt",
+    "lizenz": "mit Genehmigung: Eintracht Frankfurt",
+    "url": "https://frauen.eintracht.de/kader/"
+   }
+  },
+  {
+   "id": "mainz-trainer-1711",
+   "zeit": "2026-11-17",
+   "spielerin": "Takashi Yamashita",
+   "verein": "Mainz 05",
+   "nr": "",
+   "pos": "Trainer",
+   "tags": [
+    "TOP",
+    "UPDATE"
+   ],
+   "headline": "Mainz trennt sich von Trainer Yamashita",
+   "text": [
+    "Mainz 05 hat Trainer Takashi Yamashita am Dienstag freigestellt. Der Verein steht als Tabellenletzter ohne Punkt da und verlor zuletzt hoch beim HSV.",
+    "Die Co-Trainer Marcel Kostadinov und Sho Chikaraishi übernehmen bis auf Weiteres und betreuen das Team auch im Spiel am Sonntag gegen den 1. FC Nürnberg."
+   ],
+   "kickbase": "Ein Trainerwechsel kann die Startelf verändern. Wir beobachten, ob Kostadinov und Chikaraishi die Aufstellung am Sonntag umbauen.",
+   "quellen": [
+    {
+     "name": "1. FSV Mainz 05",
+     "url": "https://www.mainz05.de/news/yamashita-nicht-mehr-trainer-der-05-frauen"
+    }
+   ]
   },
   {
    "id": "gwinn-1711",
