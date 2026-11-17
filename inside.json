@@ -358,8 +358,8 @@
       0
      ]
     ],
-    "text": "Bis Spieltag 7 sieben Startelfeinsätze, 591 Minuten und 2 Tore. Seit Spieltag 8 ohne Ligaminute, einen Grund nennt keine Quelle.",
-    "kb": "Nächster Gegner ist Werder (1,4 Gegentore pro Spiel). Solange Köln die Elf nicht ändert, ist kein Einsatz absehbar.",
+    "text": "Bis Spieltag 7 sieben Startelfeinsätze, 591 Minuten und 2 Tore. Seit dem 31.10. in keinem Kader mehr, auch nicht auf der Bank. Einen Grund nennt keine Quelle.",
+    "kb": "Nicht im Kader, Rückkehr offen. Erst wieder interessant, wenn sie im Spieltagskader steht.",
     "next": {
      "k": "SVW",
      "ort": "H",
@@ -1553,7 +1553,7 @@
   "verein": "KOE",
   "tag": "STARTELF",
   "titel": "Köln, das Rotationsteam, hat seit drei Spielen eine feste Elf",
-  "teaser": "An den Spieltagen 2 bis 7 wechselte Köln im Schnitt 2,7 Plätze pro Spiel. Seit Spieltag 8 stand dreimal dieselbe Startelf auf dem Platz, Imping ist neu drin, Sterner draußen.",
+  "teaser": "An den Spieltagen 2 bis 7 wechselte Köln im Schnitt 2,7 Plätze pro Spiel. Seit Spieltag 8 stand dreimal dieselbe Startelf auf dem Platz, Imping ist neu drin, Sterner fehlt seitdem im Kader.",
   "stats": [
    [
     "3",
@@ -1565,7 +1565,7 @@
    ],
    [
     "0",
-    "Ligaminuten von Sterner seit Spieltag 8, vorher 591"
+    "Kader-Nominierungen von Sterner seit dem Pokal am 31.10., vorher 591 Ligaminuten"
    ]
   ],
   "spalten": [
@@ -2138,6 +2138,24 @@
      "S",
      59,
      0
+    ],
+    "8": [
+     "V",
+     0,
+     0,
+     "nicht im Kader, Grund nicht veröffentlicht"
+    ],
+    "9": [
+     "V",
+     0,
+     0,
+     "nicht im Kader, Grund nicht veröffentlicht"
+    ],
+    "10": [
+     "V",
+     0,
+     0,
+     "nicht im Kader, Grund nicht veröffentlicht"
     ]
    },
    "Nachtigall": {
@@ -2258,7 +2276,7 @@
   ],
   "kurz": [
    "Dreimal in Folge dieselbe Startelf. An den Spieltagen 2 bis 7 waren es 2,7 Wechsel pro Spiel.",
-   "Imping kam von 36 auf 261 Minuten. Sterner (591 Minuten bis Spieltag 7) spielt seitdem nicht.",
+   "Imping kam von 36 auf 261 Minuten. Sterner (591 Minuten bis Spieltag 7) steht seit dem 31.10. in keinem Kader mehr.",
    "Andrade begann die letzten 4 Spiele und ging jedes Mal nach 65 bis 67 Minuten."
   ],
   "ausblick": [
@@ -2270,12 +2288,12 @@
     "satz": "Keine Spiele unter der Woche, zu Hause 12 Punkte aus 5 Spielen. Wir erwarten die Elf der letzten 3 Spiele.",
     "namen": [
      "Imping",
-     "Andrade",
-     "Sterner"
+     "Andrade"
     ],
     "fehlt": [
      "Nachtigall verletzt",
-     "Jessen verletzt"
+     "Jessen verletzt",
+     "Sterner nicht im Kader"
     ],
     "kb": "Stammelf",
     "kbart": "gut"
@@ -2285,7 +2303,7 @@
     "datum": "2026-12-14",
     "gk": "B04",
     "ha": "A",
-    "satz": "Erstes Spiel nach gut drei Wochen ohne Liga. Ob Gerhardt dann wieder dabei ist, nennt Köln noch nicht.",
+    "satz": "Erstes Spiel nach gut drei Wochen ohne Liga. Ob Gerhardt und Sterner dann wieder dabei sind, nennt Köln noch nicht.",
     "namen": [
      "Gerhardt",
      "Sterner"
@@ -2296,15 +2314,15 @@
   "text": [
    "Köln galt in der Hinrunde als die Mannschaft, die am meisten rotiert, der Geissblog nannte die Rotation im Oktober einen Dauerzustand. Die Daten der Spieltage 1 bis 7 bestätigen das: 18 verschiedene Spielerinnen begannen mindestens einmal, von Spieltag zu Spieltag änderten sich im Schnitt 2,7 Plätze, vor dem 6. Spieltag gegen Freiburg sogar 4.",
    "Seit dem 8. Spieltag ist das anders. In Wolfsburg (0:3), gegen Leipzig (3:1) und in Nürnberg (1:0) stand jedes Mal dieselbe Elf auf dem Platz: Schmitz im Tor, dazu Degen, Bohnen, Hegering, Imping, Vogt, Feiersinger, Elsen, Leimenstoll, Andrade und Bremer. Aus den zwei Spielen nach der Niederlage in Wolfsburg holte Köln 6 Punkte bei 4:1 Toren.",
-   "Die größte Veränderung betrifft zwei Spielerinnen. Carlotta Imping hatte vor Spieltag 8 nur 36 Ligaminuten und spielt seitdem 81, 90 und 90 Minuten. Beke Sterner begann die ersten sieben Spiele (591 Minuten, 2 Tore) und kam seitdem nicht mehr zum Einsatz. Einen Grund nennt keine Quelle, als verletzt wird sie nirgends geführt.",
+   "Die größte Veränderung betrifft zwei Spielerinnen. Carlotta Imping hatte vor Spieltag 8 nur 36 Ligaminuten und spielt seitdem 81, 90 und 90 Minuten. Beke Sterner begann die ersten sieben Spiele (591 Minuten, 2 Tore) und wurde gegen den HSV nach 59 Minuten ausgewechselt. Seitdem stand sie in keinem Spieltagskader mehr, weder im Pokal gegen Leipzig noch an den Spieltagen 8 bis 10, auch nicht auf der Bank. Einen Grund nennen weder der Verein noch die Kölner Medien. Dass eine Stammspielerin viermal komplett fehlt, spricht eher für eine Verletzung als für eine Entscheidung der Trainerin.",
    "Fest sind auch die Wechselmuster: Andrade begann die letzten vier Spiele und ging jedes Mal nach 65 bis 67 Minuten vom Platz, Feiersinger spielte in zwei der drei Spiele nicht durch (67 und 73 Minuten). Schmitz, Vogt, Bremer und Leimenstoll standen an allen drei Spieltagen 90 Minuten auf dem Platz."
   ],
   "einschaetzung": [
    "<b>Spieltag 11 gegen Werder (Sa 21.11., 14:00):</b> Köln holte zu Hause 12 Punkte aus 5 Spielen bei 10:3 Toren, Werder auswärts 3 Punkte aus 4 Spielen bei 7:10 Toren. Köln hat keine Pokal- oder Europapokalspiele unter der Woche. Wir sehen keinen Anlass, warum Köln die Elf ändern sollte.",
    "<b>Spieltag 12 in Leverkusen (Mo 14.12., 18:00):</b> Vorher hat Köln gut drei Wochen kein Ligaspiel. Anna Gerhardt, die an den Spieltagen 3 bis 5 begann, fehlt laut Geissblog ohne veröffentlichte Diagnose. Kommt sie zurück, ist die Dreierkette um Degen, Bohnen und Hegering die wahrscheinlichste Stelle für einen Wechsel.",
-   "Für Kickbase heißt das: Bei Köln ist die Startelf derzeit so planbar wie bei kaum einem anderen Verein der Liga. Nur Nürnberg wechselte an den letzten beiden Spieltagen ebenfalls niemanden. Bei Andrade sind die Minuten begrenzt, bei Sterner ist kein Einsatz absehbar, solange die Elf gewinnt."
+   "Für Kickbase heißt das: Bei Köln ist die Startelf derzeit so planbar wie bei kaum einem anderen Verein der Liga. Nur Nürnberg wechselte an den letzten beiden Spieltagen ebenfalls niemanden. Bei Andrade sind die Minuten begrenzt, Sterner fehlt im Kader, solange Köln keinen Grund und keine Rückkehr nennt, ist sie kein Kauf."
   ],
-  "kb": "Unsere Einschätzung: Gegen Werder erwarten wir dieselbe Elf wie in den letzten drei Spielen. Imping ist dort aktuell gesetzt, Sterner nicht. Andrade beginnt, spielt aber zuletzt keine 70 Minuten. Den Elfmeter schoss zuletzt Bremer, Nachtigall fällt nach ihrer Fuß-OP aus.",
+  "kb": "Unsere Einschätzung: Gegen Werder erwarten wir dieselbe Elf wie in den letzten drei Spielen. Imping ist dort aktuell gesetzt, Sterner steht seit vier Spielen nicht einmal im Kader. Andrade beginnt, spielt aber zuletzt keine 70 Minuten. Den Elfmeter schoss zuletzt Bremer, Nachtigall fällt nach ihrer Fuß-OP aus.",
   "quelle": "Daten: Sportschau-Aufstellungen und Liveticker Spieltag 1 bis 10. Meldungen: Geissblog (19.10., Rotation; 06.10. und 23.09., Verletzungen).",
   "news_zeit": "2026-11-17T12:00"
  },
