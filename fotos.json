@@ -421,7 +421,7 @@
   "nr": "20",
   "position": "ABW",
   "ersetzt": "fotos/jana-vojtekova.jpg",
-  "cx": 0.511
+  "cx": 0.5
  },
  "Lisa Lichtfus": {
   "datei": "fotos/tsg-lisa-lichtfus.webp",
@@ -530,7 +530,7 @@
   "nr": "14",
   "position": "ST",
   "ersetzt": "fotos/carina-brunold.jpg",
-  "cx": 0.502
+  "cx": 0.5
  },
  "Nia Szenk": {
   "datei": "fotos/scf-nia-szenk.webp",
@@ -548,7 +548,7 @@
   "nr": "19",
   "position": "ABW",
   "ersetzt": "fotos/nia-szenk.jpg",
-  "cx": 0.505
+  "cx": 0.5
  },
  "Luna Vanzeir": {
   "datei": "fotos/svw-luna-vanzeir.webp",
@@ -583,7 +583,7 @@
   "nr": "9",
   "position": "MF",
   "ersetzt": "fotos/sabah-seghir.jpg",
-  "cx": 0.489
+  "cx": 0.5
  },
  "Laura Feiersinger": {
   "datei": "fotos/koe-laura-feiersinger.webp",
@@ -819,7 +819,7 @@
   "nr": "4",
   "position": "MF",
   "ersetzt": "fotos/meret-felde.jpg",
-  "cx": 0.506
+  "cx": 0.5
  },
  "Dina Orschmann": {
   "datei": "fotos/fcu-dina-orschmann.webp",
@@ -1143,7 +1143,7 @@
   "nr": "2",
   "position": "ABW",
   "ersetzt": "fotos/lisa-karl.jpg",
-  "cx": 0.495
+  "cx": 0.5
  },
  "Janina Minge": {
   "datei": "fotos/wob-janina-minge.webp",
@@ -1587,7 +1587,7 @@
   "nr": "24",
   "position": "ABW",
   "ersetzt": "fotos/ingibjorg-sigurardottir.jpg",
-  "cx": 0.505
+  "cx": 0.5
  },
  "Pauline Bremer": {
   "datei": "fotos/koe-pauline-bremer.webp",
@@ -1812,7 +1812,7 @@
   "nr": "5",
   "position": "ABW",
   "ersetzt": "fotos/julia-stierli.jpg",
-  "cx": 0.498
+  "cx": 0.5
  },
  "Weronika Zawistowska": {
   "datei": "fotos/koe-weronika-zawistowska.webp",
@@ -2020,7 +2020,7 @@
   "nr": "23",
   "position": "MF",
   "ersetzt": "fotos/luca-emily-birkholz.jpg",
-  "cx": 0.504
+  "cx": 0.5
  },
  "Camilla Küver": {
   "datei": "fotos/wob-camilla-kuver.webp",
@@ -6755,7 +6755,7 @@
   "verein": "SC Freiburg",
   "nr": "8",
   "position": "MF",
-  "cx": 0.506
+  "cx": 0.5
  },
  "Alina Axtmann": {
   "datei": "fotos/scf-alina-axtmann.webp",
@@ -6772,7 +6772,7 @@
   "verein": "SC Freiburg",
   "nr": "3",
   "position": "ABW",
-  "cx": 0.498
+  "cx": 0.5
  },
  "Amira Arfaoui": {
   "datei": "fotos/scf-amira-arfaoui.webp",
@@ -6789,7 +6789,7 @@
   "verein": "SC Freiburg",
   "nr": "17",
   "position": "MF",
-  "cx": 0.507
+  "cx": 0.5
  },
  "Anna Reimann": {
   "datei": "fotos/scf-anna-reimann.webp",
@@ -6806,7 +6806,7 @@
   "verein": "SC Freiburg",
   "nr": "38",
   "position": "TW",
-  "cx": 0.506
+  "cx": 0.5
  },
  "Borbála Vincze": {
   "datei": "fotos/scf-borbala-vincze.webp",
@@ -6823,7 +6823,7 @@
   "verein": "SC Freiburg",
   "nr": "29",
   "position": "ST",
-  "cx": 0.516
+  "cx": 0.5
  },
  "Emma Memminger": {
   "datei": "fotos/scf-emma-memminger.webp",
@@ -6840,7 +6840,7 @@
   "verein": "SC Freiburg",
   "nr": "32",
   "position": "ABW",
-  "cx": 0.504
+  "cx": 0.5
  },
  "Ilayda Acikgöz": {
   "datei": "fotos/scf-ilayda-ac-kgoz.webp",
@@ -6857,7 +6857,7 @@
   "verein": "SC Freiburg",
   "nr": "30",
   "position": "MF",
-  "cx": 0.503
+  "cx": 0.5
  },
  "Johanna Hebben": {
   "datei": "fotos/scf-johanna-hebben.webp",
@@ -6874,7 +6874,7 @@
   "verein": "SC Freiburg",
   "nr": "16",
   "position": "MF",
-  "cx": 0.497
+  "cx": 0.5
  },
  "Lina von Schrader": {
   "datei": "fotos/scf-lina-von-schrader.webp",
@@ -6891,7 +6891,7 @@
   "verein": "SC Freiburg",
   "nr": "21",
   "position": "TW",
-  "cx": 0.493
+  "cx": 0.5
  },
  "Lisa Kolb": {
   "datei": "fotos/scf-lisa-kolb.webp",
@@ -6908,7 +6908,7 @@
   "verein": "SC Freiburg",
   "nr": "22",
   "position": "ST",
-  "cx": 0.528
+  "cx": 0.5
  },
  "Lorena Barth": {
   "datei": "fotos/scf-lorena-barth.webp",
@@ -6925,7 +6925,7 @@
   "verein": "SC Freiburg",
   "nr": "33",
   "position": "TW",
-  "cx": 0.498
+  "cx": 0.5
  },
  "Maj Schneider": {
   "datei": "fotos/scf-maj-schneider.webp",
@@ -6942,7 +6942,7 @@
   "verein": "SC Freiburg",
   "nr": "15",
   "position": "MF",
-  "cx": 0.496
+  "cx": 0.5
  },
  "Mia-Lena Maas": {
   "datei": "fotos/scf-mia-lena-maas.webp",
@@ -6959,7 +6959,7 @@
   "verein": "SC Freiburg",
   "nr": "18",
   "position": "ABW",
-  "cx": 0.501
+  "cx": 0.5
  },
  "Nicole Ojukwu": {
   "datei": "fotos/scf-nicole-ojukwu.webp",
@@ -6976,7 +6976,7 @@
   "verein": "SC Freiburg",
   "nr": "6",
   "position": "MF",
-  "cx": 0.506
+  "cx": 0.5
  },
  "Nora Scherer": {
   "datei": "fotos/scf-nora-scherer.webp",
@@ -6993,7 +6993,7 @@
   "verein": "SC Freiburg",
   "nr": "31",
   "position": "ST",
-  "cx": 0.496
+  "cx": 0.5
  },
  "Selina Vobian": {
   "datei": "fotos/scf-selina-vobian.webp",
@@ -7010,7 +7010,7 @@
   "verein": "SC Freiburg",
   "nr": "10",
   "position": "MF",
-  "cx": 0.496
+  "cx": 0.5
  },
  "Tessa Blumenberg": {
   "datei": "fotos/scf-tessa-blumenberg.webp",
@@ -7027,7 +7027,7 @@
   "verein": "SC Freiburg",
   "nr": "7",
   "position": "MF",
-  "cx": 0.501
+  "cx": 0.5
  },
  "Weena Simmen": {
   "datei": "fotos/scf-weena-simmen.webp",
@@ -7061,7 +7061,7 @@
   "verein": "SC Freiburg",
   "nr": "35",
   "position": "MF",
-  "cx": 0.517
+  "cx": 0.5
  },
  "Ilse Kemper": {
   "datei": "fotos/tsg-ilse-kemper.webp",
@@ -8616,6 +8616,193 @@
   "portrait": "fotos/svw-stab-hendrik-lemke.webp",
   "verein": "Werder Bremen",
   "funktion": "Torwarttrainer",
+  "stab": true,
+  "cx": 0.5
+ },
+ "Marco Konrad": {
+  "datei": "fotos/scf-stab-marco-konrad.webp",
+  "autor": "SC Freiburg",
+  "lizenz": "mit Genehmigung: SC Freiburg",
+  "lizenz_url": null,
+  "quelle": "https://www.scfreiburg.com/teams/frauen/trainer/",
+  "breite": 400,
+  "hoehe": 400,
+  "jahr": 2026,
+  "trikot_alt": false,
+  "gross": false,
+  "portrait": "fotos/scf-stab-marco-konrad.webp",
+  "verein": "SC Freiburg",
+  "funktion": "Cheftrainer",
+  "stab": true,
+  "cx": 0.5
+ },
+ "Sebastian Grunert": {
+  "datei": "fotos/scf-stab-sebastian-grunert.webp",
+  "autor": "SC Freiburg",
+  "lizenz": "mit Genehmigung: SC Freiburg",
+  "lizenz_url": null,
+  "quelle": "https://www.scfreiburg.com/teams/frauen/trainer/",
+  "breite": 400,
+  "hoehe": 400,
+  "jahr": 2026,
+  "trikot_alt": false,
+  "gross": false,
+  "portrait": "fotos/scf-stab-sebastian-grunert.webp",
+  "verein": "SC Freiburg",
+  "funktion": "Co-Trainer",
+  "stab": true,
+  "cx": 0.5
+ },
+ "Sandrino Braun-Schumacher": {
+  "datei": "fotos/scf-stab-sandrino-braun-schumacher.webp",
+  "autor": "SC Freiburg",
+  "lizenz": "mit Genehmigung: SC Freiburg",
+  "lizenz_url": null,
+  "quelle": "https://www.scfreiburg.com/teams/frauen/trainer/",
+  "breite": 400,
+  "hoehe": 400,
+  "jahr": 2026,
+  "trikot_alt": false,
+  "gross": false,
+  "portrait": "fotos/scf-stab-sandrino-braun-schumacher.webp",
+  "verein": "SC Freiburg",
+  "funktion": "Co-Trainer",
+  "stab": true,
+  "cx": 0.5
+ },
+ "Tobias Galli": {
+  "datei": "fotos/scf-stab-tobias-galli.webp",
+  "autor": "SC Freiburg",
+  "lizenz": "mit Genehmigung: SC Freiburg",
+  "lizenz_url": null,
+  "quelle": "https://www.scfreiburg.com/teams/frauen/trainer/",
+  "breite": 400,
+  "hoehe": 400,
+  "jahr": 2026,
+  "trikot_alt": false,
+  "gross": false,
+  "portrait": "fotos/scf-stab-tobias-galli.webp",
+  "verein": "SC Freiburg",
+  "funktion": "Athletiktrainer",
+  "stab": true,
+  "cx": 0.5
+ },
+ "Dominik Bergdorf": {
+  "datei": "fotos/scf-stab-dominik-bergdorf.webp",
+  "autor": "SC Freiburg",
+  "lizenz": "mit Genehmigung: SC Freiburg",
+  "lizenz_url": null,
+  "quelle": "https://www.scfreiburg.com/teams/frauen/trainer/",
+  "breite": 400,
+  "hoehe": 400,
+  "jahr": 2026,
+  "trikot_alt": false,
+  "gross": false,
+  "portrait": "fotos/scf-stab-dominik-bergdorf.webp",
+  "verein": "SC Freiburg",
+  "funktion": "Torwarttrainer",
+  "stab": true,
+  "cx": 0.5
+ },
+ "Birgit Bauer-Schick": {
+  "datei": "fotos/scf-stab-birgit-bauer-schick.webp",
+  "autor": "SC Freiburg",
+  "lizenz": "mit Genehmigung: SC Freiburg",
+  "lizenz_url": null,
+  "quelle": "https://www.scfreiburg.com/teams/frauen/funktionsteam/",
+  "breite": 400,
+  "hoehe": 400,
+  "jahr": 2026,
+  "trikot_alt": false,
+  "gross": false,
+  "portrait": "fotos/scf-stab-birgit-bauer-schick.webp",
+  "verein": "SC Freiburg",
+  "funktion": "Bereichsleiterin",
+  "stab": true,
+  "cx": 0.5
+ },
+ "André Malinowski": {
+  "datei": "fotos/scf-stab-andre-malinowski.webp",
+  "autor": "SC Freiburg",
+  "lizenz": "mit Genehmigung: SC Freiburg",
+  "lizenz_url": null,
+  "quelle": "https://www.scfreiburg.com/teams/frauen/funktionsteam/",
+  "breite": 400,
+  "hoehe": 400,
+  "jahr": 2026,
+  "trikot_alt": false,
+  "gross": false,
+  "portrait": "fotos/scf-stab-andre-malinowski.webp",
+  "verein": "SC Freiburg",
+  "funktion": "Sportlicher Leiter",
+  "stab": true,
+  "cx": 0.5
+ },
+ "Annika Miller": {
+  "datei": "fotos/scf-stab-annika-miller.webp",
+  "autor": "SC Freiburg",
+  "lizenz": "mit Genehmigung: SC Freiburg",
+  "lizenz_url": null,
+  "quelle": "https://www.scfreiburg.com/teams/frauen/funktionsteam/",
+  "breite": 400,
+  "hoehe": 400,
+  "jahr": 2026,
+  "trikot_alt": false,
+  "gross": false,
+  "portrait": "fotos/scf-stab-annika-miller.webp",
+  "verein": "SC Freiburg",
+  "funktion": "Teammanagerin",
+  "stab": true,
+  "cx": 0.5
+ },
+ "Silke Heckel": {
+  "datei": "fotos/scf-stab-silke-heckel.webp",
+  "autor": "SC Freiburg",
+  "lizenz": "mit Genehmigung: SC Freiburg",
+  "lizenz_url": null,
+  "quelle": "https://www.scfreiburg.com/teams/frauen/funktionsteam/",
+  "breite": 400,
+  "hoehe": 400,
+  "jahr": 2026,
+  "trikot_alt": false,
+  "gross": false,
+  "portrait": "fotos/scf-stab-silke-heckel.webp",
+  "verein": "SC Freiburg",
+  "funktion": "Teambetreuerin",
+  "stab": true,
+  "cx": 0.5
+ },
+ "PD Dr. Lisa Bode": {
+  "datei": "fotos/scf-stab-pd-dr-lisa-bode.webp",
+  "autor": "SC Freiburg",
+  "lizenz": "mit Genehmigung: SC Freiburg",
+  "lizenz_url": null,
+  "quelle": "https://www.scfreiburg.com/teams/frauen/funktionsteam/",
+  "breite": 400,
+  "hoehe": 400,
+  "jahr": 2026,
+  "trikot_alt": false,
+  "gross": false,
+  "portrait": "fotos/scf-stab-pd-dr-lisa-bode.webp",
+  "verein": "SC Freiburg",
+  "funktion": "Medizinische Leitung",
+  "stab": true,
+  "cx": 0.5
+ },
+ "Carolin Schneider": {
+  "datei": "fotos/scf-stab-carolin-schneider.webp",
+  "autor": "SC Freiburg",
+  "lizenz": "mit Genehmigung: SC Freiburg",
+  "lizenz_url": null,
+  "quelle": "https://www.scfreiburg.com/teams/frauen/funktionsteam/",
+  "breite": 400,
+  "hoehe": 400,
+  "jahr": 2026,
+  "trikot_alt": false,
+  "gross": false,
+  "portrait": "fotos/scf-stab-carolin-schneider.webp",
+  "verein": "SC Freiburg",
+  "funktion": "Leiterin Physiotherapie",
   "stab": true,
   "cx": 0.5
  }
