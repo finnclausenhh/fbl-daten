@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-17T18:51",
+ "stand": "2026-11-17T19:45",
  "meldungen": [
   {
    "id": "fehlt-reimann-scf-0111",
@@ -110,6 +110,37 @@
     }
    ],
    "quelle_live": true
+  },
+  {
+   "id": "eriksson-1611",
+   "pid": "00007",
+   "zeit": "2026-11-16T04:25",
+   "spielerin": "Magdalena Eriksson",
+   "verein": "FC Bayern",
+   "nr": "5",
+   "pos": "ABW",
+   "tags": [
+    "NATIONALTEAM"
+   ],
+   "headline": "Eriksson tritt aus der schwedischen Nationalmannschaft zurück",
+   "kurz": "Eriksson beendet Nationalteam-Karriere",
+   "text": [
+    "Die Innenverteidigerin des FC Bayern beendet ihre Zeit im schwedischen Nationalteam. Der Verband SvFF teilte den Schritt mit, sie kam auf 123 Länderspiele und vier Medaillen bei Turnieren.",
+    "Als Grund nennt Eriksson ihren Körper: Nach wiederkehrenden Verletzungen müsse sie auf ihre Gesundheit hören und diese priorisieren. Über ihre Zukunft beim FC Bayern äußert sie sich in der Mitteilung nicht."
+   ],
+   "kickbase": "Für den Verein ändert sich zunächst nichts, der Rücktritt betrifft nur das Nationalteam. Mit weniger Länderspielreisen kann sie bei Bayern aber besser belastbar bleiben.",
+   "quellen": [
+    {
+     "name": "TV4 (International)",
+     "url": "https://www.tv4.se/artikel/4HQ65X3gLPSYds8xJTE6VA/magdalena-eriksson-slutar-i-landslaget"
+    }
+   ],
+   "foto": "fotos/fcb-magdalena-eriksson.webp",
+   "foto_credit": {
+    "autor": "Mikael Hervestad",
+    "lizenz": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Sweden_-_Serbia_06_(cropped).jpg"
+   }
   },
   {
    "id": "freigang-dfb-1711",
