@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-17T12:51",
+ "stand": "2026-11-17T12:50",
  "meldungen": [
   {
    "id": "fehlt-reimann-scf-0111",
@@ -110,6 +110,37 @@
     }
    ],
    "quelle_live": true
+  },
+  {
+   "id": "gwinn-1711",
+   "pid": "00009",
+   "zeit": "2026-11-17T12:38",
+   "spielerin": "Giulia Gwinn",
+   "verein": "FC Bayern",
+   "nr": "",
+   "pos": "ABW",
+   "tags": [
+    "NATIONALTEAM"
+   ],
+   "status": "fit",
+   "headline": "Gwinn wieder im DFB-Kader für Argentinien und Peru",
+   "text": [
+    "Bundestrainer Christian Wück hat seinen Kader für die Länderspiele gegen Argentinien und Peru benannt. Die Reise nach Südamerika gilt als Test mit Blick auf die WM 2027 in Brasilien.",
+    "Laut NDR ist Giulia Gwinn vom FC Bayern wieder dabei, ebenso Ann-Katrin Berger und Lohmann. Wück verzichtet weitgehend auf Experimente."
+   ],
+   "kickbase": "Gwinn ist nominiert und steht damit in der Länderspielpause bereit. Für die Aufstellung beim FC Bayern zählt, ob sie nach der Reise fit zurückkommt.",
+   "quellen": [
+    {
+     "name": "NDR",
+     "url": "https://www.ndr.de/sport/fussball/dfb-frauen-mnit-gwinn-und-berger-anch-suedamerika,audio-3601564.html"
+    }
+   ],
+   "foto": "fotos/fcb-giulia-gwinn.webp",
+   "foto_credit": {
+    "autor": "Steffen Prößdorf",
+    "lizenz": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:2022-06-24_Fussball,_Frauen,_L%C3%A4nderspiel,_Deutschland_-_Schweiz_1DX_0722_by_Stepro.jpg"
+   }
   },
   {
    "id": "endstand-vfb-1611",
@@ -528,7 +559,8 @@
    "text": [
     "RB-Kapitänin Sandra Starke hat sich vor dem 1:5 gegen Eintracht Frankfurt beim Aufwärmen verletzt. Bei einer Passübung sackte sie zusammen und kam mit Verdacht auf eine Achillessehnenverletzung ins Krankenhaus.",
     "Trainer Jonas Stephan sagte, es sehe nicht gut aus.",
-    "Update 11:39: RB Leipzig bestätigt den Riss der Achillessehne, auch der Kicker berichtet darüber. Zur genauen Ausfallzeit nennt der Bericht keine Angabe; ein Achillessehnenriss bedeutet in der Regel eine Pause von mehreren Monaten."
+    "Update 11:39: RB Leipzig bestätigt den Riss der Achillessehne, auch der Kicker berichtet darüber. Zur genauen Ausfallzeit nennt der Bericht keine Angabe; ein Achillessehnenriss bedeutet in der Regel eine Pause von mehreren Monaten.",
+    "Update 12:10: Auch TAG24 berichtet darüber. Starke wurde nach Vereinsangaben bereits an der rechten Achillessehne operiert."
    ],
    "kickbase": "Starke fällt mit bestätigtem Achillessehnenriss langfristig aus und ist für die kommenden Spieltage nicht einzuplanen. Die Aufstellung ist ab dem Anpfiff des ersten Spiels des Spieltags gesperrt, daher zählt, was der Ausfall für Punkte und die Spieltage danach bedeutet.",
    "quellen": [
@@ -543,6 +575,10 @@
     {
      "name": "RBLive (dpa/sid)",
      "url": "https://rblive.de/frauen/herbe-rb-klatsche-gegen-frankfurt-kapitaenin-sandra-starke-verletzt-4357067"
+    },
+    {
+     "name": "TAG24",
+     "url": "https://www.tag24.de/sport/fussball/verein/rb-leipzig/rb-leipzig-blog-schocknachricht-fuer-kapitaenin-starke-3409194"
     }
    ],
    "foto": "fotos/rbl-sandra-starke.webp",
