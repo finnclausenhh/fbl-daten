@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-17T10:51",
+ "stand": "2026-11-17T11:50",
  "meldungen": [
   {
    "id": "fehlt-reimann-scf-0111",
@@ -523,21 +523,26 @@
     "VERLETZUNG"
    ],
    "status": "verletzt",
-   "headline": "Starke verletzt sich beim Aufwärmen, Verdacht auf Achillessehne",
-   "kurz": "Starke fällt wohl lange aus, Achillessehne",
+   "headline": "Starke verletzt sich beim Aufwärmen, Achillessehnenriss",
+   "kurz": "Starke fällt mit Achillessehnenriss aus",
    "text": [
     "RB-Kapitänin Sandra Starke hat sich vor dem 1:5 gegen Eintracht Frankfurt beim Aufwärmen verletzt. Bei einer Passübung sackte sie zusammen und kam mit Verdacht auf eine Achillessehnenverletzung ins Krankenhaus.",
-    "Trainer Jonas Stephan sagte, es sehe nicht gut aus. Die Untersuchungen liefen noch, eine Diagnose sollte spätestens am Abend folgen. Bisher ist der Verdacht nicht bestätigt."
+    "Trainer Jonas Stephan sagte, es sehe nicht gut aus.",
+    "Update 11:39: RB Leipzig bestätigt den Riss der Achillessehne, auch der Kicker berichtet darüber. Zur genauen Ausfallzeit nennt der Bericht keine Angabe; ein Achillessehnenriss bedeutet in der Regel eine Pause von mehreren Monaten."
    ],
-   "kickbase": "Starke ist Dreh- und Angelpunkt im Leipziger Spiel und fehlt bei Verdacht auf Achillessehnenriss wohl lange. Für den nächsten Spieltag gegen Wolfsburg ist sie nicht einzuplanen; die Aufstellung ist ab dem Anpfiff des ersten Spiels des Spieltags gesperrt, daher zählt, was der Ausfall für die Punkte bedeutet.",
+   "kickbase": "Starke fällt mit bestätigtem Achillessehnenriss langfristig aus und ist für die kommenden Spieltage nicht einzuplanen. Die Aufstellung ist ab dem Anpfiff des ersten Spiels des Spieltags gesperrt, daher zählt, was der Ausfall für Punkte und die Spieltage danach bedeutet.",
    "quellen": [
+    {
+     "name": "RB Leipzig",
+     "url": "https://rbleipzig.com/de/news/personalupdate-sandra-starke-achillessehne-riss"
+    },
+    {
+     "name": "Kicker",
+     "url": "https://www.kicker.de/schock-fuer-leipzig-kapitaenin-starke-erleidet-achillessehnenriss-1272272/artikel"
+    },
     {
      "name": "RBLive (dpa/sid)",
      "url": "https://rblive.de/frauen/herbe-rb-klatsche-gegen-frankfurt-kapitaenin-sandra-starke-verletzt-4357067"
-    },
-    {
-     "name": "Kickbase (App, unbestätigt)",
-     "url": "https://www.kickbase.com"
     }
    ],
    "foto": "fotos/rbl-sandra-starke.webp",
