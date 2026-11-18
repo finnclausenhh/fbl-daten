@@ -1,12 +1,12 @@
 {
- "stand": "2026-11-17T21:44",
+ "stand": "2026-11-18T09:44",
  "meldungen": [
   {
-   "id": "fehlt-reimann-scf-0111",
-   "pid": "00085",
-   "zeit": "2026-11-01T14:08",
-   "spielerin": "Anna Reimann",
-   "verein": "SC Freiburg",
+   "id": "fehlt-altenburg-sge-0111",
+   "pid": "00056",
+   "zeit": "2026-11-01T13:12",
+   "spielerin": "Lina Altenburg",
+   "verein": "Eintracht Frankfurt",
    "nr": "",
    "pos": "TW",
    "tags": [
@@ -14,20 +14,46 @@
     "POKAL"
    ],
    "status": "fraglich",
-   "headline": "Reimann nicht im Kader gegen FC Carl Zeiss Jena",
+   "headline": "Altenburg nicht im Kader gegen 1. FC Nürnberg",
    "text": [
-    "Anna Reimann steht im DFB-Pokal gegen FC Carl Zeiss Jena weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
+    "Lina Altenburg steht im DFB-Pokal gegen 1. FC Nürnberg weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
     "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
    ],
    "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
    "quellen": [
     {
      "name": "DFB-Datencenter",
-     "url": "https://datencenter.dfb.de/matches/sc-freiburg-fc-carl-zeiss-jena-2431333"
+     "url": "https://datencenter.dfb.de/matches/1-fc-nuernberg-eintracht-frankfurt-2431335"
     }
    ],
-   "quelle_live": true,
-   "kurz": "Reimann nicht im Kader"
+   "quelle_live": true
+  },
+  {
+   "id": "fehlt-bender-b04-0111",
+   "pid": "00257",
+   "zeit": "2026-11-01T13:53",
+   "spielerin": "Loreen Bender",
+   "verein": "Bayer Leverkusen",
+   "nr": "",
+   "pos": "ST",
+   "tags": [
+    "AUFSTELLUNG",
+    "POKAL"
+   ],
+   "status": "fraglich",
+   "headline": "Bender nicht im Kader gegen FC Bayern",
+   "text": [
+    "Loreen Bender steht im DFB-Pokal gegen FC Bayern weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 4-mal.",
+    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
+   ],
+   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165391/bayern-muenchen_bayer-leverkusen/aufstellung"
+    }
+   ],
+   "quelle_live": true
   },
   {
    "id": "fehlt-viggosdottir-fcb-0111",
@@ -58,38 +84,11 @@
    "kurz": "Viggósdóttir nicht im Kader"
   },
   {
-   "id": "fehlt-bender-b04-0111",
-   "pid": "00257",
-   "zeit": "2026-11-01T13:53",
-   "spielerin": "Loreen Bender",
-   "verein": "Bayer Leverkusen",
-   "nr": "",
-   "pos": "ST",
-   "tags": [
-    "AUFSTELLUNG",
-    "POKAL"
-   ],
-   "status": "fraglich",
-   "headline": "Bender nicht im Kader gegen FC Bayern",
-   "text": [
-    "Loreen Bender steht im DFB-Pokal gegen FC Bayern weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 4-mal.",
-    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
-   ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165391/bayern-muenchen_bayer-leverkusen/aufstellung"
-    }
-   ],
-   "quelle_live": true
-  },
-  {
-   "id": "fehlt-altenburg-sge-0111",
-   "pid": "00056",
-   "zeit": "2026-11-01T13:12",
-   "spielerin": "Lina Altenburg",
-   "verein": "Eintracht Frankfurt",
+   "id": "fehlt-reimann-scf-0111",
+   "pid": "00085",
+   "zeit": "2026-11-01T14:08",
+   "spielerin": "Anna Reimann",
+   "verein": "SC Freiburg",
    "nr": "",
    "pos": "TW",
    "tags": [
@@ -97,19 +96,20 @@
     "POKAL"
    ],
    "status": "fraglich",
-   "headline": "Altenburg nicht im Kader gegen 1. FC Nürnberg",
+   "headline": "Reimann nicht im Kader gegen FC Carl Zeiss Jena",
    "text": [
-    "Lina Altenburg steht im DFB-Pokal gegen 1. FC Nürnberg weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
+    "Anna Reimann steht im DFB-Pokal gegen FC Carl Zeiss Jena weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
     "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
    ],
    "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
    "quellen": [
     {
      "name": "DFB-Datencenter",
-     "url": "https://datencenter.dfb.de/matches/1-fc-nuernberg-eintracht-frankfurt-2431335"
+     "url": "https://datencenter.dfb.de/matches/sc-freiburg-fc-carl-zeiss-jena-2431333"
     }
    ],
-   "quelle_live": true
+   "quelle_live": true,
+   "kurz": "Reimann nicht im Kader"
   },
   {
    "id": "eriksson-1611",
@@ -8043,104 +8043,6 @@
     "autor": "Steffen Prößdorf",
     "lizenz": "CC BY-SA 4.0",
     "url": "https://commons.wikimedia.org/wiki/File:2023-07-03_Fussball,_Frauen,_Deutsche_Nationalmannschaft,_Media_Day_1DX_6563_by_Stepro-2.jpg"
-   }
-  },
-  {
-   "id": "baum-0311",
-   "pid": "00146",
-   "zeit": "2026-11-03T18:07",
-   "spielerin": "Jule Baum",
-   "verein": "Hamburger SV",
-   "nr": "36",
-   "pos": "TW",
-   "tags": [
-    "VERLETZUNG"
-   ],
-   "status": "verletzt",
-   "headline": "HSV-Torhüterin Baum fällt mit Kreuzbandriss monatelang aus",
-   "kurz": "Baum fällt mit Kreuzbandriss monatelang aus",
-   "text": [
-    "Jule Baum vom Hamburger SV hat sich im Pokalspiel gegen Union Berlin das hintere Kreuzband im rechten Knie gerissen. Die Torhüterin hatte sich die Verletzung während der Partie zugezogen und stand trotzdem bis zum Ende der Verlängerung im Tor, der HSV schied mit 3:4 aus.",
-    "Nach der Untersuchung im Athleticum am Volkspark steht fest, dass Baum monatelang ausfällt. Im Ligabetrieb stand in dieser Saison meist Kinga Szemik im Tor, Baum kam in einem von zehn Spielen zum Einsatz."
-   ],
-   "kickbase": "Für die Kickbase-Aufstellung ändert sich wenig, weil Szemik die klare Nummer eins im Ligaspiel ist. Baum fällt als Torwart-Alternative für die kommenden Monate aus.",
-   "quellen": [
-    {
-     "name": "HSV24",
-     "url": "https://hsv24.mopo.de/2026/11/03/bitter-hsv-torhueterin-zieht-sich-kreuzbandriss-zu.html"
-    }
-   ],
-   "foto": "fotos/hsv-36-baum.webp",
-   "foto_credit": {
-    "autor": "HSV",
-    "lizenz": "mit Genehmigung des Hamburger SV",
-    "url": "Pressepaket Hamburger SV, Freigabe per Mail 10/2026"
-   }
-  },
-  {
-   "id": "altenburg-0511",
-   "pid": "00056",
-   "zeit": "2026-11-03T15:53",
-   "spielerin": "Lina Altenburg",
-   "verein": "Eintracht Frankfurt",
-   "nr": "",
-   "pos": "TW",
-   "tags": [
-    "UPDATE",
-    "ROTATION"
-   ],
-   "status": "fit",
-   "headline": "Altenburg fehlte im Pokal aus Belastungsgründen",
-   "kurz": "Altenburg im Pokal geschont, Winkler hielt",
-   "text": [
-    "Eintracht-Trainer Niko Arnautis ließ Torhüterin Lina Altenburg im DFB-Pokal beim 1. FC Nürnberg laut hessenschau aus Belastungsgründen zu Hause. Damit ist der Grund für ihr Fehlen im Pokalkader bekannt, eine Verletzung wird nicht genannt.",
-    "Für sie stand Sophia Winkler im Tor, die erst ihr zweites Profispiel für die SGE bestritt. Sie parierte im Elfmeterschießen den Versuch von Julia Pollak, Frankfurt gewann 4:2. Ob Winkler bald auch in der Liga zum Zug kommt, ist offen, Altenburg gilt bisher als Nummer eins."
-   ],
-   "kickbase": "Für die Liga spricht nichts gegen Altenburg im Tor, der Bericht nennt kein Problem. Winkler bleibt nur eine Option, falls Arnautis erneut wechselt.",
-   "quellen": [
-    {
-     "name": "hessenschau / Sportschau",
-     "url": "https://www.sportschau.de/regional/hr/hr-dfb-pokal-eintracht-torhueterin-sophia-winkler-nutzt-ihre-chance-100.html"
-    }
-   ],
-   "foto": "fotos/sge-lina-altenburg.webp",
-   "foto_credit": {
-    "autor": "Eintracht Frankfurt",
-    "lizenz": "mit Genehmigung: Eintracht Frankfurt",
-    "url": "https://frauen.eintracht.de/kader/"
-   }
-  },
-  {
-   "id": "mickenhagen-0311",
-   "pid": "00335",
-   "zeit": "2026-11-03T14:39",
-   "spielerin": "Julia Mickenhagen",
-   "verein": "VfB Stuttgart",
-   "nr": "",
-   "pos": "ABW",
-   "tags": [
-    "UPDATE",
-    "VERLETZUNG"
-   ],
-   "status": "verletzt",
-   "headline": "Mickenhagen fällt mit Bänderriss bis Hinrundenende aus",
-   "kurz": "Mickenhagen fehlt bis Hinrundenende",
-   "text": [
-    "Julia Mickenhagen vom VfB Stuttgart hat sich im Pokal-Achtelfinale gegen die SGS Essen einen Bänderriss im linken Sprunggelenk zugezogen. Die Abwehrspielerin kam in der 60. Minute für Verena Wieder ins Spiel und musste kurz darauf gestützt vom Platz.",
-    "Nach den Untersuchungen fällt sie laut VfB bis zum Ende der Hinrunde aus. Zuvor hatte sie wegen Hüftproblemen individuell trainiert und stand erst im Pokal wieder im Kader."
-   ],
-   "kickbase": "Mickenhagen ist für die kommenden Spieltage kein Thema mehr. Für die Stuttgarter Abwehr bleibt Wieder als Alternative.",
-   "quellen": [
-    {
-     "name": "VfB Stuttgart",
-     "url": "https://www.vfb.de/de/vfb/aktuell/neues/vfb-frauen/26-27/julia-mickenhagen-faellt-aus/"
-    }
-   ],
-   "foto": "fotos/vfb-julia-mickenhagen.webp",
-   "foto_credit": {
-    "autor": "VfB Stuttgart",
-    "lizenz": "mit Genehmigung: VfB Stuttgart",
-    "url": "https://www.vfb.de/de/1893/frauen/frauen/kader/saisonen/2026-2027/kader/?data=&mobile="
    }
   }
  ]
