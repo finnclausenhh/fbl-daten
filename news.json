@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-18T17:51",
+ "stand": "2026-11-18T17:45",
  "meldungen": [
   {
    "id": "fehlt-reimann-scf-0111",
@@ -110,6 +110,39 @@
     }
    ],
    "quelle_live": true
+  },
+  {
+   "id": "hsv-comeback-1811",
+   "pid": "00175",
+   "zeit": "2026-11-18",
+   "spielerin": "Andrea Švíbková",
+   "verein": "Hamburger SV",
+   "nr": "",
+   "pos": "ST",
+   "tags": [
+    "VERLETZUNG",
+    "VORBERICHT"
+   ],
+   "headline": "HSV: fünf Spielerinnen weiter im Aufbautraining",
+   "kurz": "HSV: fünf weiter im Aufbautraining",
+   "status": "verletzt",
+   "text": [
+    "Vor dem Auswärtsspiel bei Eintracht Frankfurt am Samstag um 12 Uhr trainierten beim HSV Andrea Švíbková, Melina Krüger, Victoria Schulz, Sophie Hillebrand und Lotta Wrede weiter individuell an ihren Comebacks. Der Verein nennt keine Rückkehrtermine.",
+    "Švíbková, Krüger und Schulz stehen schon länger wegen Verletzungen auf der Ausfallliste. Bei Hillebrand und Wrede nennt der HSV keinen Grund. Der Rest des Kaders trainierte laut Verein in voller Gruppenstärke."
+   ],
+   "kickbase": "Alle fünf gelten für Frankfurt nicht als Option. Nach dem Spiel folgt die dreiwöchige Länderspielpause, danach sind Fortschritte bei den Rückkehrerinnen ein Thema für die Aufstellung.",
+   "quellen": [
+    {
+     "name": "Hamburger SV",
+     "url": "https://www.hsv.de/news/gegen-wind-und-wetter-hsv-frauen-bereit-fuer-frankfurt"
+    }
+   ],
+   "foto": "fotos/hsv-17-svibkova.webp",
+   "foto_credit": {
+    "autor": "HSV",
+    "lizenz": "mit Genehmigung des Hamburger SV",
+    "url": "Pressepaket Hamburger SV, Freigabe per Mail 10/2026"
+   }
   },
   {
    "id": "amani-1811",
