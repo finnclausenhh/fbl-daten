@@ -1,12 +1,12 @@
 {
- "stand": "2026-11-19T21:51",
+ "stand": "2026-11-19T21:45",
  "meldungen": [
   {
-   "id": "fehlt-reimann-scf-0111",
-   "pid": "00085",
-   "zeit": "2026-11-01T14:08",
-   "spielerin": "Anna Reimann",
-   "verein": "SC Freiburg",
+   "id": "fehlt-altenburg-sge-0111",
+   "pid": "00056",
+   "zeit": "2026-11-01T13:12",
+   "spielerin": "Lina Altenburg",
+   "verein": "Eintracht Frankfurt",
    "nr": "",
    "pos": "TW",
    "tags": [
@@ -14,20 +14,46 @@
     "POKAL"
    ],
    "status": "fraglich",
-   "headline": "Reimann nicht im Kader gegen FC Carl Zeiss Jena",
+   "headline": "Altenburg nicht im Kader gegen 1. FC Nürnberg",
    "text": [
-    "Anna Reimann steht im DFB-Pokal gegen FC Carl Zeiss Jena weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
+    "Lina Altenburg steht im DFB-Pokal gegen 1. FC Nürnberg weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
     "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
    ],
    "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
    "quellen": [
     {
      "name": "DFB-Datencenter",
-     "url": "https://datencenter.dfb.de/matches/sc-freiburg-fc-carl-zeiss-jena-2431333"
+     "url": "https://datencenter.dfb.de/matches/1-fc-nuernberg-eintracht-frankfurt-2431335"
     }
    ],
-   "quelle_live": true,
-   "kurz": "Reimann nicht im Kader"
+   "quelle_live": true
+  },
+  {
+   "id": "fehlt-bender-b04-0111",
+   "pid": "00257",
+   "zeit": "2026-11-01T13:53",
+   "spielerin": "Loreen Bender",
+   "verein": "Bayer Leverkusen",
+   "nr": "",
+   "pos": "ST",
+   "tags": [
+    "AUFSTELLUNG",
+    "POKAL"
+   ],
+   "status": "fraglich",
+   "headline": "Bender nicht im Kader gegen FC Bayern",
+   "text": [
+    "Loreen Bender steht im DFB-Pokal gegen FC Bayern weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 4-mal.",
+    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
+   ],
+   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165391/bayern-muenchen_bayer-leverkusen/aufstellung"
+    }
+   ],
+   "quelle_live": true
   },
   {
    "id": "fehlt-viggosdottir-fcb-0111",
@@ -58,38 +84,11 @@
    "kurz": "Viggósdóttir nicht im Kader"
   },
   {
-   "id": "fehlt-bender-b04-0111",
-   "pid": "00257",
-   "zeit": "2026-11-01T13:53",
-   "spielerin": "Loreen Bender",
-   "verein": "Bayer Leverkusen",
-   "nr": "",
-   "pos": "ST",
-   "tags": [
-    "AUFSTELLUNG",
-    "POKAL"
-   ],
-   "status": "fraglich",
-   "headline": "Bender nicht im Kader gegen FC Bayern",
-   "text": [
-    "Loreen Bender steht im DFB-Pokal gegen FC Bayern weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 4-mal.",
-    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
-   ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165391/bayern-muenchen_bayer-leverkusen/aufstellung"
-    }
-   ],
-   "quelle_live": true
-  },
-  {
-   "id": "fehlt-altenburg-sge-0111",
-   "pid": "00056",
-   "zeit": "2026-11-01T13:12",
-   "spielerin": "Lina Altenburg",
-   "verein": "Eintracht Frankfurt",
+   "id": "fehlt-reimann-scf-0111",
+   "pid": "00085",
+   "zeit": "2026-11-01T14:08",
+   "spielerin": "Anna Reimann",
+   "verein": "SC Freiburg",
    "nr": "",
    "pos": "TW",
    "tags": [
@@ -97,19 +96,203 @@
     "POKAL"
    ],
    "status": "fraglich",
-   "headline": "Altenburg nicht im Kader gegen 1. FC Nürnberg",
+   "headline": "Reimann nicht im Kader gegen FC Carl Zeiss Jena",
    "text": [
-    "Lina Altenburg steht im DFB-Pokal gegen 1. FC Nürnberg weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
+    "Anna Reimann steht im DFB-Pokal gegen FC Carl Zeiss Jena weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
     "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
    ],
    "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
    "quellen": [
     {
      "name": "DFB-Datencenter",
-     "url": "https://datencenter.dfb.de/matches/1-fc-nuernberg-eintracht-frankfurt-2431335"
+     "url": "https://datencenter.dfb.de/matches/sc-freiburg-fc-carl-zeiss-jena-2431333"
     }
    ],
-   "quelle_live": true
+   "quelle_live": true,
+   "kurz": "Reimann nicht im Kader"
+  },
+  {
+   "id": "endstand-cl-fcb-1911",
+   "zeit": "2026-11-19T20:30",
+   "spielerin": "FC Bayern gegen Austria Wien",
+   "verein": "FC Bayern",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "SPIELBERICHT",
+    "EUROPAPOKAL"
+   ],
+   "headline": "FC Bayern gewinnt 4:0 bei Austria Wien",
+   "kurz": "Bayern schlägt Austria Wien 4:0",
+   "text": [
+    "Der FC Bayern gewinnt am fünften Spieltag der Champions League bei Austria Wien mit 4:0. Klara Bühl, Pernille Harder, Alara und Sophie Proost erzielen die Tore.",
+    "Vorbereitet wurden die Treffer von Dallmann (Harder), Bühl (Alara) und Damnjanović (Proost). Alara und Proost kamen von der Bank. Amani stand wegen ihrer Gelbsperre nicht im Kader.",
+    "Für die Champions League gibt es keine Noten, unsere Datenquelle bewertet nur Ligaspiele. Für Kickbase zählt das Spiel nicht."
+   ],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "BR24",
+     "url": "https://www.br.de/nachrichten/meldung/fc-bayern-gewinnt-in-champions-league-der-frauen%2C300827d2d"
+    },
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/uefa-champions-league-frauen/ma12537093/austria-wien_bayern-muenchen/aufstellung"
+    }
+   ],
+   "wettbewerb": "Champions League",
+   "spiel_aufstellung": [
+    {
+     "verein": "FC Bayern",
+     "k": "FCB",
+     "gegner": "Austria Wien",
+     "wettbewerb": "Champions League",
+     "ergebnis": "4:0",
+     "tore": [
+      {
+       "min": "27",
+       "n": "Bühl",
+       "eigen": true
+      },
+      {
+       "min": "45+1",
+       "n": "Harder",
+       "eigen": true,
+       "vorlage": "Dallmann"
+      },
+      {
+       "min": "75",
+       "n": "Alara",
+       "eigen": true,
+       "vorlage": "Bühl"
+      },
+      {
+       "min": "90+2",
+       "n": "Proost",
+       "eigen": true,
+       "vorlage": "Damnjanović"
+      }
+     ],
+     "vergleich": "10. Spieltag",
+     "startelf": [
+      {
+       "n": "Mahmutovic",
+       "p": "TW"
+      },
+      {
+       "n": "Kett",
+       "p": "ABW",
+       "f": "neu"
+      },
+      {
+       "n": "Eriksson",
+       "p": "ABW",
+       "aus": "46"
+      },
+      {
+       "n": "Viggósdóttir",
+       "p": "ABW",
+       "f": "neu",
+       "aus": "58"
+      },
+      {
+       "n": "Gwinn",
+       "p": "ABW",
+       "aus": "78"
+      },
+      {
+       "n": "Tanikawa",
+       "p": "DM"
+      },
+      {
+       "n": "Zadrazil",
+       "p": "MF",
+       "f": "neu"
+      },
+      {
+       "n": "Harder",
+       "p": "OM",
+       "aus": "64",
+       "tore": 1
+      },
+      {
+       "n": "Bühl",
+       "p": "OM",
+       "tore": 1,
+       "vorl": 1
+      },
+      {
+       "n": "Dallmann",
+       "p": "OM",
+       "vorl": 1
+      },
+      {
+       "n": "Imade",
+       "p": "ST",
+       "f": "neu",
+       "aus": "78"
+      }
+     ],
+     "eingewechselt": [
+      {
+       "n": "Alara",
+       "p": "MF",
+       "ein_min": "46",
+       "tore": 1
+      },
+      {
+       "n": "Ballisager",
+       "p": "ABW",
+       "ein_min": "58"
+      },
+      {
+       "n": "Damnjanović",
+       "p": "ST",
+       "ein_min": "64",
+       "vorl": 1
+      },
+      {
+       "n": "Proost",
+       "p": "MF",
+       "ein_min": "78",
+       "tore": 1
+      },
+      {
+       "n": "Mattner-Trembleau",
+       "p": "ABW",
+       "ein_min": "78"
+      }
+     ],
+     "raus": [
+      {
+       "n": "Ballisager",
+       "p": "ABW",
+       "wo": "Bank"
+      },
+      {
+       "n": "Naschenweng",
+       "p": "ABW",
+       "wo": "Bank"
+      },
+      {
+       "n": "Amani",
+       "p": "DM",
+       "wo": "nicht im Kader"
+      },
+      {
+       "n": "Damnjanović",
+       "p": "ST",
+       "wo": "Bank"
+      }
+     ],
+     "ohne_einsatz": [
+      "Klink",
+      "van Eijk",
+      "Naschenweng",
+      "Dunst"
+     ]
+    }
+   ]
   },
   {
    "id": "fehlt-amani-fcb-1911",
