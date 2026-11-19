@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-19T08:51",
+ "stand": "2026-11-19T08:45",
  "meldungen": [
   {
    "id": "fehlt-reimann-scf-0111",
@@ -110,6 +110,37 @@
     }
    ],
    "quelle_live": true
+  },
+  {
+   "id": "buehl-vertrag-1911",
+   "pid": "00023",
+   "zeit": "2026-11-19T08:20",
+   "spielerin": "Klara Bühl",
+   "verein": "FC Bayern",
+   "nr": "",
+   "pos": "ST",
+   "tags": [
+    "UPDATE"
+   ],
+   "headline": "Hainer will Bühl und Kett halten",
+   "kurz": "Bayern-Boss will Bühl und Kett halten",
+   "text": [
+    "Bayern-Präsident Herbert Hainer wünscht sich eine Vertragsverlängerung mit Klara Bühl und Franziska Kett. Im Interview mit t-online kündigte er an, bei der Jahreshauptversammlung am Samstag einen entsprechenden Appell an beide zu richten.",
+    "Hainer nannte die beiden das beste Duo auf der linken Seite im internationalen Frauenfußball. Den ebenfalls auslaufenden Vertrag von Giulia Gwinn erwähnte er laut t-online nicht. Eine Einigung ist bisher nicht gemeldet."
+   ],
+   "kickbase": "Für die nächsten Spieltage ändert sich nichts, beide gehören zur Stammelf. Es ist ein Wunsch des Präsidenten, keine Vertragsverlängerung.",
+   "quellen": [
+    {
+     "name": "T-Online",
+     "url": "https://www.t-online.de/sport/fussball/frauenfussball/id_101526166/fc-bayern-hainer-wuenscht-sich-vertragsverlaengerung-mit-buehl-und-kett.html"
+    }
+   ],
+   "foto": "fotos/fcb-klara-buhl.webp",
+   "foto_credit": {
+    "autor": "Steffen Prößdorf",
+    "lizenz": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:2023-07-03_Fussball,_Frauen,_Deutsche_Nationalmannschaft,_Media_Day_1DX_6563_by_Stepro-2.jpg"
+   }
   },
   {
    "id": "hsv-comeback-1811",
