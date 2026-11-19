@@ -1,6 +1,34 @@
 {
- "stand": "2026-11-19T16:51",
+ "stand": "2026-11-19T17:25",
  "meldungen": [
+  {
+   "id": "aufstellung-folgt-ma12537093",
+   "zeit": "2026-11-19T17:25",
+   "spielerin": "Spielansetzung",
+   "verein": "FC Bayern",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "AUFSTELLUNG",
+    "EUROPAPOKAL"
+   ],
+   "headline": "Aufstellung Austria Wien gegen FC Bayern folgt",
+   "kurz": "Aufstellung folgt, Anpfiff 18:45",
+   "text": [
+    "Anpfiff in der Champions League ist um 18:45 Uhr. Die offizielle Aufstellung kommt meist rund 60 Minuten vorher, wir ergänzen sie hier automatisch, sobald sie veröffentlicht ist.",
+    "Für Pokal- und Europapokalspiele gibt es keine Prognose, die Aufstellung kommt hier automatisch."
+   ],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/uefa-champions-league-frauen/ma12537093/austria-wien_bayern-muenchen/aufstellung"
+    }
+   ],
+   "platzhalter": true,
+   "anstoss": "2026-11-19T18:45",
+   "wettbewerb": "Champions League"
+  },
   {
    "id": "fehlt-reimann-scf-0111",
    "pid": "00085",
