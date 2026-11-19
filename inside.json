@@ -7,7 +7,7 @@
    {
     "art": "risk",
     "label": "Risiko",
-    "text": "Der FC Bayern spielt am Donnerstag in Wien und am Montag gegen Hoffenheim. In den letzten drei Ligaspielen wechselte er im Schnitt 6 Plätze in der Startelf, nur Harder begann alle letzten vier."
+    "text": "Der FC Bayern gewann am Donnerstag in Wien 4:0 und spielt am Montag gegen Hoffenheim. In den letzten drei Ligaspielen wechselte er im Schnitt 6 Plätze in der Startelf, nur Harder begann alle letzten vier. In Wien standen Kett, Viggósdóttir, Zadrazil und Imade neu in der Startelf."
    },
    {
     "art": "chance",
@@ -489,7 +489,7 @@
      ]
     ],
     "text": "Bis Spieltag 8 jedes Ligaspiel über 90 Minuten. Gegen Werder fehlte sie laut SPORT1 mit Knieproblemen, in Wolfsburg kam sie nicht zum Einsatz.",
-    "kb": "Nächster Gegner ist Hoffenheim (1,6 Gegentore pro Spiel), vier Tage nach dem Spiel in Wien. Unsere Einschätzung: Einsatz offen.",
+    "kb": "Nächster Gegner ist Hoffenheim (1,6 Gegentore pro Spiel), vier Tage nach dem Spiel in Wien. Dort stand sie in der Startelf und wurde in der 58. Minute ausgewechselt. Unsere Einschätzung: Einsatz offen.",
     "next": {
      "k": "TSG",
      "ort": "H",
@@ -1230,7 +1230,7 @@
        "Hoffenheim holte auswärts <b>4 Punkte</b> aus 5 Spielen (5:10 Tore).",
        "Meiste Ligatore beider Teams: Klara Bühl (FC Bayern) mit <b>6</b>."
       ],
-      "kb": "FC Bayern kassiert 0,9 Tore pro Spiel, Hoffenheim 1,6. Das spricht eher für die Offensive von FC Bayern. Der FC Bayern spielt vier Tage vorher in Wien."
+      "kb": "FC Bayern kassiert 0,9 Tore pro Spiel, Hoffenheim 1,6. Das spricht eher für die Offensive von FC Bayern. Der FC Bayern spielte vier Tage vorher in Wien und gewann 4:0."
      }
     ]
    },
@@ -4814,5 +4814,5 @@
   "id": "punkt-md11",
   "text": "Spieltag 11 in 60 Sekunden"
  },
- "geprueft": "2026-11-17T07:48"
+ "geprueft": "2026-11-19T22:45"
 }
