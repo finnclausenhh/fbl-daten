@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-19T17:44",
+ "stand": "2026-11-19T17:45",
  "meldungen": [
   {
    "id": "fehlt-amani-fcb-1911",
@@ -30,7 +30,7 @@
   },
   {
    "id": "aufstellung-cl-fcb-1911",
-   "zeit": "2026-11-19T17:42",
+   "zeit": "2026-11-19T17:44",
    "spielerin": "Spielansetzung",
    "verein": "FC Bayern",
    "nr": "",
@@ -39,7 +39,10 @@
     "EUROPAPOKAL"
    ],
    "headline": "Offizielle Aufstellung: FC Bayern gegen Austria Wien",
-   "text": [],
+   "text": [
+    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Amani, Ballisager, Damnjanović, Naschenweng.",
+    "Nicht im Spieltagskader (laut Sportschau), obwohl im letzten Ligaspiel dabei: Naschenweng, Amani, Damnjanović, Alara. Einen Grund nennt bisher keine Quelle."
+   ],
    "kickbase": "",
    "quellen": [
     {
@@ -116,123 +119,77 @@
       "f": "neu"
      }
     ],
-    "bank": [
-     {
-      "n": "Pichler",
-      "p": "MF",
-      "pid": "",
-      "f": "neu"
-     },
-     {
-      "n": "Schäfer",
-      "p": "MF",
-      "pid": "",
-      "f": "neu"
-     },
-     {
-      "n": "Škorvánková",
-      "p": "MF",
-      "pid": "",
-      "f": "neu"
-     },
-     {
-      "n": "Glibo",
-      "p": "MF",
-      "pid": "",
-      "f": "neu"
-     },
-     {
-      "n": "Šišić",
-      "p": "MF",
-      "pid": "",
-      "f": "neu"
-     }
-    ],
+    "bank": [],
     "fehlt": [
-     {
-      "n": "Alara",
-      "p": "MF",
-      "f": "raus"
-     },
-     {
-      "n": "Amani",
-      "p": "MF",
-      "f": "raus"
-     },
      {
       "n": "Ballisager",
       "p": "ABW",
-      "f": "raus"
-     },
-     {
-      "n": "Damnjanović",
-      "p": "ST",
-      "f": "raus"
-     },
-     {
-      "n": "Dunst",
-      "p": "MF",
-      "f": "raus"
-     },
-     {
-      "n": "Mattner-Trembleau",
-      "p": "ABW",
-      "f": "raus"
+      "pid": "00005",
+      "f": "raus",
+      "war": "Startelf",
+      "i": "fraglich"
      },
      {
       "n": "Naschenweng",
       "p": "ABW",
-      "f": "raus"
+      "pid": "00012",
+      "f": "raus",
+      "war": "Startelf"
+     },
+     {
+      "n": "Amani",
+      "p": "MF",
+      "pid": "00016",
+      "f": "raus",
+      "war": "Startelf"
+     },
+     {
+      "n": "Damnjanović",
+      "p": "ST",
+      "pid": "00024",
+      "f": "raus",
+      "war": "Startelf"
+     },
+     {
+      "n": "Alara",
+      "p": "MF",
+      "pid": "00015",
+      "f": "raus",
+      "war": "Bank"
+     },
+     {
+      "n": "Mattner-Trembleau",
+      "p": "ABW",
+      "pid": "00027",
+      "f": "raus",
+      "war": "Bank"
      },
      {
       "n": "Proost",
       "p": "MF",
-      "f": "raus"
+      "pid": "00020",
+      "f": "raus",
+      "war": "Bank",
+      "i": "fraglich"
      },
      {
       "n": "van Eijk",
       "p": "TW",
-      "f": "raus"
+      "pid": "00004",
+      "f": "raus",
+      "war": "Bank"
      },
      {
-      "n": "Klein",
-      "p": "TW"
-     },
-     {
-      "n": "Klink",
-      "p": "TW"
-     },
-     {
-      "n": "Dafinger",
-      "p": "ABW"
-     },
-     {
-      "n": "Gilles",
-      "p": "ABW"
-     },
-     {
-      "n": "Kappes",
-      "p": "ABW"
-     },
-     {
-      "n": "Wegscheider",
-      "p": "ABW"
-     },
-     {
-      "n": "Oberdorf",
-      "p": "MF"
-     },
-     {
-      "n": "Potsi",
-      "p": "ST"
-     },
-     {
-      "n": "Rauscha",
-      "p": "ST"
+      "n": "Dunst",
+      "p": "MF",
+      "pid": "00018",
+      "f": "raus",
+      "war": "Bank"
      }
     ],
     "wettbewerb": "Champions League"
-   }
+   },
+   "quelle_live": true
   },
   {
    "id": "loonen-1911",
