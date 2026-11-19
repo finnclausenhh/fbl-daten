@@ -1,35 +1,8 @@
 {
  "meldungen": [
   {
-   "id": "fehlt-ballisager-fcb-1911",
-   "pid": "00005",
-   "zeit": "2026-11-19T17:43",
-   "spielerin": "Stine Ballisager",
-   "verein": "FC Bayern",
-   "nr": "",
-   "pos": "ABW",
-   "tags": [
-    "AUFSTELLUNG"
-   ],
-   "status": "fraglich",
-   "headline": "5 Spielerinnen um Ballisager fehlen gegen Austria Wien",
-   "text": [
-    "In der Champions League gegen Austria Wien stehen weder in der Startelf noch auf der Bank: Stine Ballisager (4 von 5 Ligaspielen in der Startelf), Bernadette Amani (4 von 5 Ligaspielen in der Startelf), Katharina Naschenweng (3 von 5 Ligaspielen in der Startelf), Alara (3 von 5 Ligaspielen in der Startelf), Jovana Damnjanović (1 von 5 Ligaspielen in der Startelf).",
-    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
-   ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie alle als fraglich und stufen sie in der Prognose herunter.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/uefa-champions-league-frauen/ma12537093/austria-wien_bayern-muenchen/aufstellung"
-    }
-   ],
-   "quelle_live": true,
-   "kurz": "5 Spielerinnen um Ballisager fehlen"
-  },
-  {
    "id": "aufstellung-cl-fcb-1911",
-   "zeit": "2026-11-19T17:43",
+   "zeit": "2026-11-19T17:44",
    "spielerin": "Spielansetzung",
    "verein": "FC Bayern",
    "nr": "",
@@ -39,8 +12,7 @@
    ],
    "headline": "Offizielle Aufstellung: FC Bayern gegen Austria Wien",
    "text": [
-    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Amani, Ballisager, Damnjanović, Naschenweng.",
-    "Nicht im Spieltagskader (laut Sportschau), obwohl im letzten Ligaspiel dabei: Ballisager, Naschenweng, Amani, Damnjanović, Alara. Einen Grund nennt bisher keine Quelle."
+    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Amani, Ballisager, Damnjanović, Naschenweng. Die Bank folgt, sobald sie veröffentlicht ist."
    ],
    "kickbase": "",
    "quellen": [
@@ -119,73 +91,31 @@
      }
     ],
     "bank": [],
-    "fehlt": [
-     {
-      "n": "Ballisager",
-      "p": "ABW",
-      "pid": "00005",
-      "f": "raus",
-      "war": "Startelf"
-     },
-     {
-      "n": "Naschenweng",
-      "p": "ABW",
-      "pid": "00012",
-      "f": "raus",
-      "war": "Startelf"
-     },
+    "fehlt": [],
+    "wettbewerb": "Champions League",
+    "bank_offen": true,
+    "nicht_startelf": [
      {
       "n": "Amani",
       "p": "MF",
-      "pid": "00016",
-      "f": "raus",
-      "war": "Startelf"
+      "pid": "00016"
+     },
+     {
+      "n": "Ballisager",
+      "p": "ABW",
+      "pid": "00005"
      },
      {
       "n": "Damnjanović",
       "p": "ST",
-      "pid": "00024",
-      "f": "raus",
-      "war": "Startelf"
+      "pid": "00024"
      },
      {
-      "n": "Alara",
-      "p": "MF",
-      "pid": "00015",
-      "f": "raus",
-      "war": "Bank"
-     },
-     {
-      "n": "Mattner-Trembleau",
+      "n": "Naschenweng",
       "p": "ABW",
-      "pid": "00027",
-      "f": "raus",
-      "war": "Bank"
-     },
-     {
-      "n": "Proost",
-      "p": "MF",
-      "pid": "00020",
-      "f": "raus",
-      "war": "Bank",
-      "i": "fraglich"
-     },
-     {
-      "n": "van Eijk",
-      "p": "TW",
-      "pid": "00004",
-      "f": "raus",
-      "war": "Bank"
-     },
-     {
-      "n": "Dunst",
-      "p": "MF",
-      "pid": "00018",
-      "f": "raus",
-      "war": "Bank"
+      "pid": "00012"
      }
-    ],
-    "wettbewerb": "Champions League"
+    ]
    },
    "quelle_live": true
   }
@@ -352,71 +282,6 @@
    "delta": -1,
    "bis": "2026-11-26",
    "grund": "stand am 16.11. gegen Bayer Leverkusen nicht im Spieltagskader, obwohl im letzten Ligaspiel in der Startelf; Grund nicht bekannt"
-  },
-  {
-   "verein": "FC Bayern",
-   "n": "Ballisager",
-   "spielerin": "Stine Ballisager",
-   "war": "Startelf",
-   "zeit": "2026-11-19T17:43",
-   "gegner": "Austria Wien",
-   "wettbewerb": "Champions League",
-   "quelle": "https://www.sportschau.de/live-und-ergebnisse/fussball/uefa-champions-league-frauen/ma12537093/austria-wien_bayern-muenchen/aufstellung",
-   "delta": -1,
-   "bis": "2026-11-29",
-   "grund": "stand am 19.11. gegen Austria Wien nicht im Spieltagskader, obwohl im letzten Ligaspiel in der Startelf; Grund nicht bekannt"
-  },
-  {
-   "verein": "FC Bayern",
-   "n": "Naschenweng",
-   "spielerin": "Katharina Naschenweng",
-   "war": "Startelf",
-   "zeit": "2026-11-19T17:43",
-   "gegner": "Austria Wien",
-   "wettbewerb": "Champions League",
-   "quelle": "https://www.sportschau.de/live-und-ergebnisse/fussball/uefa-champions-league-frauen/ma12537093/austria-wien_bayern-muenchen/aufstellung",
-   "delta": -1,
-   "bis": "2026-11-29",
-   "grund": "stand am 19.11. gegen Austria Wien nicht im Spieltagskader, obwohl im letzten Ligaspiel in der Startelf; Grund nicht bekannt"
-  },
-  {
-   "verein": "FC Bayern",
-   "n": "Amani",
-   "spielerin": "Bernadette Amani",
-   "war": "Startelf",
-   "zeit": "2026-11-19T17:43",
-   "gegner": "Austria Wien",
-   "wettbewerb": "Champions League",
-   "quelle": "https://www.sportschau.de/live-und-ergebnisse/fussball/uefa-champions-league-frauen/ma12537093/austria-wien_bayern-muenchen/aufstellung",
-   "delta": -1,
-   "bis": "2026-11-29",
-   "grund": "stand am 19.11. gegen Austria Wien nicht im Spieltagskader, obwohl im letzten Ligaspiel in der Startelf; Grund nicht bekannt"
-  },
-  {
-   "verein": "FC Bayern",
-   "n": "Damnjanović",
-   "spielerin": "Jovana Damnjanović",
-   "war": "Startelf",
-   "zeit": "2026-11-19T17:43",
-   "gegner": "Austria Wien",
-   "wettbewerb": "Champions League",
-   "quelle": "https://www.sportschau.de/live-und-ergebnisse/fussball/uefa-champions-league-frauen/ma12537093/austria-wien_bayern-muenchen/aufstellung",
-   "delta": -1,
-   "bis": "2026-11-29",
-   "grund": "stand am 19.11. gegen Austria Wien nicht im Spieltagskader, obwohl im letzten Ligaspiel in der Startelf; Grund nicht bekannt"
-  },
-  {
-   "verein": "FC Bayern",
-   "n": "Alara",
-   "spielerin": "Alara",
-   "war": "Bank",
-   "zeit": "2026-11-19T17:43",
-   "gegner": "Austria Wien",
-   "wettbewerb": "Champions League",
-   "quelle": "https://www.sportschau.de/live-und-ergebnisse/fussball/uefa-champions-league-frauen/ma12537093/austria-wien_bayern-muenchen/aufstellung",
-   "delta": -1,
-   "bis": "2026-11-29",
-   "grund": "stand am 19.11. gegen Austria Wien nicht im Spieltagskader, obwohl im letzten Ligaspiel auf der Bank; Grund nicht bekannt"
   }
  ]
 }
