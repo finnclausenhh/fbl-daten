@@ -40,7 +40,8 @@
    ],
    "headline": "Offizielle Aufstellung: FC Bayern gegen Austria Wien",
    "text": [
-    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Amani, Ballisager, Damnjanović, Naschenweng. Die Bank folgt, sobald sie veröffentlicht ist."
+    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Amani, Ballisager, Damnjanović, Naschenweng.",
+    "Nicht im Spieltagskader (laut Sportschau), obwohl im letzten Ligaspiel dabei: Naschenweng, Amani, Damnjanović, Alara. Einen Grund nennt bisher keine Quelle."
    ],
    "kickbase": "",
    "quellen": [
@@ -119,31 +120,74 @@
      }
     ],
     "bank": [],
-    "fehlt": [],
-    "wettbewerb": "Champions League",
-    "bank_offen": true,
-    "nicht_startelf": [
-     {
-      "n": "Amani",
-      "p": "MF",
-      "pid": "00016"
-     },
+    "fehlt": [
      {
       "n": "Ballisager",
       "p": "ABW",
-      "pid": "00005"
-     },
-     {
-      "n": "Damnjanović",
-      "p": "ST",
-      "pid": "00024"
+      "pid": "00005",
+      "f": "raus",
+      "war": "Startelf",
+      "i": "fraglich"
      },
      {
       "n": "Naschenweng",
       "p": "ABW",
-      "pid": "00012"
+      "pid": "00012",
+      "f": "raus",
+      "war": "Startelf"
+     },
+     {
+      "n": "Amani",
+      "p": "MF",
+      "pid": "00016",
+      "f": "raus",
+      "war": "Startelf"
+     },
+     {
+      "n": "Damnjanović",
+      "p": "ST",
+      "pid": "00024",
+      "f": "raus",
+      "war": "Startelf"
+     },
+     {
+      "n": "Alara",
+      "p": "MF",
+      "pid": "00015",
+      "f": "raus",
+      "war": "Bank"
+     },
+     {
+      "n": "Mattner-Trembleau",
+      "p": "ABW",
+      "pid": "00027",
+      "f": "raus",
+      "war": "Bank"
+     },
+     {
+      "n": "Proost",
+      "p": "MF",
+      "pid": "00020",
+      "f": "raus",
+      "war": "Bank",
+      "i": "fraglich"
+     },
+     {
+      "n": "van Eijk",
+      "p": "TW",
+      "pid": "00004",
+      "f": "raus",
+      "war": "Bank"
+     },
+     {
+      "n": "Dunst",
+      "p": "MF",
+      "pid": "00018",
+      "f": "raus",
+      "war": "Bank"
      }
-    ]
+    ],
+    "wettbewerb": "Champions League"
    },
    "quelle_live": true
   },
