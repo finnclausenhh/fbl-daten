@@ -1,116 +1,6 @@
 {
- "stand": "2026-11-19T18:51",
+ "stand": "2026-11-19T19:45",
  "meldungen": [
-  {
-   "id": "fehlt-reimann-scf-0111",
-   "pid": "00085",
-   "zeit": "2026-11-01T14:08",
-   "spielerin": "Anna Reimann",
-   "verein": "SC Freiburg",
-   "nr": "",
-   "pos": "TW",
-   "tags": [
-    "AUFSTELLUNG",
-    "POKAL"
-   ],
-   "status": "fraglich",
-   "headline": "Reimann nicht im Kader gegen FC Carl Zeiss Jena",
-   "text": [
-    "Anna Reimann steht im DFB-Pokal gegen FC Carl Zeiss Jena weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
-    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
-   ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
-   "quellen": [
-    {
-     "name": "DFB-Datencenter",
-     "url": "https://datencenter.dfb.de/matches/sc-freiburg-fc-carl-zeiss-jena-2431333"
-    }
-   ],
-   "quelle_live": true,
-   "kurz": "Reimann nicht im Kader"
-  },
-  {
-   "id": "fehlt-viggosdottir-fcb-0111",
-   "pid": "00013",
-   "zeit": "2026-11-01T13:53",
-   "spielerin": "Glódís Viggósdóttir",
-   "verein": "FC Bayern",
-   "nr": "",
-   "pos": "ABW",
-   "tags": [
-    "AUFSTELLUNG",
-    "POKAL"
-   ],
-   "status": "fraglich",
-   "headline": "Viggósdóttir nicht im Kader gegen Bayer Leverkusen",
-   "text": [
-    "Glódís Viggósdóttir steht im DFB-Pokal gegen Bayer Leverkusen weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
-    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
-   ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165391/bayern-muenchen_bayer-leverkusen/aufstellung"
-    }
-   ],
-   "quelle_live": true,
-   "kurz": "Viggósdóttir nicht im Kader"
-  },
-  {
-   "id": "fehlt-bender-b04-0111",
-   "pid": "00257",
-   "zeit": "2026-11-01T13:53",
-   "spielerin": "Loreen Bender",
-   "verein": "Bayer Leverkusen",
-   "nr": "",
-   "pos": "ST",
-   "tags": [
-    "AUFSTELLUNG",
-    "POKAL"
-   ],
-   "status": "fraglich",
-   "headline": "Bender nicht im Kader gegen FC Bayern",
-   "text": [
-    "Loreen Bender steht im DFB-Pokal gegen FC Bayern weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 4-mal.",
-    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
-   ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165391/bayern-muenchen_bayer-leverkusen/aufstellung"
-    }
-   ],
-   "quelle_live": true
-  },
-  {
-   "id": "fehlt-altenburg-sge-0111",
-   "pid": "00056",
-   "zeit": "2026-11-01T13:12",
-   "spielerin": "Lina Altenburg",
-   "verein": "Eintracht Frankfurt",
-   "nr": "",
-   "pos": "TW",
-   "tags": [
-    "AUFSTELLUNG",
-    "POKAL"
-   ],
-   "status": "fraglich",
-   "headline": "Altenburg nicht im Kader gegen 1. FC Nürnberg",
-   "text": [
-    "Lina Altenburg steht im DFB-Pokal gegen 1. FC Nürnberg weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
-    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
-   ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
-   "quellen": [
-    {
-     "name": "DFB-Datencenter",
-     "url": "https://datencenter.dfb.de/matches/1-fc-nuernberg-eintracht-frankfurt-2431335"
-    }
-   ],
-   "quelle_live": true
-  },
   {
    "id": "fehlt-amani-fcb-1911",
    "pid": "00016",
@@ -137,6 +27,98 @@
    ],
    "quelle_live": true,
    "kurz": "4 Spielerinnen um Amani fehlen"
+  },
+  {
+   "typ": "punkt",
+   "id": "punkt-md11",
+   "md": 11,
+   "zeit": "2026-11-19T19:02",
+   "lebt_bis": "2026-11-20T18:30",
+   "headline": "Spieltag 11 auf den Punkt",
+   "sicher": [
+    {
+     "n": "Ella Peddemors",
+     "k": "WOB",
+     "warum": "Alle zehn Ligaspiele über 90 Minuten, 11 Tore, dazu Ecken und Freistöße, und Leipzig kassiert 2,2 Tore pro Spiel."
+    },
+    {
+     "n": "Fany Proniez",
+     "k": "FCN",
+     "warum": "Seit Spieltag 8 dreimal in der Startelf und drei Tore, Mainz kassiert 3,6 Tore pro Spiel und spielt nach der Trennung von Trainer Yamashita mit Interimstrainern."
+    },
+    {
+     "n": "Cornelia Kramer",
+     "k": "B04",
+     "warum": "Zehnmal in der Startelf, nie unter 78 Minuten, 5 Ligatore und erste Wahl beim Elfmeter, Union kassiert 1,9 Tore pro Spiel."
+    },
+    {
+     "n": "Svea Stoldt",
+     "k": "HSV",
+     "warum": "Alle zehn Ligaspiele über 90 Minuten, gegen Mainz trat sie alle drei Hamburger Ecken und traf per Freistoß, in Frankfurt (1,1 Gegentore pro Spiel) wird es schwerer."
+    }
+   ],
+   "finger_weg": [
+    {
+     "n": "Sandra Starke",
+     "k": "RBL",
+     "warum": "Riss der Achillessehne beim Aufwärmen gegen Frankfurt, RB Leipzig bestätigt die Verletzung, sie wurde bereits operiert."
+    },
+    {
+     "n": "Leia Varley",
+     "k": "FCN",
+     "warum": "Rote Karte wegen Notbremse gegen Köln, eine Sperre ist wahrscheinlich, die offizielle Mitteilung zur Länge steht aus."
+    },
+    {
+     "n": "Vanessa Gilles",
+     "k": "FCB",
+     "warum": "Fällt laut Kicker und SPORT1 mit einer Muskelverletzung mehrere Wochen aus."
+    },
+    {
+     "n": "Sana Coşkun",
+     "k": "B04",
+     "warum": "Fehlt Leverkusen in Berlin laut Verein weiter mit einer Muskel-Sehnen-Verletzung."
+    }
+   ],
+   "tipp": [
+    {
+     "n": "Camilla Linberg",
+     "k": "HSV",
+     "warum": "Bis Spieltag 7 ohne Ligaminute, seitdem dreimal in der Startelf und drei Tore, das 1:0 gegen Mainz köpfte sie nach Stoldts Ecke."
+    },
+    {
+     "n": "Carlotta Imping",
+     "k": "KOE",
+     "warum": "Vor Spieltag 8 nur 36 Ligaminuten, seitdem 81, 90 und 90 Minuten in einer Kölner Elf, die dreimal unverändert blieb, Köln holte zu Hause 12 Punkte aus 5 Spielen."
+    },
+    {
+     "n": "Chantal Hagel",
+     "k": "VFB",
+     "warum": "Tritt bei Stuttgart die Ecken von rechts, auch wenn Redzepi spielt, Freiburg kassiert 1,9 Tore pro Spiel."
+    }
+   ],
+   "achtung": [
+    {
+     "n": "Lobke Loonen",
+     "k": "B04",
+     "warum": "Fehlte in Stuttgart angeschlagen und steht laut Verein vor der Rückkehr in den Kader, ob sie in Berlin beginnt, zeigt erst die Aufstellung."
+    },
+    {
+     "n": "Glódís Viggósdóttir",
+     "k": "FCB",
+     "warum": "In den letzten beiden Ligaspielen ohne Minute, stand heute in Wien in der Startelf, ob sie vier Tage später gegen Hoffenheim beginnt, ist offen."
+    },
+    {
+     "n": "Greta Stegemann",
+     "k": "VFB",
+     "warum": "Fehlte gegen Leverkusen ohne genannten Grund im Kader, nachdem sie die fünf Ligaspiele davor alle begonnen hatte."
+    },
+    {
+     "n": "Lisann Kaut",
+     "k": "TSG",
+     "warum": "Fehlte gegen Freiburg ohne genannten Grund im Kader, davor begann sie vier der letzten fünf Ligaspiele."
+    }
+   ],
+   "analyse_link": true
   },
   {
    "id": "aufstellung-cl-fcb-1911",
@@ -302,38 +284,6 @@
    "quelle_live": true
   },
   {
-   "id": "loonen-1911",
-   "pid": "00262",
-   "zeit": "2026-11-19T01:00",
-   "spielerin": "Lobke Loonen",
-   "verein": "Bayer Leverkusen",
-   "nr": "",
-   "pos": "ST",
-   "tags": [
-    "RÜCKKEHR"
-   ],
-   "headline": "Loonen vor der Rückkehr in den Kader",
-   "kurz": "Loonen steht vor der Kaderrückkehr",
-   "text": [
-    "Lobke Loonen, die in Stuttgart angeschlagen fehlte, steht bei Bayer Leverkusen vor der Rückkehr in den Kader. Das schreibt der Verein vor dem Freitagsspiel bei Union Berlin (18:30 Uhr).",
-    "Weiterhin fehlen Sana Coşkun mit einer Muskel-Sehnen-Verletzung, Melissa Friedrich im Aufbautraining und Amy Wrigge mit Kreuzbandriss."
-   ],
-   "kickbase": "Loonen kam zuletzt nur als Einwechslerin zum Einsatz und wird auch jetzt eher auf der Bank als in der Startelf erwartet.",
-   "status": "fraglich",
-   "quellen": [
-    {
-     "name": "Bayer 04 Leverkusen",
-     "url": "https://www.bayer04.de/de-de/news/frauen/in-den-sphaeren-in-denen-wir-sein-wollen-frauen-nach-kurzer-pause-zu-gast-in-berlin"
-    }
-   ],
-   "foto": "fotos/b04-lobke-loonen.webp",
-   "foto_credit": {
-    "autor": "Bayer 04",
-    "lizenz": "mit Genehmigung: Bayer 04 Leverkusen",
-    "url": "https://www.bayer04.de/de-de/team/frauen/frauen"
-   }
-  },
-  {
    "id": "schneider-vertrag-1911",
    "pid": "00366",
    "zeit": "2026-11-19T10:00",
@@ -396,36 +346,35 @@
    }
   },
   {
-   "id": "hsv-comeback-1811",
-   "pid": "00175",
-   "zeit": "2026-11-18",
-   "spielerin": "Andrea Švíbková",
-   "verein": "Hamburger SV",
+   "id": "loonen-1911",
+   "pid": "00262",
+   "zeit": "2026-11-19T01:00",
+   "spielerin": "Lobke Loonen",
+   "verein": "Bayer Leverkusen",
    "nr": "",
    "pos": "ST",
    "tags": [
-    "VERLETZUNG",
-    "VORBERICHT"
+    "RÜCKKEHR"
    ],
-   "headline": "HSV: fünf Spielerinnen weiter im Aufbautraining",
-   "kurz": "HSV: fünf weiter im Aufbautraining",
-   "status": "verletzt",
+   "headline": "Loonen vor der Rückkehr in den Kader",
+   "kurz": "Loonen steht vor der Kaderrückkehr",
    "text": [
-    "Vor dem Auswärtsspiel bei Eintracht Frankfurt am Samstag um 12 Uhr trainierten beim HSV Andrea Švíbková, Melina Krüger, Victoria Schulz, Sophie Hillebrand und Lotta Wrede weiter individuell an ihren Comebacks. Der Verein nennt keine Rückkehrtermine.",
-    "Švíbková, Krüger und Schulz stehen schon länger wegen Verletzungen auf der Ausfallliste. Bei Hillebrand und Wrede nennt der HSV keinen Grund. Der Rest des Kaders trainierte laut Verein in voller Gruppenstärke."
+    "Lobke Loonen, die in Stuttgart angeschlagen fehlte, steht bei Bayer Leverkusen vor der Rückkehr in den Kader. Das schreibt der Verein vor dem Freitagsspiel bei Union Berlin (18:30 Uhr).",
+    "Weiterhin fehlen Sana Coşkun mit einer Muskel-Sehnen-Verletzung, Melissa Friedrich im Aufbautraining und Amy Wrigge mit Kreuzbandriss."
    ],
-   "kickbase": "Alle fünf gelten für Frankfurt nicht als Option. Nach dem Spiel folgt die dreiwöchige Länderspielpause, danach sind Fortschritte bei den Rückkehrerinnen ein Thema für die Aufstellung.",
+   "kickbase": "Loonen kam zuletzt nur als Einwechslerin zum Einsatz und wird auch jetzt eher auf der Bank als in der Startelf erwartet.",
+   "status": "fraglich",
    "quellen": [
     {
-     "name": "Hamburger SV",
-     "url": "https://www.hsv.de/news/gegen-wind-und-wetter-hsv-frauen-bereit-fuer-frankfurt"
+     "name": "Bayer 04 Leverkusen",
+     "url": "https://www.bayer04.de/de-de/news/frauen/in-den-sphaeren-in-denen-wir-sein-wollen-frauen-nach-kurzer-pause-zu-gast-in-berlin"
     }
    ],
-   "foto": "fotos/hsv-17-svibkova.webp",
+   "foto": "fotos/b04-lobke-loonen.webp",
    "foto_credit": {
-    "autor": "HSV",
-    "lizenz": "mit Genehmigung des Hamburger SV",
-    "url": "Pressepaket Hamburger SV, Freigabe per Mail 10/2026"
+    "autor": "Bayer 04",
+    "lizenz": "mit Genehmigung: Bayer 04 Leverkusen",
+    "url": "https://www.bayer04.de/de-de/team/frauen/frauen"
    }
   },
   {
@@ -462,34 +411,36 @@
    }
   },
   {
-   "id": "eriksson-1611",
-   "pid": "00007",
-   "zeit": "2026-11-16T04:25",
-   "spielerin": "Magdalena Eriksson",
-   "verein": "FC Bayern",
-   "nr": "5",
-   "pos": "ABW",
+   "id": "hsv-comeback-1811",
+   "pid": "00175",
+   "zeit": "2026-11-18",
+   "spielerin": "Andrea Švíbková",
+   "verein": "Hamburger SV",
+   "nr": "",
+   "pos": "ST",
    "tags": [
-    "NATIONALTEAM"
+    "VERLETZUNG",
+    "VORBERICHT"
    ],
-   "headline": "Eriksson tritt aus der schwedischen Nationalmannschaft zurück",
-   "kurz": "Eriksson beendet Nationalteam-Karriere",
+   "headline": "HSV: fünf Spielerinnen weiter im Aufbautraining",
+   "kurz": "HSV: fünf weiter im Aufbautraining",
+   "status": "verletzt",
    "text": [
-    "Die Innenverteidigerin des FC Bayern beendet ihre Zeit im schwedischen Nationalteam. Der Verband SvFF teilte den Schritt mit, sie kam auf 123 Länderspiele und vier Medaillen bei Turnieren.",
-    "Als Grund nennt Eriksson ihren Körper: Nach wiederkehrenden Verletzungen müsse sie auf ihre Gesundheit hören und diese priorisieren. Über ihre Zukunft beim FC Bayern äußert sie sich in der Mitteilung nicht."
+    "Vor dem Auswärtsspiel bei Eintracht Frankfurt am Samstag um 12 Uhr trainierten beim HSV Andrea Švíbková, Melina Krüger, Victoria Schulz, Sophie Hillebrand und Lotta Wrede weiter individuell an ihren Comebacks. Der Verein nennt keine Rückkehrtermine.",
+    "Švíbková, Krüger und Schulz stehen schon länger wegen Verletzungen auf der Ausfallliste. Bei Hillebrand und Wrede nennt der HSV keinen Grund. Der Rest des Kaders trainierte laut Verein in voller Gruppenstärke."
    ],
-   "kickbase": "Für den Verein ändert sich zunächst nichts, der Rücktritt betrifft nur das Nationalteam. Mit weniger Länderspielreisen kann sie bei Bayern aber besser belastbar bleiben.",
+   "kickbase": "Alle fünf gelten für Frankfurt nicht als Option. Nach dem Spiel folgt die dreiwöchige Länderspielpause, danach sind Fortschritte bei den Rückkehrerinnen ein Thema für die Aufstellung.",
    "quellen": [
     {
-     "name": "TV4 (International)",
-     "url": "https://www.tv4.se/artikel/4HQ65X3gLPSYds8xJTE6VA/magdalena-eriksson-slutar-i-landslaget"
+     "name": "Hamburger SV",
+     "url": "https://www.hsv.de/news/gegen-wind-und-wetter-hsv-frauen-bereit-fuer-frankfurt"
     }
    ],
-   "foto": "fotos/fcb-magdalena-eriksson.webp",
+   "foto": "fotos/hsv-17-svibkova.webp",
    "foto_credit": {
-    "autor": "Mikael Hervestad",
-    "lizenz": "CC BY-SA 4.0",
-    "url": "https://commons.wikimedia.org/wiki/File:Sweden_-_Serbia_06_(cropped).jpg"
+    "autor": "HSV",
+    "lizenz": "mit Genehmigung des Hamburger SV",
+    "url": "Pressepaket Hamburger SV, Freigabe per Mail 10/2026"
    }
   },
   {
@@ -526,30 +477,6 @@
    }
   },
   {
-   "id": "mainz-trainer-1711",
-   "zeit": "2026-11-17",
-   "spielerin": "Takashi Yamashita",
-   "verein": "Mainz 05",
-   "nr": "",
-   "pos": "Trainer",
-   "tags": [
-    "TOP",
-    "UPDATE"
-   ],
-   "headline": "Mainz trennt sich von Trainer Yamashita",
-   "text": [
-    "Mainz 05 hat Trainer Takashi Yamashita am Dienstag freigestellt. Der Verein steht als Tabellenletzter ohne Punkt da und verlor zuletzt hoch beim HSV.",
-    "Die Co-Trainer Marcel Kostadinov und Sho Chikaraishi übernehmen bis auf Weiteres und betreuen das Team auch im Spiel am Sonntag gegen den 1. FC Nürnberg."
-   ],
-   "kickbase": "Ein Trainerwechsel kann die Startelf verändern. Wir beobachten, ob Kostadinov und Chikaraishi die Aufstellung am Sonntag umbauen.",
-   "quellen": [
-    {
-     "name": "1. FSV Mainz 05",
-     "url": "https://www.mainz05.de/news/yamashita-nicht-mehr-trainer-der-05-frauen"
-    }
-   ]
-  },
-  {
    "id": "gwinn-1711",
    "pid": "00009",
    "zeit": "2026-11-17T12:38",
@@ -579,6 +506,30 @@
     "lizenz": "CC BY-SA 4.0",
     "url": "https://commons.wikimedia.org/wiki/File:2022-06-24_Fussball,_Frauen,_L%C3%A4nderspiel,_Deutschland_-_Schweiz_1DX_0722_by_Stepro.jpg"
    }
+  },
+  {
+   "id": "mainz-trainer-1711",
+   "zeit": "2026-11-17",
+   "spielerin": "Takashi Yamashita",
+   "verein": "Mainz 05",
+   "nr": "",
+   "pos": "Trainer",
+   "tags": [
+    "TOP",
+    "UPDATE"
+   ],
+   "headline": "Mainz trennt sich von Trainer Yamashita",
+   "text": [
+    "Mainz 05 hat Trainer Takashi Yamashita am Dienstag freigestellt. Der Verein steht als Tabellenletzter ohne Punkt da und verlor zuletzt hoch beim HSV.",
+    "Die Co-Trainer Marcel Kostadinov und Sho Chikaraishi übernehmen bis auf Weiteres und betreuen das Team auch im Spiel am Sonntag gegen den 1. FC Nürnberg."
+   ],
+   "kickbase": "Ein Trainerwechsel kann die Startelf verändern. Wir beobachten, ob Kostadinov und Chikaraishi die Aufstellung am Sonntag umbauen.",
+   "quellen": [
+    {
+     "name": "1. FSV Mainz 05",
+     "url": "https://www.mainz05.de/news/yamashita-nicht-mehr-trainer-der-05-frauen"
+    }
+   ]
   },
   {
    "id": "endstand-vfb-1611",
@@ -980,50 +931,34 @@
    }
   },
   {
-   "id": "starke-1511",
-   "pid": "00236",
-   "zeit": "2026-11-15T14:30",
-   "spielerin": "Sandra Starke",
-   "verein": "RB Leipzig",
-   "nr": "",
-   "pos": "ST",
+   "id": "eriksson-1611",
+   "pid": "00007",
+   "zeit": "2026-11-16T04:25",
+   "spielerin": "Magdalena Eriksson",
+   "verein": "FC Bayern",
+   "nr": "5",
+   "pos": "ABW",
    "tags": [
-    "TOP",
-    "VERLETZUNG"
+    "NATIONALTEAM"
    ],
-   "status": "verletzt",
-   "headline": "Starke verletzt sich beim Aufwärmen, Achillessehnenriss",
-   "kurz": "Starke fällt mit Achillessehnenriss aus",
+   "headline": "Eriksson tritt aus der schwedischen Nationalmannschaft zurück",
+   "kurz": "Eriksson beendet Nationalteam-Karriere",
    "text": [
-    "RB-Kapitänin Sandra Starke hat sich vor dem 1:5 gegen Eintracht Frankfurt beim Aufwärmen verletzt. Bei einer Passübung sackte sie zusammen und kam mit Verdacht auf eine Achillessehnenverletzung ins Krankenhaus.",
-    "Trainer Jonas Stephan sagte, es sehe nicht gut aus.",
-    "Update 11:39: RB Leipzig bestätigt den Riss der Achillessehne, auch der Kicker berichtet darüber. Zur genauen Ausfallzeit nennt der Bericht keine Angabe; ein Achillessehnenriss bedeutet in der Regel eine Pause von mehreren Monaten.",
-    "Update 12:10: Auch TAG24 berichtet darüber. Starke wurde nach Vereinsangaben bereits an der rechten Achillessehne operiert."
+    "Die Innenverteidigerin des FC Bayern beendet ihre Zeit im schwedischen Nationalteam. Der Verband SvFF teilte den Schritt mit, sie kam auf 123 Länderspiele und vier Medaillen bei Turnieren.",
+    "Als Grund nennt Eriksson ihren Körper: Nach wiederkehrenden Verletzungen müsse sie auf ihre Gesundheit hören und diese priorisieren. Über ihre Zukunft beim FC Bayern äußert sie sich in der Mitteilung nicht."
    ],
-   "kickbase": "Starke fällt mit bestätigtem Achillessehnenriss langfristig aus und ist für die kommenden Spieltage nicht einzuplanen. Die Aufstellung ist ab dem Anpfiff des ersten Spiels des Spieltags gesperrt, daher zählt, was der Ausfall für Punkte und die Spieltage danach bedeutet.",
+   "kickbase": "Für den Verein ändert sich zunächst nichts, der Rücktritt betrifft nur das Nationalteam. Mit weniger Länderspielreisen kann sie bei Bayern aber besser belastbar bleiben.",
    "quellen": [
     {
-     "name": "RB Leipzig",
-     "url": "https://rbleipzig.com/de/news/personalupdate-sandra-starke-achillessehne-riss"
-    },
-    {
-     "name": "Kicker",
-     "url": "https://www.kicker.de/schock-fuer-leipzig-kapitaenin-starke-erleidet-achillessehnenriss-1272272/artikel"
-    },
-    {
-     "name": "RBLive (dpa/sid)",
-     "url": "https://rblive.de/frauen/herbe-rb-klatsche-gegen-frankfurt-kapitaenin-sandra-starke-verletzt-4357067"
-    },
-    {
-     "name": "TAG24",
-     "url": "https://www.tag24.de/sport/fussball/verein/rb-leipzig/rb-leipzig-blog-schocknachricht-fuer-kapitaenin-starke-3409194"
+     "name": "TV4 (International)",
+     "url": "https://www.tv4.se/artikel/4HQ65X3gLPSYds8xJTE6VA/magdalena-eriksson-slutar-i-landslaget"
     }
    ],
-   "foto": "fotos/rbl-sandra-starke.webp",
+   "foto": "fotos/fcb-magdalena-eriksson.webp",
    "foto_credit": {
-    "autor": "RB Leipzig",
-    "lizenz": "mit Genehmigung: RB Leipzig",
-    "url": "https://rbleipzig.com/de/teams-frauen"
+    "autor": "Mikael Hervestad",
+    "lizenz": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Sweden_-_Serbia_06_(cropped).jpg"
    }
   },
   {
@@ -1103,6 +1038,74 @@
    "noten": true
   },
   {
+   "id": "erstmals-baumgartel-fcn-1511",
+   "pid": "00320",
+   "zeit": "2026-11-15T17:36",
+   "spielerin": "Jacqueline Baumgärtel",
+   "verein": "1. FC Nürnberg",
+   "nr": "",
+   "pos": "ST",
+   "tags": [
+    "AUFSTELLUNG"
+   ],
+   "status": "fit",
+   "headline": "Baumgärtel feiert Saisondebüt",
+   "text": [
+    "Jacqueline Baumgärtel steht gegen 1. FC Köln zum ersten Mal in dieser Saison im Spieltagskader des 1. FC Nürnberg.",
+    "Gegen 1. FC Köln kam sie in der 81. Minute ins Spiel. Insgesamt spielte sie rund 9 Minuten.",
+    "API-Football bewertet ihren Auftritt mit der Note 6,3 (durchwachsen)."
+   ],
+   "kickbase": "Erste Einsatzminuten der Saison. Für Kickbase vorerst eine Ergänzung, keine feste Größe.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306307/1-fc-nuernberg_1-fc-koeln/liveticker"
+    },
+    {
+     "name": "API-Football (Note)",
+     "url": "https://www.api-football.com"
+    }
+   ],
+   "quelle_live": true,
+   "partie_id": "12306307",
+   "comeback": {
+    "art": "erstmals",
+    "stufe": "einsatz"
+   }
+  },
+  {
+   "id": "varley-rot-1511",
+   "pid": "00307",
+   "zeit": "2026-11-15T17:00",
+   "spielerin": "Leia Varley",
+   "verein": "1. FC Nürnberg",
+   "nr": "2",
+   "pos": "ABW",
+   "tags": [
+    "SPERRE"
+   ],
+   "status": "fit",
+   "headline": "Varley sieht Rot, Sperre wahrscheinlich",
+   "kurz": "Varley sieht Rot, Sperre wahrscheinlich",
+   "text": [
+    "Nürnbergs Verteidigerin Leia Varley hat beim 0:1 gegen den 1. FC Köln wegen einer Notbremse die Rote Karte gesehen (90.+3). Pauline Bremer scheiterte anschließend mit dem Foulelfmeter.",
+    "Nach den üblichen Regeln folgt auf eine Rote Karte eine Spielsperre. Wie lang sie ausfällt, ist offen, eine offizielle Mitteilung von Verein oder DFB steht aus."
+   ],
+   "kickbase": "Bis das Urteil feststeht, bleibt Varley im Plan. Gut möglich, dass sie am nächsten Spieltag fehlt.",
+   "quellen": [
+    {
+     "name": "DFB",
+     "url": "https://www.dfb.de/news/carolin-elsen-laesst-koeln-in-nuernberg-jubeln"
+    }
+   ],
+   "foto": "fotos/fcn-leia-varley.webp",
+   "foto_credit": {
+    "autor": "1. FC Nürnberg",
+    "lizenz": "mit Genehmigung: 1. FC Nürnberg",
+    "url": "https://www.fcn.de/clubfrauen/spielerinnen/"
+   }
+  },
+  {
    "id": "comeback-marti-rbl-1511",
    "pid": "00218",
    "zeit": "2026-11-15T15:07",
@@ -1143,136 +1146,6 @@
     "stufe": "ohne"
    },
    "kurz": "Marti zurück im Kader"
-  },
-  {
-   "id": "varley-rot-1511",
-   "pid": "00307",
-   "zeit": "2026-11-15T17:00",
-   "spielerin": "Leia Varley",
-   "verein": "1. FC Nürnberg",
-   "nr": "2",
-   "pos": "ABW",
-   "tags": [
-    "SPERRE"
-   ],
-   "status": "fit",
-   "headline": "Varley sieht Rot, Sperre wahrscheinlich",
-   "kurz": "Varley sieht Rot, Sperre wahrscheinlich",
-   "text": [
-    "Nürnbergs Verteidigerin Leia Varley hat beim 0:1 gegen den 1. FC Köln wegen einer Notbremse die Rote Karte gesehen (90.+3). Pauline Bremer scheiterte anschließend mit dem Foulelfmeter.",
-    "Nach den üblichen Regeln folgt auf eine Rote Karte eine Spielsperre. Wie lang sie ausfällt, ist offen, eine offizielle Mitteilung von Verein oder DFB steht aus."
-   ],
-   "kickbase": "Bis das Urteil feststeht, bleibt Varley im Plan. Gut möglich, dass sie am nächsten Spieltag fehlt.",
-   "quellen": [
-    {
-     "name": "DFB",
-     "url": "https://www.dfb.de/news/carolin-elsen-laesst-koeln-in-nuernberg-jubeln"
-    }
-   ],
-   "foto": "fotos/fcn-leia-varley.webp",
-   "foto_credit": {
-    "autor": "1. FC Nürnberg",
-    "lizenz": "mit Genehmigung: 1. FC Nürnberg",
-    "url": "https://www.fcn.de/clubfrauen/spielerinnen/"
-   }
-  },
-  {
-   "id": "erstmals-stolze-koe-1511",
-   "pid": "00210",
-   "zeit": "2026-11-15T14:58",
-   "spielerin": "Anna-Lena Stolze",
-   "verein": "1. FC Köln",
-   "nr": "",
-   "pos": "ST",
-   "tags": [
-    "AUFSTELLUNG"
-   ],
-   "status": "fit",
-   "headline": "Stolze erstmals im Kader, aber ohne Einsatz",
-   "text": [
-    "Anna-Lena Stolze steht gegen 1. FC Nürnberg zum ersten Mal in dieser Saison im Spieltagskader des 1. FC Köln.",
-    "Gegen 1. FC Nürnberg saß sie die gesamte Spielzeit auf der Bank."
-   ],
-   "kickbase": "Neu im Spieltagskader. Für Kickbase vorerst nur eine Ergänzung.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306307/1-fc-nuernberg_1-fc-koeln/liveticker"
-    }
-   ],
-   "quelle_live": true,
-   "partie_id": "12306307",
-   "comeback": {
-    "art": "erstmals",
-    "stufe": "ohne"
-   }
-  },
-  {
-   "id": "erstmals-stenevik-koe-1511",
-   "pid": "00192",
-   "zeit": "2026-11-15T14:58",
-   "spielerin": "Elise Stenevik",
-   "verein": "1. FC Köln",
-   "nr": "",
-   "pos": "ABW",
-   "tags": [
-    "AUFSTELLUNG"
-   ],
-   "status": "fit",
-   "headline": "Stenevik erstmals im Kader, aber ohne Einsatz",
-   "text": [
-    "Elise Stenevik steht gegen 1. FC Nürnberg zum ersten Mal in dieser Saison im Spieltagskader des 1. FC Köln.",
-    "Gegen 1. FC Nürnberg saß sie die gesamte Spielzeit auf der Bank."
-   ],
-   "kickbase": "Neu im Spieltagskader. Für Kickbase vorerst nur eine Ergänzung.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306307/1-fc-nuernberg_1-fc-koeln/liveticker"
-    }
-   ],
-   "quelle_live": true,
-   "partie_id": "12306307",
-   "comeback": {
-    "art": "erstmals",
-    "stufe": "ohne"
-   }
-  },
-  {
-   "id": "erstmals-baumgartel-fcn-1511",
-   "pid": "00320",
-   "zeit": "2026-11-15T17:36",
-   "spielerin": "Jacqueline Baumgärtel",
-   "verein": "1. FC Nürnberg",
-   "nr": "",
-   "pos": "ST",
-   "tags": [
-    "AUFSTELLUNG"
-   ],
-   "status": "fit",
-   "headline": "Baumgärtel feiert Saisondebüt",
-   "text": [
-    "Jacqueline Baumgärtel steht gegen 1. FC Köln zum ersten Mal in dieser Saison im Spieltagskader des 1. FC Nürnberg.",
-    "Gegen 1. FC Köln kam sie in der 81. Minute ins Spiel. Insgesamt spielte sie rund 9 Minuten.",
-    "API-Football bewertet ihren Auftritt mit der Note 6,3 (durchwachsen)."
-   ],
-   "kickbase": "Erste Einsatzminuten der Saison. Für Kickbase vorerst eine Ergänzung, keine feste Größe.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306307/1-fc-nuernberg_1-fc-koeln/liveticker"
-    },
-    {
-     "name": "API-Football (Note)",
-     "url": "https://www.api-football.com"
-    }
-   ],
-   "quelle_live": true,
-   "partie_id": "12306307",
-   "comeback": {
-    "art": "erstmals",
-    "stufe": "einsatz"
-   }
   },
   {
    "id": "aufstellung-rbl-1511",
@@ -1607,6 +1480,68 @@
    "quelle_live": true
   },
   {
+   "id": "erstmals-stolze-koe-1511",
+   "pid": "00210",
+   "zeit": "2026-11-15T14:58",
+   "spielerin": "Anna-Lena Stolze",
+   "verein": "1. FC Köln",
+   "nr": "",
+   "pos": "ST",
+   "tags": [
+    "AUFSTELLUNG"
+   ],
+   "status": "fit",
+   "headline": "Stolze erstmals im Kader, aber ohne Einsatz",
+   "text": [
+    "Anna-Lena Stolze steht gegen 1. FC Nürnberg zum ersten Mal in dieser Saison im Spieltagskader des 1. FC Köln.",
+    "Gegen 1. FC Nürnberg saß sie die gesamte Spielzeit auf der Bank."
+   ],
+   "kickbase": "Neu im Spieltagskader. Für Kickbase vorerst nur eine Ergänzung.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306307/1-fc-nuernberg_1-fc-koeln/liveticker"
+    }
+   ],
+   "quelle_live": true,
+   "partie_id": "12306307",
+   "comeback": {
+    "art": "erstmals",
+    "stufe": "ohne"
+   }
+  },
+  {
+   "id": "erstmals-stenevik-koe-1511",
+   "pid": "00192",
+   "zeit": "2026-11-15T14:58",
+   "spielerin": "Elise Stenevik",
+   "verein": "1. FC Köln",
+   "nr": "",
+   "pos": "ABW",
+   "tags": [
+    "AUFSTELLUNG"
+   ],
+   "status": "fit",
+   "headline": "Stenevik erstmals im Kader, aber ohne Einsatz",
+   "text": [
+    "Elise Stenevik steht gegen 1. FC Nürnberg zum ersten Mal in dieser Saison im Spieltagskader des 1. FC Köln.",
+    "Gegen 1. FC Nürnberg saß sie die gesamte Spielzeit auf der Bank."
+   ],
+   "kickbase": "Neu im Spieltagskader. Für Kickbase vorerst nur eine Ergänzung.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306307/1-fc-nuernberg_1-fc-koeln/liveticker"
+    }
+   ],
+   "quelle_live": true,
+   "partie_id": "12306307",
+   "comeback": {
+    "art": "erstmals",
+    "stufe": "ohne"
+   }
+  },
+  {
    "id": "aufstellung-fcn-1511",
    "zeit": "2026-11-15T14:58",
    "spielerin": "Spielansetzung",
@@ -1891,6 +1826,53 @@
    "quelle_live": true
   },
   {
+   "id": "starke-1511",
+   "pid": "00236",
+   "zeit": "2026-11-15T14:30",
+   "spielerin": "Sandra Starke",
+   "verein": "RB Leipzig",
+   "nr": "",
+   "pos": "ST",
+   "tags": [
+    "TOP",
+    "VERLETZUNG"
+   ],
+   "status": "verletzt",
+   "headline": "Starke verletzt sich beim Aufwärmen, Achillessehnenriss",
+   "kurz": "Starke fällt mit Achillessehnenriss aus",
+   "text": [
+    "RB-Kapitänin Sandra Starke hat sich vor dem 1:5 gegen Eintracht Frankfurt beim Aufwärmen verletzt. Bei einer Passübung sackte sie zusammen und kam mit Verdacht auf eine Achillessehnenverletzung ins Krankenhaus.",
+    "Trainer Jonas Stephan sagte, es sehe nicht gut aus.",
+    "Update 11:39: RB Leipzig bestätigt den Riss der Achillessehne, auch der Kicker berichtet darüber. Zur genauen Ausfallzeit nennt der Bericht keine Angabe; ein Achillessehnenriss bedeutet in der Regel eine Pause von mehreren Monaten.",
+    "Update 12:10: Auch TAG24 berichtet darüber. Starke wurde nach Vereinsangaben bereits an der rechten Achillessehne operiert."
+   ],
+   "kickbase": "Starke fällt mit bestätigtem Achillessehnenriss langfristig aus und ist für die kommenden Spieltage nicht einzuplanen. Die Aufstellung ist ab dem Anpfiff des ersten Spiels des Spieltags gesperrt, daher zählt, was der Ausfall für Punkte und die Spieltage danach bedeutet.",
+   "quellen": [
+    {
+     "name": "RB Leipzig",
+     "url": "https://rbleipzig.com/de/news/personalupdate-sandra-starke-achillessehne-riss"
+    },
+    {
+     "name": "Kicker",
+     "url": "https://www.kicker.de/schock-fuer-leipzig-kapitaenin-starke-erleidet-achillessehnenriss-1272272/artikel"
+    },
+    {
+     "name": "RBLive (dpa/sid)",
+     "url": "https://rblive.de/frauen/herbe-rb-klatsche-gegen-frankfurt-kapitaenin-sandra-starke-verletzt-4357067"
+    },
+    {
+     "name": "TAG24",
+     "url": "https://www.tag24.de/sport/fussball/verein/rb-leipzig/rb-leipzig-blog-schocknachricht-fuer-kapitaenin-starke-3409194"
+    }
+   ],
+   "foto": "fotos/rbl-sandra-starke.webp",
+   "foto_credit": {
+    "autor": "RB Leipzig",
+    "lizenz": "mit Genehmigung: RB Leipzig",
+    "url": "https://rbleipzig.com/de/teams-frauen"
+   }
+  },
+  {
    "id": "endstand-wob-1411",
    "zeit": "2026-11-14T23:26",
    "spielerin": "VfL Wolfsburg gegen FC Bayern",
@@ -1925,188 +1907,6 @@
    "quelle_live": true,
    "partie_id": "12306313",
    "noten": true
-  },
-  {
-   "id": "aufstellung-fcu-1411",
-   "zeit": "2026-11-14T13:10",
-   "spielerin": "Spielansetzung",
-   "verein": "Union Berlin",
-   "nr": "",
-   "pos": "Spielansetzung",
-   "tags": [
-    "TOP"
-   ],
-   "headline": "Offizielle Aufstellung: Union Berlin gegen Werder Bremen",
-   "text": [],
-   "kickbase": "",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306292/werder-bremen_1-fc-union-berlin/aufstellung"
-    }
-   ],
-   "aufstellung": {
-    "gegner": "Werder Bremen",
-    "formation": "4-2-2-2",
-    "startelf": [
-     {
-      "n": "Böhi",
-      "p": "TW",
-      "pid": "00357"
-     },
-     {
-      "n": "Schneider",
-      "p": "ABW",
-      "pid": "00366"
-     },
-     {
-      "n": "Tysiak",
-      "p": "ABW",
-      "pid": "00369"
-     },
-     {
-      "n": "Steuerwald",
-      "p": "ABW",
-      "pid": "00368"
-     },
-     {
-      "n": "Veit",
-      "p": "ABW",
-      "pid": "00370",
-      "f": "neu"
-     },
-     {
-      "n": "Gräwe",
-      "p": "DM",
-      "pid": "00372",
-      "kp": "MF"
-     },
-     {
-      "n": "Hausicke",
-      "p": "DM",
-      "pid": "00373",
-      "kp": "MF"
-     },
-     {
-      "n": "Janssens",
-      "p": "OM",
-      "pid": "00363",
-      "kp": "ABW"
-     },
-     {
-      "n": "Judit Pujols",
-      "p": "OM",
-      "pid": "00364",
-      "kp": "ABW"
-     },
-     {
-      "n": "Bauereisen",
-      "p": "ST",
-      "pid": "00381"
-     },
-     {
-      "n": "Kamber",
-      "p": "ST",
-      "pid": "00376",
-      "kp": "MF"
-     }
-    ],
-    "bank": [
-     {
-      "n": "Bösl",
-      "p": "TW",
-      "pid": "00358"
-     },
-     {
-      "n": "Steinert",
-      "p": "ABW",
-      "pid": "00367"
-     },
-     {
-      "n": "Weiß",
-      "p": "ABW",
-      "pid": "00371"
-     },
-     {
-      "n": "Heiseler",
-      "p": "ST",
-      "pid": "00374"
-     },
-     {
-      "n": "Weidauer",
-      "p": "ST",
-      "pid": "00387"
-     },
-     {
-      "n": "Egli",
-      "p": "ST",
-      "pid": "00383"
-     },
-     {
-      "n": "Reissner",
-      "p": "ST",
-      "pid": "00386",
-      "f": "raus"
-     },
-     {
-      "n": "Campbell",
-      "p": "ST",
-      "pid": "00382"
-     },
-     {
-      "n": "Orschmann",
-      "p": "ST",
-      "pid": "00385"
-     }
-    ],
-    "fehlt": [
-     {
-      "n": "Schulz",
-      "p": "TW"
-     },
-     {
-      "n": "Smolarczyk",
-      "p": "TW"
-     },
-     {
-      "n": "Aehling",
-      "p": "ABW"
-     },
-     {
-      "n": "Heikkinen",
-      "p": "ABW"
-     },
-     {
-      "n": "Noack",
-      "p": "ABW"
-     },
-     {
-      "n": "Janež",
-      "p": "MF"
-     },
-     {
-      "n": "Laidler",
-      "p": "MF"
-     },
-     {
-      "n": "Pawollek",
-      "p": "MF"
-     },
-     {
-      "n": "Seifert",
-      "p": "MF"
-     },
-     {
-      "n": "Nkili",
-      "p": "ST"
-     },
-     {
-      "n": "Eurlings",
-      "p": "ST"
-     }
-    ]
-   },
-   "quelle_live": true
   },
   {
    "id": "aufstellung-wob-1411",
@@ -2465,6 +2265,42 @@
    "noten": true
   },
   {
+   "id": "comeback-sherif-svw-1411",
+   "pid": "00030",
+   "zeit": "2026-11-14T14:00",
+   "spielerin": "Mariella El Sherif",
+   "verein": "Werder Bremen",
+   "nr": "39",
+   "pos": "TW",
+   "tags": [
+    "RÜCKKEHR"
+   ],
+   "status": "fit",
+   "headline": "Sherif feiert Comeback nach Handverletzung",
+   "text": [
+    "Mariella El Sherif ist nach Handverletzung zurück im Spieltagskader von Werder Bremen.",
+    "Gegen Union Berlin stand sie in der Startelf und spielte durch. Insgesamt spielte sie 90 Minuten.",
+    "API-Football bewertet ihren Auftritt mit der Note 6,8 (ordentlich)."
+   ],
+   "kickbase": "Wieder einsatzbereit. Nach der Pause am nächsten Spieltag eher mit begrenzter Spielzeit rechnen, die Startelf ist noch offen.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306292/werder-bremen_1-fc-union-berlin/liveticker"
+    },
+    {
+     "name": "API-Football (Note)",
+     "url": "https://www.api-football.com"
+    }
+   ],
+   "quelle_live": true,
+   "partie_id": "12306292",
+   "comeback": {
+    "art": "comeback",
+    "stufe": "einsatz"
+   }
+  },
+  {
    "id": "endstand-tsg-1411",
    "zeit": "2026-11-14T13:55",
    "spielerin": "TSG Hoffenheim gegen SC Freiburg",
@@ -2502,40 +2338,186 @@
    "noten": true
   },
   {
-   "id": "comeback-sherif-svw-1411",
-   "pid": "00030",
-   "zeit": "2026-11-14T14:00",
-   "spielerin": "Mariella El Sherif",
-   "verein": "Werder Bremen",
-   "nr": "39",
-   "pos": "TW",
+   "id": "aufstellung-fcu-1411",
+   "zeit": "2026-11-14T13:10",
+   "spielerin": "Spielansetzung",
+   "verein": "Union Berlin",
+   "nr": "",
+   "pos": "Spielansetzung",
    "tags": [
-    "RÜCKKEHR"
+    "TOP"
    ],
-   "status": "fit",
-   "headline": "Sherif feiert Comeback nach Handverletzung",
-   "text": [
-    "Mariella El Sherif ist nach Handverletzung zurück im Spieltagskader von Werder Bremen.",
-    "Gegen Union Berlin stand sie in der Startelf und spielte durch. Insgesamt spielte sie 90 Minuten.",
-    "API-Football bewertet ihren Auftritt mit der Note 6,8 (ordentlich)."
-   ],
-   "kickbase": "Wieder einsatzbereit. Nach der Pause am nächsten Spieltag eher mit begrenzter Spielzeit rechnen, die Startelf ist noch offen.",
+   "headline": "Offizielle Aufstellung: Union Berlin gegen Werder Bremen",
+   "text": [],
+   "kickbase": "",
    "quellen": [
     {
      "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306292/werder-bremen_1-fc-union-berlin/liveticker"
-    },
-    {
-     "name": "API-Football (Note)",
-     "url": "https://www.api-football.com"
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306292/werder-bremen_1-fc-union-berlin/aufstellung"
     }
    ],
-   "quelle_live": true,
-   "partie_id": "12306292",
-   "comeback": {
-    "art": "comeback",
-    "stufe": "einsatz"
-   }
+   "aufstellung": {
+    "gegner": "Werder Bremen",
+    "formation": "4-2-2-2",
+    "startelf": [
+     {
+      "n": "Böhi",
+      "p": "TW",
+      "pid": "00357"
+     },
+     {
+      "n": "Schneider",
+      "p": "ABW",
+      "pid": "00366"
+     },
+     {
+      "n": "Tysiak",
+      "p": "ABW",
+      "pid": "00369"
+     },
+     {
+      "n": "Steuerwald",
+      "p": "ABW",
+      "pid": "00368"
+     },
+     {
+      "n": "Veit",
+      "p": "ABW",
+      "pid": "00370",
+      "f": "neu"
+     },
+     {
+      "n": "Gräwe",
+      "p": "DM",
+      "pid": "00372",
+      "kp": "MF"
+     },
+     {
+      "n": "Hausicke",
+      "p": "DM",
+      "pid": "00373",
+      "kp": "MF"
+     },
+     {
+      "n": "Janssens",
+      "p": "OM",
+      "pid": "00363",
+      "kp": "ABW"
+     },
+     {
+      "n": "Judit Pujols",
+      "p": "OM",
+      "pid": "00364",
+      "kp": "ABW"
+     },
+     {
+      "n": "Bauereisen",
+      "p": "ST",
+      "pid": "00381"
+     },
+     {
+      "n": "Kamber",
+      "p": "ST",
+      "pid": "00376",
+      "kp": "MF"
+     }
+    ],
+    "bank": [
+     {
+      "n": "Bösl",
+      "p": "TW",
+      "pid": "00358"
+     },
+     {
+      "n": "Steinert",
+      "p": "ABW",
+      "pid": "00367"
+     },
+     {
+      "n": "Weiß",
+      "p": "ABW",
+      "pid": "00371"
+     },
+     {
+      "n": "Heiseler",
+      "p": "ST",
+      "pid": "00374"
+     },
+     {
+      "n": "Weidauer",
+      "p": "ST",
+      "pid": "00387"
+     },
+     {
+      "n": "Egli",
+      "p": "ST",
+      "pid": "00383"
+     },
+     {
+      "n": "Reissner",
+      "p": "ST",
+      "pid": "00386",
+      "f": "raus"
+     },
+     {
+      "n": "Campbell",
+      "p": "ST",
+      "pid": "00382"
+     },
+     {
+      "n": "Orschmann",
+      "p": "ST",
+      "pid": "00385"
+     }
+    ],
+    "fehlt": [
+     {
+      "n": "Schulz",
+      "p": "TW"
+     },
+     {
+      "n": "Smolarczyk",
+      "p": "TW"
+     },
+     {
+      "n": "Aehling",
+      "p": "ABW"
+     },
+     {
+      "n": "Heikkinen",
+      "p": "ABW"
+     },
+     {
+      "n": "Noack",
+      "p": "ABW"
+     },
+     {
+      "n": "Janež",
+      "p": "MF"
+     },
+     {
+      "n": "Laidler",
+      "p": "MF"
+     },
+     {
+      "n": "Pawollek",
+      "p": "MF"
+     },
+     {
+      "n": "Seifert",
+      "p": "MF"
+     },
+     {
+      "n": "Nkili",
+      "p": "ST"
+     },
+     {
+      "n": "Eurlings",
+      "p": "ST"
+     }
+    ]
+   },
+   "quelle_live": true
   },
   {
    "id": "aufstellung-svw-1411",
