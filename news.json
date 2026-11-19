@@ -1,116 +1,6 @@
 {
- "stand": "2026-11-19T21:05",
+ "stand": "2026-11-19T19:45",
  "meldungen": [
-  {
-   "id": "fehlt-reimann-scf-0111",
-   "pid": "00085",
-   "zeit": "2026-11-01T14:08",
-   "spielerin": "Anna Reimann",
-   "verein": "SC Freiburg",
-   "nr": "",
-   "pos": "TW",
-   "tags": [
-    "AUFSTELLUNG",
-    "POKAL"
-   ],
-   "status": "fraglich",
-   "headline": "Reimann nicht im Kader gegen FC Carl Zeiss Jena",
-   "text": [
-    "Anna Reimann steht im DFB-Pokal gegen FC Carl Zeiss Jena weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
-    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
-   ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
-   "quellen": [
-    {
-     "name": "DFB-Datencenter",
-     "url": "https://datencenter.dfb.de/matches/sc-freiburg-fc-carl-zeiss-jena-2431333"
-    }
-   ],
-   "quelle_live": true,
-   "kurz": "Reimann nicht im Kader"
-  },
-  {
-   "id": "fehlt-viggosdottir-fcb-0111",
-   "pid": "00013",
-   "zeit": "2026-11-01T13:53",
-   "spielerin": "Glódís Viggósdóttir",
-   "verein": "FC Bayern",
-   "nr": "",
-   "pos": "ABW",
-   "tags": [
-    "AUFSTELLUNG",
-    "POKAL"
-   ],
-   "status": "fraglich",
-   "headline": "Viggósdóttir nicht im Kader gegen Bayer Leverkusen",
-   "text": [
-    "Glódís Viggósdóttir steht im DFB-Pokal gegen Bayer Leverkusen weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
-    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
-   ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165391/bayern-muenchen_bayer-leverkusen/aufstellung"
-    }
-   ],
-   "quelle_live": true,
-   "kurz": "Viggósdóttir nicht im Kader"
-  },
-  {
-   "id": "fehlt-bender-b04-0111",
-   "pid": "00257",
-   "zeit": "2026-11-01T13:53",
-   "spielerin": "Loreen Bender",
-   "verein": "Bayer Leverkusen",
-   "nr": "",
-   "pos": "ST",
-   "tags": [
-    "AUFSTELLUNG",
-    "POKAL"
-   ],
-   "status": "fraglich",
-   "headline": "Bender nicht im Kader gegen FC Bayern",
-   "text": [
-    "Loreen Bender steht im DFB-Pokal gegen FC Bayern weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 4-mal.",
-    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
-   ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165391/bayern-muenchen_bayer-leverkusen/aufstellung"
-    }
-   ],
-   "quelle_live": true
-  },
-  {
-   "id": "fehlt-altenburg-sge-0111",
-   "pid": "00056",
-   "zeit": "2026-11-01T13:12",
-   "spielerin": "Lina Altenburg",
-   "verein": "Eintracht Frankfurt",
-   "nr": "",
-   "pos": "TW",
-   "tags": [
-    "AUFSTELLUNG",
-    "POKAL"
-   ],
-   "status": "fraglich",
-   "headline": "Altenburg nicht im Kader gegen 1. FC Nürnberg",
-   "text": [
-    "Lina Altenburg steht im DFB-Pokal gegen 1. FC Nürnberg weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
-    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
-   ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
-   "quellen": [
-    {
-     "name": "DFB-Datencenter",
-     "url": "https://datencenter.dfb.de/matches/1-fc-nuernberg-eintracht-frankfurt-2431335"
-    }
-   ],
-   "quelle_live": true
-  },
   {
    "id": "fehlt-amani-fcb-1911",
    "pid": "00016",
@@ -123,19 +13,20 @@
     "AUFSTELLUNG"
    ],
    "status": "fraglich",
-   "headline": "Amani nicht im Kader gegen Austria Wien",
+   "headline": "4 Spielerinnen um Amani fehlen gegen Austria Wien",
    "text": [
-    "Bernadette Amani steht in der Champions League gegen Austria Wien weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 4-mal.",
+    "In der Champions League gegen Austria Wien stehen weder in der Startelf noch auf der Bank: Bernadette Amani (4 von 5 Ligaspielen in der Startelf), Katharina Naschenweng (3 von 5 Ligaspielen in der Startelf), Alara (3 von 5 Ligaspielen in der Startelf), Jovana Damnjanović (1 von 5 Ligaspielen in der Startelf).",
     "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
    ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
+   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie alle als fraglich und stufen sie in der Prognose herunter.",
    "quellen": [
     {
      "name": "Sportschau",
      "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/uefa-champions-league-frauen/ma12537093/austria-wien_bayern-muenchen/aufstellung"
     }
    ],
-   "quelle_live": true
+   "quelle_live": true,
+   "kurz": "4 Spielerinnen um Amani fehlen"
   },
   {
    "typ": "punkt",
@@ -227,32 +118,7 @@
      "warum": "Fehlte gegen Freiburg ohne genannten Grund im Kader, davor begann sie vier der letzten fünf Ligaspiele."
     }
    ],
-   "analyse_link": true,
-   "titel_basis": "Spieltag 11 auf den Punkt",
-   "updates": [],
-   "wackel": [
-    {
-     "k": "HSV",
-     "p": "ABW",
-     "a": "Peneau",
-     "b": "Mirzaliyeva",
-     "anstoss": "2026-11-21T12:00"
-    },
-    {
-     "k": "FCN",
-     "p": "ABW",
-     "a": "Pollak",
-     "b": "Fröhlich",
-     "anstoss": "2026-11-22T18:30"
-    },
-    {
-     "k": "FCB",
-     "p": "DM",
-     "a": "Alara",
-     "b": "Zadrazil",
-     "anstoss": "2026-11-23T18:00"
-    }
-   ]
+   "analyse_link": true
   },
   {
    "id": "aufstellung-cl-fcb-1911",
@@ -267,7 +133,7 @@
    "headline": "Offizielle Aufstellung: FC Bayern gegen Austria Wien",
    "text": [
     "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Amani, Ballisager, Damnjanović, Naschenweng.",
-    "Nicht im Spieltagskader (laut Sportschau), obwohl im letzten Ligaspiel dabei: Amani. Einen Grund nennt bisher keine Quelle."
+    "Nicht im Spieltagskader (laut Sportschau), obwohl im letzten Ligaspiel dabei: Naschenweng, Amani, Damnjanović, Alara. Einen Grund nennt bisher keine Quelle."
    ],
    "kickbase": "",
    "quellen": [
@@ -345,64 +211,72 @@
       "f": "neu"
      }
     ],
-    "bank": [
-     {
-      "n": "Klink",
-      "p": "TW",
-      "pid": "00002"
-     },
-     {
-      "n": "van Eijk",
-      "p": "TW",
-      "pid": "00004"
-     },
+    "bank": [],
+    "fehlt": [
      {
       "n": "Ballisager",
       "p": "ABW",
       "pid": "00005",
-      "f": "raus"
+      "f": "raus",
+      "war": "Startelf",
+      "i": "fraglich"
      },
      {
       "n": "Naschenweng",
       "p": "ABW",
       "pid": "00012",
-      "f": "raus"
+      "f": "raus",
+      "war": "Startelf"
      },
-     {
-      "n": "Mattner-Trembleau",
-      "p": "ABW",
-      "pid": "00027"
-     },
-     {
-      "n": "Alara",
-      "p": "MF",
-      "pid": "00015"
-     },
-     {
-      "n": "Dunst",
-      "p": "MF",
-      "pid": "00018"
-     },
-     {
-      "n": "Proost",
-      "p": "MF",
-      "pid": "00020"
-     },
-     {
-      "n": "Damnjanović",
-      "p": "ST",
-      "pid": "00024",
-      "f": "raus"
-     }
-    ],
-    "fehlt": [
      {
       "n": "Amani",
       "p": "MF",
       "pid": "00016",
       "f": "raus",
-      "war": "Startelf",
+      "war": "Startelf"
+     },
+     {
+      "n": "Damnjanović",
+      "p": "ST",
+      "pid": "00024",
+      "f": "raus",
+      "war": "Startelf"
+     },
+     {
+      "n": "Alara",
+      "p": "MF",
+      "pid": "00015",
+      "f": "raus",
+      "war": "Bank"
+     },
+     {
+      "n": "Mattner-Trembleau",
+      "p": "ABW",
+      "pid": "00027",
+      "f": "raus",
+      "war": "Bank"
+     },
+     {
+      "n": "Proost",
+      "p": "MF",
+      "pid": "00020",
+      "f": "raus",
+      "war": "Bank",
       "i": "fraglich"
+     },
+     {
+      "n": "van Eijk",
+      "p": "TW",
+      "pid": "00004",
+      "f": "raus",
+      "war": "Bank"
+     },
+     {
+      "n": "Dunst",
+      "p": "MF",
+      "pid": "00018",
+      "f": "raus",
+      "war": "Bank"
      }
     ],
     "wettbewerb": "Champions League"
