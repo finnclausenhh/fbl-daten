@@ -1,21 +1,18 @@
 {
  "meldungen": [
   {
-   "id": "aufstellung-folgt-ma12537093",
-   "zeit": "2026-11-19T17:25",
+   "id": "aufstellung-cl-fcb-1911",
+   "zeit": "2026-11-19T17:43",
    "spielerin": "Spielansetzung",
    "verein": "FC Bayern",
    "nr": "",
    "pos": "Spielansetzung",
    "tags": [
-    "AUFSTELLUNG",
     "EUROPAPOKAL"
    ],
-   "headline": "Aufstellung Austria Wien gegen FC Bayern folgt",
-   "kurz": "Aufstellung folgt, Anpfiff 18:45",
+   "headline": "Offizielle Aufstellung: FC Bayern gegen Austria Wien",
    "text": [
-    "Anpfiff in der Champions League ist um 18:45 Uhr. Die offizielle Aufstellung kommt meist rund 60 Minuten vorher, wir ergänzen sie hier automatisch, sobald sie veröffentlicht ist.",
-    "Für Pokal- und Europapokalspiele gibt es keine Prognose, die Aufstellung kommt hier automatisch."
+    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Amani, Ballisager, Damnjanović, Naschenweng. Die Bank folgt, sobald sie veröffentlicht ist."
    ],
    "kickbase": "",
    "quellen": [
@@ -24,9 +21,103 @@
      "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/uefa-champions-league-frauen/ma12537093/austria-wien_bayern-muenchen/aufstellung"
     }
    ],
-   "platzhalter": true,
-   "anstoss": "2026-11-19T18:45",
-   "wettbewerb": "Champions League"
+   "aufstellung": {
+    "gegner": "Austria Wien",
+    "formation": "4-2-3-1",
+    "startelf": [
+     {
+      "n": "Mahmutovic",
+      "p": "TW",
+      "pid": "00003"
+     },
+     {
+      "n": "Gwinn",
+      "p": "ABW",
+      "pid": "00009"
+     },
+     {
+      "n": "Viggósdóttir",
+      "p": "ABW",
+      "pid": "00013",
+      "f": "neu"
+     },
+     {
+      "n": "Eriksson",
+      "p": "ABW",
+      "pid": "00007"
+     },
+     {
+      "n": "Kett",
+      "p": "ABW",
+      "pid": "00011",
+      "f": "neu"
+     },
+     {
+      "n": "Tanikawa",
+      "p": "DM",
+      "pid": "00021",
+      "kp": "MF"
+     },
+     {
+      "n": "Zadrazil",
+      "p": "DM",
+      "pid": "00022",
+      "kp": "MF",
+      "f": "neu"
+     },
+     {
+      "n": "Dallmann",
+      "p": "OM",
+      "pid": "00017",
+      "kp": "MF"
+     },
+     {
+      "n": "Harder",
+      "p": "OM",
+      "pid": "00025",
+      "kp": "MF"
+     },
+     {
+      "n": "Bühl",
+      "p": "OM",
+      "pid": "00023",
+      "kp": "ST"
+     },
+     {
+      "n": "Imade",
+      "p": "ST",
+      "pid": "00026",
+      "f": "neu"
+     }
+    ],
+    "bank": [],
+    "fehlt": [],
+    "wettbewerb": "Champions League",
+    "bank_offen": true,
+    "nicht_startelf": [
+     {
+      "n": "Amani",
+      "p": "MF",
+      "pid": "00016"
+     },
+     {
+      "n": "Ballisager",
+      "p": "ABW",
+      "pid": "00005"
+     },
+     {
+      "n": "Damnjanović",
+      "p": "ST",
+      "pid": "00024"
+     },
+     {
+      "n": "Naschenweng",
+      "p": "ABW",
+      "pid": "00012"
+     }
+    ]
+   },
+   "quelle_live": true
   }
  ],
  "entfernt": [
@@ -58,7 +149,8 @@
   "aufstellung-folgt-ma12306307",
   "aufstellung-folgt-ma12306310",
   "erstmals-marti-rbl-1511",
-  "aufstellung-folgt-ma12306304"
+  "aufstellung-folgt-ma12306304",
+  "aufstellung-folgt-ma12537093"
  ],
  "ableitungen": [
   {
