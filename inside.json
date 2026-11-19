@@ -4810,6 +4810,9 @@
    ]
   }
  ],
- "punkt_hinweis": null,
+ "punkt_hinweis": {
+  "id": "punkt-md11",
+  "text": "Spieltag 11 in 60 Sekunden"
+ },
  "geprueft": "2026-11-17T07:48"
 }
