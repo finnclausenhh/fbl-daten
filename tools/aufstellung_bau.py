@@ -271,7 +271,9 @@ def main():
             t = team(slug, gs, a[st], a[bk], a.get(vg), kader, news, gr.get(sd))
             if wb:
                 t["wettbewerb"] = wb
-                if not a[bk]:  # Sportschau zeigt im Pokal keine Bank: nur Abweichungen zur letzten Liga-Startelf
+            # Bank erst ab 4 Namen als veröffentlicht werten, sonst fehlt nur die Info (Finn 19.11.2026, Bayern in Wien)
+            if True:
+                if len([x for x in (a[bk] or []) if x]) < 4:  # Sportschau zeigt im Pokal keine Bank: nur Abweichungen zur letzten Liga-Startelf
                     t["bank"] = []
                     t["fehlt"] = []  # ohne Bank nicht ablesbar; GitHub Action aufstellungen_live trägt die Bank nach Abpfiff nach
                     t["bank_offen"] = True

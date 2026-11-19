@@ -29,6 +29,8 @@ WETTBEWERBE = [("deutschland-bundesliga-frauen", None), ("deutschland-dfb-pokal-
 VORLAUF = 80
 LAUFZEIT = 13
 PRE = {"DFB-Pokal": "pokal-", "Champions League": "cl-", "Europa Cup": "ec-"}  # Id-Teil je Wettbewerb (Liga ohne)
+BANK_MIN = 4  # Finn 19.11.2026: unter 4 bekannten Bankspielerinnen ist die Bank nicht vollständig veröffentlicht (Bayern in Wien:
+#   Sportschau hatte nur die Austria-Bank, Alara und Ballisager galten als "fehlt" und wurden dann eingewechselt). Dann nie "fehlt" ableiten.
 EC_NACHLAUF = 150  # Europa Cup: DFB-Datencenter zeigt die Aufstellung teils erst nach Anpfiff (Frankfurt/PSV 11.11.2026), so lange weiter prüfen
 EUROPA_URL = {}  # ma -> DFB-Spielseite (Europa Cup kommt nur vom DFB-Datencenter, nicht von der Sportschau)
 
@@ -231,10 +233,18 @@ def europa_berichte(a, pn, pl, news, live, spielplan, kader, jetzt=None):
     return laufend
 
 
+def bank_bekannt(bank):
+    """Bank gilt erst ab BANK_MIN Namen als veröffentlicht; darunter fehlt nur die Info, nicht die Spielerinnen."""
+    return len([x for x in (bank or []) if x]) >= BANK_MIN
+
+
 def ableiten(verein, start, bank, zeit, gegner, wb, news, spielplan, quelle):
     """Fehlt ohne bekannten Grund (Finn 01.11.2026): stand im letzten Ligaspiel im Kader, jetzt weder Startelf noch Bank.
     Nur Stammspielerinnen (Finn 03.11.2026): zuletzt in der Startelf oder in mindestens der Hälfte der letzten Ligaspiele, sonst übergangen.
-    Spielerinnen mit bekanntem Status (verletzt, gesperrt, fraglich) laut news.json sind ausgenommen."""
+    Spielerinnen mit bekanntem Status (verletzt, gesperrt, fraglich) laut news.json sind ausgenommen.
+    Ohne vollständige Bank (weniger als BANK_MIN Namen) wird nichts abgeleitet (Finn 19.11.2026)."""
+    if not bank_bekannt(bank):
+        return []
     alt = letzte_liga(spielplan, verein, zeit) or {"start": [], "bank": []}
     jetzt_k = {nk(x) for x in start + bank}
     bekannt = {nk(k) for k in AB.infos(verein, [], news)}
@@ -307,8 +317,8 @@ def baue(wb, basis, ma, an, a, kader, news, spielplan, zeit):
             if f.get("f") == "raus":
                 f["war"] = "Startelf" if nk(f["n"]) in alt_s else "Bank"
         if True:
-            if not a[bk]:
-                # Bank noch nicht veröffentlicht (Pokal vor Anpfiff, auch Liga, wenn Sportschau und DFB nur die Startelf haben,
+            if not bank_bekannt(a[bk]):
+                # Bank noch nicht (oder nur teilweise, unter BANK_MIN) veröffentlicht (Pokal vor Anpfiff, auch Liga, wenn Sportschau und DFB nur die Startelf haben,
                 # Freiburg/Nürnberg 07.11.2026): niemand als "fehlt" führen, nur im Text nennen; die Bank wird nachgetragen
                 t["bank"] = []
                 t["fehlt"] = []
@@ -327,7 +337,7 @@ def baue(wb, basis, ma, an, a, kader, news, spielplan, zeit):
                     "quellen": ([] if a.get("nur_dfb") else [{"name": "Sportschau", "url": url}])
                                + ([{"name": "DFB-Datencenter", "url": a["dfb_url"]}] if a.get("dfb_url") else []),
                     "aufstellung": t, "quelle_live": True})
-        if a[bk]:
+        if bank_bekannt(a[bk]):
             abl = ableiten(verein, a[st], a[bk], an.strftime("%Y-%m-%dT%H:%M"), AB.SLUG.get(gs, gs), wb, news, spielplan,
                            a.get("dfb_url") or url)
             if abl:
@@ -636,10 +646,12 @@ def bank_nachtragen(a, pn, pl, news, live, spielplan, kader, grenze):
         if au.get("wettbewerb") == "Europa Cup":
             url = next((q["url"] for q in m["quellen"] if "dfb.de" in q["url"]), "")
             d = D.aufstellung_url(url)
-            if not d or not (d["bank_heim"] or d["bank_gast"]):
+            if not d:
                 continue
             quelle_name = "DFB-Datencenter"
             heim_ist = D.KENN.get(slug, slug) in D.slugify(d["heim_name"])
+            if not bank_bekannt(d["bank_heim"] if heim_ist else d["bank_gast"]):
+                continue
             auf = {"heim": slug if heim_ist else "gegner", "gast": "gegner" if heim_ist else slug, "beendet": False,
                    "startelf_heim": d["startelf_heim"], "startelf_gast": d["startelf_gast"],
                    "bank_heim": d["bank_heim"], "bank_gast": d["bank_gast"]}
@@ -653,13 +665,15 @@ def bank_nachtragen(a, pn, pl, news, live, spielplan, kader, grenze):
             except Exception:
                 auf = None
             quelle_name = "Sportschau"
-            if not auf or not (auf["bank_heim"] or auf["bank_gast"]):
+            eigen = "bank_heim" if AB.SLUG.get(mm.group(3)) == m["verein"] else "bank_gast"
+            # nur die eigene Bank zählt: die Gegner-Bank allein reicht nicht (Austria Wien gegen Bayern 19.11.2026)
+            if not auf or not bank_bekannt(auf.get(eigen)):
                 d = None
                 try:
                     d = D.aufstellung(mm.group(3), mm.group(4), au.get("wettbewerb"))
                 except Exception:
                     pass
-                if d and (d["bank_heim"] or d["bank_gast"]):
+                if d and bank_bekannt(d.get(eigen)):
                     auf = {"heim": mm.group(3), "gast": mm.group(4), "beendet": False, "startelf_heim": d["startelf_heim"],
                            "startelf_gast": d["startelf_gast"], "bank_heim": d["bank_heim"], "bank_gast": d["bank_gast"]}
                     quelle_name = "DFB-Datencenter"

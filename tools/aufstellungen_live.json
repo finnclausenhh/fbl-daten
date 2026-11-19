@@ -239,12 +239,12 @@
     "AUFSTELLUNG"
    ],
    "status": "fraglich",
-   "headline": "4 Spielerinnen um Amani fehlen gegen Austria Wien",
+   "headline": "Amani fehlt gegen Austria Wien",
    "text": [
-    "In der Champions League gegen Austria Wien stehen weder in der Startelf noch auf der Bank: Bernadette Amani (4 von 5 Ligaspielen in der Startelf), Katharina Naschenweng (3 von 5 Ligaspielen in der Startelf), Alara (3 von 5 Ligaspielen in der Startelf), Jovana Damnjanović (1 von 5 Ligaspielen in der Startelf).",
+    "In der Champions League gegen Austria Wien steht Bernadette Amani (4 von 5 Ligaspielen in der Startelf) weder in der Startelf noch auf der Bank.",
     "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
    ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie alle als fraglich und stufen sie in der Prognose herunter.",
+   "kickbase": "Ein Ausfall auch gegen Hoffenheim (23.11.) ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
    "quellen": [
     {
      "name": "Sportschau",
@@ -252,7 +252,7 @@
     }
    ],
    "quelle_live": true,
-   "kurz": "4 Spielerinnen um Amani fehlen"
+   "kurz": "Amani fehlt"
   },
   {
    "id": "aufstellung-cl-fcb-1911",
@@ -267,7 +267,7 @@
    "headline": "Offizielle Aufstellung: FC Bayern gegen Austria Wien",
    "text": [
     "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Amani, Ballisager, Damnjanović, Naschenweng.",
-    "Nicht im Spieltagskader (laut Sportschau), obwohl im letzten Ligaspiel dabei: Naschenweng, Amani, Damnjanović, Alara. Einen Grund nennt bisher keine Quelle."
+    "Nicht im Spieltagskader (laut Sportschau), obwohl im letzten Ligaspiel dabei: Amani. Einen Grund nennt bisher keine Quelle."
    ],
    "kickbase": "",
    "quellen": [
@@ -345,72 +345,64 @@
       "f": "neu"
      }
     ],
-    "bank": [],
-    "fehlt": [
+    "bank": [
+     {
+      "n": "Klink",
+      "p": "TW",
+      "pid": "00002"
+     },
+     {
+      "n": "van Eijk",
+      "p": "TW",
+      "pid": "00004"
+     },
      {
       "n": "Ballisager",
       "p": "ABW",
       "pid": "00005",
-      "f": "raus",
-      "war": "Startelf",
-      "i": "fraglich"
+      "f": "raus"
      },
      {
       "n": "Naschenweng",
       "p": "ABW",
       "pid": "00012",
-      "f": "raus",
-      "war": "Startelf"
+      "f": "raus"
      },
      {
-      "n": "Amani",
+      "n": "Mattner-Trembleau",
+      "p": "ABW",
+      "pid": "00027"
+     },
+     {
+      "n": "Alara",
       "p": "MF",
-      "pid": "00016",
-      "f": "raus",
-      "war": "Startelf"
+      "pid": "00015"
+     },
+     {
+      "n": "Dunst",
+      "p": "MF",
+      "pid": "00018"
+     },
+     {
+      "n": "Proost",
+      "p": "MF",
+      "pid": "00020"
      },
      {
       "n": "Damnjanović",
       "p": "ST",
       "pid": "00024",
-      "f": "raus",
-      "war": "Startelf"
-     },
+      "f": "raus"
+     }
+    ],
+    "fehlt": [
      {
-      "n": "Alara",
+      "n": "Amani",
       "p": "MF",
-      "pid": "00015",
+      "pid": "00016",
       "f": "raus",
-      "war": "Bank"
-     },
-     {
-      "n": "Mattner-Trembleau",
-      "p": "ABW",
-      "pid": "00027",
-      "f": "raus",
-      "war": "Bank"
-     },
-     {
-      "n": "Proost",
-      "p": "MF",
-      "pid": "00020",
-      "f": "raus",
-      "war": "Bank",
+      "war": "Startelf",
       "i": "fraglich"
-     },
-     {
-      "n": "van Eijk",
-      "p": "TW",
-      "pid": "00004",
-      "f": "raus",
-      "war": "Bank"
-     },
-     {
-      "n": "Dunst",
-      "p": "MF",
-      "pid": "00018",
-      "f": "raus",
-      "war": "Bank"
      }
     ],
     "wettbewerb": "Champions League"
@@ -583,19 +575,6 @@
   },
   {
    "verein": "FC Bayern",
-   "n": "Naschenweng",
-   "spielerin": "Katharina Naschenweng",
-   "war": "Startelf",
-   "zeit": "2026-11-19T17:44",
-   "gegner": "Austria Wien",
-   "wettbewerb": "Champions League",
-   "quelle": "https://www.sportschau.de/live-und-ergebnisse/fussball/uefa-champions-league-frauen/ma12537093/austria-wien_bayern-muenchen/aufstellung",
-   "delta": -1,
-   "bis": "2026-11-29",
-   "grund": "stand am 19.11. gegen Austria Wien nicht im Spieltagskader, obwohl im letzten Ligaspiel in der Startelf; Grund nicht bekannt"
-  },
-  {
-   "verein": "FC Bayern",
    "n": "Amani",
    "spielerin": "Bernadette Amani",
    "war": "Startelf",
@@ -606,32 +585,6 @@
    "delta": -1,
    "bis": "2026-11-29",
    "grund": "stand am 19.11. gegen Austria Wien nicht im Spieltagskader, obwohl im letzten Ligaspiel in der Startelf; Grund nicht bekannt"
-  },
-  {
-   "verein": "FC Bayern",
-   "n": "Damnjanović",
-   "spielerin": "Jovana Damnjanović",
-   "war": "Startelf",
-   "zeit": "2026-11-19T17:44",
-   "gegner": "Austria Wien",
-   "wettbewerb": "Champions League",
-   "quelle": "https://www.sportschau.de/live-und-ergebnisse/fussball/uefa-champions-league-frauen/ma12537093/austria-wien_bayern-muenchen/aufstellung",
-   "delta": -1,
-   "bis": "2026-11-29",
-   "grund": "stand am 19.11. gegen Austria Wien nicht im Spieltagskader, obwohl im letzten Ligaspiel in der Startelf; Grund nicht bekannt"
-  },
-  {
-   "verein": "FC Bayern",
-   "n": "Alara",
-   "spielerin": "Alara",
-   "war": "Bank",
-   "zeit": "2026-11-19T17:44",
-   "gegner": "Austria Wien",
-   "wettbewerb": "Champions League",
-   "quelle": "https://www.sportschau.de/live-und-ergebnisse/fussball/uefa-champions-league-frauen/ma12537093/austria-wien_bayern-muenchen/aufstellung",
-   "delta": -1,
-   "bis": "2026-11-29",
-   "grund": "stand am 19.11. gegen Austria Wien nicht im Spieltagskader, obwohl im letzten Ligaspiel auf der Bank; Grund nicht bekannt"
   }
  ]
 }
