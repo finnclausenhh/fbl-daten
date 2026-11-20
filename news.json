@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-20T11:51",
+ "stand": "2026-11-20T12:49",
  "meldungen": [
   {
    "id": "fehlt-reimann-scf-0111",
@@ -110,6 +110,38 @@
     }
    ],
    "quelle_live": true
+  },
+  {
+   "id": "rankin-2011",
+   "pid": "00067",
+   "zeit": "2026-11-20T12:09",
+   "spielerin": "Jamilla Rankin",
+   "verein": "Eintracht Frankfurt",
+   "nr": "",
+   "pos": "ABW",
+   "tags": [
+    "VERLETZUNG"
+   ],
+   "status": "verletzt",
+   "headline": "Rankin fällt monatelang aus",
+   "kurz": "Rankin fällt mit Sprunggelenk monatelang aus",
+   "text": [
+    "Eintracht Frankfurt meldet, dass sich Abwehrspielerin Jamilla Rankin eine Verletzung im linken Sprunggelenk zugezogen hat. Die 23-Jährige wird der Eintracht in den kommenden Monaten fehlen.",
+    "Einen genauen Zeitpunkt für die Rückkehr nennt der Verein nicht."
+   ],
+   "kickbase": "Rankin war zuletzt Einwechselspielerin und stand in den letzten Wochen nicht in der Startelf. Für die Aufstellung spielt sie über Monate keine Rolle.",
+   "quellen": [
+    {
+     "name": "Eintracht Frankfurt",
+     "url": "https://frauen.eintracht.de/news/ausfall-jamilla-rankin-180519/"
+    }
+   ],
+   "foto": "fotos/sge-jamilla-rankin.webp",
+   "foto_credit": {
+    "autor": "Eintracht Frankfurt",
+    "lizenz": "mit Genehmigung: Eintracht Frankfurt",
+    "url": "https://frauen.eintracht.de/kader/"
+   }
   },
   {
    "id": "tanikawa-2011",
