@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-20T12:49",
+ "stand": "2026-11-20T12:51",
  "meldungen": [
   {
    "id": "rankin-2011",
@@ -313,7 +313,7 @@
    "md": 11,
    "zeit": "2026-11-19T19:02",
    "lebt_bis": "2026-11-20T18:30",
-   "headline": "Spieltag 11 auf den Punkt · Update 10:09",
+   "headline": "Spieltag 11 auf den Punkt · Update 12:09",
    "sicher": [
     {
      "n": "Ella Peddemors",
@@ -405,6 +405,13 @@
    "titel_basis": "Spieltag 11 auf den Punkt",
    "updates": [
     {
+     "zeit": "2026-11-20T12:09",
+     "k": "SGE",
+     "text": "Rankin fällt mit Sprunggelenk monatelang aus",
+     "art": "meldung",
+     "id": "rankin-2011"
+    },
+    {
      "zeit": "2026-11-20T10:09",
      "k": "VFB",
      "text": "Stegemann wieder in der Aufbelastung",
@@ -434,7 +441,7 @@
      "anstoss": "2026-11-22T18:30"
     }
    ],
-   "aktualisiert": "2026-11-20T10:09"
+   "aktualisiert": "2026-11-20T12:09"
   },
   {
    "id": "aufstellung-cl-fcb-1911",
