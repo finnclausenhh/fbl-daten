@@ -1,31 +1,11 @@
 {
- "datum": "2026-11-16",
+ "datum": "2026-11-20",
  "spiele": {
-  "12306304": {
-   "spiel": "VFB-B04",
+  "12306319": {
+   "spiel": "FCU-B04",
    "0:0": {
-    "sportschau": "18:04:42",
-    "apifootball": "18:04:42"
-   },
-   "0:1": {
-    "apifootball": "18:20:28",
-    "sportschau": "18:21:17"
-   },
-   "1:1": {
-    "apifootball": "19:02:18",
-    "sportschau": "19:03:07"
-   },
-   "1:2": {
-    "apifootball": "19:14:57",
-    "sportschau": "19:15:46"
-   },
-   "2:2": {
-    "apifootball": "19:42:37",
-    "sportschau": "19:44:14"
-   },
-   "2:3": {
-    "apifootball": "19:48:15",
-    "sportschau": "19:49:03"
+    "sportschau": "18:34:55",
+    "apifootball": "18:34:55"
    }
   }
  }
