@@ -1,13 +1,13 @@
 {
- "stand": "2026-11-19T01:24",
+ "stand": "2026-11-20T01:01",
  "umfragen": {
   "fcb-tor-md9": {
    "stimmen": {
-    "van-eijk": 1,
+    "van-eijk": 0,
     "klink": 0,
     "andere": 0
    },
-   "gesamt": 1
+   "gesamt": 0
   },
   "wob-sturm-md9": {
    "stimmen": {
