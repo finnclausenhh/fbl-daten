@@ -111,7 +111,7 @@
    ],
    "headline": "Offizielle Aufstellung: Bayer Leverkusen gegen Union Berlin",
    "text": [
-    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Wenger. Die Bank folgt, sobald sie veröffentlicht ist."
+    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Wenger."
    ],
    "kickbase": "",
    "quellen": [
@@ -185,14 +185,61 @@
       "pid": "00260"
      }
     ],
-    "bank": [],
-    "fehlt": [],
-    "bank_offen": true,
-    "nicht_startelf": [
+    "bank": [
+     {
+      "n": "Voll",
+      "p": "TW",
+      "pid": "00240"
+     },
+     {
+      "n": "Brandau",
+      "p": "ABW",
+      "pid": "00241"
+     },
      {
       "n": "Wenger",
       "p": "MF",
-      "pid": "00250"
+      "pid": "00250",
+      "f": "raus"
+     },
+     {
+      "n": "Platner",
+      "p": "MF",
+      "pid": "00254"
+     },
+     {
+      "n": "Misini",
+      "p": "MF",
+      "pid": "00252"
+     },
+     {
+      "n": "Fudalla",
+      "p": "ST",
+      "pid": "00258"
+     },
+     {
+      "n": "Kehrer",
+      "p": "ST",
+      "pid": "00259"
+     },
+     {
+      "n": "Loonen",
+      "p": "ST",
+      "pid": "00262"
+     },
+     {
+      "n": "Tomasiak",
+      "p": "ST",
+      "pid": "00266"
+     }
+    ],
+    "fehlt": [
+     {
+      "n": "Wallrabenstein",
+      "p": "ABW",
+      "pid": "00249",
+      "f": "raus",
+      "war": "Bank"
      }
     ]
    },
