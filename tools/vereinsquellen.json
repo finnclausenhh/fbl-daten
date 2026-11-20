@@ -220,15 +220,5 @@
   "datum": "RSS <pubDate>",
   "getestet": "27.10.2026: Abruf ok, in ruhigen Wochen 0 bis 10 Treffer",
   "hinweis": "Französische Medien (z. B. Footeuses) zu den Französinnen bei Wolfsburg, Leipzig und Nürnberg. Quellen mit Namen 'International' oder 'Medien' gelten in fbl_fetch.py nicht als Vereinsquelle: ohne Kadernamen im Titel wird nichts übernommen. Fremdsprachige Auszüge werden in der Meldung auf Deutsch zusammengefasst."
- },
- {
-  "verein": "International (JA)",
-  "typ": "googlenews",
-  "url": "https://news.google.com/rss/search?q=%22%E8%B0%B7%E5%B7%9D%E8%90%8C%E3%80%85%E5%AD%90%22+OR+%22%E5%B3%B6%E7%94%B0%E8%8A%BD%E4%BE%9D%22+OR+%22%E6%9D%BE%E6%9C%AC%E7%9C%9F%E6%9C%AA%E5%AD%90%22+OR+%22%E6%A9%8B%E8%B0%B7%E5%84%AA%E9%87%8C%22+OR+%22%E4%BB%8A%E4%BA%95%E8%A3%95%E9%87%8C%E5%A5%88%22+OR+%22%E6%A0%97%E5%B3%B6%E6%9C%B1%E9%87%8C%22+OR+%22%E6%BB%9D%E6%BE%A4%E8%8E%89%E5%A4%AE%22+OR+%22%E5%B9%B3%E9%87%8E%E5%84%AA%E8%8A%B1%22+OR+%22%E5%A4%A7%E6%BE%A4%E6%98%A5%E8%8A%B1%22+when%3A3d&hl=ja&gl=JP&ceid=JP%3Aja",
-  "filter": "",
-  "link_regex": "",
-  "datum": "RSS <pubDate>",
-  "getestet": "27.10.2026: Tanikawa über 100 Treffer pro Jahr, Matsumoto-Verletzung (Innenband) war dort zuerst",
-  "hinweis": "Japanische Medien zu den neun Japanerinnen (Bayern, Mainz, VfB, Werder). Abgleich über die Spalte kanji in engine/kader.csv (Schreibweisen mit | getrennt). Viel Boulevard (roter Teppich, Outfits), das verwirft der Lauf. Keine Vereinsquelle: ohne Kadernamen im Titel wird nichts übernommen. Auszug japanisch, Meldung auf Deutsch."
  }
 ]
