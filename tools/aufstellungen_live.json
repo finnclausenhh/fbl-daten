@@ -2,7 +2,7 @@
  "meldungen": [
   {
    "id": "endstand-fcu-2011",
-   "zeit": "2026-11-20T20:23",
+   "zeit": "2026-11-20T20:29",
    "spielerin": "Union Berlin gegen Bayer Leverkusen",
    "verein": "Union Berlin",
    "nr": "",
@@ -10,23 +10,32 @@
    "tags": [
     "SPIELBERICHT"
    ],
-   "headline": "Endstand: Union Berlin 0:3 Bayer Leverkusen",
-   "kurz": "Endstand FCU 0:3 B04",
+   "headline": "Bayer Leverkusen gewinnt 3:0 bei Union Berlin, Sternad, Müller und Mädl treffen",
+   "kurz": "Leverkusen siegt 3:0 in Union",
    "text": [
     "Bayer Leverkusen gewinnt bei Union Berlin mit 3:0.",
     "Tore: 0:1 Sternad (9., Vorlage Kramer), 0:2 Müller (11., Vorlage Sternad), 0:3 Mädl (60.).",
     "Gelb: Hausicke.",
-    "Noten und der ausführliche Bericht folgen."
+    "Beste Note im Spiel: Sternad (8,5).",
+    "Statistik (Union Berlin zuerst): Torschüsse 9:15 (aufs Tor 5:7), Ballbesitz 44:56 %, Expected Goals 0,92:1,09, Ecken 5:10.",
+    "Beste Noten Union Berlin: Böhi 6,5, Bauereisen 6,5, Gräwe 6,4.",
+    "Beste Noten Bayer Leverkusen: Sternad 8,5, Borggräfe 8,2, Mädl 8,2.",
+    "Schwächste Note in der Startelf: Janssens (5,2)."
    ],
-   "kickbase": "",
+   "kickbase": "Herausragend: Sternad (8,5), Borggräfe (8,2), Mädl (8,2). Bei Union Berlin kam niemand über 6,5.",
    "quellen": [
     {
      "name": "Sportschau",
      "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306319/1-fc-union-berlin_bayer-leverkusen/liveticker"
+    },
+    {
+     "name": "API-Football (Noten, Statistik)",
+     "url": "https://www.api-football.com"
     }
    ],
    "quelle_live": true,
-   "partie_id": "12306319"
+   "partie_id": "12306319",
+   "noten": true
   },
   {
    "id": "fehlt-reimann-scf-0111",
