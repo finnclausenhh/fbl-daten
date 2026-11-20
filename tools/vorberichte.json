@@ -88,6 +88,21 @@
     "zeit": "2026-11-20T07:33",
     "titel": "Gegen wind und wetter hsv frauen bereit fuer frankfurt",
     "url": "https://www.hsv.de/news/gegen-wind-und-wetter-hsv-frauen-bereit-fuer-frankfurt"
+   },
+   "VFB": {
+    "zeit": "2026-11-20T15:19",
+    "titel": "Matchfacts: SC Freiburg – VfB-Frauen",
+    "url": "https://www.vfb.de/de/vfb/aktuell/neues/vfb-frauen/26-27/matchfacts--sc-freiburg-----vfb-frauen/"
+   },
+   "TSG": {
+    "zeit": "2026-11-20T15:42",
+    "titel": "Virsinger vor #FCBTSG: „Wir müssen mit Überzeugung ins Spiel gehen“",
+    "url": "https://www.tsg-hoffenheim.de/aktuelles/news/2026/11/virsinger-vor-fcbtsg-wir-muessen-mit-ueberzeugung-ins-spiel-gehen"
+   },
+   "FCN": {
+    "zeit": "2026-11-20T00:00",
+    "titel": "Vorbericht: Zu Gast im Schatten des Doms",
+    "url": "https://www.fcn.de/news/artikel/vorbericht-zu-gast-im-schatten-des-doms/"
    }
   }
  },
@@ -138,6 +153,11 @@
     "md": 10,
     "tage_vorher": 2,
     "uhr": null
+   },
+   {
+    "md": 11,
+    "tage_vorher": 2,
+    "uhr": null
    }
   ],
   "B04": [
@@ -174,6 +194,11 @@
     "md": 10,
     "tage_vorher": 3,
     "uhr": "13:22"
+   },
+   {
+    "md": 11,
+    "tage_vorher": 2,
+    "uhr": "15:19"
    }
   ],
   "SCF": [
@@ -188,6 +213,11 @@
     "md": 10,
     "tage_vorher": 2,
     "uhr": "17:14"
+   },
+   {
+    "md": 11,
+    "tage_vorher": 3,
+    "uhr": "15:42"
    }
   ],
   "FCU": [
@@ -236,5 +266,5 @@
    }
   ]
  },
- "stand": "2026-11-20T13:32"
+ "stand": "2026-11-20T16:30"
 }
