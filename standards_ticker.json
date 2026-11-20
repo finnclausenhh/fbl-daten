@@ -1,5 +1,5 @@
 {
-"spiele": 70,
+"spiele": 71,
 "teams": {
 "FCB": [
 {
@@ -231,7 +231,7 @@
 {
 "k": "FCU",
 "n": "Samantha Steuerwald",
-"kopf": 1,
+"kopf": 2,
 "std_kopf": 0,
 "std_tore": 0,
 "ecke_tritt": 0,
@@ -239,6 +239,22 @@
 "std_kopftore": 0,
 "ecke_l": 0,
 "ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
+},
+{
+"k": "FCU",
+"n": "Tomke Schneider",
+"kopf": 1,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0,
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 1,
 "fs_l": 0,
 "fs_r": 0,
 "fs_direkt": 0,
@@ -310,22 +326,6 @@
 },
 {
 "k": "FCU",
-"n": "Tomke Schneider",
-"kopf": 0,
-"std_kopf": 0,
-"std_tore": 0,
-"ecke_tritt": 0,
-"fs_tritt": 0,
-"std_kopftore": 0,
-"ecke_l": 0,
-"ecke_r": 1,
-"fs_l": 0,
-"fs_r": 0,
-"fs_direkt": 0,
-"fs_flanke": 0
-},
-{
-"k": "FCU",
 "n": "Judit Pujols",
 "kopf": 0,
 "std_kopf": 0,
@@ -339,6 +339,22 @@
 "fs_r": 0,
 "fs_direkt": 0,
 "fs_flanke": 1
+},
+{
+"k": "FCU",
+"n": "Jill Janssens",
+"kopf": 0,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 1,
+"fs_tritt": 0,
+"std_kopftore": 0,
+"ecke_l": 1,
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 }
 ],
 "KOE": [
@@ -1229,6 +1245,22 @@
 },
 {
 "k": "B04",
+"n": "Estrella Merino",
+"kopf": 1,
+"std_kopf": 1,
+"std_tore": 0,
+"ecke_tritt": 1,
+"fs_tritt": 0,
+"std_kopftore": 0,
+"ecke_l": 2,
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
+},
+{
+"k": "B04",
 "n": "Valentina Mädl",
 "kopf": 1,
 "std_kopf": 1,
@@ -1248,6 +1280,22 @@
 "n": "Paulina Platner",
 "kopf": 1,
 "std_kopf": 1,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0,
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
+},
+{
+"k": "B04",
+"n": "Maja Sternad",
+"kopf": 3,
+"std_kopf": 0,
 "std_tore": 0,
 "ecke_tritt": 0,
 "fs_tritt": 0,
@@ -1312,22 +1360,6 @@
 },
 {
 "k": "B04",
-"n": "Maja Sternad",
-"kopf": 2,
-"std_kopf": 0,
-"std_tore": 0,
-"ecke_tritt": 0,
-"fs_tritt": 0,
-"std_kopftore": 0,
-"ecke_l": 0,
-"ecke_r": 0,
-"fs_l": 0,
-"fs_r": 0,
-"fs_direkt": 0,
-"fs_flanke": 0
-},
-{
-"k": "B04",
 "n": "Cornelia Kramer",
 "kopf": 1,
 "std_kopf": 0,
@@ -1373,22 +1405,6 @@
 "fs_r": 0,
 "fs_direkt": 0,
 "fs_flanke": 1
-},
-{
-"k": "B04",
-"n": "Estrella Merino",
-"kopf": 0,
-"std_kopf": 0,
-"std_tore": 0,
-"ecke_tritt": 1,
-"fs_tritt": 0,
-"std_kopftore": 0,
-"ecke_l": 2,
-"ecke_r": 0,
-"fs_l": 0,
-"fs_r": 0,
-"fs_direkt": 0,
-"fs_flanke": 0
 },
 {
 "k": "B04",
