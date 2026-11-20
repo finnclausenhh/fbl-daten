@@ -1,6 +1,34 @@
 {
  "meldungen": [
   {
+   "id": "endstand-fcu-2011",
+   "zeit": "2026-11-20T20:23",
+   "spielerin": "Union Berlin gegen Bayer Leverkusen",
+   "verein": "Union Berlin",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "SPIELBERICHT"
+   ],
+   "headline": "Endstand: Union Berlin 0:3 Bayer Leverkusen",
+   "kurz": "Endstand FCU 0:3 B04",
+   "text": [
+    "Bayer Leverkusen gewinnt bei Union Berlin mit 3:0.",
+    "Tore: 0:1 Sternad (9., Vorlage Kramer), 0:2 Müller (11., Vorlage Sternad), 0:3 Mädl (60.).",
+    "Gelb: Hausicke.",
+    "Noten und der ausführliche Bericht folgen."
+   ],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306319/1-fc-union-berlin_bayer-leverkusen/liveticker"
+    }
+   ],
+   "quelle_live": true,
+   "partie_id": "12306319"
+  },
+  {
    "id": "fehlt-reimann-scf-0111",
    "pid": "00085",
    "zeit": "2026-11-01T14:08",
