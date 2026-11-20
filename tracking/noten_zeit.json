@@ -176,5 +176,18 @@
   "noten_da": "2026-11-16T19:52",
   "minuten_nach_abpfiff": 4,
   "bau_gestartet": "2026-11-16T19:52"
+ },
+ "12306319": {
+  "spiel": "FCU-B04",
+  "anstoss": "2026-11-20T18:30",
+  "abpfiff_ca": "2026-11-20T20:22",
+  "fixture": 1593183,
+  "af_status": "FT",
+  "erste_pruefung": "2026-11-20T20:23",
+  "noten_zuletzt": 40,
+  "letzte_pruefung": "2026-11-20T20:23",
+  "noten_da": "2026-11-20T20:23",
+  "minuten_nach_abpfiff": 1,
+  "bau_gestartet": "2026-11-20T20:23"
  }
 }
