@@ -67,6 +67,28 @@
     "titel": "Vorbericht: Mit Rückenwind gegen den Effzeh",
     "url": "https://www.fcn.de/news/artikel/vorbericht-mit-rueckenwind-gegen-den-effzeh/"
    }
+  },
+  "11": {
+   "SGE": {
+    "zeit": "2026-11-19T16:00",
+    "titel": "Hamburg zu Gast",
+    "url": "https://frauen.eintracht.de/news/hamburg-zu-gast-180503"
+   },
+   "SVW": {
+    "zeit": "2026-11-19T09:00",
+    "titel": "Fanhinweise zum Ligaspiel der WERDERFRAUEN beim 1. FC Köln",
+    "url": "https://www.werder.de/news/frauen/2026-2027/fanhinweise-1-fc-koeln-19112026"
+   },
+   "FCU": {
+    "zeit": "2026-11-18T17:30",
+    "titel": "Unionerinnen wollen Leverkusen erstmals Punkte abnehmen",
+    "url": "https://www.fc-union-berlin.de/de/meldungen/unionerinnen-wollen-leverkusen-erstmals-punkte-abnehmen-YBE0xO"
+   },
+   "HSV": {
+    "zeit": "2026-11-20T07:33",
+    "titel": "Gegen wind und wetter hsv frauen bereit fuer frankfurt",
+    "url": "https://www.hsv.de/news/gegen-wind-und-wetter-hsv-frauen-bereit-fuer-frankfurt"
+   }
   }
  },
  "verlauf": {
@@ -87,6 +109,11 @@
     "md": 9,
     "tage_vorher": 1,
     "uhr": "16:05"
+   },
+   {
+    "md": 11,
+    "tage_vorher": 2,
+    "uhr": "09:00"
    }
   ],
   "RBL": [
@@ -168,6 +195,11 @@
     "md": 10,
     "tage_vorher": 1,
     "uhr": "09:00"
+   },
+   {
+    "md": 11,
+    "tage_vorher": 2,
+    "uhr": "17:30"
    }
   ],
   "KOE": [
@@ -182,6 +214,11 @@
     "md": 10,
     "tage_vorher": 2,
     "uhr": "16:00"
+   },
+   {
+    "md": 11,
+    "tage_vorher": 2,
+    "uhr": "16:00"
    }
   ],
   "WOB": [
@@ -190,7 +227,14 @@
     "tage_vorher": 1,
     "uhr": null
    }
+  ],
+  "HSV": [
+   {
+    "md": 11,
+    "tage_vorher": 1,
+    "uhr": null
+   }
   ]
  },
- "stand": "2026-11-16T22:25"
+ "stand": "2026-11-20T07:33"
 }

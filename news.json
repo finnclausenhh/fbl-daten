@@ -1,115 +1,56 @@
 {
- "stand": "2026-11-19T23:51",
+ "stand": "2026-11-20T07:33",
  "meldungen": [
   {
-   "id": "fehlt-reimann-scf-0111",
-   "pid": "00085",
-   "zeit": "2026-11-01T14:08",
-   "spielerin": "Anna Reimann",
-   "verein": "SC Freiburg",
+   "id": "pk-md11",
+   "zeit": "2026-11-20T07:33",
+   "spielerin": "Pressekonferenzen",
+   "verein": "",
    "nr": "",
-   "pos": "TW",
+   "pos": "11. Spieltag",
+   "symbol": "pk",
    "tags": [
-    "AUFSTELLUNG",
-    "POKAL"
+    "UPDATE"
    ],
-   "status": "fraglich",
-   "headline": "Reimann nicht im Kader gegen FC Carl Zeiss Jena",
+   "headline": "Vor dem 11. Spieltag: Pressekonferenzen, Vorberichte und späte Updates",
+   "kurz": "11. Spieltag: wer wann spricht, wer wann berichtet (4 von 14 Vorberichten da)",
    "text": [
-    "Anna Reimann steht im DFB-Pokal gegen FC Carl Zeiss Jena weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
-    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
+    "Vor dem 11. Spieltag geben nur wenige Vereine eine Pressekonferenz. Was dort zum Personal gesagt wird, ist oft die letzte Info vor der offiziellen Aufstellung.",
+    "FC Bayern (gegen TSG Hoffenheim, Mo 23.11., 18:00 Uhr): Vor solchen Spielen gibt es üblicherweise eine Pressekonferenz mit Trainer José Barcala, meist am Vortag (So 22.11.). Einen Termin hat der Verein noch nicht genannt, danach FC Bayern TV, Aussagen meist auch auf fcbayern.com.",
+    "Keine Pressekonferenz vor dem Spiel bekannt: Union Berlin, Bayer Leverkusen, Eintracht Frankfurt, Hamburger SV, 1. FC Köln, Werder Bremen, SC Freiburg, VfB Stuttgart, RB Leipzig, VfL Wolfsburg, Mainz 05, 1. FC Nürnberg, TSG Hoffenheim. Dort steht das Personal meist im Vorbericht des Vereins, siehe unten.",
+    "Wann die Vereine ihre Vorberichte bringen (die Links stehen unten bei den Quellen):",
+    "Union Berlin gegen Bayer Leverkusen (Fr 20.11., 18:30 Uhr): Union Berlin seit Mi 18.11., 17:30 Uhr: „Unionerinnen wollen Leverkusen erstmals Punkte abnehmen“; Bayer Leverkusen noch nicht da, meist am Vortag.",
+    "Eintracht Frankfurt gegen Hamburger SV (Sa 21.11., 12:00 Uhr): Eintracht Frankfurt seit Do 19.11., 16:00 Uhr: „Hamburg zu Gast“; Hamburger SV seit Fr 20.11., 07:33 Uhr: „Gegen wind und wetter hsv frauen bereit fuer frankfurt“.",
+    "1. FC Köln gegen Werder Bremen (Sa 21.11., 14:00 Uhr): 1. FC Köln noch nicht da, zuletzt zwei Tage vorher, gegen 12 Uhr; Werder Bremen seit Do 19.11., 09:00 Uhr: „Fanhinweise zum Ligaspiel der WERDERFRAUEN beim 1. FC Köln“.",
+    "SC Freiburg gegen VfB Stuttgart (So 22.11., 14:00 Uhr): SC Freiburg noch nicht da, zuletzt zwei Tage vorher; VfB Stuttgart noch nicht da, meist zwei Tage vorher, gegen 14 Uhr.",
+    "RB Leipzig gegen VfL Wolfsburg (So 22.11., 16:00 Uhr): RB Leipzig noch nicht da, meist drei Tage vorher, gegen 15 Uhr; VfL Wolfsburg noch nicht da, zuletzt am Vortag.",
+    "Mainz 05 gegen 1. FC Nürnberg (So 22.11., 18:30 Uhr): Mainz 05 noch nicht da, meist zwei Tage vorher; 1. FC Nürnberg noch nicht da, meist am Vortag.",
+    "FC Bayern gegen TSG Hoffenheim (Mo 23.11., 18:00 Uhr): FC Bayern noch nicht da, meist am Vortag, gegen 17 Uhr; TSG Hoffenheim noch nicht da, zuletzt zwei Tage vorher, gegen 17 Uhr.",
+    "Die offiziellen Aufstellungen kommen etwa eine Stunde vor Anpfiff, wir melden sie automatisch. Bis dahin sind Last-Minute-Änderungen möglich, gerade bei Vereinen, die unter der Woche im Europapokal gespielt haben."
    ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
+   "kickbase": "Aufstellung erst nach den Pressekonferenzen festzurren (FC Bayern). Bei allen anderen ist die offizielle Aufstellung vor Anpfiff die erste sichere Info.",
    "quellen": [
     {
-     "name": "DFB-Datencenter",
-     "url": "https://datencenter.dfb.de/matches/sc-freiburg-fc-carl-zeiss-jena-2431333"
-    }
-   ],
-   "quelle_live": true,
-   "kurz": "Reimann nicht im Kader"
-  },
-  {
-   "id": "fehlt-viggosdottir-fcb-0111",
-   "pid": "00013",
-   "zeit": "2026-11-01T13:53",
-   "spielerin": "Glódís Viggósdóttir",
-   "verein": "FC Bayern",
-   "nr": "",
-   "pos": "ABW",
-   "tags": [
-    "AUFSTELLUNG",
-    "POKAL"
-   ],
-   "status": "fraglich",
-   "headline": "Viggósdóttir nicht im Kader gegen Bayer Leverkusen",
-   "text": [
-    "Glódís Viggósdóttir steht im DFB-Pokal gegen Bayer Leverkusen weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
-    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
-   ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
-   "quellen": [
+     "name": "Vorbericht Union Berlin",
+     "url": "https://www.fc-union-berlin.de/de/meldungen/unionerinnen-wollen-leverkusen-erstmals-punkte-abnehmen-YBE0xO"
+    },
     {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165391/bayern-muenchen_bayer-leverkusen/aufstellung"
-    }
-   ],
-   "quelle_live": true,
-   "kurz": "Viggósdóttir nicht im Kader"
-  },
-  {
-   "id": "fehlt-bender-b04-0111",
-   "pid": "00257",
-   "zeit": "2026-11-01T13:53",
-   "spielerin": "Loreen Bender",
-   "verein": "Bayer Leverkusen",
-   "nr": "",
-   "pos": "ST",
-   "tags": [
-    "AUFSTELLUNG",
-    "POKAL"
-   ],
-   "status": "fraglich",
-   "headline": "Bender nicht im Kader gegen FC Bayern",
-   "text": [
-    "Loreen Bender steht im DFB-Pokal gegen FC Bayern weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 4-mal.",
-    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
-   ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
-   "quellen": [
+     "name": "Vorbericht Eintracht Frankfurt",
+     "url": "https://frauen.eintracht.de/news/hamburg-zu-gast-180503"
+    },
     {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165391/bayern-muenchen_bayer-leverkusen/aufstellung"
-    }
-   ],
-   "quelle_live": true
-  },
-  {
-   "id": "fehlt-altenburg-sge-0111",
-   "pid": "00056",
-   "zeit": "2026-11-01T13:12",
-   "spielerin": "Lina Altenburg",
-   "verein": "Eintracht Frankfurt",
-   "nr": "",
-   "pos": "TW",
-   "tags": [
-    "AUFSTELLUNG",
-    "POKAL"
-   ],
-   "status": "fraglich",
-   "headline": "Altenburg nicht im Kader gegen 1. FC Nürnberg",
-   "text": [
-    "Lina Altenburg steht im DFB-Pokal gegen 1. FC Nürnberg weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
-    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
-   ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
-   "quellen": [
+     "name": "Vorbericht Hamburger SV",
+     "url": "https://www.hsv.de/news/gegen-wind-und-wetter-hsv-frauen-bereit-fuer-frankfurt"
+    },
     {
-     "name": "DFB-Datencenter",
-     "url": "https://datencenter.dfb.de/matches/1-fc-nuernberg-eintracht-frankfurt-2431335"
+     "name": "Vorbericht Werder Bremen",
+     "url": "https://www.werder.de/news/frauen/2026-2027/fanhinweise-1-fc-koeln-19112026"
+    },
+    {
+     "name": "FC Bayern Frauen",
+     "url": "https://fcbayern.com/frauen/de"
     }
-   ],
-   "quelle_live": true
+   ]
   },
   {
    "id": "endstand-cl-fcb-1911",
@@ -295,32 +236,6 @@
    ]
   },
   {
-   "id": "fehlt-amani-fcb-1911",
-   "pid": "00016",
-   "zeit": "2026-11-19T17:44",
-   "spielerin": "Bernadette Amani",
-   "verein": "FC Bayern",
-   "nr": "",
-   "pos": "MF",
-   "tags": [
-    "AUFSTELLUNG"
-   ],
-   "status": "fraglich",
-   "headline": "Amani nicht im Kader gegen Austria Wien",
-   "text": [
-    "Bernadette Amani steht in der Champions League gegen Austria Wien weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 4-mal.",
-    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
-   ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/uefa-champions-league-frauen/ma12537093/austria-wien_bayern-muenchen/aufstellung"
-    }
-   ],
-   "quelle_live": true
-  },
-  {
    "typ": "punkt",
    "id": "punkt-md11",
    "md": 11,
@@ -437,6 +352,32 @@
     }
    ],
    "aktualisiert": "2026-11-19T22:45"
+  },
+  {
+   "id": "fehlt-amani-fcb-1911",
+   "pid": "00016",
+   "zeit": "2026-11-19T17:44",
+   "spielerin": "Bernadette Amani",
+   "verein": "FC Bayern",
+   "nr": "",
+   "pos": "MF",
+   "tags": [
+    "AUFSTELLUNG"
+   ],
+   "status": "fraglich",
+   "headline": "Amani nicht im Kader gegen Austria Wien",
+   "text": [
+    "Bernadette Amani steht in der Champions League gegen Austria Wien weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 4-mal.",
+    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
+   ],
+   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/uefa-champions-league-frauen/ma12537093/austria-wien_bayern-muenchen/aufstellung"
+    }
+   ],
+   "quelle_live": true
   },
   {
    "id": "aufstellung-cl-fcb-1911",
@@ -8686,6 +8627,116 @@
     "lizenz": "CC BY-SA 4.0",
     "url": "https://commons.wikimedia.org/wiki/File:2023-07-03_Fussball,_Frauen,_Deutsche_Nationalmannschaft,_Media_Day_1DX_6563_by_Stepro-2.jpg"
    }
+  },
+  {
+   "id": "fehlt-reimann-scf-0111",
+   "pid": "00085",
+   "zeit": "2026-11-01T14:08",
+   "spielerin": "Anna Reimann",
+   "verein": "SC Freiburg",
+   "nr": "",
+   "pos": "TW",
+   "tags": [
+    "AUFSTELLUNG",
+    "POKAL"
+   ],
+   "status": "fraglich",
+   "headline": "Reimann nicht im Kader gegen FC Carl Zeiss Jena",
+   "text": [
+    "Anna Reimann steht im DFB-Pokal gegen FC Carl Zeiss Jena weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
+    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
+   ],
+   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
+   "quellen": [
+    {
+     "name": "DFB-Datencenter",
+     "url": "https://datencenter.dfb.de/matches/sc-freiburg-fc-carl-zeiss-jena-2431333"
+    }
+   ],
+   "quelle_live": true,
+   "kurz": "Reimann nicht im Kader"
+  },
+  {
+   "id": "fehlt-viggosdottir-fcb-0111",
+   "pid": "00013",
+   "zeit": "2026-11-01T13:53",
+   "spielerin": "Glódís Viggósdóttir",
+   "verein": "FC Bayern",
+   "nr": "",
+   "pos": "ABW",
+   "tags": [
+    "AUFSTELLUNG",
+    "POKAL"
+   ],
+   "status": "fraglich",
+   "headline": "Viggósdóttir nicht im Kader gegen Bayer Leverkusen",
+   "text": [
+    "Glódís Viggósdóttir steht im DFB-Pokal gegen Bayer Leverkusen weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
+    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
+   ],
+   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165391/bayern-muenchen_bayer-leverkusen/aufstellung"
+    }
+   ],
+   "quelle_live": true,
+   "kurz": "Viggósdóttir nicht im Kader"
+  },
+  {
+   "id": "fehlt-bender-b04-0111",
+   "pid": "00257",
+   "zeit": "2026-11-01T13:53",
+   "spielerin": "Loreen Bender",
+   "verein": "Bayer Leverkusen",
+   "nr": "",
+   "pos": "ST",
+   "tags": [
+    "AUFSTELLUNG",
+    "POKAL"
+   ],
+   "status": "fraglich",
+   "headline": "Bender nicht im Kader gegen FC Bayern",
+   "text": [
+    "Loreen Bender steht im DFB-Pokal gegen FC Bayern weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 4-mal.",
+    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
+   ],
+   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165391/bayern-muenchen_bayer-leverkusen/aufstellung"
+    }
+   ],
+   "quelle_live": true
+  },
+  {
+   "id": "fehlt-altenburg-sge-0111",
+   "pid": "00056",
+   "zeit": "2026-11-01T13:12",
+   "spielerin": "Lina Altenburg",
+   "verein": "Eintracht Frankfurt",
+   "nr": "",
+   "pos": "TW",
+   "tags": [
+    "AUFSTELLUNG",
+    "POKAL"
+   ],
+   "status": "fraglich",
+   "headline": "Altenburg nicht im Kader gegen 1. FC Nürnberg",
+   "text": [
+    "Lina Altenburg steht im DFB-Pokal gegen 1. FC Nürnberg weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
+    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
+   ],
+   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
+   "quellen": [
+    {
+     "name": "DFB-Datencenter",
+     "url": "https://datencenter.dfb.de/matches/1-fc-nuernberg-eintracht-frankfurt-2431335"
+    }
+   ],
+   "quelle_live": true
   }
  ]
 }
