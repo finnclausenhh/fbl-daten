@@ -1,21 +1,19 @@
 {
- "stand": "2026-11-20T17:10",
+ "stand": "2026-11-20T17:37",
  "meldungen": [
   {
-   "id": "aufstellung-folgt-ma12306319",
-   "zeit": "2026-11-20T17:10",
+   "id": "aufstellung-fcu-2011",
+   "zeit": "2026-11-20T17:37",
    "spielerin": "Spielansetzung",
    "verein": "Union Berlin",
    "nr": "",
    "pos": "Spielansetzung",
    "tags": [
-    "AUFSTELLUNG"
+    "TOP"
    ],
-   "headline": "Aufstellung Union Berlin gegen Bayer Leverkusen folgt",
-   "kurz": "Aufstellung folgt, Anpfiff 18:30",
+   "headline": "Offizielle Aufstellung: Union Berlin gegen Bayer Leverkusen",
    "text": [
-    "Anpfiff in der Liga ist um 18:30 Uhr. Die offizielle Aufstellung kommt meist rund 60 Minuten vorher, wir ergänzen sie hier automatisch, sobald sie veröffentlicht ist.",
-    "Bis dahin steht unsere Prognose im Spielplan bei der Partie."
+    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Veit. Die Bank folgt, sobald sie veröffentlicht ist."
    ],
    "kickbase": "",
    "quellen": [
@@ -24,9 +22,182 @@
      "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306319/1-fc-union-berlin_bayer-leverkusen/aufstellung"
     }
    ],
-   "platzhalter": true,
-   "anstoss": "2026-11-20T18:30",
-   "partie_id": "12306319"
+   "aufstellung": {
+    "gegner": "Bayer Leverkusen",
+    "formation": "4-2-2-2",
+    "startelf": [
+     {
+      "n": "Böhi",
+      "p": "TW",
+      "pid": "00357"
+     },
+     {
+      "n": "Schneider",
+      "p": "ABW",
+      "pid": "00366"
+     },
+     {
+      "n": "Tysiak",
+      "p": "ABW",
+      "pid": "00369"
+     },
+     {
+      "n": "Steuerwald",
+      "p": "ABW",
+      "pid": "00368"
+     },
+     {
+      "n": "Judit Pujols",
+      "p": "ABW",
+      "pid": "00364"
+     },
+     {
+      "n": "Gräwe",
+      "p": "DM",
+      "pid": "00372",
+      "kp": "MF"
+     },
+     {
+      "n": "Hausicke",
+      "p": "DM",
+      "pid": "00373",
+      "kp": "MF"
+     },
+     {
+      "n": "Janssens",
+      "p": "OM",
+      "pid": "00363",
+      "kp": "ABW"
+     },
+     {
+      "n": "Kamber",
+      "p": "OM",
+      "pid": "00376",
+      "kp": "MF"
+     },
+     {
+      "n": "Campbell",
+      "p": "ST",
+      "pid": "00382",
+      "f": "neu"
+     },
+     {
+      "n": "Bauereisen",
+      "p": "ST",
+      "pid": "00381"
+     }
+    ],
+    "bank": [],
+    "fehlt": [],
+    "bank_offen": true,
+    "nicht_startelf": [
+     {
+      "n": "Veit",
+      "p": "ABW",
+      "pid": "00370"
+     }
+    ]
+   },
+   "quelle_live": true
+  },
+  {
+   "id": "aufstellung-b04-2011",
+   "zeit": "2026-11-20T17:37",
+   "spielerin": "Spielansetzung",
+   "verein": "Bayer Leverkusen",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "TOP"
+   ],
+   "headline": "Offizielle Aufstellung: Bayer Leverkusen gegen Union Berlin",
+   "text": [
+    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Wenger. Die Bank folgt, sobald sie veröffentlicht ist."
+   ],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306319/1-fc-union-berlin_bayer-leverkusen/aufstellung"
+    }
+   ],
+   "aufstellung": {
+    "gegner": "Union Berlin",
+    "formation": "4-2-2-2",
+    "startelf": [
+     {
+      "n": "Borggräfe",
+      "p": "TW",
+      "pid": "00238"
+     },
+     {
+      "n": "Merino",
+      "p": "ABW",
+      "pid": "00245"
+     },
+     {
+      "n": "Turányi",
+      "p": "ABW",
+      "pid": "00248"
+     },
+     {
+      "n": "Ostermeier",
+      "p": "ABW",
+      "pid": "00246"
+     },
+     {
+      "n": "Simon",
+      "p": "ABW",
+      "pid": "00247"
+     },
+     {
+      "n": "Mädl",
+      "p": "DM",
+      "pid": "00263",
+      "kp": "ST",
+      "f": "neu"
+     },
+     {
+      "n": "Zdebel",
+      "p": "DM",
+      "pid": "00256",
+      "kp": "MF"
+     },
+     {
+      "n": "Bender",
+      "p": "OM",
+      "pid": "00257",
+      "kp": "ST"
+     },
+     {
+      "n": "Müller",
+      "p": "OM",
+      "pid": "00253",
+      "kp": "MF"
+     },
+     {
+      "n": "Sternad",
+      "p": "ST",
+      "pid": "00265"
+     },
+     {
+      "n": "Kramer",
+      "p": "ST",
+      "pid": "00260"
+     }
+    ],
+    "bank": [],
+    "fehlt": [],
+    "bank_offen": true,
+    "nicht_startelf": [
+     {
+      "n": "Wenger",
+      "p": "MF",
+      "pid": "00250"
+     }
+    ]
+   },
+   "quelle_live": true
   },
   {
    "id": "fehlt-reimann-scf-0111",
