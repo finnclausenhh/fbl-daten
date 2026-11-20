@@ -12,7 +12,7 @@
    ],
    "headline": "Offizielle Aufstellung: Union Berlin gegen Bayer Leverkusen",
    "text": [
-    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Veit. Die Bank folgt, sobald sie veröffentlicht ist."
+    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Veit."
    ],
    "kickbase": "",
    "quellen": [
@@ -86,14 +86,61 @@
       "pid": "00381"
      }
     ],
-    "bank": [],
-    "fehlt": [],
-    "bank_offen": true,
-    "nicht_startelf": [
+    "bank": [
+     {
+      "n": "Bösl",
+      "p": "TW",
+      "pid": "00358"
+     },
      {
       "n": "Veit",
       "p": "ABW",
-      "pid": "00370"
+      "pid": "00370",
+      "f": "raus"
+     },
+     {
+      "n": "Weiß",
+      "p": "ABW",
+      "pid": "00371"
+     },
+     {
+      "n": "Pawollek",
+      "p": "MF",
+      "pid": "00378"
+     },
+     {
+      "n": "Heiseler",
+      "p": "ST",
+      "pid": "00374"
+     },
+     {
+      "n": "Weidauer",
+      "p": "ST",
+      "pid": "00387"
+     },
+     {
+      "n": "Egli",
+      "p": "ST",
+      "pid": "00383"
+     },
+     {
+      "n": "Reissner",
+      "p": "ST",
+      "pid": "00386"
+     },
+     {
+      "n": "Orschmann",
+      "p": "ST",
+      "pid": "00385"
+     }
+    ],
+    "fehlt": [
+     {
+      "n": "Steinert",
+      "p": "ABW",
+      "pid": "00367",
+      "f": "raus",
+      "war": "Bank"
      }
     ]
    },
