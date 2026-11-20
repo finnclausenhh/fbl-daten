@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-20T15:45",
+ "stand": "2026-11-20T15:46",
  "meldungen": [
   {
    "id": "fehlt-altenburg-sge-0111",
@@ -466,7 +466,7 @@
    "md": 11,
    "zeit": "2026-11-19T19:02",
    "lebt_bis": "2026-11-20T18:30",
-   "headline": "Spieltag 11 auf den Punkt · Update 12:09",
+   "headline": "Spieltag 11 auf den Punkt · Update 15:18",
    "sicher": [
     {
      "n": "Ella Peddemors",
@@ -558,6 +558,13 @@
    "titel_basis": "Spieltag 11 auf den Punkt",
    "updates": [
     {
+     "zeit": "2026-11-20T15:18",
+     "k": "WOB",
+     "text": "Lattwein fehlt in Leipzig suspendiert",
+     "art": "meldung",
+     "id": "lattwein-2011"
+    },
+    {
      "zeit": "2026-11-20T12:09",
      "k": "SGE",
      "text": "Rankin fällt mit Sprunggelenk monatelang aus",
@@ -594,7 +601,7 @@
      "anstoss": "2026-11-22T18:30"
     }
    ],
-   "aktualisiert": "2026-11-20T12:09"
+   "aktualisiert": "2026-11-20T15:18"
   },
   {
    "id": "aufstellung-cl-fcb-1911",
