@@ -113,6 +113,11 @@
     "zeit": "2026-11-20T00:00",
     "titel": "05-Frauen vor Nürnberg: Mit Intensität zum Erfolg",
     "url": "https://www.mainz05.de/news/vorbericht-frauen-nurnberg-2627"
+   },
+   "KOE": {
+    "zeit": "2026-11-21T12:03",
+    "titel": "Startelf der FC-Frauen gegen Bremen",
+    "url": "https://fc.de/aktuelles/news/startelf-der-fc-frauen-gegen-bremen"
    }
   }
  },
@@ -257,6 +262,11 @@
     "md": 10,
     "tage_vorher": 2,
     "uhr": "12:00"
+   },
+   {
+    "md": 11,
+    "tage_vorher": 0,
+    "uhr": "12:03"
    }
   ],
   "SGE": [
@@ -286,5 +296,5 @@
    }
   ]
  },
- "stand": "2026-11-21T10:22"
+ "stand": "2026-11-21T13:21"
 }
