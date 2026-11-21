@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-21T14:51",
+ "stand": "2026-11-21T15:44",
  "meldungen": [
   {
    "id": "fehlt-reimann-scf-0111",
@@ -1747,6 +1747,161 @@
    ],
    "aktualisiert": "2026-11-20T17:37",
    "fertig": true
+  },
+  {
+   "id": "aufstellung-cl-fcb-1911",
+   "zeit": "2026-11-19T17:44",
+   "spielerin": "Spielansetzung",
+   "verein": "FC Bayern",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "EUROPAPOKAL"
+   ],
+   "headline": "Offizielle Aufstellung: FC Bayern gegen Austria Wien",
+   "text": [
+    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Amani, Ballisager, Damnjanović, Naschenweng.",
+    "Nicht im Spieltagskader (laut Sportschau), obwohl im letzten Ligaspiel dabei: Amani. Einen Grund nennt bisher keine Quelle."
+   ],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/uefa-champions-league-frauen/ma12537093/austria-wien_bayern-muenchen/aufstellung"
+    }
+   ],
+   "aufstellung": {
+    "gegner": "Austria Wien",
+    "formation": "4-2-3-1",
+    "startelf": [
+     {
+      "n": "Mahmutovic",
+      "p": "TW",
+      "pid": "00003"
+     },
+     {
+      "n": "Gwinn",
+      "p": "ABW",
+      "pid": "00009"
+     },
+     {
+      "n": "Viggósdóttir",
+      "p": "ABW",
+      "pid": "00013",
+      "f": "neu"
+     },
+     {
+      "n": "Eriksson",
+      "p": "ABW",
+      "pid": "00007"
+     },
+     {
+      "n": "Kett",
+      "p": "ABW",
+      "pid": "00011",
+      "f": "neu"
+     },
+     {
+      "n": "Tanikawa",
+      "p": "DM",
+      "pid": "00021",
+      "kp": "MF"
+     },
+     {
+      "n": "Zadrazil",
+      "p": "DM",
+      "pid": "00022",
+      "kp": "MF",
+      "f": "neu"
+     },
+     {
+      "n": "Dallmann",
+      "p": "OM",
+      "pid": "00017",
+      "kp": "MF"
+     },
+     {
+      "n": "Harder",
+      "p": "OM",
+      "pid": "00025",
+      "kp": "MF"
+     },
+     {
+      "n": "Bühl",
+      "p": "OM",
+      "pid": "00023",
+      "kp": "ST"
+     },
+     {
+      "n": "Imade",
+      "p": "ST",
+      "pid": "00026",
+      "f": "neu"
+     }
+    ],
+    "bank": [
+     {
+      "n": "Klink",
+      "p": "TW",
+      "pid": "00002"
+     },
+     {
+      "n": "van Eijk",
+      "p": "TW",
+      "pid": "00004"
+     },
+     {
+      "n": "Ballisager",
+      "p": "ABW",
+      "pid": "00005",
+      "f": "raus"
+     },
+     {
+      "n": "Naschenweng",
+      "p": "ABW",
+      "pid": "00012",
+      "f": "raus"
+     },
+     {
+      "n": "Mattner-Trembleau",
+      "p": "ABW",
+      "pid": "00027"
+     },
+     {
+      "n": "Alara",
+      "p": "MF",
+      "pid": "00015"
+     },
+     {
+      "n": "Dunst",
+      "p": "MF",
+      "pid": "00018"
+     },
+     {
+      "n": "Proost",
+      "p": "MF",
+      "pid": "00020"
+     },
+     {
+      "n": "Damnjanović",
+      "p": "ST",
+      "pid": "00024",
+      "f": "raus"
+     }
+    ],
+    "fehlt": [
+     {
+      "n": "Amani",
+      "p": "MF",
+      "pid": "00016",
+      "f": "raus",
+      "war": "Startelf",
+      "i": "fraglich"
+     }
+    ],
+    "wettbewerb": "Champions League"
+   },
+   "quelle_live": true
   },
   {
    "id": "aufstellung-cl-fcb-1911",
