@@ -1,0 +1,17 @@
+{
+ "datum": "2026-11-21",
+ "spiele": [
+  1593178
+ ],
+ "erstmals": {
+  "1593178": {
+   "spiel": "Eintracht Frankfurt W - Hamburger SV W",
+   "anstoss": "2026-11-21T11:00:00+00:00",
+   "aufstellung_gesehen": "2026-11-21T10:31+00:00",
+   "minuten_vor_anpfiff": 29,
+   "mit_bank": true
+  }
+ },
+ "ohne_aufstellung_bis_anpfiff": [],
+ "abfragen": 17
+}
