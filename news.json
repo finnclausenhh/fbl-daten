@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-21T07:51",
+ "stand": "2026-11-21T08:44",
  "meldungen": [
   {
    "id": "fehlt-reimann-scf-0111",
@@ -753,6 +753,304 @@
     "lizenz": "mit Genehmigung: Eintracht Frankfurt",
     "url": "https://frauen.eintracht.de/kader/"
    }
+  },
+  {
+   "typ": "punkt",
+   "id": "punkt-md11",
+   "md": 11,
+   "zeit": "2026-11-19T19:02",
+   "lebt_bis": "2026-11-20T18:30",
+   "headline": "Spieltag 11 auf den Punkt · Update 15:18",
+   "sicher": [
+    {
+     "n": "Ella Peddemors",
+     "k": "WOB",
+     "warum": "Alle zehn Ligaspiele über 90 Minuten, 11 Tore, dazu Ecken und Freistöße, und Leipzig kassiert 2,2 Tore pro Spiel."
+    },
+    {
+     "n": "Fany Proniez",
+     "k": "FCN",
+     "warum": "Seit Spieltag 8 dreimal in der Startelf und drei Tore, Mainz kassiert 3,6 Tore pro Spiel und spielt nach der Trennung von Trainer Yamashita mit Interimstrainern."
+    },
+    {
+     "n": "Cornelia Kramer",
+     "k": "B04",
+     "warum": "Zehnmal in der Startelf, nie unter 78 Minuten, 5 Ligatore und erste Wahl beim Elfmeter, Union kassiert 1,9 Tore pro Spiel."
+    },
+    {
+     "n": "Svea Stoldt",
+     "k": "HSV",
+     "warum": "Alle zehn Ligaspiele über 90 Minuten, gegen Mainz trat sie alle drei Hamburger Ecken und traf per Freistoß, in Frankfurt (1,1 Gegentore pro Spiel) wird es schwerer."
+    }
+   ],
+   "finger_weg": [
+    {
+     "n": "Sandra Starke",
+     "k": "RBL",
+     "warum": "Riss der Achillessehne beim Aufwärmen gegen Frankfurt, RB Leipzig bestätigt die Verletzung, sie wurde bereits operiert."
+    },
+    {
+     "n": "Leia Varley",
+     "k": "FCN",
+     "warum": "Rote Karte wegen Notbremse gegen Köln, eine Sperre ist wahrscheinlich, die offizielle Mitteilung zur Länge steht aus."
+    },
+    {
+     "n": "Vanessa Gilles",
+     "k": "FCB",
+     "warum": "Fällt laut Kicker und SPORT1 mit einer Muskelverletzung mehrere Wochen aus."
+    },
+    {
+     "n": "Sana Coşkun",
+     "k": "B04",
+     "warum": "Fehlt Leverkusen in Berlin laut Verein weiter mit einer Muskel-Sehnen-Verletzung."
+    }
+   ],
+   "tipp": [
+    {
+     "n": "Camilla Linberg",
+     "k": "HSV",
+     "warum": "Bis Spieltag 7 ohne Ligaminute, seitdem dreimal in der Startelf und drei Tore, das 1:0 gegen Mainz köpfte sie nach Stoldts Ecke."
+    },
+    {
+     "n": "Carlotta Imping",
+     "k": "KOE",
+     "warum": "Vor Spieltag 8 nur 36 Ligaminuten, seitdem 81, 90 und 90 Minuten in einer Kölner Elf, die dreimal unverändert blieb, Köln holte zu Hause 12 Punkte aus 5 Spielen."
+    },
+    {
+     "n": "Chantal Hagel",
+     "k": "VFB",
+     "warum": "Tritt bei Stuttgart die Ecken von rechts, auch wenn Redzepi spielt, Freiburg kassiert 1,9 Tore pro Spiel."
+    }
+   ],
+   "achtung": [
+    {
+     "n": "Lobke Loonen",
+     "k": "B04",
+     "warum": "Fehlte in Stuttgart angeschlagen und steht laut Verein vor der Rückkehr in den Kader, ob sie in Berlin beginnt, zeigt erst die Aufstellung."
+    },
+    {
+     "n": "Glódís Viggósdóttir",
+     "k": "FCB",
+     "warum": "In den letzten beiden Ligaspielen ohne Minute, stand heute in Wien in der Startelf, ob sie vier Tage später gegen Hoffenheim beginnt, ist offen."
+    },
+    {
+     "n": "Greta Stegemann",
+     "k": "VFB",
+     "warum": "Fehlte gegen Leverkusen ohne genannten Grund im Kader, nachdem sie die fünf Ligaspiele davor alle begonnen hatte.",
+     "update": {
+      "zeit": "2026-11-20T10:09",
+      "text": "Stegemann wieder in der Aufbelastung"
+     }
+    },
+    {
+     "n": "Lisann Kaut",
+     "k": "TSG",
+     "warum": "Fehlte gegen Freiburg ohne genannten Grund im Kader, davor begann sie vier der letzten fünf Ligaspiele."
+    }
+   ],
+   "analyse_link": true,
+   "titel_basis": "Spieltag 11 auf den Punkt",
+   "updates": [
+    {
+     "zeit": "2026-11-20T15:18",
+     "k": "WOB",
+     "text": "Lattwein fehlt in Leipzig suspendiert",
+     "art": "meldung",
+     "id": "lattwein-2011"
+    },
+    {
+     "zeit": "2026-11-20T12:09",
+     "k": "SGE",
+     "text": "Rankin fällt mit Sprunggelenk monatelang aus",
+     "art": "meldung",
+     "id": "rankin-2011"
+    },
+    {
+     "zeit": "2026-11-20T10:09",
+     "k": "VFB",
+     "text": "Stegemann wieder in der Aufbelastung",
+     "art": "meldung",
+     "id": "stegemann-2011"
+    },
+    {
+     "zeit": "2026-11-19T22:45",
+     "k": "FCB",
+     "text": "Naschenweng startet statt Kett",
+     "art": "prognose"
+    }
+   ],
+   "wackel": [
+    {
+     "k": "HSV",
+     "p": "ABW",
+     "a": "Peneau",
+     "b": "Mirzaliyeva",
+     "anstoss": "2026-11-21T12:00"
+    },
+    {
+     "k": "FCN",
+     "p": "ABW",
+     "a": "Pollak",
+     "b": "Fröhlich",
+     "anstoss": "2026-11-22T18:30"
+    }
+   ],
+   "aktualisiert": "2026-11-20T15:18"
+  },
+  {
+   "id": "aufstellung-cl-fcb-1911",
+   "zeit": "2026-11-19T17:44",
+   "spielerin": "Spielansetzung",
+   "verein": "FC Bayern",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "EUROPAPOKAL"
+   ],
+   "headline": "Offizielle Aufstellung: FC Bayern gegen Austria Wien",
+   "text": [
+    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Amani, Ballisager, Damnjanović, Naschenweng.",
+    "Nicht im Spieltagskader (laut Sportschau), obwohl im letzten Ligaspiel dabei: Amani. Einen Grund nennt bisher keine Quelle."
+   ],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/uefa-champions-league-frauen/ma12537093/austria-wien_bayern-muenchen/aufstellung"
+    }
+   ],
+   "aufstellung": {
+    "gegner": "Austria Wien",
+    "formation": "4-2-3-1",
+    "startelf": [
+     {
+      "n": "Mahmutovic",
+      "p": "TW",
+      "pid": "00003"
+     },
+     {
+      "n": "Gwinn",
+      "p": "ABW",
+      "pid": "00009"
+     },
+     {
+      "n": "Viggósdóttir",
+      "p": "ABW",
+      "pid": "00013",
+      "f": "neu"
+     },
+     {
+      "n": "Eriksson",
+      "p": "ABW",
+      "pid": "00007"
+     },
+     {
+      "n": "Kett",
+      "p": "ABW",
+      "pid": "00011",
+      "f": "neu"
+     },
+     {
+      "n": "Tanikawa",
+      "p": "DM",
+      "pid": "00021",
+      "kp": "MF"
+     },
+     {
+      "n": "Zadrazil",
+      "p": "DM",
+      "pid": "00022",
+      "kp": "MF",
+      "f": "neu"
+     },
+     {
+      "n": "Dallmann",
+      "p": "OM",
+      "pid": "00017",
+      "kp": "MF"
+     },
+     {
+      "n": "Harder",
+      "p": "OM",
+      "pid": "00025",
+      "kp": "MF"
+     },
+     {
+      "n": "Bühl",
+      "p": "OM",
+      "pid": "00023",
+      "kp": "ST"
+     },
+     {
+      "n": "Imade",
+      "p": "ST",
+      "pid": "00026",
+      "f": "neu"
+     }
+    ],
+    "bank": [
+     {
+      "n": "Klink",
+      "p": "TW",
+      "pid": "00002"
+     },
+     {
+      "n": "van Eijk",
+      "p": "TW",
+      "pid": "00004"
+     },
+     {
+      "n": "Ballisager",
+      "p": "ABW",
+      "pid": "00005",
+      "f": "raus"
+     },
+     {
+      "n": "Naschenweng",
+      "p": "ABW",
+      "pid": "00012",
+      "f": "raus"
+     },
+     {
+      "n": "Mattner-Trembleau",
+      "p": "ABW",
+      "pid": "00027"
+     },
+     {
+      "n": "Alara",
+      "p": "MF",
+      "pid": "00015"
+     },
+     {
+      "n": "Dunst",
+      "p": "MF",
+      "pid": "00018"
+     },
+     {
+      "n": "Proost",
+      "p": "MF",
+      "pid": "00020"
+     },
+     {
+      "n": "Damnjanović",
+      "p": "ST",
+      "pid": "00024",
+      "f": "raus"
+     }
+    ],
+    "fehlt": [
+     {
+      "n": "Amani",
+      "p": "MF",
+      "pid": "00016",
+      "f": "raus",
+      "war": "Startelf",
+      "i": "fraglich"
+     }
+    ],
+    "wettbewerb": "Champions League"
+   },
+   "quelle_live": true
   },
   {
    "typ": "punkt",
@@ -7748,1211 +8046,6 @@
     {
      "name": "SC Freiburg",
      "url": "https://www.scfreiburg.com/aktuell/nachrichten/frauen-maedchen/2026/27/nachberichte/klare-heimniederlage-gegen-nuernberg/"
-    }
-   ]
-  },
-  {
-   "id": "peddemors-0611",
-   "pid": "00405",
-   "zeit": "2026-11-06T20:43",
-   "spielerin": "Ella Peddemors",
-   "verein": "VfL Wolfsburg",
-   "nr": "",
-   "pos": "MF",
-   "tags": [
-    "SPIELBERICHT"
-   ],
-   "headline": "Peddemors trifft doppelt beim 3:1 in Frankfurt",
-   "kurz": "Peddemors trifft doppelt in Frankfurt",
-   "text": [
-    "Der VfL Wolfsburg hat das Topspiel bei Eintracht Frankfurt 3:1 gewonnen. Ella Peddemors traf in der 13. und 70. Minute, Smilla Vallotto in der 50. Minute. Amanda Ilestedt hatte zwischenzeitlich per Kopf zum 1:1 ausgeglichen.",
-    "Bei Frankfurt stand Lina Altenburg im Tor statt Sophia Winkler, außerdem begannen Hayley Raso und Noemi Ivelj für Dilara Acikgöz und Rebecka Blomqvist, die zunächst auf der Bank saßen."
-   ],
-   "kickbase": "Peddemors ist bei Wolfsburg erste Eckenschützin und trifft weiter. Bei Frankfurt wechselte Trainer Arnautis auf drei Positionen.",
-   "quellen": [
-    {
-     "name": "Sportschau (hr)",
-     "url": "https://www.sportschau.de/regional/hr/hr-eintracht-frankfurt-frauen-eintracht-gehen-im-topspiel-gegen-wolfsburg-leer-aus-100.html"
-    }
-   ],
-   "foto": "fotos/wob-ella-peddemors.webp",
-   "foto_credit": {
-    "autor": "VfL Wolfsburg",
-    "lizenz": "mit Genehmigung: VfL Wolfsburg",
-    "url": "https://www.vfl-wolfsburg.de/teams/frauen/kader-2026/2027"
-   }
-  },
-  {
-   "id": "comeback-gwinn-fcb-0611",
-   "pid": "00009",
-   "zeit": "2026-11-06T19:48",
-   "spielerin": "Giulia Gwinn",
-   "verein": "FC Bayern",
-   "nr": "",
-   "pos": "ABW",
-   "tags": [
-    "RÜCKKEHR"
-   ],
-   "status": "fit",
-   "headline": "Gwinn feiert Comeback nach Außenbandriss",
-   "text": [
-    "Giulia Gwinn ist nach Außenbandriss zurück im Spieltagskader des FC Bayern.",
-    "Gegen Werder Bremen kam sie in der 63. Minute ins Spiel. Insgesamt spielte sie rund 27 Minuten.",
-    "API-Football bewertet ihren Auftritt mit der Note 6,2 (durchwachsen)."
-   ],
-   "kickbase": "Wieder einsatzbereit. Nach der Pause am nächsten Spieltag eher mit begrenzter Spielzeit rechnen, die Startelf ist noch offen.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306283/bayern-muenchen_werder-bremen/liveticker"
-    },
-    {
-     "name": "API-Football (Note)",
-     "url": "https://www.api-football.com"
-    }
-   ],
-   "quelle_live": true,
-   "partie_id": "12306283",
-   "comeback": {
-    "art": "comeback",
-    "stufe": "einsatz"
-   }
-  },
-  {
-   "id": "comeback-zadrazil-fcb-0611",
-   "pid": "00022",
-   "zeit": "2026-11-06T17:25",
-   "spielerin": "Sarah Zadrazil",
-   "verein": "FC Bayern",
-   "nr": "",
-   "pos": "MF",
-   "tags": [
-    "RÜCKKEHR"
-   ],
-   "status": "fit",
-   "headline": "Zadrazil nach Muskelproblemen zurück im Kader, aber ohne Einsatz",
-   "text": [
-    "Sarah Zadrazil ist nach Muskelproblemen zurück im Spieltagskader des FC Bayern.",
-    "Gegen Werder Bremen saß sie die gesamte Spielzeit auf der Bank."
-   ],
-   "kickbase": "Zurück im Kader, aber noch ohne Spielpraxis. Ein Einsatz am nächsten Spieltag ist offen, die Startelf eher nicht.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306283/bayern-muenchen_werder-bremen/liveticker"
-    }
-   ],
-   "quelle_live": true,
-   "partie_id": "12306283",
-   "comeback": {
-    "art": "comeback",
-    "stufe": "ohne"
-   },
-   "kurz": "Zadrazil zurück im Kader"
-  },
-  {
-   "id": "fehlt-lattwein-wob-0611",
-   "pid": "00403",
-   "zeit": "2026-11-06T17:25",
-   "spielerin": "Lena Lattwein",
-   "verein": "VfL Wolfsburg",
-   "nr": "",
-   "pos": "MF",
-   "tags": [
-    "AUFSTELLUNG"
-   ],
-   "status": "fraglich",
-   "headline": "Lattwein nicht im Kader gegen Eintracht Frankfurt",
-   "text": [
-    "Lena Lattwein steht in der Liga gegen Eintracht Frankfurt weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 1-mal.",
-    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
-   ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306271/eintracht-frankfurt_vfl-wolfsburg/aufstellung"
-    }
-   ],
-   "quelle_live": true,
-   "kurz": "Lattwein nicht im Kader"
-  },
-  {
-   "id": "fehlt-proost-fcb-0611",
-   "pid": "00020",
-   "zeit": "2026-11-06T17:25",
-   "spielerin": "Sophie Proost",
-   "verein": "FC Bayern",
-   "nr": "",
-   "pos": "MF",
-   "tags": [
-    "AUFSTELLUNG"
-   ],
-   "status": "fraglich",
-   "headline": "Proost nicht im Kader gegen Werder Bremen",
-   "text": [
-    "Sophie Proost steht in der Liga gegen Werder Bremen weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 3-mal.",
-    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen.",
-    "Wie angekündigt fehlen außerdem Bühl (Belastungssteuerung), Mahmutovic (gesperrt) und Viggósdóttir (verletzt)."
-   ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306283/bayern-muenchen_werder-bremen/aufstellung"
-    }
-   ],
-   "quelle_live": true
-  },
-  {
-   "id": "aufstellung-fcb-0611",
-   "zeit": "2026-11-06T17:25",
-   "spielerin": "Spielansetzung",
-   "verein": "FC Bayern",
-   "nr": "",
-   "pos": "Spielansetzung",
-   "tags": [
-    "TOP"
-   ],
-   "headline": "Offizielle Aufstellung: FC Bayern gegen Werder Bremen",
-   "text": [
-    "Nicht im Spieltagskader, obwohl im letzten Ligaspiel dabei: Proost. Einen Grund nennt bisher keine Quelle."
-   ],
-   "kickbase": "",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306283/bayern-muenchen_werder-bremen/aufstellung"
-    }
-   ],
-   "aufstellung": {
-    "gegner": "Werder Bremen",
-    "formation": "4-2-3-1",
-    "startelf": [
-     {
-      "n": "van Eijk",
-      "p": "TW",
-      "pid": "00004",
-      "f": "neu"
-     },
-     {
-      "n": "Mattner-Trembleau",
-      "p": "ABW",
-      "pid": "00027",
-      "kp": "ST",
-      "f": "neu"
-     },
-     {
-      "n": "Gilles",
-      "p": "ABW",
-      "pid": "00008",
-      "f": "neu"
-     },
-     {
-      "n": "Naschenweng",
-      "p": "ABW",
-      "pid": "00012"
-     },
-     {
-      "n": "Ballisager",
-      "p": "ABW",
-      "pid": "00005",
-      "f": "neu"
-     },
-     {
-      "n": "Alara",
-      "p": "DM",
-      "pid": "00015",
-      "kp": "MF"
-     },
-     {
-      "n": "Amani",
-      "p": "DM",
-      "pid": "00016",
-      "kp": "MF"
-     },
-     {
-      "n": "Dallmann",
-      "p": "OM",
-      "pid": "00017",
-      "kp": "MF",
-      "f": "neu"
-     },
-     {
-      "n": "Harder",
-      "p": "OM",
-      "pid": "00025",
-      "kp": "ST"
-     },
-     {
-      "n": "Potsi",
-      "p": "OM",
-      "pid": "00028",
-      "kp": "ST",
-      "f": "neu"
-     },
-     {
-      "n": "Imade",
-      "p": "ST",
-      "pid": "00026",
-      "f": "neu"
-     }
-    ],
-    "bank": [
-     {
-      "n": "Klink",
-      "p": "TW",
-      "pid": "00002",
-      "f": "neu"
-     },
-     {
-      "n": "Eriksson",
-      "p": "ABW",
-      "pid": "00007",
-      "f": "raus"
-     },
-     {
-      "n": "Gwinn",
-      "p": "ABW",
-      "pid": "00009",
-      "f": "neu"
-     },
-     {
-      "n": "Kett",
-      "p": "ABW",
-      "pid": "00011",
-      "f": "raus"
-     },
-     {
-      "n": "Dunst",
-      "p": "MF",
-      "pid": "00018"
-     },
-     {
-      "n": "Zadrazil",
-      "p": "MF",
-      "pid": "00022"
-     },
-     {
-      "n": "Tanikawa",
-      "p": "MF",
-      "pid": "00021",
-      "f": "raus"
-     },
-     {
-      "n": "Damnjanović",
-      "p": "ST",
-      "pid": "00024",
-      "f": "neu"
-     }
-    ],
-    "fehlt": [
-     {
-      "n": "Bühl",
-      "p": "ST",
-      "f": "raus",
-      "i": "fraglich"
-     },
-     {
-      "n": "Mahmutovic",
-      "p": "TW",
-      "f": "raus",
-      "i": "gesperrt"
-     },
-     {
-      "n": "Proost",
-      "p": "MF",
-      "f": "raus"
-     },
-     {
-      "n": "Viggósdóttir",
-      "p": "ABW",
-      "f": "raus",
-      "i": "verletzt"
-     },
-     {
-      "n": "Klein",
-      "p": "TW"
-     },
-     {
-      "n": "Dafinger",
-      "p": "ABW"
-     },
-     {
-      "n": "Kappes",
-      "p": "ABW"
-     },
-     {
-      "n": "Wegscheider",
-      "p": "ABW"
-     },
-     {
-      "n": "Oberdorf",
-      "p": "MF"
-     },
-     {
-      "n": "Rauscha",
-      "p": "ST"
-     }
-    ]
-   },
-   "quelle_live": true,
-   "ableitungen": [
-    {
-     "verein": "FC Bayern",
-     "n": "Proost",
-     "spielerin": "Sophie Proost",
-     "war": "Startelf",
-     "zeit": "2026-11-06T18:30",
-     "gegner": "Werder Bremen",
-     "wettbewerb": "Liga",
-     "quelle": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306283/bayern-muenchen_werder-bremen/aufstellung",
-     "delta": -1,
-     "bis": "2026-11-16",
-     "grund": "stand am 06.11. gegen Werder Bremen nicht im Spieltagskader, obwohl im letzten Ligaspiel in der Startelf; Grund nicht bekannt"
-    }
-   ]
-  },
-  {
-   "id": "aufstellung-svw-0611",
-   "zeit": "2026-11-06T17:25",
-   "spielerin": "Spielansetzung",
-   "verein": "Werder Bremen",
-   "nr": "",
-   "pos": "Spielansetzung",
-   "tags": [
-    "TOP"
-   ],
-   "headline": "Offizielle Aufstellung: Werder Bremen gegen FC Bayern",
-   "text": [],
-   "kickbase": "",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306283/bayern-muenchen_werder-bremen/aufstellung"
-    }
-   ],
-   "aufstellung": {
-    "gegner": "FC Bayern",
-    "formation": "4-2-2-2",
-    "startelf": [
-     {
-      "n": "Fischer",
-      "p": "TW",
-      "pid": "00032"
-     },
-     {
-      "n": "Weiß",
-      "p": "ABW",
-      "pid": "00041"
-     },
-     {
-      "n": "Ulbrich",
-      "p": "ABW",
-      "pid": "00040"
-     },
-     {
-      "n": "Gutmann",
-      "p": "ABW",
-      "pid": "00035"
-     },
-     {
-      "n": "Zieniewicz",
-      "p": "ABW",
-      "pid": "00042"
-     },
-     {
-      "n": "Hipp",
-      "p": "DM",
-      "pid": "00045",
-      "kp": "MF"
-     },
-     {
-      "n": "Wirtz",
-      "p": "DM",
-      "pid": "00048",
-      "kp": "MF"
-     },
-     {
-      "n": "Purtscheller",
-      "p": "OM",
-      "pid": "00047",
-      "kp": "MF"
-     },
-     {
-      "n": "Dhont",
-      "p": "OM",
-      "pid": "00050",
-      "kp": "ST",
-      "f": "neu"
-     },
-     {
-      "n": "Mahmoud",
-      "p": "ST",
-      "pid": "00052",
-      "f": "neu"
-     },
-     {
-      "n": "Vanzeir",
-      "p": "ST",
-      "pid": "00055"
-     }
-    ],
-    "bank": [
-     {
-      "n": "Farwick",
-      "p": "TW",
-      "pid": "00031"
-     },
-     {
-      "n": "Sträßer",
-      "p": "ABW",
-      "pid": "00039"
-     },
-     {
-      "n": "Penner",
-      "p": "ABW",
-      "pid": "00037"
-     },
-     {
-      "n": "Mühlemann",
-      "p": "MF",
-      "pid": "00046"
-     },
-     {
-      "n": "Gmeineder",
-      "p": "MF",
-      "pid": "00044"
-     },
-     {
-      "n": "Ernst",
-      "p": "MF",
-      "pid": "00043"
-     },
-     {
-      "n": "Jaron",
-      "p": "ST",
-      "pid": "00051",
-      "f": "raus"
-     },
-     {
-      "n": "Shimada",
-      "p": "ST",
-      "pid": "00054"
-     },
-     {
-      "n": "Dešić",
-      "p": "ST",
-      "pid": "00049",
-      "f": "raus"
-     }
-    ],
-    "fehlt": [
-     {
-      "n": "Sherif",
-      "p": "TW"
-     },
-     {
-      "n": "Özdemir",
-      "p": "TW"
-     },
-     {
-      "n": "D'Angelo",
-      "p": "ABW"
-     },
-     {
-      "n": "Magerl",
-      "p": "ABW"
-     },
-     {
-      "n": "Siems",
-      "p": "ABW"
-     },
-     {
-      "n": "Petermann",
-      "p": "ST"
-     }
-    ]
-   },
-   "quelle_live": true
-  },
-  {
-   "id": "aufstellung-sge-0611",
-   "zeit": "2026-11-06T17:25",
-   "spielerin": "Spielansetzung",
-   "verein": "Eintracht Frankfurt",
-   "nr": "",
-   "pos": "Spielansetzung",
-   "tags": [
-    "TOP"
-   ],
-   "headline": "Offizielle Aufstellung: Eintracht Frankfurt gegen VfL Wolfsburg",
-   "text": [],
-   "kickbase": "",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306271/eintracht-frankfurt_vfl-wolfsburg/aufstellung"
-    }
-   ],
-   "aufstellung": {
-    "gegner": "VfL Wolfsburg",
-    "formation": "4-1-2-1-2",
-    "startelf": [
-     {
-      "n": "Altenburg",
-      "p": "TW",
-      "pid": "00056"
-     },
-     {
-      "n": "Krumbiegel",
-      "p": "ABW",
-      "pid": "00072",
-      "kp": "MF",
-      "f": "neu"
-     },
-     {
-      "n": "Ilestedt",
-      "p": "ABW",
-      "pid": "00062"
-     },
-     {
-      "n": "Østenstad",
-      "p": "ABW",
-      "pid": "00066"
-     },
-     {
-      "n": "Lührßen",
-      "p": "ABW",
-      "pid": "00064"
-     },
-     {
-      "n": "Ivelj",
-      "p": "DM",
-      "pid": "00063",
-      "kp": "ABW",
-      "f": "neu"
-     },
-     {
-      "n": "Memeti",
-      "p": "MF",
-      "pid": "00079",
-      "kp": "ST"
-     },
-     {
-      "n": "Bennison",
-      "p": "MF",
-      "pid": "00069"
-     },
-     {
-      "n": "Mühlhaus",
-      "p": "OM",
-      "pid": "00080",
-      "kp": "ST"
-     },
-     {
-      "n": "Freigang",
-      "p": "ST",
-      "pid": "00077"
-     },
-     {
-      "n": "Raso",
-      "p": "ST",
-      "pid": "00081",
-      "f": "neu"
-     }
-    ],
-    "bank": [
-     {
-      "n": "Krumme",
-      "p": "TW",
-      "pid": "00058"
-     },
-     {
-      "n": "Doorsoun",
-      "p": "ABW",
-      "pid": "00061"
-     },
-     {
-      "n": "Rankin",
-      "p": "ABW",
-      "pid": "00067"
-     },
-     {
-      "n": "Acikgöz",
-      "p": "ABW",
-      "pid": "00060",
-      "f": "raus"
-     },
-     {
-      "n": "Wolter",
-      "p": "MF",
-      "pid": "00075",
-      "f": "raus"
-     },
-     {
-      "n": "Blomqvist",
-      "p": "MF",
-      "pid": "00070",
-      "f": "raus"
-     },
-     {
-      "n": "Ainhoa Alguacil",
-      "p": "MF",
-      "pid": "00068"
-     },
-     {
-      "n": "Teulings",
-      "p": "MF",
-      "pid": "00074"
-     },
-     {
-      "n": "Tolhoek",
-      "p": "ST",
-      "pid": "00082"
-     }
-    ],
-    "fehlt": [
-     {
-      "n": "Jeppe",
-      "p": "TW"
-     },
-     {
-      "n": "Winkler",
-      "p": "TW"
-     },
-     {
-      "n": "Matijević",
-      "p": "ABW"
-     },
-     {
-      "n": "Demirbas",
-      "p": "MF"
-     },
-     {
-      "n": "Lundgaard",
-      "p": "MF"
-     },
-     {
-      "n": "Zimmermann",
-      "p": "MF"
-     },
-     {
-      "n": "Lia",
-      "p": "ST"
-     }
-    ]
-   },
-   "quelle_live": true
-  },
-  {
-   "id": "aufstellung-wob-0611",
-   "zeit": "2026-11-06T17:25",
-   "spielerin": "Spielansetzung",
-   "verein": "VfL Wolfsburg",
-   "nr": "",
-   "pos": "Spielansetzung",
-   "tags": [
-    "TOP"
-   ],
-   "headline": "Offizielle Aufstellung: VfL Wolfsburg gegen Eintracht Frankfurt",
-   "text": [
-    "Nicht im Spieltagskader, obwohl im letzten Ligaspiel dabei: Lattwein. Einen Grund nennt bisher keine Quelle."
-   ],
-   "kickbase": "",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306271/eintracht-frankfurt_vfl-wolfsburg/aufstellung"
-    }
-   ],
-   "aufstellung": {
-    "gegner": "Eintracht Frankfurt",
-    "formation": "4-1-2-2-1",
-    "startelf": [
-     {
-      "n": "Johannes",
-      "p": "TW",
-      "pid": "00389"
-     },
-     {
-      "n": "Bjelde",
-      "p": "ABW",
-      "pid": "00392"
-     },
-     {
-      "n": "Carleer",
-      "p": "ABW",
-      "pid": "00394"
-     },
-     {
-      "n": "Küver",
-      "p": "ABW",
-      "pid": "00396"
-     },
-     {
-      "n": "Linder",
-      "p": "ABW",
-      "pid": "00398"
-     },
-     {
-      "n": "Minge",
-      "p": "DM",
-      "pid": "00404",
-      "kp": "MF"
-     },
-     {
-      "n": "Vallotto",
-      "p": "MF",
-      "pid": "00407",
-      "f": "neu"
-     },
-     {
-      "n": "Peddemors",
-      "p": "MF",
-      "pid": "00405"
-     },
-     {
-      "n": "Huth",
-      "p": "OM",
-      "pid": "00402",
-      "kp": "MF"
-     },
-     {
-      "n": "Zicai",
-      "p": "OM",
-      "pid": "00414",
-      "kp": "ST",
-      "f": "neu"
-     },
-     {
-      "n": "Prašnikar",
-      "p": "ST",
-      "pid": "00412"
-     }
-    ],
-    "bank": [
-     {
-      "n": "Tufeković",
-      "p": "TW",
-      "pid": "00391"
-     },
-     {
-      "n": "Kleinherne",
-      "p": "ABW",
-      "pid": "00395"
-     },
-     {
-      "n": "Landenberger",
-      "p": "ABW",
-      "pid": "00397",
-      "f": "neu"
-     },
-     {
-      "n": "Wedemeyer",
-      "p": "ABW",
-      "pid": "00399"
-     },
-     {
-      "n": "Piljic",
-      "p": "MF",
-      "pid": "00406"
-     },
-     {
-      "n": "Alber",
-      "p": "MF",
-      "pid": "00400"
-     },
-     {
-      "n": "Bussy",
-      "p": "ST",
-      "pid": "00408",
-      "f": "raus"
-     },
-     {
-      "n": "Kerim-Lindland",
-      "p": "ST",
-      "pid": "00411",
-      "f": "neu"
-     },
-     {
-      "n": "Fløe",
-      "p": "ST",
-      "pid": "00409"
-     }
-    ],
-    "fehlt": [
-     {
-      "n": "Bogaert",
-      "p": "ABW",
-      "f": "raus"
-     },
-     {
-      "n": "Lattwein",
-      "p": "MF",
-      "f": "raus"
-     },
-     {
-      "n": "Eisenbeiß",
-      "p": "TW"
-     },
-     {
-      "n": "Schönwetter",
-      "p": "TW"
-     },
-     {
-      "n": "Araśniewicz",
-      "p": "MF"
-     },
-     {
-      "n": "Hoffmann",
-      "p": "ST"
-     },
-     {
-      "n": "Sælen",
-      "p": "ST"
-     }
-    ]
-   },
-   "quelle_live": true,
-   "ableitungen": [
-    {
-     "verein": "VfL Wolfsburg",
-     "n": "Lattwein",
-     "spielerin": "Lena Lattwein",
-     "war": "Startelf",
-     "zeit": "2026-11-06T18:30",
-     "gegner": "Eintracht Frankfurt",
-     "wettbewerb": "Liga",
-     "quelle": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306271/eintracht-frankfurt_vfl-wolfsburg/aufstellung",
-     "delta": -1,
-     "bis": "2026-11-16",
-     "grund": "stand am 06.11. gegen Eintracht Frankfurt nicht im Spieltagskader, obwohl im letzten Ligaspiel in der Startelf; Grund nicht bekannt"
-    }
-   ]
-  },
-  {
-   "id": "bender-0611",
-   "pid": "00257",
-   "zeit": "2026-11-06T13:00",
-   "spielerin": "Loreen Bender",
-   "verein": "Bayer Leverkusen",
-   "nr": "19",
-   "pos": "ST",
-   "tags": [
-    "RÜCKKEHR",
-    "UPDATE"
-   ],
-   "status": "fit",
-   "headline": "Bender und Fudalla vor dem HSV-Spiel zurück",
-   "kurz": "Bender und Fudalla sind zurück im Kader",
-   "text": [
-    "Bayer Leverkusen kann im Heimspiel gegen den Hamburger SV am Samstag um 14 Uhr voraussichtlich wieder auf Loreen Bender, Vanessa Fudalla und Natasha Kowalski zurückgreifen. Fudalla war zuletzt krank, Kowalski hatte einen Trainingsrückstand. Bender hatte im Pokal beim FC Bayern gefehlt.",
-    "Weiter nicht dabei sind Paulina Tomasiak (Trainingsrückstand), Sana Coskun (Muskel-Sehnen-Verletzung), Melissa Friedrich (Rückschlag im Aufbautraining nach einer Krankheit) und Amy Wrigge (Kreuzbandriss). Die Startelf ist noch nicht bekannt."
-   ],
-   "kickbase": "Bender und Fudalla sind wieder Optionen für den Kader, ein Startelfplatz ist damit nicht gesichert. Vor einem Kauf lohnt der Blick auf die offizielle Aufstellung.",
-   "quellen": [
-    {
-     "name": "Bayer 04",
-     "url": "https://www.bayer04.de/de-de/news/frauen/ziele-nicht-aus-den-augen-verlieren-frauen-peilen-heimsieg-gegen-den-hsv-an"
-    }
-   ],
-   "foto": "fotos/b04-loreen-bender.webp",
-   "foto_credit": {
-    "autor": "Bayer 04",
-    "lizenz": "mit Genehmigung: Bayer 04 Leverkusen",
-    "url": "https://www.bayer04.de/de-de/team/frauen/frauen"
-   }
-  },
-  {
-   "typ": "punkt",
-   "id": "punkt-md9",
-   "md": 9,
-   "zeit": "2026-11-06T12:31",
-   "headline": "Spieltag 9 auf den Punkt · Update 18:30",
-   "sicher": [
-    {
-     "n": "Ella Peddemors",
-     "k": "WOB",
-     "warum": "Alle 720 Ligaminuten gespielt, 9 Tore und dazu Ecken und Freistöße."
-    },
-    {
-     "n": "Svea Stoldt",
-     "k": "HSV",
-     "warum": "Spielt jede Minute, 4 Tore in den letzten 3 Spielen und verwandelte gegen Union beide Elfmeter."
-    },
-    {
-     "n": "Nele Bauereisen",
-     "k": "FCU",
-     "warum": "Seit drei Ligaspielen in der Startelf mit 2 Toren, Gegner Hoffenheim kassiert 1,88 Tore pro Spiel."
-    },
-    {
-     "n": "Pauline Bremer",
-     "k": "KOE",
-     "warum": "Kölns einzige echte Stürmerin, 3 Tore in den letzten 3 Spielen, Köln holte zu Hause 9 von 12 Punkten."
-    }
-   ],
-   "finger_weg": [
-    {
-     "n": "Klara Bühl",
-     "k": "FCB",
-     "warum": "Fehlt gegen Werder laut SPORT1 wegen Belastungssteuerung, am 10.11. wartet Paris."
-    },
-    {
-     "n": "Glódís Viggósdóttir",
-     "k": "FCB",
-     "warum": "Fällt mit Knieproblemen weiter aus, ein Rückkehrtermin ist nicht genannt."
-    },
-    {
-     "n": "Dafina Redzepi",
-     "k": "VFB",
-     "warum": "Nach Roter Karte gegen Frankfurt für das Spiel in Mainz gesperrt."
-    },
-    {
-     "n": "Annabel Schasching",
-     "k": "RBL",
-     "warum": "Schwere Muskel- und Sehnenverletzung im Oberschenkel, Leipzig spricht von mehreren Monaten Ausfall."
-    }
-   ],
-   "tipp": [
-    {
-     "n": "Chantal Hagel",
-     "k": "VFB",
-     "warum": "Tritt die Ecken von rechts und dürfte ohne Redzepi beide Seiten übernehmen."
-    },
-    {
-     "n": "Alieke Tuin",
-     "k": "RBL",
-     "warum": "Übernahm ohne Schasching die Ecken und traf zuletzt selbst zweimal."
-    },
-    {
-     "n": "Sarah Gutmann",
-     "k": "SVW",
-     "warum": "Seit Spieltag 6 dreimal in Folge 90 Minuten, 2 Ligatore nach Standards und im Pokal erneut doppelt."
-    }
-   ],
-   "achtung": [
-    {
-     "n": "Loreen Bender",
-     "k": "B04",
-     "warum": "Im Pokal gegen den FC Bayern nicht im Kader, der Grund ist offen.",
-     "update": {
-      "zeit": "2026-11-06T13:45",
-      "text": "Bender und Fudalla sind zurück im Kader"
-     }
-    },
-    {
-     "n": "Anna Reimann",
-     "k": "SCF",
-     "warum": "Im Pokal gegen Jena nicht im Kader, ein Grund ist nicht bekannt."
-    },
-    {
-     "n": "Giulia Gwinn",
-     "k": "FCB",
-     "warum": "Gegen Werder zurück im Kader, ob sie beginnt oder nur kurz von der Bank kommt, ist offen."
-    },
-    {
-     "n": "Marina Georgieva",
-     "k": "M05",
-     "warum": "Angeschlagen, eine Diagnose fehlt bisher, Einsatz gegen Stuttgart offen."
-    }
-   ],
-   "analyse_link": true,
-   "titel_basis": "Spieltag 9 auf den Punkt",
-   "updates": [
-    {
-     "zeit": "2026-11-06T18:30",
-     "k": "WOB",
-     "text": "Lattwein nicht im Kader",
-     "art": "meldung",
-     "id": "fehlt-lattwein-wob-0611"
-    },
-    {
-     "zeit": "2026-11-06T18:30",
-     "k": "FCB",
-     "text": "Proost nicht im Kader gegen Werder Bremen",
-     "art": "meldung",
-     "id": "fehlt-proost-fcb-0611"
-    },
-    {
-     "zeit": "2026-11-06T17:25",
-     "k": "SGE",
-     "text": "Offizielle Aufstellung: Frankfurt gegen Wolfsburg",
-     "art": "aufstellung",
-     "partie": "12306271"
-    },
-    {
-     "zeit": "2026-11-06T17:25",
-     "k": "FCB",
-     "text": "Offizielle Aufstellung: Bayern gegen Werder",
-     "art": "aufstellung",
-     "partie": "12306283"
-    },
-    {
-     "zeit": "2026-11-06T14:46",
-     "k": "RBL",
-     "text": "Schimmer startet statt Ásgeirsdóttir (Ásgeirsdóttir fehlt mit Oberschenkelverletzung)",
-     "art": "prognose"
-    },
-    {
-     "zeit": "2026-11-06T13:45",
-     "k": "B04",
-     "text": "Bender und Fudalla sind zurück im Kader",
-     "art": "meldung",
-     "id": "bender-0611"
-    }
-   ],
-   "wackel": [
-    {
-     "k": "SCF",
-     "p": "TW",
-     "a": "Reimann",
-     "b": "Barth",
-     "anstoss": "2026-11-07T12:00"
-    },
-    {
-     "k": "B04",
-     "p": "OM",
-     "a": "Bender",
-     "b": "Platner",
-     "anstoss": "2026-11-07T14:00"
-    },
-    {
-     "k": "B04",
-     "p": "OM",
-     "a": "Fudalla",
-     "b": "Zdebel",
-     "anstoss": "2026-11-07T14:00"
-    },
-    {
-     "k": "HSV",
-     "p": "ST",
-     "a": "Eggert",
-     "b": "Karczewska",
-     "anstoss": "2026-11-07T14:00"
-    },
-    {
-     "k": "M05",
-     "p": "ABW",
-     "a": "Georgieva",
-     "b": "Flach",
-     "anstoss": "2026-11-08T16:00"
-    },
-    {
-     "k": "M05",
-     "p": "ST",
-     "a": "Anstatt",
-     "b": "Bouziane",
-     "anstoss": "2026-11-08T16:00"
-    },
-    {
-     "k": "VFB",
-     "p": "OM",
-     "a": "Schetter",
-     "b": "Hirano",
-     "anstoss": "2026-11-08T16:00"
-    },
-    {
-     "k": "RBL",
-     "p": "OM",
-     "a": "Schimmer",
-     "b": "Joly",
-     "anstoss": "2026-11-09T18:00"
-    }
-   ],
-   "aktualisiert": "2026-11-06T18:30",
-   "fertig": true,
-   "lebt_bis": "2026-11-06T18:30"
-  },
-  {
-   "id": "asgeirsdottir-0611",
-   "pid": "00229",
-   "zeit": "2026-11-06T10:10",
-   "spielerin": "Emilía Ásgeirsdóttir",
-   "verein": "RB Leipzig",
-   "nr": "8",
-   "pos": "ST",
-   "tags": [
-    "TOP",
-    "VERLETZUNG"
-   ],
-   "status": "verletzt",
-   "headline": "Ásgeirsdóttir fällt mehrere Wochen aus",
-   "kurz": "Ásgeirsdóttir fehlt mit Oberschenkelverletzung",
-   "text": [
-    "RB Leipzig muss in den kommenden Wochen auf Emilía Kiær Ásgeirsdóttir verzichten. Die Isländerin hat sich laut Verein eine muskuläre Verletzung im vorderen Oberschenkel zugezogen.",
-    "Einen genauen Rückkehrtermin nennt der Verein nicht."
-   ],
-   "kickbase": "Für die nächsten Spieltage nicht einplanen. Ein Rückkehrtermin ist nicht genannt.",
-   "quellen": [
-    {
-     "name": "RB Leipzig (Instagram)",
-     "url": "https://www.instagram.com/rbleipzigfrauen/"
-    }
-   ],
-   "foto": "fotos/rbl-emilia-ki-r-asgeirsdottir.webp",
-   "foto_credit": {
-    "autor": "RB Leipzig",
-    "lizenz": "mit Genehmigung: RB Leipzig",
-    "url": "https://rbleipzig.com/de/teams-frauen"
-   }
-  },
-  {
-   "id": "herzog-0611",
-   "pid": "00213",
-   "zeit": "2026-11-06",
-   "spielerin": "Elvira Herzog",
-   "verein": "RB Leipzig",
-   "nr": "",
-   "pos": "TW",
-   "tags": [
-    "UPDATE"
-   ],
-   "status": "fraglich",
-   "headline": "Herzog wegen Erkältung fraglich für das Spiel in Köln",
-   "kurz": "Herzog fraglich für Köln, Erkältung",
-   "text": [
-    "Elvira Herzog ist erkältet und steht für das Ligaspiel beim 1. FC Köln am Montag um 18 Uhr auf der Kippe. Das zeigt die Kickbase-App seit Freitag an. Der Verein hat sich dazu bisher nicht geäußert.",
-    "Herzog stand in allen acht Ligaspielen und im Pokal gegen Köln über 90 Minuten im Tor. Auf der Bank saß zuletzt Mirja Kropp."
-   ],
-   "kickbase": "Herzog ist die klare Nummer eins. Fällt sie aus, ist Kropp die naheliegende Vertretung. Bis der Verein etwas sagt, führen wir Herzog gegen Köln nur noch als unsicher.",
-   "quellen": [
-    {
-     "name": "Kickbase (App, unbestätigt)",
-     "url": "https://www.kickbase.com"
-    }
-   ],
-   "foto": "fotos/rbl-elvira-herzog.webp",
-   "foto_credit": {
-    "autor": "RB Leipzig",
-    "lizenz": "mit Genehmigung: RB Leipzig",
-    "url": "https://rbleipzig.com/de/teams-frauen"
-   }
-  },
-  {
-   "id": "bednorz-0611",
-   "pid": "00301",
-   "zeit": "2026-11-06",
-   "spielerin": "Keira Bednorz",
-   "verein": "1. FC Nürnberg",
-   "nr": "",
-   "pos": "ABW",
-   "tags": [
-    "VERLETZUNG",
-    "VORBERICHT"
-   ],
-   "status": "fraglich",
-   "headline": "Bednorz fehlt in Freiburg mit Rückenbeschwerden",
-   "kurz": "Bednorz fehlt mit Rückenbeschwerden",
-   "text": [
-    "Keira Bednorz fiel für das Spiel in Freiburg mit Rückenbeschwerden aus, das hatte der Club im Vorbericht gemeldet. Sie kam zuvor dreimal in Folge als Einwechselspielerin.",
-    "Jacqueline Baumgärtel trainierte wieder teilweise mit der Mannschaft. Weiterhin fehlen die Langzeitverletzten Marlene Lindner und Amélie Thöle."
-   ],
-   "kickbase": "Bednorz war zuletzt Jokerin und keine Startelf-Option. Ob sie gegen Köln wieder im Kader steht, hat der Club noch nicht gesagt.",
-   "quellen": [
-    {
-     "name": "1. FC Nürnberg",
-     "url": "https://www.fcn.de/news/artikel/vorbericht-an-den-ersten-sieg-anknuepfen/"
     }
    ]
   }
