@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-21T10:56",
+ "stand": "2026-11-21T10:58",
  "meldungen": [
   {
    "id": "aufstellung-sge-2111",
@@ -13,7 +13,7 @@
    ],
    "headline": "Offizielle Aufstellung: Eintracht Frankfurt gegen Hamburger SV",
    "text": [
-    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Acikgöz, Krumbiegel. Die Bank folgt, sobald sie veröffentlicht ist."
+    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Acikgöz, Krumbiegel."
    ],
    "kickbase": "",
    "quellen": [
@@ -86,19 +86,63 @@
       "pid": "00070"
      }
     ],
-    "bank": [],
-    "fehlt": [],
-    "bank_offen": true,
-    "nicht_startelf": [
+    "bank": [
+     {
+      "n": "Winkler",
+      "p": "TW",
+      "pid": "00059"
+     },
+     {
+      "n": "Doorsoun",
+      "p": "ABW",
+      "pid": "00061"
+     },
      {
       "n": "Acikgöz",
       "p": "MF",
-      "pid": "00060"
+      "pid": "00060",
+      "f": "raus"
+     },
+     {
+      "n": "Ainhoa Alguacil",
+      "p": "MF",
+      "pid": "00068"
+     },
+     {
+      "n": "Teulings",
+      "p": "MF",
+      "pid": "00074"
      },
      {
       "n": "Krumbiegel",
       "p": "ABW",
-      "pid": "00072"
+      "pid": "00072",
+      "f": "raus"
+     },
+     {
+      "n": "Lundgaard",
+      "p": "MF",
+      "pid": "00073"
+     },
+     {
+      "n": "Raso",
+      "p": "ST",
+      "pid": "00081"
+     },
+     {
+      "n": "Tolhoek",
+      "p": "ST",
+      "pid": "00082"
+     }
+    ],
+    "fehlt": [
+     {
+      "n": "Rankin",
+      "p": "ABW",
+      "pid": "00067",
+      "f": "raus",
+      "war": "Bank",
+      "i": "verletzt"
      }
     ]
    },
