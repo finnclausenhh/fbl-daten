@@ -189,5 +189,18 @@
   "noten_da": "2026-11-20T20:23",
   "minuten_nach_abpfiff": 1,
   "bau_gestartet": "2026-11-20T20:23"
+ },
+ "12306331": {
+  "spiel": "SGE-HSV",
+  "anstoss": "2026-11-21T12:00",
+  "abpfiff_ca": "2026-11-21T13:50",
+  "fixture": 1593178,
+  "af_status": "FT",
+  "erste_pruefung": "2026-11-21T13:56",
+  "noten_zuletzt": 40,
+  "letzte_pruefung": "2026-11-21T13:56",
+  "noten_da": "2026-11-21T13:56",
+  "minuten_nach_abpfiff": 7,
+  "bau_gestartet": "2026-11-21T13:56"
  }
 }
