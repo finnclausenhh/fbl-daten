@@ -2,6 +2,33 @@
  "stand": "2026-11-21T13:51",
  "meldungen": [
   {
+   "id": "endstand-sge-2111",
+   "zeit": "2026-11-21T13:56",
+   "spielerin": "Eintracht Frankfurt gegen Hamburger SV",
+   "verein": "Eintracht Frankfurt",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "SPIELBERICHT"
+   ],
+   "headline": "Endstand: Eintracht Frankfurt 2:0 Hamburger SV",
+   "kurz": "Endstand SGE 2:0 HSV",
+   "text": [
+    "Eintracht Frankfurt gewinnt gegen den Hamburger SV mit 2:0.",
+    "Tore: 1:0 Raso (81., Vorlage Lührßen), 2:0 Doucouré (90+6., Eigentor).",
+    "Noten und der ausführliche Bericht folgen."
+   ],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306331/eintracht-frankfurt_hamburger-sv/liveticker"
+    }
+   ],
+   "quelle_live": true,
+   "partie_id": "12306331"
+  },
+  {
    "id": "fehlt-reimann-scf-0111",
    "pid": "00085",
    "zeit": "2026-11-01T14:08",
