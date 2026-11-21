@@ -1,304 +1,76 @@
 {
- "stand": "2026-11-20T23:51",
+ "stand": "2026-11-21T07:31",
  "meldungen": [
   {
-   "id": "fehlt-reimann-scf-0111",
-   "pid": "00085",
-   "zeit": "2026-11-01T14:08",
-   "spielerin": "Anna Reimann",
-   "verein": "SC Freiburg",
+   "id": "pk-md11",
+   "zeit": "2026-11-21T07:31",
+   "spielerin": "Pressekonferenzen",
+   "verein": "",
    "nr": "",
-   "pos": "TW",
+   "pos": "11. Spieltag",
+   "symbol": "pk",
    "tags": [
-    "AUFSTELLUNG",
-    "POKAL"
+    "UPDATE"
    ],
-   "status": "fraglich",
-   "headline": "Reimann nicht im Kader gegen FC Carl Zeiss Jena",
+   "headline": "Vor dem 11. Spieltag: Pressekonferenzen, Vorberichte und späte Updates",
+   "kurz": "11. Spieltag: wer wann spricht, wer wann berichtet (9 von 14 Vorberichten da)",
    "text": [
-    "Anna Reimann steht im DFB-Pokal gegen FC Carl Zeiss Jena weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
-    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
+    "Vor dem 11. Spieltag geben nur wenige Vereine eine Pressekonferenz. Was dort zum Personal gesagt wird, ist oft die letzte Info vor der offiziellen Aufstellung.",
+    "FC Bayern (gegen TSG Hoffenheim, Mo 23.11., 18:00 Uhr): Vor solchen Spielen gibt es üblicherweise eine Pressekonferenz mit Trainer José Barcala, meist am Vortag (So 22.11.). Einen Termin hat der Verein noch nicht genannt, danach FC Bayern TV, Aussagen meist auch auf fcbayern.com.",
+    "Keine Pressekonferenz vor dem Spiel bekannt: Union Berlin, Bayer Leverkusen, Eintracht Frankfurt, Hamburger SV, 1. FC Köln, Werder Bremen, SC Freiburg, VfB Stuttgart, RB Leipzig, VfL Wolfsburg, Mainz 05, 1. FC Nürnberg, TSG Hoffenheim. Dort steht das Personal meist im Vorbericht des Vereins, siehe unten.",
+    "Wann die Vereine ihre Vorberichte bringen (die Links stehen unten bei den Quellen):",
+    "Union Berlin gegen Bayer Leverkusen (Fr 20.11., 18:30 Uhr): Union Berlin seit Mi 18.11., 17:30 Uhr: „Unionerinnen wollen Leverkusen erstmals Punkte abnehmen“; Bayer Leverkusen ohne Vorbericht.",
+    "Eintracht Frankfurt gegen Hamburger SV (Sa 21.11., 12:00 Uhr): Eintracht Frankfurt seit Do 19.11., 16:00 Uhr: „Hamburg zu Gast“; Hamburger SV seit Fr 20.11., 07:33 Uhr: „Gegen wind und wetter hsv frauen bereit fuer frankfurt“.",
+    "1. FC Köln gegen Werder Bremen (Sa 21.11., 14:00 Uhr): 1. FC Köln noch nicht da, zuletzt zwei Tage vorher, gegen 12 Uhr; Werder Bremen seit Do 19.11., 09:00 Uhr: „Fanhinweise zum Ligaspiel der WERDERFRAUEN beim 1. FC Köln“.",
+    "SC Freiburg gegen VfB Stuttgart (So 22.11., 14:00 Uhr): SC Freiburg noch nicht da, zuletzt zwei Tage vorher; VfB Stuttgart seit Fr 20.11., 15:19 Uhr: „Matchfacts: SC Freiburg – VfB-Frauen“.",
+    "RB Leipzig gegen VfL Wolfsburg (So 22.11., 16:00 Uhr): RB Leipzig seit Fr 20.11., 15:20 Uhr: „Rbl frauen empfangen wolfsburg zusammenhalt gegen offensivpower“; VfL Wolfsburg noch nicht da, zuletzt am Vortag.",
+    "Mainz 05 gegen 1. FC Nürnberg (So 22.11., 18:30 Uhr): Mainz 05 seit Fr 20.11.: „05-Frauen vor Nürnberg: Mit Intensität zum Erfolg“; 1. FC Nürnberg seit Fr 20.11.: „Vorbericht: Zu Gast im Schatten des Doms“.",
+    "FC Bayern gegen TSG Hoffenheim (Mo 23.11., 18:00 Uhr): FC Bayern noch nicht da, meist am Vortag, gegen 17 Uhr; TSG Hoffenheim seit Fr 20.11., 15:42 Uhr: Virsinger vor #FCBTSG: „Wir müssen mit Überzeugung ins Spiel gehen“.",
+    "Die offiziellen Aufstellungen kommen etwa eine Stunde vor Anpfiff, wir melden sie automatisch. Bis dahin sind Last-Minute-Änderungen möglich, gerade bei Vereinen, die unter der Woche im Europapokal gespielt haben."
    ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
+   "kickbase": "Aufstellung erst nach den Pressekonferenzen festzurren (FC Bayern). Bei allen anderen ist die offizielle Aufstellung vor Anpfiff die erste sichere Info.",
    "quellen": [
     {
-     "name": "DFB-Datencenter",
-     "url": "https://datencenter.dfb.de/matches/sc-freiburg-fc-carl-zeiss-jena-2431333"
-    }
-   ],
-   "quelle_live": true,
-   "kurz": "Reimann nicht im Kader"
-  },
-  {
-   "id": "fehlt-viggosdottir-fcb-0111",
-   "pid": "00013",
-   "zeit": "2026-11-01T13:53",
-   "spielerin": "Glódís Viggósdóttir",
-   "verein": "FC Bayern",
-   "nr": "",
-   "pos": "ABW",
-   "tags": [
-    "AUFSTELLUNG",
-    "POKAL"
-   ],
-   "status": "fraglich",
-   "headline": "Viggósdóttir nicht im Kader gegen Bayer Leverkusen",
-   "text": [
-    "Glódís Viggósdóttir steht im DFB-Pokal gegen Bayer Leverkusen weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
-    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
-   ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165391/bayern-muenchen_bayer-leverkusen/aufstellung"
-    }
-   ],
-   "quelle_live": true,
-   "kurz": "Viggósdóttir nicht im Kader"
-  },
-  {
-   "id": "fehlt-bender-b04-0111",
-   "pid": "00257",
-   "zeit": "2026-11-01T13:53",
-   "spielerin": "Loreen Bender",
-   "verein": "Bayer Leverkusen",
-   "nr": "",
-   "pos": "ST",
-   "tags": [
-    "AUFSTELLUNG",
-    "POKAL"
-   ],
-   "status": "fraglich",
-   "headline": "Bender nicht im Kader gegen FC Bayern",
-   "text": [
-    "Loreen Bender steht im DFB-Pokal gegen FC Bayern weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 4-mal.",
-    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
-   ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165391/bayern-muenchen_bayer-leverkusen/aufstellung"
-    }
-   ],
-   "quelle_live": true
-  },
-  {
-   "id": "fehlt-altenburg-sge-0111",
-   "pid": "00056",
-   "zeit": "2026-11-01T13:12",
-   "spielerin": "Lina Altenburg",
-   "verein": "Eintracht Frankfurt",
-   "nr": "",
-   "pos": "TW",
-   "tags": [
-    "AUFSTELLUNG",
-    "POKAL"
-   ],
-   "status": "fraglich",
-   "headline": "Altenburg nicht im Kader gegen 1. FC Nürnberg",
-   "text": [
-    "Lina Altenburg steht im DFB-Pokal gegen 1. FC Nürnberg weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
-    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
-   ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
-   "quellen": [
-    {
-     "name": "DFB-Datencenter",
-     "url": "https://datencenter.dfb.de/matches/1-fc-nuernberg-eintracht-frankfurt-2431335"
-    }
-   ],
-   "quelle_live": true
-  },
-  {
-   "id": "cl-austria-fcb-1911",
-   "pid": "00015",
-   "zeit": "2026-11-19T20:45",
-   "spielerin": "Alara",
-   "verein": "FC Bayern",
-   "nr": "",
-   "pos": "MF",
-   "tags": [
-    "SPIELBERICHT",
-    "EUROPAPOKAL"
-   ],
-   "status": "fit",
-   "headline": "FC Bayern gewinnt 4:0 bei Austria Wien, Alara trifft",
-   "kurz": "FC Bayern siegt 4:0 in Wien, Alara trifft",
-   "text": [
-    "Der FC Bayern gewinnt in der Champions League 4:0 bei Austria Wien. Die Tore erzielen Bühl (27.), Harder (45.+1), Alara (75.) und Proost (90.+2). Alara kam zur zweiten Halbzeit und traf nach Vorlage von Bühl. Laut Bericht steht der FC Bayern damit sicher in der Play-off-Runde.",
-    "Viggósdóttir kehrte in die Startelf zurück, Gwinn spielte 78 Minuten. Amani fehlte im Kader, sie war gelbgesperrt."
-   ],
-   "kickbase": "Alara ist als Joker in Form, für die Startelf am Wochenende ist das aber kein Hinweis. Wie viele der Stammkräfte in der Liga wieder beginnen, zeigt erst die offizielle Aufstellung.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/uefa-champions-league-frauen/ma12537093/austria-wien_bayern-muenchen/aufstellung"
+     "name": "Vorbericht Union Berlin",
+     "url": "https://www.fc-union-berlin.de/de/meldungen/unionerinnen-wollen-leverkusen-erstmals-punkte-abnehmen-YBE0xO"
     },
     {
-     "name": "WEB.DE",
-     "url": "https://web.de/magazine/sport/videos/fussball/bayern-fertigt-austria-wien-alara-traumtor-42966142"
-    }
-   ],
-   "spiel_aufstellung": [
+     "name": "Vorbericht Eintracht Frankfurt",
+     "url": "https://frauen.eintracht.de/news/hamburg-zu-gast-180503"
+    },
     {
-     "verein": "FC Bayern",
-     "k": "FCB",
-     "gegner": "Austria Wien",
-     "wettbewerb": "Champions League",
-     "ergebnis": "4:0",
-     "tore": [
-      {
-       "min": "27",
-       "n": "Bühl",
-       "eigen": true
-      },
-      {
-       "min": "45+1",
-       "n": "Harder",
-       "eigen": true,
-       "vorlage": "Dallmann"
-      },
-      {
-       "min": "75",
-       "n": "Alara",
-       "eigen": true,
-       "vorlage": "Bühl"
-      },
-      {
-       "min": "90+2",
-       "n": "Proost",
-       "eigen": true,
-       "vorlage": "Damnjanović"
-      }
-     ],
-     "vergleich": "10. Spieltag",
-     "startelf": [
-      {
-       "n": "Mahmutovic",
-       "p": "TW"
-      },
-      {
-       "n": "Kett",
-       "p": "ABW",
-       "f": "neu"
-      },
-      {
-       "n": "Eriksson",
-       "p": "ABW",
-       "aus": "46"
-      },
-      {
-       "n": "Viggósdóttir",
-       "p": "ABW",
-       "f": "neu",
-       "aus": "58"
-      },
-      {
-       "n": "Gwinn",
-       "p": "ABW",
-       "aus": "78"
-      },
-      {
-       "n": "Tanikawa",
-       "p": "DM"
-      },
-      {
-       "n": "Zadrazil",
-       "p": "MF",
-       "f": "neu"
-      },
-      {
-       "n": "Harder",
-       "p": "OM",
-       "aus": "64",
-       "tore": 1
-      },
-      {
-       "n": "Bühl",
-       "p": "OM",
-       "tore": 1,
-       "vorl": 1
-      },
-      {
-       "n": "Dallmann",
-       "p": "OM",
-       "vorl": 1
-      },
-      {
-       "n": "Imade",
-       "p": "ST",
-       "f": "neu",
-       "aus": "78"
-      }
-     ],
-     "eingewechselt": [
-      {
-       "n": "Alara",
-       "p": "MF",
-       "ein_min": "46",
-       "tore": 1
-      },
-      {
-       "n": "Ballisager",
-       "p": "ABW",
-       "ein_min": "58"
-      },
-      {
-       "n": "Damnjanović",
-       "p": "ST",
-       "ein_min": "64",
-       "vorl": 1
-      },
-      {
-       "n": "Proost",
-       "p": "MF",
-       "ein_min": "78",
-       "tore": 1
-      },
-      {
-       "n": "Mattner-Trembleau",
-       "p": "ABW",
-       "ein_min": "78"
-      }
-     ],
-     "raus": [
-      {
-       "n": "Ballisager",
-       "p": "ABW",
-       "wo": "Bank"
-      },
-      {
-       "n": "Naschenweng",
-       "p": "ABW",
-       "wo": "Bank"
-      },
-      {
-       "n": "Amani",
-       "p": "DM",
-       "wo": "nicht im Kader"
-      },
-      {
-       "n": "Damnjanović",
-       "p": "ST",
-       "wo": "Bank"
-      }
-     ],
-     "ohne_einsatz": [
-      "Klink",
-      "van Eijk",
-      "Naschenweng",
-      "Dunst"
-     ]
+     "name": "Vorbericht Hamburger SV",
+     "url": "https://www.hsv.de/news/gegen-wind-und-wetter-hsv-frauen-bereit-fuer-frankfurt"
+    },
+    {
+     "name": "Vorbericht Werder Bremen",
+     "url": "https://www.werder.de/news/frauen/2026-2027/fanhinweise-1-fc-koeln-19112026"
+    },
+    {
+     "name": "Vorbericht VfB Stuttgart",
+     "url": "https://www.vfb.de/de/vfb/aktuell/neues/vfb-frauen/26-27/matchfacts--sc-freiburg-----vfb-frauen/"
+    },
+    {
+     "name": "Vorbericht RB Leipzig",
+     "url": "https://rbleipzig.com/de/news/rbl-frauen-empfangen-wolfsburg-zusammenhalt-gegen-offensivpower"
+    },
+    {
+     "name": "Vorbericht Mainz 05",
+     "url": "https://www.mainz05.de/news/vorbericht-frauen-nurnberg-2627"
+    },
+    {
+     "name": "Vorbericht 1. FC Nürnberg",
+     "url": "https://www.fcn.de/news/artikel/vorbericht-zu-gast-im-schatten-des-doms/"
+    },
+    {
+     "name": "Vorbericht TSG Hoffenheim",
+     "url": "https://www.tsg-hoffenheim.de/aktuelles/news/2026/11/virsinger-vor-fcbtsg-wir-muessen-mit-ueberzeugung-ins-spiel-gehen"
+    },
+    {
+     "name": "FC Bayern Frauen",
+     "url": "https://fcbayern.com/frauen/de"
     }
-   ],
-   "foto": "fotos/fcb-alara-sehitler.webp",
-   "foto_credit": {
-    "autor": "MichaelEmilio",
-    "lizenz": "CC BY 4.0",
-    "url": "https://commons.wikimedia.org/wiki/File:V%C3%A5lerenga_Fotball_Damer_v_FC_Bayern_M%C3%BCnchen_Frauen,_21_November_2024_08_(cropped).jpg"
-   }
+   ]
   },
   {
    "id": "endstand-fcu-2011",
@@ -630,38 +402,6 @@
    "quelle_live": true
   },
   {
-   "id": "alara-2011",
-   "pid": "00015",
-   "zeit": "2026-11-20T14:49",
-   "spielerin": "Alara",
-   "verein": "FC Bayern",
-   "nr": "14",
-   "pos": "MF",
-   "tags": [
-    "NATIONALTEAM"
-   ],
-   "headline": "Alara fehlt im DFB-Kader, Ärger bleibt",
-   "kurz": "Alara nicht im DFB-Kader der Länderspielpause",
-   "text": [
-    "Bundestrainer Christian Wück hat die 19-jährige Alara nicht für die Länderspielpause der deutschen Frauen-Nationalmannschaft nominiert. Nach dem 4:0 des FC Bayern gegen Austria Wien, in dem sie zur zweiten Halbzeit eingewechselt wurde, sagte sie im ZDF kurz: \"Die Nominierung war da und wurde so entschieden.\"",
-    "Die Entscheidung des Bundestrainers sorgt laut BR für Schlagzeilen. Alara bleibt damit während der Länderspielpause bei ihrem Verein."
-   ],
-   "kickbase": "Für die Kickbase-Aufstellung ändert die Nicht-Nominierung nichts. Alara steht dem FC Bayern in der Pause zur Verfügung und ist nach der Pause normal einzuplanen.",
-   "status": "fit",
-   "quellen": [
-    {
-     "name": "BR24Sport",
-     "url": "https://www.br.de/nachrichten/sport/fussball-fc-bayern-frauen-alara-zeigt-s-dfb-coach-christian-wueck-antwort-auf-und-neben-dem-platz,VbWAo2x"
-    }
-   ],
-   "foto": "fotos/fcb-alara-sehitler.webp",
-   "foto_credit": {
-    "autor": "MichaelEmilio",
-    "lizenz": "CC BY 4.0",
-    "url": "https://commons.wikimedia.org/wiki/File:V%C3%A5lerenga_Fotball_Damer_v_FC_Bayern_M%C3%BCnchen_Frauen,_21_November_2024_08_(cropped).jpg"
-   }
-  },
-  {
    "id": "lattwein-2011",
    "pid": "00403",
    "zeit": "2026-11-20T15:18",
@@ -713,6 +453,38 @@
    }
   },
   {
+   "id": "alara-2011",
+   "pid": "00015",
+   "zeit": "2026-11-20T14:49",
+   "spielerin": "Alara",
+   "verein": "FC Bayern",
+   "nr": "14",
+   "pos": "MF",
+   "tags": [
+    "NATIONALTEAM"
+   ],
+   "headline": "Alara fehlt im DFB-Kader, Ärger bleibt",
+   "kurz": "Alara nicht im DFB-Kader der Länderspielpause",
+   "text": [
+    "Bundestrainer Christian Wück hat die 19-jährige Alara nicht für die Länderspielpause der deutschen Frauen-Nationalmannschaft nominiert. Nach dem 4:0 des FC Bayern gegen Austria Wien, in dem sie zur zweiten Halbzeit eingewechselt wurde, sagte sie im ZDF kurz: \"Die Nominierung war da und wurde so entschieden.\"",
+    "Die Entscheidung des Bundestrainers sorgt laut BR für Schlagzeilen. Alara bleibt damit während der Länderspielpause bei ihrem Verein."
+   ],
+   "kickbase": "Für die Kickbase-Aufstellung ändert die Nicht-Nominierung nichts. Alara steht dem FC Bayern in der Pause zur Verfügung und ist nach der Pause normal einzuplanen.",
+   "status": "fit",
+   "quellen": [
+    {
+     "name": "BR24Sport",
+     "url": "https://www.br.de/nachrichten/sport/fussball-fc-bayern-frauen-alara-zeigt-s-dfb-coach-christian-wueck-antwort-auf-und-neben-dem-platz,VbWAo2x"
+    }
+   ],
+   "foto": "fotos/fcb-alara-sehitler.webp",
+   "foto_credit": {
+    "autor": "MichaelEmilio",
+    "lizenz": "CC BY 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:V%C3%A5lerenga_Fotball_Damer_v_FC_Bayern_M%C3%BCnchen_Frauen,_21_November_2024_08_(cropped).jpg"
+   }
+  },
+  {
    "id": "rankin-2011",
    "pid": "00067",
    "zeit": "2026-11-20T12:09",
@@ -752,6 +524,195 @@
     "autor": "Eintracht Frankfurt",
     "lizenz": "mit Genehmigung: Eintracht Frankfurt",
     "url": "https://frauen.eintracht.de/kader/"
+   }
+  },
+  {
+   "id": "cl-austria-fcb-1911",
+   "pid": "00015",
+   "zeit": "2026-11-19T20:45",
+   "spielerin": "Alara",
+   "verein": "FC Bayern",
+   "nr": "",
+   "pos": "MF",
+   "tags": [
+    "SPIELBERICHT",
+    "EUROPAPOKAL"
+   ],
+   "status": "fit",
+   "headline": "FC Bayern gewinnt 4:0 bei Austria Wien, Alara trifft",
+   "kurz": "FC Bayern siegt 4:0 in Wien, Alara trifft",
+   "text": [
+    "Der FC Bayern gewinnt in der Champions League 4:0 bei Austria Wien. Die Tore erzielen Bühl (27.), Harder (45.+1), Alara (75.) und Proost (90.+2). Alara kam zur zweiten Halbzeit und traf nach Vorlage von Bühl. Laut Bericht steht der FC Bayern damit sicher in der Play-off-Runde.",
+    "Viggósdóttir kehrte in die Startelf zurück, Gwinn spielte 78 Minuten. Amani fehlte im Kader, sie war gelbgesperrt."
+   ],
+   "kickbase": "Alara ist als Joker in Form, für die Startelf am Wochenende ist das aber kein Hinweis. Wie viele der Stammkräfte in der Liga wieder beginnen, zeigt erst die offizielle Aufstellung.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/uefa-champions-league-frauen/ma12537093/austria-wien_bayern-muenchen/aufstellung"
+    },
+    {
+     "name": "WEB.DE",
+     "url": "https://web.de/magazine/sport/videos/fussball/bayern-fertigt-austria-wien-alara-traumtor-42966142"
+    }
+   ],
+   "spiel_aufstellung": [
+    {
+     "verein": "FC Bayern",
+     "k": "FCB",
+     "gegner": "Austria Wien",
+     "wettbewerb": "Champions League",
+     "ergebnis": "4:0",
+     "tore": [
+      {
+       "min": "27",
+       "n": "Bühl",
+       "eigen": true
+      },
+      {
+       "min": "45+1",
+       "n": "Harder",
+       "eigen": true,
+       "vorlage": "Dallmann"
+      },
+      {
+       "min": "75",
+       "n": "Alara",
+       "eigen": true,
+       "vorlage": "Bühl"
+      },
+      {
+       "min": "90+2",
+       "n": "Proost",
+       "eigen": true,
+       "vorlage": "Damnjanović"
+      }
+     ],
+     "vergleich": "10. Spieltag",
+     "startelf": [
+      {
+       "n": "Mahmutovic",
+       "p": "TW"
+      },
+      {
+       "n": "Kett",
+       "p": "ABW",
+       "f": "neu"
+      },
+      {
+       "n": "Eriksson",
+       "p": "ABW",
+       "aus": "46"
+      },
+      {
+       "n": "Viggósdóttir",
+       "p": "ABW",
+       "f": "neu",
+       "aus": "58"
+      },
+      {
+       "n": "Gwinn",
+       "p": "ABW",
+       "aus": "78"
+      },
+      {
+       "n": "Tanikawa",
+       "p": "DM"
+      },
+      {
+       "n": "Zadrazil",
+       "p": "MF",
+       "f": "neu"
+      },
+      {
+       "n": "Harder",
+       "p": "OM",
+       "aus": "64",
+       "tore": 1
+      },
+      {
+       "n": "Bühl",
+       "p": "OM",
+       "tore": 1,
+       "vorl": 1
+      },
+      {
+       "n": "Dallmann",
+       "p": "OM",
+       "vorl": 1
+      },
+      {
+       "n": "Imade",
+       "p": "ST",
+       "f": "neu",
+       "aus": "78"
+      }
+     ],
+     "eingewechselt": [
+      {
+       "n": "Alara",
+       "p": "MF",
+       "ein_min": "46",
+       "tore": 1
+      },
+      {
+       "n": "Ballisager",
+       "p": "ABW",
+       "ein_min": "58"
+      },
+      {
+       "n": "Damnjanović",
+       "p": "ST",
+       "ein_min": "64",
+       "vorl": 1
+      },
+      {
+       "n": "Proost",
+       "p": "MF",
+       "ein_min": "78",
+       "tore": 1
+      },
+      {
+       "n": "Mattner-Trembleau",
+       "p": "ABW",
+       "ein_min": "78"
+      }
+     ],
+     "raus": [
+      {
+       "n": "Ballisager",
+       "p": "ABW",
+       "wo": "Bank"
+      },
+      {
+       "n": "Naschenweng",
+       "p": "ABW",
+       "wo": "Bank"
+      },
+      {
+       "n": "Amani",
+       "p": "DM",
+       "wo": "nicht im Kader"
+      },
+      {
+       "n": "Damnjanović",
+       "p": "ST",
+       "wo": "Bank"
+      }
+     ],
+     "ohne_einsatz": [
+      "Klink",
+      "van Eijk",
+      "Naschenweng",
+      "Dunst"
+     ]
+    }
+   ],
+   "foto": "fotos/fcb-alara-sehitler.webp",
+   "foto_credit": {
+    "autor": "MichaelEmilio",
+    "lizenz": "CC BY 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:V%C3%A5lerenga_Fotball_Damer_v_FC_Bayern_M%C3%BCnchen_Frauen,_21_November_2024_08_(cropped).jpg"
    }
   },
   {
@@ -8955,6 +8916,116 @@
      "url": "https://www.fcn.de/news/artikel/vorbericht-an-den-ersten-sieg-anknuepfen/"
     }
    ]
+  },
+  {
+   "id": "fehlt-reimann-scf-0111",
+   "pid": "00085",
+   "zeit": "2026-11-01T14:08",
+   "spielerin": "Anna Reimann",
+   "verein": "SC Freiburg",
+   "nr": "",
+   "pos": "TW",
+   "tags": [
+    "AUFSTELLUNG",
+    "POKAL"
+   ],
+   "status": "fraglich",
+   "headline": "Reimann nicht im Kader gegen FC Carl Zeiss Jena",
+   "text": [
+    "Anna Reimann steht im DFB-Pokal gegen FC Carl Zeiss Jena weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
+    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
+   ],
+   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
+   "quellen": [
+    {
+     "name": "DFB-Datencenter",
+     "url": "https://datencenter.dfb.de/matches/sc-freiburg-fc-carl-zeiss-jena-2431333"
+    }
+   ],
+   "quelle_live": true,
+   "kurz": "Reimann nicht im Kader"
+  },
+  {
+   "id": "fehlt-viggosdottir-fcb-0111",
+   "pid": "00013",
+   "zeit": "2026-11-01T13:53",
+   "spielerin": "Glódís Viggósdóttir",
+   "verein": "FC Bayern",
+   "nr": "",
+   "pos": "ABW",
+   "tags": [
+    "AUFSTELLUNG",
+    "POKAL"
+   ],
+   "status": "fraglich",
+   "headline": "Viggósdóttir nicht im Kader gegen Bayer Leverkusen",
+   "text": [
+    "Glódís Viggósdóttir steht im DFB-Pokal gegen Bayer Leverkusen weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
+    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
+   ],
+   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165391/bayern-muenchen_bayer-leverkusen/aufstellung"
+    }
+   ],
+   "quelle_live": true,
+   "kurz": "Viggósdóttir nicht im Kader"
+  },
+  {
+   "id": "fehlt-bender-b04-0111",
+   "pid": "00257",
+   "zeit": "2026-11-01T13:53",
+   "spielerin": "Loreen Bender",
+   "verein": "Bayer Leverkusen",
+   "nr": "",
+   "pos": "ST",
+   "tags": [
+    "AUFSTELLUNG",
+    "POKAL"
+   ],
+   "status": "fraglich",
+   "headline": "Bender nicht im Kader gegen FC Bayern",
+   "text": [
+    "Loreen Bender steht im DFB-Pokal gegen FC Bayern weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 4-mal.",
+    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
+   ],
+   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165391/bayern-muenchen_bayer-leverkusen/aufstellung"
+    }
+   ],
+   "quelle_live": true
+  },
+  {
+   "id": "fehlt-altenburg-sge-0111",
+   "pid": "00056",
+   "zeit": "2026-11-01T13:12",
+   "spielerin": "Lina Altenburg",
+   "verein": "Eintracht Frankfurt",
+   "nr": "",
+   "pos": "TW",
+   "tags": [
+    "AUFSTELLUNG",
+    "POKAL"
+   ],
+   "status": "fraglich",
+   "headline": "Altenburg nicht im Kader gegen 1. FC Nürnberg",
+   "text": [
+    "Lina Altenburg steht im DFB-Pokal gegen 1. FC Nürnberg weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
+    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
+   ],
+   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
+   "quellen": [
+    {
+     "name": "DFB-Datencenter",
+     "url": "https://datencenter.dfb.de/matches/1-fc-nuernberg-eintracht-frankfurt-2431335"
+    }
+   ],
+   "quelle_live": true
   }
  ]
 }
