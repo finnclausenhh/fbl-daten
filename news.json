@@ -160,7 +160,8 @@
    ],
    "headline": "Offizielle Aufstellung: Hamburger SV gegen Eintracht Frankfurt",
    "text": [
-    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Wrede. Die Bank folgt, sobald sie veröffentlicht ist."
+    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Wrede.",
+    "Nicht im Spieltagskader (laut Sportschau), obwohl im letzten Ligaspiel dabei: Dönges. Einen Grund nennt bisher keine Quelle."
    ],
    "kickbase": "",
    "quellen": [
@@ -235,14 +236,61 @@
       "pid": "00171"
      }
     ],
-    "bank": [],
-    "fehlt": [],
-    "bank_offen": true,
-    "nicht_startelf": [
+    "bank": [
+     {
+      "n": "Sieger",
+      "p": "TW",
+      "pid": "00150"
+     },
+     {
+      "n": "Martens",
+      "p": "ABW",
+      "pid": "00155"
+     },
+     {
+      "n": "Räcke",
+      "p": "ABW",
+      "pid": "00159"
+     },
+     {
+      "n": "Mirzaliyeva",
+      "p": "ABW",
+      "pid": "00157"
+     },
+     {
+      "n": "Obispo",
+      "p": "ABW",
+      "pid": "00158"
+     },
+     {
+      "n": "Eggert",
+      "p": "MF",
+      "pid": "00162"
+     },
      {
       "n": "Wrede",
       "p": "ABW",
-      "pid": ""
+      "pid": "",
+      "f": "raus"
+     },
+     {
+      "n": "Schwalm",
+      "p": "ST",
+      "pid": "00174"
+     },
+     {
+      "n": "Brunnthaler",
+      "p": "ST",
+      "pid": "00169"
+     }
+    ],
+    "fehlt": [
+     {
+      "n": "Dönges",
+      "p": "ABW",
+      "pid": "00153",
+      "f": "raus",
+      "war": "Bank"
      }
     ]
    },
