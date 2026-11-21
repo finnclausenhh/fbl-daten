@@ -2,6 +2,34 @@
  "stand": "2026-11-21T15:51",
  "meldungen": [
   {
+   "id": "endstand-koe-2111",
+   "zeit": "2026-11-21T15:58",
+   "spielerin": "1. FC Köln gegen Werder Bremen",
+   "verein": "1. FC Köln",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "SPIELBERICHT"
+   ],
+   "headline": "Endstand: 1. FC Köln 2:2 Werder Bremen",
+   "kurz": "Endstand KOE 2:2 SVW",
+   "text": [
+    "1. FC Köln und Werder Bremen trennen sich 2:2.",
+    "Tore: 1:0 Vogt (26., Elfmeter), 1:1 Vanzeir (56.), 2:1 Andrade (74., Vorlage Hegering), 2:2 Shimada (78., Vorlage Hipp).",
+    "Gelb: Mahmoud, Andrade, Ulbrich, Kromp (Trainerbank), Wirtz, Leimenstoll.",
+    "Noten und der ausführliche Bericht folgen."
+   ],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306328/1-fc-koeln_werder-bremen/liveticker"
+    }
+   ],
+   "quelle_live": true,
+   "partie_id": "12306328"
+  },
+  {
    "id": "fehlt-reimann-scf-0111",
    "pid": "00085",
    "zeit": "2026-11-01T14:08",
