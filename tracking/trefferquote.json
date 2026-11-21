@@ -1,14 +1,14 @@
 {
  "modus": "live",
- "stand": "2026-11-20T07:41",
+ "stand": "2026-11-21T07:33",
  "hinweis": "Letzte veröffentlichte Prognose vor Anpfiff gegen offizielle Startelf. Quelle: Git-Historie von spielplan.json.",
  "gesamt": {
-  "teams": 30,
-  "elf_treffer_schnitt": 9.1,
-  "elf_quote": 0.827,
+  "teams": 32,
+  "elf_treffer_schnitt": 9.16,
+  "elf_quote": 0.832,
   "elf_verteilung": {
    "11": 4,
-   "10": 11,
+   "10": 13,
    "9": 4,
    "8": 7,
    "7": 3,
@@ -16,83 +16,83 @@
   },
   "je_stufe": {
    "sicher": {
-    "n": 141,
-    "begonnen": 136,
-    "quote": 0.965
+    "n": 156,
+    "begonnen": 150,
+    "quote": 0.962
    },
    "erwartet": {
-    "n": 170,
-    "begonnen": 128,
-    "quote": 0.753
+    "n": 177,
+    "begonnen": 134,
+    "quote": 0.757
    },
    "unsicher": {
-    "n": 187,
-    "begonnen": 58,
-    "quote": 0.31
+    "n": 198,
+    "begonnen": 60,
+    "quote": 0.303
    },
    "unwahrscheinlich": {
-    "n": 102,
+    "n": 109,
     "begonnen": 5,
-    "quote": 0.049
+    "quote": 0.046
    },
    "ausgeschlossen": {
-    "n": 100,
+    "n": 108,
     "begonnen": 2,
-    "quote": 0.02
+    "quote": 0.019
    }
   },
   "kalibrierung": [
    {
     "ab_einsatzwert": 1.0,
-    "n": 136,
-    "begonnen": 130,
-    "quote": 0.956
+    "n": 146,
+    "begonnen": 139,
+    "quote": 0.952
    },
    {
     "ab_einsatzwert": 0.95,
-    "n": 150,
-    "begonnen": 143,
-    "quote": 0.953
+    "n": 165,
+    "begonnen": 157,
+    "quote": 0.952
    },
    {
     "ab_einsatzwert": 0.9,
-    "n": 184,
-    "begonnen": 170,
-    "quote": 0.924
+    "n": 201,
+    "begonnen": 186,
+    "quote": 0.925
    },
    {
     "ab_einsatzwert": 0.85,
-    "n": 221,
-    "begonnen": 200,
-    "quote": 0.905
+    "n": 240,
+    "begonnen": 218,
+    "quote": 0.908
    },
    {
     "ab_einsatzwert": 0.8,
-    "n": 242,
-    "begonnen": 213,
-    "quote": 0.88
+    "n": 262,
+    "begonnen": 231,
+    "quote": 0.882
    },
    {
     "ab_einsatzwert": 0.7,
-    "n": 291,
-    "begonnen": 247,
-    "quote": 0.849
+    "n": 312,
+    "begonnen": 266,
+    "quote": 0.853
    },
    {
     "ab_einsatzwert": 0.55,
-    "n": 355,
-    "begonnen": 280,
-    "quote": 0.789
+    "n": 378,
+    "begonnen": 300,
+    "quote": 0.794
    },
    {
     "ab_einsatzwert": 0.3,
-    "n": 466,
-    "begonnen": 316,
-    "quote": 0.678
+    "n": 495,
+    "begonnen": 338,
+    "quote": 0.683
    }
   ],
   "sicher_daneben_grund": {
-   "bank": 3,
+   "bank": 4,
    "nicht im Kader": 2
   },
   "sicher_aber_nicht_begonnen": [
@@ -130,16 +130,23 @@
     "n": "Stegemann",
     "stufe": "sicher",
     "kader": "nicht im Kader"
+   },
+   {
+    "md": 11,
+    "verein": "Bayer Leverkusen",
+    "n": "Wenger",
+    "stufe": "sicher",
+    "kader": "bank"
    }
   ]
  },
  "gesamt_24h": {
-  "teams": 30,
-  "elf_treffer_schnitt": 9.0,
-  "elf_quote": 0.818,
+  "teams": 32,
+  "elf_treffer_schnitt": 9.06,
+  "elf_quote": 0.824,
   "elf_verteilung": {
    "11": 4,
-   "10": 11,
+   "10": 13,
    "9": 4,
    "8": 6,
    "7": 2,
@@ -147,83 +154,83 @@
   },
   "je_stufe": {
    "sicher": {
-    "n": 141,
-    "begonnen": 136,
-    "quote": 0.965
+    "n": 156,
+    "begonnen": 150,
+    "quote": 0.962
    },
    "erwartet": {
-    "n": 174,
-    "begonnen": 128,
-    "quote": 0.736
+    "n": 181,
+    "begonnen": 134,
+    "quote": 0.74
    },
    "unsicher": {
-    "n": 184,
-    "begonnen": 58,
-    "quote": 0.315
+    "n": 195,
+    "begonnen": 60,
+    "quote": 0.308
    },
    "unwahrscheinlich": {
-    "n": 101,
+    "n": 108,
     "begonnen": 6,
-    "quote": 0.059
+    "quote": 0.056
    },
    "ausgeschlossen": {
-    "n": 99,
+    "n": 107,
     "begonnen": 1,
-    "quote": 0.01
+    "quote": 0.009
    }
   },
   "kalibrierung": [
    {
     "ab_einsatzwert": 1.0,
-    "n": 137,
-    "begonnen": 130,
-    "quote": 0.949
+    "n": 147,
+    "begonnen": 139,
+    "quote": 0.946
    },
    {
     "ab_einsatzwert": 0.95,
-    "n": 151,
-    "begonnen": 143,
-    "quote": 0.947
+    "n": 166,
+    "begonnen": 157,
+    "quote": 0.946
    },
    {
     "ab_einsatzwert": 0.9,
-    "n": 185,
-    "begonnen": 170,
-    "quote": 0.919
+    "n": 202,
+    "begonnen": 186,
+    "quote": 0.921
    },
    {
     "ab_einsatzwert": 0.85,
-    "n": 222,
-    "begonnen": 200,
-    "quote": 0.901
+    "n": 241,
+    "begonnen": 218,
+    "quote": 0.905
    },
    {
     "ab_einsatzwert": 0.8,
-    "n": 243,
-    "begonnen": 213,
-    "quote": 0.877
+    "n": 263,
+    "begonnen": 231,
+    "quote": 0.878
    },
    {
     "ab_einsatzwert": 0.7,
-    "n": 292,
-    "begonnen": 247,
-    "quote": 0.846
+    "n": 313,
+    "begonnen": 266,
+    "quote": 0.85
    },
    {
     "ab_einsatzwert": 0.55,
-    "n": 356,
-    "begonnen": 280,
-    "quote": 0.787
+    "n": 379,
+    "begonnen": 300,
+    "quote": 0.792
    },
    {
     "ab_einsatzwert": 0.3,
-    "n": 467,
-    "begonnen": 316,
-    "quote": 0.677
+    "n": 496,
+    "begonnen": 338,
+    "quote": 0.681
    }
   ],
   "sicher_daneben_grund": {
-   "bank": 3,
+   "bank": 4,
    "nicht im Kader": 2
   },
   "sicher_aber_nicht_begonnen": [
@@ -261,6 +268,13 @@
     "n": "Stegemann",
     "stufe": "sicher",
     "kader": "nicht im Kader"
+   },
+   {
+    "md": 11,
+    "verein": "Bayer Leverkusen",
+    "n": "Wenger",
+    "stufe": "sicher",
+    "kader": "bank"
    }
   ]
  },
@@ -355,12 +369,12 @@
   "sicher_aber_nicht_begonnen": []
  },
  "normale_woche": {
-  "teams": 29,
-  "elf_treffer_schnitt": 9.07,
-  "elf_quote": 0.824,
+  "teams": 31,
+  "elf_treffer_schnitt": 9.13,
+  "elf_quote": 0.83,
   "elf_verteilung": {
    "11": 4,
-   "10": 10,
+   "10": 12,
    "9": 4,
    "8": 7,
    "7": 3,
@@ -368,83 +382,83 @@
   },
   "je_stufe": {
    "sicher": {
-    "n": 141,
-    "begonnen": 136,
-    "quote": 0.965
+    "n": 156,
+    "begonnen": 150,
+    "quote": 0.962
    },
    "erwartet": {
-    "n": 159,
-    "begonnen": 118,
-    "quote": 0.742
+    "n": 166,
+    "begonnen": 124,
+    "quote": 0.747
    },
    "unsicher": {
-    "n": 182,
-    "begonnen": 57,
-    "quote": 0.313
+    "n": 193,
+    "begonnen": 59,
+    "quote": 0.306
    },
    "unwahrscheinlich": {
-    "n": 98,
+    "n": 105,
     "begonnen": 5,
-    "quote": 0.051
+    "quote": 0.048
    },
    "ausgeschlossen": {
-    "n": 95,
+    "n": 103,
     "begonnen": 2,
-    "quote": 0.021
+    "quote": 0.019
    }
   },
   "kalibrierung": [
    {
     "ab_einsatzwert": 1.0,
-    "n": 131,
-    "begonnen": 125,
-    "quote": 0.954
+    "n": 141,
+    "begonnen": 134,
+    "quote": 0.95
    },
    {
     "ab_einsatzwert": 0.95,
-    "n": 144,
-    "begonnen": 137,
-    "quote": 0.951
+    "n": 159,
+    "begonnen": 151,
+    "quote": 0.95
    },
    {
     "ab_einsatzwert": 0.9,
-    "n": 178,
-    "begonnen": 164,
-    "quote": 0.921
+    "n": 195,
+    "begonnen": 180,
+    "quote": 0.923
    },
    {
     "ab_einsatzwert": 0.85,
-    "n": 215,
-    "begonnen": 194,
-    "quote": 0.902
+    "n": 234,
+    "begonnen": 212,
+    "quote": 0.906
    },
    {
     "ab_einsatzwert": 0.8,
-    "n": 236,
-    "begonnen": 207,
-    "quote": 0.877
+    "n": 256,
+    "begonnen": 225,
+    "quote": 0.879
    },
    {
     "ab_einsatzwert": 0.7,
-    "n": 282,
-    "begonnen": 240,
-    "quote": 0.851
+    "n": 303,
+    "begonnen": 259,
+    "quote": 0.855
    },
    {
     "ab_einsatzwert": 0.55,
-    "n": 341,
-    "begonnen": 269,
-    "quote": 0.789
+    "n": 364,
+    "begonnen": 289,
+    "quote": 0.794
    },
    {
     "ab_einsatzwert": 0.3,
-    "n": 450,
-    "begonnen": 305,
-    "quote": 0.678
+    "n": 479,
+    "begonnen": 327,
+    "quote": 0.683
    }
   ],
   "sicher_daneben_grund": {
-   "bank": 3,
+   "bank": 4,
    "nicht im Kader": 2
   },
   "sicher_aber_nicht_begonnen": [
@@ -482,6 +496,13 @@
     "n": "Stegemann",
     "stufe": "sicher",
     "kader": "nicht im Kader"
+   },
+   {
+    "md": 11,
+    "verein": "Bayer Leverkusen",
+    "n": "Wenger",
+    "stufe": "sicher",
+    "kader": "bank"
    }
   ]
  },
@@ -798,6 +819,104 @@
      "n": "Stegemann",
      "stufe": "sicher",
      "kader": "nicht im Kader"
+    }
+   ]
+  },
+  "11": {
+   "teams": 2,
+   "elf_treffer_schnitt": 10.0,
+   "elf_quote": 0.909,
+   "elf_verteilung": {
+    "10": 2
+   },
+   "je_stufe": {
+    "sicher": {
+     "n": 15,
+     "begonnen": 14,
+     "quote": 0.933
+    },
+    "erwartet": {
+     "n": 7,
+     "begonnen": 6,
+     "quote": 0.857
+    },
+    "unsicher": {
+     "n": 11,
+     "begonnen": 2,
+     "quote": 0.182
+    },
+    "unwahrscheinlich": {
+     "n": 7,
+     "begonnen": 0,
+     "quote": 0.0
+    },
+    "ausgeschlossen": {
+     "n": 8,
+     "begonnen": 0,
+     "quote": 0.0
+    }
+   },
+   "kalibrierung": [
+    {
+     "ab_einsatzwert": 1.0,
+     "n": 10,
+     "begonnen": 9,
+     "quote": 0.9
+    },
+    {
+     "ab_einsatzwert": 0.95,
+     "n": 15,
+     "begonnen": 14,
+     "quote": 0.933
+    },
+    {
+     "ab_einsatzwert": 0.9,
+     "n": 17,
+     "begonnen": 16,
+     "quote": 0.941
+    },
+    {
+     "ab_einsatzwert": 0.85,
+     "n": 19,
+     "begonnen": 18,
+     "quote": 0.947
+    },
+    {
+     "ab_einsatzwert": 0.8,
+     "n": 20,
+     "begonnen": 18,
+     "quote": 0.9
+    },
+    {
+     "ab_einsatzwert": 0.7,
+     "n": 21,
+     "begonnen": 19,
+     "quote": 0.905
+    },
+    {
+     "ab_einsatzwert": 0.55,
+     "n": 23,
+     "begonnen": 20,
+     "quote": 0.87
+    },
+    {
+     "ab_einsatzwert": 0.3,
+     "n": 29,
+     "begonnen": 22,
+     "quote": 0.759
+    }
+   ],
+   "sicher_daneben_grund": {
+    "bank": 1,
+    "nicht im Kader": 0
+   },
+   "sicher_aber_nicht_begonnen": [
+    {
+     "md": 11,
+     "verein": "Bayer Leverkusen",
+     "n": "Wenger",
+     "stufe": "sicher",
+     "kader": "bank"
     }
    ]
   }
