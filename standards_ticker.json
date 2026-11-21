@@ -1,5 +1,5 @@
 {
-"spiele": 71,
+"spiele": 72,
 "teams": {
 "FCB": [
 {
@@ -590,8 +590,8 @@
 {
 "k": "SGE",
 "n": "Amanda Ilestedt",
-"kopf": 5,
-"std_kopf": 5,
+"kopf": 7,
+"std_kopf": 7,
 "std_tore": 0,
 "ecke_tritt": 0,
 "fs_tritt": 0,
@@ -664,7 +664,7 @@
 "ecke_r": 0,
 "fs_l": 0,
 "fs_r": 0,
-"fs_direkt": 0,
+"fs_direkt": 1,
 "fs_flanke": 0
 },
 {
@@ -689,10 +689,10 @@
 "kopf": 0,
 "std_kopf": 0,
 "std_tore": 0,
-"ecke_tritt": 0,
+"ecke_tritt": 1,
 "fs_tritt": 2,
 "std_kopftore": 0,
-"ecke_l": 0,
+"ecke_l": 1,
 "ecke_r": 1,
 "fs_l": 1,
 "fs_r": 0,
@@ -705,11 +705,11 @@
 "kopf": 0,
 "std_kopf": 0,
 "std_tore": 0,
-"ecke_tritt": 1,
+"ecke_tritt": 3,
 "fs_tritt": 0,
 "std_kopftore": 0,
-"ecke_l": 0,
-"ecke_r": 1,
+"ecke_l": 1,
+"ecke_r": 3,
 "fs_l": 0,
 "fs_r": 0,
 "fs_direkt": 0,
