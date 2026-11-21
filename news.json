@@ -1,6 +1,392 @@
 {
- "stand": "2026-11-21T12:51",
+ "stand": "2026-11-21T13:20",
  "meldungen": [
+  {
+   "id": "aufstellung-koe-2111",
+   "zeit": "2026-11-21T13:20",
+   "spielerin": "Spielansetzung",
+   "verein": "1. FC Köln",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "TOP"
+   ],
+   "headline": "Offizielle Aufstellung: 1. FC Köln gegen Werder Bremen",
+   "text": [
+    "Nicht im Spieltagskader, obwohl im letzten Ligaspiel dabei: Bohnen. Einen Grund nennt bisher keine Quelle."
+   ],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306328/1-fc-koeln_werder-bremen/aufstellung"
+    }
+   ],
+   "aufstellung": {
+    "gegner": "Werder Bremen",
+    "formation": "3-3-2-2",
+    "startelf": [
+     {
+      "n": "Schmitz",
+      "p": "TW",
+      "pid": "00181"
+     },
+     {
+      "n": "Degen",
+      "p": "ABW",
+      "pid": "00185"
+     },
+     {
+      "n": "Vogt",
+      "p": "ABW",
+      "pid": "00203",
+      "kp": "MF"
+     },
+     {
+      "n": "Hegering",
+      "p": "ABW",
+      "pid": "00188"
+     },
+     {
+      "n": "Imping",
+      "p": "DM",
+      "pid": "00191",
+      "kp": "ABW"
+     },
+     {
+      "n": "Feiersinger",
+      "p": "DM",
+      "pid": "00196",
+      "kp": "MF"
+     },
+     {
+      "n": "Leimenstoll",
+      "p": "DM",
+      "pid": "00209",
+      "kp": "MF"
+     },
+     {
+      "n": "Donhauser",
+      "p": "OM",
+      "pid": "00186",
+      "kp": "ABW",
+      "f": "neu"
+     },
+     {
+      "n": "Elsen",
+      "p": "OM",
+      "pid": "00208",
+      "kp": "MF"
+     },
+     {
+      "n": "Bremer",
+      "p": "ST",
+      "pid": "00206"
+     },
+     {
+      "n": "Andrade",
+      "p": "ST",
+      "pid": "00205"
+     }
+    ],
+    "bank": [
+     {
+      "n": "Fuchs",
+      "p": "TW",
+      "pid": "00178"
+     },
+     {
+      "n": "Sterner",
+      "p": "MF",
+      "pid": "00193",
+      "f": "neu"
+     },
+     {
+      "n": "Stenevik",
+      "p": "ABW",
+      "pid": "00192"
+     },
+     {
+      "n": "Weber",
+      "p": "ABW",
+      "pid": "00195",
+      "f": "neu"
+     },
+     {
+      "n": "Schiffarth",
+      "p": "MF",
+      "pid": "00202"
+     },
+     {
+      "n": "Heiðarsdóttir",
+      "p": "MF",
+      "pid": "00197"
+     },
+     {
+      "n": "Zawistowska",
+      "p": "ST",
+      "pid": "00211"
+     },
+     {
+      "n": "Zeller",
+      "p": "ST",
+      "pid": "00212"
+     },
+     {
+      "n": "Stolze",
+      "p": "ST",
+      "pid": "00210"
+     }
+    ],
+    "fehlt": [
+     {
+      "n": "Bohnen",
+      "p": "ABW",
+      "f": "raus",
+      "war": "Startelf"
+     },
+     {
+      "n": "Hendrich",
+      "p": "ABW",
+      "f": "raus",
+      "war": "Bank"
+     },
+     {
+      "n": "Dübel",
+      "p": "TW"
+     },
+     {
+      "n": "Hoppe",
+      "p": "TW"
+     },
+     {
+      "n": "Nelles",
+      "p": "TW"
+     },
+     {
+      "n": "Schuldt",
+      "p": "TW"
+     },
+     {
+      "n": "Treede",
+      "p": "TW"
+     },
+     {
+      "n": "Gerhardt",
+      "p": "ABW"
+     },
+     {
+      "n": "Hokamp",
+      "p": "ABW"
+     },
+     {
+      "n": "Szaraz",
+      "p": "ABW"
+     },
+     {
+      "n": "Jessen",
+      "p": "MF"
+     },
+     {
+      "n": "Kerschbaumer",
+      "p": "MF"
+     },
+     {
+      "n": "Nachtigall",
+      "p": "MF"
+     },
+     {
+      "n": "Schäfer",
+      "p": "MF"
+     },
+     {
+      "n": "Ziemer",
+      "p": "ST"
+     },
+     {
+      "n": "Elmazi",
+      "p": "ST"
+     }
+    ]
+   },
+   "quelle_live": true,
+   "ableitungen": [
+    {
+     "verein": "1. FC Köln",
+     "n": "Bohnen",
+     "spielerin": "Amelie Bohnen",
+     "war": "Startelf",
+     "zeit": "2026-11-21T14:00",
+     "gegner": "Werder Bremen",
+     "wettbewerb": "Liga",
+     "quelle": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306328/1-fc-koeln_werder-bremen/aufstellung",
+     "delta": -1,
+     "bis": "2026-12-01",
+     "grund": "stand am 21.11. gegen Werder Bremen nicht im Spieltagskader, obwohl im letzten Ligaspiel in der Startelf; Grund nicht bekannt"
+    }
+   ]
+  },
+  {
+   "id": "aufstellung-svw-2111",
+   "zeit": "2026-11-21T13:20",
+   "spielerin": "Spielansetzung",
+   "verein": "Werder Bremen",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "TOP"
+   ],
+   "headline": "Offizielle Aufstellung: Werder Bremen gegen 1. FC Köln",
+   "text": [],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306328/1-fc-koeln_werder-bremen/aufstellung"
+    }
+   ],
+   "aufstellung": {
+    "gegner": "1. FC Köln",
+    "formation": "4-2-3-1",
+    "startelf": [
+     {
+      "n": "El Sherif",
+      "p": "TW",
+      "pid": "00030"
+     },
+     {
+      "n": "Weiß",
+      "p": "ABW",
+      "pid": "00041"
+     },
+     {
+      "n": "Ulbrich",
+      "p": "ABW",
+      "pid": "00040"
+     },
+     {
+      "n": "Gutmann",
+      "p": "ABW",
+      "pid": "00035"
+     },
+     {
+      "n": "Zieniewicz",
+      "p": "ABW",
+      "pid": "00042"
+     },
+     {
+      "n": "Hipp",
+      "p": "DM",
+      "pid": "00045",
+      "kp": "MF"
+     },
+     {
+      "n": "Wirtz",
+      "p": "DM",
+      "pid": "00048",
+      "kp": "MF"
+     },
+     {
+      "n": "Purtscheller",
+      "p": "OM",
+      "pid": "00047",
+      "kp": "MF"
+     },
+     {
+      "n": "Vanzeir",
+      "p": "OM",
+      "pid": "00055",
+      "kp": "MF"
+     },
+     {
+      "n": "Jaron",
+      "p": "OM",
+      "pid": "00051",
+      "kp": "ST"
+     },
+     {
+      "n": "Mahmoud",
+      "p": "ST",
+      "pid": "00052"
+     }
+    ],
+    "bank": [
+     {
+      "n": "Fischer",
+      "p": "TW",
+      "pid": "00032"
+     },
+     {
+      "n": "Sträßer",
+      "p": "ABW",
+      "pid": "00039"
+     },
+     {
+      "n": "Penner",
+      "p": "ABW",
+      "pid": "00037"
+     },
+     {
+      "n": "Gmeineder",
+      "p": "MF",
+      "pid": "00044"
+     },
+     {
+      "n": "Ernst",
+      "p": "MF",
+      "pid": "00043"
+     },
+     {
+      "n": "Dhont",
+      "p": "ST",
+      "pid": "00050"
+     },
+     {
+      "n": "Shimada",
+      "p": "ST",
+      "pid": "00054"
+     },
+     {
+      "n": "Dešić",
+      "p": "ST",
+      "pid": "00049"
+     }
+    ],
+    "fehlt": [
+     {
+      "n": "Mühlemann",
+      "p": "MF",
+      "f": "raus",
+      "war": "Bank"
+     },
+     {
+      "n": "Farwick",
+      "p": "TW"
+     },
+     {
+      "n": "Özdemir",
+      "p": "TW"
+     },
+     {
+      "n": "D'Angelo",
+      "p": "ABW"
+     },
+     {
+      "n": "Magerl",
+      "p": "ABW"
+     },
+     {
+      "n": "Siems",
+      "p": "ABW"
+     },
+     {
+      "n": "Petermann",
+      "p": "ST"
+     }
+    ]
+   },
+   "quelle_live": true
+  },
   {
    "id": "fehlt-reimann-scf-0111",
    "pid": "00085",
@@ -163,33 +549,6 @@
     }
    ],
    "quelle_live": true
-  },
-  {
-   "id": "aufstellung-folgt-ma12306328",
-   "zeit": "2026-11-21T12:40",
-   "spielerin": "Spielansetzung",
-   "verein": "1. FC Köln",
-   "nr": "",
-   "pos": "Spielansetzung",
-   "tags": [
-    "AUFSTELLUNG"
-   ],
-   "headline": "Aufstellung 1. FC Köln gegen Werder Bremen folgt",
-   "kurz": "Aufstellung folgt, Anpfiff 14:00",
-   "text": [
-    "Anpfiff in der Liga ist um 14:00 Uhr. Die offizielle Aufstellung kommt meist rund 60 Minuten vorher, wir ergänzen sie hier automatisch, sobald sie veröffentlicht ist.",
-    "Bis dahin steht unsere Prognose im Spielplan bei der Partie."
-   ],
-   "kickbase": "",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306328/1-fc-koeln_werder-bremen/aufstellung"
-    }
-   ],
-   "platzhalter": true,
-   "anstoss": "2026-11-21T14:00",
-   "partie_id": "12306328"
   },
   {
    "id": "aufstellung-hsv-2111",
