@@ -1,6 +1,33 @@
 {
- "stand": "2026-11-21T10:22",
+ "stand": "2026-11-21T10:41",
  "meldungen": [
+  {
+   "id": "aufstellung-folgt-ma12306331",
+   "zeit": "2026-11-21T10:40",
+   "spielerin": "Spielansetzung",
+   "verein": "Eintracht Frankfurt",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "AUFSTELLUNG"
+   ],
+   "headline": "Aufstellung Eintracht Frankfurt gegen Hamburger SV folgt",
+   "kurz": "Aufstellung folgt, Anpfiff 12:00",
+   "text": [
+    "Anpfiff in der Liga ist um 12:00 Uhr. Die offizielle Aufstellung kommt meist rund 60 Minuten vorher, wir ergänzen sie hier automatisch, sobald sie veröffentlicht ist.",
+    "Bis dahin steht unsere Prognose im Spielplan bei der Partie."
+   ],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306331/eintracht-frankfurt_hamburger-sv/aufstellung"
+    }
+   ],
+   "platzhalter": true,
+   "anstoss": "2026-11-21T12:00",
+   "partie_id": "12306331"
+  },
   {
    "id": "pk-md11",
    "zeit": "2026-11-21T10:22",
