@@ -2,7 +2,7 @@
  "meldungen": [
   {
    "id": "endstand-sge-2111",
-   "zeit": "2026-11-21T13:56",
+   "zeit": "2026-11-21T14:02",
    "spielerin": "Eintracht Frankfurt gegen Hamburger SV",
    "verein": "Eintracht Frankfurt",
    "nr": "",
@@ -10,22 +10,31 @@
    "tags": [
     "SPIELBERICHT"
    ],
-   "headline": "Endstand: Eintracht Frankfurt 2:0 Hamburger SV",
-   "kurz": "Endstand SGE 2:0 HSV",
+   "headline": "Eintracht Frankfurt gewinnt 2:0 gegen den Hamburger SV, Raso trifft",
+   "kurz": "Frankfurt schlägt den HSV 2:0",
    "text": [
     "Eintracht Frankfurt gewinnt gegen den Hamburger SV mit 2:0.",
     "Tore: 1:0 Raso (81., Vorlage Lührßen), 2:0 Doucouré (90+6., Eigentor).",
-    "Noten und der ausführliche Bericht folgen."
+    "Beste Note im Spiel: Lührßen (8,0).",
+    "Statistik (Eintracht Frankfurt zuerst): Torschüsse 18:12 (aufs Tor 8:2), Ballbesitz 59:41 %, Expected Goals 3,34:0,64, Ecken 10:0.",
+    "Beste Noten Eintracht Frankfurt: Lührßen 8,0, Østenstad 7,0, Altenburg 6,9.",
+    "Beste Noten Hamburger SV: Szemik 7,5, Karczewska 6,6, Stoldt 6,5.",
+    "Schwächste Note in der Startelf: Doucouré (5,2)."
    ],
-   "kickbase": "",
+   "kickbase": "Herausragend: Lührßen (8,0), Szemik (7,5).",
    "quellen": [
     {
      "name": "Sportschau",
      "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306331/eintracht-frankfurt_hamburger-sv/liveticker"
+    },
+    {
+     "name": "API-Football (Noten, Statistik)",
+     "url": "https://www.api-football.com"
     }
    ],
    "quelle_live": true,
-   "partie_id": "12306331"
+   "partie_id": "12306331",
+   "noten": true
   },
   {
    "typ": "punkt",
