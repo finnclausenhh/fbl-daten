@@ -1621,7 +1621,7 @@
    "md": 11,
    "zeit": "2026-11-19T19:02",
    "lebt_bis": "2026-11-20T18:30",
-   "headline": "Spieltag 11 auf den Punkt · Update 15:18",
+   "headline": "Spieltag 11 auf den Punkt · Update 17:37",
    "sicher": [
     {
      "n": "Ella Peddemors",
@@ -1697,11 +1697,7 @@
     {
      "n": "Greta Stegemann",
      "k": "VFB",
-     "warum": "Fehlte gegen Leverkusen ohne genannten Grund im Kader, nachdem sie die fünf Ligaspiele davor alle begonnen hatte.",
-     "update": {
-      "zeit": "2026-11-20T10:09",
-      "text": "Stegemann wieder in der Aufbelastung"
-     }
+     "warum": "Fehlte gegen Leverkusen ohne genannten Grund im Kader, nachdem sie die fünf Ligaspiele davor alle begonnen hatte."
     },
     {
      "n": "Lisann Kaut",
@@ -1712,6 +1708,13 @@
    "analyse_link": true,
    "titel_basis": "Spieltag 11 auf den Punkt",
    "updates": [
+    {
+     "zeit": "2026-11-20T17:37",
+     "k": "FCU",
+     "text": "Offizielle Aufstellung: Union gegen Leverkusen",
+     "art": "aufstellung",
+     "partie": "12306319"
+    },
     {
      "zeit": "2026-11-20T15:18",
      "k": "WOB",
@@ -1727,13 +1730,6 @@
      "id": "rankin-2011"
     },
     {
-     "zeit": "2026-11-20T10:09",
-     "k": "VFB",
-     "text": "Stegemann wieder in der Aufbelastung",
-     "art": "meldung",
-     "id": "stegemann-2011"
-    },
-    {
      "zeit": "2026-11-19T22:45",
      "k": "FCB",
      "text": "Naschenweng startet statt Kett",
@@ -1742,13 +1738,6 @@
    ],
    "wackel": [
     {
-     "k": "HSV",
-     "p": "ABW",
-     "a": "Peneau",
-     "b": "Mirzaliyeva",
-     "anstoss": "2026-11-21T12:00"
-    },
-    {
      "k": "FCN",
      "p": "ABW",
      "a": "Pollak",
@@ -1756,7 +1745,8 @@
      "anstoss": "2026-11-22T18:30"
     }
    ],
-   "aktualisiert": "2026-11-20T15:18"
+   "aktualisiert": "2026-11-20T17:37",
+   "fertig": true
   },
   {
    "id": "aufstellung-cl-fcb-1911",
