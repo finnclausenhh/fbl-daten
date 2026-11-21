@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-21T16:51",
+ "stand": "2026-11-21T17:45",
  "meldungen": [
   {
    "id": "fehlt-reimann-scf-0111",
@@ -163,6 +163,38 @@
     }
    ],
    "quelle_live": true
+  },
+  {
+   "id": "andrade-2111",
+   "pid": "00205",
+   "zeit": "2026-11-21T16:34",
+   "spielerin": "Lydia Andrade",
+   "verein": "1. FC Köln",
+   "nr": "",
+   "pos": "ST",
+   "tags": [
+    "VERLETZUNG"
+   ],
+   "status": "fraglich",
+   "headline": "Andrade trifft für Köln, dann verletzt",
+   "kurz": "Andrade trifft, dann verletzt",
+   "text": [
+    "Lydia Andrade hat den 1. FC Köln beim 2:2 gegen Werder Bremen in der 74. Minute 2:1 in Führung gebracht. Nach ihrem Tor musste sie laut Kicker verletzt raus.",
+    "Zur Art der Verletzung und zur Ausfallzeit liegen bisher keine Angaben vor. Der Verein hat sich nach unserem Stand noch nicht geäußert."
+   ],
+   "kickbase": "Ob Andrade im nächsten Ligaspiel am 14. Dezember bei Bayer Leverkusen dabei ist, ist offen. Die Länderspielpause bis dahin gibt Zeit, Details dürften folgen.",
+   "quellen": [
+    {
+     "name": "Kicker (Video, Titel: Erst Tor, dann verletzt)",
+     "url": "https://www.kicker.de/erst-tor-dann-verletzt-andrade-die-tragische-heldin-in-koeln-1273534/video"
+    }
+   ],
+   "foto": "fotos/koe-lydia-andrade.webp",
+   "foto_credit": {
+    "autor": "1. FC Köln",
+    "lizenz": "mit Genehmigung: 1. FC Köln",
+    "url": "https://fc.de/mannschaften/frauen/kader"
+   }
   },
   {
    "id": "endstand-koe-2111",
