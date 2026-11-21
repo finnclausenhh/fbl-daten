@@ -202,5 +202,18 @@
   "noten_da": "2026-11-21T13:56",
   "minuten_nach_abpfiff": 7,
   "bau_gestartet": "2026-11-21T13:56"
+ },
+ "12306328": {
+  "spiel": "KOE-SVW",
+  "anstoss": "2026-11-21T14:00",
+  "abpfiff_ca": "2026-11-21T15:54",
+  "fixture": 1593180,
+  "af_status": "FT",
+  "erste_pruefung": "2026-11-21T15:58",
+  "noten_zuletzt": 39,
+  "letzte_pruefung": "2026-11-21T15:58",
+  "noten_da": "2026-11-21T15:58",
+  "minuten_nach_abpfiff": 5,
+  "bau_gestartet": "2026-11-21T15:58"
  }
 }
