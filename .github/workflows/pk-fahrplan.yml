@@ -8,6 +8,11 @@ on:
   schedule:
     - cron: "5 7 * * 5"          # Freitag 08:05 (MEZ): News anlegen
     - cron: "35 5-20/3 * * 5,6,0,1"  # Fr bis Mo alle 3 Stunden: neue Vorberichte nachtragen
+  # Seit 21.11.2026: nach jedem fremden Push auf news.json (z. B. Spiegel aus dem Artifact) die News sofort wieder einbauen,
+  # sonst fehlt sie bis zum nächsten Lauf. Pushes dieser Action lösen sie nicht erneut aus.
+  push:
+    branches: [main]
+    paths: [news.json]
   workflow_dispatch:
 
 permissions:
@@ -27,6 +32,7 @@ jobs:
         with:
           python-version: "3.12"
       - name: Vorberichte suchen
+        if: github.event_name != 'push'
         continue-on-error: true
         run: python3 tools/vorberichte.py --repo .
       - name: News bauen oder auffrischen

@@ -16,6 +16,12 @@ Erweiterung 13.11.2026 (Finn): Die News zeigt auch, wann welcher Verein seinen V
 sobald er da ist (tools/vorberichte.json, gefüllt von tools/vorberichte.py), sonst die gelernte Gewohnheit.
 Die News wird nicht angeheftet und behält ihre erste Zeit, damit der Feed chronologisch bleibt; der Workflow
 frischt sie Freitag bis Montag alle 3 Stunden auf (--auffrischen), wenn neue Vorberichte gefunden wurden.
+Erweiterung 21.11.2026 (Finn: "Lesen ist langweilig"): Die Meldung trägt zusätzlich das Feld "fahrplan" mit einem
+Eintrag je Verein (Vorbericht da oder "erwartet bis" aus dem Verlauf, Vereinsseite, PK), daraus zeichnet der Ticker
+die Fahrplan-Ansicht (ein Kasten je Verein, sortiert nach Dringlichkeit). fahrplan.pin_bis = erster Anpfiff des
+Spieltags: bis dahin heftet der Ticker die News oben an. Text und Quellen bleiben für ältere App-Versionen erhalten.
+Die News behält ihre erste Zeit auch dann, wenn sie zwischendurch aus news.json verschwindet (pk_news_zeit in
+tools/vorberichte.json); der Workflow baut sie nach jedem fremden Push auf news.json sofort wieder ein.
 Aufruf: python3 tools/pk_fahrplan.py --repo . [--jetzt 2026-11-13T09:00] [--neu] [--auffrischen]
 """
 import argparse
@@ -41,6 +47,34 @@ GEWOHNHEIT = {
     "SGE": {"art": "top", "wer": "Trainer Niko Arnautis mit einer Spielerin", "wo": "live auf EintrachtTV",
             "quelle": ("EintrachtTV", "https://tv.eintracht.de/")},
 }
+
+
+# Wohin der Kasten führt, solange der Vorbericht fehlt (News-Bereich der Frauen auf der Vereinsseite)
+VEREINSSEITE = {"FCB": "https://fcbayern.com/frauen/de", "WOB": "https://www.vfl-wolfsburg.de/", "SGE": "https://frauen.eintracht.de/",
+                "B04": "https://www.bayer04.de/", "KOE": "https://fc.de/", "RBL": "https://rbleipzig.com/", "SVW": "https://www.werder.de/",
+                "SCF": "https://www.scfreiburg.com/", "FCU": "https://www.fc-union-berlin.de/", "VFB": "https://www.vfb.de/",
+                "TSG": "https://www.tsg-hoffenheim.de/", "HSV": "https://www.hsv.de/", "FCN": "https://www.fcn.de/", "M05": "https://www.mainz05.de/"}
+
+
+def erwartet_bis(verlauf, anstoss, md):
+    """Spätester bisheriger Zeitpunkt aus dem Verlauf: kleinster Abstand in Tagen (ohne den Spieltag selbst und ohne
+    den laufenden Spieltag), dazu die späteste Uhrzeit an solchen Tagen, auf die Viertelstunde gerundet.
+    Ohne Uhrzeit im Verlauf nur der Tag. Rückgabe {"bis": "2026-11-20T14:30", "uhr": True} oder {"bis": "2026-11-20", "uhr": False}."""
+    vs = [v for v in verlauf or [] if v.get("md") != md and (v.get("tage_vorher") or 0) >= 1]
+    if not vs:
+        return None
+    t = min(v["tage_vorher"] for v in vs)
+    tag = anstoss.date() - timedelta(days=t)
+    uhren = sorted(v["uhr"] for v in vs if v["tage_vorher"] == t and v.get("uhr"))
+    if not uhren:
+        return {"bis": tag.isoformat(), "uhr": False}
+    h, mi = map(int, uhren[-1].split(":"))
+    mi = int(round(mi / 15.0)) * 15
+    if mi == 60:
+        h, mi = h + 1, 0
+    if h > 23:
+        h, mi = 23, 45
+    return {"bis": f"{tag.isoformat()}T{h:02d}:{mi:02d}", "uhr": True}
 
 
 def tag_vorher(anstoss):
@@ -124,6 +158,7 @@ def bauen(repo, jetzt, neu=False, auffrischen=False):
     top4 = tabelle_top4(sp)
     tm = termine.get(str(md), {})
     zeilen, quellen, mit_pk = [], [], []
+    pk_k = {}
     for p in partien:
         an = datetime.fromisoformat(p["anstoss"]).replace(tzinfo=BERLIN)
         for k, gegner in ((p["heim_k"], p["gast_k"]), (p["gast_k"], p["heim_k"])):
@@ -141,6 +176,7 @@ def bauen(repo, jetzt, neu=False, auffrischen=False):
             else:  # nur Gewohnheit, Termin nicht bestätigt
                 zeilen.append(f"{name} (gegen {gname}, {zeit_txt(an)}): Vor solchen Spielen gibt es üblicherweise eine Pressekonferenz mit {wer}, meist am Vortag ({tag_vorher(an)}). Einen Termin hat der Verein noch nicht genannt" + (f", danach {wo}" if wo else "") + ".")
             mit_pk.append(name)
+            pk_k[k] = {"tag": tag_vorher(an), "bestaetigt": bool(wann), "kurz": (t or {}).get("kurz")}
             q = (t or {}).get("quelle")
             if q and isinstance(q, dict):
                 quellen.append(q)
@@ -160,11 +196,16 @@ def bauen(repo, jetzt, neu=False, auffrischen=False):
     # Vorberichte je Partie
     text.append("Wann die Vereine ihre Vorberichte bringen (die Links stehen unten bei den Quellen):")
     vb_quellen, n_da = [], 0
+    vereine = []
     for p in partien:
         an = datetime.fromisoformat(p["anstoss"]).replace(tzinfo=BERLIN)
         teile = []
         for k, name in ((p["heim_k"], p["heim"]), (p["gast_k"], p["gast"])):
             e = vb_md.get(k)
+            vereine.append({"k": k, "name": name, "anstoss": p["anstoss"],
+                            "vb": {"zeit": e.get("zeit"), "titel": e["titel"].strip(), "url": e["url"]} if e else None,
+                            "erwartet": None if e else erwartet_bis(vb.get("verlauf", {}).get(k, []), an, md),
+                            "seite": VEREINSSEITE.get(k), "pk": pk_k.get(k)})
             if e:
                 n_da += 1
                 t = e["titel"].strip()
@@ -188,13 +229,22 @@ def bauen(repo, jetzt, neu=False, auffrischen=False):
             seen.add(q["url"])
             qn.append(q)
     qn = vb_quellen + qn
-    m = {"id": mid, "zeit": alt["zeit"] if alt else jetzt.strftime("%Y-%m-%dT%H:%M"), "spielerin": "Pressekonferenzen", "verein": "", "nr": "", "pos": f"{md}. Spieltag", "symbol": "pk",
+    # Erste Zeit der News merken (tools/vorberichte.json, pk_news_zeit): überschreibt der Spiegel aus dem Artifact news.json,
+    # kommt die News mit ihrer ursprünglichen Zeit zurück statt als neue Meldung von jetzt (Befund 21.11.2026).
+    zeit0 = vb.get("pk_news_zeit", {}).get(str(md)) or (alt or {}).get("zeit") or jetzt.strftime("%Y-%m-%dT%H:%M")
+    if vb.get("pk_news_zeit", {}).get(str(md)) != zeit0 and os.path.exists(vb_p):
+        vb.setdefault("pk_news_zeit", {})[str(md)] = zeit0
+        json.dump(vb, open(vb_p, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    m = {"id": mid, "zeit": zeit0, "spielerin": "Pressekonferenzen", "verein": "", "nr": "", "pos": f"{md}. Spieltag", "symbol": "pk",
          "tags": ["UPDATE"], "headline": f"Vor dem {md}. Spieltag: Pressekonferenzen, Vorberichte und späte Updates",
          "kurz": f"{md}. Spieltag: wer wann spricht, wer wann berichtet ({n_da} von {2 * len(partien)} Vorberichten da)", "text": text, "kickbase": kick,
-         "quellen": qn or [{"name": "DFB-Datencenter", "url": "https://datencenter.dfb.de/"}]}
-    if alt and all(alt.get(f) == m.get(f) for f in ("headline", "kurz", "text", "kickbase", "quellen")):
+         "quellen": qn or [{"name": "DFB-Datencenter", "url": "https://datencenter.dfb.de/"}],
+         "fahrplan": {"md": md, "pin_bis": partien[0]["anstoss"], "vereine": vereine}}
+    alt_fp = {x: y for x, y in ((alt or {}).get("fahrplan") or {}).items() if x != "stand"}
+    if alt and all(alt.get(f) == m.get(f) for f in ("headline", "kurz", "text", "kickbase", "quellen")) and alt_fp == m["fahrplan"]:
         print("unverändert:", mid)
         return None
+    m["fahrplan"]["stand"] = jetzt.strftime("%Y-%m-%dT%H:%M")
     news["meldungen"] = [x for x in alle if x.get("id") != mid] + [m]
     news["meldungen"].sort(key=lambda x: x.get("zeit", ""), reverse=True)  # chronologisch, nicht angeheftet
     news["stand"] = jetzt.strftime("%Y-%m-%dT%H:%M")
