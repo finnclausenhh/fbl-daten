@@ -1,42 +1,6 @@
 {
  "meldungen": [
   {
-   "id": "endstand-sge-2111",
-   "zeit": "2026-11-21T14:02",
-   "spielerin": "Eintracht Frankfurt gegen Hamburger SV",
-   "verein": "Eintracht Frankfurt",
-   "nr": "",
-   "pos": "Spielansetzung",
-   "tags": [
-    "SPIELBERICHT"
-   ],
-   "headline": "Eintracht Frankfurt gewinnt 2:0 gegen den Hamburger SV, Raso trifft",
-   "kurz": "Frankfurt schlägt den HSV 2:0",
-   "text": [
-    "Eintracht Frankfurt gewinnt gegen den Hamburger SV mit 2:0.",
-    "Tore: 1:0 Raso (81., Vorlage Lührßen), 2:0 Doucouré (90+6., Eigentor).",
-    "Beste Note im Spiel: Lührßen (8,0).",
-    "Statistik (Eintracht Frankfurt zuerst): Torschüsse 18:12 (aufs Tor 8:2), Ballbesitz 59:41 %, Expected Goals 3,34:0,64, Ecken 10:0.",
-    "Beste Noten Eintracht Frankfurt: Lührßen 8,0, Østenstad 7,0, Altenburg 6,9.",
-    "Beste Noten Hamburger SV: Szemik 7,5, Karczewska 6,6, Stoldt 6,5.",
-    "Schwächste Note in der Startelf: Doucouré (5,2)."
-   ],
-   "kickbase": "Herausragend: Lührßen (8,0), Szemik (7,5).",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306331/eintracht-frankfurt_hamburger-sv/liveticker"
-    },
-    {
-     "name": "API-Football (Noten, Statistik)",
-     "url": "https://www.api-football.com"
-    }
-   ],
-   "quelle_live": true,
-   "partie_id": "12306331",
-   "noten": true
-  },
-  {
    "typ": "punkt",
    "id": "punkt-md11",
    "md": 11,
@@ -170,167 +134,40 @@
    "fertig": true
   },
   {
-   "id": "fehlt-reimann-scf-0111",
-   "pid": "00085",
-   "zeit": "2026-11-01T14:08",
-   "spielerin": "Anna Reimann",
-   "verein": "SC Freiburg",
-   "nr": "",
-   "pos": "TW",
-   "tags": [
-    "AUFSTELLUNG",
-    "POKAL"
-   ],
-   "status": "fraglich",
-   "headline": "Reimann nicht im Kader gegen FC Carl Zeiss Jena",
-   "text": [
-    "Anna Reimann steht im DFB-Pokal gegen FC Carl Zeiss Jena weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
-    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
-   ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
-   "quellen": [
-    {
-     "name": "DFB-Datencenter",
-     "url": "https://datencenter.dfb.de/matches/sc-freiburg-fc-carl-zeiss-jena-2431333"
-    }
-   ],
-   "quelle_live": true,
-   "kurz": "Reimann nicht im Kader"
-  },
-  {
-   "id": "fehlt-viggosdottir-fcb-0111",
-   "pid": "00013",
-   "zeit": "2026-11-01T13:53",
-   "spielerin": "Glódís Viggósdóttir",
-   "verein": "FC Bayern",
-   "nr": "",
-   "pos": "ABW",
-   "tags": [
-    "AUFSTELLUNG",
-    "POKAL"
-   ],
-   "status": "fraglich",
-   "headline": "Viggósdóttir nicht im Kader gegen Bayer Leverkusen",
-   "text": [
-    "Glódís Viggósdóttir steht im DFB-Pokal gegen Bayer Leverkusen weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
-    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
-   ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165391/bayern-muenchen_bayer-leverkusen/aufstellung"
-    }
-   ],
-   "quelle_live": true,
-   "kurz": "Viggósdóttir nicht im Kader"
-  },
-  {
-   "id": "fehlt-bender-b04-0111",
-   "pid": "00257",
-   "zeit": "2026-11-01T13:53",
-   "spielerin": "Loreen Bender",
-   "verein": "Bayer Leverkusen",
-   "nr": "",
-   "pos": "ST",
-   "tags": [
-    "AUFSTELLUNG",
-    "POKAL"
-   ],
-   "status": "fraglich",
-   "headline": "Bender nicht im Kader gegen FC Bayern",
-   "text": [
-    "Loreen Bender steht im DFB-Pokal gegen FC Bayern weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 4-mal.",
-    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
-   ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165391/bayern-muenchen_bayer-leverkusen/aufstellung"
-    }
-   ],
-   "quelle_live": true
-  },
-  {
-   "id": "fehlt-altenburg-sge-0111",
-   "pid": "00056",
-   "zeit": "2026-11-01T13:12",
-   "spielerin": "Lina Altenburg",
+   "id": "endstand-sge-2111",
+   "zeit": "2026-11-21T14:02",
+   "spielerin": "Eintracht Frankfurt gegen Hamburger SV",
    "verein": "Eintracht Frankfurt",
    "nr": "",
-   "pos": "TW",
+   "pos": "Spielansetzung",
    "tags": [
-    "AUFSTELLUNG",
-    "POKAL"
+    "SPIELBERICHT"
    ],
-   "status": "fraglich",
-   "headline": "Altenburg nicht im Kader gegen 1. FC Nürnberg",
+   "headline": "Eintracht Frankfurt gewinnt 2:0 gegen den Hamburger SV, Raso trifft",
+   "kurz": "Frankfurt schlägt den HSV 2:0",
    "text": [
-    "Lina Altenburg steht im DFB-Pokal gegen 1. FC Nürnberg weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
-    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
+    "Eintracht Frankfurt gewinnt gegen den Hamburger SV mit 2:0.",
+    "Tore: 1:0 Raso (81., Vorlage Lührßen), 2:0 Doucouré (90+6., Eigentor).",
+    "Beste Note im Spiel: Lührßen (8,0).",
+    "Statistik (Eintracht Frankfurt zuerst): Torschüsse 18:12 (aufs Tor 8:2), Ballbesitz 59:41 %, Expected Goals 3,34:0,64, Ecken 10:0.",
+    "Beste Noten Eintracht Frankfurt: Lührßen 8,0, Østenstad 7,0, Altenburg 6,9.",
+    "Beste Noten Hamburger SV: Szemik 7,5, Karczewska 6,6, Stoldt 6,5.",
+    "Schwächste Note in der Startelf: Doucouré (5,2)."
    ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
-   "quellen": [
-    {
-     "name": "DFB-Datencenter",
-     "url": "https://datencenter.dfb.de/matches/1-fc-nuernberg-eintracht-frankfurt-2431335"
-    }
-   ],
-   "quelle_live": true
-  },
-  {
-   "id": "fehlt-lattwein-wob-0611",
-   "pid": "00403",
-   "zeit": "2026-11-06T18:30",
-   "spielerin": "Lena Lattwein",
-   "verein": "VfL Wolfsburg",
-   "nr": "",
-   "pos": "MF",
-   "tags": [
-    "AUFSTELLUNG"
-   ],
-   "status": "fraglich",
-   "headline": "Lattwein nicht im Kader gegen Eintracht Frankfurt",
-   "text": [
-    "Lena Lattwein steht in der Liga gegen Eintracht Frankfurt weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 1-mal.",
-    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
-   ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
+   "kickbase": "Herausragend: Lührßen (8,0), Szemik (7,5).",
    "quellen": [
     {
      "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306271/eintracht-frankfurt_vfl-wolfsburg/aufstellung"
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306331/eintracht-frankfurt_hamburger-sv/liveticker"
+    },
+    {
+     "name": "API-Football (Noten, Statistik)",
+     "url": "https://www.api-football.com"
     }
    ],
    "quelle_live": true,
-   "kurz": "Lattwein nicht im Kader"
-  },
-  {
-   "id": "fehlt-proost-fcb-0611",
-   "pid": "00020",
-   "zeit": "2026-11-06T18:30",
-   "spielerin": "Sophie Proost",
-   "verein": "FC Bayern",
-   "nr": "",
-   "pos": "MF",
-   "tags": [
-    "AUFSTELLUNG"
-   ],
-   "status": "fraglich",
-   "headline": "Proost nicht im Kader gegen Werder Bremen",
-   "text": [
-    "Sophie Proost steht in der Liga gegen Werder Bremen weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 3-mal.",
-    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
-   ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306283/bayern-muenchen_werder-bremen/aufstellung"
-    }
-   ],
-   "quelle_live": true
+   "partie_id": "12306331",
+   "noten": true
   },
   {
    "id": "fehlt-bohnen-koe-2111",
