@@ -13,11 +13,6 @@
     "art": "chance",
     "label": "Chance",
     "text": "Mainz kassierte in 10 Spielen 36 Tore (3,6 pro Spiel). Am Sonntag kommt Nürnberg, Proniez traf in den letzten drei Spielen dreimal und begann jedes davon."
-   },
-   {
-    "art": "watch",
-    "label": "Beobachten",
-    "text": "Stoldt trat gegen Mainz alle drei Hamburger Ecken, obwohl Linberg auf dem Platz stand. Das 1:0 fiel nach ihrer Ecke, Linberg köpfte. Am Samstag spielt der HSV in Frankfurt."
    }
   ]
  },
@@ -97,11 +92,11 @@
      ]
     ],
     "text": "Bis Spieltag 7 ohne Ligaminute, seitdem dreimal in der Startelf (90, 90 und 84 Minuten). Gegen Mainz traf sie zweimal, das 1:0 per Kopf nach Stoldts Ecke.",
-    "kb": "Nächster Gegner ist Frankfurt (1,1 Gegentore pro Spiel), auswärts. Unsere Einschätzung: Ihre Rolle ist seit drei Spielen gleich.",
+    "kb": "Nächster Gegner ist Hoffenheim, auswärts am 12.12. Unsere Einschätzung: Ihre Rolle ist seit drei Spielen gleich.",
     "next": {
-     "k": "SGE",
+     "k": "TSG",
      "ort": "A",
-     "datum": "Sa 21.11."
+     "datum": "Sa 12.12."
     }
    },
    {
@@ -162,11 +157,11 @@
      ]
     ],
     "text": "Alle zehn Ligaspiele über 90 Minuten. Gegen Mainz traf sie per direktem Freistoß und trat alle drei Hamburger Ecken.",
-    "kb": "Nächster Gegner ist Frankfurt (1,1 Gegentore pro Spiel). Die Ecken sind für Kickbase ein zusätzlicher Punktefaktor, wenn sie die Rolle behält.",
+    "kb": "Nächster Gegner ist Hoffenheim, auswärts am 12.12. Die Ecken sind für Kickbase ein zusätzlicher Punktefaktor, wenn sie die Rolle behält.",
     "next": {
-     "k": "SGE",
+     "k": "TSG",
      "ort": "A",
-     "datum": "Sa 21.11."
+     "datum": "Sa 12.12."
     }
    },
    {
@@ -292,11 +287,11 @@
      ]
     ],
     "text": "Vor Spieltag 8 kam sie auf 36 Ligaminuten. Seitdem steht sie in einer Kölner Elf, die dreimal unverändert blieb.",
-    "kb": "Nächster Gegner ist Werder (1,4 Gegentore pro Spiel), Köln spielt zu Hause. Mehr dazu in der Top-Analyse.",
+    "kb": "Nächster Gegner ist Leverkusen, auswärts am 14.12. Mehr dazu in der Top-Analyse.",
     "next": {
-     "k": "SVW",
-     "ort": "H",
-     "datum": "Sa 21.11."
+     "k": "B04",
+     "ort": "A",
+     "datum": "Mo 14.12."
     }
    }
   ],
@@ -361,9 +356,9 @@
     "text": "Bis Spieltag 7 sieben Startelfeinsätze, 591 Minuten und 2 Tore. Seit dem 31.10. in keinem Kader mehr, auch nicht auf der Bank. Einen Grund nennt keine Quelle.",
     "kb": "Nicht im Kader, Rückkehr offen. Erst wieder interessant, wenn sie im Spieltagskader steht.",
     "next": {
-     "k": "SVW",
-     "ort": "H",
-     "datum": "Sa 21.11."
+     "k": "B04",
+     "ort": "A",
+     "datum": "Mo 14.12."
     }
    },
    {
@@ -686,11 +681,11 @@
      ]
     ],
     "text": "In jedem Ligaspiel in der Startelf, 6 Tore in 10 Spielen. In Leipzig legte sie das 1:0 von Blomqvist auf.",
-    "kb": "Nächster Gegner ist HSV (1,8 Gegentore pro Spiel), Frankfurt spielt zu Hause.",
+    "kb": "Nächster Gegner ist Werder, auswärts am 12.12.",
     "next": {
-     "k": "HSV",
-     "ort": "H",
-     "datum": "Sa 21.11."
+     "k": "SVW",
+     "ort": "A",
+     "datum": "Sa 12.12."
     }
    },
    {
@@ -1148,30 +1143,6 @@
    {
     "md": 11,
     "partien": [
-     {
-      "heim": "SGE",
-      "gast": "HSV",
-      "datum": "Sa 21.11.",
-      "zeit": "12:00",
-      "fakten": [
-       "Frankfurt holte zu Hause <b>7 Punkte</b> aus 5 Spielen (8:7 Tore).",
-       "HSV holte auswärts <b>0 Punkte</b> aus 5 Spielen (3:10 Tore).",
-       "Meiste Ligatore beider Teams: Laura Freigang (Frankfurt) mit <b>6</b>."
-      ],
-      "kb": "Frankfurt kassiert 1,1 Tore pro Spiel, HSV 1,8. Das spricht eher für die Offensive von Frankfurt."
-     },
-     {
-      "heim": "KOE",
-      "gast": "SVW",
-      "datum": "Sa 21.11.",
-      "zeit": "14:00",
-      "fakten": [
-       "Köln holte zu Hause <b>12 Punkte</b> aus 5 Spielen (10:3 Tore).",
-       "Werder holte auswärts <b>3 Punkte</b> aus 4 Spielen (7:10 Tore).",
-       "Meiste Ligatore beider Teams: Pauline Bremer (Köln) mit <b>4</b>."
-      ],
-      "kb": "Köln kassiert 1,3 Tore pro Spiel, Werder 1,4. Die Abwehrwerte liegen nah beieinander."
-     },
      {
       "heim": "SCF",
       "gast": "VFB",
@@ -4802,5 +4773,5 @@
   "id": "punkt-md11",
   "text": "Spieltag 11 in 60 Sekunden"
  },
- "geprueft": "2026-11-20T22:46"
+ "geprueft": "2026-11-21T22:58"
 }
