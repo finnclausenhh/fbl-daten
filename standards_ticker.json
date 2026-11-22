@@ -1,5 +1,5 @@
 {
-"spiele": 75,
+"spiele": 76,
 "teams": {
 "FCB": [
 {
@@ -897,9 +897,9 @@
 },
 {
 "k": "FCN",
-"n": "Louna Lapassouse",
-"kopf": 1,
-"std_kopf": 1,
+"n": "Alexsandra Lobanova",
+"kopf": 2,
+"std_kopf": 2,
 "std_tore": 0,
 "ecke_tritt": 0,
 "fs_tritt": 0,
@@ -913,7 +913,7 @@
 },
 {
 "k": "FCN",
-"n": "Alexsandra Lobanova",
+"n": "Louna Lapassouse",
 "kopf": 1,
 "std_kopf": 1,
 "std_tore": 0,
@@ -934,14 +934,14 @@
 "std_kopf": 0,
 "std_tore": 0,
 "ecke_tritt": 0,
-"fs_tritt": 0,
+"fs_tritt": 1,
 "std_kopftore": 0,
-"ecke_l": 0,
+"ecke_l": 2,
 "ecke_r": 1,
-"fs_l": 0,
+"fs_l": 1,
 "fs_r": 0,
 "fs_direkt": 0,
-"fs_flanke": 0
+"fs_flanke": 1
 },
 {
 "k": "FCN",
@@ -988,7 +988,7 @@
 "fs_tritt": 0,
 "std_kopftore": 0,
 "ecke_l": 0,
-"ecke_r": 2,
+"ecke_r": 3,
 "fs_l": 0,
 "fs_r": 0,
 "fs_direkt": 0,
@@ -2117,6 +2117,10 @@
 {
 "spiel": "12306325",
 "satz": "Nach der folgenden Ecke hat Anna Reimann den Kopfball sicher."
+},
+{
+"spiel": "12306322",
+"satz": "Im Strafraum kommt eine Nürnbergerin zum Kopfball, doch auch dieser Versuch bleibt an der aufmerksamen Mainzer Defensive hängen."
 }
 ]
 }
