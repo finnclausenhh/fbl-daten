@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-22T18:51",
+ "stand": "2026-11-22T19:15",
  "meldungen": [
   {
    "id": "blomqvist-2211",
@@ -2603,7 +2603,7 @@
     "UPDATE"
    ],
    "headline": "Vor dem 11. Spieltag: Pressekonferenzen, Vorberichte und späte Updates",
-   "kurz": "11. Spieltag: wer wann spricht, wer wann berichtet (11 von 14 Vorberichten da)",
+   "kurz": "11. Spieltag: wer wann spricht, wer wann berichtet (12 von 14 Vorberichten da)",
    "text": [
     "Vor dem 11. Spieltag geben nur wenige Vereine eine Pressekonferenz. Was dort zum Personal gesagt wird, ist oft die letzte Info vor der offiziellen Aufstellung.",
     "FC Bayern (gegen TSG Hoffenheim, Mo 23.11., 18:00 Uhr): Vor solchen Spielen gibt es üblicherweise eine Pressekonferenz mit Trainer José Barcala, meist am Vortag (So 22.11.). Einen Termin hat der Verein noch nicht genannt, danach FC Bayern TV, Aussagen meist auch auf fcbayern.com.",
@@ -2613,7 +2613,7 @@
     "Eintracht Frankfurt gegen Hamburger SV (Sa 21.11., 12:00 Uhr): Eintracht Frankfurt seit Do 19.11., 16:00 Uhr: „Hamburg zu Gast“; Hamburger SV seit Fr 20.11., 07:33 Uhr: „Gegen wind und wetter hsv frauen bereit fuer frankfurt“.",
     "1. FC Köln gegen Werder Bremen (Sa 21.11., 14:00 Uhr): 1. FC Köln seit Sa 21.11., 12:03 Uhr: „Startelf der FC-Frauen gegen Bremen“; Werder Bremen seit Do 19.11., 09:00 Uhr: „Fanhinweise zum Ligaspiel der WERDERFRAUEN beim 1. FC Köln“.",
     "SC Freiburg gegen VfB Stuttgart (So 22.11., 14:00 Uhr): SC Freiburg ohne Vorbericht; VfB Stuttgart seit Fr 20.11., 15:19 Uhr: „Matchfacts: SC Freiburg – VfB-Frauen“.",
-    "RB Leipzig gegen VfL Wolfsburg (So 22.11., 16:00 Uhr): RB Leipzig seit Fr 20.11., 15:20 Uhr: „Rbl frauen empfangen wolfsburg zusammenhalt gegen offensivpower“; VfL Wolfsburg ohne Vorbericht.",
+    "RB Leipzig gegen VfL Wolfsburg (So 22.11., 16:00 Uhr): RB Leipzig seit Fr 20.11., 15:20 Uhr: „Rbl frauen empfangen wolfsburg zusammenhalt gegen offensivpower“; VfL Wolfsburg seit So 22.11.: „Bilder: Spiel der Wölfinnen in Leipzig“.",
     "Mainz 05 gegen 1. FC Nürnberg (So 22.11., 18:30 Uhr): Mainz 05 seit Fr 20.11.: „05-Frauen vor Nürnberg: Mit Intensität zum Erfolg“; 1. FC Nürnberg seit Fr 20.11.: „Vorbericht: Zu Gast im Schatten des Doms“.",
     "FC Bayern gegen TSG Hoffenheim (Mo 23.11., 18:00 Uhr): FC Bayern seit So 22.11., 14:21 Uhr: „Historische Männer-Bestmarke vor Augen: Formstarke FCB-Frauen empfangen Hoffenheim“; TSG Hoffenheim seit Fr 20.11., 15:42 Uhr: Virsinger vor #FCBTSG: „Wir müssen mit Überzeugung ins Spiel gehen“.",
     "Die offiziellen Aufstellungen kommen etwa eine Stunde vor Anpfiff, wir melden sie automatisch. Bis dahin sind Last-Minute-Änderungen möglich, gerade bei Vereinen, die unter der Woche im Europapokal gespielt haben."
@@ -2647,6 +2647,10 @@
     {
      "name": "Vorbericht RB Leipzig",
      "url": "https://rbleipzig.com/de/news/rbl-frauen-empfangen-wolfsburg-zusammenhalt-gegen-offensivpower"
+    },
+    {
+     "name": "Vorbericht VfL Wolfsburg",
+     "url": "https://www.vfl-wolfsburg.de/newsdetails/news-detail/detail/news/bilder-spiel-der-woelfinnen-in-leipzig-2"
     },
     {
      "name": "Vorbericht Mainz 05",
@@ -2792,11 +2796,12 @@
       "k": "WOB",
       "name": "VfL Wolfsburg",
       "anstoss": "2026-11-22T16:00",
-      "vb": null,
-      "erwartet": {
-       "bis": "2026-11-21",
-       "uhr": false
+      "vb": {
+       "zeit": "2026-11-22T00:00",
+       "titel": "Bilder: Spiel der Wölfinnen in Leipzig",
+       "url": "https://www.vfl-wolfsburg.de/newsdetails/news-detail/detail/news/bilder-spiel-der-woelfinnen-in-leipzig-2"
       },
+      "erwartet": null,
       "seite": "https://www.vfl-wolfsburg.de/",
       "pk": null
      },
@@ -2857,7 +2862,7 @@
       "pk": null
      }
     ],
-    "stand": "2026-11-22T18:51"
+    "stand": "2026-11-22T19:15"
    }
   },
   {

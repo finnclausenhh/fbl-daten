@@ -123,6 +123,11 @@
     "zeit": "2026-11-22T14:21",
     "titel": "Historische Männer-Bestmarke vor Augen: Formstarke FCB-Frauen empfangen Hoffenheim",
     "url": "https://fcbayern.com/frauen/de/news/vorberichte/2026/11/vorschau-fc-bayern-frauen---tsg-hoffenheim"
+   },
+   "WOB": {
+    "zeit": "2026-11-22T00:00",
+    "titel": "Bilder: Spiel der Wölfinnen in Leipzig",
+    "url": "https://www.vfl-wolfsburg.de/newsdetails/news-detail/detail/news/bilder-spiel-der-woelfinnen-in-leipzig-2"
    }
   }
  },
@@ -296,6 +301,11 @@
     "md": 10,
     "tage_vorher": 1,
     "uhr": null
+   },
+   {
+    "md": 11,
+    "tage_vorher": 0,
+    "uhr": null
    }
   ],
   "HSV": [
@@ -306,7 +316,7 @@
    }
   ]
  },
- "stand": "2026-11-22T16:22",
+ "stand": "2026-11-22T19:15",
  "pk_news_zeit": {
   "11": "2026-11-20T08:05"
  }
