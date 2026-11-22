@@ -1,42 +1,6 @@
 {
  "meldungen": [
   {
-   "id": "endstand-m05-2211",
-   "zeit": "2026-11-22T20:30",
-   "spielerin": "Mainz 05 gegen 1. FC Nürnberg",
-   "verein": "Mainz 05",
-   "nr": "",
-   "pos": "Spielansetzung",
-   "tags": [
-    "SPIELBERICHT"
-   ],
-   "headline": "Mainz 05 gewinnt 1:0 gegen den 1. FC Nürnberg, Bathmann trifft",
-   "kurz": "Mainz schlägt Nürnberg 1:0",
-   "text": [
-    "Mainz 05 gewinnt gegen den 1. FC Nürnberg mit 1:0.",
-    "Tore: 1:0 Bathmann (34., Vorlage Anstatt).",
-    "Gelb: Georgieva, Martin, Kats.",
-    "Beste Note im Spiel: Schön (8,0).",
-    "Statistik (Mainz 05 zuerst): Torschüsse 5:19 (aufs Tor 1:6), Ballbesitz 37:63 %, Expected Goals 0,46:1,77, Ecken 1:11.",
-    "Beste Noten Mainz 05: Schön 8,0, Bathmann 7,1, Anstatt 6,8.",
-    "Beste Noten 1. FC Nürnberg: Pápai 6,9, Lein 6,8, Lobanova 6,6."
-   ],
-   "kickbase": "Herausragend: Schön (8,0).",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306322/1-fsv-mainz-05_1-fc-nuernberg/liveticker"
-    },
-    {
-     "name": "API-Football (Noten, Statistik)",
-     "url": "https://www.api-football.com"
-    }
-   ],
-   "quelle_live": true,
-   "partie_id": "12306322",
-   "noten": true
-  },
-  {
    "id": "fehlt-reimann-scf-0111",
    "pid": "00085",
    "zeit": "2026-11-01T14:08",
@@ -224,6 +188,42 @@
     }
    ],
    "quelle_live": true
+  },
+  {
+   "id": "endstand-m05-2211",
+   "zeit": "2026-11-22T20:30",
+   "spielerin": "Mainz 05 gegen 1. FC Nürnberg",
+   "verein": "Mainz 05",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "SPIELBERICHT"
+   ],
+   "headline": "Mainz 05 gewinnt 1:0 gegen den 1. FC Nürnberg, Bathmann trifft",
+   "kurz": "Mainz schlägt Nürnberg 1:0",
+   "text": [
+    "Mainz 05 gewinnt gegen den 1. FC Nürnberg mit 1:0.",
+    "Tore: 1:0 Bathmann (34., Vorlage Anstatt).",
+    "Gelb: Georgieva, Martin, Kats.",
+    "Beste Note im Spiel: Schön (8,0).",
+    "Statistik (Mainz 05 zuerst): Torschüsse 5:19 (aufs Tor 1:6), Ballbesitz 37:63 %, Expected Goals 0,46:1,77, Ecken 1:11.",
+    "Beste Noten Mainz 05: Schön 8,0, Bathmann 7,1, Anstatt 6,8.",
+    "Beste Noten 1. FC Nürnberg: Pápai 6,9, Lein 6,8, Lobanova 6,6."
+   ],
+   "kickbase": "Herausragend: Schön (8,0).",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306322/1-fsv-mainz-05_1-fc-nuernberg/liveticker"
+    },
+    {
+     "name": "API-Football (Noten, Statistik)",
+     "url": "https://www.api-football.com"
+    }
+   ],
+   "quelle_live": true,
+   "partie_id": "12306322",
+   "noten": true
   },
   {
    "id": "endstand-rbl-2211",
