@@ -1,20 +1,201 @@
 {
  "meldungen": [
   {
-   "id": "aufstellung-folgt-ma12306322",
-   "zeit": "2026-11-22T17:10",
+   "id": "aufstellung-m05-2211",
+   "zeit": "2026-11-22T17:38",
    "spielerin": "Spielansetzung",
    "verein": "Mainz 05",
    "nr": "",
    "pos": "Spielansetzung",
    "tags": [
-    "AUFSTELLUNG"
+    "TOP"
    ],
-   "headline": "Aufstellung Mainz 05 gegen 1. FC Nürnberg folgt",
-   "kurz": "Aufstellung folgt, Anpfiff 18:30",
+   "headline": "Offizielle Aufstellung: Mainz 05 gegen 1. FC Nürnberg",
+   "text": [],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306322/1-fsv-mainz-05_1-fc-nuernberg/aufstellung"
+    }
+   ],
+   "aufstellung": {
+    "gegner": "1. FC Nürnberg",
+    "formation": "4-2-3-1",
+    "startelf": [
+     {
+      "n": "Schön",
+      "p": "TW",
+      "pid": "00270"
+     },
+     {
+      "n": "Berg",
+      "p": "ABW",
+      "pid": "00279"
+     },
+     {
+      "n": "Georgieva",
+      "p": "ABW",
+      "pid": "00274"
+     },
+     {
+      "n": "Jackson",
+      "p": "ABW",
+      "pid": "00283",
+      "f": "neu"
+     },
+     {
+      "n": "Flach",
+      "p": "ABW",
+      "pid": "00273",
+      "f": "neu"
+     },
+     {
+      "n": "Martin",
+      "p": "DM",
+      "pid": "00286",
+      "kp": "MF",
+      "f": "neu"
+     },
+     {
+      "n": "Imai",
+      "p": "DM",
+      "pid": "00282",
+      "kp": "MF"
+     },
+     {
+      "n": "Bathmann",
+      "p": "OM",
+      "pid": "00278",
+      "kp": "ABW"
+     },
+     {
+      "n": "Anstatt",
+      "p": "OM",
+      "pid": "00291",
+      "kp": "ST"
+     },
+     {
+      "n": "Kats",
+      "p": "OM",
+      "pid": "00292",
+      "kp": "ST",
+      "f": "neu"
+     },
+     {
+      "n": "Strickler",
+      "p": "ST",
+      "pid": "00295"
+     }
+    ],
+    "bank": [
+     {
+      "n": "Pawlowski",
+      "p": "TW",
+      "pid": "00269"
+     },
+     {
+      "n": "Hashitani",
+      "p": "ABW",
+      "pid": "00275",
+      "f": "raus"
+     },
+     {
+      "n": "Junold",
+      "p": "MF",
+      "pid": "00284",
+      "f": "raus"
+     },
+     {
+      "n": "Bouziane",
+      "p": "ST",
+      "pid": "00280",
+      "f": "neu"
+     },
+     {
+      "n": "Takizawa",
+      "p": "MF",
+      "pid": "00289"
+     },
+     {
+      "n": "Kurishima",
+      "p": "MF",
+      "pid": "00285"
+     },
+     {
+      "n": "Fetaj",
+      "p": "MF",
+      "pid": "00281",
+      "f": "raus"
+     },
+     {
+      "n": "Stöhr",
+      "p": "ST",
+      "pid": "00294"
+     },
+     {
+      "n": "Pageler",
+      "p": "ABW",
+      "pid": "00293",
+      "f": "raus"
+     }
+    ],
+    "fehlt": [
+     {
+      "n": "Bukowski",
+      "p": "ABW",
+      "f": "raus",
+      "war": "Bank"
+     },
+     {
+      "n": "Gonzalez",
+      "p": "TW"
+     },
+     {
+      "n": "Matsumoto",
+      "p": "TW"
+     },
+     {
+      "n": "Donner",
+      "p": "ABW"
+     },
+     {
+      "n": "Hauk",
+      "p": "ABW"
+     },
+     {
+      "n": "Kilian",
+      "p": "ABW"
+     },
+     {
+      "n": "Matheis",
+      "p": "ABW"
+     },
+     {
+      "n": "Slipčević",
+      "p": "MF"
+     },
+     {
+      "n": "Voth",
+      "p": "MF"
+     }
+    ]
+   },
+   "quelle_live": true
+  },
+  {
+   "id": "aufstellung-fcn-2211",
+   "zeit": "2026-11-22T17:38",
+   "spielerin": "Spielansetzung",
+   "verein": "1. FC Nürnberg",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "TOP"
+   ],
+   "headline": "Offizielle Aufstellung: 1. FC Nürnberg gegen Mainz 05",
    "text": [
-    "Anpfiff in der Liga ist um 18:30 Uhr. Die offizielle Aufstellung kommt meist rund 60 Minuten vorher, wir ergänzen sie hier automatisch, sobald sie veröffentlicht ist.",
-    "Bis dahin steht unsere Prognose im Spielplan bei der Partie."
+    "Nicht im Spieltagskader, obwohl im letzten Ligaspiel dabei: Varley. Einen Grund nennt bisher keine Quelle."
    ],
    "kickbase": "",
    "quellen": [
@@ -23,9 +204,183 @@
      "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306322/1-fsv-mainz-05_1-fc-nuernberg/aufstellung"
     }
    ],
-   "platzhalter": true,
-   "anstoss": "2026-11-22T18:30",
-   "partie_id": "12306322"
+   "aufstellung": {
+    "gegner": "Mainz 05",
+    "formation": "4-2-2-2",
+    "startelf": [
+     {
+      "n": "Romero",
+      "p": "TW",
+      "pid": "00298"
+     },
+     {
+      "n": "Bleil",
+      "p": "ABW",
+      "pid": "00321"
+     },
+     {
+      "n": "Lobanova",
+      "p": "ABW",
+      "pid": "00304"
+     },
+     {
+      "n": "Pollak",
+      "p": "ABW",
+      "pid": "00305",
+      "f": "neu"
+     },
+     {
+      "n": "Homann",
+      "p": "ABW",
+      "pid": "00313"
+     },
+     {
+      "n": "Pápai",
+      "p": "DM",
+      "pid": "00325",
+      "kp": "ST"
+     },
+     {
+      "n": "Miller",
+      "p": "DM",
+      "pid": "00316",
+      "kp": "MF"
+     },
+     {
+      "n": "Proniez",
+      "p": "OM",
+      "pid": "00317",
+      "kp": "MF"
+     },
+     {
+      "n": "Meroni",
+      "p": "OM",
+      "pid": "00324",
+      "kp": "ST"
+     },
+     {
+      "n": "Lein",
+      "p": "ST",
+      "pid": "00323"
+     },
+     {
+      "n": "Lapassouse",
+      "p": "ST",
+      "pid": "00322"
+     }
+    ],
+    "bank": [
+     {
+      "n": "Adamczyk",
+      "p": "TW",
+      "pid": "00296"
+     },
+     {
+      "n": "Fröhlich",
+      "p": "ABW",
+      "pid": "00302"
+     },
+     {
+      "n": "Barboz",
+      "p": "ABW",
+      "pid": "00300"
+     },
+     {
+      "n": "Brengel",
+      "p": "MF",
+      "pid": "00308"
+     },
+     {
+      "n": "Ličina",
+      "p": "MF",
+      "pid": "00314"
+     },
+     {
+      "n": "Mai",
+      "p": "MF",
+      "pid": "00315"
+     },
+     {
+      "n": "Baumgärtel",
+      "p": "ST",
+      "pid": "00320"
+     }
+    ],
+    "fehlt": [
+     {
+      "n": "Coutel",
+      "p": "MF",
+      "f": "raus",
+      "war": "Bank"
+     },
+     {
+      "n": "Varley",
+      "p": "ABW",
+      "f": "raus",
+      "war": "Startelf"
+     },
+     {
+      "n": "Richter",
+      "p": "TW"
+     },
+     {
+      "n": "Tölzel",
+      "p": "TW"
+     },
+     {
+      "n": "Bednorz",
+      "p": "ABW"
+     },
+     {
+      "n": "Lindner",
+      "p": "ABW"
+     },
+     {
+      "n": "Thöle",
+      "p": "ABW"
+     },
+     {
+      "n": "Büttner",
+      "p": "MF"
+     },
+     {
+      "n": "Deuber",
+      "p": "MF"
+     },
+     {
+      "n": "Grzywińska",
+      "p": "MF"
+     },
+     {
+      "n": "Seguin",
+      "p": "MF"
+     },
+     {
+      "n": "Wedler",
+      "p": "MF"
+     },
+     {
+      "n": "Turi",
+      "p": "ST"
+     }
+    ]
+   },
+   "quelle_live": true,
+   "ableitungen": [
+    {
+     "verein": "1. FC Nürnberg",
+     "n": "Varley",
+     "spielerin": "Leia Varley",
+     "war": "Startelf",
+     "zeit": "2026-11-22T18:30",
+     "gegner": "Mainz 05",
+     "wettbewerb": "Liga",
+     "quelle": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306322/1-fsv-mainz-05_1-fc-nuernberg/aufstellung",
+     "delta": -1,
+     "bis": "2026-12-02",
+     "grund": "stand am 22.11. gegen Mainz 05 nicht im Spieltagskader, obwohl im letzten Ligaspiel in der Startelf; Grund nicht bekannt"
+    }
+   ]
   },
   {
    "id": "endstand-scf-2211",
@@ -1666,7 +2021,8 @@
   "tomasiak-standards-1611",
   "kats-standards-1311",
   "weidauer-standards-0811",
-  "aufstellung-folgt-ma12306334"
+  "aufstellung-folgt-ma12306334",
+  "aufstellung-folgt-ma12306322"
  ],
  "ableitungen": [
   {
@@ -1850,6 +2206,19 @@
    "delta": -1,
    "bis": "2026-12-02",
    "grund": "stand am 22.11. gegen VfL Wolfsburg nicht im Spieltagskader, obwohl im letzten Ligaspiel in der Startelf; Grund nicht bekannt"
+  },
+  {
+   "verein": "1. FC Nürnberg",
+   "n": "Varley",
+   "spielerin": "Leia Varley",
+   "war": "Startelf",
+   "zeit": "2026-11-22T18:30",
+   "gegner": "Mainz 05",
+   "wettbewerb": "Liga",
+   "quelle": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306322/1-fsv-mainz-05_1-fc-nuernberg/aufstellung",
+   "delta": -1,
+   "bis": "2026-12-02",
+   "grund": "stand am 22.11. gegen Mainz 05 nicht im Spieltagskader, obwohl im letzten Ligaspiel in der Startelf; Grund nicht bekannt"
   }
  ]
 }
