@@ -1,5 +1,5 @@
 {
-"spiele": 74,
+"spiele": 75,
 "teams": {
 "FCB": [
 {
@@ -799,6 +799,22 @@
 },
 {
 "k": "WOB",
+"n": "Cecilie Fløe",
+"kopf": 3,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0,
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
+},
+{
+"k": "WOB",
 "n": "Lena Lattwein",
 "kopf": 1,
 "std_kopf": 0,
@@ -851,11 +867,11 @@
 "kopf": 0,
 "std_kopf": 0,
 "std_tore": 0,
-"ecke_tritt": 1,
+"ecke_tritt": 2,
 "fs_tritt": 0,
 "std_kopftore": 0,
-"ecke_l": 1,
-"ecke_r": 1,
+"ecke_l": 2,
+"ecke_r": 2,
 "fs_l": 0,
 "fs_r": 0,
 "fs_direkt": 0,
