@@ -241,5 +241,18 @@
   "noten_da": "2026-11-22T17:55",
   "minuten_nach_abpfiff": 3,
   "bau_gestartet": "2026-11-22T17:55"
+ },
+ "12306322": {
+  "spiel": "M05-FCN",
+  "anstoss": "2026-11-22T18:30",
+  "abpfiff_ca": "2026-11-22T20:22",
+  "fixture": 1593181,
+  "af_status": "FT",
+  "erste_pruefung": "2026-11-22T20:25",
+  "noten_zuletzt": 38,
+  "letzte_pruefung": "2026-11-22T20:25",
+  "noten_da": "2026-11-22T20:25",
+  "minuten_nach_abpfiff": 3,
+  "bau_gestartet": "2026-11-22T20:25"
  }
 }
