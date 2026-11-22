@@ -1,23 +1,11 @@
 {
- "datum": "2026-11-21",
+ "datum": "2026-11-22",
  "spiele": {
-  "12306328": {
-   "spiel": "KOE-SVW",
-   "1:0": {
-    "sportschau": "14:37:53",
-    "apifootball": "14:37:53"
-   },
-   "1:1": {
-    "apifootball": "15:17:42",
-    "sportschau": "15:18:29"
-   },
-   "2:1": {
-    "apifootball": "15:36:26",
-    "sportschau": "15:37:14"
-   },
-   "2:2": {
-    "apifootball": "15:39:34",
-    "sportschau": "15:41:09"
+  "12306325": {
+   "spiel": "SCF-VFB",
+   "0:0": {
+    "sportschau": "14:01:26",
+    "apifootball": "14:02:13"
    }
   }
  }
