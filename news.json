@@ -1,6 +1,33 @@
 {
- "stand": "2026-11-22T16:51",
+ "stand": "2026-11-22T17:10",
  "meldungen": [
+  {
+   "id": "aufstellung-folgt-ma12306322",
+   "zeit": "2026-11-22T17:10",
+   "spielerin": "Spielansetzung",
+   "verein": "Mainz 05",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "AUFSTELLUNG"
+   ],
+   "headline": "Aufstellung Mainz 05 gegen 1. FC Nürnberg folgt",
+   "kurz": "Aufstellung folgt, Anpfiff 18:30",
+   "text": [
+    "Anpfiff in der Liga ist um 18:30 Uhr. Die offizielle Aufstellung kommt meist rund 60 Minuten vorher, wir ergänzen sie hier automatisch, sobald sie veröffentlicht ist.",
+    "Bis dahin steht unsere Prognose im Spielplan bei der Partie."
+   ],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306322/1-fsv-mainz-05_1-fc-nuernberg/aufstellung"
+    }
+   ],
+   "platzhalter": true,
+   "anstoss": "2026-11-22T18:30",
+   "partie_id": "12306322"
+  },
   {
    "id": "endstand-scf-2211",
    "zeit": "2026-11-22T15:57",
