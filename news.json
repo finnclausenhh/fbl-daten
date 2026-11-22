@@ -1,6 +1,33 @@
 {
- "stand": "2026-11-22T11:51",
+ "stand": "2026-11-22T12:40",
  "meldungen": [
+  {
+   "id": "aufstellung-folgt-ma12306325",
+   "zeit": "2026-11-22T12:40",
+   "spielerin": "Spielansetzung",
+   "verein": "SC Freiburg",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "AUFSTELLUNG"
+   ],
+   "headline": "Aufstellung SC Freiburg gegen VfB Stuttgart folgt",
+   "kurz": "Aufstellung folgt, Anpfiff 14:00",
+   "text": [
+    "Anpfiff in der Liga ist um 14:00 Uhr. Die offizielle Aufstellung kommt meist rund 60 Minuten vorher, wir ergänzen sie hier automatisch, sobald sie veröffentlicht ist.",
+    "Bis dahin steht unsere Prognose im Spielplan bei der Partie."
+   ],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306325/sc-freiburg_vfb-stuttgart/aufstellung"
+    }
+   ],
+   "platzhalter": true,
+   "anstoss": "2026-11-22T14:00",
+   "partie_id": "12306325"
+  },
   {
    "id": "andrade-2111",
    "pid": "00205",
