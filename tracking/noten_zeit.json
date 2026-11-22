@@ -215,5 +215,18 @@
   "noten_da": "2026-11-21T15:58",
   "minuten_nach_abpfiff": 5,
   "bau_gestartet": "2026-11-21T15:58"
+ },
+ "12306325": {
+  "spiel": "SCF-VFB",
+  "anstoss": "2026-11-22T14:00",
+  "abpfiff_ca": "2026-11-22T15:49",
+  "fixture": 1593179,
+  "af_status": "FT",
+  "erste_pruefung": "2026-11-22T15:52",
+  "noten_zuletzt": 39,
+  "letzte_pruefung": "2026-11-22T15:52",
+  "noten_da": "2026-11-22T15:52",
+  "minuten_nach_abpfiff": 3,
+  "bau_gestartet": "2026-11-22T15:52"
  }
 }
