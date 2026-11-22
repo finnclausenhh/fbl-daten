@@ -158,7 +158,7 @@
    ],
    "headline": "Offizielle Aufstellung: VfL Wolfsburg gegen RB Leipzig",
    "text": [
-    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Carleer, Prašnikar, Zicai. Die Bank folgt, sobald sie veröffentlicht ist."
+    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Carleer, Prašnikar, Zicai."
    ],
    "kickbase": "",
    "quellen": [
@@ -233,24 +233,64 @@
       "f": "neu"
      }
     ],
-    "bank": [],
-    "fehlt": [],
-    "bank_offen": true,
-    "nicht_startelf": [
+    "bank": [
+     {
+      "n": "Tufeković",
+      "p": "TW",
+      "pid": "00391"
+     },
+     {
+      "n": "Wedemeyer",
+      "p": "ABW",
+      "pid": "00399"
+     },
+     {
+      "n": "Bogaert",
+      "p": "ABW",
+      "pid": "00393"
+     },
      {
       "n": "Carleer",
       "p": "ABW",
-      "pid": "00394"
+      "pid": "00394",
+      "f": "raus"
      },
      {
-      "n": "Prašnikar",
-      "p": "ST",
-      "pid": "00412"
+      "n": "Piljic",
+      "p": "MF",
+      "pid": "00406"
+     },
+     {
+      "n": "Alber",
+      "p": "MF",
+      "pid": "00400"
      },
      {
       "n": "Zicai",
       "p": "ST",
-      "pid": "00414"
+      "pid": "00414",
+      "f": "raus"
+     },
+     {
+      "n": "Kerim-Lindland",
+      "p": "ST",
+      "pid": "00411"
+     },
+     {
+      "n": "Prašnikar",
+      "p": "ST",
+      "pid": "00412",
+      "f": "raus"
+     }
+    ],
+    "fehlt": [
+     {
+      "n": "Lattwein",
+      "p": "MF",
+      "pid": "00403",
+      "f": "raus",
+      "war": "Bank",
+      "i": "abwesend"
      }
     ]
    },
