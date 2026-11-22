@@ -1,6 +1,195 @@
 {
- "stand": "2026-11-22T13:45",
+ "stand": "2026-11-22T13:51",
  "meldungen": [
+  {
+   "id": "fehlt-reimann-scf-0111",
+   "pid": "00085",
+   "zeit": "2026-11-01T14:08",
+   "spielerin": "Anna Reimann",
+   "verein": "SC Freiburg",
+   "nr": "",
+   "pos": "TW",
+   "tags": [
+    "AUFSTELLUNG",
+    "POKAL"
+   ],
+   "status": "fraglich",
+   "headline": "Reimann nicht im Kader gegen FC Carl Zeiss Jena",
+   "text": [
+    "Anna Reimann steht im DFB-Pokal gegen FC Carl Zeiss Jena weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
+    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
+   ],
+   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
+   "quellen": [
+    {
+     "name": "DFB-Datencenter",
+     "url": "https://datencenter.dfb.de/matches/sc-freiburg-fc-carl-zeiss-jena-2431333"
+    }
+   ],
+   "quelle_live": true,
+   "kurz": "Reimann nicht im Kader"
+  },
+  {
+   "id": "fehlt-viggosdottir-fcb-0111",
+   "pid": "00013",
+   "zeit": "2026-11-01T13:53",
+   "spielerin": "Glódís Viggósdóttir",
+   "verein": "FC Bayern",
+   "nr": "",
+   "pos": "ABW",
+   "tags": [
+    "AUFSTELLUNG",
+    "POKAL"
+   ],
+   "status": "fraglich",
+   "headline": "Viggósdóttir nicht im Kader gegen Bayer Leverkusen",
+   "text": [
+    "Glódís Viggósdóttir steht im DFB-Pokal gegen Bayer Leverkusen weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
+    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
+   ],
+   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165391/bayern-muenchen_bayer-leverkusen/aufstellung"
+    }
+   ],
+   "quelle_live": true,
+   "kurz": "Viggósdóttir nicht im Kader"
+  },
+  {
+   "id": "fehlt-bender-b04-0111",
+   "pid": "00257",
+   "zeit": "2026-11-01T13:53",
+   "spielerin": "Loreen Bender",
+   "verein": "Bayer Leverkusen",
+   "nr": "",
+   "pos": "ST",
+   "tags": [
+    "AUFSTELLUNG",
+    "POKAL"
+   ],
+   "status": "fraglich",
+   "headline": "Bender nicht im Kader gegen FC Bayern",
+   "text": [
+    "Loreen Bender steht im DFB-Pokal gegen FC Bayern weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 4-mal.",
+    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
+   ],
+   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165391/bayern-muenchen_bayer-leverkusen/aufstellung"
+    }
+   ],
+   "quelle_live": true
+  },
+  {
+   "id": "fehlt-altenburg-sge-0111",
+   "pid": "00056",
+   "zeit": "2026-11-01T13:12",
+   "spielerin": "Lina Altenburg",
+   "verein": "Eintracht Frankfurt",
+   "nr": "",
+   "pos": "TW",
+   "tags": [
+    "AUFSTELLUNG",
+    "POKAL"
+   ],
+   "status": "fraglich",
+   "headline": "Altenburg nicht im Kader gegen 1. FC Nürnberg",
+   "text": [
+    "Lina Altenburg steht im DFB-Pokal gegen 1. FC Nürnberg weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
+    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
+   ],
+   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
+   "quellen": [
+    {
+     "name": "DFB-Datencenter",
+     "url": "https://datencenter.dfb.de/matches/1-fc-nuernberg-eintracht-frankfurt-2431335"
+    }
+   ],
+   "quelle_live": true
+  },
+  {
+   "id": "fehlt-lattwein-wob-0611",
+   "pid": "00403",
+   "zeit": "2026-11-06T18:30",
+   "spielerin": "Lena Lattwein",
+   "verein": "VfL Wolfsburg",
+   "nr": "",
+   "pos": "MF",
+   "tags": [
+    "AUFSTELLUNG"
+   ],
+   "status": "fraglich",
+   "headline": "Lattwein nicht im Kader gegen Eintracht Frankfurt",
+   "text": [
+    "Lena Lattwein steht in der Liga gegen Eintracht Frankfurt weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 1-mal.",
+    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
+   ],
+   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306271/eintracht-frankfurt_vfl-wolfsburg/aufstellung"
+    }
+   ],
+   "quelle_live": true,
+   "kurz": "Lattwein nicht im Kader"
+  },
+  {
+   "id": "fehlt-proost-fcb-0611",
+   "pid": "00020",
+   "zeit": "2026-11-06T18:30",
+   "spielerin": "Sophie Proost",
+   "verein": "FC Bayern",
+   "nr": "",
+   "pos": "MF",
+   "tags": [
+    "AUFSTELLUNG"
+   ],
+   "status": "fraglich",
+   "headline": "Proost nicht im Kader gegen Werder Bremen",
+   "text": [
+    "Sophie Proost steht in der Liga gegen Werder Bremen weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 3-mal.",
+    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
+   ],
+   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306283/bayern-muenchen_werder-bremen/aufstellung"
+    }
+   ],
+   "quelle_live": true
+  },
+  {
+   "id": "fehlt-fudalla-b04-0711",
+   "pid": "00258",
+   "zeit": "2026-11-07T14:00",
+   "spielerin": "Vanessa Fudalla",
+   "verein": "Bayer Leverkusen",
+   "nr": "",
+   "pos": "ST",
+   "tags": [
+    "AUFSTELLUNG"
+   ],
+   "status": "fraglich",
+   "headline": "Fudalla nicht im Kader gegen Hamburger SV",
+   "text": [
+    "Vanessa Fudalla steht in der Liga gegen Hamburger SV weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 2-mal.",
+    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
+   ],
+   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306280/bayer-leverkusen_hamburger-sv/aufstellung"
+    }
+   ],
+   "quelle_live": true
+  },
   {
    "id": "ojukwu-standard-2211",
    "pid": "00106",
@@ -947,328 +1136,6 @@
     ]
    },
    "quelle_live": true
-  },
-  {
-   "id": "aufstellung-hsv-2111",
-   "zeit": "2026-11-21T10:56",
-   "spielerin": "Spielansetzung",
-   "verein": "Hamburger SV",
-   "nr": "",
-   "pos": "Spielansetzung",
-   "tags": [
-    "TOP"
-   ],
-   "headline": "Offizielle Aufstellung: Hamburger SV gegen Eintracht Frankfurt",
-   "text": [
-    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Wrede.",
-    "Nicht im Spieltagskader (laut Sportschau), obwohl im letzten Ligaspiel dabei: Dönges. Einen Grund nennt bisher keine Quelle."
-   ],
-   "kickbase": "",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306331/eintracht-frankfurt_hamburger-sv/aufstellung"
-    }
-   ],
-   "aufstellung": {
-    "gegner": "Eintracht Frankfurt",
-    "formation": "4-2-3-1",
-    "startelf": [
-     {
-      "n": "Szemik",
-      "p": "TW",
-      "pid": "00151"
-     },
-     {
-      "n": "Doucouré",
-      "p": "ABW",
-      "pid": "00154"
-     },
-     {
-      "n": "Stoldt",
-      "p": "ABW",
-      "pid": "00167"
-     },
-     {
-      "n": "Böhler",
-      "p": "ABW",
-      "pid": "00152"
-     },
-     {
-      "n": "Matysik",
-      "p": "ABW",
-      "pid": "00156",
-      "f": "neu"
-     },
-     {
-      "n": "Machtens",
-      "p": "DM",
-      "pid": "00163",
-      "kp": "MF"
-     },
-     {
-      "n": "Peneau",
-      "p": "DM",
-      "pid": "00165",
-      "kp": "MF"
-     },
-     {
-      "n": "Linberg",
-      "p": "OM",
-      "pid": "00173",
-      "kp": "ST"
-     },
-     {
-      "n": "Bartz",
-      "p": "OM",
-      "pid": "00160",
-      "kp": "MF"
-     },
-     {
-      "n": "Morich",
-      "p": "OM",
-      "pid": "00164",
-      "kp": "MF"
-     },
-     {
-      "n": "Karczewska",
-      "p": "ST",
-      "pid": "00171"
-     }
-    ],
-    "bank": [
-     {
-      "n": "Sieger",
-      "p": "TW",
-      "pid": "00150"
-     },
-     {
-      "n": "Martens",
-      "p": "ABW",
-      "pid": "00155"
-     },
-     {
-      "n": "Räcke",
-      "p": "ABW",
-      "pid": "00159"
-     },
-     {
-      "n": "Mirzaliyeva",
-      "p": "ABW",
-      "pid": "00157"
-     },
-     {
-      "n": "Obispo",
-      "p": "ABW",
-      "pid": "00158"
-     },
-     {
-      "n": "Eggert",
-      "p": "MF",
-      "pid": "00162"
-     },
-     {
-      "n": "Wrede",
-      "p": "ABW",
-      "pid": "",
-      "f": "raus"
-     },
-     {
-      "n": "Schwalm",
-      "p": "ST",
-      "pid": "00174"
-     },
-     {
-      "n": "Brunnthaler",
-      "p": "ST",
-      "pid": "00169"
-     }
-    ],
-    "fehlt": [
-     {
-      "n": "Dönges",
-      "p": "ABW",
-      "pid": "00153",
-      "f": "raus",
-      "war": "Bank"
-     }
-    ]
-   },
-   "quelle_live": true
-  },
-  {
-   "id": "aufstellung-sge-2111",
-   "zeit": "2026-11-21T10:56",
-   "spielerin": "Spielansetzung",
-   "verein": "Eintracht Frankfurt",
-   "nr": "",
-   "pos": "Spielansetzung",
-   "tags": [
-    "TOP"
-   ],
-   "headline": "Offizielle Aufstellung: Eintracht Frankfurt gegen Hamburger SV",
-   "text": [
-    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Acikgöz, Krumbiegel."
-   ],
-   "kickbase": "",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306331/eintracht-frankfurt_hamburger-sv/aufstellung"
-    }
-   ],
-   "aufstellung": {
-    "gegner": "Hamburger SV",
-    "formation": "4-1-2-1-2",
-    "startelf": [
-     {
-      "n": "Altenburg",
-      "p": "TW",
-      "pid": "00056"
-     },
-     {
-      "n": "Wolter",
-      "p": "ABW",
-      "pid": "00075",
-      "f": "neu"
-     },
-     {
-      "n": "Ilestedt",
-      "p": "ABW",
-      "pid": "00062"
-     },
-     {
-      "n": "Østenstad",
-      "p": "ABW",
-      "pid": "00066"
-     },
-     {
-      "n": "Lührßen",
-      "p": "ABW",
-      "pid": "00064"
-     },
-     {
-      "n": "Bennison",
-      "p": "DM",
-      "pid": "00069",
-      "kp": "MF"
-     },
-     {
-      "n": "Memeti",
-      "p": "MF",
-      "pid": "00079"
-     },
-     {
-      "n": "Ivelj",
-      "p": "MF",
-      "pid": "00063",
-      "f": "neu"
-     },
-     {
-      "n": "Mühlhaus",
-      "p": "OM",
-      "pid": "00080",
-      "kp": "MF"
-     },
-     {
-      "n": "Freigang",
-      "p": "ST",
-      "pid": "00077"
-     },
-     {
-      "n": "Blomqvist",
-      "p": "ST",
-      "pid": "00070"
-     }
-    ],
-    "bank": [
-     {
-      "n": "Winkler",
-      "p": "TW",
-      "pid": "00059"
-     },
-     {
-      "n": "Doorsoun",
-      "p": "ABW",
-      "pid": "00061"
-     },
-     {
-      "n": "Acikgöz",
-      "p": "MF",
-      "pid": "00060",
-      "f": "raus"
-     },
-     {
-      "n": "Ainhoa Alguacil",
-      "p": "MF",
-      "pid": "00068"
-     },
-     {
-      "n": "Teulings",
-      "p": "MF",
-      "pid": "00074"
-     },
-     {
-      "n": "Krumbiegel",
-      "p": "ABW",
-      "pid": "00072",
-      "f": "raus"
-     },
-     {
-      "n": "Lundgaard",
-      "p": "MF",
-      "pid": "00073"
-     },
-     {
-      "n": "Raso",
-      "p": "ST",
-      "pid": "00081"
-     },
-     {
-      "n": "Tolhoek",
-      "p": "ST",
-      "pid": "00082"
-     }
-    ],
-    "fehlt": [
-     {
-      "n": "Rankin",
-      "p": "ABW",
-      "pid": "00067",
-      "f": "raus",
-      "war": "Bank",
-      "i": "verletzt"
-     }
-    ]
-   },
-   "quelle_live": true
-  },
-  {
-   "id": "fehlt-donges-hsv-2111",
-   "pid": "00153",
-   "zeit": "2026-11-21T10:56",
-   "spielerin": "Jaqueline Dönges",
-   "verein": "Hamburger SV",
-   "nr": "",
-   "pos": "ABW",
-   "tags": [
-    "AUFSTELLUNG"
-   ],
-   "status": "fraglich",
-   "headline": "Dönges nicht im Kader gegen Eintracht Frankfurt",
-   "text": [
-    "Jaqueline Dönges steht in der Liga gegen Eintracht Frankfurt weder in der Startelf noch auf der Bank. Im letzten Ligaspiel saß sie auf der Bank, in den letzten 5 Ligaspielen begann sie 3-mal.",
-    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
-   ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306331/eintracht-frankfurt_hamburger-sv/aufstellung"
-    }
-   ],
-   "quelle_live": true,
-   "kurz": "Dönges nicht im Kader"
   },
   {
    "id": "aufstellung-hsv-2111",
