@@ -1,209 +1,18 @@
 {
  "meldungen": [
   {
-   "id": "fehlt-reimann-scf-0111",
-   "pid": "00085",
-   "zeit": "2026-11-01T14:08",
-   "spielerin": "Anna Reimann",
-   "verein": "SC Freiburg",
-   "nr": "",
-   "pos": "TW",
-   "tags": [
-    "AUFSTELLUNG",
-    "POKAL"
-   ],
-   "status": "fraglich",
-   "headline": "Reimann nicht im Kader gegen FC Carl Zeiss Jena",
-   "text": [
-    "Anna Reimann steht im DFB-Pokal gegen FC Carl Zeiss Jena weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
-    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
-   ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
-   "quellen": [
-    {
-     "name": "DFB-Datencenter",
-     "url": "https://datencenter.dfb.de/matches/sc-freiburg-fc-carl-zeiss-jena-2431333"
-    }
-   ],
-   "quelle_live": true,
-   "kurz": "Reimann nicht im Kader"
-  },
-  {
-   "id": "fehlt-viggosdottir-fcb-0111",
-   "pid": "00013",
-   "zeit": "2026-11-01T13:53",
-   "spielerin": "Glódís Viggósdóttir",
-   "verein": "FC Bayern",
-   "nr": "",
-   "pos": "ABW",
-   "tags": [
-    "AUFSTELLUNG",
-    "POKAL"
-   ],
-   "status": "fraglich",
-   "headline": "Viggósdóttir nicht im Kader gegen Bayer Leverkusen",
-   "text": [
-    "Glódís Viggósdóttir steht im DFB-Pokal gegen Bayer Leverkusen weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
-    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
-   ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165391/bayern-muenchen_bayer-leverkusen/aufstellung"
-    }
-   ],
-   "quelle_live": true,
-   "kurz": "Viggósdóttir nicht im Kader"
-  },
-  {
-   "id": "fehlt-bender-b04-0111",
-   "pid": "00257",
-   "zeit": "2026-11-01T13:53",
-   "spielerin": "Loreen Bender",
-   "verein": "Bayer Leverkusen",
-   "nr": "",
-   "pos": "ST",
-   "tags": [
-    "AUFSTELLUNG",
-    "POKAL"
-   ],
-   "status": "fraglich",
-   "headline": "Bender nicht im Kader gegen FC Bayern",
-   "text": [
-    "Loreen Bender steht im DFB-Pokal gegen FC Bayern weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 4-mal.",
-    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
-   ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165391/bayern-muenchen_bayer-leverkusen/aufstellung"
-    }
-   ],
-   "quelle_live": true
-  },
-  {
-   "id": "fehlt-altenburg-sge-0111",
-   "pid": "00056",
-   "zeit": "2026-11-01T13:12",
-   "spielerin": "Lina Altenburg",
-   "verein": "Eintracht Frankfurt",
-   "nr": "",
-   "pos": "TW",
-   "tags": [
-    "AUFSTELLUNG",
-    "POKAL"
-   ],
-   "status": "fraglich",
-   "headline": "Altenburg nicht im Kader gegen 1. FC Nürnberg",
-   "text": [
-    "Lina Altenburg steht im DFB-Pokal gegen 1. FC Nürnberg weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
-    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
-   ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
-   "quellen": [
-    {
-     "name": "DFB-Datencenter",
-     "url": "https://datencenter.dfb.de/matches/1-fc-nuernberg-eintracht-frankfurt-2431335"
-    }
-   ],
-   "quelle_live": true
-  },
-  {
-   "id": "fehlt-lattwein-wob-0611",
-   "pid": "00403",
-   "zeit": "2026-11-06T18:30",
-   "spielerin": "Lena Lattwein",
-   "verein": "VfL Wolfsburg",
-   "nr": "",
-   "pos": "MF",
-   "tags": [
-    "AUFSTELLUNG"
-   ],
-   "status": "fraglich",
-   "headline": "Lattwein nicht im Kader gegen Eintracht Frankfurt",
-   "text": [
-    "Lena Lattwein steht in der Liga gegen Eintracht Frankfurt weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 1-mal.",
-    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
-   ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306271/eintracht-frankfurt_vfl-wolfsburg/aufstellung"
-    }
-   ],
-   "quelle_live": true,
-   "kurz": "Lattwein nicht im Kader"
-  },
-  {
-   "id": "fehlt-proost-fcb-0611",
-   "pid": "00020",
-   "zeit": "2026-11-06T18:30",
-   "spielerin": "Sophie Proost",
-   "verein": "FC Bayern",
-   "nr": "",
-   "pos": "MF",
-   "tags": [
-    "AUFSTELLUNG"
-   ],
-   "status": "fraglich",
-   "headline": "Proost nicht im Kader gegen Werder Bremen",
-   "text": [
-    "Sophie Proost steht in der Liga gegen Werder Bremen weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 3-mal.",
-    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
-   ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306283/bayern-muenchen_werder-bremen/aufstellung"
-    }
-   ],
-   "quelle_live": true
-  },
-  {
-   "id": "fehlt-fudalla-b04-0711",
-   "pid": "00258",
-   "zeit": "2026-11-07T14:00",
-   "spielerin": "Vanessa Fudalla",
-   "verein": "Bayer Leverkusen",
-   "nr": "",
-   "pos": "ST",
-   "tags": [
-    "AUFSTELLUNG"
-   ],
-   "status": "fraglich",
-   "headline": "Fudalla nicht im Kader gegen Hamburger SV",
-   "text": [
-    "Vanessa Fudalla steht in der Liga gegen Hamburger SV weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 2-mal.",
-    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
-   ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306280/bayer-leverkusen_hamburger-sv/aufstellung"
-    }
-   ],
-   "quelle_live": true
-  },
-  {
-   "id": "aufstellung-folgt-ma12306334",
-   "zeit": "2026-11-22T14:40",
+   "id": "aufstellung-rbl-2211",
+   "zeit": "2026-11-22T14:58",
    "spielerin": "Spielansetzung",
    "verein": "RB Leipzig",
    "nr": "",
    "pos": "Spielansetzung",
    "tags": [
-    "AUFSTELLUNG"
+    "TOP"
    ],
-   "headline": "Aufstellung RB Leipzig gegen VfL Wolfsburg folgt",
-   "kurz": "Aufstellung folgt, Anpfiff 16:00",
+   "headline": "Offizielle Aufstellung: RB Leipzig gegen VfL Wolfsburg",
    "text": [
-    "Anpfiff in der Liga ist um 16:00 Uhr. Die offizielle Aufstellung kommt meist rund 60 Minuten vorher, wir ergänzen sie hier automatisch, sobald sie veröffentlicht ist.",
-    "Bis dahin steht unsere Prognose im Spielplan bei der Partie."
+    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Mathys, Pfister, Veefkind. Die Bank folgt, sobald sie veröffentlicht ist."
    ],
    "kickbase": "",
    "quellen": [
@@ -212,9 +21,207 @@
      "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306334/rb-leipzig_vfl-wolfsburg/aufstellung"
     }
    ],
-   "platzhalter": true,
-   "anstoss": "2026-11-22T16:00",
-   "partie_id": "12306334"
+   "aufstellung": {
+    "gegner": "VfL Wolfsburg",
+    "formation": "4-2-3-1",
+    "startelf": [
+     {
+      "n": "Herzog",
+      "p": "TW",
+      "pid": "00213"
+     },
+     {
+      "n": "Hulst",
+      "p": "ABW",
+      "pid": "00231",
+      "kp": "ST",
+      "f": "neu"
+     },
+     {
+      "n": "Norheim",
+      "p": "ABW",
+      "pid": "00226",
+      "f": "neu"
+     },
+     {
+      "n": "Mertens",
+      "p": "ABW",
+      "pid": "00225"
+     },
+     {
+      "n": "Tuin",
+      "p": "ABW",
+      "pid": "00221"
+     },
+     {
+      "n": "Dudek",
+      "p": "DM",
+      "pid": "00217",
+      "kp": "ABW"
+     },
+     {
+      "n": "Pusztai",
+      "p": "DM",
+      "pid": "00227",
+      "kp": "MF"
+     },
+     {
+      "n": "van Dijk",
+      "p": "OM",
+      "pid": "00237",
+      "kp": "ST"
+     },
+     {
+      "n": "Simonsson",
+      "p": "OM",
+      "pid": "00235",
+      "kp": "ST",
+      "f": "neu"
+     },
+     {
+      "n": "Schimmer",
+      "p": "OM",
+      "pid": "00234",
+      "kp": "ST"
+     },
+     {
+      "n": "Boboy",
+      "p": "ST",
+      "pid": "00230"
+     }
+    ],
+    "bank": [],
+    "fehlt": [],
+    "bank_offen": true,
+    "nicht_startelf": [
+     {
+      "n": "Mathys",
+      "p": "ABW",
+      "pid": "00219"
+     },
+     {
+      "n": "Pfister",
+      "p": "ST",
+      "pid": "00233"
+     },
+     {
+      "n": "Veefkind",
+      "p": "ABW",
+      "pid": "00222"
+     }
+    ]
+   },
+   "quelle_live": true
+  },
+  {
+   "id": "aufstellung-wob-2211",
+   "zeit": "2026-11-22T14:58",
+   "spielerin": "Spielansetzung",
+   "verein": "VfL Wolfsburg",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "TOP"
+   ],
+   "headline": "Offizielle Aufstellung: VfL Wolfsburg gegen RB Leipzig",
+   "text": [
+    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Carleer, Prašnikar, Zicai. Die Bank folgt, sobald sie veröffentlicht ist."
+   ],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306334/rb-leipzig_vfl-wolfsburg/aufstellung"
+    }
+   ],
+   "aufstellung": {
+    "gegner": "RB Leipzig",
+    "formation": "4-1-2-2-1",
+    "startelf": [
+     {
+      "n": "Johannes",
+      "p": "TW",
+      "pid": "00389"
+     },
+     {
+      "n": "Bjelde",
+      "p": "ABW",
+      "pid": "00392"
+     },
+     {
+      "n": "Kleinherne",
+      "p": "ABW",
+      "pid": "00395",
+      "f": "neu"
+     },
+     {
+      "n": "Küver",
+      "p": "ABW",
+      "pid": "00396"
+     },
+     {
+      "n": "Linder",
+      "p": "ABW",
+      "pid": "00398"
+     },
+     {
+      "n": "Minge",
+      "p": "DM",
+      "pid": "00404",
+      "kp": "MF"
+     },
+     {
+      "n": "Vallotto",
+      "p": "MF",
+      "pid": "00407"
+     },
+     {
+      "n": "Peddemors",
+      "p": "MF",
+      "pid": "00405"
+     },
+     {
+      "n": "Huth",
+      "p": "OM",
+      "pid": "00402",
+      "kp": "MF"
+     },
+     {
+      "n": "Bussy",
+      "p": "OM",
+      "pid": "00408",
+      "kp": "ST",
+      "f": "neu"
+     },
+     {
+      "n": "Fløe",
+      "p": "ST",
+      "pid": "00409",
+      "f": "neu"
+     }
+    ],
+    "bank": [],
+    "fehlt": [],
+    "bank_offen": true,
+    "nicht_startelf": [
+     {
+      "n": "Carleer",
+      "p": "ABW",
+      "pid": "00394"
+     },
+     {
+      "n": "Prašnikar",
+      "p": "ST",
+      "pid": "00412"
+     },
+     {
+      "n": "Zicai",
+      "p": "ST",
+      "pid": "00414"
+     }
+    ]
+   },
+   "quelle_live": true
   },
   {
    "id": "fehlt-hechler-vfb-2211",
@@ -1496,7 +1503,8 @@
   "ojukwu-standard-2211",
   "tomasiak-standards-1611",
   "kats-standards-1311",
-  "weidauer-standards-0811"
+  "weidauer-standards-0811",
+  "aufstellung-folgt-ma12306334"
  ],
  "ableitungen": [
   {
