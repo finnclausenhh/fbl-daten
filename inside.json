@@ -12,7 +12,7 @@
    {
     "art": "chance",
     "label": "Chance",
-    "text": "Mainz kassierte in 10 Spielen 36 Tore (3,6 pro Spiel). Am Sonntag kommt Nürnberg, Proniez traf in den letzten drei Spielen dreimal und begann jedes davon."
+    "text": "Der FC Bayern holte zu Hause 15 Punkte aus 5 Spielen bei 19:4 Toren, Hoffenheim auswärts 4 Punkte aus 5 Spielen bei 5:10 Toren. Klara Bühl hat mit 6 Ligatoren die meisten beider Teams."
    }
   ]
  },
@@ -165,71 +165,6 @@
     }
    },
    {
-    "n": "Fany Proniez",
-    "k": "FCN",
-    "big": "3",
-    "big_txt": "Tore in den letzten 3 Spielen",
-    "s": [
-     [
-      51,
-      1,
-      1
-     ],
-     [
-      0,
-      0,
-      0
-     ],
-     [
-      27,
-      0,
-      1
-     ],
-     [
-      61,
-      1,
-      0
-     ],
-     [
-      63,
-      0,
-      0
-     ],
-     [
-      15,
-      0,
-      0
-     ],
-     [
-      36,
-      0,
-      0
-     ],
-     [
-      90,
-      1,
-      2
-     ],
-     [
-      86,
-      1,
-      1
-     ],
-     [
-      90,
-      1,
-      0
-     ]
-    ],
-    "text": "Bis Spieltag 7 nie über 63 Minuten, seit Spieltag 8 dreimal in der Startelf mit 90, 86 und 90 Minuten.",
-    "kb": "Nächster Gegner ist Mainz (3,6 Gegentore pro Spiel), das ist der höchste Wert der Liga.",
-    "next": {
-     "k": "M05",
-     "ort": "A",
-     "datum": "So 22.11."
-    }
-   },
-   {
     "n": "Carlotta Imping",
     "k": "KOE",
     "big": "261",
@@ -362,71 +297,6 @@
     }
    },
    {
-    "n": "Alina Axtmann",
-    "k": "SCF",
-    "big": "0",
-    "big_txt": "Minuten in den letzten 3 Spielen",
-    "s": [
-     [
-      90,
-      1,
-      0
-     ],
-     [
-      90,
-      1,
-      0
-     ],
-     [
-      90,
-      1,
-      0
-     ],
-     [
-      90,
-      1,
-      0
-     ],
-     [
-      90,
-      1,
-      0
-     ],
-     [
-      82,
-      1,
-      0
-     ],
-     [
-      76,
-      1,
-      0
-     ],
-     [
-      0,
-      0,
-      0
-     ],
-     [
-      0,
-      0,
-      0
-     ],
-     [
-      0,
-      0,
-      0
-     ]
-    ],
-    "text": "Bis Spieltag 7 immer in der Startelf (608 Minuten). An den Spieltagen 8 bis 10 kam sie nicht zum Einsatz, einen Grund nennt keine Quelle.",
-    "kb": "Nächster Gegner ist Stuttgart (2,4 Gegentore pro Spiel), Freiburg spielt zu Hause.",
-    "next": {
-     "k": "VFB",
-     "ort": "H",
-     "datum": "So 22.11."
-    }
-   },
-   {
     "n": "Glódís Viggósdóttir",
     "k": "FCB",
     "big": "90",
@@ -490,71 +360,6 @@
      "ort": "H",
      "datum": "Mo 23.11."
     }
-   },
-   {
-    "n": "Sophia Kleinherne",
-    "k": "WOB",
-    "big": "0",
-    "big_txt": "Minuten in den letzten 3 Spielen",
-    "s": [
-     [
-      61,
-      1,
-      0
-     ],
-     [
-      60,
-      1,
-      0
-     ],
-     [
-      90,
-      1,
-      0
-     ],
-     [
-      41,
-      0,
-      0
-     ],
-     [
-      59,
-      1,
-      0
-     ],
-     [
-      5,
-      0,
-      0
-     ],
-     [
-      90,
-      1,
-      0
-     ],
-     [
-      0,
-      0,
-      0
-     ],
-     [
-      0,
-      0,
-      0
-     ],
-     [
-      0,
-      0,
-      0
-     ]
-    ],
-    "text": "An den Spieltagen 1 bis 7 in jedem Ligaspiel eingesetzt, fünfmal in der Startelf (406 Minuten). Seit Spieltag 8 ohne Ligaminute, einen Grund nennt keine Quelle.",
-    "kb": "Nächster Gegner ist Leipzig (2,2 Gegentore pro Spiel), auswärts.",
-    "next": {
-     "k": "RBL",
-     "ort": "A",
-     "datum": "So 22.11."
-    }
    }
   ],
   "hold": [
@@ -562,7 +367,7 @@
     "n": "Ella Peddemors",
     "k": "WOB",
     "big": "11",
-    "big_txt": "Ligatore in 10 Spielen",
+    "big_txt": "Ligatore in 11 Spielen",
     "s": [
      [
       90,
@@ -613,14 +418,19 @@
       90,
       1,
       0
+     ],
+     [
+      90,
+      1,
+      0
      ]
     ],
-    "text": "Alle zehn Ligaspiele über 90 Minuten. Gegen den FC Bayern blieb sie zum ersten Mal seit Spieltag 5 ohne Tor.",
-    "kb": "Nächster Gegner ist Leipzig (2,2 Gegentore pro Spiel), auswärts. Leipzig kassierte am Sonntag 5 Tore gegen Frankfurt.",
+    "text": "Alle elf Ligaspiele über 90 Minuten. Gegen den FC Bayern und in Leipzig blieb sie ohne Tor.",
+    "kb": "Nächster Gegner ist Freiburg, auswärts am 13.12.",
     "next": {
-     "k": "RBL",
+     "k": "SCF",
      "ort": "A",
-     "datum": "So 22.11."
+     "datum": "So 13.12."
     }
    },
    {
@@ -1143,42 +953,6 @@
    {
     "md": 11,
     "partien": [
-     {
-      "heim": "SCF",
-      "gast": "VFB",
-      "datum": "So 22.11.",
-      "zeit": "14:00",
-      "fakten": [
-       "Freiburg holte zu Hause <b>6 Punkte</b> aus 5 Spielen (5:9 Tore).",
-       "Stuttgart holte auswärts <b>8 Punkte</b> aus 5 Spielen (9:11 Tore).",
-       "Meiste Ligatore beider Teams: Nicole Billa (Stuttgart) mit <b>3</b>."
-      ],
-      "kb": "Freiburg kassiert 1,9 Tore pro Spiel, Stuttgart 2,4. Das spricht eher für die Offensive von Freiburg."
-     },
-     {
-      "heim": "RBL",
-      "gast": "WOB",
-      "datum": "So 22.11.",
-      "zeit": "16:00",
-      "fakten": [
-       "Leipzig holte zu Hause <b>6 Punkte</b> aus 5 Spielen (9:13 Tore).",
-       "Wolfsburg holte auswärts <b>15 Punkte</b> aus 6 Spielen (21:6 Tore).",
-       "Meiste Ligatore beider Teams: Ella Peddemors (Wolfsburg) mit <b>11</b>."
-      ],
-      "kb": "Leipzig kassiert 2,2 Tore pro Spiel, Wolfsburg 1,3. Das spricht eher für die Offensive von Wolfsburg."
-     },
-     {
-      "heim": "M05",
-      "gast": "FCN",
-      "datum": "So 22.11.",
-      "zeit": "18:30",
-      "fakten": [
-       "Mainz holte zu Hause <b>0 Punkte</b> aus 5 Spielen (4:17 Tore).",
-       "Nürnberg holte auswärts <b>4 Punkte</b> aus 5 Spielen (8:10 Tore).",
-       "Meiste Ligatore beider Teams: Fany Proniez (Nürnberg) mit <b>5</b>."
-      ],
-      "kb": "Mainz kassiert 3,6 Tore pro Spiel, Nürnberg 2,4. Das spricht eher für die Offensive von Nürnberg."
-     },
      {
       "heim": "FCB",
       "gast": "TSG",
@@ -4773,5 +4547,5 @@
   "id": "punkt-md11",
   "text": "Spieltag 11 in 60 Sekunden"
  },
- "geprueft": "2026-11-21T22:58"
+ "geprueft": "2026-11-22T22:58"
 }
