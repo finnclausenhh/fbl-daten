@@ -1,6 +1,34 @@
 {
  "meldungen": [
   {
+   "id": "endstand-m05-2211",
+   "zeit": "2026-11-22T20:25",
+   "spielerin": "Mainz 05 gegen 1. FC Nürnberg",
+   "verein": "Mainz 05",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "SPIELBERICHT"
+   ],
+   "headline": "Endstand: Mainz 05 1:0 1. FC Nürnberg",
+   "kurz": "Endstand M05 1:0 FCN",
+   "text": [
+    "Mainz 05 gewinnt gegen den 1. FC Nürnberg mit 1:0.",
+    "Tore: 1:0 Bathmann (34., Vorlage Anstatt).",
+    "Gelb: Georgieva, Martin, Kats.",
+    "Noten und der ausführliche Bericht folgen."
+   ],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306322/1-fsv-mainz-05_1-fc-nuernberg/liveticker"
+    }
+   ],
+   "quelle_live": true,
+   "partie_id": "12306322"
+  },
+  {
    "id": "fehlt-reimann-scf-0111",
    "pid": "00085",
    "zeit": "2026-11-01T14:08",
