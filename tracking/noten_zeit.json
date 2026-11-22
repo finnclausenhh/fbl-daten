@@ -228,5 +228,18 @@
   "noten_da": "2026-11-22T15:52",
   "minuten_nach_abpfiff": 3,
   "bau_gestartet": "2026-11-22T15:52"
+ },
+ "12306334": {
+  "spiel": "RBL-WOB",
+  "anstoss": "2026-11-22T16:00",
+  "abpfiff_ca": "2026-11-22T17:53",
+  "fixture": 1593182,
+  "af_status": "FT",
+  "erste_pruefung": "2026-11-22T17:55",
+  "noten_zuletzt": 37,
+  "letzte_pruefung": "2026-11-22T17:55",
+  "noten_da": "2026-11-22T17:55",
+  "minuten_nach_abpfiff": 3,
+  "bau_gestartet": "2026-11-22T17:55"
  }
 }
