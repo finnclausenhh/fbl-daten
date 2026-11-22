@@ -1,6 +1,33 @@
 {
- "stand": "2026-11-22T14:24",
+ "stand": "2026-11-22T14:40",
  "meldungen": [
+  {
+   "id": "aufstellung-folgt-ma12306334",
+   "zeit": "2026-11-22T14:40",
+   "spielerin": "Spielansetzung",
+   "verein": "RB Leipzig",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "AUFSTELLUNG"
+   ],
+   "headline": "Aufstellung RB Leipzig gegen VfL Wolfsburg folgt",
+   "kurz": "Aufstellung folgt, Anpfiff 16:00",
+   "text": [
+    "Anpfiff in der Liga ist um 16:00 Uhr. Die offizielle Aufstellung kommt meist rund 60 Minuten vorher, wir ergänzen sie hier automatisch, sobald sie veröffentlicht ist.",
+    "Bis dahin steht unsere Prognose im Spielplan bei der Partie."
+   ],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306334/rb-leipzig_vfl-wolfsburg/aufstellung"
+    }
+   ],
+   "platzhalter": true,
+   "anstoss": "2026-11-22T16:00",
+   "partie_id": "12306334"
+  },
   {
    "id": "ojukwu-standard-2211",
    "pid": "00106",
