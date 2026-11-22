@@ -2,7 +2,7 @@
  "meldungen": [
   {
    "id": "endstand-scf-2211",
-   "zeit": "2026-11-22T15:51",
+   "zeit": "2026-11-22T15:57",
    "spielerin": "SC Freiburg gegen VfB Stuttgart",
    "verein": "SC Freiburg",
    "nr": "",
@@ -10,23 +10,32 @@
    "tags": [
     "SPIELBERICHT"
    ],
-   "headline": "Endstand: SC Freiburg 2:0 VfB Stuttgart",
-   "kurz": "Endstand SCF 2:0 VFB",
+   "headline": "SC Freiburg gewinnt 2:0 gegen den VfB Stuttgart, Vobian und Birkholz treffen",
+   "kurz": "Freiburg schlägt Stuttgart 2:0",
    "text": [
     "SC Freiburg gewinnt gegen den VfB Stuttgart mit 2:0.",
     "Tore: 1:0 Vobian (86.), 2:0 Birkholz (88., Vorlage Memminger).",
     "Gelb: Achcińska, Birkholz, Hecke.",
-    "Noten und der ausführliche Bericht folgen."
+    "Beste Note im Spiel: Birkholz (8,2).",
+    "Statistik (SC Freiburg zuerst): Torschüsse 28:12 (aufs Tor 9:3), Ballbesitz 48:52 %, Expected Goals 2,32:0,99, Ecken 8:6.",
+    "Beste Noten SC Freiburg: Birkholz 8,2, Memminger 7,6, Reimann 7,4.",
+    "Beste Noten VfB Stuttgart: Giuliani 7,5, Billa 6,9, Stegemann 6,5.",
+    "Schwächste Note in der Startelf: Rall (5,5)."
    ],
-   "kickbase": "",
+   "kickbase": "Herausragend: Birkholz (8,2), Memminger (7,6), Giuliani (7,5).",
    "quellen": [
     {
      "name": "Sportschau",
      "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306325/sc-freiburg_vfb-stuttgart/liveticker"
+    },
+    {
+     "name": "API-Football (Noten, Statistik)",
+     "url": "https://www.api-football.com"
     }
    ],
    "quelle_live": true,
-   "partie_id": "12306325"
+   "partie_id": "12306325",
+   "noten": true
   },
   {
    "id": "fehlt-reimann-scf-0111",
