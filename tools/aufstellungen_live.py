@@ -354,6 +354,28 @@ def ohne_doppel(news):
     news["meldungen"] = [m for m in news["meldungen"] if not (m["id"] in gesehen or gesehen.add(m["id"]))]
 
 
+def aus_aufstellung(m):
+    """Meldung, die nur aus der offiziellen Aufstellung abgeleitet ist (Quelle Aufstellung bei Sportschau, DFB oder Verein)."""
+    return any("aufstellung" in ((q.get("name") or "") + " " + (q.get("url") or "")).lower() for q in (m.get("quellen") or []))
+
+
+def ohne_spieltag_bank(news, live):
+    """Finn 22.11.2026: Meldungen wie "Standardschützin fehlt in der Startelf" oder "Topspielerin nur auf der Bank" sind am
+    Spieltag null relevant, die Aufstellung zeigt das schon. Solche Meldungen aus dem Lauf (Tag STANDARD, oder AUFSTELLUNG ohne
+    eigene Aufstellung) werden entfernt und kommen nach "entfernt", damit Spiegel und Heilen sie nicht zurückholen.
+    Die fehlt-Meldungen ("nicht im Kader") und die Aufstellungen selbst bleiben."""
+    weg = [m["id"] for m in news["meldungen"]
+           if not m["id"].startswith(("fehlt-", "aufstellung-", "endstand-")) and aus_aufstellung(m)
+           and not {"RÜCKKEHR", "VERLETZUNG", "SPERRE"} & set(m.get("tags") or [])
+           and ("STANDARD" in (m.get("tags") or []) or ("AUFSTELLUNG" in (m.get("tags") or []) and not m.get("aufstellung")))]
+    if weg:
+        news["meldungen"] = [m for m in news["meldungen"] if m["id"] not in weg]
+        live["meldungen"] = [m for m in live.get("meldungen", []) if m["id"] not in weg]
+        live["entfernt"] = list(dict.fromkeys(live.get("entfernt", []) + weg))
+        print(f"Spieltags-Meldungen zu Bank/Standards entfernt: {weg}")
+    return weg
+
+
 def std_zusammen(news, live):
     """Finn 08.11.2026 (Martret doppelt): Gibt es zu einer Standardschützin am selben Tag schon die fehlt-Meldung ihres Vereins,
     wandert die STANDARD-Meldung (meist vom Lauf) in diese Meldung: Tag STANDARD, Standards-Sätze, Kickbase-Satz, Foto.
@@ -390,6 +412,7 @@ def std_zusammen(news, live):
 
 
 def speichern(a, pn, pl, news, live, nachricht, extra=()):
+    ohne_spieltag_bank(news, live)
     std_zusammen(news, live)
     ohne_doppel(news)
     news["stand"] = datetime.now(TZ).strftime("%Y-%m-%dT%H:%M")
@@ -629,6 +652,8 @@ def main():
         print(f"wieder eingefügt: {[m['id'] for m in fehlend]}")
         speichern(a, pn, pl, news, live, "Aufstellungen live: wieder eingefügt")
 
+    if ohne_spieltag_bank(news, live):
+        speichern(a, pn, pl, news, live, "Aufstellungen live: Bank- und Standard-Meldungen am Spieltag entfernt")
     if std_zusammen(news, live):
         speichern(a, pn, pl, news, live, "Aufstellungen live: Standards in fehlt-Meldung zusammengeführt")
     bank_nachtragen(a, pn, pl, news, live, spielplan, kader, grenze)
