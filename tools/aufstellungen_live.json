@@ -12,7 +12,8 @@
    ],
    "headline": "Offizielle Aufstellung: RB Leipzig gegen VfL Wolfsburg",
    "text": [
-    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Mathys, Pfister, Veefkind. Die Bank folgt, sobald sie veröffentlicht ist."
+    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Mathys, Pfister, Veefkind.",
+    "Nicht im Spieltagskader (laut Sportschau), obwohl im letzten Ligaspiel dabei: Mathys. Einen Grund nennt bisher keine Quelle."
    ],
    "kickbase": "",
    "quellen": [
@@ -90,24 +91,55 @@
       "pid": "00230"
      }
     ],
-    "bank": [],
-    "fehlt": [],
-    "bank_offen": true,
-    "nicht_startelf": [
+    "bank": [
      {
-      "n": "Mathys",
-      "p": "ABW",
-      "pid": "00219"
+      "n": "Waldbillig",
+      "p": "TW",
+      "pid": "00216"
      },
      {
-      "n": "Pfister",
-      "p": "ST",
-      "pid": "00233"
+      "n": "Marti",
+      "p": "ABW",
+      "pid": "00218"
      },
      {
       "n": "Veefkind",
       "p": "ABW",
-      "pid": "00222"
+      "pid": "00222",
+      "f": "raus"
+     },
+     {
+      "n": "Kramer",
+      "p": "MF",
+      "pid": "00224"
+     },
+     {
+      "n": "Pfister",
+      "p": "ST",
+      "pid": "00233",
+      "f": "raus"
+     },
+     {
+      "n": "Kleemann",
+      "p": "ST",
+      "pid": "00232"
+     }
+    ],
+    "fehlt": [
+     {
+      "n": "Mathys",
+      "p": "ABW",
+      "pid": "00219",
+      "f": "raus",
+      "war": "Startelf"
+     },
+     {
+      "n": "Starke",
+      "p": "ST",
+      "pid": "00236",
+      "f": "raus",
+      "war": "Bank",
+      "i": "verletzt"
      }
     ]
    },
@@ -1675,6 +1707,19 @@
    "delta": -1,
    "bis": "2026-12-02",
    "grund": "stand am 22.11. gegen SC Freiburg nicht im Spieltagskader, obwohl im letzten Ligaspiel in der Startelf; Grund nicht bekannt"
+  },
+  {
+   "verein": "RB Leipzig",
+   "n": "Mathys",
+   "spielerin": "Jasmien Mathys",
+   "war": "Startelf",
+   "zeit": "2026-11-22T14:58",
+   "gegner": "VfL Wolfsburg",
+   "wettbewerb": "Liga",
+   "quelle": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306334/rb-leipzig_vfl-wolfsburg/aufstellung",
+   "delta": -1,
+   "bis": "2026-12-02",
+   "grund": "stand am 22.11. gegen VfL Wolfsburg nicht im Spieltagskader, obwohl im letzten Ligaspiel in der Startelf; Grund nicht bekannt"
   }
  ]
 }
