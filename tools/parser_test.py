@@ -134,7 +134,19 @@ def pruefen(p, s, ol):
     if sorted(a, key=str) != sorted(b, key=str):
         nur_a = [x for x in a if x not in b]
         nur_b = [x for x in b if x not in a]
-        F(f"Tore weichen vom spielplan ab: live {nur_a} / spielplan {nur_b}")
+        # Die Sportschau korrigiert Tor-Minuten nach dem Spiel gelegentlich um 1 (22.11.2026: Raso 81 -> 80). Sonst gleiches
+        # Tor mit 1 Minute Abstand ist kein Lesefehler, nur ein Hinweis.
+        rest_b, minute = list(nur_b), []
+        for x in list(nur_a):
+            for y in rest_b:
+                mx, my = mi(x[2]), mi(y[2])
+                if x[:2] + x[3:] == y[:2] + y[3:] and mx and my and mx[1] == my[1] and abs(mx[0] - my[0]) == 1:
+                    minute.append((x[1], y[2], x[2])); rest_b.remove(y); nur_a.remove(x)
+                    break
+        for n, alt_min, neu_min in minute:
+            H(f"Tor-Minute 1 daneben: {n} spielplan {alt_min}, Sportschau jetzt {neu_min}")
+        if nur_a or rest_b:
+            F(f"Tore weichen vom spielplan ab: live {nur_a} / spielplan {rest_b}")
     if o and o["tore"]:
         ol_n = sorted(nn(x["n"]) for x in o["tore"] if x["n"])
         li_n = sorted(nn(t["n"]) for t in tore)
