@@ -118,6 +118,11 @@
     "zeit": "2026-11-21T12:03",
     "titel": "Startelf der FC-Frauen gegen Bremen",
     "url": "https://fc.de/aktuelles/news/startelf-der-fc-frauen-gegen-bremen"
+   },
+   "FCB": {
+    "zeit": "2026-11-22T14:21",
+    "titel": "Historische Männer-Bestmarke vor Augen: Formstarke FCB-Frauen empfangen Hoffenheim",
+    "url": "https://fcbayern.com/frauen/de/news/vorberichte/2026/11/vorschau-fc-bayern-frauen---tsg-hoffenheim"
    }
   }
  },
@@ -132,6 +137,11 @@
     "md": 10,
     "tage_vorher": 1,
     "uhr": "09:45"
+   },
+   {
+    "md": 11,
+    "tage_vorher": 1,
+    "uhr": "14:21"
    }
   ],
   "SVW": [
@@ -296,7 +306,7 @@
    }
   ]
  },
- "stand": "2026-11-22T14:24",
+ "stand": "2026-11-22T16:22",
  "pk_news_zeit": {
   "11": "2026-11-20T08:05"
  }
