@@ -218,37 +218,6 @@
    "partie_id": "12306334"
   },
   {
-   "id": "ojukwu-standard-2211",
-   "pid": "00106",
-   "zeit": "2026-11-22T13:00",
-   "spielerin": "Nicole Ojukwu",
-   "verein": "SC Freiburg",
-   "nr": "",
-   "pos": "MF",
-   "tags": [
-    "STANDARD"
-   ],
-   "headline": "Ojukwu fehlt in Freiburgs Startelf, Freistöße offen",
-   "kurz": "Ojukwu auf der Bank, Freiburg ohne Freistoßschützin",
-   "text": [
-    "Nicole Ojukwu sitzt beim Spiel des SC Freiburg gegen den VfB Stuttgart nur auf der Bank. Sie ist Freiburgs erste Wahl bei Freistößen und teilt sich die Ecken mit Acikgöz.",
-    "Auf dem Platz steht Acikgöz, die in der Hierarchie bei Freistößen als Nächste kommt. Ecken schießen damit weiter Acikgöz und Ojukwu, solange Letztere nicht eingewechselt wird."
-   ],
-   "kickbase": "Für die Standardpunkte rückt Acikgöz in den Fokus. Ojukwu ist für die Wertung dieses Spieltags nur als Joker eine Option.",
-   "quellen": [
-    {
-     "name": "Sportschau (offizielle Aufstellung)",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306325/sc-freiburg_vfb-stuttgart/aufstellung"
-    }
-   ],
-   "foto": "fotos/scf-nicole-ojukwu.webp",
-   "foto_credit": {
-    "autor": "SC Freiburg",
-    "lizenz": "mit Genehmigung: SC Freiburg",
-    "url": "https://www.scfreiburg.com/teams/frauen/spielerinnen/"
-   }
-  },
-  {
    "id": "aufstellung-vfb-2211",
    "zeit": "2026-11-22T13:00",
    "spielerin": "Spielansetzung",
@@ -3308,38 +3277,6 @@
    "quelle_live": true
   },
   {
-   "id": "tomasiak-standards-1611",
-   "pid": "00266",
-   "zeit": "2026-11-16T17:03",
-   "spielerin": "Paulina Tomasiak",
-   "verein": "Bayer Leverkusen",
-   "nr": "28",
-   "pos": "ST",
-   "tags": [
-    "STANDARD"
-   ],
-   "status": "fit",
-   "headline": "Tomasiak sitzt gegen Stuttgart auf der Bank",
-   "kurz": "Tomasiak nur Bank, Simon bei Freistößen",
-   "text": [
-    "Paulina Tomasiak steht im Spiel gegen den VfB Stuttgart nicht in der Startelf, sie sitzt laut offizieller Aufstellung auf der Bank. Bei Bayer Leverkusen führt sie die Liste bei Freistößen an.",
-    "Carolin Simon steht in der Startelf und dürfte die Freistöße übernehmen."
-   ],
-   "kickbase": "Wer auf Standards setzt, sollte Simon im Blick haben. Tomasiak ist bei Einwechslung wieder erste Wahl für Freistöße.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306304/vfb-stuttgart_bayer-leverkusen/aufstellung"
-    }
-   ],
-   "foto": "fotos/b04-paulina-tomasiak.webp",
-   "foto_credit": {
-    "autor": "Bayer 04",
-    "lizenz": "mit Genehmigung: Bayer 04 Leverkusen",
-    "url": "https://www.bayer04.de/de-de/team/frauen/frauen"
-   }
-  },
-  {
    "id": "eriksson-1611",
    "pid": "00007",
    "zeit": "2026-11-16T04:25",
@@ -5856,38 +5793,6 @@
    "quelle_live": true
   },
   {
-   "id": "kats-standards-1311",
-   "pid": "00292",
-   "zeit": "2026-11-13T17:28",
-   "spielerin": "Vital Kats",
-   "verein": "Mainz 05",
-   "nr": "30",
-   "pos": "ST",
-   "tags": [
-    "STANDARD"
-   ],
-   "headline": "Kats sitzt gegen den HSV auf der Bank",
-   "kurz": "Kats nur Bank, Fetaj bei Ecken vorn",
-   "status": "fit",
-   "text": [
-    "Vital Kats steht beim Spiel gegen den Hamburger SV nicht in der Startelf, sie sitzt laut offizieller Aufstellung auf der Bank. Beim 1. FSV Mainz 05 führt sie die Liste bei Ecken und Freistößen an.",
-    "Bei Ecken dürfte Gentiana Fetaj übernehmen, die in der Startelf steht. Wer die Freistöße schießt, ist offen."
-   ],
-   "kickbase": "Wer auf Standards setzt, sollte Fetaj im Blick haben. Kats ist bei Einwechslung wieder erste Wahl für ruhende Bälle.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306295/hamburger-sv_1-fsv-mainz-05/aufstellung"
-    }
-   ],
-   "foto": "fotos/m05-vital-kats.webp",
-   "foto_credit": {
-    "autor": "Mainz 05",
-    "lizenz": "mit Genehmigung: 1. FSV Mainz 05",
-    "url": "https://www.mainz05.de/Tab/Kader-Frauen"
-   }
-  },
-  {
    "id": "pk-md10",
    "zeit": "2026-11-13T11:45",
    "spielerin": "Pressekonferenzen",
@@ -8017,38 +7922,6 @@
     ]
    },
    "quelle_live": true
-  },
-  {
-   "id": "weidauer-standards-0811",
-   "pid": "00387",
-   "zeit": "2026-11-08T13:01",
-   "spielerin": "Sophie Weidauer",
-   "verein": "Union Berlin",
-   "nr": "",
-   "pos": "ST",
-   "tags": [
-    "STANDARD",
-    "AUFSTELLUNG"
-   ],
-   "headline": "Weidauer und Heiseler auf der Bank: Standards bei Union",
-   "kurz": "Weidauer, Heiseler auf der Bank: Standards offen",
-   "text": [
-    "Sophie Weidauer sitzt gegen die TSG Hoffenheim zunächst auf der Bank. Sie ist bei Union Berlin die erste Wahl bei Ecken, auch Lisa Heiseler (erste Wahl bei Freistößen) beginnt nicht.",
-    "Bei Freistößen übernimmt laut Hierarchie Judit Pujols, die in der Startelf steht. Wer die Ecken tritt, ist offen, weil mit Egli ebenfalls nur eine Bankspielerin hinterlegt ist."
-   ],
-   "kickbase": "Standardpunkte für Union laufen in der Startelf eher über Pujols, bei Ecken ist die Lage offen. Weidauer und Heiseler zählen erst, wenn sie eingewechselt werden.",
-   "quellen": [
-    {
-     "name": "Sportschau (offizielle Aufstellung)",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306286/1-fc-union-berlin_tsg-hoffenheim/aufstellung"
-    }
-   ],
-   "foto": "fotos/fcu-sophie-weidauer.webp",
-   "foto_credit": {
-    "autor": "Union Berlin",
-    "lizenz": "mit Genehmigung: 1. FC Union Berlin",
-    "url": "https://www.fc-union-berlin.de/de/fussball/profis-frauen-nJqf"
-   }
   },
   {
    "id": "fehlt-martret-tsg-0811",
