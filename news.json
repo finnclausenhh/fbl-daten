@@ -1,21 +1,224 @@
 {
- "stand": "2026-11-22T12:51",
+ "stand": "2026-11-22T13:00",
  "meldungen": [
   {
-   "id": "aufstellung-folgt-ma12306325",
-   "zeit": "2026-11-22T12:40",
+   "id": "aufstellung-scf-2211",
+   "zeit": "2026-11-22T13:00",
    "spielerin": "Spielansetzung",
    "verein": "SC Freiburg",
    "nr": "",
    "pos": "Spielansetzung",
    "tags": [
-    "AUFSTELLUNG"
+    "TOP"
    ],
-   "headline": "Aufstellung SC Freiburg gegen VfB Stuttgart folgt",
-   "kurz": "Aufstellung folgt, Anpfiff 14:00",
+   "headline": "Offizielle Aufstellung: SC Freiburg gegen VfB Stuttgart",
+   "text": [],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306325/sc-freiburg_vfb-stuttgart/aufstellung"
+    }
+   ],
+   "aufstellung": {
+    "gegner": "VfB Stuttgart",
+    "formation": "4-2-2-2",
+    "startelf": [
+     {
+      "n": "Reimann",
+      "p": "TW",
+      "pid": "00085"
+     },
+     {
+      "n": "Karl",
+      "p": "ABW",
+      "pid": "00091"
+     },
+     {
+      "n": "Axtmann",
+      "p": "ABW",
+      "pid": "00087",
+      "f": "neu"
+     },
+     {
+      "n": "Stierli",
+      "p": "ABW",
+      "pid": "00095"
+     },
+     {
+      "n": "Memminger",
+      "p": "ABW",
+      "pid": "00093"
+     },
+     {
+      "n": "Acikgöz",
+      "p": "DM",
+      "pid": "00098",
+      "kp": "MF"
+     },
+     {
+      "n": "Schneider",
+      "p": "DM",
+      "pid": "00108",
+      "kp": "MF"
+     },
+     {
+      "n": "Kolb",
+      "p": "OM",
+      "pid": "00113",
+      "kp": "ST",
+      "f": "neu"
+     },
+     {
+      "n": "Vincze",
+      "p": "OM",
+      "pid": "00117",
+      "kp": "ST"
+     },
+     {
+      "n": "Birkholz",
+      "p": "ST",
+      "pid": "00101",
+      "f": "neu"
+     },
+     {
+      "n": "Brunold",
+      "p": "ST",
+      "pid": "00112"
+     }
+    ],
+    "bank": [
+     {
+      "n": "Barth",
+      "p": "TW",
+      "pid": "00083"
+     },
+     {
+      "n": "Maas",
+      "p": "ABW",
+      "pid": "00092",
+      "f": "raus"
+     },
+     {
+      "n": "Vobian",
+      "p": "MF",
+      "pid": "00111",
+      "f": "raus"
+     },
+     {
+      "n": "Bienz",
+      "p": "MF",
+      "pid": "00100",
+      "f": "raus"
+     },
+     {
+      "n": "Ojukwu",
+      "p": "MF",
+      "pid": "00106"
+     },
+     {
+      "n": "Seghir",
+      "p": "MF",
+      "pid": "00109"
+     },
+     {
+      "n": "Arfaoui",
+      "p": "MF",
+      "pid": "00099"
+     },
+     {
+      "n": "Hebben",
+      "p": "MF",
+      "pid": "00105",
+      "f": "neu"
+     },
+     {
+      "n": "Simmen",
+      "p": "MF",
+      "pid": "00110"
+     }
+    ],
+    "fehlt": [
+     {
+      "n": "von Schrader",
+      "p": "TW",
+      "f": "raus",
+      "war": "Bank"
+     },
+     {
+      "n": "Benkarth",
+      "p": "TW"
+     },
+     {
+      "n": "Ernst",
+      "p": "ABW"
+     },
+     {
+      "n": "Ihme",
+      "p": "ABW"
+     },
+     {
+      "n": "Jansen",
+      "p": "ABW"
+     },
+     {
+      "n": "Sigurðardóttir",
+      "p": "ABW"
+     },
+     {
+      "n": "Szenk",
+      "p": "ABW"
+     },
+     {
+      "n": "Vojteková",
+      "p": "ABW"
+     },
+     {
+      "n": "Blumenberg",
+      "p": "MF"
+     },
+     {
+      "n": "Felde",
+      "p": "MF"
+     },
+     {
+      "n": "Grund",
+      "p": "MF"
+     },
+     {
+      "n": "Schick",
+      "p": "MF"
+     },
+     {
+      "n": "Putzer",
+      "p": "ST"
+     },
+     {
+      "n": "Scherer",
+      "p": "ST",
+      "i": "Saisonaus"
+     },
+     {
+      "n": "Schmitz",
+      "p": "ST"
+     }
+    ]
+   },
+   "quelle_live": true
+  },
+  {
+   "id": "aufstellung-vfb-2211",
+   "zeit": "2026-11-22T13:00",
+   "spielerin": "Spielansetzung",
+   "verein": "VfB Stuttgart",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "TOP"
+   ],
+   "headline": "Offizielle Aufstellung: VfB Stuttgart gegen SC Freiburg",
    "text": [
-    "Anpfiff in der Liga ist um 14:00 Uhr. Die offizielle Aufstellung kommt meist rund 60 Minuten vorher, wir ergänzen sie hier automatisch, sobald sie veröffentlicht ist.",
-    "Bis dahin steht unsere Prognose im Spielplan bei der Partie."
+    "Nicht im Spieltagskader, obwohl im letzten Ligaspiel dabei: Hechler. Einen Grund nennt bisher keine Quelle."
    ],
    "kickbase": "",
    "quellen": [
@@ -24,9 +227,184 @@
      "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306325/sc-freiburg_vfb-stuttgart/aufstellung"
     }
    ],
-   "platzhalter": true,
-   "anstoss": "2026-11-22T14:00",
-   "partie_id": "12306325"
+   "aufstellung": {
+    "gegner": "SC Freiburg",
+    "formation": "3-4-1-2",
+    "startelf": [
+     {
+      "n": "Giuliani",
+      "p": "TW",
+      "pid": "00329"
+     },
+     {
+      "n": "Norman",
+      "p": "ABW",
+      "pid": "00336"
+     },
+     {
+      "n": "Zähringer",
+      "p": "ABW",
+      "pid": "00340"
+     },
+     {
+      "n": "Stegemann",
+      "p": "ABW",
+      "pid": "00339",
+      "f": "neu"
+     },
+     {
+      "n": "Rall",
+      "p": "DM",
+      "pid": "00337",
+      "kp": "MF"
+     },
+     {
+      "n": "Achcińska",
+      "p": "DM",
+      "pid": "00341",
+      "kp": "MF"
+     },
+     {
+      "n": "Hirano",
+      "p": "DM",
+      "pid": "00345",
+      "kp": "MF"
+     },
+     {
+      "n": "Müller",
+      "p": "DM",
+      "pid": "00346",
+      "kp": "MF"
+     },
+     {
+      "n": "Redzepi",
+      "p": "OM",
+      "pid": "00347",
+      "kp": "MF"
+     },
+     {
+      "n": "Billa",
+      "p": "ST",
+      "pid": "00351"
+     },
+     {
+      "n": "Wieder",
+      "p": "ST",
+      "pid": "00356"
+     }
+    ],
+    "bank": [
+     {
+      "n": "Beck",
+      "p": "TW",
+      "pid": "00327"
+     },
+     {
+      "n": "Dürr",
+      "p": "ABW",
+      "pid": "00332"
+     },
+     {
+      "n": "T. Dongus",
+      "p": "ABW",
+      "pid": ""
+     },
+     {
+      "n": "Hagel",
+      "p": "MF",
+      "pid": "00343"
+     },
+     {
+      "n": "Hecke",
+      "p": "MF",
+      "pid": "00344",
+      "f": "neu"
+     },
+     {
+      "n": "Schetter",
+      "p": "ST",
+      "pid": "00355"
+     },
+     {
+      "n": "Rückert",
+      "p": "ST",
+      "pid": "00354"
+     },
+     {
+      "n": "Arouna",
+      "p": "ST",
+      "pid": "00349"
+     }
+    ],
+    "fehlt": [
+     {
+      "n": "Beuschlein",
+      "p": "ST",
+      "f": "raus",
+      "war": "Bank"
+     },
+     {
+      "n": "F. Dongus",
+      "p": "ABW",
+      "f": "raus",
+      "war": "Bank"
+     },
+     {
+      "n": "Hechler",
+      "p": "ABW",
+      "f": "raus",
+      "war": "Startelf"
+     },
+     {
+      "n": "Böttcher",
+      "p": "TW"
+     },
+     {
+      "n": "Carollo",
+      "p": "ABW"
+     },
+     {
+      "n": "Hofmann",
+      "p": "ABW"
+     },
+     {
+      "n": "Mickenhagen",
+      "p": "ABW"
+     },
+     {
+      "n": "Schäfer",
+      "p": "ABW"
+     },
+     {
+      "n": "Wichmann",
+      "p": "MF"
+     },
+     {
+      "n": "Glaser",
+      "p": "ST"
+     },
+     {
+      "n": "Osawa",
+      "p": "ST"
+     }
+    ]
+   },
+   "quelle_live": true,
+   "ableitungen": [
+    {
+     "verein": "VfB Stuttgart",
+     "n": "Hechler",
+     "spielerin": "Janina Hechler",
+     "war": "Startelf",
+     "zeit": "2026-11-22T14:00",
+     "gegner": "SC Freiburg",
+     "wettbewerb": "Liga",
+     "quelle": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306325/sc-freiburg_vfb-stuttgart/aufstellung",
+     "delta": -1,
+     "bis": "2026-12-02",
+     "grund": "stand am 22.11. gegen SC Freiburg nicht im Spieltagskader, obwohl im letzten Ligaspiel in der Startelf; Grund nicht bekannt"
+    }
+   ]
   },
   {
    "id": "andrade-2111",
