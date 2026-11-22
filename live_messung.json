@@ -1,34 +1,11 @@
 {
  "datum": "2026-11-22",
  "spiele": {
-  "12306334": {
-   "spiel": "RBL-WOB",
-   "0:0": {
-    "sportschau": "16:19:33",
-    "apifootball": "16:19:33"
-   },
-   "0:1": {
-    "sportschau": "17:07:07",
-    "apifootball": "17:07:07"
-   },
-   "0:2": {
-    "apifootball": "17:07:54",
-    "sportschau": "17:08:43"
-   },
-   "1:2": {
-    "sportschau": "17:21:59",
-    "apifootball": "17:21:59"
-   }
-  },
   "12306322": {
    "spiel": "M05-FCN",
-   "0:0": {
-    "sportschau": "18:31:13",
-    "apifootball": "18:32:00"
-   },
    "1:0": {
-    "apifootball": "19:04:50",
-    "sportschau": "19:05:37"
+    "sportschau": "19:09:42",
+    "apifootball": "19:09:42"
    }
   }
  }
