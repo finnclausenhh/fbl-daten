@@ -1,0 +1,17 @@
+{
+ "datum": "2026-11-22",
+ "spiele": [
+  1593179
+ ],
+ "erstmals": {
+  "1593179": {
+   "spiel": "SC Freiburg W - Stuttgart W",
+   "anstoss": "2026-11-22T13:00:00+00:00",
+   "aufstellung_gesehen": "2026-11-22T12:53+00:00",
+   "minuten_vor_anpfiff": 7,
+   "mit_bank": true
+  }
+ },
+ "ohne_aufstellung_bis_anpfiff": [],
+ "abfragen": 3
+}
