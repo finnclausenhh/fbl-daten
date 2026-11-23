@@ -170,7 +170,8 @@
    ],
    "headline": "Offizielle Aufstellung: TSG Hoffenheim gegen FC Bayern",
    "text": [
-    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Grimm, Natter, Vöhringer. Die Bank folgt, sobald sie veröffentlicht ist."
+    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Grimm, Natter, Vöhringer.",
+    "Nicht im Spieltagskader (laut Sportschau), obwohl im letzten Ligaspiel dabei: Natter. Einen Grund nennt bisher keine Quelle."
    ],
    "kickbase": "",
    "quellen": [
@@ -246,24 +247,47 @@
       "kp": "MF"
      }
     ],
-    "bank": [],
-    "fehlt": [],
-    "bank_offen": true,
-    "nicht_startelf": [
+    "bank": [
      {
-      "n": "Grimm",
-      "p": "MF",
-      "pid": "00132"
+      "n": "Lichtfus",
+      "p": "TW",
+      "pid": "00120"
      },
      {
-      "n": "Natter",
-      "p": "ST",
-      "pid": "00144"
+      "n": "Douma",
+      "p": "ABW",
+      "pid": "00124"
+     },
+     {
+      "n": "Kemper",
+      "p": "MF",
+      "pid": "00135"
+     },
+     {
+      "n": "Harsch",
+      "p": "MF",
+      "pid": "00134"
      },
      {
       "n": "Vöhringer",
       "p": "ABW",
-      "pid": "00139"
+      "pid": "00139",
+      "f": "raus"
+     },
+     {
+      "n": "Grimm",
+      "p": "MF",
+      "pid": "00132",
+      "f": "raus"
+     }
+    ],
+    "fehlt": [
+     {
+      "n": "Natter",
+      "p": "ST",
+      "pid": "00144",
+      "f": "raus",
+      "war": "Startelf"
      }
     ]
    },

@@ -169,7 +169,8 @@
    ],
    "headline": "Offizielle Aufstellung: TSG Hoffenheim gegen FC Bayern",
    "text": [
-    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Grimm, Natter, Vöhringer. Die Bank folgt, sobald sie veröffentlicht ist."
+    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Grimm, Natter, Vöhringer.",
+    "Nicht im Spieltagskader (laut Sportschau), obwohl im letzten Ligaspiel dabei: Natter. Einen Grund nennt bisher keine Quelle."
    ],
    "kickbase": "",
    "quellen": [
@@ -245,24 +246,47 @@
       "kp": "MF"
      }
     ],
-    "bank": [],
-    "fehlt": [],
-    "bank_offen": true,
-    "nicht_startelf": [
+    "bank": [
      {
-      "n": "Grimm",
-      "p": "MF",
-      "pid": "00132"
+      "n": "Lichtfus",
+      "p": "TW",
+      "pid": "00120"
      },
      {
-      "n": "Natter",
-      "p": "ST",
-      "pid": "00144"
+      "n": "Douma",
+      "p": "ABW",
+      "pid": "00124"
+     },
+     {
+      "n": "Kemper",
+      "p": "MF",
+      "pid": "00135"
+     },
+     {
+      "n": "Harsch",
+      "p": "MF",
+      "pid": "00134"
      },
      {
       "n": "Vöhringer",
       "p": "ABW",
-      "pid": "00139"
+      "pid": "00139",
+      "f": "raus"
+     },
+     {
+      "n": "Grimm",
+      "p": "MF",
+      "pid": "00132",
+      "f": "raus"
+     }
+    ],
+    "fehlt": [
+     {
+      "n": "Natter",
+      "p": "ST",
+      "pid": "00144",
+      "f": "raus",
+      "war": "Startelf"
      }
     ]
    },
@@ -1793,6 +1817,19 @@
    "delta": -1,
    "bis": "2026-12-03",
    "grund": "stand am 23.11. gegen TSG Hoffenheim nicht im Spieltagskader, obwohl im letzten Ligaspiel in der Startelf; Grund nicht bekannt"
+  },
+  {
+   "verein": "TSG Hoffenheim",
+   "n": "Natter",
+   "spielerin": "Linda Natter",
+   "war": "Startelf",
+   "zeit": "2026-11-23T16:54",
+   "gegner": "FC Bayern",
+   "wettbewerb": "Liga",
+   "quelle": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306337/bayern-muenchen_tsg-hoffenheim/aufstellung",
+   "delta": -1,
+   "bis": "2026-12-03",
+   "grund": "stand am 23.11. gegen FC Bayern nicht im Spieltagskader, obwohl im letzten Ligaspiel in der Startelf; Grund nicht bekannt"
   }
  ]
 }
