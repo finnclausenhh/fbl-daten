@@ -1,6 +1,293 @@
 {
- "stand": "2026-11-23T12:51",
+ "stand": "2026-11-23T13:50",
  "meldungen": [
+  {
+   "id": "fehlt-reimann-scf-0111",
+   "pid": "00085",
+   "zeit": "2026-11-01T14:08",
+   "spielerin": "Anna Reimann",
+   "verein": "SC Freiburg",
+   "nr": "",
+   "pos": "TW",
+   "tags": [
+    "AUFSTELLUNG",
+    "POKAL"
+   ],
+   "status": "fraglich",
+   "headline": "Reimann nicht im Kader gegen FC Carl Zeiss Jena",
+   "text": [
+    "Anna Reimann steht im DFB-Pokal gegen FC Carl Zeiss Jena weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
+    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
+   ],
+   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
+   "quellen": [
+    {
+     "name": "DFB-Datencenter",
+     "url": "https://datencenter.dfb.de/matches/sc-freiburg-fc-carl-zeiss-jena-2431333"
+    }
+   ],
+   "quelle_live": true,
+   "kurz": "Reimann nicht im Kader"
+  },
+  {
+   "id": "fehlt-viggosdottir-fcb-0111",
+   "pid": "00013",
+   "zeit": "2026-11-01T13:53",
+   "spielerin": "Glódís Viggósdóttir",
+   "verein": "FC Bayern",
+   "nr": "",
+   "pos": "ABW",
+   "tags": [
+    "AUFSTELLUNG",
+    "POKAL"
+   ],
+   "status": "fraglich",
+   "headline": "Viggósdóttir nicht im Kader gegen Bayer Leverkusen",
+   "text": [
+    "Glódís Viggósdóttir steht im DFB-Pokal gegen Bayer Leverkusen weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
+    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
+   ],
+   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165391/bayern-muenchen_bayer-leverkusen/aufstellung"
+    }
+   ],
+   "quelle_live": true,
+   "kurz": "Viggósdóttir nicht im Kader"
+  },
+  {
+   "id": "fehlt-bender-b04-0111",
+   "pid": "00257",
+   "zeit": "2026-11-01T13:53",
+   "spielerin": "Loreen Bender",
+   "verein": "Bayer Leverkusen",
+   "nr": "",
+   "pos": "ST",
+   "tags": [
+    "AUFSTELLUNG",
+    "POKAL"
+   ],
+   "status": "fraglich",
+   "headline": "Bender nicht im Kader gegen FC Bayern",
+   "text": [
+    "Loreen Bender steht im DFB-Pokal gegen FC Bayern weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 4-mal.",
+    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
+   ],
+   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165391/bayern-muenchen_bayer-leverkusen/aufstellung"
+    }
+   ],
+   "quelle_live": true
+  },
+  {
+   "id": "fehlt-altenburg-sge-0111",
+   "pid": "00056",
+   "zeit": "2026-11-01T13:12",
+   "spielerin": "Lina Altenburg",
+   "verein": "Eintracht Frankfurt",
+   "nr": "",
+   "pos": "TW",
+   "tags": [
+    "AUFSTELLUNG",
+    "POKAL"
+   ],
+   "status": "fraglich",
+   "headline": "Altenburg nicht im Kader gegen 1. FC Nürnberg",
+   "text": [
+    "Lina Altenburg steht im DFB-Pokal gegen 1. FC Nürnberg weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
+    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
+   ],
+   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
+   "quellen": [
+    {
+     "name": "DFB-Datencenter",
+     "url": "https://datencenter.dfb.de/matches/1-fc-nuernberg-eintracht-frankfurt-2431335"
+    }
+   ],
+   "quelle_live": true
+  },
+  {
+   "id": "fehlt-lattwein-wob-0611",
+   "pid": "00403",
+   "zeit": "2026-11-06T18:30",
+   "spielerin": "Lena Lattwein",
+   "verein": "VfL Wolfsburg",
+   "nr": "",
+   "pos": "MF",
+   "tags": [
+    "AUFSTELLUNG"
+   ],
+   "status": "fraglich",
+   "headline": "Lattwein nicht im Kader gegen Eintracht Frankfurt",
+   "text": [
+    "Lena Lattwein steht in der Liga gegen Eintracht Frankfurt weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 1-mal.",
+    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
+   ],
+   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306271/eintracht-frankfurt_vfl-wolfsburg/aufstellung"
+    }
+   ],
+   "quelle_live": true,
+   "kurz": "Lattwein nicht im Kader"
+  },
+  {
+   "id": "fehlt-proost-fcb-0611",
+   "pid": "00020",
+   "zeit": "2026-11-06T18:30",
+   "spielerin": "Sophie Proost",
+   "verein": "FC Bayern",
+   "nr": "",
+   "pos": "MF",
+   "tags": [
+    "AUFSTELLUNG"
+   ],
+   "status": "fraglich",
+   "headline": "Proost nicht im Kader gegen Werder Bremen",
+   "text": [
+    "Sophie Proost steht in der Liga gegen Werder Bremen weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 3-mal.",
+    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
+   ],
+   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306283/bayern-muenchen_werder-bremen/aufstellung"
+    }
+   ],
+   "quelle_live": true
+  },
+  {
+   "id": "fehlt-fudalla-b04-0711",
+   "pid": "00258",
+   "zeit": "2026-11-07T14:00",
+   "spielerin": "Vanessa Fudalla",
+   "verein": "Bayer Leverkusen",
+   "nr": "",
+   "pos": "ST",
+   "tags": [
+    "AUFSTELLUNG"
+   ],
+   "status": "fraglich",
+   "headline": "Fudalla nicht im Kader gegen Hamburger SV",
+   "text": [
+    "Vanessa Fudalla steht in der Liga gegen Hamburger SV weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 2-mal.",
+    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
+   ],
+   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306280/bayer-leverkusen_hamburger-sv/aufstellung"
+    }
+   ],
+   "quelle_live": true
+  },
+  {
+   "id": "fehlt-martret-tsg-0811",
+   "pid": "00142",
+   "zeit": "2026-11-08T13:01",
+   "spielerin": "Laia Martret",
+   "verein": "TSG Hoffenheim",
+   "nr": "",
+   "pos": "ST",
+   "tags": [
+    "AUFSTELLUNG"
+   ],
+   "status": "fraglich",
+   "headline": "Martret nicht im Kader gegen Union Berlin",
+   "text": [
+    "Laia Martret steht in der Liga gegen Union Berlin weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
+    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
+   ],
+   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306286/1-fc-union-berlin_tsg-hoffenheim/aufstellung"
+    }
+   ],
+   "quelle_live": true
+  },
+  {
+   "id": "huth-2211",
+   "pid": "00402",
+   "zeit": "2026-11-22T17:10",
+   "spielerin": "Svenja Huth",
+   "verein": "VfL Wolfsburg",
+   "nr": "",
+   "pos": "MF",
+   "tags": [
+    "VERLETZUNG"
+   ],
+   "status": "fraglich",
+   "headline": "Huth muss in Leipzig verletzt vom Platz",
+   "kurz": "Huth verletzt ausgewechselt",
+   "text": [
+    "Svenja Huth musste beim 2:1 des VfL Wolfsburg bei RB Leipzig nach einem Zweikampf verletzt vom Feld (67.). Für sie kam Cora Zicai.",
+    "Art und Dauer der Verletzung nannte der Verein in seinem Spielbericht nicht."
+   ],
+   "kickbase": "Huth ist Standardschützin und Stammkraft im Mittelfeld, ihr Status ist bis zur nächsten Diagnose fraglich. Die Länderspielpause gibt Zeit, das nächste Ligaspiel folgt erst im Dezember.",
+   "quellen": [
+    {
+     "name": "VfL Wolfsburg",
+     "url": "https://www.vfl-wolfsburg.de/newsdetails/news-detail/detail/news/doppelschlag-bringt-auswaertssieg"
+    }
+   ],
+   "foto": "fotos/wob-svenja-huth.webp",
+   "foto_credit": {
+    "autor": "VfL Wolfsburg",
+    "lizenz": "mit Genehmigung: VfL Wolfsburg",
+    "url": "https://www.vfl-wolfsburg.de/teams/frauen/kader-2026/2027"
+   }
+  },
+  {
+   "id": "marti-comeback-2211",
+   "pid": "00218",
+   "zeit": "2026-11-22T17:35",
+   "spielerin": "Lara Marti",
+   "verein": "RB Leipzig",
+   "nr": "",
+   "pos": "ABW",
+   "tags": [
+    "RÜCKKEHR"
+   ],
+   "status": "fit",
+   "headline": "Marti feiert nach Kreuzbandriss ihr Comeback",
+   "kurz": "Marti nach Kreuzbandriss zurück im Einsatz",
+   "text": [
+    "Lara Marti hat anderthalb Jahre nach ihrem Kreuzbandriss ihr Comeback gegeben. Beim 1:2 gegen den VfL Wolfsburg wurde die Schweizerin in der 84. Minute eingewechselt.",
+    "Eine Woche zuvor saß sie gegen Eintracht Frankfurt noch ohne Einsatz auf der Bank."
+   ],
+   "kickbase": "Erster Einsatz nach langer Pause, aber nur als Einwechslerin. Für die Startelf nach der Länderspielpause ist sie noch kein Thema.",
+   "quellen": [
+    {
+     "name": "SRF",
+     "url": "https://www.srf.ch/sport/fussball/frauen-fussball/schweizerinnen-im-ausland-marti-mit-emotionalem-comeback-pilgrim-setzt-lauf-fort"
+    },
+    {
+     "name": "VfL Wolfsburg",
+     "url": "https://www.vfl-wolfsburg.de/newsdetails/news-detail/detail/news/doppelschlag-bringt-auswaertssieg"
+    }
+   ],
+   "comeback": {
+    "art": "comeback",
+    "stufe": "einsatz"
+   },
+   "foto": "fotos/rbl-lara-marti.webp",
+   "foto_credit": {
+    "autor": "RB Leipzig",
+    "lizenz": "mit Genehmigung: RB Leipzig",
+    "url": "https://rbleipzig.com/de/teams-frauen"
+   }
+  },
   {
    "id": "hausicke-sperre-2311",
    "pid": "00373",
@@ -196,6 +483,69 @@
     }
    ],
    "quelle_live": true
+  },
+  {
+   "id": "hechler-2211",
+   "pid": "00333",
+   "zeit": "2026-11-22T17:01",
+   "spielerin": "Janina Hechler",
+   "verein": "VfB Stuttgart",
+   "nr": "",
+   "pos": "ABW",
+   "tags": [
+    "UPDATE",
+    "ABWESEND"
+   ],
+   "status": "abwesend",
+   "headline": "Hechler fehlt in Freiburg krank",
+   "text": [
+    "Janina Hechler stand beim 0:2 in Freiburg nicht im Kader. Laut VfB war sie kurzfristig erkrankt, für sie rückte Greta Stegemann in die Startelf.",
+    "Wie lange die Erkrankung dauert, nannte der Verein nicht."
+   ],
+   "kickbase": "Der Grund ist damit bekannt: Krankheit, keine Verletzung. Nach der Länderspielpause folgt das nächste Ligaspiel erst am 13. Dezember gegen RB Leipzig, bis dahin bleibt Zeit für die Genesung.",
+   "quellen": [
+    {
+     "name": "VfB Stuttgart",
+     "url": "https://www.vfb.de/de/vfb/frauen/vfb-frauen-i/frauen-bundesliga/2627/11-freiburg-frauen---vfb-stuttgart-frauen-i/"
+    }
+   ],
+   "foto": "fotos/vfb-janina-hechler.webp",
+   "foto_credit": {
+    "autor": "VfB Stuttgart",
+    "lizenz": "mit Genehmigung: VfB Stuttgart",
+    "url": "https://www.vfb.de/de/1893/frauen/frauen/kader/saisonen/2026-2027/kader/?data=&mobile="
+   }
+  },
+  {
+   "id": "stegemann-2211",
+   "pid": "00339",
+   "zeit": "2026-11-22T17:01",
+   "spielerin": "Greta Stegemann",
+   "verein": "VfB Stuttgart",
+   "nr": "",
+   "pos": "ABW",
+   "tags": [
+    "RÜCKKEHR"
+   ],
+   "status": "fit",
+   "headline": "Stegemann steht wieder in der Startelf",
+   "text": [
+    "Greta Stegemann stand beim VfB in Freiburg in der Startelf und spielte in der Dreierkette. Der Verein nennt sie wieder genesen, zuvor hatte sie wegen einer Verletzung gefehlt.",
+    "Der VfB verlor 0:2, Stegemann spielte durch."
+   ],
+   "kickbase": "Stegemann ist zurück im Stammplatz. Für den nächsten Spieltag nach der Länderspielpause kann sie wieder als Startelf-Kandidatin eingeplant werden.",
+   "quellen": [
+    {
+     "name": "VfB Stuttgart",
+     "url": "https://www.vfb.de/de/vfb/frauen/vfb-frauen-i/frauen-bundesliga/2627/11-freiburg-frauen---vfb-stuttgart-frauen-i/"
+    }
+   ],
+   "foto": "fotos/vfb-greta-stegemann.webp",
+   "foto_credit": {
+    "autor": "VfB Stuttgart",
+    "lizenz": "mit Genehmigung: VfB Stuttgart",
+    "url": "https://www.vfb.de/de/1893/frauen/frauen/kader/saisonen/2026-2027/kader/?data=&mobile="
+   }
   },
   {
    "id": "aufstellung-m05-2211",
@@ -578,141 +928,6 @@
      "grund": "stand am 22.11. gegen Mainz 05 nicht im Spieltagskader, obwohl im letzten Ligaspiel in der Startelf; Grund nicht bekannt"
     }
    ]
-  },
-  {
-   "id": "marti-comeback-2211",
-   "pid": "00218",
-   "zeit": "2026-11-22T17:35",
-   "spielerin": "Lara Marti",
-   "verein": "RB Leipzig",
-   "nr": "",
-   "pos": "ABW",
-   "tags": [
-    "RÜCKKEHR"
-   ],
-   "status": "fit",
-   "headline": "Marti feiert nach Kreuzbandriss ihr Comeback",
-   "kurz": "Marti nach Kreuzbandriss zurück im Einsatz",
-   "text": [
-    "Lara Marti hat anderthalb Jahre nach ihrem Kreuzbandriss ihr Comeback gegeben. Beim 1:2 gegen den VfL Wolfsburg wurde die Schweizerin in der 84. Minute eingewechselt.",
-    "Eine Woche zuvor saß sie gegen Eintracht Frankfurt noch ohne Einsatz auf der Bank."
-   ],
-   "kickbase": "Erster Einsatz nach langer Pause, aber nur als Einwechslerin. Für die Startelf nach der Länderspielpause ist sie noch kein Thema.",
-   "quellen": [
-    {
-     "name": "SRF",
-     "url": "https://www.srf.ch/sport/fussball/frauen-fussball/schweizerinnen-im-ausland-marti-mit-emotionalem-comeback-pilgrim-setzt-lauf-fort"
-    },
-    {
-     "name": "VfL Wolfsburg",
-     "url": "https://www.vfl-wolfsburg.de/newsdetails/news-detail/detail/news/doppelschlag-bringt-auswaertssieg"
-    }
-   ],
-   "comeback": {
-    "art": "comeback",
-    "stufe": "einsatz"
-   },
-   "foto": "fotos/rbl-lara-marti.webp",
-   "foto_credit": {
-    "autor": "RB Leipzig",
-    "lizenz": "mit Genehmigung: RB Leipzig",
-    "url": "https://rbleipzig.com/de/teams-frauen"
-   }
-  },
-  {
-   "id": "huth-2211",
-   "pid": "00402",
-   "zeit": "2026-11-22T17:10",
-   "spielerin": "Svenja Huth",
-   "verein": "VfL Wolfsburg",
-   "nr": "",
-   "pos": "MF",
-   "tags": [
-    "VERLETZUNG"
-   ],
-   "status": "fraglich",
-   "headline": "Huth muss in Leipzig verletzt vom Platz",
-   "kurz": "Huth verletzt ausgewechselt",
-   "text": [
-    "Svenja Huth musste beim 2:1 des VfL Wolfsburg bei RB Leipzig nach einem Zweikampf verletzt vom Feld (67.). Für sie kam Cora Zicai.",
-    "Art und Dauer der Verletzung nannte der Verein in seinem Spielbericht nicht."
-   ],
-   "kickbase": "Huth ist Standardschützin und Stammkraft im Mittelfeld, ihr Status ist bis zur nächsten Diagnose fraglich. Die Länderspielpause gibt Zeit, das nächste Ligaspiel folgt erst im Dezember.",
-   "quellen": [
-    {
-     "name": "VfL Wolfsburg",
-     "url": "https://www.vfl-wolfsburg.de/newsdetails/news-detail/detail/news/doppelschlag-bringt-auswaertssieg"
-    }
-   ],
-   "foto": "fotos/wob-svenja-huth.webp",
-   "foto_credit": {
-    "autor": "VfL Wolfsburg",
-    "lizenz": "mit Genehmigung: VfL Wolfsburg",
-    "url": "https://www.vfl-wolfsburg.de/teams/frauen/kader-2026/2027"
-   }
-  },
-  {
-   "id": "hechler-2211",
-   "pid": "00333",
-   "zeit": "2026-11-22T17:01",
-   "spielerin": "Janina Hechler",
-   "verein": "VfB Stuttgart",
-   "nr": "",
-   "pos": "ABW",
-   "tags": [
-    "UPDATE",
-    "ABWESEND"
-   ],
-   "status": "abwesend",
-   "headline": "Hechler fehlt in Freiburg krank",
-   "text": [
-    "Janina Hechler stand beim 0:2 in Freiburg nicht im Kader. Laut VfB war sie kurzfristig erkrankt, für sie rückte Greta Stegemann in die Startelf.",
-    "Wie lange die Erkrankung dauert, nannte der Verein nicht."
-   ],
-   "kickbase": "Der Grund ist damit bekannt: Krankheit, keine Verletzung. Nach der Länderspielpause folgt das nächste Ligaspiel erst am 13. Dezember gegen RB Leipzig, bis dahin bleibt Zeit für die Genesung.",
-   "quellen": [
-    {
-     "name": "VfB Stuttgart",
-     "url": "https://www.vfb.de/de/vfb/frauen/vfb-frauen-i/frauen-bundesliga/2627/11-freiburg-frauen---vfb-stuttgart-frauen-i/"
-    }
-   ],
-   "foto": "fotos/vfb-janina-hechler.webp",
-   "foto_credit": {
-    "autor": "VfB Stuttgart",
-    "lizenz": "mit Genehmigung: VfB Stuttgart",
-    "url": "https://www.vfb.de/de/1893/frauen/frauen/kader/saisonen/2026-2027/kader/?data=&mobile="
-   }
-  },
-  {
-   "id": "stegemann-2211",
-   "pid": "00339",
-   "zeit": "2026-11-22T17:01",
-   "spielerin": "Greta Stegemann",
-   "verein": "VfB Stuttgart",
-   "nr": "",
-   "pos": "ABW",
-   "tags": [
-    "RÜCKKEHR"
-   ],
-   "status": "fit",
-   "headline": "Stegemann steht wieder in der Startelf",
-   "text": [
-    "Greta Stegemann stand beim VfB in Freiburg in der Startelf und spielte in der Dreierkette. Der Verein nennt sie wieder genesen, zuvor hatte sie wegen einer Verletzung gefehlt.",
-    "Der VfB verlor 0:2, Stegemann spielte durch."
-   ],
-   "kickbase": "Stegemann ist zurück im Stammplatz. Für den nächsten Spieltag nach der Länderspielpause kann sie wieder als Startelf-Kandidatin eingeplant werden.",
-   "quellen": [
-    {
-     "name": "VfB Stuttgart",
-     "url": "https://www.vfb.de/de/vfb/frauen/vfb-frauen-i/frauen-bundesliga/2627/11-freiburg-frauen---vfb-stuttgart-frauen-i/"
-    }
-   ],
-   "foto": "fotos/vfb-greta-stegemann.webp",
-   "foto_credit": {
-    "autor": "VfB Stuttgart",
-    "lizenz": "mit Genehmigung: VfB Stuttgart",
-    "url": "https://www.vfb.de/de/1893/frauen/frauen/kader/saisonen/2026-2027/kader/?data=&mobile="
-   }
   },
   {
    "id": "endstand-scf-2211",
@@ -2311,6 +2526,197 @@
    "kurz": "Dönges nicht im Kader"
   },
   {
+   "id": "cl-austria-fcb-1911",
+   "pid": "00015",
+   "zeit": "2026-11-19T20:45",
+   "spielerin": "Alara",
+   "verein": "FC Bayern",
+   "nr": "",
+   "pos": "MF",
+   "tags": [
+    "SPIELBERICHT",
+    "EUROPAPOKAL"
+   ],
+   "status": "fit",
+   "headline": "FC Bayern gewinnt 4:0 bei Austria Wien, Alara trifft",
+   "kurz": "FC Bayern siegt 4:0 in Wien, Alara trifft",
+   "text": [
+    "Der FC Bayern gewinnt in der Champions League 4:0 bei Austria Wien. Die Tore erzielen Bühl (27.), Harder (45.+1), Alara (75.) und Proost (90.+2). Alara kam zur zweiten Halbzeit und traf nach Vorlage von Bühl. Laut Bericht steht der FC Bayern damit sicher in der Play-off-Runde.",
+    "Viggósdóttir kehrte in die Startelf zurück, Gwinn spielte 78 Minuten. Amani fehlte im Kader, sie war gelbgesperrt."
+   ],
+   "kickbase": "Alara ist als Joker in Form, für die Startelf am Wochenende ist das aber kein Hinweis. Wie viele der Stammkräfte in der Liga wieder beginnen, zeigt erst die offizielle Aufstellung.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/uefa-champions-league-frauen/ma12537093/austria-wien_bayern-muenchen/aufstellung"
+    },
+    {
+     "name": "WEB.DE",
+     "url": "https://web.de/magazine/sport/videos/fussball/bayern-fertigt-austria-wien-alara-traumtor-42966142"
+    }
+   ],
+   "spiel_aufstellung": [
+    {
+     "verein": "FC Bayern",
+     "k": "FCB",
+     "gegner": "Austria Wien",
+     "wettbewerb": "Champions League",
+     "ergebnis": "4:0",
+     "tore": [
+      {
+       "min": "27",
+       "n": "Bühl",
+       "eigen": true,
+       "vorlage": "Imade"
+      },
+      {
+       "min": "45+1",
+       "n": "Harder",
+       "eigen": true,
+       "vorlage": "Dallmann"
+      },
+      {
+       "min": "75",
+       "n": "Alara",
+       "eigen": true,
+       "vorlage": "Bühl"
+      },
+      {
+       "min": "90+3",
+       "n": "Proost",
+       "eigen": true,
+       "vorlage": "Damnjanović"
+      }
+     ],
+     "vergleich": "10. Spieltag",
+     "startelf": [
+      {
+       "n": "Mahmutovic",
+       "p": "TW"
+      },
+      {
+       "n": "Kett",
+       "p": "ABW",
+       "f": "neu"
+      },
+      {
+       "n": "Eriksson",
+       "p": "ABW",
+       "aus": "46"
+      },
+      {
+       "n": "Viggósdóttir",
+       "p": "ABW",
+       "f": "neu",
+       "aus": "57"
+      },
+      {
+       "n": "Gwinn",
+       "p": "ABW",
+       "aus": "78"
+      },
+      {
+       "n": "Tanikawa",
+       "p": "DM"
+      },
+      {
+       "n": "Zadrazil",
+       "p": "MF",
+       "f": "neu"
+      },
+      {
+       "n": "Harder",
+       "p": "OM",
+       "aus": "64",
+       "tore": 1
+      },
+      {
+       "n": "Bühl",
+       "p": "OM",
+       "tore": 1,
+       "vorl": 1
+      },
+      {
+       "n": "Dallmann",
+       "p": "OM",
+       "vorl": 1
+      },
+      {
+       "n": "Imade",
+       "p": "ST",
+       "f": "neu",
+       "aus": "78",
+       "vorl": 1
+      }
+     ],
+     "eingewechselt": [
+      {
+       "n": "Alara",
+       "p": "MF",
+       "ein_min": "46",
+       "tore": 1
+      },
+      {
+       "n": "Ballisager",
+       "p": "ABW",
+       "ein_min": "57"
+      },
+      {
+       "n": "Damnjanović",
+       "p": "ST",
+       "ein_min": "64",
+       "vorl": 1
+      },
+      {
+       "n": "Proost",
+       "p": "MF",
+       "ein_min": "78",
+       "tore": 1
+      },
+      {
+       "n": "Mattner-Trembleau",
+       "p": "ABW",
+       "ein_min": "78"
+      }
+     ],
+     "raus": [
+      {
+       "n": "Ballisager",
+       "p": "ABW",
+       "wo": "Bank"
+      },
+      {
+       "n": "Naschenweng",
+       "p": "ABW",
+       "wo": "Bank"
+      },
+      {
+       "n": "Amani",
+       "p": "DM",
+       "wo": "nicht im Kader"
+      },
+      {
+       "n": "Damnjanović",
+       "p": "ST",
+       "wo": "Bank"
+      }
+     ],
+     "ohne_einsatz": [
+      "Klink",
+      "van Eijk",
+      "Naschenweng",
+      "Dunst"
+     ]
+    }
+   ],
+   "foto": "fotos/fcb-alara-sehitler.webp",
+   "foto_credit": {
+    "autor": "MichaelEmilio",
+    "lizenz": "CC BY 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:V%C3%A5lerenga_Fotball_Damer_v_FC_Bayern_M%C3%BCnchen_Frauen,_21_November_2024_08_(cropped).jpg"
+   }
+  },
+  {
    "id": "endstand-fcu-2011",
    "zeit": "2026-11-20T20:29",
    "spielerin": "Union Berlin gegen Bayer Leverkusen",
@@ -2640,6 +3046,38 @@
    "quelle_live": true
   },
   {
+   "id": "alara-2011",
+   "pid": "00015",
+   "zeit": "2026-11-20T14:49",
+   "spielerin": "Alara",
+   "verein": "FC Bayern",
+   "nr": "14",
+   "pos": "MF",
+   "tags": [
+    "NATIONALTEAM"
+   ],
+   "headline": "Alara fehlt im DFB-Kader, Ärger bleibt",
+   "kurz": "Alara nicht im DFB-Kader der Länderspielpause",
+   "text": [
+    "Bundestrainer Christian Wück hat die 19-jährige Alara nicht für die Länderspielpause der deutschen Frauen-Nationalmannschaft nominiert. Nach dem 4:0 des FC Bayern gegen Austria Wien, in dem sie zur zweiten Halbzeit eingewechselt wurde, sagte sie im ZDF kurz: \"Die Nominierung war da und wurde so entschieden.\"",
+    "Die Entscheidung des Bundestrainers sorgt laut BR für Schlagzeilen. Alara bleibt damit während der Länderspielpause bei ihrem Verein."
+   ],
+   "kickbase": "Für die Kickbase-Aufstellung ändert die Nicht-Nominierung nichts. Alara steht dem FC Bayern in der Pause zur Verfügung und ist nach der Pause normal einzuplanen.",
+   "status": "fit",
+   "quellen": [
+    {
+     "name": "BR24Sport",
+     "url": "https://www.br.de/nachrichten/sport/fussball-fc-bayern-frauen-alara-zeigt-s-dfb-coach-christian-wueck-antwort-auf-und-neben-dem-platz,VbWAo2x"
+    }
+   ],
+   "foto": "fotos/fcb-alara-sehitler.webp",
+   "foto_credit": {
+    "autor": "MichaelEmilio",
+    "lizenz": "CC BY 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:V%C3%A5lerenga_Fotball_Damer_v_FC_Bayern_M%C3%BCnchen_Frauen,_21_November_2024_08_(cropped).jpg"
+   }
+  },
+  {
    "id": "lattwein-2011",
    "pid": "00403",
    "zeit": "2026-11-20T15:18",
@@ -2691,38 +3129,6 @@
    }
   },
   {
-   "id": "alara-2011",
-   "pid": "00015",
-   "zeit": "2026-11-20T14:49",
-   "spielerin": "Alara",
-   "verein": "FC Bayern",
-   "nr": "14",
-   "pos": "MF",
-   "tags": [
-    "NATIONALTEAM"
-   ],
-   "headline": "Alara fehlt im DFB-Kader, Ärger bleibt",
-   "kurz": "Alara nicht im DFB-Kader der Länderspielpause",
-   "text": [
-    "Bundestrainer Christian Wück hat die 19-jährige Alara nicht für die Länderspielpause der deutschen Frauen-Nationalmannschaft nominiert. Nach dem 4:0 des FC Bayern gegen Austria Wien, in dem sie zur zweiten Halbzeit eingewechselt wurde, sagte sie im ZDF kurz: \"Die Nominierung war da und wurde so entschieden.\"",
-    "Die Entscheidung des Bundestrainers sorgt laut BR für Schlagzeilen. Alara bleibt damit während der Länderspielpause bei ihrem Verein."
-   ],
-   "kickbase": "Für die Kickbase-Aufstellung ändert die Nicht-Nominierung nichts. Alara steht dem FC Bayern in der Pause zur Verfügung und ist nach der Pause normal einzuplanen.",
-   "status": "fit",
-   "quellen": [
-    {
-     "name": "BR24Sport",
-     "url": "https://www.br.de/nachrichten/sport/fussball-fc-bayern-frauen-alara-zeigt-s-dfb-coach-christian-wueck-antwort-auf-und-neben-dem-platz,VbWAo2x"
-    }
-   ],
-   "foto": "fotos/fcb-alara-sehitler.webp",
-   "foto_credit": {
-    "autor": "MichaelEmilio",
-    "lizenz": "CC BY 4.0",
-    "url": "https://commons.wikimedia.org/wiki/File:V%C3%A5lerenga_Fotball_Damer_v_FC_Bayern_M%C3%BCnchen_Frauen,_21_November_2024_08_(cropped).jpg"
-   }
-  },
-  {
    "id": "rankin-2011",
    "pid": "00067",
    "zeit": "2026-11-20T12:09",
@@ -2762,471 +3168,6 @@
     "autor": "Eintracht Frankfurt",
     "lizenz": "mit Genehmigung: Eintracht Frankfurt",
     "url": "https://frauen.eintracht.de/kader/"
-   }
-  },
-  {
-   "id": "pk-md11",
-   "zeit": "2026-11-20T08:05",
-   "spielerin": "Pressekonferenzen",
-   "verein": "",
-   "nr": "",
-   "pos": "11. Spieltag",
-   "symbol": "pk",
-   "tags": [
-    "UPDATE"
-   ],
-   "headline": "Vor dem 11. Spieltag: Pressekonferenzen, Vorberichte und späte Updates",
-   "kurz": "11. Spieltag: wer wann spricht, wer wann berichtet (12 von 14 Vorberichten da)",
-   "text": [
-    "Vor dem 11. Spieltag geben nur wenige Vereine eine Pressekonferenz. Was dort zum Personal gesagt wird, ist oft die letzte Info vor der offiziellen Aufstellung.",
-    "FC Bayern (gegen TSG Hoffenheim, Mo 23.11., 18:00 Uhr): Vor solchen Spielen gibt es üblicherweise eine Pressekonferenz mit Trainer José Barcala, meist am Vortag (So 22.11.). Einen Termin hat der Verein noch nicht genannt, danach FC Bayern TV, Aussagen meist auch auf fcbayern.com.",
-    "Keine Pressekonferenz vor dem Spiel bekannt: Union Berlin, Bayer Leverkusen, Eintracht Frankfurt, Hamburger SV, 1. FC Köln, Werder Bremen, SC Freiburg, VfB Stuttgart, RB Leipzig, VfL Wolfsburg, Mainz 05, 1. FC Nürnberg, TSG Hoffenheim. Dort steht das Personal meist im Vorbericht des Vereins, siehe unten.",
-    "Wann die Vereine ihre Vorberichte bringen (die Links stehen unten bei den Quellen):",
-    "Union Berlin gegen Bayer Leverkusen (Fr 20.11., 18:30 Uhr): Union Berlin seit Mi 18.11., 17:30 Uhr: „Unionerinnen wollen Leverkusen erstmals Punkte abnehmen“; Bayer Leverkusen ohne Vorbericht.",
-    "Eintracht Frankfurt gegen Hamburger SV (Sa 21.11., 12:00 Uhr): Eintracht Frankfurt seit Do 19.11., 16:00 Uhr: „Hamburg zu Gast“; Hamburger SV seit Fr 20.11., 07:33 Uhr: „Gegen wind und wetter hsv frauen bereit fuer frankfurt“.",
-    "1. FC Köln gegen Werder Bremen (Sa 21.11., 14:00 Uhr): 1. FC Köln seit Sa 21.11., 12:03 Uhr: „Startelf der FC-Frauen gegen Bremen“; Werder Bremen seit Do 19.11., 09:00 Uhr: „Fanhinweise zum Ligaspiel der WERDERFRAUEN beim 1. FC Köln“.",
-    "SC Freiburg gegen VfB Stuttgart (So 22.11., 14:00 Uhr): SC Freiburg ohne Vorbericht; VfB Stuttgart seit Fr 20.11., 15:19 Uhr: „Matchfacts: SC Freiburg – VfB-Frauen“.",
-    "RB Leipzig gegen VfL Wolfsburg (So 22.11., 16:00 Uhr): RB Leipzig seit Fr 20.11., 15:20 Uhr: „Rbl frauen empfangen wolfsburg zusammenhalt gegen offensivpower“; VfL Wolfsburg seit So 22.11.: „Bilder: Spiel der Wölfinnen in Leipzig“.",
-    "Mainz 05 gegen 1. FC Nürnberg (So 22.11., 18:30 Uhr): Mainz 05 seit Fr 20.11.: „05-Frauen vor Nürnberg: Mit Intensität zum Erfolg“; 1. FC Nürnberg seit Fr 20.11.: „Vorbericht: Zu Gast im Schatten des Doms“.",
-    "FC Bayern gegen TSG Hoffenheim (Mo 23.11., 18:00 Uhr): FC Bayern seit So 22.11., 14:21 Uhr: „Historische Männer-Bestmarke vor Augen: Formstarke FCB-Frauen empfangen Hoffenheim“; TSG Hoffenheim seit Fr 20.11., 15:42 Uhr: Virsinger vor #FCBTSG: „Wir müssen mit Überzeugung ins Spiel gehen“.",
-    "Die offiziellen Aufstellungen kommen etwa eine Stunde vor Anpfiff, wir melden sie automatisch. Bis dahin sind Last-Minute-Änderungen möglich, gerade bei Vereinen, die unter der Woche im Europapokal gespielt haben."
-   ],
-   "kickbase": "Aufstellung erst nach den Pressekonferenzen festzurren (FC Bayern). Bei allen anderen ist die offizielle Aufstellung vor Anpfiff die erste sichere Info.",
-   "quellen": [
-    {
-     "name": "Vorbericht Union Berlin",
-     "url": "https://www.fc-union-berlin.de/de/meldungen/unionerinnen-wollen-leverkusen-erstmals-punkte-abnehmen-YBE0xO"
-    },
-    {
-     "name": "Vorbericht Eintracht Frankfurt",
-     "url": "https://frauen.eintracht.de/news/hamburg-zu-gast-180503"
-    },
-    {
-     "name": "Vorbericht Hamburger SV",
-     "url": "https://www.hsv.de/news/gegen-wind-und-wetter-hsv-frauen-bereit-fuer-frankfurt"
-    },
-    {
-     "name": "Vorbericht 1. FC Köln",
-     "url": "https://fc.de/aktuelles/news/startelf-der-fc-frauen-gegen-bremen"
-    },
-    {
-     "name": "Vorbericht Werder Bremen",
-     "url": "https://www.werder.de/news/frauen/2026-2027/fanhinweise-1-fc-koeln-19112026"
-    },
-    {
-     "name": "Vorbericht VfB Stuttgart",
-     "url": "https://www.vfb.de/de/vfb/aktuell/neues/vfb-frauen/26-27/matchfacts--sc-freiburg-----vfb-frauen/"
-    },
-    {
-     "name": "Vorbericht RB Leipzig",
-     "url": "https://rbleipzig.com/de/news/rbl-frauen-empfangen-wolfsburg-zusammenhalt-gegen-offensivpower"
-    },
-    {
-     "name": "Vorbericht VfL Wolfsburg",
-     "url": "https://www.vfl-wolfsburg.de/newsdetails/news-detail/detail/news/bilder-spiel-der-woelfinnen-in-leipzig-2"
-    },
-    {
-     "name": "Vorbericht Mainz 05",
-     "url": "https://www.mainz05.de/news/vorbericht-frauen-nurnberg-2627"
-    },
-    {
-     "name": "Vorbericht 1. FC Nürnberg",
-     "url": "https://www.fcn.de/news/artikel/vorbericht-zu-gast-im-schatten-des-doms/"
-    },
-    {
-     "name": "Vorbericht FC Bayern",
-     "url": "https://fcbayern.com/frauen/de/news/vorberichte/2026/11/vorschau-fc-bayern-frauen---tsg-hoffenheim"
-    },
-    {
-     "name": "Vorbericht TSG Hoffenheim",
-     "url": "https://www.tsg-hoffenheim.de/aktuelles/news/2026/11/virsinger-vor-fcbtsg-wir-muessen-mit-ueberzeugung-ins-spiel-gehen"
-    },
-    {
-     "name": "FC Bayern Frauen",
-     "url": "https://fcbayern.com/frauen/de"
-    }
-   ],
-   "fahrplan": {
-    "md": 11,
-    "pin_bis": "2026-11-20T18:30",
-    "vereine": [
-     {
-      "k": "FCU",
-      "name": "Union Berlin",
-      "anstoss": "2026-11-20T18:30",
-      "vb": {
-       "zeit": "2026-11-18T17:30",
-       "titel": "Unionerinnen wollen Leverkusen erstmals Punkte abnehmen",
-       "url": "https://www.fc-union-berlin.de/de/meldungen/unionerinnen-wollen-leverkusen-erstmals-punkte-abnehmen-YBE0xO"
-      },
-      "erwartet": null,
-      "seite": "https://www.fc-union-berlin.de/",
-      "pk": null
-     },
-     {
-      "k": "B04",
-      "name": "Bayer Leverkusen",
-      "anstoss": "2026-11-20T18:30",
-      "vb": null,
-      "erwartet": {
-       "bis": "2026-11-19",
-       "uhr": false
-      },
-      "seite": "https://www.bayer04.de/",
-      "pk": null
-     },
-     {
-      "k": "SGE",
-      "name": "Eintracht Frankfurt",
-      "anstoss": "2026-11-21T12:00",
-      "vb": {
-       "zeit": "2026-11-19T16:00",
-       "titel": "Hamburg zu Gast",
-       "url": "https://frauen.eintracht.de/news/hamburg-zu-gast-180503"
-      },
-      "erwartet": null,
-      "seite": "https://frauen.eintracht.de/",
-      "pk": null
-     },
-     {
-      "k": "HSV",
-      "name": "Hamburger SV",
-      "anstoss": "2026-11-21T12:00",
-      "vb": {
-       "zeit": "2026-11-20T07:33",
-       "titel": "Gegen wind und wetter hsv frauen bereit fuer frankfurt",
-       "url": "https://www.hsv.de/news/gegen-wind-und-wetter-hsv-frauen-bereit-fuer-frankfurt"
-      },
-      "erwartet": null,
-      "seite": "https://www.hsv.de/",
-      "pk": null
-     },
-     {
-      "k": "KOE",
-      "name": "1. FC Köln",
-      "anstoss": "2026-11-21T14:00",
-      "vb": {
-       "zeit": "2026-11-21T12:03",
-       "titel": "Startelf der FC-Frauen gegen Bremen",
-       "url": "https://fc.de/aktuelles/news/startelf-der-fc-frauen-gegen-bremen"
-      },
-      "erwartet": null,
-      "seite": "https://fc.de/",
-      "pk": null
-     },
-     {
-      "k": "SVW",
-      "name": "Werder Bremen",
-      "anstoss": "2026-11-21T14:00",
-      "vb": {
-       "zeit": "2026-11-19T09:00",
-       "titel": "Fanhinweise zum Ligaspiel der WERDERFRAUEN beim 1. FC Köln",
-       "url": "https://www.werder.de/news/frauen/2026-2027/fanhinweise-1-fc-koeln-19112026"
-      },
-      "erwartet": null,
-      "seite": "https://www.werder.de/",
-      "pk": null
-     },
-     {
-      "k": "SCF",
-      "name": "SC Freiburg",
-      "anstoss": "2026-11-22T14:00",
-      "vb": null,
-      "erwartet": {
-       "bis": "2026-11-20",
-       "uhr": false
-      },
-      "seite": "https://www.scfreiburg.com/",
-      "pk": null
-     },
-     {
-      "k": "VFB",
-      "name": "VfB Stuttgart",
-      "anstoss": "2026-11-22T14:00",
-      "vb": {
-       "zeit": "2026-11-20T15:19",
-       "titel": "Matchfacts: SC Freiburg – VfB-Frauen",
-       "url": "https://www.vfb.de/de/vfb/aktuell/neues/vfb-frauen/26-27/matchfacts--sc-freiburg-----vfb-frauen/"
-      },
-      "erwartet": null,
-      "seite": "https://www.vfb.de/",
-      "pk": null
-     },
-     {
-      "k": "RBL",
-      "name": "RB Leipzig",
-      "anstoss": "2026-11-22T16:00",
-      "vb": {
-       "zeit": "2026-11-20T15:20",
-       "titel": "Rbl frauen empfangen wolfsburg zusammenhalt gegen offensivpower",
-       "url": "https://rbleipzig.com/de/news/rbl-frauen-empfangen-wolfsburg-zusammenhalt-gegen-offensivpower"
-      },
-      "erwartet": null,
-      "seite": "https://rbleipzig.com/",
-      "pk": null
-     },
-     {
-      "k": "WOB",
-      "name": "VfL Wolfsburg",
-      "anstoss": "2026-11-22T16:00",
-      "vb": {
-       "zeit": "2026-11-22T00:00",
-       "titel": "Bilder: Spiel der Wölfinnen in Leipzig",
-       "url": "https://www.vfl-wolfsburg.de/newsdetails/news-detail/detail/news/bilder-spiel-der-woelfinnen-in-leipzig-2"
-      },
-      "erwartet": null,
-      "seite": "https://www.vfl-wolfsburg.de/",
-      "pk": null
-     },
-     {
-      "k": "M05",
-      "name": "Mainz 05",
-      "anstoss": "2026-11-22T18:30",
-      "vb": {
-       "zeit": "2026-11-20T00:00",
-       "titel": "05-Frauen vor Nürnberg: Mit Intensität zum Erfolg",
-       "url": "https://www.mainz05.de/news/vorbericht-frauen-nurnberg-2627"
-      },
-      "erwartet": null,
-      "seite": "https://www.mainz05.de/",
-      "pk": null
-     },
-     {
-      "k": "FCN",
-      "name": "1. FC Nürnberg",
-      "anstoss": "2026-11-22T18:30",
-      "vb": {
-       "zeit": "2026-11-20T00:00",
-       "titel": "Vorbericht: Zu Gast im Schatten des Doms",
-       "url": "https://www.fcn.de/news/artikel/vorbericht-zu-gast-im-schatten-des-doms/"
-      },
-      "erwartet": null,
-      "seite": "https://www.fcn.de/",
-      "pk": null
-     },
-     {
-      "k": "FCB",
-      "name": "FC Bayern",
-      "anstoss": "2026-11-23T18:00",
-      "vb": {
-       "zeit": "2026-11-22T14:21",
-       "titel": "Historische Männer-Bestmarke vor Augen: Formstarke FCB-Frauen empfangen Hoffenheim",
-       "url": "https://fcbayern.com/frauen/de/news/vorberichte/2026/11/vorschau-fc-bayern-frauen---tsg-hoffenheim"
-      },
-      "erwartet": null,
-      "seite": "https://fcbayern.com/frauen/de",
-      "pk": {
-       "tag": "So 22.11.",
-       "bestaetigt": false,
-       "kurz": null
-      }
-     },
-     {
-      "k": "TSG",
-      "name": "TSG Hoffenheim",
-      "anstoss": "2026-11-23T18:00",
-      "vb": {
-       "zeit": "2026-11-20T15:42",
-       "titel": "Virsinger vor #FCBTSG: „Wir müssen mit Überzeugung ins Spiel gehen“",
-       "url": "https://www.tsg-hoffenheim.de/aktuelles/news/2026/11/virsinger-vor-fcbtsg-wir-muessen-mit-ueberzeugung-ins-spiel-gehen"
-      },
-      "erwartet": null,
-      "seite": "https://www.tsg-hoffenheim.de/",
-      "pk": null
-     }
-    ],
-    "stand": "2026-11-23T12:51"
-   }
-  },
-  {
-   "id": "cl-austria-fcb-1911",
-   "pid": "00015",
-   "zeit": "2026-11-19T20:45",
-   "spielerin": "Alara",
-   "verein": "FC Bayern",
-   "nr": "",
-   "pos": "MF",
-   "tags": [
-    "SPIELBERICHT",
-    "EUROPAPOKAL"
-   ],
-   "status": "fit",
-   "headline": "FC Bayern gewinnt 4:0 bei Austria Wien, Alara trifft",
-   "kurz": "FC Bayern siegt 4:0 in Wien, Alara trifft",
-   "text": [
-    "Der FC Bayern gewinnt in der Champions League 4:0 bei Austria Wien. Die Tore erzielen Bühl (27.), Harder (45.+1), Alara (75.) und Proost (90.+2). Alara kam zur zweiten Halbzeit und traf nach Vorlage von Bühl. Laut Bericht steht der FC Bayern damit sicher in der Play-off-Runde.",
-    "Viggósdóttir kehrte in die Startelf zurück, Gwinn spielte 78 Minuten. Amani fehlte im Kader, sie war gelbgesperrt."
-   ],
-   "kickbase": "Alara ist als Joker in Form, für die Startelf am Wochenende ist das aber kein Hinweis. Wie viele der Stammkräfte in der Liga wieder beginnen, zeigt erst die offizielle Aufstellung.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/uefa-champions-league-frauen/ma12537093/austria-wien_bayern-muenchen/aufstellung"
-    },
-    {
-     "name": "WEB.DE",
-     "url": "https://web.de/magazine/sport/videos/fussball/bayern-fertigt-austria-wien-alara-traumtor-42966142"
-    }
-   ],
-   "spiel_aufstellung": [
-    {
-     "verein": "FC Bayern",
-     "k": "FCB",
-     "gegner": "Austria Wien",
-     "wettbewerb": "Champions League",
-     "ergebnis": "4:0",
-     "tore": [
-      {
-       "min": "27",
-       "n": "Bühl",
-       "eigen": true,
-       "vorlage": "Imade"
-      },
-      {
-       "min": "45+1",
-       "n": "Harder",
-       "eigen": true,
-       "vorlage": "Dallmann"
-      },
-      {
-       "min": "75",
-       "n": "Alara",
-       "eigen": true,
-       "vorlage": "Bühl"
-      },
-      {
-       "min": "90+3",
-       "n": "Proost",
-       "eigen": true,
-       "vorlage": "Damnjanović"
-      }
-     ],
-     "vergleich": "10. Spieltag",
-     "startelf": [
-      {
-       "n": "Mahmutovic",
-       "p": "TW"
-      },
-      {
-       "n": "Kett",
-       "p": "ABW",
-       "f": "neu"
-      },
-      {
-       "n": "Eriksson",
-       "p": "ABW",
-       "aus": "46"
-      },
-      {
-       "n": "Viggósdóttir",
-       "p": "ABW",
-       "f": "neu",
-       "aus": "57"
-      },
-      {
-       "n": "Gwinn",
-       "p": "ABW",
-       "aus": "78"
-      },
-      {
-       "n": "Tanikawa",
-       "p": "DM"
-      },
-      {
-       "n": "Zadrazil",
-       "p": "MF",
-       "f": "neu"
-      },
-      {
-       "n": "Harder",
-       "p": "OM",
-       "aus": "64",
-       "tore": 1
-      },
-      {
-       "n": "Bühl",
-       "p": "OM",
-       "tore": 1,
-       "vorl": 1
-      },
-      {
-       "n": "Dallmann",
-       "p": "OM",
-       "vorl": 1
-      },
-      {
-       "n": "Imade",
-       "p": "ST",
-       "f": "neu",
-       "aus": "78",
-       "vorl": 1
-      }
-     ],
-     "eingewechselt": [
-      {
-       "n": "Alara",
-       "p": "MF",
-       "ein_min": "46",
-       "tore": 1
-      },
-      {
-       "n": "Ballisager",
-       "p": "ABW",
-       "ein_min": "57"
-      },
-      {
-       "n": "Damnjanović",
-       "p": "ST",
-       "ein_min": "64",
-       "vorl": 1
-      },
-      {
-       "n": "Proost",
-       "p": "MF",
-       "ein_min": "78",
-       "tore": 1
-      },
-      {
-       "n": "Mattner-Trembleau",
-       "p": "ABW",
-       "ein_min": "78"
-      }
-     ],
-     "raus": [
-      {
-       "n": "Ballisager",
-       "p": "ABW",
-       "wo": "Bank"
-      },
-      {
-       "n": "Naschenweng",
-       "p": "ABW",
-       "wo": "Bank"
-      },
-      {
-       "n": "Amani",
-       "p": "DM",
-       "wo": "nicht im Kader"
-      },
-      {
-       "n": "Damnjanović",
-       "p": "ST",
-       "wo": "Bank"
-      }
-     ],
-     "ohne_einsatz": [
-      "Klink",
-      "van Eijk",
-      "Naschenweng",
-      "Dunst"
-     ]
-    }
-   ],
-   "foto": "fotos/fcb-alara-sehitler.webp",
-   "foto_credit": {
-    "autor": "MichaelEmilio",
-    "lizenz": "CC BY 4.0",
-    "url": "https://commons.wikimedia.org/wiki/File:V%C3%A5lerenga_Fotball_Damer_v_FC_Bayern_M%C3%BCnchen_Frauen,_21_November_2024_08_(cropped).jpg"
    }
   },
   {
@@ -8270,221 +8211,6 @@
     "lizenz": "Platzhalter (kein Vereinsfoto)",
     "url": "https://fcbayern.com/frauen/de/teams/1.-mannschaft"
    }
-  },
-  {
-   "id": "fehlt-martret-tsg-0811",
-   "pid": "00142",
-   "zeit": "2026-11-08T13:01",
-   "spielerin": "Laia Martret",
-   "verein": "TSG Hoffenheim",
-   "nr": "",
-   "pos": "ST",
-   "tags": [
-    "AUFSTELLUNG"
-   ],
-   "status": "fraglich",
-   "headline": "Martret nicht im Kader gegen Union Berlin",
-   "text": [
-    "Laia Martret steht in der Liga gegen Union Berlin weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
-    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
-   ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306286/1-fc-union-berlin_tsg-hoffenheim/aufstellung"
-    }
-   ],
-   "quelle_live": true
-  },
-  {
-   "id": "fehlt-fudalla-b04-0711",
-   "pid": "00258",
-   "zeit": "2026-11-07T14:00",
-   "spielerin": "Vanessa Fudalla",
-   "verein": "Bayer Leverkusen",
-   "nr": "",
-   "pos": "ST",
-   "tags": [
-    "AUFSTELLUNG"
-   ],
-   "status": "fraglich",
-   "headline": "Fudalla nicht im Kader gegen Hamburger SV",
-   "text": [
-    "Vanessa Fudalla steht in der Liga gegen Hamburger SV weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 2-mal.",
-    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
-   ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306280/bayer-leverkusen_hamburger-sv/aufstellung"
-    }
-   ],
-   "quelle_live": true
-  },
-  {
-   "id": "fehlt-lattwein-wob-0611",
-   "pid": "00403",
-   "zeit": "2026-11-06T18:30",
-   "spielerin": "Lena Lattwein",
-   "verein": "VfL Wolfsburg",
-   "nr": "",
-   "pos": "MF",
-   "tags": [
-    "AUFSTELLUNG"
-   ],
-   "status": "fraglich",
-   "headline": "Lattwein nicht im Kader gegen Eintracht Frankfurt",
-   "text": [
-    "Lena Lattwein steht in der Liga gegen Eintracht Frankfurt weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 1-mal.",
-    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
-   ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306271/eintracht-frankfurt_vfl-wolfsburg/aufstellung"
-    }
-   ],
-   "quelle_live": true,
-   "kurz": "Lattwein nicht im Kader"
-  },
-  {
-   "id": "fehlt-proost-fcb-0611",
-   "pid": "00020",
-   "zeit": "2026-11-06T18:30",
-   "spielerin": "Sophie Proost",
-   "verein": "FC Bayern",
-   "nr": "",
-   "pos": "MF",
-   "tags": [
-    "AUFSTELLUNG"
-   ],
-   "status": "fraglich",
-   "headline": "Proost nicht im Kader gegen Werder Bremen",
-   "text": [
-    "Sophie Proost steht in der Liga gegen Werder Bremen weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 3-mal.",
-    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
-   ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306283/bayern-muenchen_werder-bremen/aufstellung"
-    }
-   ],
-   "quelle_live": true
-  },
-  {
-   "id": "fehlt-reimann-scf-0111",
-   "pid": "00085",
-   "zeit": "2026-11-01T14:08",
-   "spielerin": "Anna Reimann",
-   "verein": "SC Freiburg",
-   "nr": "",
-   "pos": "TW",
-   "tags": [
-    "AUFSTELLUNG",
-    "POKAL"
-   ],
-   "status": "fraglich",
-   "headline": "Reimann nicht im Kader gegen FC Carl Zeiss Jena",
-   "text": [
-    "Anna Reimann steht im DFB-Pokal gegen FC Carl Zeiss Jena weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
-    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
-   ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
-   "quellen": [
-    {
-     "name": "DFB-Datencenter",
-     "url": "https://datencenter.dfb.de/matches/sc-freiburg-fc-carl-zeiss-jena-2431333"
-    }
-   ],
-   "quelle_live": true,
-   "kurz": "Reimann nicht im Kader"
-  },
-  {
-   "id": "fehlt-viggosdottir-fcb-0111",
-   "pid": "00013",
-   "zeit": "2026-11-01T13:53",
-   "spielerin": "Glódís Viggósdóttir",
-   "verein": "FC Bayern",
-   "nr": "",
-   "pos": "ABW",
-   "tags": [
-    "AUFSTELLUNG",
-    "POKAL"
-   ],
-   "status": "fraglich",
-   "headline": "Viggósdóttir nicht im Kader gegen Bayer Leverkusen",
-   "text": [
-    "Glódís Viggósdóttir steht im DFB-Pokal gegen Bayer Leverkusen weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
-    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
-   ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165391/bayern-muenchen_bayer-leverkusen/aufstellung"
-    }
-   ],
-   "quelle_live": true,
-   "kurz": "Viggósdóttir nicht im Kader"
-  },
-  {
-   "id": "fehlt-bender-b04-0111",
-   "pid": "00257",
-   "zeit": "2026-11-01T13:53",
-   "spielerin": "Loreen Bender",
-   "verein": "Bayer Leverkusen",
-   "nr": "",
-   "pos": "ST",
-   "tags": [
-    "AUFSTELLUNG",
-    "POKAL"
-   ],
-   "status": "fraglich",
-   "headline": "Bender nicht im Kader gegen FC Bayern",
-   "text": [
-    "Loreen Bender steht im DFB-Pokal gegen FC Bayern weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 4-mal.",
-    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
-   ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165391/bayern-muenchen_bayer-leverkusen/aufstellung"
-    }
-   ],
-   "quelle_live": true
-  },
-  {
-   "id": "fehlt-altenburg-sge-0111",
-   "pid": "00056",
-   "zeit": "2026-11-01T13:12",
-   "spielerin": "Lina Altenburg",
-   "verein": "Eintracht Frankfurt",
-   "nr": "",
-   "pos": "TW",
-   "tags": [
-    "AUFSTELLUNG",
-    "POKAL"
-   ],
-   "status": "fraglich",
-   "headline": "Altenburg nicht im Kader gegen 1. FC Nürnberg",
-   "text": [
-    "Lina Altenburg steht im DFB-Pokal gegen 1. FC Nürnberg weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
-    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
-   ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
-   "quellen": [
-    {
-     "name": "DFB-Datencenter",
-     "url": "https://datencenter.dfb.de/matches/1-fc-nuernberg-eintracht-frankfurt-2431335"
-    }
-   ],
-   "quelle_live": true
   }
  ]
 }
