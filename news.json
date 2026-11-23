@@ -1,6 +1,39 @@
 {
- "stand": "2026-11-23T19:51",
+ "stand": "2026-11-23T20:45",
  "meldungen": [
+  {
+   "id": "oberdorf-2311",
+   "pid": "00019",
+   "zeit": "2026-11-23T20:30",
+   "spielerin": "Lena Oberdorf",
+   "verein": "FC Bayern",
+   "nr": "",
+   "pos": "MF",
+   "tags": [
+    "RÜCKKEHR",
+    "TOP"
+   ],
+   "status": "fit",
+   "headline": "Oberdorf kehrt nach Knieproblem zurück",
+   "kurz": "Oberdorf nach Knieproblem wieder im Kader",
+   "text": [
+    "Lena Oberdorf stand beim 1:0 des FC Bayern gegen die TSG Hoffenheim überraschend wieder im Kader. Sie wurde in der 82. Minute eingewechselt.",
+    "Seit Mitte Oktober fehlte die Mittelfeldspielerin wegen einer Reaktion im rechten Kniegelenk."
+   ],
+   "kickbase": "Sie ist zurück im Spieltagskader, ein Startelf-Platz ist nach dem Kurzeinsatz noch nicht zu erwarten. Nach der Länderspielpause lohnt sich der Blick auf ihre Minuten.",
+   "quellen": [
+    {
+     "name": "BR24 Sport",
+     "url": "https://www.sportschau.de/regional/br/br-fc-bayern-frauen-knapper-sieg-bei-oberdorf-comeback-102.html"
+    }
+   ],
+   "foto": "fotos/fcb-lena-oberdorf.webp",
+   "foto_credit": {
+    "autor": "Steffen Prößdorf",
+    "lizenz": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:2023-07-03_Fussball,_Frauen,_Deutsche_Nationalmannschaft,_Media_Day_1DX_6658_by_Stepro-2.jpg"
+   }
+  },
   {
    "id": "endstand-fcb-2311",
    "zeit": "2026-11-23T19:58",
