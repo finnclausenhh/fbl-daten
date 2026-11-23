@@ -1,5 +1,5 @@
 {
-"spiele": 76,
+"spiele": 77,
 "teams": {
 "FCB": [
 {
@@ -145,6 +145,22 @@
 "fs_r": 0,
 "fs_direkt": 0,
 "fs_flanke": 1
+},
+{
+"k": "FCB",
+"n": "Sophie Proost",
+"kopf": 1,
+"std_kopf": 0,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0,
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
 },
 {
 "k": "FCB",
@@ -1047,6 +1063,22 @@
 {
 "k": "TSG",
 "n": "Jonna van de Velde",
+"kopf": 1,
+"std_kopf": 1,
+"std_tore": 0,
+"ecke_tritt": 0,
+"fs_tritt": 0,
+"std_kopftore": 0,
+"ecke_l": 0,
+"ecke_r": 0,
+"fs_l": 0,
+"fs_r": 0,
+"fs_direkt": 0,
+"fs_flanke": 0
+},
+{
+"k": "TSG",
+"n": "Laura Gloning",
 "kopf": 1,
 "std_kopf": 1,
 "std_tore": 0,
