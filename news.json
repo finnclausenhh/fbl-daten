@@ -1,75 +1,6 @@
 {
- "stand": "2026-11-23T20:45",
+ "stand": "2026-11-23T22:47",
  "meldungen": [
-  {
-   "id": "oberdorf-2311",
-   "pid": "00019",
-   "zeit": "2026-11-23T20:30",
-   "spielerin": "Lena Oberdorf",
-   "verein": "FC Bayern",
-   "nr": "",
-   "pos": "MF",
-   "tags": [
-    "RÜCKKEHR",
-    "TOP"
-   ],
-   "status": "fit",
-   "headline": "Oberdorf kehrt nach Knieproblem zurück",
-   "kurz": "Oberdorf nach Knieproblem wieder im Kader",
-   "text": [
-    "Lena Oberdorf stand beim 1:0 des FC Bayern gegen die TSG Hoffenheim überraschend wieder im Kader. Sie wurde in der 82. Minute eingewechselt.",
-    "Seit Mitte Oktober fehlte die Mittelfeldspielerin wegen einer Reaktion im rechten Kniegelenk."
-   ],
-   "kickbase": "Sie ist zurück im Spieltagskader, ein Startelf-Platz ist nach dem Kurzeinsatz noch nicht zu erwarten. Nach der Länderspielpause lohnt sich der Blick auf ihre Minuten.",
-   "quellen": [
-    {
-     "name": "BR24 Sport",
-     "url": "https://www.sportschau.de/regional/br/br-fc-bayern-frauen-knapper-sieg-bei-oberdorf-comeback-102.html"
-    }
-   ],
-   "foto": "fotos/fcb-lena-oberdorf.webp",
-   "foto_credit": {
-    "autor": "Steffen Prößdorf",
-    "lizenz": "CC BY-SA 4.0",
-    "url": "https://commons.wikimedia.org/wiki/File:2023-07-03_Fussball,_Frauen,_Deutsche_Nationalmannschaft,_Media_Day_1DX_6658_by_Stepro-2.jpg"
-   }
-  },
-  {
-   "id": "endstand-fcb-2311",
-   "zeit": "2026-11-23T19:58",
-   "spielerin": "FC Bayern gegen TSG Hoffenheim",
-   "verein": "FC Bayern",
-   "nr": "",
-   "pos": "Spielansetzung",
-   "tags": [
-    "SPIELBERICHT"
-   ],
-   "headline": "FC Bayern gewinnt 1:0 gegen die TSG Hoffenheim, Imade trifft",
-   "kurz": "FC Bayern schlägt Hoffenheim 1:0",
-   "text": [
-    "FC Bayern gewinnt gegen die TSG Hoffenheim mit 1:0.",
-    "Tore: 1:0 Imade (8., Vorlage Proost).",
-    "Gelb: Doorn, Mattner-Trembleau.",
-    "Beste Note im Spiel: Mahmutovic (9,4).",
-    "Statistik (FC Bayern zuerst): Torschüsse 16:13 (aufs Tor 8:8), Ballbesitz 62:38 %, Expected Goals 1,79:1,20, Ecken 5:6.",
-    "Beste Noten FC Bayern: Mahmutovic 9,4, Imade 7,8, Proost 7,7.",
-    "Beste Noten TSG Hoffenheim: Dick 8,2, Velde 7,1, Steiner 6,8."
-   ],
-   "kickbase": "Herausragend: Mahmutovic (9,4), Dick (8,2), Imade (7,8).",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306337/bayern-muenchen_tsg-hoffenheim/liveticker"
-    },
-    {
-     "name": "API-Football (Noten, Statistik)",
-     "url": "https://www.api-football.com"
-    }
-   ],
-   "quelle_live": true,
-   "partie_id": "12306337",
-   "noten": true
-  },
   {
    "id": "fehlt-reimann-scf-0111",
    "pid": "00085",
@@ -284,6 +215,75 @@
     }
    ],
    "quelle_live": true
+  },
+  {
+   "id": "oberdorf-2311",
+   "pid": "00019",
+   "zeit": "2026-11-23T20:30",
+   "spielerin": "Lena Oberdorf",
+   "verein": "FC Bayern",
+   "nr": "",
+   "pos": "MF",
+   "tags": [
+    "RÜCKKEHR",
+    "TOP"
+   ],
+   "status": "fit",
+   "headline": "Oberdorf kehrt nach Knieproblem zurück",
+   "kurz": "Oberdorf nach Knieproblem wieder im Kader",
+   "text": [
+    "Lena Oberdorf stand beim 1:0 des FC Bayern gegen die TSG Hoffenheim überraschend wieder im Kader. Sie wurde in der 82. Minute eingewechselt.",
+    "Seit Mitte Oktober fehlte die Mittelfeldspielerin wegen einer Reaktion im rechten Kniegelenk."
+   ],
+   "kickbase": "Sie ist zurück im Spieltagskader, ein Startelf-Platz ist nach dem Kurzeinsatz noch nicht zu erwarten. Nach der Länderspielpause lohnt sich der Blick auf ihre Minuten.",
+   "quellen": [
+    {
+     "name": "BR24 Sport",
+     "url": "https://www.sportschau.de/regional/br/br-fc-bayern-frauen-knapper-sieg-bei-oberdorf-comeback-102.html"
+    }
+   ],
+   "foto": "fotos/fcb-lena-oberdorf.webp",
+   "foto_credit": {
+    "autor": "Steffen Prößdorf",
+    "lizenz": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:2023-07-03_Fussball,_Frauen,_Deutsche_Nationalmannschaft,_Media_Day_1DX_6658_by_Stepro-2.jpg"
+   }
+  },
+  {
+   "id": "endstand-fcb-2311",
+   "zeit": "2026-11-23T19:58",
+   "spielerin": "FC Bayern gegen TSG Hoffenheim",
+   "verein": "FC Bayern",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "SPIELBERICHT"
+   ],
+   "headline": "FC Bayern gewinnt 1:0 gegen die TSG Hoffenheim, Imade trifft",
+   "kurz": "FC Bayern schlägt Hoffenheim 1:0",
+   "text": [
+    "FC Bayern gewinnt gegen die TSG Hoffenheim mit 1:0.",
+    "Tore: 1:0 Imade (8., Vorlage Proost).",
+    "Gelb: Doorn, Mattner-Trembleau.",
+    "Beste Note im Spiel: Mahmutovic (9,4).",
+    "Statistik (FC Bayern zuerst): Torschüsse 16:13 (aufs Tor 8:8), Ballbesitz 62:38 %, Expected Goals 1,79:1,20, Ecken 5:6.",
+    "Beste Noten FC Bayern: Mahmutovic 9,4, Imade 7,8, Proost 7,7.",
+    "Beste Noten TSG Hoffenheim: Dick 8,2, Velde 7,1, Steiner 6,8."
+   ],
+   "kickbase": "Herausragend: Mahmutovic (9,4), Dick (8,2), Imade (7,8).",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306337/bayern-muenchen_tsg-hoffenheim/liveticker"
+    },
+    {
+     "name": "API-Football (Noten, Statistik)",
+     "url": "https://www.api-football.com"
+    }
+   ],
+   "quelle_live": true,
+   "partie_id": "12306337",
+   "noten": true
   },
   {
    "id": "fehlt-eriksson-fcb-2311",
