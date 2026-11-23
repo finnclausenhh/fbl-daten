@@ -254,5 +254,18 @@
   "noten_da": "2026-11-22T20:25",
   "minuten_nach_abpfiff": 3,
   "bau_gestartet": "2026-11-22T20:25"
+ },
+ "12306337": {
+  "spiel": "FCB-TSG",
+  "anstoss": "2026-11-23T18:00",
+  "abpfiff_ca": "2026-11-23T19:51",
+  "fixture": 1593177,
+  "af_status": "FT",
+  "erste_pruefung": "2026-11-23T19:52",
+  "noten_zuletzt": 37,
+  "letzte_pruefung": "2026-11-23T19:52",
+  "noten_da": "2026-11-23T19:52",
+  "minuten_nach_abpfiff": 1,
+  "bau_gestartet": "2026-11-23T19:52"
  }
 }
