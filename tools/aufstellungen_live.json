@@ -2,7 +2,7 @@
  "meldungen": [
   {
    "id": "endstand-fcb-2311",
-   "zeit": "2026-11-23T19:52",
+   "zeit": "2026-11-23T19:58",
    "spielerin": "FC Bayern gegen TSG Hoffenheim",
    "verein": "FC Bayern",
    "nr": "",
@@ -10,23 +10,31 @@
    "tags": [
     "SPIELBERICHT"
    ],
-   "headline": "Endstand: FC Bayern 1:0 TSG Hoffenheim",
-   "kurz": "Endstand FCB 1:0 TSG",
+   "headline": "FC Bayern gewinnt 1:0 gegen die TSG Hoffenheim, Imade trifft",
+   "kurz": "FC Bayern schlägt Hoffenheim 1:0",
    "text": [
     "FC Bayern gewinnt gegen die TSG Hoffenheim mit 1:0.",
     "Tore: 1:0 Imade (8., Vorlage Proost).",
     "Gelb: Doorn, Mattner-Trembleau.",
-    "Noten und der ausführliche Bericht folgen."
+    "Beste Note im Spiel: Mahmutovic (9,4).",
+    "Statistik (FC Bayern zuerst): Torschüsse 16:13 (aufs Tor 8:8), Ballbesitz 62:38 %, Expected Goals 1,79:1,20, Ecken 5:6.",
+    "Beste Noten FC Bayern: Mahmutovic 9,4, Imade 7,8, Proost 7,7.",
+    "Beste Noten TSG Hoffenheim: Dick 8,2, Velde 7,1, Steiner 6,8."
    ],
-   "kickbase": "",
+   "kickbase": "Herausragend: Mahmutovic (9,4), Dick (8,2), Imade (7,8).",
    "quellen": [
     {
      "name": "Sportschau",
      "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306337/bayern-muenchen_tsg-hoffenheim/liveticker"
+    },
+    {
+     "name": "API-Football (Noten, Statistik)",
+     "url": "https://www.api-football.com"
     }
    ],
    "quelle_live": true,
-   "partie_id": "12306337"
+   "partie_id": "12306337",
+   "noten": true
   },
   {
    "id": "fehlt-reimann-scf-0111",
