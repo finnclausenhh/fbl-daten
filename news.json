@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-23T16:55",
+ "stand": "2026-11-23T16:58",
  "meldungen": [
   {
    "id": "aufstellung-fcb-2311",
@@ -13,7 +13,8 @@
    ],
    "headline": "Offizielle Aufstellung: FC Bayern gegen TSG Hoffenheim",
    "text": [
-    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Dallmann, Eriksson, Gwinn, Harder, Naschenweng, Tanikawa. Die Bank folgt, sobald sie veröffentlicht ist."
+    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Dallmann, Eriksson, Gwinn, Harder, Naschenweng, Tanikawa.",
+    "Nicht im Spieltagskader (laut Sportschau), obwohl im letzten Ligaspiel dabei: Eriksson. Einen Grund nennt bisher keine Quelle."
    ],
    "kickbase": "",
    "quellen": [
@@ -93,39 +94,65 @@
       "pid": "00024"
      }
     ],
-    "bank": [],
-    "fehlt": [],
-    "bank_offen": true,
-    "nicht_startelf": [
+    "bank": [
      {
-      "n": "Dallmann",
-      "p": "MF",
-      "pid": "00017"
-     },
-     {
-      "n": "Eriksson",
-      "p": "ABW",
-      "pid": "00007"
+      "n": "van Eijk",
+      "p": "TW",
+      "pid": "00004"
      },
      {
       "n": "Gwinn",
       "p": "ABW",
-      "pid": "00009"
-     },
-     {
-      "n": "Harder",
-      "p": "MF",
-      "pid": "00025"
+      "pid": "00009",
+      "f": "raus"
      },
      {
       "n": "Naschenweng",
       "p": "ABW",
-      "pid": "00012"
+      "pid": "00012",
+      "f": "raus"
+     },
+     {
+      "n": "Oberdorf",
+      "p": "MF",
+      "pid": "00019"
+     },
+     {
+      "n": "Dallmann",
+      "p": "MF",
+      "pid": "00017",
+      "f": "raus"
+     },
+     {
+      "n": "Dunst",
+      "p": "MF",
+      "pid": "00018"
+     },
+     {
+      "n": "Zadrazil",
+      "p": "MF",
+      "pid": "00022"
      },
      {
       "n": "Tanikawa",
       "p": "MF",
-      "pid": "00021"
+      "pid": "00021",
+      "f": "raus"
+     },
+     {
+      "n": "Harder",
+      "p": "MF",
+      "pid": "00025",
+      "f": "raus"
+     }
+    ],
+    "fehlt": [
+     {
+      "n": "Eriksson",
+      "p": "ABW",
+      "pid": "00007",
+      "f": "raus",
+      "war": "Startelf"
      }
     ]
    },
