@@ -7,12 +7,12 @@
    {
     "art": "risk",
     "label": "Risiko",
-    "text": "Der FC Bayern gewann am Donnerstag in Wien 4:0 und spielt am Montag gegen Hoffenheim. In den letzten drei Ligaspielen wechselte er im Schnitt 6 Plätze in der Startelf, nur Harder begann alle letzten vier. In Wien standen Kett, Viggósdóttir, Zadrazil und Imade neu in der Startelf."
+    "text": "Wolfsburg muss laut Kicker und WAZ bis zum Jahresende auf Svenja Huth verzichten, die sich in Leipzig eine Bänderverletzung zuzog. Im nächsten Ligaspiel am 13.12. in Freiburg fehlt die Kapitänin und Standardschützin."
    },
    {
-    "art": "chance",
-    "label": "Chance",
-    "text": "Der FC Bayern holte zu Hause 15 Punkte aus 5 Spielen bei 19:4 Toren, Hoffenheim auswärts 4 Punkte aus 5 Spielen bei 5:10 Toren. Klara Bühl hat mit 6 Ligatoren die meisten beider Teams."
+    "art": "watch",
+    "label": "Beobachten",
+    "text": "Zwei Sperren zum 12. Spieltag: Lina Hausicke fehlt Union nach der fünften Gelben Karte am 13.12. gegen Mainz. Leia Varley fehlt Nürnberg noch ein Ligaspiel, am 11.12. beim FC Bayern."
    }
   ]
  },
@@ -294,71 +294,6 @@
      "k": "B04",
      "ort": "A",
      "datum": "Mo 14.12."
-    }
-   },
-   {
-    "n": "Glódís Viggósdóttir",
-    "k": "FCB",
-    "big": "90",
-    "big_txt": "Minuten in den letzten 3 Spielen",
-    "s": [
-     [
-      90,
-      1,
-      1
-     ],
-     [
-      90,
-      1,
-      0
-     ],
-     [
-      90,
-      1,
-      0
-     ],
-     [
-      90,
-      1,
-      0
-     ],
-     [
-      90,
-      1,
-      0
-     ],
-     [
-      90,
-      1,
-      0
-     ],
-     [
-      90,
-      1,
-      0
-     ],
-     [
-      90,
-      1,
-      0
-     ],
-     [
-      0,
-      0,
-      0
-     ],
-     [
-      0,
-      0,
-      0
-     ]
-    ],
-    "text": "Bis Spieltag 8 jedes Ligaspiel über 90 Minuten. Gegen Werder fehlte sie laut SPORT1 mit Knieproblemen, in Wolfsburg kam sie nicht zum Einsatz.",
-    "kb": "Nächster Gegner ist Hoffenheim (1,6 Gegentore pro Spiel), vier Tage nach dem Spiel in Wien. Dort stand sie in der Startelf und wurde in der 58. Minute ausgewechselt. Unsere Einschätzung: Einsatz offen.",
-    "next": {
-     "k": "TSG",
-     "ort": "H",
-     "datum": "Mo 23.11."
     }
    }
   ],
@@ -950,23 +885,6 @@
  ],
  "spiele": {
   "spieltage": [
-   {
-    "md": 11,
-    "partien": [
-     {
-      "heim": "FCB",
-      "gast": "TSG",
-      "datum": "Mo 23.11.",
-      "zeit": "18:00",
-      "fakten": [
-       "FC Bayern holte zu Hause <b>15 Punkte</b> aus 5 Spielen (19:4 Tore).",
-       "Hoffenheim holte auswärts <b>4 Punkte</b> aus 5 Spielen (5:10 Tore).",
-       "Meiste Ligatore beider Teams: Klara Bühl (FC Bayern) mit <b>6</b>."
-      ],
-      "kb": "FC Bayern kassiert 0,9 Tore pro Spiel, Hoffenheim 1,6. Das spricht eher für die Offensive von FC Bayern. Der FC Bayern spielte vier Tage vorher in Wien und gewann 4:0."
-     }
-    ]
-   },
    {
     "md": 12,
     "partien": [
@@ -4547,5 +4465,5 @@
   "id": "punkt-md11",
   "text": "Spieltag 11 in 60 Sekunden"
  },
- "geprueft": "2026-11-22T22:58"
+ "geprueft": "2026-11-23T20:46"
 }
