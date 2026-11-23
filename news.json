@@ -2,6 +2,58 @@
  "stand": "2026-11-23T16:58",
  "meldungen": [
   {
+   "id": "fehlt-eriksson-fcb-2311",
+   "pid": "00007",
+   "zeit": "2026-11-23T16:54",
+   "spielerin": "Magdalena Eriksson",
+   "verein": "FC Bayern",
+   "nr": "",
+   "pos": "ABW",
+   "tags": [
+    "AUFSTELLUNG"
+   ],
+   "status": "fraglich",
+   "headline": "Eriksson nicht im Kader gegen TSG Hoffenheim",
+   "text": [
+    "Magdalena Eriksson steht in der Liga gegen TSG Hoffenheim weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 2-mal.",
+    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
+   ],
+   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306337/bayern-muenchen_tsg-hoffenheim/aufstellung"
+    }
+   ],
+   "quelle_live": true
+  },
+  {
+   "id": "fehlt-natter-tsg-2311",
+   "pid": "00144",
+   "zeit": "2026-11-23T16:54",
+   "spielerin": "Linda Natter",
+   "verein": "TSG Hoffenheim",
+   "nr": "",
+   "pos": "ST",
+   "tags": [
+    "AUFSTELLUNG"
+   ],
+   "status": "fraglich",
+   "headline": "Natter nicht im Kader gegen FC Bayern",
+   "text": [
+    "Linda Natter steht in der Liga gegen FC Bayern weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 3-mal.",
+    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
+   ],
+   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306337/bayern-muenchen_tsg-hoffenheim/aufstellung"
+    }
+   ],
+   "quelle_live": true
+  },
+  {
    "id": "aufstellung-fcb-2311",
    "zeit": "2026-11-23T16:54",
    "spielerin": "Spielansetzung",
