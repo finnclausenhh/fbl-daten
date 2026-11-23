@@ -1,6 +1,34 @@
 {
  "meldungen": [
   {
+   "id": "endstand-fcb-2311",
+   "zeit": "2026-11-23T19:52",
+   "spielerin": "FC Bayern gegen TSG Hoffenheim",
+   "verein": "FC Bayern",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "SPIELBERICHT"
+   ],
+   "headline": "Endstand: FC Bayern 1:0 TSG Hoffenheim",
+   "kurz": "Endstand FCB 1:0 TSG",
+   "text": [
+    "FC Bayern gewinnt gegen die TSG Hoffenheim mit 1:0.",
+    "Tore: 1:0 Imade (8., Vorlage Proost).",
+    "Gelb: Doorn, Mattner-Trembleau.",
+    "Noten und der ausführliche Bericht folgen."
+   ],
+   "kickbase": "",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306337/bayern-muenchen_tsg-hoffenheim/liveticker"
+    }
+   ],
+   "quelle_live": true,
+   "partie_id": "12306337"
+  },
+  {
    "id": "fehlt-reimann-scf-0111",
    "pid": "00085",
    "zeit": "2026-11-01T14:08",
