@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-22T23:51",
+ "stand": "2026-11-23T07:45",
  "meldungen": [
   {
    "id": "fehlt-reimann-scf-0111",
@@ -320,6 +320,69 @@
     }
    ],
    "quelle_live": true
+  },
+  {
+   "id": "hechler-2211",
+   "pid": "00333",
+   "zeit": "2026-11-22T17:01",
+   "spielerin": "Janina Hechler",
+   "verein": "VfB Stuttgart",
+   "nr": "",
+   "pos": "ABW",
+   "tags": [
+    "UPDATE",
+    "ABWESEND"
+   ],
+   "status": "abwesend",
+   "headline": "Hechler fehlt in Freiburg krank",
+   "text": [
+    "Janina Hechler stand beim 0:2 in Freiburg nicht im Kader. Laut VfB war sie kurzfristig erkrankt, für sie rückte Greta Stegemann in die Startelf.",
+    "Wie lange die Erkrankung dauert, nannte der Verein nicht."
+   ],
+   "kickbase": "Der Grund ist damit bekannt: Krankheit, keine Verletzung. Nach der Länderspielpause folgt das nächste Ligaspiel erst am 13. Dezember gegen RB Leipzig, bis dahin bleibt Zeit für die Genesung.",
+   "quellen": [
+    {
+     "name": "VfB Stuttgart",
+     "url": "https://www.vfb.de/de/vfb/frauen/vfb-frauen-i/frauen-bundesliga/2627/11-freiburg-frauen---vfb-stuttgart-frauen-i/"
+    }
+   ],
+   "foto": "fotos/vfb-janina-hechler.webp",
+   "foto_credit": {
+    "autor": "VfB Stuttgart",
+    "lizenz": "mit Genehmigung: VfB Stuttgart",
+    "url": "https://www.vfb.de/de/1893/frauen/frauen/kader/saisonen/2026-2027/kader/?data=&mobile="
+   }
+  },
+  {
+   "id": "stegemann-2211",
+   "pid": "00339",
+   "zeit": "2026-11-22T17:01",
+   "spielerin": "Greta Stegemann",
+   "verein": "VfB Stuttgart",
+   "nr": "",
+   "pos": "ABW",
+   "tags": [
+    "RÜCKKEHR"
+   ],
+   "status": "fit",
+   "headline": "Stegemann steht wieder in der Startelf",
+   "text": [
+    "Greta Stegemann stand beim VfB in Freiburg in der Startelf und spielte in der Dreierkette. Der Verein nennt sie wieder genesen, zuvor hatte sie wegen einer Verletzung gefehlt.",
+    "Der VfB verlor 0:2, Stegemann spielte durch."
+   ],
+   "kickbase": "Stegemann ist zurück im Stammplatz. Für den nächsten Spieltag nach der Länderspielpause kann sie wieder als Startelf-Kandidatin eingeplant werden.",
+   "quellen": [
+    {
+     "name": "VfB Stuttgart",
+     "url": "https://www.vfb.de/de/vfb/frauen/vfb-frauen-i/frauen-bundesliga/2627/11-freiburg-frauen---vfb-stuttgart-frauen-i/"
+    }
+   ],
+   "foto": "fotos/vfb-greta-stegemann.webp",
+   "foto_credit": {
+    "autor": "VfB Stuttgart",
+    "lizenz": "mit Genehmigung: VfB Stuttgart",
+    "url": "https://www.vfb.de/de/1893/frauen/frauen/kader/saisonen/2026-2027/kader/?data=&mobile="
+   }
   },
   {
    "id": "aufstellung-m05-2211",
@@ -702,69 +765,6 @@
      "grund": "stand am 22.11. gegen Mainz 05 nicht im Spieltagskader, obwohl im letzten Ligaspiel in der Startelf; Grund nicht bekannt"
     }
    ]
-  },
-  {
-   "id": "hechler-2211",
-   "pid": "00333",
-   "zeit": "2026-11-22T17:01",
-   "spielerin": "Janina Hechler",
-   "verein": "VfB Stuttgart",
-   "nr": "",
-   "pos": "ABW",
-   "tags": [
-    "UPDATE",
-    "ABWESEND"
-   ],
-   "status": "abwesend",
-   "headline": "Hechler fehlt in Freiburg krank",
-   "text": [
-    "Janina Hechler stand beim 0:2 in Freiburg nicht im Kader. Laut VfB war sie kurzfristig erkrankt, für sie rückte Greta Stegemann in die Startelf.",
-    "Wie lange die Erkrankung dauert, nannte der Verein nicht."
-   ],
-   "kickbase": "Der Grund ist damit bekannt: Krankheit, keine Verletzung. Nach der Länderspielpause folgt das nächste Ligaspiel erst am 13. Dezember gegen RB Leipzig, bis dahin bleibt Zeit für die Genesung.",
-   "quellen": [
-    {
-     "name": "VfB Stuttgart",
-     "url": "https://www.vfb.de/de/vfb/frauen/vfb-frauen-i/frauen-bundesliga/2627/11-freiburg-frauen---vfb-stuttgart-frauen-i/"
-    }
-   ],
-   "foto": "fotos/vfb-janina-hechler.webp",
-   "foto_credit": {
-    "autor": "VfB Stuttgart",
-    "lizenz": "mit Genehmigung: VfB Stuttgart",
-    "url": "https://www.vfb.de/de/1893/frauen/frauen/kader/saisonen/2026-2027/kader/?data=&mobile="
-   }
-  },
-  {
-   "id": "stegemann-2211",
-   "pid": "00339",
-   "zeit": "2026-11-22T17:01",
-   "spielerin": "Greta Stegemann",
-   "verein": "VfB Stuttgart",
-   "nr": "",
-   "pos": "ABW",
-   "tags": [
-    "RÜCKKEHR"
-   ],
-   "status": "fit",
-   "headline": "Stegemann steht wieder in der Startelf",
-   "text": [
-    "Greta Stegemann stand beim VfB in Freiburg in der Startelf und spielte in der Dreierkette. Der Verein nennt sie wieder genesen, zuvor hatte sie wegen einer Verletzung gefehlt.",
-    "Der VfB verlor 0:2, Stegemann spielte durch."
-   ],
-   "kickbase": "Stegemann ist zurück im Stammplatz. Für den nächsten Spieltag nach der Länderspielpause kann sie wieder als Startelf-Kandidatin eingeplant werden.",
-   "quellen": [
-    {
-     "name": "VfB Stuttgart",
-     "url": "https://www.vfb.de/de/vfb/frauen/vfb-frauen-i/frauen-bundesliga/2627/11-freiburg-frauen---vfb-stuttgart-frauen-i/"
-    }
-   ],
-   "foto": "fotos/vfb-greta-stegemann.webp",
-   "foto_credit": {
-    "autor": "VfB Stuttgart",
-    "lizenz": "mit Genehmigung: VfB Stuttgart",
-    "url": "https://www.vfb.de/de/1893/frauen/frauen/kader/saisonen/2026-2027/kader/?data=&mobile="
-   }
   },
   {
    "id": "endstand-scf-2211",
@@ -2363,6 +2363,197 @@
    "kurz": "Dönges nicht im Kader"
   },
   {
+   "id": "cl-austria-fcb-1911",
+   "pid": "00015",
+   "zeit": "2026-11-19T20:45",
+   "spielerin": "Alara",
+   "verein": "FC Bayern",
+   "nr": "",
+   "pos": "MF",
+   "tags": [
+    "SPIELBERICHT",
+    "EUROPAPOKAL"
+   ],
+   "status": "fit",
+   "headline": "FC Bayern gewinnt 4:0 bei Austria Wien, Alara trifft",
+   "kurz": "FC Bayern siegt 4:0 in Wien, Alara trifft",
+   "text": [
+    "Der FC Bayern gewinnt in der Champions League 4:0 bei Austria Wien. Die Tore erzielen Bühl (27.), Harder (45.+1), Alara (75.) und Proost (90.+2). Alara kam zur zweiten Halbzeit und traf nach Vorlage von Bühl. Laut Bericht steht der FC Bayern damit sicher in der Play-off-Runde.",
+    "Viggósdóttir kehrte in die Startelf zurück, Gwinn spielte 78 Minuten. Amani fehlte im Kader, sie war gelbgesperrt."
+   ],
+   "kickbase": "Alara ist als Joker in Form, für die Startelf am Wochenende ist das aber kein Hinweis. Wie viele der Stammkräfte in der Liga wieder beginnen, zeigt erst die offizielle Aufstellung.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/uefa-champions-league-frauen/ma12537093/austria-wien_bayern-muenchen/aufstellung"
+    },
+    {
+     "name": "WEB.DE",
+     "url": "https://web.de/magazine/sport/videos/fussball/bayern-fertigt-austria-wien-alara-traumtor-42966142"
+    }
+   ],
+   "spiel_aufstellung": [
+    {
+     "verein": "FC Bayern",
+     "k": "FCB",
+     "gegner": "Austria Wien",
+     "wettbewerb": "Champions League",
+     "ergebnis": "4:0",
+     "tore": [
+      {
+       "min": "27",
+       "n": "Bühl",
+       "eigen": true,
+       "vorlage": "Imade"
+      },
+      {
+       "min": "45+1",
+       "n": "Harder",
+       "eigen": true,
+       "vorlage": "Dallmann"
+      },
+      {
+       "min": "75",
+       "n": "Alara",
+       "eigen": true,
+       "vorlage": "Bühl"
+      },
+      {
+       "min": "90+3",
+       "n": "Proost",
+       "eigen": true,
+       "vorlage": "Damnjanović"
+      }
+     ],
+     "vergleich": "10. Spieltag",
+     "startelf": [
+      {
+       "n": "Mahmutovic",
+       "p": "TW"
+      },
+      {
+       "n": "Kett",
+       "p": "ABW",
+       "f": "neu"
+      },
+      {
+       "n": "Eriksson",
+       "p": "ABW",
+       "aus": "46"
+      },
+      {
+       "n": "Viggósdóttir",
+       "p": "ABW",
+       "f": "neu",
+       "aus": "57"
+      },
+      {
+       "n": "Gwinn",
+       "p": "ABW",
+       "aus": "78"
+      },
+      {
+       "n": "Tanikawa",
+       "p": "DM"
+      },
+      {
+       "n": "Zadrazil",
+       "p": "MF",
+       "f": "neu"
+      },
+      {
+       "n": "Harder",
+       "p": "OM",
+       "aus": "64",
+       "tore": 1
+      },
+      {
+       "n": "Bühl",
+       "p": "OM",
+       "tore": 1,
+       "vorl": 1
+      },
+      {
+       "n": "Dallmann",
+       "p": "OM",
+       "vorl": 1
+      },
+      {
+       "n": "Imade",
+       "p": "ST",
+       "f": "neu",
+       "aus": "78",
+       "vorl": 1
+      }
+     ],
+     "eingewechselt": [
+      {
+       "n": "Alara",
+       "p": "MF",
+       "ein_min": "46",
+       "tore": 1
+      },
+      {
+       "n": "Ballisager",
+       "p": "ABW",
+       "ein_min": "57"
+      },
+      {
+       "n": "Damnjanović",
+       "p": "ST",
+       "ein_min": "64",
+       "vorl": 1
+      },
+      {
+       "n": "Proost",
+       "p": "MF",
+       "ein_min": "78",
+       "tore": 1
+      },
+      {
+       "n": "Mattner-Trembleau",
+       "p": "ABW",
+       "ein_min": "78"
+      }
+     ],
+     "raus": [
+      {
+       "n": "Ballisager",
+       "p": "ABW",
+       "wo": "Bank"
+      },
+      {
+       "n": "Naschenweng",
+       "p": "ABW",
+       "wo": "Bank"
+      },
+      {
+       "n": "Amani",
+       "p": "DM",
+       "wo": "nicht im Kader"
+      },
+      {
+       "n": "Damnjanović",
+       "p": "ST",
+       "wo": "Bank"
+      }
+     ],
+     "ohne_einsatz": [
+      "Klink",
+      "van Eijk",
+      "Naschenweng",
+      "Dunst"
+     ]
+    }
+   ],
+   "foto": "fotos/fcb-alara-sehitler.webp",
+   "foto_credit": {
+    "autor": "MichaelEmilio",
+    "lizenz": "CC BY 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:V%C3%A5lerenga_Fotball_Damer_v_FC_Bayern_M%C3%BCnchen_Frauen,_21_November_2024_08_(cropped).jpg"
+   }
+  },
+  {
    "id": "endstand-fcu-2011",
    "zeit": "2026-11-20T20:29",
    "spielerin": "Union Berlin gegen Bayer Leverkusen",
@@ -2692,6 +2883,38 @@
    "quelle_live": true
   },
   {
+   "id": "alara-2011",
+   "pid": "00015",
+   "zeit": "2026-11-20T14:49",
+   "spielerin": "Alara",
+   "verein": "FC Bayern",
+   "nr": "14",
+   "pos": "MF",
+   "tags": [
+    "NATIONALTEAM"
+   ],
+   "headline": "Alara fehlt im DFB-Kader, Ärger bleibt",
+   "kurz": "Alara nicht im DFB-Kader der Länderspielpause",
+   "text": [
+    "Bundestrainer Christian Wück hat die 19-jährige Alara nicht für die Länderspielpause der deutschen Frauen-Nationalmannschaft nominiert. Nach dem 4:0 des FC Bayern gegen Austria Wien, in dem sie zur zweiten Halbzeit eingewechselt wurde, sagte sie im ZDF kurz: \"Die Nominierung war da und wurde so entschieden.\"",
+    "Die Entscheidung des Bundestrainers sorgt laut BR für Schlagzeilen. Alara bleibt damit während der Länderspielpause bei ihrem Verein."
+   ],
+   "kickbase": "Für die Kickbase-Aufstellung ändert die Nicht-Nominierung nichts. Alara steht dem FC Bayern in der Pause zur Verfügung und ist nach der Pause normal einzuplanen.",
+   "status": "fit",
+   "quellen": [
+    {
+     "name": "BR24Sport",
+     "url": "https://www.br.de/nachrichten/sport/fussball-fc-bayern-frauen-alara-zeigt-s-dfb-coach-christian-wueck-antwort-auf-und-neben-dem-platz,VbWAo2x"
+    }
+   ],
+   "foto": "fotos/fcb-alara-sehitler.webp",
+   "foto_credit": {
+    "autor": "MichaelEmilio",
+    "lizenz": "CC BY 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:V%C3%A5lerenga_Fotball_Damer_v_FC_Bayern_M%C3%BCnchen_Frauen,_21_November_2024_08_(cropped).jpg"
+   }
+  },
+  {
    "id": "lattwein-2011",
    "pid": "00403",
    "zeit": "2026-11-20T15:18",
@@ -2743,38 +2966,6 @@
    }
   },
   {
-   "id": "alara-2011",
-   "pid": "00015",
-   "zeit": "2026-11-20T14:49",
-   "spielerin": "Alara",
-   "verein": "FC Bayern",
-   "nr": "14",
-   "pos": "MF",
-   "tags": [
-    "NATIONALTEAM"
-   ],
-   "headline": "Alara fehlt im DFB-Kader, Ärger bleibt",
-   "kurz": "Alara nicht im DFB-Kader der Länderspielpause",
-   "text": [
-    "Bundestrainer Christian Wück hat die 19-jährige Alara nicht für die Länderspielpause der deutschen Frauen-Nationalmannschaft nominiert. Nach dem 4:0 des FC Bayern gegen Austria Wien, in dem sie zur zweiten Halbzeit eingewechselt wurde, sagte sie im ZDF kurz: \"Die Nominierung war da und wurde so entschieden.\"",
-    "Die Entscheidung des Bundestrainers sorgt laut BR für Schlagzeilen. Alara bleibt damit während der Länderspielpause bei ihrem Verein."
-   ],
-   "kickbase": "Für die Kickbase-Aufstellung ändert die Nicht-Nominierung nichts. Alara steht dem FC Bayern in der Pause zur Verfügung und ist nach der Pause normal einzuplanen.",
-   "status": "fit",
-   "quellen": [
-    {
-     "name": "BR24Sport",
-     "url": "https://www.br.de/nachrichten/sport/fussball-fc-bayern-frauen-alara-zeigt-s-dfb-coach-christian-wueck-antwort-auf-und-neben-dem-platz,VbWAo2x"
-    }
-   ],
-   "foto": "fotos/fcb-alara-sehitler.webp",
-   "foto_credit": {
-    "autor": "MichaelEmilio",
-    "lizenz": "CC BY 4.0",
-    "url": "https://commons.wikimedia.org/wiki/File:V%C3%A5lerenga_Fotball_Damer_v_FC_Bayern_M%C3%BCnchen_Frauen,_21_November_2024_08_(cropped).jpg"
-   }
-  },
-  {
    "id": "rankin-2011",
    "pid": "00067",
    "zeit": "2026-11-20T12:09",
@@ -2814,471 +3005,6 @@
     "autor": "Eintracht Frankfurt",
     "lizenz": "mit Genehmigung: Eintracht Frankfurt",
     "url": "https://frauen.eintracht.de/kader/"
-   }
-  },
-  {
-   "id": "pk-md11",
-   "zeit": "2026-11-20T08:05",
-   "spielerin": "Pressekonferenzen",
-   "verein": "",
-   "nr": "",
-   "pos": "11. Spieltag",
-   "symbol": "pk",
-   "tags": [
-    "UPDATE"
-   ],
-   "headline": "Vor dem 11. Spieltag: Pressekonferenzen, Vorberichte und späte Updates",
-   "kurz": "11. Spieltag: wer wann spricht, wer wann berichtet (12 von 14 Vorberichten da)",
-   "text": [
-    "Vor dem 11. Spieltag geben nur wenige Vereine eine Pressekonferenz. Was dort zum Personal gesagt wird, ist oft die letzte Info vor der offiziellen Aufstellung.",
-    "FC Bayern (gegen TSG Hoffenheim, Mo 23.11., 18:00 Uhr): Vor solchen Spielen gibt es üblicherweise eine Pressekonferenz mit Trainer José Barcala, meist am Vortag (So 22.11.). Einen Termin hat der Verein noch nicht genannt, danach FC Bayern TV, Aussagen meist auch auf fcbayern.com.",
-    "Keine Pressekonferenz vor dem Spiel bekannt: Union Berlin, Bayer Leverkusen, Eintracht Frankfurt, Hamburger SV, 1. FC Köln, Werder Bremen, SC Freiburg, VfB Stuttgart, RB Leipzig, VfL Wolfsburg, Mainz 05, 1. FC Nürnberg, TSG Hoffenheim. Dort steht das Personal meist im Vorbericht des Vereins, siehe unten.",
-    "Wann die Vereine ihre Vorberichte bringen (die Links stehen unten bei den Quellen):",
-    "Union Berlin gegen Bayer Leverkusen (Fr 20.11., 18:30 Uhr): Union Berlin seit Mi 18.11., 17:30 Uhr: „Unionerinnen wollen Leverkusen erstmals Punkte abnehmen“; Bayer Leverkusen ohne Vorbericht.",
-    "Eintracht Frankfurt gegen Hamburger SV (Sa 21.11., 12:00 Uhr): Eintracht Frankfurt seit Do 19.11., 16:00 Uhr: „Hamburg zu Gast“; Hamburger SV seit Fr 20.11., 07:33 Uhr: „Gegen wind und wetter hsv frauen bereit fuer frankfurt“.",
-    "1. FC Köln gegen Werder Bremen (Sa 21.11., 14:00 Uhr): 1. FC Köln seit Sa 21.11., 12:03 Uhr: „Startelf der FC-Frauen gegen Bremen“; Werder Bremen seit Do 19.11., 09:00 Uhr: „Fanhinweise zum Ligaspiel der WERDERFRAUEN beim 1. FC Köln“.",
-    "SC Freiburg gegen VfB Stuttgart (So 22.11., 14:00 Uhr): SC Freiburg ohne Vorbericht; VfB Stuttgart seit Fr 20.11., 15:19 Uhr: „Matchfacts: SC Freiburg – VfB-Frauen“.",
-    "RB Leipzig gegen VfL Wolfsburg (So 22.11., 16:00 Uhr): RB Leipzig seit Fr 20.11., 15:20 Uhr: „Rbl frauen empfangen wolfsburg zusammenhalt gegen offensivpower“; VfL Wolfsburg seit So 22.11.: „Bilder: Spiel der Wölfinnen in Leipzig“.",
-    "Mainz 05 gegen 1. FC Nürnberg (So 22.11., 18:30 Uhr): Mainz 05 seit Fr 20.11.: „05-Frauen vor Nürnberg: Mit Intensität zum Erfolg“; 1. FC Nürnberg seit Fr 20.11.: „Vorbericht: Zu Gast im Schatten des Doms“.",
-    "FC Bayern gegen TSG Hoffenheim (Mo 23.11., 18:00 Uhr): FC Bayern seit So 22.11., 14:21 Uhr: „Historische Männer-Bestmarke vor Augen: Formstarke FCB-Frauen empfangen Hoffenheim“; TSG Hoffenheim seit Fr 20.11., 15:42 Uhr: Virsinger vor #FCBTSG: „Wir müssen mit Überzeugung ins Spiel gehen“.",
-    "Die offiziellen Aufstellungen kommen etwa eine Stunde vor Anpfiff, wir melden sie automatisch. Bis dahin sind Last-Minute-Änderungen möglich, gerade bei Vereinen, die unter der Woche im Europapokal gespielt haben."
-   ],
-   "kickbase": "Aufstellung erst nach den Pressekonferenzen festzurren (FC Bayern). Bei allen anderen ist die offizielle Aufstellung vor Anpfiff die erste sichere Info.",
-   "quellen": [
-    {
-     "name": "Vorbericht Union Berlin",
-     "url": "https://www.fc-union-berlin.de/de/meldungen/unionerinnen-wollen-leverkusen-erstmals-punkte-abnehmen-YBE0xO"
-    },
-    {
-     "name": "Vorbericht Eintracht Frankfurt",
-     "url": "https://frauen.eintracht.de/news/hamburg-zu-gast-180503"
-    },
-    {
-     "name": "Vorbericht Hamburger SV",
-     "url": "https://www.hsv.de/news/gegen-wind-und-wetter-hsv-frauen-bereit-fuer-frankfurt"
-    },
-    {
-     "name": "Vorbericht 1. FC Köln",
-     "url": "https://fc.de/aktuelles/news/startelf-der-fc-frauen-gegen-bremen"
-    },
-    {
-     "name": "Vorbericht Werder Bremen",
-     "url": "https://www.werder.de/news/frauen/2026-2027/fanhinweise-1-fc-koeln-19112026"
-    },
-    {
-     "name": "Vorbericht VfB Stuttgart",
-     "url": "https://www.vfb.de/de/vfb/aktuell/neues/vfb-frauen/26-27/matchfacts--sc-freiburg-----vfb-frauen/"
-    },
-    {
-     "name": "Vorbericht RB Leipzig",
-     "url": "https://rbleipzig.com/de/news/rbl-frauen-empfangen-wolfsburg-zusammenhalt-gegen-offensivpower"
-    },
-    {
-     "name": "Vorbericht VfL Wolfsburg",
-     "url": "https://www.vfl-wolfsburg.de/newsdetails/news-detail/detail/news/bilder-spiel-der-woelfinnen-in-leipzig-2"
-    },
-    {
-     "name": "Vorbericht Mainz 05",
-     "url": "https://www.mainz05.de/news/vorbericht-frauen-nurnberg-2627"
-    },
-    {
-     "name": "Vorbericht 1. FC Nürnberg",
-     "url": "https://www.fcn.de/news/artikel/vorbericht-zu-gast-im-schatten-des-doms/"
-    },
-    {
-     "name": "Vorbericht FC Bayern",
-     "url": "https://fcbayern.com/frauen/de/news/vorberichte/2026/11/vorschau-fc-bayern-frauen---tsg-hoffenheim"
-    },
-    {
-     "name": "Vorbericht TSG Hoffenheim",
-     "url": "https://www.tsg-hoffenheim.de/aktuelles/news/2026/11/virsinger-vor-fcbtsg-wir-muessen-mit-ueberzeugung-ins-spiel-gehen"
-    },
-    {
-     "name": "FC Bayern Frauen",
-     "url": "https://fcbayern.com/frauen/de"
-    }
-   ],
-   "fahrplan": {
-    "md": 11,
-    "pin_bis": "2026-11-20T18:30",
-    "vereine": [
-     {
-      "k": "FCU",
-      "name": "Union Berlin",
-      "anstoss": "2026-11-20T18:30",
-      "vb": {
-       "zeit": "2026-11-18T17:30",
-       "titel": "Unionerinnen wollen Leverkusen erstmals Punkte abnehmen",
-       "url": "https://www.fc-union-berlin.de/de/meldungen/unionerinnen-wollen-leverkusen-erstmals-punkte-abnehmen-YBE0xO"
-      },
-      "erwartet": null,
-      "seite": "https://www.fc-union-berlin.de/",
-      "pk": null
-     },
-     {
-      "k": "B04",
-      "name": "Bayer Leverkusen",
-      "anstoss": "2026-11-20T18:30",
-      "vb": null,
-      "erwartet": {
-       "bis": "2026-11-19",
-       "uhr": false
-      },
-      "seite": "https://www.bayer04.de/",
-      "pk": null
-     },
-     {
-      "k": "SGE",
-      "name": "Eintracht Frankfurt",
-      "anstoss": "2026-11-21T12:00",
-      "vb": {
-       "zeit": "2026-11-19T16:00",
-       "titel": "Hamburg zu Gast",
-       "url": "https://frauen.eintracht.de/news/hamburg-zu-gast-180503"
-      },
-      "erwartet": null,
-      "seite": "https://frauen.eintracht.de/",
-      "pk": null
-     },
-     {
-      "k": "HSV",
-      "name": "Hamburger SV",
-      "anstoss": "2026-11-21T12:00",
-      "vb": {
-       "zeit": "2026-11-20T07:33",
-       "titel": "Gegen wind und wetter hsv frauen bereit fuer frankfurt",
-       "url": "https://www.hsv.de/news/gegen-wind-und-wetter-hsv-frauen-bereit-fuer-frankfurt"
-      },
-      "erwartet": null,
-      "seite": "https://www.hsv.de/",
-      "pk": null
-     },
-     {
-      "k": "KOE",
-      "name": "1. FC Köln",
-      "anstoss": "2026-11-21T14:00",
-      "vb": {
-       "zeit": "2026-11-21T12:03",
-       "titel": "Startelf der FC-Frauen gegen Bremen",
-       "url": "https://fc.de/aktuelles/news/startelf-der-fc-frauen-gegen-bremen"
-      },
-      "erwartet": null,
-      "seite": "https://fc.de/",
-      "pk": null
-     },
-     {
-      "k": "SVW",
-      "name": "Werder Bremen",
-      "anstoss": "2026-11-21T14:00",
-      "vb": {
-       "zeit": "2026-11-19T09:00",
-       "titel": "Fanhinweise zum Ligaspiel der WERDERFRAUEN beim 1. FC Köln",
-       "url": "https://www.werder.de/news/frauen/2026-2027/fanhinweise-1-fc-koeln-19112026"
-      },
-      "erwartet": null,
-      "seite": "https://www.werder.de/",
-      "pk": null
-     },
-     {
-      "k": "SCF",
-      "name": "SC Freiburg",
-      "anstoss": "2026-11-22T14:00",
-      "vb": null,
-      "erwartet": {
-       "bis": "2026-11-20",
-       "uhr": false
-      },
-      "seite": "https://www.scfreiburg.com/",
-      "pk": null
-     },
-     {
-      "k": "VFB",
-      "name": "VfB Stuttgart",
-      "anstoss": "2026-11-22T14:00",
-      "vb": {
-       "zeit": "2026-11-20T15:19",
-       "titel": "Matchfacts: SC Freiburg – VfB-Frauen",
-       "url": "https://www.vfb.de/de/vfb/aktuell/neues/vfb-frauen/26-27/matchfacts--sc-freiburg-----vfb-frauen/"
-      },
-      "erwartet": null,
-      "seite": "https://www.vfb.de/",
-      "pk": null
-     },
-     {
-      "k": "RBL",
-      "name": "RB Leipzig",
-      "anstoss": "2026-11-22T16:00",
-      "vb": {
-       "zeit": "2026-11-20T15:20",
-       "titel": "Rbl frauen empfangen wolfsburg zusammenhalt gegen offensivpower",
-       "url": "https://rbleipzig.com/de/news/rbl-frauen-empfangen-wolfsburg-zusammenhalt-gegen-offensivpower"
-      },
-      "erwartet": null,
-      "seite": "https://rbleipzig.com/",
-      "pk": null
-     },
-     {
-      "k": "WOB",
-      "name": "VfL Wolfsburg",
-      "anstoss": "2026-11-22T16:00",
-      "vb": {
-       "zeit": "2026-11-22T00:00",
-       "titel": "Bilder: Spiel der Wölfinnen in Leipzig",
-       "url": "https://www.vfl-wolfsburg.de/newsdetails/news-detail/detail/news/bilder-spiel-der-woelfinnen-in-leipzig-2"
-      },
-      "erwartet": null,
-      "seite": "https://www.vfl-wolfsburg.de/",
-      "pk": null
-     },
-     {
-      "k": "M05",
-      "name": "Mainz 05",
-      "anstoss": "2026-11-22T18:30",
-      "vb": {
-       "zeit": "2026-11-20T00:00",
-       "titel": "05-Frauen vor Nürnberg: Mit Intensität zum Erfolg",
-       "url": "https://www.mainz05.de/news/vorbericht-frauen-nurnberg-2627"
-      },
-      "erwartet": null,
-      "seite": "https://www.mainz05.de/",
-      "pk": null
-     },
-     {
-      "k": "FCN",
-      "name": "1. FC Nürnberg",
-      "anstoss": "2026-11-22T18:30",
-      "vb": {
-       "zeit": "2026-11-20T00:00",
-       "titel": "Vorbericht: Zu Gast im Schatten des Doms",
-       "url": "https://www.fcn.de/news/artikel/vorbericht-zu-gast-im-schatten-des-doms/"
-      },
-      "erwartet": null,
-      "seite": "https://www.fcn.de/",
-      "pk": null
-     },
-     {
-      "k": "FCB",
-      "name": "FC Bayern",
-      "anstoss": "2026-11-23T18:00",
-      "vb": {
-       "zeit": "2026-11-22T14:21",
-       "titel": "Historische Männer-Bestmarke vor Augen: Formstarke FCB-Frauen empfangen Hoffenheim",
-       "url": "https://fcbayern.com/frauen/de/news/vorberichte/2026/11/vorschau-fc-bayern-frauen---tsg-hoffenheim"
-      },
-      "erwartet": null,
-      "seite": "https://fcbayern.com/frauen/de",
-      "pk": {
-       "tag": "So 22.11.",
-       "bestaetigt": false,
-       "kurz": null
-      }
-     },
-     {
-      "k": "TSG",
-      "name": "TSG Hoffenheim",
-      "anstoss": "2026-11-23T18:00",
-      "vb": {
-       "zeit": "2026-11-20T15:42",
-       "titel": "Virsinger vor #FCBTSG: „Wir müssen mit Überzeugung ins Spiel gehen“",
-       "url": "https://www.tsg-hoffenheim.de/aktuelles/news/2026/11/virsinger-vor-fcbtsg-wir-muessen-mit-ueberzeugung-ins-spiel-gehen"
-      },
-      "erwartet": null,
-      "seite": "https://www.tsg-hoffenheim.de/",
-      "pk": null
-     }
-    ],
-    "stand": "2026-11-22T23:51"
-   }
-  },
-  {
-   "id": "cl-austria-fcb-1911",
-   "pid": "00015",
-   "zeit": "2026-11-19T20:45",
-   "spielerin": "Alara",
-   "verein": "FC Bayern",
-   "nr": "",
-   "pos": "MF",
-   "tags": [
-    "SPIELBERICHT",
-    "EUROPAPOKAL"
-   ],
-   "status": "fit",
-   "headline": "FC Bayern gewinnt 4:0 bei Austria Wien, Alara trifft",
-   "kurz": "FC Bayern siegt 4:0 in Wien, Alara trifft",
-   "text": [
-    "Der FC Bayern gewinnt in der Champions League 4:0 bei Austria Wien. Die Tore erzielen Bühl (27.), Harder (45.+1), Alara (75.) und Proost (90.+2). Alara kam zur zweiten Halbzeit und traf nach Vorlage von Bühl. Laut Bericht steht der FC Bayern damit sicher in der Play-off-Runde.",
-    "Viggósdóttir kehrte in die Startelf zurück, Gwinn spielte 78 Minuten. Amani fehlte im Kader, sie war gelbgesperrt."
-   ],
-   "kickbase": "Alara ist als Joker in Form, für die Startelf am Wochenende ist das aber kein Hinweis. Wie viele der Stammkräfte in der Liga wieder beginnen, zeigt erst die offizielle Aufstellung.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/uefa-champions-league-frauen/ma12537093/austria-wien_bayern-muenchen/aufstellung"
-    },
-    {
-     "name": "WEB.DE",
-     "url": "https://web.de/magazine/sport/videos/fussball/bayern-fertigt-austria-wien-alara-traumtor-42966142"
-    }
-   ],
-   "spiel_aufstellung": [
-    {
-     "verein": "FC Bayern",
-     "k": "FCB",
-     "gegner": "Austria Wien",
-     "wettbewerb": "Champions League",
-     "ergebnis": "4:0",
-     "tore": [
-      {
-       "min": "27",
-       "n": "Bühl",
-       "eigen": true,
-       "vorlage": "Imade"
-      },
-      {
-       "min": "45+1",
-       "n": "Harder",
-       "eigen": true,
-       "vorlage": "Dallmann"
-      },
-      {
-       "min": "75",
-       "n": "Alara",
-       "eigen": true,
-       "vorlage": "Bühl"
-      },
-      {
-       "min": "90+3",
-       "n": "Proost",
-       "eigen": true,
-       "vorlage": "Damnjanović"
-      }
-     ],
-     "vergleich": "10. Spieltag",
-     "startelf": [
-      {
-       "n": "Mahmutovic",
-       "p": "TW"
-      },
-      {
-       "n": "Kett",
-       "p": "ABW",
-       "f": "neu"
-      },
-      {
-       "n": "Eriksson",
-       "p": "ABW",
-       "aus": "46"
-      },
-      {
-       "n": "Viggósdóttir",
-       "p": "ABW",
-       "f": "neu",
-       "aus": "57"
-      },
-      {
-       "n": "Gwinn",
-       "p": "ABW",
-       "aus": "78"
-      },
-      {
-       "n": "Tanikawa",
-       "p": "DM"
-      },
-      {
-       "n": "Zadrazil",
-       "p": "MF",
-       "f": "neu"
-      },
-      {
-       "n": "Harder",
-       "p": "OM",
-       "aus": "64",
-       "tore": 1
-      },
-      {
-       "n": "Bühl",
-       "p": "OM",
-       "tore": 1,
-       "vorl": 1
-      },
-      {
-       "n": "Dallmann",
-       "p": "OM",
-       "vorl": 1
-      },
-      {
-       "n": "Imade",
-       "p": "ST",
-       "f": "neu",
-       "aus": "78",
-       "vorl": 1
-      }
-     ],
-     "eingewechselt": [
-      {
-       "n": "Alara",
-       "p": "MF",
-       "ein_min": "46",
-       "tore": 1
-      },
-      {
-       "n": "Ballisager",
-       "p": "ABW",
-       "ein_min": "57"
-      },
-      {
-       "n": "Damnjanović",
-       "p": "ST",
-       "ein_min": "64",
-       "vorl": 1
-      },
-      {
-       "n": "Proost",
-       "p": "MF",
-       "ein_min": "78",
-       "tore": 1
-      },
-      {
-       "n": "Mattner-Trembleau",
-       "p": "ABW",
-       "ein_min": "78"
-      }
-     ],
-     "raus": [
-      {
-       "n": "Ballisager",
-       "p": "ABW",
-       "wo": "Bank"
-      },
-      {
-       "n": "Naschenweng",
-       "p": "ABW",
-       "wo": "Bank"
-      },
-      {
-       "n": "Amani",
-       "p": "DM",
-       "wo": "nicht im Kader"
-      },
-      {
-       "n": "Damnjanović",
-       "p": "ST",
-       "wo": "Bank"
-      }
-     ],
-     "ohne_einsatz": [
-      "Klink",
-      "van Eijk",
-      "Naschenweng",
-      "Dunst"
-     ]
-    }
-   ],
-   "foto": "fotos/fcb-alara-sehitler.webp",
-   "foto_credit": {
-    "autor": "MichaelEmilio",
-    "lizenz": "CC BY 4.0",
-    "url": "https://commons.wikimedia.org/wiki/File:V%C3%A5lerenga_Fotball_Damer_v_FC_Bayern_M%C3%BCnchen_Frauen,_21_November_2024_08_(cropped).jpg"
    }
   },
   {
@@ -8322,869 +8048,6 @@
     "lizenz": "Platzhalter (kein Vereinsfoto)",
     "url": "https://fcbayern.com/frauen/de/teams/1.-mannschaft"
    }
-  },
-  {
-   "id": "endstand-m05-0811",
-   "zeit": "2026-11-08T17:58",
-   "spielerin": "Mainz 05 gegen VfB Stuttgart",
-   "verein": "Mainz 05",
-   "nr": "",
-   "pos": "Spielansetzung",
-   "tags": [
-    "SPIELBERICHT"
-   ],
-   "headline": "VfB Stuttgart gewinnt 3:1 bei Mainz 05, Wieder trifft doppelt, dazu Hirano",
-   "kurz": "Stuttgart siegt 3:1 in Mainz",
-   "text": [
-    "VfB Stuttgart gewinnt bei Mainz 05 mit 3:1.",
-    "Tore: 0:1 Hirano (17.), 1:1 Anstatt (75., Vorlage Bouziane), 1:2 Wieder (76., Vorlage Billa), 1:3 Wieder (82., Vorlage Rall).",
-    "Gelb: Berg.",
-    "Beste Note im Spiel: Wieder (8,4).",
-    "Statistik (Mainz 05 zuerst): Torschüsse 11:10 (aufs Tor 3:4), Ballbesitz 49:51 %, Expected Goals 1,08:1,44, Ecken 4:8.",
-    "Beste Noten Mainz 05: Anstatt 7,5, Fetaj 6,4, Imai 6,2.",
-    "Beste Noten VfB Stuttgart: Wieder 8,4, Hirano 7,9, Billa 7,3.",
-    "Schwächste Note in der Startelf: Pageler (5,3)."
-   ],
-   "kickbase": "Herausragend: Wieder (8,4), Hirano (7,9), Anstatt (7,5).",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306268/1-fsv-mainz-05_vfb-stuttgart/liveticker"
-    },
-    {
-     "name": "API-Football (Noten, Statistik)",
-     "url": "https://www.api-football.com"
-    }
-   ],
-   "quelle_live": true,
-   "partie_id": "12306268",
-   "noten": true
-  },
-  {
-   "id": "comeback-georgieva-m05-0811",
-   "pid": "00274",
-   "zeit": "2026-11-08T17:18",
-   "spielerin": "Marina Georgieva",
-   "verein": "Mainz 05",
-   "nr": "",
-   "pos": "ABW",
-   "tags": [
-    "RÜCKKEHR"
-   ],
-   "status": "fit",
-   "headline": "Georgieva feiert Comeback nach Verletzungspause",
-   "text": [
-    "Marina Georgieva ist nach Verletzungspause zurück im Spieltagskader von Mainz 05.",
-    "Gegen VfB Stuttgart kam sie in der 63. Minute ins Spiel. Insgesamt spielte sie rund 27 Minuten.",
-    "API-Football bewertet ihren Auftritt mit der Note 6,2 (durchwachsen)."
-   ],
-   "kickbase": "Wieder einsatzbereit. Nach der Pause am nächsten Spieltag eher mit begrenzter Spielzeit rechnen, die Startelf ist noch offen.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306268/1-fsv-mainz-05_vfb-stuttgart/liveticker"
-    },
-    {
-     "name": "API-Football (Note)",
-     "url": "https://www.api-football.com"
-    }
-   ],
-   "quelle_live": true,
-   "partie_id": "12306268",
-   "comeback": {
-    "art": "comeback",
-    "stufe": "einsatz"
-   },
-   "kurz": "Georgieva feiert Comeback"
-  },
-  {
-   "id": "endstand-fcu-0811",
-   "zeit": "2026-11-08T16:00",
-   "spielerin": "Union Berlin gegen TSG Hoffenheim",
-   "verein": "Union Berlin",
-   "nr": "",
-   "pos": "Spielansetzung",
-   "tags": [
-    "SPIELBERICHT"
-   ],
-   "headline": "Union Berlin und TSG Hoffenheim 1:1, Natter und Hausicke treffen",
-   "kurz": "Union und Hoffenheim 1:1",
-   "text": [
-    "Union Berlin und TSG Hoffenheim trennen sich 1:1.",
-    "Tore: 0:1 Natter (11., Vorlage Steiner), 1:1 Hausicke (43., Vorlage Judit Pujols).",
-    "Gelb: Kamber, Hahn, Velde, Fenger.",
-    "Beste Note im Spiel: Natter (8,1).",
-    "Statistik (Union Berlin zuerst): Torschüsse 9:17 (aufs Tor 4:6), Ballbesitz 47:53 %, Expected Goals 1,55:1,90, Ecken 5:8.",
-    "Beste Noten Union Berlin: Böhi 7,9, Hausicke 7,0, Tysiak 6,8.",
-    "Beste Noten TSG Hoffenheim: Natter 8,1, Velde 6,9, Doorn 6,9.",
-    "Schwächste Note in der Startelf: Reissner (5,7)."
-   ],
-   "kickbase": "Herausragend: Natter (8,1), Böhi (7,9).",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306286/1-fc-union-berlin_tsg-hoffenheim/liveticker"
-    },
-    {
-     "name": "API-Football (Noten, Statistik)",
-     "url": "https://www.api-football.com"
-    }
-   ],
-   "quelle_live": true,
-   "partie_id": "12306286",
-   "noten": true
-  },
-  {
-   "id": "freigang-sperre-0811",
-   "pid": "00077",
-   "zeit": "2026-11-08T15:24",
-   "spielerin": "Laura Freigang",
-   "verein": "Eintracht Frankfurt",
-   "nr": "",
-   "pos": "ST",
-   "tags": [
-    "SPERRE"
-   ],
-   "headline": "Freigang: keine Einigung, bis zu zwei Jahre Sperre drohen",
-   "kurz": "Freigang: Sperre von bis zu zwei Jahren droht",
-   "text": [
-    "Laut BILD gab es keine außergerichtliche Einigung zur drohenden Sperre von Laura Freigang wegen dreimaligen Fehlens bei Dopingkontrollen. Es drohen weiterhin bis zu zwei Jahre Sperre, ein Urteil wird in dem Bericht nicht genannt.",
-    "Beim 1:3 gegen Wolfsburg kamen ihr bei der Auswechslung die Tränen. Trainer Niko Arnautis sagte laut BILD, man kenne ihre Situation und sie gehe gut damit um."
-   ],
-   "kickbase": "Bis zum Urteil normal einplanen: Eine Sperre ist nicht verhängt, wann und ob sie kommt, ist offen. Das Risiko eines längeren Ausfalls bleibt, der Stand stammt nur aus einer Quelle (BILD).",
-   "quellen": [
-    {
-     "name": "BILD",
-     "url": "https://www.bild.de/sport/fussball/frauenfussball-wieder-traenen-bei-frankfurt-star-freigang-6af082f7d487d5232edf0ee9"
-    }
-   ],
-   "foto": "fotos/sge-laura-freigang.webp",
-   "foto_credit": {
-    "autor": "Eintracht Frankfurt",
-    "lizenz": "mit Genehmigung: Eintracht Frankfurt",
-    "url": "https://frauen.eintracht.de/kader/"
-   },
-   "status": "fit"
-  },
-  {
-   "id": "aufstellung-m05-0811",
-   "zeit": "2026-11-08T14:54",
-   "spielerin": "Spielansetzung",
-   "verein": "Mainz 05",
-   "nr": "",
-   "pos": "Spielansetzung",
-   "tags": [
-    "TOP"
-   ],
-   "headline": "Offizielle Aufstellung: Mainz 05 gegen VfB Stuttgart",
-   "text": [],
-   "kickbase": "",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306268/1-fsv-mainz-05_vfb-stuttgart/aufstellung"
-    }
-   ],
-   "aufstellung": {
-    "gegner": "VfB Stuttgart",
-    "formation": "4-2-3-1",
-    "startelf": [
-     {
-      "n": "Schön",
-      "p": "TW",
-      "pid": "00270"
-     },
-     {
-      "n": "Bathmann",
-      "p": "ABW",
-      "pid": "00278"
-     },
-     {
-      "n": "Hashitani",
-      "p": "ABW",
-      "pid": "00275",
-      "f": "neu"
-     },
-     {
-      "n": "Berg",
-      "p": "ABW",
-      "pid": "00279"
-     },
-     {
-      "n": "Pageler",
-      "p": "ABW",
-      "pid": "00293"
-     },
-     {
-      "n": "Martin",
-      "p": "DM",
-      "pid": "00286",
-      "kp": "MF",
-      "f": "neu"
-     },
-     {
-      "n": "Imai",
-      "p": "DM",
-      "pid": "00282",
-      "kp": "MF"
-     },
-     {
-      "n": "Kats",
-      "p": "OM",
-      "pid": "00292",
-      "kp": "ST"
-     },
-     {
-      "n": "Fetaj",
-      "p": "OM",
-      "pid": "00281",
-      "kp": "MF"
-     },
-     {
-      "n": "Junold",
-      "p": "OM",
-      "pid": "00284",
-      "kp": "MF",
-      "f": "neu"
-     },
-     {
-      "n": "Anstatt",
-      "p": "ST",
-      "pid": "00291"
-     }
-    ],
-    "bank": [
-     {
-      "n": "Pawlowski",
-      "p": "TW",
-      "pid": "00269"
-     },
-     {
-      "n": "Georgieva",
-      "p": "ABW",
-      "pid": "00274",
-      "f": "raus"
-     },
-     {
-      "n": "Flach",
-      "p": "ABW",
-      "pid": "00273"
-     },
-     {
-      "n": "Bouziane",
-      "p": "ST",
-      "pid": "00280"
-     },
-     {
-      "n": "Takizawa",
-      "p": "MF",
-      "pid": "00289"
-     },
-     {
-      "n": "Kurishima",
-      "p": "MF",
-      "pid": "00285",
-      "f": "raus"
-     },
-     {
-      "n": "Jackson",
-      "p": "ABW",
-      "pid": "00283",
-      "f": "neu"
-     },
-     {
-      "n": "Stöhr",
-      "p": "ST",
-      "pid": "00294",
-      "f": "raus"
-     },
-     {
-      "n": "Strickler",
-      "p": "ST",
-      "pid": "00295"
-     }
-    ],
-    "fehlt": [
-     {
-      "n": "Gonzalez",
-      "p": "TW"
-     },
-     {
-      "n": "Matsumoto",
-      "p": "TW"
-     },
-     {
-      "n": "Bukowski",
-      "p": "ABW"
-     },
-     {
-      "n": "Donner",
-      "p": "ABW"
-     },
-     {
-      "n": "Hauk",
-      "p": "ABW"
-     },
-     {
-      "n": "Kilian",
-      "p": "ABW"
-     },
-     {
-      "n": "Matheis",
-      "p": "ABW"
-     },
-     {
-      "n": "Slipčević",
-      "p": "MF"
-     },
-     {
-      "n": "Voth",
-      "p": "MF"
-     }
-    ]
-   },
-   "quelle_live": true
-  },
-  {
-   "id": "aufstellung-vfb-0811",
-   "zeit": "2026-11-08T14:54",
-   "spielerin": "Spielansetzung",
-   "verein": "VfB Stuttgart",
-   "nr": "",
-   "pos": "Spielansetzung",
-   "tags": [
-    "TOP"
-   ],
-   "headline": "Offizielle Aufstellung: VfB Stuttgart gegen Mainz 05",
-   "text": [],
-   "kickbase": "",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306268/1-fsv-mainz-05_vfb-stuttgart/aufstellung"
-    }
-   ],
-   "aufstellung": {
-    "gegner": "Mainz 05",
-    "formation": "3-3-2-2",
-    "startelf": [
-     {
-      "n": "Giuliani",
-      "p": "TW",
-      "pid": "00329"
-     },
-     {
-      "n": "Stegemann",
-      "p": "ABW",
-      "pid": "00339"
-     },
-     {
-      "n": "Zähringer",
-      "p": "ABW",
-      "pid": "00340"
-     },
-     {
-      "n": "Hechler",
-      "p": "ABW",
-      "pid": "00333"
-     },
-     {
-      "n": "Rall",
-      "p": "DM",
-      "pid": "00337",
-      "kp": "MF",
-      "f": "neu"
-     },
-     {
-      "n": "Achcińska",
-      "p": "DM",
-      "pid": "00341",
-      "kp": "MF"
-     },
-     {
-      "n": "Norman",
-      "p": "DM",
-      "pid": "00336",
-      "kp": "ABW",
-      "f": "neu"
-     },
-     {
-      "n": "Hirano",
-      "p": "OM",
-      "pid": "00345",
-      "kp": "MF",
-      "f": "neu"
-     },
-     {
-      "n": "Wieder",
-      "p": "OM",
-      "pid": "00356",
-      "kp": "ST"
-     },
-     {
-      "n": "Billa",
-      "p": "ST",
-      "pid": "00351"
-     },
-     {
-      "n": "Rückert",
-      "p": "ST",
-      "pid": "00354",
-      "f": "neu"
-     }
-    ],
-    "bank": [
-     {
-      "n": "Beck",
-      "p": "TW",
-      "pid": "00327"
-     },
-     {
-      "n": "Dürr",
-      "p": "ABW",
-      "pid": "00332",
-      "f": "neu"
-     },
-     {
-      "n": "F. Dongus",
-      "p": "ABW",
-      "pid": ""
-     },
-     {
-      "n": "Hagel",
-      "p": "MF",
-      "pid": "00343",
-      "f": "raus"
-     },
-     {
-      "n": "Müller",
-      "p": "MF",
-      "pid": "00346",
-      "f": "raus"
-     },
-     {
-      "n": "Schetter",
-      "p": "ST",
-      "pid": "00355",
-      "f": "raus"
-     },
-     {
-      "n": "Beuschlein",
-      "p": "ST",
-      "pid": "00350"
-     },
-     {
-      "n": "Arouna",
-      "p": "ST",
-      "pid": "00349",
-      "f": "neu"
-     }
-    ],
-    "fehlt": [
-     {
-      "n": "Hecke",
-      "p": "MF",
-      "f": "raus",
-      "war": "Bank"
-     },
-     {
-      "n": "Osawa",
-      "p": "ST",
-      "f": "raus",
-      "war": "Bank"
-     },
-     {
-      "n": "Redzepi",
-      "p": "MF",
-      "f": "raus",
-      "i": "gesperrt",
-      "war": "Startelf"
-     },
-     {
-      "n": "T. Dongus",
-      "p": "ABW",
-      "f": "raus",
-      "war": "Bank"
-     },
-     {
-      "n": "Böttcher",
-      "p": "TW"
-     },
-     {
-      "n": "Carollo",
-      "p": "ABW"
-     },
-     {
-      "n": "Hofmann",
-      "p": "ABW"
-     },
-     {
-      "n": "Mickenhagen",
-      "p": "ABW",
-      "i": "verletzt"
-     },
-     {
-      "n": "Schäfer",
-      "p": "ABW"
-     },
-     {
-      "n": "Wichmann",
-      "p": "MF",
-      "i": "mehrere Monate"
-     },
-     {
-      "n": "Glaser",
-      "p": "ST"
-     }
-    ]
-   },
-   "quelle_live": true
-  },
-  {
-   "id": "fehlt-martret-tsg-0811",
-   "pid": "00142",
-   "zeit": "2026-11-08T13:01",
-   "spielerin": "Laia Martret",
-   "verein": "TSG Hoffenheim",
-   "nr": "",
-   "pos": "ST",
-   "tags": [
-    "STANDARD",
-    "AUFSTELLUNG"
-   ],
-   "status": "fraglich",
-   "headline": "Martret nicht im Kader gegen Union Berlin: Ecken bei Hoffenheim offen",
-   "text": [
-    "Laia Martret steht in der Liga gegen Union Berlin weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
-    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen.",
-    "Eine Nachfolgerin ist in der Hierarchie nicht hinterlegt, es ist offen, wer die Ecken schießt. Freistöße (Steiner) bleiben bei der bisherigen Schützin, sie steht in der Startelf."
-   ],
-   "kickbase": "Wer in Berlin Ecken tritt, ist offen. Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306286/1-fc-union-berlin_tsg-hoffenheim/aufstellung"
-    }
-   ],
-   "quelle_live": true,
-   "foto": "fotos/tsg-laia-martret.webp",
-   "foto_credit": {
-    "autor": "WOSOINSIDER",
-    "lizenz": "Platzhalter (kein Vereinsfoto)",
-    "url": "https://www.tsg-hoffenheim.de/teams/frauen"
-   },
-   "zusammen": true
-  },
-  {
-   "id": "aufstellung-fcu-0811",
-   "zeit": "2026-11-08T13:01",
-   "spielerin": "Spielansetzung",
-   "verein": "Union Berlin",
-   "nr": "",
-   "pos": "Spielansetzung",
-   "tags": [
-    "TOP"
-   ],
-   "headline": "Offizielle Aufstellung: Union Berlin gegen TSG Hoffenheim",
-   "text": [
-    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Weidauer."
-   ],
-   "kickbase": "",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306286/1-fc-union-berlin_tsg-hoffenheim/aufstellung"
-    }
-   ],
-   "aufstellung": {
-    "gegner": "TSG Hoffenheim",
-    "formation": "4-2-3-1",
-    "startelf": [
-     {
-      "n": "Böhi",
-      "p": "TW",
-      "pid": "00357"
-     },
-     {
-      "n": "Schneider",
-      "p": "ABW",
-      "pid": "00366"
-     },
-     {
-      "n": "Tysiak",
-      "p": "ABW",
-      "pid": "00369"
-     },
-     {
-      "n": "Steuerwald",
-      "p": "ABW",
-      "pid": "00368"
-     },
-     {
-      "n": "Judit Pujols",
-      "p": "ABW",
-      "pid": "00364"
-     },
-     {
-      "n": "Gräwe",
-      "p": "DM",
-      "pid": "00372",
-      "kp": "MF",
-      "f": "neu"
-     },
-     {
-      "n": "Hausicke",
-      "p": "DM",
-      "pid": "00373",
-      "kp": "MF"
-     },
-     {
-      "n": "Janssens",
-      "p": "OM",
-      "pid": "00363",
-      "kp": "ABW"
-     },
-     {
-      "n": "Kamber",
-      "p": "OM",
-      "pid": "00376",
-      "kp": "MF"
-     },
-     {
-      "n": "Reissner",
-      "p": "OM",
-      "pid": "00386",
-      "kp": "ST"
-     },
-     {
-      "n": "Bauereisen",
-      "p": "ST",
-      "pid": "00381"
-     }
-    ],
-    "bank": [
-     {
-      "n": "Bösl",
-      "p": "TW",
-      "pid": "00358"
-     },
-     {
-      "n": "Veit",
-      "p": "ABW",
-      "pid": "00370"
-     },
-     {
-      "n": "Steinert",
-      "p": "ABW",
-      "pid": "00367"
-     },
-     {
-      "n": "Weiß",
-      "p": "ABW",
-      "pid": "00371"
-     },
-     {
-      "n": "Heiseler",
-      "p": "ST",
-      "pid": "00374"
-     },
-     {
-      "n": "Weidauer",
-      "p": "ST",
-      "pid": "00387",
-      "f": "raus"
-     },
-     {
-      "n": "Egli",
-      "p": "ST",
-      "pid": "00383"
-     },
-     {
-      "n": "Campbell",
-      "p": "ST",
-      "pid": "00382"
-     },
-     {
-      "n": "Orschmann",
-      "p": "ST",
-      "pid": "00385"
-     }
-    ],
-    "fehlt": [
-     {
-      "n": "Schulz",
-      "p": "TW",
-      "pid": "00359",
-      "f": "raus",
-      "war": "Bank"
-     },
-     {
-      "n": "Pawollek",
-      "p": "MF",
-      "pid": "00378",
-      "f": "raus",
-      "war": "Bank"
-     }
-    ]
-   },
-   "quelle_live": true
-  },
-  {
-   "id": "aufstellung-tsg-0811",
-   "zeit": "2026-11-08T13:01",
-   "spielerin": "Spielansetzung",
-   "verein": "TSG Hoffenheim",
-   "nr": "",
-   "pos": "Spielansetzung",
-   "tags": [
-    "TOP"
-   ],
-   "headline": "Offizielle Aufstellung: TSG Hoffenheim gegen Union Berlin",
-   "text": [
-    "Nicht mehr in der Startelf gegenüber dem letzten Ligaspiel: Laia Martret, Vöhringer.",
-    "Nicht im Spieltagskader (laut Sportschau), obwohl im letzten Ligaspiel dabei: Laia Martret. Einen Grund nennt bisher keine Quelle."
-   ],
-   "kickbase": "",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306286/1-fc-union-berlin_tsg-hoffenheim/aufstellung"
-    }
-   ],
-   "aufstellung": {
-    "gegner": "Union Berlin",
-    "formation": "4-1-2-3",
-    "startelf": [
-     {
-      "n": "Dick",
-      "p": "TW",
-      "pid": "00119"
-     },
-     {
-      "n": "Gloning",
-      "p": "ABW",
-      "pid": "00131"
-     },
-     {
-      "n": "van de Velde",
-      "p": "ABW",
-      "pid": "00127"
-     },
-     {
-      "n": "Doorn",
-      "p": "ABW",
-      "pid": "00123"
-     },
-     {
-      "n": "Kaut",
-      "p": "ABW",
-      "pid": "00125",
-      "f": "neu"
-     },
-     {
-      "n": "Diehm",
-      "p": "DM",
-      "pid": "00122",
-      "kp": "MF"
-     },
-     {
-      "n": "Grimm",
-      "p": "OM",
-      "pid": "00132",
-      "kp": "MF"
-     },
-     {
-      "n": "Steiner",
-      "p": "OM",
-      "pid": "00145",
-      "kp": "MF"
-     },
-     {
-      "n": "Natter",
-      "p": "ST",
-      "pid": "00144",
-      "f": "neu"
-     },
-     {
-      "n": "Fölmli",
-      "p": "ST",
-      "pid": "00141"
-     },
-     {
-      "n": "Hahn",
-      "p": "ST",
-      "pid": "00133",
-      "kp": "MF"
-     }
-    ],
-    "bank": [
-     {
-      "n": "Lichtfus",
-      "p": "TW",
-      "pid": "00120"
-     },
-     {
-      "n": "Bitzer",
-      "p": "ABW",
-      "pid": "00121"
-     },
-     {
-      "n": "Douma",
-      "p": "ABW",
-      "pid": "00124"
-     },
-     {
-      "n": "Ampoorter",
-      "p": "MF",
-      "pid": "00129"
-     },
-     {
-      "n": "Harsch",
-      "p": "MF",
-      "pid": "00134"
-     },
-     {
-      "n": "Vöhringer",
-      "p": "ABW",
-      "pid": "00139",
-      "f": "raus"
-     },
-     {
-      "n": "Fenger",
-      "p": "ST",
-      "pid": "00140"
-     },
-     {
-      "n": "Lueger",
-      "p": "ST",
-      "pid": "00143"
-     }
-    ],
-    "fehlt": [
-     {
-      "n": "Laia Martret",
-      "p": "ST",
-      "pid": "00142",
-      "f": "raus",
-      "war": "Startelf"
-     },
-     {
-      "n": "Thomann",
-      "p": "MF",
-      "pid": "00138",
-      "f": "raus",
-      "war": "Bank"
-     },
-     {
-      "n": "Röder",
-      "p": "MF",
-      "pid": "00137",
-      "f": "raus",
-      "war": "Bank"
-     }
-    ]
-   },
-   "quelle_live": true
   }
  ]
 }
