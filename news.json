@@ -1,6 +1,38 @@
 {
- "stand": "2026-11-24T13:45",
+ "stand": "2026-11-24T15:45",
  "meldungen": [
+  {
+   "id": "redzepi-2411",
+   "pid": "00347",
+   "zeit": "2026-11-24T13:51",
+   "spielerin": "Dafina Redzepi",
+   "verein": "VfB Stuttgart",
+   "nr": "",
+   "pos": "MF",
+   "tags": [
+    "VERLETZUNG"
+   ],
+   "status": "verletzt",
+   "headline": "Redzepi fällt mit Nasenbeinbruch aus",
+   "kurz": "Redzepi fällt mit Nasenbeinbruch aus",
+   "text": [
+    "Dafina Redzepi hat sich beim 0:2 in Freiburg eine leichte Gehirnerschütterung und einen Nasenbeinbruch zugezogen. In der 76. Minute wurde sie für Muriel Dürr ausgewechselt.",
+    "Die 21-Jährige wird operiert und fehlt laut VfB voraussichtlich ein bis zwei Wochen. Ihre Reise zur deutschen U23 sagt sie ab. Auch Tamar Dongus hatte sich im Training an der Nase verletzt, sie soll nächste Woche wieder trainieren und mit Schutzmaske spielen."
+   ],
+   "kickbase": "Das nächste Ligaspiel ist erst am 13. Dezember gegen RB Leipzig. Nach ein bis zwei Wochen sollte Redzepi dann wieder eine Option sein, sie führt beim VfB die Ecken an.",
+   "quellen": [
+    {
+     "name": "VfB Stuttgart",
+     "url": "https://www.vfb.de/de/vfb/aktuell/neues/vfb-frauen/26-27/dafina-redzepi-faellt-aus/"
+    }
+   ],
+   "foto": "fotos/vfb-dafina-redzepi.webp",
+   "foto_credit": {
+    "autor": "VfB Stuttgart",
+    "lizenz": "mit Genehmigung: VfB Stuttgart",
+    "url": "https://www.vfb.de/de/1893/frauen/frauen/kader/saisonen/2026-2027/kader/?data=&mobile="
+   }
+  },
   {
    "id": "freigang-infekt-2411",
    "pid": "00077",
@@ -1153,13 +1185,18 @@
    "kurz": "Berger wechselt im Januar zu Union",
    "text": [
     "Torhüterin Ann-Katrin Berger schließt sich ab Januar 2027 dem 1. FC Union Berlin an. Die 36-Jährige kommt von Gotham FC aus der amerikanischen NWSL zurück in die Bundesliga.",
-    "Berger ist Stammtorhüterin der deutschen Nationalmannschaft und wurde zuletzt zur besten Torhüterin der NWSL gewählt."
+    "Berger ist Stammtorhüterin der deutschen Nationalmannschaft und wurde zuletzt zur besten Torhüterin der NWSL gewählt.",
+    "Update 15:45: Laut 90min.de, die sich auf Bild und Sport Bild berufen, will Union im Winter auch Nationalspielerin Lea Schüller verpflichten. Das ist unbestätigt."
    ],
    "kickbase": "Berger ist erst ab Januar spielberechtigt und bis dahin kein Thema für die Aufstellung. Danach kann sie im Union-Tor zur Option werden, sobald sie im Kader steht.",
    "quellen": [
     {
      "name": "1. FC Union Berlin",
      "url": "https://www.fc-union-berlin.de/de/meldungen/ann-katrin-berger-wird-unionerin-W100j0"
+    },
+    {
+     "name": "90min.de",
+     "url": "https://www.90min.de/nach-berger-coup-union-berlin-baggert-an-nachster-nationalspielerin"
     }
    ]
   },
