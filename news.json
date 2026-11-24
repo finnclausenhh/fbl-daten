@@ -1,104 +1,6 @@
 {
- "stand": "2026-11-24T15:45",
+ "stand": "2026-11-24T17:45",
  "meldungen": [
-  {
-   "id": "redzepi-2411",
-   "pid": "00347",
-   "zeit": "2026-11-24T13:51",
-   "spielerin": "Dafina Redzepi",
-   "verein": "VfB Stuttgart",
-   "nr": "",
-   "pos": "MF",
-   "tags": [
-    "VERLETZUNG"
-   ],
-   "status": "verletzt",
-   "headline": "Redzepi fällt mit Nasenbeinbruch aus",
-   "kurz": "Redzepi fällt mit Nasenbeinbruch aus",
-   "text": [
-    "Dafina Redzepi hat sich beim 0:2 in Freiburg eine leichte Gehirnerschütterung und einen Nasenbeinbruch zugezogen. In der 76. Minute wurde sie für Muriel Dürr ausgewechselt.",
-    "Die 21-Jährige wird operiert und fehlt laut VfB voraussichtlich ein bis zwei Wochen. Ihre Reise zur deutschen U23 sagt sie ab. Auch Tamar Dongus hatte sich im Training an der Nase verletzt, sie soll nächste Woche wieder trainieren und mit Schutzmaske spielen."
-   ],
-   "kickbase": "Das nächste Ligaspiel ist erst am 13. Dezember gegen RB Leipzig. Nach ein bis zwei Wochen sollte Redzepi dann wieder eine Option sein, sie führt beim VfB die Ecken an.",
-   "quellen": [
-    {
-     "name": "VfB Stuttgart",
-     "url": "https://www.vfb.de/de/vfb/aktuell/neues/vfb-frauen/26-27/dafina-redzepi-faellt-aus/"
-    }
-   ],
-   "foto": "fotos/vfb-dafina-redzepi.webp",
-   "foto_credit": {
-    "autor": "VfB Stuttgart",
-    "lizenz": "mit Genehmigung: VfB Stuttgart",
-    "url": "https://www.vfb.de/de/1893/frauen/frauen/kader/saisonen/2026-2027/kader/?data=&mobile="
-   }
-  },
-  {
-   "id": "freigang-infekt-2411",
-   "pid": "00077",
-   "zeit": "2026-11-24T13:33",
-   "spielerin": "Laura Freigang",
-   "verein": "Eintracht Frankfurt",
-   "nr": "",
-   "pos": "ST",
-   "tags": [
-    "ABWESEND",
-    "NATIONALTEAM"
-   ],
-   "status": "abwesend",
-   "headline": "Freigang fehlt der DFB-Elf wegen Infekt",
-   "kurz": "Freigang sagt DFB-Reise mit Infekt ab",
-   "text": [
-    "Laura Freigang reist nicht mit der Nationalmannschaft nach Südamerika. Grund ist laut DFB ein grippaler Infekt. Für sie rückt Shekiera Martinez von Tottenham Hotspur nach.",
-    "Es ist die dritte Absage vor den Länderspielen gegen Argentinien und Peru. Das Verfahren wegen verpasster Dopingkontrollen ist weiter offen."
-   ],
-   "kickbase": "Der Infekt kostet Freigang die Länderspiele, nicht ein Bundesligaspiel. Das nächste Ligaspiel folgt erst nach der Pause, bis dahin bleibt Zeit zur Genesung.",
-   "quellen": [
-    {
-     "name": "SPORT1",
-     "url": "https://www.sport1.de/news/fussball/dfb-frauen/2026/11/dritter-ausfall-auch-freigang-fehlt-den-dfb-frauen"
-    }
-   ],
-   "foto": "fotos/sge-laura-freigang.webp",
-   "foto_credit": {
-    "autor": "Eintracht Frankfurt",
-    "lizenz": "mit Genehmigung: Eintracht Frankfurt",
-    "url": "https://frauen.eintracht.de/kader/"
-   }
-  },
-  {
-   "id": "kleinherne-2411",
-   "pid": "00395",
-   "zeit": "2026-11-24T12:17",
-   "spielerin": "Sophia Kleinherne",
-   "verein": "VfL Wolfsburg",
-   "nr": "",
-   "pos": "ABW",
-   "tags": [
-    "VERLETZUNG",
-    "NATIONALTEAM"
-   ],
-   "status": "fraglich",
-   "headline": "Kleinherne sagt DFB-Reise mit Muskelproblemen ab",
-   "kurz": "Kleinherne fällt für DFB-Reise aus",
-   "text": [
-    "Sophia Kleinherne fällt für die Südamerika-Reise der deutschen Nationalmannschaft aus. Laut DFB hat die Wolfsburgerin muskuläre Probleme. Für sie rückt Alara Sehitler vom FC Bayern nach.",
-    "Wie schwer die Verletzung ist und wie lange sie dauert, wurde nicht genannt. Gespielt wird am 30. November gegen Argentinien und am 4. Dezember gegen Peru."
-   ],
-   "kickbase": "Die Länderspiele sind ohnehin Pause für die Liga. Ob Kleinherne zum nächsten Bundesligaspiel fit ist, ist offen, bis zu einer Klärung als fraglich führen.",
-   "quellen": [
-    {
-     "name": "Rhein-Neckar-Zeitung (dpa)",
-     "url": "https://www.rnz.de/sport/fussball_artikel,-Deutsche-Fussballerinnen-Wueck-muss-umplanen-Sehitler-rueckt-fuer-Kleinherne-nach-_arid,2493112.html"
-    }
-   ],
-   "foto": "fotos/wob-sophia-kleinherne.webp",
-   "foto_credit": {
-    "autor": "VfL Wolfsburg",
-    "lizenz": "mit Genehmigung: VfL Wolfsburg",
-    "url": "https://www.vfl-wolfsburg.de/teams/frauen/kader-2026/2027"
-   }
-  },
   {
    "id": "fehlt-reimann-scf-0111",
    "pid": "00085",
@@ -313,6 +215,109 @@
     }
    ],
    "quelle_live": true
+  },
+  {
+   "id": "redzepi-2411",
+   "pid": "00347",
+   "zeit": "2026-11-24T13:51",
+   "spielerin": "Dafina Redzepi",
+   "verein": "VfB Stuttgart",
+   "nr": "",
+   "pos": "MF",
+   "tags": [
+    "VERLETZUNG"
+   ],
+   "status": "verletzt",
+   "headline": "Redzepi fällt mit Nasenbeinbruch aus",
+   "kurz": "Redzepi fällt mit Nasenbeinbruch aus",
+   "text": [
+    "Dafina Redzepi hat sich beim 0:2 in Freiburg eine leichte Gehirnerschütterung und einen Nasenbeinbruch zugezogen. In der 76. Minute wurde sie für Muriel Dürr ausgewechselt.",
+    "Die 21-Jährige wird operiert und fehlt laut VfB voraussichtlich ein bis zwei Wochen. Ihre Reise zur deutschen U23 sagt sie ab. Auch Tamar Dongus hatte sich im Training an der Nase verletzt, sie soll nächste Woche wieder trainieren und mit Schutzmaske spielen.",
+    "Update 16:21: Auch das Wochenblatt Reporter berichtet darüber."
+   ],
+   "kickbase": "Das nächste Ligaspiel ist erst am 13. Dezember gegen RB Leipzig. Nach ein bis zwei Wochen sollte Redzepi dann wieder eine Option sein, sie führt beim VfB die Ecken an.",
+   "quellen": [
+    {
+     "name": "VfB Stuttgart",
+     "url": "https://www.vfb.de/de/vfb/aktuell/neues/vfb-frauen/26-27/dafina-redzepi-faellt-aus/"
+    },
+    {
+     "name": "Wochenblatt Reporter",
+     "url": "https://www.wochenblatt-reporter.de/c-sport/vfb-stuttgart-muss-auf-dafina-redzepi-verzichten_a951434"
+    }
+   ],
+   "foto": "fotos/vfb-dafina-redzepi.webp",
+   "foto_credit": {
+    "autor": "VfB Stuttgart",
+    "lizenz": "mit Genehmigung: VfB Stuttgart",
+    "url": "https://www.vfb.de/de/1893/frauen/frauen/kader/saisonen/2026-2027/kader/?data=&mobile="
+   }
+  },
+  {
+   "id": "freigang-infekt-2411",
+   "pid": "00077",
+   "zeit": "2026-11-24T13:33",
+   "spielerin": "Laura Freigang",
+   "verein": "Eintracht Frankfurt",
+   "nr": "",
+   "pos": "ST",
+   "tags": [
+    "ABWESEND",
+    "NATIONALTEAM"
+   ],
+   "status": "abwesend",
+   "headline": "Freigang fehlt der DFB-Elf wegen Infekt",
+   "kurz": "Freigang sagt DFB-Reise mit Infekt ab",
+   "text": [
+    "Laura Freigang reist nicht mit der Nationalmannschaft nach Südamerika. Grund ist laut DFB ein grippaler Infekt. Für sie rückt Shekiera Martinez von Tottenham Hotspur nach.",
+    "Es ist die dritte Absage vor den Länderspielen gegen Argentinien und Peru. Das Verfahren wegen verpasster Dopingkontrollen ist weiter offen."
+   ],
+   "kickbase": "Der Infekt kostet Freigang die Länderspiele, nicht ein Bundesligaspiel. Das nächste Ligaspiel folgt erst nach der Pause, bis dahin bleibt Zeit zur Genesung.",
+   "quellen": [
+    {
+     "name": "SPORT1",
+     "url": "https://www.sport1.de/news/fussball/dfb-frauen/2026/11/dritter-ausfall-auch-freigang-fehlt-den-dfb-frauen"
+    }
+   ],
+   "foto": "fotos/sge-laura-freigang.webp",
+   "foto_credit": {
+    "autor": "Eintracht Frankfurt",
+    "lizenz": "mit Genehmigung: Eintracht Frankfurt",
+    "url": "https://frauen.eintracht.de/kader/"
+   }
+  },
+  {
+   "id": "kleinherne-2411",
+   "pid": "00395",
+   "zeit": "2026-11-24T12:17",
+   "spielerin": "Sophia Kleinherne",
+   "verein": "VfL Wolfsburg",
+   "nr": "",
+   "pos": "ABW",
+   "tags": [
+    "VERLETZUNG",
+    "NATIONALTEAM"
+   ],
+   "status": "fraglich",
+   "headline": "Kleinherne sagt DFB-Reise mit Muskelproblemen ab",
+   "kurz": "Kleinherne fällt für DFB-Reise aus",
+   "text": [
+    "Sophia Kleinherne fällt für die Südamerika-Reise der deutschen Nationalmannschaft aus. Laut DFB hat die Wolfsburgerin muskuläre Probleme. Für sie rückt Alara Sehitler vom FC Bayern nach.",
+    "Wie schwer die Verletzung ist und wie lange sie dauert, wurde nicht genannt. Gespielt wird am 30. November gegen Argentinien und am 4. Dezember gegen Peru."
+   ],
+   "kickbase": "Die Länderspiele sind ohnehin Pause für die Liga. Ob Kleinherne zum nächsten Bundesligaspiel fit ist, ist offen, bis zu einer Klärung als fraglich führen.",
+   "quellen": [
+    {
+     "name": "Rhein-Neckar-Zeitung (dpa)",
+     "url": "https://www.rnz.de/sport/fussball_artikel,-Deutsche-Fussballerinnen-Wueck-muss-umplanen-Sehitler-rueckt-fuer-Kleinherne-nach-_arid,2493112.html"
+    }
+   ],
+   "foto": "fotos/wob-sophia-kleinherne.webp",
+   "foto_credit": {
+    "autor": "VfL Wolfsburg",
+    "lizenz": "mit Genehmigung: VfL Wolfsburg",
+    "url": "https://www.vfl-wolfsburg.de/teams/frauen/kader-2026/2027"
+   }
   },
   {
    "id": "altenburg-2411",
