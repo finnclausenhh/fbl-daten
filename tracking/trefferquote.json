@@ -1,98 +1,98 @@
 {
  "modus": "live",
- "stand": "2026-11-23T07:57",
+ "stand": "2026-11-24T07:43",
  "hinweis": "Letzte veröffentlichte Prognose vor Anpfiff gegen offizielle Startelf. Quelle: Git-Historie von spielplan.json.",
  "gesamt": {
-  "teams": 42,
-  "elf_treffer_schnitt": 9.17,
-  "elf_quote": 0.833,
+  "teams": 44,
+  "elf_treffer_schnitt": 9.07,
+  "elf_quote": 0.824,
   "elf_verteilung": {
    "11": 5,
    "10": 17,
    "9": 6,
-   "8": 9,
+   "8": 10,
    "7": 4,
-   "6": 1
+   "6": 2
   },
   "je_stufe": {
    "sicher": {
-    "n": 216,
-    "begonnen": 207,
-    "quote": 0.958
+    "n": 224,
+    "begonnen": 213,
+    "quote": 0.951
    },
    "erwartet": {
-    "n": 225,
-    "begonnen": 167,
-    "quote": 0.742
+    "n": 239,
+    "begonnen": 175,
+    "quote": 0.732
    },
    "unsicher": {
-    "n": 254,
-    "begonnen": 76,
-    "quote": 0.299
+    "n": 266,
+    "begonnen": 83,
+    "quote": 0.312
    },
    "unwahrscheinlich": {
-    "n": 145,
-    "begonnen": 8,
-    "quote": 0.055
+    "n": 151,
+    "begonnen": 9,
+    "quote": 0.06
    },
    "ausgeschlossen": {
-    "n": 143,
+    "n": 147,
     "begonnen": 3,
-    "quote": 0.021
+    "quote": 0.02
    }
   },
   "kalibrierung": [
    {
     "ab_einsatzwert": 1.0,
-    "n": 201,
-    "begonnen": 192,
-    "quote": 0.955
+    "n": 209,
+    "begonnen": 198,
+    "quote": 0.947
    },
    {
     "ab_einsatzwert": 0.95,
-    "n": 225,
-    "begonnen": 214,
-    "quote": 0.951
+    "n": 233,
+    "begonnen": 220,
+    "quote": 0.944
    },
    {
     "ab_einsatzwert": 0.9,
-    "n": 272,
-    "begonnen": 251,
-    "quote": 0.923
+    "n": 281,
+    "begonnen": 258,
+    "quote": 0.918
    },
    {
     "ab_einsatzwert": 0.85,
-    "n": 316,
-    "begonnen": 287,
-    "quote": 0.908
+    "n": 327,
+    "begonnen": 296,
+    "quote": 0.905
    },
    {
     "ab_einsatzwert": 0.8,
-    "n": 345,
-    "begonnen": 304,
-    "quote": 0.881
+    "n": 358,
+    "begonnen": 314,
+    "quote": 0.877
    },
    {
     "ab_einsatzwert": 0.7,
-    "n": 410,
-    "begonnen": 348,
-    "quote": 0.849
+    "n": 430,
+    "begonnen": 362,
+    "quote": 0.842
    },
    {
     "ab_einsatzwert": 0.55,
-    "n": 499,
-    "begonnen": 393,
-    "quote": 0.788
+    "n": 524,
+    "begonnen": 410,
+    "quote": 0.782
    },
    {
     "ab_einsatzwert": 0.3,
-    "n": 645,
-    "begonnen": 443,
-    "quote": 0.687
+    "n": 678,
+    "begonnen": 464,
+    "quote": 0.684
    }
   ],
   "sicher_daneben_grund": {
-   "bank": 5,
+   "bank": 7,
    "nicht im Kader": 4
   },
   "sicher_aber_nicht_begonnen": [
@@ -158,44 +158,58 @@
     "n": "Fetaj",
     "stufe": "sicher",
     "kader": "bank"
+   },
+   {
+    "md": 11,
+    "verein": "FC Bayern",
+    "n": "Harder",
+    "stufe": "sicher",
+    "kader": "bank"
+   },
+   {
+    "md": 11,
+    "verein": "TSG Hoffenheim",
+    "n": "Grimm",
+    "stufe": "sicher",
+    "kader": "bank"
    }
   ]
  },
  "gesamt_24h": {
-  "teams": 42,
-  "elf_treffer_schnitt": 9.1,
-  "elf_quote": 0.827,
+  "teams": 44,
+  "elf_treffer_schnitt": 9.0,
+  "elf_quote": 0.818,
   "elf_verteilung": {
    "11": 5,
    "10": 17,
    "9": 6,
-   "8": 8,
+   "8": 9,
    "7": 3,
-   "6": 3
+   "6": 4
   },
   "je_stufe": {
    "sicher": {
-    "n": 216,
-    "begonnen": 207,
-    "quote": 0.958
+    "n": 224,
+    "begonnen": 213,
+    "quote": 0.951
    },
    "erwartet": {
-    "n": 229,
-    "begonnen": 167,
-    "quote": 0.729
+    "n": 243,
+    "begonnen": 175,
+    "quote": 0.72
    },
    "unsicher": {
-    "n": 252,
-    "begonnen": 76,
-    "quote": 0.302
+    "n": 264,
+    "begonnen": 83,
+    "quote": 0.314
    },
    "unwahrscheinlich": {
-    "n": 143,
-    "begonnen": 10,
-    "quote": 0.07
+    "n": 149,
+    "begonnen": 11,
+    "quote": 0.074
    },
    "ausgeschlossen": {
-    "n": 140,
+    "n": 144,
     "begonnen": 1,
     "quote": 0.007
    }
@@ -203,55 +217,55 @@
   "kalibrierung": [
    {
     "ab_einsatzwert": 1.0,
-    "n": 202,
-    "begonnen": 192,
-    "quote": 0.95
+    "n": 210,
+    "begonnen": 198,
+    "quote": 0.943
    },
    {
     "ab_einsatzwert": 0.95,
-    "n": 226,
-    "begonnen": 214,
-    "quote": 0.947
+    "n": 234,
+    "begonnen": 220,
+    "quote": 0.94
    },
    {
     "ab_einsatzwert": 0.9,
-    "n": 273,
-    "begonnen": 251,
-    "quote": 0.919
+    "n": 282,
+    "begonnen": 258,
+    "quote": 0.915
    },
    {
     "ab_einsatzwert": 0.85,
-    "n": 317,
-    "begonnen": 287,
-    "quote": 0.905
+    "n": 328,
+    "begonnen": 296,
+    "quote": 0.902
    },
    {
     "ab_einsatzwert": 0.8,
-    "n": 346,
-    "begonnen": 304,
-    "quote": 0.879
+    "n": 359,
+    "begonnen": 314,
+    "quote": 0.875
    },
    {
     "ab_einsatzwert": 0.7,
-    "n": 411,
-    "begonnen": 348,
-    "quote": 0.847
+    "n": 431,
+    "begonnen": 362,
+    "quote": 0.84
    },
    {
     "ab_einsatzwert": 0.55,
-    "n": 501,
-    "begonnen": 394,
-    "quote": 0.786
+    "n": 526,
+    "begonnen": 411,
+    "quote": 0.781
    },
    {
     "ab_einsatzwert": 0.3,
-    "n": 647,
-    "begonnen": 444,
-    "quote": 0.686
+    "n": 680,
+    "begonnen": 465,
+    "quote": 0.684
    }
   ],
   "sicher_daneben_grund": {
-   "bank": 5,
+   "bank": 7,
    "nicht im Kader": 4
   },
   "sicher_aber_nicht_begonnen": [
@@ -315,6 +329,20 @@
     "md": 11,
     "verein": "Mainz 05",
     "n": "Fetaj",
+    "stufe": "sicher",
+    "kader": "bank"
+   },
+   {
+    "md": 11,
+    "verein": "FC Bayern",
+    "n": "Harder",
+    "stufe": "sicher",
+    "kader": "bank"
+   },
+   {
+    "md": 11,
+    "verein": "TSG Hoffenheim",
+    "n": "Grimm",
     "stufe": "sicher",
     "kader": "bank"
    }
@@ -411,96 +439,96 @@
   "sicher_aber_nicht_begonnen": []
  },
  "normale_woche": {
-  "teams": 41,
-  "elf_treffer_schnitt": 9.15,
-  "elf_quote": 0.831,
+  "teams": 43,
+  "elf_treffer_schnitt": 9.05,
+  "elf_quote": 0.822,
   "elf_verteilung": {
    "11": 5,
    "10": 16,
    "9": 6,
-   "8": 9,
+   "8": 10,
    "7": 4,
-   "6": 1
+   "6": 2
   },
   "je_stufe": {
    "sicher": {
-    "n": 216,
-    "begonnen": 207,
-    "quote": 0.958
+    "n": 224,
+    "begonnen": 213,
+    "quote": 0.951
    },
    "erwartet": {
-    "n": 214,
-    "begonnen": 157,
-    "quote": 0.734
+    "n": 228,
+    "begonnen": 165,
+    "quote": 0.724
    },
    "unsicher": {
-    "n": 249,
-    "begonnen": 75,
-    "quote": 0.301
+    "n": 261,
+    "begonnen": 82,
+    "quote": 0.314
    },
    "unwahrscheinlich": {
-    "n": 141,
-    "begonnen": 8,
-    "quote": 0.057
+    "n": 147,
+    "begonnen": 9,
+    "quote": 0.061
    },
    "ausgeschlossen": {
-    "n": 138,
+    "n": 142,
     "begonnen": 3,
-    "quote": 0.022
+    "quote": 0.021
    }
   },
   "kalibrierung": [
    {
     "ab_einsatzwert": 1.0,
-    "n": 196,
-    "begonnen": 187,
-    "quote": 0.954
+    "n": 204,
+    "begonnen": 193,
+    "quote": 0.946
    },
    {
     "ab_einsatzwert": 0.95,
-    "n": 219,
-    "begonnen": 208,
-    "quote": 0.95
+    "n": 227,
+    "begonnen": 214,
+    "quote": 0.943
    },
    {
     "ab_einsatzwert": 0.9,
-    "n": 266,
-    "begonnen": 245,
-    "quote": 0.921
+    "n": 275,
+    "begonnen": 252,
+    "quote": 0.916
    },
    {
     "ab_einsatzwert": 0.85,
-    "n": 310,
-    "begonnen": 281,
-    "quote": 0.906
+    "n": 321,
+    "begonnen": 290,
+    "quote": 0.903
    },
    {
     "ab_einsatzwert": 0.8,
-    "n": 339,
-    "begonnen": 298,
-    "quote": 0.879
+    "n": 352,
+    "begonnen": 308,
+    "quote": 0.875
    },
    {
     "ab_einsatzwert": 0.7,
-    "n": 401,
-    "begonnen": 341,
-    "quote": 0.85
+    "n": 421,
+    "begonnen": 355,
+    "quote": 0.843
    },
    {
     "ab_einsatzwert": 0.55,
-    "n": 485,
-    "begonnen": 382,
-    "quote": 0.788
+    "n": 510,
+    "begonnen": 399,
+    "quote": 0.782
    },
    {
     "ab_einsatzwert": 0.3,
-    "n": 629,
-    "begonnen": 432,
-    "quote": 0.687
+    "n": 662,
+    "begonnen": 453,
+    "quote": 0.684
    }
   ],
   "sicher_daneben_grund": {
-   "bank": 5,
+   "bank": 7,
    "nicht im Kader": 4
   },
   "sicher_aber_nicht_begonnen": [
@@ -564,6 +592,20 @@
     "md": 11,
     "verein": "Mainz 05",
     "n": "Fetaj",
+    "stufe": "sicher",
+    "kader": "bank"
+   },
+   {
+    "md": 11,
+    "verein": "FC Bayern",
+    "n": "Harder",
+    "stufe": "sicher",
+    "kader": "bank"
+   },
+   {
+    "md": 11,
+    "verein": "TSG Hoffenheim",
+    "n": "Grimm",
     "stufe": "sicher",
     "kader": "bank"
    }
@@ -886,95 +928,96 @@
    ]
   },
   "11": {
-   "teams": 12,
-   "elf_treffer_schnitt": 9.33,
-   "elf_quote": 0.848,
+   "teams": 14,
+   "elf_treffer_schnitt": 9.0,
+   "elf_quote": 0.818,
    "elf_verteilung": {
     "11": 1,
     "10": 6,
     "9": 2,
-    "8": 2,
-    "7": 1
+    "8": 3,
+    "7": 1,
+    "6": 1
    },
    "je_stufe": {
     "sicher": {
-     "n": 75,
-     "begonnen": 71,
-     "quote": 0.947
+     "n": 83,
+     "begonnen": 77,
+     "quote": 0.928
     },
     "erwartet": {
-     "n": 55,
-     "begonnen": 39,
-     "quote": 0.709
+     "n": 69,
+     "begonnen": 47,
+     "quote": 0.681
     },
     "unsicher": {
-     "n": 67,
-     "begonnen": 18,
-     "quote": 0.269
+     "n": 79,
+     "begonnen": 25,
+     "quote": 0.316
     },
     "unwahrscheinlich": {
-     "n": 43,
-     "begonnen": 3,
-     "quote": 0.07
+     "n": 49,
+     "begonnen": 4,
+     "quote": 0.082
     },
     "ausgeschlossen": {
-     "n": 43,
+     "n": 47,
      "begonnen": 1,
-     "quote": 0.023
+     "quote": 0.021
     }
    },
    "kalibrierung": [
     {
      "ab_einsatzwert": 1.0,
-     "n": 65,
-     "begonnen": 62,
-     "quote": 0.954
+     "n": 73,
+     "begonnen": 68,
+     "quote": 0.932
     },
     {
      "ab_einsatzwert": 0.95,
-     "n": 75,
-     "begonnen": 71,
-     "quote": 0.947
+     "n": 83,
+     "begonnen": 77,
+     "quote": 0.928
     },
     {
      "ab_einsatzwert": 0.9,
-     "n": 88,
-     "begonnen": 81,
-     "quote": 0.92
+     "n": 97,
+     "begonnen": 88,
+     "quote": 0.907
     },
     {
      "ab_einsatzwert": 0.85,
-     "n": 95,
-     "begonnen": 87,
-     "quote": 0.916
+     "n": 106,
+     "begonnen": 96,
+     "quote": 0.906
     },
     {
      "ab_einsatzwert": 0.8,
-     "n": 103,
-     "begonnen": 91,
-     "quote": 0.883
+     "n": 116,
+     "begonnen": 101,
+     "quote": 0.871
     },
     {
      "ab_einsatzwert": 0.7,
-     "n": 119,
-     "begonnen": 101,
-     "quote": 0.849
+     "n": 139,
+     "begonnen": 115,
+     "quote": 0.827
     },
     {
      "ab_einsatzwert": 0.55,
-     "n": 144,
-     "begonnen": 113,
-     "quote": 0.785
+     "n": 169,
+     "begonnen": 130,
+     "quote": 0.769
     },
     {
      "ab_einsatzwert": 0.3,
-     "n": 179,
-     "begonnen": 127,
-     "quote": 0.709
+     "n": 212,
+     "begonnen": 148,
+     "quote": 0.698
     }
    ],
    "sicher_daneben_grund": {
-    "bank": 2,
+    "bank": 4,
     "nicht im Kader": 2
    },
    "sicher_aber_nicht_begonnen": [
@@ -1003,6 +1046,20 @@
      "md": 11,
      "verein": "Mainz 05",
      "n": "Fetaj",
+     "stufe": "sicher",
+     "kader": "bank"
+    },
+    {
+     "md": 11,
+     "verein": "FC Bayern",
+     "n": "Harder",
+     "stufe": "sicher",
+     "kader": "bank"
+    },
+    {
+     "md": 11,
+     "verein": "TSG Hoffenheim",
+     "n": "Grimm",
      "stufe": "sicher",
      "kader": "bank"
     }
