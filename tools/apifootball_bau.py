@@ -708,7 +708,11 @@ if xgcheck:
             "headline": f"xG-Check: {VN(r['k'])} {'trifft weit über' if r['d'] > 0 else 'bleibt weit unter'} den Chancen",
             "kurz": f"xG-Check: {VN(r['k'])} {r['t']} Tore bei {dz(r['xg'])} xG", "text": [f"{VN(r['k'])} erzielte gegen {VN(r['gg'])} {r['t']} Tore bei {dz(r['xg'])} erwarteten Toren (xG)."] +
             [f"{VN(z['k'])}: {z['t']} Tore bei {dz(z['xg'])} xG." for z in x[1:4]],
-            "kickbase": "Hohe Effizienz gleicht sich meist aus, ungenutzte Chancen sprechen eher für mehr Tore im nächsten Spiel.", "quellen": QAF, "af": True})
+            "kickbase": (f"{VN(r['k'])} hatte Chancen für {dz(r['xg'])} Tore. Angreiferinnen nicht nach einem schwachen Spiel verkaufen." if r["d"] < 0
+                         else f"{VN(r['k'])} traf mehr als erwartet. Das gleicht sich meist aus, nicht nur wegen dieses Spiels kaufen."),
+            # Grafik Pech-Glück-Skala (Finn 25.11.2026): die 6 größten Abstände des Spieltags, Ticker zeigt dann nur den ersten Absatz
+            "grafik": {"typ": "xgskala", "z": [{"k": z["k"], "t": z["t"], "xg": z["xg"], "d": z["d"], **({"hervor": True} if i == 0 else {})} for i, z in enumerate(x[:6])]},
+            "quellen": QAF, "af": True})
 def nachname(n): return n.split(" ")[-1]
 if stdt:
     # Standard-Check mit Messlatte (Finn 04.11.2026). Liste: alle mit mindestens 3 Kopfbällen nach Standard oder einem

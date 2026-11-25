@@ -1,0 +1,33 @@
+{
+ "_info": "Bestform von Spielerinnen, die mal Topniveau hatten (Finn 25.11.2026). Schlüssel = id aus spielerinnen.json. Nur belegte Werte mit Quelle. klasse: Weltklasse, Topspielerin, Nationalspielerin, Stammspielerin.",
+ "00019": {
+  "n": "Lena Oberdorf",
+  "saison": "2022/23",
+  "verein": "VfL Wolfsburg",
+  "klasse": "Weltklasse",
+  "werte": [
+   {
+    "w": "16 von 17",
+    "l": "Ligaspiele in der Startelf"
+   },
+   {
+    "w": "112",
+    "l": "Spiele für Wolfsburg 2020 bis 2024"
+   },
+   {
+    "w": "51",
+    "l": "A-Länderspiele"
+   }
+  ],
+  "quellen": [
+   {
+    "name": "soccerdonna",
+    "url": "https://soccerdonna.de/en/lena-oberdorf/leistungsdaten/spieler_31601_2022.html"
+   },
+   {
+    "name": "DFB-Datencenter",
+    "url": "https://datencenter.dfb.de/profil/353727"
+   }
+  ]
+ }
+}

@@ -85,6 +85,20 @@ def verletzung(news, verein, name):
     return t, bez or "Verletzungspause"
 
 
+def ausfall_tage(news, verein, name, anstoss):
+    """Tage vom ersten Verletzungs-Hinweis dieses Ausfalls bis zum Spiel (Finn 25.11.2026: ab 50 Tagen "nach X Tagen").
+    Ausfall beginnt mit der ältesten VERLETZUNG-Meldung nach ihrer letzten eigenen Comeback-Meldung."""
+    if not news:
+        return None
+    ms = [m for m in news["meldungen"] if m.get("verein") == verein and nk(m.get("spielerin", "")) == nk(name)
+          and m.get("spielerin", "").split()[0][:1] == name.split()[0][:1] and m["zeit"] < anstoss]
+    grenze = max([m["zeit"] for m in ms if m["id"].startswith("comeback-") and m["zeit"][:10] < anstoss[:10]], default="")
+    v = sorted(m["zeit"] for m in ms if m["zeit"] > grenze and ("VERLETZUNG" in m.get("tags", []) or m.get("status") == "verletzt"))
+    if not v:
+        return None
+    return (datetime.strptime(anstoss[:10], "%Y-%m-%d") - datetime.strptime(v[0][:10], "%Y-%m-%d")).days
+
+
 def presse_rueckkehr(news, verein, name, jetzt):
     g = (jetzt - timedelta(days=3)).strftime("%Y-%m-%dT%H:%M")
     return any(m.get("verein") == verein and nk(m.get("spielerin", "")) == nk(name) and "RÜCKKEHR" in m.get("tags", [])
@@ -175,9 +189,13 @@ def meldung(art, p, seite, s, voll, bez, af, kader, jetzt, alt, news=None):
     note = ((af.get("spiele") or {}).get(p["id"]) or {}).get("no", {}).get(pid) if pid else None
     wort = "Comeback" if art == "comeback" else "Saisondebüt"
     vorher = f"nach {bez}" if art == "comeback" else ""
+    tage = ausfall_tage(news, verein, voll or s["n"], p["anstoss"]) if art == "comeback" else None
+    lang = bool(tage and tage >= 50)
+    if lang:
+        vorher = f"nach {tage} Tagen"
     if spielt:
         stufe = "einsatz"
-        head = f"{nach} feiert {wort} {vorher}".strip() if art == "comeback" else f"{nach} feiert Saisondebüt"
+        head = (f"{nach} kehrt {vorher} zurück" if lang else f"{nach} feiert {wort} {vorher}".strip()) if art == "comeback" else f"{nach} feiert Saisondebüt"
     elif fertig:
         stufe = "ohne"
         head = f"{nach} {vorher} zurück im Kader, aber ohne Einsatz" if art == "comeback" else f"{nach} erstmals im Kader, aber ohne Einsatz"
@@ -212,7 +230,10 @@ def meldung(art, p, seite, s, voll, bez, af, kader, jetzt, alt, news=None):
         text.append(b)
     if note is not None:
         text.append(f"API-Football bewertet ihren Auftritt mit der Note {str(note).replace('.', ',')} ({note_text(note)}).")
-    if art == "comeback":
+    if art == "comeback" and lang:
+        kb = (f"Nach {tage} Tagen Pause zählt jede Minute. Meist kommen erst Joker-Einsätze, bevor die Startelf folgt. Vor dem Ausfall wichtig? Dann jetzt beobachten, nicht sofort fest einplanen."
+              if spielt else f"Nach {tage} Tagen zurück im Kader, aber noch ohne Spielpraxis. Einsatzminuten abwarten, die Startelf ist noch weit weg.")
+    elif art == "comeback":
         kb = ("Wieder einsatzbereit. Nach der Pause am nächsten Spieltag eher mit begrenzter Spielzeit rechnen, die Startelf ist noch offen."
               if spielt else "Zurück im Kader, aber noch ohne Spielpraxis. Ein Einsatz am nächsten Spieltag ist offen, die Startelf eher nicht.")
     else:
@@ -228,7 +249,7 @@ def meldung(art, p, seite, s, voll, bez, af, kader, jetzt, alt, news=None):
          "quellen": [{"name": "Sportschau", "url": p.get("url", "")}] + list(kx.get("quellen") or []) + ([{"name": "API-Football (Note)", "url": "https://www.api-football.com"}] if note is not None else []),
          "quelle_live": True, "partie_id": p["id"], "comeback": {"art": art, "stufe": stufe}}
     if len(head) > 46:
-        m["kurz"] = (f"{nach} feiert {wort}" if spielt else f"{nach} zurück im Kader" if art == "comeback" else f"{nach} erstmals im Kader")
+        m["kurz"] = (f"{nach} kehrt zurück" if spielt and lang else f"{nach} feiert {wort}" if spielt else f"{nach} zurück im Kader" if art == "comeback" else f"{nach} erstmals im Kader")
     return m
 
 

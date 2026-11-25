@@ -253,16 +253,87 @@
    "headline": "Zehn Freiburgerinnen bei Nationalteams",
    "kurz": "Zehn Freiburgerinnen bei Nationalteams",
    "text": [
-    "Zehn Spielerinnen des SC Freiburg sind derzeit mit ihren Nationalteams unterwegs. Alena Bienz und Julia Stierli treffen mit der Schweiz in der WM-Qualifikation auf Nicole Ojukwu und Österreich.",
-    "Borbála Vincze spielt mit Ungarn gegen Serbien, Sabah Seghir mit Marokko gegen Venezuela und Frankreich. Ilayda Acikgöz, Luca Birkholz und Emma Memminger sind bei der deutschen U23, Mia-Lena Maas und Anna Reimann bei der U19."
+    "Zehn Spielerinnen des SC Freiburg sind derzeit mit ihren Nationalteams unterwegs.",
+    "Alena Bienz und Julia Stierli treffen mit der Schweiz in der WM-Qualifikation auf Nicole Ojukwu und Österreich. Borbála Vincze spielt mit Ungarn gegen Serbien, Sabah Seghir mit Marokko gegen Venezuela und Frankreich. Ilayda Acikgöz, Luca Birkholz und Emma Memminger sind bei der deutschen U23, Mia-Lena Maas und Anna Reimann bei der U19."
    ],
-   "kickbase": "Für die Kickbase-Aufstellung ändert sich nichts. Bei Länderspielen bleibt zu beachten, ob sich jemand verletzt zurückmeldet.",
+   "kickbase": "Für die Aufstellung ändert sich nichts. Wichtig ist nur, wer gesund zurückkommt.",
    "quellen": [
     {
      "name": "Wochenblatt Reporter",
      "url": "https://www.wochenblatt-reporter.de/c-sport/sc-freiburg-zehn-spielerinnen-fuer-nationalteams-nominiert_a952109"
     }
-   ]
+   ],
+   "grafik": {
+    "typ": "nationalteams",
+    "k": "SCF",
+    "laender": [
+     {
+      "land": "Deutschland",
+      "gegner": "U23 und U19",
+      "sp": [
+       {
+        "n": "Ilayda Acikgöz",
+        "team": "U23"
+       },
+       {
+        "n": "Luca Birkholz",
+        "team": "U23"
+       },
+       {
+        "n": "Emma Memminger",
+        "team": "U23"
+       },
+       {
+        "n": "Mia-Lena Maas",
+        "team": "U19"
+       },
+       {
+        "n": "Anna Reimann",
+        "team": "U19"
+       }
+      ]
+     },
+     {
+      "land": "Schweiz",
+      "gegner": "gegen Österreich",
+      "sp": [
+       {
+        "n": "Alena Bienz"
+       },
+       {
+        "n": "Julia Stierli"
+       }
+      ]
+     },
+     {
+      "land": "Österreich",
+      "gegner": "gegen die Schweiz",
+      "sp": [
+       {
+        "n": "Nicole Ojukwu"
+       }
+      ]
+     },
+     {
+      "land": "Ungarn",
+      "gegner": "gegen Serbien",
+      "sp": [
+       {
+        "n": "Borbála Vincze"
+       }
+      ]
+     },
+     {
+      "land": "Marokko",
+      "gegner": "Venezuela, Frankreich",
+      "sp": [
+       {
+        "n": "Sabah Seghir"
+       }
+      ]
+     }
+    ]
+   }
   },
   {
    "id": "redzepi-2411",
@@ -824,13 +895,13 @@
     "TOP"
    ],
    "status": "fit",
-   "headline": "Oberdorf kehrt nach Knieproblem zurück",
-   "kurz": "Oberdorf nach Knieproblem wieder im Kader",
+   "headline": "Oberdorf spielt nach fünf Wochen wieder",
+   "kurz": "Oberdorf spielt wieder, 8 Minuten als Jokerin",
    "text": [
-    "Lena Oberdorf stand beim 1:0 des FC Bayern gegen die TSG Hoffenheim überraschend wieder im Kader. Sie wurde in der 82. Minute eingewechselt.",
+    "Lena Oberdorf stand beim 1:0 des FC Bayern gegen die TSG Hoffenheim wieder im Kader und wurde in der 82. Minute eingewechselt.",
     "Seit Mitte Oktober fehlte die Mittelfeldspielerin wegen einer Reaktion im rechten Kniegelenk."
    ],
-   "kickbase": "Sie ist zurück im Spieltagskader, ein Startelf-Platz ist nach dem Kurzeinsatz noch nicht zu erwarten. Nach der Länderspielpause lohnt sich der Blick auf ihre Minuten.",
+   "kickbase": "Fit gehört sie zu den Besten der Liga, in dieser Saison kam sie aber erst auf drei Joker-Einsätze. Jetzt zählt, wie schnell die Minuten kommen. Wer sie holt, kauft vor der ersten Startelf und braucht Geduld.",
    "quellen": [
     {
      "name": "BR24 Sport",
