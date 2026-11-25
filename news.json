@@ -1,80 +1,112 @@
 {
- "stand": "2026-11-24T22:45",
+ "stand": "2026-11-25T11:45",
  "meldungen": [
   {
-   "id": "fehlt-martret-tsg-0811",
-   "pid": "00142",
-   "zeit": "2026-11-08T13:01",
-   "spielerin": "Laia Martret",
-   "verein": "TSG Hoffenheim",
+   "id": "fehlt-reimann-scf-0111",
+   "pid": "00085",
+   "zeit": "2026-11-01T14:08",
+   "spielerin": "Anna Reimann",
+   "verein": "SC Freiburg",
    "nr": "",
-   "pos": "ST",
+   "pos": "TW",
    "tags": [
-    "AUFSTELLUNG"
+    "AUFSTELLUNG",
+    "POKAL"
    ],
    "status": "fraglich",
-   "headline": "Martret nicht im Kader gegen Union Berlin",
+   "headline": "Reimann nicht im Kader gegen FC Carl Zeiss Jena",
    "text": [
-    "Laia Martret steht in der Liga gegen Union Berlin weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
+    "Anna Reimann steht im DFB-Pokal gegen FC Carl Zeiss Jena weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
+    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
+   ],
+   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
+   "quellen": [
+    {
+     "name": "DFB-Datencenter",
+     "url": "https://datencenter.dfb.de/matches/sc-freiburg-fc-carl-zeiss-jena-2431333"
+    }
+   ],
+   "quelle_live": true,
+   "kurz": "Reimann nicht im Kader"
+  },
+  {
+   "id": "fehlt-viggosdottir-fcb-0111",
+   "pid": "00013",
+   "zeit": "2026-11-01T13:53",
+   "spielerin": "Glódís Viggósdóttir",
+   "verein": "FC Bayern",
+   "nr": "",
+   "pos": "ABW",
+   "tags": [
+    "AUFSTELLUNG",
+    "POKAL"
+   ],
+   "status": "fraglich",
+   "headline": "Viggósdóttir nicht im Kader gegen Bayer Leverkusen",
+   "text": [
+    "Glódís Viggósdóttir steht im DFB-Pokal gegen Bayer Leverkusen weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
     "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
    ],
    "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
    "quellen": [
     {
      "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306286/1-fc-union-berlin_tsg-hoffenheim/aufstellung"
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165391/bayern-muenchen_bayer-leverkusen/aufstellung"
     }
    ],
-   "quelle_live": true
+   "quelle_live": true,
+   "kurz": "Viggósdóttir nicht im Kader"
   },
   {
-   "id": "fehlt-fudalla-b04-0711",
-   "pid": "00258",
-   "zeit": "2026-11-07T14:00",
-   "spielerin": "Vanessa Fudalla",
+   "id": "fehlt-bender-b04-0111",
+   "pid": "00257",
+   "zeit": "2026-11-01T13:53",
+   "spielerin": "Loreen Bender",
    "verein": "Bayer Leverkusen",
    "nr": "",
    "pos": "ST",
    "tags": [
-    "AUFSTELLUNG"
+    "AUFSTELLUNG",
+    "POKAL"
    ],
    "status": "fraglich",
-   "headline": "Fudalla nicht im Kader gegen Hamburger SV",
+   "headline": "Bender nicht im Kader gegen FC Bayern",
    "text": [
-    "Vanessa Fudalla steht in der Liga gegen Hamburger SV weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 2-mal.",
+    "Loreen Bender steht im DFB-Pokal gegen FC Bayern weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 4-mal.",
     "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
    ],
    "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
    "quellen": [
     {
      "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306280/bayer-leverkusen_hamburger-sv/aufstellung"
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165391/bayern-muenchen_bayer-leverkusen/aufstellung"
     }
    ],
    "quelle_live": true
   },
   {
-   "id": "fehlt-proost-fcb-0611",
-   "pid": "00020",
-   "zeit": "2026-11-06T18:30",
-   "spielerin": "Sophie Proost",
-   "verein": "FC Bayern",
+   "id": "fehlt-altenburg-sge-0111",
+   "pid": "00056",
+   "zeit": "2026-11-01T13:12",
+   "spielerin": "Lina Altenburg",
+   "verein": "Eintracht Frankfurt",
    "nr": "",
-   "pos": "MF",
+   "pos": "TW",
    "tags": [
-    "AUFSTELLUNG"
+    "AUFSTELLUNG",
+    "POKAL"
    ],
    "status": "fraglich",
-   "headline": "Proost nicht im Kader gegen Werder Bremen",
+   "headline": "Altenburg nicht im Kader gegen 1. FC Nürnberg",
    "text": [
-    "Sophie Proost steht in der Liga gegen Werder Bremen weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 3-mal.",
+    "Lina Altenburg steht im DFB-Pokal gegen 1. FC Nürnberg weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
     "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
    ],
    "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
    "quellen": [
     {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306283/bayern-muenchen_werder-bremen/aufstellung"
+     "name": "DFB-Datencenter",
+     "url": "https://datencenter.dfb.de/matches/1-fc-nuernberg-eintracht-frankfurt-2431335"
     }
    ],
    "quelle_live": true
@@ -107,114 +139,106 @@
    "kurz": "Lattwein nicht im Kader"
   },
   {
-   "id": "fehlt-altenburg-sge-0111",
-   "pid": "00056",
-   "zeit": "2026-11-01T13:12",
-   "spielerin": "Lina Altenburg",
-   "verein": "Eintracht Frankfurt",
+   "id": "fehlt-proost-fcb-0611",
+   "pid": "00020",
+   "zeit": "2026-11-06T18:30",
+   "spielerin": "Sophie Proost",
+   "verein": "FC Bayern",
    "nr": "",
-   "pos": "TW",
+   "pos": "MF",
    "tags": [
-    "AUFSTELLUNG",
-    "POKAL"
+    "AUFSTELLUNG"
    ],
    "status": "fraglich",
-   "headline": "Altenburg nicht im Kader gegen 1. FC Nürnberg",
+   "headline": "Proost nicht im Kader gegen Werder Bremen",
    "text": [
-    "Lina Altenburg steht im DFB-Pokal gegen 1. FC Nürnberg weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
+    "Sophie Proost steht in der Liga gegen Werder Bremen weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 3-mal.",
     "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
    ],
    "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
    "quellen": [
     {
-     "name": "DFB-Datencenter",
-     "url": "https://datencenter.dfb.de/matches/1-fc-nuernberg-eintracht-frankfurt-2431335"
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306283/bayern-muenchen_werder-bremen/aufstellung"
     }
    ],
    "quelle_live": true
   },
   {
-   "id": "fehlt-bender-b04-0111",
-   "pid": "00257",
-   "zeit": "2026-11-01T13:53",
-   "spielerin": "Loreen Bender",
+   "id": "fehlt-fudalla-b04-0711",
+   "pid": "00258",
+   "zeit": "2026-11-07T14:00",
+   "spielerin": "Vanessa Fudalla",
    "verein": "Bayer Leverkusen",
    "nr": "",
    "pos": "ST",
    "tags": [
-    "AUFSTELLUNG",
-    "POKAL"
+    "AUFSTELLUNG"
    ],
    "status": "fraglich",
-   "headline": "Bender nicht im Kader gegen FC Bayern",
+   "headline": "Fudalla nicht im Kader gegen Hamburger SV",
    "text": [
-    "Loreen Bender steht im DFB-Pokal gegen FC Bayern weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 4-mal.",
+    "Vanessa Fudalla steht in der Liga gegen Hamburger SV weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 2-mal.",
     "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
    ],
    "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
    "quellen": [
     {
      "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165391/bayern-muenchen_bayer-leverkusen/aufstellung"
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306280/bayer-leverkusen_hamburger-sv/aufstellung"
     }
    ],
    "quelle_live": true
   },
   {
-   "id": "fehlt-viggosdottir-fcb-0111",
-   "pid": "00013",
-   "zeit": "2026-11-01T13:53",
-   "spielerin": "Glódís Viggósdóttir",
-   "verein": "FC Bayern",
+   "id": "fehlt-martret-tsg-0811",
+   "pid": "00142",
+   "zeit": "2026-11-08T13:01",
+   "spielerin": "Laia Martret",
+   "verein": "TSG Hoffenheim",
    "nr": "",
-   "pos": "ABW",
+   "pos": "ST",
    "tags": [
-    "AUFSTELLUNG",
-    "POKAL"
+    "AUFSTELLUNG"
    ],
    "status": "fraglich",
-   "headline": "Viggósdóttir nicht im Kader gegen Bayer Leverkusen",
+   "headline": "Martret nicht im Kader gegen Union Berlin",
    "text": [
-    "Glódís Viggósdóttir steht im DFB-Pokal gegen Bayer Leverkusen weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
+    "Laia Martret steht in der Liga gegen Union Berlin weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
     "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
    ],
    "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
    "quellen": [
     {
      "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165391/bayern-muenchen_bayer-leverkusen/aufstellung"
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306286/1-fc-union-berlin_tsg-hoffenheim/aufstellung"
     }
    ],
-   "quelle_live": true,
-   "kurz": "Viggósdóttir nicht im Kader"
+   "quelle_live": true
   },
   {
-   "id": "fehlt-reimann-scf-0111",
-   "pid": "00085",
-   "zeit": "2026-11-01T14:08",
-   "spielerin": "Anna Reimann",
+   "id": "freiburg-nationalteam-2511",
+   "zeit": "2026-11-25T10:17",
+   "spielerin": "Spielansetzung",
    "verein": "SC Freiburg",
    "nr": "",
-   "pos": "TW",
+   "pos": "Spielansetzung",
    "tags": [
-    "AUFSTELLUNG",
-    "POKAL"
+    "NATIONALTEAM"
    ],
-   "status": "fraglich",
-   "headline": "Reimann nicht im Kader gegen FC Carl Zeiss Jena",
+   "headline": "Zehn Freiburgerinnen bei Nationalteams",
+   "kurz": "Zehn Freiburgerinnen bei Nationalteams",
    "text": [
-    "Anna Reimann steht im DFB-Pokal gegen FC Carl Zeiss Jena weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
-    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
+    "Zehn Spielerinnen des SC Freiburg sind derzeit mit ihren Nationalteams unterwegs. Alena Bienz und Julia Stierli treffen mit der Schweiz in der WM-Qualifikation auf Nicole Ojukwu und Österreich.",
+    "Borbála Vincze spielt mit Ungarn gegen Serbien, Sabah Seghir mit Marokko gegen Venezuela und Frankreich. Ilayda Acikgöz, Luca Birkholz und Emma Memminger sind bei der deutschen U23, Mia-Lena Maas und Anna Reimann bei der U19."
    ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
+   "kickbase": "Für die Kickbase-Aufstellung ändert sich nichts. Bei Länderspielen bleibt zu beachten, ob sich jemand verletzt zurückmeldet.",
    "quellen": [
     {
-     "name": "DFB-Datencenter",
-     "url": "https://datencenter.dfb.de/matches/sc-freiburg-fc-carl-zeiss-jena-2431333"
+     "name": "Wochenblatt Reporter",
+     "url": "https://www.wochenblatt-reporter.de/c-sport/sc-freiburg-zehn-spielerinnen-fuer-nationalteams-nominiert_a952109"
     }
-   ],
-   "quelle_live": true,
-   "kurz": "Reimann nicht im Kader"
+   ]
   },
   {
    "id": "redzepi-2411",
@@ -4152,7 +4176,8 @@
    "text": [
     "Bayern-Präsident Herbert Hainer wünscht sich eine Vertragsverlängerung mit Klara Bühl und Franziska Kett. Im Interview mit t-online kündigte er an, bei der Jahreshauptversammlung am Samstag einen entsprechenden Appell an beide zu richten.",
     "Hainer nannte die beiden das beste Duo auf der linken Seite im internationalen Frauenfußball. Den ebenfalls auslaufenden Vertrag von Giulia Gwinn erwähnte er laut t-online nicht. Eine Einigung ist bisher nicht gemeldet.",
-    "Update 13:40: Hainer richtete den Appell auf der Jahreshauptversammlung öffentlich an Giulia Gwinn, Klara Bühl und Franziska Kett. Zu Gwinn und Bühl sagte er laut Absolut Fussball: „Ihr könnt hier Legenden werden.“ Die Mitglieder applaudierten, eine Einigung ist weiter nicht gemeldet."
+    "Update 13:40: Hainer richtete den Appell auf der Jahreshauptversammlung öffentlich an Giulia Gwinn, Klara Bühl und Franziska Kett. Zu Gwinn und Bühl sagte er laut Absolut Fussball: „Ihr könnt hier Legenden werden.“ Die Mitglieder applaudierten, eine Einigung ist weiter nicht gemeldet.",
+    "Update 10:17: Laut 90min.de lässt Bühl ihre Zukunft offen. Barça-Star Aitana Bonmati sagte der Sport Bild, sie würde Bühl gern in Barcelona sehen. Bühls Vertrag in München läuft zum Saisonende aus, eine Einigung ist weiter nicht gemeldet."
    ],
    "kickbase": "Für die nächsten Spieltage ändert sich nichts, Gwinn, Bühl und Kett gehören zur Stammelf. Es bleibt bei einem öffentlichen Wunsch des Präsidenten, eine Verlängerung ist nicht gemeldet.",
    "quellen": [
@@ -4167,6 +4192,10 @@
     {
      "name": "Absolut Fussball",
      "url": "https://www.absolutfussball.com/deutschland/fc-bayern-muenchen/bayern-boss-sendet-im-vertragspoker-klare-worte-an-gwinn-94601514.html"
+    },
+    {
+     "name": "90min.de",
+     "url": "https://www.90min.de/klara-buhl-gibt-kleinen-hinweis-zu-ihrer-zukunft"
     }
    ],
    "foto": "fotos/fcb-klara-buhl.webp",
@@ -7933,418 +7962,6 @@
      ]
     }
    ]
-  },
-  {
-   "id": "gwinn-startelf-1011",
-   "pid": "00009",
-   "zeit": "2026-11-10T19:58",
-   "spielerin": "Giulia Gwinn",
-   "verein": "FC Bayern",
-   "nr": "",
-   "pos": "ABW",
-   "tags": [
-    "AUFSTELLUNG",
-    "RÜCKKEHR"
-   ],
-   "status": "fit",
-   "headline": "Gwinn steht gegen Paris Saint Germain in der Startelf",
-   "text": [
-    "Giulia Gwinn steht in der Champions League gegen Paris Saint Germain in der Startelf des FC Bayern, als Rechtsverteidigerin in der Viererkette mit Ballisager, Eriksson und Kett.",
-    "Es ist ihr erster Startelfeinsatz seit der Rückkehr aus dem Außenbandriss. Gegen Werder Bremen war sie am 6. November nach rund 27 Minuten Einsatzzeit ins Spiel gekommen."
-   ],
-   "kickbase": "Gwinn ist nach dem Außenbandriss wieder in der ersten Elf angekommen. Ob sie am nächsten Ligaspieltag ebenfalls beginnt, ist offen.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/uefa-champions-league-frauen/ma12537195/paris-saint-germain_bayern-muenchen/aufstellung"
-    }
-   ],
-   "quelle_live": true,
-   "kurz": "Gwinn steht in der Startelf"
-  },
-  {
-   "id": "aufstellung-cl-fcb-1011",
-   "zeit": "2026-11-10T19:58",
-   "spielerin": "Spielansetzung",
-   "verein": "FC Bayern",
-   "nr": "",
-   "pos": "Spielansetzung",
-   "tags": [
-    "EUROPAPOKAL"
-   ],
-   "headline": "Offizielle Aufstellung: FC Bayern gegen Paris Saint Germain",
-   "text": [],
-   "kickbase": "",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/uefa-champions-league-frauen/ma12537195/paris-saint-germain_bayern-muenchen/aufstellung"
-    }
-   ],
-   "aufstellung": {
-    "gegner": "Paris Saint Germain",
-    "formation": "4-2-3-1",
-    "startelf": [
-     {
-      "n": "Mahmutovic",
-      "p": "TW",
-      "pid": "00003",
-      "f": "neu"
-     },
-     {
-      "n": "Gwinn",
-      "p": "ABW",
-      "pid": "00009",
-      "f": "neu"
-     },
-     {
-      "n": "Ballisager",
-      "p": "ABW",
-      "pid": "00005"
-     },
-     {
-      "n": "Eriksson",
-      "p": "ABW",
-      "pid": "00007",
-      "f": "neu"
-     },
-     {
-      "n": "Kett",
-      "p": "ABW",
-      "pid": "00011",
-      "f": "neu"
-     },
-     {
-      "n": "Tanikawa",
-      "p": "DM",
-      "pid": "00021",
-      "kp": "MF",
-      "f": "neu"
-     },
-     {
-      "n": "Amani",
-      "p": "DM",
-      "pid": "00016",
-      "kp": "MF"
-     },
-     {
-      "n": "Dallmann",
-      "p": "OM",
-      "pid": "00017",
-      "kp": "MF"
-     },
-     {
-      "n": "Harder",
-      "p": "OM",
-      "pid": "00025",
-      "kp": "MF"
-     },
-     {
-      "n": "Bühl",
-      "p": "OM",
-      "pid": "00023",
-      "kp": "ST",
-      "f": "neu"
-     },
-     {
-      "n": "Damnjanović",
-      "p": "ST",
-      "pid": "00024",
-      "f": "neu"
-     }
-    ],
-    "bank": [
-     {
-      "n": "Klink",
-      "p": "TW",
-      "pid": "00002"
-     },
-     {
-      "n": "van Eijk",
-      "p": "TW",
-      "pid": "00004",
-      "f": "raus"
-     },
-     {
-      "n": "Naschenweng",
-      "p": "ABW",
-      "pid": "00012",
-      "f": "raus"
-     },
-     {
-      "n": "Viggósdóttir",
-      "p": "ABW",
-      "pid": "00013"
-     },
-     {
-      "n": "Dunst",
-      "p": "MF",
-      "pid": "00018"
-     },
-     {
-      "n": "Zadrazil",
-      "p": "MF",
-      "pid": "00022"
-     },
-     {
-      "n": "Alara",
-      "p": "MF",
-      "pid": "00015",
-      "f": "raus"
-     },
-     {
-      "n": "Imade",
-      "p": "ST",
-      "pid": "00026",
-      "f": "raus"
-     },
-     {
-      "n": "Mattner-Trembleau",
-      "p": "ABW",
-      "pid": "00027",
-      "f": "raus"
-     }
-    ],
-    "fehlt": [
-     {
-      "n": "Gilles",
-      "p": "ABW",
-      "pid": "00008",
-      "f": "raus",
-      "war": "Startelf",
-      "i": "verletzt"
-     },
-     {
-      "n": "Potsi",
-      "p": "ST",
-      "pid": "00028",
-      "f": "raus",
-      "war": "Startelf",
-      "i": "verletzt"
-     }
-    ],
-    "wettbewerb": "Champions League"
-   },
-   "quelle_live": true
-  },
-  {
-   "id": "aufstellung-ec-wob-1011",
-   "zeit": "2026-11-10T17:55",
-   "spielerin": "Spielansetzung",
-   "verein": "VfL Wolfsburg",
-   "nr": "",
-   "pos": "Spielansetzung",
-   "tags": [
-    "EUROPAPOKAL"
-   ],
-   "headline": "Offizielle Aufstellung: VfL Wolfsburg gegen Feyenoord Rotterdam",
-   "text": [],
-   "kickbase": "",
-   "quellen": [
-    {
-     "name": "DFB-Datencenter",
-     "url": "https://datencenter.dfb.de/matches/feyenoord-rotterdam-vfl-wolfsburg-2431432"
-    }
-   ],
-   "aufstellung": {
-    "gegner": "Feyenoord Rotterdam",
-    "formation": "4-2-3-1",
-    "geschaetzt": true,
-    "hinweis": "Formation geschätzt (4-2-3-1, übliches System des Vereins), weil die Daten kein plausibles System ergaben",
-    "startelf": [
-     {
-      "n": "Tufeković",
-      "p": "TW",
-      "pid": "00391",
-      "f": "neu"
-     },
-     {
-      "n": "Wedemeyer",
-      "p": "ABW",
-      "pid": "00399",
-      "f": "neu"
-     },
-     {
-      "n": "Kleinherne",
-      "p": "ABW",
-      "pid": "00395",
-      "f": "neu"
-     },
-     {
-      "n": "Küver",
-      "p": "ABW",
-      "pid": "00396"
-     },
-     {
-      "n": "Linder",
-      "p": "ABW",
-      "pid": "00398"
-     },
-     {
-      "n": "Piljic",
-      "p": "DM",
-      "pid": "00406",
-      "kp": "MF",
-      "f": "neu"
-     },
-     {
-      "n": "Minge",
-      "p": "DM",
-      "pid": "00404",
-      "kp": "MF"
-     },
-     {
-      "n": "Vallotto",
-      "p": "OM",
-      "pid": "00407",
-      "kp": "MF"
-     },
-     {
-      "n": "Alber",
-      "p": "OM",
-      "pid": "00400",
-      "kp": "MF",
-      "f": "neu"
-     },
-     {
-      "n": "Bussy",
-      "p": "OM",
-      "pid": "00408",
-      "kp": "ST",
-      "f": "neu"
-     },
-     {
-      "n": "Fløe",
-      "p": "ST",
-      "pid": "00409",
-      "f": "neu"
-     }
-    ],
-    "bank": [
-     {
-      "n": "Johannes",
-      "p": "TW",
-      "pid": "00389",
-      "f": "raus"
-     },
-     {
-      "n": "Schönwetter",
-      "p": "TW",
-      "pid": "00390",
-      "f": "neu"
-     },
-     {
-      "n": "Carleer",
-      "p": "ABW",
-      "pid": "00394",
-      "f": "raus"
-     },
-     {
-      "n": "Bjelde",
-      "p": "ABW",
-      "pid": "00392",
-      "f": "raus"
-     },
-     {
-      "n": "Peddemors",
-      "p": "MF",
-      "pid": "00405",
-      "f": "raus"
-     },
-     {
-      "n": "Lattwein",
-      "p": "MF",
-      "pid": "00403",
-      "f": "neu"
-     },
-     {
-      "n": "Huth",
-      "p": "MF",
-      "pid": "00402",
-      "f": "raus"
-     },
-     {
-      "n": "Prašnikar",
-      "p": "ST",
-      "pid": "00412",
-      "f": "raus"
-     },
-     {
-      "n": "Zicai",
-      "p": "ST",
-      "pid": "00414",
-      "f": "raus"
-     },
-     {
-      "n": "Kerim-Lindland",
-      "p": "ST",
-      "pid": "00411"
-     }
-    ],
-    "fehlt": [
-     {
-      "n": "Landenberger",
-      "p": "ABW",
-      "f": "raus",
-      "war": "Bank"
-     },
-     {
-      "n": "Eisenbeiß",
-      "p": "TW"
-     },
-     {
-      "n": "Bogaert",
-      "p": "ABW"
-     },
-     {
-      "n": "Araśniewicz",
-      "p": "MF"
-     },
-     {
-      "n": "Hoffmann",
-      "p": "ST"
-     },
-     {
-      "n": "Sælen",
-      "p": "ST"
-     }
-    ],
-    "wettbewerb": "Europa Cup"
-   },
-   "quelle_live": true
-  },
-  {
-   "id": "scherer-1011",
-   "pid": "00115",
-   "zeit": "2026-11-10T01:00",
-   "spielerin": "Nora Scherer",
-   "verein": "SC Freiburg",
-   "nr": "31",
-   "pos": "ST",
-   "tags": [
-    "VERLETZUNG"
-   ],
-   "status": "verletzt",
-   "ausfall": "Saisonaus",
-   "headline": "Scherer reißt sich das Kreuzband, Saisonaus",
-   "kurz": "Scherer fällt mit Kreuzbandriss aus",
-   "text": [
-    "Nora Scherer hat sich im Regionalliga-Spiel der U20 des SC Freiburg gegen den SV Weinberg einen Kreuzbandriss zugezogen. Sie wurde nach rund 30 Minuten nach einem Zweikampf ausgewechselt, die Diagnose steht laut Verein fest.",
-    "Der SC Freiburg teilt mit, dass die Flügelspielerin dem Team bis auf Weiteres nicht mehr zur Verfügung steht. Die Quelle nennt ein Saisonaus."
-   ],
-   "kickbase": "Scherer fällt für den Rest der Saison aus und ist für Aufstellungen nicht mehr einzuplanen.",
-   "quellen": [
-    {
-     "name": "SC Freiburg",
-     "url": "https://www.scfreiburg.com/aktuell/nachrichten/frauen-maedchen/2026/27/news/gute-besserung-nora/"
-    }
-   ],
-   "foto": "fotos/scf-nora-scherer.webp",
-   "foto_credit": {
-    "autor": "SC Freiburg",
-    "lizenz": "mit Genehmigung: SC Freiburg",
-    "url": "https://www.scfreiburg.com/teams/frauen/spielerinnen/"
-   }
   }
  ]
 }
