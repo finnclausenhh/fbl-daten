@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-25T12:51",
+ "stand": "2026-11-25T13:46",
  "meldungen": [
   {
    "id": "fehlt-reimann-scf-0111",
@@ -215,6 +215,30 @@
     }
    ],
    "quelle_live": true
+  },
+  {
+   "id": "leverkusen-nationalteam-2511",
+   "zeit": "2026-11-25T01:00",
+   "spielerin": "Spielansetzung",
+   "verein": "Bayer Leverkusen",
+   "nr": "",
+   "pos": "Spielansetzung",
+   "tags": [
+    "NATIONALTEAM"
+   ],
+   "headline": "Acht Leverkusenerinnen auf Länderspielreise",
+   "kurz": "Acht Leverkusenerinnen auf Länderspielreise",
+   "text": [
+    "Acht Spielerinnen von Bayer Leverkusen sind bei Nationalteams. Maja Sternad (Slowenien), Paulina Tomasiak (Polen), Claudia Wenger und Valentina Mädl (beide Österreich) stehen in der zweiten WM-Playoff-Runde am 1. und 5. Dezember. Mädl ist erstmals seit Dezember 2025 wieder im österreichischen Kader. Lumbardha Misini spielt mit dem Kosovo zwei Tests gegen Malta und Israel.",
+    "Estrella Merino, Loreen Bender und Sofie Zdebel sind bei der deutschen U23. Cornelia Kramer wurde laut Verein aus Gründen der Belastungssteuerung nicht für Dänemark nominiert. Die übrigen Spielerinnen haben bis zum 30. November frei, am 3. Dezember testet Leverkusen gegen AZ Alkmaar."
+   ],
+   "kickbase": "Die Länderspielpause gibt es für die Liga ohnehin. Kramer bleibt ohne Länderspielreise geschont, was für die Frische nach der Pause spricht. Bei den Reisenden zählt, ob sich jemand verletzt zurückmeldet.",
+   "quellen": [
+    {
+     "name": "Bayer 04 Leverkusen",
+     "url": "https://www.bayer04.de/de-de/news/frauen/maedl-feiert-oesterreich-comeback-acht-bayer-04-frauen-auf-laenderspiel-reisen"
+    }
+   ]
   },
   {
    "id": "freiburg-nationalteam-2511",
