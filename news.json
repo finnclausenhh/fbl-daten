@@ -1,112 +1,80 @@
 {
- "stand": "2026-11-25T16:51",
+ "stand": "2026-11-25T17:48",
  "meldungen": [
   {
-   "id": "fehlt-reimann-scf-0111",
-   "pid": "00085",
-   "zeit": "2026-11-01T14:08",
-   "spielerin": "Anna Reimann",
-   "verein": "SC Freiburg",
-   "nr": "",
-   "pos": "TW",
-   "tags": [
-    "AUFSTELLUNG",
-    "POKAL"
-   ],
-   "status": "fraglich",
-   "headline": "Reimann nicht im Kader gegen FC Carl Zeiss Jena",
-   "text": [
-    "Anna Reimann steht im DFB-Pokal gegen FC Carl Zeiss Jena weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
-    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
-   ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
-   "quellen": [
-    {
-     "name": "DFB-Datencenter",
-     "url": "https://datencenter.dfb.de/matches/sc-freiburg-fc-carl-zeiss-jena-2431333"
-    }
-   ],
-   "quelle_live": true,
-   "kurz": "Reimann nicht im Kader"
-  },
-  {
-   "id": "fehlt-viggosdottir-fcb-0111",
-   "pid": "00013",
-   "zeit": "2026-11-01T13:53",
-   "spielerin": "Glódís Viggósdóttir",
-   "verein": "FC Bayern",
-   "nr": "",
-   "pos": "ABW",
-   "tags": [
-    "AUFSTELLUNG",
-    "POKAL"
-   ],
-   "status": "fraglich",
-   "headline": "Viggósdóttir nicht im Kader gegen Bayer Leverkusen",
-   "text": [
-    "Glódís Viggósdóttir steht im DFB-Pokal gegen Bayer Leverkusen weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
-    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
-   ],
-   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
-   "quellen": [
-    {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165391/bayern-muenchen_bayer-leverkusen/aufstellung"
-    }
-   ],
-   "quelle_live": true,
-   "kurz": "Viggósdóttir nicht im Kader"
-  },
-  {
-   "id": "fehlt-bender-b04-0111",
-   "pid": "00257",
-   "zeit": "2026-11-01T13:53",
-   "spielerin": "Loreen Bender",
-   "verein": "Bayer Leverkusen",
+   "id": "fehlt-martret-tsg-0811",
+   "pid": "00142",
+   "zeit": "2026-11-08T13:01",
+   "spielerin": "Laia Martret",
+   "verein": "TSG Hoffenheim",
    "nr": "",
    "pos": "ST",
    "tags": [
-    "AUFSTELLUNG",
-    "POKAL"
+    "AUFSTELLUNG"
    ],
    "status": "fraglich",
-   "headline": "Bender nicht im Kader gegen FC Bayern",
+   "headline": "Martret nicht im Kader gegen Union Berlin",
    "text": [
-    "Loreen Bender steht im DFB-Pokal gegen FC Bayern weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 4-mal.",
+    "Laia Martret steht in der Liga gegen Union Berlin weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
     "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
    ],
    "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
    "quellen": [
     {
      "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165391/bayern-muenchen_bayer-leverkusen/aufstellung"
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306286/1-fc-union-berlin_tsg-hoffenheim/aufstellung"
     }
    ],
    "quelle_live": true
   },
   {
-   "id": "fehlt-altenburg-sge-0111",
-   "pid": "00056",
-   "zeit": "2026-11-01T13:12",
-   "spielerin": "Lina Altenburg",
-   "verein": "Eintracht Frankfurt",
+   "id": "fehlt-fudalla-b04-0711",
+   "pid": "00258",
+   "zeit": "2026-11-07T14:00",
+   "spielerin": "Vanessa Fudalla",
+   "verein": "Bayer Leverkusen",
    "nr": "",
-   "pos": "TW",
+   "pos": "ST",
    "tags": [
-    "AUFSTELLUNG",
-    "POKAL"
+    "AUFSTELLUNG"
    ],
    "status": "fraglich",
-   "headline": "Altenburg nicht im Kader gegen 1. FC Nürnberg",
+   "headline": "Fudalla nicht im Kader gegen Hamburger SV",
    "text": [
-    "Lina Altenburg steht im DFB-Pokal gegen 1. FC Nürnberg weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
+    "Vanessa Fudalla steht in der Liga gegen Hamburger SV weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 2-mal.",
     "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
    ],
    "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
    "quellen": [
     {
-     "name": "DFB-Datencenter",
-     "url": "https://datencenter.dfb.de/matches/1-fc-nuernberg-eintracht-frankfurt-2431335"
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306280/bayer-leverkusen_hamburger-sv/aufstellung"
+    }
+   ],
+   "quelle_live": true
+  },
+  {
+   "id": "fehlt-proost-fcb-0611",
+   "pid": "00020",
+   "zeit": "2026-11-06T18:30",
+   "spielerin": "Sophie Proost",
+   "verein": "FC Bayern",
+   "nr": "",
+   "pos": "MF",
+   "tags": [
+    "AUFSTELLUNG"
+   ],
+   "status": "fraglich",
+   "headline": "Proost nicht im Kader gegen Werder Bremen",
+   "text": [
+    "Sophie Proost steht in der Liga gegen Werder Bremen weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 3-mal.",
+    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
+   ],
+   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
+   "quellen": [
+    {
+     "name": "Sportschau",
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306283/bayern-muenchen_werder-bremen/aufstellung"
     }
    ],
    "quelle_live": true
@@ -139,82 +107,114 @@
    "kurz": "Lattwein nicht im Kader"
   },
   {
-   "id": "fehlt-proost-fcb-0611",
-   "pid": "00020",
-   "zeit": "2026-11-06T18:30",
-   "spielerin": "Sophie Proost",
-   "verein": "FC Bayern",
+   "id": "fehlt-altenburg-sge-0111",
+   "pid": "00056",
+   "zeit": "2026-11-01T13:12",
+   "spielerin": "Lina Altenburg",
+   "verein": "Eintracht Frankfurt",
    "nr": "",
-   "pos": "MF",
+   "pos": "TW",
    "tags": [
-    "AUFSTELLUNG"
+    "AUFSTELLUNG",
+    "POKAL"
    ],
    "status": "fraglich",
-   "headline": "Proost nicht im Kader gegen Werder Bremen",
+   "headline": "Altenburg nicht im Kader gegen 1. FC Nürnberg",
    "text": [
-    "Sophie Proost steht in der Liga gegen Werder Bremen weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 3-mal.",
+    "Lina Altenburg steht im DFB-Pokal gegen 1. FC Nürnberg weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
     "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
    ],
    "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
    "quellen": [
     {
-     "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306283/bayern-muenchen_werder-bremen/aufstellung"
+     "name": "DFB-Datencenter",
+     "url": "https://datencenter.dfb.de/matches/1-fc-nuernberg-eintracht-frankfurt-2431335"
     }
    ],
    "quelle_live": true
   },
   {
-   "id": "fehlt-fudalla-b04-0711",
-   "pid": "00258",
-   "zeit": "2026-11-07T14:00",
-   "spielerin": "Vanessa Fudalla",
+   "id": "fehlt-bender-b04-0111",
+   "pid": "00257",
+   "zeit": "2026-11-01T13:53",
+   "spielerin": "Loreen Bender",
    "verein": "Bayer Leverkusen",
    "nr": "",
    "pos": "ST",
    "tags": [
-    "AUFSTELLUNG"
+    "AUFSTELLUNG",
+    "POKAL"
    ],
    "status": "fraglich",
-   "headline": "Fudalla nicht im Kader gegen Hamburger SV",
+   "headline": "Bender nicht im Kader gegen FC Bayern",
    "text": [
-    "Vanessa Fudalla steht in der Liga gegen Hamburger SV weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 2-mal.",
+    "Loreen Bender steht im DFB-Pokal gegen FC Bayern weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 4-mal.",
     "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
    ],
    "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
    "quellen": [
     {
      "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306280/bayer-leverkusen_hamburger-sv/aufstellung"
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165391/bayern-muenchen_bayer-leverkusen/aufstellung"
     }
    ],
    "quelle_live": true
   },
   {
-   "id": "fehlt-martret-tsg-0811",
-   "pid": "00142",
-   "zeit": "2026-11-08T13:01",
-   "spielerin": "Laia Martret",
-   "verein": "TSG Hoffenheim",
+   "id": "fehlt-viggosdottir-fcb-0111",
+   "pid": "00013",
+   "zeit": "2026-11-01T13:53",
+   "spielerin": "Glódís Viggósdóttir",
+   "verein": "FC Bayern",
    "nr": "",
-   "pos": "ST",
+   "pos": "ABW",
    "tags": [
-    "AUFSTELLUNG"
+    "AUFSTELLUNG",
+    "POKAL"
    ],
    "status": "fraglich",
-   "headline": "Martret nicht im Kader gegen Union Berlin",
+   "headline": "Viggósdóttir nicht im Kader gegen Bayer Leverkusen",
    "text": [
-    "Laia Martret steht in der Liga gegen Union Berlin weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
+    "Glódís Viggósdóttir steht im DFB-Pokal gegen Bayer Leverkusen weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
     "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
    ],
    "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
    "quellen": [
     {
      "name": "Sportschau",
-     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-bundesliga-frauen/ma12306286/1-fc-union-berlin_tsg-hoffenheim/aufstellung"
+     "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/deutschland-dfb-pokal-frauen/ma12165391/bayern-muenchen_bayer-leverkusen/aufstellung"
     }
    ],
-   "quelle_live": true
+   "quelle_live": true,
+   "kurz": "Viggósdóttir nicht im Kader"
+  },
+  {
+   "id": "fehlt-reimann-scf-0111",
+   "pid": "00085",
+   "zeit": "2026-11-01T14:08",
+   "spielerin": "Anna Reimann",
+   "verein": "SC Freiburg",
+   "nr": "",
+   "pos": "TW",
+   "tags": [
+    "AUFSTELLUNG",
+    "POKAL"
+   ],
+   "status": "fraglich",
+   "headline": "Reimann nicht im Kader gegen FC Carl Zeiss Jena",
+   "text": [
+    "Anna Reimann steht im DFB-Pokal gegen FC Carl Zeiss Jena weder in der Startelf noch auf der Bank. Im letzten Ligaspiel stand sie in der Startelf, in den letzten 5 Ligaspielen begann sie 5-mal.",
+    "Einen Grund nennt bisher weder der Verein noch eine andere Quelle. Möglich sind Verletzung, Krankheit oder Schonung, das lässt sich aus der Aufstellung allein nicht ablesen."
+   ],
+   "kickbase": "Ein Ausfall auch am nächsten Ligaspieltag ist möglich. Bis eine Quelle den Grund nennt, führen wir sie als fraglich und stufen sie in der Prognose herunter.",
+   "quellen": [
+    {
+     "name": "DFB-Datencenter",
+     "url": "https://datencenter.dfb.de/matches/sc-freiburg-fc-carl-zeiss-jena-2431333"
+    }
+   ],
+   "quelle_live": true,
+   "kurz": "Reimann nicht im Kader"
   },
   {
    "id": "leverkusen-nationalteam-2511",
@@ -4201,7 +4201,8 @@
     "Bayern-Präsident Herbert Hainer wünscht sich eine Vertragsverlängerung mit Klara Bühl und Franziska Kett. Im Interview mit t-online kündigte er an, bei der Jahreshauptversammlung am Samstag einen entsprechenden Appell an beide zu richten.",
     "Hainer nannte die beiden das beste Duo auf der linken Seite im internationalen Frauenfußball. Den ebenfalls auslaufenden Vertrag von Giulia Gwinn erwähnte er laut t-online nicht. Eine Einigung ist bisher nicht gemeldet.",
     "Update 13:40: Hainer richtete den Appell auf der Jahreshauptversammlung öffentlich an Giulia Gwinn, Klara Bühl und Franziska Kett. Zu Gwinn und Bühl sagte er laut Absolut Fussball: „Ihr könnt hier Legenden werden.“ Die Mitglieder applaudierten, eine Einigung ist weiter nicht gemeldet.",
-    "Update 10:17: Laut 90min.de lässt Bühl ihre Zukunft offen. Barça-Star Aitana Bonmati sagte der Sport Bild, sie würde Bühl gern in Barcelona sehen. Bühls Vertrag in München läuft zum Saisonende aus, eine Einigung ist weiter nicht gemeldet."
+    "Update 10:17: Laut 90min.de lässt Bühl ihre Zukunft offen. Barça-Star Aitana Bonmati sagte der Sport Bild, sie würde Bühl gern in Barcelona sehen. Bühls Vertrag in München läuft zum Saisonende aus, eine Einigung ist weiter nicht gemeldet.",
+    "Update 17:01: Laut Merkur will Bühl in der Winterpause entscheiden, weil sie bei Spielen alle drei Tage kaum Raum dafür sieht. Im Oktober gab es laut ihrem Berater keine Gespräche mit dem FC Bayern, offenbar stehen ihr Optionen bei Barcelona und englischen Topklubs offen."
    ],
    "kickbase": "Für die nächsten Spieltage ändert sich nichts, Gwinn, Bühl und Kett gehören zur Stammelf. Es bleibt bei einem öffentlichen Wunsch des Präsidenten, eine Verlängerung ist nicht gemeldet.",
    "quellen": [
@@ -4220,6 +4221,10 @@
     {
      "name": "90min.de",
      "url": "https://www.90min.de/klara-buhl-gibt-kleinen-hinweis-zu-ihrer-zukunft"
+    },
+    {
+     "name": "Merkur",
+     "url": "https://www.merkur.de/sport/fc-bayern/klara-buehl-fc-bayern-wirbt-um-verbleib-entscheidung-offen-94608197.html"
     }
    ],
    "foto": "fotos/fcb-klara-buhl.webp",
