@@ -8,8 +8,8 @@ Regeln (Finn 26.11.2026, Projektdoc claude/wosoinsider-moment-analyse.md):
 - Je Artikel genau zwei Grafiken, die für die Analyse Sinn ergeben. Eine zeigt immer, wo sie im
   Vergleich zu ihrer Position steht. Bei Verteidigerinnen klassische Abwehrwerte, nicht Tore.
 - Position prüfen: nur Spiele auf der Vergleichsposition zählen (API-Football games.position je Spiel).
-- Immer positiv. Ausnahme: Ab und zu ein kritischer Blick bei Aufsteigern/Kellerteams (Mainz, Nürnberg),
-  wenn jemand extrem abfällt; höchstens einmal in 30 Tagen, nur Stammspielerinnen.
+- Immer positiv. Ausnahme: höchstens einmal in 30 Tagen ein kritischer Blick auf eine Stammspielerin, die extrem abfällt:
+  Mainz/Nürnberg ab 4 Werten bis Perzentil 15, alle anderen Vereine erst ab 5 Werten bis Perzentil 10 (Finn 26.11. 21:02).
 - Headline klein, höchstens zweizeilig (Ticker setzt bei grafik.typ "analyse" 24 px).
 - Grund für HEUTE: Anlass aus tools/moment_anlaesse.json (redaktionell, vom Tageslauf eingetragen)
   oder Datenanlass (Note ab 7,8 am letzten Spieltag plus mindestens drei Stärken ab Perzentil 85).
@@ -52,7 +52,9 @@ MIN_MIN = 450          # Vergleichsgruppe und eigene Minuten
 MIN_MIN_KLEIN = 300    # bei Rückkehr (wenig Spielzeit, mit Hinweis)
 PRO_TAG = 1            # höchstens eine Moment-Analyse pro Tag
 AUTO_PRO_WOCHE = 2     # Datenanlässe pro Woche
-KRITISCH_VEREINE = {"FCN", "M05"}
+KRITISCH_VEREINE = {"FCN", "M05"}   # dort reicht "deutlich": mindestens 4 Werte bis Perzentil 15
+# Finn 26.11. 21:02: bei allen anderen Vereinen auch, wenn es extrem schlecht ist: mindestens 5 Werte bis Perzentil 10
+KRITISCH_EXTREM = (5, 10)
 KRITISCH_ABSTAND = datetime.timedelta(days=30)
 SPERRE_TAGE = 45       # dieselbe Spielerin frühestens nach 45 Tagen wieder (außer neuer redaktioneller Anlass)
 
@@ -164,6 +166,7 @@ for pid, a in AG.items():
     sp = BYID[pid]["spiele"]
     a["tore"] = sum(len(g.get("tore", [])) for g in sp); a["vorl"] = sum(iv(g.get("vorl")) for g in sp); a["min_o"] = sum(iv(g.get("min")) for g in sp)
 
+def s_k(pid): return BYID[pid]["k"]
 def grp(pid): s = BYID[pid]; return gruppe(s["slots"][0][2]) if s.get("slots") else None
 def vergleich(g, mn): return [pid for pid, a in AG.items() if grp(pid) == g and a["min"] >= mn]
 def werte(pids, k): return {p: KZ[k][3](AG[p]) for p in pids}
@@ -242,6 +245,11 @@ LUFT = {"pass": "beim Passvolumen", "pass_ok": "bei den angekommenen Pässen", "
         "tb": "bei den Torbeteiligungen", "drib": "bei den Dribblings", "foul": "bei den Fouls", "gelb": "bei den Karten", "note": "bei der Note"}
 def ordne(ks): return sorted(ks, key=lambda k: (KZ[k][1] in ("DISZIPLIN", "GESAMT"), 0))
 def liste(t): return ", ".join(t[:-1]) + (" und " + t[-1] if len(t) > 1 else t[0])
+def bei_satz(pid, pids, ks):
+    t = []
+    for k in ks:
+        p, rg, v = perz(pid, pids, k); t.append(f"{LUFT[k]} ({fw(k, v)}{' pro 90' if k not in ('pq', 'zq', 'note') else ''}, Rang {rg} von {len(pids)})")
+    return liste(t)
 def stark_satz(pid, pids, ks):
     teile = []
     for k in ks:
@@ -262,7 +270,10 @@ def artikel(pid, anl, modus="positiv"):
     top = ordne(sorted([k for k in alle if pz[k][0] >= 75], key=lambda k: -pz[k][0]))
     tief = sorted([k for k in alle if pz[k][0] <= 30], key=lambda k: pz[k][0])
     if modus == "positiv" and len(top) < (2 if anl else 3): return None, f"keine klare positive Datenstory (Stärken: {len(top)})"
-    if modus == "kritisch" and len([k for k in alle if pz[k][0] <= 15]) < 4: return None, "fällt nicht deutlich ab"
+    if modus == "kritisch":
+        if s_k(pid) in KRITISCH_VEREINE:
+            if len([k for k in alle if pz[k][0] <= 15]) < 4: return None, "fällt nicht deutlich ab"
+        elif len([k for k in alle if pz[k][0] <= KRITISCH_EXTREM[1]]) < KRITISCH_EXTREM[0]: return None, "fällt nicht extrem ab"
     n = s["n"]; nn = nach(n); st, ges = startelf(pid); gn = GNAME[g][0]
     # Positions-Check
     fremd = [(md, pos) for md, pos, m in POSSP[pid] if pos is not None and pos not in APIPOS[g]]
@@ -277,6 +288,7 @@ def artikel(pid, anl, modus="positiv"):
                     + (f", dort fielen {tf} ihrer Tore. " if tf > 1 else ", dort fiel eines ihrer Tore. " if tf == 1 else ". ")
                     + f"Für den Vergleich zählen deshalb nur ihre {a['min']} Minuten als {gn}.")
     intro = (anl or {}).get("text") or ""
+    if modus == "kritisch" and not intro: intro = f"{n} ist bei {VN(s['k'])} gesetzt. Zeit für einen ehrlichen Blick: Wie schlägt sie sich im Vergleich mit den anderen {GNAME[g][1]}?"
     tore, vorl = a["tore"], a["vorl"]
     tv = [x for x in [f"{tore} {'Tor' if tore == 1 else 'Toren'}" if tore else "", f"{vorl} {'Vorlage' if vorl == 1 else 'Vorlagen'}" if vorl else ""] if x]
     fakt = f"{nn if intro else n} stand in {st} von {ges} Ligaspielen in der Startelf" + (f", mit {liste(tv)}" if tv else "") + "."
@@ -295,7 +307,7 @@ def artikel(pid, anl, modus="positiv"):
     else:
         t1 = f"Ihre Stärken: {stark_satz(pid, pids, top[:3])}." if modus == "positiv" else f"Die Werte im Vergleich: {stark_satz(pid, pids, (top or alle)[:2])}."
         if tief and modus == "positiv": t1 += f" Luft nach oben hat sie {LUFT[tief[0]]}."
-        if modus == "kritisch": t1 = f"Deutlich unter dem Schnitt liegt sie bei {stark_satz(pid, pids, tief[:3])}." + (f" Stark ist sie bei {stark_satz(pid, pids, top[:2])}." if top else "")
+        if modus == "kritisch": t1 = f"Deutlich unter dem Schnitt liegt sie {bei_satz(pid, pids, tief[:3])}." + (f" Stark ist sie dagegen {bei_satz(pid, pids, top[:2])}." if top else "")
         ab.append({"h": titel_karte(top, g) if modus == "positiv" else "Die Werte im Vergleich", "g": g_perzentil(pid, pids), "text": [t1]})
         sx = g_streu(pid, pids); kx, ky = STREU[g][0], STREU[g][1]
         vx, vy = KZ[kx][3](a), KZ[ky][3](a)
@@ -367,7 +379,7 @@ if A.auto and not A.nur:
         if JETZT - letzt_k > KRITISCH_ABSTAND:
             for pid in AG:
                 s = BYID[pid]; st, ges = startelf(pid)
-                if s["k"] in KRITISCH_VEREINE and pid not in gesperrt and ges and st / ges >= .6 and grp(pid) not in (None, "TW"):
+                if pid not in gesperrt and ges and st / ges >= .6 and grp(pid) not in (None, "TW"):
                     kandidaten.append(({"pid": pid, "art": "daten", "text": ""}, "kritisch"))
 
 ergebnis = None
