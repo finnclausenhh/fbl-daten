@@ -1,0 +1,43 @@
+name: Moment-Analysen
+
+# Analyse-Artikel zu Einzelspielerinnen mit zwei Grafiken (Finn 26.11.2026), tools/moment_analyse.py.
+# Redaktionelle Anlässe (Nominierung, Nachnominierung, Rückkehr) aus tools/moment_anlaesse.json, die der Tageslauf einträgt,
+# dazu höchstens zwei Datenanlässe pro Woche (Note ab 7,8 am letzten Spieltag). Höchstens eine Analyse pro Tag, immer positiv;
+# kritischer Blick nur Mainz/Nürnberg, höchstens alle 30 Tage.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "20 10 * * *"   # täglich 11.20 Uhr (Winterzeit)
+    - cron: "20 16 * * *"   # 17.20 Uhr, falls ein Anlass erst im Tageslauf dazukam
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daten-schreiben
+  cancel-in-progress: false
+
+jobs:
+  analyse:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Rohdaten (API-Football)
+        run: |
+          git fetch -q origin apifootball-test
+          git worktree add -q /tmp/aft origin/apifootball-test
+      - name: Analyse bauen
+        run: |
+          AUTO=""; [ "$(TZ=Europe/Berlin date +%u)" -le 4 ] && AUTO="--auto"   # Datenanlässe Montag bis Donnerstag, nach dem Spieltag
+          python3 tools/moment_analyse.py --repo . --roh /tmp/aft/apifootball/saison2026/spiele_details.json $AUTO
+      - name: Sichern
+        run: |
+          git add news.json tools/moment_anlaesse.json
+          if git diff --cached --quiet; then echo "keine Änderung"; exit 0; fi
+          git -c user.name="WOSOINSIDER" -c user.email="finnclausenhh@users.noreply.github.com" commit -qm "Moment-Analyse"
+          for i in 1 2 3; do git fetch -q origin main && git rebase -q origin/main && git push -q origin HEAD:main && exit 0; sleep 10; done
+          exit 1
