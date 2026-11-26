@@ -188,7 +188,7 @@ def g_perzentil(pid, pids):
         rows = []
         for k in ks:
             p, rg, v = perz(pid, pids, k)
-            rows.append({"k": k, "l": KZ[k][0], "w": fw(k, v), "p": p, "hb": KZ[k][2]})
+            rows.append({"k": k, "l": KZ[k][0], "w": fw(k, v), "p": p, "r": rg, "hb": KZ[k][2]})
         blocks.append({"t": t, "z": rows})
     a = AG[pid]
     return {"typ": "perzentil", "n": BYID[pid]["n"], "k": BYID[pid]["k"], "verein": VN(BYID[pid]["k"]), "posname": GNAME[g][0], "gruppe": GNAME[g][1], "pos": g, "min": a["min"], "vgl": len(pids),
@@ -255,7 +255,7 @@ def stark_satz(pid, pids, ks):
     teile = []
     for k in ks:
         p, rg, v = perz(pid, pids, k)
-        teile.append(f"{SATZ.get(k, KZ[k][0])} ({fw(k, v)} pro 90, Perzentil {p})" if k not in ("pq", "zq", "note") else f"{SATZ.get(k, KZ[k][0])} ({fw(k, v)}, Perzentil {p})")
+        teile.append(f"{SATZ.get(k, KZ[k][0])} ({fw(k, v)}{' pro 90' if k not in ('pq', 'zq', 'note') else ''}, Platz {rg} von {len(pids)})")
     return liste(teile)
 
 def artikel(pid, anl, modus="positiv"):
@@ -293,7 +293,7 @@ def artikel(pid, anl, modus="positiv"):
     tore, vorl = a["tore"], a["vorl"]
     tv = [x for x in [f"{tore} {'Tor' if tore == 1 else 'Toren'}" if tore else "", f"{vorl} {'Vorlage' if vorl == 1 else 'Vorlagen'}" if vorl else ""] if x]
     fakt = f"{nn if intro else n} stand in {st} von {ges} Ligaspielen in der Startelf" + (f", mit {liste(tv)}" if tv else "") + "."
-    vgl = f"Verglichen wird sie mit {len(pids) - 1} {GNAME[g][1]} mit mindestens {MIN_MIN_KLEIN if klein else MIN_MIN} Minuten. Ein Perzentil von 90 heißt: 90 Prozent der Vergleichsspielerinnen liegen darunter."
+    vgl = f"Verglichen wird sie mit den anderen {len(pids) - 1} {GNAME[g][1]} der Liga, die mindestens {MIN_MIN_KLEIN if klein else MIN_MIN} Minuten gespielt haben. „Besser als 90 %“ heißt: 90 Prozent von ihnen liegen bei diesem Wert unter ihr."
     text = [t for t in [intro + (" " if intro else "") + fakt, pos_satz, vgl] if t]
     ab = []
     if klein:

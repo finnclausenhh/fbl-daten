@@ -18,7 +18,7 @@
    "text": [
     "Svea Stoldt ist für die U23-Länderspiele gegen die USA (30.11. in Worms) und Frankreich (4.12.) nachnominiert. Stoldt stand in 11 von 11 Ligaspielen in der Startelf, mit 5 Toren und 1 Vorlage.",
     "Wichtig für die Einordnung: Innenverteidigerin war sie in 9 von 11 Spielen. Gegen Union Berlin und Bayer Leverkusen spielte sie im Mittelfeld, dort fielen 3 ihrer Tore. Für den Vergleich zählen deshalb nur ihre 810 Minuten als Innenverteidigerin.",
-    "Verglichen wird sie mit 29 Innenverteidigerinnen mit mindestens 450 Minuten. Ein Perzentil von 90 heißt: 90 Prozent der Vergleichsspielerinnen liegen darunter."
+    "Verglichen wird sie mit den anderen 29 Innenverteidigerinnen der Liga, die mindestens 450 Minuten gespielt haben. „Besser als 90 %“ heißt: 90 Prozent von ihnen liegen bei diesem Wert unter ihr."
    ],
    "grafik": {
     "typ": "analyse",
@@ -46,6 +46,7 @@
            "l": "Pässe",
            "w": "48,8",
            "p": 45,
+           "r": 17,
            "hb": 1
           },
           {
@@ -53,6 +54,7 @@
            "l": "Angekommene Pässe",
            "w": "39,1",
            "p": 41,
+           "r": 18,
            "hb": 1
           },
           {
@@ -60,6 +62,7 @@
            "l": "Passquote %",
            "w": "80 %",
            "p": 34,
+           "r": 20,
            "hb": 1
           },
           {
@@ -67,6 +70,7 @@
            "l": "Schlüsselpässe",
            "w": "0,56",
            "p": 90,
+           "r": 4,
            "hb": 1
           }
          ]
@@ -79,6 +83,7 @@
            "l": "Ballgewinne",
            "w": "2,44",
            "p": 34,
+           "r": 20,
            "hb": 1
           },
           {
@@ -86,6 +91,7 @@
            "l": "Tacklings",
            "w": "1,33",
            "p": 38,
+           "r": 19,
            "hb": 1
           },
           {
@@ -93,6 +99,7 @@
            "l": "Interceptions",
            "w": "1,11",
            "p": 45,
+           "r": 17,
            "hb": 1
           },
           {
@@ -100,6 +107,7 @@
            "l": "Zweikämpfe gewonnen",
            "w": "2,11",
            "p": 14,
+           "r": 26,
            "hb": 1
           },
           {
@@ -107,6 +115,7 @@
            "l": "Zweikampfquote %",
            "w": "63 %",
            "p": 72,
+           "r": 9,
            "hb": 1
           }
          ]
@@ -119,6 +128,7 @@
            "l": "Fouls",
            "w": "0,22",
            "p": 97,
+           "r": 2,
            "hb": 0
           },
           {
@@ -126,6 +136,7 @@
            "l": "Gelbe Karten",
            "w": "0,11",
            "p": 55,
+           "r": 14,
            "hb": 0
           }
          ]
@@ -138,6 +149,7 @@
            "l": "Torschüsse",
            "w": "0,56",
            "p": 48,
+           "r": 16,
            "hb": 1
           },
           {
@@ -145,6 +157,7 @@
            "l": "Note Ø",
            "w": "6,8",
            "p": 83,
+           "r": 6,
            "hb": 1
           }
          ]
@@ -152,7 +165,7 @@
        ]
       },
       "text": [
-       "Ihre Stärken: Schlüsselpässe (0,56 pro 90, Perzentil 90), wenige Fouls (0,22 pro 90, Perzentil 97) und Note (6,8, Perzentil 83). Luft nach oben hat sie bei der Zahl gewonnener Zweikämpfe.",
+       "Ihre Stärken: Schlüsselpässe (0,56 pro 90, Platz 4 von 30), wenige Fouls (0,22 pro 90, Platz 2 von 30) und Note (6,8, Platz 6 von 30). Luft nach oben hat sie bei der Zahl gewonnener Zweikämpfe.",
        "Zur Einordnung: Der Hamburger SV steht auf Platz 12, gibt 12,2 Schüsse pro Spiel ab (Platz 12 der Liga) und muss 18,6 Schüsse pro Spiel verteidigen, die zweitmeisten der Liga. Spitzenteams wie Bayern und Köln kommen auf deutlich mehr Abschlüsse. Dass Stoldt trotzdem bei Ideen im Spielaufbau vorne liegt, ist deshalb umso höher einzuordnen. Hinten steht sie fast jedes Spiel unter Druck: Zweikampfquote 63 %, besser als 72 % der Innenverteidigerinnen, und das bei so vielen Schüssen gegen ihr Team."
       ]
      },
