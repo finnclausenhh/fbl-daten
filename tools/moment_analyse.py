@@ -53,9 +53,10 @@ MIN_MIN = 450          # Vergleichsgruppe und eigene Minuten
 MIN_MIN_KLEIN = 300    # bei Rückkehr (wenig Spielzeit, mit Hinweis)
 # Finn 26.11. 23:11: sehr gezielt einsetzen, nie News ersetzen, immer nur zwischen echten News, nie zwei hintereinander
 PRO_TAG = 1            # höchstens eine Moment-Analyse pro Tag
-ABSTAND_TAGE = 3       # zwischen zwei Analysen mindestens 3 Kalendertage
-PRO_WOCHE = 2          # höchstens 2 Analysen in 7 Tagen (Anlässe und Datenanlässe zusammen)
-AUTO_PRO_WOCHE = 1     # davon höchstens 1 Datenanlass
+# Finn 26.11. 23:13: mindestens 5 Tage, eher 7, höchstens eine pro Woche
+ABSTAND_TAGE = 5       # zwischen zwei Analysen mindestens 5 Kalendertage
+PRO_WOCHE = 1          # höchstens eine Analyse pro Kalenderwoche (Montag bis Sonntag)
+AUTO_PRO_WOCHE = 1
 NEWS_DAZWISCHEN = 3    # seit der letzten Analyse mindestens 3 echte News erschienen
 KRITISCH_VEREINE = {"FCN", "M05"}   # dort reicht "deutlich": mindestens 4 Werte bis Perzentil 15
 # Finn 26.11. 21:02: bei allen anderen Vereinen auch, wenn es extrem schlecht ist: mindestens 5 Werte bis Perzentil 10
@@ -416,7 +417,7 @@ def stopp(t):
 if not A.nur:
     letzte_m = max((zeit(m) for m in momente), default=datetime.datetime.min)
     if (JETZT.date() - letzte_m.date()).days < ABSTAND_TAGE: stopp(f"letzte Analyse {letzte_m:%d.%m.}, Abstand {ABSTAND_TAGE} Tage")
-    if sum(1 for m in momente if JETZT - zeit(m) < datetime.timedelta(days=7)) >= PRO_WOCHE: stopp(f"schon {PRO_WOCHE} Analysen in 7 Tagen")
+    if sum(1 for m in momente if zeit(m).isocalendar()[:2] == JETZT.isocalendar()[:2]) >= PRO_WOCHE: stopp(f"diese Woche schon {PRO_WOCHE} Analyse")
     # echte News = news.json ohne Analysen; eigene Datenmeldungen aus apifootball.json zählen nicht als News
     echte = [zeit(m) for m in meld if not str(m.get("id", "")).startswith("moment-") and zeit(m) <= JETZT]
     eigene = [datetime.datetime.fromisoformat(n["zeit"][:16]) for n in AF.get("news", []) if n.get("zeit") and datetime.datetime.fromisoformat(n["zeit"][:16]) <= JETZT]
