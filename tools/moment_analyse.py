@@ -32,6 +32,7 @@ ap.add_argument("--trocken", action="store_true", help="nichts schreiben, Artike
 ap.add_argument("--nur", default=None, help="nur diese Spielerin (pid), Anlass muss in moment_anlaesse.json stehen oder --auto")
 ap.add_argument("--auto", action="store_true", help="Datenanlass suchen (wöchentlich)")
 ap.add_argument("--jetzt", default=None)
+ap.add_argument("--neu", default=None, help="erschienene Analyse (id) mit aktuellem Stand neu bauen, Zeit bleibt")
 A = ap.parse_args()
 R = lambda *p: os.path.join(A.repo, *p)
 lade = lambda p, d=None: json.load(open(p, encoding="utf-8")) if os.path.exists(p) else d
@@ -190,7 +191,7 @@ def g_perzentil(pid, pids):
             rows.append({"k": k, "l": KZ[k][0], "w": fw(k, v), "p": p, "hb": KZ[k][2]})
         blocks.append({"t": t, "z": rows})
     a = AG[pid]
-    return {"typ": "perzentil", "n": BYID[pid]["n"], "k": BYID[pid]["k"], "pos": g, "min": a["min"], "vgl": len(pids),
+    return {"typ": "perzentil", "n": BYID[pid]["n"], "k": BYID[pid]["k"], "verein": VN(BYID[pid]["k"]), "posname": GNAME[g][0], "gruppe": GNAME[g][1], "pos": g, "min": a["min"], "vgl": len(pids),
             "hinweis": f"nur Spiele als {GNAME[g][0]}" if any(pos is not None and pos not in APIPOS[g] for _, pos, _ in POSSP[pid]) else "", "bl": blocks}
 def g_streu(pid, pids):
     g = grp(pid); kx, ky, titel, ecke = STREU[g][:4]
@@ -308,8 +309,10 @@ def artikel(pid, anl, modus="positiv"):
         t1 = f"Ihre Stärken: {stark_satz(pid, pids, top[:3])}." if modus == "positiv" else f"Die Werte im Vergleich: {stark_satz(pid, pids, (top or alle)[:2])}."
         if tief and modus == "positiv": t1 += f" Luft nach oben hat sie {LUFT[tief[0]]}."
         if modus == "kritisch": t1 = f"Deutlich unter dem Schnitt liegt sie {bei_satz(pid, pids, tief[:3])}." + (f" Stark ist sie dagegen {bei_satz(pid, pids, top[:2])}." if top else "")
-        ab.append({"h": titel_karte(top, g) if modus == "positiv" else "Die Werte im Vergleich", "g": g_perzentil(pid, pids), "text": [t1]})
-        sx = g_streu(pid, pids); kx, ky = STREU[g][0], STREU[g][1]
+        sx = g_streu(pid, pids)
+        kt = kontext(pid, top, [q for q in pids if BYID[q]["n"] in sx["lab"]], pz) if modus == "positiv" else ""
+        ab.append({"h": titel_karte(top, g) if modus == "positiv" else "Die Werte im Vergleich", "g": g_perzentil(pid, pids), "text": [t for t in [t1, kt] if t]})
+        kx, ky = STREU[g][0], STREU[g][1]
         vx, vy = KZ[kx][3](a), KZ[ky][3](a)
         lage = ("über" if vx >= sx["mx"] else "unter") + " dem Median " + LUFT[kx] + ", " + ("über" if vy >= sx["my"] else "unter") + " dem Median " + LUFT[ky]
         andere = [n_ for n_ in sx["lab"][1:] if (lambda q: q["x"] >= sx["mx"] and q["y"] >= sx["my"])(next(q for q in sx["p"] if q["n"] == n_))][:2]
@@ -337,6 +340,33 @@ def artikel(pid, anl, modus="positiv"):
                        "daten": f"Datenbasis: API-Football (Werte pro 90, nur Spiele als {gn}), Tore und Minuten aus Spielberichten. Stand {AF.get('md') or ''}. Spieltag."},
             "kickbase": " ".join(kb), "quellen": q, "moment": {"art": (anl or {}).get("art") or "daten", "modus": modus}}, None
 BYID_N = {p["n"]: p["k"] for p in SP}
+KURZ = {"FCB": "Bayern", "WOB": "Wolfsburg", "SGE": "Frankfurt", "B04": "Leverkusen", "KOE": "Köln", "RBL": "Leipzig", "SVW": "Bremen", "SCF": "Freiburg",
+        "FCU": "Union", "VFB": "Stuttgart", "TSG": "Hoffenheim", "HSV": "der HSV", "FCN": "Nürnberg", "M05": "Mainz"}
+ORD = {2: "zweit", 3: "dritt", 4: "viert"}
+OFF = {"kp", "shot", "tb", "drib"}; DEF = {"bg", "zq", "tkl", "int", "zkw"}
+def kontext(pid, top, vergl_pids, pz=None):
+    """Finn 26.11.: Werte im Verhältnis zum Verein einordnen. Starke Werte bei einem Team aus der unteren Hälfte wiegen schwerer
+    als bei Spitzenteams, die ohnehin viel Ball und viele Abschlüsse haben."""
+    k = BYID[pid]["k"]; rang = {t["k"]: t["rang"] for t in AF.get("team", [])}; sch = AF.get("schuesse", {})
+    if k not in rang or k not in sch or rang[k] < 7: return ""
+    rf = 1 + sum(1 for v in sch.values() if v["f"] > sch[k]["f"]); rg = 1 + sum(1 for v in sch.values() if v["g"] > sch[k]["g"])
+    andere = []
+    for q in vergl_pids:
+        kk = BYID[q]["k"]
+        if q != pid and rang.get(kk, 99) <= 6 and KURZ[kk] not in andere: andere.append(KURZ[kk])
+    vn = VN(k); vor = nach(BYID[pid]["n"])
+    if re.match(r"(Hamburger SV|FC |1\. FC|VfL|VfB|SC )", vn): vn = "der " + vn
+    elif vn.startswith("TSG"): vn = "die " + vn
+    t = f"Zur Einordnung: {vn[0].upper() + vn[1:]} steht auf Platz {rang[k]}, gibt {dz(sch[k]['f'])} Schüsse pro Spiel ab (Platz {rf} der Liga) und muss {dz(sch[k]['g'])} Schüsse pro Spiel verteidigen" + (", die meisten der Liga." if rg == 1 else f", die {ORD.get(rg, str(rg) + '.')}meisten der Liga." if rg <= 4 else ".")
+    o = [x for x in top if x in OFF]; d = [x for x in top if x in DEF]
+    if o and andere:
+        t += f" Spitzenteams wie {liste(andere[:2])} kommen auf deutlich mehr Abschlüsse. Dass {vor} trotzdem bei {liste([STARK[x] for x in o[:2]]).replace('vielen ', '').replace('starken ', '')} vorne liegt, ist deshalb umso höher einzuordnen."
+    elif o:
+        t += f" In einem Team mit so wenigen eigenen Abschlüssen wiegen ihre Werte bei {liste([STARK[x] for x in o[:2]])} besonders schwer."
+    dd = [x for x in ("zq", "bg", "zkw") if pz and pz.get(x) and pz[x][0] >= 60]
+    if rg <= 4 and dd:
+        x = dd[0]; t += f" Hinten steht sie fast jedes Spiel unter Druck: {KZ[x][0].replace(' %', '')} {fw(x, pz[x][2])}, besser als {pz[x][0]} % der {GNAME[grp(pid)][1]}, und das bei so vielen Schüssen gegen ihr Team."
+    return t
 def titel_karte(top, g):
     t = [KZ[k][1] for k in top if KZ[k][1] not in ("DISZIPLIN", "GESAMT")]
     return {"OFFENSIVE": "Gefahr nach vorn", "ABWEHR": "Stark gegen den Ball", "SPIELAUFBAU": "Im Aufbau mit Ideen"}.get(t[0] if t else "", "Sauber und zuverlässig")
@@ -363,6 +393,18 @@ momente = [m for m in meld if str(m.get("id", "")).startswith("moment-")]
 def zeit(m):
     try: return datetime.datetime.fromisoformat(m["zeit"][:16])
     except Exception: return datetime.datetime.min
+if A.neu:   # neu bauen, z. B. nach Änderungen an Text oder Grafik (Finn 26.11.)
+    alt = next(m for m in momente if m["id"] == A.neu)
+    an = next((x for x in ANL.get("anlaesse", []) if x.get("erledigt") == A.neu), {"pid": alt["pid"], "art": alt.get("moment", {}).get("art", "daten"), "text": alt["text"][0].split(" " + BYID[alt["pid"]]["n"].split()[-1] + " stand")[0] if alt.get("moment", {}).get("art") == "daten" else ""})
+    art, grund = artikel(alt["pid"], an, alt.get("moment", {}).get("modus", "positiv"))
+    if not art: print("nicht neu gebaut:", grund); sys.exit(1)
+    art["id"], art["zeit"] = alt["id"], alt["zeit"]
+    if A.trocken: print(json.dumps(art, ensure_ascii=False, indent=1)); sys.exit(0)
+    NEWS["meldungen"] = [art if m.get("id") == A.neu else m for m in NEWS["meldungen"]]
+    json.dump(NEWS, open(R("news.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    MA_P = R("tools", "moment_analysen.json"); MA = lade(MA_P, {"meldungen": []})
+    MA["meldungen"] = [art if m.get("id") == A.neu else m for m in MA["meldungen"]]
+    json.dump(MA, open(MA_P, "w", encoding="utf-8"), ensure_ascii=False, indent=1); print("neu gebaut:", A.neu); sys.exit(0)
 heute = [m for m in momente if zeit(m).date() == JETZT.date()]
 if len(heute) >= PRO_TAG and not A.nur: print("heute schon eine Moment-Analyse"); sys.exit(0)
 gesperrt = {m["pid"] for m in momente if JETZT - zeit(m) < datetime.timedelta(days=SPERRE_TAGE)}
