@@ -352,6 +352,12 @@ def verlauf_satz(pid):
     return "Die letzten Spieltage: " + ", ".join(f"{g['md']}. {w.get(g.get('art'), '')}" + (f" ({iv(g.get('min'))} Min.)" if iv(g.get("min")) else "") for g in sp) + "."
 
 # ---------------------------------------------------------------- Auswahl: was erscheint heute?
+# erschienene Analysen, die ein Lauf beim Spiegeln aus news.json verloren hat, wieder einfügen
+_ids = {m.get("id") for m in NEWS.get("meldungen", [])}
+for _m in reversed((lade(R("tools", "moment_analysen.json"), {}) or {}).get("meldungen", [])):
+    if _m.get("id") not in _ids:
+        NEWS["meldungen"].insert(0, _m); _ids.add(_m.get("id"))
+        if not A.trocken: json.dump(NEWS, open(R("news.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1); print("wieder eingefügt:", _m.get("id"))
 meld = NEWS.get("meldungen", [])
 momente = [m for m in meld if str(m.get("id", "")).startswith("moment-")]
 def zeit(m):
@@ -400,5 +406,9 @@ if A.trocken:
 if an.get("art") != "daten": an["erledigt"] = art["id"]
 NEWS["meldungen"].insert(0, art)
 json.dump(NEWS, open(R("news.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+# Sicherung für die Claude-Läufe: sie spiegeln ihre news.json nach GitHub und fügen Meldungen aus dieser Datei wieder ein
+MA_P = R("tools", "moment_analysen.json"); MA = lade(MA_P, {"hinweis": "Von tools/moment_analyse.py erzeugte Analysen. Die Läufe fügen fehlende ids vorne in news.json ein (wie aufstellungen_live.json).", "meldungen": []})
+MA["meldungen"] = [art] + [m for m in MA["meldungen"] if m.get("id") != art["id"]][:29]
+json.dump(MA, open(MA_P, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 json.dump(ANL, open(ANL_P, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 print("erschienen:", art["headline"])
