@@ -40,6 +40,7 @@ if letzte and jetzt - letzte < LUECKE:
 
 GRUPPE = {"FORMTIEF": "FORM", "FORMHOCH": "FORM", "AUFWIND": "FORM"}
 def art_von(n):
+    if str(n.get("id", "")).startswith("moment-"): return "ANALYSE"   # Moment-Analysen (tools/moment_analyse.py)
     t = (n.get("tags") or [""])[0]
     return GRUPPE.get(t, t)
 erschienen = []
@@ -53,6 +54,8 @@ for n in af.get("news", []):
         erschienen.append((datetime.datetime.fromisoformat(n["zeit"]), art_von(n)))
 erschienen.sort()
 zuletzt_art = erschienen[-1][1] if erschienen else None
+if zuletzt_art == "ANALYSE":   # Finn 26.11.2026: Analysen stehen immer zwischen echten News, nie direkt eine Datenmeldung dahinter
+    print("zuletzt erschien eine Moment-Analyse, erst nach der nächsten echten News"); sys.exit(0)
 heute = {a for z, a in erschienen if z.date() == jetzt.date()}
 eigene_heute = sum(1 for n in af.get("news", []) if n.get("zeit") and datetime.datetime.fromisoformat(n["zeit"]).date() == jetzt.date() and datetime.datetime.fromisoformat(n["zeit"]) <= jetzt)
 if eigene_heute >= PRO_TAG:

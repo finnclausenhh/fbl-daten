@@ -51,8 +51,12 @@ if not ROH: print("keine Rohdaten", A.roh); sys.exit(0)
 
 MIN_MIN = 450          # Vergleichsgruppe und eigene Minuten
 MIN_MIN_KLEIN = 300    # bei Rückkehr (wenig Spielzeit, mit Hinweis)
+# Finn 26.11. 23:11: sehr gezielt einsetzen, nie News ersetzen, immer nur zwischen echten News, nie zwei hintereinander
 PRO_TAG = 1            # höchstens eine Moment-Analyse pro Tag
-AUTO_PRO_WOCHE = 2     # Datenanlässe pro Woche
+ABSTAND_TAGE = 3       # zwischen zwei Analysen mindestens 3 Kalendertage
+PRO_WOCHE = 2          # höchstens 2 Analysen in 7 Tagen (Anlässe und Datenanlässe zusammen)
+AUTO_PRO_WOCHE = 1     # davon höchstens 1 Datenanlass
+NEWS_DAZWISCHEN = 3    # seit der letzten Analyse mindestens 3 echte News erschienen
 KRITISCH_VEREINE = {"FCN", "M05"}   # dort reicht "deutlich": mindestens 4 Werte bis Perzentil 15
 # Finn 26.11. 21:02: bei allen anderen Vereinen auch, wenn es extrem schlecht ist: mindestens 5 Werte bis Perzentil 10
 KRITISCH_EXTREM = (5, 10)
@@ -407,6 +411,17 @@ if A.neu:   # neu bauen, z. B. nach Änderungen an Text oder Grafik (Finn 26.11.
     json.dump(MA, open(MA_P, "w", encoding="utf-8"), ensure_ascii=False, indent=1); print("neu gebaut:", A.neu); sys.exit(0)
 heute = [m for m in momente if zeit(m).date() == JETZT.date()]
 if len(heute) >= PRO_TAG and not A.nur: print("heute schon eine Moment-Analyse"); sys.exit(0)
+def stopp(t):
+    print(t); sys.exit(0)
+if not A.nur:
+    letzte_m = max((zeit(m) for m in momente), default=datetime.datetime.min)
+    if (JETZT.date() - letzte_m.date()).days < ABSTAND_TAGE: stopp(f"letzte Analyse {letzte_m:%d.%m.}, Abstand {ABSTAND_TAGE} Tage")
+    if sum(1 for m in momente if JETZT - zeit(m) < datetime.timedelta(days=7)) >= PRO_WOCHE: stopp(f"schon {PRO_WOCHE} Analysen in 7 Tagen")
+    # echte News = news.json ohne Analysen; eigene Datenmeldungen aus apifootball.json zählen nicht als News
+    echte = [zeit(m) for m in meld if not str(m.get("id", "")).startswith("moment-") and zeit(m) <= JETZT]
+    eigene = [datetime.datetime.fromisoformat(n["zeit"][:16]) for n in AF.get("news", []) if n.get("zeit") and datetime.datetime.fromisoformat(n["zeit"][:16]) <= JETZT]
+    if sum(1 for z in echte if z > letzte_m) < NEWS_DAZWISCHEN: stopp(f"seit der letzten Analyse weniger als {NEWS_DAZWISCHEN} echte News")
+    if eigene and max(eigene) > max(echte, default=datetime.datetime.min): stopp("zuletzt erschien eine eigene Datenmeldung, Analyse erst nach der nächsten echten News")
 gesperrt = {m["pid"] for m in momente if JETZT - zeit(m) < datetime.timedelta(days=SPERRE_TAGE)}
 
 kandidaten = []
