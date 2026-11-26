@@ -1,19 +1,46 @@
 {
  "hinweis": "Anlässe für Moment-Analysen (tools/moment_analyse.py). Der Tageslauf trägt hier ein, wenn eine FBL-Spielerin nominiert, nachnominiert, erstmals berufen wird oder ins Nationalteam zurückkehrt. Felder: pid, art (nominierung|nachnominierung|erstmals|rueckkehr|meilenstein), text (Einstieg, ein bis zwei Sätze mit Quelle), optional headline, kickbase, verlauf_text, ausfall [von_md, bis_md, label], quellen, bis (Datum, danach verfällt der Anlass), modus (positiv|kritisch). erledigt setzt das Skript.",
  "anlaesse": [
-  {"pid": "00167", "art": "nachnominierung", "bis": "2026-12-04",
+  {
+   "pid": "00167",
+   "art": "nachnominierung",
+   "bis": "2026-12-04",
    "headline": "U23-Ruf für die Torjägerin aus der Abwehr",
    "text": "Svea Stoldt ist für die U23-Länderspiele gegen die USA (30.11. in Worms) und Frankreich (4.12.) nachnominiert.",
    "kickbase": "Die Länderspiele fallen in die Pause. Zwei Einsätze in fünf Tagen, danach eine Woche Pause: kein Grund, sie aufzustellen oder zu verkaufen, nur weil sie unterwegs ist.",
-   "tags": ["NATIONALTEAM"],
-   "quellen": [{"name": "DFB U23", "url": "https://www.dfb.de/frauen/nationalmannschaften/u-23"}]},
-  {"pid": "00009", "art": "rueckkehr", "bis": "2026-12-04",
+   "tags": [
+    "NATIONALTEAM"
+   ],
+   "quellen": [
+    {
+     "name": "DFB U23",
+     "url": "https://www.dfb.de/frauen/nationalmannschaften/u-23"
+    }
+   ],
+   "erledigt": "moment-00167-20261126"
+  },
+  {
+   "pid": "00009",
+   "art": "rueckkehr",
+   "bis": "2026-12-04",
    "headline": "Gwinn zurück im DFB-Team: Wie weit ist sie?",
    "text": "Bundestrainer Christian Wück hat Giulia Gwinn für die Südamerikareise nominiert: Argentinien in La Plata (30.11.) und Peru in Rio (4.12.). Nach ihrem Außenbandriss im linken Sprunggelenk ist die Kapitänin wieder dabei.",
    "verlauf_text": "Gwinn fehlte am 7. und 8. Spieltag. Gegen Werder kam sie für 27 Minuten, in Wolfsburg stand sie 62 Minuten in der Startelf, gegen Hoffenheim saß sie 90 Minuten auf der Bank. In der Champions League gegen Austria Wien spielte sie 78 Minuten. Die Minuten kommen, ein Selbstläufer ist der Platz rechts hinten aber noch nicht.",
-   "ausfall": [7, 8, "Außenbandriss"],
+   "ausfall": [
+    7,
+    8,
+    "Außenbandriss"
+   ],
    "kickbase": "Die Reise ist lang: Nachtspiel in La Plata, dann Rio am 4.12. um 22.15 Uhr. Zuletzt saß sie 90 Minuten auf der Bank. Spielt sie, gehört sie zu den Besten ihrer Position.",
-   "tags": ["NATIONALTEAM"],
-   "quellen": [{"name": "DFB", "url": "https://www.dfb.de/news/aufgebot-fuer-suedamerikareise-lohmann-zurueck-im-dfb-kader"}]}
+   "tags": [
+    "NATIONALTEAM"
+   ],
+   "quellen": [
+    {
+     "name": "DFB",
+     "url": "https://www.dfb.de/news/aufgebot-fuer-suedamerikareise-lohmann-zurueck-im-dfb-kader"
+    }
+   ]
+  }
  ]
 }
