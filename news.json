@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-26T19:51",
+ "stand": "2026-11-26T20:45",
  "meldungen": [
   {
    "id": "fehlt-reimann-scf-0111",
@@ -234,7 +234,8 @@
    "text": [
     "Laura Freigang ist wegen verpasster Dopingkontrollen bis zum 7. Oktober 2027 gesperrt. Darauf haben sich die Anti-Doping-Agenturen Wada und Nada, der DFB und die Stürmerin von Eintracht Frankfurt laut Nada in einem Vergleich geeinigt.",
     "Sie soll innerhalb von zwölf Monaten dreimal nicht am angegebenen Ort für eine Kontrolle gewesen sein. Unter Dopingverdacht steht sie nicht, laut Medien waren alle bisherigen Proben negativ.",
-    "Update 16:19: Auch die DW berichtet darüber. Sie nennt die Sperre von 16 Monaten und schreibt, dass Freigang die WM 2027 in Brasilien verpasst und ihr Verbleib in Frankfurt ungewiss ist."
+    "Update 16:19: Auch die DW berichtet darüber. Sie nennt die Sperre von 16 Monaten und schreibt, dass Freigang die WM 2027 in Brasilien verpasst und ihr Verbleib in Frankfurt ungewiss ist.",
+    "Update 18:30: Auch RND berichtet darüber und nennt die Sperre bis Oktober 2027."
    ],
    "kickbase": "Freigang fällt für den Rest der Saison aus und taucht in keiner Aufstellung mehr auf. Wer sie im Kader hat, plant ohne sie und kann sie nur noch verkaufen.",
    "quellen": [
@@ -245,6 +246,10 @@
     {
      "name": "DW",
      "url": "https://www.dw.com/de/16-monate-gesperrt-laura-freigang-verpasst-fu%C3%9Fball-wm-in-brasilien/a-80064996"
+    },
+    {
+     "name": "RND",
+     "url": "https://www.rnd.de/sport/verpasste-dopingtests-nationalspielerin-laura-freigang-verpasst-wm-52VFCQ77JNDNFDITUM4QPKCE2Q.html"
     }
    ],
    "foto": "fotos/sge-laura-freigang.webp",
