@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-27T07:51",
+ "stand": "2026-11-27T08:45",
  "meldungen": [
   {
    "id": "fehlt-reimann-scf-0111",
@@ -215,6 +215,37 @@
     }
    ],
    "quelle_live": true
+  },
+  {
+   "id": "gwinn-2711",
+   "pid": "00009",
+   "zeit": "2026-11-27T05:40",
+   "spielerin": "Giulia Gwinn",
+   "verein": "FC Bayern",
+   "nr": "",
+   "pos": "ABW",
+   "tags": [
+    "NATIONALTEAM"
+   ],
+   "status": "fit",
+   "headline": "Gwinn lässt Zukunft beim FC Bayern offen",
+   "text": [
+    "Giulia Gwinn hat über eine Vertragsverlängerung beim FC Bayern noch nicht entschieden. Ihr Vertrag läuft bis zum 30. Juni 2027. Auf einer Pressekonferenz der DFB-Frauen in Südamerika sagte sie, sie wolle sich Zeit nehmen und werde \"keine zehn Verträge mehr\" unterschreiben.",
+    "Gleichzeitig betonte die Rechtsverteidigerin, dass sie sich in München sehr wohlfühle. Auch der Vertrag von Klara Bühl läuft im Sommer aus."
+   ],
+   "kickbase": "Für die Aufstellung ändert das nichts: Gwinn ist beim FC Bayern gesetzt, die Vertragsfrage betrifft erst die Zeit nach der Saison.",
+   "quellen": [
+    {
+     "name": "Saarbrücker Zeitung",
+     "url": "https://www.saarbruecker-zeitung.de/sport/fussball/frauenfussball/gwinn-laesst-zukunft-beim-fc-bayern-offen_aid-159093285"
+    }
+   ],
+   "foto": "fotos/fcb-giulia-gwinn.webp",
+   "foto_credit": {
+    "autor": "Steffen Prößdorf",
+    "lizenz": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:2022-06-24_Fussball,_Frauen,_L%C3%A4nderspiel,_Deutschland_-_Schweiz_1DX_0722_by_Stepro.jpg"
+   }
   },
   {
    "id": "moment-00167-20261126",
@@ -7936,199 +7967,6 @@
     {
      "name": "fussballnationalmannschaft.net",
      "url": "https://www.fussballnationalmannschaft.net/fc-bayern-frauen-pressekonferenz-heute-barcala-wolfsburg-123332949.html"
-    }
-   ]
-  },
-  {
-   "typ": "punkt",
-   "id": "punkt-md10",
-   "md": 10,
-   "zeit": "2026-11-12T19:01",
-   "headline": "Spieltag 10 auf den Punkt · Update 17:28",
-   "sicher": [
-    {
-     "n": "Svea Stoldt",
-     "k": "HSV",
-     "warum": "Alle neun Ligaspiele über 90 Minuten, vier Tore in den letzten drei Spielen, und Gegner Mainz kassiert 3,33 Tore pro Spiel."
-    },
-    {
-     "n": "Ella Peddemors",
-     "k": "WOB",
-     "warum": "Elf Tore in neun Ligaspielen, jedes Spiel über 90 Minuten und dazu Ecken und Freistöße, allerdings gegen die beste Abwehr der Liga (FC Bayern, 0,89 Gegentore)."
-    },
-    {
-     "n": "Laura Freigang",
-     "k": "SGE",
-     "warum": "Neunmal in der Startelf, 12 Schüsse in den letzten drei Spielen, Leipzig kassiert 1,89 Tore pro Spiel."
-    },
-    {
-     "n": "Pernille Harder",
-     "k": "FCB",
-     "warum": "Die einzige Bayern-Spielerin, die die letzten vier Ligaspiele alle begann, in Paris legte sie das 2:0 von Bühl auf."
-    }
-   ],
-   "finger_weg": [
-    {
-     "n": "Vanessa Gilles",
-     "k": "FCB",
-     "warum": "Fällt laut Kicker und SPORT1 mit einer Muskelverletzung mehrere Wochen aus."
-    },
-    {
-     "n": "Kassandra Potsi",
-     "k": "FCB",
-     "warum": "Fällt laut SPORT1 nach einem Schlag aufs Knie aus, die Ausfallzeit ist offen."
-    },
-    {
-     "n": "Emilía Ásgeirsdóttir",
-     "k": "RBL",
-     "warum": "Muskuläre Verletzung im Oberschenkel, Leipzig nennt keinen Rückkehrtermin."
-    },
-    {
-     "n": "Nora Scherer",
-     "k": "SCF",
-     "warum": "Kreuzbandriss im U20-Spiel, Saisonaus."
-    }
-   ],
-   "tipp": [
-    {
-     "n": "Carlotta Imping",
-     "k": "KOE",
-     "warum": "Bis Spieltag 6 nur 4 Ligaminuten, seitdem 32, 81 und 90 Minuten, Nürnberg kassiert 2,56 Tore pro Spiel."
-    },
-    {
-     "n": "Verena Wieder",
-     "k": "VFB",
-     "warum": "Dreimal in Folge in der Startelf, in Mainz zwei Tore, eines per Kopf nach einer Ecke."
-    },
-    {
-     "n": "Fany Proniez",
-     "k": "FCN",
-     "warum": "Begann die letzten beiden Ligaspiele und traf dabei dreimal, Nürnberg spielt zu Hause gegen Köln."
-    }
-   ],
-   "achtung": [
-    {
-     "n": "Elvira Herzog",
-     "k": "RBL",
-     "warum": "Saß nach ihrer Erkältung in Köln nur auf der Bank, Waldbillig stand im Tor, wer gegen Frankfurt beginnt, ist offen."
-    },
-    {
-     "n": "Giulia Gwinn",
-     "k": "FCB",
-     "warum": "Stand in Paris erstmals nach dem Außenbandriss in der Startelf, ob sie auch in Wolfsburg beginnt, ist offen."
-    },
-    {
-     "n": "Glódís Viggósdóttir",
-     "k": "FCB",
-     "warum": "Nach Knieproblemen wieder fit, saß in Paris aber auf der Bank, ohne Gilles ist in der Innenverteidigung ein Platz frei."
-    },
-    {
-     "n": "Laia Martret",
-     "k": "TSG",
-     "warum": "Fehlte gegen Union ohne genannten Grund im Kader, sie tritt bei Hoffenheim die Ecken."
-    }
-   ],
-   "analyse_link": true,
-   "titel_basis": "Spieltag 10 auf den Punkt",
-   "updates": [
-    {
-     "zeit": "2026-11-13T17:28",
-     "k": "HSV",
-     "text": "Offizielle Aufstellung: HSV gegen Mainz",
-     "art": "aufstellung",
-     "partie": "12306295"
-    },
-    {
-     "zeit": "2026-11-13T14:51",
-     "k": "SCF",
-     "text": "Stierli startet statt Axtmann",
-     "art": "prognose"
-    },
-    {
-     "zeit": "2026-11-12T19:01",
-     "k": "SCF",
-     "text": "Reimann startet statt Barth (Reimann und Stierli zurück für Hoffenheim)",
-     "art": "prognose"
-    }
-   ],
-   "wackel": [
-    {
-     "k": "FCU",
-     "p": "DM",
-     "a": "Gräwe",
-     "b": "Heiseler",
-     "anstoss": "2026-11-14T14:00"
-    },
-    {
-     "k": "RBL",
-     "p": "ST",
-     "a": "van Dijk",
-     "b": "Pfister",
-     "anstoss": "2026-11-15T16:00"
-    },
-    {
-     "k": "VFB",
-     "p": "ST",
-     "a": "Rückert",
-     "b": "Arouna",
-     "anstoss": "2026-11-16T18:00"
-    }
-   ],
-   "lebt_bis": "2026-11-13T18:30",
-   "aktualisiert": "2026-11-13T17:28",
-   "fertig": true
-  },
-  {
-   "id": "martret-1211",
-   "pid": "00142",
-   "zeit": "2026-11-12T17:14",
-   "spielerin": "Laia Martret",
-   "verein": "TSG Hoffenheim",
-   "nr": "",
-   "pos": "ST",
-   "tags": [
-    "VERLETZUNG",
-    "VORBERICHT"
-   ],
-   "status": "fraglich",
-   "headline": "Martret ist gegen Freiburg fraglich",
-   "kurz": "Martret gegen Freiburg fraglich",
-   "text": [
-    "Laia Martret könnte Hoffenheim auch gegen den SC Freiburg fehlen, ob sie im Kader steht, entscheidet sich kurzfristig. Gegen Union Berlin war sie nicht im Kader, davor stand sie fünfmal in Folge in der Startelf.",
-    "Weiterhin fehlen Féli Delacauw und Naomi Luyet."
-   ],
-   "kickbase": "Martret ist Stammspielerin, aber für Samstag offen. Erst die offizielle Aufstellung bringt Klarheit.",
-   "quellen": [
-    {
-     "name": "TSG Hoffenheim",
-     "url": "https://www.tsg-hoffenheim.de/aktuelles/news/2026/11/virsinger-vor-tsgscf-muessen-grosschancen-verwandeln"
-    }
-   ]
-  },
-  {
-   "id": "reimann-1211",
-   "pid": "00085",
-   "zeit": "2026-11-12",
-   "spielerin": "Anna Reimann",
-   "verein": "SC Freiburg",
-   "nr": "",
-   "pos": "TW",
-   "tags": [
-    "RÜCKKEHR",
-    "VORBERICHT"
-   ],
-   "status": "fit",
-   "headline": "Reimann zurück, Stierli nach Rotsperre wieder dabei",
-   "kurz": "Reimann und Stierli zurück für Hoffenheim",
-   "text": [
-    "Torhüterin Anna Reimann steht nach muskulären Beschwerden wieder auf dem Platz, sie hatte im Pokal gegen Jena und gegen Nürnberg gefehlt. Julia Stierli ist nach ihrer Rotsperre in der Liga wieder spielberechtigt. Emma Memminger und Alina Axtmann sind voll ins Teamtraining integriert.",
-    "Weiterhin fehlen Nia Szenk (Adduktoren), Jana Vojteková (muskulär), Zoe Schick (Kreuzbandriss), Tessa Blumenberg (Reha), Nora Scherer (Kreuzbandriss) sowie Laura Benkarth, Ingibjörg Sigurðardóttir und Meret Felde (Baby- bzw. Schwangerschaftspause). Freiburg spielt am Samstag um 12 Uhr in Hoffenheim."
-   ],
-   "kickbase": "Reimann ist wieder die Nummer eins: Vor der kurzen Muskelpause stand sie in jedem Ligaspiel im Tor, und Torhüterinnen kehren nach so einer Pause in der Regel direkt zurück. Wir erwarten sie in Hoffenheim in der Startelf, Barth geht wieder auf die Bank. Stierli kann in Hoffenheim wieder in der Abwehr starten.",
-   "quellen": [
-    {
-     "name": "SC Freiburg",
-     "url": "https://www.scfreiburg.com/aktuell/nachrichten/frauen-maedchen/2026/27/vorberichte/in-hoffenheim-kaltschnaeuziger-und-klarer-auftreten/"
     }
    ]
   }
