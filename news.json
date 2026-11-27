@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-27T15:45",
+ "stand": "2026-11-27T16:45",
  "meldungen": [
   {
    "id": "fehlt-reimann-scf-0111",
@@ -215,6 +215,69 @@
     }
    ],
    "quelle_live": true
+  },
+  {
+   "id": "lichtfus-2711",
+   "pid": "00120",
+   "zeit": "2026-11-27T16:10",
+   "spielerin": "Lisa Lichtfus",
+   "verein": "TSG Hoffenheim",
+   "nr": "",
+   "pos": "TW",
+   "tags": [
+    "VERLETZUNG"
+   ],
+   "status": "verletzt",
+   "headline": "Lichtfus erleidet Kreuzbandriss",
+   "kurz": "Lichtfus fällt mit Kreuzbandriss aus",
+   "text": [
+    "Torhüterin Lisa Lichtfus von der TSG Hoffenheim hat sich einen Kreuzbandriss zugezogen. Das meldet der Verein auf seiner Webseite.",
+    "Zu Operation und Ausfallzeit lag beim Lauf noch keine Angabe vor. Ein Kreuzbandriss bedeutet in der Regel eine Pause von mehreren Monaten."
+   ],
+   "kickbase": "Lichtfus stand in dieser Saison in keinem Ligaspiel auf dem Platz und saß seit dem 3. Spieltag auf der Bank. Für Kickbase vermutlich ohne Bedeutung.",
+   "quellen": [
+    {
+     "name": "TSG Hoffenheim",
+     "url": "https://www.tsg-hoffenheim.de/aktuelles/news/2026/11/kreuzbandriss-bei-lisa-lichtfus"
+    }
+   ],
+   "foto": "fotos/tsg-lisa-lichtfus.webp",
+   "foto_credit": {
+    "autor": "WOSOINSIDER",
+    "lizenz": "Platzhalter (kein Vereinsfoto)",
+    "url": "https://www.tsg-hoffenheim.de/teams/frauen"
+   }
+  },
+  {
+   "id": "maas-2711",
+   "pid": "00092",
+   "zeit": "2026-11-27T16:15",
+   "spielerin": "Mia-Lena Maas",
+   "verein": "SC Freiburg",
+   "nr": "",
+   "pos": "ABW",
+   "tags": [
+    "UPDATE"
+   ],
+   "headline": "Maas verlängert beim SC Freiburg",
+   "kurz": "Maas verlängert beim SC Freiburg",
+   "text": [
+    "Die 18 Jahre alte Innenverteidigerin Mia-Lena Maas hat ihren Vertrag beim SC Freiburg verlängert. Wie lange er läuft, nennt der Verein nicht.",
+    "Seit ihrem Profidebüt in der vergangenen Saison kam sie auf 16 Pflichtspiele. Im Sommer wurde sie mit der deutschen U19 Vize-Europameisterin."
+   ],
+   "kickbase": "Maas stand in dieser Saison am 8., 9. und 10. Spieltag in der Startelf, zuletzt am 11. Spieltag aber nur auf der Bank. Eine feste Startelf-Rolle lässt sich daraus noch nicht ableiten.",
+   "quellen": [
+    {
+     "name": "SC Freiburg",
+     "url": "https://www.scfreiburg.com/aktuell/nachrichten/frauen-maedchen/2026/27/news/mia-lena-maas-verlaengert-beim-sc/"
+    }
+   ],
+   "foto": "fotos/scf-mia-lena-maas.webp",
+   "foto_credit": {
+    "autor": "SC Freiburg",
+    "lizenz": "mit Genehmigung: SC Freiburg",
+    "url": "https://www.scfreiburg.com/teams/frauen/spielerinnen/"
+   }
   },
   {
    "id": "gwinn-2711",
