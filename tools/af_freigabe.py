@@ -3,7 +3,7 @@
 
 Zwischen 7 und 22 Uhr (deutsche Zeit): Kam im Ticker seit 6 Stunden keine neue Meldung
 (news.json oder bereits freigegebene Meldung aus apifootball.json), bekommt die erste Meldung
-der Warteschlange die aktuelle Uhrzeit und erscheint damit im Ticker. Pro Lauf höchstens eine, pro Tag höchstens zwei (Finn 05.11.2026).
+der Warteschlange die aktuelle Uhrzeit und erscheint damit im Ticker. Pro Lauf höchstens eine, pro Tag höchstens eine (Finn 28.11.2026, vorher zwei). Form-Meldungen höchstens eine pro Woche.
 
 Abwechslung (Finn 04.11.2026): nie zwei gleiche Arten hintereinander (z. B. zweimal Formtief),
 und jede Art höchstens einmal pro Tag. Formtief, Formhoch und Aufwind zählen als eine Art (Form).
@@ -17,11 +17,16 @@ from zoneinfo import ZoneInfo
 AF = sys.argv[1] if len(sys.argv) > 1 else "apifootball.json"
 NEWS = sys.argv[2] if len(sys.argv) > 2 else "news.json"
 LUECKE = datetime.timedelta(hours=6)
-PRO_TAG = 2   # Finn 05.11.2026: höchstens 2 eigene Meldungen pro Tag, echte News haben Vorrang
+PRO_TAG = 1   # Finn 28.11.2026: höchstens 1 eigene Meldung pro Tag (vorher 2), echte News haben Vorrang
+FORM_ABSTAND = datetime.timedelta(days=7)   # Finn 28.11.2026: Formtief/Formhoch/Aufwind höchstens eine pro Woche (Anlass Bauereisen 27.11. und Mühlhaus 28.11.)
 
 jetzt = datetime.datetime.now(ZoneInfo("Europe/Berlin")).replace(tzinfo=None, second=0, microsecond=0)
 if not 7 <= jetzt.hour < 22:
     print("außerhalb 7 bis 22 Uhr"); sys.exit(0)
+
+PAUSE_BIS = datetime.datetime(2026, 11, 29)   # Finn 28.11.2026: Mühlhaus-Formtief zurückgezogen, heute keine Ersatz-Meldung
+if jetzt < PAUSE_BIS:
+    print("Pause bis", PAUSE_BIS.date()); sys.exit(0)
 
 af = json.load(open(AF, encoding="utf-8"))
 zeiten = []
@@ -63,7 +68,9 @@ if eigene_heute >= PRO_TAG:
 warte = [n for n in af.get("news", []) if not n.get("zeit") and not n.get("halten")]
 if not warte:
     print("Warteschlange leer"); sys.exit(0)
-passend = [n for n in warte if art_von(n) != zuletzt_art and art_von(n) not in heute]
+form_zuletzt = max((z for z, a in erschienen if a == "FORM"), default=None)
+form_gesperrt = form_zuletzt is not None and jetzt - form_zuletzt < FORM_ABSTAND
+passend = [n for n in warte if art_von(n) != zuletzt_art and art_von(n) not in heute and not (form_gesperrt and art_von(n) == "FORM")]
 if not passend:
     print("keine passende Art (Abwechslung), nichts freigegeben"); sys.exit(0)
 warte = passend
